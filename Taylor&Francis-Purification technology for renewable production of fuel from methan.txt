@@ -1,0 +1,785 @@
+Document Infomation ===========>
+Title=Purification technology for renewable production of fuel from methanolysis of waste sunflower oil in
+Author=null
+Subject=null
+Keywords=null
+Creator=Servigistics Arbortext Advanced Print Publisher 11.1.4546/W-x64
+Producer=iText 4.2.0 by 1T3XT
+Creation Date=java.util.GregorianCalendar[time=1608182218000,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=java.util.SimpleTimeZone[id=GMT+05:30,offset=19800000,dstSavings=3600000,useDaylight=false,startYear=0,startMode=0,startMonth=0,startDay=0,startDayOfWeek=0,startTime=0,startTimeMode=0,endMode=0,endMonth=0,endDay=0,endDayOfWeek=0,endTime=0,endTimeMode=0],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=11,WEEK_OF_YEAR=51,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=352,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=10,HOUR_OF_DAY=10,MINUTE=46,SECOND=58,MILLISECOND=0,ZONE_OFFSET=19800000,DST_OFFSET=0]
+Modification Date=java.util.GregorianCalendar[time=1621395473000,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=java.util.SimpleTimeZone[id=GMT-07:00,offset=-25200000,dstSavings=3600000,useDaylight=false,startYear=0,startMode=0,startMonth=0,startDay=0,startDayOfWeek=0,startTime=0,startTimeMode=0,endMode=0,endMonth=0,endDay=0,endDayOfWeek=0,endTime=0,endTimeMode=0],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2021,MONTH=4,WEEK_OF_YEAR=21,WEEK_OF_MONTH=4,DAY_OF_MONTH=18,DAY_OF_YEAR=138,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=37,SECOND=53,MILLISECOND=0,ZONE_OFFSET=-25200000,DST_OFFSET=0]
+Trapped=null
+
+Context===========>
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=tgcl20
+Green Chemistry Letters and Reviews
+ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/tgcl20
+Purification technology for renewable production
+of fuel from methanolysis of waste sunflower oil in
+the presence of high silica zeolite beta
+Leila Fereidooni , Mojtaba Enayati & Alireza Abbaspourrad
+To cite this article: Leila Fereidooni , Mojtaba Enayati & Alireza Abbaspourrad (2021) Purification
+technology for renewable production of fuel from methanolysis of waste sunflower oil in the
+presence of high silica zeolite beta, Green Chemistry Letters and Reviews, 14:1, 1-13, DOI:
+10.1080/17518253.2020.1856426
+To link to this article:  https://doi.org/10.1080/17518253.2020.1856426
+© 2020 The Author(s). Published by Informa
+UK Limited, trading as Taylor & Francis
+Group
+Published online: 30 Dec 2020.
+Submit your article to this journal 
+Article views: 246
+View related articles 
+View Crossmark data
+LETTER
+Purification technology for renewable production of fuel from methanolysis of
+waste sunflower oil in the presence of high silica zeolite beta
+Leila Fereidoonia, Mojtaba Enayatib and Alireza Abbaspourradb
+aDepartment of Applied Chemistry, Faculty of Chemistry, Islamic Azad University, Tehran, Iran; bDepartment of Food Science, Cornell
+University, Ithaca, NY, USA
+ABSTRACT
+Waste sunflower oil (WSO) can be easily produced as a reliable resource sustainable for
+multifunctional applications. WSO methanolysis in the presence of high silica zeolite beta
+(HSZB) treated with KOH as a catalyzer in a trans-esterification reaction was used for the fatty
+acid methyl ester (FAME) synthesis. Tetrahydrofuran (THF) as a co-solvent of 20 wt.% was added
+for mass transfer intensification. Conversion efficiency of 96.5% was obtained within 4 h
+reaction time of the reflux reaction, methanol:oil ratio of 9:1, 2 wt.% of catalyst and agitation
+speed of 300 rpm. Furthermore, these KOH treated HSZB catalysts still exhibit acceptable
+sustainability and appropriate catalysis in the trans-esterification after three consecutive cycling.
+It is concluded that K2O existing in the pores and the defect sites of the alkali-treated HSZB can
+be supplied to the surface of the catalysts structure during the trans-esterification in three
+consecutive rounds to result in 66.3% percentage of conversion.
+ARTICLE HISTORY
+Received 25 November 2017
+Accepted 20 November 2020
+KEYWORDS
+Trans-esterification; waste
+sunflower oil; fatty acids
+methyl esters; high silica
+zeolite beta
+1. Introduction
+Renewable fuel has greatly attracted the attention of
+researchers to be used instead of conventional diesel
+to decrease environmental pollutions and the relative
+negative effects (1). Biodiesel as a biofuel consists of
+mono alkyl esters which are attained by trans-esterifica-
+tion of animal fat or plant oil with alcohols of short chain
+such as ethanol or methanol (2). Methanolysis or trans-
+esterification is considered as the best technique for
+reducing viscosity of plant oils (3). However, waste oil
+is considerably cheaper than pure refined vegetable
+oils; it is noteworthy that disposal of waste materials
+like waste cooking may cause health-related risks and
+the environmental risks (4,5). Waste oil, as a plentiful
+and sustainable feedstock, can be used for biodiesel pro-
+duction (6), but the extensive pretreatments affect its
+economic viability since the economic aspects of biodie-
+sel production are of considerable importance for its sus-
+tainable preparation (7).
+Utilization of heterogeneous catalysts is considered
+as an important factor for the commercial production
+of biodiesel (8,9). Due to a variety of advantages such
+as less corrosion, convenient handling and separation,
+reusability and less amount of toxic wastes, hetero-
+geneous catalysts are considered as efficient alternatives
+to homogeneous catalyst (10). Production of zeolite as a
+catalyst has increasingly improved in recent years (11). In
+general, zeolites are based on the structure of three-
+dimensional network of an aluminum and silicon tetra-
+hedral as TO4 (T = Co, Fe, Si, B, Al, Ge, P) linked by
+shared oxygen atoms (12). The positive charge of alumi-
+num is lower than silicon’s positive charge. Conse-
+quently, the frame has generally a net negative charge
+balanced by exchangeable (e.g. Mg2+, Na+, Ca2+ and
+K+). As a result, this negative surface charge gives
+zeolite an excellent affinity for cationic ions (13,14). A
+rich variety of zeolite types have been considered and
+used for waste oils trans-esterification including KOH/
+© 2020 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use,
+distribution, and reproduction in any medium, provided the original work is properly cited.
+CONTACT Alireza Abbaspourrad alireza@cornell.edu
+GREEN CHEMISTRY LETTERS AND REVIEWS
+2020, VOL. 14, NO. 1, 1–13
+https://doi.org/10.1080/17518253.2020.1856426
+bentonite zeolite (15), NaOH/bentonite (16,17), natural
+zeolite from Pacitan Indonesia (18), zeolite tuff (19),
+KOH/ZSM5 zeolite (20), clinoptilolite zeolite (21), etc.
+High silica zeolite beta (HSZB) is one of the most
+widely used porous materials because of large cages
+and pores, three-dimensional channel networks and
+high Si/Al ratio (22). The main advantage of using het-
+erogeneous catalyst is minimizing the problems associ-
+ated with homogeneous catalyst which are recycling
+and regeneration, catalyst separation and soap for-
+mation (21,23). As a consequence, the extensive
+product purification steps and disposal problems are
+eliminated to offer an economical pathway for pro-
+duction of biodiesel.
+The present study aims at developing a new hetero-
+geneous catalyst from HSZB for fatty acid methyl ester
+(FAME) production from waste sunflower oil (WSO).
+The heterogeneous zeolite beta catalyst is economically
+feasible, technically applicable and environmentally
+friendly with a lowest level of complexity system in pre-
+paring and using the product. In this research, the het-
+erogeneous alkaline zeolite beta catalyst was loaded
+and prepared to produce FAME through the trans-ester-
+ification reaction resulted from reflux. Catalyst proper-
+ties have been analyzed by scanning electron
+microscopy (SEM), energy-dispersive X-ray (EDX),
+Fourier transform infrared (FT-IR), Brunauer–Emmett–
+Teller (BET) and X-ray diffraction (XRD) analyses. In this
+research, the used catalyst was prepared from impreg-
+nation of HSZB by KOH solution. The characteristics of
+the texture of this catalyst was examined for under-
+standing its structure, considering active sites in the cat-
+alyst, and its sustainability in the study to provide proper
+conditions for trans-esterification reaction of the WSO
+using the advantages of the catalyst. The prepared
+zeolite beta catalysts were used for trans-esterification
+of WSO to biodiesel production. Also parameters like
+catalyst weight percent, alcohol:oil molar ratio, temp-
+erature, different percentages of co-solvent and time
+were tested. At the end, restoring the intended catalyst
+has been surveyed in terms of the obtained optimized
+ratios.
+2. Experimental
+2.1. Materials and methods
+HSZB was obtained from Delta Factory (Iran). For the
+trans-esterification, WSO was collected from the central
+restaurant of a big hospital in Tehran. The collected
+waste oil has been pretreated before doing work exper-
+iment. The method used by Tanawannapong et al. was
+applied to use WSO (24). To remove fine particles and
+suspended matter in the WSO, it was first filtered and
+then, to reduce the acid value, it went through a 2 h
+reaction with sulfuric acid in 1 wt.%. To determine the
+acid value, the product was titrated. WSO with an acid
+value of 0.38 mgKOH g?1 matching with a free fatty
+acid (FFA) level of 0.19% and initial saponification
+value of 149.58 mgKOH mgOil
+?1 was used.
+Using a Karl–Fischer titration method, the amount of
+water in waste oil was measured to be 0.01% (w/w).
+Waste oil molecular weight was 863.48 g mol?1,
+measured based on saponification value. Equations (1)
+and (2) were used to calculate the acid value and FFA,
+respectively (25). The oil was taken in a conical flask
+and dissolved in 50 mL of 2-propanol by gradually
+heating it. Using phenolphthalein as indicator, the
+obtained solution was titrated against 0.1 N KOH until
+a slight pink color was seen. Based on Equation (2), the
+FFA content is calculated as half of acid value.
+Acid value = N × V × 56
+W
+, (1)
+FFA = acid value
+2
+, (2)
+where N represents normality titrant (KOH), V stands for
+consumed volume titrant (mL), 56 is the equivalent
+weight of KOH and W is the weight of fatty acid (g).
+Potassium hydroxide (KOH) (99%), tetrahydrofuran
+(THF) ((CH2)3CH2O) (?99.8%), sodium sulfate (Na2SO4)
+(?99%), hydrogen peroxide (H2O2) (35%), sulfuric acid
+(H2SO4) (95–97%) and methanol (CH3OH) (99.5%) were
+supplied by Merck Company (Germany). Oven Pars 120
+KET (Iran) and heater magnetic stirrers Heidolph
+(Germany) were used in this research.
+2.2. Characterization
+FT-IR spectra (Nicolet 5700) were measured in the 400–
+4000 cm?1 range. All spectra were obtained with a resol-
+ution of 4 cm?1 and accumulation of 64 scans. The fine
+powder solid substances were mixed with potassium
+bromide (KBr) and pressed. The samples’ XRD were
+measured with a Philips X’pert PRO equipped with a
+Cu K? radiation (wavelength = 0.154187 nm) at the
+scan speed of 0.03° s?1 (2? = 5–65°). SEM on a Cam
+Scan apparatus with the applied voltage of 20 kV was
+used to observe the morphology of the samples. To
+determine the composition of the compounds, EDX
+(Flash & Bruker 6120) data were collected. BELMax
+(BEL, Japan) with nitrogen adsorption gas at 77 K and
+a pressure P P–1
+0 = 1× 10?8 was used to carry out
+specific surface area (BET) of the prepared samples
+(0.5 g powder). The gas chromatography–mass
+2 L. FEREIDOONI ET AL.
+spectrometry (GC–MS) was equipped with flame ioniz-
+ation detector (FID) detector and biodiesel column
+model of WAXCP 9080 with an internal diameter of
+0.25 mm and 30 m length. The carrier gas was helium.
+The column temperature was 60°C at the beginning,
+constant for 2 min, reaching 210° with a slope of
+10° min?1 and immediately reached 230°C with a slope
+of 5° min?1 and kept for 10 min at the final temperature.
+2.3. Procedure
+Considering the loss of catalytic activity caused by poi-
+soning, the like phenomenon is an important aspect
+when using heterogeneous catalysts. It is mostly
+approved that when contacting with air, heterogeneous
+catalysts may lose their activity due to adsorption of CO2
+and H2O onto the solid surface (26,27). To remove the
+organic impurities, HSZB was treated with H2O2 30% sol-
+ution. Then, H2O2 solution was disappeared by hot water
+several times. In the next stage, to get rid of moisture
+from HSZB, the purified HSZB was dried in an oven at
+120°C for 10 h. Finally, a hammer was used to pulverize
+the dried zeolite. The conventional process of hydrother-
+mal treatment with KOH was adopted for the synthesis
+of potassic HSZB. First, 7.5 g of the HSZB sample was
+incorporated in an alkaline solution (15 g of KOH +
+100 mL distilled water) with HSZB/KOH ratio 1:2, under
+stirring (300 rpm) at a reaction temperature of 75°C for
+2 h. The resulting mixture was dried for two days at
+room temperature. After that, the product obtained in
+the first stage reacted with potassic solution of 5 M
+KOH at 55°C, with a reaction time of 15 h, and then cal-
+cined for 4 h at 500°C (Figure 1). Different weight
+percent of the catalyst based on the oil weight percent
+Figure 1. Schematic of the preparation method and activation of the HSZB structure by K2O.
+Figure 2. A schematic of the reflux system for WSO trans-esterification with the prepared catalyst and methanol (a), chemistry of
+biodiesel production (b) and separation of produced biodiesel from glycerol by separatory funnel (c).
+GREEN CHEMISTRY LETTERS AND REVIEWS 3
+(0.5, 1, 1.5, 2 and 2.5) and different molar ratio of metha-
+nol:oil (3:1, 6:1, 9:1 and 12:1) were added to the oil.
+Different weight percent of the co-solvent (THF) based
+on the methanol weight percent (5, 10, 15, 20 and 25)
+were used to homogenize the reaction mixture. After-
+wards, the solution went under reaction at 55°C temp-
+erature with 300 rpm stirring speed. In the experiment,
+glycerin was separated from the biodiesel within 2 h,
+but different periods of time were allocated to complete
+the process. The temperature of the reflux system is
+usually determined based on alcohol boiling point
+which causes an increase in the final conversion
+percent. In Figure 2, in a 250 mL round bottom flask of
+reflux system, the waste oil and catalyst with extra
+Figure 3. XRD pattern of HSZB (a), prepared catalyst (b) and used catalyst (c).
+4 L. FEREIDOONI ET AL.
+alcohol were added. After the completion of the trans-
+esterification reaction, the two glycerol and biodiesel
+phases were separated and the obtained solution was
+translocated in the separatory funnel and FAME phase.
+In the final phase, crude biodiesel should be washed
+with warm distilled water at 60°C to eliminate impurities
+and pollutants which may include the remained catalyst,
+the non-reacted alcohol, glycerol, FFAs or soap. To get
+rid of the soap from the mixture with high soap for-
+mation, stearic acid (0.1%) was added to the flat
+bottom flask to neutralize and eliminate all formed
+soap and unreacted K+. The reaction mixture is washed
+with distilled water until it becomes fully clear.
+Washing was done three times in this phase. The extra
+remained alcohol in this phase should be completely
+separated with evaporation or distillation. The washed
+FAME is then dried over sodium sulfate. The following
+formula was used to calculate biodiesel efficiency (21):
+Yield (%) = weight of the FAME
+weight of WSO
+× 100%. (3)
+3. Results and discussion
+Figure 3(a,b) displays the XRD used for the inner surface
+and the structure, solid and crystalline phase of raw
+Zeolite Beta and modified catalyst. Some species of
+K2O may be formed on the zeolite particles’ external
+structure that shows partial distortion of the structure
+of zeolite due to the occurrence of impregnation step
+inside the zeolite crystallites. If this happens, some
+species of K2O are also formed in the intracrystalline
+volume or zeolite structure upper cages (28). The
+zeolite peaks intensity decreases with an increase of K
+that shows an insignificant loss of crystallinity (29).
+Regarding that the existing water in zeolite was
+removed in the calcination process, KOH was converted
+to K2O, as shown in the XRD pattern (15,18,30).
+Furthermore, two peaks in the (2?) region = 7° (101)
+and 22° (302), according to the JCPDS 48-0038 cards
+and literature data, are attributed to the HSZB phase
+(31). Kusuma et al. showed that the new phase of potass-
+ium oxide is emerged at 2? = 31°, 39°, 51°, 55° and 62°
+(18). The K2O formation strongly indicated that the
+KOH was well distributed on the surface or structure of
+HSZB. This is in association with XRD analysis where
+the structure of zeolite is retained even after treatment
+alkali (26). However, the peak’s intensity is low due to
+high dispersion of K2O particles. In Figure 3(c), K2O was
+used in trans-esterification and washed with alcohol
+and n-hexane after the process which resulted in the
+decrease of K2O in the used catalyst structure in the
+third cycle.
+Figure 4 indicates SEM images of zeolite (a), the pre-
+pared catalyst (b) and the used catalyst (c) in the trans-
+esterification process. Treating the structure of HSZB
+with KOH agglomerates the pores in zeolite causing
+the surface of the prepared catalyst seem more inte-
+grated that increases the resistance and sustainability
+of the catalyst. The calcination converts KOH to K2O as
+active sites in pores and cages of zeolite (19). Alkali
+metal oxides can enhance the number of basic sites of
+the zeolite and the basic strength (14). This increase in
+percentage of conversion is attributed to the higher pot-
+assium oxide active sites content in the synthesized cat-
+alyst (15). Figure 5(b,c) indicates a representative EDX of
+K on the catalyst and used catalyst. The amount of K
+element enhanced with the KOH treatment, confirming
+the existence of K element on HSZB, which is considered
+a good stability of catalyst since a low amount of K
+content was leached during three trans-esterification
+cycles.
+BET sorptometer (auto absorb from quantachrome)
+was used to specify the pore volume and specific struc-
+ture area of zeolite and catalyst. HSZB having a surface
+area and high pore volume, as a result of hydrothermal
+treatment during catalyst synthesis decreases particle
+Figure 4. SEM of HSZB (a), prepared catalyst (b) and used catalyst (c).
+GREEN CHEMISTRY LETTERS AND REVIEWS 5
+size. However, total pore volume and catalyst surface
+area have reduced intensely after a blockage of zeolite
+surface by K2O impregnation. Pore diameter average
+value, on the other hand, has augmented after the
+process due to zeolite desilication and formation of
+mesopore. Also, catalyst impregnation by K2O increases
+the average pore diameter in spite of the reduced
+volume of the zeolite beta pores which can be ascribed
+to blockage of most micropores by K2O. Accordingly,
+more free mesopores will be accessible, enhancing
+pores’ average diameter. The total surface area of
+HSZB was 465.2 m2 g?1 and the total pore volume was
+0.2142 cm3 g?1. However, the BET surface area and
+total tore volume values of the catalyst were found to
+be very low, 34.67 m2 g?1 and 0.0494 m2 g?1, respect-
+ively, since potassium compounds covered zeolite
+surface and pores during the impregnation step and a
+substantial decrease of the pore volume was shown
+after the impregnation process.
+In Figure 6(a), 3432 cm?1 shows the sharp band of
+hydrogen bonded OH, water stretching vibration at
+3620 cm?1 and the H2O bending vibration at
+1635 cm?1. The band at 3425 cm?1 is related to the –
+O–H stretching and 1640 cm?1 is related to bending of
+adsorbed water. The peak 1348 cm?1 in FT-IR related
+to catalyst shows –O–H deformation vibration of CH2–
+OH. The deformation band –Si–O–Si– has a sharp peak
+at 460 cm?1. However, the –Si–O– exists in the prepared
+zeolite beta; –Al–OH were observed as a result of zeolite
+mixing with KOH solution. The SiO4 and AlO4 bands at
+1021 and 703 cm?1 display the asymmetric and sym-
+metric stretching vibrations of the zeolite structure. In
+HSZB, the wavenumbers in 750–820 cm?1 signify the
+O–M–O (M = Al, Si) symmetric stretching vibration. In
+Figure 6(b), the rise in the OH groups is a common
+phenomenon that is associated with the modification
+of alkaline for the alkaline environments role in the
+surface of zeolite. A new band at 2874 cm?1 was
+detected that is attributed to hydroxyl groups formed
+during the modification of alkaline of zeolite precursor
+by K2O. The region of vibrational band at 821 cm?1
+shows the stretching vibrations of K–O group (32).
+Figure 6(c) shows that 675 cm?1 is related to –O–Al–O–
+symmetric stretching. The first two peaks from 721 and
+880 cm?1 show the used catalyst’s impurities. The peak
+at 1082 cm?1 shows asymmetric stretching of –Si–O–Si
+— and the peak at 1061 cm?1 was the carbonate
+species characteristic peak. In Figure 6(c), the peaks at
+3651 and 3413 cm?1 were attributed to OH– stretching
+of Si(OH)Al and the bending vibration of hydroxyl
+groups of absorbed H2O at 1644 cm?1 (14,20). After
+the conversion reactions, the FT-IR spectrum of the
+used catalyst displayed the main groups with noticeable
+changes in their positions and intensities as well as the
+appearance of other new bands. The C–H stretching of
+–CH3 appeared at 2927 cm?1 that is assigned to the
+methyl or/and methylene groups of methyl esters
+adsorbed by the catalyst particles. Furthermore, the
+presence of C=O was established by the observation of
+the band at 1765 cm?1 (33).
+Figure 5. EDX of HSZB (a), prepared catalyst (b) and used cata-
+lyst (c).
+6 L. FEREIDOONI ET AL.
+Figure 7 indicates the effect of alcohol on biodiesel
+efficiency within a range of 3:1–12:1. Increasing metha-
+nol more than the optimized amount does not
+enhance the reaction which is attributed to the fact
+that glycerol will be solved partly in the excess methanol
+consequently to prevent methanol reaction with the cat-
+alyst. Sufficient amount of alcohol can enhance the per-
+formance of the trans-esterification reaction towards the
+forward direction and increase the miscibility between
+the reactant phases (34). However, excessive alcohol
+Figure 6. FT-IR spectra of the HSZB (a), prepared catalyst (b) and used catalyst (c).
+GREEN CHEMISTRY LETTERS AND REVIEWS 7
+has four reversible effects including the deactivation of
+catalyst, dilution of the present mixture and the associ-
+ated changes, the possible dissolution of glycerol bypro-
+ducts and the associated orientation of the reaction to
+the reversible direction, and the expected changes in
+the alcohol polar groups which convert the alcohol mol-
+ecules to be emulsifier centers (35). FAME yield of 96.5%
+was obtained in the presence of alcohol:oil molar ratio of
+9:1, 2 wt.% HSZB, co-solvent amount of 20 wt.%. Since
+methanol was absorbed by HSZB, the optimal metha-
+nol:oil molar ratio was higher than 6:1 which is a com-
+monly agreed optimal alcohol:oil ratio in the
+traditional heterogeneous base catalyzed trans-
+esterification.
+Figure 8 shows the effect of zeolite beta concen-
+tration (wt.%) in the trans-esterification reaction within
+the range of 0.5–2.5 wt.% of catalyst to weight percent
+of WSO. The conversion reaction has increased from
+0.5 to 2 wt.% by the catalyst loading. Figure 8 shows
+that when catalysis dosage goes more than 2 wt.%,
+FAME reduces. Optimization of catalyst amount is an
+important issue in reaching the highest production
+percent since using excessive catalyst causes saponifica-
+tion of the mixture and formation of gelatinous sub-
+stance leading to extreme decline of the trans-
+esterification process. Previous studies and the present
+research showed that trans-esterification occurs with
+K2O catalytic activity and using zeolite, without K2O as
+a base catalyst does not lead to trans-esterification
+(17,21).
+Temperature is one of the most contributing factors
+in trans-esterification yield. In Figure 9, the temperature
+range of 25–65°C was considered. The higher the temp-
+erature, the lower the viscosity will be to intensify the
+trans-esterification process. High temperature facilitates
+the mass transfer between oil and alcohol molecules and
+consequently increases FAME conversion. It is note-
+worthy that in Figure 9, the reaction temperature
+should be a little lower than alcohol boiling point to
+prevent alcohol evaporation. Because of this, 60°C
+showed the highest percent of FAME conversion.
+Addition of a co-solvent to the trans-esterification
+reaction makes methanol and waste oil phase mutually
+Figure 9. Effect of temperature on trans-esterification.
+Figure 8. Effect of catalyst dosage on trans-esterification.
+Figure 8. Effect of methanol:waste oil molar ratio on trans-
+esterification.
+8 L. FEREIDOONI ET AL.
+miscible (36). Miscibility of the phases increases the reac-
+tion rate due to disappearance of mass transfer resist-
+ance between the phases of oil and alcohol (21,37).
+Figure 10 shows that for this study, the optimum co-
+solvent to weight percent (wt.%) of methanol ratio is
+20 wt.% producing 96.5% biodiesel yield. It can be con-
+cluded that reaction of trans-esterification in the pres-
+ence of co-solvent takes less time and the purpose of
+using co-solvent is to reduce energy consumption and
+time of reaction. As shown in Figure 10, in the absence
+of co-solvent, the percentage of conversion reduces to
+71.5% in the fixed 4 h (T = 60°C, 300 rpm, methanol:
+waste oil molar ratio 9:1, 2 wt.% catalyst). Further
+increase in the co-solvent ratio lowered the content of
+FAME probably as a result of the dilution of the reac-
+tants. With 25 wt.% of the co-solvent, WSO concen-
+tration decreased and consequently reactions
+decreased (38).
+Restoring and reusing catalyst is one of the greatest
+advantages of heterogeneous catalysts (39). The catalyst
+was separated after finalizing and reaching the highest
+efficiency washed with methanol and n-hexane. This
+washing allows catalyst’s active sites to get rid of mol-
+ecules which poison these sites. The reduction in conver-
+sion percent can be caused by organics deposition
+inside the molecular sieve which results in active sites
+decline and active ingredient leaching. At the third
+run, the zeolite beta deactivates to a certain degree
+and conversion percent decreases to 66.3% which is
+caused by leaching of active sites of catalysts structure
+and obstruction of the active sites during the trans-ester-
+ification process (Figure 11).
+Figure 12(a) shows the characterization properties of
+the layered structure of catalyst and properties of ion
+exchange. The structure of the catalyst is mainly com-
+posed of an octahedral sheet which is placed between
+two tetrahedron sheets (40). This catalyst has consider-
+able advantages including a structure with many cages
+and pores, high ion exchange and a wide surface area
+caused by high porosity. In addition, the activation of
+alkaline on the surficial siloxane groups leads to
+hydration of the HSZB sheets. Also, the activation of
+HSZB by alkaline treatment highly affected the crystal
+structure of the catalyst. The sharing of the silica tetrahe-
+dron structures causes the formation of active sites with
+cages and pores. The active sites act as traps for K2O in
+the activation process of the catalyst surface. Generally,
+K2O can be placed within the catalyst structure by
+partial replacement of ions of aluminum and silicon
+and as trapped within the interlayer molecules of H2O.
+In the presence of water, K2O can convert into KOH
+where K+ converts into active sites for the trans-esterifi-
+cation reaction through blocking the pore openings on
+the zeolite surface (29).
+Figure 12(b) displays the trans-esterification reaction
+mechanism for biodiesel production using HSZB
+treated with KOH. In the first step of reaction, CH3O
+?
+ion is formed from the reaction between the active site
+of K2O with methanol. This CH3O
+? ion is a strong base
+which has high catalytic activity in the trans-esterifica-
+tion reaction (18). In the second step, the reactive
+CH3O
+? ion attacks the carbonyl carbon atom of WSO
+to form tetrahedral intermediate. Further rearrangement
+of tetrahedral intermediate produced one methyl ester
+Figure 11. Multiple cycle test of catalyst.
+Figure 10. Effect of THF as a co-solvent on trans-esterification.
+GREEN CHEMISTRY LETTERS AND REVIEWS 9
+Figure 12. The proposed schematic of the activating HSZB structure by K2O (a) and reaction mechanism for triglyceride trans-ester-
+ification using methanol (b).
+10 L. FEREIDOONI ET AL.
+molecule and diglyceride anion. In the third step, digly-
+ceride molecule reconstruction began with the reaction
+with H+ from the catalyst. In step 4, the diglyceride anion
+may also react with methanol and generate reactive
+CH3O
+? ion. The catalytic reaction was then followed by
+the reaction between diglyceride and other CH3O
+? ion
+to produce monoglyceride molecule and one methyl
+ester molecule. Finally, CH3O
+? ion attacked carbonyl
+carbon atom of monoglyceride to produce one methyl
+ester molecule and one glycerol molecule.
+Table 1 shows GC–MS of FAME with methyl stearate,
+methyl palmitate, and methyl oleate as main products.
+The physical and chemical properties of the produced
+biodiesel using HSZB including kinematic pour point,
+cetane number, flash point, density and viscosity were
+determined by standard analysis as shown in Table 2.
+Viscosity is an important factor in biodiesel quality so
+that biodiesel fuel fluidity is directly influenced by its vis-
+cosity increase. Injector performance is affected by vis-
+cosity. The lower the viscosity, the better the pumping,
+atomization, and finer droplets achievement. The
+minimum range of flash point is a necessary condition
+for handling and fuel safety. Flash point which is very
+important in preventing liquid explosion and firing
+hazards should be in the specified standard range. As
+shown in Table 2, the produced biodiesel flash pint is
+150°C. Therefore, it can be concluded that this biodiesel
+is safe for handling and storage for some period of time.
+The cetane number of the obtained biodiesel was 56°C
+which is a little beyond the standard limit. The ignition
+quality of diesel fuels and the combustion quality of
+diesel fuel during compression ignition depend on
+cetane number.
+Table 3 shows the comparison of the results of this
+research with other recent reports of articles on using
+zeolite as a heterogeneous catalyst in raw materials
+trans-esterification. It is seen that alkaline catalyst of
+HSZB is a good alternative in methanolysis of WSO
+aiming at production of biodiesel.
+4. Conclusion
+The purpose of this work was to develop an applicable
+solid catalytic system from HSZB for renewable diesel
+production from WSO currently attracting increasing
+attention as an inexpensive feedstock for production
+of FAME. The suggested catalyst in this study was
+made from impregnation of HSZB with KOH solution
+which was converted to K2O during the calcination
+process. K2O as the active catalyst factor has been scat-
+tered in the structure pores and surface fractures of
+Table 1. GC–MS of FAME.
+Component
+Concentration
+(%)
+Time of retention
+(min)
+Methyl oleate C19H36O2 0.27 45.49
+Methyl lignocerate C25H50O2 0.78 45.93
+Methyl
+tetradecanoate
+C15H30O2 1.09 33.80
+Methyl stearate C19H38O2 7.66 42.70
+Methyl palmitate C17H34O2 37.77 38.84
+Methyl oleate C19H36O2 52.43 42.53
+Table 2. Physical properties of FAME.
+Property
+ASTM D6751
+biodiesel
+ASTM
+method
+Green
+diesel
+Flash point (°C) 100–170 D 93 150
+Pour point (°C) ?15 to 16 D 97 ?15
+Density (40°C,
+kg m?3)
+860–900 D 5002 880
+Cloud point (°C) ?3.0 to 12 D 2500 0
+Cetane number 45–55 D 613 56
+Table 3. Recently reported studies on the trans-esterification reaction using zeolite as a heterogeneous catalyst with different raw
+materials.
+No. Catalyst Alcohol Oil
+Reaction time
+(min)
+Temperature (°
+C)
+Yield/conversion
+(%) References
+1 Natural zeolite from Indonesia/
+KOH
+Methanol Palm oil 120 60 95.05 (18)
+2 Zeolite with a high Si/Al ratio/
+NaOH
+Methanol Triolein 60 65 90 (41)
+3 Clinoptilolite zeolite/chitosan/KOH Methanol Waste cooking oil 180 25 93 (21)
+4 ZSM5 zeolite/KOH Methanol Refined sunflower
+oil
+1440 60 95 (20)
+5 KOH/ZSM zeolite-5-Fe3O4 Methanol Canola oil 206 65 93.65 (42)
+6 Bentonite zeolite/NaOH Methanol Soybean oil 60 57.8 98.56 (17)
+7 H-Y and ZSM-5 zeolites Methanol Palmitic acid oil 180 70 100 (43)
+8 High purity FAU-type zeolite Ethanol Oleic acid 90 70 78 (44)
+9 Phosphoric acid modified ?-zeolite Methanol Pinnai oil 60 60 93 (45)
+10 Low-Al zeolite beta Methanol Triolein 10 65 90 (46)
+11 Zeolite Na-X from fly ash Methanol Sunflower oil 480 65 83.53 (47)
+12 La+3/zeolite beta Methanol Soybean oil 320 60 48.9 (48)
+13 Zeolite tuff /KOH Methanol WSO 120 50 96.7 (19)
+14 Phosphoric acid modified zeolite Methanol Neem oil 60 60 93 (49)
+15 HSZB/K2O Methanol WSO 240 60 96.5 Present work
+GREEN CHEMISTRY LETTERS AND REVIEWS 11
+HSZB. Proper translocation of K2O in these sites brings
+about catalyst stability for reusing. Moreover, the inter-
+action of methanol:waste oil molar ratio and the
+amount of modified zeolite beta through K2O and THF
+as a co-solvent amount were found to have significant
+effects on conversion of FAME. Addition of a co-
+solvent to the trans-esterification reaction makes metha-
+nol and waste oil phase mutually miscible. The
+maximum renewable fuel conversion obtained in 4 h
+reaction time at a temperature of 60°C, co-solvent
+amount of 20 wt.%, methanol:waste oil molar ratio of
+9:1, 2 wt.% catalyst and stirring speed of 300 rpm.
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+Notes on contributors
+Leila Fereidooni is a Ph.D. of Applied Chemistry from Islamic
+Azad University of Tehran. Her research area focuses on pro-
+duction of biodiesel using renewable resources and green
+materials to conserve environment.
+Dr Mojtaba Enayati is currently a Senior Research Associate of
+Polymer Chemistry in the Department of Food Science at
+Cornell University. He will join Troy University as an assistant
+professor of chemistry in January 2021.
+Dr Alireza Abbaspourrad is currently an Assistant Professor of
+Food Chemistry and Ingredient Technology in the Department
+of Food Science at Cornell University.
+References
+[1] Akinfalabi, S.-I.; Rashid, U.; Ngamcharussrivichai, C.; Nehdi,
+I.A. Environ. Technol. Innov. 2020, 18, 100788.
+[2] Kanitkar, A.; Balasubramanian, S.; Lima, M.; Boldor, D.
+Bioresour. Technol. 2011, 102 (17), 7896–7902.
+[3] Kaimal, V.K.; Vijayabalan, P. J. Energy Inst. 2017, 90 (2),
+324–330.
+[4] Dehghani, S.; Haghighi, M.; Vardast, N. Int. J. Energy Res.
+2019, 43, 3779– 3793.
+[5] Fereidooni, L.; Pirkarami, A. Phys. Chem. Res. 2019, 7 (3),
+491–498.
+[6] Fereidooni, L.; Tahvildari, K.; Mehrpooya, M. Renew. Energy
+2018, 116 (Part A), 183–193.
+[7] Cherikkallinmel, S.K.; Sugunan, S.; Narayanan, B.N.; Faisal,
+P.A.; Benjamin, S. Korean J. Chem. Eng. 2017, 34, 2840–
+2851.
+[8] Abu-Jrai, A.M.; Jamil, F.; Al-Muhtaseb, A.a.H.; Baawain, M.;
+Al-Haj, L.; Al-Hinai, M.; Al-Abri, M.; Rafiq, S. Energy Convers.
+Manage. 2017, 135, 236–243.
+[9] Fereidooni, L.; Khalilnezhad, R.; Pirkarami, A. Phys. Chem.
+Res. 2018, 6 (2), 323–333.
+[10] Bhatia, S.K.; Gurav, R.; Choi, T.-R.; Kim, H.J.; Yang, S.-Y.;
+Song, H.-S.; Park, J.Y.; Park, Y.-L.; Han, Y.-H.; Choi, Y.-K.;
+Kim, S.-H.; Yoon, J.-J.; Yang, Y.-H. Bioresour. Technol.
+2020, 302, 122872.
+[11] Jamil, M.A.R.; Touchy, A.S.; Poly, S.S.; Rashed, Md.N.;
+Siddiki, S.M.A.H.; Toyao, T.; Maeno, Z.; Shimizu, K.-i. Fuel
+Process. Technol. 2020, 197, 106204.
+[12] Jacobs, P.; Flanigen, E.M.; Jansen, J.; Bekkum, H. van.
+Introduction to Zeolite Science and Practice, vol. 137;
+Elsevier: Amsterdam, 2001.
+[13] Moshoeshoe, M.; Nadiye-Tabbiruka, M.S.; Obuseng, V.
+Am. J. Mater. Sci. 2017, 7 (5), 196–221.
+[14] Supamathanon, N.; Khabuanchalad, S. Mater. Today: Proc.
+2019, 17, 1412–1422.
+[15] Soetaredjo, F.E.; Ayucitra, A.; Ismadji, S.; Maukar, A.L. Appl.
+Clay Sci. 2011, 53 (2), 341–346.
+[16] Wu, L.; Wei, T.-y.; Tong, Z.-f.; Zou, Y.; Lin, Z.-j.; Sun, J.-h. Fuel
+Process. Technol. 2016, 144, 334–340.
+[17] Wu, L.; Wei, T.; Lin, Z.; Zou, Y.; Tong, Z.; Sun, J. Fuel 2016,
+182, 920–927.
+[18] Kusuma, R.I.; Hadinoto, J.P.; Ayucitra, A.; Soetaredjo, F.E.;
+Ismadji, S. Appl. Clay Sci. 2013, 74, 121–126.
+[19] Al-Jammal, N.; Al-Hamamre, Z.; Alnaief, M. Renew. Energy
+2016, 93, 449–459.
+[20] Saba, T.; Estephane, J.; El Khoury, B.; El Khoury, M.;
+Khazma, M.; El Zakhem, H.; Aouad, S. Renew. Energy
+2016, 90, 301–306.
+[21] Fereidooni, L.; Mehrpooya, M. Energy Convers. Manage.
+2017, 147, 145–154.
+[22] Cheng, Z.-L.; Li, Y.-X.; Liu, Z. J. Alloys Compd. 2017, 708
+(Supplement C), 255–263.
+[23] Kim, H.-J.; Kang, B.-S.; Kim, M.-J.; Park, Y.M.; Kim, D.-K.; Lee,
+J.-S.; Lee, K.-Y. Catal. Today 2004, 93–95, 315–320.
+[24] Tanawannapong, Y.; Kaewchada, A.; Jaree, A. J. Ind. Eng.
+Chem. 2013, 19 (1), 37–41.
+[25] Harsha, H.H.R.; Math, M.C.; Yatish, K.V. Energy 2018, 143,
+25–34.
+[26] Muciño, G.E.G.; Romero, R.; García-Orozco, I.; Serrano, A.R.;
+Jiménez, R.B.; Natividad, R.Catal. Today2016, 271, 220–226.
+[27] Hassani, M.; Najafpour, G.D.; Mohammadi, M.; Rabiee, M.
+JSIR 2014, 73 (02),129–133.
+[28] Kikhtyanin, O.; Ganjkhanlou, Y.; Kubi?ka, D.; Bulánek, R.;
+?ejka, J. Appl. Catal. A 2018, 549, 8–18.
+[29] Intarapong, P.; Iangthanarat, S.; Phanthong, P.;
+Luengnaruemitchai, A.; Jai-In, S. J. Energy Chem. 2013,
+22 (5), 690–700.
+[30] Noiroj, K.; Intarapong, P.; Luengnaruemitchai, A.; Jai-In, S.
+Renew. Energy 2009, 34 (4), 1145–1150.
+[31] Treacy, M.M.; Higgins, J.B.; von Ballmoos, R. Zeolites 1996,
+16 (5–6), 478.
+[32] Abukhadra, M.R.; Salam, M.A.; Ibrahim, S.M. Renew.
+Sustain. Energy Rev. 2019, 115, 109346.
+[33] Abukhadra, M.R.; Sayed, M.A. Energy Convers. Manage.
+2018, 177, 468–476.
+[34] Rabie, A.M.; Shaban, M.; Abukhadra, M.R.; Hosny, R.;
+Ahmed, S.A.; Negm, N.A. J. Mol. Liq. 2019, 279, 224–
+231.
+[35] Abukhadra, M.R.; Dardir, F.M.; Shaban, M.; Ahmed, E.A.;
+Soliman, M.F. Environ. Chem. Lett. 2018, 16 (2), 665–670.
+[36] Guan, G.; Sakurai, N.; Kusakabe, K. Chem. Eng. J. 2009, 146
+(2), 302–306.
+[37] Rahimi, M.; Mohammadi, F.; Basiri, M.; Parsamoghadam,
+M.A.; Masahi, M.M. J. Taiwan Inst. Chem. Eng. 2016, 64,
+203–210.
+[38] Hájek, M.; Vávra, A.; Mach, P.; Straková, A. J. Environ.
+Manage. 2020, 262, 110295.
+12 L. FEREIDOONI ET AL.
+[39] Fereidooni, L.; Pirkarami, A. Phys. Chem. Res. 2018, 6 (4),
+805–814.
+[40] Nakai, M.; Miyake, K.; Inoue, R.; Ono, K.; Al Jabri, H.; Hirota,
+Y.; Uchida, Y.; Miyamoto, M.; Nishiyama, N. Microporous
+Mesoporous Mater. 2019, 273, 189–195.
+[41] Wang, Y.-Y.; Chen, B.-H. Catal. Today 2016, 278 (Part 2),
+335–343.
+[42] Rezayan, A.; Taghizadeh, M. Process Saf. Environ. Protect.
+2018, 117, 711–721.
+[43] Prinsen, P.; Luque, R.; González-Arellano, C. Microporous
+Mesoporous Mater. 2018, 262 (Supplement C), 133–139.
+[44] Doyle, A.M.; Alismaeel, Z.T.; Albayati, T.M.; Abbas, A.S. Fuel
+2017, 199, 394–402.
+[45] SathyaSelvabala, V.; Selvaraj, D.K.; Kalimuthu, J.;
+Periyaraman, P.M.; Subramanian, S. Bioresour. Technol.
+2011, 102 (2), 1066–1072.
+[46] Wang, Y.-Y.; Lee, D.-J.; Chen, B.-H. Energy Procedia 2014,
+61, 918–921.
+[47] Babajide, O.; Musyoka, N.; Petrik, L.; Ameer, F. Catal. Today
+2012, 190 (1), 54–60.
+[48] Shu, Q.; Yang, B.; Yuan, H.; Qing, S.; Zhu, G. Catal.
+Commun. 2007, 8 (12), 2159–2165.
+[49] SathyaSelvabala, V.; Varathachary, T.K.; Selvaraj, D.K.;
+Ponnusamy, V.; Subramanian, S. Bioresour. Technol.
+2010, 101 (15), 5897–5902.
+GREEN CHEMISTRY LETTERS AND REVIEWS 13

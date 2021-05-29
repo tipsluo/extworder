@@ -1,0 +1,11 @@
+Attached are the output extracted from the PDF files. There are some issues in the output:
+
+- The quality of the extraction depends on how the PDFs are created. For example, if the title information missed when a PDF was created, the PDF function won't be able to get it. We will need to figure it out.
+- Pictures are lost. These include some equation groups and notations.
+- Order of some content are messed up.
+
+Basically, the two documens you sent last week was relatively regular. 
+
+ I will need to figure out a way to "guess" the title if it misses. Interestingly, In the document "A model for estimating parameters of rotational landslide.pdf", the first letters of the words in the title "A model for estimating parameters of rotational landslide using a first-order differential equation"  are not in upper case. I thought formal documents should not be like this. This is tricky. I don't know how many articles are like this.
+
+Besides titles and contexts, what else will your algorithm need?
