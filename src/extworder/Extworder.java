@@ -1,11 +1,19 @@
 package extworder;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.util.List;
+
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
+//import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
+import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.common.PDMetadata;
+//import org.apache.pdfbox.pdmodel.common.PDStream;
 import org.apache.pdfbox.text.PDFTextStripper;
 import java.io.FileWriter;   // Import the FileWriter class
 import java.io.IOException;  // Import the IOException class to handle errors
@@ -13,13 +21,49 @@ import java.io.IOException;  // Import the IOException class to handle errors
 
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
-		
+		main_test2_printcharinfos();
+	}
+
+	static public void main_test1_gettext() throws IOException {
 		extract("A model for estimating parameters of rotational landslide");
 		extract("Peace-Development and Peace Through");
 		extract("Broader perspective on ecosystem");
 		extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		extract("ILL article-Impact of the KWL reading strategy");
 	}
 	
+	static public void main_test2_printcharinfos() throws IOException {
+		/*printCharInfos("A model for estimating parameters of rotational landslide");
+		printCharInfos("Peace-Development and Peace Through");
+		printCharInfos("Broader perspective on ecosystem");
+		printCharInfos("Taylor&Francis-Purification technology for renewable production of fuel from methan");*/
+		printCharInfos("ILL article-Impact of the KWL reading strategy");
+	}
+	
+	static public void printCharInfos(String fn) throws IOException {
+		File file = new File(fn+".pdf");
+		PDDocument document = PDDocument.load(file);
+		
+		Content content = new Content(fn);
+		content.setSortByPosition( true );
+		content.setStartPage( 0 );
+		content.setEndPage( document.getNumberOfPages() );
+		 
+		Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
+		try {
+			content.writeText(document, dummy);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			if( document != null ) {
+                document.close();
+            }
+        }
+		
+        Float maxHeight = content.charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+        System.out.printf("Highest: %f, Max Height Number: %f\nTitle: %s\n",content.charHeights.lastKey(), maxHeight,content.getTitle());
+	}
 	
 	public static void extract(String fn) throws IOException {
 	//Loading an existing document
@@ -70,6 +114,21 @@ public class Extworder {
 			
 			//Closing the document
 			document.close();
-		}
-
+	}
+	
+	/*public static void test(PDDocument document, PDFTextStripper pdfStripper) {
+		//List<PDPage> allPages = document.getDocumentCatalog().getPages();
+        //for (int i = 0; i < allPages.size(); i++) {
+		
+		//int num=document.getNumberOfPages();
+		
+		for (PDPage page:document.getPages()) {
+            //PDPage page = (PDPage) allPages.get(i);
+            //System.out.println("Processing page: " + i);
+            InputStream contents = page.getContents();
+            if (contents != null) {
+            	pdfStripper.processStream(page, page.findResources(), page.getContents().getStream());
+            }
+        }
+	}*/
 }
