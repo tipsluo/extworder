@@ -34,10 +34,16 @@ public class Content extends PDFTextStripper {
         	Integer n;
         	n=charHeights.compute(h, (k,v) -> (v == null ? 0 : v) + 1);
         	charHeights.put(h,n);
-        	chars.add(new Char(text.toString(), text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj()));
-        	myWriter.write(text.toString() + " [(X=" + text.getXDirAdj() + ",Y=" +
-                    text.getYDirAdj() + ") height=" + text.getHeightDir() + " width=" +
-                    text.getWidthDirAdj() + "]\n");
+        	String str;
+        	str=text.toString();
+        	chars.add(new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj()));
+        	try {
+	        	myWriter.write(str + " [(X=" + text.getXDirAdj() + ",Y=" +
+	                    text.getYDirAdj() + ") height=" + text.getHeightDir() + " width=" +
+	                    text.getWidthDirAdj() + "]\n");
+        	} catch (IOException e) {
+    			e.printStackTrace();
+        	}
         	//chars.add(new Char(text.getUnicode(), text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj()));
         	//myWriter.write(text.getUnicode() + " [(X=" + text.getXDirAdj() + ",Y=" +
             //        text.getYDirAdj() + ") height=" + text.getHeightDir() + " width=" +

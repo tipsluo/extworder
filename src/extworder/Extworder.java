@@ -21,7 +21,8 @@ import java.io.IOException;  // Import the IOException class to handle errors
 
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
-		main_test2_printcharinfos();
+		main_test1_gettext();
+		//main_test2_printcharinfos();
 	}
 
 	static public void main_test1_gettext() throws IOException {
@@ -33,10 +34,10 @@ public class Extworder {
 	}
 	
 	static public void main_test2_printcharinfos() throws IOException {
-		/*printCharInfos("A model for estimating parameters of rotational landslide");
+		printCharInfos("A model for estimating parameters of rotational landslide");
 		printCharInfos("Peace-Development and Peace Through");
 		printCharInfos("Broader perspective on ecosystem");
-		printCharInfos("Taylor&Francis-Purification technology for renewable production of fuel from methan");*/
+		printCharInfos("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		printCharInfos("ILL article-Impact of the KWL reading strategy");
 	}
 	
@@ -62,7 +63,8 @@ public class Extworder {
         }
 		
         Float maxHeight = content.charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-        System.out.printf("Highest: %f, Max Height Number: %f\nTitle: %s\n",content.charHeights.lastKey(), maxHeight,content.getTitle());
+        //System.out.printf("Highest: %f, Max Height Number: %f\nTitle: %s\n",content.charHeights.lastKey(), maxHeight,content.getTitle());
+        System.out.printf("PDF: %s\nTitle: %s\n",fn,content.getTitle());
 	}
 	
 	public static void extract(String fn) throws IOException {
