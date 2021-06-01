@@ -16,6 +16,7 @@ public class Content extends PDFTextStripper {
 	protected FileWriter myWriter;
     public TreeMap<Float,Integer> charHeights;
     ArrayList<Char> chars;
+    public String title;
 	
 	public Content(String fn) throws IOException {
 		myWriter = new FileWriter(fn+"_char.txt");

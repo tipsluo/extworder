@@ -21,16 +21,17 @@ import java.io.IOException;  // Import the IOException class to handle errors
 
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
-		main_test1_gettext();
+		//main_test1_gettext();
 		//main_test2_printcharinfos();
+		main_test3_getTitle();
 	}
 
 	static public void main_test1_gettext() throws IOException {
-		extract("A model for estimating parameters of rotational landslide");
-		extract("Peace-Development and Peace Through");
+		//extract("A model for estimating parameters of rotational landslide");
+		//extract("Peace-Development and Peace Through");
 		extract("Broader perspective on ecosystem");
-		extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		extract("ILL article-Impact of the KWL reading strategy");
+		//extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//extract("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	static public void main_test2_printcharinfos() throws IOException {
@@ -39,6 +40,49 @@ public class Extworder {
 		printCharInfos("Broader perspective on ecosystem");
 		printCharInfos("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		printCharInfos("ILL article-Impact of the KWL reading strategy");
+	}
+	
+	static public void main_test3_getTitle() throws IOException {
+		getTitle("A model for estimating parameters of rotational landslide");
+		getTitle("Peace-Development and Peace Through");
+		getTitle("Broader perspective on ecosystem");
+		getTitle("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		getTitle("ILL article-Impact of the KWL reading strategy");
+    }
+	
+	static private String getTitle(String fn) throws IOException {
+		String title=getMetaTitle(fn);
+		
+		System.out.printf("PDF file: %s\nTitle from PDF meta data: %s\n",fn,title);
+		
+		if (title=="" || title==null) {
+			File file = new File(fn+".pdf");
+			PDDocument document = PDDocument.load(file);
+			
+			Content content = new Content(fn);
+			content.setSortByPosition( true );
+			content.setStartPage( 0 );
+			content.setEndPage( document.getNumberOfPages() );
+			 
+			Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
+			try {
+				content.writeText(document, dummy);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} finally {
+				if( document != null ) {
+	                document.close();
+	            }
+	        }
+			
+	        title=content.getTitle();
+	        System.out.printf("Guessing title... It is: "+title+"\n");
+		}
+		
+		System.out.println();
+		
+		return title;
 	}
 	
 	static public void printCharInfos(String fn) throws IOException {
@@ -118,19 +162,14 @@ public class Extworder {
 			document.close();
 	}
 	
-	/*public static void test(PDDocument document, PDFTextStripper pdfStripper) {
-		//List<PDPage> allPages = document.getDocumentCatalog().getPages();
-        //for (int i = 0; i < allPages.size(); i++) {
+	public static String getMetaTitle(String fn) throws IOException {
+		File file = new File(fn+".pdf");
+		PDDocument document = PDDocument.load(file);
 		
-		//int num=document.getNumberOfPages();
+		PDDocumentInformation info = document.getDocumentInformation();
 		
-		for (PDPage page:document.getPages()) {
-            //PDPage page = (PDPage) allPages.get(i);
-            //System.out.println("Processing page: " + i);
-            InputStream contents = page.getContents();
-            if (contents != null) {
-            	pdfStripper.processStream(page, page.findResources(), page.getContents().getStream());
-            }
-        }
-	}*/
+		document.close();
+		
+		return info.getTitle();
+	}
 }
