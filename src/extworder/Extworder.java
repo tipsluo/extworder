@@ -22,8 +22,9 @@ import java.io.IOException;  // Import the IOException class to handle errors
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
 		//main_test1_gettext();
-		//main_test2_printcharinfos();
-		main_test3_getTitle();
+		main_test2_printcharinfos();
+		//main_test3_getTitle();
+		main_test4_getText();
 	}
 
 	static public void main_test1_gettext() throws IOException {
@@ -50,13 +51,21 @@ public class Extworder {
 		getTitle("ILL article-Impact of the KWL reading strategy");
     }
 	
+	static public void main_test4_getText() throws IOException {
+		getText("A model for estimating parameters of rotational landslide");
+		getText("Peace-Development and Peace Through");
+		getText("Broader perspective on ecosystem");
+		getText("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		getText("ILL article-Impact of the KWL reading strategy");
+    }
+	
 	static private String getTitle(String fn) throws IOException {
 		String title=getMetaTitle(fn);
 		
 		System.out.printf("PDF file: %s\nTitle from PDF meta data: %s\n",fn,title);
 		
 		if (title=="" || title==null) {
-			File file = new File(fn+".pdf");
+			/*File file = new File(fn+".pdf");
 			PDDocument document = PDDocument.load(file);
 			
 			Content content = new Content(fn);
@@ -75,7 +84,9 @@ public class Extworder {
 	                document.close();
 	            }
 	        }
+			*/
 			
+			Content content = new Content(fn);
 	        title=content.getTitle();
 	        System.out.printf("Guessing title... It is: "+title+"\n");
 		}
@@ -85,8 +96,21 @@ public class Extworder {
 		return title;
 	}
 	
+	static private String getText(String fn) throws IOException {
+		Content content = new Content(fn);
+	    String text=content.getText();
+	    //System.out.printf("PDF file %s\nText with the height for the lagest number of characters: \n%s\n",fn,text);
+	    System.out.printf("PDF file %s\n",fn);
+	    
+	    FileWriter myWriter = new FileWriter(fn+"_text.txt");
+	    myWriter.write(text);
+	    myWriter.close();
+		
+		return text;
+	}
+	
 	static public void printCharInfos(String fn) throws IOException {
-		File file = new File(fn+".pdf");
+		/*File file = new File(fn+".pdf");
 		PDDocument document = PDDocument.load(file);
 		
 		Content content = new Content(fn);
@@ -98,17 +122,19 @@ public class Extworder {
 		try {
 			content.writeText(document, dummy);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			if( document != null ) {
                 document.close();
             }
-        }
+        }*/
 		
+		Content content = new Content(fn);
+		
+        //System.out.printf("PDF: %s\nTitle: %s\n",fn,content.getTitle());
+		System.out.printf("PDF: %s\n",fn);
         Float maxHeight = content.charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-        //System.out.printf("Highest: %f, Max Height Number: %f\nTitle: %s\n",content.charHeights.lastKey(), maxHeight,content.getTitle());
-        System.out.printf("PDF: %s\nTitle: %s\n",fn,content.getTitle());
+        System.out.printf("Highest: %f, Max Height Number: %f\nTitle: %s\n",content.charHeights.lastKey(), maxHeight,content.getTitle());
 	}
 	
 	public static void extract(String fn) throws IOException {

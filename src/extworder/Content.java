@@ -1,16 +1,23 @@
 package extworder;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 
+import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 public class Content extends PDFTextStripper {
 	protected FileWriter myWriter;
@@ -22,14 +29,29 @@ public class Content extends PDFTextStripper {
 		myWriter = new FileWriter(fn+"_char.txt");
 		charHeights=new TreeMap<>();
 		chars=new ArrayList<Char>();
+		
+		File file = new File(fn+".pdf");
+		PDDocument document = PDDocument.load(file);
+		
+		setSortByPosition( true );
+		setStartPage( 0 );
+		setEndPage( document.getNumberOfPages() );
+		 
+		Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
+		try {
+			writeText(document, dummy);
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if( document != null ) {
+                document.close();
+            }
+        }
 	}
 
 	@Override
 	protected void writeString(String string, List<TextPosition> textPositions) throws IOException {
         for (TextPosition text : textPositions) {
-            /*System.out.println(text.getUnicode()+ " [(X=" + text.getXDirAdj() + ",Y=" +
-                    text.getYDirAdj() + ") height=" + text.getHeightDir() + " width=" +
-                    text.getWidthDirAdj() + "]");*/
         	Float h;
         	h=text.getHeightDir();
         	Integer n;
@@ -45,31 +67,34 @@ public class Content extends PDFTextStripper {
         	} catch (IOException e) {
     			e.printStackTrace();
         	}
-        	//chars.add(new Char(text.getUnicode(), text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj()));
-        	//myWriter.write(text.getUnicode() + " [(X=" + text.getXDirAdj() + ",Y=" +
-            //        text.getYDirAdj() + ") height=" + text.getHeightDir() + " width=" +
-             //       text.getWidthDirAdj() + "]\n");
         }
-        
-       // myWriter.close();
     }
 	
 	public String getTitle() {
-		ArrayList<Char> titleChars=new ArrayList<Char>();
+		/*Map<Float, Integer> sortedMap = charHeights.entrySet().stream()
+                .sorted(Entry.comparingByValue())
+                .collect(Collectors.toMap(Entry::getKey, Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));*/
 		
-		for (Char c: chars) {
-			if (c.height==charHeights.lastKey()) {
-				titleChars.add(c);
-			}
-		}
-		
-		if (hasSpace(titleChars)) {
-			return getTitleWiSpace(titleChars);
-		} else 
-			return getTitleWoSpace(titleChars);
+		return getContent(charHeights.lastKey());
 	}
 	
-	private String getTitleWiSpace(ArrayList<Char> titleChars) {
+	
+	public String getText() {
+		Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		
+		return getContent(maxHeight);
+	}
+	
+	public String getContent(float heightToFilter) {
+		ArrayList<Char> titleChars=getContentWiHeight(heightToFilter);
+		
+		if (hasSpace(titleChars))
+			return getContentWiSpace(titleChars);
+		else 
+			return getContentWoSpace(titleChars);
+	}
+	
+	private String getContentWiSpace(ArrayList<Char> titleChars) {
 		String ret="";
 		
 		for (Char c: titleChars) {
@@ -79,7 +104,7 @@ public class Content extends PDFTextStripper {
 		return ret;
 	}
 	
-	private String getTitleWoSpace(ArrayList<Char> titleChars) {
+	private String getContentWoSpace(ArrayList<Char> titleChars) {
 		float IgnoredSpaceWidthRatio=0.0f;
 		
 		String ret="";
@@ -104,6 +129,18 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return ret;
+	}
+	
+	public ArrayList<Char> getContentWiHeight(float height) {
+		ArrayList<Char> contentChars=new ArrayList<Char>();
+		
+		for (Char c: chars) {
+			if (c.height==height) {
+				contentChars.add(c);
+			}
+		}
+		
+		return contentChars;
 	}
 	
 	private boolean hasSpace(ArrayList<Char> titleChars) {
