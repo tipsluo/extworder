@@ -23,9 +23,13 @@ public class Content extends PDFTextStripper {
 	protected FileWriter myWriter;
     public TreeMap<Float,Integer> charHeights;
     ArrayList<Char> chars;
+    public float width,height;
+    public int right,bottom;
+    Bitmap bitmap;
     public String title;
 	
 	public Content(String fn) throws IOException {
+		width=height=-1;
 		myWriter = new FileWriter(fn+"_char.txt");
 		charHeights=new TreeMap<>();
 		chars=new ArrayList<Char>();
@@ -47,6 +51,11 @@ public class Content extends PDFTextStripper {
                 document.close();
             }
         }
+		
+		right=Math.round(width);
+		top=Math.round(height);
+		
+		bitmap=new Bitmap(this);
 	}
 
 	@Override
@@ -54,12 +63,21 @@ public class Content extends PDFTextStripper {
         for (TextPosition text : textPositions) {
         	Float h;
         	h=text.getHeightDir();
+        	
         	Integer n;
         	n=charHeights.compute(h, (k,v) -> (v == null ? 0 : v) + 1);
         	charHeights.put(h,n);
+        	
         	String str;
         	str=text.toString();
-        	chars.add(new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj()));
+        	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj());
+        	chars.add(ch);
+        	
+        	float width1=(float)(ch.x+ch.width-0.001);
+        	float height1=(float)(ch.y+ch.height-0.001);
+        	if (width1>width) width=width1;
+        	if (height1>height) height=height1;
+        		
         	try {
 	        	myWriter.write(str + " [(X=" + text.getXDirAdj() + ",Y=" +
 	                    text.getYDirAdj() + ") height=" + text.getHeightDir() + " width=" +
@@ -150,5 +168,28 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return false;
+	}
+	
+	public boolean isInChars(float x,float y) {
+		for (Char ch:chars) {
+			if (ch.coverPoint(x,y)) return true;
+		}
+		return false;
+	}
+	
+	class Bitmap {
+		Point[][] points;
+		
+		public Bitmap(Content content) {
+			points=new Point[Math.round(content.width)+1][Math.round(content.height)+1];
+			
+			for (Char ch: content.chars) {
+				for (int x=Math.round(ch.x); x<=ch.right; x++)
+					for (int y=Math.round(ch.y); y<=ch.bottom; y++) {
+						Point point=new Point(x,y,ch);
+						points[x][y]=point;
+					}
+			}
+		}
 	}
 }
