@@ -20,17 +20,19 @@ import java.io.IOException;  // Import the IOException class to handle errors
 
 
 public class Extworder {
+	
 	public static void main(String args[]) throws IOException  {
 		//main_test1_gettext();
-		main_test2_printcharinfos();
+		//main_test2_printcharinfos();
 		//main_test3_getTitle();
-		main_test4_getText();
+		//main_test4_getText();
+		main_test5_block_display();
 	}
 
 	static public void main_test1_gettext() throws IOException {
-		//extract("A model for estimating parameters of rotational landslide");
+		extract("A model for estimating parameters of rotational landslide");
 		//extract("Peace-Development and Peace Through");
-		extract("Broader perspective on ecosystem");
+		//extract("Broader perspective on ecosystem");
 		//extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//extract("ILL article-Impact of the KWL reading strategy");
 	}
@@ -53,11 +55,15 @@ public class Extworder {
 	
 	static public void main_test4_getText() throws IOException {
 		getText("A model for estimating parameters of rotational landslide");
-		getText("Peace-Development and Peace Through");
-		getText("Broader perspective on ecosystem");
-		getText("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		getText("ILL article-Impact of the KWL reading strategy");
+		//getText("Peace-Development and Peace Through");
+		//getText("Broader perspective on ecosystem");
+		//getText("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//getText("ILL article-Impact of the KWL reading strategy");
     }
+	
+	static public void main_test5_block_display() throws IOException {
+		displayBlocks("A model for estimating parameters of rotational landslide");
+	}
 	
 	static private String getTitle(String fn) throws IOException {
 		String title=getMetaTitle(fn);
@@ -197,5 +203,26 @@ public class Extworder {
 		document.close();
 		
 		return info.getTitle();
+	}
+	
+	public static void displayBlocks(String fn) throws IOException {
+		Content content = new Content(fn);
+		
+		Block.getAllBlocks(content);
+		
+		FileWriter myWriter = null;
+		
+		try {
+			myWriter= new FileWriter(fn+"_block.txt");
+		
+		    for(Block block:content.blocks) {
+		    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.top,block.bottom));
+		    	for(Char ch:block.chars) {
+		    		myWriter.write(String.format("%s (x=%f y=%f) width=%f height=%f fontname=%s\n", ch.str,ch.x,ch.y,ch.width,ch.height,ch.fontname));
+		    	}
+		    }
+		} finally {
+			  myWriter.close();
+		}
 	}
 }

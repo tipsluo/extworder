@@ -23,6 +23,7 @@ public class Content extends PDFTextStripper {
 	protected FileWriter myWriter;
     public TreeMap<Float,Integer> charHeights;
     ArrayList<Char> chars;
+    ArrayList<Block> blocks;
     public float width,height;
     public int right,bottom;
     Bitmap bitmap;
@@ -33,13 +34,15 @@ public class Content extends PDFTextStripper {
 		myWriter = new FileWriter(fn+"_char.txt");
 		charHeights=new TreeMap<>();
 		chars=new ArrayList<Char>();
+		blocks=new ArrayList<Block>();
 		
 		File file = new File(fn+".pdf");
 		PDDocument document = PDDocument.load(file);
 		
 		setSortByPosition( true );
 		setStartPage( 0 );
-		setEndPage( document.getNumberOfPages() );
+		setEndPage(1);
+		//setEndPage( document.getNumberOfPages() );
 		 
 		Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
 		try {
@@ -53,9 +56,11 @@ public class Content extends PDFTextStripper {
         }
 		
 		right=Math.round(width);
-		top=Math.round(height);
+		bottom=Math.round(height);
 		
 		bitmap=new Bitmap(this);
+		
+		Block.getAllBlocks(this);
 	}
 
 	@Override
@@ -70,7 +75,10 @@ public class Content extends PDFTextStripper {
         	
         	String str;
         	str=text.toString();
-        	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj());
+        	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj(),
+        			text.getFont().getName());
+        	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getFont().getFontDescriptor().getFontBoundingBox().getHeight(),text.getWidthDirAdj(),
+                		//	text.getFont().getName());
         	chars.add(ch);
         	
         	float width1=(float)(ch.x+ch.width-0.001);
