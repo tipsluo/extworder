@@ -1,0 +1,2826 @@
+==============================
+type: notes
+typeindex=-4 left=372 right=417 top=48 bottom=52 
+====>
+
+ournal of
+==============================
+
+==============================
+type: subtitle level1
+typeindex=1 left=369 right=455 top=58 bottom=74 
+====>
+
+ PEACEBUILDING 
+     DEVELOPMENT
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=72 top=75 bottom=80 
+====>
+
+Article
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=389 right=408 top=92 bottom=96 
+====>
+
+Journal
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=410 right=416 top=92 bottom=96 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=418 right=455 top=92 bottom=96 
+====>
+
+Peacebuilding
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=411 right=415 top=101 bottom=104 
+====>
+
+&
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=418 right=455 top=101 bottom=104 
+====>
+
+Development
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=384 right=399 top=109 bottom=113 
+====>
+
+2020,
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=401 right=412 top=109 bottom=113 
+====>
+
+Vol.
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=415 right=430 top=109 bottom=113 
+====>
+
+15(2)
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=432 right=455 top=109 bottom=113 
+====>
+
+164-177
+==============================
+
+==============================
+type: title
+typeindex=3 left=49 right=163 top=118 bottom=127 
+====>
+
+Development
+==============================
+
+==============================
+type: title
+typeindex=3 left=168 right=199 top=118 bottom=127 
+====>
+
+and
+==============================
+
+==============================
+type: title
+typeindex=3 left=204 right=254 top=118 bottom=127 
+====>
+
+Peace
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=387 right=406 top=118 bottom=130 
+====>
+
+ª
+Article
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=398 right=409 top=118 bottom=121 
+====>
+
+The
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=411 right=439 top=118 bottom=121 
+====>
+
+Author(s)
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=441 right=455 top=118 bottom=121 
+====>
+
+2020
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=408 right=424 top=126 bottom=130 
+====>
+
+reuse
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=426 right=455 top=126 bottom=130 
+====>
+
+guidelines:
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=359 right=455 top=135 bottom=138 
+====>
+
+sagepub.com/journals-permissions
+==============================
+
+==============================
+type: title
+typeindex=3 left=49 right=121 top=138 bottom=146 
+====>
+
+Through
+==============================
+
+==============================
+type: title
+typeindex=3 left=127 right=225 top=138 bottom=146 
+====>
+
+Traditional,
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=359 right=373 top=143 bottom=147 
+====>
+
+DOI:
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=375 right=455 top=143 bottom=147 
+====>
+
+10.1177/1542316620905788
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=367 right=455 top=152 bottom=155 
+====>
+
+journals.sagepub.com/home/jpd
+==============================
+
+==============================
+type: title
+typeindex=3 left=49 right=123 top=157 bottom=166 
+====>
+
+Cultural,
+==============================
+
+==============================
+type: title
+typeindex=3 left=128 right=187 top=157 bottom=166 
+====>
+
+Islamic
+==============================
+
+==============================
+type: title
+typeindex=3 left=193 right=276 top=157 bottom=166 
+====>
+
+Mediation
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=49 right=98 top=207 bottom=213 
+====>
+
+Jonathan
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=102 right=114 top=207 bottom=213 
+====>
+
+K.
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=117 right=167 top=207 bottom=213 
+====>
+
+Zartman
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=61 top=221 bottom=226 
+====>
+
+Air
+==============================
+
+==============================
+type: text
+typeindex=0 left=65 right=108 top=221 bottom=226 
+====>
+
+University,
+==============================
+
+==============================
+type: text
+typeindex=0 left=111 right=165 top=221 bottom=226 
+====>
+
+Montgomery,
+==============================
+
+==============================
+type: text
+typeindex=0 left=168 right=182 top=221 bottom=226 
+====>
+
+AL,
+==============================
+
+==============================
+type: text
+typeindex=0 left=185 right=203 top=221 bottom=226 
+====>
+
+USA
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=89 top=269 bottom=274 
+====>
+
+Abstract
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=56 top=281 bottom=286 
+====>
+
+In
+==============================
+
+==============================
+type: text
+typeindex=0 left=59 right=63 top=281 bottom=286 
+====>
+
+a
+==============================
+
+==============================
+type: text
+typeindex=0 left=66 right=90 top=281 bottom=286 
+====>
+
+world
+==============================
+
+==============================
+type: text
+typeindex=0 left=93 right=112 top=281 bottom=286 
+====>
+
+filled
+==============================
+
+==============================
+type: text
+typeindex=0 left=115 right=133 top=281 bottom=286 
+====>
+
+with
+==============================
+
+==============================
+type: text
+typeindex=0 left=136 right=168 top=281 bottom=286 
+====>
+
+conflict,
+==============================
+
+==============================
+type: text
+typeindex=0 left=171 right=223 top=281 bottom=286 
+====>
+
+competition,
+==============================
+
+==============================
+type: text
+typeindex=0 left=225 right=240 top=281 bottom=286 
+====>
+
+and
+==============================
+
+==============================
+type: text
+typeindex=0 left=242 right=260 top=281 bottom=286 
+====>
+
+war,
+==============================
+
+==============================
+type: text
+typeindex=0 left=263 right=286 top=281 bottom=286 
+====>
+
+those
+==============================
+
+==============================
+type: text
+typeindex=0 left=289 right=306 top=281 bottom=286 
+====>
+
+who
+==============================
+
+==============================
+type: text
+typeindex=0 left=309 right=331 top=281 bottom=286 
+====>
+
+work
+==============================
+
+==============================
+type: text
+typeindex=0 left=333 right=346 top=281 bottom=286 
+====>
+
+for
+==============================
+
+==============================
+type: text
+typeindex=0 left=348 right=372 top=281 bottom=286 
+====>
+
+peace
+==============================
+
+==============================
+type: text
+typeindex=0 left=374 right=398 top=281 bottom=286 
+====>
+
+shape
+==============================
+
+==============================
+type: text
+typeindex=0 left=400 right=414 top=281 bottom=286 
+====>
+
+the
+==============================
+
+==============================
+type: text
+typeindex=0 left=416 right=455 top=281 bottom=286 
+====>
+
+character
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=57 top=293 bottom=298 
+====>
+
+of
+==============================
+
+==============================
+type: text
+typeindex=0 left=60 right=87 top=293 bottom=298 
+====>
+
+human
+==============================
+
+==============================
+type: text
+typeindex=0 left=90 right=128 top=293 bottom=298 
+====>
+
+existence
+==============================
+
+==============================
+type: text
+typeindex=0 left=131 right=139 top=293 bottom=298 
+====>
+
+at
+==============================
+
+==============================
+type: text
+typeindex=0 left=142 right=155 top=293 bottom=298 
+====>
+
+the
+==============================
+
+==============================
+type: text
+typeindex=0 left=158 right=176 top=293 bottom=298 
+====>
+
+local
+==============================
+
+==============================
+type: text
+typeindex=0 left=179 right=200 top=293 bottom=298 
+====>
+
+level.
+==============================
+
+==============================
+type: text
+typeindex=0 left=203 right=219 top=293 bottom=298 
+====>
+
+The
+==============================
+
+==============================
+type: text
+typeindex=0 left=222 right=240 top=293 bottom=298 
+====>
+
+lives
+==============================
+
+==============================
+type: text
+typeindex=0 left=242 right=257 top=293 bottom=298 
+====>
+
+and
+==============================
+
+==============================
+type: text
+typeindex=0 left=260 right=295 top=293 bottom=298 
+====>
+
+petitions
+==============================
+
+==============================
+type: text
+typeindex=0 left=298 right=306 top=293 bottom=298 
+====>
+
+of
+==============================
+
+==============================
+type: text
+typeindex=0 left=309 right=351 top=293 bottom=298 
+====>
+
+individuals
+==============================
+
+==============================
+type: text
+typeindex=0 left=354 right=372 top=293 bottom=298 
+====>
+
+who
+==============================
+
+==============================
+type: text
+typeindex=0 left=375 right=396 top=293 bottom=298 
+====>
+
+work
+==============================
+
+==============================
+type: text
+typeindex=0 left=399 right=408 top=293 bottom=298 
+====>
+
+to
+==============================
+
+==============================
+type: text
+typeindex=0 left=411 right=439 top=293 bottom=298 
+====>
+
+reduce
+==============================
+
+==============================
+type: text
+typeindex=0 left=442 right=455 top=293 bottom=298 
+====>
+
+the
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=79 top=305 bottom=310 
+====>
+
+ravages
+==============================
+
+==============================
+type: text
+typeindex=0 left=82 right=90 top=305 bottom=310 
+====>
+
+of
+==============================
+
+==============================
+type: text
+typeindex=0 left=93 right=123 top=305 bottom=310 
+====>
+
+conflict
+==============================
+
+==============================
+type: text
+typeindex=0 left=125 right=151 top=305 bottom=310 
+====>
+
+create
+==============================
+
+==============================
+type: text
+typeindex=0 left=154 right=192 top=305 bottom=310 
+====>
+
+profound
+==============================
+
+==============================
+type: text
+typeindex=0 left=195 right=222 top=305 bottom=310 
+====>
+
+effects
+==============================
+
+==============================
+type: text
+typeindex=0 left=224 right=239 top=305 bottom=310 
+====>
+
+and
+==============================
+
+==============================
+type: text
+typeindex=0 left=242 right=274 top=305 bottom=310 
+====>
+
+deserve
+==============================
+
+==============================
+type: text
+typeindex=0 left=276 right=314 top=305 bottom=310 
+====>
+
+attention
+==============================
+
+==============================
+type: text
+typeindex=0 left=316 right=331 top=305 bottom=310 
+====>
+
+and
+==============================
+
+==============================
+type: text
+typeindex=0 left=334 right=358 top=305 bottom=310 
+====>
+
+study.
+==============================
+
+==============================
+type: text
+typeindex=0 left=361 right=368 top=305 bottom=310 
+====>
+
+In
+==============================
+
+==============================
+type: text
+typeindex=0 left=371 right=384 top=305 bottom=310 
+====>
+
+the
+==============================
+
+==============================
+type: text
+typeindex=0 left=387 right=401 top=305 bottom=310 
+====>
+
+last
+==============================
+
+==============================
+type: text
+typeindex=0 left=404 right=420 top=305 bottom=310 
+====>
+
+two
+==============================
+
+==============================
+type: text
+typeindex=0 left=423 right=455 top=305 bottom=310 
+====>
+
+decades
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=57 top=317 bottom=322 
+====>
+
+of
+==============================
+
+==============================
+type: text
+typeindex=0 left=60 right=112 top=317 bottom=322 
+====>
+
+international
+==============================
+
+==============================
+type: text
+typeindex=0 left=115 right=147 top=317 bottom=322 
+====>
+
+politics,
+==============================
+
+==============================
+type: text
+typeindex=0 left=150 right=184 top=317 bottom=322 
+====>
+
+violence
+==============================
+
+==============================
+type: text
+typeindex=0 left=187 right=194 top=317 bottom=322 
+====>
+
+in
+==============================
+
+==============================
+type: text
+typeindex=0 left=198 right=225 top=317 bottom=322 
+====>
+
+Islamic
+==============================
+
+==============================
+type: text
+typeindex=0 left=228 right=264 top=317 bottom=322 
+====>
+
+societies
+==============================
+
+==============================
+type: text
+typeindex=0 left=267 right=274 top=317 bottom=322 
+====>
+
+in
+==============================
+
+==============================
+type: text
+typeindex=0 left=278 right=327 top=317 bottom=322 
+====>
+
+Afghanistan,
+==============================
+
+==============================
+type: text
+typeindex=0 left=330 right=349 top=317 bottom=322 
+====>
+
+Iraq,
+==============================
+
+==============================
+type: text
+typeindex=0 left=352 right=385 top=317 bottom=322 
+====>
+
+Somalia,
+==============================
+
+==============================
+type: text
+typeindex=0 left=389 right=415 top=317 bottom=322 
+====>
+
+Sudan,
+==============================
+
+==============================
+type: text
+typeindex=0 left=418 right=433 top=317 bottom=322 
+====>
+
+and
+==============================
+
+==============================
+type: text
+typeindex=0 left=436 right=455 top=317 bottom=322 
+====>
+
+else-
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=75 top=329 bottom=334 
+====>
+
+where
+==============================
+
+==============================
+type: text
+typeindex=0 left=77 right=91 top=329 bottom=334 
+====>
+
+has
+==============================
+
+==============================
+type: text
+typeindex=0 left=93 right=119 top=329 bottom=334 
+====>
+
+gained
+==============================
+
+==============================
+type: text
+typeindex=0 left=122 right=146 top=329 bottom=334 
+====>
+
+global
+==============================
+
+==============================
+type: text
+typeindex=0 left=149 right=173 top=329 bottom=334 
+====>
+
+public
+==============================
+
+==============================
+type: text
+typeindex=0 left=176 right=215 top=329 bottom=334 
+====>
+
+attention.
+==============================
+
+==============================
+type: text
+typeindex=0 left=218 right=259 top=329 bottom=334 
+====>
+
+However,
+==============================
+
+==============================
+type: text
+typeindex=0 left=261 right=275 top=329 bottom=334 
+====>
+
+the
+==============================
+
+==============================
+type: text
+typeindex=0 left=277 right=329 top=329 bottom=334 
+====>
+
+international
+==============================
+
+==============================
+type: text
+typeindex=0 left=332 right=356 top=329 bottom=334 
+====>
+
+media
+==============================
+
+==============================
+type: text
+typeindex=0 left=359 right=401 top=329 bottom=334 
+====>
+
+frequently
+==============================
+
+==============================
+type: text
+typeindex=0 left=403 right=423 top=329 bottom=334 
+====>
+
+does
+==============================
+
+==============================
+type: text
+typeindex=0 left=426 right=439 top=329 bottom=334 
+====>
+
+see
+==============================
+
+==============================
+type: text
+typeindex=0 left=442 right=455 top=329 bottom=334 
+====>
+
+the
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=90 top=341 bottom=346 
+====>
+
+local-level
+==============================
+
+==============================
+type: text
+typeindex=0 left=94 right=132 top=341 bottom=346 
+====>
+
+initiatives
+==============================
+
+==============================
+type: text
+typeindex=0 left=137 right=145 top=341 bottom=346 
+====>
+
+to
+==============================
+
+==============================
+type: text
+typeindex=0 left=150 right=186 top=341 bottom=346 
+====>
+
+promote
+==============================
+
+==============================
+type: text
+typeindex=0 left=190 right=214 top=341 bottom=346 
+====>
+
+peace
+==============================
+
+==============================
+type: text
+typeindex=0 left=218 right=225 top=341 bottom=346 
+====>
+
+in
+==============================
+
+==============================
+type: text
+typeindex=0 left=229 right=271 top=341 bottom=346 
+====>
+
+traditional
+==============================
+
+==============================
+type: text
+typeindex=0 left=276 right=303 top=341 bottom=346 
+====>
+
+Islamic
+==============================
+
+==============================
+type: text
+typeindex=0 left=307 right=345 top=341 bottom=346 
+====>
+
+societies.
+==============================
+
+==============================
+type: text
+typeindex=0 left=349 right=371 top=341 bottom=346 
+====>
+
+Many
+==============================
+
+==============================
+type: text
+typeindex=0 left=375 right=405 top=341 bottom=346 
+====>
+
+people,
+==============================
+
+==============================
+type: text
+typeindex=0 left=409 right=444 top=341 bottom=346 
+====>
+
+whether
+==============================
+
+==============================
+type: text
+typeindex=0 left=448 right=455 top=341 bottom=346 
+====>
+
+in
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=102 top=353 bottom=358 
+====>
+
+humanitarian
+==============================
+
+==============================
+type: text
+typeindex=0 left=105 right=177 top=353 bottom=358 
+====>
+
+nongovernmental
+==============================
+
+==============================
+type: text
+typeindex=0 left=180 right=230 top=353 bottom=358 
+====>
+
+organisation
+==============================
+
+==============================
+type: text
+typeindex=0 left=233 right=279 top=353 bottom=358 
+====>
+
+operations,
+==============================
+
+==============================
+type: text
+typeindex=0 left=282 right=292 top=353 bottom=358 
+====>
+
+or
+==============================
+
+==============================
+type: text
+typeindex=0 left=295 right=303 top=353 bottom=358 
+====>
+
+as
+==============================
+
+==============================
+type: text
+typeindex=0 left=306 right=323 top=353 bottom=358 
+====>
+
+part
+==============================
+
+==============================
+type: text
+typeindex=0 left=326 right=334 top=353 bottom=358 
+====>
+
+of
+==============================
+
+==============================
+type: text
+typeindex=0 left=337 right=341 top=353 bottom=358 
+====>
+
+a
+==============================
+
+==============================
+type: text
+typeindex=0 left=344 right=391 top=353 bottom=358 
+====>
+
+military-led
+==============================
+
+==============================
+type: text
+typeindex=0 left=394 right=455 top=353 bottom=358 
+====>
+
+reconstruction
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=71 top=365 bottom=370 
+====>
+
+team,
+==============================
+
+==============================
+type: text
+typeindex=0 left=75 right=94 top=365 bottom=370 
+====>
+
+have
+==============================
+
+==============================
+type: text
+typeindex=0 left=97 right=129 top=365 bottom=370 
+====>
+
+worked
+==============================
+
+==============================
+type: text
+typeindex=0 left=133 right=147 top=365 bottom=370 
+====>
+
+and
+==============================
+
+==============================
+type: text
+typeindex=0 left=151 right=181 top=365 bottom=370 
+====>
+
+poured
+==============================
+
+==============================
+type: text
+typeindex=0 left=184 right=219 top=365 bottom=370 
+====>
+
+treasure
+==============================
+
+==============================
+type: text
+typeindex=0 left=223 right=239 top=365 bottom=370 
+====>
+
+into
+==============================
+
+==============================
+type: text
+typeindex=0 left=243 right=286 top=365 bottom=370 
+====>
+
+promoting
+==============================
+
+==============================
+type: text
+typeindex=0 left=289 right=321 top=365 bottom=370 
+====>
+
+stability
+==============================
+
+==============================
+type: text
+typeindex=0 left=324 right=332 top=365 bottom=370 
+====>
+
+in
+==============================
+
+==============================
+type: text
+typeindex=0 left=335 right=377 top=365 bottom=370 
+====>
+
+traditional
+==============================
+
+==============================
+type: text
+typeindex=0 left=381 right=417 top=365 bottom=370 
+====>
+
+societies
+==============================
+
+==============================
+type: text
+typeindex=0 left=420 right=455 top=365 bottom=370 
+====>
+
+suffering
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=69 top=377 bottom=382 
+====>
+
+from
+==============================
+
+==============================
+type: text
+typeindex=0 left=73 right=115 top=377 bottom=382 
+====>
+
+insecurity.
+==============================
+
+==============================
+type: text
+typeindex=0 left=120 right=180 top=377 bottom=382 
+====>
+
+Understanding
+==============================
+
+==============================
+type: text
+typeindex=0 left=184 right=197 top=377 bottom=382 
+====>
+
+the
+==============================
+
+==============================
+type: text
+typeindex=0 left=202 right=242 top=377 bottom=382 
+====>
+
+resources
+==============================
+
+==============================
+type: text
+typeindex=0 left=247 right=259 top=377 bottom=382 
+====>
+
+for
+==============================
+
+==============================
+type: text
+typeindex=0 left=263 right=287 top=377 bottom=382 
+====>
+
+peace
+==============================
+
+==============================
+type: text
+typeindex=0 left=291 right=321 top=377 bottom=382 
+====>
+
+offered
+==============================
+
+==============================
+type: text
+typeindex=0 left=325 right=333 top=377 bottom=382 
+====>
+
+in
+==============================
+
+==============================
+type: text
+typeindex=0 left=337 right=358 top=377 bottom=382 
+====>
+
+Islam
+==============================
+
+==============================
+type: text
+typeindex=0 left=362 right=377 top=377 bottom=382 
+====>
+
+and
+==============================
+
+==============================
+type: text
+typeindex=0 left=381 right=395 top=377 bottom=382 
+====>
+
+the
+==============================
+
+==============================
+type: text
+typeindex=0 left=399 right=415 top=377 bottom=382 
+====>
+
+way
+==============================
+
+==============================
+type: text
+typeindex=0 left=419 right=427 top=377 bottom=382 
+====>
+
+in
+==============================
+
+==============================
+type: text
+typeindex=0 left=431 right=455 top=377 bottom=382 
+====>
+
+which
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=82 top=389 bottom=394 
+====>
+
+Muslims
+==============================
+
+==============================
+type: text
+typeindex=0 left=85 right=107 top=389 bottom=394 
+====>
+
+work
+==============================
+
+==============================
+type: text
+typeindex=0 left=111 right=123 top=389 bottom=394 
+====>
+
+for
+==============================
+
+==============================
+type: text
+typeindex=0 left=126 right=150 top=389 bottom=394 
+====>
+
+peace
+==============================
+
+==============================
+type: text
+typeindex=0 left=153 right=161 top=389 bottom=394 
+====>
+
+in
+==============================
+
+==============================
+type: text
+typeindex=0 left=164 right=184 top=389 bottom=394 
+====>
+
+their
+==============================
+
+==============================
+type: text
+typeindex=0 left=187 right=240 top=389 bottom=394 
+====>
+
+communities
+==============================
+
+==============================
+type: text
+typeindex=0 left=243 right=257 top=389 bottom=394 
+====>
+
+can
+==============================
+
+==============================
+type: text
+typeindex=0 left=261 right=300 top=389 bottom=394 
+====>
+
+empower
+==============================
+
+==============================
+type: text
+typeindex=0 left=304 right=326 top=389 bottom=394 
+====>
+
+those
+==============================
+
+==============================
+type: text
+typeindex=0 left=330 right=348 top=389 bottom=394 
+====>
+
+who
+==============================
+
+==============================
+type: text
+typeindex=0 left=351 right=370 top=389 bottom=394 
+====>
+
+seek
+==============================
+
+==============================
+type: text
+typeindex=0 left=373 right=382 top=389 bottom=394 
+====>
+
+to
+==============================
+
+==============================
+type: text
+typeindex=0 left=386 right=403 top=389 bottom=394 
+====>
+
+help
+==============================
+
+==============================
+type: text
+typeindex=0 left=406 right=421 top=389 bottom=394 
+====>
+
+and
+==============================
+
+==============================
+type: text
+typeindex=0 left=424 right=455 top=389 bottom=394 
+====>
+
+protect
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=70 top=401 bottom=406 
+====>
+
+them
+==============================
+
+==============================
+type: text
+typeindex=0 left=73 right=93 top=401 bottom=406 
+====>
+
+from
+==============================
+
+==============================
+type: text
+typeindex=0 left=96 right=131 top=401 bottom=406 
+====>
+
+strategic
+==============================
+
+==============================
+type: text
+typeindex=0 left=134 right=163 top=401 bottom=406 
+====>
+
+errors.
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=95 top=431 bottom=436 
+====>
+
+Keywords
+==============================
+
+==============================
+type: text
+typeindex=0 left=49 right=69 top=442 bottom=447 
+====>
+
+local,
+==============================
+
+==============================
+type: text
+typeindex=0 left=72 right=116 top=442 bottom=447 
+====>
+
+traditional,
+==============================
+
+==============================
+type: text
+typeindex=0 left=119 right=151 top=442 bottom=447 
+====>
+
+cultural,
+==============================
+
+==============================
+type: text
+typeindex=0 left=154 right=181 top=442 bottom=447 
+====>
+
+Islamic
+==============================
+
+==============================
+type: text
+typeindex=0 left=184 right=226 top=442 bottom=447 
+====>
+
+mediation,
+==============================
+
+==============================
+type: text
+typeindex=0 left=229 right=277 top=442 bottom=447 
+====>
+
+conciliation,
+==============================
+
+==============================
+type: text
+typeindex=0 left=280 right=325 top=442 bottom=447 
+====>
+
+reputation,
+==============================
+
+==============================
+type: text
+typeindex=0 left=328 right=357 top=442 bottom=447 
+====>
+
+conflict
+==============================
+
+==============================
+type: text
+typeindex=0 left=360 right=403 top=442 bottom=447 
+====>
+
+resolution,
+==============================
+
+==============================
+type: text
+typeindex=0 left=407 right=445 top=442 bottom=447 
+====>
+
+character
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=49 right=92 top=476 bottom=482 
+====>
+
+Seeking
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=96 right=129 top=476 bottom=482 
+====>
+
+Peace
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=133 right=144 top=476 bottom=482 
+====>
+
+at
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=148 right=166 top=476 bottom=482 
+====>
+
+the
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=170 right=200 top=476 bottom=482 
+====>
+
+Local
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=203 right=233 top=476 bottom=482 
+====>
+
+Level
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=74 top=496 bottom=501 
+====>
+
+Given
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=77 right=89 top=496 bottom=501 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=93 right=127 top=496 bottom=501 
+====>
+
+ubiquity
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=130 right=139 top=496 bottom=501 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=142 right=175 top=496 bottom=501 
+====>
+
+quarrels
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=178 right=193 top=496 bottom=501 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=196 right=248 top=496 bottom=501 
+====>
+
+competition,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=251 right=294 top=496 bottom=501 
+====>
+
+traditional
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=297 right=332 top=496 bottom=501 
+====>
+
+societies
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=336 right=368 top=496 bottom=501 
+====>
+
+develop
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=371 right=408 top=496 bottom=501 
+====>
+
+practices
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=411 right=426 top=496 bottom=501 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=429 right=455 top=496 bottom=501 
+====>
+
+proce-
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=71 top=509 bottom=513 
+====>
+
+dures
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=74 right=86 top=509 bottom=513 
+====>
+
+for
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=89 right=118 top=509 bottom=513 
+====>
+
+dispute
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=121 right=165 top=509 bottom=513 
+====>
+
+resolution.
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=168 right=192 top=509 bottom=513 
+====>
+
+When
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=195 right=225 top=509 bottom=513 
+====>
+
+outside
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=228 right=255 top=509 bottom=513 
+====>
+
+parties
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=258 right=281 top=509 bottom=513 
+====>
+
+enter,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=284 right=302 top=509 bottom=513 
+====>
+
+they
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=305 right=336 top=509 bottom=513 
+====>
+
+become
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=340 right=355 top=509 bottom=513 
+====>
+
+part
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=359 right=367 top=509 bottom=513 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=370 right=383 top=509 bottom=513 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=386 right=421 top=509 bottom=513 
+====>
+
+dynamic
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=424 right=432 top=509 bottom=513 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=435 right=455 top=509 bottom=513 
+====>
+
+local
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=87 top=521 bottom=525 
+====>
+
+relations.
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=91 right=127 top=521 bottom=525 
+====>
+
+Offenses
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=131 right=141 top=521 bottom=525 
+====>
+
+by
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=145 right=186 top=521 bottom=525 
+====>
+
+foreigners
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=190 right=212 top=521 bottom=525 
+====>
+
+come
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=216 right=242 top=521 bottom=525 
+====>
+
+easily,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=246 right=259 top=521 bottom=525 
+====>
+
+but
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=263 right=282 top=521 bottom=525 
+====>
+
+their
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=286 right=313 top=521 bottom=525 
+====>
+
+efforts
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=316 right=324 top=521 bottom=525 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=328 right=358 top=521 bottom=525 
+====>
+
+resolve
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=362 right=399 top=521 bottom=525 
+====>
+
+problems
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=403 right=411 top=521 bottom=525 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=415 right=436 top=521 bottom=525 
+====>
+
+ways
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=440 right=455 top=521 bottom=525 
+====>
+
+that
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=69 top=533 bottom=538 
+====>
+
+work
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=74 right=82 top=533 bottom=538 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=87 right=106 top=533 bottom=538 
+====>
+
+their
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=110 right=133 top=533 bottom=538 
+====>
+
+home
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=138 right=173 top=533 bottom=538 
+====>
+
+societies
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=178 right=188 top=533 bottom=538 
+====>
+
+do
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=192 right=205 top=533 bottom=538 
+====>
+
+not
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=210 right=231 top=533 bottom=538 
+====>
+
+work
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=236 right=244 top=533 bottom=538 
+====>
+
+as
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=249 right=266 top=533 bottom=538 
+====>
+
+well
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=271 right=279 top=533 bottom=538 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=284 right=288 top=533 bottom=538 
+====>
+
+a
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=293 right=335 top=533 bottom=538 
+====>
+
+traditional
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=340 right=371 top=533 bottom=538 
+====>
+
+Muslim
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=376 right=408 top=533 bottom=538 
+====>
+
+society.
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=412 right=455 top=533 bottom=538 
+====>
+
+Therefore,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=81 top=545 bottom=550 
+====>
+
+whether
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=85 right=116 top=545 bottom=550 
+====>
+
+seeking
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=120 right=128 top=545 bottom=550 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=131 right=153 top=545 bottom=550 
+====>
+
+make
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=157 right=188 top=545 bottom=550 
+====>
+
+amends
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=192 right=203 top=545 bottom=550 
+====>
+
+for
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=207 right=217 top=545 bottom=550 
+====>
+
+an
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=220 right=253 top=545 bottom=550 
+====>
+
+offence,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=257 right=266 top=545 bottom=550 
+====>
+
+or
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=269 right=305 top=545 bottom=550 
+====>
+
+pursuing
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=308 right=332 top=545 bottom=550 
+====>
+
+peace
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=335 right=347 top=545 bottom=550 
+====>
+
+for
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=351 right=363 top=545 bottom=550 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=367 right=385 top=545 bottom=550 
+====>
+
+sake
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=388 right=397 top=545 bottom=550 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=401 right=426 top=545 bottom=550 
+====>
+
+aiding
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=430 right=455 top=545 bottom=550 
+====>
+
+devel-
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=82 top=557 bottom=562 
+====>
+
+opment,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=86 right=123 top=557 bottom=562 
+====>
+
+everyone
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=127 right=145 top=557 bottom=562 
+====>
+
+who
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=149 right=173 top=557 bottom=562 
+====>
+
+works
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=178 right=185 top=557 bottom=562 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=190 right=194 top=557 bottom=562 
+====>
+
+a
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=198 right=230 top=557 bottom=562 
+====>
+
+Muslim
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=234 right=263 top=557 bottom=562 
+====>
+
+society
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=267 right=294 top=557 bottom=562 
+====>
+
+should
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=298 right=330 top=557 bottom=562 
+====>
+
+become
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=334 right=366 top=557 bottom=562 
+====>
+
+familiar
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=370 right=388 top=557 bottom=562 
+====>
+
+with
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=393 right=405 top=557 bottom=562 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=409 right=429 top=557 bottom=562 
+====>
+
+local
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=433 right=455 top=557 bottom=562 
+====>
+
+tradi-
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=69 top=570 bottom=574 
+====>
+
+tions
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=73 right=81 top=570 bottom=574 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=85 right=116 top=570 bottom=574 
+====>
+
+conflict
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=120 right=164 top=570 bottom=574 
+====>
+
+resolution.
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=66 top=588 bottom=592 
+====>
+
+This
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=69 right=90 top=588 bottom=592 
+====>
+
+work
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=92 right=111 top=588 bottom=592 
+====>
+
+does
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=114 right=126 top=588 bottom=592 
+====>
+
+not
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=129 right=148 top=588 bottom=592 
+====>
+
+offer
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=151 right=156 top=588 bottom=592 
+====>
+
+a
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=159 right=201 top=588 bottom=592 
+====>
+
+theoretical
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=204 right=236 top=588 bottom=592 
+====>
+
+analysis
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=239 right=251 top=588 bottom=592 
+====>
+
+but
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=254 right=277 top=588 bottom=592 
+====>
+
+rather
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=280 right=302 top=588 bottom=592 
+====>
+
+seeks
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=305 right=312 top=588 bottom=592 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=315 right=342 top=588 bottom=592 
+====>
+
+extend
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=345 right=388 top=588 bottom=592 
+====>
+
+awareness,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=391 right=405 top=588 bottom=592 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=408 right=427 top=588 bottom=592 
+====>
+
+offer
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=430 right=455 top=588 bottom=592 
+====>
+
+exam-
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=49 right=65 top=600 bottom=604 
+====>
+
+ples
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=68 right=103 top=600 bottom=604 
+====>
+
+applying
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=106 right=119 top=600 bottom=604 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=122 right=142 top=600 bottom=604 
+====>
+
+work
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=146 right=154 top=600 bottom=604 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=157 right=178 top=600 bottom=604 
+====>
+
+Funk
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=181 right=210 top=600 bottom=604 
+====>
+
+(2014),
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=214 right=260 top=600 bottom=604 
+====>
+
+Abu-Nimer
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=263 right=292 top=600 bottom=604 
+====>
+
+(2014),
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=295 right=314 top=600 bottom=604 
+====>
+
+Irani
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=318 right=325 top=600 bottom=604 
+====>
+
+&
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=329 right=349 top=600 bottom=604 
+====>
+
+Funk
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=352 right=382 top=600 bottom=604 
+====>
+
+(2001),
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=385 right=399 top=600 bottom=604 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=403 right=423 top=600 bottom=604 
+====>
+
+Funk
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=426 right=434 top=600 bottom=604 
+====>
+
+&
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=438 right=455 top=600 bottom=604 
+====>
+
+Said
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=49 right=104 top=638 bottom=642 
+====>
+
+Corresponding
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=107 right=136 top=638 bottom=642 
+====>
+
+Author:
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=49 right=77 top=648 bottom=652 
+====>
+
+Jonathan
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=79 right=86 top=648 bottom=652 
+====>
+
+K.
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=88 right=118 top=648 bottom=652 
+====>
+
+Zartman,
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=120 right=131 top=648 bottom=652 
+====>
+
+Air
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=133 right=167 top=648 bottom=652 
+====>
+
+University,
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=170 right=186 top=648 bottom=652 
+====>
+
+2730
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=188 right=217 top=648 bottom=652 
+====>
+
+Windsor
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=219 right=245 top=648 bottom=652 
+====>
+
+Avenue,
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=248 right=291 top=648 bottom=652 
+====>
+
+Montgomery,
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=294 right=303 top=648 bottom=652 
+====>
+
+AL
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=305 right=327 top=648 bottom=652 
+====>
+
+36109,
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=329 right=346 top=648 bottom=652 
+====>
+
+USA.
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=49 right=67 top=658 bottom=661 
+====>
+
+Email:
+==============================
+
+==============================
+type: notes
+typeindex=-3 left=70 right=145 top=658 bottom=661 
+====>
+
+jkzartman@yahoo.com
+==============================
+

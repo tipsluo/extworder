@@ -68,6 +68,10 @@ public class Extworder {
 	
 	static public void main_test6_block_print() throws IOException {
 		printBlocks("A model for estimating parameters of rotational landslide");
+		printBlocks("Peace-Development and Peace Through");
+		printBlocks("Broader perspective on ecosystem");
+		printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		printBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	static private String getTitle(String fn) throws IOException {

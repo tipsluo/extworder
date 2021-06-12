@@ -88,7 +88,17 @@ public class Block {
 	
 	public void write(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
-		fw.write(String.format("index=%d left=%d right=%d top=%d bottom=%d ====>\n\n",
+		
+		if (charHeight>=content.titleCharHeight)
+			fw.write("type: title");
+		else if (charHeight>content.textCharHeight)
+			fw.write(String.format("type: subtitle level%d",content.charHeightIndexes.get(charHeight)));
+		else if (charHeight==content.textCharHeight)
+			fw.write(String.format("type: text"));
+		else
+			fw.write(String.format("type: notes"));
+					
+		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d \n====>\n\n",
 				content.charHeightIndexes.get(charHeight),left,right,top,bottom));
 		
 		int y0=chars.get(0).bottom;

@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 public class Content extends PDFTextStripper {
 	protected FileWriter myWriter;
     public TreeMap<Float,Integer> charHeights;
-    float textCharHeight;
+    float textCharHeight,titleCharHeight;
     ArrayList<Char> chars;
     ArrayList<Block> blocks;
     public float width,height;
@@ -64,6 +64,7 @@ public class Content extends PDFTextStripper {
 		
 		bitmap=new Bitmap(this);
 		
+		titleCharHeight=charHeights.lastKey();
 		textCharHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charHeightIndexes=makeCharHeightIndexes();
 		

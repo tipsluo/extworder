@@ -1,0 +1,112 @@
+==============================
+type: subtitle level5
+typeindex=5 left=128 right=398 top=56 bottom=66 
+====>
+
+Green Chemistry Letters and Reviews
+==============================
+
+==============================
+type: notes
+typeindex=-1 left=128 right=435 top=143 bottom=148 
+====>
+
+ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/tgcl20
+==============================
+
+==============================
+type: title
+typeindex=6 left=97 right=536 top=186 bottom=240 
+====>
+
+Purification technology for renewable production
+of fuel from methanolysis of waste sunflower oil in
+the presence of high silica zeolite beta
+==============================
+
+==============================
+type: subtitle level4
+typeindex=4 left=97 right=432 top=271 bottom=279 
+====>
+
+Leila Fereidooni , Mojtaba Enayati & Alireza Abbaspourrad
+==============================
+
+==============================
+type: subtitle level3
+typeindex=3 left=97 right=530 top=306 bottom=349 
+====>
+
+To cite this article: Leila Fereidooni , Mojtaba Enayati & Alireza Abbaspourrad (2021) Purification
+technology for renewable production of fuel from methanolysis of waste sunflower oil in the
+presence of high silica zeolite beta, Green Chemistry Letters and Reviews, 14:1, 1-13, DOI:
+10.1080/17518253.2020.1856426
+==============================
+
+==============================
+type: subtitle level1
+typeindex=1 left=97 right=427 top=363 bottom=369 
+====>
+
+To link to this article:  https://doi.org/10.1080/17518253.2020.1856426
+==============================
+
+==============================
+type: text
+typeindex=0 left=132 right=315 top=417 bottom=443 
+====>
+
+© 2020 The Author(s). Published by Informa
+UK Limited, trading as Taylor & Francis
+Group
+==============================
+
+==============================
+type: text
+typeindex=0 left=132 right=260 top=460 bottom=466 
+====>
+
+Published online: 30 Dec 2020.
+==============================
+
+==============================
+type: text
+typeindex=0 left=132 right=274 top=505 bottom=511 
+====>
+
+Submit your article to this journal 
+==============================
+
+==============================
+type: text
+typeindex=0 left=132 right=204 top=546 bottom=552 
+====>
+
+Article views: 246
+==============================
+
+==============================
+type: text
+typeindex=0 left=132 right=218 top=591 bottom=597 
+====>
+
+View related articles 
+==============================
+
+==============================
+type: text
+typeindex=0 left=132 right=220 top=634 bottom=639 
+====>
+
+View Crossmark data
+==============================
+
+==============================
+type: text
+typeindex=0 left=157 right=477 top=777 bottom=794 
+====>
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=tgcl20
+==============================
+

@@ -1,1367 +1,178 @@
 ==============================
-index=0 left=408 right=483 top=72 bottom=78 ====>
+type: text
+typeindex=0 left=408 right=505 top=72 bottom=114 
+====>
 
 Turkish J Earth Sci
+(2017) 26: 277-283
+© TÜB?TAK
+doi:10.3906/yer-1706-25
 ==============================
 
 ==============================
-index=1 left=164 right=332 top=73 bottom=80 ====>
+type: subtitle level1
+typeindex=1 left=164 right=332 top=73 bottom=80 
+====>
 
 Turkish Journal of Earth Sciences
 ==============================
 
 ==============================
-index=0 left=408 right=483 top=84 bottom=90 ====>
-
-(2017) 26: 277-283
-==============================
-
-==============================
-index=-2 left=182 right=313 top=91 bottom=97 ====>
+type: notes
+typeindex=-2 left=182 right=313 top=91 bottom=97 
+====>
 
 http://journals.tubitak.gov.tr/earth/
 ==============================
 
 ==============================
-index=0 left=408 right=459 top=96 bottom=102 ====>
-
-© TÜB?TAK
-==============================
-
-==============================
-index=0 left=408 right=505 top=108 bottom=114 ====>
-
-doi:10.3906/yer-1706-25
-==============================
-
-==============================
-index=1 left=206 right=290 top=112 bottom=119 ====>
+type: subtitle level1
+typeindex=1 left=206 right=290 top=112 bottom=119 
+====>
 
 Research Article
 ==============================
 
 ==============================
-index=2 left=120 right=433 top=158 bottom=167 ====>
+type: title
+typeindex=2 left=120 right=433 top=158 bottom=183 
+====>
 
 A model for estimating parameters of rotational landslide
-==============================
-
-==============================
-index=2 left=170 right=385 top=174 bottom=183 ====>
-
 using a first-order differential equation 
 ==============================
 
 ==============================
-index=-1 left=241 right=312 top=198 bottom=204 ====>
+type: notes
+typeindex=-1 left=73 right=480 top=198 bottom=215 
+====>
 
 Cahit Ta?? ÇEL?K*
-==============================
-
-==============================
-index=-1 left=73 right=480 top=209 bottom=215 ====>
-
 Department of Geomatic Engineering, Faculty of Engineering, Ni?de Ömer Halisdemir University, Ni?de, Turkey
 ==============================
 
 ==============================
-index=-1 left=86 right=177 top=240 bottom=246 ====>
+type: notes
+typeindex=-1 left=86 right=177 top=240 bottom=246 
+====>
 
 Received: 28.06.2017       
 ==============================
 
 ==============================
-index=-1 left=181 right=355 top=240 bottom=246 ====>
+type: notes
+typeindex=-1 left=181 right=355 top=240 bottom=246 
+====>
 
        Accepted/Published Online: 11.08.2017       
 ==============================
 
 ==============================
-index=-1 left=359 right=467 top=240 bottom=246 ====>
+type: notes
+typeindex=-1 left=359 right=467 top=240 bottom=246 
+====>
 
        Final Version: 29.09.2017
 ==============================
 
 ==============================
-index=-1 left=35 right=519 top=271 bottom=277 ====>
+type: notes
+typeindex=-1 left=35 right=519 top=271 bottom=385 
+====>
 
 Abstract: A first-order differential equation was developed and proposed as a search tool in the detection and determination of rotational 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=282 bottom=288 ====>
-
 landslides from two epochs of light detection and ranging (LiDAR) system data in the form of 3D points. To test the proposed method 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=292 bottom=298 ====>
-
 two epochs of LiDAR data were used: one before and one after a rotational landslide occurred. The first epoch of LiDAR data was real, 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=303 bottom=309 ====>
-
 while the second epoch of LiDAR data was simulated based on the first epoch to ensure one or more rotational landslides were included. 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=314 bottom=320 ====>
-
 From the last returns of LiDAR data of both epochs, two functional surfaces were created. Then elevation differences were obtained for 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=325 bottom=331 ====>
-
 identical points in both surfaces. The differenced elevations mainly contain two types of data; one type consists of unchanged elevation 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=336 bottom=342 ====>
-
 differences and the other type includes changed elevation differences. The second type may be considered as outliers with respect to the 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=346 bottom=352 ====>
-
 former. Next, segmentation was performed using the determined outliers. Finally, segmented data were used to estimate the rotational 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=357 bottom=363 ====>
-
 landslide parameters. Using the model, all rotational landslides were detected and their parameters estimated, which were consistent 
-==============================
-
-==============================
-index=-1 left=35 right=519 top=368 bottom=374 ====>
-
 with simulation parameters. In conclusion, the developed model is capable of detecting and determining rotational landslides from 3D 
-==============================
-
-==============================
-index=-1 left=35 right=53 top=379 bottom=385 ====>
-
 data.
 ==============================
 
 ==============================
-index=-1 left=35 right=394 top=400 bottom=406 ====>
+type: notes
+typeindex=-1 left=35 right=394 top=400 bottom=406 
+====>
 
 Key words: Modelling, first-order differential equations, segmentation, rotational landslides, LiDAR
 ==============================
 
 ==============================
-index=0 left=35 right=99 top=436 bottom=443 ====>
+type: text
+typeindex=0 left=35 right=269 top=436 bottom=707 
+====>
 
 1. Introduction
-==============================
-
-==============================
-index=0 left=286 right=297 top=436 bottom=443 ====>
-
-in 
-==============================
-
-==============================
-index=0 left=299 right=306 top=436 bottom=443 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=308 right=342 top=436 bottom=443 ====>
-
-forested 
-==============================
-
-==============================
-index=0 left=345 right=366 top=436 bottom=443 ====>
-
-area, 
-==============================
-
-==============================
-index=0 left=368 right=408 top=436 bottom=443 ====>
-
-involving 
-==============================
-
-==============================
-index=0 left=410 right=440 top=436 bottom=443 ====>
-
-aspect, 
-==============================
-
-==============================
-index=0 left=442 right=465 top=436 bottom=443 ====>
-
-slope 
-==============================
-
-==============================
-index=0 left=468 right=500 top=436 bottom=443 ====>
-
-images, 
-==============================
-
-==============================
-index=0 left=502 right=520 top=436 bottom=443 ====>
-
-and 
-==============================
-
-==============================
-index=0 left=35 right=269 top=448 bottom=455 ====>
-
 Landslide determinations and monitoring are important 
-==============================
-
-==============================
-index=0 left=286 right=293 top=448 bottom=455 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=297 right=324 top=448 bottom=455 ====>
-
-DTM. 
-==============================
-
-==============================
-index=0 left=328 right=371 top=448 bottom=455 ====>
-
-Hastao?lu 
-==============================
-
-==============================
-index=0 left=375 right=404 top=448 bottom=455 ====>
-
-(2013) 
-==============================
-
-==============================
-index=0 left=408 right=440 top=448 bottom=455 ====>
-
-utilized 
-==============================
-
-==============================
-index=0 left=445 right=482 top=448 bottom=455 ====>
-
-dynamic 
-==============================
-
-==============================
-index=0 left=486 right=520 top=448 bottom=455 ====>
-
-Kalman 
-==============================
-
-==============================
-index=0 left=35 right=269 top=460 bottom=467 ====>
-
 for understanding their structures and behaviors. Studies 
-==============================
-
-==============================
-index=0 left=286 right=320 top=460 bottom=467 ====>
-
-filtering 
-==============================
-
-==============================
-index=0 left=324 right=334 top=460 bottom=467 ====>
-
-in 
-==============================
-
-==============================
-index=0 left=338 right=375 top=460 bottom=467 ====>
-
-dynamic 
-==============================
-
-==============================
-index=0 left=378 right=395 top=460 bottom=467 ====>
-
-and 
-==============================
-
-==============================
-index=0 left=399 right=441 top=460 bottom=467 ====>
-
-kinematic 
-==============================
-
-==============================
-index=0 left=445 right=490 top=460 bottom=467 ====>
-
-modelling. 
-==============================
-
-==============================
-index=0 left=493 right=509 top=460 bottom=467 ====>
-
-For 
-==============================
-
-==============================
-index=0 left=513 right=520 top=460 bottom=467 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=35 right=49 top=472 bottom=479 ====>
-
-for 
-==============================
-
-==============================
-index=0 left=52 right=115 top=472 bottom=479 ====>
-
-determinations 
-==============================
-
-==============================
-index=0 left=117 right=128 top=472 bottom=479 ====>
-
-of 
-==============================
-
-==============================
-index=0 left=130 right=172 top=472 bottom=479 ====>
-
-landslides 
-==============================
-
-==============================
-index=0 left=174 right=195 top=472 bottom=479 ====>
-
-have 
-==============================
-
-==============================
-index=0 left=197 right=230 top=472 bottom=479 ====>
-
-utilized 
-==============================
-
-==============================
-index=0 left=232 right=239 top=472 bottom=479 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=241 right=269 top=472 bottom=479 ====>
-
-digital 
-==============================
-
-==============================
-index=0 left=286 right=320 top=472 bottom=479 ====>
-
-forested 
-==============================
-
-==============================
-index=0 left=322 right=343 top=472 bottom=479 ====>
-
-area, 
-==============================
-
-==============================
-index=0 left=345 right=351 top=472 bottom=479 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=353 right=468 top=472 bottom=479 ====>
-
-landslide susceptibility map 
-==============================
-
-==============================
-index=0 left=470 right=520 top=472 bottom=479 ====>
-
-was created 
-==============================
-
-==============================
-index=0 left=35 right=269 top=484 bottom=491 ====>
-
+for determinations of landslides have utilized a digital 
 terrain model (DTM) created by different sources of data 
-==============================
-
-==============================
-index=0 left=286 right=298 top=484 bottom=491 ====>
-
-by 
-==============================
-
-==============================
-index=0 left=301 right=321 top=484 bottom=491 ====>
-
-Eker 
-==============================
-
-==============================
-index=0 left=324 right=341 top=484 bottom=491 ====>
-
-and 
-==============================
-
-==============================
-index=0 left=344 right=370 top=484 bottom=491 ====>
-
-Ayd?n 
-==============================
-
-==============================
-index=0 left=372 right=403 top=484 bottom=491 ====>
-
-(2014). 
-==============================
-
-==============================
-index=0 left=406 right=422 top=484 bottom=491 ====>
-
-For 
-==============================
-
-==============================
-index=0 left=424 right=447 top=484 bottom=491 ====>
-
-areas 
-==============================
-
-==============================
-index=0 left=449 right=459 top=484 bottom=491 ====>
-
-of 
-==============================
-
-==============================
-index=0 left=462 right=498 top=484 bottom=491 ====>
-
-different 
-==============================
-
-==============================
-index=0 left=500 right=520 top=484 bottom=491 ====>
-
-size, 
-==============================
-
-==============================
-index=0 left=35 right=190 top=496 bottom=503 ====>
-
-including light detection and ranging 
-==============================
-
-==============================
-index=0 left=192 right=269 top=496 bottom=503 ====>
-
-(LiDAR), which is 
-==============================
-
-==============================
-index=0 left=286 right=365 top=496 bottom=503 ====>
-
-geo-environmental 
-==============================
-
-==============================
-index=0 left=367 right=399 top=496 bottom=503 ====>
-
-setting, 
-==============================
-
-==============================
-index=0 left=401 right=418 top=496 bottom=503 ====>
-
-and 
-==============================
-
-==============================
-index=0 left=421 right=459 top=496 bottom=503 ====>
-
-landslide 
-==============================
-
-==============================
-index=0 left=461 right=487 top=496 bottom=503 ====>
-
-types, 
-==============================
-
-==============================
-index=0 left=489 right=520 top=496 bottom=503 ====>
-
-Hussin 
-==============================
-
-==============================
-index=0 left=35 right=42 top=508 bottom=515 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=44 right=82 top=508 bottom=515 ====>
-
-powerful 
-==============================
-
-==============================
-index=0 left=84 right=102 top=508 bottom=515 ====>
-
-tool 
-==============================
-
-==============================
-index=0 left=104 right=114 top=508 bottom=515 ====>
-
-to 
-==============================
-
-==============================
-index=0 left=116 right=141 top=508 bottom=515 ====>
-
-create 
-==============================
-
-==============================
-index=0 left=143 right=150 top=508 bottom=515 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=152 right=171 top=508 bottom=515 ====>
-
-bare 
-==============================
-
-==============================
-index=0 left=173 right=204 top=508 bottom=515 ====>
-
-ground 
-==============================
-
-==============================
-index=0 left=206 right=236 top=508 bottom=515 ====>
-
-model, 
-==============================
-
-==============================
-index=0 left=238 right=269 top=508 bottom=515 ====>
-
-canopy 
-==============================
-
-==============================
-index=0 left=286 right=296 top=508 bottom=515 ====>
-
-et 
-==============================
-
-==============================
-index=0 left=298 right=310 top=508 bottom=515 ====>
-
-al. 
-==============================
-
-==============================
-index=0 left=312 right=341 top=508 bottom=515 ====>
-
-(2016) 
-==============================
-
-==============================
-index=0 left=343 right=383 top=508 bottom=515 ====>
-
-proposed 
-==============================
-
-==============================
-index=0 left=385 right=392 top=508 bottom=515 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=394 right=432 top=508 bottom=515 ====>
-
-landslide 
-==============================
-
-==============================
-index=0 left=435 right=490 top=508 bottom=515 ====>
-
-susceptibility 
-==============================
-
-==============================
-index=0 left=492 right=520 top=508 bottom=515 ====>
-
-model 
-==============================
-
-==============================
-index=0 left=35 right=269 top=520 bottom=527 ====>
-
+including light detection and ranging (LiDAR), which is 
+a powerful tool to create a bare ground model, canopy 
 model, etc. (Shan and Toth, 2009). Following the creation 
-==============================
-
-==============================
-index=0 left=286 right=520 top=520 bottom=527 ====>
-
-based on weights-of-evidence (WoE). The majority of the 
-==============================
-
-==============================
-index=0 left=35 right=46 top=532 bottom=539 ====>
-
-of 
-==============================
-
-==============================
-index=0 left=48 right=63 top=532 bottom=539 ====>
-
-the 
-==============================
-
-==============================
-index=0 left=66 right=93 top=532 bottom=539 ====>
-
-DTM, 
-==============================
-
-==============================
-index=0 left=95 right=119 top=532 bottom=539 ====>
-
-some 
-==============================
-
-==============================
-index=0 left=121 right=151 top=532 bottom=539 ====>
-
-terrain 
-==============================
-
-==============================
-index=0 left=154 right=187 top=532 bottom=539 ====>
-
-analysis 
-==============================
-
-==============================
-index=0 left=190 right=198 top=532 bottom=539 ====>
-
-is 
-==============================
-
-==============================
-index=0 left=201 right=224 top=532 bottom=539 ====>
-
-usual 
-==============================
-
-==============================
-index=0 left=227 right=241 top=532 bottom=539 ====>
-
-for 
-==============================
-
-==============================
-index=0 left=244 right=269 top=532 bottom=539 ====>
-
-slope, 
-==============================
-
-==============================
-index=0 left=286 right=316 top=532 bottom=539 ====>
-
-studies 
-==============================
-
-==============================
-index=0 left=318 right=385 top=532 bottom=539 ====>
-
-described above 
-==============================
-
-==============================
-index=0 left=387 right=407 top=532 bottom=539 ====>
-
-used 
-==============================
-
-==============================
-index=0 left=409 right=504 top=532 bottom=539 ====>
-
-pixel-based procedures 
-==============================
-
-==============================
-index=0 left=506 right=520 top=532 bottom=539 ====>
-
-for 
-==============================
-
-==============================
-index=0 left=35 right=269 top=544 bottom=551 ====>
-
+of the DTM, some terrain analysis is usual for slope, 
 aspect, and curvature models in raster format. Using the 
-==============================
-
-==============================
-index=0 left=286 right=520 top=544 bottom=551 ====>
-
-one epoch of data. However, two epochs of 3D data (one 
-==============================
-
-==============================
-index=0 left=35 right=64 top=556 bottom=563 ====>
-
-results 
-==============================
-
-==============================
-index=0 left=66 right=76 top=556 bottom=563 ====>
-
-of 
-==============================
-
-==============================
-index=0 left=78 right=107 top=556 bottom=563 ====>
-
-terrain 
-==============================
-
-==============================
-index=0 left=109 right=143 top=556 bottom=563 ====>
-
-analysis 
-==============================
-
-==============================
-index=0 left=145 right=169 top=556 bottom=563 ====>
-
-along 
-==============================
-
-==============================
-index=0 left=171 right=191 top=556 bottom=563 ====>
-
-with 
-==============================
-
-==============================
-index=0 left=193 right=209 top=556 bottom=563 ====>
-
-soil 
-==============================
-
-==============================
-index=0 left=211 right=260 top=556 bottom=563 ====>
-
-parameters, 
-==============================
-
-==============================
-index=0 left=262 right=269 top=556 bottom=563 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=286 right=520 top=556 bottom=563 ====>
-
-before and after the landslide occurred) may reveal more 
-==============================
-
-==============================
-index=0 left=35 right=269 top=568 bottom=575 ====>
-
+results of terrain analysis along with soil parameters, a 
 landslide susceptibility map is created, which is generally 
-==============================
-
-==============================
-index=0 left=286 right=520 top=568 bottom=575 ====>
-
-realistic results for elevation change in topography (Burns 
-==============================
-
-==============================
-index=0 left=35 right=269 top=580 bottom=587 ====>
-
 based on a single epoch of the DTM (Ostu, 1979; McKean 
-==============================
-
-==============================
-index=0 left=286 right=520 top=580 bottom=587 ====>
-
-et al., 2010). Consequently, modeling them can help one 
-==============================
-
-==============================
-index=0 left=35 right=53 top=592 bottom=599 ====>
-
-and 
-==============================
-
-==============================
-index=0 left=55 right=91 top=592 bottom=599 ====>
-
-Roering, 
-==============================
-
-==============================
-index=0 left=93 right=117 top=592 bottom=599 ====>
-
-2004; 
-==============================
-
-==============================
-index=0 left=119 right=148 top=592 bottom=599 ====>
-
-Glenn, 
-==============================
-
-==============================
-index=0 left=150 right=160 top=592 bottom=599 ====>
-
-et 
-==============================
-
-==============================
-index=0 left=162 right=176 top=592 bottom=599 ====>
-
-al., 
-==============================
-
-==============================
-index=0 left=178 right=201 top=592 bottom=599 ====>
-
-2006; 
-==============================
-
-==============================
-index=0 left=203 right=221 top=592 bottom=599 ====>
-
-Van 
-==============================
-
-==============================
-index=0 left=223 right=257 top=592 bottom=599 ====>
-
-Westen, 
-==============================
-
-==============================
-index=0 left=259 right=269 top=592 bottom=599 ====>
-
-et 
-==============================
-
-==============================
-index=0 left=286 right=520 top=592 bottom=599 ====>
-
-to determine realistic results for landslide determination. 
-==============================
-
-==============================
-index=0 left=35 right=49 top=604 bottom=611 ====>
-
-al., 
-==============================
-
-==============================
-index=0 left=51 right=75 top=604 bottom=611 ====>
-
-2008; 
-==============================
-
-==============================
-index=0 left=77 right=111 top=604 bottom=611 ====>
-
-Shahabi 
-==============================
-
-==============================
-index=0 left=114 right=131 top=604 bottom=611 ====>
-
-and 
-==============================
-
-==============================
-index=0 left=133 right=169 top=604 bottom=611 ====>
-
-Hashim, 
-==============================
-
-==============================
-index=0 left=172 right=199 top=604 bottom=611 ====>
-
-2015). 
-==============================
-
-==============================
-index=0 left=201 right=234 top=604 bottom=611 ====>
-
-Remote 
-==============================
-
-==============================
-index=0 left=237 right=269 top=604 bottom=611 ====>
-
-sensing 
-==============================
-
-==============================
-index=0 left=286 right=520 top=604 bottom=611 ====>
-
-One type of landslide is a rotational landslide classified by 
-==============================
-
-==============================
-index=0 left=35 right=81 top=616 bottom=623 ====>
-
-techniques 
-==============================
-
-==============================
-index=0 left=84 right=104 top=616 bottom=623 ====>
-
-have 
-==============================
-
-==============================
-index=0 left=107 right=128 top=616 bottom=623 ====>
-
-been 
-==============================
-
-==============================
-index=0 left=131 right=152 top=616 bottom=623 ====>
-
-used 
-==============================
-
-==============================
-index=0 left=155 right=169 top=616 bottom=623 ====>
-
-for 
-==============================
-
-==============================
-index=0 left=172 right=211 top=616 bottom=623 ====>
-
-detection 
-==============================
-
-==============================
-index=0 left=214 right=224 top=616 bottom=623 ====>
-
-of 
-==============================
-
-==============================
-index=0 left=227 right=269 top=616 bottom=623 ====>
-
-landslides 
-==============================
-
-==============================
-index=0 left=286 right=520 top=616 bottom=623 ====>
-
-Varnes (1978). In this field, more modeling for detection 
-==============================
-
-==============================
-index=0 left=35 right=47 top=628 bottom=635 ====>
-
-by 
-==============================
-
-==============================
-index=0 left=50 right=79 top=628 bottom=635 ====>
-
-several 
-==============================
-
-==============================
-index=0 left=82 right=131 top=628 bottom=635 ====>
-
-researchers. 
-==============================
-
-==============================
-index=0 left=134 right=178 top=628 bottom=635 ====>
-
-Fernández 
-==============================
-
-==============================
-index=0 left=180 right=190 top=628 bottom=635 ====>
-
-et 
-==============================
-
-==============================
-index=0 left=192 right=204 top=628 bottom=635 ====>
-
-al. 
-==============================
-
-==============================
-index=0 left=206 right=235 top=628 bottom=635 ====>
-
-(2008) 
-==============================
-
-==============================
-index=0 left=237 right=269 top=628 bottom=635 ====>
-
-studied 
-==============================
-
-==============================
-index=0 left=286 right=440 top=628 bottom=635 ====>
-
-and estimation of landslides is needed.
-==============================
-
-==============================
-index=0 left=35 right=74 top=640 bottom=647 ====>
-
-landslide 
-==============================
-
-==============================
-index=0 left=76 right=115 top=640 bottom=647 ====>
-
-detection 
-==============================
-
-==============================
-index=0 left=117 right=128 top=640 bottom=647 ====>
-
-in 
-==============================
-
-==============================
-index=0 left=130 right=150 top=640 bottom=647 ====>
-
-rock 
-==============================
-
-==============================
-index=0 left=152 right=182 top=640 bottom=647 ====>
-
-masses 
-==============================
-
-==============================
-index=0 left=184 right=193 top=640 bottom=647 ====>
-
-at 
-==============================
-
-==============================
-index=0 left=195 right=218 top=640 bottom=647 ====>
-
-Betic 
-==============================
-
-==============================
-index=0 left=220 right=269 top=640 bottom=647 ====>
-
-Cordilleras, 
-==============================
-
-==============================
-index=0 left=300 right=520 top=640 bottom=647 ====>
-
-In the present study, a first-order differential equation 
-==============================
-
-==============================
-index=0 left=35 right=62 top=652 bottom=659 ====>
-
-Spain. 
-==============================
-
-==============================
-index=0 left=64 right=145 top=652 bottom=659 ====>
-
-Two multitemporal 
-==============================
-
-==============================
-index=0 left=147 right=177 top=652 bottom=659 ====>
-
-epochs 
-==============================
-
-==============================
-index=0 left=179 right=189 top=652 bottom=659 ====>
-
-of 
-==============================
-
-==============================
-index=0 left=191 right=269 top=652 bottom=659 ====>
-
-LiDAR data along 
-==============================
-
-==============================
-index=0 left=286 right=304 top=652 bottom=659 ====>
-
-that 
-==============================
-
-==============================
-index=0 left=308 right=342 top=652 bottom=659 ====>
-
-governs 
-==============================
-
-==============================
-index=0 left=345 right=352 top=652 bottom=659 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=356 right=397 top=652 bottom=659 ====>
-
-rotational 
-==============================
-
-==============================
-index=0 left=401 right=439 top=652 bottom=659 ====>
-
-landslide 
-==============================
-
-==============================
-index=0 left=443 right=452 top=652 bottom=659 ====>
-
-is 
-==============================
-
-==============================
-index=0 left=455 right=498 top=652 bottom=659 ====>
-
-developed 
-==============================
-
-==============================
-index=0 left=502 right=520 top=652 bottom=659 ====>
-
-and 
-==============================
-
-==============================
-index=0 left=35 right=269 top=664 bottom=671 ====>
-
+and Roering, 2004; Glenn, et al., 2006; Van Westen, et 
+al., 2008; Shahabi and Hashim, 2015). Remote sensing 
+techniques have been used for detection of landslides 
+by several researchers. Fernández et al. (2008) studied 
+landslide detection in rock masses at Betic Cordilleras, 
+Spain. Two multitemporal epochs of LiDAR data along 
 with supplemental optical satellite imagery were used by 
+Burns et al. (2010) to detect landslides bigger than 0.5 
+m. A review was done by Jaboyedoff et al. (2012). Chen 
+et al. (2014) proposed a landslide detection procedure 
 ==============================
 
 ==============================
-index=0 left=286 right=326 top=664 bottom=671 ====>
+type: text
+typeindex=0 left=286 right=520 top=436 bottom=707 
+====>
 
-proposed 
-==============================
-
-==============================
-index=0 left=328 right=346 top=664 bottom=671 ====>
-
-as a 
-==============================
-
-==============================
-index=0 left=348 right=375 top=664 bottom=671 ====>
-
-search 
-==============================
-
-==============================
-index=0 left=377 right=447 top=664 bottom=671 ====>
-
-tool in detecting 
-==============================
-
-==============================
-index=0 left=449 right=466 top=664 bottom=671 ====>
-
-and 
-==============================
-
-==============================
-index=0 left=468 right=520 top=664 bottom=671 ====>
-
-determining 
-==============================
-
-==============================
-index=0 left=35 right=62 top=676 bottom=683 ====>
-
-Burns 
-==============================
-
-==============================
-index=0 left=64 right=73 top=676 bottom=683 ====>
-
-et 
-==============================
-
-==============================
-index=0 left=75 right=117 top=676 bottom=683 ====>
-
-al. (2010) 
-==============================
-
-==============================
-index=0 left=119 right=129 top=676 bottom=683 ====>
-
-to 
-==============================
-
-==============================
-index=0 left=131 right=157 top=676 bottom=683 ====>
-
-detect 
-==============================
-
-==============================
-index=0 left=159 right=201 top=676 bottom=683 ====>
-
-landslides 
-==============================
-
-==============================
-index=0 left=203 right=230 top=676 bottom=683 ====>
-
-bigger 
-==============================
-
-==============================
-index=0 left=232 right=253 top=676 bottom=683 ====>
-
-than 
-==============================
-
-==============================
-index=0 left=255 right=269 top=676 bottom=683 ====>
-
-0.5 
-==============================
-
-==============================
-index=0 left=286 right=520 top=676 bottom=683 ====>
-
+in a forested area, involving aspect, slope images, and 
+a DTM. Hastao?lu (2013) utilized dynamic Kalman 
+filtering in dynamic and kinematic modelling. For a 
+forested area, a landslide susceptibility map was created 
+by Eker and Ayd?n (2014). For areas of different size, 
+geo-environmental setting, and landslide types, Hussin 
+et al. (2016) proposed a landslide susceptibility model 
+based on weights-of-evidence (WoE). The majority of the 
+studies described above used pixel-based procedures for 
+one epoch of data. However, two epochs of 3D data (one 
+before and after the landslide occurred) may reveal more 
+realistic results for elevation change in topography (Burns 
+et al., 2010). Consequently, modeling them can help one 
+to determine realistic results for landslide determination. 
+One type of landslide is a rotational landslide classified by 
+Varnes (1978). In this field, more modeling for detection 
+and estimation of landslides is needed.
+In the present study, a first-order differential equation 
+that governs a rotational landslide is developed and 
+proposed as a search tool in detecting and determining 
 the parameters of rotational landslides from two epochs of 
-==============================
-
-==============================
-index=0 left=35 right=88 top=688 bottom=695 ====>
-
-m. A review 
-==============================
-
-==============================
-index=0 left=90 right=188 top=688 bottom=695 ====>
-
-was done by Jaboyedoff 
-==============================
-
-==============================
-index=0 left=190 right=269 top=688 bottom=695 ====>
-
-et al. (2012). Chen 
-==============================
-
-==============================
-index=0 left=286 right=520 top=688 bottom=695 ====>
-
 LiDAR data: one before and one after a rotational landslide 
-==============================
-
-==============================
-index=0 left=35 right=45 top=700 bottom=707 ====>
-
-et 
-==============================
-
-==============================
-index=0 left=47 right=59 top=700 bottom=707 ====>
-
-al. 
-==============================
-
-==============================
-index=0 left=61 right=90 top=700 bottom=707 ====>
-
-(2014) 
-==============================
-
-==============================
-index=0 left=92 right=132 top=700 bottom=707 ====>
-
-proposed 
-==============================
-
-==============================
-index=0 left=134 right=141 top=700 bottom=707 ====>
-
-a 
-==============================
-
-==============================
-index=0 left=143 right=181 top=700 bottom=707 ====>
-
-landslide 
-==============================
-
-==============================
-index=0 left=184 right=223 top=700 bottom=707 ====>
-
-detection 
-==============================
-
-==============================
-index=0 left=226 right=269 top=700 bottom=707 ====>
-
-procedure 
-==============================
-
-==============================
-index=0 left=286 right=324 top=700 bottom=707 ====>
-
 occurred.
 ==============================
 
 ==============================
-index=-1 left=35 right=172 top=724 bottom=730 ====>
+type: notes
+typeindex=-1 left=35 right=172 top=724 bottom=730 
+====>
 
 * Correspondence: ctcelik@ohu.edu.tr
 ==============================
 
 ==============================
-index=1 left=501 right=517 top=737 bottom=744 ====>
+type: subtitle level1
+typeindex=1 left=501 right=517 top=737 bottom=744 
+====>
 
 277
 ==============================

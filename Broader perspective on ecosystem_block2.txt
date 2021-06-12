@@ -1,0 +1,3258 @@
+==============================
+type: notes
+typeindex=-1 left=60 right=121 top=54 bottom=59 
+====>
+
+PERSPECTIVE
+==============================
+
+==============================
+type: title
+typeindex=2 left=31 right=416 top=99 bottom=202 
+====>
+
+Broaderperspectiveonecosystem
+sustainability:Consequencesfor
+decisionmaking
+Roy
+aEcosystems
+b
+Gulf
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=62 right=96 top=169 bottom=178 
+====>
+
+a,1Sidle,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=147 right=186 top=169 bottom=178 
+====>
+
+bBenson,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=222 right=264 top=169 bottom=178 
+====>
+
+bCarriger,
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=332 right=363 top=169 bottom=178 
+====>
+
+cKamai
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=51 right=59 top=173 bottom=178 
+====>
+
+C.
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=99 right=132 top=173 bottom=178 
+====>
+
+William
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=135 right=144 top=173 bottom=178 
+====>
+
+H.
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=189 right=209 top=173 bottom=178 
+====>
+
+John
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=212 right=219 top=173 bottom=178 
+====>
+
+F.
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=267 right=283 top=173 bottom=178 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-2 left=286 right=329 top=173 bottom=178 
+====>
+
+Toshitaka
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=79 right=111 top=185 bottom=190 
+====>
+
+Research
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=114 right=144 top=185 bottom=190 
+====>
+
+Division,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=147 right=179 top=185 bottom=190 
+====>
+
+National
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=182 right=214 top=185 bottom=190 
+====>
+
+Exposure
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=217 right=250 top=185 bottom=190 
+====>
+
+Research
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=253 right=294 top=185 bottom=190 
+====>
+
+Laboratory,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=297 right=306 top=185 bottom=190 
+====>
+
+US
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=309 right=361 top=185 bottom=190 
+====>
+
+Environmental
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=364 right=402 top=185 bottom=190 
+====>
+
+Protection
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=404 right=452 top=185 bottom=190 
+====>
+
+Agency-ORD,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=455 right=483 top=185 bottom=190 
+====>
+
+Athens,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=486 right=497 top=185 bottom=190 
+====>
+
+GA
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=500 right=525 top=185 bottom=190 
+====>
+
+30605;
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=52 right=112 top=197 bottom=214 
+====>
+
+Ecology
+c
+Research
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=84 right=114 top=197 bottom=202 
+====>
+
+Division,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=117 right=148 top=197 bottom=202 
+====>
+
+National
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=151 right=175 top=197 bottom=202 
+====>
+
+Health
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=178 right=192 top=197 bottom=202 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=195 right=247 top=197 bottom=202 
+====>
+
+Environmental
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=250 right=274 top=197 bottom=202 
+====>
+
+Effects
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=277 right=318 top=197 bottom=202 
+====>
+
+Laboratory,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=321 right=331 top=197 bottom=202 
+====>
+
+US
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=334 right=386 top=197 bottom=202 
+====>
+
+Environmental
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=389 right=426 top=197 bottom=202 
+====>
+
+Protection
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=429 right=477 top=197 bottom=202 
+====>
+
+Agency-ORD,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=480 right=495 top=197 bottom=202 
+====>
+
+Gulf
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=498 right=523 top=197 bottom=202 
+====>
+
+Breeze,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=526 right=534 top=197 bottom=202 
+====>
+
+FL
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=31 right=57 top=209 bottom=214 
+====>
+
+32561;
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=60 right=74 top=209 bottom=214 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=115 right=139 top=209 bottom=214 
+====>
+
+Center
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=141 right=151 top=209 bottom=214 
+====>
+
+on
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=154 right=194 top=209 bottom=214 
+====>
+
+Landslides,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=197 right=226 top=209 bottom=214 
+====>
+
+Disaster
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=229 right=267 top=209 bottom=214 
+====>
+
+Prevention
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=270 right=302 top=209 bottom=214 
+====>
+
+Research
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=305 right=337 top=209 bottom=214 
+====>
+
+Institute,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=340 right=361 top=209 bottom=214 
+====>
+
+Kyoto
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=364 right=400 top=209 bottom=214 
+====>
+
+University,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=403 right=438 top=209 bottom=214 
+====>
+
+Gokasho,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=441 right=453 top=209 bottom=214 
+====>
+
+Uji,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=455 right=477 top=209 bottom=214 
+====>
+
+Kyoto
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=480 right=517 top=209 bottom=214 
+====>
+
+611-0011,
+==============================
+
+==============================
+type: notes
+typeindex=-4 left=520 right=541 top=209 bottom=214 
+====>
+
+Japan
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=31 right=49 top=225 bottom=229 
+====>
+
+Edited
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=51 right=58 top=225 bottom=229 
+====>
+
+by
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=60 right=84 top=225 bottom=229 
+====>
+
+Stephen
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=86 right=92 top=225 bottom=229 
+====>
+
+R.
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=94 right=124 top=225 bottom=229 
+====>
+
+Carpenter,
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=127 right=155 top=225 bottom=229 
+====>
+
+University
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=157 right=163 top=225 bottom=229 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=165 right=196 top=225 bottom=229 
+====>
+
+Wisconsin,
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=198 right=225 top=225 bottom=229 
+====>
+
+Madison,
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=227 right=237 top=225 bottom=229 
+====>
+
+WI,
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=240 right=250 top=225 bottom=229 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=253 right=280 top=225 bottom=229 
+====>
+
+approved
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=282 right=296 top=225 bottom=229 
+====>
+
+April
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=298 right=304 top=225 bottom=229 
+====>
+
+2,
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=306 right=321 top=225 bottom=229 
+====>
+
+2013
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=323 right=349 top=225 bottom=229 
+====>
+
+(received
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=351 right=359 top=225 bottom=229 
+====>
+
+for
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=362 right=381 top=225 bottom=229 
+====>
+
+review
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=383 right=408 top=225 bottom=229 
+====>
+
+February
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=410 right=416 top=225 bottom=229 
+====>
+
+4,
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=418 right=435 top=225 bottom=229 
+====>
+
+2013)
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=65 top=241 bottom=245 
+====>
+
+Although
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=68 right=79 top=241 bottom=245 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=82 right=111 top=241 bottom=245 
+====>
+
+concept
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=114 right=121 top=241 bottom=245 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=124 right=162 top=241 bottom=245 
+====>
+
+ecosystem
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=165 right=212 top=241 bottom=245 
+====>
+
+sustainability
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=215 right=228 top=241 bottom=245 
+====>
+
+has
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=230 right=235 top=241 bottom=245 
+====>
+
+a
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=238 right=273 top=241 bottom=245 
+====>
+
+long-term
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=276 right=298 top=241 bottom=245 
+====>
+
+focus,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=301 right=306 top=241 bottom=245 
+====>
+
+it
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=308 right=314 top=241 bottom=245 
+====>
+
+is
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=317 right=336 top=241 bottom=245 
+====>
+
+often
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=339 right=365 top=241 bottom=245 
+====>
+
+viewed
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=368 right=385 top=241 bottom=245 
+====>
+
+from
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=388 right=392 top=241 bottom=245 
+====>
+
+a
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=395 right=415 top=241 bottom=245 
+====>
+
+static
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=417 right=443 top=241 bottom=245 
+====>
+
+system
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=445 right=489 top=241 bottom=245 
+====>
+
+perspective.
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=492 right=521 top=241 bottom=245 
+====>
+
+Because
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=524 right=542 top=241 bottom=245 
+====>
+
+most
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=72 top=251 bottom=255 
+====>
+
+ecosystems
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=75 right=86 top=251 bottom=255 
+====>
+
+are
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=89 right=122 top=251 bottom=255 
+====>
+
+dynamic,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=124 right=135 top=251 bottom=255 
+====>
+
+we
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=138 right=165 top=251 bottom=255 
+====>
+
+explore
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=167 right=215 top=251 bottom=255 
+====>
+
+sustainability
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=217 right=262 top=251 bottom=255 
+====>
+
+assessments
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=265 right=282 top=251 bottom=255 
+====>
+
+from
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=285 right=304 top=251 bottom=255 
+====>
+
+three
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=306 right=343 top=251 bottom=255 
+====>
+
+additional
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=345 right=392 top=251 bottom=255 
+====>
+
+perspectives:
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=395 right=424 top=251 bottom=255 
+====>
+
+resilient
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=426 right=457 top=251 bottom=255 
+====>
+
+systems;
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=460 right=488 top=251 bottom=255 
+====>
+
+systems
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=491 right=514 top=251 bottom=255 
+====>
+
+where
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=516 right=542 top=251 bottom=255 
+====>
+
+tipping
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=54 top=261 bottom=265 
+====>
+
+points
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=56 right=78 top=261 bottom=265 
+====>
+
+occur;
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=80 right=94 top=261 bottom=265 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=96 right=124 top=261 bottom=265 
+====>
+
+systems
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=126 right=152 top=261 bottom=265 
+====>
+
+subject
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=154 right=162 top=261 bottom=265 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=164 right=194 top=261 bottom=265 
+====>
+
+episodic
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=196 right=230 top=261 bottom=265 
+====>
+
+resetting.
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=232 right=264 top=261 bottom=265 
+====>
+
+Whereas
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=266 right=309 top=261 bottom=265 
+====>
+
+foundations
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=311 right=319 top=261 bottom=265 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=321 right=359 top=261 bottom=265 
+====>
+
+ecosystem
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=361 right=395 top=261 bottom=265 
+====>
+
+resilience
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=397 right=434 top=261 bottom=265 
+====>
+
+originated
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=436 right=443 top=261 bottom=265 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=445 right=475 top=261 bottom=265 
+====>
+
+ecology,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=477 right=500 top=261 bottom=265 
+====>
+
+recent
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=502 right=542 top=261 bottom=265 
+====>
+
+discussions
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=48 top=271 bottom=275 
+====>
+
+have
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=51 right=79 top=271 bottom=275 
+====>
+
+focused
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=81 right=90 top=271 bottom=275 
+====>
+
+on
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=93 right=135 top=271 bottom=275 
+====>
+
+geophysical
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=137 right=175 top=271 bottom=275 
+====>
+
+attributes,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=177 right=191 top=271 bottom=275 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=193 right=198 top=271 bottom=275 
+====>
+
+it
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=201 right=206 top=271 bottom=275 
+====>
+
+is
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=209 right=248 top=271 bottom=275 
+====>
+
+recognized
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=250 right=265 top=271 bottom=275 
+====>
+
+that
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=268 right=298 top=271 bottom=275 
+====>
+
+dynamic
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=300 right=326 top=271 bottom=275 
+====>
+
+system
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=328 right=372 top=271 bottom=275 
+====>
+
+components
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=375 right=390 top=271 bottom=275 
+====>
+
+may
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=392 right=405 top=271 bottom=275 
+====>
+
+not
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=407 right=429 top=271 bottom=275 
+====>
+
+return
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=431 right=439 top=271 bottom=275 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=441 right=458 top=271 bottom=275 
+====>
+
+their
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=461 right=485 top=271 bottom=275 
+====>
+
+former
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=487 right=505 top=271 bottom=275 
+====>
+
+state
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=508 right=542 top=271 bottom=275 
+====>
+
+following
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=112 top=281 bottom=285 
+====>
+
+perturbations.Tipping
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=114 right=137 top=281 bottom=285 
+====>
+
+points
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=139 right=166 top=281 bottom=285 
+====>
+
+emerge
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=169 right=189 top=281 bottom=285 
+====>
+
+when
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=191 right=218 top=281 bottom=285 
+====>
+
+chronic
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=220 right=250 top=281 bottom=285 
+====>
+
+changes
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=252 right=284 top=281 bottom=285 
+====>
+
+(typically
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=287 right=342 top=281 bottom=285 
+====>
+
+anthropogenic,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=344 right=357 top=281 bottom=285 
+====>
+
+but
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=359 right=398 top=281 bottom=285 
+====>
+
+sometimes
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=400 right=429 top=281 bottom=285 
+====>
+
+natural)
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=431 right=448 top=281 bottom=285 
+====>
+
+push
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=451 right=492 top=281 bottom=285 
+====>
+
+ecosystems
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=494 right=502 top=281 bottom=285 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=504 right=542 top=281 bottom=285 
+====>
+
+thresholds
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=46 top=291 bottom=295 
+====>
+
+that
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=48 right=69 top=291 bottom=295 
+====>
+
+cause
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=71 right=100 top=291 bottom=295 
+====>
+
+collapse
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=103 right=110 top=291 bottom=295 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=113 right=140 top=291 bottom=295 
+====>
+
+process
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=142 right=156 top=291 bottom=295 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=158 right=189 top=291 bottom=295 
+====>
+
+function
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=191 right=205 top=291 bottom=295 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=207 right=222 top=291 bottom=295 
+====>
+
+may
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=225 right=253 top=291 bottom=295 
+====>
+
+become
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=256 right=298 top=291 bottom=295 
+====>
+
+permanent.
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=300 right=338 top=291 bottom=295 
+====>
+
+Ecosystem
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=340 right=373 top=291 bottom=295 
+====>
+
+resetting
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=375 right=398 top=291 bottom=295 
+====>
+
+occurs
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=401 right=421 top=291 bottom=295 
+====>
+
+when
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=423 right=453 top=291 bottom=295 
+====>
+
+episodic
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=455 right=481 top=291 bottom=295 
+====>
+
+natural
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=483 right=515 top=291 bottom=295 
+====>
+
+disasters
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=518 right=542 top=291 bottom=295 
+====>
+
+breach
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=69 top=301 bottom=305 
+====>
+
+thresholds
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=72 right=89 top=301 bottom=305 
+====>
+
+with
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=93 right=109 top=301 bottom=305 
+====>
+
+little
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=113 right=120 top=301 bottom=305 
+====>
+
+or
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=124 right=133 top=301 bottom=305 
+====>
+
+no
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=137 right=169 top=301 bottom=305 
+====>
+
+warning,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=173 right=205 top=301 bottom=305 
+====>
+
+resulting
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=208 right=215 top=301 bottom=305 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=219 right=255 top=301 bottom=305 
+====>
+
+long-term
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=258 right=288 top=301 bottom=305 
+====>
+
+changes
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=292 right=299 top=301 bottom=305 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=303 right=355 top=301 bottom=305 
+====>
+
+environmental
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=359 right=394 top=301 bottom=305 
+====>
+
+attributes
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=398 right=405 top=301 bottom=305 
+====>
+
+or
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=409 right=447 top=301 bottom=305 
+====>
+
+ecosystem
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=450 right=483 top=301 bottom=305 
+====>
+
+function.
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=486 right=497 top=301 bottom=305 
+====>
+
+An
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=500 right=531 top=301 bottom=305 
+====>
+
+example
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=535 right=542 top=301 bottom=305 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=79 top=311 bottom=315 
+====>
+
+sustainability
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=81 right=122 top=311 bottom=315 
+====>
+
+assessment
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=124 right=132 top=311 bottom=315 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=134 right=171 top=311 bottom=315 
+====>
+
+ecosystem
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=173 right=196 top=311 bottom=315 
+====>
+
+goods
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=198 right=211 top=311 bottom=315 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=213 right=242 top=311 bottom=315 
+====>
+
+services
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=244 right=264 top=311 bottom=315 
+====>
+
+along
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=266 right=278 top=311 bottom=315 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=280 right=295 top=311 bottom=315 
+====>
+
+Gulf
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=297 right=317 top=311 bottom=315 
+====>
+
+Coast
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=319 right=339 top=311 bottom=315 
+====>
+
+(USA)
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=341 right=391 top=311 bottom=315 
+====>
+
+demonstrates
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=393 right=405 top=311 bottom=315 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=407 right=425 top=311 bottom=315 
+====>
+
+need
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=427 right=435 top=311 bottom=315 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=437 right=463 top=311 bottom=315 
+====>
+
+include
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=465 right=482 top=311 bottom=315 
+====>
+
+both
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=484 right=496 top=311 bottom=315 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=498 right=526 top=311 bottom=315 
+====>
+
+resilient
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=528 right=542 top=311 bottom=315 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=61 top=321 bottom=325 
+====>
+
+dynamic
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=64 right=88 top=321 bottom=325 
+====>
+
+nature
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=91 right=98 top=321 bottom=325 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=101 right=156 top=321 bottom=325 
+====>
+
+biogeomorphic
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=158 right=205 top=321 bottom=325 
+====>
+
+components.
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=208 right=243 top=321 bottom=325 
+====>
+
+Mountain
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=246 right=263 top=321 bottom=325 
+====>
+
+road
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=265 right=313 top=321 bottom=325 
+====>
+
+development
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=315 right=322 top=321 bottom=325 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=325 right=362 top=321 bottom=325 
+====>
+
+northwest
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=365 right=395 top=321 bottom=325 
+====>
+
+Yunnan,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=397 right=420 top=321 bottom=325 
+====>
+
+China,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=423 right=446 top=321 bottom=325 
+====>
+
+makes
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=449 right=469 top=321 bottom=325 
+====>
+
+rivers
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=471 right=485 top=321 bottom=325 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=488 right=513 top=321 bottom=325 
+====>
+
+related
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=516 right=542 top=321 bottom=325 
+====>
+
+habitat
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=69 top=331 bottom=335 
+====>
+
+vulnerable
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=71 right=79 top=331 bottom=335 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=82 right=108 top=331 bottom=335 
+====>
+
+tipping
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=111 right=135 top=331 bottom=335 
+====>
+
+points.
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=138 right=180 top=331 bottom=335 
+====>
+
+Ecosystems
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=182 right=200 top=331 bottom=335 
+====>
+
+reset
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=203 right=212 top=331 bottom=335 
+====>
+
+by
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=214 right=240 top=331 bottom=335 
+====>
+
+natural
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=243 right=275 top=331 bottom=335 
+====>
+
+disasters
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=278 right=289 top=331 bottom=335 
+====>
+
+are
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=292 right=306 top=331 bottom=335 
+====>
+
+also
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=309 right=347 top=331 bottom=335 
+====>
+
+presented,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=350 right=396 top=331 bottom=335 
+====>
+
+emphasizing
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=399 right=411 top=331 bottom=335 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=413 right=431 top=331 bottom=335 
+====>
+
+need
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=434 right=441 top=331 bottom=335 
+====>
+
+to
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=444 right=486 top=331 bottom=335 
+====>
+
+understand
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=488 right=500 top=331 bottom=335 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=503 right=542 top=331 bottom=335 
+====>
+
+magnitude
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=67 top=341 bottom=345 
+====>
+
+frequency
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=70 right=83 top=341 bottom=345 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=86 right=149 top=341 bottom=345 
+====>
+
+interrelationships
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=152 right=178 top=341 bottom=345 
+====>
+
+among
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=180 right=201 top=341 bottom=345 
+====>
+
+major
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=204 right=252 top=341 bottom=345 
+====>
+
+disturbances,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=255 right=263 top=341 bottom=345 
+====>
+
+as
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=266 right=290 top=341 bottom=345 
+====>
+
+shown
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=293 right=301 top=341 bottom=345 
+====>
+
+by
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=304 right=312 top=341 bottom=345 
+====>
+
+(i)
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=315 right=326 top=341 bottom=345 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=329 right=348 top=341 bottom=345 
+====>
+
+2011
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=351 right=371 top=341 bottom=345 
+====>
+
+Great
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=373 right=389 top=341 bottom=345 
+====>
+
+East
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=392 right=413 top=341 bottom=345 
+====>
+
+Japan
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=415 right=457 top=341 bottom=345 
+====>
+
+Earthquake
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=460 right=473 top=341 bottom=345 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=476 right=508 top=341 bottom=345 
+====>
+
+resulting
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=511 right=542 top=341 bottom=345 
+====>
+
+tsunami,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=64 top=351 bottom=355 
+====>
+
+including
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=67 right=83 top=351 bottom=355 
+====>
+
+how
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=86 right=136 top=351 bottom=355 
+====>
+
+unsustainable
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=138 right=160 top=351 bottom=355 
+====>
+
+urban
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=162 right=210 top=351 bottom=355 
+====>
+
+development
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=213 right=256 top=351 bottom=355 
+====>
+
+exacerbates
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=259 right=300 top=351 bottom=355 
+====>
+
+geodisaster
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=303 right=350 top=351 bottom=355 
+====>
+
+propagation,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=353 right=367 top=351 bottom=355 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-5 left=369 right=379 top=351 bottom=355 
+====>
+
+(ii)
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=381 right=414 top=351 bottom=355 
+====>
+
+repeated
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=417 right=438 top=351 bottom=355 
+====>
+
+major
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=440 right=485 top=351 bottom=355 
+====>
+
+earthquakes
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=488 right=501 top=351 bottom=355 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=504 right=542 top=351 bottom=355 
+====>
+
+associated
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=74 top=361 bottom=365 
+====>
+
+geomorphic
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=77 right=91 top=361 bottom=365 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=94 right=133 top=361 bottom=365 
+====>
+
+vegetation
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=136 right=182 top=361 bottom=365 
+====>
+
+disturbances
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=185 right=192 top=361 bottom=365 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=195 right=218 top=361 bottom=365 
+====>
+
+Papua
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=221 right=238 top=361 bottom=365 
+====>
+
+New
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=241 right=268 top=361 bottom=365 
+====>
+
+Guinea.
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=271 right=305 top=361 bottom=365 
+====>
+
+Although
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=308 right=317 top=361 bottom=365 
+====>
+
+all
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=320 right=328 top=361 bottom=365 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=331 right=350 top=361 bottom=365 
+====>
+
+these
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=353 right=391 top=361 bottom=365 
+====>
+
+ecosystem
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=394 right=444 top=361 bottom=365 
+====>
+
+perturbations
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=447 right=460 top=361 bottom=365 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=464 right=483 top=361 bottom=365 
+====>
+
+shifts
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=486 right=498 top=361 bottom=365 
+====>
+
+are
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=501 right=542 top=361 bottom=365 
+====>
+
+individually
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=31 right=73 top=371 bottom=375 
+====>
+
+recognized,
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=76 right=91 top=371 bottom=375 
+====>
+
+they
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=94 right=106 top=371 bottom=375 
+====>
+
+are
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=108 right=120 top=371 bottom=375 
+====>
+
+not
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=123 right=159 top=371 bottom=375 
+====>
+
+embraced
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=161 right=168 top=371 bottom=375 
+====>
+
+in
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=171 right=221 top=371 bottom=375 
+====>
+
+contemporary
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=224 right=265 top=371 bottom=375 
+====>
+
+sustainable
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=267 right=297 top=371 bottom=375 
+====>
+
+decision
+==============================
+
+==============================
+type: notes
+typeindex=-6 left=300 right=329 top=371 bottom=375 
+====>
+
+making.
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=31 right=61 top=390 bottom=394 
+====>
+
+ecosystem
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=63 right=88 top=390 bottom=394 
+====>
+
+stressors
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=95 right=119 top=390 bottom=394 
+====>
+
+complex
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=122 right=141 top=390 bottom=394 
+====>
+
+system
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=144 right=168 top=390 bottom=394 
+====>
+
+behavior
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=176 right=212 top=390 bottom=394 
+====>
+
+sustainability
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=215 right=237 top=390 bottom=394 
+====>
+
+analysis
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=244 right=272 top=390 bottom=394 
+====>
+
+cascading
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=274 right=293 top=390 bottom=394 
+====>
+
+effects
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=301 right=321 top=390 bottom=394 
+====>
+
+coastal
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=323 right=337 top=390 bottom=394 
+====>
+
+zone
+==============================
+
+==============================
+type: notes
+typeindex=-8 left=339 right=377 top=390 bottom=394 
+====>
+
+management
+==============================
+
+==============================
+type: subtitle level1
+typeindex=1 left=90 right=93 top=391 bottom=399 
+====>
+
+|
+==============================
+
+==============================
+type: subtitle level1
+typeindex=1 left=171 right=173 top=391 bottom=399 
+====>
+
+|
+==============================
+
+==============================
+type: subtitle level1
+typeindex=1 left=239 right=241 top=391 bottom=399 
+====>
+
+|
+==============================
+
+==============================
+type: subtitle level1
+typeindex=1 left=296 right=298 top=391 bottom=399 
+====>
+
+|
+==============================
+
+==============================
+type: text
+typeindex=0 left=31 right=195 top=421 bottom=731 
+====>
+
+Theconceptofsustainabilityincreasingly
+permeatesgovernment,academic,and
+private-sectororganizationalmantras.Sus-
+tainabilityisde?nedinmanyways,buta
+commonthreadliesinitsgoalofharmo-
+nizingenvironmental,economic,andso-
+cialopportunitiesforthebene?tofpresent
+andfuturegenerations(1–4).Inecosystem
+researchandmanagement,theunderlying
+foundationsofenvironmentalsustainability
+aresystemattributes—biosphere,hydro-
+sphere,geosphere,andatmosphere,and
+thelinkagesamongthem.Superimposed
+onthesenaturalecosystemattributesisthe
+humancomponent,consistingofhumans
+themselves,theireconomies,institutions,
+infrastructures,cultures,andrelatedland
+use(5–7).
+Beliefinthebalanceofnaturegaverise
+toearlyecologicalconceptssuchascarry-
+ingcapacityandmaximumsustainedyield,
+whichviewecosystemsaspermanentin
+formandstructurethatstrivetorecoverto
+an“equilibrium”statefollowingdistur-
+bances(8–10);thus,muchthoughtand
+researchhavebeeninvestedinincorporat-
+ingtheconceptofresilienceintosustainabil-
+ityassessments(11–13).Resilienceaddresses
+theabilityofecosystemstoabsorbchange
+anddisturbanceandadapttosmall-scale
+perturbations,bothinthelengthoftime
+==============================
+
+==============================
+type: text
+typeindex=0 left=204 right=369 top=421 bottom=731 
+====>
+
+ittakestorecoverfromexternalstress
+andinthemagnitudeofstressfromwhich
+asystemcanrecoverwithoutrapidlymoving
+toanewstablecondition(7,14).While
+manyresilienceconceptsevolvedfrom
+ecology(15),resiliencehasrelevanceto
+otherecosystemcharacteristics,suchas
+thesustainabilityofsurfacewater(16–18)
+andgroundwater(19).Althoughperturbed
+ecosystemsandcomponentsdonotalways
+returntotheexactstatebeforeadistur-
+bance,thereisarecognizedboundonthe
+breadthofresilience(20):ifasystemis
+viewedasresilient,itisgenerallyperceived
+asremainingwithinspeci?ed“bounds.”
+Whilethisnotionofanessentially?nite
+systemisacceptedevenbycriticsofsus-
+tainabledevelopment(21),theconceptsof
+permanentecosystemchangearetypically
+absentfromsustainabilitydiscussions.
+Tippingpointsareencounteredonestep
+beyondecosystemresilienceandrepresent
+thresholdsthat,whencrossed,resultin
+catastrophiccollapseofprocessesorfunc-
+tionsthatareextremelydif?culttorestore.
+Thesetippingpointsarecloselyassociated
+withcomplexsystembehaviorwheresmall
+andcumulativeanthropogenicand/ornat-
+uralstressorspushecosystemstowardcritical
+transitions,causinganabruptshiftfromone
+statetoanother(16,22,23).Negativetipping
+==============================
+
+==============================
+type: text
+typeindex=0 left=378 right=542 top=421 bottom=635 
+====>
+
+pointsareappliedtoprojectedcollapsesin
+ecosystemsrelatedtoclimatechange(24),
+climateanomalies(25),andland-usechange
+(26).Inmostscenarios,protracteddis-
+turbanceorstresscausesthesystemto
+loseresilience,followedbyanabruptal-
+terationinstateoncethetippingpointis
+exceeded(27).Positivetippingpointsmay
+occurwheninterventionsindegradedeco-
+systemsallowprocessesandpopulationsto
+recoverwiththehelpofhumaninnova-
+tion(28).
+Adifferentkindofthresholdiscrossed
+whenepisodicnaturaldisastersaffecteco-
+systems.Thesearereachedsuddenlywith
+littleornowarning,andtheresultingim-
+pactsonecosystemscanbedramaticand
+far-reaching(16).Examplesincludethe
+devastating2011earthquake-tsunamidi-
+sasterineasternJapan(29);laharsema-
+natingfromthe1985volcanicactivityat
+NevadodelRuiz,Colombia(30);climate
+==============================
+
+==============================
+type: notes
+typeindex=-7 left=726 right=763 top=566 bottom=569 
+====>
+
+PERSPECTIVE
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=378 right=430 top=652 bottom=655 
+====>
+
+Authorcontributions:
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=432 right=482 top=652 bottom=655 
+====>
+
+R.C.S.conceivedthe
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=484 right=524 top=652 bottom=655 
+====>
+
+perspective;and
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=526 right=542 top=652 bottom=655 
+====>
+
+R.C.S.,
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=378 right=396 top=661 bottom=664 
+====>
+
+W.H.B.,
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=398 right=412 top=661 bottom=664 
+====>
+
+J.F.C.,
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=414 right=423 top=661 bottom=664 
+====>
+
+and
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=425 right=434 top=661 bottom=664 
+====>
+
+T.K.
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=436 right=451 top=661 bottom=664 
+====>
+
+wrote
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=453 right=461 top=661 bottom=664 
+====>
+
+the
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=463 right=478 top=661 bottom=664 
+====>
+
+paper.
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=378 right=387 top=673 bottom=676 
+====>
+
+The
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=389 right=407 top=673 bottom=676 
+====>
+
+authors
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=409 right=427 top=673 bottom=676 
+====>
+
+declare
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=429 right=435 top=673 bottom=676 
+====>
+
+no
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=437 right=455 top=673 bottom=676 
+====>
+
+con?ict
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=457 right=462 top=673 bottom=676 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=464 right=484 top=673 bottom=676 
+====>
+
+interest.
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=378 right=387 top=685 bottom=688 
+====>
+
+This
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=389 right=404 top=685 bottom=688 
+====>
+
+article
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=406 right=410 top=685 bottom=688 
+====>
+
+is
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=412 right=415 top=685 bottom=688 
+====>
+
+a
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=417 right=430 top=685 bottom=688 
+====>
+
+PNAS
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=432 right=446 top=685 bottom=688 
+====>
+
+Direct
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=448 right=478 top=685 bottom=688 
+====>
+
+Submission.
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=378 right=403 top=694 bottom=700 
+====>
+
+1
+Towhom
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=405 right=444 top=697 bottom=700 
+====>
+
+correspondence
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=446 right=542 top=697 bottom=700 
+====>
+
+shouldbeaddressed.E-mail:sidle.roy@
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=380 right=401 top=705 bottom=708 
+====>
+
+epa.gov.
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=378 right=387 top=717 bottom=720 
+====>
+
+This
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=389 right=424 top=717 bottom=720 
+====>
+
+articlecontains
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=426 right=481 top=717 bottom=720 
+====>
+
+supportinginformation
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=483 right=497 top=717 bottom=720 
+====>
+
+online
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=499 right=503 top=717 bottom=720 
+====>
+
+at
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=505 right=542 top=717 bottom=720 
+====>
+
+www.pnas.org/
+==============================
+
+==============================
+type: notes
+typeindex=-13 left=378 right=531 top=726 bottom=729 
+====>
+
+lookup/suppl/doi:10.1073/pnas.1302328110/-/DCSupplemental.
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=31 right=174 top=751 bottom=755 
+====>
+
+www.pnas.org/cgi/doi/10.1073/pnas.1302328110
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=366 right=382 top=751 bottom=755 
+====>
+
+PNAS
+==============================
+
+==============================
+type: notes
+typeindex=-9 left=388 right=389 top=751 bottom=755 
+====>
+
+|
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=394 right=408 top=751 bottom=755 
+====>
+
+June
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=410 right=416 top=751 bottom=755 
+====>
+
+4,
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=418 right=432 top=751 bottom=755 
+====>
+
+2013
+==============================
+
+==============================
+type: notes
+typeindex=-9 left=437 right=439 top=751 bottom=755 
+====>
+
+|
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=444 right=455 top=751 bottom=755 
+====>
+
+vol.
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=457 right=468 top=751 bottom=755 
+====>
+
+110
+==============================
+
+==============================
+type: notes
+typeindex=-9 left=473 right=474 top=751 bottom=755 
+====>
+
+|
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=480 right=489 top=751 bottom=755 
+====>
+
+no.
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=491 right=498 top=751 bottom=755 
+====>
+
+23
+==============================
+
+==============================
+type: notes
+typeindex=-9 left=504 right=505 top=751 bottom=755 
+====>
+
+|
+==============================
+
+==============================
+type: notes
+typeindex=-10 left=510 right=542 top=751 bottom=755 
+====>
+
+9201–9208
+==============================
+
