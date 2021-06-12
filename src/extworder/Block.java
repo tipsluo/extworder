@@ -1,13 +1,19 @@
 package extworder;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Set;
+import java.util.TreeMap;
 
 public class Block {
 	int left=9999,top=9999,right=0,bottom=0;
 	float width,height;
+	float charHeight;
 	Content content;
 	ArrayList<Char> chars;
 	
@@ -41,6 +47,8 @@ public class Block {
 		Comparator<Char> compareByYX = (Char ch1, Char ch2) ->
 											ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
 		Collections.sort(chars,compareByYX);
+		
+		charHeight=mostCharHeight();
 	}
 	
 	private void expand(Char ch) {
@@ -64,5 +72,35 @@ public class Block {
 		if (right<ch.right) right=ch.right;
 		if (top>ch.top) top=ch.top;
 		if (bottom<ch.bottom) bottom=ch.bottom;
+	}
+	
+	private float mostCharHeight() {
+		TreeMap<Float,Integer> charHeights=new TreeMap<>();
+		
+		for (Char ch: chars) {
+			int n=charHeights.compute(ch.height, (k,v) -> (v == null ? 0 : v) + 1);
+        	charHeights.put(ch.height,n);
+		}
+		
+		Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		return maxHeight;
+	}
+	
+	public void write(FileWriter fw) throws IOException {
+		fw.write("==============================\n");
+		fw.write(String.format("index=%d left=%d right=%d top=%d bottom=%d ====>\n\n",
+				content.charHeightIndexes.get(charHeight),left,right,top,bottom));
+		
+		int y0=chars.get(0).bottom;
+		for(Char ch:chars) {
+			if (ch.top>y0) {
+				fw.write("\n");
+				y0=ch.bottom;
+			}
+			
+			fw.write(ch.str);
+		}
+		
+		fw.write("\n==============================\n\n");
 	}
 }

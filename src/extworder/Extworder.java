@@ -26,7 +26,8 @@ public class Extworder {
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
 		//main_test4_getText();
-		main_test5_block_display();
+		//main_test5_block_display();
+		main_test6_block_print();
 	}
 
 	static public void main_test1_gettext() throws IOException {
@@ -63,6 +64,10 @@ public class Extworder {
 	
 	static public void main_test5_block_display() throws IOException {
 		displayBlocks("A model for estimating parameters of rotational landslide");
+	}
+	
+	static public void main_test6_block_print() throws IOException {
+		printBlocks("A model for estimating parameters of rotational landslide");
 	}
 	
 	static private String getTitle(String fn) throws IOException {
@@ -224,5 +229,17 @@ public class Extworder {
 		} finally {
 			  myWriter.close();
 		}
+	}
+	
+	public static void printBlocks(String fn) throws IOException {
+		Content content = new Content(fn);
+		
+		Block.getAllBlocks(content);
+		
+		FileWriter myWriter= new FileWriter(fn+"_block2.txt");
+		
+		content.write(myWriter);
+		
+		myWriter.close();
 	}
 }

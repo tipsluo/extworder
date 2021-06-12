@@ -12,6 +12,8 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,10 +24,12 @@ import java.util.stream.Collectors;
 public class Content extends PDFTextStripper {
 	protected FileWriter myWriter;
     public TreeMap<Float,Integer> charHeights;
+    float textCharHeight;
     ArrayList<Char> chars;
     ArrayList<Block> blocks;
     public float width,height;
     public int right,bottom;
+    Map<Float,Integer> charHeightIndexes;
     Bitmap bitmap;
     public String title;
 	
@@ -59,6 +63,9 @@ public class Content extends PDFTextStripper {
 		bottom=Math.round(height);
 		
 		bitmap=new Bitmap(this);
+		
+		textCharHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		charHeightIndexes=makeCharHeightIndexes();
 		
 		Block.getAllBlocks(this);
 	}
@@ -183,6 +190,34 @@ public class Content extends PDFTextStripper {
 			if (ch.coverPoint(x,y)) return true;
 		}
 		return false;
+	}
+	
+	private Map<Float,Integer> makeCharHeightIndexes() {
+		float[] heights = new float[charHeights.size()];
+		int i=0;
+		for (Float h : charHeights.keySet()) {
+	        heights[i++]=h;
+		}
+		Arrays.sort(heights);
+		
+		int textHeightIndex=-1;
+		for(i = 0; i<heights.length;i++ )
+            if(heights[i] == textCharHeight) {
+            	textHeightIndex = i;
+                break;
+            }
+		
+		Map<Float,Integer> heightIndexes=new HashMap<>();
+		for(i=0; i<heights.length;i++ ) {
+			heightIndexes.put(heights[i],i-textHeightIndex);
+		}
+		
+		return heightIndexes;
+	}
+	
+	public void write(FileWriter fw) throws IOException {
+		for(Block block:blocks)
+			block.write(fw);
 	}
 	
 	class Bitmap {
