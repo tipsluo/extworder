@@ -9,6 +9,8 @@ public class Char {
 	String fontname;
 	int left,right,top,bottom;
 	Block block;
+	final static float _CharWidthRatio=1.5f;
+	final static float _CharHeightRatio=1.5f;
 	
 	public Char(String str,float x, float y, float height,float width, String fontname) {
 		this.str=str;
@@ -32,18 +34,14 @@ public class Char {
 		
 		if (top<1) return chars;
 		
-		//if (content.bitmap.points[left][top-1]==null) return chars;
-		
 		Char ch=null;
-		//Char ch=content.bitmap.points[left][top-1].ch;
-		//chars.add(ch);
 		
 		for (int i=left; i<=right; i++) {
 			int j=1;
-			for (int j1=1;j1<height;j1++) {
+			for (int j1=1;j1<height*_CharHeightRatio;j1++) {
 				j=top-j1;
 				if (j<0) break;
-				if (content.bitmap.points[i][j]==null) continue;
+				if (content.bitmap.points[i][j]!=null) break;
 			}
 			
 			if (j<0 || content.bitmap.points[i][j]==null) continue;
@@ -61,18 +59,15 @@ public class Char {
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
 		if (bottom >= content.bottom) return chars;
-
-		//if (content.bitmap.points[left][bottom+1]==null) return chars;
 		
 		Char ch=null;
-		//chars.add(ch);
 		
 		for (int i=left; i<=right; i++) {
 			int j=1;
-			for (int j1=1;j1<height;j1++) {
+			for (int j1=1;j1<height*_CharHeightRatio;j1++) {
 				j=bottom+j1;
-				if (j>content.bottom) break;
-				if (content.bitmap.points[i][j]==null) continue;
+				if (j>=content.bottom) break;
+				if (content.bitmap.points[i][j]!=null) break;
 			}
 			
 			if(j>content.bottom || content.bitmap.points[i][j]==null) continue;
@@ -90,14 +85,17 @@ public class Char {
 		
 		if (left<1) return chars;
 		
-		//if(content.bitmap.points[left-1][top]==null) return chars;
-		
-		//Char ch=content.bitmap.points[left-1][top].ch;
-		//chars.add(ch);
 		Char ch=null;
 		
-		for (int i=left-1,j=top; j<=bottom; j++) {
-			if (content.bitmap.points[i][j]==null) continue;
+		for (int j=top; j<=bottom; j++) {
+			int i=left;
+			for(int i1=1;i1<width*_CharWidthRatio;i1++) {
+				i=left-i1;
+				if (i<0) break;
+				if (content.bitmap.points[i][j]!=null) break;
+			}
+					
+			if (i<0 || content.bitmap.points[i][j]==null) continue;
 			if (ch==content.bitmap.points[i][j].ch) continue;
 			
 			ch=content.bitmap.points[i][j].ch;
@@ -112,14 +110,17 @@ public class Char {
 		
 		if (right >= content.right) return chars;
 		
-		//if(content.bitmap.points[right+1][top]==null) return chars;
-		
-		//Char ch=content.bitmap.points[right+1][top].ch;
-		//chars.add(ch);
 		Char ch=null;
 		
-		for (int i=right+1,j=top; j<=bottom; j++) {
-			if (content.bitmap.points[i][j]==null) continue;
+		for (int j=top; j<=bottom; j++) {
+			int i=right;
+			for(int i1=1;i1<width*_CharWidthRatio;i1++) {
+				i=right+i1;
+				if (i>content.width) break;
+				if (content.bitmap.points[i][j]!=null) break;
+			}
+			
+			if (i>=content.width || content.bitmap.points[i][j]==null) continue;
 			if (ch==content.bitmap.points[i][j].ch) continue;
 			
 			ch=content.bitmap.points[i][j].ch;

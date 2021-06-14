@@ -1,25 +1,10 @@
 ==============================
 type: title
-typeindex=3 left=30 right=209 top=91 bottom=105 
+typeindex=3 left=30 right=209 top=91 bottom=136 
 ====>
 
 Rapid #: -17611997
-==============================
-
-==============================
-type: subtitle level1
-typeindex=1 left=30 right=133 top=126 bottom=136 
-====>
-
-CROSS REF ID:
-==============================
-
-==============================
-type: subtitle level2
-typeindex=2 left=150 right=189 top=126 bottom=136 
-====>
-
-64015
+CROSS REF ID:64015
 ==============================
 
 ==============================
@@ -48,10 +33,11 @@ BORROWER:
 
 ==============================
 type: subtitle level2
-typeindex=2 left=150 right=281 top=182 bottom=192 
+typeindex=2 left=150 right=281 top=182 bottom=214 
 ====>
 
 CDH :: Main Library
+Article CC:CCG
 ==============================
 
 ==============================
@@ -60,14 +46,6 @@ typeindex=0 left=30 right=59 top=207 bottom=214
 ====>
 
 TYPE:
-==============================
-
-==============================
-type: text
-typeindex=0 left=150 right=220 top=207 bottom=214 
-====>
-
-Article CC:CCG
 ==============================
 
 ==============================
