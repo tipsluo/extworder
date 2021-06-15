@@ -22,7 +22,7 @@ import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 public class Content extends PDFTextStripper {
-	protected FileWriter myWriter;
+	//protected FileWriter myWriter;
     public TreeMap<Float,Integer> charHeights;
     float textCharHeight,titleCharHeight;
     ArrayList<Char> chars;
@@ -35,7 +35,7 @@ public class Content extends PDFTextStripper {
 	
 	public Content(String fn) throws IOException {
 		width=height=-1;
-		myWriter = new FileWriter(fn+"_char.txt");
+		//myWriter = new FileWriter(fn+"_char.txt");
 		charHeights=new TreeMap<>();
 		chars=new ArrayList<Char>();
 		blocks=new ArrayList<Block>();
@@ -94,13 +94,13 @@ public class Content extends PDFTextStripper {
         	if (width1>width) width=width1;
         	if (height1>height) height=height1;
         		
-        	try {
+        	/*try {
 	        	myWriter.write(str + " [(X=" + text.getXDirAdj() + ",Y=" +
 	                    text.getYDirAdj() + ") height=" + text.getHeightDir() + " width=" +
 	                    text.getWidthDirAdj() + "]\n");
         	} catch (IOException e) {
     			e.printStackTrace();
-        	}
+        	}*/
         }
     }
 	

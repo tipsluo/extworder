@@ -26,7 +26,7 @@ public class Extworder {
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
 		//main_test4_getText();
-		//main_test5_block_display();
+		main_test5_block_display();
 		main_test6_block_print();
 	}
 
@@ -64,6 +64,10 @@ public class Extworder {
 	
 	static public void main_test5_block_display() throws IOException {
 		displayBlocks("A model for estimating parameters of rotational landslide");
+		displayBlocks("Peace-Development and Peace Through");
+		displayBlocks("Broader perspective on ecosystem");
+		displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		displayBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	static public void main_test6_block_print() throws IOException {

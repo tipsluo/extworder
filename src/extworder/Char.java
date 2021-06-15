@@ -9,8 +9,6 @@ public class Char {
 	String fontname;
 	int left,right,top,bottom;
 	Block block;
-	final static float _CharWidthRatio=1.5f;
-	final static float _CharHeightRatio=1.5f;
 	
 	public Char(String str,float x, float y, float height,float width, String fontname) {
 		this.str=str;
@@ -38,7 +36,8 @@ public class Char {
 		
 		for (int i=left; i<=right; i++) {
 			int j=1;
-			for (int j1=1;j1<height*_CharHeightRatio;j1++) {
+			int j1=1;
+			for (;j1<height*Block._CharVGapRatio;j1++) {
 				j=top-j1;
 				if (j<0) break;
 				if (content.bitmap.points[i][j]!=null) break;
@@ -49,6 +48,9 @@ public class Char {
 			if (ch==content.bitmap.points[i][j].ch) continue;
 			
 			ch=content.bitmap.points[i][j].ch;
+			
+			if( j1 > ch.height*Block._CharVGapRatio ) continue;
+			
 			chars.add(ch);
 		}
 		
@@ -64,7 +66,8 @@ public class Char {
 		
 		for (int i=left; i<=right; i++) {
 			int j=1;
-			for (int j1=1;j1<height*_CharHeightRatio;j1++) {
+			int j1=1;
+			for (;j1<height*Block._CharVGapRatio;j1++) {
 				j=bottom+j1;
 				if (j>=content.bottom) break;
 				if (content.bitmap.points[i][j]!=null) break;
@@ -74,6 +77,9 @@ public class Char {
 			if (ch==content.bitmap.points[i][j].ch) continue;
 			
 			ch=content.bitmap.points[i][j].ch;
+			
+			if( j1 > ch.height*Block._CharVGapRatio ) continue;
+			
 			chars.add(ch);
 		}
 		
@@ -89,7 +95,7 @@ public class Char {
 		
 		for (int j=top; j<=bottom; j++) {
 			int i=left;
-			for(int i1=1;i1<width*_CharWidthRatio;i1++) {
+			for(int i1=1;i1<width*Block._CharHGapRatio;i1++) {
 				i=left-i1;
 				if (i<0) break;
 				if (content.bitmap.points[i][j]!=null) break;
@@ -114,7 +120,7 @@ public class Char {
 		
 		for (int j=top; j<=bottom; j++) {
 			int i=right;
-			for(int i1=1;i1<width*_CharWidthRatio;i1++) {
+			for(int i1=1;i1<width*Block._CharHGapRatio;i1++) {
 				i=right+i1;
 				if (i>content.width) break;
 				if (content.bitmap.points[i][j]!=null) break;

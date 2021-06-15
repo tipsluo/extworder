@@ -17,6 +17,10 @@ public class Block {
 	Content content;
 	ArrayList<Char> chars;
 	
+	final static float _CharHGapRatio=1f;
+	final static float _CharVGapRatio=1f;
+	final static float _HSpaceMin=1;
+	
 	public static void getAllBlocks(Content content) {
 		for(int x=0; x<=content.width;x++)
 			for(int y=0;y<=content.height;y++) {
@@ -102,13 +106,19 @@ public class Block {
 				content.charHeightIndexes.get(charHeight),left,right,top,bottom));
 		
 		int y0=chars.get(0).bottom;
+		int x0=chars.get(0).right;
 		for(Char ch:chars) {
 			if (ch.top>y0) {
 				fw.write("\n");
 				y0=ch.bottom;
+				x0=ch.right;
 			}
-			
+			if(ch.left > x0+_HSpaceMin) {
+				fw.write(" ");
+			}
 			fw.write(ch.str);
+			
+			x0=ch.right;
 		}
 		
 		fw.write("\n==============================\n\n");

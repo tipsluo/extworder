@@ -109,26 +109,26 @@ typeindex=0 left=35 right=269 top=436 bottom=707
 1. Introduction
 Landslide determinations and monitoring are important 
 for understanding their structures and behaviors. Studies 
-for determinations of landslides have utilized a digital 
+for  determinations  of  landslides  have  utilized  a  digital 
 terrain model (DTM) created by different sources of data 
-including light detection and ranging (LiDAR), which is 
-a powerful tool to create a bare ground model, canopy 
+including light detection and ranging  (LiDAR), which is 
+a  powerful  tool  to  create  a  bare  ground  model,  canopy 
 model, etc. (Shan and Toth, 2009). Following the creation 
-of the DTM, some terrain analysis is usual for slope, 
+of  the  DTM,  some  terrain  analysis  is  usual  for  slope, 
 aspect, and curvature models in raster format. Using the 
-results of terrain analysis along with soil parameters, a 
+results  of  terrain  analysis  along  with  soil  parameters,  a 
 landslide susceptibility map is created, which is generally 
 based on a single epoch of the DTM (Ostu, 1979; McKean 
-and Roering, 2004; Glenn, et al., 2006; Van Westen, et 
-al., 2008; Shahabi and Hashim, 2015). Remote sensing 
-techniques have been used for detection of landslides 
-by several researchers. Fernández et al. (2008) studied 
-landslide detection in rock masses at Betic Cordilleras, 
-Spain. Two multitemporal epochs of LiDAR data along 
+and  Roering,  2004;  Glenn,  et  al.,  2006;  Van  Westen,  et 
+al.,  2008;  Shahabi  and  Hashim,  2015).  Remote  sensing 
+techniques  have  been  used  for  detection  of  landslides 
+by  several  researchers.  Fernández  et  al.  (2008)  studied 
+landslide  detection  in  rock  masses  at  Betic  Cordilleras, 
+Spain.  Two multitemporal  epochs  of  LiDAR data along 
 with supplemental optical satellite imagery were used by 
-Burns et al. (2010) to detect landslides bigger than 0.5 
-m. A review was done by Jaboyedoff et al. (2012). Chen 
-et al. (2014) proposed a landslide detection procedure 
+Burns  et  al. (2010)  to  detect  landslides  bigger  than  0.5 
+m. A review  was done by Jaboyedoff  et al. (2012). Chen 
+et  al.  (2014)  proposed  a  landslide  detection  procedure 
 ==============================
 
 ==============================
@@ -136,15 +136,15 @@ type: text
 typeindex=0 left=286 right=520 top=436 bottom=707 
 ====>
 
-in a forested area, involving aspect, slope images, and 
-a DTM. Hastao?lu (2013) utilized dynamic Kalman 
-filtering in dynamic and kinematic modelling. For a 
-forested area, a landslide susceptibility map was created 
-by Eker and Ayd?n (2014). For areas of different size, 
-geo-environmental setting, and landslide types, Hussin 
-et al. (2016) proposed a landslide susceptibility model 
+in  a  forested  area,  involving  aspect,  slope  images,  and 
+a  DTM.  Hastao?lu  (2013)  utilized  dynamic  Kalman 
+filtering  in  dynamic  and  kinematic  modelling.  For  a 
+forested  area,  a  landslide susceptibility map  was created 
+by  Eker  and  Ayd?n  (2014).  For  areas  of  different  size, 
+geo-environmental  setting,  and  landslide  types,  Hussin 
+et  al.  (2016)  proposed  a  landslide  susceptibility  model 
 based on weights-of-evidence (WoE). The majority of the 
-studies described above used pixel-based procedures for 
+studies  described above  used  pixel-based procedures  for 
 one epoch of data. However, two epochs of 3D data (one 
 before and after the landslide occurred) may reveal more 
 realistic results for elevation change in topography (Burns 
@@ -154,8 +154,8 @@ One type of landslide is a rotational landslide classified by
 Varnes (1978). In this field, more modeling for detection 
 and estimation of landslides is needed.
 In the present study, a first-order differential equation 
-that governs a rotational landslide is developed and 
-proposed as a search tool in detecting and determining 
+that  governs  a  rotational  landslide  is  developed  and 
+proposed  as a  search  tool in detecting  and  determining 
 the parameters of rotational landslides from two epochs of 
 LiDAR data: one before and one after a rotational landslide 
 occurred.
