@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.TreeMap;
 
 public class Common {
-	final static float _CharHGapRatio=1f;
+	final static float _CharHGapRatio=2f;
 	final static float _CharVGapRatio=1f;
 	final static float _HSpaceMin=1;
 	

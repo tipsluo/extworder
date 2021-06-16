@@ -1,256 +1,289 @@
 ==============================
 type: title
-typeindex=null left=30 right=209 top=91 bottom=105 
+typeindex=3 left=30 right=209 top=91 bottom=105 
 ====>
 
 Rapid #: -17611997
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=133 top=126 bottom=136 
+type: subtitle level1
+typeindex=1 left=30 right=133 top=126 bottom=136 
 ====>
 
 CROSS REF ID:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=91 top=154 bottom=164 
+type: subtitle level1
+typeindex=1 left=30 right=91 top=154 bottom=164 
 ====>
 
 LENDER:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=118 top=182 bottom=192 
+type: subtitle level1
+typeindex=1 left=30 right=118 top=182 bottom=192 
 ====>
 
 BORROWER:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=59 top=207 bottom=214 
+type: text
+typeindex=0 left=30 right=59 top=207 bottom=214 
 ====>
 
 TYPE:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=109 top=227 bottom=234 
+type: text
+typeindex=0 left=30 right=109 top=227 bottom=234 
 ====>
 
 JOURNAL TITLE:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=139 top=247 bottom=254 
+type: text
+typeindex=0 left=30 right=139 top=247 bottom=254 
 ====>
 
 USER JOURNAL TITLE:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=105 top=267 bottom=274 
+type: text
+typeindex=0 left=30 right=105 top=267 bottom=274 
 ====>
 
 ARTICLE TITLE:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=119 top=297 bottom=304 
+type: text
+typeindex=0 left=30 right=119 top=297 bottom=304 
 ====>
 
 ARTICLE AUTHOR:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=75 top=317 bottom=324 
+type: text
+typeindex=0 left=30 right=75 top=317 bottom=324 
 ====>
 
 VOLUME:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=63 top=337 bottom=344 
+type: text
+typeindex=0 left=30 right=63 top=337 bottom=344 
 ====>
 
 ISSUE:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=69 top=357 bottom=364 
+type: text
+typeindex=0 left=30 right=69 top=357 bottom=364 
 ====>
 
 MONTH:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=60 top=377 bottom=384 
+type: text
+typeindex=0 left=30 right=60 top=377 bottom=384 
 ====>
 
 YEAR:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=66 top=397 bottom=404 
+type: text
+typeindex=0 left=30 right=66 top=397 bottom=404 
 ====>
 
 PAGES:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=56 top=417 bottom=424 
+type: text
+typeindex=0 left=30 right=56 top=417 bottom=424 
 ====>
 
 ISSN:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=69 top=437 bottom=444 
+type: text
+typeindex=0 left=30 right=69 top=437 bottom=444 
 ====>
 
 OCLC #:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=129 top=477 bottom=484 
+type: text
+typeindex=0 left=30 right=129 top=477 bottom=484 
 ====>
 
 Processed by RapidX:
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=30 right=332 top=502 bottom=509 
+type: text
+typeindex=0 left=30 right=332 top=502 bottom=509 
 ====>
 
 This material may be protected by copyright law (Title 17 U.S. Code)
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=189 top=126 bottom=136 
+type: subtitle level2
+typeindex=2 left=150 right=189 top=126 bottom=136 
 ====>
 
 64015
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=280 top=154 bottom=164 
+type: subtitle level2
+typeindex=2 left=150 right=280 top=154 bottom=164 
 ====>
 
 EGA :: Main Library
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=281 top=182 bottom=192 
+type: subtitle level2
+typeindex=2 left=150 right=281 top=182 bottom=192 
 ====>
 
 CDH :: Main Library
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=220 top=207 bottom=214 
+type: text
+typeindex=0 left=150 right=220 top=207 bottom=214 
 ====>
 
 Article CC:CCG
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=309 top=227 bottom=234 
+type: text
+typeindex=0 left=150 right=309 top=227 bottom=234 
 ====>
 
 The Journal of educational research
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=312 top=247 bottom=254 
+type: text
+typeindex=0 left=150 right=312 top=247 bottom=254 
 ====>
 
 The Journal of educational research.
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=562 top=267 bottom=284 
+type: text
+typeindex=0 left=150 right=562 top=267 bottom=284 
 ====>
 
-Impact of the KWL reading strategy on mathematical problem-solving achievement of primaryschool 4th graders.
+Impact of the KWL reading strategy on mathematical problem-solving achievement of primary
+school 4th graders.
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=166 top=317 bottom=324 
+type: text
+typeindex=0 left=150 right=166 top=317 bottom=324 
 ====>
 
 113
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=156 top=337 bottom=344 
+type: text
+typeindex=0 left=150 right=156 top=337 bottom=344 
 ====>
 
 5
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=172 top=377 bottom=384 
+type: text
+typeindex=0 left=150 right=172 top=377 bottom=384 
 ====>
 
 2020
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=170 top=397 bottom=404 
+type: text
+typeindex=0 left=150 right=170 top=397 bottom=404 
 ====>
 
 343-
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=198 top=417 bottom=424 
+type: text
+typeindex=0 left=150 right=198 top=417 bottom=424 
 ====>
 
 0022-0671
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=188 top=437 bottom=444 
+type: text
+typeindex=0 left=150 right=188 top=437 bottom=444 
 ====>
 
 9653114
+
 ==============================
 
 ==============================
-type: subtitle levelnull
-typeindex=null left=150 right=248 top=477 bottom=484 
+type: text
+typeindex=0 left=150 right=248 top=477 bottom=484 
 ====>
 
 5/27/2021 2:48:43 PM
+
 ==============================
 

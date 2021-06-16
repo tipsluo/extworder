@@ -63,13 +63,6 @@ public class Row extends Rectangle {
 		}	
 	}
 	
-	/*private void updateRectangle(Char ch) {
-		if (left>ch.left) left=ch.left;
-		if (right<ch.right) right=ch.right;
-		if (top>ch.top) top=ch.top;
-		if (bottom<ch.bottom) bottom=ch.bottom;
-	}*/
-	
 	public ArrayList<Row> getAboveConnected() {		
 		ArrayList<Row> rows=new ArrayList<Row>();
 		
@@ -91,6 +84,8 @@ public class Row extends Rectangle {
 			if (row==Content.content.bitmap.points[i][j].ch.row) continue;
 			
 			row=Content.content.bitmap.points[i][j].ch.row;
+			
+			if(!checkSameBlock(row)) continue;
 			
 			if( j1 > row.height*Common._CharVGapRatio ) continue;
 			
@@ -121,12 +116,18 @@ public class Row extends Rectangle {
 			
 			row=Content.content.bitmap.points[i][j].ch.row;
 			
+			if(!checkSameBlock(row)) continue;
+			
 			if( j1 > row.height*Common._CharVGapRatio ) continue;
 			
 			rows.add(row);
 		}
 		
 		return rows;
+	}
+	
+	private boolean checkSameBlock(Row row) {
+		return charHeight==row.charHeight;
 	}
 	
 	public float mostCharHeight() {

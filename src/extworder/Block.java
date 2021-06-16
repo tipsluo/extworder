@@ -32,24 +32,6 @@ public class Block extends Rectangle {
 			r1.left != r2.left ? (int)(r1.left-r2.left) : (int) (r1.top-r2.top);
 		Collections.sort(Content.content.rows,compareByYX);
 	}
-	/*public static void getAllBlocks(Content content) {
-		for(int x=0; x<=content.width;x++)
-			for(int y=0;y<=content.height;y++) {
-				Point p=content.bitmap.points[x][y];
-				if ( p == null ) continue;
-				
-				Char ch=p.ch;
-				if(ch==null) continue;
-				
-				if(ch.block==null) {
-					content.blocks.add(new Block(content,x,y));
-				}
-			}
-		
-		Comparator<Block> compareByYX = (Block b1, Block b2) ->
-			b1.top != b2.top ? (int)(b1.top-b2.top) : (int) (b1.left-b2.left);
-		Collections.sort(content.blocks,compareByYX);
-	}*/
 	
 	public Block(int x, int y) {
 		build(x,y);
@@ -83,34 +65,11 @@ public class Block extends Rectangle {
 		}	
 	}
 	
-	/*private void expandByChar(Char ch) {
-		if (ch==null) return;
-				
-		if (ch.block==null) {
-			chars.add(ch); 
-			ch.block=this;
-			
-			updateRectangle(ch);
-			
-			ch.getAboveConnected(content).forEach(this::expandByChar);
-			ch.getBelowConnected(content).forEach(this::expandByChar);
-			ch.getLeftConnected(content).forEach(this::expandByChar);
-			ch.getRightConnected(content).forEach(this::expandByChar);
-		}	
-	}*/
-	
-	/*private void updateRectangle(Char ch) {
-		if (left>ch.left) left=ch.left;
-		if (right<ch.right) right=ch.right;
-		if (top>ch.top) top=ch.top;
-		if (bottom<ch.bottom) bottom=ch.bottom;
-	}*/
-	
 	public float mostRowHeight() {
 		TreeMap<Float,Integer> rowHeights=new TreeMap<>();
 		
 		for (Row row: rows) {
-			int n=rowHeights.compute(row.height, (k,v) -> (v == null ? 0 : v) + 1);
+			int n=rowHeights.compute(row.charHeight, (k,v) -> (v == null ? 0 : v) + 1);
         	rowHeights.put(row.charHeight,n);
 		}
 		
@@ -135,6 +94,7 @@ public class Block extends Rectangle {
 		
 		for(Row row:rows) {
 			row.write(fw);
+			fw.write("\n");
 		}
 		
 		fw.write("\n==============================\n\n");

@@ -6,7 +6,6 @@ public class Char extends Rectangle {
 	String str;
 	float x,y;
 	String fontname;
-	//Block block;
 	Row row;
 	
 	public Char(String str,float x, float y, float height,float width, String fontname) {
