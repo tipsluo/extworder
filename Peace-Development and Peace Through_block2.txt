@@ -1,1136 +1,254 @@
 ==============================
-type: notes
-typeindex=-4 left=372 right=417 top=48 bottom=52 
-====>
-
-ournal of
-==============================
-
-==============================
-type: subtitle level1
-typeindex=1 left=369 right=455 top=58 bottom=74 
-====>
-
- PEACEBUILDING 
-     DEVELOPMENT
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=72 top=75 bottom=80 
+type: subtitle levelnull
+typeindex=null left=49 right=72 top=75 bottom=80 
 ====>
 
 Article
 ==============================
 
 ==============================
-type: notes
-typeindex=-5 left=389 right=408 top=92 bottom=96 
-====>
-
-Journal
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=410 right=416 top=92 bottom=96 
-====>
-
-of
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=418 right=455 top=92 bottom=96 
-====>
-
-Peacebuilding
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=411 right=455 top=101 bottom=104 
-====>
-
-& Development
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=384 right=399 top=109 bottom=113 
-====>
-
-2020,
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=401 right=412 top=109 bottom=113 
-====>
-
-Vol.
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=415 right=455 top=109 bottom=113 
-====>
-
-15(2) 164-177
-==============================
-
-==============================
 type: title
-typeindex=3 left=49 right=254 top=118 bottom=127 
+typeindex=null left=49 right=254 top=118 bottom=127 
 ====>
 
 Development and Peace
 ==============================
 
 ==============================
-type: notes
-typeindex=-5 left=387 right=455 top=118 bottom=130 
-====>
-
-ª The Author(s) 2020
-Article reuse guidelines:
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=359 right=455 top=135 bottom=138 
-====>
-
-sagepub.com/journals-permissions
-==============================
-
-==============================
 type: title
-typeindex=3 left=49 right=225 top=138 bottom=146 
+typeindex=null left=49 right=225 top=138 bottom=146 
 ====>
 
 Through Traditional,
 ==============================
 
 ==============================
-type: notes
-typeindex=-5 left=359 right=373 top=143 bottom=147 
-====>
-
-DOI:
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=375 right=455 top=143 bottom=147 
-====>
-
-10.1177/1542316620905788
-==============================
-
-==============================
-type: notes
-typeindex=-5 left=367 right=455 top=152 bottom=155 
-====>
-
-journals.sagepub.com/home/jpd
-==============================
-
-==============================
 type: title
-typeindex=3 left=49 right=123 top=157 bottom=166 
+typeindex=null left=49 right=123 top=157 bottom=166 
 ====>
 
 Cultural,
 ==============================
 
 ==============================
-type: title
-typeindex=3 left=128 right=276 top=157 bottom=166 
-====>
-
-Islamic Mediation
-==============================
-
-==============================
-type: subtitle level2
-typeindex=2 left=49 right=167 top=207 bottom=213 
+type: subtitle levelnull
+typeindex=null left=49 right=167 top=207 bottom=213 
 ====>
 
 Jonathan K. Zartman
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=49 right=61 top=221 bottom=226 
+type: subtitle levelnull
+typeindex=null left=49 right=61 top=221 bottom=226 
 ====>
 
 Air
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=65 right=108 top=221 bottom=226 
-====>
-
-University,
-==============================
-
-==============================
-type: text
-typeindex=0 left=111 right=165 top=221 bottom=226 
-====>
-
-Montgomery,
-==============================
-
-==============================
-type: text
-typeindex=0 left=168 right=182 top=221 bottom=226 
-====>
-
-AL,
-==============================
-
-==============================
-type: text
-typeindex=0 left=185 right=203 top=221 bottom=226 
-====>
-
-USA
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=89 top=269 bottom=274 
+type: subtitle levelnull
+typeindex=null left=49 right=89 top=269 bottom=274 
 ====>
 
 Abstract
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=49 right=168 top=281 bottom=286 
+type: subtitle levelnull
+typeindex=null left=49 right=168 top=281 bottom=286 
 ====>
 
 In a world filled with conflict,
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=171 right=260 top=281 bottom=286 
-====>
-
-competition, and war,
-==============================
-
-==============================
-type: text
-typeindex=0 left=263 right=455 top=281 bottom=286 
-====>
-
-those who work for peace shape the character
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=57 top=293 bottom=298 
+type: subtitle levelnull
+typeindex=null left=49 right=57 top=293 bottom=298 
 ====>
 
 of
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=60 right=176 top=293 bottom=298 
-====>
-
-human existence at the local
-==============================
-
-==============================
-type: text
-typeindex=0 left=179 right=200 top=293 bottom=298 
-====>
-
-level.
-==============================
-
-==============================
-type: text
-typeindex=0 left=203 right=306 top=293 bottom=298 
-====>
-
-The lives and petitions of
-==============================
-
-==============================
-type: text
-typeindex=0 left=309 right=455 top=293 bottom=298 
-====>
-
-individuals who work to reduce the
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=90 top=305 bottom=310 
+type: subtitle levelnull
+typeindex=null left=49 right=90 top=305 bottom=310 
 ====>
 
 ravages of
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=93 right=358 top=305 bottom=310 
-====>
-
-conflict create profound effects and deserve attention and study.
-==============================
-
-==============================
-type: text
-typeindex=0 left=361 right=455 top=305 bottom=310 
-====>
-
-In the last two decades
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=57 top=317 bottom=322 
+type: subtitle levelnull
+typeindex=null left=49 right=57 top=317 bottom=322 
 ====>
 
 of
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=60 right=112 top=317 bottom=322 
-====>
-
-international
-==============================
-
-==============================
-type: text
-typeindex=0 left=115 right=147 top=317 bottom=322 
-====>
-
-politics,
-==============================
-
-==============================
-type: text
-typeindex=0 left=150 right=327 top=317 bottom=322 
-====>
-
-violence in Islamic societies in Afghanistan,
-==============================
-
-==============================
-type: text
-typeindex=0 left=330 right=349 top=317 bottom=322 
-====>
-
-Iraq,
-==============================
-
-==============================
-type: text
-typeindex=0 left=352 right=385 top=317 bottom=322 
-====>
-
-Somalia,
-==============================
-
-==============================
-type: text
-typeindex=0 left=389 right=415 top=317 bottom=322 
-====>
-
-Sudan,
-==============================
-
-==============================
-type: text
-typeindex=0 left=418 right=455 top=317 bottom=322 
-====>
-
-and else-
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=146 top=329 bottom=334 
+type: subtitle levelnull
+typeindex=null left=49 right=146 top=329 bottom=334 
 ====>
 
 where has gained global
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=149 right=215 top=329 bottom=334 
-====>
-
-public attention.
-==============================
-
-==============================
-type: text
-typeindex=0 left=218 right=329 top=329 bottom=334 
-====>
-
-However, the international
-==============================
-
-==============================
-type: text
-typeindex=0 left=332 right=455 top=329 bottom=334 
-====>
-
-media frequently does see the
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=90 top=341 bottom=346 
+type: subtitle levelnull
+typeindex=null left=49 right=90 top=341 bottom=346 
 ====>
 
 local-level
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=94 right=132 top=341 bottom=346 
-====>
-
-initiatives
-==============================
-
-==============================
-type: text
-typeindex=0 left=137 right=271 top=341 bottom=346 
-====>
-
-to promote peace in traditional
-==============================
-
-==============================
-type: text
-typeindex=0 left=276 right=345 top=341 bottom=346 
-====>
-
-Islamic societies.
-==============================
-
-==============================
-type: text
-typeindex=0 left=349 right=405 top=341 bottom=346 
-====>
-
-Many people,
-==============================
-
-==============================
-type: text
-typeindex=0 left=409 right=444 top=341 bottom=346 
-====>
-
-whether
-==============================
-
-==============================
-type: text
-typeindex=0 left=448 right=455 top=341 bottom=346 
-====>
-
-in
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=177 top=353 bottom=358 
+type: subtitle levelnull
+typeindex=null left=49 right=177 top=353 bottom=358 
 ====>
 
 humanitarian nongovernmental
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=180 right=279 top=353 bottom=358 
-====>
-
-organisation operations,
-==============================
-
-==============================
-type: text
-typeindex=0 left=282 right=334 top=353 bottom=358 
-====>
-
-or as part of
-==============================
-
-==============================
-type: text
-typeindex=0 left=337 right=455 top=353 bottom=358 
-====>
-
-a military-led reconstruction
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=71 top=365 bottom=370 
+type: subtitle levelnull
+typeindex=null left=49 right=71 top=365 bottom=370 
 ====>
 
 team,
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=75 right=377 top=365 bottom=370 
-====>
-
-have worked and poured treasure into promoting stability in traditional
-==============================
-
-==============================
-type: text
-typeindex=0 left=381 right=455 top=365 bottom=370 
-====>
-
-societies suffering
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=115 top=377 bottom=382 
+type: subtitle levelnull
+typeindex=null left=49 right=115 top=377 bottom=382 
 ====>
 
 from insecurity.
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=120 right=197 top=377 bottom=382 
-====>
-
-Understanding the
-==============================
-
-==============================
-type: text
-typeindex=0 left=202 right=242 top=377 bottom=382 
-====>
-
-resources
-==============================
-
-==============================
-type: text
-typeindex=0 left=247 right=259 top=377 bottom=382 
-====>
-
-for
-==============================
-
-==============================
-type: text
-typeindex=0 left=263 right=455 top=377 bottom=382 
-====>
-
-peace offered in Islam and the way in which
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=300 top=389 bottom=394 
+type: subtitle levelnull
+typeindex=null left=49 right=300 top=389 bottom=394 
 ====>
 
 Muslims work for peace in their communities can empower
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=304 right=455 top=389 bottom=394 
-====>
-
-those who seek to help and protect
-==============================
-
-==============================
-type: text
-typeindex=0 left=49 right=163 top=401 bottom=406 
+type: subtitle levelnull
+typeindex=null left=49 right=163 top=401 bottom=406 
 ====>
 
 them from strategic errors.
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=49 right=95 top=431 bottom=436 
+type: subtitle levelnull
+typeindex=null left=49 right=95 top=431 bottom=436 
 ====>
 
 Keywords
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=49 right=69 top=442 bottom=447 
+type: subtitle levelnull
+typeindex=null left=49 right=69 top=442 bottom=447 
 ====>
 
 local,
 ==============================
 
 ==============================
-type: text
-typeindex=0 left=72 right=116 top=442 bottom=447 
-====>
-
-traditional,
-==============================
-
-==============================
-type: text
-typeindex=0 left=119 right=151 top=442 bottom=447 
-====>
-
-cultural,
-==============================
-
-==============================
-type: text
-typeindex=0 left=154 right=226 top=442 bottom=447 
-====>
-
-Islamic mediation,
-==============================
-
-==============================
-type: text
-typeindex=0 left=229 right=277 top=442 bottom=447 
-====>
-
-conciliation,
-==============================
-
-==============================
-type: text
-typeindex=0 left=280 right=325 top=442 bottom=447 
-====>
-
-reputation,
-==============================
-
-==============================
-type: text
-typeindex=0 left=328 right=403 top=442 bottom=447 
-====>
-
-conflict resolution,
-==============================
-
-==============================
-type: text
-typeindex=0 left=407 right=445 top=442 bottom=447 
-====>
-
-character
-==============================
-
-==============================
-type: subtitle level2
-typeindex=2 left=49 right=233 top=476 bottom=482 
+type: subtitle levelnull
+typeindex=null left=49 right=233 top=476 bottom=482 
 ====>
 
 Seeking Peace at the Local Level
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=49 right=248 top=496 bottom=501 
+type: subtitle levelnull
+typeindex=null left=49 right=248 top=496 bottom=501 
 ====>
 
 Given the ubiquity of quarrels and competition,
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=251 right=294 top=496 bottom=501 
-====>
-
-traditional
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=297 right=332 top=496 bottom=501 
-====>
-
-societies
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=336 right=455 top=496 bottom=501 
-====>
-
-develop practices and proce-
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=49 right=165 top=509 bottom=513 
+type: subtitle levelnull
+typeindex=null left=49 right=165 top=509 bottom=513 
 ====>
 
 dures for dispute resolution.
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=168 right=281 top=509 bottom=513 
-====>
-
-When outside parties enter,
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=284 right=355 top=509 bottom=513 
-====>
-
-they become part
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=359 right=455 top=509 bottom=513 
-====>
-
-of the dynamic of local
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=49 right=87 top=521 bottom=525 
+type: subtitle levelnull
+typeindex=null left=49 right=87 top=521 bottom=525 
 ====>
 
 relations.
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=91 right=127 top=521 bottom=525 
-====>
-
-Offenses
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=131 right=186 top=521 bottom=525 
-====>
-
-by foreigners
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=190 right=242 top=521 bottom=525 
-====>
-
-come easily,
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=246 right=259 top=521 bottom=525 
-====>
-
-but
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=263 right=282 top=521 bottom=525 
-====>
-
-their
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=286 right=399 top=521 bottom=525 
-====>
-
-efforts to resolve problems
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=403 right=436 top=521 bottom=525 
-====>
-
-in ways
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=440 right=455 top=521 bottom=525 
-====>
-
-that
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=49 right=69 top=533 bottom=538 
+type: subtitle levelnull
+typeindex=null left=49 right=69 top=533 bottom=538 
 ====>
 
 work
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=74 right=82 top=533 bottom=538 
-====>
-
-in
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=87 right=106 top=533 bottom=538 
-====>
-
-their
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=110 right=133 top=533 bottom=538 
-====>
-
-home
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=138 right=173 top=533 bottom=538 
-====>
-
-societies
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=178 right=205 top=533 bottom=538 
-====>
-
-do not
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=210 right=231 top=533 bottom=538 
-====>
-
-work
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=236 right=244 top=533 bottom=538 
-====>
-
-as
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=249 right=266 top=533 bottom=538 
-====>
-
-well
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=271 right=279 top=533 bottom=538 
-====>
-
-in
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=284 right=288 top=533 bottom=538 
-====>
-
-a
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=293 right=335 top=533 bottom=538 
-====>
-
-traditional
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=340 right=408 top=533 bottom=538 
-====>
-
-Muslim society.
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=412 right=455 top=533 bottom=538 
-====>
-
-Therefore,
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=49 right=81 top=545 bottom=550 
+type: subtitle levelnull
+typeindex=null left=49 right=81 top=545 bottom=550 
 ====>
 
 whether
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=85 right=188 top=545 bottom=550 
-====>
-
-seeking to make amends
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=192 right=203 top=545 bottom=550 
-====>
-
-for
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=207 right=253 top=545 bottom=550 
-====>
-
-an offence,
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=257 right=347 top=545 bottom=550 
-====>
-
-or pursuing peace for
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=351 right=397 top=545 bottom=550 
-====>
-
-the sake of
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=401 right=455 top=545 bottom=550 
-====>
-
-aiding devel-
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=49 right=82 top=557 bottom=562 
+type: subtitle levelnull
+typeindex=null left=49 right=82 top=557 bottom=562 
 ====>
 
 opment,
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=86 right=173 top=557 bottom=562 
-====>
-
-everyone who works
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=178 right=185 top=557 bottom=562 
-====>
-
-in
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=190 right=366 top=557 bottom=562 
-====>
-
-a Muslim society should become familiar
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=370 right=388 top=557 bottom=562 
-====>
-
-with
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=393 right=429 top=557 bottom=562 
-====>
-
-the local
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=433 right=455 top=557 bottom=562 
-====>
-
-tradi-
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=49 right=69 top=570 bottom=574 
+type: subtitle levelnull
+typeindex=null left=49 right=69 top=570 bottom=574 
 ====>
 
 tions
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=73 right=81 top=570 bottom=574 
-====>
-
-of
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=85 right=116 top=570 bottom=574 
-====>
-
-conflict
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=120 right=164 top=570 bottom=574 
-====>
-
-resolution.
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=49 right=126 top=588 bottom=592 
+type: subtitle levelnull
+typeindex=null left=49 right=126 top=588 bottom=592 
 ====>
 
 This work does not
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=129 right=201 top=588 bottom=592 
-====>
-
-offer a theoretical
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=204 right=251 top=588 bottom=592 
-====>
-
-analysis but
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=254 right=388 top=588 bottom=592 
-====>
-
-rather seeks to extend awareness,
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=391 right=455 top=588 bottom=592 
-====>
-
-and offer exam-
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=49 right=210 top=600 bottom=604 
+type: subtitle levelnull
+typeindex=null left=49 right=210 top=600 bottom=604 
 ====>
 
 ples applying the work of Funk (2014),
 ==============================
 
 ==============================
-type: notes
-typeindex=-2 left=214 right=292 top=600 bottom=604 
-====>
-
-Abu-Nimer (2014),
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=295 right=314 top=600 bottom=604 
-====>
-
-Irani
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=318 right=382 top=600 bottom=604 
-====>
-
-& Funk (2001),
-==============================
-
-==============================
-type: notes
-typeindex=-2 left=385 right=455 top=600 bottom=604 
-====>
-
-and Funk & Said
-==============================
-
-==============================
-type: notes
-typeindex=-3 left=49 right=136 top=638 bottom=642 
+type: subtitle levelnull
+typeindex=null left=49 right=136 top=638 bottom=642 
 ====>
 
 Corresponding Author:
 ==============================
 
 ==============================
-type: notes
-typeindex=-3 left=49 right=86 top=648 bottom=652 
+type: subtitle levelnull
+typeindex=null left=49 right=86 top=648 bottom=652 
 ====>
 
 Jonathan K.
@@ -1138,65 +256,929 @@ Jonathan K.
 
 ==============================
 type: notes
-typeindex=-3 left=88 right=118 top=648 bottom=652 
-====>
-
-Zartman,
-==============================
-
-==============================
-type: notes
-typeindex=-3 left=120 right=167 top=648 bottom=652 
-====>
-
-Air University,
-==============================
-
-==============================
-type: notes
-typeindex=-3 left=170 right=245 top=648 bottom=652 
-====>
-
-2730 Windsor Avenue,
-==============================
-
-==============================
-type: notes
-typeindex=-3 left=248 right=291 top=648 bottom=652 
-====>
-
-Montgomery,
-==============================
-
-==============================
-type: notes
-typeindex=-3 left=294 right=327 top=648 bottom=652 
-====>
-
-AL 36109,
-==============================
-
-==============================
-type: notes
-typeindex=-3 left=329 right=346 top=648 bottom=652 
-====>
-
-USA.
-==============================
-
-==============================
-type: notes
-typeindex=-3 left=49 right=67 top=658 bottom=661 
+typeindex=null left=49 right=67 top=658 bottom=661 
 ====>
 
 Email:
 ==============================
 
 ==============================
+type: subtitle levelnull
+typeindex=null left=60 right=176 top=293 bottom=298 
+====>
+
+human existence at the local
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=60 right=112 top=317 bottom=322 
+====>
+
+international
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=65 right=108 top=221 bottom=226 
+====>
+
+University,
+==============================
+
+==============================
 type: notes
-typeindex=-3 left=70 right=145 top=658 bottom=661 
+typeindex=null left=70 right=145 top=658 bottom=661 
 ====>
 
 jkzartman@yahoo.com
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=72 right=116 top=442 bottom=447 
+====>
+
+traditional,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=73 right=81 top=570 bottom=574 
+====>
+
+of
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=74 right=82 top=533 bottom=538 
+====>
+
+in
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=75 right=377 top=365 bottom=370 
+====>
+
+have worked and poured treasure into promoting stability in traditional
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=85 right=188 top=545 bottom=550 
+====>
+
+seeking to make amends
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=85 right=116 top=570 bottom=574 
+====>
+
+conflict
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=86 right=173 top=557 bottom=562 
+====>
+
+everyone who works
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=87 right=106 top=533 bottom=538 
+====>
+
+their
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=88 right=118 top=648 bottom=652 
+====>
+
+Zartman,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=91 right=127 top=521 bottom=525 
+====>
+
+Offenses
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=93 right=358 top=305 bottom=310 
+====>
+
+conflict create profound effects and deserve attention and study.
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=94 right=132 top=341 bottom=346 
+====>
+
+initiatives
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=110 right=133 top=533 bottom=538 
+====>
+
+home
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=111 right=165 top=221 bottom=226 
+====>
+
+Montgomery,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=115 right=147 top=317 bottom=322 
+====>
+
+politics,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=119 right=151 top=442 bottom=447 
+====>
+
+cultural,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=120 right=197 top=377 bottom=382 
+====>
+
+Understanding the
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=120 right=164 top=570 bottom=574 
+====>
+
+resolution.
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=120 right=167 top=648 bottom=652 
+====>
+
+Air University,
+==============================
+
+==============================
+type: title
+typeindex=null left=128 right=276 top=157 bottom=166 
+====>
+
+Islamic Mediation
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=129 right=201 top=588 bottom=592 
+====>
+
+offer a theoretical
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=131 right=186 top=521 bottom=525 
+====>
+
+by foreigners
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=137 right=271 top=341 bottom=346 
+====>
+
+to promote peace in traditional
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=138 right=173 top=533 bottom=538 
+====>
+
+societies
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=149 right=215 top=329 bottom=334 
+====>
+
+public attention.
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=150 right=327 top=317 bottom=322 
+====>
+
+violence in Islamic societies in Afghanistan,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=154 right=226 top=442 bottom=447 
+====>
+
+Islamic mediation,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=168 right=182 top=221 bottom=226 
+====>
+
+AL,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=168 right=281 top=509 bottom=513 
+====>
+
+When outside parties enter,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=170 right=245 top=648 bottom=652 
+====>
+
+2730 Windsor Avenue,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=171 right=260 top=281 bottom=286 
+====>
+
+competition, and war,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=178 right=205 top=533 bottom=538 
+====>
+
+do not
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=178 right=185 top=557 bottom=562 
+====>
+
+in
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=179 right=200 top=293 bottom=298 
+====>
+
+level.
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=180 right=279 top=353 bottom=358 
+====>
+
+organisation operations,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=185 right=203 top=221 bottom=226 
+====>
+
+USA
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=190 right=242 top=521 bottom=525 
+====>
+
+come easily,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=190 right=366 top=557 bottom=562 
+====>
+
+a Muslim society should become familiar
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=192 right=203 top=545 bottom=550 
+====>
+
+for
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=202 right=242 top=377 bottom=382 
+====>
+
+resources
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=203 right=306 top=293 bottom=298 
+====>
+
+The lives and petitions of
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=204 right=251 top=588 bottom=592 
+====>
+
+analysis but
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=207 right=253 top=545 bottom=550 
+====>
+
+an offence,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=210 right=231 top=533 bottom=538 
+====>
+
+work
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=214 right=292 top=600 bottom=604 
+====>
+
+Abu-Nimer (2014),
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=218 right=329 top=329 bottom=334 
+====>
+
+However, the international
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=229 right=277 top=442 bottom=447 
+====>
+
+conciliation,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=236 right=244 top=533 bottom=538 
+====>
+
+as
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=246 right=259 top=521 bottom=525 
+====>
+
+but
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=247 right=259 top=377 bottom=382 
+====>
+
+for
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=248 right=291 top=648 bottom=652 
+====>
+
+Montgomery,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=249 right=266 top=533 bottom=538 
+====>
+
+well
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=251 right=294 top=496 bottom=501 
+====>
+
+traditional
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=254 right=388 top=588 bottom=592 
+====>
+
+rather seeks to extend awareness,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=257 right=347 top=545 bottom=550 
+====>
+
+or pursuing peace for
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=263 right=455 top=281 bottom=286 
+====>
+
+those who work for peace shape the character
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=263 right=455 top=377 bottom=382 
+====>
+
+peace offered in Islam and the way in which
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=263 right=282 top=521 bottom=525 
+====>
+
+their
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=271 right=279 top=533 bottom=538 
+====>
+
+in
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=276 right=345 top=341 bottom=346 
+====>
+
+Islamic societies.
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=280 right=325 top=442 bottom=447 
+====>
+
+reputation,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=282 right=334 top=353 bottom=358 
+====>
+
+or as part of
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=284 right=355 top=509 bottom=513 
+====>
+
+they become part
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=284 right=288 top=533 bottom=538 
+====>
+
+a
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=286 right=399 top=521 bottom=525 
+====>
+
+efforts to resolve problems
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=293 right=335 top=533 bottom=538 
+====>
+
+traditional
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=294 right=327 top=648 bottom=652 
+====>
+
+AL 36109,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=295 right=314 top=600 bottom=604 
+====>
+
+Irani
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=297 right=332 top=496 bottom=501 
+====>
+
+societies
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=304 right=455 top=389 bottom=394 
+====>
+
+those who seek to help and protect
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=309 right=455 top=293 bottom=298 
+====>
+
+individuals who work to reduce the
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=318 right=382 top=600 bottom=604 
+====>
+
+& Funk (2001),
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=328 right=403 top=442 bottom=447 
+====>
+
+conflict resolution,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=329 right=346 top=648 bottom=652 
+====>
+
+USA.
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=330 right=349 top=317 bottom=322 
+====>
+
+Iraq,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=332 right=455 top=329 bottom=334 
+====>
+
+media frequently does see the
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=336 right=455 top=496 bottom=501 
+====>
+
+develop practices and proce-
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=337 right=455 top=353 bottom=358 
+====>
+
+a military-led reconstruction
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=340 right=408 top=533 bottom=538 
+====>
+
+Muslim society.
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=349 right=405 top=341 bottom=346 
+====>
+
+Many people,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=351 right=397 top=545 bottom=550 
+====>
+
+the sake of
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=352 right=385 top=317 bottom=322 
+====>
+
+Somalia,
+==============================
+
+==============================
+type: notes
+typeindex=null left=359 right=455 top=135 bottom=138 
+====>
+
+sagepub.com/journals-permissions
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=359 right=373 top=143 bottom=147 
+====>
+
+DOI:
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=359 right=455 top=509 bottom=513 
+====>
+
+of the dynamic of local
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=361 right=455 top=305 bottom=310 
+====>
+
+In the last two decades
+==============================
+
+==============================
+type: notes
+typeindex=null left=367 right=455 top=152 bottom=155 
+====>
+
+journals.sagepub.com/home/jpd
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=369 right=455 top=58 bottom=74 
+====>
+
+ PEACEBUILDING      DEVELOPMENT
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=370 right=388 top=557 bottom=562 
+====>
+
+with
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=372 right=417 top=48 bottom=52 
+====>
+
+ournal of
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=375 right=455 top=143 bottom=147 
+====>
+
+10.1177/1542316620905788
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=381 right=455 top=365 bottom=370 
+====>
+
+societies suffering
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=384 right=399 top=109 bottom=113 
+====>
+
+2020,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=385 right=455 top=600 bottom=604 
+====>
+
+and Funk & Said
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=387 right=455 top=109 bottom=130 
+====>
+
+Article reuse guidelines:ª The Author(s) 2020Vol.15(2) 164-177
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=389 right=408 top=92 bottom=96 
+====>
+
+Journal
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=389 right=415 top=317 bottom=322 
+====>
+
+Sudan,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=391 right=455 top=588 bottom=592 
+====>
+
+and offer exam-
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=393 right=429 top=557 bottom=562 
+====>
+
+the local
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=401 right=455 top=545 bottom=550 
+====>
+
+aiding devel-
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=403 right=436 top=521 bottom=525 
+====>
+
+in ways
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=407 right=445 top=442 bottom=447 
+====>
+
+character
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=409 right=444 top=341 bottom=346 
+====>
+
+whether
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=410 right=416 top=92 bottom=96 
+====>
+
+of
+==============================
+
+==============================
+type: notes
+typeindex=null left=411 right=455 top=101 bottom=104 
+====>
+
+& Development
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=412 right=455 top=533 bottom=538 
+====>
+
+Therefore,
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=418 right=455 top=92 bottom=96 
+====>
+
+Peacebuilding
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=418 right=455 top=317 bottom=322 
+====>
+
+and else-
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=433 right=455 top=557 bottom=562 
+====>
+
+tradi-
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=440 right=455 top=521 bottom=525 
+====>
+
+that
+==============================
+
+==============================
+type: subtitle levelnull
+typeindex=null left=448 right=455 top=341 bottom=346 
+====>
+
+in
 ==============================
 

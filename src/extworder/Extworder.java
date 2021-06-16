@@ -221,8 +221,6 @@ public class Extworder {
 	public static void displayBlocks(String fn) throws IOException {
 		Content content = new Content(fn);
 		
-		Block.getAllBlocks(content);
-		
 		FileWriter myWriter = null;
 		
 		try {
@@ -230,8 +228,10 @@ public class Extworder {
 		
 		    for(Block block:content.blocks) {
 		    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.top,block.bottom));
-		    	for(Char ch:block.chars) {
-		    		myWriter.write(String.format("%s (x=%f y=%f) width=%f height=%f fontname=%s\n", ch.str,ch.x,ch.y,ch.width,ch.height,ch.fontname));
+		    	for(Row row:block.rows) {
+		    		for(Char ch:row.chars) {
+			    		myWriter.write(String.format("%s (x=%f y=%f) width=%f height=%f fontname=%s\n", ch.str,ch.x,ch.y,ch.width,ch.height,ch.fontname));
+			    	}
 		    	}
 		    }
 		} finally {
@@ -241,8 +241,6 @@ public class Extworder {
 	
 	public static void printBlocks(String fn) throws IOException {
 		Content content = new Content(fn);
-		
-		Block.getAllBlocks(content);
 		
 		FileWriter myWriter= new FileWriter(fn+"_block2.txt");
 		

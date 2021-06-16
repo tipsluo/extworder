@@ -22,11 +22,12 @@ import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 public class Content extends PDFTextStripper {
-	//protected FileWriter myWriter;
+	static Content content;
     public TreeMap<Float,Integer> charHeights;
     float textCharHeight,titleCharHeight;
     ArrayList<Char> chars;
     ArrayList<Block> blocks;
+    ArrayList<Row> rows;
     public float width,height;
     public int right,bottom;
     Map<Float,Integer> charHeightIndexes;
@@ -34,11 +35,12 @@ public class Content extends PDFTextStripper {
     public String title;
 	
 	public Content(String fn) throws IOException {
+		content=this;
 		width=height=-1;
-		//myWriter = new FileWriter(fn+"_char.txt");
 		charHeights=new TreeMap<>();
 		chars=new ArrayList<Char>();
 		blocks=new ArrayList<Block>();
+		rows=new ArrayList<Row>();
 		
 		File file = new File(fn+".pdf");
 		PDDocument document = PDDocument.load(file);
@@ -68,7 +70,8 @@ public class Content extends PDFTextStripper {
 		textCharHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charHeightIndexes=makeCharHeightIndexes();
 		
-		Block.getAllBlocks(this);
+		Row.getAllRows();
+		Block.getAllBlocks();
 	}
 
 	@Override
@@ -93,14 +96,6 @@ public class Content extends PDFTextStripper {
         	float height1=(float)(ch.y+ch.height-0.001);
         	if (width1>width) width=width1;
         	if (height1>height) height=height1;
-        		
-        	/*try {
-	        	myWriter.write(str + " [(X=" + text.getXDirAdj() + ",Y=" +
-	                    text.getYDirAdj() + ") height=" + text.getHeightDir() + " width=" +
-	                    text.getWidthDirAdj() + "]\n");
-        	} catch (IOException e) {
-    			e.printStackTrace();
-        	}*/
         }
     }
 	
