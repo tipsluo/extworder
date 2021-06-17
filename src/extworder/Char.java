@@ -2,13 +2,11 @@ package extworder;
 
 import java.util.ArrayList;
 
-public class Char {
+public class Char extends Rectangle {
 	String str;
 	float x,y;
-	float height,width;
 	String fontname;
-	int left,right,top,bottom;
-	Block block;
+	Row row;
 	
 	public Char(String str,float x, float y, float height,float width, String fontname) {
 		this.str=str;
@@ -27,7 +25,7 @@ public class Char {
 		return xPoint>=x && xPoint<x+width && yPoint>=y && yPoint<y+height;
 	}
 	
-	public ArrayList<Char> getAboveConnected(Content content) {		
+	public ArrayList<Char> getAboveConnected() {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
 		if (top<1) return chars;
@@ -37,19 +35,19 @@ public class Char {
 		for (int i=left; i<=right; i++) {
 			int j=1;
 			int j1=1;
-			for (;j1<height*Block._CharVGapRatio;j1++) {
+			for (;j1<height*Common._CharVGapRatio;j1++) {
 				j=top-j1;
 				if (j<0) break;
-				if (content.bitmap.points[i][j]!=null) break;
+				if (Content.content.bitmap.points[i][j]!=null) break;
 			}
 			
-			if (j<0 || content.bitmap.points[i][j]==null) continue;
+			if (j<0 || Content.content.bitmap.points[i][j]==null) continue;
 			
-			if (ch==content.bitmap.points[i][j].ch) continue;
+			if (ch==Content.content.bitmap.points[i][j].ch) continue;
 			
-			ch=content.bitmap.points[i][j].ch;
+			ch=Content.content.bitmap.points[i][j].ch;
 			
-			if( j1 > ch.height*Block._CharVGapRatio ) continue;
+			if( j1 > ch.height*Common._CharVGapRatio ) continue;
 			
 			chars.add(ch);
 		}
@@ -57,28 +55,28 @@ public class Char {
 		return chars;
 	}
 
-	public ArrayList<Char> getBelowConnected(Content content) {		
+	public ArrayList<Char> getBelowConnected() {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
-		if (bottom >= content.bottom) return chars;
+		if (bottom >= Content.content.bottom) return chars;
 		
 		Char ch=null;
 		
 		for (int i=left; i<=right; i++) {
 			int j=1;
 			int j1=1;
-			for (;j1<height*Block._CharVGapRatio;j1++) {
+			for (;j1<height*Common._CharVGapRatio;j1++) {
 				j=bottom+j1;
-				if (j>=content.bottom) break;
-				if (content.bitmap.points[i][j]!=null) break;
+				if (j>=Content.content.bottom) break;
+				if (Content.content.bitmap.points[i][j]!=null) break;
 			}
 			
-			if(j>content.bottom || content.bitmap.points[i][j]==null) continue;
-			if (ch==content.bitmap.points[i][j].ch) continue;
+			if(j>Content.content.bottom || Content.content.bitmap.points[i][j]==null) continue;
+			if (ch==Content.content.bitmap.points[i][j].ch) continue;
 			
-			ch=content.bitmap.points[i][j].ch;
+			ch=Content.content.bitmap.points[i][j].ch;
 			
-			if( j1 > ch.height*Block._CharVGapRatio ) continue;
+			if( j1 > ch.height*Common._CharVGapRatio ) continue;
 			
 			chars.add(ch);
 		}
@@ -86,7 +84,7 @@ public class Char {
 		return chars;
 	}
 
-	public ArrayList<Char> getLeftConnected(Content content) {		
+	public ArrayList<Char> getLeftConnected() {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
 		if (left<1) return chars;
@@ -95,41 +93,41 @@ public class Char {
 		
 		for (int j=top; j<=bottom; j++) {
 			int i=left;
-			for(int i1=1;i1<width*Block._CharHGapRatio;i1++) {
+			for(int i1=1;i1<width*Common._CharHGapRatio;i1++) {
 				i=left-i1;
 				if (i<0) break;
-				if (content.bitmap.points[i][j]!=null) break;
+				if (Content.content.bitmap.points[i][j]!=null) break;
 			}
 					
-			if (i<0 || content.bitmap.points[i][j]==null) continue;
-			if (ch==content.bitmap.points[i][j].ch) continue;
+			if (i<0 || Content.content.bitmap.points[i][j]==null) continue;
+			if (ch==Content.content.bitmap.points[i][j].ch) continue;
 			
-			ch=content.bitmap.points[i][j].ch;
+			ch=Content.content.bitmap.points[i][j].ch;
 			chars.add(ch);
 		}
 		
 		return chars;
 	}
 
-	public ArrayList<Char> getRightConnected(Content content) {		
+	public ArrayList<Char> getRightConnected() {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
-		if (right >= content.right) return chars;
+		if (right >= Content.content.right) return chars;
 		
 		Char ch=null;
 		
 		for (int j=top; j<=bottom; j++) {
 			int i=right;
-			for(int i1=1;i1<width*Block._CharHGapRatio;i1++) {
+			for(int i1=1;i1<width*Common._CharHGapRatio;i1++) {
 				i=right+i1;
-				if (i>content.width) break;
-				if (content.bitmap.points[i][j]!=null) break;
+				if (i>Content.content.width) break;
+				if (Content.content.bitmap.points[i][j]!=null) break;
 			}
 			
-			if (i>=content.width || content.bitmap.points[i][j]==null) continue;
-			if (ch==content.bitmap.points[i][j].ch) continue;
+			if (i>=Content.content.width || Content.content.bitmap.points[i][j]==null) continue;
+			if (ch==Content.content.bitmap.points[i][j].ch) continue;
 			
-			ch=content.bitmap.points[i][j].ch;
+			ch=Content.content.bitmap.points[i][j].ch;
 			chars.add(ch);
 		}
 		

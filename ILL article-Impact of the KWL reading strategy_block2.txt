@@ -4,6 +4,7 @@ typeindex=3 left=30 right=209 top=91 bottom=105
 ====>
 
 Rapid #: -17611997
+
 ==============================
 
 ==============================
@@ -12,14 +13,7 @@ typeindex=1 left=30 right=133 top=126 bottom=136
 ====>
 
 CROSS REF ID:
-==============================
 
-==============================
-type: subtitle level2
-typeindex=2 left=150 right=189 top=126 bottom=136 
-====>
-
-64015
 ==============================
 
 ==============================
@@ -28,14 +22,7 @@ typeindex=1 left=30 right=91 top=154 bottom=164
 ====>
 
 LENDER:
-==============================
 
-==============================
-type: subtitle level2
-typeindex=2 left=150 right=280 top=154 bottom=164 
-====>
-
-EGA :: Main Library
 ==============================
 
 ==============================
@@ -44,14 +31,7 @@ typeindex=1 left=30 right=118 top=182 bottom=192
 ====>
 
 BORROWER:
-==============================
 
-==============================
-type: subtitle level2
-typeindex=2 left=150 right=281 top=182 bottom=192 
-====>
-
-CDH :: Main Library
 ==============================
 
 ==============================
@@ -60,14 +40,7 @@ typeindex=0 left=30 right=59 top=207 bottom=214
 ====>
 
 TYPE:
-==============================
 
-==============================
-type: text
-typeindex=0 left=150 right=220 top=207 bottom=214 
-====>
-
-Article CC:CCG
 ==============================
 
 ==============================
@@ -76,14 +49,7 @@ typeindex=0 left=30 right=109 top=227 bottom=234
 ====>
 
 JOURNAL TITLE:
-==============================
 
-==============================
-type: text
-typeindex=0 left=150 right=309 top=227 bottom=234 
-====>
-
-The Journal of educational research
 ==============================
 
 ==============================
@@ -92,14 +58,7 @@ typeindex=0 left=30 right=139 top=247 bottom=254
 ====>
 
 USER JOURNAL TITLE:
-==============================
 
-==============================
-type: text
-typeindex=0 left=150 right=312 top=247 bottom=254 
-====>
-
-The Journal of educational research.
 ==============================
 
 ==============================
@@ -108,6 +67,151 @@ typeindex=0 left=30 right=105 top=267 bottom=274
 ====>
 
 ARTICLE TITLE:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=119 top=297 bottom=304 
+====>
+
+ARTICLE AUTHOR:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=75 top=317 bottom=324 
+====>
+
+VOLUME:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=63 top=337 bottom=344 
+====>
+
+ISSUE:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=69 top=357 bottom=364 
+====>
+
+MONTH:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=60 top=377 bottom=384 
+====>
+
+YEAR:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=66 top=397 bottom=404 
+====>
+
+PAGES:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=56 top=417 bottom=424 
+====>
+
+ISSN:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=69 top=437 bottom=444 
+====>
+
+OCLC #:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=129 top=477 bottom=484 
+====>
+
+Processed by RapidX:
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=30 right=332 top=502 bottom=509 
+====>
+
+This material may be protected by copyright law (Title 17 U.S. Code)
+
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=150 right=189 top=126 bottom=136 
+====>
+
+64015
+
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=150 right=280 top=154 bottom=164 
+====>
+
+EGA :: Main Library
+
+==============================
+
+==============================
+type: subtitle level2
+typeindex=2 left=150 right=281 top=182 bottom=192 
+====>
+
+CDH :: Main Library
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=150 right=220 top=207 bottom=214 
+====>
+
+Article CC:CCG
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=150 right=309 top=227 bottom=234 
+====>
+
+The Journal of educational research
+
+==============================
+
+==============================
+type: text
+typeindex=0 left=150 right=312 top=247 bottom=254 
+====>
+
+The Journal of educational research.
+
 ==============================
 
 ==============================
@@ -117,22 +221,7 @@ typeindex=0 left=150 right=562 top=267 bottom=284
 
 Impact of the KWL reading strategy on mathematical problem-solving achievement of primary
 school 4th graders.
-==============================
 
-==============================
-type: text
-typeindex=0 left=30 right=119 top=297 bottom=304 
-====>
-
-ARTICLE AUTHOR:
-==============================
-
-==============================
-type: text
-typeindex=0 left=30 right=75 top=317 bottom=324 
-====>
-
-VOLUME:
 ==============================
 
 ==============================
@@ -141,14 +230,7 @@ typeindex=0 left=150 right=166 top=317 bottom=324
 ====>
 
 113
-==============================
 
-==============================
-type: text
-typeindex=0 left=30 right=63 top=337 bottom=344 
-====>
-
-ISSUE:
 ==============================
 
 ==============================
@@ -157,22 +239,7 @@ typeindex=0 left=150 right=156 top=337 bottom=344
 ====>
 
 5
-==============================
 
-==============================
-type: text
-typeindex=0 left=30 right=69 top=357 bottom=364 
-====>
-
-MONTH:
-==============================
-
-==============================
-type: text
-typeindex=0 left=30 right=60 top=377 bottom=384 
-====>
-
-YEAR:
 ==============================
 
 ==============================
@@ -181,14 +248,7 @@ typeindex=0 left=150 right=172 top=377 bottom=384
 ====>
 
 2020
-==============================
 
-==============================
-type: text
-typeindex=0 left=30 right=66 top=397 bottom=404 
-====>
-
-PAGES:
 ==============================
 
 ==============================
@@ -197,14 +257,7 @@ typeindex=0 left=150 right=170 top=397 bottom=404
 ====>
 
 343-
-==============================
 
-==============================
-type: text
-typeindex=0 left=30 right=56 top=417 bottom=424 
-====>
-
-ISSN:
 ==============================
 
 ==============================
@@ -213,14 +266,7 @@ typeindex=0 left=150 right=198 top=417 bottom=424
 ====>
 
 0022-0671
-==============================
 
-==============================
-type: text
-typeindex=0 left=30 right=69 top=437 bottom=444 
-====>
-
-OCLC #:
 ==============================
 
 ==============================
@@ -229,14 +275,7 @@ typeindex=0 left=150 right=188 top=437 bottom=444
 ====>
 
 9653114
-==============================
 
-==============================
-type: text
-typeindex=0 left=30 right=129 top=477 bottom=484 
-====>
-
-Processed by RapidX:
 ==============================
 
 ==============================
@@ -245,13 +284,6 @@ typeindex=0 left=150 right=248 top=477 bottom=484
 ====>
 
 5/27/2021 2:48:43 PM
-==============================
 
-==============================
-type: text
-typeindex=0 left=30 right=332 top=502 bottom=509 
-====>
-
-This material may be protected by copyright law (Title 17 U.S. Code)
 ==============================
 
