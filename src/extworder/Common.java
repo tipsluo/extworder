@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.TreeMap;
 
 public class Common {
-	final static float _CharHGapRatio=2f;
+	final static float _CharHGapRatio=1f;
 	final static float _CharVGapRatio=1f;
-	final static float _HSpaceMin=1;
+	final static float _HSpaceMin=0.5f;
 	
 	public Common() {
 		// TODO Auto-generated constructor stub

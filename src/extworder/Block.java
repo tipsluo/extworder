@@ -28,9 +28,9 @@ public class Block extends Rectangle {
 				}
 			}
 		
-		Comparator<Row> compareByYX = (Row r1, Row r2) ->
-			r1.left != r2.left ? (int)(r1.left-r2.left) : (int) (r1.top-r2.top);
-		Collections.sort(Content.content.rows,compareByYX);
+		Comparator<Block> compareByYX = (Block b1, Block b2) ->
+			b1.top != b2.top ? (int)(b1.top-b2.top) : (int) (b1.left-b2.left);
+		Collections.sort(Content.content.blocks,compareByYX);
 	}
 	
 	public Block(int x, int y) {
@@ -40,7 +40,7 @@ public class Block extends Rectangle {
 		height=bottom-top+1;
 		
 		Comparator<Row> compareByYX = (Row row1, Row row2) ->
-											row1.left != row2.left ? (int)(row1.left-row2.left) : (int) (row1.top-row2.top);
+											row1.top != row2.top ? (int)(row1.top-row2.top) : (int) (row1.left-row2.left);
 		Collections.sort(rows,compareByYX);
 		
 		rowHeight=mostRowHeight();
@@ -92,9 +92,15 @@ public class Block extends Rectangle {
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d \n====>\n\n",
 				Content.content.charHeightIndexes.get(rowHeight),left,right,top,bottom));
 		
+		int y=rows.get(0).bottom;
 		for(Row row:rows) {
+			if (row.top>y) {
+				fw.write("\n");
+				y=row.bottom;
+			} else {
+				fw.write(" ");
+			}
 			row.write(fw);
-			fw.write("\n");
 		}
 		
 		fw.write("\n==============================\n\n");

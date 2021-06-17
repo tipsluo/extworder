@@ -143,19 +143,19 @@ public class Row extends Rectangle {
 	}
 	
 	public void write(FileWriter fw) throws IOException {
-		int y0=chars.get(0).bottom;
+		//int y0=chars.get(0).bottom;
 		int x0=chars.get(0).right;
 		for(Char ch:chars) {
-			if (ch.top>y0) {
+			/*if (ch.top>y0) {
 				fw.write("\n");
-				y0=ch.bottom;
-				x0=ch.right;
-			}
+			}*/
+			
 			if(ch.left > x0+Common._HSpaceMin) {
 				fw.write(" ");
 			}
 			fw.write(ch.str);
 			
+			//y0=ch.bottom;
 			x0=ch.right;
 		}
 	}
