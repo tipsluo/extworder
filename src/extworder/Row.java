@@ -33,8 +33,8 @@ public class Row extends Rectangle {
 	
 	public Row(int x, int y) {
 		build(x,y);
-		width=right-left+1;
-		height=bottom-top+1;
+		width=right-left;
+		height=bottom-top;
 	}
 	
 	public void build(int x,int y) {
@@ -150,7 +150,7 @@ public class Row extends Rectangle {
 				fw.write("\n");
 			}*/
 			
-			if(ch.left > x0+Common._HSpaceMin) {
+			if(ch.left > x0 + ch.width * Common._HSpaceMin) {
 				fw.write(" ");
 			}
 			fw.write(ch.str);

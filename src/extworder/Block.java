@@ -36,8 +36,8 @@ public class Block extends Rectangle {
 	public Block(int x, int y) {
 		build(x,y);
 		
-		width=right-left+1;
-		height=bottom-top+1;
+		width=right-left;
+		height=bottom-top;
 		
 		Comparator<Row> compareByYX = (Row row1, Row row2) ->
 											row1.top != row2.top ? (int)(row1.top-row2.top) : (int) (row1.left-row2.left);
@@ -89,8 +89,8 @@ public class Block extends Rectangle {
 		else 
 			fw.write(String.format("type: notes"));
 					
-		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d \n====>\n\n",
-				Content.content.charHeightIndexes.get(rowHeight),left,right,top,bottom));
+		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d width=%f height %f\n====>\n\n",
+				Content.content.charHeightIndexes.get(rowHeight),left,right,top,bottom,width,height));
 		
 		int y=rows.get(0).bottom;
 		for(Row row:rows) {

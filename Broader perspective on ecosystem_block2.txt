@@ -1,6 +1,6 @@
 ==============================
 type: notes
-typeindex=-1 left=60 right=121 top=54 bottom=59 
+typeindex=-1 left=60 right=121 top=54 bottom=59 width=61.000000 height 5.000000
 ====>
 
  PERSPECTIVE
@@ -8,17 +8,17 @@ typeindex=-1 left=60 right=121 top=54 bottom=59
 
 ==============================
 type: title
-typeindex=2 left=31 right=416 top=99 bottom=167 
+typeindex=2 left=31 right=416 top=99 bottom=167 width=385.000000 height 68.000000
 ====>
 
  Broader perspective on ecosystem
 sustainability: Consequences for
-decision making
+decisionmaking
 ==============================
 
 ==============================
 type: notes
-typeindex=-2 left=62 right=96 top=169 bottom=178 
+typeindex=-2 left=62 right=96 top=169 bottom=178 width=34.000000 height 9.000000
 ====>
 
  a,1Sidle ,
@@ -26,7 +26,7 @@ typeindex=-2 left=62 right=96 top=169 bottom=178
 
 ==============================
 type: notes
-typeindex=-2 left=147 right=186 top=169 bottom=178 
+typeindex=-2 left=147 right=186 top=169 bottom=178 width=39.000000 height 9.000000
 ====>
 
  bBenson ,
@@ -34,7 +34,7 @@ typeindex=-2 left=147 right=186 top=169 bottom=178
 
 ==============================
 type: notes
-typeindex=-2 left=222 right=264 top=169 bottom=178 
+typeindex=-2 left=222 right=264 top=169 bottom=178 width=42.000000 height 9.000000
 ====>
 
  bCarriger ,
@@ -42,15 +42,15 @@ typeindex=-2 left=222 right=264 top=169 bottom=178
 
 ==============================
 type: notes
-typeindex=-2 left=267 right=363 top=169 bottom=178 
+typeindex=-2 left=267 right=363 top=169 bottom=178 width=96.000000 height 9.000000
 ====>
 
- cand Toshitaka Kamai
+ cand ToshitakaKamai
 ==============================
 
 ==============================
 type: notes
-typeindex=-2 left=31 right=59 top=173 bottom=178 
+typeindex=-2 left=31 right=59 top=173 bottom=178 width=28.000000 height 5.000000
 ====>
 
  Roy C.
@@ -58,15 +58,15 @@ typeindex=-2 left=31 right=59 top=173 bottom=178
 
 ==============================
 type: notes
-typeindex=-2 left=99 right=144 top=173 bottom=178 
+typeindex=-2 left=99 right=144 top=173 bottom=178 width=45.000000 height 5.000000
 ====>
 
- William H.
+ WilliamH.
 ==============================
 
 ==============================
 type: notes
-typeindex=-2 left=189 right=219 top=173 bottom=178 
+typeindex=-2 left=189 right=219 top=173 bottom=178 width=30.000000 height 5.000000
 ====>
 
  John F.
@@ -74,63 +74,17 @@ typeindex=-2 left=189 right=219 top=173 bottom=178
 
 ==============================
 type: notes
-typeindex=-4 left=31 right=144 top=181 bottom=190 
+typeindex=-4 left=31 right=541 top=181 bottom=214 width=510.000000 height 33.000000
 ====>
 
- aEcosystems Research Division,
+ aEcosystems Research Division, National Exposure Research Laboratory, US Environmental ProtectionAgency-ORD, Athens, GA 30605;
+Gulf Ecology Division, National Health and Environmental Effects Laboratory, US Environmental Protection Agency-ORD, Gulf Breeze, FL
+32561; and Research Centeron Landslides, Disaster Prevention Research Institute, Kyoto University, Gokasho, Uji,Kyoto 611-0011, Japan
 ==============================
 
 ==============================
 type: notes
-typeindex=-4 left=147 right=179 top=185 bottom=190 
-====>
-
- National
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=182 right=294 top=185 bottom=190 
-====>
-
- Exposure Research Laboratory,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=297 right=361 top=185 bottom=190 
-====>
-
- US Environmental
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=364 right=452 top=185 bottom=190 
-====>
-
- Protection Agency-ORD,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=455 right=483 top=185 bottom=190 
-====>
-
- Athens,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=486 right=525 top=185 bottom=190 
-====>
-
- GA 30605;
-==============================
-
-==============================
-type: notes
-typeindex=-14 left=31 right=35 top=193 bottom=196 
+typeindex=-14 left=31 right=35 top=193 bottom=196 width=4.000000 height 3.000000
 ====>
 
  b
@@ -138,87 +92,7 @@ typeindex=-14 left=31 right=35 top=193 bottom=196
 
 ==============================
 type: notes
-typeindex=-4 left=35 right=49 top=197 bottom=202 
-====>
-
- Gulf
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=52 right=114 top=197 bottom=202 
-====>
-
- Ecology Division,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=117 right=148 top=197 bottom=202 
-====>
-
- National
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=151 right=247 top=197 bottom=202 
-====>
-
- Health and Environmental
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=250 right=318 top=197 bottom=202 
-====>
-
- Effects Laboratory,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=321 right=386 top=197 bottom=202 
-====>
-
- US Environmental
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=389 right=477 top=197 bottom=202 
-====>
-
- Protection Agency-ORD,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=480 right=495 top=197 bottom=202 
-====>
-
- Gulf
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=498 right=523 top=197 bottom=202 
-====>
-
- Breeze,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=526 right=534 top=197 bottom=202 
-====>
-
- FL
-==============================
-
-==============================
-type: notes
-typeindex=-14 left=77 right=80 top=205 bottom=208 
+typeindex=-14 left=77 right=80 top=205 bottom=208 width=3.000000 height 3.000000
 ====>
 
  c
@@ -226,79 +100,7 @@ typeindex=-14 left=77 right=80 top=205 bottom=208
 
 ==============================
 type: notes
-typeindex=-4 left=31 right=57 top=209 bottom=214 
-====>
-
- 32561;
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=60 right=74 top=209 bottom=214 
-====>
-
- and
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=80 right=194 top=209 bottom=214 
-====>
-
- Research Center on Landslides,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=197 right=226 top=209 bottom=214 
-====>
-
- Disaster
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=229 right=337 top=209 bottom=214 
-====>
-
- Prevention Research Institute,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=340 right=400 top=209 bottom=214 
-====>
-
- Kyoto University,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=403 right=438 top=209 bottom=214 
-====>
-
- Gokasho,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=441 right=517 top=209 bottom=214 
-====>
-
- Uji, Kyoto 611-0011,
-==============================
-
-==============================
-type: notes
-typeindex=-4 left=520 right=541 top=209 bottom=214 
-====>
-
- Japan
-==============================
-
-==============================
-type: notes
-typeindex=-8 left=31 right=92 top=225 bottom=229 
+typeindex=-8 left=31 right=92 top=225 bottom=229 width=61.000000 height 4.000000
 ====>
 
  Edited by Stephen R.
@@ -306,7 +108,7 @@ typeindex=-8 left=31 right=92 top=225 bottom=229
 
 ==============================
 type: notes
-typeindex=-8 left=94 right=124 top=225 bottom=229 
+typeindex=-8 left=94 right=124 top=225 bottom=229 width=30.000000 height 4.000000
 ====>
 
  Carpenter,
@@ -314,15 +116,15 @@ typeindex=-8 left=94 right=124 top=225 bottom=229
 
 ==============================
 type: notes
-typeindex=-8 left=127 right=196 top=225 bottom=229 
+typeindex=-8 left=127 right=196 top=225 bottom=229 width=69.000000 height 4.000000
 ====>
 
- University of Wisconsin,
+ University ofWisconsin,
 ==============================
 
 ==============================
 type: notes
-typeindex=-8 left=198 right=225 top=225 bottom=229 
+typeindex=-8 left=198 right=225 top=225 bottom=229 width=27.000000 height 4.000000
 ====>
 
  Madison,
@@ -330,7 +132,7 @@ typeindex=-8 left=198 right=225 top=225 bottom=229
 
 ==============================
 type: notes
-typeindex=-8 left=227 right=237 top=225 bottom=229 
+typeindex=-8 left=227 right=237 top=225 bottom=229 width=10.000000 height 4.000000
 ====>
 
  WI,
@@ -338,15 +140,15 @@ typeindex=-8 left=227 right=237 top=225 bottom=229
 
 ==============================
 type: notes
-typeindex=-8 left=240 right=296 top=225 bottom=229 
+typeindex=-8 left=240 right=296 top=225 bottom=229 width=56.000000 height 4.000000
 ====>
 
- and approved April
+ and approvedApril
 ==============================
 
 ==============================
 type: notes
-typeindex=-8 left=298 right=304 top=225 bottom=229 
+typeindex=-8 left=298 right=304 top=225 bottom=229 width=6.000000 height 4.000000
 ====>
 
  2,
@@ -354,7 +156,7 @@ typeindex=-8 left=298 right=304 top=225 bottom=229
 
 ==============================
 type: notes
-typeindex=-8 left=306 right=359 top=225 bottom=229 
+typeindex=-8 left=306 right=359 top=225 bottom=229 width=53.000000 height 4.000000
 ====>
 
  2013 (received for
@@ -362,7 +164,7 @@ typeindex=-8 left=306 right=359 top=225 bottom=229
 
 ==============================
 type: notes
-typeindex=-8 left=362 right=416 top=225 bottom=229 
+typeindex=-8 left=362 right=416 top=225 bottom=229 width=54.000000 height 4.000000
 ====>
 
  review February 4,
@@ -370,7 +172,7 @@ typeindex=-8 left=362 right=416 top=225 bottom=229
 
 ==============================
 type: notes
-typeindex=-8 left=418 right=435 top=225 bottom=229 
+typeindex=-8 left=418 right=435 top=225 bottom=229 width=17.000000 height 4.000000
 ====>
 
  2013)
@@ -378,415 +180,28 @@ typeindex=-8 left=418 right=435 top=225 bottom=229
 
 ==============================
 type: notes
-typeindex=-6 left=31 right=111 top=241 bottom=245 
+typeindex=-6 left=31 right=542 top=241 bottom=375 width=511.000000 height 134.000000
 ====>
 
- Although the concept
+ Although the concept of ecosystem sustainability hasa long-term focus, it is often viewed from a static systemperspective. Becausemost
+ecosystems are dynamic,we explore sustainabilityassessments from threeadditionalperspectives: resilient systems; systemswhere tipping
+pointsoccur;and systems subject toepisodic resetting.Whereas foundationsofecosystem resilienceoriginated inecology, recentdiscussions
+have focusedon geophysicalattributes,and it is recognized that dynamic system componentsmaynot return to their former state following
+perturbations.Tippingpointsemergewhen chronic changes (typically anthropogenic,but sometimesnatural)push ecosystems to thresholds
+that cause collapse of processand functionandmay become permanent.Ecosystem resettingoccurswhenepisodicnaturaldisasters breach
+thresholdswith little or no warning, resulting in long-term changes to environmental attributes or ecosystem function. An example of
+sustainabilityassessmentofecosystemgoodsand servicesalong theGulfCoast (USA)demonstrates theneed to includeboth the resilientand
+dynamic nature of biogeomorphic components. Mountain roaddevelopment in northwest Yunnan,China, makes riversand related habitat
+vulnerable to tipping points. Ecosystems reset bynatural disasters are also presented, emphasizing theneed to understand themagnitude
+frequency and interrelationships amongmajor disturbances, as shown by (i) the 2011 GreatEast JapanEarthquake and resulting tsunami,
+including how unsustainableurbandevelopment exacerbates geodisaster propagation, and (ii) repeatedmajorearthquakes and associated
+geomorphic and vegetation disturbances in Papua New Guinea. Although all of these ecosystem perturbations and shifts are individually
+recognized, they arenot embraced in contemporary sustainabledecisionmaking.
 ==============================
 
 ==============================
 type: notes
-typeindex=-6 left=114 right=121 top=241 bottom=245 
-====>
-
- of
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=124 right=298 top=241 bottom=245 
-====>
-
- ecosystem sustainability has a long-term focus,
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=301 right=489 top=241 bottom=245 
-====>
-
- it is often viewed from a static system perspective.
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=492 right=542 top=241 bottom=245 
-====>
-
- Because most
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=392 top=251 bottom=255 
-====>
-
- ecosystems are dynamic, we explore sustainability assessments from three additional perspectives:
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=395 right=457 top=251 bottom=255 
-====>
-
- resilient systems;
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=460 right=542 top=251 bottom=255 
-====>
-
- systems where tipping
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=542 top=261 bottom=265 
-====>
-
- points occur; and systems subject to episodic resetting. Whereas foundations of ecosystem resilience originated in ecology, recent discussions
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=198 top=271 bottom=275 
-====>
-
- have focused on geophysical attributes, and it
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=201 right=265 top=271 bottom=275 
-====>
-
- is recognized that
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=268 right=458 top=271 bottom=275 
-====>
-
- dynamic system components may not return to their
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=461 right=542 top=271 bottom=275 
-====>
-
- former state following
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=542 top=281 bottom=285 
-====>
-
- perturbations. Tipping points emerge when chronic changes (typically anthropogenic, but sometimes natural) push ecosystems to thresholds
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=110 top=291 bottom=295 
-====>
-
- that cause collapse of
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=113 right=542 top=291 bottom=295 
-====>
-
- process and function and may become permanent. Ecosystem resetting occurs when episodic natural disasters breach
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=120 top=301 bottom=305 
-====>
-
- thresholds with little or
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=124 right=169 top=301 bottom=305 
-====>
-
- no warning,
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=173 right=288 top=301 bottom=305 
-====>
-
- resulting in long-term changes
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=292 right=355 top=301 bottom=305 
-====>
-
- to environmental
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=359 right=394 top=301 bottom=305 
-====>
-
- attributes
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=398 right=405 top=301 bottom=305 
-====>
-
- or
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=409 right=483 top=301 bottom=305 
-====>
-
- ecosystem function.
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=486 right=542 top=301 bottom=305 
-====>
-
- An example of
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=542 top=311 bottom=315 
-====>
-
- sustainability assessment of ecosystem goods and services along the Gulf Coast (USA) demonstrates the need to include both the resilient and
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=98 top=321 bottom=325 
-====>
-
- dynamic nature of
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=101 right=205 top=321 bottom=325 
-====>
-
- biogeomorphic components.
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=208 right=362 top=321 bottom=325 
-====>
-
- Mountain road development i n northwest
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=365 right=420 top=321 bottom=325 
-====>
-
- Yunnan, China,
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=423 right=542 top=321 bottom=325 
-====>
-
- makes rivers and related habitat
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=135 top=331 bottom=335 
-====>
-
- vulnerable to tipping points.
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=138 right=200 top=331 bottom=335 
-====>
-
- Ecosystems reset
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=203 right=240 top=331 bottom=335 
-====>
-
- by natural
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=243 right=347 top=331 bottom=335 
-====>
-
- disasters are also presented,
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=350 right=542 top=331 bottom=335 
-====>
-
- emphasiz ing the need to understand the magnitude
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=201 top=341 bottom=345 
-====>
-
- frequency and interrelationships among major
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=204 right=252 top=341 bottom=345 
-====>
-
- disturbances,
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=255 right=312 top=341 bottom=345 
-====>
-
- as shown by (i)
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=315 right=389 top=341 bottom=345 
-====>
-
- the 2011 Great East
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=392 right=542 top=341 bottom=345 
-====>
-
- Japan Earthquake and resulting tsunami,
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=210 top=351 bottom=355 
-====>
-
- including how unsustainable urban development
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=213 right=300 top=351 bottom=355 
-====>
-
- exacerbates geodisaster
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=303 right=350 top=351 bottom=355 
-====>
-
- propagation,
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=353 right=542 top=351 bottom=355 
-====>
-
- and (ii) repeated major earthquakes and associated
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=268 top=361 bottom=365 
-====>
-
- geomorphic and vegetation disturbances in Papua New Guinea.
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=271 right=317 top=361 bottom=365 
-====>
-
- Although all
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=320 right=328 top=361 bottom=365 
-====>
-
- of
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=331 right=542 top=361 bottom=365 
-====>
-
- these ecosystem perturbations and shifts are individually
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=31 right=73 top=371 bottom=375 
-====>
-
- recognized,
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=76 right=120 top=371 bottom=375 
-====>
-
- they are not
-==============================
-
-==============================
-type: notes
-typeindex=-6 left=123 right=329 top=371 bottom=375 
-====>
-
- embraced in contemporary sustainable decision making.
-==============================
-
-==============================
-type: notes
-typeindex=-8 left=31 right=168 top=390 bottom=399 
+typeindex=-8 left=31 right=168 top=390 bottom=399 width=137.000000 height 9.000000
 ====>
 
  ecosystem stressors complex system behavior|
@@ -794,7 +209,7 @@ typeindex=-8 left=31 right=168 top=390 bottom=399
 
 ==============================
 type: notes
-typeindex=-8 left=176 right=241 top=390 bottom=399 
+typeindex=-8 left=176 right=241 top=390 bottom=399 width=65.000000 height 9.000000
 ====>
 
  sustainability analysis |
@@ -802,7 +217,7 @@ typeindex=-8 left=176 right=241 top=390 bottom=399
 
 ==============================
 type: notes
-typeindex=-8 left=244 right=293 top=390 bottom=394 
+typeindex=-8 left=244 right=293 top=390 bottom=394 width=49.000000 height 4.000000
 ====>
 
  cascading effects
@@ -810,7 +225,7 @@ typeindex=-8 left=244 right=293 top=390 bottom=394
 
 ==============================
 type: notes
-typeindex=-8 left=301 right=321 top=390 bottom=394 
+typeindex=-8 left=301 right=321 top=390 bottom=394 width=20.000000 height 4.000000
 ====>
 
  coastal
@@ -818,15 +233,15 @@ typeindex=-8 left=301 right=321 top=390 bottom=394
 
 ==============================
 type: notes
-typeindex=-8 left=323 right=377 top=390 bottom=394 
+typeindex=-8 left=323 right=377 top=390 bottom=394 width=54.000000 height 4.000000
 ====>
 
- zone management
+ zonemanagement
 ==============================
 
 ==============================
 type: subtitle level1
-typeindex=1 left=171 right=173 top=391 bottom=399 
+typeindex=1 left=171 right=173 top=391 bottom=399 width=2.000000 height 8.000000
 ====>
 
  |
@@ -834,7 +249,7 @@ typeindex=1 left=171 right=173 top=391 bottom=399
 
 ==============================
 type: subtitle level1
-typeindex=1 left=296 right=298 top=391 bottom=399 
+typeindex=1 left=296 right=298 top=391 bottom=399 width=2.000000 height 8.000000
 ====>
 
  |
@@ -842,37 +257,37 @@ typeindex=1 left=296 right=298 top=391 bottom=399
 
 ==============================
 type: text
-typeindex=0 left=31 right=195 top=421 bottom=731 
+typeindex=0 left=31 right=195 top=421 bottom=731 width=164.000000 height 310.000000
 ====>
 
- The c onc ept of sustainability increasingly
-permeates g o vernment, aca demic, an d
-pr ivat e-sector organizational mantras. Su s-
+ The concept of sustainability increasingly
+permeates government, academic, and
+private-sector organizationalmantras.Sus-
 tainability is de?ned in many ways, but a
-com mon thread lies in its goal of har mo-
-nizing environmen t al, ec on omic , and so-
-cial opportunities f or the bene?t of presen t
+common thread lies in its goal of harmo-
+nizing environmental, economic, and so-
+cial opportunities for the bene?tofpresent
 and future generations (1–4). In ecosystem
-r e search and m anagement, the under lying
-foundations of environmental sustainability
-are s ystem attr ibute s—bi o sph ere , hydro-
-s phere, geos phere, a nd a t m osphe re, and
-the l in kages among th e m . Superim pose d
+research and management, the underlying
+foundationsof environmental sustainability
+are system attributes—biosphere, hydro-
+sphere, geosphere, and atmosphere, and
+the linkages among them. Superimposed
 on these natural ecosystem attributes is the
-huma n c omp onent, con sist in g o f huma ns
-themselves, th eir econ o mies, insti t ution s,
+human component, consisting of humans
+themselves, their economies, institutions,
 infrastructures, cultures, and related land
-use (5 –7).
-Be lie f in the balan ce of nature gave rise
-to early ecologic al concepts such as carry-
-i ng ca p acity and maximum su stained yield,
-wh ich view ecos ys tems as permanent in
-form and structure that str ive to recover to
-an “equilibrium” state f ollowing dis t u r-
-bances (8–1 0) ; thus, much t hought and
+use (5–7).
+Belief in the balance of nature gave rise
+to early ecological concepts such as carry-
+ing capacity andmaximum sustainedyield,
+which view ecosystems as permanent in
+formand structure that strive to recover to
+an “equilibrium” state following distur-
+bances (8–10); thus, much thought and
 research have been invested in incorporat-
-ing the concept of resilience into sustainabil-
-ity assessments (11–13). Resilience addresses
+ing the conceptof resilience into sustainabil-
+ityassessments (11–13).Resilience addresses
 the ability of ecosystems to absorb change
 and disturbance and adapt to small-scale
 perturbations, both in the length of time
@@ -880,74 +295,74 @@ perturbations, both in the length of time
 
 ==============================
 type: text
-typeindex=0 left=204 right=369 top=421 bottom=731 
+typeindex=0 left=204 right=369 top=421 bottom=731 width=165.000000 height 310.000000
 ====>
 
- it takes t o recov er from external s t re ss
-and in the magnitude of stress from which
-a system can recover without rapidly moving
+ it takes to recover from external stress
+and in themagnitude of stress fromwhich
+a system can recoverwithout rapidlymoving
 to a new stable condition (7, 14). While
-ma ny re silien ce con cepts evolved from
-e c o log y (1 5), res ili e nce h as re levanc e to
-oth er ecosystem cha ra c ter isti cs, such as
+many resilience concepts evolved from
+ecology (15), resilience has relevance to
+other ecosystem characteristics, such as
 the sustainability of surface water (16–18)
-and groundwater (19). Although perturbed
+andgroundwater (19). Although perturbed
 ecosystems and components do not always
 return to the exact state before a distur-
 bance, there is a recognized bound on the
 breadth of resilience (20): if a system is
 viewed as resilient, it is generally perceived
-as remaining within speci ?ed “bounds.”
+as remaining within speci?ed “bounds.”
 While this notion of an essentially ?nite
 system is accepted even by critics of sus-
 tainable development (21), the concepts of
 permanent ecosystem change are typically
 absent from sustainability discussions.
-Tipping points are encountered one step
-beyo nd ecosystem resilience and re p resent
-thresho lds that, when crossed, result in
-cat astrophic col lapse o f pro c esses or func-
-tions that are e xtr e mely dif?cult to restore.
-These t ipping points ar e closely as soci ated
-with co mplex sy stem behavior wh e re small
-and c u mulative anthro p ogenic and/or nat-
-ural stressors push ecosystems toward critical
-transitions, causing an abrupt shift from one
-state to another (16, 22, 23). Negative tipping
+Tippingpoints are encounteredone step
+beyond ecosystem resilience and represent
+thresholds that, when crossed, result in
+catastrophic collapse of processes or func-
+tions thatare extremely dif?cult to restore.
+These tipping points are closely associated
+with complex systembehaviorwhere small
+and cumulative anthropogenicand/or nat-
+ural stressorspush ecosystems toward critical
+transitions, causing an abrupt shift fromone
+state toanother (16, 22, 23). Negative tipping
 ==============================
 
 ==============================
 type: text
-typeindex=0 left=378 right=542 top=421 bottom=635 
+typeindex=0 left=378 right=542 top=421 bottom=635 width=164.000000 height 214.000000
 ====>
 
  points are applied to projected collapses in
-ecosy stems related to climate change (24),
-climate anomalies (25), and land-use change
-(26 ). In mos t scen ar ios, p rotracte d dis-
-tur bance or s tre ss c aus es the s ystem to
-lose resi lience, fol low ed by a n a b rupt al-
-ter ati o n in state once t he tipping point is
+ecosystems related to climate change (24),
+climate anomalies (25),and land-use change
+(26). In most scenarios, protracted dis-
+turbance or stress causes the system to
+lose resilience, followed by an abrupt al-
+teration in state once the tipping point is
 exceeded (27). Positive tipping points may
-occur when interventions in degraded eco-
+occurwhen interventions in degraded eco-
 systems allow processes and populations to
-recover wi t h the help of hum an i nnova-
+recover with the help of human innova-
 tion (28).
-A different k ind of threshold is crossed
-when e pisodic natural disasters affect eco-
-systems. These ar e r eached suddenly with
-little or no warning, and the resulting im-
+A different kind of threshold is crossed
+when episodic natural disasters affect eco-
+systems. These are reached suddenlywith
+little or nowarning, and the resulting im-
 pacts on ecosystems can be dramatic and
-f ar -reach in g (16 ). Examples include the
+far-reaching (16). Examples include the
 devastating 2011 earthquake-tsunami di-
-saster in e as t ern Japa n (29); lahars e ma-
-nating f rom the 1985 volcanic activity at
-Neva d o d e l Ruiz, Colombia (30); climate
+saster in eastern Japan (29); lahars ema-
+nating from the 1985 volcanic activity at
+Nevado del Ruiz, Colombia (30); climate
 ==============================
 
 ==============================
 type: notes
-typeindex=-7 left=726 right=763 top=566 bottom=569 
+typeindex=-7 left=726 right=763 top=566 bottom=569 width=37.000000 height 3.000000
 ====>
 
  PERSPECTIVE
@@ -955,55 +370,16 @@ typeindex=-7 left=726 right=763 top=566 bottom=569
 
 ==============================
 type: notes
-typeindex=-13 left=378 right=430 top=652 bottom=655 
+typeindex=-13 left=378 right=542 top=652 bottom=664 width=164.000000 height 12.000000
 ====>
 
- Author contributions:
+ Authorcontributions: R.C.S.conceived the perspective;and R.C.S.,
+W.H.B., J.F.C., and T.K. wrote the paper.
 ==============================
 
 ==============================
 type: notes
-typeindex=-13 left=432 right=542 top=652 bottom=655 
-====>
-
- R.C.S. conceived the perspective; and R.C.S.,
-==============================
-
-==============================
-type: notes
-typeindex=-13 left=378 right=396 top=661 bottom=664 
-====>
-
- W.H.B.,
-==============================
-
-==============================
-type: notes
-typeindex=-13 left=398 right=412 top=661 bottom=664 
-====>
-
- J.F.C.,
-==============================
-
-==============================
-type: notes
-typeindex=-13 left=414 right=434 top=661 bottom=664 
-====>
-
- and T.K.
-==============================
-
-==============================
-type: notes
-typeindex=-13 left=436 right=478 top=661 bottom=664 
-====>
-
- wrote the paper.
-==============================
-
-==============================
-type: notes
-typeindex=-13 left=378 right=455 top=673 bottom=676 
+typeindex=-13 left=378 right=455 top=673 bottom=676 width=77.000000 height 3.000000
 ====>
 
  The authors declare no con?ict
@@ -1011,7 +387,7 @@ typeindex=-13 left=378 right=455 top=673 bottom=676
 
 ==============================
 type: notes
-typeindex=-13 left=457 right=462 top=673 bottom=676 
+typeindex=-13 left=457 right=462 top=673 bottom=676 width=5.000000 height 3.000000
 ====>
 
  of
@@ -1019,7 +395,7 @@ typeindex=-13 left=457 right=462 top=673 bottom=676
 
 ==============================
 type: notes
-typeindex=-13 left=464 right=484 top=673 bottom=676 
+typeindex=-13 left=464 right=484 top=673 bottom=676 width=20.000000 height 3.000000
 ====>
 
  interest.
@@ -1027,7 +403,7 @@ typeindex=-13 left=464 right=484 top=673 bottom=676
 
 ==============================
 type: notes
-typeindex=-13 left=378 right=446 top=685 bottom=688 
+typeindex=-13 left=378 right=446 top=685 bottom=688 width=68.000000 height 3.000000
 ====>
 
  This article is a PNAS Direct
@@ -1035,7 +411,7 @@ typeindex=-13 left=378 right=446 top=685 bottom=688
 
 ==============================
 type: notes
-typeindex=-13 left=448 right=478 top=685 bottom=688 
+typeindex=-13 left=448 right=478 top=685 bottom=688 width=30.000000 height 3.000000
 ====>
 
  Submission.
@@ -1043,7 +419,7 @@ typeindex=-13 left=448 right=478 top=685 bottom=688
 
 ==============================
 type: notes
-typeindex=-17 left=378 right=380 top=694 bottom=696 
+typeindex=-17 left=378 right=380 top=694 bottom=696 width=2.000000 height 2.000000
 ====>
 
  1
@@ -1051,47 +427,25 @@ typeindex=-17 left=378 right=380 top=694 bottom=696
 
 ==============================
 type: notes
-typeindex=-13 left=380 right=542 top=697 bottom=700 
+typeindex=-13 left=380 right=542 top=697 bottom=708 width=162.000000 height 11.000000
 ====>
 
- To whom correspondence should be addressed. E-mail: sidle.roy@
+ Towhom correspondence shouldbeaddressed.E-mail:sidle.roy@
+epa.gov.
 ==============================
 
 ==============================
 type: notes
-typeindex=-13 left=380 right=401 top=705 bottom=708 
+typeindex=-13 left=378 right=542 top=717 bottom=729 width=164.000000 height 12.000000
 ====>
 
- epa.gov.
+ This articlecontains supporting information online at www.pnas.org/
+lookup/suppl/doi:10.1073/pnas.1302328110/-/DCSupplemental.
 ==============================
 
 ==============================
 type: notes
-typeindex=-13 left=378 right=503 top=717 bottom=720 
-====>
-
- This article contains supporting information online at
-==============================
-
-==============================
-type: notes
-typeindex=-13 left=505 right=542 top=717 bottom=720 
-====>
-
- www.pnas.org/
-==============================
-
-==============================
-type: notes
-typeindex=-13 left=378 right=531 top=726 bottom=729 
-====>
-
- lookup/suppl/doi:10.1073/pnas.1302328110/-/DCSupplemental.
-==============================
-
-==============================
-type: notes
-typeindex=-10 left=31 right=174 top=751 bottom=755 
+typeindex=-10 left=31 right=174 top=751 bottom=755 width=143.000000 height 4.000000
 ====>
 
  www.pnas.org/cgi/doi/10.1073/pnas.1302328110
@@ -1099,7 +453,7 @@ typeindex=-10 left=31 right=174 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-10 left=366 right=382 top=751 bottom=755 
+typeindex=-10 left=366 right=382 top=751 bottom=755 width=16.000000 height 4.000000
 ====>
 
  PNAS
@@ -1107,7 +461,7 @@ typeindex=-10 left=366 right=382 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-9 left=388 right=389 top=751 bottom=755 
+typeindex=-9 left=388 right=389 top=751 bottom=755 width=1.000000 height 4.000000
 ====>
 
  |
@@ -1115,7 +469,7 @@ typeindex=-9 left=388 right=389 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-10 left=394 right=416 top=751 bottom=755 
+typeindex=-10 left=394 right=416 top=751 bottom=755 width=22.000000 height 4.000000
 ====>
 
  June 4,
@@ -1123,7 +477,7 @@ typeindex=-10 left=394 right=416 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-10 left=418 right=432 top=751 bottom=755 
+typeindex=-10 left=418 right=432 top=751 bottom=755 width=14.000000 height 4.000000
 ====>
 
  2013
@@ -1131,7 +485,7 @@ typeindex=-10 left=418 right=432 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-9 left=437 right=439 top=751 bottom=755 
+typeindex=-9 left=437 right=439 top=751 bottom=755 width=2.000000 height 4.000000
 ====>
 
  |
@@ -1139,7 +493,7 @@ typeindex=-9 left=437 right=439 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-10 left=444 right=455 top=751 bottom=755 
+typeindex=-10 left=444 right=455 top=751 bottom=755 width=11.000000 height 4.000000
 ====>
 
  vol.
@@ -1147,7 +501,7 @@ typeindex=-10 left=444 right=455 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-10 left=457 right=468 top=751 bottom=755 
+typeindex=-10 left=457 right=468 top=751 bottom=755 width=11.000000 height 4.000000
 ====>
 
  110
@@ -1155,7 +509,7 @@ typeindex=-10 left=457 right=468 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-9 left=473 right=474 top=751 bottom=755 
+typeindex=-9 left=473 right=474 top=751 bottom=755 width=1.000000 height 4.000000
 ====>
 
  |
@@ -1163,7 +517,7 @@ typeindex=-9 left=473 right=474 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-10 left=480 right=489 top=751 bottom=755 
+typeindex=-10 left=480 right=489 top=751 bottom=755 width=9.000000 height 4.000000
 ====>
 
  no.
@@ -1171,7 +525,7 @@ typeindex=-10 left=480 right=489 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-10 left=491 right=498 top=751 bottom=755 
+typeindex=-10 left=491 right=498 top=751 bottom=755 width=7.000000 height 4.000000
 ====>
 
  23
@@ -1179,7 +533,7 @@ typeindex=-10 left=491 right=498 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-9 left=504 right=505 top=751 bottom=755 
+typeindex=-9 left=504 right=505 top=751 bottom=755 width=1.000000 height 4.000000
 ====>
 
  |
@@ -1187,9 +541,9 @@ typeindex=-9 left=504 right=505 top=751 bottom=755
 
 ==============================
 type: notes
-typeindex=-10 left=510 right=542 top=751 bottom=755 
+typeindex=-10 left=510 right=542 top=751 bottom=755 width=32.000000 height 4.000000
 ====>
 
- 92 01–9208
+ 9201–9208
 ==============================
 

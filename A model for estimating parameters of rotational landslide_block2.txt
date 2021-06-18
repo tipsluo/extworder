@@ -1,6 +1,6 @@
 ==============================
 type: text
-typeindex=0 left=408 right=505 top=72 bottom=114 
+typeindex=0 left=408 right=505 top=72 bottom=114 width=97.000000 height 42.000000
 ====>
 
  Turkish J Earth Sci
@@ -11,15 +11,15 @@ doi:10.3906/yer-1706-25
 
 ==============================
 type: subtitle level1
-typeindex=1 left=164 right=332 top=73 bottom=80 
+typeindex=1 left=164 right=332 top=73 bottom=80 width=168.000000 height 7.000000
 ====>
 
- Turkish Journal of Earth S ciences
+ Turkish Journal of Earth Sciences
 ==============================
 
 ==============================
 type: notes
-typeindex=-2 left=182 right=313 top=91 bottom=97 
+typeindex=-2 left=182 right=313 top=91 bottom=97 width=131.000000 height 6.000000
 ====>
 
  http://journals.tubitak.gov.tr/earth/
@@ -27,7 +27,7 @@ typeindex=-2 left=182 right=313 top=91 bottom=97
 
 ==============================
 type: subtitle level1
-typeindex=1 left=206 right=290 top=112 bottom=119 
+typeindex=1 left=206 right=290 top=112 bottom=119 width=84.000000 height 7.000000
 ====>
 
  Research Article
@@ -35,25 +35,25 @@ typeindex=1 left=206 right=290 top=112 bottom=119
 
 ==============================
 type: title
-typeindex=2 left=120 right=433 top=158 bottom=183 
+typeindex=2 left=120 right=433 top=158 bottom=183 width=313.000000 height 25.000000
 ====>
 
- A model for estimating p arameters of rotational landslide
+ A model for estimating parameters of rotational landslide
 using a first-order differential equation 
 ==============================
 
 ==============================
 type: notes
-typeindex=-1 left=73 right=480 top=198 bottom=215 
+typeindex=-1 left=73 right=480 top=198 bottom=215 width=407.000000 height 17.000000
 ====>
 
  Cahit Ta?? ÇEL?K*
-D epartment of Geomatic Engineering, Facu lty of Engineering, Ni?de Ömer Halisdemir Universit y, Ni?de, Turkey
+Department of Geomatic Engineering, Faculty of Engineering, Ni?de Ömer Halisdemir University, Ni?de, Turkey
 ==============================
 
 ==============================
 type: notes
-typeindex=-1 left=86 right=177 top=240 bottom=246 
+typeindex=-1 left=86 right=177 top=240 bottom=246 width=91.000000 height 6.000000
 ====>
 
  Received: 28.06.2017       
@@ -61,7 +61,7 @@ typeindex=-1 left=86 right=177 top=240 bottom=246
 
 ==============================
 type: notes
-typeindex=-1 left=181 right=355 top=240 bottom=246 
+typeindex=-1 left=181 right=355 top=240 bottom=246 width=174.000000 height 6.000000
 ====>
 
         Accepted/Published Online: 11.08.2017       
@@ -69,101 +69,101 @@ typeindex=-1 left=181 right=355 top=240 bottom=246
 
 ==============================
 type: notes
-typeindex=-1 left=359 right=467 top=240 bottom=246 
+typeindex=-1 left=359 right=467 top=240 bottom=246 width=108.000000 height 6.000000
 ====>
 
-        Fina l Version: 29.09.2017
+        Final Version: 29.09.2017
 ==============================
 
 ==============================
 type: notes
-typeindex=-1 left=35 right=519 top=271 bottom=385 
+typeindex=-1 left=35 right=519 top=271 bottom=385 width=484.000000 height 114.000000
 ====>
 
- Abstrac t: A first-order differential equation was developed and proposed as a search tool in the detection and determination of rotational 
-landslides from two epochs of light dete ction and ranging (L iDAR) system data in t he form of 3D points. To test the proposed metho d 
-two epochs of  LiDAR data  were used:  one before and one after a rotational landslide o ccurred. The first epoch of LiDAR data was real, 
+ Abstract: A first-order differential equation was developed and proposed as a search tool in the detection and determination of rotational 
+landslides from two epochs of light detection and ranging (LiDAR) system data in the form of 3D points. To test the proposed method 
+two epochs of LiDAR data were used: one before and one after a rotational landslide occurred. The first epoch of LiDAR data was real, 
 while the second epoch of LiDAR data was simulated based on the first epoch to ensure one or more rotational landslides were included. 
 From the last returns of LiDAR data of both epochs, two functional surfaces were created. Then elevation differences were obtained for 
-identical points in both surfaces. The differenced elevations main ly contain two types of data; one type consists of unchanged elevation 
-differences and the other type includes changed elevation differences. The second type may be considered as outliers wit h respect to the 
-former. Next, segmentation was p erformed using the determine d outliers. Finally, segmented data were used to est imate the rotational 
-landslide parameters. Using  the model,  all rot ational  landslides  were detected and their parameters  estimated, which  were consistent 
-with simulation parameters. In conclusion, the developed model is capable of detecting and determining rotationa l landslides from 3D 
+identical points in both surfaces. The differenced elevations mainly contain two types of data; one type consists of unchanged elevation 
+differences and the other type includes changed elevation differences. The second type may be considered as outliers with respect to the 
+former. Next, segmentation was performed using the determined outliers. Finally, segmented data were used to estimate the rotational 
+landslide parameters. Using the model, all rotational landslides were detected and their parameters estimated, which were consistent 
+with simulation parameters. In conclusion, the developed model is capable of detecting and determining rotational landslides from 3D 
 data.
 ==============================
 
 ==============================
 type: notes
-typeindex=-1 left=35 right=394 top=400 bottom=406 
+typeindex=-1 left=35 right=394 top=400 bottom=406 width=359.000000 height 6.000000
 ====>
 
- Key words: Modelling, first-order different ial equations, s egmentation, rotational landslides, LiDAR
+ Key words: Modelling, first-order differential equations, segmentation, rotational landslides, LiDAR
 ==============================
 
 ==============================
 type: text
-typeindex=0 left=35 right=269 top=436 bottom=707 
+typeindex=0 left=35 right=269 top=436 bottom=707 width=234.000000 height 271.000000
 ====>
 
  1. Introduction
-Landslide  determinations  and  monitoring  are  important 
-for  understanding their structures  and  behav iors .  Studies 
-for  determinations  of  l andslides  have  utilized  a  digit al 
-terrain model  (DTM)  created by different sources  of data 
-including  light  detect ion  and  ranging  (LiDAR),  which  is 
-a  powerful  tool  to  create  a  bare  ground  mo del,  canopy 
-model,  etc. (Shan  and Toth,  2009). Following  the creation 
+Landslide determinations and monitoring are important 
+for understanding their structures and behaviors. Studies 
+for  determinations of  landslides have utilized a digital 
+terrain model (DTM) created by different sources of data 
+including light detection and ranging  (LiDAR), which is 
+a powerful  tool  to create a bare ground model, canopy 
+model, etc. (Shan and Toth, 2009). Following the creation 
 of  the  DTM,  some  terrain  analysis  is  usual  for  slope, 
-aspect,  and  cur vature  models  in  raster  for mat. Using  the 
-results  of  terrain  analysis  along  with  s oil  parameters,  a 
-landslide susceptibility  map is created,  which  is generally 
+aspect, and curvature models in raster format. Using the 
+results of  terrain analysis along with  soil parameters, a 
+landslide susceptibility map is created, which is generally 
 based on a single epoch of the DTM (Ostu, 1979; McKean 
-and  Roering,  2004;  Glenn,  et  al.,  2006;  Van  Westen,  et 
-al.,  2008;  Shahabi  and  Hashim,  2015).  Remote  sensing 
+and Roering, 2004; Glenn, et al., 2006; Van Westen, et 
+al., 2008; Shahabi  and Hashim,  2015). Remote  sensing 
 techniques  have  been  used  for  detection  of  landslides 
-by  several  researchers.  Fernánde z  et  al.  (2008)  studied 
-landslide  detection  in  rock  mass es  at  Betic  Cordilleras, 
-Spain.  Two  multitemporal  epochs  of  L iDAR  data  along 
-with  supplemental  optical  satellite  imagery  were  used  by 
-Burns  et  al.  (2010)  to  detect  landslides  bigger  than  0.5 
-m.  A  re view  was  done  by  Jab oyedoff  et  al.  (2012).  Chen 
-et  al.  (2014)  proposed  a  landslide  detection  procedure 
+by  several  researchers.  Fernández et al.  (2008)  studied 
+landslide detection  in  rock masses at Betic Cordilleras, 
+Spain. Two multitemporal epochs of LiDAR data along 
+with supplemental optical satellite imagery were used by 
+Burns et al. (2010)  to detect  landslides bigger  than 0.5 
+m. A review was done by Jaboyedoff et al. (2012). Chen 
+et al.  (2014) proposed a  landslide  detection  procedure 
 ==============================
 
 ==============================
 type: text
-typeindex=0 left=286 right=520 top=436 bottom=707 
+typeindex=0 left=286 right=520 top=436 bottom=707 width=234.000000 height 271.000000
 ====>
 
- in  a  forested  area,  involving  aspect,  slope  images,  and 
+ in a  forested  area,  involving aspect,  slope  images, and 
 a  DTM.  Hastao?lu  (2013)  utilized  dynamic  Kalman 
 filtering  in  dynamic  and  kinematic  modelling.  For  a 
-forested  area,  a  landslide  susceptibility  map  was  created 
-by  Eker  and  Ayd?n  (2014).  For  areas  of  different  size, 
-geo-environment al  setting,  and  landslide  types,  Hussin 
-et  al.  (2016)  proposed  a  landslide  susceptibility  model 
-bas ed  on weights-of-evidence (WoE).  The majority of  the 
-studies  described  above  used  pixel-based  procedures  for 
-one  epoch  of  data. However,  two  epochs of 3D data (one 
-before and after the  landslide  occurred)  may  reve al more 
-realist ic results for elevation change in  topography (Burns 
-et  al.,  2010).  Consequently,  modeling  them  can  help  one 
-to determine realistic  results for  landslide  determination. 
-One type  of landslide is a rotational landslide classified by 
-Varnes  (1978).  In  this  field, more modeling for  detection 
+forested area, a  landslide susceptibility map was created 
+by  Eker  and  Ayd?n  (2014).  For areas of  different  size, 
+geo-environmental  setting, and  landslide  types, Hussin 
+et al.  (2016) proposed a  landslide  susceptibility model 
+based on weights-of-evidence (WoE). The majority of the 
+studies described above used pixel-based procedures  for 
+one epoch of data. However, two epochs of 3D data (one 
+before and after the landslide occurred) may reveal more 
+realistic results for elevation change in topography (Burns 
+et al., 2010). Consequently, modeling them can help one 
+to determine realistic results for landslide determination. 
+One type of landslide is a rotational landslide classified by 
+Varnes (1978). In this field, more modeling for detection 
 and estimation of landslides is needed.
-In  the present study, a first-order differential e quation 
-that  governs  a  rot ational  landslide  is  developed  and 
-proposed  as  a  search  tool  in  detecting  and  determining 
-the parameters of rotational landslides f rom two epochs of 
-LiDAR data: one before and one after a rotat ional landslide 
+In the present study, a first-order differential equation 
+that  governs  a  rotational  landslide  is  developed  and 
+proposed as a  search  tool in detecting and determining 
+the parameters of rotational landslides from two epochs of 
+LiDAR data: one before and one after a rotational landslide 
 occurred.
 ==============================
 
 ==============================
 type: notes
-typeindex=-1 left=35 right=172 top=724 bottom=730 
+typeindex=-1 left=35 right=172 top=724 bottom=730 width=137.000000 height 6.000000
 ====>
 
  * Correspondence: ctcelik@ohu.edu.tr
@@ -171,7 +171,7 @@ typeindex=-1 left=35 right=172 top=724 bottom=730
 
 ==============================
 type: subtitle level1
-typeindex=1 left=501 right=517 top=737 bottom=744 
+typeindex=1 left=501 right=517 top=737 bottom=744 width=16.000000 height 7.000000
 ====>
 
  277
