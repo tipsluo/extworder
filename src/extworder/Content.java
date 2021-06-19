@@ -42,7 +42,7 @@ public class Content extends PDFTextStripper {
 		blocks=new ArrayList<Block>();
 		rows=new ArrayList<Row>();
 		
-		File file = new File(fn+".pdf");
+		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
 		
 		setSortByPosition( true );
