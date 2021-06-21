@@ -13,27 +13,10 @@ import java.util.TreeMap;
 public class Block extends Rectangle {
 	float rowHeight;
 	ArrayList<Row> rows;
+	Page page;
 	
-	public static void getAllBlocks() {
-		for(int x=0; x<=Content.content.width;x++)
-			for(int y=0;y<=Content.content.height;y++) {
-				Point p=Content.content.bitmap.points[x][y];
-				if ( p == null ) continue;
-				
-				Char ch=p.ch;
-				if(ch==null) continue;
-				
-				if(ch.row.block==null) {
-					Content.content.blocks.add(new Block(x,y));
-				}
-			}
-		
-		Comparator<Block> compareByYX = (Block b1, Block b2) ->
-			b1.top != b2.top ? (int)(b1.top-b2.top) : (int) (b1.left-b2.left);
-		Collections.sort(Content.content.blocks,compareByYX);
-	}
-	
-	public Block(int x, int y) {
+	public Block(Page page, int x, int y) {
+		this.page=page;
 		build(x,y);
 		
 		width=right-left;
@@ -49,8 +32,8 @@ public class Block extends Rectangle {
 	public void build(int x, int y) {
 		rows=new ArrayList<Row>();
 		
-		if ( Content.content.bitmap.points[x][y].ch != null )
-			expand(Content.content.bitmap.points[x][y].ch.row);
+		if ( page.bitmap.points[x][y].ch != null )
+			expand(page.bitmap.points[x][y].ch.row);
 	}
 	
 	private void expand(Row row) {
@@ -77,20 +60,22 @@ public class Block extends Rectangle {
 		return maxHeight;
 	}
 	
-	public void write(FileWriter fw) throws IOException {
+	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
-		if (rowHeight>=Content.content.titleCharHeight)
+		Content content=page.content;
+		
+		if (rowHeight>=content.titleCharHeight)
 			fw.write("type: title");
-		else if (rowHeight>Content.content.textCharHeight)
-			fw.write(String.format("type: subtitle level%d",Content.content.charHeightIndexes.get(rowHeight)));
-		else if (rowHeight==Content.content.textCharHeight)
+		else if (rowHeight>content.textCharHeight)
+			fw.write(String.format("type: subtitle level%d",content.charHeightIndexes.get(rowHeight)));
+		else if (rowHeight==content.textCharHeight)
 			fw.write(String.format("type: text"));
 		else 
 			fw.write(String.format("type: notes"));
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d width=%f height %f\n====>\n\n",
-				Content.content.charHeightIndexes.get(rowHeight),left,right,top,bottom,width,height));
+				content.charHeightIndexes.get(rowHeight),left,right,top,bottom,width,height));
 		
 		int y=rows.get(0).bottom;
 		for(Row row:rows) {
@@ -100,7 +85,7 @@ public class Block extends Rectangle {
 			} else {
 				fw.write(" ");
 			}
-			row.write(fw);
+			row.print(fw);
 		}
 		
 		fw.write("\n==============================\n\n");

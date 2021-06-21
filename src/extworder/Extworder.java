@@ -26,7 +26,7 @@ public class Extworder {
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
 		//main_test4_getText();
-		main_test5_block_display();
+		//main_test5_block_display();
 		main_test6_block_print();
 	}
 
@@ -38,29 +38,29 @@ public class Extworder {
 		//extract("ILL article-Impact of the KWL reading strategy");
 	}
 	
-	static public void main_test2_printcharinfos() throws IOException {
+	/*static public void main_test2_printcharinfos() throws IOException {
 		printCharInfos("A model for estimating parameters of rotational landslide");
 		printCharInfos("Peace-Development and Peace Through");
 		printCharInfos("Broader perspective on ecosystem");
 		printCharInfos("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		printCharInfos("ILL article-Impact of the KWL reading strategy");
-	}
+	}*/
 	
-	static public void main_test3_getTitle() throws IOException {
+	/*static public void main_test3_getTitle() throws IOException {
 		getTitle("A model for estimating parameters of rotational landslide");
 		getTitle("Peace-Development and Peace Through");
 		getTitle("Broader perspective on ecosystem");
 		getTitle("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		getTitle("ILL article-Impact of the KWL reading strategy");
-    }
+    }*/
 	
-	static public void main_test4_getText() throws IOException {
+	/*static public void main_test4_getText() throws IOException {
 		getText("A model for estimating parameters of rotational landslide");
 		//getText("Peace-Development and Peace Through");
 		//getText("Broader perspective on ecosystem");
 		//getText("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//getText("ILL article-Impact of the KWL reading strategy");
-    }
+    }*/
 	
 	static public void main_test5_block_display() throws IOException {
 		displayBlocks("A model for estimating parameters of rotational landslide");
@@ -72,13 +72,13 @@ public class Extworder {
 	
 	static public void main_test6_block_print() throws IOException {
 		printBlocks("A model for estimating parameters of rotational landslide");
-		printBlocks("Peace-Development and Peace Through");
-		printBlocks("Broader perspective on ecosystem");
-		printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		printBlocks("ILL article-Impact of the KWL reading strategy");
+		//printBlocks("Peace-Development and Peace Through");
+		//printBlocks("Broader perspective on ecosystem");
+		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//printBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
-	static private String getTitle(String fn) throws IOException {
+	/*static private String getTitle(String fn) throws IOException {
 		String title=getMetaTitle(Common._TestDataDir+fn);
 		
 		System.out.printf("PDF file: %s\nTitle from PDF meta data: %s\n",fn,title);
@@ -104,15 +104,15 @@ public class Extworder {
 	    myWriter.close();
 		
 		return text;
-	}
+	} */
 	
-	static public void printCharInfos(String fn) throws IOException {
+	/*static public void printCharInfos(String fn) throws IOException {
 		Content content = new Content(fn);
 		
 		System.out.printf("PDF: %s\n",fn);
         Float maxHeight = content.charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
         System.out.printf("Highest: %f, Max Height Number: %f\nTitle: %s\n",content.charHeights.lastKey(), maxHeight,content.getTitle());
-	}
+	}*/
 	
 	public static void extract(String fn) throws IOException {
 			File file = new File(Common._TestDataDir+fn+".pdf");
@@ -178,7 +178,8 @@ public class Extworder {
 		try {
 			myWriter= new FileWriter(Common._TestDataDir+fn+"_block.txt");
 		
-		    for(Block block:content.blocks) {
+			for(Page page:content.pages) {
+		    for(Block block:page.blocks) {
 		    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.top,block.bottom));
 		    	for(Row row:block.rows) {
 		    		for(Char ch:row.chars) {
@@ -186,6 +187,7 @@ public class Extworder {
 			    	}
 		    	}
 		    }
+			}
 		} finally {
 			  myWriter.close();
 		}
@@ -196,7 +198,7 @@ public class Extworder {
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_block2.txt");
 		
-		content.write(myWriter);
+		content.print(myWriter);
 		
 		myWriter.close();
 	}
