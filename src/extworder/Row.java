@@ -9,9 +9,13 @@ import java.util.TreeMap;
 
 public class Row extends Rectangle {
 	float charHeight;
+	String charFont;
 	ArrayList<Char> chars;
 	Block block;
 	Page page;
+	
+	static Comparator<Row> compareByYX = (Row r1, Row r2) ->
+	r1.left != r2.left ? (int)(r1.left-r2.left) : (int) (r1.top-r2.top);
 	
 	public Row(Page page, int x, int y) {
 		this.page=page;
@@ -26,11 +30,10 @@ public class Row extends Rectangle {
 		if ( page.bitmap.points[x][y].ch != null )
 			expand(page.bitmap.points[x][y].ch);
 		
-		Comparator<Char> compareByYX = (Char ch1, Char ch2) ->
-			ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
-		Collections.sort(chars,compareByYX);
+		Collections.sort(chars,Char.compareByYX);
 
 		charHeight=mostCharHeight();
+		charFont=mostCharFont();
 	}
 
 	private void expand(Char ch) {
@@ -111,7 +114,7 @@ public class Row extends Rectangle {
 	}
 	
 	private boolean checkSameBlock(Row row) {
-		return charHeight==row.charHeight;
+		return charHeight==row.charHeight && charFont==row.charFont;
 	}
 	
 	public float mostCharHeight() {
@@ -124,6 +127,18 @@ public class Row extends Rectangle {
 		
 		Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		return maxHeight;
+	}
+	
+	public String mostCharFont() {
+		TreeMap<String,Integer> charFonts=new TreeMap<>();
+		
+		for (Char ch: chars) {
+			int n=charFonts.compute(ch.fontname, (k,v) -> (v == null ? 0 : v) + 1);
+        	charFonts.put(ch.fontname,n);
+		}
+		
+		String maxFont = charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		return maxFont;
 	}
 	
 	public void print(FileWriter fw) throws IOException {

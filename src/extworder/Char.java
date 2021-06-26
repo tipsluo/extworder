@@ -1,12 +1,17 @@
 package extworder;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Char extends Rectangle {
 	String str;
 	float x,y;
 	String fontname;
 	Row row;
+	
+	
+	static Comparator<Char> compareByYX = (Char ch1, Char ch2) ->
+		ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
 	
 	public Char(String str,float x, float y, float width, float height, String fontname) {
 		this.str=str;
@@ -20,10 +25,6 @@ public class Char extends Rectangle {
 		top=Math.round(y);
 		bottom=(int)(Math.round(y+height-0.001));
 	}
-	
-	/*public boolean coverPoint(float xPoint,float yPoint) {
-		return xPoint>=x && xPoint<x+width && yPoint>=y && yPoint<y+height;
-	}*/
 	
 	public ArrayList<Char> getAboveConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();

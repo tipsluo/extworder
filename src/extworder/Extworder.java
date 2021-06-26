@@ -1,22 +1,14 @@
 package extworder;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-import java.util.List;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 //import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
-import org.apache.pdfbox.pdmodel.PDPage;
-import org.apache.pdfbox.pdmodel.common.PDMetadata;
 //import org.apache.pdfbox.pdmodel.common.PDStream;
 import org.apache.pdfbox.text.PDFTextStripper;
 import java.io.FileWriter;   // Import the FileWriter class
-import java.io.IOException;  // Import the IOException class to handle errors
 
 
 public class Extworder {
@@ -26,7 +18,7 @@ public class Extworder {
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
 		//main_test4_getText();
-		//main_test5_block_display();
+		main_test5_block_display();
 		main_test6_block_print();
 	}
 
@@ -64,10 +56,10 @@ public class Extworder {
 	
 	static public void main_test5_block_display() throws IOException {
 		displayBlocks("A model for estimating parameters of rotational landslide");
-		displayBlocks("Peace-Development and Peace Through");
-		displayBlocks("Broader perspective on ecosystem");
-		displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		displayBlocks("ILL article-Impact of the KWL reading strategy");
+		//displayBlocks("Peace-Development and Peace Through");
+		//displayBlocks("Broader perspective on ecosystem");
+		//displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//displayBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	static public void main_test6_block_print() throws IOException {

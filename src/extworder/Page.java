@@ -18,10 +18,9 @@ public class Page {
     ArrayList<Char> chars;
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
+    ArrayList<BlockGroup> blockGroups;
     public float width,height;
-    //public int right,bottom;
     Bitmap bitmap;
-    //public String title;
 	
 	public Page(Content content,int id) {
 		this.content=content;
@@ -30,6 +29,7 @@ public class Page {
 		chars=new ArrayList<Char>();
 		blocks=new ArrayList<Block>();
 		rows=new ArrayList<Row>();
+		blockGroups=new ArrayList<BlockGroup>();
 	}
 	
 	public void writeString(TextPosition text) {
@@ -55,16 +55,74 @@ public class Page {
 	}
 	
 	public void complete() {
-		/*right=Math.round(width);
-		bottom=Math.round(height);*/
-		
 		bitmap=new Bitmap(this);
 		
 		getAllRows();
 		getAllBlocks();
+		
+		bitmap=null;
+		
+		arrangeBlocks();
 	}
 	
-	public void getAllBlocks() {
+	private void arrangeBlocks() {
+		for (Block block: blocks) {
+			boolean joined=false;
+			for(BlockGroup blockGroup: blockGroups) {
+				if (blockGroup.left == block.left) {
+					blockGroup.addBlock(block);
+					joined=true;
+					break;
+				}
+			}
+			
+			if (! joined) {
+				blockGroups.add(new BlockGroup(block));
+			} 
+		}
+		
+		/*for(;;)
+			if (! validateBlockGroup(blockGroups))
+				continue;
+			else
+				break;*/
+		
+		Collections.sort(blocks,Block.compareByYX);
+	}
+	
+	private boolean validateBlockGroup(ArrayList<BlockGroup> blockGroups) {
+		Collections.sort(blockGroups,BlockGroup.compareByYX);
+
+		for(int i=0; i<blockGroups.size(); i++) {
+			BlockGroup blockGroup=blockGroups.get(i);
+			for(Block block:blockGroup.blocks) {
+				for(int j=0;j<i;j++) {
+					BlockGroup bg1=blockGroups.get(j);
+					for(int k=0;k<bg1.blocks.size();k++) {
+						Block b1=bg1.blocks.get(k);
+						if ( block.left<b1.right && block.bottom<b1.top ) {
+							BlockGroup newBlockGroup=new BlockGroup(b1);
+							int n=bg1.blocks.size();
+							for(int l=k; l<n; l++)
+								newBlockGroup.blocks.add(bg1.blocks.get(l));
+							newBlockGroup.reUpdateRectangle();
+							blockGroups.add(newBlockGroup);
+							
+							bg1.truncate(k);
+							if(bg1.blocks.size()==0)
+								blockGroups.remove(bg1);
+							
+							return false;
+						}
+					}
+				}
+			}
+		}
+		
+		return true;
+	}
+	
+	private void getAllBlocks() {
 		for(int x=0; x<=width;x++)
 			for(int y=0;y<=height;y++) {
 				Point p=bitmap.points[x][y];
@@ -78,12 +136,10 @@ public class Page {
 				}
 			}
 		
-		Comparator<Block> compareByYX = (Block b1, Block b2) ->
-			b1.top != b2.top ? (int)(b1.top-b2.top) : (int) (b1.left-b2.left);
-		Collections.sort(blocks,compareByYX);
+		Collections.sort(blocks,Block.compareByYX);
 	}
 	
-	public void getAllRows() {
+	private void getAllRows() {
 		for(int x=0; x<=width;x++)
 			for(int y=0;y<=height;y++) {
 				Point p=bitmap.points[x][y];
@@ -97,17 +153,15 @@ public class Page {
 				}
 			}
 		
-		Comparator<Row> compareByYX = (Row r1, Row r2) ->
-			r1.left != r2.left ? (int)(r1.left-r2.left) : (int) (r1.top-r2.top);
-		Collections.sort(rows,compareByYX);
+		Collections.sort(rows,Row.compareByYX);
 	}
 	
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d\n",id));
-		for(Block block:blocks)
-			block.print(fw);
+		for(BlockGroup blockGroup:blockGroups)
+			blockGroup.print(fw);
 	}
 
 	class Bitmap {
@@ -123,6 +177,48 @@ public class Page {
 						points[x][y]=point;
 					}
 			}
+		}
+	}
+	
+	static class BlockGroup extends Rectangle {
+		ArrayList<Block> blocks;
+		static Comparator<BlockGroup> compareByYX = (BlockGroup bg1, BlockGroup bg2) ->
+			bg1.top != bg2.top ? (int)(bg1.top-bg2.top) : (int) (bg1.left-bg2.left);
+		
+		public BlockGroup(Block block) {
+			blocks=new ArrayList<Block>();
+			addBlock(block);
+		}
+		
+		public void addBlock(Block block) {
+			blocks.add(block);
+			updateRectangle(block);
+		}
+		
+		public void removeBlock(Block block) {
+			blocks.remove(block);
+			
+			for (Block b:blocks) {
+				updateRectangle(b);
+			}
+		}
+		
+		public void truncate(int firstBlockIndex) {
+			int n=blocks.size();
+			for(int i=firstBlockIndex; i<n; i++)
+				blocks.remove(firstBlockIndex);
+			reUpdateRectangle();
+		}
+		
+		public void reUpdateRectangle() {
+			for (Block b:blocks) 
+				updateRectangle(b);
+		}
+		
+		public void print(FileWriter fw) throws IOException  {
+			fw.write(String.format("BlockGroup left:%d====================>\n",left));
+			for(Block block:blocks)
+				block.print(fw);
 		}
 	}
 }

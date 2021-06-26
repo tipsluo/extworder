@@ -14,6 +14,9 @@ public class Block extends Rectangle {
 	float rowHeight;
 	ArrayList<Row> rows;
 	Page page;
+    
+	static Comparator<Block> compareByYX = (Block b1, Block b2) ->
+		b1.top != b2.top ? (int)(b1.top-b2.top) : (int) (b1.left-b2.left);
 	
 	public Block(Page page, int x, int y) {
 		this.page=page;
