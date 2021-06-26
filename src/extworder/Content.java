@@ -9,6 +9,9 @@ import java.io.Writer;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
+
+import extworder.Char.CharFont;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -18,15 +21,19 @@ import java.util.TreeMap;
 
 public class Content extends PDFTextStripper {
 	ArrayList<Page> pages;
-    float textCharHeight,titleCharHeight;
-	public TreeMap<Float,Integer> charHeights;
-    Map<Float,Integer> charHeightIndexes;
+    //float textCharHeight,titleCharHeight;
+	//public TreeMap<Float,Integer> charHeights;
+    //Map<Float,Integer> charHeightIndexes;
+    TreeMap<CharFont,Integer> charfonts;
+    Map<CharFont,Integer> charfontIndexes;
+    CharFont textCharfont,titleCharfont;
     int currPid;
     Page currPage=null;
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
-		charHeights=new TreeMap<>();
+		//charHeights=new TreeMap<>();
+		charfonts=new TreeMap<>();
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
@@ -53,9 +60,12 @@ public class Content extends PDFTextStripper {
 		if( document != null )
              document.close();
 		
-		titleCharHeight=charHeights.lastKey();
+		titleCharfont=charfonts.lastKey();
+		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		charfontIndexes=makeCharfontIndexes();
+		/*titleCharHeight=charHeights.lastKey();
 		textCharHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		charHeightIndexes=makeCharHeightIndexes();
+		charHeightIndexes=makeCharHeightIndexes();*/
 	}
 
 	@Override
@@ -69,7 +79,29 @@ public class Content extends PDFTextStripper {
         }
     }
 	
-	private Map<Float,Integer> makeCharHeightIndexes() {
+	private Map<CharFont,Integer> makeCharfontIndexes() {
+		CharFont[] cfs = new CharFont[charfonts.size()];
+		int i=0;
+		for (CharFont cf : charfonts.keySet()) {
+	        cfs[i++]=cf;
+		}
+		Arrays.sort(cfs);
+		
+		int textCharfontIndex=-1;
+		for(i = 0; i<cfs.length;i++ )
+            if(cfs[i] == textCharfont) {
+            	textCharfontIndex = i;
+                break;
+            }
+		
+		Map<CharFont,Integer> cfIndexes=new HashMap<>();
+		for(i=0; i<cfs.length;i++ ) {
+			cfIndexes.put(cfs[i],i-textCharfontIndex);
+		}
+		
+		return cfIndexes;
+	}
+	/*private Map<Float,Integer> makeCharHeightIndexes() {
 		float[] heights = new float[charHeights.size()];
 		int i=0;
 		for (Float h : charHeights.keySet()) {
@@ -90,7 +122,7 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return heightIndexes;
-	}
+	}*/
 	
 	public void print(FileWriter fw) throws IOException {
 		for(Page page:pages) {

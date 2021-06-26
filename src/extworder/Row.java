@@ -5,11 +5,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.TreeMap;
 
+import extworder.Char.CharFont;
+
 public class Row extends Rectangle {
-	float charHeight;
-	String charFont;
+	//float charHeight;
+	//String charFont;
+	Char.CharFont charfont;
 	ArrayList<Char> chars;
 	Block block;
 	Page page;
@@ -32,8 +36,9 @@ public class Row extends Rectangle {
 		
 		Collections.sort(chars,Char.compareByYX);
 
-		charHeight=mostCharHeight();
-		charFont=mostCharFont();
+		/*charHeight=mostCharHeight();
+		charFont=mostCharFont();*/
+		charfont=mostCharFont();
 	}
 
 	private void expand(Char ch) {
@@ -114,10 +119,26 @@ public class Row extends Rectangle {
 	}
 	
 	private boolean checkSameBlock(Row row) {
-		return charHeight==row.charHeight && charFont==row.charFont;
+		//return charHeight==row.charHeight && charFont==row.charFont;
+		return charfont.equals(row.charfont);
 	}
 	
-	public float mostCharHeight() {
+	public CharFont mostCharFont() {
+		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
+		
+		for (Char ch: chars) {
+			CharFont cf=new Char.CharFont(ch.fontname,ch.height);
+			int n=charFonts.compute(cf, (k,v) -> (v == null ? 0 : v) + 1);
+        	charFonts.put(cf,n);
+		}
+		
+		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		return cf;
+		/*Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		return maxHeight;*/
+	}
+	
+	/*public float mostCharHeight() {
 		TreeMap<Float,Integer> charHeights=new TreeMap<>();
 		
 		for (Char ch: chars) {
@@ -139,7 +160,7 @@ public class Row extends Rectangle {
 		
 		String maxFont = charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		return maxFont;
-	}
+	}*/
 	
 	public void print(FileWriter fw) throws IOException {
 		int x0=chars.get(0).right;

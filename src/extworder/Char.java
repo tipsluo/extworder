@@ -134,4 +134,38 @@ public class Char extends Rectangle {
 		
 		return chars;
 	}
+	
+	static public class CharFont implements Comparable<CharFont>{
+		String name;
+		float height;
+		
+		public CharFont(String name,float height) {
+			this.name=name;
+			this.height=height;
+		}
+		
+	    @Override
+	    public int hashCode() {
+	        return (int)(height*100000+(short)name.hashCode());
+	    }
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+	            return true;
+	        if (obj == null)
+	            return false;
+	        if (getClass() != obj.getClass())
+	            return false;
+	        CharFont other = (CharFont) obj;
+	        if (name != other.name || height !=other.height)
+	            return false;
+	        return true;
+		}
+		
+		@Override
+	    public int compareTo(CharFont charfont) {
+	        return (int)(hashCode()-charfont.hashCode());
+	    }
+	}
 }

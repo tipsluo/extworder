@@ -12,6 +12,8 @@ import java.util.TreeMap;
 
 import org.apache.pdfbox.text.TextPosition;
 
+import extworder.Char.CharFont;
+
 public class Page {
 	Content content;
 	int id;
@@ -33,12 +35,15 @@ public class Page {
 	}
 	
 	public void writeString(TextPosition text) {
-    	Float h;
-    	h=text.getHeightDir();
+    	/*Float h;
+    	h=text.getHeightDir();*/
+		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
     	
     	Integer n;
-    	n=content.charHeights.compute(h, (k,v) -> (v == null ? 0 : v) + 1);
-    	content.charHeights.put(h,n);
+    	n=content.charfonts.compute(charfont, (k,v) -> (v == null ? 0 : v) + 1);
+    	content.charfonts.put(charfont,n);
+    	/*n=content.charHeights.compute(h, (k,v) -> (v == null ? 0 : v) + 1);
+    	content.charHeights.put(h,n);*/
     	
     	String str;
     	str=text.toString();
