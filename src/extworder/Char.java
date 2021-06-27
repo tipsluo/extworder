@@ -9,7 +9,7 @@ public class Char extends Rectangle {
 	String fontname;
 	Row row;
 	
-	static Comparator<Char> compareByYX = (Char ch1, Char ch2) ->
+	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
 	
 	public Char(String str,float x, float y, float width, float height, String fontname) {
@@ -25,7 +25,7 @@ public class Char extends Rectangle {
 		bottom=(int)(Math.round(y+height-0.001));
 	}
 	
-	public ArrayList<Char> getAboveConnected(Page page) {		
+	/*public ArrayList<Char> getAboveConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
 		if (top<1) return chars;
@@ -82,7 +82,7 @@ public class Char extends Rectangle {
 		}
 		
 		return chars;
-	}
+	} */
 
 	public ArrayList<Char> getLeftConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
@@ -93,7 +93,7 @@ public class Char extends Rectangle {
 		
 		for (int j=top; j<=bottom; j++) {
 			int i=left;
-			for(int i1=1;i1<width*Common._CharHGapRatio;i1++) {
+			for(int i1=1; i1 < height * Common._CharHGapRatio;i1++) {
 				i=left-i1;
 				if (i<0) break;
 				if (page.bitmap.points[i][j]!=null) break;
@@ -118,7 +118,7 @@ public class Char extends Rectangle {
 		
 		for (int j=top; j<=bottom; j++) {
 			int i=right;
-			for(int i1=1;i1<width*Common._CharHGapRatio;i1++) {
+			for(int i1=1; i1 < height * Common._CharHGapRatio ; i1++) {
 				i=right+i1;
 				if (i>page.width) break;
 				if (page.bitmap.points[i][j]!=null) break;
@@ -137,15 +137,19 @@ public class Char extends Rectangle {
 	static public class CharFont implements Comparable<CharFont>{
 		String name;
 		float height;
+		boolean bold;
 		
 		public CharFont(String name,float height) {
 			this.name=name;
 			this.height=height;
+			this.bold=name.contains(".B");
 		}
 		
 	    @Override
 	    public int hashCode() {
-	        return (int)(height*100000+(short)name.hashCode());
+	        return (int)( (height*100000 + 
+	        				(bold ? 1 : 0) ) * 100 +
+	        					(short)name.hashCode());
 	    }
 		
 		@Override
