@@ -13,26 +13,24 @@ import java.util.TreeMap;
 import extworder.Char.CharFont;
 
 public class Block extends Rectangle {
-	//float rowHeight;
 	CharFont charfont;
 	ArrayList<Row> rows;
 	Page page;
     
-	static Comparator<Block> compareByYX = (Block b1, Block b2) ->
-		b1.top != b2.top ? (int)(b1.top-b2.top) : (int) (b1.left-b2.left);
+	static CompareBlocks compareBlocks=new CompareBlocks();
 	
 	public Block(Page page, int x, int y) {
+		
 		this.page=page;
 		build(x,y);
 		
 		width=right-left;
 		height=bottom-top;
 		
-		Comparator<Row> compareByYX = (Row row1, Row row2) ->
-											row1.top != row2.top ? (int)(row1.top-row2.top) : (int) (row1.left-row2.left);
-		Collections.sort(rows,compareByYX);
-		
-		//rowHeight=mostRowHeight();
+		//Comparator<Row> compareByYX = (Row row1, Row row2) ->
+		//									row1.top != row2.top ? (int)(row1.top-row2.top) : (int) (row1.left-row2.left);
+		Collections.sort(rows,Row.compareRows);
+
 		charfont=mostCharFont();
 	}
 	
@@ -55,6 +53,19 @@ public class Block extends Rectangle {
 		}	
 	}
 	
+	void merge(Block block) {
+		for (Row row:block.rows) {
+			row.block=this;
+			updateRectangle(row);
+		}
+		
+		rows.addAll(block.rows);
+		
+		Collections.sort(rows,Row.compareRows);
+		
+		page.blocks.remove(block);
+	}
+	
 	public CharFont mostCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
@@ -65,21 +76,7 @@ public class Block extends Rectangle {
 		
 		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		return cf;
-		/*Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		return maxHeight;*/
 	}
-	
-	/*public float mostRowHeight() {
-		TreeMap<Float,Integer> rowHeights=new TreeMap<>();
-		
-		for (Row row: rows) {
-			int n=rowHeights.compute(row.charHeight, (k,v) -> (v == null ? 0 : v) + 1);
-        	rowHeights.put(row.charHeight,n);
-		}
-		
-		Float maxHeight = rowHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		return maxHeight;
-	}*/
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
@@ -122,5 +119,16 @@ public class Block extends Rectangle {
 		}
 		
 		fw.write("\n==============================\n\n");
+	}
+	
+	static class CompareBlocks implements Comparator<Block> {
+		public int compare(Block b1, Block b2) {
+			if (b1.bottom < b2.top)
+				return -1;
+			else if (b2.bottom < b1.top)
+				return 1;
+			else 
+				return b1.top!=b2.top ? b1.top-b2.top : b1.left-b2.left;
+		}
 	}
 }

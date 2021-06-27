@@ -20,7 +20,7 @@ public class Page {
     ArrayList<Char> chars;
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
-    ArrayList<BlockGroup> blockGroups;
+    ArrayList<BlockGroup> blockgroups;
     public float width,height;
     Bitmap bitmap;
 	
@@ -31,7 +31,7 @@ public class Page {
 		chars=new ArrayList<Char>();
 		blocks=new ArrayList<Block>();
 		rows=new ArrayList<Row>();
-		blockGroups=new ArrayList<BlockGroup>();
+		blockgroups=new ArrayList<BlockGroup>();
 	}
 	
 	public void writeString(TextPosition text) {
@@ -42,15 +42,10 @@ public class Page {
     	Integer n;
     	n=content.charfonts.compute(charfont, (k,v) -> (v == null ? 0 : v) + 1);
     	content.charfonts.put(charfont,n);
-    	/*n=content.charHeights.compute(h, (k,v) -> (v == null ? 0 : v) + 1);
-    	content.charHeights.put(h,n);*/
-    	
     	String str;
     	str=text.toString();
     	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
     			text.getFont().getName());
-    	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getFont().getFontDescriptor().getFontBoundingBox().getHeight(),text.getWidthDirAdj(),
-            		//	text.getFont().getName());
     	chars.add(ch);
     	
     	float width1=(float)(ch.x+ch.width-0.001);
@@ -73,30 +68,24 @@ public class Page {
 	private void arrangeBlocks() {
 		for (Block block: blocks) {
 			boolean joined=false;
-			for(BlockGroup blockGroup: blockGroups) {
-				if (blockGroup.left == block.left) {
-					blockGroup.addBlock(block);
+			for(BlockGroup blockgroup: blockgroups) {
+				if (blockgroup.left == block.left || blockgroup.right==block.right) {
+					blockgroup.addBlock(block);
 					joined=true;
 					break;
 				}
 			}
 			
 			if (! joined) {
-				blockGroups.add(new BlockGroup(block));
+				blockgroups.add(new BlockGroup(block));
 			} 
 		}
 		
-		/*for(;;)
-			if (! validateBlockGroup(blockGroups))
-				continue;
-			else
-				break;*/
-		
-		Collections.sort(blocks,Block.compareByYX);
+		Collections.sort(blockgroups,BlockGroup.compareBlockgroups);
 	}
 	
 	private boolean validateBlockGroup(ArrayList<BlockGroup> blockGroups) {
-		Collections.sort(blockGroups,BlockGroup.compareByYX);
+		Collections.sort(blockGroups,BlockGroup.compareBlockgroups);
 
 		for(int i=0; i<blockGroups.size(); i++) {
 			BlockGroup blockGroup=blockGroups.get(i);
@@ -141,7 +130,18 @@ public class Page {
 				}
 			}
 		
-		Collections.sort(blocks,Block.compareByYX);
+		for(int i=0;i<blocks.size();i++) {
+			Block b1=blocks.get(i);
+			for(int j=0;j<blocks.size();j++) {
+				Block b2=blocks.get(j);
+				if(b1!=b2 && b1.contains(b2)) {
+					b1.merge(b2);
+					j--;
+				}
+			}
+		}
+		
+		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
 	private void getAllRows() {
@@ -158,14 +158,14 @@ public class Page {
 				}
 			}
 		
-		Collections.sort(rows,Row.compareByYX);
+		Collections.sort(rows,Row.compareRows);
 	}
 	
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d\n",id));
-		for(BlockGroup blockGroup:blockGroups)
+		for(BlockGroup blockGroup:blockgroups)
 			blockGroup.print(fw);
 	}
 
@@ -187,8 +187,9 @@ public class Page {
 	
 	static class BlockGroup extends Rectangle {
 		ArrayList<Block> blocks;
-		static Comparator<BlockGroup> compareByYX = (BlockGroup bg1, BlockGroup bg2) ->
-			bg1.top != bg2.top ? (int)(bg1.top-bg2.top) : (int) (bg1.left-bg2.left);
+		static CompareBlockGroups compareBlockgroups=new CompareBlockGroups();
+		/*static Comparator<BlockGroup> compareByYX = (BlockGroup bg1, BlockGroup bg2) ->
+			bg1.top != bg2.top ? (int)(bg1.top-bg2.top) : (int) (bg1.left-bg2.left);*/
 		
 		public BlockGroup(Block block) {
 			blocks=new ArrayList<Block>();
@@ -224,6 +225,17 @@ public class Page {
 			fw.write(String.format("BlockGroup left:%d====================>\n",left));
 			for(Block block:blocks)
 				block.print(fw);
+		}
+		
+		static class CompareBlockGroups implements Comparator<BlockGroup> {
+			public int compare(BlockGroup bg1, BlockGroup bg2) {
+				if (bg1.bottom < bg2.top)
+					return -1;
+				else if (bg2.bottom < bg1.top)
+					return 1;
+				else 
+					return bg1.bottom!=bg2.bottom ? bg1.bottom-bg2.bottom : bg1.right-bg2.right;
+			}
 		}
 	}
 }

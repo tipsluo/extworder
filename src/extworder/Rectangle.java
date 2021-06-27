@@ -14,4 +14,8 @@ public abstract class Rectangle {
 		if (top>r.top) top=r.top;
 		if (bottom<r.bottom) bottom=r.bottom;
 	}
+	
+	protected boolean contains(Rectangle r) {
+		return r.left>=left && r.right<=right && r.top>=top && r.bottom<=bottom;
+	}
 }

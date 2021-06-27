@@ -11,15 +11,13 @@ import java.util.TreeMap;
 import extworder.Char.CharFont;
 
 public class Row extends Rectangle {
-	//float charHeight;
-	//String charFont;
 	Char.CharFont charfont;
 	ArrayList<Char> chars;
 	Block block;
 	Page page;
 	
-	static Comparator<Row> compareByYX = (Row r1, Row r2) ->
-	r1.left != r2.left ? (int)(r1.left-r2.left) : (int) (r1.top-r2.top);
+	static Comparator<Row> compareRows = (Row r1, Row r2) ->
+		r1.top != r2.top ? (int)(r1.top-r2.top) : (int) (r1.left-r2.left);
 	
 	public Row(Page page, int x, int y) {
 		this.page=page;
@@ -36,8 +34,6 @@ public class Row extends Rectangle {
 		
 		Collections.sort(chars,Char.compareByYX);
 
-		/*charHeight=mostCharHeight();
-		charFont=mostCharFont();*/
 		charfont=mostCharFont();
 	}
 
@@ -53,6 +49,23 @@ public class Row extends Rectangle {
 			ch.getLeftConnected(page).forEach(this::expand);
 			ch.getRightConnected(page).forEach(this::expand);
 		}	
+	}
+	
+	void merge(Row row) {
+		for (Char ch:row.chars) {
+			ch.row=this;
+			updateRectangle(ch);
+		}
+		
+		chars.addAll(row.chars);
+		
+		Collections.sort(chars,Char.compareByYX);
+
+		charfont=mostCharFont();
+		
+		if (row.block!=null)
+			row.block.rows.remove(row);
+		page.rows.remove(row);
 	}
 	
 	public ArrayList<Row> getAboveConnected() {		
@@ -119,7 +132,6 @@ public class Row extends Rectangle {
 	}
 	
 	private boolean checkSameBlock(Row row) {
-		//return charHeight==row.charHeight && charFont==row.charFont;
 		return charfont.equals(row.charfont);
 	}
 	
@@ -134,33 +146,7 @@ public class Row extends Rectangle {
 		
 		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		return cf;
-		/*Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		return maxHeight;*/
 	}
-	
-	/*public float mostCharHeight() {
-		TreeMap<Float,Integer> charHeights=new TreeMap<>();
-		
-		for (Char ch: chars) {
-			int n=charHeights.compute(ch.height, (k,v) -> (v == null ? 0 : v) + 1);
-        	charHeights.put(ch.height,n);
-		}
-		
-		Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		return maxHeight;
-	}
-	
-	public String mostCharFont() {
-		TreeMap<String,Integer> charFonts=new TreeMap<>();
-		
-		for (Char ch: chars) {
-			int n=charFonts.compute(ch.fontname, (k,v) -> (v == null ? 0 : v) + 1);
-        	charFonts.put(ch.fontname,n);
-		}
-		
-		String maxFont = charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		return maxFont;
-	}*/
 	
 	public void print(FileWriter fw) throws IOException {
 		int x0=chars.get(0).right;
