@@ -10,7 +10,6 @@ import org.apache.pdfbox.pdmodel.PDDocumentInformation;
 import org.apache.pdfbox.text.PDFTextStripper;
 import java.io.FileWriter;   // Import the FileWriter class
 
-
 public class Extworder {
 	
 	public static void main(String args[]) throws IOException  {
@@ -18,8 +17,9 @@ public class Extworder {
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
 		//main_test4_getText();
-		main_test5_block_display();
+		//main_test5_block_display();
 		main_test6_block_print();
+		main_test7_content_print();
 	}
 
 	static public void main_test1_gettext() throws IOException {
@@ -70,41 +70,13 @@ public class Extworder {
 		printBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
-	/*static private String getTitle(String fn) throws IOException {
-		String title=getMetaTitle(Common._TestDataDir+fn);
-		
-		System.out.printf("PDF file: %s\nTitle from PDF meta data: %s\n",fn,title);
-		
-		if (title=="" || title==null) {
-			Content content = new Content(fn);
-	        title=content.getTitle();
-	        System.out.printf("Guessing title... It is: "+title+"\n");
-		}
-		
-		System.out.println();
-		
-		return title;
+	static public void main_test7_content_print() throws IOException {
+		printContent("A model for estimating parameters of rotational landslide");
+		printContent("Peace-Development and Peace Through");
+		printContent("Broader perspective on ecosystem");
+		printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		printContent("ILL article-Impact of the KWL reading strategy");
 	}
-	
-	static private String getText(String fn) throws IOException {
-		Content content = new Content(fn);
-	    String text=content.getText();
-	    System.out.printf("PDF file %s\n",fn);
-	    
-	    FileWriter myWriter = new FileWriter(Common._TestDataDir+fn+"_text.txt");
-	    myWriter.write(text);
-	    myWriter.close();
-		
-		return text;
-	} */
-	
-	/*static public void printCharInfos(String fn) throws IOException {
-		Content content = new Content(fn);
-		
-		System.out.printf("PDF: %s\n",fn);
-        Float maxHeight = content.charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-        System.out.printf("Highest: %f, Max Height Number: %f\nTitle: %s\n",content.charHeights.lastKey(), maxHeight,content.getTitle());
-	}*/
 	
 	public static void extract(String fn) throws IOException {
 			File file = new File(Common._TestDataDir+fn+".pdf");
@@ -191,6 +163,16 @@ public class Extworder {
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_block2.txt");
 		
 		content.print(myWriter);
+		
+		myWriter.close();
+	}
+	
+	static void printContent(String fn) throws IOException {
+		Content content = new Content(fn);
+		
+		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
+
+		myWriter.write(content.text());
 		
 		myWriter.close();
 	}

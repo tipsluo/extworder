@@ -1,9 +1,5 @@
 package extworder;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-
 public abstract class Rectangle {
 	int left=9999,top=9999,right=0,bottom=0;
 	float width,height;

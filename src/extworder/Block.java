@@ -3,11 +3,8 @@ package extworder;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Set;
 import java.util.TreeMap;
 
 import extworder.Char.CharFont;
@@ -93,18 +90,6 @@ public class Block extends Rectangle {
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d width=%f height %f\n====>\n\n",
 				content.charfontIndexes.get(charfont),left,right,top,bottom,width,height));
 		
-		/*if (rowHeight>=content.titleCharHeight)
-			fw.write("type: title");
-		else if (rowHeight>content.textCharHeight)
-			fw.write(String.format("type: subtitle level%d",content.charHeightIndexes.get(rowHeight)));
-		else if (rowHeight==content.textCharHeight)
-			fw.write(String.format("type: text"));
-		else 
-			fw.write(String.format("type: notes"));
-					
-		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d width=%f height %f\n====>\n\n",
-				content.charHeightIndexes.get(rowHeight),left,right,top,bottom,width,height));*/
-		
 		int y=rows.get(0).bottom;
 		for(Row row:rows) {
 			if (row.top>y) {
@@ -117,6 +102,26 @@ public class Block extends Rectangle {
 		}
 		
 		fw.write("\n==============================\n\n");
+	}
+	
+	String text() {
+		if(! charfont.equals(page.content.textCharfont))
+			return "";
+		
+		String str="";
+		
+		int y=rows.get(0).bottom;
+		for(Row row:rows) {
+			if (row.top>y) {
+				str+="\n";
+				y=row.bottom;
+			} else {
+				str+=" ";
+			}
+			str+=row.string();
+		}
+		
+		return str+"\n";
 	}
 	
 	static class CompareBlocks implements Comparator<Block> {

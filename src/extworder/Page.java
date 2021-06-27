@@ -3,12 +3,8 @@ package extworder;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
 
 import org.apache.pdfbox.text.TextPosition;
 
@@ -69,7 +65,9 @@ public class Page {
 		for (Block block: blocks) {
 			boolean joined=false;
 			for(BlockGroup blockgroup: blockgroups) {
-				if (blockgroup.left == block.left || blockgroup.right==block.right) {
+				if ( (blockgroup.left == block.left || 
+					  blockgroup.right==block.right) &&
+						blockgroup.right-blockgroup.left == block.right-block.left) {
 					blockgroup.addBlock(block);
 					joined=true;
 					break;
@@ -84,7 +82,7 @@ public class Page {
 		Collections.sort(blockgroups,BlockGroup.compareBlockgroups);
 	}
 	
-	private boolean validateBlockGroup(ArrayList<BlockGroup> blockGroups) {
+	/*private boolean validateBlockGroup(ArrayList<BlockGroup> blockGroups) {
 		Collections.sort(blockGroups,BlockGroup.compareBlockgroups);
 
 		for(int i=0; i<blockGroups.size(); i++) {
@@ -114,7 +112,7 @@ public class Page {
 		}
 		
 		return true;
-	}
+	}*/
 	
 	private void getAllBlocks() {
 		for(int x=0; x<=width;x++)
@@ -168,6 +166,16 @@ public class Page {
 		for(BlockGroup blockGroup:blockgroups)
 			blockGroup.print(fw);
 	}
+	
+	String text() {
+		String str="";
+		
+		for(BlockGroup blockgroup:blockgroups) {
+			str+=blockgroup.text();
+		}
+		
+		return str;
+	}
 
 	class Bitmap {
 		Point[][] points;
@@ -188,8 +196,6 @@ public class Page {
 	static class BlockGroup extends Rectangle {
 		ArrayList<Block> blocks;
 		static CompareBlockGroups compareBlockgroups=new CompareBlockGroups();
-		/*static Comparator<BlockGroup> compareByYX = (BlockGroup bg1, BlockGroup bg2) ->
-			bg1.top != bg2.top ? (int)(bg1.top-bg2.top) : (int) (bg1.left-bg2.left);*/
 		
 		public BlockGroup(Block block) {
 			blocks=new ArrayList<Block>();
@@ -227,6 +233,20 @@ public class Page {
 				block.print(fw);
 		}
 		
+		String text() {
+			String str="";
+			
+			if(Common.__DEBUG) {
+				str+=String.format("DEBUG: Block Group top=%d left=%d ===> \n",top,left);
+			}
+			
+			for(Block block:blocks) {
+				str+=block.text()+"\n";
+			}
+			
+			return str;
+		}
+		
 		static class CompareBlockGroups implements Comparator<BlockGroup> {
 			public int compare(BlockGroup bg1, BlockGroup bg2) {
 				if (bg1.bottom < bg2.top)
@@ -234,7 +254,7 @@ public class Page {
 				else if (bg2.bottom < bg1.top)
 					return 1;
 				else 
-					return bg1.bottom!=bg2.bottom ? bg1.bottom-bg2.bottom : bg1.right-bg2.right;
+					return bg1.top!=bg2.top ? bg1.top-bg2.top : bg1.right-bg2.right;
 			}
 		}
 	}

@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.TreeMap;
 
 import extworder.Char.CharFont;
@@ -151,12 +150,26 @@ public class Row extends Rectangle {
 	public void print(FileWriter fw) throws IOException {
 		int x0=chars.get(0).right;
 		for(Char ch:chars) {
-			
 			if(ch.left > x0 + ch.width * Common._HSpaceMin) {
 				fw.write(" ");
 			}
 			fw.write(ch.str);
 			x0=ch.right;
 		}
+	}
+	
+	String string() {
+		String str="";
+		
+		int x0=chars.get(0).right;
+		for(Char ch:chars) {
+			if(ch.left > x0 + ch.width * Common._HSpaceMin) {
+				str+=" ";
+			}
+			str+=ch.str;
+			x0=ch.right;
+		}
+		
+		return str;
 	}
 }
