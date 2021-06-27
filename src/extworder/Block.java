@@ -27,8 +27,6 @@ public class Block extends Rectangle {
 		width=right-left;
 		height=bottom-top;
 		
-		//Comparator<Row> compareByYX = (Row row1, Row row2) ->
-		//									row1.top != row2.top ? (int)(row1.top-row2.top) : (int) (row1.left-row2.left);
 		Collections.sort(rows,Row.compareRows);
 
 		charfont=mostCharFont();

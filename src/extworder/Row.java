@@ -32,14 +32,14 @@ public class Row extends Rectangle {
 		if ( page.bitmap.points[x][y].ch != null )
 			expand(page.bitmap.points[x][y].ch);
 		
-		Collections.sort(chars,Char.compareByYX);
+		Collections.sort(chars,Char.compareChars);
 
 		charfont=mostCharFont();
 	}
 
 	private void expand(Char ch) {
 		if (ch==null) return;
-				
+		
 		if (ch.row==null) {
 			chars.add(ch); 
 			ch.row=this;
@@ -59,7 +59,7 @@ public class Row extends Rectangle {
 		
 		chars.addAll(row.chars);
 		
-		Collections.sort(chars,Char.compareByYX);
+		Collections.sort(chars,Char.compareChars);
 
 		charfont=mostCharFont();
 		
