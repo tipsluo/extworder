@@ -5,33 +5,22 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.TreeMap;
 
+import extworder.Char.CharFont;
+
 public class Row extends Rectangle {
-	float charHeight;
+	Char.CharFont charfont;
 	ArrayList<Char> chars;
 	Block block;
+	Page page;
 	
-	public static void getAllRows() {
-		for(int x=0; x<=Content.content.width;x++)
-			for(int y=0;y<=Content.content.height;y++) {
-				Point p=Content.content.bitmap.points[x][y];
-				if ( p == null ) continue;
-				
-				Char ch=p.ch;
-				if(ch==null) continue;
-				
-				if(ch.row==null) {
-					Content.content.rows.add(new Row(x,y));
-				}
-			}
-		
-		Comparator<Row> compareByYX = (Row r1, Row r2) ->
-			r1.left != r2.left ? (int)(r1.left-r2.left) : (int) (r1.top-r2.top);
-		Collections.sort(Content.content.rows,compareByYX);
-	}
+	static Comparator<Row> compareRows = (Row r1, Row r2) ->
+		r1.top != r2.top ? (int)(r1.top-r2.top) : (int) (r1.left-r2.left);
 	
-	public Row(int x, int y) {
+	public Row(Page page, int x, int y) {
+		this.page=page;
 		build(x,y);
 		width=right-left;
 		height=bottom-top;
@@ -39,14 +28,13 @@ public class Row extends Rectangle {
 	
 	public void build(int x,int y) {
 		chars=new ArrayList<Char>();
-		if ( Content.content.bitmap.points[x][y].ch != null )
-			expand(Content.content.bitmap.points[x][y].ch);
 		
-		Comparator<Char> compareByYX = (Char ch1, Char ch2) ->
-			ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
-		Collections.sort(chars,compareByYX);
+		if ( page.bitmap.points[x][y].ch != null )
+			expand(page.bitmap.points[x][y].ch);
+		
+		Collections.sort(chars,Char.compareByYX);
 
-		charHeight=mostCharHeight();
+		charfont=mostCharFont();
 	}
 
 	private void expand(Char ch) {
@@ -58,9 +46,26 @@ public class Row extends Rectangle {
 			
 			updateRectangle(ch);
 			
-			ch.getLeftConnected().forEach(this::expand);
-			ch.getRightConnected().forEach(this::expand);
+			ch.getLeftConnected(page).forEach(this::expand);
+			ch.getRightConnected(page).forEach(this::expand);
 		}	
+	}
+	
+	void merge(Row row) {
+		for (Char ch:row.chars) {
+			ch.row=this;
+			updateRectangle(ch);
+		}
+		
+		chars.addAll(row.chars);
+		
+		Collections.sort(chars,Char.compareByYX);
+
+		charfont=mostCharFont();
+		
+		if (row.block!=null)
+			row.block.rows.remove(row);
+		page.rows.remove(row);
 	}
 	
 	public ArrayList<Row> getAboveConnected() {		
@@ -76,14 +81,14 @@ public class Row extends Rectangle {
 			for (;j1<height*Common._CharVGapRatio;j1++) {
 				j=top-j1;
 				if (j<0) break;
-				if (Content.content.bitmap.points[i][j]!=null) break;
+				if (page.bitmap.points[i][j]!=null) break;
 			}
 			
-			if (j<0 || Content.content.bitmap.points[i][j]==null) continue;
+			if (j<0 || page.bitmap.points[i][j]==null) continue;
 			
-			if (row==Content.content.bitmap.points[i][j].ch.row) continue;
+			if (row==page.bitmap.points[i][j].ch.row) continue;
 			
-			row=Content.content.bitmap.points[i][j].ch.row;
+			row=page.bitmap.points[i][j].ch.row;
 			
 			if(!checkSameBlock(row)) continue;
 			
@@ -98,7 +103,7 @@ public class Row extends Rectangle {
 	public ArrayList<Row> getBelowConnected() {		
 		ArrayList<Row> rows=new ArrayList<Row>();
 		
-		if (bottom >= Content.content.bottom) return rows;
+		if (bottom >= page.height) return rows;
 		
 		Row row=null;
 		
@@ -107,14 +112,14 @@ public class Row extends Rectangle {
 			int j1=1;
 			for (;j1<height*Common._CharVGapRatio;j1++) {
 				j=bottom+j1;
-				if (j>=Content.content.bottom) break;
-				if (Content.content.bitmap.points[i][j]!=null) break;
+				if (j>=page.height) break;
+				if (page.bitmap.points[i][j]!=null) break;
 			}
 			
-			if(j>Content.content.bottom || Content.content.bitmap.points[i][j]==null) continue;
-			if (row==Content.content.bitmap.points[i][j].ch.row) continue;
+			if(j>page.height || page.bitmap.points[i][j]==null) continue;
+			if (row==page.bitmap.points[i][j].ch.row) continue;
 			
-			row=Content.content.bitmap.points[i][j].ch.row;
+			row=page.bitmap.points[i][j].ch.row;
 			
 			if(!checkSameBlock(row)) continue;
 			
@@ -127,35 +132,30 @@ public class Row extends Rectangle {
 	}
 	
 	private boolean checkSameBlock(Row row) {
-		return charHeight==row.charHeight;
+		return charfont.equals(row.charfont);
 	}
 	
-	public float mostCharHeight() {
-		TreeMap<Float,Integer> charHeights=new TreeMap<>();
+	public CharFont mostCharFont() {
+		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
 		for (Char ch: chars) {
-			int n=charHeights.compute(ch.height, (k,v) -> (v == null ? 0 : v) + 1);
-        	charHeights.put(ch.height,n);
+			CharFont cf=new Char.CharFont(ch.fontname,ch.height);
+			int n=charFonts.compute(cf, (k,v) -> (v == null ? 0 : v) + 1);
+        	charFonts.put(cf,n);
 		}
 		
-		Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		return maxHeight;
+		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		return cf;
 	}
 	
-	public void write(FileWriter fw) throws IOException {
-		//int y0=chars.get(0).bottom;
+	public void print(FileWriter fw) throws IOException {
 		int x0=chars.get(0).right;
 		for(Char ch:chars) {
-			/*if (ch.top>y0) {
-				fw.write("\n");
-			}*/
 			
 			if(ch.left > x0 + ch.width * Common._HSpaceMin) {
 				fw.write(" ");
 			}
 			fw.write(ch.str);
-			
-			//y0=ch.bottom;
 			x0=ch.right;
 		}
 	}

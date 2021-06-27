@@ -1,6 +1,7 @@
 package extworder;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Char extends Rectangle {
 	String str;
@@ -8,7 +9,10 @@ public class Char extends Rectangle {
 	String fontname;
 	Row row;
 	
-	public Char(String str,float x, float y, float height,float width, String fontname) {
+	static Comparator<Char> compareByYX = (Char ch1, Char ch2) ->
+		ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
+	
+	public Char(String str,float x, float y, float width, float height, String fontname) {
 		this.str=str;
 		this.x=x;
 		this.y=y;
@@ -21,11 +25,7 @@ public class Char extends Rectangle {
 		bottom=(int)(Math.round(y+height-0.001));
 	}
 	
-	public boolean coverPoint(float xPoint,float yPoint) {
-		return xPoint>=x && xPoint<x+width && yPoint>=y && yPoint<y+height;
-	}
-	
-	public ArrayList<Char> getAboveConnected() {		
+	public ArrayList<Char> getAboveConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
 		if (top<1) return chars;
@@ -38,14 +38,14 @@ public class Char extends Rectangle {
 			for (;j1<height*Common._CharVGapRatio;j1++) {
 				j=top-j1;
 				if (j<0) break;
-				if (Content.content.bitmap.points[i][j]!=null) break;
+				if (page.bitmap.points[i][j]!=null) break;
 			}
 			
-			if (j<0 || Content.content.bitmap.points[i][j]==null) continue;
+			if (j<0 || page.bitmap.points[i][j]==null) continue;
 			
-			if (ch==Content.content.bitmap.points[i][j].ch) continue;
+			if (ch==page.bitmap.points[i][j].ch) continue;
 			
-			ch=Content.content.bitmap.points[i][j].ch;
+			ch=page.bitmap.points[i][j].ch;
 			
 			if( j1 > ch.height*Common._CharVGapRatio ) continue;
 			
@@ -55,10 +55,10 @@ public class Char extends Rectangle {
 		return chars;
 	}
 
-	public ArrayList<Char> getBelowConnected() {		
+	public ArrayList<Char> getBelowConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
-		if (bottom >= Content.content.bottom) return chars;
+		if (bottom >= page.height) return chars;
 		
 		Char ch=null;
 		
@@ -67,14 +67,14 @@ public class Char extends Rectangle {
 			int j1=1;
 			for (;j1<height*Common._CharVGapRatio;j1++) {
 				j=bottom+j1;
-				if (j>=Content.content.bottom) break;
-				if (Content.content.bitmap.points[i][j]!=null) break;
+				if (j>=page.height) break;
+				if (page.bitmap.points[i][j]!=null) break;
 			}
 			
-			if(j>Content.content.bottom || Content.content.bitmap.points[i][j]==null) continue;
-			if (ch==Content.content.bitmap.points[i][j].ch) continue;
+			if(j>page.height || page.bitmap.points[i][j]==null) continue;
+			if (ch==page.bitmap.points[i][j].ch) continue;
 			
-			ch=Content.content.bitmap.points[i][j].ch;
+			ch=page.bitmap.points[i][j].ch;
 			
 			if( j1 > ch.height*Common._CharVGapRatio ) continue;
 			
@@ -84,7 +84,7 @@ public class Char extends Rectangle {
 		return chars;
 	}
 
-	public ArrayList<Char> getLeftConnected() {		
+	public ArrayList<Char> getLeftConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
 		if (left<1) return chars;
@@ -96,23 +96,23 @@ public class Char extends Rectangle {
 			for(int i1=1;i1<width*Common._CharHGapRatio;i1++) {
 				i=left-i1;
 				if (i<0) break;
-				if (Content.content.bitmap.points[i][j]!=null) break;
+				if (page.bitmap.points[i][j]!=null) break;
 			}
 					
-			if (i<0 || Content.content.bitmap.points[i][j]==null) continue;
-			if (ch==Content.content.bitmap.points[i][j].ch) continue;
+			if (i<0 || page.bitmap.points[i][j]==null) continue;
+			if (ch==page.bitmap.points[i][j].ch) continue;
 			
-			ch=Content.content.bitmap.points[i][j].ch;
+			ch=page.bitmap.points[i][j].ch;
 			chars.add(ch);
 		}
 		
 		return chars;
 	}
 
-	public ArrayList<Char> getRightConnected() {		
+	public ArrayList<Char> getRightConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
-		if (right >= Content.content.right) return chars;
+		if (right >= page.width) return chars;
 		
 		Char ch=null;
 		
@@ -120,17 +120,51 @@ public class Char extends Rectangle {
 			int i=right;
 			for(int i1=1;i1<width*Common._CharHGapRatio;i1++) {
 				i=right+i1;
-				if (i>Content.content.width) break;
-				if (Content.content.bitmap.points[i][j]!=null) break;
+				if (i>page.width) break;
+				if (page.bitmap.points[i][j]!=null) break;
 			}
 			
-			if (i>=Content.content.width || Content.content.bitmap.points[i][j]==null) continue;
-			if (ch==Content.content.bitmap.points[i][j].ch) continue;
+			if (i>=page.width || page.bitmap.points[i][j]==null) continue;
+			if (ch==page.bitmap.points[i][j].ch) continue;
 			
-			ch=Content.content.bitmap.points[i][j].ch;
+			ch=page.bitmap.points[i][j].ch;
 			chars.add(ch);
 		}
 		
 		return chars;
+	}
+	
+	static public class CharFont implements Comparable<CharFont>{
+		String name;
+		float height;
+		
+		public CharFont(String name,float height) {
+			this.name=name;
+			this.height=height;
+		}
+		
+	    @Override
+	    public int hashCode() {
+	        return (int)(height*100000+(short)name.hashCode());
+	    }
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+	            return true;
+	        if (obj == null)
+	            return false;
+	        if (getClass() != obj.getClass())
+	            return false;
+	        CharFont other = (CharFont) obj;
+	        if (name != other.name || height !=other.height)
+	            return false;
+	        return true;
+		}
+		
+		@Override
+	    public int compareTo(CharFont charfont) {
+	        return (int)(hashCode()-charfont.hashCode());
+	    }
 	}
 }

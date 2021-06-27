@@ -6,104 +6,131 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
-
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
+import extworder.Char.CharFont;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.TreeMap;
-import java.util.stream.Collectors;
 
 public class Content extends PDFTextStripper {
-	static Content content;
-    public TreeMap<Float,Integer> charHeights;
-    float textCharHeight,titleCharHeight;
-    ArrayList<Char> chars;
-    ArrayList<Block> blocks;
-    ArrayList<Row> rows;
-    public float width,height;
-    public int right,bottom;
-    Map<Float,Integer> charHeightIndexes;
-    Bitmap bitmap;
-    public String title;
+	ArrayList<Page> pages;
+    //float textCharHeight,titleCharHeight;
+	//public TreeMap<Float,Integer> charHeights;
+    //Map<Float,Integer> charHeightIndexes;
+    TreeMap<CharFont,Integer> charfonts;
+    Map<CharFont,Integer> charfontIndexes;
+    CharFont textCharfont,titleCharfont;
+    int currPid;
+    Page currPage=null;
 	
-	public Content(String fn) throws IOException {
-		content=this;
-		width=height=-1;
-		charHeights=new TreeMap<>();
-		chars=new ArrayList<Char>();
-		blocks=new ArrayList<Block>();
-		rows=new ArrayList<Row>();
+	public Content(String fn)  throws IOException{
+		pages=new ArrayList<Page>();
+		//charHeights=new TreeMap<>();
+		charfonts=new TreeMap<>();
 		
-		File file = new File(fn+".pdf");
+		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
 		
-		setSortByPosition( true );
-		setStartPage( 0 );
-		setEndPage(1);
-		//setEndPage( document.getNumberOfPages() );
-		 
-		Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
-		try {
-			writeText(document, dummy);
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if( document != null ) {
-                document.close();
-            }
-        }
+		setSortByPosition( true ); 
 		
-		right=Math.round(width);
-		bottom=Math.round(height);
+		for (currPid=1; currPid<=document.getNumberOfPages(); currPid++) {
+			setStartPage(currPid);
+			setEndPage(currPid);
+			
+			Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
+			try {
+				writeText(document, dummy);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			if(currPage!=null) {
+				currPage.complete();
+				pages.add(currPage);
+			}
+		}
 		
-		bitmap=new Bitmap(this);
+		if( document != null )
+             document.close();
 		
-		titleCharHeight=charHeights.lastKey();
+		titleCharfont=charfonts.lastKey();
+		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		charfontIndexes=makeCharfontIndexes();
+		/*titleCharHeight=charHeights.lastKey();
 		textCharHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		charHeightIndexes=makeCharHeightIndexes();
-		
-		Row.getAllRows();
-		Block.getAllBlocks();
+		charHeightIndexes=makeCharHeightIndexes();*/
 	}
 
 	@Override
 	protected void writeString(String string, List<TextPosition> textPositions) throws IOException {
+		if (currPage==null || currPage.id != currPid) {
+			currPage=new Page(this,currPid);
+		}
+		
         for (TextPosition text : textPositions) {
-        	Float h;
-        	h=text.getHeightDir();
-        	
-        	Integer n;
-        	n=charHeights.compute(h, (k,v) -> (v == null ? 0 : v) + 1);
-        	charHeights.put(h,n);
-        	
-        	String str;
-        	str=text.toString();
-        	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getHeightDir(),text.getWidthDirAdj(),
-        			text.getFont().getName());
-        	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getFont().getFontDescriptor().getFontBoundingBox().getHeight(),text.getWidthDirAdj(),
-                		//	text.getFont().getName());
-        	chars.add(ch);
-        	
-        	float width1=(float)(ch.x+ch.width-0.001);
-        	float height1=(float)(ch.y+ch.height-0.001);
-        	if (width1>width) width=width1;
-        	if (height1>height) height=height1;
+        	currPage.writeString(text);
         }
     }
 	
-	public String getTitle() {
-		/*Map<Float, Integer> sortedMap = charHeights.entrySet().stream()
-                .sorted(Entry.comparingByValue())
-                .collect(Collectors.toMap(Entry::getKey, Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));*/
+	private Map<CharFont,Integer> makeCharfontIndexes() {
+		CharFont[] cfs = new CharFont[charfonts.size()];
+		int i=0;
+		for (CharFont cf : charfonts.keySet()) {
+	        cfs[i++]=cf;
+		}
+		Arrays.sort(cfs);
 		
+		int textCharfontIndex=-1;
+		for(i = 0; i<cfs.length;i++ )
+            if(cfs[i] == textCharfont) {
+            	textCharfontIndex = i;
+                break;
+            }
+		
+		Map<CharFont,Integer> cfIndexes=new HashMap<>();
+		for(i=0; i<cfs.length;i++ ) {
+			cfIndexes.put(cfs[i],i-textCharfontIndex);
+		}
+		
+		return cfIndexes;
+	}
+	/*private Map<Float,Integer> makeCharHeightIndexes() {
+		float[] heights = new float[charHeights.size()];
+		int i=0;
+		for (Float h : charHeights.keySet()) {
+	        heights[i++]=h;
+		}
+		Arrays.sort(heights);
+		
+		int textHeightIndex=-1;
+		for(i = 0; i<heights.length;i++ )
+            if(heights[i] == textCharHeight) {
+            	textHeightIndex = i;
+                break;
+            }
+		
+		Map<Float,Integer> heightIndexes=new HashMap<>();
+		for(i=0; i<heights.length;i++ ) {
+			heightIndexes.put(heights[i],i-textHeightIndex);
+		}
+		
+		return heightIndexes;
+	}*/
+	
+	public void print(FileWriter fw) throws IOException {
+		for(Page page:pages) {
+			page.print(fw);
+		}
+	}
+
+	/*public String getTitle() {
 		return getContent(charHeights.lastKey());
 	}
 	
@@ -112,9 +139,9 @@ public class Content extends PDFTextStripper {
 		Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		
 		return getContent(maxHeight);
-	}
+	}*/
 	
-	public String getContent(float heightToFilter) {
+	/*public String getContent(float heightToFilter) {
 		ArrayList<Char> titleChars=getContentWiHeight(heightToFilter);
 		
 		if (hasSpace(titleChars))
@@ -188,47 +215,5 @@ public class Content extends PDFTextStripper {
 		return false;
 	}
 	
-	private Map<Float,Integer> makeCharHeightIndexes() {
-		float[] heights = new float[charHeights.size()];
-		int i=0;
-		for (Float h : charHeights.keySet()) {
-	        heights[i++]=h;
-		}
-		Arrays.sort(heights);
-		
-		int textHeightIndex=-1;
-		for(i = 0; i<heights.length;i++ )
-            if(heights[i] == textCharHeight) {
-            	textHeightIndex = i;
-                break;
-            }
-		
-		Map<Float,Integer> heightIndexes=new HashMap<>();
-		for(i=0; i<heights.length;i++ ) {
-			heightIndexes.put(heights[i],i-textHeightIndex);
-		}
-		
-		return heightIndexes;
-	}
-	
-	public void write(FileWriter fw) throws IOException {
-		for(Block block:blocks)
-			block.write(fw);
-	}
-	
-	class Bitmap {
-		Point[][] points;
-		
-		public Bitmap(Content content) {
-			points=new Point[Math.round(content.width)+1][Math.round(content.height)+1];
-			
-			for (Char ch: content.chars) {
-				for (int x=Math.round(ch.x); x<=ch.right; x++)
-					for (int y=Math.round(ch.y); y<=ch.bottom; y++) {
-						Point point=new Point(x,y,ch);
-						points[x][y]=point;
-					}
-			}
-		}
-	}
+	 */
 }

@@ -10,47 +10,35 @@ import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeMap;
 
+import extworder.Char.CharFont;
+
 public class Block extends Rectangle {
-	float rowHeight;
+	CharFont charfont;
 	ArrayList<Row> rows;
+	Page page;
+    
+	static CompareBlocks compareBlocks=new CompareBlocks();
 	
-	public static void getAllBlocks() {
-		for(int x=0; x<=Content.content.width;x++)
-			for(int y=0;y<=Content.content.height;y++) {
-				Point p=Content.content.bitmap.points[x][y];
-				if ( p == null ) continue;
-				
-				Char ch=p.ch;
-				if(ch==null) continue;
-				
-				if(ch.row.block==null) {
-					Content.content.blocks.add(new Block(x,y));
-				}
-			}
+	public Block(Page page, int x, int y) {
 		
-		Comparator<Block> compareByYX = (Block b1, Block b2) ->
-			b1.top != b2.top ? (int)(b1.top-b2.top) : (int) (b1.left-b2.left);
-		Collections.sort(Content.content.blocks,compareByYX);
-	}
-	
-	public Block(int x, int y) {
+		this.page=page;
 		build(x,y);
 		
 		width=right-left;
 		height=bottom-top;
 		
-		Comparator<Row> compareByYX = (Row row1, Row row2) ->
-											row1.top != row2.top ? (int)(row1.top-row2.top) : (int) (row1.left-row2.left);
-		Collections.sort(rows,compareByYX);
-		
-		rowHeight=mostRowHeight();
+		//Comparator<Row> compareByYX = (Row row1, Row row2) ->
+		//									row1.top != row2.top ? (int)(row1.top-row2.top) : (int) (row1.left-row2.left);
+		Collections.sort(rows,Row.compareRows);
+
+		charfont=mostCharFont();
 	}
 	
 	public void build(int x, int y) {
 		rows=new ArrayList<Row>();
 		
-		if ( Content.content.bitmap.points[x][y].ch != null )
-			expand(Content.content.bitmap.points[x][y].ch.row);
+		if ( page.bitmap.points[x][y].ch != null )
+			expand(page.bitmap.points[x][y].ch.row);
 	}
 	
 	private void expand(Row row) {
@@ -65,32 +53,59 @@ public class Block extends Rectangle {
 		}	
 	}
 	
-	public float mostRowHeight() {
-		TreeMap<Float,Integer> rowHeights=new TreeMap<>();
-		
-		for (Row row: rows) {
-			int n=rowHeights.compute(row.charHeight, (k,v) -> (v == null ? 0 : v) + 1);
-        	rowHeights.put(row.charHeight,n);
+	void merge(Block block) {
+		for (Row row:block.rows) {
+			row.block=this;
+			updateRectangle(row);
 		}
 		
-		Float maxHeight = rowHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		return maxHeight;
+		rows.addAll(block.rows);
+		
+		Collections.sort(rows,Row.compareRows);
+		
+		page.blocks.remove(block);
 	}
 	
-	public void write(FileWriter fw) throws IOException {
+	public CharFont mostCharFont() {
+		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
+		
+		for (Row row: rows) {
+			int n=charFonts.compute(row.charfont, (k,v) -> (v == null ? 0 : v) + 1);
+        	charFonts.put(row.charfont,n);
+		}
+		
+		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		return cf;
+	}
+	
+	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
-		if (rowHeight>=Content.content.titleCharHeight)
+		Content content=page.content;
+		
+		if (charfont.equals(content.titleCharfont))
 			fw.write("type: title");
-		else if (rowHeight>Content.content.textCharHeight)
-			fw.write(String.format("type: subtitle level%d",Content.content.charHeightIndexes.get(rowHeight)));
-		else if (rowHeight==Content.content.textCharHeight)
+		else if (charfont.compareTo(content.textCharfont)>0)
+			fw.write(String.format("type: subtitle level%d",content.charfontIndexes.get(charfont)));
+		else if (charfont.equals(content.textCharfont))
 			fw.write(String.format("type: text"));
 		else 
 			fw.write(String.format("type: notes"));
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d width=%f height %f\n====>\n\n",
-				Content.content.charHeightIndexes.get(rowHeight),left,right,top,bottom,width,height));
+				content.charfontIndexes.get(charfont),left,right,top,bottom,width,height));
+		
+		/*if (rowHeight>=content.titleCharHeight)
+			fw.write("type: title");
+		else if (rowHeight>content.textCharHeight)
+			fw.write(String.format("type: subtitle level%d",content.charHeightIndexes.get(rowHeight)));
+		else if (rowHeight==content.textCharHeight)
+			fw.write(String.format("type: text"));
+		else 
+			fw.write(String.format("type: notes"));
+					
+		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d width=%f height %f\n====>\n\n",
+				content.charHeightIndexes.get(rowHeight),left,right,top,bottom,width,height));*/
 		
 		int y=rows.get(0).bottom;
 		for(Row row:rows) {
@@ -100,9 +115,20 @@ public class Block extends Rectangle {
 			} else {
 				fw.write(" ");
 			}
-			row.write(fw);
+			row.print(fw);
 		}
 		
 		fw.write("\n==============================\n\n");
+	}
+	
+	static class CompareBlocks implements Comparator<Block> {
+		public int compare(Block b1, Block b2) {
+			if (b1.bottom < b2.top)
+				return -1;
+			else if (b2.bottom < b1.top)
+				return 1;
+			else 
+				return b1.top!=b2.top ? b1.top-b2.top : b1.left-b2.left;
+		}
 	}
 }

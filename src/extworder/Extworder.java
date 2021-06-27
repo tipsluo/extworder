@@ -1,22 +1,14 @@
 package extworder;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-import java.util.List;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 //import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
-import org.apache.pdfbox.pdmodel.PDPage;
-import org.apache.pdfbox.pdmodel.common.PDMetadata;
 //import org.apache.pdfbox.pdmodel.common.PDStream;
 import org.apache.pdfbox.text.PDFTextStripper;
 import java.io.FileWriter;   // Import the FileWriter class
-import java.io.IOException;  // Import the IOException class to handle errors
 
 
 public class Extworder {
@@ -38,36 +30,36 @@ public class Extworder {
 		//extract("ILL article-Impact of the KWL reading strategy");
 	}
 	
-	static public void main_test2_printcharinfos() throws IOException {
+	/*static public void main_test2_printcharinfos() throws IOException {
 		printCharInfos("A model for estimating parameters of rotational landslide");
 		printCharInfos("Peace-Development and Peace Through");
 		printCharInfos("Broader perspective on ecosystem");
 		printCharInfos("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		printCharInfos("ILL article-Impact of the KWL reading strategy");
-	}
+	}*/
 	
-	static public void main_test3_getTitle() throws IOException {
+	/*static public void main_test3_getTitle() throws IOException {
 		getTitle("A model for estimating parameters of rotational landslide");
 		getTitle("Peace-Development and Peace Through");
 		getTitle("Broader perspective on ecosystem");
 		getTitle("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		getTitle("ILL article-Impact of the KWL reading strategy");
-    }
+    }*/
 	
-	static public void main_test4_getText() throws IOException {
+	/*static public void main_test4_getText() throws IOException {
 		getText("A model for estimating parameters of rotational landslide");
 		//getText("Peace-Development and Peace Through");
 		//getText("Broader perspective on ecosystem");
 		//getText("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//getText("ILL article-Impact of the KWL reading strategy");
-    }
+    }*/
 	
 	static public void main_test5_block_display() throws IOException {
 		displayBlocks("A model for estimating parameters of rotational landslide");
-		displayBlocks("Peace-Development and Peace Through");
-		displayBlocks("Broader perspective on ecosystem");
-		displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		displayBlocks("ILL article-Impact of the KWL reading strategy");
+		//displayBlocks("Peace-Development and Peace Through");
+		//displayBlocks("Broader perspective on ecosystem");
+		//displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//displayBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	static public void main_test6_block_print() throws IOException {
@@ -78,33 +70,12 @@ public class Extworder {
 		printBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
-	static private String getTitle(String fn) throws IOException {
-		String title=getMetaTitle(fn);
+	/*static private String getTitle(String fn) throws IOException {
+		String title=getMetaTitle(Common._TestDataDir+fn);
 		
 		System.out.printf("PDF file: %s\nTitle from PDF meta data: %s\n",fn,title);
 		
 		if (title=="" || title==null) {
-			/*File file = new File(fn+".pdf");
-			PDDocument document = PDDocument.load(file);
-			
-			Content content = new Content(fn);
-			content.setSortByPosition( true );
-			content.setStartPage( 0 );
-			content.setEndPage( document.getNumberOfPages() );
-			 
-			Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
-			try {
-				content.writeText(document, dummy);
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} finally {
-				if( document != null ) {
-	                document.close();
-	            }
-	        }
-			*/
-			
 			Content content = new Content(fn);
 	        title=content.getTitle();
 	        System.out.printf("Guessing title... It is: "+title+"\n");
@@ -118,47 +89,25 @@ public class Extworder {
 	static private String getText(String fn) throws IOException {
 		Content content = new Content(fn);
 	    String text=content.getText();
-	    //System.out.printf("PDF file %s\nText with the height for the lagest number of characters: \n%s\n",fn,text);
 	    System.out.printf("PDF file %s\n",fn);
 	    
-	    FileWriter myWriter = new FileWriter(fn+"_text.txt");
+	    FileWriter myWriter = new FileWriter(Common._TestDataDir+fn+"_text.txt");
 	    myWriter.write(text);
 	    myWriter.close();
 		
 		return text;
-	}
+	} */
 	
-	static public void printCharInfos(String fn) throws IOException {
-		/*File file = new File(fn+".pdf");
-		PDDocument document = PDDocument.load(file);
-		
-		Content content = new Content(fn);
-		content.setSortByPosition( true );
-		content.setStartPage( 0 );
-		content.setEndPage( document.getNumberOfPages() );
-		 
-		Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
-		try {
-			content.writeText(document, dummy);
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if( document != null ) {
-                document.close();
-            }
-        }*/
-		
+	/*static public void printCharInfos(String fn) throws IOException {
 		Content content = new Content(fn);
 		
-        //System.out.printf("PDF: %s\nTitle: %s\n",fn,content.getTitle());
 		System.out.printf("PDF: %s\n",fn);
         Float maxHeight = content.charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
         System.out.printf("Highest: %f, Max Height Number: %f\nTitle: %s\n",content.charHeights.lastKey(), maxHeight,content.getTitle());
-	}
+	}*/
 	
 	public static void extract(String fn) throws IOException {
-	//Loading an existing document
-			File file = new File(fn+".pdf");
+			File file = new File(Common._TestDataDir+fn+".pdf");
 			PDDocument document = PDDocument.load(file);
 			
 			PDDocumentInformation info = document.getDocumentInformation();
@@ -172,16 +121,12 @@ public class Extworder {
 			System.out.println( "Modification Date=" + info.getModificationDate());
 			System.out.println( "Trapped=" + info.getTrapped() );   
 
-			//Instantiate PDFTextStripper class
 			PDFTextStripper pdfStripper = new PDFTextStripper();
 			
-			//Retrieving text from PDF document
 			String text = pdfStripper.getText(document);
-			//System.out.println(text);
-
 			
 			try {
-			      FileWriter myWriter = new FileWriter(fn+".txt");
+			      FileWriter myWriter = new FileWriter(Common._TestDataDir+fn+".txt");
 			      
 			      myWriter.write("Document Infomation ===========>\n");
 			      myWriter.write("Title=" + info.getTitle() +"\n");
@@ -203,12 +148,11 @@ public class Extworder {
 			      e.printStackTrace();
 			    }
 			
-			//Closing the document
 			document.close();
 	}
 	
 	public static String getMetaTitle(String fn) throws IOException {
-		File file = new File(fn+".pdf");
+		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
 		
 		PDDocumentInformation info = document.getDocumentInformation();
@@ -224,9 +168,10 @@ public class Extworder {
 		FileWriter myWriter = null;
 		
 		try {
-			myWriter= new FileWriter(fn+"_block.txt");
+			myWriter= new FileWriter(Common._TestDataDir+fn+"_block.txt");
 		
-		    for(Block block:content.blocks) {
+			for(Page page:content.pages) {
+		    for(Block block:page.blocks) {
 		    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.top,block.bottom));
 		    	for(Row row:block.rows) {
 		    		for(Char ch:row.chars) {
@@ -234,6 +179,7 @@ public class Extworder {
 			    	}
 		    	}
 		    }
+			}
 		} finally {
 			  myWriter.close();
 		}
@@ -242,9 +188,9 @@ public class Extworder {
 	public static void printBlocks(String fn) throws IOException {
 		Content content = new Content(fn);
 		
-		FileWriter myWriter= new FileWriter(fn+"_block2.txt");
+		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_block2.txt");
 		
-		content.write(myWriter);
+		content.print(myWriter);
 		
 		myWriter.close();
 	}
