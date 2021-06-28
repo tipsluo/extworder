@@ -9,6 +9,7 @@ import java.util.Comparator;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
+import extworder.Common.CharfontFilter;
 
 public class Page {
 	Content content;
@@ -171,7 +172,17 @@ public class Page {
 		String str="";
 		
 		for(BlockGroup blockgroup:blockgroups) {
-			str+=blockgroup.text();
+			str+=blockgroup.string(content.isTextBlock);
+		}
+		
+		return str;
+	}
+	
+	String string() {
+		String str="";
+		
+		for(BlockGroup blockgroup:blockgroups) {
+			str+=blockgroup.string()+"\n";
 		}
 		
 		return str;
@@ -233,15 +244,27 @@ public class Page {
 				block.print(fw);
 		}
 		
-		String text() {
+		String string(CharfontFilter charfontFilter) {
 			String str="";
-			
+
 			if(Common.__DEBUG) {
 				str+=String.format("DEBUG: Block Group top=%d left=%d ===> \n",top,left);
 			}
 			
 			for(Block block:blocks) {
-				str+=block.text()+"\n";
+				if(! charfontFilter.filter(block.charfont))
+					return "";
+				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		String string() {
+			String str="";
+			
+			for(Block block:blocks) {
+				str+=block.string()+"\n";
 			}
 			
 			return str;

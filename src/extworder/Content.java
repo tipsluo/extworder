@@ -11,6 +11,7 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
+import extworder.Common.CharfontFilter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,9 +24,12 @@ public class Content extends PDFTextStripper {
 	ArrayList<Page> pages;
     TreeMap<CharFont,Integer> charfonts;
     Map<CharFont,Integer> charfontIndexes;
-    CharFont textCharfont,titleCharfont;
+    CharFont textCharfont;
+    Block titleBlock;
     int currPid;
     Page currPage=null;
+	//IsTitleBlock isTitleBlock=new IsTitleBlock();
+	IsTextBlock isTextBlock=new IsTextBlock();
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
@@ -56,7 +60,8 @@ public class Content extends PDFTextStripper {
 		if( document != null )
              document.close();
 		
-		titleCharfont=charfonts.lastKey();
+		//titleCharfont=charfonts.lastKey();
+		titleBlock=getTitleBlock();
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charfontIndexes=makeCharfontIndexes();
 	}
@@ -94,10 +99,6 @@ public class Content extends PDFTextStripper {
 		
 		return cfIndexes;
 	}
-	
-	private void getText() {
-		
-	}
 
 	public void print(FileWriter fw) throws IOException {
 		for(Page page:pages) {
@@ -116,5 +117,50 @@ public class Content extends PDFTextStripper {
 		str = str.replaceAll("\s+", "\s");
 		
 		return str;
+	}
+	
+	String title() {
+		return titleBlock.string();
+	}
+	
+	private Block getTitleBlock() {
+		int i=0;
+		Page page=null;
+		Block titleBlock=null;
+		
+		for(; i<pages.size(); i++) {
+			page=pages.get(i);
+			
+			String str=page.string();
+			if (! str.contains(Common._LenderStr) && ! str.contains(Common._BorrowerStr))		
+				break;
+		}
+		
+		if (i>=pages.size()) {
+			return null;
+		} else {
+			titleBlock=page.blocks.get(0);
+			
+			for(int j=0; j<page.blocks.size();j++) {
+				if(page.blocks.get(j).charfont.compareTo(titleBlock.charfont)>0)
+					titleBlock=page.blocks.get(j);
+			}
+		}
+			
+		return titleBlock;
+	}
+	
+	/*class IsTitleBlock implements Common.CharfontFilter {
+		@Override
+		public boolean filter(CharFont charfont) {
+			return charfont.equals(titleCharfont);
+		}
+	}*/
+	
+	class IsTextBlock implements Common.CharfontFilter {
+		@Override
+		public boolean filter(CharFont charfont) {
+			return charfont.equals(textCharfont);
+		}
 	}
 }

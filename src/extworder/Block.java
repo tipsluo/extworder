@@ -8,6 +8,7 @@ import java.util.Comparator;
 import java.util.TreeMap;
 
 import extworder.Char.CharFont;
+import extworder.Common.CharfontFilter;
 
 public class Block extends Rectangle {
 	CharFont charfont;
@@ -78,7 +79,7 @@ public class Block extends Rectangle {
 		
 		Content content=page.content;
 		
-		if (charfont.equals(content.titleCharfont))
+		if (this==page.content.titleBlock)
 			fw.write("type: title");
 		else if (charfont.compareTo(content.textCharfont)>0)
 			fw.write(String.format("type: subtitle level%d",content.charfontIndexes.get(charfont)));
@@ -104,10 +105,33 @@ public class Block extends Rectangle {
 		fw.write("\n==============================\n\n");
 	}
 	
-	String text() {
+	/*String text() {
 		if(! charfont.equals(page.content.textCharfont))
 			return "";
 		
+		String str="";
+		
+		int y=rows.get(0).bottom;
+		for(Row row:rows) {
+			if (row.top>y) {
+				str+="\n";
+				y=row.bottom;
+			} else {
+				str+=" ";
+			}
+			str+=row.string();
+		}
+		
+		return str+"\n";
+	}*/
+	
+	/*String text() {
+		if(! this.charfont.equals(page.content.textCharfont))
+			return "";
+		return string();
+	}*/
+	
+	String string() {
 		String str="";
 		
 		int y=rows.get(0).bottom;
