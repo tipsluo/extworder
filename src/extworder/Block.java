@@ -150,12 +150,11 @@ public class Block extends Rectangle {
 	
 	static class CompareBlocks implements Comparator<Block> {
 		public int compare(Block b1, Block b2) {
-			if (b1.bottom < b2.top)
-				return -1;
-			else if (b2.bottom < b1.top)
-				return 1;
-			else 
-				return b1.top!=b2.top ? b1.top-b2.top : b1.left-b2.left;
+			if( ( b1.top >= b2.top && b1.top <= b2.bottom ) || 
+					( b2.top >= b1.top && b2.top <= b1.bottom ) )
+					return b1.left - b2.left;
+				else
+					return b1.top - b2.top;
 		}
 	}
 }

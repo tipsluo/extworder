@@ -172,6 +172,7 @@ public class Extworder {
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
 
+		myWriter.write(String.format("Title:\n%s\n----------------------\n",content.title()));
 		myWriter.write(content.text());
 		
 		myWriter.close();

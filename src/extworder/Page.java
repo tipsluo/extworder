@@ -272,12 +272,17 @@ public class Page {
 		
 		static class CompareBlockGroups implements Comparator<BlockGroup> {
 			public int compare(BlockGroup bg1, BlockGroup bg2) {
-				if (bg1.bottom < bg2.top)
+				if( ( bg1.top >= bg2.top && bg1.top <= bg2.bottom ) || 
+					( bg2.top >= bg1.top && bg2.top <= bg1.bottom ) )
+					return bg1.left - bg2.left;
+				else
+					return bg1.top - bg2.top;
+				/*if (bg1.bottom < bg2.top)
 					return -1;
 				else if (bg2.bottom < bg1.top)
 					return 1;
 				else 
-					return bg1.top!=bg2.top ? bg1.top-bg2.top : bg1.right-bg2.right;
+					return bg1.top!=bg2.top ? bg1.top-bg2.top : bg1.right-bg2.right;*/
 			}
 		}
 	}
