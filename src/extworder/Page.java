@@ -32,8 +32,6 @@ public class Page {
 	}
 	
 	public void writeString(TextPosition text) {
-    	/*Float h;
-    	h=text.getHeightDir();*/
 		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
     	
     	Integer n;
@@ -82,38 +80,6 @@ public class Page {
 		
 		Collections.sort(blockgroups,BlockGroup.compareBlockgroups);
 	}
-	
-	/*private boolean validateBlockGroup(ArrayList<BlockGroup> blockGroups) {
-		Collections.sort(blockGroups,BlockGroup.compareBlockgroups);
-
-		for(int i=0; i<blockGroups.size(); i++) {
-			BlockGroup blockGroup=blockGroups.get(i);
-			for(Block block:blockGroup.blocks) {
-				for(int j=0;j<i;j++) {
-					BlockGroup bg1=blockGroups.get(j);
-					for(int k=0;k<bg1.blocks.size();k++) {
-						Block b1=bg1.blocks.get(k);
-						if ( block.left<b1.right && block.bottom<b1.top ) {
-							BlockGroup newBlockGroup=new BlockGroup(b1);
-							int n=bg1.blocks.size();
-							for(int l=k; l<n; l++)
-								newBlockGroup.blocks.add(bg1.blocks.get(l));
-							newBlockGroup.reUpdateRectangle();
-							blockGroups.add(newBlockGroup);
-							
-							bg1.truncate(k);
-							if(bg1.blocks.size()==0)
-								blockGroups.remove(bg1);
-							
-							return false;
-						}
-					}
-				}
-			}
-		}
-		
-		return true;
-	}*/
 	
 	private void getAllBlocks() {
 		for(int x=0; x<=width;x++)
@@ -277,12 +243,6 @@ public class Page {
 					return bg1.left - bg2.left;
 				else
 					return bg1.top - bg2.top;
-				/*if (bg1.bottom < bg2.top)
-					return -1;
-				else if (bg2.bottom < bg1.top)
-					return 1;
-				else 
-					return bg1.top!=bg2.top ? bg1.top-bg2.top : bg1.right-bg2.right;*/
 			}
 		}
 	}

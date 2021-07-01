@@ -62,6 +62,21 @@ public class Block extends Rectangle {
 		page.blocks.remove(block);
 	}
 	
+	Block closestBlock() {
+		Block block=null;
+		float minDistance=999;
+		
+		for(Block block1 : page.blocks) {
+			float dist=distance(block1);
+			
+			if(minDistance>dist) {
+				minDistance=dist;
+				block=block1;
+			}
+		}
+		return block;
+	}
+	
 	public CharFont mostCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
@@ -81,6 +96,8 @@ public class Block extends Rectangle {
 		
 		if (this==page.content.titleBlock)
 			fw.write("type: title");
+		else if (this==page.content.abstractBlock)
+			fw.write("type: abstract");
 		else if (charfont.compareTo(content.textCharfont)>0)
 			fw.write(String.format("type: subtitle level%d",content.charfontIndexes.get(charfont)));
 		else if (charfont.equals(content.textCharfont))
@@ -105,32 +122,6 @@ public class Block extends Rectangle {
 		fw.write("\n==============================\n\n");
 	}
 	
-	/*String text() {
-		if(! charfont.equals(page.content.textCharfont))
-			return "";
-		
-		String str="";
-		
-		int y=rows.get(0).bottom;
-		for(Row row:rows) {
-			if (row.top>y) {
-				str+="\n";
-				y=row.bottom;
-			} else {
-				str+=" ";
-			}
-			str+=row.string();
-		}
-		
-		return str+"\n";
-	}*/
-	
-	/*String text() {
-		if(! this.charfont.equals(page.content.textCharfont))
-			return "";
-		return string();
-	}*/
-	
 	String string() {
 		String str="";
 		
@@ -139,8 +130,6 @@ public class Block extends Rectangle {
 			if (row.top>y) {
 				str+="\n";
 				y=row.bottom;
-			} else {
-				str+=" ";
 			}
 			str+=row.string();
 		}

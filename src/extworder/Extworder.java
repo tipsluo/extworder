@@ -18,7 +18,7 @@ public class Extworder {
 		//main_test3_getTitle();
 		//main_test4_getText();
 		//main_test5_block_display();
-		main_test6_block_print();
+		//main_test6_block_print();
 		main_test7_content_print();
 	}
 
@@ -71,10 +71,10 @@ public class Extworder {
 	}
 	
 	static public void main_test7_content_print() throws IOException {
-		printContent("A model for estimating parameters of rotational landslide");
-		printContent("Peace-Development and Peace Through");
-		printContent("Broader perspective on ecosystem");
-		printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//printContent("A model for estimating parameters of rotational landslide");
+		//printContent("Peace-Development and Peace Through");
+		//printContent("Broader perspective on ecosystem");
+		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		printContent("ILL article-Impact of the KWL reading strategy");
 	}
 	
@@ -172,7 +172,8 @@ public class Extworder {
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
 
-		myWriter.write(String.format("Title:\n%s\n----------------------\n",content.title()));
+		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
+				content.title(),content.abstractStr));
 		myWriter.write(content.text());
 		
 		myWriter.close();

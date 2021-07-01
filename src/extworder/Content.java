@@ -12,6 +12,7 @@ import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
 import extworder.Common.CharfontFilter;
+import extworder.Page.BlockGroup;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,16 +20,18 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Content extends PDFTextStripper {
 	ArrayList<Page> pages;
     TreeMap<CharFont,Integer> charfonts;
     Map<CharFont,Integer> charfontIndexes;
     CharFont textCharfont;
-    Block titleBlock;
+    Block titleBlock,abstractBlock;
+    String abstractStr;
     int currPid;
     Page currPage=null;
-	//IsTitleBlock isTitleBlock=new IsTitleBlock();
 	IsTextBlock isTextBlock=new IsTextBlock();
 	
 	public Content(String fn)  throws IOException{
@@ -60,10 +63,11 @@ public class Content extends PDFTextStripper {
 		if( document != null )
              document.close();
 		
-		//titleCharfont=charfonts.lastKey();
-		titleBlock=getTitleBlock();
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charfontIndexes=makeCharfontIndexes();
+		
+		titleBlock=getTitleBlock();
+		abstractBlock=getAbstractBlock();
 	}
 
 	@Override
@@ -113,8 +117,7 @@ public class Content extends PDFTextStripper {
 			str+=page.text()+"\n";
 		}
 		
-		str = str.replaceAll("[\r\n]+", "\n");
-		str = str.replaceAll("\s+", "\s");
+		str=Common.prepareOut(str);
 		
 		return str;
 	}
@@ -149,13 +152,46 @@ public class Content extends PDFTextStripper {
 			
 		return titleBlock;
 	}
+
 	
-	/*class IsTitleBlock implements Common.CharfontFilter {
-		@Override
-		public boolean filter(CharFont charfont) {
-			return charfont.equals(titleCharfont);
-		}
-	}*/
+	private Block getAbstractBlock() {
+		String str;
+		Pattern p = Pattern.compile("^\\s*abstract\\s*[\\s:\n]?");
+		
+		int minAbstractWordNum=Common._MinAbstractWordNum + 
+					pages.size() * Common._AbstractWordPageRatio;
+		
+		for (Page page:pages)
+			for (BlockGroup blockgroup: page.blockgroups)
+				for (int i=0; i<blockgroup.blocks.size();i++) {
+					Block block=blockgroup.blocks.get(i);
+					
+					str=block.string();
+					str=str.replaceAll("[\\r\\n]+", " ");
+					str=str.replaceAll("\\s+", " ");
+					
+					String[] words=str.split("[\\s\n]");
+					
+					Matcher m = p.matcher(str.toLowerCase());
+					if (m.find()) {
+						abstractStr=m.replaceFirst("");
+						if (abstractStr.isBlank()) {
+							Block block1=block.closestBlock();
+							abstractStr=block1.string();
+							return block1;
+						}
+						return block;
+					} else {
+						if (words.length >= minAbstractWordNum && 
+							block.charfont.compareTo(textCharfont)>0) {
+							abstractStr=str;
+							return block;
+						}
+					}
+				}
+			
+		return null;
+	}
 	
 	class IsTextBlock implements Common.CharfontFilter {
 		@Override

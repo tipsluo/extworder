@@ -24,65 +24,6 @@ public class Char extends Rectangle {
 		top=Math.round(y);
 		bottom=(int)(Math.round(y+height-0.001));
 	}
-	
-	/*public ArrayList<Char> getAboveConnected(Page page) {		
-		ArrayList<Char> chars=new ArrayList<Char>();
-		
-		if (top<1) return chars;
-		
-		Char ch=null;
-		
-		for (int i=left; i<=right; i++) {
-			int j=1;
-			int j1=1;
-			for (;j1<height*Common._CharVGapRatio;j1++) {
-				j=top-j1;
-				if (j<0) break;
-				if (page.bitmap.points[i][j]!=null) break;
-			}
-			
-			if (j<0 || page.bitmap.points[i][j]==null) continue;
-			
-			if (ch==page.bitmap.points[i][j].ch) continue;
-			
-			ch=page.bitmap.points[i][j].ch;
-			
-			if( j1 > ch.height*Common._CharVGapRatio ) continue;
-			
-			chars.add(ch);
-		}
-		
-		return chars;
-	}
-
-	public ArrayList<Char> getBelowConnected(Page page) {		
-		ArrayList<Char> chars=new ArrayList<Char>();
-		
-		if (bottom >= page.height) return chars;
-		
-		Char ch=null;
-		
-		for (int i=left; i<=right; i++) {
-			int j=1;
-			int j1=1;
-			for (;j1<height*Common._CharVGapRatio;j1++) {
-				j=bottom+j1;
-				if (j>=page.height) break;
-				if (page.bitmap.points[i][j]!=null) break;
-			}
-			
-			if(j>page.height || page.bitmap.points[i][j]==null) continue;
-			if (ch==page.bitmap.points[i][j].ch) continue;
-			
-			ch=page.bitmap.points[i][j].ch;
-			
-			if( j1 > ch.height*Common._CharVGapRatio ) continue;
-			
-			chars.add(ch);
-		}
-		
-		return chars;
-	} */
 
 	public ArrayList<Char> getLeftConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();

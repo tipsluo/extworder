@@ -163,7 +163,7 @@ public class Row extends Rectangle {
 		
 		int x0=chars.get(0).right;
 		for(Char ch:chars) {
-			if(ch.left > x0 + ch.width * Common._HSpaceMin) {
+			if(ch.left > x0 + ch.height * Common._HSpaceMin) {
 				str+=" ";
 			}
 			str+=ch.str;
