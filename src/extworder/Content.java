@@ -156,7 +156,7 @@ public class Content extends PDFTextStripper {
 	
 	private Block getAbstractBlock() {
 		String str;
-		Pattern p = Pattern.compile("^\\s*abstract\\s*[\\s:\n]?");
+		Pattern p = Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?");
 		
 		int minAbstractWordNum=Common._MinAbstractWordNum + 
 					pages.size() * Common._AbstractWordPageRatio;
@@ -172,7 +172,7 @@ public class Content extends PDFTextStripper {
 					
 					String[] words=str.split("[\\s\n]");
 					
-					Matcher m = p.matcher(str.toLowerCase());
+					Matcher m = p.matcher(str);
 					if (m.find()) {
 						abstractStr=m.replaceFirst("");
 						if (abstractStr.isBlank()) {
@@ -183,7 +183,7 @@ public class Content extends PDFTextStripper {
 						return block;
 					} else {
 						if (words.length >= minAbstractWordNum && 
-							block.charfont.compareTo(textCharfont)>0) {
+							! block.charfont.equals(textCharfont)) {
 							abstractStr=str;
 							return block;
 						}
