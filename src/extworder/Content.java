@@ -11,6 +11,8 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
+import extworder.Common.CharfontFilter;
+import extworder.Page.BlockGroup;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,21 +20,22 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Content extends PDFTextStripper {
 	ArrayList<Page> pages;
-    //float textCharHeight,titleCharHeight;
-	//public TreeMap<Float,Integer> charHeights;
-    //Map<Float,Integer> charHeightIndexes;
     TreeMap<CharFont,Integer> charfonts;
     Map<CharFont,Integer> charfontIndexes;
-    CharFont textCharfont,titleCharfont;
+    CharFont textCharfont;
+    Block titleBlock,abstractBlock;
+    String abstractStr;
     int currPid;
     Page currPage=null;
+	IsTextBlock isTextBlock=new IsTextBlock();
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
-		//charHeights=new TreeMap<>();
 		charfonts=new TreeMap<>();
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
@@ -60,12 +63,11 @@ public class Content extends PDFTextStripper {
 		if( document != null )
              document.close();
 		
-		titleCharfont=charfonts.lastKey();
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charfontIndexes=makeCharfontIndexes();
-		/*titleCharHeight=charHeights.lastKey();
-		textCharHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		charHeightIndexes=makeCharHeightIndexes();*/
+		
+		titleBlock=getTitleBlock();
+		abstractBlock=getAbstractBlock();
 	}
 
 	@Override
@@ -101,119 +103,100 @@ public class Content extends PDFTextStripper {
 		
 		return cfIndexes;
 	}
-	/*private Map<Float,Integer> makeCharHeightIndexes() {
-		float[] heights = new float[charHeights.size()];
-		int i=0;
-		for (Float h : charHeights.keySet()) {
-	        heights[i++]=h;
-		}
-		Arrays.sort(heights);
-		
-		int textHeightIndex=-1;
-		for(i = 0; i<heights.length;i++ )
-            if(heights[i] == textCharHeight) {
-            	textHeightIndex = i;
-                break;
-            }
-		
-		Map<Float,Integer> heightIndexes=new HashMap<>();
-		for(i=0; i<heights.length;i++ ) {
-			heightIndexes.put(heights[i],i-textHeightIndex);
-		}
-		
-		return heightIndexes;
-	}*/
-	
+
 	public void print(FileWriter fw) throws IOException {
 		for(Page page:pages) {
 			page.print(fw);
 		}
 	}
-
-	/*public String getTitle() {
-		return getContent(charHeights.lastKey());
-	}
 	
-	
-	public String getText() {
-		Float maxHeight = charHeights.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+	String text() {
+		String str="";
 		
-		return getContent(maxHeight);
-	}*/
-	
-	/*public String getContent(float heightToFilter) {
-		ArrayList<Char> titleChars=getContentWiHeight(heightToFilter);
-		
-		if (hasSpace(titleChars))
-			return getContentWiSpace(titleChars);
-		else 
-			return getContentWoSpace(titleChars);
-	}
-	
-	private String getContentWiSpace(ArrayList<Char> titleChars) {
-		String ret="";
-		
-		for (Char c: titleChars) {
-			ret=ret+c.str;
+		for(Page page:pages) {
+			str+=page.text()+"\n";
 		}
 		
-		return ret;
+		str=Common.prepareOut(str);
+		
+		return str;
 	}
 	
-	private String getContentWoSpace(ArrayList<Char> titleChars) {
-		float IgnoredSpaceWidthRatio=0.0f;
+	String title() {
+		return titleBlock.string();
+	}
+	
+	private Block getTitleBlock() {
+		int i=0;
+		Page page=null;
+		Block titleBlock=null;
 		
-		String ret="";
-		float lastX=-1;
-		float lastY=-1;
-		float space;
-		
-		for (Char c: titleChars) {
-			if (lastX<0 || lastY<0 || c.y!=lastY) {
-				space=-1;
-			} else
-				space=c.x - lastX;
+		for(; i<pages.size(); i++) {
+			page=pages.get(i);
 			
-			if(space<0 || space>IgnoredSpaceWidthRatio*c.width)
-				if(ret.length()>0)
-					ret=ret+" ";
-			
-			ret=ret+c.str;
-			
-			lastX=c.x+c.width;
-			lastY=c.y;
+			String str=page.string();
+			if (! str.contains(Common._LenderStr) && ! str.contains(Common._BorrowerStr))		
+				break;
 		}
 		
-		return ret;
-	}
-	
-	public ArrayList<Char> getContentWiHeight(float height) {
-		ArrayList<Char> contentChars=new ArrayList<Char>();
-		
-		for (Char c: chars) {
-			if (c.height==height) {
-				contentChars.add(c);
+		if (i>=pages.size()) {
+			return null;
+		} else {
+			titleBlock=page.blocks.get(0);
+			
+			for(int j=0; j<page.blocks.size();j++) {
+				if(page.blocks.get(j).charfont.compareTo(titleBlock.charfont)>0)
+					titleBlock=page.blocks.get(j);
 			}
 		}
+			
+		return titleBlock;
+	}
+
+	
+	private Block getAbstractBlock() {
+		String str;
+		Pattern p = Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?");
 		
-		return contentChars;
-	}
-	
-	private boolean hasSpace(ArrayList<Char> titleChars) {
-		for (Char c: titleChars) {
-			if (c.str.contains(" "))
-				return true;
-		}
+		int minAbstractWordNum=Common._MinAbstractWordNum + 
+					pages.size() * Common._AbstractWordPageRatio;
 		
-		return false;
+		for (Page page:pages)
+			for (BlockGroup blockgroup: page.blockgroups)
+				for (int i=0; i<blockgroup.blocks.size();i++) {
+					Block block=blockgroup.blocks.get(i);
+					
+					str=block.string();
+					str=str.replaceAll("[\\r\\n]+", " ");
+					str=str.replaceAll("\\s+", " ");
+					
+					String[] words=str.split("[\\s\n]");
+					
+					Matcher m = p.matcher(str);
+					if (m.find()) {
+						abstractStr=m.replaceFirst("");
+						if (abstractStr.isBlank()) {
+							Block block1=block.closestBlock();
+							abstractStr=block1.string();
+							return block1;
+						}
+						return block;
+					} else {
+						if (words.length >= minAbstractWordNum && 
+							! block.charfont.equals(textCharfont)) {
+							abstractStr=str;
+							return block;
+						}
+					}
+				}
+			
+		return null;
 	}
 	
-	public boolean isInChars(float x,float y) {
-		for (Char ch:chars) {
-			if (ch.coverPoint(x,y)) return true;
+	class IsTextBlock implements Common.CharfontFilter {
+		@Override
+		public boolean filter(CharFont charfont) {
+			return charfont.equals(textCharfont);
 		}
-		return false;
 	}
-	
-	 */
 }
