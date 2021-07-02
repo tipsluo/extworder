@@ -9,6 +9,7 @@ import java.util.Comparator;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
+import extworder.Char.Point;
 import extworder.Common.CharfontFilter;
 
 public class Page {
@@ -163,7 +164,7 @@ public class Page {
 			for (Char ch: page.chars) {
 				for (int x=Math.round(ch.x); x<=ch.right; x++)
 					for (int y=Math.round(ch.y); y<=ch.bottom; y++) {
-						Point point=new Point(x,y,ch);
+						Point point=new Char.Point(x,y,ch);
 						points[x][y]=point;
 					}
 			}
