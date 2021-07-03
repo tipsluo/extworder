@@ -1,8 +1,22 @@
 package extworder;
 
 public abstract class Rectangle {
-	int left=9999,top=9999,right=0,bottom=0;
+	int left,top,right,bottom;
 	float width,height;
+	
+	Rectangle() {
+		left=9999;
+		top=9999;
+		right=0;
+		bottom=0;
+	}
+	
+	Rectangle(int left,int top,int right, int bottom) {
+		this.left=left;
+		this.right=right;
+		this.top=top;
+		this.bottom=bottom;
+	}
 
 	protected void updateRectangle(Rectangle r) {
 		if (left>r.left) left=r.left;

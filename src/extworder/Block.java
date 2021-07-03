@@ -8,7 +8,6 @@ import java.util.Comparator;
 import java.util.TreeMap;
 
 import extworder.Char.CharFont;
-import extworder.Common.CharfontFilter;
 
 public class Block extends Rectangle {
 	CharFont charfont;
@@ -18,6 +17,7 @@ public class Block extends Rectangle {
 	static CompareBlocks compareBlocks=new CompareBlocks();
 	
 	public Block(Page page, int x, int y) {
+		super();
 		
 		this.page=page;
 		build(x,y);
@@ -28,6 +28,10 @@ public class Block extends Rectangle {
 		Collections.sort(rows,Row.compareRows);
 
 		charfont=mostCharFont();
+	}
+	
+	public Block(int left,int top,int right, int bottom) {
+		super(left,top,right,bottom);
 	}
 	
 	public void build(int x, int y) {

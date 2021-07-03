@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
@@ -33,10 +34,13 @@ public class Content extends PDFTextStripper {
     int currPid;
     Page currPage=null;
 	IsTextBlock isTextBlock=new IsTextBlock();
+	PDProcessor pdProcessor;
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
 		charfonts=new TreeMap<>();
+		
+		pdProcessor=new PDProcessor(this);
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
@@ -55,7 +59,7 @@ public class Content extends PDFTextStripper {
 			}
 			
 			if(currPage!=null) {
-				currPage.complete();
+				currPage.complete(document.getPage(currPid-1));
 				pages.add(currPage);
 			}
 		}

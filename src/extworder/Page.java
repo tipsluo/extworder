@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
@@ -19,6 +20,7 @@ public class Page {
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
     ArrayList<BlockGroup> blockgroups;
+    ArrayList<Block> images;
     public float width,height;
     Bitmap bitmap;
 	
@@ -30,6 +32,7 @@ public class Page {
 		blocks=new ArrayList<Block>();
 		rows=new ArrayList<Row>();
 		blockgroups=new ArrayList<BlockGroup>();
+		images=new ArrayList<Block>();
 	}
 	
 	public void writeString(TextPosition text) {
@@ -50,11 +53,13 @@ public class Page {
     	if (height1>height) height=height1;
 	}
 	
-	public void complete() {
+	public void complete(PDPage pdPage) throws IOException {
 		bitmap=new Bitmap(this);
 		
 		getAllRows();
-		getAllBlocks();
+		getAllCharBlocks();
+		
+		content.pdProcessor.processPage(pdPage);
 		
 		bitmap=null;
 		
@@ -82,7 +87,7 @@ public class Page {
 		Collections.sort(blockgroups,BlockGroup.compareBlockgroups);
 	}
 	
-	private void getAllBlocks() {
+	private void getAllCharBlocks() {
 		for(int x=0; x<=width;x++)
 			for(int y=0;y<=height;y++) {
 				Point p=bitmap.points[x][y];
@@ -133,6 +138,17 @@ public class Page {
 		fw.write(String.format("Page %d\n",id));
 		for(BlockGroup blockGroup:blockgroups)
 			blockGroup.print(fw);
+		
+		printImageBlocks(fw);
+	}
+	
+	void printImageBlocks(FileWriter fw) throws IOException {
+		fw.write("==============================\n");
+		fw.write(String.format("Page %d images\n",id));
+		for(Block block: images) {
+			fw.write(String.format("image => left: %d, top: %d, right: %d, bottom: %d\n",
+									block.left,block.top,block.right,block.bottom));
+		}
 	}
 	
 	String text() {
