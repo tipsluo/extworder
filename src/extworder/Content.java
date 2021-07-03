@@ -84,7 +84,7 @@ public class Content extends PDFTextStripper {
         	currPage.writeString(text);
         }
     }
-	
+		
 	private Map<CharFont,Integer> makeCharfontIndexes() {
 		CharFont[] cfs = new CharFont[charfonts.size()];
 		int i=0;

@@ -26,13 +26,12 @@ public class PDProcessor extends PDFStreamEngine{
 	public PDProcessor(Content content) throws IOException {
 		this.content=content;
 		
-        // preparing PDFStreamEngine
-        addOperator(new Concatenate());
-        addOperator(new DrawObject());
-        addOperator(new SetGraphicsStateParameters());
-        addOperator(new Save());
-        addOperator(new Restore());
-        addOperator(new SetMatrix());
+		addOperator(new Concatenate());
+		addOperator(new DrawObject());
+		addOperator(new SetGraphicsStateParameters());
+		addOperator(new Save());
+		addOperator(new Restore());
+		addOperator(new SetMatrix());
     }
 	
     @Override
@@ -45,9 +44,7 @@ public class PDProcessor extends PDFStreamEngine{
             // get the PDF object
             PDXObject xobject = getResources().getXObject( objectName );
             // check if the object is an image object
-            if( xobject instanceof PDImageXObject)
-            {
-                PDImageXObject image = (PDImageXObject)xobject;
+            if( xobject instanceof PDImageXObject) {
                 Matrix matrix = getGraphicsState().getCurrentTransformationMatrix();
                 
                 int top=Math.round(matrix.getTranslateY());

@@ -5,8 +5,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.PDResources;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
@@ -65,7 +69,7 @@ public class Page {
 		
 		arrangeBlocks();
 	}
-	
+
 	private void arrangeBlocks() {
 		for (Block block: blocks) {
 			boolean joined=false;
