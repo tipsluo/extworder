@@ -41,9 +41,7 @@ public class PDProcessor extends PDFStreamEngine{
         if( "Do".equals(operation) )
         {
             COSName objectName = (COSName) operands.get( 0 );
-            // get the PDF object
             PDXObject xobject = getResources().getXObject( objectName );
-            // check if the object is an image object
             if( xobject instanceof PDImageXObject) {
                 Matrix matrix = getGraphicsState().getCurrentTransformationMatrix();
                 
@@ -52,25 +50,6 @@ public class PDProcessor extends PDFStreamEngine{
                 int bottom=top+Math.round(matrix.getScalingFactorY()-0.001f);
                 int right=left+Math.round(matrix.getScalingFactorX()-0.001f);
                 content.currPage.images.add(new Block(left,top,right,bottom));
-                
-                /*int imageWidth = image.getWidth();
-                int imageHeight = image.getHeight();
-                 
-                //System.out.println("\nImage [" + objectName.getName() + "]");
-  
-                Matrix ctmNew = getGraphicsState().getCurrentTransformationMatrix();
-                float imageXScale = ctmNew.getScalingFactorX();
-                float imageYScale = ctmNew.getScalingFactorY();
-                
-                
-                
-                // position of image in the pdf in terms of user space units
-                System.out.println("position in PDF = " + ctmNew.getTranslateX() + ", " + ctmNew.getTranslateY() + " in user space units");
-                // raw size in pixels
-                System.out.println("raw image size  = " + imageWidth + ", " + imageHeight + " in pixels");
-                // displayed size in user space units
-                System.out.println("displayed size  = " + imageXScale + ", " + imageYScale + " in user space units");
-                */
             }
             else if(xobject instanceof PDFormXObject)
             {
