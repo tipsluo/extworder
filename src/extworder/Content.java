@@ -72,6 +72,7 @@ public class Content extends PDFTextStripper {
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
+		markHeaderBlock();
 	}
 
 	@Override
@@ -106,6 +107,57 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return cfIndexes;
+	}
+	
+	void markHeaderBlock() {
+		ArrayList<ArrayList<Block>> bls=new ArrayList<ArrayList<Block>>();
+		
+		Page page0=pages.get(0);
+		float minHeadWidth=Common._MaxHeaderFooterWidthRatio * (page0.width);
+		
+		for(int i=1; i<pages.size(); i++) {
+			Page page1=pages.get(i);
+			ArrayList<Block> bs1=page1.topBlocks();
+			
+			for(int j=i+1; j<pages.size(); j++) {
+				Page page2=pages.get(j);
+				ArrayList<Block> bs2=page2.topBlocks();
+				
+				if (bs1.size()==bs2.size())
+					for(int k=0;k<bs1.size();k++) {
+						Block b1=bs1.get(k);
+						Block b2=bs2.get(k);
+						
+						if( b1.right-b1.left > minHeadWidth)
+							continue;
+						
+						if(b1.isSimilar(b2)) {
+							boolean found=false;
+							
+							for(ArrayList<Block> bl:bls)
+								if(bl.size()>0)
+									if (b1.isSimilar(bl.get(0))) {
+										bl.add(b1);
+										bl.add(b2);
+										found=true;
+										break;
+									}
+							
+							if(!found) {
+								ArrayList<Block> bl=new ArrayList<Block>();
+								bl.add(b1);
+								bl.add(b2);
+								bls.add(bl);
+							}
+						}
+					}
+			}
+		}
+		
+		for(ArrayList<Block> bl:bls) {
+			for(Block b:bl)
+				b.type=Common._PageHeaderBlock;
+		}
 	}
 
 	public void print(FileWriter fw) throws IOException {
@@ -154,6 +206,7 @@ public class Content extends PDFTextStripper {
 			}
 		}
 			
+		titleBlock.type=Common._TitleBlock;
 		return titleBlock;
 	}
 
@@ -182,6 +235,7 @@ public class Content extends PDFTextStripper {
 						if (abstractStr.isBlank()) {
 							Block block1=block.closestBlock();
 							abstractStr=block1.string();
+							block1.type=Common._AbstractBlock;
 							return block1;
 						}
 						return block;
@@ -189,6 +243,7 @@ public class Content extends PDFTextStripper {
 						if (words.length >= minAbstractWordNum && 
 							! block.charfont.equals(textCharfont)) {
 							abstractStr=str;
+							block.type=Common._AbstractBlock;
 							return block;
 						}
 					}

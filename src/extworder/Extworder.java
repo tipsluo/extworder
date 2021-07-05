@@ -20,6 +20,7 @@ public class Extworder {
 		//main_test5_block_display();
 		main_test6_block_print();
 		main_test7_content_print();
+		System.out.println("Done.");
 	}
 
 	static public void main_test1_gettext() throws IOException {
@@ -55,7 +56,7 @@ public class Extworder {
     }*/
 	
 	static public void main_test5_block_display() throws IOException {
-		displayBlocks("A model for estimating parameters of rotational landslide");
+		//displayBlocks("A model for estimating parameters of rotational landslide");
 		//displayBlocks("Peace-Development and Peace Through");
 		//displayBlocks("Broader perspective on ecosystem");
 		//displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");

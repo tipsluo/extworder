@@ -55,4 +55,14 @@ public abstract class Rectangle {
 		
 		return Math.min(Math.min(d1,d2),Math.min(d3,d4));
 	}
+	
+	protected boolean isHIntersected(Rectangle r1) {
+		return (left > r1.left && left < r1.right) ||
+			   (r1.left > left && r1.left < right);
+	}
+	
+	protected boolean isVIntersected(Rectangle r1) {
+		return (top > r1.top && top < r1.bottom) ||
+			   (r1.top > top && r1.top < bottom);
+	}
 }

@@ -136,6 +136,41 @@ public class Page {
 		Collections.sort(rows,Row.compareRows);
 	}
 	
+	protected ArrayList<Block> topBlocks() {
+		ArrayList<Block> tbs=new ArrayList<Block>();
+		
+		for(Block block:blocks)
+			tbs.add(block);
+		
+		for(Block block:blocks)
+			for(int i=0; i<tbs.size(); i++) {
+				Block tb=tbs.get(i);
+				if( tb.isHIntersected(block) && tb.top>block.bottom ) {
+					tbs.remove(tb);
+					i--;
+				}
+			}
+		
+		Collections.sort(tbs,Block.compareBlocks);
+		
+		return tbs;
+	}
+	
+	protected ArrayList<Block> bottomBlocks() {
+		ArrayList<Block> bbs=new ArrayList<Block>();
+		
+		for(Block block:blocks)
+			bbs.add(block);
+		
+		for(Block block:blocks)
+			for(Block bb:bbs)
+				if( bb.isHIntersected(block) && bb.bottom<block.top )
+					bbs.remove(bb);
+		
+		Collections.sort(bbs,Block.compareBlocks);
+		
+		return bbs;
+	}
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");

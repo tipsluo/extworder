@@ -13,6 +13,7 @@ public class Block extends Rectangle {
 	CharFont charfont;
 	ArrayList<Row> rows;
 	Page page;
+	String type="";
     
 	static CompareBlocks compareBlocks=new CompareBlocks();
 	
@@ -81,6 +82,17 @@ public class Block extends Rectangle {
 		return block;
 	}
 	
+	boolean isSimilar(Block block) {
+		int allowedDisplace = (int) (Common._BlockDisplaceRatio * charfont.height);
+		
+		if( Math.abs(left - block.left) <= allowedDisplace &&
+				Math.abs(top - block.top) <= allowedDisplace &&
+				Math.abs(right - block.right) < allowedDisplace &&
+				Math.abs(bottom - block.bottom) < allowedDisplace )
+			return true;
+		return false;
+	}
+	
 	public CharFont mostCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
@@ -102,10 +114,12 @@ public class Block extends Rectangle {
 			fw.write("type: title");
 		else if (this==page.content.abstractBlock)
 			fw.write("type: abstract");
-		else if (charfont.compareTo(content.textCharfont)>0)
-			fw.write(String.format("type: subtitle level%d",content.charfontIndexes.get(charfont)));
+		else if (!type.isBlank())
+			fw.write(String.format("type: %s",type));
 		else if (charfont.equals(content.textCharfont))
 			fw.write(String.format("type: text"));
+		else if (charfont.compareTo(content.textCharfont)>0)
+			fw.write(String.format("type: subtitle level%d",content.charfontIndexes.get(charfont)));
 		else 
 			fw.write(String.format("type: notes"));
 					
