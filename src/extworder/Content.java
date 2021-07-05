@@ -73,6 +73,7 @@ public class Content extends PDFTextStripper {
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
 		markHeaderBlock();
+		markFooterBlock();
 	}
 
 	@Override
@@ -110,55 +111,95 @@ public class Content extends PDFTextStripper {
 	}
 	
 	void markHeaderBlock() {
-		ArrayList<ArrayList<Block>> bls=new ArrayList<ArrayList<Block>>();
+		ArrayList<ArrayList<Block>> hbls=new ArrayList<ArrayList<Block>>();
 		
 		Page page0=pages.get(0);
-		float minHeadWidth=Common._MaxHeaderFooterWidthRatio * page0.width;
+		float minHeaderWidth=Common._MaxHeaderFooterWidthRatio * page0.width;
 		float headerBottom=Common._MaxHeaderFooterHeightRatio * page0.height;
 		
 		for(int i=0; i<pages.size(); i++) {
 			Page page1=pages.get(i);
-			ArrayList<Block> bs1=page1.topBlocks();
+			ArrayList<Block> tbs1=page1.topBlocks();
 			
 			for(int j=i+1; j<pages.size(); j++) {
 				Page page2=pages.get(j);
-				ArrayList<Block> bs2=page2.topBlocks();
+				ArrayList<Block> tbs2=page2.topBlocks();
 				
-				for(Block b1:bs1)
-					for(Block b2:bs2) {
-						if( b1.right-b1.left > minHeadWidth ||
-							b2.right-b2.left > minHeadWidth ||
-							b1.bottom > headerBottom || 
-							b2.bottom > headerBottom )
+				for(Block tb1:tbs1)
+					for(Block tb2:tbs2) {
+						if( tb1.right-tb1.left > minHeaderWidth ||
+							tb2.right-tb2.left > minHeaderWidth ||
+							tb1.bottom > headerBottom || 
+							tb2.bottom > headerBottom )
 							
 							continue;
 						
-						if(b1.isSimilar(b2)) {							
-							boolean found=false;
-							
-							for(ArrayList<Block> bl:bls)
-								if(bl.size()>0)
-									if (b1.isSimilar(bl.get(0))) {
-										bl.add(b1);
-										bl.add(b2);
-										found=true;
-										break;
-									}
-							
-							if(!found) {
-								ArrayList<Block> bl=new ArrayList<Block>();
-								bl.add(b1);
-								bl.add(b2);
-								bls.add(bl);
-							}
-						}
+						addSimilar(hbls,tb1,tb2);
 					}
 			}
 		}
 		
-		for(ArrayList<Block> bl:bls) {
+		for(ArrayList<Block> bl:hbls) {
 			for(Block b:bl)
 				b.type=Common._PageHeaderBlock;
+		}
+	}
+	
+	void markFooterBlock() {
+		ArrayList<ArrayList<Block>> fbls=new ArrayList<ArrayList<Block>>();
+		
+		Page page0=pages.get(0);
+		float minFooterWidth=Common._MaxHeaderFooterWidthRatio * page0.width;
+		float footerTop=(1-Common._MaxHeaderFooterHeightRatio) * page0.height;
+		
+		for(int i=0; i<pages.size(); i++) {
+			Page page1=pages.get(i);
+			ArrayList<Block> bbs1=page1.bottomBlocks();
+			
+			for(int j=i+1; j<pages.size(); j++) {
+				Page page2=pages.get(j);
+				ArrayList<Block> bbs2=page2.bottomBlocks();
+				
+				for(Block bb1:bbs1)
+					for(Block bb2:bbs2) {
+						if( bb1.right-bb1.left > minFooterWidth ||
+							bb2.right-bb2.left > minFooterWidth ||
+							bb1.top < footerTop || 
+							bb2.top < footerTop )
+							
+							continue;
+						
+						addSimilar(fbls,bb1,bb2);
+					}
+			}
+		}
+		
+		for(ArrayList<Block> bl:fbls) {
+			for(Block b:bl)
+				b.type=Common._PageFooterBlock;
+		}
+	}
+
+	
+	private void addSimilar(ArrayList<ArrayList<Block>> bls, Block b1, Block b2) {
+		if(b1.isSimilar(b2)) {							
+			boolean found=false;
+			
+			for(ArrayList<Block> bl:bls)
+				if(bl.size()>0)
+					if (b1.isSimilar(bl.get(0))) {
+						bl.add(b1);
+						bl.add(b2);
+						found=true;
+						break;
+					}
+			
+			if(!found) {
+				ArrayList<Block> bl=new ArrayList<Block>();
+				bl.add(b1);
+				bl.add(b2);
+				bls.add(bl);
+			}
 		}
 	}
 

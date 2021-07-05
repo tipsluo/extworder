@@ -163,9 +163,13 @@ public class Page {
 			bbs.add(block);
 		
 		for(Block block:blocks)
-			for(Block bb:bbs)
-				if( bb.isHIntersected(block) && bb.bottom<block.top )
+			for(int i=0; i<bbs.size(); i++) {
+				Block bb=bbs.get(i);
+				if( bb.isHIntersected(block) && bb.bottom<block.top ) {
 					bbs.remove(bb);
+					i--;
+				}
+			}
 		
 		Collections.sort(bbs,Block.compareBlocks);
 		
