@@ -113,9 +113,10 @@ public class Content extends PDFTextStripper {
 		ArrayList<ArrayList<Block>> bls=new ArrayList<ArrayList<Block>>();
 		
 		Page page0=pages.get(0);
-		float minHeadWidth=Common._MaxHeaderFooterWidthRatio * (page0.width);
+		float minHeadWidth=Common._MaxHeaderFooterWidthRatio * page0.width;
+		float headerBottom=Common._MaxHeaderFooterHeightRatio * page0.height;
 		
-		for(int i=1; i<pages.size(); i++) {
+		for(int i=0; i<pages.size(); i++) {
 			Page page1=pages.get(i);
 			ArrayList<Block> bs1=page1.topBlocks();
 			
@@ -123,15 +124,16 @@ public class Content extends PDFTextStripper {
 				Page page2=pages.get(j);
 				ArrayList<Block> bs2=page2.topBlocks();
 				
-				if (bs1.size()==bs2.size())
-					for(int k=0;k<bs1.size();k++) {
-						Block b1=bs1.get(k);
-						Block b2=bs2.get(k);
-						
-						if( b1.right-b1.left > minHeadWidth)
+				for(Block b1:bs1)
+					for(Block b2:bs2) {
+						if( b1.right-b1.left > minHeadWidth ||
+							b2.right-b2.left > minHeadWidth ||
+							b1.bottom > headerBottom || 
+							b2.bottom > headerBottom )
+							
 							continue;
 						
-						if(b1.isSimilar(b2)) {
+						if(b1.isSimilar(b2)) {							
 							boolean found=false;
 							
 							for(ArrayList<Block> bl:bls)

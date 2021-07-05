@@ -19,7 +19,7 @@ public class Extworder {
 		//main_test4_getText();
 		//main_test5_block_display();
 		main_test6_block_print();
-		main_test7_content_print();
+		//main_test7_content_print();
 		System.out.println("Done.");
 	}
 

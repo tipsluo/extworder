@@ -17,6 +17,7 @@ public class Common {
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
+	final static float _MaxHeaderFooterHeightRatio=0.1f;
 	
 	final static String _TitleBlock="TITLE";
 	final static String _AbstractBlock="ABSTRACT";
