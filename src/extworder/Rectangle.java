@@ -1,8 +1,22 @@
 package extworder;
 
 public abstract class Rectangle {
-	int left=9999,top=9999,right=0,bottom=0;
+	int left,top,right,bottom;
 	float width,height;
+	
+	Rectangle() {
+		left=9999;
+		top=9999;
+		right=0;
+		bottom=0;
+	}
+	
+	Rectangle(int left,int top,int right, int bottom) {
+		this.left=left;
+		this.right=right;
+		this.top=top;
+		this.bottom=bottom;
+	}
 
 	protected void updateRectangle(Rectangle r) {
 		if (left>r.left) left=r.left;
@@ -40,5 +54,15 @@ public abstract class Rectangle {
 		float d4=(float) Math.sqrt(Math.pow(r.top-bottom,2) + Math.pow(r.right-left,2));
 		
 		return Math.min(Math.min(d1,d2),Math.min(d3,d4));
+	}
+	
+	protected boolean isHIntersected(Rectangle r1) {
+		return (left > r1.left && left < r1.right) ||
+			   (r1.left > left && r1.left < right);
+	}
+	
+	protected boolean isVIntersected(Rectangle r1) {
+		return (top > r1.top && top < r1.bottom) ||
+			   (r1.top > top && r1.top < bottom);
 	}
 }

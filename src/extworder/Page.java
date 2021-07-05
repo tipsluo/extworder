@@ -5,10 +5,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.PDResources;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
+import extworder.Char.Point;
 import extworder.Common.CharfontFilter;
 
 public class Page {
@@ -18,6 +24,7 @@ public class Page {
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
     ArrayList<BlockGroup> blockgroups;
+    ArrayList<Block> images;
     public float width,height;
     Bitmap bitmap;
 	
@@ -29,6 +36,7 @@ public class Page {
 		blocks=new ArrayList<Block>();
 		rows=new ArrayList<Row>();
 		blockgroups=new ArrayList<BlockGroup>();
+		images=new ArrayList<Block>();
 	}
 	
 	public void writeString(TextPosition text) {
@@ -49,17 +57,19 @@ public class Page {
     	if (height1>height) height=height1;
 	}
 	
-	public void complete() {
+	public void complete(PDPage pdPage) throws IOException {
 		bitmap=new Bitmap(this);
 		
 		getAllRows();
-		getAllBlocks();
+		getAllCharBlocks();
+		
+		content.pdProcessor.processPage(pdPage);
 		
 		bitmap=null;
 		
 		arrangeBlocks();
 	}
-	
+
 	private void arrangeBlocks() {
 		for (Block block: blocks) {
 			boolean joined=false;
@@ -81,7 +91,7 @@ public class Page {
 		Collections.sort(blockgroups,BlockGroup.compareBlockgroups);
 	}
 	
-	private void getAllBlocks() {
+	private void getAllCharBlocks() {
 		for(int x=0; x<=width;x++)
 			for(int y=0;y<=height;y++) {
 				Point p=bitmap.points[x][y];
@@ -126,12 +136,62 @@ public class Page {
 		Collections.sort(rows,Row.compareRows);
 	}
 	
+	protected ArrayList<Block> topBlocks() {
+		ArrayList<Block> tbs=new ArrayList<Block>();
+		
+		for(Block block:blocks)
+			tbs.add(block);
+		
+		for(Block block:blocks)
+			for(int i=0; i<tbs.size(); i++) {
+				Block tb=tbs.get(i);
+				if( tb.isHIntersected(block) && tb.top>block.bottom ) {
+					tbs.remove(tb);
+					i--;
+				}
+			}
+		
+		Collections.sort(tbs,Block.compareBlocks);
+		
+		return tbs;
+	}
+	
+	protected ArrayList<Block> bottomBlocks() {
+		ArrayList<Block> bbs=new ArrayList<Block>();
+		
+		for(Block block:blocks)
+			bbs.add(block);
+		
+		for(Block block:blocks)
+			for(int i=0; i<bbs.size(); i++) {
+				Block bb=bbs.get(i);
+				if( bb.isHIntersected(block) && bb.bottom<block.top ) {
+					bbs.remove(bb);
+					i--;
+				}
+			}
+		
+		Collections.sort(bbs,Block.compareBlocks);
+		
+		return bbs;
+	}
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d\n",id));
 		for(BlockGroup blockGroup:blockgroups)
 			blockGroup.print(fw);
+		
+		printImageBlocks(fw);
+	}
+	
+	void printImageBlocks(FileWriter fw) throws IOException {
+		fw.write("==============================\n");
+		fw.write(String.format("Page %d images\n",id));
+		for(Block block: images) {
+			fw.write(String.format("image => left: %d, top: %d, right: %d, bottom: %d\n",
+									block.left,block.top,block.right,block.bottom));
+		}
 	}
 	
 	String text() {
@@ -163,7 +223,7 @@ public class Page {
 			for (Char ch: page.chars) {
 				for (int x=Math.round(ch.x); x<=ch.right; x++)
 					for (int y=Math.round(ch.y); y<=ch.bottom; y++) {
-						Point point=new Point(x,y,ch);
+						Point point=new Char.Point(x,y,ch);
 						points[x][y]=point;
 					}
 			}
