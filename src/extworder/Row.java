@@ -131,7 +131,22 @@ public class Row extends Rectangle {
 	}
 	
 	private boolean checkSameBlock(Row row) {
-		return charfont.equals(row.charfont);
+		int heightDiff=(int) Math.abs(charfont.height-row.charfont.height);
+		//int widthDiff=(int) Math.abs(right-left-row.right+row.left);
+		
+		boolean heightDiffRatio = heightDiff / height < Common._SameBlockFontHeightDiff
+							  		&&
+							  	  heightDiff / row.height < Common._SameBlockFontHeightDiff;
+		/*boolean widthDiffRatio = widthDiff / width < Common._SameBlockRowWidthDiff
+							 		||
+							 	 widthDiff / row.width < Common._SameBlockRowWidthDiff;
+
+		if(checkWidth)
+			return heightDiffRatio && widthDiffRatio;
+		else
+			return heightDiffRatio;*/
+		
+		return heightDiffRatio;
 	}
 	
 	public CharFont mostCharFont() {

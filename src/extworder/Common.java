@@ -5,15 +5,18 @@ import extworder.Common.CharfontFilter;
 
 public class Common {
 	final static String _TestDataDir="data/";
+	
 	final static float _CharHGapRatio=1.5f;
 	final static float _CharVGapRatio=2.5f;
 	final static float _HSpaceMin=0.3f;
+	final static float _SameBlockFontHeightDiff=0.4f;
+	final static float _SameBlockRowWidthDiff=0.1f;
 	
 	final static String _LenderStr="LENDER";
 	final static String _BorrowerStr="BORROWER";
 	
-	final static int _AbstractWordPageRatio=3;
-	final static int _MinAbstractWordNum=30;
+	final static int _AbstractWordPageRatio=10;
+	final static int _MinAbstractWordNum=50;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
