@@ -279,7 +279,7 @@ public class Page {
 			
 			for(Block block:blocks) {
 				if(! charfontFilter.filter(block.charfont))
-					return "";
+					continue;
 				str+=block.string()+"\n";
 			}
 			
