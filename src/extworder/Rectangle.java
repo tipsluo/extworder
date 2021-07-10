@@ -1,5 +1,7 @@
 package extworder;
 
+import java.util.ArrayList;
+
 public abstract class Rectangle {
 	int left,top,right,bottom;
 	float width,height;
@@ -57,12 +59,126 @@ public abstract class Rectangle {
 	}
 	
 	protected boolean isHIntersected(Rectangle r1) {
-		return (left > r1.left && left < r1.right) ||
-			   (r1.left > left && r1.left < right);
+		return (left >= r1.left && left <= r1.right) ||
+			   (r1.left >= left && r1.left <= right);
 	}
 	
 	protected boolean isVIntersected(Rectangle r1) {
-		return (top > r1.top && top < r1.bottom) ||
-			   (r1.top > top && r1.top < bottom);
+		return (top >= r1.top && top <= r1.bottom) ||
+			   (r1.top >= top && r1.top <= bottom);
 	}
+	
+	protected boolean isHContaining(Rectangle r1) {
+		return (left <= r1.left && right >= r1.right);
+	}
+	
+	protected boolean isVContaining(Rectangle r1) {
+		return (top <= r1.top && bottom >= r1.bottom) ;
+	}
+	
+	protected <T extends Rectangle> ArrayList<T> getAllAbove(ArrayList<T> ts) {		
+		ArrayList<T> cs=new ArrayList<T>();
+		
+		if (top<1) return cs;
+		
+		for(T t:ts) {
+			if(isHIntersected(t) && top>t.bottom)
+				cs.add(t);
+		}
+		
+		return cs;
+	} 
+
+	protected <T extends Rectangle> ArrayList<T> getAllBelow(ArrayList<T> ts) {		
+		ArrayList<T> cs=new ArrayList<T>();
+		
+		if (top<1) return cs;
+		
+		for(T t:ts) {
+			if(isHIntersected(t) && bottom<t.top)
+				cs.add(t);
+		}
+		
+		return cs;
+	}
+	
+	/*protected <T extends Rectangle> ArrayList<T> getRightAbove(ArrayList<T> ts) {		
+		ArrayList<T> cs=new ArrayList<T>();
+		
+		//ArrayList<T> allAbove=getAllAbove(ts);
+		
+		int i=left;
+		for(; i<=right; i++) {
+			int highest=9999;
+			int lowest=0000;
+			T lowestT=null;
+			
+			for(int j=0;j<ts.size();j++) {
+				T t=ts.get(j);
+				
+				if(t.bottom>=top)
+					continue;
+				
+				if(t.top<highest)
+					continue;
+				
+				if(t.left<=i && t.right>=i) {
+					if(t.left<left || t.right>right) {
+						highest=t.bottom+1;
+						continue;
+					}
+					if(t.bottom>lowest) {
+						lowest=t.bottom;
+						lowestT=t;
+					}
+				}
+			}
+			if(lowestT!=null) {
+				cs.add(lowestT);
+				i=lowestT.right+1;
+			} else
+				i++;
+		}
+		return cs;
+	}
+	
+	protected <T extends Rectangle> ArrayList<T> getRightBelow(ArrayList<T> ts) {		
+		ArrayList<T> cs=new ArrayList<T>();
+		
+		//ArrayList<T> allBelow=getAllBelow(ts);
+		
+		int i=left;
+		for(; i<=right; i++) {
+			int highest=9999;
+			int lowest=0000;
+			T highestT=null;
+			
+			for(int j=0;j<ts.size();j++) {
+				T t=ts.get(j);
+				
+				if(t.top<=bottom)
+					continue;
+				
+				if(t.bottom>lowest)
+					continue;
+				
+				if(t.left<=i && t.right>=i) {
+					if(t.left<left || t.right>right) {
+						lowest=t.top-1;
+						continue;
+					}
+					if(t.top<highest) {
+						highest=t.top;
+						highestT=t;
+					}
+				}
+			}
+			if(highestT!=null) {
+				cs.add(highestT);
+				i=highestT.right+1;
+			} else
+				i++;
+		}
+		return cs;
+	}*/
 }

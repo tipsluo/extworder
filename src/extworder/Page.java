@@ -23,7 +23,7 @@ public class Page {
     ArrayList<Char> chars;
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
-    ArrayList<BlockGroup> blockgroups;
+    //ArrayList<BlockGroup> blockgroups;
     ArrayList<Block> images;
     public float width,height;
     Bitmap bitmap;
@@ -35,7 +35,7 @@ public class Page {
 		chars=new ArrayList<Char>();
 		blocks=new ArrayList<Block>();
 		rows=new ArrayList<Row>();
-		blockgroups=new ArrayList<BlockGroup>();
+		//blockgroups=new ArrayList<BlockGroup>();
 		images=new ArrayList<Block>();
 	}
 	
@@ -67,11 +67,16 @@ public class Page {
 		
 		bitmap=null;
 		
-		arrangeBlocks();
+		//arrangeBlocks();
 	}
+	
+	
 
 	private void arrangeBlocks() {
-		for (Block block: blocks) {
+		/*for (Block block: blocks) {
+			ArrayList<Block> blocksAbove
+		}*/
+		/*for (Block block: blocks) {
 			boolean joined=false;
 			for(BlockGroup blockgroup: blockgroups) {
 				if ( (blockgroup.left == block.left || 
@@ -86,9 +91,9 @@ public class Page {
 			if (! joined) {
 				blockgroups.add(new BlockGroup(block));
 			} 
-		}
+		}*/
 		
-		Collections.sort(blockgroups,BlockGroup.compareBlockgroups);
+		//Collections.sort(blockgroups,BlockGroup.compareBlockgroups);
 	}
 	
 	private void getAllCharBlocks() {
@@ -179,8 +184,11 @@ public class Page {
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d\n",id));
-		for(BlockGroup blockGroup:blockgroups)
-			blockGroup.print(fw);
+		
+		for(Block block:blocks)
+			block.print(fw);
+		/*for(BlockGroup blockGroup:blockgroups)
+			blockGroup.print(fw);*/
 		
 		printImageBlocks(fw);
 	}
@@ -207,9 +215,9 @@ public class Page {
 	String string() {
 		String str="";
 		
-		for(BlockGroup blockgroup:blockgroups) {
+		/*for(BlockGroup blockgroup:blockgroups) {
 			str+=blockgroup.string()+"\n";
-		}
+		}*/
 		
 		return str;
 	}
@@ -230,7 +238,7 @@ public class Page {
 		}
 	}
 	
-	static class BlockGroup extends Rectangle {
+	/*static class BlockGroup extends Rectangle {
 		ArrayList<Block> blocks;
 		static CompareBlockGroups compareBlockgroups=new CompareBlockGroups();
 		
@@ -305,5 +313,5 @@ public class Page {
 					return bg1.top - bg2.top;
 			}
 		}
-	}
+	}*/
 }

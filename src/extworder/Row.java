@@ -67,87 +67,15 @@ public class Row extends Rectangle {
 		page.rows.remove(row);
 	}
 	
-	public ArrayList<Row> getAboveConnected() {		
-		ArrayList<Row> rows=new ArrayList<Row>();
-		
-		if (top<1) return rows;
-		
-		Row row=null;
-		
-		for (int i=left; i<=right; i++) {
-			int j=1;
-			int j1=1;
-			for (;j1<height*Common._CharVGapRatio;j1++) {
-				j=top-j1;
-				if (j<0) break;
-				if (page.bitmap.points[i][j]!=null) break;
-			}
-			
-			if (j<0 || page.bitmap.points[i][j]==null) continue;
-			
-			if (row==page.bitmap.points[i][j].ch.row) continue;
-			
-			row=page.bitmap.points[i][j].ch.row;
-			
-			if(!checkSameBlock(row)) continue;
-			
-			if( j1 > row.height*Common._CharVGapRatio ) continue;
-			
-			rows.add(row);
-		}
-		
-		return rows;
-	}
-
-	public ArrayList<Row> getBelowConnected() {		
-		ArrayList<Row> rows=new ArrayList<Row>();
-		
-		if (bottom >= page.height) return rows;
-		
-		Row row=null;
-		
-		for (int i=left; i<=right; i++) {
-			int j=1;
-			int j1=1;
-			for (;j1<height*Common._CharVGapRatio;j1++) {
-				j=bottom+j1;
-				if (j>=page.height) break;
-				if (page.bitmap.points[i][j]!=null) break;
-			}
-			
-			if(j>page.height || page.bitmap.points[i][j]==null) continue;
-			if (row==page.bitmap.points[i][j].ch.row) continue;
-			
-			row=page.bitmap.points[i][j].ch.row;
-			
-			if(!checkSameBlock(row)) continue;
-			
-			if( j1 > row.height*Common._CharVGapRatio ) continue;
-			
-			rows.add(row);
-		}
-		
-		return rows;
-	}
-	
-	private boolean checkSameBlock(Row row) {
+	/*private boolean checkSameBlock(Row row) {
 		int heightDiff=(int) Math.abs(charfont.height-row.charfont.height);
-		//int widthDiff=(int) Math.abs(right-left-row.right+row.left);
 		
 		boolean heightDiffRatio = heightDiff / height < Common._SameBlockFontHeightDiff
 							  		&&
 							  	  heightDiff / row.height < Common._SameBlockFontHeightDiff;
-		/*boolean widthDiffRatio = widthDiff / width < Common._SameBlockRowWidthDiff
-							 		||
-							 	 widthDiff / row.width < Common._SameBlockRowWidthDiff;
-
-		if(checkWidth)
-			return heightDiffRatio && widthDiffRatio;
-		else
-			return heightDiffRatio;*/
 		
 		return heightDiffRatio;
-	}
+	}*/
 	
 	public CharFont mostCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();

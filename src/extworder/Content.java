@@ -13,7 +13,6 @@ import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
 import extworder.Common.CharfontFilter;
-import extworder.Page.BlockGroup;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -108,6 +107,20 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return cfIndexes;
+	}
+	
+	private int columnWidth() {
+		Map<Integer,Integer> blockWidths=new TreeMap<Integer,Integer>();
+		
+		for(Page page:pages)
+			for(Block block:page.blocks) {
+				int w=block.right-block.left+1;
+				int n=blockWidths.compute(w, (k,v) -> (v == null ? 0 : v) + 1);
+				blockWidths.put(w,n);
+			}
+		
+		Integer i=blockWidths.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		return i;
 	}
 	
 	void markHeaderBlock() {
