@@ -191,6 +191,9 @@ public class Content extends PDFTextStripper {
 			for(Block b:bl)
 				b.type=Common._PageFooterBlock;
 		}
+		
+		for(Page page:pages)
+			page.makeHeaderFooter();
 	}
 
 	
@@ -275,35 +278,37 @@ public class Content extends PDFTextStripper {
 					pages.size() * Common._AbstractWordPageRatio;
 		
 		for (Page page:pages)
-			for (BlockGroup blockgroup: page.blockgroups)
-				for (int i=0; i<blockgroup.blocks.size();i++) {
-					Block block=blockgroup.blocks.get(i);
-					
-					str=block.string();
-					str=str.replaceAll("[\\r\\n]+", " ");
-					str=str.replaceAll("\\s+", " ");
-					
-					String[] words=str.split("[\\s\n]");
-					
-					Matcher m = p.matcher(str);
-					if (m.find()) {
-						abstractStr=m.replaceFirst("");
-						if (abstractStr.isBlank()) {
-							Block block1=block.closestBlock();
-							abstractStr=block1.string();
-							block1.type=Common._AbstractBlock;
-							return block1;
-						}
+			/*for (BlockGroup blockgroup: page.blockgroups)
+				for (int i=0; i<blockgroup.blocks.size();i++) {*/
+			for(int i=0; i<page.blocks.size();i++) {
+				//Block block=blockgroup.blocks.get(i);
+				Block block=page.blocks.get(i);
+				
+				str=block.string();
+				str=str.replaceAll("[\\r\\n]+", " ");
+				str=str.replaceAll("\\s+", " ");
+				
+				String[] words=str.split("[\\s\n]");
+				
+				Matcher m = p.matcher(str);
+				if (m.find()) {
+					abstractStr=m.replaceFirst("");
+					if (abstractStr.isBlank()) {
+						Block block1=block.closestBlock();
+						abstractStr=block1.string();
+						block1.type=Common._AbstractBlock;
+						return block1;
+					}
+					return block;
+				} else {
+					if (words.length >= minAbstractWordNum && 
+						! block.charfont.equals(textCharfont)) {
+						abstractStr=str;
+						block.type=Common._AbstractBlock;
 						return block;
-					} else {
-						if (words.length >= minAbstractWordNum && 
-							! block.charfont.equals(textCharfont)) {
-							abstractStr=str;
-							block.type=Common._AbstractBlock;
-							return block;
-						}
 					}
 				}
+			}
 			
 		return null;
 	}

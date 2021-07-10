@@ -24,9 +24,11 @@ public class Page {
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
     //ArrayList<BlockGroup> blockgroups;
+    ArrayList<Column> columns;
     ArrayList<Block> images;
     public float width,height;
     Bitmap bitmap;
+    int headerY,footerY;
 	
 	public Page(Content content,int id) {
 		this.content=content;
@@ -34,6 +36,7 @@ public class Page {
 		width=height=-1;
 		chars=new ArrayList<Char>();
 		blocks=new ArrayList<Block>();
+		columns=new ArrayList<Column>();
 		rows=new ArrayList<Row>();
 		//blockgroups=new ArrayList<BlockGroup>();
 		images=new ArrayList<Block>();
@@ -70,7 +73,30 @@ public class Page {
 		//arrangeBlocks();
 	}
 	
+	void makeHeaderFooter() {
+		int headerY=0;
+		int footerY=9999;
+		
+		for(Block block:blocks) {
+			if(block.type==Common._PageHeaderBlock)
+				if(headerY<block.bottom)
+					headerY=block.bottom;
+			
+			if(block.type==Common._PageFooterBlock)
+				if(footerY>block.top)
+					footerY=block.top;
+		}
+	}
 	
+	private void makeColumns(int columnWidth) {
+		columns.add(new Column(1,headerY+1,columnWidth,footerY-1));
+		
+		int w=Math.round(width);
+		if(columnWidth+columnWidth+columnWidth < width)
+			columns.add(new Column(columnWidth+1,headerY+1,w-columnWidth-1,footerY-1));
+			
+		columns.add(new Column(w-columnWidth,headerY+1,w,footerY-1));
+	}
 
 	private void arrangeBlocks() {
 		/*for (Block block: blocks) {
@@ -205,8 +231,12 @@ public class Page {
 	String text() {
 		String str="";
 		
-		for(BlockGroup blockgroup:blockgroups) {
+		/*for(BlockGroup blockgroup:blockgroups) {
 			str+=blockgroup.string(content.isTextBlock);
+		}*/
+		for(Column column: columns) {
+			//str+=column.string(content.isTextBlock);
+			str+=column.string();
 		}
 		
 		return str;
@@ -235,6 +265,55 @@ public class Page {
 						points[x][y]=point;
 					}
 			}
+		}
+	}
+	
+	class Column extends Rectangle {
+		ArrayList<Block> blocks;
+		
+		public Column(int left,int top,int right, int bottom) {
+			super(left,top,right,bottom);
+			build();
+		}
+		
+		private void build() {
+			for(Block block:Page.this.blocks) {
+				if(contains(block))
+					blocks.add(block);
+			}
+			Collections.sort(blocks,Block.compareBlocks);
+		}
+		
+		public void print(FileWriter fw) throws IOException  {
+			fw.write(String.format("Column left:%d====================>\n",left));
+			for(Block block:blocks)
+				block.print(fw);
+		}
+		
+		String string(CharfontFilter charfontFilter) {
+			String str="";
+
+			if(Common.__DEBUG) {
+				str+=String.format("DEBUG:Column top=%d left=%d ===> \n",top,left);
+			}
+			
+			for(Block block:blocks) {
+				if(! charfontFilter.filter(block.charfont))
+					continue;
+				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		String string() {
+			String str="";
+			
+			for(Block block:blocks) {
+				str+=block.string()+"\n";
+			}
+			
+			return str;
 		}
 	}
 	
