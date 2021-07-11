@@ -26,6 +26,9 @@ public class Common {
 	final static String _AbstractBlock="ABSTRACT";
 	final static String _PageHeaderBlock="PAGEHEADER";
 	final static String _PageFooterBlock="PAGEFOOTER";
+	final static String _BeforeFirstText="BEFOREFIRSTTEXT";
+	final static String _FirstText="FIRSTTEXT";
+
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	

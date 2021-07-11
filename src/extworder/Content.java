@@ -7,12 +7,11 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
-import extworder.Common.CharfontFilter;
+import extworder.Page.Column;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,7 +34,10 @@ public class Content extends PDFTextStripper {
 	IsTextBlock isTextBlock=new IsTextBlock();
 	PDProcessor pdProcessor;
     int contentLeft,contentRight,contentWidth;
-	int /*columnHalfGap,*/ columnNumber,columnWidth;
+	int columnNumber,columnWidth;
+	float lowColumnWidth;
+	float highColumnWidth;
+	boolean hasFirstTextBlock=false;
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
@@ -76,14 +78,15 @@ public class Content extends PDFTextStripper {
 		
 		markHeaderBlock();
 		markFooterBlock();
-
-		markContentX();
-		
 		for(Page page:pages) {
 			page.markHeaderFooter();
 		}
 		
+		markContentX();
+		
 		makeColumns();
+		
+		getFirstTextBlock();
 	}
 
 	@Override
@@ -184,6 +187,8 @@ public class Content extends PDFTextStripper {
 		contentWidth=contentRight-contentLeft+1;
 		
 		columnWidth=columnWidth();
+		lowColumnWidth=columnWidth*(1-Common._ColumnWidthAdjustment);
+		highColumnWidth=columnWidth*(1+Common._ColumnWidthAdjustment);
 		
 		if(columnWidth+columnWidth+columnWidth < contentWidth)
 			columnNumber=3;
@@ -191,13 +196,6 @@ public class Content extends PDFTextStripper {
 			columnNumber=2;
 		else
 			columnNumber=1;
-			
-		/*if(columnNumber==3)
-			columnHalfGap=Math.round((contentWidth-columnWidth-columnWidth-columnWidth)/4);
-		else if (columnNumber==2) 
-			columnHalfGap=Math.round((contentWidth-columnWidth-columnWidth)/2);
-		else
-			columnHalfGap=0;*/
 	}
 	
 	private void markFooterBlock() {
@@ -236,8 +234,6 @@ public class Content extends PDFTextStripper {
 	}
 
 	private void makeColumns() {
-		int cw=columnWidth();
-		
 		for(Page page:pages)
 			page.makeColumns();
 	}
@@ -274,7 +270,9 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	String text() {
+	String text() {		
+		hasFirstTextBlock=false;
+		
 		String str="";
 		
 		for(Page page:pages) {
@@ -327,10 +325,7 @@ public class Content extends PDFTextStripper {
 					pages.size() * Common._AbstractWordPageRatio;
 		
 		for (Page page:pages)
-			/*for (BlockGroup blockgroup: page.blockgroups)
-				for (int i=0; i<blockgroup.blocks.size();i++) {*/
 			for(int i=0; i<page.blocks.size();i++) {
-				//Block block=blockgroup.blocks.get(i);
 				Block block=page.blocks.get(i);
 				
 				str=block.string();
@@ -359,6 +354,22 @@ public class Content extends PDFTextStripper {
 				}
 			}
 			
+		return null;
+	}
+	
+	private Block getFirstTextBlock() {
+		for(Page page:pages)
+			for(Column column:page.columns)
+				for(Block block:page.blocks) {
+					int blockWidth=block.right-block.left+1;
+					if(block.charfont.equals(textCharfont) && 
+							blockWidth >= lowColumnWidth &&
+							blockWidth <= highColumnWidth) {
+						block.type=Common._FirstText;
+						return block;
+					} else if(block.type.isEmpty())
+						block.type=Common._BeforeFirstText;
+				}
 		return null;
 	}
 	

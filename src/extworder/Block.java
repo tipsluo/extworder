@@ -23,9 +23,6 @@ public class Block extends Rectangle {
 		this.page=page;
 		build(x,y);
 		
-		/*width=right-left;
-		height=bottom-top;*/
-		
 		Collections.sort(rows,Row.compareRows);
 
 		charfont=mostCharFont();

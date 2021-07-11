@@ -5,15 +5,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
-import org.apache.pdfbox.pdmodel.PDResources;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
@@ -27,7 +23,6 @@ public class Page {
     ArrayList<Char> chars;
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
-    //ArrayList<BlockGroup> blockgroups;
     ArrayList<Column> columns;
     ArrayList<Block> images;
     public float width,height;
@@ -42,7 +37,6 @@ public class Page {
 		blocks=new ArrayList<Block>();
 		columns=new ArrayList<Column>();
 		rows=new ArrayList<Row>();
-		//blockgroups=new ArrayList<BlockGroup>();
 		images=new ArrayList<Block>();
 	}
 	
@@ -73,8 +67,6 @@ public class Page {
 		content.pdProcessor.processPage(pdPage);
 		
 		bitmap=null;
-		
-		//arrangeBlocks();
 	}
 	
 	void markHeaderFooter() {
@@ -95,11 +87,8 @@ public class Page {
 	protected void makeColumns() {
 		TreeMap<HStretch,Integer> hStretches=new TreeMap<>();
 		
-		float lowColumnWidth=content.columnWidth*(1-Common._ColumnWidthAdjustment);
-		float highColumnWidth=content.columnWidth*(1+Common._ColumnWidthAdjustment);
-		
 		for(Row row:rows) {
-			if(row.width < lowColumnWidth || row.width > highColumnWidth)
+			if(row.width < content.lowColumnWidth || row.width > content.highColumnWidth)
 				continue;
 			
 			HStretch hStretch=new HStretch(row.left,row.right);
@@ -127,43 +116,6 @@ public class Page {
 		for(HStretch columnStretch:columnStretches)
 			columns.add(new Column(columnStretch.left,headerY+1,
 					columnStretch.right,footerY-1));
-		/*columns.add(new Column(content.contentLeft,headerY+1,
-				content.contentLeft+content.columnWidth+content.columnHalfGap,footerY-1));
-		
-		if(content.columnNumber==3)
-			columns.add(new Column(
-					content.contentLeft+content.columnWidth+content.columnHalfGap,
-					headerY+1,
-					content.contentRight-content.columnWidth-content.columnHalfGap,
-					footerY-1));
-			
-		if(content.columnNumber>=2)
-			columns.add(new Column(content.contentRight-content.columnWidth-content.columnHalfGap,headerY+1,
-					content.contentRight,footerY-1));*/
-	}
-
-	private void arrangeBlocks() {
-		/*for (Block block: blocks) {
-			ArrayList<Block> blocksAbove
-		}*/
-		/*for (Block block: blocks) {
-			boolean joined=false;
-			for(BlockGroup blockgroup: blockgroups) {
-				if ( (blockgroup.left == block.left || 
-					  blockgroup.right==block.right) &&
-						blockgroup.right-blockgroup.left == block.right-block.left) {
-					blockgroup.addBlock(block);
-					joined=true;
-					break;
-				}
-			}
-			
-			if (! joined) {
-				blockgroups.add(new BlockGroup(block));
-			} 
-		}*/
-		
-		//Collections.sort(blockgroups,BlockGroup.compareBlockgroups);
 	}
 	
 	private void getAllCharBlocks() {
@@ -261,8 +213,6 @@ public class Page {
 		
 		for(Block block:blocks)
 			block.print(fw);
-		/*for(BlockGroup blockGroup:blockgroups)
-			blockGroup.print(fw);*/
 		
 		printImageBlocks(fw);
 	}
@@ -279,13 +229,8 @@ public class Page {
 	String text() {
 		String str="";
 		
-		/*for(BlockGroup blockgroup:blockgroups) {
-			str+=blockgroup.string(content.isTextBlock);
-		}*/
 		for(Column column: columns) {
 			str+=column.string(content.textCharfont);
-			//str+=column.string(content.isTextBlock);
-			//str+=column.string();
 		}
 		
 		return str;
@@ -293,10 +238,6 @@ public class Page {
 	
 	String string() {
 		String str="";
-		
-		/*for(BlockGroup blockgroup:blockgroups) {
-			str+=blockgroup.string()+"\n";
-		}*/
 		
 		return str;
 	}
@@ -338,8 +279,6 @@ public class Page {
 		public void print(FileWriter fw) throws IOException  {
 			fw.write(String.format("Column left:%d top:%d right:%d bottom %d\n",
 									left,top,right,bottom));
-			/*for(Block block:blocks)
-				block.print(fw);*/
 		}
 		
 		String string(CharfontFilter charfontFilter) {
@@ -366,8 +305,10 @@ public class Page {
 			}
 			
 			for(Block block:blocks) {
-				if(block.charfont.compareTo(charfont) < 0)
+				if(block.charfont.compareTo(charfont) < 0 ||
+				   block.type==Common._BeforeFirstText)
 					continue;
+				
 				str+=block.string()+"\n";
 			}
 			
@@ -384,81 +325,4 @@ public class Page {
 			return str;
 		}
 	}
-	
-	/*static class BlockGroup extends Rectangle {
-		ArrayList<Block> blocks;
-		static CompareBlockGroups compareBlockgroups=new CompareBlockGroups();
-		
-		public BlockGroup(Block block) {
-			blocks=new ArrayList<Block>();
-			addBlock(block);
-		}
-		
-		public void addBlock(Block block) {
-			blocks.add(block);
-			updateRectangle(block);
-		}
-		
-		public void removeBlock(Block block) {
-			blocks.remove(block);
-			
-			for (Block b:blocks) {
-				updateRectangle(b);
-			}
-		}
-		
-		public void truncate(int firstBlockIndex) {
-			int n=blocks.size();
-			for(int i=firstBlockIndex; i<n; i++)
-				blocks.remove(firstBlockIndex);
-			reUpdateRectangle();
-		}
-		
-		public void reUpdateRectangle() {
-			for (Block b:blocks) 
-				updateRectangle(b);
-		}
-		
-		public void print(FileWriter fw) throws IOException  {
-			fw.write(String.format("BlockGroup left:%d====================>\n",left));
-			for(Block block:blocks)
-				block.print(fw);
-		}
-		
-		String string(CharfontFilter charfontFilter) {
-			String str="";
-
-			if(Common.__DEBUG) {
-				str+=String.format("DEBUG: Block Group top=%d left=%d ===> \n",top,left);
-			}
-			
-			for(Block block:blocks) {
-				if(! charfontFilter.filter(block.charfont))
-					continue;
-				str+=block.string()+"\n";
-			}
-			
-			return str;
-		}
-		
-		String string() {
-			String str="";
-			
-			for(Block block:blocks) {
-				str+=block.string()+"\n";
-			}
-			
-			return str;
-		}
-		
-		static class CompareBlockGroups implements Comparator<BlockGroup> {
-			public int compare(BlockGroup bg1, BlockGroup bg2) {
-				if( ( bg1.top >= bg2.top && bg1.top <= bg2.bottom ) || 
-					( bg2.top >= bg1.top && bg2.top <= bg1.bottom ) )
-					return bg1.left - bg2.left;
-				else
-					return bg1.top - bg2.top;
-			}
-		}
-	}*/
 }
