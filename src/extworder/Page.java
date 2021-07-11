@@ -283,8 +283,9 @@ public class Page {
 			str+=blockgroup.string(content.isTextBlock);
 		}*/
 		for(Column column: columns) {
+			str+=column.string(content.textCharfont);
 			//str+=column.string(content.isTextBlock);
-			str+=column.string();
+			//str+=column.string();
 		}
 		
 		return str;
@@ -350,6 +351,22 @@ public class Page {
 			
 			for(Block block:blocks) {
 				if(! charfontFilter.filter(block.charfont))
+					continue;
+				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		String string(CharFont charfont) {
+			String str="";
+
+			if(Common.__DEBUG) {
+				str+=String.format("DEBUG:Column top=%d left=%d ===> \n",top,left);
+			}
+			
+			for(Block block:blocks) {
+				if(block.charfont.compareTo(charfont) < 0)
 					continue;
 				str+=block.string()+"\n";
 			}
