@@ -34,6 +34,8 @@ public class Content extends PDFTextStripper {
     Page currPage=null;
 	IsTextBlock isTextBlock=new IsTextBlock();
 	PDProcessor pdProcessor;
+    int contentLeft,contentRight,contentWidth;
+	int /*columnHalfGap,*/ columnNumber,columnWidth;
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
@@ -71,8 +73,17 @@ public class Content extends PDFTextStripper {
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
+		
 		markHeaderBlock();
 		markFooterBlock();
+
+		markContentX();
+		
+		for(Page page:pages) {
+			page.markHeaderFooter();
+		}
+		
+		makeColumns();
 	}
 
 	@Override
@@ -123,7 +134,7 @@ public class Content extends PDFTextStripper {
 		return i;
 	}
 	
-	void markHeaderBlock() {
+	private void markHeaderBlock() {
 		ArrayList<ArrayList<Block>> hbls=new ArrayList<ArrayList<Block>>();
 		
 		Page page0=pages.get(0);
@@ -158,7 +169,38 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	void markFooterBlock() {
+	void markContentX() {
+		contentLeft=9999;
+		contentRight=-1;
+		
+		for(Page page:pages)
+			for(Block block:page.blocks) {
+				if(contentLeft>block.left)
+					contentLeft=block.left;
+				if(contentRight<block.right)
+					contentRight=block.right;
+			}
+		
+		contentWidth=contentRight-contentLeft+1;
+		
+		columnWidth=columnWidth();
+		
+		if(columnWidth+columnWidth+columnWidth < contentWidth)
+			columnNumber=3;
+		else if (columnWidth+columnWidth < contentWidth) 
+			columnNumber=2;
+		else
+			columnNumber=1;
+			
+		/*if(columnNumber==3)
+			columnHalfGap=Math.round((contentWidth-columnWidth-columnWidth-columnWidth)/4);
+		else if (columnNumber==2) 
+			columnHalfGap=Math.round((contentWidth-columnWidth-columnWidth)/2);
+		else
+			columnHalfGap=0;*/
+	}
+	
+	private void markFooterBlock() {
 		ArrayList<ArrayList<Block>> fbls=new ArrayList<ArrayList<Block>>();
 		
 		Page page0=pages.get(0);
@@ -191,11 +233,14 @@ public class Content extends PDFTextStripper {
 			for(Block b:bl)
 				b.type=Common._PageFooterBlock;
 		}
-		
-		for(Page page:pages)
-			page.makeHeaderFooter();
 	}
 
+	private void makeColumns() {
+		int cw=columnWidth();
+		
+		for(Page page:pages)
+			page.makeColumns();
+	}
 	
 	private void addSimilar(ArrayList<ArrayList<Block>> bls, Block b1, Block b2) {
 		if(b1.isSimilar(b2)) {							
@@ -220,6 +265,10 @@ public class Content extends PDFTextStripper {
 	}
 
 	public void print(FileWriter fw) throws IOException {
+		fw.write(String.format("Content:\nColumnWidth %d ColumnNumber %d\n",
+				columnWidth,columnNumber));
+		fw.write(String.format("ContentWidth %d ContentLeft %d ContentRight %d\n",
+				contentWidth,contentLeft,contentRight));
 		for(Page page:pages) {
 			page.print(fw);
 		}
@@ -317,6 +366,34 @@ public class Content extends PDFTextStripper {
 		@Override
 		public boolean filter(CharFont charfont) {
 			return charfont.equals(textCharfont);
+		}
+	}
+	
+	static class HStretch implements Comparable<HStretch> {
+		protected int left;
+		protected int right;
+		
+		public HStretch(int left,int right) {
+			this.left=left;
+			this.right=right;
+		}
+		
+	    @Override
+	    public int hashCode() {
+	        return left*100000 + right;
+	    }
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (getClass() != obj.getClass())
+	            return false;
+			HStretch other = (HStretch) obj;
+			return hashCode()==other.hashCode();
+		}
+
+		@Override
+		public int compareTo(HStretch s) {
+			return hashCode()-s.hashCode();
 		}
 	}
 }

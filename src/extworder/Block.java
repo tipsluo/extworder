@@ -23,8 +23,8 @@ public class Block extends Rectangle {
 		this.page=page;
 		build(x,y);
 		
-		width=right-left;
-		height=bottom-top;
+		/*width=right-left;
+		height=bottom-top;*/
 		
 		Collections.sort(rows,Row.compareRows);
 
@@ -123,8 +123,8 @@ public class Block extends Rectangle {
 		else 
 			fw.write(String.format("type: notes"));
 					
-		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d width=%f height %f\n====>\n\n",
-				content.charfontIndexes.get(charfont),left,right,top,bottom,width,height));
+		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d\n====>\n\n",
+				content.charfontIndexes.get(charfont),left,right,top,bottom));
 		
 		int y=rows.get(0).bottom;
 		for(Row row:rows) {

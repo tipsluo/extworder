@@ -8,6 +8,7 @@ public class Char extends Rectangle {
 	float x,y;
 	String fontname;
 	Row row;
+	float width,height;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);

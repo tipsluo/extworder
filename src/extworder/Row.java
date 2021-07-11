@@ -14,6 +14,7 @@ public class Row extends Rectangle {
 	ArrayList<Char> chars;
 	Block block;
 	Page page;
+	float width,height;
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.top != r2.top ? (int)(r1.top-r2.top) : (int) (r1.left-r2.left);
@@ -130,7 +131,7 @@ public class Row extends Rectangle {
 		return rows;
 	}
 	
-	/*private boolean checkSameBlock(Row row) {
+	private boolean checkSameBlock(Row row) {
 		int heightDiff=(int) Math.abs(charfont.height-row.charfont.height);
 		
 		boolean heightDiffRatio = heightDiff / height < Common._SameBlockFontHeightDiff
@@ -138,7 +139,7 @@ public class Row extends Rectangle {
 							  	  heightDiff / row.height < Common._SameBlockFontHeightDiff;
 		
 		return heightDiffRatio;
-	}*/
+	}
 	
 	public CharFont mostCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();

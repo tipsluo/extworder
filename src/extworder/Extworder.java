@@ -24,9 +24,9 @@ public class Extworder {
 	}
 
 	static public void main_test1_gettext() throws IOException {
-		extract("A model for estimating parameters of rotational landslide");
+		//extract("A model for estimating parameters of rotational landslide");
 		//extract("Peace-Development and Peace Through");
-		//extract("Broader perspective on ecosystem");
+		extract("Broader perspective on ecosystem");
 		//extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//extract("ILL article-Impact of the KWL reading strategy");
 	}
@@ -58,23 +58,23 @@ public class Extworder {
 	static public void main_test5_block_display() throws IOException {
 		//displayBlocks("A model for estimating parameters of rotational landslide");
 		//displayBlocks("Peace-Development and Peace Through");
-		//displayBlocks("Broader perspective on ecosystem");
+		displayBlocks("Broader perspective on ecosystem");
 		//displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//displayBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	static public void main_test6_block_print() throws IOException {
-		printBlocks("A model for estimating parameters of rotational landslide");
+		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
-		//printBlocks("Broader perspective on ecosystem");
+		printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	static public void main_test7_content_print() throws IOException {
-		printContent("A model for estimating parameters of rotational landslide");
+		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		//printContent("Broader perspective on ecosystem");
+		printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 	}

@@ -6,8 +6,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
+
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDResources;
@@ -16,6 +19,7 @@ import org.apache.pdfbox.text.TextPosition;
 import extworder.Char.CharFont;
 import extworder.Char.Point;
 import extworder.Common.CharfontFilter;
+import extworder.Content.HStretch;
 
 public class Page {
 	Content content;
@@ -73,9 +77,9 @@ public class Page {
 		//arrangeBlocks();
 	}
 	
-	void makeHeaderFooter() {
-		int headerY=0;
-		int footerY=9999;
+	void markHeaderFooter() {
+		headerY=1;
+		footerY=Math.round(height);
 		
 		for(Block block:blocks) {
 			if(block.type==Common._PageHeaderBlock)
@@ -88,14 +92,54 @@ public class Page {
 		}
 	}
 	
-	private void makeColumns(int columnWidth) {
-		columns.add(new Column(1,headerY+1,columnWidth,footerY-1));
+	protected void makeColumns() {
+		TreeMap<HStretch,Integer> hStretches=new TreeMap<>();
 		
-		int w=Math.round(width);
-		if(columnWidth+columnWidth+columnWidth < width)
-			columns.add(new Column(columnWidth+1,headerY+1,w-columnWidth-1,footerY-1));
+		float lowColumnWidth=content.columnWidth*(1-Common._ColumnWidthAdjustment);
+		float highColumnWidth=content.columnWidth*(1+Common._ColumnWidthAdjustment);
+		
+		for(Row row:rows) {
+			if(row.width < lowColumnWidth || row.width > highColumnWidth)
+				continue;
 			
-		columns.add(new Column(w-columnWidth,headerY+1,w,footerY-1));
+			HStretch hStretch=new HStretch(row.left,row.right);
+			
+			int n=hStretches.compute(hStretch, (k,v) -> (v == null ? 0 : v) + 1);
+			hStretches.put(hStretch,n);
+		}
+		
+		ArrayList<HStretch> columnStretches=new ArrayList<>();
+		
+		LinkedHashMap<HStretch, Integer> reverseSortedMap = new LinkedHashMap<>();
+		hStretches.entrySet()
+	    	.stream()
+	    	.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) 
+	    	.forEachOrdered(x -> reverseSortedMap.put(x.getKey(), x.getValue()));
+		int i=0;
+		for (Map.Entry<HStretch,Integer> entry : reverseSortedMap.entrySet()) {
+			if(i>=content.columnNumber) break;
+			columnStretches.add(entry.getKey());
+			i++;
+		}
+		
+		Collections.sort(columnStretches);
+		
+		for(HStretch columnStretch:columnStretches)
+			columns.add(new Column(columnStretch.left,headerY+1,
+					columnStretch.right,footerY-1));
+		/*columns.add(new Column(content.contentLeft,headerY+1,
+				content.contentLeft+content.columnWidth+content.columnHalfGap,footerY-1));
+		
+		if(content.columnNumber==3)
+			columns.add(new Column(
+					content.contentLeft+content.columnWidth+content.columnHalfGap,
+					headerY+1,
+					content.contentRight-content.columnWidth-content.columnHalfGap,
+					footerY-1));
+			
+		if(content.columnNumber>=2)
+			columns.add(new Column(content.contentRight-content.columnWidth-content.columnHalfGap,headerY+1,
+					content.contentRight,footerY-1));*/
 	}
 
 	private void arrangeBlocks() {
@@ -209,7 +253,11 @@ public class Page {
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
-		fw.write(String.format("Page %d\n",id));
+		fw.write(String.format("Page %d\nWidth %f Height %f\n",id,width,height));
+		
+		for(Column column:columns) {
+			column.print(fw);
+		}
 		
 		for(Block block:blocks)
 			block.print(fw);
@@ -277,6 +325,8 @@ public class Page {
 		}
 		
 		private void build() {
+			blocks=new ArrayList<Block>();
+			
 			for(Block block:Page.this.blocks) {
 				if(contains(block))
 					blocks.add(block);
@@ -285,9 +335,10 @@ public class Page {
 		}
 		
 		public void print(FileWriter fw) throws IOException  {
-			fw.write(String.format("Column left:%d====================>\n",left));
-			for(Block block:blocks)
-				block.print(fw);
+			fw.write(String.format("Column left:%d top:%d right:%d bottom %d\n",
+									left,top,right,bottom));
+			/*for(Block block:blocks)
+				block.print(fw);*/
 		}
 		
 		String string(CharfontFilter charfontFilter) {

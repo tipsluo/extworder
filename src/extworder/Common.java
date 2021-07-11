@@ -27,6 +27,8 @@ public class Common {
 	final static String _PageHeaderBlock="PAGEHEADER";
 	final static String _PageFooterBlock="PAGEFOOTER";
 	
+	final static float _ColumnWidthAdjustment=0.05f;
+	
 	final static boolean __DEBUG=false;
 	
 	public Common() {

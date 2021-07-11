@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Rectangle {
 	int left,top,right,bottom;
-	float width,height;
+	//float width,height;
 	
 	Rectangle() {
 		left=9999;
