@@ -14,7 +14,8 @@ import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
 import extworder.Char.Point;
-import extworder.Common.CharfontFilter;
+import extworder.Common.BlockFilter;
+//import extworder.Common.CharfontFilter;
 import extworder.Content.HStretch;
 
 public class Page {
@@ -230,7 +231,7 @@ public class Page {
 		String str="";
 		
 		for(Column column: columns) {
-			str+=column.string(content.textCharfont);
+			str+=column.string(Block.textBlockFilter);
 		}
 		
 		return str;
@@ -281,7 +282,23 @@ public class Page {
 									left,top,right,bottom));
 		}
 		
-		String string(CharfontFilter charfontFilter) {
+		String string(BlockFilter blockFilter) {
+			String str="";
+
+			if(Common.__DEBUG) {
+				str+=String.format("DEBUG:Column top=%d left=%d ===> \n",top,left);
+			}
+			
+			for(Block block:blocks) {
+				if(! blockFilter.filter(block))
+					continue;
+				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		/*String string(CharfontFilter charfontFilter) {
 			String str="";
 
 			if(Common.__DEBUG) {
@@ -313,7 +330,7 @@ public class Page {
 			}
 			
 			return str;
-		}
+		}*/
 		
 		String string() {
 			String str="";

@@ -1,7 +1,7 @@
 package extworder;
 
 import extworder.Char.CharFont;
-import extworder.Common.CharfontFilter;
+import extworder.Common.BlockFilter;
 
 public class Common {
 	final static String _TestDataDir="data/";
@@ -45,7 +45,19 @@ public class Common {
 		return str;
 	}
 	
-	interface CharfontFilter {
+	/*interface CharfontFilter {
 		public boolean filter(CharFont charfont);
+	}*/
+	
+	interface BlockFilter {
+		public boolean filter(Block block);
+	}
+	
+	static class TextBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			return block.charfont.compareTo(block.page.content.textCharfont) >= 0 &&
+			   block.type!=Common._BeforeFirstText;
+		}
 	}
 }

@@ -31,7 +31,7 @@ public class Content extends PDFTextStripper {
     String abstractStr;
     int currPid;
     Page currPage=null;
-	IsTextBlock isTextBlock=new IsTextBlock();
+	//IsTextBlock isTextBlock=new IsTextBlock();
 	PDProcessor pdProcessor;
     int contentLeft,contentRight,contentWidth;
 	int columnNumber,columnWidth;
@@ -373,12 +373,12 @@ public class Content extends PDFTextStripper {
 		return null;
 	}
 	
-	class IsTextBlock implements Common.CharfontFilter {
+	/*class IsTextBlock implements Common.CharfontFilter {
 		@Override
 		public boolean filter(CharFont charfont) {
 			return charfont.equals(textCharfont);
 		}
-	}
+	}*/
 	
 	static class HStretch implements Comparable<HStretch> {
 		protected int left;
