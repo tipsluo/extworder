@@ -177,7 +177,7 @@ public class Extworder {
 				content.title(),content.abstractStr));
 		myWriter.write(String.format("Subtitles:\n----------------------\n"));
 		myWriter.write(content.subtitles());
-		myWriter.write(String.format("Text:\n----------------------\n"));
+		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.text());
 		
 		myWriter.close();

@@ -321,7 +321,7 @@ public class Page {
 			ArrayList<Block> blocklist=new ArrayList<Block>();
 			
 			for(Block block:blocks) {
-				if(! Block.textBlockFilter.filter(block))
+				if(! Block.bigBlockFilter.filter(block))
 					continue;
 				blocklist.add(block);
 			}
