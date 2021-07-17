@@ -16,8 +16,10 @@ import extworder.Page.Column;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -31,7 +33,6 @@ public class Content extends PDFTextStripper {
     String abstractStr;
     int currPid;
     Page currPage=null;
-	//IsTextBlock isTextBlock=new IsTextBlock();
 	PDProcessor pdProcessor;
     int contentLeft,contentRight,contentWidth;
 	int columnNumber,columnWidth;
@@ -232,6 +233,16 @@ public class Content extends PDFTextStripper {
 				b.type=Common._PageFooterBlock;
 		}
 	}
+	
+	private void markSubtitleBlocks() {
+		ArrayList<Block> bigBlockList=getBigBlockList();
+		CharFontChain chain=getSubtitleCharFontChain(bigBlockList);
+		
+		for(Block block:bigBlockList)
+			if(block.charfont.equals(block.)) {
+				
+			}
+	}
 
 	private void makeColumns() {
 		for(Page page:pages)
@@ -284,6 +295,18 @@ public class Content extends PDFTextStripper {
 		return str;
 	}
 	
+	String subtitles() {
+		String str="";
+		
+		for(Page page:pages) {
+			str+=page.subtitles()+"\n";
+		}
+		
+		str=Common.prepareOut(str);
+		
+		return str;
+	}
+	
 	String title() {
 		return titleBlock.string();
 	}
@@ -315,7 +338,6 @@ public class Content extends PDFTextStripper {
 		titleBlock.type=Common._TitleBlock;
 		return titleBlock;
 	}
-
 	
 	private Block getAbstractBlock() {
 		String str;
@@ -357,6 +379,77 @@ public class Content extends PDFTextStripper {
 		return null;
 	}
 	
+	private CharFontChain getSubtitleCharFontChain(ArrayList<Block> bigBlockList) {
+		TreeMap<CharFontChain,Integer> candidates=new TreeMap<>();
+		
+		int i=0;
+		Block block=bigBlockList.get(i);
+		for(;i<bigBlockList.size();i++) {
+			if(block.charfont.compareTo(textCharfont)==0) {
+				boolean increasing=true;
+				Block block0=block;
+				
+				int i1=i-1;
+				for(; i1>=0; i1--) {
+					Block block1=bigBlockList.get(i1);
+					if(block1.charfont.equals(textCharfont))
+						break;
+						
+					if(block0.charfont.compareTo(block1.charfont)<=0) {
+						increasing=false;
+						break;
+					}
+					
+					block0=block1;
+				}
+				
+				int n=i-i1;
+				
+				if(increasing && n>1) {
+					CharFontChain charfontChain=new CharFontChain();
+					for(int j=i1; j<i; j++)
+						charfontChain.charfonts.add(bigBlockList.get(j).charfont);
+					
+					boolean found=false;
+					Iterator<Entry<CharFontChain, Integer>> entryIt = candidates.entrySet().iterator();
+					while (entryIt.hasNext()) {
+					    Entry<CharFontChain, Integer> entry = entryIt.next();
+				        CharFontChain chain=entry.getKey();
+				        Integer num=entry.getValue();
+				    
+				        if(charfontChain.equals(chain) || chain.contains(charfontChain)) {
+				        	candidates.put(chain,num+1);
+				        	found=true;
+				        	break;
+				        } else if(charfontChain.contains(chain)) {
+				        	entryIt.remove();
+				        	candidates.put(charfontChain,num+1);
+				        	found=true;
+				        	break;
+				        }
+					}
+					
+					if(! found)
+						candidates.put(charfontChain,1);
+				}
+			}
+		}
+		
+		if (candidates.size()==0)
+			return null;
+		else
+			return candidates.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+	}
+	
+	private ArrayList<Block> getBigBlockList() {
+		ArrayList<Block> blocklist=new ArrayList<Block>();
+		
+		for(Page page:pages)
+			blocklist.addAll(page.content.getBigBlockList());
+		
+		return blocklist;
+	}
+	
 	private Block getFirstTextBlock() {
 		for(Page page:pages)
 			for(Column column:page.columns)
@@ -372,13 +465,6 @@ public class Content extends PDFTextStripper {
 				}
 		return null;
 	}
-	
-	/*class IsTextBlock implements Common.CharfontFilter {
-		@Override
-		public boolean filter(CharFont charfont) {
-			return charfont.equals(textCharfont);
-		}
-	}*/
 	
 	static class HStretch implements Comparable<HStretch> {
 		protected int left;
@@ -407,4 +493,82 @@ public class Content extends PDFTextStripper {
 			return hashCode()-s.hashCode();
 		}
 	}
+	
+	static class CharFontChain implements Comparable<CharFontChain> {
+		ArrayList<CharFont> charfonts=new ArrayList<>();
+
+		@Override
+		public int compareTo(CharFontChain charfontChain) {
+			int n1=charfonts.size();
+			int n2=charfontChain.charfonts.size();
+			
+			return n1==n2 ? 
+						this.contains(charfontChain) || charfontChain.contains(this) ? 
+								0 : hashCode()-charfontChain.hashCode()
+						:
+						n1-n2;
+		}
+		
+		@Override 
+		public int hashCode() {
+			int hash=0;
+			
+	        for(CharFont charfont:charfonts)
+	        	hash+=charfont.hashCode();
+	        
+	        return hash;
+		}
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+	            return true;
+	        if (obj == null)
+	            return false;
+	        if (getClass() != obj.getClass())
+	            return false;
+	        
+	        CharFontChain other = (CharFontChain) obj;
+
+	        return contains(other) && charfonts.size()==other.charfonts.size();
+		}
+		
+		public boolean contains(CharFontChain charfontChain) {
+			if(charfonts.size()<charfontChain.charfonts.size())
+				return false;
+			
+			int i1=0;
+			int i2=0;
+			int matched=0;
+			
+			for(;i1<charfonts.size() && i2<charfontChain.charfonts.size();) {
+				CharFont charfont1=charfonts.get(i1);
+				CharFont charfont2=charfontChain.charfonts.get(i2);
+				int v=charfont1.compareTo(charfont2);
+				if( v < 0)
+					i1++;
+				else if ( v > 0) 
+					i2++;
+				else {
+					matched++;
+					i1++;
+					i2++;
+				}
+			}
+			
+			return matched==charfontChain.charfonts.size();
+		}
+		
+		public int charfontIndex(CharFont charfont) {
+			int i=1;
+			for(CharFont cf: charfonts) {
+				if(charfont.equals(cf))
+					return i;
+				
+				i++;
+			}
+			return -1;
+		}
+	}
+	
 }

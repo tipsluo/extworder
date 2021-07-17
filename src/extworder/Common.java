@@ -28,7 +28,7 @@ public class Common {
 	final static String _PageFooterBlock="PAGEFOOTER";
 	final static String _BeforeFirstText="BEFOREFIRSTTEXT";
 	final static String _FirstText="FIRSTTEXT";
-
+	final static String _SubtitlePrefix="SUBTITLEPREFIX_";
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	
@@ -45,10 +45,6 @@ public class Common {
 		return str;
 	}
 	
-	/*interface CharfontFilter {
-		public boolean filter(CharFont charfont);
-	}*/
-	
 	interface BlockFilter {
 		public boolean filter(Block block);
 	}
@@ -57,6 +53,14 @@ public class Common {
 		@Override
 		public boolean filter(Block block) {
 			return block.charfont.compareTo(block.page.content.textCharfont) >= 0 &&
+			   block.type!=Common._BeforeFirstText;
+		}
+	}
+	
+	static class SubtitleBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			return block.charfont.compareTo(block.page.content.textCharfont) > 0 &&
 			   block.type!=Common._BeforeFirstText;
 		}
 	}

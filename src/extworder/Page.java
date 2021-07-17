@@ -15,7 +15,6 @@ import org.apache.pdfbox.text.TextPosition;
 import extworder.Char.CharFont;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
-//import extworder.Common.CharfontFilter;
 import extworder.Content.HStretch;
 
 public class Page {
@@ -237,10 +236,30 @@ public class Page {
 		return str;
 	}
 	
+	String subtitles() {
+		String str="";
+		
+		for(Column column: columns) {
+			str+=column.string(Block.subtitleBlockFilter);
+		}
+		
+		return str;
+	}
+	
 	String string() {
 		String str="";
 		
 		return str;
+	}
+	
+	ArrayList<Block> getBigBlockList() {
+		ArrayList<Block> blocklist=new ArrayList<Block>();
+		
+		for(Column column:columns) {
+			blocklist.addAll(column.getBigBlockList());
+		}
+		
+		return blocklist;
 	}
 
 	class Bitmap {
@@ -298,39 +317,17 @@ public class Page {
 			return str;
 		}
 		
-		/*String string(CharfontFilter charfontFilter) {
-			String str="";
-
-			if(Common.__DEBUG) {
-				str+=String.format("DEBUG:Column top=%d left=%d ===> \n",top,left);
-			}
+		ArrayList<Block> getBigBlockList() {
+			ArrayList<Block> blocklist=new ArrayList<Block>();
 			
 			for(Block block:blocks) {
-				if(! charfontFilter.filter(block.charfont))
+				if(! Block.textBlockFilter.filter(block))
 					continue;
-				str+=block.string()+"\n";
+				blocklist.add(block);
 			}
 			
-			return str;
+			return blocklist;
 		}
-		
-		String string(CharFont charfont) {
-			String str="";
-
-			if(Common.__DEBUG) {
-				str+=String.format("DEBUG:Column top=%d left=%d ===> \n",top,left);
-			}
-			
-			for(Block block:blocks) {
-				if(block.charfont.compareTo(charfont) < 0 ||
-				   block.type==Common._BeforeFirstText)
-					continue;
-				
-				str+=block.string()+"\n";
-			}
-			
-			return str;
-		}*/
 		
 		String string() {
 			String str="";

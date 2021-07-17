@@ -8,6 +8,7 @@ import java.util.Comparator;
 import java.util.TreeMap;
 
 import extworder.Char.CharFont;
+import extworder.Common.SubtitleBlockFilter;
 import extworder.Common.TextBlockFilter;
 
 public class Block extends Rectangle {
@@ -18,6 +19,7 @@ public class Block extends Rectangle {
     
 	static CompareBlocks compareBlocks=new CompareBlocks();
 	static TextBlockFilter textBlockFilter=new TextBlockFilter();
+	static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 	
 	public Block(Page page, int x, int y) {
 		super();
