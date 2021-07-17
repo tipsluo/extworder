@@ -61,7 +61,8 @@ public class Common {
 		@Override
 		public boolean filter(Block block) {
 			return block.charfont.compareTo(block.page.content.textCharfont) > 0 &&
-			   block.type!=Common._BeforeFirstText;
+					block.type.contains(_SubtitlePrefix);
+			   //block.type!=Common._BeforeFirstText;
 		}
 	}
 }
