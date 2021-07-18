@@ -64,19 +64,19 @@ public class Extworder {
 	}
 	
 	static public void main_test6_block_print() throws IOException {
-		//printBlocks("A model for estimating parameters of rotational landslide");
+		printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
-		printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	static public void main_test7_content_print() throws IOException {
-		//printContent("A model for estimating parameters of rotational landslide");
+		printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		//printContent("Broader perspective on ecosystem");
-		printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		//printContent("ILL article-Impact of the KWL reading strategy");
+		printContent("Broader perspective on ecosystem");
+		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		printContent("ILL article-Impact of the KWL reading strategy");
 	}
 	
 	public static void extract(String fn) throws IOException {
@@ -175,7 +175,7 @@ public class Extworder {
 
 		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
 				content.title(),content.abstractStr));
-		myWriter.write(String.format("Subtitles:\n----------------------\n"));
+		myWriter.write(String.format("Subtitles:\n"));
 		myWriter.write(content.subtitles());
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.text());

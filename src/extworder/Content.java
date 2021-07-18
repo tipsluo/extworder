@@ -235,7 +235,11 @@ public class Content extends PDFTextStripper {
 	
 	private void markSubtitleBlocks() {
 		ArrayList<Block> bigBlockList=getBigBlockList();
+		
 		CharFontChain chain=getSubtitleCharFontChain(bigBlockList);
+		
+		if(chain==null)
+			return;
 		
 		int i=0;
 		for(;i<bigBlockList.size();i++) {
@@ -429,15 +433,20 @@ public class Content extends PDFTextStripper {
 		
 		if (candidates.size()==0)
 			return null;
-		else
-			return candidates.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		else {
+			CharFontChain retChain=candidates.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+			
+			if(candidates.get(retChain)<Common._MinTimeSubtitle)
+				return null;
+			else
+				return retChain;
+		} 
 	}
 	
 	private int getIncreasingCharfontBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
 		if(block.charfont.compareTo(textCharfont)==0) {
-			boolean increasing=true;
 			Block block0=block;
 			
 			int i1=endBlockIndex-1;
@@ -446,17 +455,15 @@ public class Content extends PDFTextStripper {
 				if(block1.charfont.equals(textCharfont))
 					break;
 					
-				if(block0.charfont.compareTo(block1.charfont)>=0) {
-					increasing=false;
+				if(block0.charfont.compareTo(block1.charfont)>=0)
 					break;
-				}
 				
 				block0=block1;
 			}
 			
 			int n=endBlockIndex-i1-1;
 			
-			if(increasing && n>=1)
+			if(n>=1)
 				return n;
 			else 
 				return -1;

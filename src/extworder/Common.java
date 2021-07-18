@@ -32,6 +32,8 @@ public class Common {
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	
+	final static int _MinTimeSubtitle=3;
+	
 	final static boolean __DEBUG=false;
 	
 	public Common() {
@@ -52,8 +54,9 @@ public class Common {
 	static class TextBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
-			return block.charfont.compareTo(block.page.content.textCharfont) >= 0 &&
-			   block.type!=Common._BeforeFirstText;
+			return (block.charfont.compareTo(block.page.content.textCharfont) == 0 &&
+			   block.type!=Common._BeforeFirstText ) ||
+					block.subtitleBlockFilter.filter(block);
 		}
 	}
 	
@@ -69,7 +72,6 @@ public class Common {
 		public boolean filter(Block block) {
 			return block.charfont.compareTo(block.page.content.textCharfont) > 0 &&
 					block.type.contains(_SubtitlePrefix);
-			   //block.type!=Common._BeforeFirstText;
 		}
 	}
 }
