@@ -250,6 +250,10 @@ public class Page {
 	
 	String string() {
 		String str="";
+
+		for(Block block:blocks) {
+			str+=block.string()+"\n";
+		}
 		
 		return str;
 	}
