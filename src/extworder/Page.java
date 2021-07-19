@@ -114,8 +114,8 @@ public class Page {
 		Collections.sort(columnStretches);
 		
 		for(HStretch columnStretch:columnStretches)
-			columns.add(new Column(columnStretch.left,headerY+1,
-					columnStretch.right,footerY-1));
+			columns.add(new Column(columnStretch.left,headerY,
+					columnStretch.right,footerY));
 	}
 	
 	private void getAllCharBlocks() {
@@ -207,10 +207,12 @@ public class Page {
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d\nWidth %f Height %f\n",id,width,height));
 		
+		fw.write("\n\nColumns:\n----------------------\n");
 		for(Column column:columns) {
 			column.print(fw);
 		}
 		
+		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
 			block.print(fw);
 		
@@ -299,6 +301,8 @@ public class Page {
 		public void print(FileWriter fw) throws IOException  {
 			fw.write(String.format("Column left:%d top:%d right:%d bottom %d\n",
 									left,top,right,bottom));
+			for(Block block:blocks)
+				block.print(fw);
 		}
 		
 		String string(BlockFilter blockFilter) {

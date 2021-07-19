@@ -121,10 +121,10 @@ public class Block extends Rectangle {
 			fw.write(String.format("type: %s",type));
 		else if (charfont.equals(content.textCharfont))
 			fw.write(String.format("type: text"));
-		else if (charfont.compareTo(content.textCharfont)>0)
-			fw.write(String.format("type: subtitle level%d",content.charfontIndexes.get(charfont)));
+		//else if (charfont.compareTo(content.textCharfont)>0)
+		//	fw.write(String.format("type: subtitle level%d",content.charfontIndexes.get(charfont)));
 		else 
-			fw.write(String.format("type: notes"));
+			fw.write(String.format("type: undefined"));
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d\n====>\n\n",
 				content.charfontIndexes.get(charfont),left,right,top,bottom));

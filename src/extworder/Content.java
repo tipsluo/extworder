@@ -39,6 +39,7 @@ public class Content extends PDFTextStripper {
 	float lowColumnWidth;
 	float highColumnWidth;
 	boolean hasFirstTextBlock=false;
+	CharFontChain subtitleCharfontChain;
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
@@ -236,9 +237,9 @@ public class Content extends PDFTextStripper {
 	private void markSubtitleBlocks() {
 		ArrayList<Block> bigBlockList=getBigBlockList();
 		
-		CharFontChain chain=getSubtitleCharFontChain(bigBlockList);
+		subtitleCharfontChain=getSubtitleCharFontChain(bigBlockList);
 		
-		if(chain==null)
+		if(subtitleCharfontChain==null)
 			return;
 		
 		int i=0;
@@ -248,14 +249,14 @@ public class Content extends PDFTextStripper {
 			if(n>=1) {
 				boolean allContained=true;
 				for(int j=i-n; j<i; j++)
-					if(chain.charfontIndex(bigBlockList.get(j).charfont) < 0) {
+					if(subtitleCharfontChain.charfontIndex(bigBlockList.get(j).charfont) < 0) {
 						allContained=false;
 						break;
 					}
 				
 				if(allContained)
 					for(int j=i-n; j<i; j++)
-						bigBlockList.get(j).type=Common._SubtitlePrefix+Integer.toString(chain.charfontIndex(bigBlockList.get(j).charfont));
+						bigBlockList.get(j).type=Common._SubtitlePrefix+Integer.toString(subtitleCharfontChain.charfontIndex(bigBlockList.get(j).charfont));
 			}
 		}
 	}
@@ -292,8 +293,16 @@ public class Content extends PDFTextStripper {
 				columnWidth,columnNumber));
 		fw.write(String.format("ContentWidth %d ContentLeft %d ContentRight %d\n",
 				contentWidth,contentLeft,contentRight));
-		for(Page page:pages) {
-			page.print(fw);
+		
+		if(subtitleCharfontChain!=null) {
+			fw.write(String.format("Subtitles: "));
+			for(CharFont charfont:subtitleCharfontChain.charfonts)
+				fw.write(String.format(" %d",charfontIndexes.get(charfont)));
+			fw.write("\n\n");
+			
+			for(Page page:pages) {
+				page.print(fw);
+			}
 		}
 	}
 	
@@ -429,6 +438,37 @@ public class Content extends PDFTextStripper {
 				if(! found)
 					candidates.put(charfontChain,1);		
 			}
+		}
+		
+		for(;;) {
+			int size=candidates.size();
+			
+			TreeMap<CharFontChain,Integer> candidatesNew=new TreeMap<>();
+			
+			Iterator<Entry<CharFontChain, Integer>> candidateIt = candidates.entrySet().iterator();
+			while(candidateIt.hasNext()) {
+				Entry<CharFontChain, Integer> candidate=candidateIt.next();
+				CharFontChain chain=candidate.getKey();
+				candidatesNew.put(chain,candidate.getValue());
+				
+				Iterator<Entry<CharFontChain, Integer>> candidateIt1 = candidates.entrySet().iterator();
+				while(candidateIt1.hasNext()) {
+					Entry<CharFontChain, Integer> candidate1=candidateIt1.next();
+					CharFontChain chain1=candidate1.getKey();
+					
+					if(chain==chain1)
+						continue;
+					
+					if(chain.contains(chain1)) {
+						candidatesNew.put(chain,candidatesNew.get(chain)+candidate1.getValue());
+						candidateIt1.remove();
+					}
+				}
+			}
+			candidates=candidatesNew;
+			
+			if(candidates.size()==size)
+				break;
 		}
 		
 		if (candidates.size()==0)
@@ -577,9 +617,10 @@ public class Content extends PDFTextStripper {
 				int v=charfont1.compareTo(charfont2);
 				if( v < 0)
 					i1++;
-				else if ( v > 0) 
+				else if ( v > 0) {
+					matched++;
 					i2++;
-				else {
+				} else {
 					matched++;
 					i1++;
 					i2++;
