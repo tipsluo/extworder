@@ -132,6 +132,10 @@ public class Row extends Rectangle {
 	}
 	
 	private boolean checkSameBlock(Row row) {
+		return charfont.equals(row.charfont);
+	}
+	
+	/*private boolean checkSameBlock(Row row) {
 		int heightDiff=(int) Math.abs(charfont.height-row.charfont.height);
 		
 		boolean heightDiffRatio = heightDiff / height < Common._SameBlockFontHeightDiff
@@ -139,7 +143,7 @@ public class Row extends Rectangle {
 							  	  heightDiff / row.height < Common._SameBlockFontHeightDiff;
 		
 		return heightDiffRatio;
-	}
+	}*/
 	
 	public CharFont mostCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();

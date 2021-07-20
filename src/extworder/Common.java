@@ -1,7 +1,12 @@
 package extworder;
 
+import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import extworder.Char.CharFont;
 import extworder.Common.BlockFilter;
+import extworder.Content.BlockFormat;
 
 public class Common {
 	final static String _TestDataDir="data/";
@@ -9,7 +14,7 @@ public class Common {
 	final static float _CharHGapRatio=1.5f;
 	final static float _CharVGapRatio=2.0f;
 	final static float _HSpaceMin=0.3f;
-	final static float _SameBlockFontHeightDiff=0.4f;
+	//final static float _SameBlockFontHeightDiff=0.4f;
 	final static float _SameBlockRowWidthDiff=0.1f;
 	
 	final static String _LenderStr="LENDER";
@@ -33,6 +38,7 @@ public class Common {
 	final static float _ColumnWidthAdjustment=0.05f;
 	
 	final static int _MinTimeSubtitle=3;
+	final static int _MinTimeAdditionalSubtitle=2;
 	
 	final static boolean __DEBUG=false;
 	
@@ -45,6 +51,21 @@ public class Common {
 		str = str.replaceAll("\s+", "\s");
 		
 		return str;
+	}
+	
+	static int subtitleLevel(String type) {
+		Pattern p = Pattern.compile( _SubtitlePrefix+"(.*)" );
+		Matcher m = p.matcher( type );
+		if ( m.find() ) {
+		   String s=m.group(1);
+		   return Integer.parseInt(s);
+		} else
+			return -1;
+	}
+	
+	static String subtitleBlockType(Block block) {
+		return Common._SubtitlePrefix+Integer.toString(
+					block.page.content.charfontIndexes.get(block.charfont));
 	}
 	
 	interface BlockFilter {
@@ -73,5 +94,23 @@ public class Common {
 			return block.charfont.compareTo(block.page.content.textCharfont) > 0 &&
 					block.type.contains(_SubtitlePrefix);
 		}
+	}
+	
+	static class AdditionalSubtitleFormatFilter implements BlockFilter {
+		private ArrayList<BlockFormat> blockformats;
+		
+		public AdditionalSubtitleFormatFilter(ArrayList<BlockFormat> blockformats) {
+			this.blockformats=blockformats;
+		}
+		
+		@Override
+		public boolean filter(Block block) {
+			for(BlockFormat blockformat: blockformats)
+				if(blockformat.equals(new BlockFormat(block.charfont,block.indentColumn())))
+					return true;
+				
+			return false;
+		}
+		
 	}
 }

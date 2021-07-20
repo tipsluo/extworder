@@ -11,17 +11,20 @@ import extworder.Char.CharFont;
 import extworder.Common.BigBlockFilter;
 import extworder.Common.SubtitleBlockFilter;
 import extworder.Common.TextBlockFilter;
+import extworder.Page.Column;
 
 public class Block extends Rectangle {
 	CharFont charfont;
 	ArrayList<Row> rows;
 	Page page;
+	Column column;
 	String type="";
     
 	final static CompareBlocks compareBlocks=new CompareBlocks();
 	final static TextBlockFilter textBlockFilter=new TextBlockFilter();
 	final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
 	final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
+	static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
 	
 	public Block(Page page, int x, int y) {
 		super();
@@ -108,6 +111,10 @@ public class Block extends Rectangle {
 		return cf;
 	}
 	
+	int indentColumn() {
+		return column==null ? -9999 : left-column.left;
+	}
+	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
@@ -121,8 +128,6 @@ public class Block extends Rectangle {
 			fw.write(String.format("type: %s",type));
 		else if (charfont.equals(content.textCharfont))
 			fw.write(String.format("type: text"));
-		//else if (charfont.compareTo(content.textCharfont)>0)
-		//	fw.write(String.format("type: subtitle level%d",content.charfontIndexes.get(charfont)));
 		else 
 			fw.write(String.format("type: undefined"));
 					

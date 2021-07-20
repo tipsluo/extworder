@@ -242,7 +242,7 @@ public class Page {
 		String str="";
 		
 		for(Column column: columns) {
-			str+=column.string(Block.subtitleBlockFilter);
+			str+=column.subtitles();
 		}
 		
 		return str;
@@ -296,8 +296,10 @@ public class Page {
 			blocks=new ArrayList<Block>();
 			
 			for(Block block:Page.this.blocks) {
-				if(contains(block))
+				if(contains(block)) {
+					block.column=this;
 					blocks.add(block);
+				}
 			}
 			Collections.sort(blocks,Block.compareBlocks);
 		}
@@ -311,15 +313,27 @@ public class Page {
 		
 		String string(BlockFilter blockFilter) {
 			String str="";
-
-			if(Common.__DEBUG) {
-				str+=String.format("DEBUG:Column top=%d left=%d ===> \n",top,left);
-			}
 			
 			for(Block block:blocks) {
 				if(! blockFilter.filter(block))
 					continue;
 				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		String subtitles() {
+			String str="";
+			
+			for(Block block:blocks) {
+				if(! Block.subtitleBlockFilter.filter(block))
+					continue;
+				
+				String spaces="";
+				for(int i=0;i<Common.subtitleLevel(block.type);i++)
+					spaces+=" ";
+				str+=spaces+block.string()+"\n";
 			}
 			
 			return str;

@@ -233,7 +233,7 @@ public class Content extends PDFTextStripper {
 				b.type=Common._PageFooterBlock;
 		}
 	}
-	
+	 
 	private void markSubtitleBlocks() {
 		ArrayList<Block> bigBlockList=getBigBlockList();
 		
@@ -244,6 +244,13 @@ public class Content extends PDFTextStripper {
 		
 		int i=0;
 		for(;i<bigBlockList.size();i++) {
+			Block block=bigBlockList.get(i);
+			
+			if(Block.additionalSubtitleCharfontsFilter.filter(block)) {
+				block.type=Common.subtitleBlockType(block);
+				continue;
+			}
+			
 			int n=getIncreasingCharfontBlockNumber(bigBlockList,i);
 				
 			if(n>=1) {
@@ -256,7 +263,7 @@ public class Content extends PDFTextStripper {
 				
 				if(allContained)
 					for(int j=i-n; j<i; j++)
-						bigBlockList.get(j).type=Common._SubtitlePrefix+Integer.toString(subtitleCharfontChain.charfontIndex(bigBlockList.get(j).charfont));
+						bigBlockList.get(j).type=Common.subtitleBlockType(bigBlockList.get(j));
 			}
 		}
 	}
@@ -478,9 +485,25 @@ public class Content extends PDFTextStripper {
 			
 			if(candidates.get(retChain)<Common._MinTimeSubtitle)
 				return null;
-			else
+			else {
+				ArrayList<BlockFormat> additionalSubtitleFormatFilter=new ArrayList<BlockFormat>();
+				Iterator<Entry<CharFontChain, Integer>> candidateIt = candidates.entrySet().iterator();
+				while(candidateIt.hasNext()) {
+					Entry<CharFontChain, Integer> candidate=candidateIt.next();
+					CharFontChain chain=candidate.getKey();
+					int count=candidate.getValue();
+					
+					if(chain.charfonts.size()>1 || 
+							count<Common._MinTimeAdditionalSubtitle)
+						continue;
+					
+					additionalSubtitleFormatFilter.add(chain.charfonts.get(0));
+				}
+				Block.additionalSubtitleFormatFilter=new Common.AdditionalSubtitleFormatFilter(additionalSubtitleFormatFilter);
+				
 				return retChain;
-		} 
+			}
+		}
 	}
 	
 	private int getIncreasingCharfontBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
@@ -614,16 +637,13 @@ public class Content extends PDFTextStripper {
 			for(;i1<charfonts.size() && i2<charfontChain.charfonts.size();) {
 				CharFont charfont1=charfonts.get(i1);
 				CharFont charfont2=charfontChain.charfonts.get(i2);
-				int v=charfont1.compareTo(charfont2);
-				if( v < 0)
-					i1++;
-				else if ( v > 0) {
+				
+				if(charfont1.compareTo(charfont2)==0) {
 					matched++;
+					i1++;
 					i2++;
 				} else {
-					matched++;
 					i1++;
-					i2++;
 				}
 			}
 			
@@ -642,4 +662,18 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
+	static class BlockFormat {
+		private final CharFont charfont;
+		private final int indent;
+		
+		public BlockFormat(CharFont charfont, int indent) {
+			this.charfont=charfont;
+			this.indent=indent;
+		}
+		
+		boolean equals(BlockFormat blockformat) {
+			return charfont.equals(blockformat.charfont) &&
+					indent==blockformat.indent;
+		}
+	}
 }
