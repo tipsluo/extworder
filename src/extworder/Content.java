@@ -247,10 +247,11 @@ public class Content extends PDFTextStripper {
 		for(;i<bigBlockList.size();i++) {
 			Block block=bigBlockList.get(i);
 			
-			if(Block.additionalSubtitleFormatFilter.filter(block)) {
-				block.type=Common.subtitleBlockType(block);
-				continue;
-			}
+			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).isTextBlock())
+				if(Block.additionalSubtitleFormatFilter.filter(block)) {
+					block.type=Common.subtitleBlockType(block);
+					continue;
+				}
 			
 			int n=getIncreasingFormatBlockNumber(bigBlockList,i);
 				
@@ -511,7 +512,8 @@ public class Content extends PDFTextStripper {
 	private int getIncreasingFormatBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
-		if(block.charfont.compareTo(textCharfont)==0) {
+		//if(block.charfont.compareTo(textCharfont)==0 && block.width) {
+		if(block.isTextBlock()) {
 			Block block0=block;
 			
 			int i1=endBlockIndex-1;
@@ -550,9 +552,10 @@ public class Content extends PDFTextStripper {
 			for(Column column:page.columns)
 				for(Block block:page.blocks) {
 					int blockWidth=block.right-block.left+1;
-					if(block.charfont.equals(textCharfont) && 
+					/*if(block.charfont.equals(textCharfont) && 
 							blockWidth >= lowColumnWidth &&
-							blockWidth <= highColumnWidth) {
+							blockWidth <= highColumnWidth) {*/
+					if(block.isTextBlock()) {
 						block.type=Common._FirstText;
 						return block;
 					} else if(block.type.isEmpty())

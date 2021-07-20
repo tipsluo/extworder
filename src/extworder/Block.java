@@ -120,6 +120,14 @@ public class Block extends Rectangle {
 		return new BlockFormat(charfont,indentColumn());
 	}
 	
+	boolean isTextBlock() {
+		int blockWidth=right-left+1;
+		
+		return charfont.equals(page.content.textCharfont) && 
+				blockWidth >= page.content.lowColumnWidth &&
+				blockWidth <= page.content.highColumnWidth;
+	}
+	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		

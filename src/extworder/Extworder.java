@@ -64,7 +64,7 @@ public class Extworder {
 	}
 	
 	static public void main_test6_block_print() throws IOException {
-		printBlocks("A model for estimating parameters of rotational landslide");
+		//printBlocks("A model for estimating parameters of rotational landslide");
 		printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -72,7 +72,7 @@ public class Extworder {
 	}
 	
 	static public void main_test7_content_print() throws IOException {
-		printContent("A model for estimating parameters of rotational landslide");
+		//printContent("A model for estimating parameters of rotational landslide");
 		printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
