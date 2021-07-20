@@ -12,7 +12,7 @@ public class Common {
 	final static String _TestDataDir="data/";
 	
 	final static float _CharHGapRatio=1.5f;
-	final static float _CharVGapRatio=2.0f;
+	final static float _CharVGapRatio=2.5f;
 	final static float _HSpaceMin=0.3f;
 	//final static float _SameBlockFontHeightDiff=0.4f;
 	final static float _SameBlockRowWidthDiff=0.1f;

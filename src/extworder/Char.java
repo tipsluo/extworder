@@ -89,9 +89,8 @@ public class Char extends Rectangle {
 		
 	    @Override
 	    public int hashCode() {
-	        return (int)(height*10000 + (short)name.hashCode());
+	        return (int)(height*100000 + (short)name.hashCode());
 	        				//(bold ? 1 : 0) ) * 100 +
-	        					
 	    }
 		
 		@Override
@@ -110,6 +109,9 @@ public class Char extends Rectangle {
 		
 		@Override
 	    public int compareTo(CharFont charfont) {
+			/*return height != charfont.height ? 
+					(int)(height-charfont.height) :
+						name.hashCode()-charfont.name.hashCode();*/
 	        return (int)(hashCode()-charfont.hashCode());
 	    }
 	}

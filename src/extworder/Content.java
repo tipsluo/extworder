@@ -308,10 +308,10 @@ public class Content extends PDFTextStripper {
 			for(BlockFormat blockformat:subtitleFormatChain.blockformats)
 				fw.write(String.format(" %d",charfontIndexes.get(blockformat)));
 			fw.write("\n\n");
-			
-			for(Page page:pages) {
-				page.print(fw);
-			}
+		}
+		
+		for(Page page:pages) {
+			page.print(fw);
 		}
 	}
 	
