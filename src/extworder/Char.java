@@ -79,19 +79,19 @@ public class Char extends Rectangle {
 	static public class CharFont implements Comparable<CharFont>{
 		String name;
 		float height;
-		boolean bold;
+		//boolean bold;
 		
 		public CharFont(String name,float height) {
 			this.name=name;
 			this.height=height;
-			this.bold=name.contains(".B");
+			//this.bold=name.contains(".B");
 		}
 		
 	    @Override
 	    public int hashCode() {
-	        return (int)( (height*100000 + 
-	        				(bold ? 1 : 0) ) * 100 +
-	        					(short)name.hashCode());
+	        return (int)(height*10000 + (short)name.hashCode());
+	        				//(bold ? 1 : 0) ) * 100 +
+	        					
 	    }
 		
 		@Override
@@ -123,6 +123,5 @@ public class Char extends Rectangle {
 			this.y=y;
 			this.ch=ch;
 		}
-
 	}
 }

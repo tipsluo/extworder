@@ -8,6 +8,7 @@ import java.util.Comparator;
 import java.util.TreeMap;
 
 import extworder.Char.CharFont;
+import extworder.Common.AdditionalSubtitleFormatFilter;
 import extworder.Common.BigBlockFilter;
 import extworder.Common.SubtitleBlockFilter;
 import extworder.Common.TextBlockFilter;
@@ -112,7 +113,11 @@ public class Block extends Rectangle {
 	}
 	
 	int indentColumn() {
-		return column==null ? -9999 : left-column.left;
+		return column==null ? -99 : left-column.left;
+	}
+	
+	BlockFormat blockformat() {
+		return new BlockFormat(charfont,indentColumn());
 	}
 	
 	public void print(FileWriter fw) throws IOException {
@@ -161,6 +166,30 @@ public class Block extends Rectangle {
 		}
 		
 		return str+"\n";
+	}
+	
+	
+	static class BlockFormat {
+		private final CharFont charfont;
+		private final int indent;
+		
+		public BlockFormat(CharFont charfont, int indent) {
+			this.charfont=charfont;
+			this.indent=indent;
+		}
+		
+		boolean equals(BlockFormat blockformat) {
+			return charfont.equals(blockformat.charfont) &&
+					indent==blockformat.indent;
+		}
+		
+		public int hashCode() {
+			int hash=0;
+			
+	        hash+=charfont.hashCode()*100 + indent;
+	        
+	        return hash;
+		}
 	}
 	
 	static class CompareBlocks implements Comparator<Block> {

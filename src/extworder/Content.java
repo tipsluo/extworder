@@ -10,6 +10,7 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
+import extworder.Block.BlockFormat;
 import extworder.Char.CharFont;
 import extworder.Page.Column;
 
@@ -39,7 +40,7 @@ public class Content extends PDFTextStripper {
 	float lowColumnWidth;
 	float highColumnWidth;
 	boolean hasFirstTextBlock=false;
-	CharFontChain subtitleCharfontChain;
+	BlockFormatChain subtitleFormatChain;
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
@@ -237,30 +238,31 @@ public class Content extends PDFTextStripper {
 	private void markSubtitleBlocks() {
 		ArrayList<Block> bigBlockList=getBigBlockList();
 		
-		subtitleCharfontChain=getSubtitleCharFontChain(bigBlockList);
+		subtitleFormatChain=getSubtitleFormatChain(bigBlockList);
 		
-		if(subtitleCharfontChain==null)
+		if(subtitleFormatChain==null)
 			return;
 		
 		int i=0;
 		for(;i<bigBlockList.size();i++) {
 			Block block=bigBlockList.get(i);
 			
-			if(Block.additionalSubtitleCharfontsFilter.filter(block)) {
+			if(Block.additionalSubtitleFormatFilter.filter(block)) {
 				block.type=Common.subtitleBlockType(block);
 				continue;
 			}
 			
-			int n=getIncreasingCharfontBlockNumber(bigBlockList,i);
+			int n=getIncreasingFormatBlockNumber(bigBlockList,i);
 				
 			if(n>=1) {
 				boolean allContained=true;
-				for(int j=i-n; j<i; j++)
-					if(subtitleCharfontChain.charfontIndex(bigBlockList.get(j).charfont) < 0) {
+				for(int j=i-n; j<i; j++) {
+					block=bigBlockList.get(j);
+					if(subtitleFormatChain.blockformatIndex(block.blockformat()) < 0) {
 						allContained=false;
 						break;
 					}
-				
+				}
 				if(allContained)
 					for(int j=i-n; j<i; j++)
 						bigBlockList.get(j).type=Common.subtitleBlockType(bigBlockList.get(j));
@@ -301,10 +303,10 @@ public class Content extends PDFTextStripper {
 		fw.write(String.format("ContentWidth %d ContentLeft %d ContentRight %d\n",
 				contentWidth,contentLeft,contentRight));
 		
-		if(subtitleCharfontChain!=null) {
+		if(subtitleFormatChain!=null) {
 			fw.write(String.format("Subtitles: "));
-			for(CharFont charfont:subtitleCharfontChain.charfonts)
-				fw.write(String.format(" %d",charfontIndexes.get(charfont)));
+			for(BlockFormat blockformat:subtitleFormatChain.blockformats)
+				fw.write(String.format(" %d",charfontIndexes.get(blockformat)));
 			fw.write("\n\n");
 			
 			for(Page page:pages) {
@@ -411,57 +413,57 @@ public class Content extends PDFTextStripper {
 		return null;
 	}
 	
-	private CharFontChain getSubtitleCharFontChain(ArrayList<Block> bigBlockList) {
-		TreeMap<CharFontChain,Integer> candidates=new TreeMap<>();
+	private BlockFormatChain getSubtitleFormatChain(ArrayList<Block> bigBlockList) {
+		TreeMap<BlockFormatChain,Integer> candidates=new TreeMap<>();
 		
 		int i=0;
 		for(;i<bigBlockList.size();i++) {
-			int n=getIncreasingCharfontBlockNumber(bigBlockList,i);
+			int n=getIncreasingFormatBlockNumber(bigBlockList,i);
 				
 			if(n>=1) {
-				CharFontChain charfontChain=new CharFontChain();
+				BlockFormatChain blockformatChain=new BlockFormatChain();
 				for(int j=i-n; j<i; j++)
-					charfontChain.charfonts.add(bigBlockList.get(j).charfont);
+					blockformatChain.blockformats.add(bigBlockList.get(j).blockformat());
 				
 				boolean found=false;
-				Iterator<Entry<CharFontChain, Integer>> entryIt = candidates.entrySet().iterator();
+				Iterator<Entry<BlockFormatChain, Integer>> entryIt = candidates.entrySet().iterator();
 				while (entryIt.hasNext()) {
-				    Entry<CharFontChain, Integer> entry = entryIt.next();
-			        CharFontChain chain=entry.getKey();
+				    Entry<BlockFormatChain, Integer> entry = entryIt.next();
+				    BlockFormatChain chain=entry.getKey();
 			        Integer num=entry.getValue();
 			    
-			        if(charfontChain.equals(chain) || chain.contains(charfontChain)) {
+			        if(blockformatChain.equals(chain) || chain.contains(blockformatChain)) {
 			        	candidates.put(chain,num+1);
 			        	found=true;
 			        	break;
-			        } else if(charfontChain.contains(chain)) {
+			        } else if(blockformatChain.contains(chain)) {
 			        	entryIt.remove();
-			        	candidates.put(charfontChain,num+1);
+			        	candidates.put(blockformatChain,num+1);
 			        	found=true;
 			        	break;
 			        }
 				}
 				
 				if(! found)
-					candidates.put(charfontChain,1);		
+					candidates.put(blockformatChain,1);		
 			}
 		}
 		
 		for(;;) {
 			int size=candidates.size();
 			
-			TreeMap<CharFontChain,Integer> candidatesNew=new TreeMap<>();
+			TreeMap<BlockFormatChain,Integer> candidatesNew=new TreeMap<>();
 			
-			Iterator<Entry<CharFontChain, Integer>> candidateIt = candidates.entrySet().iterator();
+			Iterator<Entry<BlockFormatChain, Integer>> candidateIt = candidates.entrySet().iterator();
 			while(candidateIt.hasNext()) {
-				Entry<CharFontChain, Integer> candidate=candidateIt.next();
-				CharFontChain chain=candidate.getKey();
+				Entry<BlockFormatChain, Integer> candidate=candidateIt.next();
+				BlockFormatChain chain=candidate.getKey();
 				candidatesNew.put(chain,candidate.getValue());
 				
-				Iterator<Entry<CharFontChain, Integer>> candidateIt1 = candidates.entrySet().iterator();
+				Iterator<Entry<BlockFormatChain, Integer>> candidateIt1=candidates.entrySet().iterator();
 				while(candidateIt1.hasNext()) {
-					Entry<CharFontChain, Integer> candidate1=candidateIt1.next();
-					CharFontChain chain1=candidate1.getKey();
+					Entry<BlockFormatChain, Integer> candidate1=candidateIt1.next();
+					BlockFormatChain chain1=candidate1.getKey();
 					
 					if(chain==chain1)
 						continue;
@@ -481,23 +483,23 @@ public class Content extends PDFTextStripper {
 		if (candidates.size()==0)
 			return null;
 		else {
-			CharFontChain retChain=candidates.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+			BlockFormatChain retChain=candidates.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 			
 			if(candidates.get(retChain)<Common._MinTimeSubtitle)
 				return null;
 			else {
 				ArrayList<BlockFormat> additionalSubtitleFormatFilter=new ArrayList<BlockFormat>();
-				Iterator<Entry<CharFontChain, Integer>> candidateIt = candidates.entrySet().iterator();
+				Iterator<Entry<BlockFormatChain, Integer>> candidateIt = candidates.entrySet().iterator();
 				while(candidateIt.hasNext()) {
-					Entry<CharFontChain, Integer> candidate=candidateIt.next();
-					CharFontChain chain=candidate.getKey();
+					Entry<BlockFormatChain, Integer> candidate=candidateIt.next();
+					BlockFormatChain chain=candidate.getKey();
 					int count=candidate.getValue();
 					
-					if(chain.charfonts.size()>1 || 
+					if(chain.blockformats.size()>1 || 
 							count<Common._MinTimeAdditionalSubtitle)
 						continue;
 					
-					additionalSubtitleFormatFilter.add(chain.charfonts.get(0));
+					additionalSubtitleFormatFilter.add(chain.blockformats.get(0));
 				}
 				Block.additionalSubtitleFormatFilter=new Common.AdditionalSubtitleFormatFilter(additionalSubtitleFormatFilter);
 				
@@ -506,7 +508,7 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	private int getIncreasingCharfontBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
+	private int getIncreasingFormatBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
 		if(block.charfont.compareTo(textCharfont)==0) {
@@ -587,17 +589,17 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	static class CharFontChain implements Comparable<CharFontChain> {
-		ArrayList<CharFont> charfonts=new ArrayList<>();
+	static class BlockFormatChain implements Comparable<BlockFormatChain> {
+		ArrayList<BlockFormat> blockformats=new ArrayList<>();
 
 		@Override
-		public int compareTo(CharFontChain charfontChain) {
-			int n1=charfonts.size();
-			int n2=charfontChain.charfonts.size();
+		public int compareTo(BlockFormatChain blockformatChain) {
+			int n1=blockformats.size();
+			int n2=blockformatChain.blockformats.size();
 			
 			return n1==n2 ? 
-						this.contains(charfontChain) || charfontChain.contains(this) ? 
-								0 : hashCode()-charfontChain.hashCode()
+						this.contains(blockformatChain) || blockformatChain.contains(this) ? 
+								0 : hashCode()-blockformatChain.hashCode()
 						:
 						n1-n2;
 		}
@@ -606,8 +608,8 @@ public class Content extends PDFTextStripper {
 		public int hashCode() {
 			int hash=0;
 			
-	        for(CharFont charfont:charfonts)
-	        	hash+=charfont.hashCode();
+	        for(BlockFormat blockformat:blockformats)
+	        	hash+=blockformat.hashCode();
 	        
 	        return hash;
 		}
@@ -621,24 +623,24 @@ public class Content extends PDFTextStripper {
 	        if (getClass() != obj.getClass())
 	            return false;
 	        
-	        CharFontChain other = (CharFontChain) obj;
+	        BlockFormatChain other = (BlockFormatChain) obj;
 
-	        return contains(other) && charfonts.size()==other.charfonts.size();
+	        return contains(other) && blockformats.size()==other.blockformats.size();
 		}
 		
-		public boolean contains(CharFontChain charfontChain) {
-			if(charfonts.size()<charfontChain.charfonts.size())
+		public boolean contains(BlockFormatChain blockformatChain) {
+			if(blockformats.size()<blockformatChain.blockformats.size())
 				return false;
 			
 			int i1=0;
 			int i2=0;
 			int matched=0;
 			
-			for(;i1<charfonts.size() && i2<charfontChain.charfonts.size();) {
-				CharFont charfont1=charfonts.get(i1);
-				CharFont charfont2=charfontChain.charfonts.get(i2);
+			for(;i1<blockformats.size() && i2<blockformatChain.blockformats.size();) {
+				BlockFormat blockformat1=blockformats.get(i1);
+				BlockFormat blockformat2=blockformatChain.blockformats.get(i2);
 				
-				if(charfont1.compareTo(charfont2)==0) {
+				if(blockformat1.equals(blockformat2)) {
 					matched++;
 					i1++;
 					i2++;
@@ -647,33 +649,18 @@ public class Content extends PDFTextStripper {
 				}
 			}
 			
-			return matched==charfontChain.charfonts.size();
+			return matched==blockformatChain.blockformats.size();
 		}
 		
-		public int charfontIndex(CharFont charfont) {
+		public int blockformatIndex(BlockFormat blockformat) {
 			int i=0;
-			for(CharFont cf: charfonts) {
-				if(charfont.equals(cf))
+			for(BlockFormat bf: blockformats) {
+				if(blockformat.equals(bf))
 					return i;
 				
 				i++;
 			}
 			return -1;
-		}
-	}
-	
-	static class BlockFormat {
-		private final CharFont charfont;
-		private final int indent;
-		
-		public BlockFormat(CharFont charfont, int indent) {
-			this.charfont=charfont;
-			this.indent=indent;
-		}
-		
-		boolean equals(BlockFormat blockformat) {
-			return charfont.equals(blockformat.charfont) &&
-					indent==blockformat.indent;
 		}
 	}
 }
