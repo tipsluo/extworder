@@ -11,16 +11,15 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import java.io.FileWriter;   // Import the FileWriter class
 
 public class Extworder {
-	
 	public static void main(String args[]) throws IOException  {
 		//main_test1_gettext();
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
 		//main_test4_getText();
 		//main_test5_block_display();
-		main_test6_block_print();
-		main_test7_content_print();
-		System.out.println("Done.");
+		//main_test6_block_print();
+		//main_test7_content_print();
+		System.out.println("Extworder Done.");
 	}
 
 	static public void main_test1_gettext() throws IOException {

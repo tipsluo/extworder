@@ -31,7 +31,7 @@ public class Content extends PDFTextStripper {
     Map<CharFont,Integer> charfontIndexes;
     CharFont textCharfont;
     Block titleBlock,abstractBlock;
-    String abstractStr;
+    public String abstractStr;
     int currPid;
     Page currPage=null;
 	PDProcessor pdProcessor;
@@ -316,7 +316,7 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	String text() {		
+	public String text() {		
 		hasFirstTextBlock=false;
 		
 		String str="";
@@ -330,7 +330,7 @@ public class Content extends PDFTextStripper {
 		return str;
 	}
 	
-	String subtitles() {
+	public String subtitles() {
 		String str="";
 		
 		for(Page page:pages) {
@@ -342,7 +342,7 @@ public class Content extends PDFTextStripper {
 		return str;
 	}
 	
-	String title() {
+	public String title() {
 		return titleBlock.string();
 	}
 	
