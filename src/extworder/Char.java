@@ -1,11 +1,19 @@
 package extworder;
 
+import java.awt.Color;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.regex.Pattern;
+
+import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
+
+import extworder.Common.CheckBold;
 
 public class Char extends Rectangle {
 	String str;
 	float x,y;
+	PDColor color;
 	String fontname;
 	Row row;
 	float width,height;
@@ -13,13 +21,14 @@ public class Char extends Rectangle {
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
 	
-	public Char(String str,float x, float y, float width, float height, String fontname) {
+	public Char(String str,float x, float y, float width, float height, String fontname, PDColor color) {
 		this.str=str;
 		this.x=x;
 		this.y=y;
 		this.height=height;
 		this.width=width;
 		this.fontname=fontname;
+		this.color=color;
 		left=Math.round(x);
 		right=(int)(Math.round(x+width-0.001));
 		top=Math.round(y);
@@ -77,20 +86,60 @@ public class Char extends Rectangle {
 	}
 	
 	static public class CharFont implements Comparable<CharFont>{
-		String name;
-		float height;
-		//boolean bold;
+		private String name;
+		private float height;
+		private int rgb;
+		private boolean bold;
 		
-		public CharFont(String name,float height) {
+		public CharFont(String name,float height,PDColor color) {
 			this.name=name;
 			this.height=height;
-			//this.bold=name.contains(".B");
+			try {
+				rgb=color.toRGB();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+					
+			bold=Common.checkBold.check(name);
+		}
+		
+		private int colorDiff() {
+			int r = (rgb >> 16) & 0x000000FF;
+			int g = (rgb >>8 ) & 0x000000FF;
+			int b = (rgb) & 0x000000FF;
+			
+			int max,min;
+			
+			if(r>=g) {
+				max=r;
+				min=g;
+			} else {
+				max=g;
+				min=r;
+			}
+			
+			if(max<b)
+				max=b;
+			if(min>b)
+				min=b;
+			
+			return max-min;
 		}
 		
 	    @Override
 	    public int hashCode() {
-	        return (int)(height*100000 + (short)name.hashCode());
-	        				//(bold ? 1 : 0) ) * 100 +
+	        int i;
+	        
+	        i=(int)(height)<<8;
+	        
+	        if(bold)
+	        	i=(i+1);
+	        
+	        i=(i<<8) + colorDiff();
+	        
+	        i=(i<<16) + (short)name.hashCode();
+
+	        return i;
 	    }
 		
 		@Override
@@ -102,18 +151,41 @@ public class Char extends Rectangle {
 	        if (getClass() != obj.getClass())
 	            return false;
 	        CharFont other = (CharFont) obj;
-	        if (name != other.name || height !=other.height)
+	       
+	        if (name != other.name || 
+	        		height !=other.height || 
+	        		 rgb!=other.rgb ||
+	        		( bold != other.bold)
+	        	)
 	            return false;
 	        return true;
 		}
 		
 		@Override
 	    public int compareTo(CharFont charfont) {
-			/*return height != charfont.height ? 
-					(int)(height-charfont.height) :
-						name.hashCode()-charfont.name.hashCode();*/
-	        return (int)(hashCode()-charfont.hashCode());
+			//return hashCode()-charfont.hashCode();
+			int i = (int) (height-charfont.height);
+			
+			if(i!=0)
+				return i;
+			
+			if(bold != charfont.bold) {
+				if (bold)
+					return 1;
+				else
+					return -1;
+			}
+			
+			i=colorDiff()-charfont.colorDiff();
+			if(i!=0) 
+				return i;
+				
+			return name.hashCode()-charfont.name.hashCode();
 	    }
+		
+		float getHeight() {
+			return height;
+		}
 	}
 	
 	static public class Point {

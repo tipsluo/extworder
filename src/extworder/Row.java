@@ -135,21 +135,11 @@ public class Row extends Rectangle {
 		return charfont.equals(row.charfont);
 	}
 	
-	/*private boolean checkSameBlock(Row row) {
-		int heightDiff=(int) Math.abs(charfont.height-row.charfont.height);
-		
-		boolean heightDiffRatio = heightDiff / height < Common._SameBlockFontHeightDiff
-							  		&&
-							  	  heightDiff / row.height < Common._SameBlockFontHeightDiff;
-		
-		return heightDiffRatio;
-	}*/
-	
 	public CharFont mostCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
 		for (Char ch: chars) {
-			CharFont cf=new Char.CharFont(ch.fontname,ch.height);
+			CharFont cf=new Char.CharFont(ch.fontname,ch.height,ch.color);
 			int n=charFonts.compute(cf, (k,v) -> (v == null ? 0 : v) + 1);
         	charFonts.put(cf,n);
 		}

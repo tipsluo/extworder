@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 import extworder.Block.BlockFormat;
 import extworder.Char.CharFont;
 import extworder.Common.BlockFilter;
+import extworder.Common.CheckBold;
 
 public class Common {
 	final static String _TestDataDir="data/";
@@ -39,11 +40,12 @@ public class Common {
 	
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;
+
+	final static CheckBold checkBold=new CheckBold();
 	
 	final static boolean __DEBUG=false;
 	
 	public Common() {
-		// TODO Auto-generated constructor stub
 	} 
 	
 	static String prepareOut(String str) {
@@ -70,6 +72,7 @@ public class Common {
 	
 	interface BlockFilter {
 		public boolean filter(Block block);
+		
 	}
 	
 	static class TextBlockFilter implements BlockFilter {
@@ -111,6 +114,32 @@ public class Common {
 				
 			return false;
 		}
+	}
+	
+	final static class CheckBold {
+		final Pattern LastPart;
+		final Pattern Bold;
 		
+		public CheckBold() {
+			LastPart=Pattern.compile("[\\.-](.*)$");
+			Bold=Pattern.compile("Bold");
+		}
+		
+		public boolean check(String s) {
+			Matcher m=LastPart.matcher(s);
+			
+			if(m.find()) {
+				String lastPart=m.group(1);
+				
+				if(lastPart.equals("B"))
+					return true;
+				else {
+					m=Bold.matcher(lastPart);
+					return m.find();
+				}
+			}
+			
+			return false;
+		}
 	}
 }

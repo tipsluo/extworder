@@ -90,7 +90,7 @@ public class Block extends Rectangle {
 	}
 	
 	boolean isSimilar(Block block) {
-		int allowedDisplace = (int) (Common._BlockDisplaceRatio * charfont.height);
+		int allowedDisplace = (int) (Common._BlockDisplaceRatio * charfont.getHeight());
 		
 		if( Math.abs(left - block.left) <= allowedDisplace &&
 				Math.abs(top - block.top) <= allowedDisplace &&

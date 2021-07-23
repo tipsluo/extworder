@@ -98,7 +98,7 @@ public class Content extends PDFTextStripper {
 		}
 		
         for (TextPosition text : textPositions) {
-        	currPage.writeString(text);
+        	currPage.writeString(text,getGraphicsState().getNonStrokingColor());
         }
     }
 		

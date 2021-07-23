@@ -1,5 +1,6 @@
 package extworder;
 
+import java.awt.Color;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,6 +11,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
+import org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
@@ -40,8 +43,8 @@ public class Page {
 		images=new ArrayList<Block>();
 	}
 	
-	public void writeString(TextPosition text) {
-		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
+	public void writeString(TextPosition text, PDColor color) {
+		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir(),color);
     	
     	Integer n;
     	n=content.charfonts.compute(charfont, (k,v) -> (v == null ? 0 : v) + 1);
@@ -49,7 +52,7 @@ public class Page {
     	String str;
     	str=text.toString();
     	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
-    			text.getFont().getName());
+    			text.getFont().getName(),color);
     	chars.add(ch);
     	
     	float width1=(float)(ch.x+ch.width-0.001);
