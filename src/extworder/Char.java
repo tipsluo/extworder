@@ -88,8 +88,8 @@ public class Char extends Rectangle {
 	static public class CharFont implements Comparable<CharFont>{
 		private String name;
 		private float height;
-		private int rgb;
 		private boolean bold;
+		private int rgb;
 		
 		public CharFont(String name,float height,PDColor color) {
 			this.name=name;
@@ -104,9 +104,9 @@ public class Char extends Rectangle {
 		}
 		
 		private int colorDiff() {
-			int r = (rgb >> 16) & 0x000000FF;
-			int g = (rgb >>8 ) & 0x000000FF;
-			int b = (rgb) & 0x000000FF;
+			int r = Math.abs((rgb >> 16) & 0x000000FF);
+			int g = Math.abs((rgb >>8 ) & 0x000000FF);
+			int b = Math.abs((rgb) & 0x000000FF);
 			
 			int max,min;
 			
@@ -126,20 +126,20 @@ public class Char extends Rectangle {
 			return max-min;
 		}
 		
+		private int value() {
+			int i=(int) (height*100);
+			
+			if(bold)
+				i=i+50;	
+					
+	        // i=(i<<8) + colorDiff();
+	         
+	        return i;
+		}
+		
 	    @Override
 	    public int hashCode() {
-	        int i;
-	        
-	        i=(int)(height)<<8;
-	        
-	        if(bold)
-	        	i=(i+1);
-	        
-	        i=(i<<8) + colorDiff();
-	        
-	        i=(i<<16) + (short)name.hashCode();
-
-	        return i;
+	    	return (value() << 16) + (short)name.hashCode();
 	    }
 		
 		@Override
@@ -150,37 +150,22 @@ public class Char extends Rectangle {
 	            return false;
 	        if (getClass() != obj.getClass())
 	            return false;
+	        
 	        CharFont other = (CharFont) obj;
-	       
-	        if (name != other.name || 
+	        
+	        return hashCode()==other.hashCode();
+	        /*if (name != other.name || 
 	        		height !=other.height || 
 	        		 rgb!=other.rgb ||
 	        		( bold != other.bold)
 	        	)
 	            return false;
-	        return true;
+	        return true;*/
 		}
 		
 		@Override
 	    public int compareTo(CharFont charfont) {
-			//return hashCode()-charfont.hashCode();
-			int i = (int) (height-charfont.height);
-			
-			if(i!=0)
-				return i;
-			
-			if(bold != charfont.bold) {
-				if (bold)
-					return 1;
-				else
-					return -1;
-			}
-			
-			i=colorDiff()-charfont.colorDiff();
-			if(i!=0) 
-				return i;
-				
-			return name.hashCode()-charfont.name.hashCode();
+	        return hashCode()-charfont.hashCode();
 	    }
 		
 		float getHeight() {

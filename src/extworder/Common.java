@@ -5,9 +5,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import extworder.Block.BlockFormat;
-import extworder.Char.CharFont;
-import extworder.Common.BlockFilter;
-import extworder.Common.CheckBold;
 
 public class Common {
 	final static String _TestDataDir="data/";
