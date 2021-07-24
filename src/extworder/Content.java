@@ -552,9 +552,6 @@ public class Content extends PDFTextStripper {
 	
 	private Block getFirstTextBlock() {
 		for(Page page:pages) {
-			/*if(page.ignored())
-				continue;*/
-			
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
 					if(block.isTextBlock()) {
