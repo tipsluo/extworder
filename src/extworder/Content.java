@@ -66,7 +66,8 @@ public class Content extends PDFTextStripper {
 			
 			if(currPage!=null) {
 				currPage.complete(document.getPage(currPid-1));
-				pages.add(currPage);
+				if(! currPage.ignored())
+					pages.add(currPage);
 			}
 		}
 		
@@ -76,9 +77,6 @@ public class Content extends PDFTextStripper {
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charfontIndexes=makeCharfontIndexes();
 		
-		titleBlock=getTitleBlock();
-		abstractBlock=getAbstractBlock();
-		
 		markHeaderBlock();
 		markFooterBlock();
 		for(Page page:pages) {
@@ -87,7 +85,12 @@ public class Content extends PDFTextStripper {
 		
 		markContentX();
 		makeColumns();
+
 		getFirstTextBlock();
+		
+		titleBlock=getTitleBlock();
+		abstractBlock=getAbstractBlock();
+	
 		markSubtitleBlocks();
 	}
 
@@ -347,27 +350,28 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private Block getTitleBlock() {
-		int i=0;
 		Page page=null;
-		Block titleBlock=null;
+		Block titleBlock=pages.get(0).blocks.get(0);
+		Block block=null;
 		
-		for(; i<pages.size(); i++) {
+		for(int i=0; i<pages.size(); i++) {
 			page=pages.get(i);
 			
-			String str=page.string();
-			if (! str.contains(Common._LenderStr) && ! str.contains(Common._BorrowerStr))		
-				break;
-		}
-		
-		if (i>=pages.size()) {
-			return null;
-		} else {
-			titleBlock=page.blocks.get(0);
+			/*if(page.ignored())
+				continue;*/
 			
 			for(int j=0; j<page.blocks.size();j++) {
-				if(page.blocks.get(j).charfont.compareTo(titleBlock.charfont)>0)
-					titleBlock=page.blocks.get(j);
+				block=page.blocks.get(j);
+				
+				if(block.type==Common._FirstText)
+					break;
+				
+				if(block.charfont.compareTo(titleBlock.charfont)>0)
+					titleBlock=block;
 			}
+			
+			if(block.type==Common._FirstText)
+				break;
 		}
 			
 		titleBlock.type=Common._TitleBlock;
@@ -512,7 +516,6 @@ public class Content extends PDFTextStripper {
 	private int getIncreasingFormatBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
-		//if(block.charfont.compareTo(textCharfont)==0 && block.width) {
 		if(block.isTextBlock()) {
 			Block block0=block;
 			
@@ -548,19 +551,19 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private Block getFirstTextBlock() {
-		for(Page page:pages)
+		for(Page page:pages) {
+			/*if(page.ignored())
+				continue;*/
+			
 			for(Column column:page.columns)
-				for(Block block:page.blocks) {
-					int blockWidth=block.right-block.left+1;
-					/*if(block.charfont.equals(textCharfont) && 
-							blockWidth >= lowColumnWidth &&
-							blockWidth <= highColumnWidth) {*/
+				for(Block block:column.blocks) {
 					if(block.isTextBlock()) {
 						block.type=Common._FirstText;
 						return block;
 					} else if(block.type.isEmpty())
 						block.type=Common._BeforeFirstText;
 				}
+		}
 		return null;
 	}
 	

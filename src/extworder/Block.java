@@ -204,9 +204,9 @@ public class Block extends Rectangle {
 		public int compare(Block b1, Block b2) {
 			if( ( b1.top >= b2.top && b1.top <= b2.bottom ) || 
 					( b2.top >= b1.top && b2.top <= b1.bottom ) )
-					return b1.left - b2.left;
-				else
-					return b1.top - b2.top;
+				return b1.left - b2.left;
+			else
+				return b1.top - b2.top;
 		}
 	}
 }

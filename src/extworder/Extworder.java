@@ -57,9 +57,10 @@ public class Extworder {
 	static public void main_test5_block_display() throws IOException {
 		//displayBlocks("A model for estimating parameters of rotational landslide");
 		//displayBlocks("Peace-Development and Peace Through");
-		displayBlocks("Broader perspective on ecosystem");
+		//displayBlocks("Broader perspective on ecosystem");
 		//displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//displayBlocks("ILL article-Impact of the KWL reading strategy");
+		displayBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
 	static public void main_test6_block_print() throws IOException {
@@ -68,7 +69,7 @@ public class Extworder {
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
-		printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
 	static public void main_test7_content_print() throws IOException {
@@ -76,8 +77,8 @@ public class Extworder {
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		//printContent("ILL article-Impact of the KWL reading strategy");
-		printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+		printContent("ILL article-Impact of the KWL reading strategy");
+		//printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
 	public static void extract(String fn) throws IOException {

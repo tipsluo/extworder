@@ -210,10 +210,10 @@ public class Page {
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d\nWidth %f Height %f\n",id,width,height));
 		
-		fw.write("\n\nColumns:\n----------------------\n");
+		/*fw.write("\n\nColumns:\n----------------------\n");
 		for(Column column:columns) {
 			column.print(fw);
-		}
+		}*/
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
@@ -269,6 +269,14 @@ public class Page {
 		}
 		
 		return blocklist;
+	}
+	
+	boolean ignored() {
+		String str=string();
+		if (str.contains(Common._LenderStr) || str.contains(Common._BorrowerStr))		
+			return true;
+		else
+			return false;
 	}
 
 	class Bitmap {
