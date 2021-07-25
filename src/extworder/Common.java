@@ -37,6 +37,10 @@ public class Common {
 	
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;
+	
+	final static int _BOLD=2;
+	final static int _SEMIBOLD=1;
+	final static int _NOBOLD=0;
 
 	final static CheckBold checkBold=new CheckBold();
 	
@@ -116,27 +120,37 @@ public class Common {
 	final static class CheckBold {
 		final Pattern LastPart;
 		final Pattern Bold;
+		final Pattern Semibold;
 		
 		public CheckBold() {
 			LastPart=Pattern.compile("[\\.-](.*)$");
 			Bold=Pattern.compile("Bold");
+			Semibold=Pattern.compile("Semibold");
 		}
 		
-		public boolean check(String s) {
+		public int check(String s) {
 			Matcher m=LastPart.matcher(s);
 			
 			if(m.find()) {
 				String lastPart=m.group(1);
 				
 				if(lastPart.equals("B"))
-					return true;
+					return _BOLD;
 				else {
 					m=Bold.matcher(lastPart);
-					return m.find();
+					if(m.find())
+						return _BOLD;
+					else {
+						m=Semibold.matcher(lastPart);
+						if(m.find())
+							return _SEMIBOLD;
+						else
+							return _NOBOLD;
+					}
 				}
 			}
 			
-			return false;
+			return _NOBOLD;
 		}
 	}
 }

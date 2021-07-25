@@ -88,7 +88,7 @@ public class Char extends Rectangle {
 	static public class CharFont implements Comparable<CharFont>{
 		private String name;
 		private float height;
-		private boolean bold;
+		private int bold;
 		private int rgb;
 		
 		public CharFont(String name,float height,PDColor color) {
@@ -127,10 +127,10 @@ public class Char extends Rectangle {
 		}
 		
 		private int value() {
-			int i=(int) (height*100);
+			int i=(int) (height * 1000);
 			
-			if(bold)
-				i=i+50;	
+			if(bold>0)
+				i=i + 400 * bold;	
 					
 	        // i=(i<<8) + colorDiff();
 	         
@@ -139,7 +139,8 @@ public class Char extends Rectangle {
 		
 	    @Override
 	    public int hashCode() {
-	    	return (value() << 16) + (short)name.hashCode();
+	    	return (value() << 8) + (byte)name.hashCode();
+	    	//return value();
 	    }
 		
 		@Override
@@ -154,13 +155,6 @@ public class Char extends Rectangle {
 	        CharFont other = (CharFont) obj;
 	        
 	        return hashCode()==other.hashCode();
-	        /*if (name != other.name || 
-	        		height !=other.height || 
-	        		 rgb!=other.rgb ||
-	        		( bold != other.bold)
-	        	)
-	            return false;
-	        return true;*/
 		}
 		
 		@Override

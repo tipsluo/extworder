@@ -16,7 +16,7 @@ public class Extworder {
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
 		//main_test4_getText();
-		//main_test5_block_display();
+		main_test5_block_display();
 		main_test6_block_print();
 		main_test7_content_print();
 		System.out.println("Extworder Done.");
@@ -64,20 +64,20 @@ public class Extworder {
 	}
 	
 	static public void main_test6_block_print() throws IOException {
-		//printBlocks("A model for estimating parameters of rotational landslide");
-		//printBlocks("Peace-Development and Peace Through");
-		//printBlocks("Broader perspective on ecosystem");
+		printBlocks("A model for estimating parameters of rotational landslide");
+		printBlocks("Peace-Development and Peace Through");
+		printBlocks("Broader perspective on ecosystem");
 		printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		//printBlocks("ILL article-Impact of the KWL reading strategy");
+		printBlocks("ILL article-Impact of the KWL reading strategy");
 		printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
 	static public void main_test7_content_print() throws IOException {
-		//printContent("A model for estimating parameters of rotational landslide");
-		//printContent("Peace-Development and Peace Through");
-		//printContent("Broader perspective on ecosystem");
+		printContent("A model for estimating parameters of rotational landslide");
+		printContent("Peace-Development and Peace Through");
+		printContent("Broader perspective on ecosystem");
 		printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		//printContent("ILL article-Impact of the KWL reading strategy");
+		printContent("ILL article-Impact of the KWL reading strategy");
 		printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
