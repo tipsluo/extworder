@@ -112,12 +112,44 @@ public class Block extends Rectangle {
 		return cf;
 	}
 	
-	int indentColumn() {
-		return column==null ? -99 : left-column.left;
+	int indent() {
+		int l;
+		
+		if(column==null) {
+			l=column.left;
+		} else {
+			l=page.left;
+		}
+		
+		return left-l;
+	}
+	
+	int alignment() {
+		int l,r;
+		
+		if(column==null) {
+			l=column.left;
+			r=column.right;
+		} else {
+			l=page.left;
+			r=page.right;
+		}
+		
+		int leftIndent=left-l;
+		int rightIndent=r-right;
+		
+		if(leftIndent==rightIndent)
+			return Common._CENTERALIGNED;
+		else if(leftIndent==0)
+			return Common._LEFTALIGNED;
+		else if(rightIndent==0)
+			return Common._RIGHTALIGNED;
+		else
+			return Common._NOALIGNED;
 	}
 	
 	BlockFormat blockformat() {
-		return new BlockFormat(charfont,indentColumn());
+		return new BlockFormat(this);
 	}
 	
 	boolean isTextBlock() {
@@ -180,21 +212,31 @@ public class Block extends Rectangle {
 	static class BlockFormat {
 		private final CharFont charfont;
 		private final int indent;
+		private final int alignment;
 		
-		public BlockFormat(CharFont charfont, int indent) {
+		/*public BlockFormat(CharFont charfont, int indent, int alignment) {
 			this.charfont=charfont;
 			this.indent=indent;
+			this.alignment=alignment;
+		}*/
+		
+		public BlockFormat(Block block) {
+			charfont=block.charfont;
+			indent=block.indent();
+			alignment=block.alignment();
 		}
 		
 		boolean equals(BlockFormat blockformat) {
-			return charfont.equals(blockformat.charfont) &&
-					indent==blockformat.indent;
+			if(alignment==Common._CENTERALIGNED || 
+					blockformat.alignment==Common._CENTERALIGNED)
+				return charfont.equals(blockformat.charfont);
+			else 
+				return charfont.equals(blockformat.charfont) &&
+						indent==blockformat.indent;
 		}
 		
 		public int hashCode() {
-			int hash=0;
-			
-	        hash+=charfont.hashCode()*100 + indent;
+	        int hash=charfont.hashCode() + (indent<<12) + (alignment<<24) ;
 	        
 	        return hash;
 		}

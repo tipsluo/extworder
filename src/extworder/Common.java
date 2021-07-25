@@ -41,6 +41,13 @@ public class Common {
 	final static int _BOLD=2;
 	final static int _SEMIBOLD=1;
 	final static int _NOBOLD=0;
+	
+	//final static int _NOINDENT=-99;
+	
+	final static int _LEFTALIGNED=-1;
+	final static int _CENTERALIGNED=0;
+	final static int _RIGHTALIGNED=1;
+	final static int _NOALIGNED=-99;
 
 	final static CheckBold checkBold=new CheckBold();
 	
@@ -110,7 +117,7 @@ public class Common {
 		@Override
 		public boolean filter(Block block) {
 			for(BlockFormat blockformat: blockformats)
-				if(blockformat.equals(new BlockFormat(block.charfont,block.indentColumn())))
+				if(blockformat.equals(new BlockFormat(block)))
 					return true;
 				
 			return false;

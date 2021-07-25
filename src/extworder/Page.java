@@ -20,7 +20,7 @@ import extworder.Char.Point;
 import extworder.Common.BlockFilter;
 import extworder.Content.HStretch;
 
-public class Page {
+public class Page extends Rectangle{
 	Content content;
 	int id;
     ArrayList<Char> chars;
@@ -70,6 +70,10 @@ public class Page {
 		content.pdProcessor.processPage(pdPage);
 		
 		bitmap=null;
+		
+		for(Char ch:chars) {
+			updateRectangle(ch);
+		}
 	}
 	
 	void markHeaderFooter() {
