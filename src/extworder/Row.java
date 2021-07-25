@@ -34,7 +34,7 @@ public class Row extends Rectangle {
 		
 		Collections.sort(chars,Char.compareChars);
 
-		charfont=mostCharFont();
+		charfont=getCharFont();
 	}
 
 	private void expand(Char ch) {
@@ -61,7 +61,7 @@ public class Row extends Rectangle {
 		
 		Collections.sort(chars,Char.compareChars);
 
-		charfont=mostCharFont();
+		charfont=getCharFont();
 		
 		if (row.block!=null)
 			row.block.rows.remove(row);
@@ -139,11 +139,15 @@ public class Row extends Rectangle {
 		//return charfont.getHeight()==row.charfont.getHeight();
 	}
 	
-	public CharFont mostCharFont() {
+	private CharFont getCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
 		for (Char ch: chars) {
 			CharFont cf=new Char.CharFont(ch.fontname,ch.height,ch.color);
+			
+			if(cf.equals(page.content.textCharfont))
+				return cf;
+			
 			int n=charFonts.compute(cf, (k,v) -> (v == null ? 0 : v) + 1);
         	charFonts.put(cf,n);
 		}

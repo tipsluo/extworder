@@ -64,19 +64,33 @@ public class Content extends PDFTextStripper {
 				e.printStackTrace();
 			}
 			
-			if(currPage!=null) {
+			pages.add(currPage);
+			/*if(currPage!=null) {
 				currPage.complete(document.getPage(currPid-1));
 				if(! currPage.ignored())
 					pages.add(currPage);
-			}
+			}*/
 		}
-		
-		if( document != null )
-             document.close();
 		
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charfontIndexes=makeCharfontIndexes();
 		
+		for(int i=0; i<pages.size();) {
+			Page page=pages.get(i);
+			
+			page.complete(document.getPage(i));
+			
+			if(page.ignored()) {
+				pages.remove(i);
+				continue;
+			}
+			
+			i++;
+		}
+		
+		if( document != null )
+             document.close();
+			
 		markHeaderBlock();
 		markFooterBlock();
 		for(Page page:pages) {
