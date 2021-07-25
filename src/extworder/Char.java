@@ -139,8 +139,8 @@ public class Char extends Rectangle {
 		
 	    @Override
 	    public int hashCode() {
-	    	return (value() << 8) + (byte)name.hashCode();
-	    	//return value();
+	    	//return (value() << 8) + (byte)name.hashCode();
+	    	return value();
 	    }
 		
 		@Override
