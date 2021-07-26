@@ -69,7 +69,7 @@ public class Extworder {
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
-		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+		printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
 	static public void main_test7_content_print() throws IOException {

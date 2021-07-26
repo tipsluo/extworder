@@ -31,7 +31,9 @@ public class Common {
 	final static String _PageFooterBlock="PAGEFOOTER";
 	final static String _BeforeFirstText="BEFOREFIRSTTEXT";
 	final static String _FirstText="FIRSTTEXT";
-	final static String _SubtitlePrefix="SUBTITLEPREFIX_";
+	final static String _SubtitlePrefix="SUBTITLE_";
+	final static String _IgnoredBlockPrefix="IGNORED_";
+	final static String _IgnoredBlockIntraText=_IgnoredBlockPrefix+"INTRATEXT";
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	
@@ -42,8 +44,6 @@ public class Common {
 	final static int _SEMIBOLD=1;
 	final static int _NOBOLD=0;
 	
-	//final static int _NOINDENT=-99;
-	
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
@@ -52,6 +52,11 @@ public class Common {
 	final static CheckBold checkBold=new CheckBold();
 	
 	final static boolean __DEBUG=false;
+	
+	final static Pattern infinishedTextBlock;
+	static {
+		infinishedTextBlock=Pattern.compile("[a-zA-Z0-9,]$");
+	}
 	
 	public Common() {
 	} 
@@ -77,10 +82,10 @@ public class Common {
 		return Common._SubtitlePrefix+Integer.toString(
 					block.page.content.charfontIndexes.get(block.charfont));
 	}
+
 	
 	interface BlockFilter {
 		public boolean filter(Block block);
-		
 	}
 	
 	static class TextBlockFilter implements BlockFilter {
@@ -88,14 +93,21 @@ public class Common {
 		public boolean filter(Block block) {
 			return (block.charfont.compareTo(block.page.content.textCharfont) == 0 &&
 			   block.type!=Common._BeforeFirstText ) ||
-					block.subtitleBlockFilter.filter(block);
+					Block.subtitleBlockFilter.filter(block);
 		}
 	}
 	
 	static class BigBlockFilter implements BlockFilter {
+		final static Pattern pattern;
+		
+		static {
+			pattern=Pattern.compile("^"+_IgnoredBlockPrefix);
+		}
+		
 		@Override
 		public boolean filter(Block block) {
-			return block.charfont.compareTo(block.page.content.textCharfont) >= 0;
+			return block.charfont.compareTo(block.page.content.textCharfont) >= 0 &&
+					! pattern.matcher(block.type).find();
 		}
 	}
 	

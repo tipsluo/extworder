@@ -214,11 +214,6 @@ public class Page extends Rectangle{
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d\nWidth %f Height %f\n",id,width,height));
 		
-		/*fw.write("\n\nColumns:\n----------------------\n");
-		for(Column column:columns) {
-			column.print(fw);
-		}*/
-		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
 			block.print(fw);

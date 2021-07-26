@@ -105,6 +105,8 @@ public class Content extends PDFTextStripper {
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
 	
+		markIntraTextBlocks();
+		
 		markSubtitleBlocks();
 	}
 
@@ -286,6 +288,27 @@ public class Content extends PDFTextStripper {
 						bigBlockList.get(j).type=Common.subtitleBlockType(bigBlockList.get(j));
 			}
 		}
+	}
+	
+	private void markIntraTextBlocks() {
+		boolean textInfinished=false;
+		
+		for(Page page:pages)
+			for(Column column:page.columns)
+				for(Block block:column.blocks) {
+					if(block.isTextInfinished()) {
+						textInfinished=true;
+						continue;
+					}
+					
+					if(textInfinished)
+						if(block.isTextBlock()) {
+							textInfinished=false;
+							continue;
+						} else if(block.type.isEmpty()) {
+							block.type=Common._IgnoredBlockIntraText;
+						}	
+				}
 	}
 
 	private void makeColumns() {

@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.TreeMap;
+import java.util.regex.Pattern;
 
 import extworder.Char.CharFont;
 import extworder.Common.AdditionalSubtitleFormatFilter;
@@ -160,6 +161,15 @@ public class Block extends Rectangle {
 				blockWidth <= page.content.highColumnWidth;
 	}
 	
+	boolean isTextInfinished() {
+		if(! isTextBlock())
+			return false;
+			
+		String lastStr=rows.get(rows.size()-1).string();
+			
+		return Common.infinishedTextBlock.matcher(lastStr.trim()).find();
+	}
+	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
@@ -213,12 +223,6 @@ public class Block extends Rectangle {
 		private final CharFont charfont;
 		private final int indent;
 		private final int alignment;
-		
-		/*public BlockFormat(CharFont charfont, int indent, int alignment) {
-			this.charfont=charfont;
-			this.indent=indent;
-			this.alignment=alignment;
-		}*/
 		
 		public BlockFormat(Block block) {
 			charfont=block.charfont;
