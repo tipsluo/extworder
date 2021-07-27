@@ -37,6 +37,8 @@ public class Common {
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	
+	final static float _CenterAlignAdjustment=0.05f;
+	
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;
 	

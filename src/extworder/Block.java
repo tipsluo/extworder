@@ -128,7 +128,7 @@ public class Block extends Rectangle {
 	int alignment() {
 		int l,r;
 		
-		if(column==null) {
+		if(column!=null) {
 			l=column.left;
 			r=column.right;
 		} else {
@@ -139,7 +139,8 @@ public class Block extends Rectangle {
 		int leftIndent=left-l;
 		int rightIndent=r-right;
 		
-		if(leftIndent==rightIndent)
+		if(Math.abs(leftIndent-rightIndent) < 
+				(int)(page.content.columnWidth*Common._CenterAlignAdjustment))
 			return Common._CENTERALIGNED;
 		else if(leftIndent==0)
 			return Common._LEFTALIGNED;
