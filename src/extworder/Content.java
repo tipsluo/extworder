@@ -422,9 +422,16 @@ public class Content extends PDFTextStripper {
 		int minAbstractWordNum=Common._MinAbstractWordNum + 
 					pages.size() * Common._AbstractWordPageRatio;
 		
-		for (Page page:pages)
+		boolean stopped=false;
+		
+		for (Page page:pages) {
 			for(int i=0; i<page.blocks.size();i++) {
 				Block block=page.blocks.get(i);
+				
+				if(block.type==Common._FirstText) {
+					stopped=true;
+					break;
+				}
 				
 				str=block.string();
 				str=str.replaceAll("[\\r\\n]+", " ");
@@ -451,6 +458,10 @@ public class Content extends PDFTextStripper {
 					}
 				}
 			}
+			
+			if(stopped)
+				break;
+		}
 			
 		return null;
 	}
