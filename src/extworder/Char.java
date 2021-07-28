@@ -86,10 +86,10 @@ public class Char extends Rectangle {
 	}
 	
 	static public class CharFont implements Comparable<CharFont>{
-		private String name;
-		private float height;
-		private int bold;
-		private int rgb;
+		String name;
+		float height;
+		int bold;
+		int rgb;
 		
 		public CharFont(String name,float height,PDColor color) {
 			this.name=name;

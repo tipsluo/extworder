@@ -65,11 +65,6 @@ public class Content extends PDFTextStripper {
 			}
 			
 			pages.add(currPage);
-			/*if(currPage!=null) {
-				currPage.complete(document.getPage(currPid-1));
-				if(! currPage.ignored())
-					pages.add(currPage);
-			}*/
 		}
 		
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
@@ -347,7 +342,7 @@ public class Content extends PDFTextStripper {
 		if(subtitleFormatChain!=null) {
 			fw.write(String.format("Subtitles: "));
 			for(BlockFormat blockformat:subtitleFormatChain.blockformats)
-				fw.write(String.format(" %d",charfontIndexes.get(blockformat)));
+				fw.write(String.format(" %d",charfontIndexes.get(blockformat.charfont)));
 			fw.write("\n\n");
 		}
 		

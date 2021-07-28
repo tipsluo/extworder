@@ -189,6 +189,8 @@ public class Block extends Rectangle {
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d\n====>\n\n",
 				content.charfontIndexes.get(charfont),left,right,top,bottom));
+		fw.write(String.format("charfont color=%d, charfont height=%f, charfont bold=%d\n",
+				charfont.rgb,charfont.height,charfont.bold));
 		
 		int y=rows.get(0).bottom;
 		for(Row row:rows) {
@@ -221,9 +223,9 @@ public class Block extends Rectangle {
 	
 	
 	static class BlockFormat {
-		private final CharFont charfont;
-		private final int indent;
-		private final int alignment;
+		final CharFont charfont;
+		final int indent;
+		final int alignment;
 		
 		public BlockFormat(Block block) {
 			charfont=block.charfont;
