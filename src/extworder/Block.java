@@ -91,7 +91,7 @@ public class Block extends Rectangle {
 	}
 	
 	boolean isSimilar(Block block) {
-		int allowedDisplace = (int) (Common._BlockDisplaceRatio * charfont.getHeight());
+		int allowedDisplace = (int) (Common._BlockDisplaceRatio * charfont.height);
 		
 		if( Math.abs(left - block.left) <= allowedDisplace &&
 				Math.abs(top - block.top) <= allowedDisplace &&
@@ -169,6 +169,31 @@ public class Block extends Rectangle {
 		String lastStr=rows.get(rows.size()-1).string();
 			
 		return Common.infinishedTextBlock.matcher(lastStr.trim()).find();
+	}
+	
+	boolean isNonTitle() {
+		if(rows.size()<2)
+			return false;
+		
+		Row row1=rows.get(0);
+		for(int i=1; i<rows.size(); i++) {
+			Row row2=rows.get(i);
+			String s=row2.string();
+			
+			int p=s.indexOf(' ');
+			
+			if(p<0)
+				continue;
+			
+			int l=row2.chars.get(p).right-row2.chars.get(0).left+1;
+			int minRight=column.right - l;
+			
+			if(row1.right < minRight)
+				return true;
+			
+			row1=row2;
+		}
+		return false;
 	}
 	
 	public void print(FileWriter fw) throws IOException {

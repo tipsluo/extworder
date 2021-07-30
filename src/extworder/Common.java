@@ -12,7 +12,6 @@ public class Common {
 	final static float _CharHGapRatio=1.5f;
 	final static float _CharVGapRatio=2.5f;
 	final static float _HSpaceMin=0.3f;
-	//final static float _SameBlockFontHeightDiff=0.4f;
 	final static float _SameBlockRowWidthDiff=0.1f;
 	
 	final static String _LenderStr="LENDER";
@@ -42,16 +41,10 @@ public class Common {
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;
 	
-	final static int _BOLD=2;
-	final static int _SEMIBOLD=1;
-	final static int _NOBOLD=0;
-	
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
 	final static int _NOALIGNED=-99;
-
-	final static CheckBold checkBold=new CheckBold();
 	
 	final static boolean __DEBUG=false;
 	
@@ -108,7 +101,12 @@ public class Common {
 		
 		@Override
 		public boolean filter(Block block) {
-			return block.charfont.compareTo(block.page.content.textCharfont) >= 0 &&
+			int charfontDiff=block.charfont.compareTo(block.page.content.textCharfont);
+			
+			if(charfontDiff>0 && block.isNonTitle())
+				return false;
+			
+			return  charfontDiff >= 0 &&
 					! pattern.matcher(block.type).find();
 		}
 	}
@@ -135,43 +133,6 @@ public class Common {
 					return true;
 				
 			return false;
-		}
-	}
-	
-	final static class CheckBold {
-		final Pattern LastPart;
-		final Pattern Bold;
-		final Pattern Semibold;
-		
-		public CheckBold() {
-			LastPart=Pattern.compile("[\\.-](.*)$");
-			Bold=Pattern.compile("Bold");
-			Semibold=Pattern.compile("Semibold");
-		}
-		
-		public int check(String s) {
-			Matcher m=LastPart.matcher(s);
-			
-			if(m.find()) {
-				String lastPart=m.group(1);
-				
-				if(lastPart.equals("B"))
-					return _BOLD;
-				else {
-					m=Bold.matcher(lastPart);
-					if(m.find())
-						return _BOLD;
-					else {
-						m=Semibold.matcher(lastPart);
-						if(m.find())
-							return _SEMIBOLD;
-						else
-							return _NOBOLD;
-					}
-				}
-			}
-			
-			return _NOBOLD;
 		}
 	}
 }

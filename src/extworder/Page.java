@@ -120,9 +120,14 @@ public class Page extends Rectangle{
 		
 		Collections.sort(columnStretches);
 		
-		for(HStretch columnStretch:columnStretches)
-			columns.add(new Column(columnStretch.left,headerY,
-					columnStretch.right,footerY));
+		for(HStretch columnStretch:columnStretches) {
+			int a=(int) (content.columnWidth * Common._ColumnWidthAdjustment / 2);
+			int l=columnStretch.left - a;
+			int r=columnStretch.right + a;
+			
+			columns.add(new Column(l,headerY,
+					r,footerY));
+		}
 	}
 	
 	private void getAllCharBlocks() {

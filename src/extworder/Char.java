@@ -4,11 +4,10 @@ import java.awt.Color;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
-
-import extworder.Common.CheckBold;
 
 public class Char extends Rectangle {
 	String str;
@@ -90,6 +89,7 @@ public class Char extends Rectangle {
 		float height;
 		int bold;
 		int rgb;
+		//final static CheckBold checkBold=new CheckBold();
 		
 		public CharFont(String name,float height,PDColor color) {
 			this.name=name;
@@ -100,7 +100,7 @@ public class Char extends Rectangle {
 				e.printStackTrace();
 			}
 					
-			bold=Common.checkBold.check(name);
+			bold=CheckBold.check(name);
 		}
 		
 		private int colorDiff() {
@@ -132,14 +132,11 @@ public class Char extends Rectangle {
 			if(bold>0)
 				i=i + 400 * bold;	
 					
-	        // i=(i<<8) + colorDiff();
-	         
 	        return i;
 		}
 		
 	    @Override
 	    public int hashCode() {
-	    	//return (value() << 8) + (byte)name.hashCode();
 	    	return value();
 	    }
 		
@@ -162,8 +159,49 @@ public class Char extends Rectangle {
 	        return hashCode()-charfont.hashCode();
 	    }
 		
-		float getHeight() {
+		/*float getHeight() {
 			return height;
+		}*/
+
+		final static class CheckBold {
+			final static int _BOLD=2;
+			final static int _SEMIBOLD=1;
+			final static int _NOBOLD=0;
+			
+			static final Pattern LastPart;
+			static final Pattern Bold;
+			static final Pattern Semibold;
+			
+			static {
+				LastPart=Pattern.compile("[\\.-](.*)$");
+				Bold=Pattern.compile("Bold");
+				Semibold=Pattern.compile("Semibold");
+			}
+			
+			public static int check(String s) {
+				Matcher m=LastPart.matcher(s);
+				
+				if(m.find()) {
+					String lastPart=m.group(1);
+					
+					if(lastPart.equals("B"))
+						return _BOLD;
+					else {
+						m=Bold.matcher(lastPart);
+						if(m.find())
+							return _BOLD;
+						else {
+							m=Semibold.matcher(lastPart);
+							if(m.find())
+								return _SEMIBOLD;
+							else
+								return _NOBOLD;
+						}
+					}
+				}
+				
+				return _NOBOLD;
+			}
 		}
 	}
 	

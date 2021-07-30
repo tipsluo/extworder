@@ -78,7 +78,7 @@ public class Row extends Rectangle {
 		for (int i=left; i<=right; i++) {
 			int j=1;
 			int j1=1;
-			float maxDist=charfont.getHeight()*Common._CharVGapRatio;
+			float maxDist=charfont.height*Common._CharVGapRatio;
 			for (;j1<maxDist;j1++) {
 				j=top-j1;
 				if (j<0) break;
@@ -93,7 +93,7 @@ public class Row extends Rectangle {
 			
 			if(!checkSameBlock(row)) continue;
 			
-			if( j1 > row.charfont.getHeight()*Common._CharVGapRatio ) continue;
+			if( j1 > row.charfont.height*Common._CharVGapRatio ) continue;
 			
 			rows.add(row);
 		}
@@ -111,7 +111,7 @@ public class Row extends Rectangle {
 		for (int i=left; i<=right; i++) {
 			int j=1;
 			int j1=1;
-			float maxDist=charfont.getHeight()*Common._CharVGapRatio;
+			float maxDist=charfont.height*Common._CharVGapRatio;
 			for (;j1<maxDist;j1++) {
 				j=bottom+j1;
 				if (j>=page.height) break;
@@ -126,7 +126,7 @@ public class Row extends Rectangle {
 			if(!checkSameBlock(row))
 				continue;
 			
-			if( j1 > row.charfont.getHeight()*Common._CharVGapRatio ) continue;
+			if( j1 > row.charfont.height*Common._CharVGapRatio ) continue;
 			
 			rows.add(row);
 		}
