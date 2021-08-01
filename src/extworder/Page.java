@@ -239,7 +239,7 @@ public class Page extends Rectangle{
 		String str="";
 		
 		for(Column column: columns) {
-			str+=column.string(Block.textBlockFilter);
+			str+=column.string(Block.textBlockFilter,Block.bigBlockFilter);
 		}
 		
 		return str;
@@ -326,13 +326,22 @@ public class Page extends Rectangle{
 				block.print(fw);
 		}
 		
-		String string(BlockFilter blockFilter) {
+		String string(BlockFilter ...blockFilters) {
 			String str="";
 			
 			for(Block block:blocks) {
-				if(! blockFilter.filter(block))
-					continue;
-				str+=block.string()+"\n";
+				boolean unmatched=false;
+				
+				for(BlockFilter filter : blockFilters)
+					if(! filter.filter(block)) {
+						unmatched=true;
+						break;
+					}
+				
+					if(unmatched)
+						continue;
+				
+					str+=block.string()+"\n";
 			}
 			
 			return str;

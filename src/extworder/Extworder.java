@@ -69,6 +69,7 @@ public class Extworder {
 		printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
+		printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
@@ -78,6 +79,7 @@ public class Extworder {
 		printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
+		printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
