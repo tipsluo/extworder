@@ -143,7 +143,7 @@ public class Row extends Rectangle {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
 		for (Char ch: chars) {
-			CharFont cf=new Char.CharFont(ch.fontname,ch.height,ch.color);
+			CharFont cf=new Char.CharFont(ch.fontname,ch.height);
 			
 			if(cf.equals(page.content.textCharfont))
 				return cf;

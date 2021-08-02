@@ -12,7 +12,7 @@ import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
 public class Char extends Rectangle {
 	String str;
 	float x,y;
-	PDColor color;
+	//PDColor color;
 	String fontname;
 	Row row;
 	float width,height;
@@ -20,14 +20,14 @@ public class Char extends Rectangle {
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
 	
-	public Char(String str,float x, float y, float width, float height, String fontname, PDColor color) {
+	public Char(String str,float x, float y, float width, float height, String fontname) {
 		this.str=str;
 		this.x=x;
 		this.y=y;
 		this.height=height;
 		this.width=width;
 		this.fontname=fontname;
-		this.color=color;
+		//this.color=color;
 		left=Math.round(x);
 		right=(int)(Math.round(x+width-0.001));
 		top=Math.round(y);
@@ -88,22 +88,21 @@ public class Char extends Rectangle {
 		String name;
 		float height;
 		int bold;
-		int rgb;
-		//final static CheckBold checkBold=new CheckBold();
+		//int rgb;
 		
-		public CharFont(String name,float height,PDColor color) {
+		public CharFont(String name,float height) {
 			this.name=name;
 			this.height=height;
-			try {
+			/*try {
 				rgb=color.toRGB();
 			} catch (IOException e) {
 				e.printStackTrace();
-			}
+			}*/
 					
 			bold=CheckBold.check(name);
 		}
 		
-		private int colorDiff() {
+		/*private int colorDiff() {
 			int r = Math.abs((rgb >> 16) & 0x000000FF);
 			int g = Math.abs((rgb >>8 ) & 0x000000FF);
 			int b = Math.abs((rgb) & 0x000000FF);
@@ -124,7 +123,7 @@ public class Char extends Rectangle {
 				min=b;
 			
 			return max-min;
-		}
+		}*/
 		
 		private int value() {
 			int i=(int) (height * 1000);
@@ -158,10 +157,6 @@ public class Char extends Rectangle {
 	    public int compareTo(CharFont charfont) {
 	        return hashCode()-charfont.hashCode();
 	    }
-		
-		/*float getHeight() {
-			return height;
-		}*/
 
 		final static class CheckBold {
 			final static int _BOLD=2;

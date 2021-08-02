@@ -214,8 +214,8 @@ public class Block extends Rectangle {
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d\n====>\n\n",
 				content.charfontIndexes.get(charfont),left,right,top,bottom));
-		fw.write(String.format("charfont color=%d, charfont height=%f, charfont bold=%d\n",
-				charfont.rgb,charfont.height,charfont.bold));
+		fw.write(String.format("ccharfont height=%f, charfont bold=%d\n",
+				charfont.height,charfont.bold));
 		
 		int y=rows.get(0).bottom;
 		for(Row row:rows) {

@@ -3,6 +3,8 @@ package extworder;
 import java.io.File;
 import java.io.IOException;
 
+import javax.imageio.ImageIO;
+
 import org.apache.pdfbox.pdmodel.PDDocument;
 //import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
@@ -183,6 +185,9 @@ public class Extworder {
 		myWriter.write(content.subtitles());
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.text());
+		
+		File fileTemp = new File(Common._TestDataDir+fn + "_page1.jpg");
+		ImageIO.write(content.pages.get(0).pageImg,"JPEG",fileTemp);
 		
 		myWriter.close();
 	}

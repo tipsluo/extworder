@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.rendering.PDFRenderer;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
@@ -35,6 +36,7 @@ public class Content extends PDFTextStripper {
     int currPid;
     Page currPage=null;
 	PDProcessor pdProcessor;
+	PDFRenderer renderer;
     int contentLeft,contentRight,contentWidth;
 	int columnNumber,columnWidth;
 	float lowColumnWidth;
@@ -50,6 +52,7 @@ public class Content extends PDFTextStripper {
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
+		renderer = new PDFRenderer(document);
 		
 		setSortByPosition( true ); 
 		
@@ -63,6 +66,8 @@ public class Content extends PDFTextStripper {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			
+			currPage.pageImg = renderer.renderImageWithDPI(currPid-1, 200);
 			
 			pages.add(currPage);
 		}
@@ -112,7 +117,7 @@ public class Content extends PDFTextStripper {
 		}
 		
         for (TextPosition text : textPositions) {
-        	currPage.writeString(text,getGraphicsState().getNonStrokingColor());
+        	currPage.writeString(text);
         }
     }
 		
