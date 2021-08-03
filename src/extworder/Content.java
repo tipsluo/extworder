@@ -1,5 +1,6 @@
 package extworder;
 
+import java.awt.Color;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
@@ -43,6 +44,7 @@ public class Content extends PDFTextStripper {
 	float highColumnWidth;
 	boolean hasFirstTextBlock=false;
 	BlockFormatChain subtitleFormatChain;
+	int bgRGB;
 	
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
@@ -71,6 +73,8 @@ public class Content extends PDFTextStripper {
 			
 			pages.add(currPage);
 		}
+		
+		bgRGB=getBackgroundColor();
 		
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charfontIndexes=makeCharfontIndexes();
@@ -310,7 +314,23 @@ public class Content extends PDFTextStripper {
 						}	
 				}
 	}
-
+	
+	private int getBackgroundColor() {
+	    TreeMap<Integer,Integer> pixelColors=new TreeMap<Integer,Integer>();
+	    
+	    for(Page page:pages)
+	    	for(int x=0; x<page.pageImg.getWidth(); x++)
+		    	for(int y=0; y<page.pageImg.getHeight(); y++) {
+		    		int rgb=page.pageImg.getRGB(x,y);
+		    		int n=pixelColors.compute(rgb, (k,v) -> (v == null ? 0 : v) + 1);
+		    		pixelColors.put(rgb,n);
+		    	}
+	    
+	    int rgb=pixelColors.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+	    
+	    return rgb;
+	}
+	
 	private void makeColumns() {
 		for(Page page:pages)
 			page.makeColumns();

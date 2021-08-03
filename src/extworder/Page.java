@@ -1,6 +1,5 @@
 package extworder;
 
-import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -12,8 +11,6 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import org.apache.pdfbox.pdmodel.PDPage;
-import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
-import org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Char.CharFont;
@@ -76,8 +73,10 @@ public class Page extends Rectangle{
 		for(Char ch:chars) {
 			updateRectangle(ch);
 		}
+		
+		clearBlockColors();
 	}
-	
+
 	void markHeaderFooter() {
 		headerY=1;
 		footerY=Math.round(height);
@@ -92,6 +91,23 @@ public class Page extends Rectangle{
 					footerY=block.top;
 		}
 	}
+	
+	private void clearBlockColors() {
+		float xRatio=pageImg.getWidth()/width;
+		float yRatio=pageImg.getHeight()/height;
+		
+		for(Block block:blocks) {
+			int w=block.right-block.left+1;
+			int h=block.bottom-block.top+1;
+			for(int x=0; x<w; x++)
+				for(int y=0; y<h; y++)
+					pageImg.setRGB((int)(block.left+x*xRatio),
+							(int)(block.top+y*yRatio),
+							content.bgRGB);
+		}
+	}
+
+	
 	
 	protected void makeColumns() {
 		TreeMap<HStretch,Integer> hStretches=new TreeMap<>();
