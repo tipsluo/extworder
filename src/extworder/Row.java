@@ -17,13 +17,13 @@ public class Row extends Rectangle {
 	float width,height;
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
-		r1.top != r2.top ? (int)(r1.top-r2.top) : (int) (r1.left-r2.left);
+		r1.upper != r2.upper ? (int)(r1.upper-r2.upper) : (int) (r1.left-r2.left);
 	
 	public Row(Page page, int x, int y) {
 		this.page=page;
 		build(x,y);
 		width=right-left;
-		height=bottom-top;
+		height=lower-upper;
 	}
 	
 	public void build(int x,int y) {
@@ -71,7 +71,7 @@ public class Row extends Rectangle {
 	public ArrayList<Row> getAboveConnected() {		
 		ArrayList<Row> rows=new ArrayList<Row>();
 		
-		if (top<1) return rows;
+		if (upper<1) return rows;
 		
 		Row row=null;
 		
@@ -80,7 +80,7 @@ public class Row extends Rectangle {
 			int j1=1;
 			float maxDist=charfont.height*Common._CharVGapRatio;
 			for (;j1<maxDist;j1++) {
-				j=top-j1;
+				j=upper-j1;
 				if (j<0) break;
 				if (page.pageBitmap.points[i][j]!=null) break;
 			}
@@ -104,7 +104,7 @@ public class Row extends Rectangle {
 	public ArrayList<Row> getBelowConnected() {		
 		ArrayList<Row> rows=new ArrayList<Row>();
 		
-		if (bottom >= page.height) return rows;
+		if (lower >= page.height) return rows;
 		
 		Row row=null;
 		
@@ -113,7 +113,7 @@ public class Row extends Rectangle {
 			int j1=1;
 			float maxDist=charfont.height*Common._CharVGapRatio;
 			for (;j1<maxDist;j1++) {
-				j=bottom+j1;
+				j=lower+j1;
 				if (j>=page.height) break;
 				if (page.pageBitmap.points[i][j]!=null) break;
 			}

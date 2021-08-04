@@ -39,8 +39,8 @@ public class Block extends Rectangle {
 		charfont=mostCharFont();
 	}
 	
-	public Block(int left,int top,int right, int bottom) {
-		super(left,top,right,bottom);
+	public Block(int left,int upper,int right, int lower) {
+		super(left,upper,right,lower);
 	}
 	
 	public void build(int x, int y) {
@@ -94,9 +94,9 @@ public class Block extends Rectangle {
 		int allowedDisplace = (int) (Common._BlockDisplaceRatio * charfont.height);
 		
 		if( Math.abs(left - block.left) <= allowedDisplace &&
-				Math.abs(top - block.top) <= allowedDisplace &&
+				Math.abs(upper - block.upper) <= allowedDisplace &&
 				Math.abs(right - block.right) < allowedDisplace &&
-				Math.abs(bottom - block.bottom) < allowedDisplace )
+				Math.abs(lower - block.lower) < allowedDisplace )
 			return true;
 		return false;
 	}
@@ -212,16 +212,16 @@ public class Block extends Rectangle {
 		else 
 			fw.write(String.format("type: undefined"));
 					
-		fw.write(String.format("\ntypeindex=%d left=%d right=%d top=%d bottom=%d\n====>\n\n",
-				content.charfontIndexes.get(charfont),left,right,top,bottom));
+		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n\n",
+				content.charfontIndexes.get(charfont),left,right,upper,lower));
 		fw.write(String.format("ccharfont height=%f, charfont bold=%d\n",
 				charfont.height,charfont.bold));
 		
-		int y=rows.get(0).bottom;
+		int y=rows.get(0).lower;
 		for(Row row:rows) {
-			if (row.top>y) {
+			if (row.upper>y) {
 				fw.write("\n");
-				y=row.bottom;
+				y=row.lower;
 			} else {
 				fw.write(" ");
 			}
@@ -234,11 +234,11 @@ public class Block extends Rectangle {
 	String string() {
 		String str="";
 		
-		int y=rows.get(0).bottom;
+		int y=rows.get(0).lower;
 		for(Row row:rows) {
-			if (row.top>y) {
+			if (row.upper>y) {
 				str+="\n";
-				y=row.bottom;
+				y=row.lower;
 			}
 			str+=row.string();
 		}
@@ -276,11 +276,11 @@ public class Block extends Rectangle {
 	
 	static class CompareBlocks implements Comparator<Block> {
 		public int compare(Block b1, Block b2) {
-			if( ( b1.top >= b2.top && b1.top <= b2.bottom ) || 
-					( b2.top >= b1.top && b2.top <= b1.bottom ) )
+			if( ( b1.upper >= b2.upper && b1.upper <= b2.lower ) || 
+					( b2.upper >= b1.upper && b2.upper <= b1.lower ) )
 				return b1.left - b2.left;
 			else
-				return b1.top - b2.top;
+				return b1.upper - b2.upper;
 		}
 	}
 }

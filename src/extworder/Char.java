@@ -12,7 +12,6 @@ import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
 public class Char extends Rectangle {
 	String str;
 	float x,y;
-	//PDColor color;
 	String fontname;
 	Row row;
 	float width,height;
@@ -30,8 +29,8 @@ public class Char extends Rectangle {
 		//this.color=color;
 		left=Math.round(x);
 		right=(int)(Math.round(x+width-0.001));
-		top=Math.round(y);
-		bottom=(int)(Math.round(y+height-0.001));
+		upper=Math.round(y);
+		lower=(int)(Math.round(y+height-0.001));
 	}
 
 	public ArrayList<Char> getLeftConnected(Page page) {		
@@ -41,7 +40,7 @@ public class Char extends Rectangle {
 		
 		Char ch=null;
 		
-		for (int j=top; j<=bottom; j++) {
+		for (int j=upper; j<=lower; j++) {
 			int i=left;
 			for(int i1=1; i1 < height * Common._CharHGapRatio;i1++) {
 				i=left-i1;
@@ -66,7 +65,7 @@ public class Char extends Rectangle {
 		
 		Char ch=null;
 		
-		for (int j=top; j<=bottom; j++) {
+		for (int j=upper; j<=lower; j++) {
 			int i=right;
 			for(int i1=1; i1 < height * Common._CharHGapRatio ; i1++) {
 				i=right+i1;

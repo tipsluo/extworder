@@ -151,7 +151,7 @@ public class Extworder {
 		
 			for(Page page:content.pages) {
 		    for(Block block:page.blocks) {
-		    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.top,block.bottom));
+		    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.upper,block.lower));
 		    	for(Row row:block.rows) {
 		    		for(Char ch:row.chars) {
 			    		myWriter.write(String.format("%s (x=%f y=%f) width=%f height=%f fontname=%s\n", ch.str,ch.x,ch.y,ch.width,ch.height,ch.fontname));

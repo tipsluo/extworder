@@ -82,12 +82,12 @@ public class Page extends Rectangle{
 		
 		for(Block block:blocks) {
 			if(block.type==Common._PageHeaderBlock)
-				if(headerY<block.bottom)
-					headerY=block.bottom;
+				if(headerY<block.lower)
+					headerY=block.lower;
 			
 			if(block.type==Common._PageFooterBlock)
-				if(footerY>block.top)
-					footerY=block.top;
+				if(footerY>block.upper)
+					footerY=block.upper;
 		}
 	}
 	
@@ -97,12 +97,16 @@ public class Page extends Rectangle{
 		
 		for(Row row:rows) {
 			for(int x=row.left; x<=row.right; x++) {
-				for(int y=row.top; y<=row.bottom; y++) {
+				for(int y=row.upper; y<=row.lower; y++) {
 					if(x<w && y<h)
 						pageImg.setRGB(x,y,content.bgRGB);
 				}
 			}
 		}
+	}
+	
+	private void getColoredBlocks() {
+		
 	}
 	
 	protected void makeColumns() {
@@ -189,7 +193,7 @@ public class Page extends Rectangle{
 		Collections.sort(rows,Row.compareRows);
 	}
 	
-	protected ArrayList<Block> topBlocks() {
+	protected ArrayList<Block> upperBlocks() {
 		ArrayList<Block> tbs=new ArrayList<Block>();
 		
 		for(Block block:blocks)
@@ -198,7 +202,7 @@ public class Page extends Rectangle{
 		for(Block block:blocks)
 			for(int i=0; i<tbs.size(); i++) {
 				Block tb=tbs.get(i);
-				if( tb.isHIntersected(block) && tb.top>block.bottom ) {
+				if( tb.isHIntersected(block) && tb.upper>block.lower ) {
 					tbs.remove(tb);
 					i--;
 				}
@@ -209,7 +213,7 @@ public class Page extends Rectangle{
 		return tbs;
 	}
 	
-	protected ArrayList<Block> bottomBlocks() {
+	protected ArrayList<Block> lowerBlocks() {
 		ArrayList<Block> bbs=new ArrayList<Block>();
 		
 		for(Block block:blocks)
@@ -218,7 +222,7 @@ public class Page extends Rectangle{
 		for(Block block:blocks)
 			for(int i=0; i<bbs.size(); i++) {
 				Block bb=bbs.get(i);
-				if( bb.isHIntersected(block) && bb.bottom<block.top ) {
+				if( bb.isHIntersected(block) && bb.lower<block.upper ) {
 					bbs.remove(bb);
 					i--;
 				}
@@ -232,7 +236,7 @@ public class Page extends Rectangle{
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d\nWidth %f Height %f Left %d Right %d Top %d Bottom %d\n",
-				id,width,height,left,right,top,bottom));
+				id,width,height,left,right,upper,lower));
 		fw.write(String.format("BufferImage Width %d Height %d\n",
 				pageImg.getWidth(),pageImg.getHeight()));
 		
@@ -247,8 +251,8 @@ public class Page extends Rectangle{
 		fw.write("==============================\n");
 		fw.write(String.format("Page %d images\n",id));
 		for(Block block: images) {
-			fw.write(String.format("image => left: %d, top: %d, right: %d, bottom: %d\n",
-									block.left,block.top,block.right,block.bottom));
+			fw.write(String.format("image => left: %d, upper: %d, right: %d, lower: %d\n",
+									block.left,block.upper,block.right,block.lower));
 		}
 	}
 	
@@ -308,7 +312,7 @@ public class Page extends Rectangle{
 			
 			for (Char ch: page.chars) {
 				for (int x=Math.round(ch.x); x<=ch.right; x++)
-					for (int y=Math.round(ch.y); y<=ch.bottom; y++) {
+					for (int y=Math.round(ch.y); y<=ch.lower; y++) {
 						Point point=new Char.Point(x,y,ch);
 						points[x][y]=point;
 					}
@@ -319,8 +323,8 @@ public class Page extends Rectangle{
 	class Column extends Rectangle {
 		ArrayList<Block> blocks;
 		
-		public Column(int left,int top,int right, int bottom) {
-			super(left,top,right,bottom);
+		public Column(int left,int upper,int right, int lower) {
+			super(left,upper,right,lower);
 			build();
 		}
 		
@@ -337,8 +341,8 @@ public class Page extends Rectangle{
 		}
 		
 		public void print(FileWriter fw) throws IOException  {
-			fw.write(String.format("Column left:%d top:%d right:%d bottom %d\n",
-									left,top,right,bottom));
+			fw.write(String.format("Column left:%d upper:%d right:%d lower %d\n",
+									left,upper,right,lower));
 			for(Block block:blocks)
 				block.print(fw);
 		}
@@ -400,6 +404,21 @@ public class Page extends Rectangle{
 			}
 			
 			return str;
+		}
+	}
+	
+	class ColoredBlock extends Rectangle {
+		
+		public ColoredBlock(int x,int y) {
+			
+		}
+		
+		public ColoredBlock(int left,int upper,int right, int lower) {
+			super(left,upper,right,lower);
+		}
+		
+		private void build() {
+			
 		}
 	}
 }

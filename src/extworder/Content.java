@@ -166,22 +166,22 @@ public class Content extends PDFTextStripper {
 		
 		Page page0=pages.get(0);
 		float minHeaderWidth=Common._MaxHeaderFooterWidthRatio * page0.width;
-		float headerBottom=Common._MaxHeaderFooterHeightRatio * page0.height;
+		float headerLower=Common._MaxHeaderFooterHeightRatio * page0.height;
 		
 		for(int i=0; i<pages.size(); i++) {
 			Page page1=pages.get(i);
-			ArrayList<Block> tbs1=page1.topBlocks();
+			ArrayList<Block> tbs1=page1.upperBlocks();
 			
 			for(int j=i+1; j<pages.size(); j++) {
 				Page page2=pages.get(j);
-				ArrayList<Block> tbs2=page2.topBlocks();
+				ArrayList<Block> tbs2=page2.upperBlocks();
 				
 				for(Block tb1:tbs1)
 					for(Block tb2:tbs2) {
 						if( tb1.right-tb1.left > minHeaderWidth ||
 							tb2.right-tb2.left > minHeaderWidth ||
-							tb1.bottom > headerBottom || 
-							tb2.bottom > headerBottom )
+							tb1.lower > headerLower || 
+							tb2.lower > headerLower )
 							
 							continue;
 						
@@ -227,22 +227,22 @@ public class Content extends PDFTextStripper {
 		
 		Page page0=pages.get(0);
 		float minFooterWidth=Common._MaxHeaderFooterWidthRatio * page0.width;
-		float footerTop=(1-Common._MaxHeaderFooterHeightRatio) * page0.height;
+		float footerUpper=(1-Common._MaxHeaderFooterHeightRatio) * page0.height;
 		
 		for(int i=0; i<pages.size(); i++) {
 			Page page1=pages.get(i);
-			ArrayList<Block> bbs1=page1.bottomBlocks();
+			ArrayList<Block> bbs1=page1.lowerBlocks();
 			
 			for(int j=i+1; j<pages.size(); j++) {
 				Page page2=pages.get(j);
-				ArrayList<Block> bbs2=page2.bottomBlocks();
+				ArrayList<Block> bbs2=page2.lowerBlocks();
 				
 				for(Block bb1:bbs1)
 					for(Block bb2:bbs2) {
 						if( bb1.right-bb1.left > minFooterWidth ||
 							bb2.right-bb2.left > minFooterWidth ||
-							bb1.top < footerTop || 
-							bb2.top < footerTop )
+							bb1.upper < footerUpper || 
+							bb2.upper < footerUpper )
 							
 							continue;
 						
