@@ -29,8 +29,8 @@ public class Row extends Rectangle {
 	public void build(int x,int y) {
 		chars=new ArrayList<Char>();
 		
-		if ( page.bitmap.points[x][y].ch != null )
-			expand(page.bitmap.points[x][y].ch);
+		if ( page.pageBitmap.points[x][y].ch != null )
+			expand(page.pageBitmap.points[x][y].ch);
 		
 		Collections.sort(chars,Char.compareChars);
 
@@ -82,14 +82,14 @@ public class Row extends Rectangle {
 			for (;j1<maxDist;j1++) {
 				j=top-j1;
 				if (j<0) break;
-				if (page.bitmap.points[i][j]!=null) break;
+				if (page.pageBitmap.points[i][j]!=null) break;
 			}
 			
-			if (j<0 || page.bitmap.points[i][j]==null) continue;
+			if (j<0 || page.pageBitmap.points[i][j]==null) continue;
 			
-			if (row==page.bitmap.points[i][j].ch.row) continue;
+			if (row==page.pageBitmap.points[i][j].ch.row) continue;
 			
-			row=page.bitmap.points[i][j].ch.row;
+			row=page.pageBitmap.points[i][j].ch.row;
 			
 			if(!checkSameBlock(row)) continue;
 			
@@ -115,13 +115,13 @@ public class Row extends Rectangle {
 			for (;j1<maxDist;j1++) {
 				j=bottom+j1;
 				if (j>=page.height) break;
-				if (page.bitmap.points[i][j]!=null) break;
+				if (page.pageBitmap.points[i][j]!=null) break;
 			}
 			
-			if(j>page.height || page.bitmap.points[i][j]==null) continue;
-			if (row==page.bitmap.points[i][j].ch.row) continue;
+			if(j>page.height || page.pageBitmap.points[i][j]==null) continue;
+			if (row==page.pageBitmap.points[i][j].ch.row) continue;
 			
-			row=page.bitmap.points[i][j].ch.row;
+			row=page.pageBitmap.points[i][j].ch.row;
 			
 			if(!checkSameBlock(row))
 				continue;
@@ -136,7 +136,6 @@ public class Row extends Rectangle {
 	
 	private boolean checkSameBlock(Row row) {
 		return charfont.equals(row.charfont);
-		//return charfont.getHeight()==row.charfont.getHeight();
 	}
 	
 	private CharFont getCharFont() {

@@ -27,7 +27,7 @@ public class Page extends Rectangle{
     ArrayList<Column> columns;
     ArrayList<Block> images;
     public float width,height;
-    Bitmap bitmap;
+    PageBitmap pageBitmap;
     int headerY,footerY;
     BufferedImage pageImg;
 	
@@ -50,31 +50,30 @@ public class Page extends Rectangle{
     	content.charfonts.put(charfont,n);
     	String str;
     	str=text.toString();
-    	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
+    	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
+    	Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     			text.getFont().getName());
     	chars.add(ch);
-    	
-    	float width1=(float)(ch.x+ch.width-0.001);
-    	float height1=(float)(ch.y+ch.height-0.001);
-    	if (width1>width) width=width1;
-    	if (height1>height) height=height1;
 	}
 	
 	public void complete(PDPage pdPage) throws IOException {
-		bitmap=new Bitmap(this);
+		width=pdPage.getMediaBox().getWidth();
+		height=pdPage.getMediaBox().getHeight();
+		
+		pageBitmap=new PageBitmap(this);
 		
 		getAllRows();
 		getAllCharBlocks();
 		
 		content.pdProcessor.processPage(pdPage);
 		
-		bitmap=null;
+		pageBitmap=null;
 		
 		for(Char ch:chars) {
 			updateRectangle(ch);
 		}
 		
-		clearBlockColors();
+		clearRowColors();
 	}
 
 	void markHeaderFooter() {
@@ -92,22 +91,19 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	private void clearBlockColors() {
-		float xRatio=pageImg.getWidth()/width;
-		float yRatio=pageImg.getHeight()/height;
+	private void clearRowColors() {
+		int w=pageImg.getWidth();
+		int h=pageImg.getHeight();
 		
-		for(Block block:blocks) {
-			int w=block.right-block.left+1;
-			int h=block.bottom-block.top+1;
-			for(int x=0; x<w; x++)
-				for(int y=0; y<h; y++)
-					pageImg.setRGB((int)(block.left+x*xRatio),
-							(int)(block.top+y*yRatio),
-							content.bgRGB);
+		for(Row row:rows) {
+			for(int x=row.left; x<=row.right; x++) {
+				for(int y=row.top; y<=row.bottom; y++) {
+					if(x<w && y<h)
+						pageImg.setRGB(x,y,content.bgRGB);
+				}
+			}
 		}
 	}
-
-	
 	
 	protected void makeColumns() {
 		TreeMap<HStretch,Integer> hStretches=new TreeMap<>();
@@ -151,7 +147,7 @@ public class Page extends Rectangle{
 	private void getAllCharBlocks() {
 		for(int x=0; x<=width;x++)
 			for(int y=0;y<=height;y++) {
-				Point p=bitmap.points[x][y];
+				Point p=pageBitmap.points[x][y];
 				if ( p == null ) continue;
 				
 				Char ch=p.ch;
@@ -179,7 +175,7 @@ public class Page extends Rectangle{
 	private void getAllRows() {
 		for(int x=0; x<=width;x++)
 			for(int y=0;y<=height;y++) {
-				Point p=bitmap.points[x][y];
+				Point p=pageBitmap.points[x][y];
 				if ( p == null ) continue;
 				
 				Char ch=p.ch;
@@ -235,7 +231,10 @@ public class Page extends Rectangle{
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
-		fw.write(String.format("Page %d\nWidth %f Height %f\n",id,width,height));
+		fw.write(String.format("Page %d\nWidth %f Height %f Left %d Right %d Top %d Bottom %d\n",
+				id,width,height,left,right,top,bottom));
+		fw.write(String.format("BufferImage Width %d Height %d\n",
+				pageImg.getWidth(),pageImg.getHeight()));
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
@@ -301,10 +300,10 @@ public class Page extends Rectangle{
 			return false;
 	}
 
-	class Bitmap {
+	class PageBitmap {
 		Point[][] points;
 		
-		public Bitmap(Page page) {
+		public PageBitmap(Page page) {
 			points=new Point[Math.round(page.width)+1][Math.round(page.height)+1];
 			
 			for (Char ch: page.chars) {

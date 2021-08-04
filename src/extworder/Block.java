@@ -46,8 +46,8 @@ public class Block extends Rectangle {
 	public void build(int x, int y) {
 		rows=new ArrayList<Row>();
 		
-		if ( page.bitmap.points[x][y].ch != null )
-			expand(page.bitmap.points[x][y].ch.row);
+		if ( page.pageBitmap.points[x][y].ch != null )
+			expand(page.pageBitmap.points[x][y].ch.row);
 	}
 	
 	private void expand(Row row) {

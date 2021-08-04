@@ -1,6 +1,5 @@
 package extworder;
 
-import java.awt.Color;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
@@ -69,7 +68,7 @@ public class Content extends PDFTextStripper {
 				e.printStackTrace();
 			}
 			
-			currPage.pageImg = renderer.renderImageWithDPI(currPid-1, 200);
+			currPage.pageImg = renderer.renderImage(currPid-1);
 			
 			pages.add(currPage);
 		}

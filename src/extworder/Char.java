@@ -46,13 +46,13 @@ public class Char extends Rectangle {
 			for(int i1=1; i1 < height * Common._CharHGapRatio;i1++) {
 				i=left-i1;
 				if (i<0) break;
-				if (page.bitmap.points[i][j]!=null) break;
+				if (page.pageBitmap.points[i][j]!=null) break;
 			}
 					
-			if (i<0 || page.bitmap.points[i][j]==null) continue;
-			if (ch==page.bitmap.points[i][j].ch) continue;
+			if (i<0 || page.pageBitmap.points[i][j]==null) continue;
+			if (ch==page.pageBitmap.points[i][j].ch) continue;
 			
-			ch=page.bitmap.points[i][j].ch;
+			ch=page.pageBitmap.points[i][j].ch;
 			chars.add(ch);
 		}
 		
@@ -71,13 +71,13 @@ public class Char extends Rectangle {
 			for(int i1=1; i1 < height * Common._CharHGapRatio ; i1++) {
 				i=right+i1;
 				if (i>page.width) break;
-				if (page.bitmap.points[i][j]!=null) break;
+				if (page.pageBitmap.points[i][j]!=null) break;
 			}
 			
-			if (i>=page.width || page.bitmap.points[i][j]==null) continue;
-			if (ch==page.bitmap.points[i][j].ch) continue;
+			if (i>=page.width || page.pageBitmap.points[i][j]==null) continue;
+			if (ch==page.pageBitmap.points[i][j].ch) continue;
 			
-			ch=page.bitmap.points[i][j].ch;
+			ch=page.pageBitmap.points[i][j].ch;
 			chars.add(ch);
 		}
 		
