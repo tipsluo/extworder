@@ -26,6 +26,13 @@ public abstract class Rectangle {
 		if (lower<r.lower) lower=r.lower;
 	}
 	
+	protected void updateRectangle(int x,int y) {
+		if (left>x) left=x;
+		if (right<x) right=x;
+		if (upper>y) upper=y;
+		if (lower<y) lower=y;
+	}
+	
 	protected boolean contains(Rectangle r) {
 		return r.left>=left && r.right<=right && r.upper>=upper && r.lower<=lower;
 	}

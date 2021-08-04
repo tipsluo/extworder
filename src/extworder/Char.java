@@ -26,7 +26,6 @@ public class Char extends Rectangle {
 		this.height=height;
 		this.width=width;
 		this.fontname=fontname;
-		//this.color=color;
 		left=Math.round(x);
 		right=(int)(Math.round(x+width-0.001));
 		upper=Math.round(y);

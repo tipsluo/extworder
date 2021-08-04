@@ -33,6 +33,8 @@ public class Common {
 	final static String _SubtitlePrefix="SUBTITLE_";
 	final static String _IgnoredBlockPrefix="IGNORED_";
 	final static String _IgnoredBlockIntraText=_IgnoredBlockPrefix+"INTRATEXT";
+	final static String _IgnoredBlockHighlighted=_IgnoredBlockPrefix+"HIGHLIGHTED";
+	
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	
@@ -40,6 +42,8 @@ public class Common {
 	
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;
+	
+	final static int _MaxTrivialLength=5;
 	
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;

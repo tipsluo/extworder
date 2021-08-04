@@ -30,6 +30,7 @@ public class Page extends Rectangle{
     PageBitmap pageBitmap;
     int headerY,footerY;
     BufferedImage pageImg;
+    ArrayList<ColoredBlock> coloredBlocks;
 	
 	public Page(Content content,int id) {
 		this.content=content;
@@ -73,7 +74,9 @@ public class Page extends Rectangle{
 			updateRectangle(ch);
 		}
 		
-		clearRowColors();
+		markColoredCharBlocks();
+		
+		//pageImg=null;
 	}
 
 	void markHeaderFooter() {
@@ -91,7 +94,7 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	private void clearRowColors() {
+	private void clearHighlightedRows() {
 		int w=pageImg.getWidth();
 		int h=pageImg.getHeight();
 		
@@ -105,8 +108,30 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	private void getColoredBlocks() {
+	private void getAllColoredBlocks() {
+		coloredBlocks=new ArrayList<ColoredBlock>();
 		
+		for(int x=left; x<=right; x++)
+			for(int y=upper; y<=lower; y++)
+				if(pageImg.getRGB(x,y)!=content.bgRGB) {
+					ColoredBlock coloredBlock=new ColoredBlock(x,y);
+					
+					if(! coloredBlock.isTrivial())
+						coloredBlocks.add(coloredBlock);
+					
+					coloredBlock.clear(coloredBlock.left,coloredBlock.upper);
+				}
+	}
+	
+	private void markColoredCharBlocks() {
+		clearHighlightedRows();
+		
+		getAllColoredBlocks();
+		
+		for(ColoredBlock coloredBlock: coloredBlocks)
+			for(Block charBlock:blocks)
+				if(coloredBlock.contains(charBlock))
+					charBlock.type=Common._IgnoredBlockHighlighted;
 	}
 	
 	protected void makeColumns() {
@@ -408,17 +433,53 @@ public class Page extends Rectangle{
 	}
 	
 	class ColoredBlock extends Rectangle {
+		private int rgb;
 		
 		public ColoredBlock(int x,int y) {
-			
+			rgb=pageImg.getRGB(x,y);
+			build(x,y);
 		}
 		
 		public ColoredBlock(int left,int upper,int right, int lower) {
 			super(left,upper,right,lower);
+			rgb=pageImg.getRGB(left,upper);
 		}
 		
-		private void build() {
+		private void build(int x,int y) {
+			if(pageImg.getRGB(x,y)!=rgb)
+				return;
 			
+			updateRectangle(x,y);
+			
+			if(x>left)
+				build(x-1,y);
+			if(x<right)
+				build(x+1,y);
+			if(y>upper)
+				build(x,y-1);
+			if(y<lower)
+				build(x,y+1);
+		}
+		
+		boolean isTrivial() {
+			return (right-left <= Common._MaxTrivialLength) &&
+					(lower-upper <= Common._MaxTrivialLength);
+		}
+		
+		void clear(int x,int y) {
+			if(pageImg.getRGB(x,y)==content.bgRGB)
+				return;
+			
+			pageImg.setRGB(x,y,content.bgRGB);			
+			
+			if(x>left)
+				clear(x-1,y);
+			if(x<right)
+				clear(x+1,y);
+			if(y>upper)
+				clear(x,y-1);
+			if(y<lower)
+				clear(x,y+1);
 		}
 	}
 }
