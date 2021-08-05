@@ -83,42 +83,13 @@ public class Char extends Rectangle {
 		String name;
 		float height;
 		int bold;
-		//int rgb;
 		
 		public CharFont(String name,float height) {
 			this.name=name;
 			this.height=height;
-			/*try {
-				rgb=color.toRGB();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}*/
 					
 			bold=CheckBold.check(name);
 		}
-		
-		/*private int colorDiff() {
-			int r = Math.abs((rgb >> 16) & 0x000000FF);
-			int g = Math.abs((rgb >>8 ) & 0x000000FF);
-			int b = Math.abs((rgb) & 0x000000FF);
-			
-			int max,min;
-			
-			if(r>=g) {
-				max=r;
-				min=g;
-			} else {
-				max=g;
-				min=r;
-			}
-			
-			if(max<b)
-				max=b;
-			if(min>b)
-				min=b;
-			
-			return max-min;
-		}*/
 		
 		private int value() {
 			int i=(int) (height * 1000);

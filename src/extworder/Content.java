@@ -35,7 +35,6 @@ public class Content extends PDFTextStripper {
     public String abstractStr;
     int currPid;
     Page currPage=null;
-	PDProcessor pdProcessor;
 	PDFRenderer renderer;
     int contentLeft,contentRight,contentWidth;
 	int columnNumber,columnWidth;
@@ -48,8 +47,6 @@ public class Content extends PDFTextStripper {
 	public Content(String fn)  throws IOException{
 		pages=new ArrayList<Page>();
 		charfonts=new TreeMap<>();
-		
-		pdProcessor=new PDProcessor(this);
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);

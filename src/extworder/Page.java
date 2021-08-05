@@ -25,7 +25,6 @@ public class Page extends Rectangle{
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
     ArrayList<Column> columns;
-    ArrayList<Block> images;
     public float width,height;
     PageBitmap pageBitmap;
     int headerY,footerY;
@@ -40,7 +39,6 @@ public class Page extends Rectangle{
 		blocks=new ArrayList<Block>();
 		columns=new ArrayList<Column>();
 		rows=new ArrayList<Row>();
-		images=new ArrayList<Block>();
 	}
 	
 	public void writeString(TextPosition text) {
@@ -266,17 +264,6 @@ public class Page extends Rectangle{
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
 			block.print(fw);
-		
-		printImageBlocks(fw);
-	}
-	
-	void printImageBlocks(FileWriter fw) throws IOException {
-		fw.write("==============================\n");
-		fw.write(String.format("Page %d images\n",id));
-		for(Block block: images) {
-			fw.write(String.format("image => left: %d, upper: %d, right: %d, lower: %d\n",
-									block.left,block.upper,block.right,block.lower));
-		}
 	}
 	
 	String text() {
