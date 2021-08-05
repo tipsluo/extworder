@@ -66,7 +66,7 @@ public class Page extends Rectangle{
 		getAllRows();
 		getAllCharBlocks();
 		
-		content.pdProcessor.processPage(pdPage);
+		//content.pdProcessor.processPage(pdPage);
 		
 		pageBitmap=null;
 		
@@ -75,8 +75,6 @@ public class Page extends Rectangle{
 		}
 		
 		markColoredCharBlocks();
-		
-		//pageImg=null;
 	}
 
 	void markHeaderFooter() {

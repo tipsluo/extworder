@@ -17,7 +17,8 @@ public class Row extends Rectangle {
 	float width,height;
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
-		r1.upper != r2.upper ? (int)(r1.upper-r2.upper) : (int) (r1.left-r2.left);
+		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
+		//r1.upper != r2.upper ? (int)(r1.upper-r2.upper) : (int) (r1.left-r2.left);
 	
 	public Row(Page page, int x, int y) {
 		this.page=page;

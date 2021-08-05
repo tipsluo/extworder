@@ -1,13 +1,9 @@
 package extworder;
 
-import java.awt.Color;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
 
 public class Char extends Rectangle {
 	String str;
@@ -17,8 +13,9 @@ public class Char extends Rectangle {
 	float width,height;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
-		ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
-	
+		ch1.y != ch2.y ? Common.compareValue(ch1.y,ch2.y) : Common.compareValue(ch1.x,ch2.x);
+		//ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
+		
 	public Char(String str,float x, float y, float width, float height, String fontname) {
 		this.str=str;
 		this.x=x;

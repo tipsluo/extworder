@@ -60,6 +60,14 @@ public class Common {
 	public Common() {
 	} 
 	
+	static int compareValue(float i1,float i2) {
+		if (i1<i2)
+			return -1;
+		else if (i1>i2)
+			return 1;
+		else return 0;
+	}
+	
 	static String prepareOut(String str) {
 		str = str.replaceAll("[\r\n]+", "\n");
 		str = str.replaceAll("\s+", "\s");

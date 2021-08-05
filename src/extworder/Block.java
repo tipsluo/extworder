@@ -278,9 +278,9 @@ public class Block extends Rectangle {
 		public int compare(Block b1, Block b2) {
 			if( ( b1.upper >= b2.upper && b1.upper <= b2.lower ) || 
 					( b2.upper >= b1.upper && b2.upper <= b1.lower ) )
-				return b1.left - b2.left;
+				return Common.compareValue(b1.left,b2.left);
 			else
-				return b1.upper - b2.upper;
+				return Common.compareValue(b1.upper,b2.upper);
 		}
 	}
 }
