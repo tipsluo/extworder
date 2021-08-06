@@ -68,6 +68,10 @@ public class Common {
 		else return 0;
 	}
 	
+	static int compareValue(int i1,int i2) {
+		return compareValue((float)i1,(float)i2);
+	}
+	
 	static String prepareOut(String str) {
 		str = str.replaceAll("[\r\n]+", "\n");
 		str = str.replaceAll("\s+", "\s");

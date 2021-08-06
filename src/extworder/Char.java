@@ -57,7 +57,7 @@ public class Char extends Rectangle {
 	public ArrayList<Char> getRightConnected(Page page) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
-		if (right >= page.width) return chars;
+		if (right >= page.right) return chars;
 		
 		Char ch=null;
 		
@@ -65,11 +65,11 @@ public class Char extends Rectangle {
 			int i=right;
 			for(int i1=1; i1 < height * Common._CharHGapRatio ; i1++) {
 				i=right+i1;
-				if (i>page.width) break;
+				if (i>page.right) break;
 				if (page.pageBitmap.points[i][j]!=null) break;
 			}
 			
-			if (i>=page.width || page.pageBitmap.points[i][j]==null) continue;
+			if (i>=page.right || page.pageBitmap.points[i][j]==null) continue;
 			if (ch==page.pageBitmap.points[i][j].ch) continue;
 			
 			ch=page.pageBitmap.points[i][j].ch;

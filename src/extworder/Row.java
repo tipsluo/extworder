@@ -105,7 +105,7 @@ public class Row extends Rectangle {
 	public ArrayList<Row> getBelowConnected() {		
 		ArrayList<Row> rows=new ArrayList<Row>();
 		
-		if (lower >= page.height) return rows;
+		if (lower >= page.lower) return rows;
 		
 		Row row=null;
 		
@@ -115,11 +115,11 @@ public class Row extends Rectangle {
 			float maxDist=charfont.height*Common._CharVGapRatio;
 			for (;j1<maxDist;j1++) {
 				j=lower+j1;
-				if (j>=page.height) break;
+				if (j>=page.lower) break;
 				if (page.pageBitmap.points[i][j]!=null) break;
 			}
 			
-			if(j>page.height || page.pageBitmap.points[i][j]==null) continue;
+			if(j>page.lower || page.pageBitmap.points[i][j]==null) continue;
 			if (row==page.pageBitmap.points[i][j].ch.row) continue;
 			
 			row=page.pageBitmap.points[i][j].ch.row;

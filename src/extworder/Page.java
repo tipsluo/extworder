@@ -25,7 +25,8 @@ public class Page extends Rectangle{
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
     ArrayList<Column> columns;
-    public float width,height;
+    private float mediaWidth,mediaHeight;
+    //int width,height;
     PageBitmap pageBitmap;
     int headerY,footerY;
     BufferedImage pageImg;
@@ -34,7 +35,7 @@ public class Page extends Rectangle{
 	public Page(Content content,int id) {
 		this.content=content;
 		this.id=id;
-		width=height=-1;
+		//width=height=-1;
 		chars=new ArrayList<Char>();
 		blocks=new ArrayList<Block>();
 		columns=new ArrayList<Column>();
@@ -51,16 +52,24 @@ public class Page extends Rectangle{
     	str=text.toString();
     	
     	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
-    	Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
+    	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     			text.getFont().getName());
     	chars.add(ch);
     	
     	updateRectangle(ch);
+    	
+    	/*float width1=(float)(ch.x+ch.width-0.001);
+    	float height1=(float)(ch.y+ch.height-0.001);
+    	if (width1>width) width=width1;
+    	if (height1>height) height=height1;*/
 	}
 	
 	public void complete(PDPage pdPage) throws IOException {
-		//width=pdPage.getMediaBox().getWidth();
-		//height=pdPage.getMediaBox().getHeight();
+		//mediaWidth=pdPage.getMediaBox().getWidth();
+		//mediaHeight=pdPage.getMediaBox().getHeight();
+		
+		//width=right-left+1;
+		//height=lower-upper+1;
 		
 		pageBitmap=new PageBitmap(this);
 		
@@ -73,12 +82,12 @@ public class Page extends Rectangle{
 			updateRectangle(ch);
 		}*/
 		
-		markColoredCharBlocks();
+		//markColoredCharBlocks();
 	}
 
 	void markHeaderFooter() {
-		headerY=1;
-		footerY=Math.round(height);
+		headerY=upper;
+		footerY=Math.round(lower);
 		
 		for(Block block:blocks) {
 			if(block.type==Common._PageHeaderBlock)
@@ -171,8 +180,8 @@ public class Page extends Rectangle{
 	}
 	
 	private void getAllCharBlocks() {
-		for(int x=0; x<=width;x++)
-			for(int y=0;y<=height;y++) {
+		for(int x=left; x<=right;x++)
+			for(int y=upper;y<=lower;y++) {
 				Point p=pageBitmap.points[x][y];
 				if ( p == null ) continue;
 				
@@ -199,8 +208,8 @@ public class Page extends Rectangle{
 	}
 	
 	private void getAllRows() {
-		for(int x=0; x<=width;x++)
-			for(int y=0;y<=height;y++) {
+		for(int x=left; x<=right;x++)
+			for(int y=upper;y<=lower;y++) {
 				Point p=pageBitmap.points[x][y];
 				if ( p == null ) continue;
 				
@@ -257,10 +266,16 @@ public class Page extends Rectangle{
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
-		fw.write(String.format("Page %d\nWidth %f Height %f Left %d Right %d Top %d Bottom %d\n",
-				id,width,height,left,right,upper,lower));
+		fw.write(String.format("Page %d\nmediaWidth %f mediaHeight %f Left %d Right %d Top %d Bottom %d\n",
+				id,mediaWidth,mediaHeight,left,right,upper,lower));
 		fw.write(String.format("BufferImage Width %d Height %d\n",
 				pageImg.getWidth(),pageImg.getHeight()));
+		
+		fw.write("\nColumn:\n");
+		for(Column column:columns) {
+			fw.write(String.format("Column: left %d upper %d right %d lower %d\n",
+					column.left,column.upper,column.right,column.lower));
+		}
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
@@ -319,11 +334,11 @@ public class Page extends Rectangle{
 		Point[][] points;
 		
 		public PageBitmap(Page page) {
-			points=new Point[Math.round(page.width)+1][Math.round(page.height)+1];
+			points=new Point[page.right+1][page.lower+1];
 			
 			for (Char ch: page.chars) {
-				for (int x=Math.round(ch.x); x<=ch.right; x++)
-					for (int y=Math.round(ch.y); y<=ch.lower; y++) {
+				for (int x=ch.left; x<=ch.right; x++)
+					for (int y=ch.upper; y<=ch.lower; y++) {
 						Point point=new Char.Point(x,y,ch);
 						points[x][y]=point;
 					}

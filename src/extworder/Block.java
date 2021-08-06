@@ -276,11 +276,18 @@ public class Block extends Rectangle {
 	
 	static class CompareBlocks implements Comparator<Block> {
 		public int compare(Block b1, Block b2) {
-			if( ( b1.upper >= b2.upper && b1.upper <= b2.lower ) || 
-					( b2.upper >= b1.upper && b2.upper <= b1.lower ) )
+			//if( ( b1.upper >= b2.upper && b1.upper <= b2.lower ) || 
+			//		( b2.upper >= b1.upper && b2.upper <= b1.lower ) )
+			
+			if(b1.isVIntersected(b2) && b1.isHIntersected(b2)) {
+				System.out.println("CompareBlocks error");
+			}
+			
+			if(b1.isVIntersected(b2))
 				return Common.compareValue(b1.left,b2.left);
-			else
+			else if(b1.isHIntersected(b2))
 				return Common.compareValue(b1.upper,b2.upper);
+			else return Common.compareValue(b1.left,b2.left);
 		}
 	}
 }
