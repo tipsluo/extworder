@@ -49,8 +49,8 @@ public class Page extends Rectangle{
     	content.charfonts.put(charfont,n);
     	String str;
     	str=text.toString();
-    	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
-    	Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
+    	/*Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),*/
+    	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
     			text.getFont().getName());
     	chars.add(ch);
 	}
@@ -63,8 +63,6 @@ public class Page extends Rectangle{
 		
 		getAllRows();
 		getAllCharBlocks();
-		
-		//content.pdProcessor.processPage(pdPage);
 		
 		pageBitmap=null;
 		

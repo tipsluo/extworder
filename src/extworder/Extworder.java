@@ -1,16 +1,14 @@
 package extworder;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
-//import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
-//import org.apache.pdfbox.pdmodel.common.PDStream;
 import org.apache.pdfbox.text.PDFTextStripper;
-import java.io.FileWriter;   // Import the FileWriter class
 
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
@@ -60,19 +58,19 @@ public class Extworder {
 		//displayBlocks("A model for estimating parameters of rotational landslide");
 		//displayBlocks("Peace-Development and Peace Through");
 		//displayBlocks("Broader perspective on ecosystem");
-		displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//displayBlocks("ILL article-Impact of the KWL reading strategy");
-		displayBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+		//displayBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 	}
 	
 	static public void main_test6_block_print() throws IOException {
 		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
-		//printBlocks("Broader perspective on ecosystem");
+		printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
-		printBlocks("Amer-Trends affecting entry level");
+		//printBlocks("Amer-Trends affecting entry level");
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 	}
@@ -80,11 +78,11 @@ public class Extworder {
 	static public void main_test7_content_print() throws IOException {
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		//printContent("Broader perspective on ecosystem");
+		printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
-		printContent("Amer-Trends affecting entry level");
+		//printContent("Amer-Trends affecting entry level");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		// lots of unknow chars printContent("AMS-PACMAN RENORMALIZATION");
 		

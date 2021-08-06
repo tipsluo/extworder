@@ -212,9 +212,9 @@ public class Block extends Rectangle {
 		else 
 			fw.write(String.format("type: undefined"));
 					
-		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n\n",
+		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
 				content.charfontIndexes.get(charfont),left,right,upper,lower));
-		fw.write(String.format("ccharfont height=%f, charfont bold=%d\n",
+		fw.write(String.format("charfont height=%f, charfont bold=%d\n\n",
 				charfont.height,charfont.bold));
 		
 		int y=rows.get(0).lower;
