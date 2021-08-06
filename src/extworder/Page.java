@@ -49,15 +49,18 @@ public class Page extends Rectangle{
     	content.charfonts.put(charfont,n);
     	String str;
     	str=text.toString();
-    	/*Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),*/
-    	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
+    	
+    	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
+    	Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     			text.getFont().getName());
     	chars.add(ch);
+    	
+    	updateRectangle(ch);
 	}
 	
 	public void complete(PDPage pdPage) throws IOException {
-		width=pdPage.getMediaBox().getWidth();
-		height=pdPage.getMediaBox().getHeight();
+		//width=pdPage.getMediaBox().getWidth();
+		//height=pdPage.getMediaBox().getHeight();
 		
 		pageBitmap=new PageBitmap(this);
 		
@@ -66,9 +69,9 @@ public class Page extends Rectangle{
 		
 		pageBitmap=null;
 		
-		for(Char ch:chars) {
+		/*for(Char ch:chars) {
 			updateRectangle(ch);
-		}
+		}*/
 		
 		markColoredCharBlocks();
 	}
