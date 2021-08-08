@@ -190,7 +190,7 @@ public class Extworder {
 		myWriter.write(content.text());
 		
 		File fileTemp = new File(Common._TestDataDir+fn + "_page1.jpg");
-		ImageIO.write(content.pages.get(0).pageImg,"JPEG",fileTemp);
+		ImageIO.write(content.pages.get(1).pageImg,"JPEG",fileTemp);
 		
 		myWriter.close();
 	}

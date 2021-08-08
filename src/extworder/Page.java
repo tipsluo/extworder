@@ -12,7 +12,6 @@ import java.util.TreeMap;
 
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
-
 import extworder.Char.CharFont;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
@@ -25,7 +24,7 @@ public class Page extends Rectangle{
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
     ArrayList<Column> columns;
-    private float mediaWidth,mediaHeight;
+    //private float mediaWidth,mediaHeight;
     //int width,height;
     PageBitmap pageBitmap;
     int headerY,footerY;
@@ -43,7 +42,14 @@ public class Page extends Rectangle{
 	}
 	
 	public void writeString(TextPosition text) {
-		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
+		//if rotated skip it
+    	if(text.getX()!=text.getXDirAdj()) {
+    		//System.out.println("Rotated: "+text);
+    		return;
+    	}
+    	
+		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeight());
+		//CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
     	
     	Integer n;
     	n=content.charfonts.compute(charfont, (k,v) -> (v == null ? 0 : v) + 1);
@@ -51,9 +57,10 @@ public class Page extends Rectangle{
     	String str;
     	str=text.toString();
     	
-    	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj(),text.getWidthDirAdj(),text.getHeightDir(),
-    	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
+    	Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidth(),text.getHeight(),
     			text.getFont().getName());
+    	/*Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
+    			text.getFont().getName());*/
     	chars.add(ch);
     	
     	updateRectangle(ch);
@@ -78,11 +85,7 @@ public class Page extends Rectangle{
 		
 		pageBitmap=null;
 		
-		/*for(Char ch:chars) {
-			updateRectangle(ch);
-		}*/
-		
-		//markColoredCharBlocks();
+		markColoredCharBlocks();
 	}
 
 	void markHeaderFooter() {
@@ -100,15 +103,15 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	private void clearHighlightedRows() {
+	private void clearCharRows() {
 		int w=pageImg.getWidth();
 		int h=pageImg.getHeight();
 		
 		for(Row row:rows) {
 			for(int x=row.left; x<=row.right; x++) {
 				for(int y=row.upper; y<=row.lower; y++) {
-					if(x<w && y<h)
-						pageImg.setRGB(x,y,content.bgRGB);
+					if(x<=w && y<=h)
+						pageImg.setRGB(x-1,y-1,content.bgRGB);
 				}
 			}
 		}
@@ -117,27 +120,48 @@ public class Page extends Rectangle{
 	private void getAllColoredBlocks() {
 		coloredBlocks=new ArrayList<ColoredBlock>();
 		
+		if(right>pageImg.getWidth()+1 ||
+			lower>pageImg.getHeight()+1)
+			System.out.println("Error getAllColoredBlocks");
+		
 		for(int x=left; x<=right; x++)
 			for(int y=upper; y<=lower; y++)
-				if(pageImg.getRGB(x,y)!=content.bgRGB) {
+				if(pageImg.getRGB(x-1,y-1)!=content.bgRGB) {
 					ColoredBlock coloredBlock=new ColoredBlock(x,y);
 					
 					if(! coloredBlock.isTrivial())
 						coloredBlocks.add(coloredBlock);
-					
-					coloredBlock.clear(coloredBlock.left,coloredBlock.upper);
 				}
 	}
 	
 	private void markColoredCharBlocks() {
-		clearHighlightedRows();
+		clearCharRows();
 		
 		getAllColoredBlocks();
+		Collections.sort(coloredBlocks,new ComparePerimeter<ColoredBlock>());
+		
+		for(int i1=0; i1<coloredBlocks.size();i1++) {
+			ColoredBlock coloredBlock1=coloredBlocks.get(i1);
+			
+			for(int i2=i1+1; i2<coloredBlocks.size();) {
+				ColoredBlock coloredBlock2=coloredBlocks.get(i2);
+				
+				if(coloredBlock1==coloredBlock2) {
+					i2++;
+					continue;
+				}
+				
+				if (coloredBlock1.contains(coloredBlock2)) 
+					coloredBlocks.remove(coloredBlock2);
+				else
+					i2++;
+			}
+		}
 		
 		for(ColoredBlock coloredBlock: coloredBlocks)
 			for(Block charBlock:blocks)
 				if(coloredBlock.contains(charBlock))
-					charBlock.type=Common._IgnoredBlockHighlighted;
+					charBlock.type=Common._IgnoredBlockColored;
 	}
 	
 	protected void makeColumns() {
@@ -266,8 +290,8 @@ public class Page extends Rectangle{
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
-		fw.write(String.format("Page %d\nmediaWidth %f mediaHeight %f Left %d Right %d Top %d Bottom %d\n",
-				id,mediaWidth,mediaHeight,left,right,upper,lower));
+		fw.write(String.format("Page %d\n Left %d Right %d Top %d Bottom %d\n",
+				id,left,right,upper,lower));
 		fw.write(String.format("BufferImage Width %d Height %d\n",
 				pageImg.getWidth(),pageImg.getHeight()));
 		
@@ -276,6 +300,13 @@ public class Page extends Rectangle{
 			fw.write(String.format("Column: left %d upper %d right %d lower %d\n",
 					column.left,column.upper,column.right,column.lower));
 		}
+		
+		fw.write("\n\nColored Blocks:\n----------------------\n");
+		if(coloredBlocks!=null && coloredBlocks.size()>0)
+			for(ColoredBlock coloredBlock: coloredBlocks)
+				fw.write(String.format("left %d upper %d right %d lower %d \n",
+						coloredBlock.left,coloredBlock.upper,
+						coloredBlock.right,coloredBlock.lower));
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
@@ -432,33 +463,36 @@ public class Page extends Rectangle{
 			return str;
 		}
 	}
-	
+
 	class ColoredBlock extends Rectangle {
-		private int rgb;
+		
+		//private int rgb;
 		
 		public ColoredBlock(int x,int y) {
-			rgb=pageImg.getRGB(x,y);
+			//rgb=pageImg.getRGB(x-1,y-1);
 			build(x,y);
 		}
 		
 		public ColoredBlock(int left,int upper,int right, int lower) {
 			super(left,upper,right,lower);
-			rgb=pageImg.getRGB(left,upper);
+			//rgb=pageImg.getRGB(left-1,upper-1);
 		}
 		
 		private void build(int x,int y) {
-			if(pageImg.getRGB(x,y)!=rgb)
+			if(pageImg.getRGB(x-1,y-1)==content.bgRGB)
 				return;
+			
+			pageImg.setRGB(x-1,y-1,content.bgRGB);
 			
 			updateRectangle(x,y);
 			
-			if(x>left)
+			if(x>Page.this.left)
 				build(x-1,y);
-			if(x<right)
+			if(x<Page.this.right)
 				build(x+1,y);
-			if(y>upper)
+			if(y>Page.this.upper)
 				build(x,y-1);
-			if(y<lower)
+			if(y<Page.this.lower)
 				build(x,y+1);
 		}
 		
@@ -467,11 +501,15 @@ public class Page extends Rectangle{
 					(lower-upper <= Common._MaxTrivialLength);
 		}
 		
-		void clear(int x,int y) {
-			if(pageImg.getRGB(x,y)==content.bgRGB)
+		void clear() {
+			clear(left,upper);
+		}
+		
+		private void clear(int x,int y) {
+			if(pageImg.getRGB(x-1,y-1)==content.bgRGB)
 				return;
 			
-			pageImg.setRGB(x,y,content.bgRGB);			
+			pageImg.setRGB(x-1,y-1,content.bgRGB);			
 			
 			if(x>left)
 				clear(x-1,y);

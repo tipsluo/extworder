@@ -1,6 +1,7 @@
 package extworder;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public abstract class Rectangle {
 	int left,upper,right,lower;
@@ -106,5 +107,13 @@ public abstract class Rectangle {
 		}
 		
 		return cs;
+	}
+	
+	static class ComparePerimeter<T extends Rectangle> implements Comparator<T> {
+		public int compare(T b1, T b2) {
+			return Common.compareValue(
+					b2.right-b2.left+b2.lower-b2.upper,
+					b1.right-b1.left+b1.lower-b1.upper);
+		}
 	}
 }
