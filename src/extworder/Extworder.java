@@ -66,11 +66,11 @@ public class Extworder {
 	static public void main_test6_block_print() throws IOException {
 		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
-		printBlocks("Broader perspective on ecosystem");
+		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
-		//printBlocks("Amer-Trends affecting entry level");
+		printBlocks("Amer-Trends affecting entry level");
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 	}
@@ -78,11 +78,11 @@ public class Extworder {
 	static public void main_test7_content_print() throws IOException {
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		printContent("Broader perspective on ecosystem");
+		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
-		//printContent("Amer-Trends affecting entry level");
+		printContent("Amer-Trends affecting entry level");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		// lots of unknow chars printContent("AMS-PACMAN RENORMALIZATION");
 		

@@ -65,10 +65,6 @@ public class Content extends PDFTextStripper {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			
-			currPage.pageImg = renderer.renderImage(currPid-1);
-			
-			pages.add(currPage);
 		}
 		
 		bgRGB=getBackgroundColor();

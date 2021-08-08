@@ -72,12 +72,6 @@ public class Page extends Rectangle{
 	}
 	
 	public void complete(PDPage pdPage) throws IOException {
-		//mediaWidth=pdPage.getMediaBox().getWidth();
-		//mediaHeight=pdPage.getMediaBox().getHeight();
-		
-		//width=right-left+1;
-		//height=lower-upper+1;
-		
 		pageBitmap=new PageBitmap(this);
 		
 		getAllRows();
@@ -301,12 +295,12 @@ public class Page extends Rectangle{
 					column.left,column.upper,column.right,column.lower));
 		}
 		
-		fw.write("\n\nColored Blocks:\n----------------------\n");
+		/*fw.write("\n\nColored Blocks:\n----------------------\n");
 		if(coloredBlocks!=null && coloredBlocks.size()>0)
 			for(ColoredBlock coloredBlock: coloredBlocks)
 				fw.write(String.format("left %d upper %d right %d lower %d \n",
 						coloredBlock.left,coloredBlock.upper,
-						coloredBlock.right,coloredBlock.lower));
+						coloredBlock.right,coloredBlock.lower));*/
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
