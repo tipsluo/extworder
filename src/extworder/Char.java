@@ -13,8 +13,8 @@ public class Char extends Rectangle {
 	float width,height;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
-		ch1.y != ch2.y ? Common.compareValue(ch1.y,ch2.y) : Common.compareValue(ch1.x,ch2.x);
-		//ch1.y != ch2.y ? (int)(ch1.y-ch2.y) : (int) (ch1.x-ch2.x);
+		ch1.x!=ch2.x ? (int)(ch1.x-ch2.x) : (int)(ch1.y-ch2.y);
+		//ch1.y != ch2.y ? Common.compareValue(ch1.y,ch2.y) : Common.compareValue(ch1.x,ch2.x);
 		
 	public Char(String str,float x, float y, float width, float height, String fontname) {
 		this.str=str;

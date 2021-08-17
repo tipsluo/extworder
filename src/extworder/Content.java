@@ -59,12 +59,19 @@ public class Content extends PDFTextStripper {
 			setStartPage(currPid);
 			setEndPage(currPid);
 			
+			if (currPage==null || currPage.id != currPid) {
+				currPage=new Page(this,currPid);
+			}
+			
 			Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
 			try {
 				writeText(document, dummy);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			
+			currPage.pageImg = renderer.renderImage(currPid-1);
+			pages.add(currPage);
 		}
 		
 		bgRGB=getBackgroundColor();
@@ -109,10 +116,6 @@ public class Content extends PDFTextStripper {
 
 	@Override
 	protected void writeString(String string, List<TextPosition> textPositions) throws IOException {
-		if (currPage==null || currPage.id != currPid) {
-			currPage=new Page(this,currPid);
-		}
-		
         for (TextPosition text : textPositions) {
         	currPage.writeString(text);
         }

@@ -61,6 +61,7 @@ public class Extworder {
 		//displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//displayBlocks("ILL article-Impact of the KWL reading strategy");
 		//displayBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+		displayBlocks("APS-Search for millicharged particles in proton-proton collisions");
 	}
 	
 	static public void main_test6_block_print() throws IOException {
@@ -70,9 +71,10 @@ public class Extworder {
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
-		printBlocks("Amer-Trends affecting entry level");
+		//printBlocks("Amer-Trends affecting entry level");
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
+		printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 	}
 	
 	static public void main_test7_content_print() throws IOException {
@@ -82,10 +84,11 @@ public class Extworder {
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
-		printContent("Amer-Trends affecting entry level");
+		//printContent("Amer-Trends affecting entry level");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		// lots of unknow chars printContent("AMS-PACMAN RENORMALIZATION");
-		
+		// unable to read printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
+		printContent("APS-Search for millicharged particles in proton-proton collisions");
 	}
 	
 	public static void extract(String fn) throws IOException {
