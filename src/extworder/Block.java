@@ -8,15 +8,17 @@ import java.util.Comparator;
 import java.util.TreeMap;
 import java.util.regex.Pattern;
 
-import extworder.Char.CharFont;
+import extworder.Block.BlockFormat;
 import extworder.Common.AdditionalSubtitleFormatFilter;
 import extworder.Common.BigBlockFilter;
 import extworder.Common.SubtitleBlockFilter;
 import extworder.Common.TextBlockFilter;
 import extworder.Page.Column;
+import extworder.Row.CharFont;
 
 public class Block extends Rectangle {
-	CharFont charfont;
+	//CharFont charfont;
+	BlockFormat format;
 	ArrayList<Row> rows;
 	Page page;
 	Column column;
@@ -35,8 +37,8 @@ public class Block extends Rectangle {
 		build(x,y);
 		
 		Collections.sort(rows,Row.compareRows);
-
-		charfont=mostCharFont();
+		
+		format=new BlockFormat(mostCharFont());
 	}
 	
 	public Block(int left,int upper,int right, int lower) {
@@ -48,6 +50,10 @@ public class Block extends Rectangle {
 		
 		if ( page.pageBitmap.points[x][y].ch != null )
 			expand(page.pageBitmap.points[x][y].ch.row);
+	}
+	
+	public void updateFormat() {
+		format.update(this);
 	}
 	
 	private void expand(Row row) {
@@ -91,7 +97,7 @@ public class Block extends Rectangle {
 	}
 	
 	boolean isSimilar(Block block) {
-		int allowedDisplace = (int) (Common._BlockDisplaceRatio * charfont.height);
+		int allowedDisplace = (int) (Common._BlockDisplaceRatio * format.charfont.height);
 		
 		if( Math.abs(left - block.left) <= allowedDisplace &&
 				Math.abs(upper - block.upper) <= allowedDisplace &&
@@ -101,7 +107,7 @@ public class Block extends Rectangle {
 		return false;
 	}
 	
-	public CharFont mostCharFont() {
+	protected CharFont mostCharFont() {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
 		for (Row row: rows) {
@@ -113,10 +119,10 @@ public class Block extends Rectangle {
 		return cf;
 	}
 	
-	int indent() {
+	protected int indent() {
 		int l;
 		
-		if(column==null) {
+		if(column!=null) {
 			l=column.left;
 		} else {
 			l=page.left;
@@ -125,7 +131,7 @@ public class Block extends Rectangle {
 		return left-l;
 	}
 	
-	int alignment() {
+	protected int alignment() {
 		int l,r;
 		
 		if(column!=null) {
@@ -150,14 +156,14 @@ public class Block extends Rectangle {
 			return Common._NOALIGNED;
 	}
 	
-	BlockFormat blockformat() {
+	/*BlockFormat blockformat() {
 		return new BlockFormat(this);
-	}
+	}*/
 	
 	boolean isTextBlock() {
 		int blockWidth=right-left+1;
 		
-		return charfont.equals(page.content.textCharfont) && 
+		return format.charfont.equals(page.content.textCharfont) && 
 				blockWidth >= page.content.lowColumnWidth &&
 				blockWidth <= page.content.highColumnWidth;
 	}
@@ -207,15 +213,15 @@ public class Block extends Rectangle {
 			fw.write("type: abstract");
 		else if (!type.isBlank())
 			fw.write(String.format("type: %s",type));
-		else if (charfont.equals(content.textCharfont))
+		else if (format.charfont.equals(content.textCharfont))
 			fw.write(String.format("type: text"));
 		else 
 			fw.write(String.format("type: undefined"));
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
-				content.charfontIndexes.get(charfont),left,right,upper,lower));
+				content.charfontIndexes.get(format.charfont),left,right,upper,lower));
 		fw.write(String.format("charfont height=%f, charfont bold=%d\n\n",
-				charfont.height,charfont.bold));
+				format.charfont.height, format.charfont.bold));
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {
@@ -249,13 +255,28 @@ public class Block extends Rectangle {
 	
 	static class BlockFormat {
 		final CharFont charfont;
-		final int indent;
-		final int alignment;
+		int indent;
+		int alignment;
+		
+		public BlockFormat(CharFont charfont, int indent, int alignment) {
+			this.charfont=charfont;
+			this.indent=indent;
+			this.alignment=alignment;
+		}
 		
 		public BlockFormat(Block block) {
-			charfont=block.charfont;
-			indent=block.indent();
-			alignment=block.alignment();
+			this(block.mostCharFont(), block.indent(), block.alignment());
+		}
+		
+		public void update(Block block) {
+			this.indent=block.indent();
+			this.alignment=block.alignment();
+		}
+		
+		public BlockFormat(CharFont charfont) {
+			this.charfont=charfont;
+			this.indent=Common._RIGHTALIGNED;
+			this.alignment=Common._UNKNOWNINDENT;
 		}
 		
 		boolean equals(BlockFormat blockformat) {
@@ -276,9 +297,6 @@ public class Block extends Rectangle {
 	
 	static class CompareBlocks implements Comparator<Block> {
 		public int compare(Block b1, Block b2) {
-			//if( ( b1.upper >= b2.upper && b1.upper <= b2.lower ) || 
-			//		( b2.upper >= b1.upper && b2.upper <= b1.lower ) )
-			
 			if(b1.isVIntersected(b2) && b1.isHIntersected(b2)) {
 				System.out.println("CompareBlocks error");
 			}

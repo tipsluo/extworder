@@ -48,7 +48,10 @@ public class Common {
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
+	final static int _UNKNOWNALIGNED=-98;
 	final static int _NOALIGNED=-99;
+	
+	final static int _UNKNOWNINDENT=-98;
 	
 	final static boolean __DEBUG=false;
 	
@@ -91,7 +94,7 @@ public class Common {
 	
 	static String subtitleBlockType(Block block) {
 		return Common._SubtitlePrefix+Integer.toString(
-					block.page.content.charfontIndexes.get(block.charfont));
+					block.page.content.charfontIndexes.get(block.format.charfont));
 	}
 
 	
@@ -102,7 +105,7 @@ public class Common {
 	static class TextBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
-			return (block.charfont.compareTo(block.page.content.textCharfont) == 0 &&
+			return (block.format.charfont.compareTo(block.page.content.textCharfont) == 0 &&
 			   block.type!=Common._BeforeFirstText ) ||
 					Block.subtitleBlockFilter.filter(block);
 		}
@@ -117,7 +120,7 @@ public class Common {
 		
 		@Override
 		public boolean filter(Block block) {
-			int charfontDiff=block.charfont.compareTo(block.page.content.textCharfont);
+			int charfontDiff=block.format.charfont.compareTo(block.page.content.textCharfont);
 			
 			if(charfontDiff>0 && block.isNonTitle())
 				return false;
@@ -130,7 +133,7 @@ public class Common {
 	static class SubtitleBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
-			return block.charfont.compareTo(block.page.content.textCharfont) > 0 &&
+			return block.format.charfont.compareTo(block.page.content.textCharfont) > 0 &&
 					block.type.contains(_SubtitlePrefix);
 		}
 	}
@@ -145,7 +148,7 @@ public class Common {
 		@Override
 		public boolean filter(Block block) {
 			for(BlockFormat blockformat: blockformats)
-				if(blockformat.equals(new BlockFormat(block)))
+				if(blockformat.equals(block.format))
 					return true;
 				
 			return false;

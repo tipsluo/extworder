@@ -1,6 +1,5 @@
 package extworder;
 
-import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
@@ -13,8 +12,8 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Block.BlockFormat;
-import extworder.Char.CharFont;
 import extworder.Page.Column;
+import extworder.Row.CharFont;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -103,6 +102,9 @@ public class Content extends PDFTextStripper {
 		
 		markContentX();
 		makeColumns();
+		
+		for(Page page:pages)
+			page.updateBlockFormats();
 
 		getFirstTextBlock();
 		
@@ -278,7 +280,7 @@ public class Content extends PDFTextStripper {
 				boolean allContained=true;
 				for(int j=i-n; j<i; j++) {
 					block=bigBlockList.get(j);
-					if(subtitleFormatChain.blockformatIndex(block.blockformat()) < 0) {
+					if(subtitleFormatChain.blockformatIndex(block.format) < 0) {
 						allContained=false;
 						break;
 					}
@@ -419,7 +421,7 @@ public class Content extends PDFTextStripper {
 				if(block.type==Common._FirstText)
 					break;
 				
-				if(block.charfont.compareTo(titleBlock.charfont)>0)
+				if(block.format.charfont.compareTo(titleBlock.format.charfont)>0)
 					titleBlock=block;
 			}
 			
@@ -467,7 +469,7 @@ public class Content extends PDFTextStripper {
 					return block;
 				} else {
 					if (words.length >= minAbstractWordNum && 
-						! block.charfont.equals(textCharfont)) {
+						! block.format.charfont.equals(textCharfont)) {
 						abstractStr=str;
 						block.type=Common._AbstractBlock;
 						return block;
@@ -492,7 +494,7 @@ public class Content extends PDFTextStripper {
 			if(n>=1) {
 				BlockFormatChain blockformatChain=new BlockFormatChain();
 				for(int j=i-n; j<i; j++)
-					blockformatChain.blockformats.add(bigBlockList.get(j).blockformat());
+					blockformatChain.blockformats.add(bigBlockList.get(j).format);
 				
 				boolean found=false;
 				Iterator<Entry<BlockFormatChain, Integer>> entryIt = candidates.entrySet().iterator();
@@ -586,10 +588,10 @@ public class Content extends PDFTextStripper {
 			int i1=endBlockIndex-1;
 			for(; i1>=0; i1--) {
 				Block block1=blocks.get(i1);
-				if(block1.charfont.equals(textCharfont))
+				if(block1.format.charfont.equals(textCharfont))
 					break;
 					
-				if(block0.charfont.compareTo(block1.charfont)>=0)
+				if(block0.format.charfont.compareTo(block1.format.charfont)>=0)
 					break;
 				
 				block0=block1;

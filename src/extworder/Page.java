@@ -12,10 +12,10 @@ import java.util.TreeMap;
 
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
-import extworder.Char.CharFont;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
 import extworder.Content.HStretch;
+import extworder.Row.CharFont;
 
 public class Page extends Rectangle{
 	Content content;
@@ -34,7 +34,6 @@ public class Page extends Rectangle{
 	public Page(Content content,int id) {
 		this.content=content;
 		this.id=id;
-		//width=height=-1;
 		chars=new ArrayList<Char>();
 		blocks=new ArrayList<Block>();
 		columns=new ArrayList<Column>();
@@ -94,6 +93,12 @@ public class Page extends Rectangle{
 			if(block.type==Common._PageFooterBlock)
 				if(footerY>block.upper)
 					footerY=block.upper;
+		}
+	}
+	
+	void updateBlockFormats() {
+		for(Block block:blocks) {
+			block.format.update(block);
 		}
 	}
 	

@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.TreeMap;
-
-import extworder.Char.CharFont;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Row extends Rectangle {
-	Char.CharFont charfont;
+	CharFont charfont;
 	ArrayList<Char> chars;
 	Block block;
 	Page page;
@@ -143,7 +143,7 @@ public class Row extends Rectangle {
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
 		for (Char ch: chars) {
-			CharFont cf=new Char.CharFont(ch.fontname,ch.height);
+			CharFont cf=new CharFont(ch.fontname,ch.height);
 			
 			if(cf.equals(page.content.textCharfont))
 				return cf;
@@ -180,5 +180,93 @@ public class Row extends Rectangle {
 		}
 		
 		return str;
+	}
+	
+	
+	static public class CharFont implements Comparable<CharFont>{
+		String name;
+		float height;
+		int bold;
+		
+		public CharFont(String name,float height) {
+			this.name=name;
+			this.height=height;
+					
+			bold=CheckBold.check(name);
+		}
+		
+		private int value() {
+			int i=(int) (height * 1000);
+			
+			if(bold>0)
+				i=i + 400 * bold;	
+					
+	        return i;
+		}
+		
+	    @Override
+	    public int hashCode() {
+	    	return value();
+	    }
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+	            return true;
+	        if (obj == null)
+	            return false;
+	        if (getClass() != obj.getClass())
+	            return false;
+	        
+	        CharFont other = (CharFont) obj;
+	        
+	        return hashCode()==other.hashCode();
+		}
+		
+		@Override
+	    public int compareTo(CharFont charfont) {
+	        return hashCode()-charfont.hashCode();
+	    }
+
+		final static class CheckBold {
+			final static int _BOLD=2;
+			final static int _SEMIBOLD=1;
+			final static int _NOBOLD=0;
+			
+			static final Pattern LastPart;
+			static final Pattern Bold;
+			static final Pattern Semibold;
+			
+			static {
+				LastPart=Pattern.compile("[\\.-](.*)$");
+				Bold=Pattern.compile("Bold");
+				Semibold=Pattern.compile("Semibold");
+			}
+			
+			public static int check(String s) {
+				Matcher m=LastPart.matcher(s);
+				
+				if(m.find()) {
+					String lastPart=m.group(1);
+					
+					if(lastPart.equals("B"))
+						return _BOLD;
+					else {
+						m=Bold.matcher(lastPart);
+						if(m.find())
+							return _BOLD;
+						else {
+							m=Semibold.matcher(lastPart);
+							if(m.find())
+								return _SEMIBOLD;
+							else
+								return _NOBOLD;
+						}
+					}
+				}
+				
+				return _NOBOLD;
+			}
+		}
 	}
 }
