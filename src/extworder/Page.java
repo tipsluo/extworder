@@ -24,8 +24,6 @@ public class Page extends Rectangle{
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
     ArrayList<Column> columns;
-    //private float mediaWidth,mediaHeight;
-    //int width,height;
     PageBitmap pageBitmap;
     int headerY,footerY;
     BufferedImage pageImg;
@@ -43,7 +41,6 @@ public class Page extends Rectangle{
 	public void writeString(TextPosition text) {
 		//if rotated skip it
     	if(text.getX()!=text.getXDirAdj()) {
-    		//System.out.println("Rotated: "+text);
     		return;
     	}
     	
@@ -63,11 +60,6 @@ public class Page extends Rectangle{
     	chars.add(ch);
     	
     	updateRectangle(ch);
-    	
-    	/*float width1=(float)(ch.x+ch.width-0.001);
-    	float height1=(float)(ch.y+ch.height-0.001);
-    	if (width1>width) width=width1;
-    	if (height1>height) height=height1;*/
 	}
 	
 	public void complete(PDPage pdPage) throws IOException {
@@ -79,6 +71,36 @@ public class Page extends Rectangle{
 		pageBitmap=null;
 		
 		markColoredCharBlocks();
+	}
+	
+	public void tuneBlocks(CharFont textCharfont) {
+		Block block;
+		for(int i=0; i<blocks.size(); i++) {
+			block=blocks.get(i);
+			
+			/*if(block.rows.get(0).string().contains("SIMULATION"))
+				System.out.println("debug");*/
+			
+			if( block.format.charfont.compareTo(textCharfont) <= 0 || 
+					block.rows.size()<2 )
+				continue;
+			
+			Row row1=block.rows.get(0);
+			if(Common.lowercaseExisting.matcher(row1.string()).find())
+				continue;
+
+			Row row2=block.rows.get(1);
+			if(Common.leading2Uppercase.matcher(row2.string()).find())
+				continue;
+			
+			ArrayList<Block> newBlocks=block.split(1);
+			blocks.remove(block);
+			blocks.addAll(newBlocks);
+			
+			i--;
+		}
+		
+		Collections.sort(blocks,Block.compareBlocks);
 	}
 
 	void markHeaderFooter() {
@@ -213,7 +235,7 @@ public class Page extends Rectangle{
 				
 				if(ch.row.block==null) {
 					blocks.add(new Block(this,x,y));
-				}
+				} 
 			}
 		
 		for(int i=0;i<blocks.size();i++) {

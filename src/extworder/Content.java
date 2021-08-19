@@ -103,8 +103,10 @@ public class Content extends PDFTextStripper {
 		markContentX();
 		makeColumns();
 		
-		for(Page page:pages)
-			page.updateBlockFormats();
+		for(Page page:pages) {
+			page.tuneBlocks(textCharfont);
+			//page.updateBlockFormats();
+		}
 
 		getFirstTextBlock();
 		

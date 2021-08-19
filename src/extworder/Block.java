@@ -17,7 +17,6 @@ import extworder.Page.Column;
 import extworder.Row.CharFont;
 
 public class Block extends Rectangle {
-	//CharFont charfont;
 	BlockFormat format;
 	ArrayList<Row> rows;
 	Page page;
@@ -43,6 +42,24 @@ public class Block extends Rectangle {
 	
 	public Block(int left,int upper,int right, int lower) {
 		super(left,upper,right,lower);
+	}
+	
+	public Block(Page page, Column column, ArrayList<Row> rows) {
+		super();
+		
+		this.page=page;
+		this.column=column;
+		this.rows=rows;
+		
+		for(Row row:rows) {
+			updateRectangle(row);
+			row.block=this;
+		}
+		
+		Collections.sort(rows,Row.compareRows);
+		
+		format=new BlockFormat(mostCharFont());
+		updateFormat();
 	}
 	
 	public void build(int x, int y) {
@@ -79,6 +96,24 @@ public class Block extends Rectangle {
 		Collections.sort(rows,Row.compareRows);
 		
 		page.blocks.remove(block);
+	}
+	
+	ArrayList<Block> split(int rowNum) {
+		ArrayList<Block> newBlocks=new ArrayList<Block>();
+		
+		ArrayList<Row> newRows1=new ArrayList<Row>();
+		for(int i=0;i<rowNum;i++)
+			newRows1.add(rows.get(i));
+		Block block=new Block(page,column,newRows1);
+		newBlocks.add(block);
+		
+		ArrayList<Row>newRows2=new ArrayList<Row>();
+		for(int i=rowNum;i<rows.size();i++)
+			newRows2.add(rows.get(i));
+		block=new Block(page,column,newRows2);
+		newBlocks.add(block);
+		
+		return newBlocks;
 	}
 	
 	Block closestBlock() {
@@ -155,10 +190,6 @@ public class Block extends Rectangle {
 		else
 			return Common._NOALIGNED;
 	}
-	
-	/*BlockFormat blockformat() {
-		return new BlockFormat(this);
-	}*/
 	
 	boolean isTextBlock() {
 		int blockWidth=right-left+1;

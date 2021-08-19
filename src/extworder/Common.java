@@ -56,8 +56,13 @@ public class Common {
 	final static boolean __DEBUG=false;
 	
 	final static Pattern infinishedTextBlock;
+	final static Pattern lowercaseExisting;
+	final static Pattern leading2Uppercase;
+	
 	static {
 		infinishedTextBlock=Pattern.compile("[a-zA-Z0-9,]$");
+		lowercaseExisting=Pattern.compile("[a-z]");
+		leading2Uppercase=Pattern.compile("^\\s*[A-Z]{2,}");
 	}
 	
 	public Common() {
