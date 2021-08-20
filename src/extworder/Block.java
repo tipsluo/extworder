@@ -288,6 +288,7 @@ public class Block extends Rectangle {
 		final CharFont charfont;
 		int indent;
 		int alignment;
+		boolean allUppercase;
 		
 		public BlockFormat(CharFont charfont, int indent, int alignment) {
 			this.charfont=charfont;
@@ -302,6 +303,7 @@ public class Block extends Rectangle {
 		public void update(Block block) {
 			this.indent=block.indent();
 			this.alignment=block.alignment();
+			this.allUppercase=! Common.lowercaseExisting.matcher(block.string()).find();
 		}
 		
 		public BlockFormat(CharFont charfont) {
@@ -313,10 +315,12 @@ public class Block extends Rectangle {
 		boolean equals(BlockFormat blockformat) {
 			if(alignment==Common._CENTERALIGNED || 
 					blockformat.alignment==Common._CENTERALIGNED)
-				return charfont.equals(blockformat.charfont);
+				return charfont.equals(blockformat.charfont) &&
+						allUppercase==blockformat.allUppercase;
 			else 
 				return charfont.equals(blockformat.charfont) &&
-						indent==blockformat.indent;
+						indent==blockformat.indent &&
+						allUppercase==blockformat.allUppercase;
 		}
 		
 		public int hashCode() {
