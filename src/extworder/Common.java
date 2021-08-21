@@ -52,6 +52,7 @@ public class Common {
 	final static int _NOALIGNED=-99;
 	
 	final static int _UNKNOWNINDENT=-98;
+	final static int _UNKNOWNALLUPPERCASE=-98;
 	
 	final static boolean __DEBUG=false;
 	

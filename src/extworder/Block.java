@@ -288,12 +288,13 @@ public class Block extends Rectangle {
 		final CharFont charfont;
 		int indent;
 		int alignment;
-		boolean allUppercase;
+		int allUppercase;
 		
 		public BlockFormat(CharFont charfont, int indent, int alignment) {
 			this.charfont=charfont;
 			this.indent=indent;
 			this.alignment=alignment;
+			allUppercase=Common._UNKNOWNALLUPPERCASE;
 		}
 		
 		public BlockFormat(Block block) {
@@ -303,7 +304,7 @@ public class Block extends Rectangle {
 		public void update(Block block) {
 			this.indent=block.indent();
 			this.alignment=block.alignment();
-			this.allUppercase=! Common.lowercaseExisting.matcher(block.string()).find();
+			this.allUppercase = Common.lowercaseExisting.matcher(block.string()).find() ? -1 : 1;
 		}
 		
 		public BlockFormat(CharFont charfont) {
@@ -323,6 +324,15 @@ public class Block extends Rectangle {
 						allUppercase==blockformat.allUppercase;
 		}
 		
+		int compareFormat(BlockFormat blockformat) {
+			int r=charfont.compareTo(blockformat.charfont);
+			
+			if(r!=0)
+				return r;
+			
+			return allUppercase-blockformat.allUppercase;
+		}
+		
 		public int hashCode() {
 	        int hash=charfont.hashCode() + (indent<<12) + (alignment<<24) ;
 	        
@@ -340,7 +350,7 @@ public class Block extends Rectangle {
 				return Common.compareValue(b1.left,b2.left);
 			else if(b1.isHIntersected(b2))
 				return Common.compareValue(b1.upper,b2.upper);
-			else return Common.compareValue(b1.left,b2.left);
+			else return Common.compareValue(b1.upper,b2.upper);
 		}
 	}
 }

@@ -72,36 +72,6 @@ public class Page extends Rectangle{
 		
 		markColoredCharBlocks();
 	}
-	
-	public void tuneBlocks(CharFont textCharfont) {
-		Block block;
-		for(int i=0; i<blocks.size(); i++) {
-			block=blocks.get(i);
-			
-			/*if(block.rows.get(0).string().contains("SIMULATION"))
-				System.out.println("debug");*/
-			
-			if( block.format.charfont.compareTo(textCharfont) <= 0 || 
-					block.rows.size()<2 )
-				continue;
-			
-			Row row1=block.rows.get(0);
-			if(Common.lowercaseExisting.matcher(row1.string()).find())
-				continue;
-
-			Row row2=block.rows.get(1);
-			if(Common.leading2Uppercase.matcher(row2.string()).find())
-				continue;
-			
-			ArrayList<Block> newBlocks=block.split(1);
-			blocks.remove(block);
-			blocks.addAll(newBlocks);
-			
-			i--;
-		}
-		
-		Collections.sort(blocks,Block.compareBlocks);
-	}
 
 	void markHeaderFooter() {
 		headerY=upper;
@@ -224,6 +194,13 @@ public class Page extends Rectangle{
 		}
 	}
 	
+	public void tuneBlocks(CharFont textCharfont) {
+		for(Column column:columns)
+			column.tuneBlocks(textCharfont);
+		
+		Collections.sort(blocks,Block.compareBlocks);
+	}
+	
 	private void getAllCharBlocks() {
 		for(int x=left; x<=right;x++)
 			for(int y=upper;y<=lower;y++) {
@@ -316,10 +293,18 @@ public class Page extends Rectangle{
 		fw.write(String.format("BufferImage Width %d Height %d\n",
 				pageImg.getWidth(),pageImg.getHeight()));
 		
-		fw.write("\nColumn:\n");
+		
+		fw.write("\n\nBlocks:\n----------------------\n");
+		for(Block block:blocks)
+			if(block.column==null)
+				block.print(fw);
+		
+		fw.write("\n\nColumn:\n");
 		for(Column column:columns) {
-			fw.write(String.format("Column: left %d upper %d right %d lower %d\n",
-					column.left,column.upper,column.right,column.lower));
+			/*fw.write(String.format("Column: left %d upper %d right %d lower %d\n",
+					column.left,column.upper,column.right,column.lower));*/
+			
+			column.print(fw);
 		}
 		
 		/*fw.write("\n\nColored Blocks:\n----------------------\n");
@@ -328,10 +313,7 @@ public class Page extends Rectangle{
 				fw.write(String.format("left %d upper %d right %d lower %d \n",
 						coloredBlock.left,coloredBlock.upper,
 						coloredBlock.right,coloredBlock.lower));*/
-		
-		fw.write("\n\nBlocks:\n----------------------\n");
-		for(Block block:blocks)
-			block.print(fw);
+
 	}
 	
 	String text() {
@@ -415,6 +397,40 @@ public class Page extends Rectangle{
 					blocks.add(block);
 				}
 			}
+			Collections.sort(blocks,Block.compareBlocks);
+		}
+		
+		public void tuneBlocks(CharFont textCharfont) {
+			Block block;
+			for(int i=0; i<blocks.size(); i++) {
+				block=blocks.get(i);
+				
+				/*if(block.rows.get(0).string().contains("SIMULATION"))
+					System.out.println("debug");*/
+				
+				if( block.format.charfont.compareTo(textCharfont) <= 0 || 
+						block.rows.size()<2 )
+					continue;
+				
+				Row row1=block.rows.get(0);
+				if(Common.lowercaseExisting.matcher(row1.string()).find())
+					continue;
+
+				Row row2=block.rows.get(1);
+				if(Common.leading2Uppercase.matcher(row2.string()).find())
+					continue;
+				
+				ArrayList<Block> newBlocks=block.split(1);
+				
+				blocks.remove(block);
+				blocks.addAll(newBlocks);
+				
+				Page.this.blocks.remove(block);
+				Page.this.blocks.addAll(newBlocks);
+				
+				i--;
+			}
+			
 			Collections.sort(blocks,Block.compareBlocks);
 		}
 		

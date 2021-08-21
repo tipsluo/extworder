@@ -104,8 +104,8 @@ public class Content extends PDFTextStripper {
 		makeColumns();
 		
 		for(Page page:pages) {
+			page.updateBlockFormats();
 			page.tuneBlocks(textCharfont);
-			//page.updateBlockFormats();
 		}
 
 		getFirstTextBlock();
@@ -275,7 +275,7 @@ public class Content extends PDFTextStripper {
 					block.type=Common.subtitleBlockType(block);
 					continue;
 				}
-			
+				
 			int n=getIncreasingFormatBlockNumber(bigBlockList,i);
 				
 			if(n>=1) {
@@ -592,8 +592,8 @@ public class Content extends PDFTextStripper {
 				Block block1=blocks.get(i1);
 				if(block1.format.charfont.equals(textCharfont))
 					break;
-					
-				if(block0.format.charfont.compareTo(block1.format.charfont)>=0)
+				
+				if(block0.format.compareFormat(block1.format)>=0)
 					break;
 				
 				block0=block1;
