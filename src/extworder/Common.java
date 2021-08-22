@@ -60,10 +60,18 @@ public class Common {
 	final static Pattern lowercaseExisting;
 	final static Pattern leading2Uppercase;
 	
+	/* May need it later
+	final static Pattern bulletPart1;
+	final static Pattern bulletPart2;*/
+	
 	static {
 		infinishedTextBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");
 		leading2Uppercase=Pattern.compile("^\\s*[A-Z]{2,}");
+		
+		/* May need it later
+		bulletPart1=Pattern.compile("^\\s*([a-zA-Z][.])?(.*)");
+		bulletPart2=Pattern.compile("^\s*([ivxIVX]*[.])?(.*)");*/
 	}
 	
 	public Common() {
