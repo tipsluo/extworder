@@ -67,15 +67,15 @@ public class Extworder {
 	}
 	
 	static public void main_test6_block_print(ArrayList<String> pdfs) throws IOException {
-		if(pdfs.size()!=0) {
+		/*if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printBlocks("+pdf+")");
 				printBlocks(pdf);
 			}
 			return;
-		}
+		}*/
 		
-		printBlocks("A model for estimating parameters of rotational landslide");
+		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -84,17 +84,18 @@ public class Extworder {
 		//printBlocks("Amer-Trends affecting entry level");
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
-		printBlocks("APS-Search for millicharged particles in proton-proton collisions");
+		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
+		printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
-		if(pdfs.size()!=0) {
+		/*if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printContent("+pdf+")");
 				printContent(pdf);
 			}
 			return;
-		}
+		}*/
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
@@ -105,7 +106,9 @@ public class Extworder {
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		// lots of unknow chars printContent("AMS-PACMAN RENORMALIZATION");
 		// unable to read printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
-		printContent("APS-Search for millicharged particles in proton-proton collisions");
+		//printContent("APS-Search for millicharged particles in proton-proton collisions");
+		printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+	
 	}
 	
 	public static void extract(String fn) throws IOException {

@@ -294,10 +294,10 @@ public class Page extends Rectangle{
 				pageImg.getWidth(),pageImg.getHeight()));
 		
 		
-		fw.write("\n\nBlocks:\n----------------------\n");
+		/*fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
 			if(block.column==null)
-				block.print(fw);
+				block.print(fw);*/
 		
 		fw.write("\n\nColumn:\n");
 		for(Column column:columns) {

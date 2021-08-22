@@ -33,7 +33,7 @@ public class Common {
 	final static String _FirstText="FIRSTTEXT";
 	final static String _SubtitlePrefix="SUBTITLE_";
 	final static String _IgnoredBlockPrefix="IGNORED_";
-	final static String _IgnoredBlockIntraText=_IgnoredBlockPrefix+"INTRATEXT";
+	//final static String _IgnoredBlockIntraText=_IgnoredBlockPrefix+"INTRATEXT";
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
 	
 	

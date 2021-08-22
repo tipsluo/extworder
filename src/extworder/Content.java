@@ -113,7 +113,7 @@ public class Content extends PDFTextStripper {
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
 	
-		markIntraTextBlocks();
+		//markIntraTextBlocks();
 		
 		markSubtitleBlocks();
 	}
@@ -294,7 +294,7 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	private void markIntraTextBlocks() {
+	/*private void markIntraTextBlocks() {
 		boolean textInfinished=false;
 		
 		for(Page page:pages)
@@ -313,7 +313,7 @@ public class Content extends PDFTextStripper {
 							block.type=Common._IgnoredBlockIntraText;
 						}	
 				}
-	}
+	}*/
 	
 	private int getBackgroundColor() {
 	    TreeMap<Integer,Integer> pixelColors=new TreeMap<Integer,Integer>();
