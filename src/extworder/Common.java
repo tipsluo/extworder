@@ -1,5 +1,6 @@
 package extworder;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -168,4 +169,19 @@ public class Common {
 			return false;
 		}
 	}
+	
+    static ArrayList<String> getAllPDFs() {
+        ArrayList<String> files=new ArrayList<String>();
+        
+        File directoryPath = new File(_TestDataDir);
+        String contents[] = directoryPath.list();
+          
+        for(int i=0; i<contents.length; i++) {
+             if(contents[i].endsWith(".pdf")) {
+                 files.add(contents[i].substring(0, contents[i].lastIndexOf('.')));
+             }
+        }
+        
+        return files;
+    }
 }

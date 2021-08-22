@@ -3,6 +3,7 @@ package extworder;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.imageio.ImageIO;
 
@@ -12,13 +13,14 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
+        ArrayList<String> pdfs=Common.getAllPDFs();
 		//main_test1_gettext();
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
 		//main_test4_getText();
-		main_test5_block_display();
-		main_test6_block_print();
-		main_test7_content_print();
+		//main_test5_block_display();
+		main_test6_block_print(pdfs);
+		main_test7_content_print(pdfs);
 		System.out.println("Extworder Done.");
 	}
 
@@ -64,7 +66,15 @@ public class Extworder {
 		displayBlocks("APS-Search for millicharged particles in proton-proton collisions");
 	}
 	
-	static public void main_test6_block_print() throws IOException {
+	static public void main_test6_block_print(ArrayList<String> pdfs) throws IOException {
+		if(pdfs.size()!=0) {
+			for(String pdf:pdfs) {
+				System.out.println("printBlocks("+pdf+")");
+				printBlocks(pdf);
+			}
+			return;
+		}
+		
 		printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
@@ -77,7 +87,14 @@ public class Extworder {
 		printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 	}
 	
-	static public void main_test7_content_print() throws IOException {
+	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
+		if(pdfs.size()!=0) {
+			for(String pdf:pdfs) {
+				System.out.println("printContent("+pdf+")");
+				printContent(pdf);
+			}
+			return;
+		}
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
