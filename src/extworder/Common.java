@@ -19,7 +19,9 @@ public class Common {
 	final static String _BorrowerStr="BORROWER";
 	
 	final static int _AbstractWordPageRatio=10;
+	final static int _KeywordWordPageRatio=10;
 	final static int _MinAbstractWordNum=50;
+	final static int _MinKeywordWordNum=50;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -27,6 +29,7 @@ public class Common {
 	
 	final static String _TitleBlock="TITLE";
 	final static String _AbstractBlock="ABSTRACT";
+	final static String _KeywordBlock="KEYWORD";
 	final static String _PageHeaderBlock="PAGEHEADER";
 	final static String _PageFooterBlock="PAGEFOOTER";
 	final static String _BeforeFirstText="BEFOREFIRSTTEXT";

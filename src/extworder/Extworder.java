@@ -217,4 +217,21 @@ public class Extworder {
 		
 		myWriter.close();
 	}
+	
+	public static String rawContent(String fn) throws IOException {
+		Content content = new Content(fn);
+		
+		String str;
+		
+		str=content.title()+"\n\n\n";
+	
+		if(content.keywordBlock.priorTo(content.abstractBlock))
+			str+=content.keywordStr+"\n\n\n";
+		
+		str+=content.abstractStr+"\n\n\n";
+
+		str+=content.text();
+		
+		return str;
+	}
 }

@@ -31,8 +31,9 @@ public class Content extends PDFTextStripper {
     TreeMap<CharFont,Integer> charfonts;
     Map<CharFont,Integer> charfontIndexes;
     CharFont textCharfont;
-    Block titleBlock,abstractBlock;
+    Block titleBlock,abstractBlock,keywordBlock;
     public String abstractStr;
+    public String keywordStr;
     Block activeBlock;
     int currPid;
     Page currPage=null;
@@ -113,6 +114,7 @@ public class Content extends PDFTextStripper {
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
+		keywordBlock=getKeywordBlock();
 	
 		//markIntraTextBlocks();
 		
@@ -440,8 +442,18 @@ public class Content extends PDFTextStripper {
 		abstractStr=getKeyBlockStr(
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"),
 				Common._MinAbstractWordNum + pages.size() * Common._AbstractWordPageRatio);
+		activeBlock.type=Common._AbstractBlock;
 		return activeBlock;	
 	}
+	
+	private Block getKeywordBlock() {
+		keywordStr=getKeyBlockStr(
+				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"),
+				Common._MinKeywordWordNum + pages.size() * Common._KeywordWordPageRatio);
+		activeBlock.type=Common._KeywordBlock;
+		return activeBlock;	
+	}
+	
 	/*private Block getAbstractBlock() {
 		String str;
 		Pattern p = Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?");
