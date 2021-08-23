@@ -85,7 +85,7 @@ public class Extworder {
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
-		printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -98,7 +98,7 @@ public class Extworder {
 		}*/
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		//printContent("Broader perspective on ecosystem");
+		printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
@@ -107,7 +107,7 @@ public class Extworder {
 		// lots of unknow chars printContent("AMS-PACMAN RENORMALIZATION");
 		// unable to read printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
-		printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	
 	}
 	
