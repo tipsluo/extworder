@@ -33,6 +33,7 @@ public class Content extends PDFTextStripper {
     CharFont textCharfont;
     Block titleBlock,abstractBlock;
     public String abstractStr;
+    Block activeBlock;
     int currPid;
     Page currPage=null;
 	PDFRenderer renderer;
@@ -436,6 +437,12 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private Block getAbstractBlock() {
+		abstractStr=getKeyBlockStr(
+				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"),
+				Common._MinAbstractWordNum + pages.size() * Common._AbstractWordPageRatio);
+		return activeBlock;	
+	}
+	/*private Block getAbstractBlock() {
 		String str;
 		Pattern p = Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?");
 		
@@ -484,6 +491,57 @@ public class Content extends PDFTextStripper {
 		}
 			
 		return null;
+	}*/
+	
+	private String getKeyBlockStr(Pattern pattern, int minKeyWordNum) {
+		String str;
+		String ret;
+	
+		boolean stopped=false;
+		
+		for (Page page:pages) {
+			for(int i=0; i<page.blocks.size();i++) {
+				Block block=page.blocks.get(i);
+				
+				if(block.type==Common._FirstText) {
+					stopped=true;
+					break;
+				}
+				
+				str=block.string();
+				str=str.replaceAll("[\\r\\n]+", " ");
+				str=str.replaceAll("\\s+", " ");
+				
+				String[] words=str.split("[\\s\n]");
+				
+				Matcher m = pattern.matcher(str);
+				if (m.find()) {
+					ret=m.replaceFirst("");
+					if (ret.isBlank()) {
+						Block block1=block.closestBlock();
+						ret=block1.string();
+						activeBlock=block1;
+						return ret;
+					}
+					
+					activeBlock=block;
+					return ret;
+				} else {
+					if (words.length >= minKeyWordNum && 
+						! block.format.charfont.equals(textCharfont)) {
+
+						activeBlock=block;
+						return str;
+					}
+				}
+			}
+			
+			if(stopped)
+				break;
+		}
+			
+		activeBlock=null;
+		return "";
 	}
 	
 	private BlockFormatChain getSubtitleFormatChain(ArrayList<Block> bigBlockList) {

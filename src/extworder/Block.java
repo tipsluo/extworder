@@ -233,6 +233,13 @@ public class Block extends Rectangle {
 		return false;
 	}
 	
+	public boolean priorTo(Block block) {
+		if(page!=block.page)
+			return page.id<block.page.id;
+		
+		return compareBlocks.compare(this,block)<0 ? true : false;
+	}
+	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
