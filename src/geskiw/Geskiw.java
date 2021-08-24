@@ -66,6 +66,8 @@ public class Geskiw {
 			str+=keywordStr+"\n\n\n";
 		
 		str+=abstractStr+"\n\n\n";
+		
+		ignoreCatNSubBlock();
 
 		str+=content.text();
 		
@@ -80,5 +82,11 @@ public class Geskiw {
 	private String getKeywordBlock() {
 		return content.getKeyBlockStr(
 				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"));
+	}
+	
+	private void ignoreCatNSubBlock() {
+		content.getKeyBlockStr(
+				Pattern.compile("^\\s*Categories\s+and\s+Subject\s+Descriptors\\s*[\\s:\n]?"));
+		content.activeBlock.setIgnored(Consts._CatNSubBlock);
 	}
 }

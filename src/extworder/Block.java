@@ -191,6 +191,10 @@ public class Block extends Rectangle {
 			return Common._NOALIGNED;
 	}
 	
+	public void setIgnored(String ignoredString) {
+		type=Common._IgnoredBlockPrefix+ignoredString;
+	}
+	
 	boolean isTextBlock() {
 		int blockWidth=right-left+1;
 		
@@ -247,8 +251,8 @@ public class Block extends Rectangle {
 		
 		if (this==page.content.titleBlock)
 			fw.write("type: title");
-		/*else if (this==page.content.abstractBlock)
-			fw.write("type: abstract");*/
+		else if (this==page.content.abstractBlock)
+			fw.write("type: abstract");
 		else if (!type.isBlank())
 			fw.write(String.format("type: %s",type));
 		else if (format.charfont.equals(content.textCharfont))
