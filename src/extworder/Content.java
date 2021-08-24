@@ -30,9 +30,9 @@ public class Content extends PDFTextStripper {
     public Block activeBlock;
     Block titleBlock;
 	Block abstractBlock;
-	private Block keywordBlock;
-    private String abstractStr;
-    private String keywordStr;
+	Block keywordBlock;
+    String abstractStr;
+    String keywordStr;
     
 	ArrayList<Page> pages;
     TreeMap<CharFont,Integer> charfonts;

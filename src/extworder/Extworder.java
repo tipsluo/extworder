@@ -205,8 +205,8 @@ public class Extworder {
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
 
-		/*myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
-				content.title(),content.abstractStr));*/
+		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
+				content.title(),content.abstractStr));
 		myWriter.write(String.format("Subtitles:\n"));
 		myWriter.write(content.subtitles());
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));

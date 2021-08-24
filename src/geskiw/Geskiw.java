@@ -21,22 +21,10 @@ public class Geskiw {
 	}
 
 	public static void main(String args[]) throws IOException  {
-		//test1("A model for estimating parameters of rotational landslide");
-		//test1("Peace-Development and Peace Through");
-		//test1("Broader perspective on ecosystem");
-		//test1("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		//test1("ILL article-Impact of the KWL reading strategy");
 		Geskiw geskiw=new Geskiw("Broader perspective on ecosystem");
 		System.out.println(geskiw.result);
 		System.out.println("Geskiw Done.");
 	}
-	
-	/*static void test1(String fn) throws IOException {
-		Content content = new Content(fn);
-		
-		System.out.println(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
-				content.title(),content.abstractStr));
-	}*/
 	
 	void clean(String fn) {
 		try {
@@ -45,6 +33,15 @@ public class Geskiw {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		/*Notes:
+		 * Not implemented:
+		 * . Article Info
+		 * . Author Info
+		 * Other solutions:
+		 * . Footer
+		 * . Header
+		 */
 	}
 	
 	public String rawContent(String fn) throws IOException {
