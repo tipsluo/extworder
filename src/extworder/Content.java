@@ -27,14 +27,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Content extends PDFTextStripper {
+    public Block activeBlock;
+    Block titleBlock; //,abstractBlock,keywordBlock;
+    /*String abstractStr;
+    String keywordStr;*/
+    
 	ArrayList<Page> pages;
     TreeMap<CharFont,Integer> charfonts;
     Map<CharFont,Integer> charfontIndexes;
     CharFont textCharfont;
-    Block titleBlock,abstractBlock,keywordBlock;
-    public String abstractStr;
-    public String keywordStr;
-    Block activeBlock;
     int currPid;
     Page currPage=null;
 	PDFRenderer renderer;
@@ -113,8 +114,8 @@ public class Content extends PDFTextStripper {
 		getFirstTextBlock();
 		
 		titleBlock=getTitleBlock();
-		abstractBlock=getAbstractBlock();
-		keywordBlock=getKeywordBlock();
+		/*abstractBlock=getAbstractBlock();
+		keywordBlock=getKeywordBlock();*/
 	
 		//markIntraTextBlocks();
 		
@@ -438,21 +439,21 @@ public class Content extends PDFTextStripper {
 		return titleBlock;
 	}
 	
-	private Block getAbstractBlock() {
+	/*private Block getAbstractBlock() {
 		abstractStr=getKeyBlockStr(
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"),
 				Common._MinAbstractWordNum + pages.size() * Common._AbstractWordPageRatio);
 		activeBlock.type=Common._AbstractBlock;
 		return activeBlock;	
-	}
+	}*/
 	
-	private Block getKeywordBlock() {
+	/*private Block getKeywordBlock() {
 		keywordStr=getKeyBlockStr(
 				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"),
 				Common._MinKeywordWordNum + pages.size() * Common._KeywordWordPageRatio);
 		activeBlock.type=Common._KeywordBlock;
 		return activeBlock;	
-	}
+	}*/
 	
 	/*private Block getAbstractBlock() {
 		String str;
@@ -505,7 +506,10 @@ public class Content extends PDFTextStripper {
 		return null;
 	}*/
 	
-	private String getKeyBlockStr(Pattern pattern, int minKeyWordNum) {
+	public String getKeyBlockStr(Pattern pattern) {
+		int minKeyBlockWordNum=Common._MinKeyBlockWordNum + 
+				pages.size() * Common._KeyBlockWordPageRation;
+		
 		String str;
 		String ret;
 	
@@ -539,7 +543,7 @@ public class Content extends PDFTextStripper {
 					activeBlock=block;
 					return ret;
 				} else {
-					if (words.length >= minKeyWordNum && 
+					if (words.length >= minKeyBlockWordNum && 
 						! block.format.charfont.equals(textCharfont)) {
 
 						activeBlock=block;

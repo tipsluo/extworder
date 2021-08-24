@@ -3,18 +3,21 @@ package geskiw;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.regex.Pattern;
 
 import javax.imageio.ImageIO;
 
+import extworder.Block;
 import extworder.Common;
 import extworder.Content;
 import extworder.Extworder;
 
 public class Geskiw {
-	static String result;
+	Content content;
+	String result;
 	
-	public Geskiw() {
-		
+	public Geskiw(String fn) {
+		clean(fn);
 	}
 
 	public static void main(String args[]) throws IOException  {
@@ -23,24 +26,59 @@ public class Geskiw {
 		//test1("Broader perspective on ecosystem");
 		//test1("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//test1("ILL article-Impact of the KWL reading strategy");
-		clean("Broader perspective on ecosystem");
-		System.out.println(result);
+		Geskiw geskiw=new Geskiw("Broader perspective on ecosystem");
+		System.out.println(geskiw.result);
 		System.out.println("Geskiw Done.");
 	}
 	
-	static void test1(String fn) throws IOException {
+	/*static void test1(String fn) throws IOException {
 		Content content = new Content(fn);
 		
 		System.out.println(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
 				content.title(),content.abstractStr));
-	}
+	}*/
 	
-	static void clean(String fn) {
+	void clean(String fn) {
 		try {
-			result=Extworder.rawContent(fn);
+			result=rawContent(fn);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	public String rawContent(String fn) throws IOException {
+	    Block abstractBlock,keywordBlock;
+	    String abstractStr,keywordStr;
+	    
+		content = new Content(fn);
+		
+		String str;
+		str=content.title()+"\n\n\n";
+		
+		abstractStr=getAbstractBlock();
+		abstractBlock=content.activeBlock;
+		
+		keywordStr=getKeywordBlock();
+		keywordBlock=content.activeBlock;
+	
+		if(keywordBlock.priorTo(abstractBlock))
+			str+=keywordStr+"\n\n\n";
+		
+		str+=abstractStr+"\n\n\n";
+
+		str+=content.text();
+		
+		return str;
+	}
+	
+	private String getAbstractBlock() {
+		return content.getKeyBlockStr(
+				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"));
+	}
+	
+	private String getKeywordBlock() {
+		return content.getKeyBlockStr(
+				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"));
 	}
 }

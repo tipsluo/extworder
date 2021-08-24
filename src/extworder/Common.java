@@ -8,6 +8,13 @@ import java.util.regex.Pattern;
 import extworder.Block.BlockFormat;
 
 public class Common {
+	/*public final static int _AbstractWordPageRatio=10;
+	public final static int _KeywordWordPageRatio=10;
+	public final static int _MinAbstractWordNum=50;
+	public final static int _MinKeywordWordNum=50;*/
+	public final static int _KeyBlockWordPageRation=10;
+	public final static int _MinKeyBlockWordNum=50;
+	
 	final static String _TestDataDir="data/";
 	
 	final static float _CharHGapRatio=1.5f;
@@ -17,11 +24,6 @@ public class Common {
 	
 	final static String _LenderStr="LENDER";
 	final static String _BorrowerStr="BORROWER";
-	
-	final static int _AbstractWordPageRatio=10;
-	final static int _KeywordWordPageRatio=10;
-	final static int _MinAbstractWordNum=50;
-	final static int _MinKeywordWordNum=50;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;

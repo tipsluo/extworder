@@ -247,8 +247,8 @@ public class Block extends Rectangle {
 		
 		if (this==page.content.titleBlock)
 			fw.write("type: title");
-		else if (this==page.content.abstractBlock)
-			fw.write("type: abstract");
+		/*else if (this==page.content.abstractBlock)
+			fw.write("type: abstract");*/
 		else if (!type.isBlank())
 			fw.write(String.format("type: %s",type));
 		else if (format.charfont.equals(content.textCharfont))

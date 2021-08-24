@@ -205,8 +205,8 @@ public class Extworder {
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
 
-		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
-				content.title(),content.abstractStr));
+		/*myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
+				content.title(),content.abstractStr));*/
 		myWriter.write(String.format("Subtitles:\n"));
 		myWriter.write(content.subtitles());
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
@@ -216,22 +216,5 @@ public class Extworder {
 		ImageIO.write(content.pages.get(1).pageImg,"JPEG",fileTemp);
 		
 		myWriter.close();
-	}
-	
-	public static String rawContent(String fn) throws IOException {
-		Content content = new Content(fn);
-		
-		String str;
-		
-		str=content.title()+"\n\n\n";
-	
-		if(content.keywordBlock.priorTo(content.abstractBlock))
-			str+=content.keywordStr+"\n\n\n";
-		
-		str+=content.abstractStr+"\n\n\n";
-
-		str+=content.text();
-		
-		return str;
 	}
 }
