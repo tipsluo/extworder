@@ -56,7 +56,7 @@ public class Extworder {
 		//getText("ILL article-Impact of the KWL reading strategy");
     }*/
 	
-	static public void main_test5_block_display() throws IOException {
+	public void main_test5_block_display() throws IOException {
 		//displayBlocks("A model for estimating parameters of rotational landslide");
 		//displayBlocks("Peace-Development and Peace Through");
 		//displayBlocks("Broader perspective on ecosystem");
@@ -167,8 +167,8 @@ public class Extworder {
 		return info.getTitle();
 	}
 	
-	public static void displayBlocks(String fn) throws IOException {
-		Content content = new Content(fn);
+	public void displayBlocks(String fn) throws IOException {
+		Content content = new Content(fn, new IgnorePage(), false, true);
 		
 		FileWriter myWriter = null;
 		
@@ -190,8 +190,8 @@ public class Extworder {
 		}
 	}
 	
-	public static void printBlocks(String fn) throws IOException {
-		Content content = new Content(fn);
+	public void printBlocks(String fn) throws IOException {
+		Content content = new Content(fn, new IgnorePage(),false,true);
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_block2.txt");
 		
@@ -201,7 +201,7 @@ public class Extworder {
 	}
 	
 	static void printContent(String fn) throws IOException {
-		Content content = new Content(fn);
+		Content content = new Content(fn, new IgnorePage(),false,true);
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
 
@@ -216,5 +216,11 @@ public class Extworder {
 		ImageIO.write(content.pages.get(1).pageImg,"JPEG",fileTemp);
 		
 		myWriter.close();
+	}
+	
+	static class IgnorePage extends Common.IgnorePage {
+		public boolean isIgnored(Page page) {
+			return false;
+		}
 	}
 }

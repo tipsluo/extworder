@@ -62,7 +62,8 @@ public class Page extends Rectangle{
     	updateRectangle(ch);
 	}
 	
-	public void complete(PDPage pdPage) throws IOException {
+	public void complete(PDPage pdPage,
+						boolean ignoreColoredBlock) throws IOException {
 		pageBitmap=new PageBitmap(this);
 		
 		getAllRows();
@@ -336,7 +337,7 @@ public class Page extends Rectangle{
 		return str;
 	}
 	
-	String string() {
+	public String string() {
 		String str="";
 
 		for(Block block:blocks) {
@@ -357,11 +358,13 @@ public class Page extends Rectangle{
 	}
 	
 	boolean ignored() {
-		String str=string();
+		return content.ignorePage.isIgnored(this);
+		
+		/*String str=string();
 		if (str.contains(Common._LenderStr) || str.contains(Common._BorrowerStr))		
 			return true;
 		else
-			return false;
+			return false;*/
 	}
 
 	class PageBitmap {
@@ -502,17 +505,12 @@ public class Page extends Rectangle{
 	}
 
 	class ColoredBlock extends Rectangle {
-		
-		//private int rgb;
-		
 		public ColoredBlock(int x,int y) {
-			//rgb=pageImg.getRGB(x-1,y-1);
 			build(x,y);
 		}
 		
 		public ColoredBlock(int left,int upper,int right, int lower) {
 			super(left,upper,right,lower);
-			//rgb=pageImg.getRGB(left-1,upper-1);
 		}
 		
 		private void build(int x,int y) {

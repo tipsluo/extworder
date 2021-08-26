@@ -49,7 +49,14 @@ public class Content extends PDFTextStripper {
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
 	
-	public Content(String fn)  throws IOException{
+    Common.IgnorePage ignorePage;
+	
+	public Content(String fn, 
+				Common.IgnorePage ignorePage,
+				boolean ignoreIntraBlock,
+				boolean ignoreColoredBlock)  throws IOException{
+		this.ignorePage=ignorePage;
+		
 		pages=new ArrayList<Page>();
 		charfonts=new TreeMap<>();
 		
@@ -86,7 +93,7 @@ public class Content extends PDFTextStripper {
 		for(int i=0; i<pages.size();) {
 			Page page=pages.get(i);
 			
-			page.complete(document.getPage(i));
+			page.complete(document.getPage(i),ignoreColoredBlock);
 			
 			if(page.ignored()) {
 				pages.remove(i);
@@ -119,7 +126,8 @@ public class Content extends PDFTextStripper {
 		abstractBlock=getAbstractBlock();
 		keywordBlock=getKeywordBlock();
 	
-		//markIntraTextBlocks();
+		if(ignoreIntraBlock)
+			markIntraTextBlocks();
 		
 		markSubtitleBlocks();
 	}
@@ -300,7 +308,7 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	/*private void markIntraTextBlocks() {
+	private void markIntraTextBlocks() {
 		boolean textInfinished=false;
 		
 		for(Page page:pages)
@@ -319,7 +327,7 @@ public class Content extends PDFTextStripper {
 							block.type=Common._IgnoredBlockIntraText;
 						}	
 				}
-	}*/
+	}
 	
 	private int getBackgroundColor() {
 	    TreeMap<Integer,Integer> pixelColors=new TreeMap<Integer,Integer>();
