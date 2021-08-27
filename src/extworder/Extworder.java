@@ -56,7 +56,7 @@ public class Extworder {
 		//getText("ILL article-Impact of the KWL reading strategy");
     }*/
 	
-	static public void main_test5_block_display() throws IOException {
+	public void main_test5_block_display() throws IOException {
 		//displayBlocks("A model for estimating parameters of rotational landslide");
 		//displayBlocks("Peace-Development and Peace Through");
 		//displayBlocks("Broader perspective on ecosystem");
@@ -85,7 +85,7 @@ public class Extworder {
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
-		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -98,7 +98,7 @@ public class Extworder {
 		}*/
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		printContent("Broader perspective on ecosystem");
+		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
@@ -167,8 +167,8 @@ public class Extworder {
 		return info.getTitle();
 	}
 	
-	public static void displayBlocks(String fn) throws IOException {
-		Content content = new Content(fn);
+	public void displayBlocks(String fn) throws IOException {
+		Content content = new Content(fn, new IgnorePage(), false, true);
 		
 		FileWriter myWriter = null;
 		
@@ -191,7 +191,7 @@ public class Extworder {
 	}
 	
 	public static void printBlocks(String fn) throws IOException {
-		Content content = new Content(fn);
+		Content content = new Content(fn, new IgnorePage(),false,true);
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_block2.txt");
 		
@@ -201,7 +201,7 @@ public class Extworder {
 	}
 	
 	static void printContent(String fn) throws IOException {
-		Content content = new Content(fn);
+		Content content = new Content(fn, new IgnorePage(),false,true);
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
 
@@ -218,20 +218,9 @@ public class Extworder {
 		myWriter.close();
 	}
 	
-	public static String rawContent(String fn) throws IOException {
-		Content content = new Content(fn);
-		
-		String str;
-		
-		str=content.title()+"\n\n\n";
-	
-		if(content.keywordBlock.priorTo(content.abstractBlock))
-			str+=content.keywordStr+"\n\n\n";
-		
-		str+=content.abstractStr+"\n\n\n";
-
-		str+=content.text();
-		
-		return str;
+	static class IgnorePage extends Common.IgnorePage {
+		public boolean isIgnored(Page page) {
+			return false;
+		}
 	}
 }

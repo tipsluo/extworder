@@ -191,6 +191,10 @@ public class Block extends Rectangle {
 			return Common._NOALIGNED;
 	}
 	
+	public void setIgnored(String ignoredString) {
+		type=Common._IgnoredBlockPrefix+ignoredString;
+	}
+	
 	boolean isTextBlock() {
 		int blockWidth=right-left+1;
 		

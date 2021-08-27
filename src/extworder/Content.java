@@ -27,14 +27,17 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Content extends PDFTextStripper {
+    public Block activeBlock;
+    Block titleBlock;
+	Block abstractBlock;
+	Block keywordBlock;
+    String abstractStr;
+    String keywordStr;
+    
 	ArrayList<Page> pages;
     TreeMap<CharFont,Integer> charfonts;
     Map<CharFont,Integer> charfontIndexes;
     CharFont textCharfont;
-    Block titleBlock,abstractBlock,keywordBlock;
-    public String abstractStr;
-    public String keywordStr;
-    Block activeBlock;
     int currPid;
     Page currPage=null;
 	PDFRenderer renderer;
@@ -46,7 +49,14 @@ public class Content extends PDFTextStripper {
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
 	
-	public Content(String fn)  throws IOException{
+    Common.IgnorePage ignorePage;
+	
+	public Content(String fn, 
+				Common.IgnorePage ignorePage,
+				boolean ignoreIntraBlock,
+				boolean ignoreColoredBlock)  throws IOException{
+		this.ignorePage=ignorePage;
+		
 		pages=new ArrayList<Page>();
 		charfonts=new TreeMap<>();
 		
@@ -83,7 +93,7 @@ public class Content extends PDFTextStripper {
 		for(int i=0; i<pages.size();) {
 			Page page=pages.get(i);
 			
-			page.complete(document.getPage(i));
+			page.complete(document.getPage(i),ignoreColoredBlock);
 			
 			if(page.ignored()) {
 				pages.remove(i);
@@ -116,7 +126,8 @@ public class Content extends PDFTextStripper {
 		abstractBlock=getAbstractBlock();
 		keywordBlock=getKeywordBlock();
 	
-		//markIntraTextBlocks();
+		if(ignoreIntraBlock)
+			markIntraTextBlocks();
 		
 		markSubtitleBlocks();
 	}
@@ -297,7 +308,7 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	/*private void markIntraTextBlocks() {
+	private void markIntraTextBlocks() {
 		boolean textInfinished=false;
 		
 		for(Page page:pages)
@@ -316,7 +327,7 @@ public class Content extends PDFTextStripper {
 							block.type=Common._IgnoredBlockIntraText;
 						}	
 				}
-	}*/
+	}
 	
 	private int getBackgroundColor() {
 	    TreeMap<Integer,Integer> pixelColors=new TreeMap<Integer,Integer>();
@@ -440,17 +451,17 @@ public class Content extends PDFTextStripper {
 	
 	private Block getAbstractBlock() {
 		abstractStr=getKeyBlockStr(
-				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"),
-				Common._MinAbstractWordNum + pages.size() * Common._AbstractWordPageRatio);
-		activeBlock.type=Common._AbstractBlock;
+				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"));
+		if(activeBlock!=null)
+			activeBlock.type=Common._AbstractBlock;
 		return activeBlock;	
 	}
 	
 	private Block getKeywordBlock() {
 		keywordStr=getKeyBlockStr(
-				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"),
-				Common._MinKeywordWordNum + pages.size() * Common._KeywordWordPageRatio);
-		activeBlock.type=Common._KeywordBlock;
+				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"));
+		if(activeBlock!=null)
+			activeBlock.type=Common._KeywordBlock;
 		return activeBlock;	
 	}
 	
@@ -505,7 +516,10 @@ public class Content extends PDFTextStripper {
 		return null;
 	}*/
 	
-	private String getKeyBlockStr(Pattern pattern, int minKeyWordNum) {
+	public String getKeyBlockStr(Pattern pattern) {
+		int minKeyBlockWordNum=Common._MinKeyBlockWordNum + 
+				pages.size() * Common._KeyBlockWordPageRation;
+		
 		String str;
 		String ret;
 	
@@ -539,7 +553,7 @@ public class Content extends PDFTextStripper {
 					activeBlock=block;
 					return ret;
 				} else {
-					if (words.length >= minKeyWordNum && 
+					if (words.length >= minKeyBlockWordNum && 
 						! block.format.charfont.equals(textCharfont)) {
 
 						activeBlock=block;

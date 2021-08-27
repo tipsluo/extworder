@@ -8,20 +8,20 @@ import java.util.regex.Pattern;
 import extworder.Block.BlockFormat;
 
 public class Common {
+	/*public final static int _AbstractWordPageRatio=10;
+	public final static int _KeywordWordPageRatio=10;
+	public final static int _MinAbstractWordNum=50;
+	public final static int _MinKeywordWordNum=50;*/
+	public final static int _KeyBlockWordPageRation=10;
+	public final static int _MinKeyBlockWordNum=50;	
+	
 	final static String _TestDataDir="data/";
 	
 	final static float _CharHGapRatio=1.5f;
 	final static float _CharVGapRatio=2.5f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
-	
-	final static String _LenderStr="LENDER";
-	final static String _BorrowerStr="BORROWER";
-	
-	final static int _AbstractWordPageRatio=10;
-	final static int _KeywordWordPageRatio=10;
-	final static int _MinAbstractWordNum=50;
-	final static int _MinKeywordWordNum=50;
+
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -36,7 +36,7 @@ public class Common {
 	final static String _FirstText="FIRSTTEXT";
 	final static String _SubtitlePrefix="SUBTITLE_";
 	final static String _IgnoredBlockPrefix="IGNORED_";
-	//final static String _IgnoredBlockIntraText=_IgnoredBlockPrefix+"INTRATEXT";
+	final static String _IgnoredBlockIntraText=_IgnoredBlockPrefix+"INTRATEXT";
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
 	
 	
@@ -187,4 +187,8 @@ public class Common {
         
         return files;
     }
+    
+	static abstract public class IgnorePage {
+		public abstract boolean isIgnored(Page page);
+	}
 }
