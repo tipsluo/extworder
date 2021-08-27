@@ -44,8 +44,8 @@ public class Page extends Rectangle{
     		return;
     	}
     	
-		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeight());
-		//CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
+		//CharFont charfont=new CharFont(text.getFont().getName(),text.getHeight());
+		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
     	
     	Integer n;
     	n=content.charfonts.compute(charfont, (k,v) -> (v == null ? 0 : v) + 1);
@@ -53,10 +53,17 @@ public class Page extends Rectangle{
     	String str;
     	str=text.toString();
     	
-    	Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidth(),text.getHeight(),
-    			text.getFont().getName());
-    	/*Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
+    	/*Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidth(),text.getHeight(),
     			text.getFont().getName());*/
+    	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
+    			text.getFont().getName());
+    	
+		/*if(ch.left<0 || ch.upper<0) {
+			System.out.printf("page %d x:%f, y: %f\n",
+					id,ch.x,ch.y);
+			return;
+		}*/
+		
     	chars.add(ch);
     	
     	updateRectangle(ch);
@@ -359,12 +366,6 @@ public class Page extends Rectangle{
 	
 	boolean ignored() {
 		return content.ignorePage.isIgnored(this);
-		
-		/*String str=string();
-		if (str.contains(Common._LenderStr) || str.contains(Common._BorrowerStr))		
-			return true;
-		else
-			return false;*/
 	}
 
 	class PageBitmap {
@@ -373,7 +374,10 @@ public class Page extends Rectangle{
 		public PageBitmap(Page page) {
 			points=new Point[page.right+1][page.lower+1];
 			
-			for (Char ch: page.chars) {
+			
+			for (int i=0; i<chars.size();i++) {
+				Char ch=chars.get(i);
+				
 				for (int x=ch.left; x<=ch.right; x++)
 					for (int y=ch.upper; y<=ch.lower; y++) {
 						Point point=new Char.Point(x,y,ch);

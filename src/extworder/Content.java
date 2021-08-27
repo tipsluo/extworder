@@ -452,14 +452,16 @@ public class Content extends PDFTextStripper {
 	private Block getAbstractBlock() {
 		abstractStr=getKeyBlockStr(
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"));
-		activeBlock.type=Common._AbstractBlock;
+		if(activeBlock!=null)
+			activeBlock.type=Common._AbstractBlock;
 		return activeBlock;	
 	}
 	
 	private Block getKeywordBlock() {
 		keywordStr=getKeyBlockStr(
 				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"));
-		activeBlock.type=Common._KeywordBlock;
+		if(activeBlock!=null)
+			activeBlock.type=Common._KeywordBlock;
 		return activeBlock;	
 	}
 	
