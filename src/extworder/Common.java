@@ -27,6 +27,8 @@ public class Common {
 	final static float _BlockDisplaceRatio=1f;
 	final static float _MaxHeaderFooterHeightRatio=0.1f;
 	
+	final static float _IgnoredColoredBlockRatio=2.0f;
+	
 	final static String _TitleBlock="TITLE";
 	final static String _AbstractBlock="ABSTRACT";
 	final static String _KeywordBlock="KEYWORD";
@@ -41,6 +43,7 @@ public class Common {
 	
 	
 	final static float _ColumnWidthAdjustment=0.05f;
+	final static float _ColumnMinWidthRatio=0.3f;
 	
 	final static float _CenterAlignAdjustment=0.05f;
 	

@@ -7,18 +7,18 @@ import java.util.regex.Pattern;
 
 public class Char extends Rectangle {
 	String str;
-	float x,y;
+	//float x,y;
 	String fontname;
 	Row row;
 	float width,height;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
-		ch1.x!=ch2.x ? (int)(ch1.x-ch2.x) : (int)(ch1.y-ch2.y);
+		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
 		
 	public Char(String str,float x, float y, float width, float height, String fontname) {
 		this.str=str;
-		this.x=x;
-		this.y=y;
+		//this.x=x;
+		//this.y=y;
 		this.height=height;
 		this.width=width;
 		this.fontname=fontname;

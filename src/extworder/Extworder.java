@@ -17,8 +17,9 @@ public class Extworder {
 		//main_test1_gettext();
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
-		//main_test4_getText();
-		//main_test5_block_display();
+        main_test4_printRows();
+		main_test4_getText();
+		main_test5_block_display();
 		main_test6_block_print(pdfs);
 		main_test7_content_print(pdfs);
 		System.out.println("Extworder Done.");
@@ -30,6 +31,7 @@ public class Extworder {
 		extract("Broader perspective on ecosystem");
 		//extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//extract("ILL article-Impact of the KWL reading strategy");
+		extract("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
 	/*static public void main_test2_printcharinfos() throws IOException {
@@ -48,22 +50,33 @@ public class Extworder {
 		getTitle("ILL article-Impact of the KWL reading strategy");
     }*/
 	
-	/*static public void main_test4_getText() throws IOException {
-		getText("A model for estimating parameters of rotational landslide");
+	static public void main_test4_printRows() throws IOException {
+		//displayRows("A model for estimating parameters of rotational landslide");
+		//displayRows("Peace-Development and Peace Through");
+		//displayRows("Broader perspective on ecosystem");
+		//displayRows("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//displayRows("ILL article-Impact of the KWL reading strategy");
+		displayRows("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+    }
+	
+	static public void main_test4_getText() throws IOException {
+		//displayChars("A model for estimating parameters of rotational landslide");
 		//getText("Peace-Development and Peace Through");
 		//getText("Broader perspective on ecosystem");
 		//getText("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//getText("ILL article-Impact of the KWL reading strategy");
-    }*/
+		displayChars("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+    }
 	
-	public void main_test5_block_display() throws IOException {
+	public static void main_test5_block_display() throws IOException {
 		//displayBlocks("A model for estimating parameters of rotational landslide");
 		//displayBlocks("Peace-Development and Peace Through");
 		//displayBlocks("Broader perspective on ecosystem");
 		//displayBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//displayBlocks("ILL article-Impact of the KWL reading strategy");
 		//displayBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
-		displayBlocks("APS-Search for millicharged particles in proton-proton collisions");
+		//displayBlocks("APS-Search for millicharged particles in proton-proton collisions");
+		displayBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
 	static public void main_test6_block_print(ArrayList<String> pdfs) throws IOException {
@@ -107,8 +120,7 @@ public class Extworder {
 		// lots of unknow chars printContent("AMS-PACMAN RENORMALIZATION");
 		// unable to read printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
-		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-	
+		printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
 	public static void extract(String fn) throws IOException {
@@ -167,7 +179,48 @@ public class Extworder {
 		return info.getTitle();
 	}
 	
-	public void displayBlocks(String fn) throws IOException {
+	public static void displayChars(String fn) throws IOException {
+		Content content = new Content(fn, new IgnorePage(), false, true);
+		
+		FileWriter myWriter = null;
+		
+		try {
+			myWriter= new FileWriter(Common._TestDataDir+fn+"_char2.txt");
+		
+			for(Page page:content.pages) {
+				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
+			    		for(Char ch:page.chars) {
+				    		myWriter.write(String.format("%s (x=%d y=%d) width=%f height=%f fontname=%s\n", ch.str,ch.left,ch.upper,ch.width,ch.height,ch.fontname));
+				    	}
+			    	
+			}
+		} finally {
+			  myWriter.close();
+		}
+	}
+	
+	public static void displayRows(String fn) throws IOException {
+		Content content = new Content(fn, new IgnorePage(), false, true);
+		
+		FileWriter myWriter = null;
+		
+		try {
+			myWriter= new FileWriter(Common._TestDataDir+fn+"_row.txt");
+		
+			for(Page page:content.pages) {
+				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
+			    		for(Row row:page.rows) {
+				    		myWriter.write(String.format("%s\n(x=%d y=%d) width=%f height=%f fontname=%s\n", 
+				    				row.string(),row.left,row.upper,row.width,row.height,row.charfont.name));
+				    	}
+			    	
+			}
+		} finally {
+			  myWriter.close();
+		}
+	}
+	
+	public static void displayBlocks(String fn) throws IOException {
 		Content content = new Content(fn, new IgnorePage(), false, true);
 		
 		FileWriter myWriter = null;
@@ -176,14 +229,15 @@ public class Extworder {
 			myWriter= new FileWriter(Common._TestDataDir+fn+"_block.txt");
 		
 			for(Page page:content.pages) {
-		    for(Block block:page.blocks) {
-		    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.upper,block.lower));
-		    	for(Row row:block.rows) {
-		    		for(Char ch:row.chars) {
-			    		myWriter.write(String.format("%s (x=%f y=%f) width=%f height=%f fontname=%s\n", ch.str,ch.x,ch.y,ch.width,ch.height,ch.fontname));
+				myWriter.write(String.format("Page: %d\n",page.id));
+				for(Block block:page.blocks) {
+			    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.upper,block.lower));
+			    	for(Row row:block.rows) {
+			    		for(Char ch:row.chars) {
+				    		myWriter.write(String.format("%s (x=%d y=%d) width=%f height=%f fontname=%s\n", ch.str,ch.left,ch.upper,ch.width,ch.height,ch.fontname));
+				    	}
 			    	}
-		    	}
-		    }
+			    }
 			}
 		} finally {
 			  myWriter.close();
@@ -213,7 +267,7 @@ public class Extworder {
 		myWriter.write(content.text());
 		
 		File fileTemp = new File(Common._TestDataDir+fn + "_page1.jpg");
-		ImageIO.write(content.pages.get(1).pageImg,"JPEG",fileTemp);
+		ImageIO.write(content.pages.get(1).pageImg.img,"JPEG",fileTemp);
 		
 		myWriter.close();
 	}
