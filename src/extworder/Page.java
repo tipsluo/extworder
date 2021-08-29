@@ -62,12 +62,6 @@ public class Page extends Rectangle{
     			text.getFont().getName());
     	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     	//		text.getFont().getName());
-    	
-		/*if(ch.left<0 || ch.upper<0) {
-			System.out.printf("page %d x:%f, y: %f\n",
-					id,ch.x,ch.y);
-			return;
-		}*/
 		
     	chars.add(ch);
     	
