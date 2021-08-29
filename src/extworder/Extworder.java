@@ -109,9 +109,9 @@ public class Extworder {
 			}
 			return;
 		}*/
-		//printContent("A model for estimating parameters of rotational landslide");
+		printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		//printContent("Broader perspective on ecosystem");
+		printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
