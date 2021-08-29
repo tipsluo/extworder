@@ -97,9 +97,6 @@ public class Content extends Stripper {
 		if(!ignoreColoredBlock)
 			bgRGB=getBackgroundColor();
 		
-		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		charfontIndexes=makeCharfontIndexes();
-		
 		for(int i=0; i<pages.size();) {
 			Page page=pages.get(i);
 			
@@ -122,12 +119,13 @@ public class Content extends Stripper {
 		markContentX();
 		makeColumns();
 		
+		getTextCharfont();
+		getFirstTextBlock();
+		
 		for(Page page:pages) {
 			page.updateBlockFormats();
 			page.tuneBlocks(textCharfont);
 		}
-
-		getFirstTextBlock();
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
@@ -145,6 +143,19 @@ public class Content extends Stripper {
         	currPage.writeString(text);
         }
     }
+	
+	private void getTextCharfont() {
+		for(Page page:pages)
+			for(Column column:page.columns)
+				for(Block block:column.blocks) {
+					Integer n;
+					n=charfonts.compute(block.format.charfont, (k,v) -> (v == null ? 0 : v) + 1);
+					charfonts.put(block.format.charfont,n);
+				}
+		
+		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		charfontIndexes=makeCharfontIndexes();
+	}
 		
 	private Map<CharFont,Integer> makeCharfontIndexes() {
 		CharFont[] cfs = new CharFont[charfonts.size()];

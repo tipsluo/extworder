@@ -49,12 +49,13 @@ public class Page extends Rectangle{
     		return;
     	}
     	
-		CharFont charfont=new CharFont(text.getFont().getName(),text.getHeight());
+		/*CharFont charfont=new CharFont(text.getFont().getName(),text.getHeight());
 		//CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
     	
     	Integer n;
     	n=content.charfonts.compute(charfont, (k,v) -> (v == null ? 0 : v) + 1);
-    	content.charfonts.put(charfont,n);
+    	content.charfonts.put(charfont,n);*/
+    	
     	String str;
     	str=text.toString();
     	
@@ -243,7 +244,8 @@ public class Page extends Rectangle{
 				if(ch==null) continue;
 				
 				if(ch.row.block==null) {
-					blocks.add(new Block(this,x,y));
+					Block block=new Block(this,x,y);
+					blocks.add(block);
 				} 
 			}
 		
@@ -327,18 +329,15 @@ public class Page extends Rectangle{
 					pageImg.img.getWidth(),pageImg.img.getHeight()));
 		
 		
-		/*fw.write("\n\nBlocks:\n----------------------\n");
+		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
 			if(block.column==null)
-				block.print(fw);*/
+				block.print(fw);
 		
-		fw.write("\n\nColumn:\n");
+		/*fw.write("\n\nColumn:\n");
 		for(Column column:columns) {
-			/*fw.write(String.format("Column: left %d upper %d right %d lower %d\n",
-					column.left,column.upper,column.right,column.lower));*/
-			
 			column.print(fw);
-		}
+		}*/
 		
 		/*fw.write("\n\nColored Blocks:\n----------------------\n");
 		if(coloredBlocks!=null && coloredBlocks.size()>0)
@@ -436,9 +435,6 @@ public class Page extends Rectangle{
 			for(int i=0; i<blocks.size(); i++) {
 				block=blocks.get(i);
 				
-				/*if(block.rows.get(0).string().contains("SIMULATION"))
-					System.out.println("debug");*/
-				
 				if( block.format.charfont.compareTo(textCharfont) <= 0 || 
 						block.rows.size()<2 )
 					continue;
@@ -451,6 +447,7 @@ public class Page extends Rectangle{
 				if(Common.leading2Uppercase.matcher(row2.string()).find())
 					continue;
 				
+				// Split lines of all upper case
 				ArrayList<Block> newBlocks=block.split(1);
 				
 				blocks.remove(block);
