@@ -43,14 +43,16 @@ public class Common {
 	
 	
 	final static float _ColumnWidthAdjustment=0.05f;
-	final static float _ColumnMinWidthRatio=0.3f;
+	//final static float _ColumnMinWidthRatio=0.3f;
+	
+	final static float _MaxTrivialCharBlockWidth=0.15f;
 	
 	final static float _CenterAlignAdjustment=0.05f;
 	
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;
 	
-	final static int _MaxTrivialLength=5;
+	final static int _MaxTrivialColoredLength=5;
 	
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;

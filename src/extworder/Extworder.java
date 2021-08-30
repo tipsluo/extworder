@@ -56,7 +56,7 @@ public class Extworder {
 		//displayRows("Broader perspective on ecosystem");
 		//displayRows("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//displayRows("ILL article-Impact of the KWL reading strategy");
-		displayRows("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//displayRows("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
     }
 	
 	static public void main_test4_getText() throws IOException {
@@ -65,7 +65,7 @@ public class Extworder {
 		//getText("Broader perspective on ecosystem");
 		//getText("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//getText("ILL article-Impact of the KWL reading strategy");
-		displayChars("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//displayChars("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
     }
 	
 	public static void main_test5_block_display() throws IOException {
@@ -76,7 +76,7 @@ public class Extworder {
 		//displayBlocks("ILL article-Impact of the KWL reading strategy");
 		//displayBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//displayBlocks("APS-Search for millicharged particles in proton-proton collisions");
-		displayBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//displayBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
 	static public void main_test6_block_print(ArrayList<String> pdfs) throws IOException {
@@ -98,7 +98,7 @@ public class Extworder {
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
-		printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -110,9 +110,9 @@ public class Extworder {
 			return;
 		}*/
 		printContent("A model for estimating parameters of rotational landslide");
-		//printContent("Peace-Development and Peace Through");
-		printContent("Broader perspective on ecosystem");
-		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		printContent("Peace-Development and Peace Through");
+		//printContent("Broader perspective on ecosystem");
+		printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printContent("Amer-Trends affecting entry level");

@@ -195,23 +195,20 @@ public class Block extends Rectangle {
 		type=Common._IgnoredBlockPrefix+ignoredString;
 	}
 	
-	boolean isTextBlock() {
-		int blockWidth=right-left+1;
-		
+	boolean isTextFullBlock() {
 		return format.charfont.equals(page.content.textCharfont) && 
-				blockWidth >= page.content.lowColumnWidth &&
-				blockWidth <= page.content.highColumnWidth;
+				isFull(page.content,column);
 	}
 	
 	boolean isTextInfinished() {
-		if(! isTextBlock())
+		if(! isTextFullBlock())
 			return false;
 			
 		String lastStr=rows.get(rows.size()-1).string();
 			
 		return Common.infinishedTextBlock.matcher(lastStr.trim()).find();
 	}
-	
+
 	boolean isNonTitle() {
 		if(rows.size()<2)
 			return false;

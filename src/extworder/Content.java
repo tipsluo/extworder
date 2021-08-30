@@ -44,9 +44,10 @@ public class Content extends Stripper {
     Page currPage=null;
 	PDFRenderer renderer;
     int contentLeft,contentRight,contentWidth;
+    float lowContentWidth, highContentWidth, maxContentTrivalBlockWidth;
 	int columnNumber,columnWidth;
-	float lowColumnWidth;
-	float highColumnWidth;
+	float lowColumnWidth,highColumnWidth,maxColumnTrivalBlockWidth;
+	
 	boolean hasFirstTextBlock=false;
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
@@ -144,24 +145,56 @@ public class Content extends Stripper {
         }
     }
 	
-	private void getTextCharfont() {
+	/*private void getTextCharfont() {
 		for(Page page:pages)
 			//for(Column column:page.columns)
 				//for(Block block:column.blocks)
 					for(Row row:page.rows) {
 						Integer n=charfonts.compute(row.charfont, (k,v) -> (v == null ? 0 : v) + 1);
 						charfonts.put(row.charfont,n);
-				/*for(Char ch:page.chars){
-					CharFont charfont=new CharFont(ch.fontname,ch.height);
-					Integer n;
-					n=charfonts.compute(charfont, (k,v) -> (v == null ? 0 : v) + 1);
-					charfonts.put(charfont,n);*/
-					/*n=charfonts.compute(block.format.charfont, (k,v) -> (v == null ? 0 : v) + 1);
-					charfonts.put(block.format.charfont,n);*/
+
 				}
 		
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		charfontIndexes=makeCharfontIndexes();
+	}*/
+	
+	private void getTextCharfont() {
+		for(Page page:pages)
+			//for(Column column:page.columns)
+				//for(Block block:column.blocks)
+					for(Block block:page.blocks) {
+						if(! block.isTrivial(this,block.column) &&
+								! charfonts.containsKey(block.format.charfont))
+							charfonts.put(block.format.charfont,evaluateTextCharfont(block.format.charfont));
+				}
+		/*for(Map.Entry<CharFont,Integer> entry: charfonts.entrySet()) {
+			entry.setValue(evaluateTextCharfont(entry.getKey()));
+		}*/
+		
+		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		charfontIndexes=makeCharfontIndexes();
+	}
+	
+	private int evaluateTextCharfont(CharFont charfont) {
+		int value=0;
+		
+		int currValue=pages.size();
+		
+		for(Page page:pages) {
+			for(Block block:page.blocks) {
+				if(block.isTrivial(this,block.column))
+					continue;
+				
+				if(block.format.charfont.equals(charfont)) {
+					value+=currValue;
+					break;
+				}
+			}
+			currValue--;
+		}
+		
+		return value;
 	}
 		
 	private Map<CharFont,Integer> makeCharfontIndexes() {
@@ -255,10 +288,14 @@ public class Content extends Stripper {
 			}
 		
 		contentWidth=contentRight-contentLeft+1;
+		lowContentWidth=contentWidth*(1-Common._ColumnWidthAdjustment);
+		highContentWidth=contentWidth*(1+Common._ColumnWidthAdjustment);
+		maxContentTrivalBlockWidth=contentWidth*Common._MaxTrivialCharBlockWidth;
 		
 		columnWidth=columnWidth();
 		lowColumnWidth=columnWidth*(1-Common._ColumnWidthAdjustment);
 		highColumnWidth=columnWidth*(1+Common._ColumnWidthAdjustment);
+		maxColumnTrivalBlockWidth=columnWidth*Common._MaxTrivialCharBlockWidth;
 		
 		if(columnWidth+columnWidth+columnWidth < contentWidth)
 			columnNumber=3;
@@ -315,7 +352,7 @@ public class Content extends Stripper {
 		for(;i<bigBlockList.size();i++) {
 			Block block=bigBlockList.get(i);
 			
-			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).isTextBlock())
+			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).isTextFullBlock())
 				if(Block.additionalSubtitleFormatFilter.filter(block)) {
 					block.type=Common.subtitleBlockType(block);
 					continue;
@@ -351,7 +388,7 @@ public class Content extends Stripper {
 					}
 					
 					if(textInfinished)
-						if(block.isTextBlock()) {
+						if(block.isTextFullBlock()) {
 							textInfinished=false;
 							continue;
 						} else if(block.type.isEmpty()) {
@@ -496,57 +533,6 @@ public class Content extends Stripper {
 			activeBlock.type=Common._KeywordBlock;
 		return activeBlock;	
 	}
-	
-	/*private Block getAbstractBlock() {
-		String str;
-		Pattern p = Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?");
-		
-		int minAbstractWordNum=Common._MinAbstractWordNum + 
-					pages.size() * Common._AbstractWordPageRatio;
-		
-		boolean stopped=false;
-		
-		for (Page page:pages) {
-			for(int i=0; i<page.blocks.size();i++) {
-				Block block=page.blocks.get(i);
-				
-				if(block.type==Common._FirstText) {
-					stopped=true;
-					break;
-				}
-				
-				str=block.string();
-				str=str.replaceAll("[\\r\\n]+", " ");
-				str=str.replaceAll("\\s+", " ");
-				
-				String[] words=str.split("[\\s\n]");
-				
-				Matcher m = p.matcher(str);
-				if (m.find()) {
-					abstractStr=m.replaceFirst("");
-					if (abstractStr.isBlank()) {
-						Block block1=block.closestBlock();
-						abstractStr=block1.string();
-						block1.type=Common._AbstractBlock;
-						return block1;
-					}
-					return block;
-				} else {
-					if (words.length >= minAbstractWordNum && 
-						! block.format.charfont.equals(textCharfont)) {
-						abstractStr=str;
-						block.type=Common._AbstractBlock;
-						return block;
-					}
-				}
-			}
-			
-			if(stopped)
-				break;
-		}
-			
-		return null;
-	}*/
 	
 	public String getKeyBlockStr(Pattern pattern) {
 		int minKeyBlockWordNum=Common._MinKeyBlockWordNum + 
@@ -700,7 +686,7 @@ public class Content extends Stripper {
 	private int getIncreasingFormatBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
-		if(block.isTextBlock()) {
+		if(block.isTextFullBlock()) {
 			Block block0=block;
 			
 			int i1=endBlockIndex-1;
@@ -738,7 +724,7 @@ public class Content extends Stripper {
 		for(Page page:pages) {
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(block.isTextBlock()) {
+					if(block.isTextFullBlock()) {
 						block.type=Common._FirstText;
 						return block;
 					} else if(block.type.isEmpty())

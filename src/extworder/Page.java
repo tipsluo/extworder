@@ -331,7 +331,7 @@ public class Page extends Rectangle{
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks)
-			if(block.column==null)
+			//if(block.column==null)
 				block.print(fw);
 		
 		/*fw.write("\n\nColumn:\n");
@@ -557,8 +557,8 @@ public class Page extends Rectangle{
 		}
 		
 		boolean isTrivial() {
-			return (right-left <= Common._MaxTrivialLength) &&
-					(lower-upper <= Common._MaxTrivialLength);
+			return (right-left <= Common._MaxTrivialColoredLength) &&
+					(lower-upper <= Common._MaxTrivialColoredLength);
 		}
 		
 		void clear() {

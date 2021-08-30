@@ -3,6 +3,8 @@ package extworder;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+import extworder.Page.Column;
+
 public abstract class Rectangle {
 	int left,upper,right,lower;
 	
@@ -82,6 +84,37 @@ public abstract class Rectangle {
 	protected boolean isVContaining(Rectangle r1) {
 		return (upper <= r1.upper && lower >= r1.lower) ;
 	}
+	
+	boolean isFull(Content content, Column column) {
+		int width=right-left+1;
+		
+		if(column==null)
+			return width >= content.lowContentWidth &&
+				width <= content.highContentWidth;
+			
+		return width >= content.lowColumnWidth &&
+				width <= content.highColumnWidth;
+	}
+	
+	boolean isTrivial(Content content, Column column) {
+		int width=right-left+1;
+		
+		if(column==null)
+			return width<=content.maxContentTrivalBlockWidth;
+		
+		return width<=content.maxColumnTrivalBlockWidth;
+	}
+	
+	/*boolean isTrivial1(Content content, Column column) {
+		int blockWidth=right-left+1;
+		
+		if(column!=null)
+			return blockWidth >= content.lowColumnWidth &&
+				blockWidth <= content.highColumnWidth;
+			
+		return blockWidth >= content.lowContentWidth &&
+				blockWidth <= content.highContentWidth;
+	}*/
 	
 	protected <T extends Rectangle> ArrayList<T> getAllAbove(ArrayList<T> ts) {		
 		ArrayList<T> cs=new ArrayList<T>();
