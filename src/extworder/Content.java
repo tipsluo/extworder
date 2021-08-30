@@ -161,9 +161,9 @@ public class Content extends Stripper {
 	
 	private void getTextCharfont() {
 		for(Page page:pages)
-			//for(Column column:page.columns)
-				//for(Block block:column.blocks)
-					for(Block block:page.blocks) {
+			for(Column column:page.columns)
+				for(Block block:column.blocks) {
+					//for(Block block:page.blocks) {
 						if(! block.isTrivial(this,block.column) &&
 								! charfonts.containsKey(block.format.charfont))
 							charfonts.put(block.format.charfont,evaluateTextCharfont(block.format.charfont));
