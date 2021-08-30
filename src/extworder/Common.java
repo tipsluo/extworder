@@ -45,7 +45,7 @@ public class Common {
 	final static float _ColumnWidthAdjustment=0.05f;
 	//final static float _ColumnMinWidthRatio=0.3f;
 	
-	final static float _MaxTrivialCharBlockWidth=0.15f;
+	final static float _MaxTrivialCharBlockWidth=0.70f;
 	
 	final static float _CenterAlignAdjustment=0.05f;
 	
@@ -68,6 +68,7 @@ public class Common {
 	final static Pattern infinishedTextBlock;
 	final static Pattern lowercaseExisting;
 	final static Pattern leading2Uppercase;
+	final static Pattern scarceRow;
 	
 	/* May need it later
 	final static Pattern bulletPart1;
@@ -77,6 +78,7 @@ public class Common {
 		infinishedTextBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");
 		leading2Uppercase=Pattern.compile("^\\s*[A-Z]{2,}");
+		scarceRow=Pattern.compile("\\S+\s{3,}\\S");
 		
 		/* May need it later
 		bulletPart1=Pattern.compile("^\\s*([a-zA-Z][.])?(.*)");
@@ -128,9 +130,36 @@ public class Common {
 	static class TextBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
-			return (block.format.charfont.compareTo(block.page.content.textCharfont) == 0 &&
-			   block.type!=Common._BeforeFirstText ) ||
-					Block.subtitleBlockFilter.filter(block);
+			if(block.format.charfont.equals(block.page.content.textCharfont)) {
+				if(block.type==Common._BeforeFirstText)
+					return false;
+				else {
+					if (block.rows.size()==1) {
+						String lastStr=block.rows.get(block.rows.size()-1).string();
+						
+						return ((! infinishedTextBlock.matcher(lastStr.trim()).find()) &&
+								(! block.isTrivial(block.page.content,block.column)) &&
+								(! scarceRow.matcher(lastStr).find())
+							   );
+					} else {
+						return (! block.isTrivial(block.page.content,block.column)) &&
+							   (! block.isAllScarce());
+					}
+				}
+			} else {
+				return Block.subtitleBlockFilter.filter(block);
+			}
+			
+			/*return ((block.format.charfont.compareTo(block.page.content.textCharfont) == 0) &&
+						block.type!=Common._BeforeFirstText &&
+						(! (block.isTrivial(block.page.content,block.column) || 
+						    (block.rows.size()==1 && infinishedTextBlock.matcher(lastStr.trim()).find())
+						   )
+						)
+					) ||
+				   	Block.subtitleBlockFilter.filter(block); */
+			
+			
 		}
 	}
 	

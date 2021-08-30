@@ -88,7 +88,7 @@ public class Extworder {
 			return;
 		}*/
 		
-		//printBlocks("A model for estimating parameters of rotational landslide");
+		printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -109,18 +109,19 @@ public class Extworder {
 			}
 			return;
 		}*/
+		
 		printContent("A model for estimating parameters of rotational landslide");
-		printContent("Peace-Development and Peace Through");
+		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
-		printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
-		//printContent("Amer-Trends affecting entry level");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		// lots of unknow chars printContent("AMS-PACMAN RENORMALIZATION");
 		// unable to read printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
-		printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//printContent("ALA-Past is Prologue");
 	}
 	
 	public static void extract(String fn) throws IOException {

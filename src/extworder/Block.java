@@ -208,6 +208,14 @@ public class Block extends Rectangle {
 			
 		return Common.infinishedTextBlock.matcher(lastStr.trim()).find();
 	}
+	
+	boolean isAllScarce() {
+		for(Row row:rows) {
+			if(! Common.scarceRow.matcher(row.string()).find())
+				return false;
+		}
+		return true;
+	}
 
 	boolean isNonTitle() {
 		if(rows.size()<2)

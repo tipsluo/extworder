@@ -330,14 +330,14 @@ public class Page extends Rectangle{
 		
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
-		for(Block block:blocks)
+		/*for(Block block:blocks)
 			//if(block.column==null)
-				block.print(fw);
+				block.print(fw);*/
 		
-		/*fw.write("\n\nColumn:\n");
+		fw.write("\n\nColumn:\n");
 		for(Column column:columns) {
 			column.print(fw);
-		}*/
+		}
 		
 		/*fw.write("\n\nColored Blocks:\n----------------------\n");
 		if(coloredBlocks!=null && coloredBlocks.size()>0)
@@ -352,7 +352,8 @@ public class Page extends Rectangle{
 		String str="";
 		
 		for(Column column: columns) {
-			str+=column.string(Block.textBlockFilter,Block.bigBlockFilter);
+			//str+=column.string(Block.textBlockFilter,Block.bigBlockFilter);
+			str+=column.string(Block.textBlockFilter);
 		}
 		
 		return str;
@@ -481,11 +482,26 @@ public class Page extends Rectangle{
 						break;
 					}
 				
+				if(unmatched)
+					continue;
+			
+				str+=block.string()+"\n";
+			}
+			
+			/*for(Block block:blocks) {
+				boolean unmatched=false;
+				
+				for(BlockFilter filter : blockFilters)
+					if(! filter.filter(block)) {
+						unmatched=true;
+						break;
+					}
+				
 					if(unmatched)
 						continue;
 				
 					str+=block.string()+"\n";
-			}
+			}*/
 			
 			return str;
 		}

@@ -168,11 +168,9 @@ public class Content extends Stripper {
 								! charfonts.containsKey(block.format.charfont))
 							charfonts.put(block.format.charfont,evaluateTextCharfont(block.format.charfont));
 				}
-		/*for(Map.Entry<CharFont,Integer> entry: charfonts.entrySet()) {
-			entry.setValue(evaluateTextCharfont(entry.getKey()));
-		}*/
 		
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		
 		charfontIndexes=makeCharfontIndexes();
 	}
 	
@@ -196,8 +194,31 @@ public class Content extends Stripper {
 		
 		return value;
 	}
-		
+	
 	private Map<CharFont,Integer> makeCharfontIndexes() {
+		ArrayList<CharFont> cfs=new ArrayList<CharFont>();
+		
+		for(Page page:pages)
+			for(Row row:page.rows)
+				if(! cfs.contains(row.charfont))
+					cfs.add(row.charfont);
+		
+		int textCharfontIndex=-1;
+		for(int i = 0; i<cfs.size();i++ )
+            if(cfs.get(i).equals(textCharfont)) {
+            	textCharfontIndex = i;
+                break;
+            }
+		
+		Map<CharFont,Integer> cfIndexes=new HashMap<>();
+		for(int i=0; i<cfs.size();i++ ) {
+			cfIndexes.put(cfs.get(i),i-textCharfontIndex);
+		}
+		
+		return cfIndexes;
+	}
+		
+	/*private Map<CharFont,Integer> makeCharfontIndexes() {
 		CharFont[] cfs = new CharFont[charfonts.size()];
 		int i=0;
 		for (CharFont cf : charfonts.keySet()) {
@@ -218,7 +239,7 @@ public class Content extends Stripper {
 		}
 		
 		return cfIndexes;
-	}
+	}*/
 	
 	private int columnWidth() {
 		Map<Integer,Integer> blockWidths=new TreeMap<Integer,Integer>();
