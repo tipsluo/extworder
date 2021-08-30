@@ -88,7 +88,7 @@ public class Extworder {
 			return;
 		}*/
 		
-		printBlocks("A model for estimating parameters of rotational landslide");
+		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -99,6 +99,7 @@ public class Extworder {
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		printBlocks("acs-A Review on Perovskite-Type LaFeO3");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -110,7 +111,7 @@ public class Extworder {
 			return;
 		}*/
 		
-		printContent("A model for estimating parameters of rotational landslide");
+		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -122,6 +123,7 @@ public class Extworder {
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
 		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
+		printContent("acs-A Review on Perovskite-Type LaFeO3");
 	}
 	
 	public static void extract(String fn) throws IOException {

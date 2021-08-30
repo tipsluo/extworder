@@ -341,7 +341,7 @@ public class Content extends Stripper {
 				Page page2=pages.get(j);
 				ArrayList<Block> bbs2=page2.lowerBlocks();
 				
-				for(Block bb1:bbs1)
+				for(Block bb1:bbs1) {
 					for(Block bb2:bbs2) {
 						if( bb1.right-bb1.left > minFooterWidth ||
 							bb2.right-bb2.left > minFooterWidth ||
@@ -350,8 +350,12 @@ public class Content extends Stripper {
 							
 							continue;
 						
+						if(bb2.isFull(this,bb2.column))
+							continue;
+						
 						addSimilar(fbls,bb1,bb2);
 					}
+				}
 			}
 		}
 		

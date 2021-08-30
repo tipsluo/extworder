@@ -132,6 +132,15 @@ public class Block extends Rectangle {
 	}
 	
 	boolean isSimilar(Block block) {
+		if(rows.size() != block.rows.size())
+			return false;
+		
+		Pattern pattern=Pattern.compile("\\s+");
+		long i1=pattern.matcher(string()).results().count();
+		long i2=pattern.matcher(block.string()).results().count();
+		if(i1!=i2)
+			return false;
+		
 		int allowedDisplace = (int) (Common._BlockDisplaceRatio * format.charfont.height);
 		
 		if( Math.abs(left - block.left) <= allowedDisplace &&
