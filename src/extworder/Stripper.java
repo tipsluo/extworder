@@ -21,6 +21,7 @@ import org.apache.pdfbox.text.TextPosition;
 import org.apache.pdfbox.util.Matrix;
 import org.apache.pdfbox.util.Vector;
 
+/*not being used, keeping it just for future if it is needed*/
 public class Stripper extends PDFTextStripper {
     float lowerLeftX = 0;
     float lowerLeftY = 0;

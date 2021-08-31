@@ -11,6 +11,7 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.PDFRenderer;
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Block.BlockFormat;
@@ -28,7 +29,7 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Content extends Stripper {
+public class Content extends PDFTextStripper {
     public Block activeBlock;
     Block titleBlock;
 	Block abstractBlock;

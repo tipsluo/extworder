@@ -249,15 +249,22 @@ public class Page extends Rectangle{
 				} 
 			}
 		
+		boolean merged=false;
 		for(int i=0;i<blocks.size();i++) {
 			Block b1=blocks.get(i);
 			for(int j=0;j<blocks.size();j++) {
 				Block b2=blocks.get(j);
-				if(b1!=b2 && b1.contains(b2)) {
+				if(b1!=b2 && 
+					//( b1.contains(b2) ||
+						(b1.isVIntersected(b2) && b1.isHIntersected(b2)) ) {
 					b1.merge(b2);
 					j--;
+					merged=true;
 				}
 			}
+			if(merged)
+				i--;
+			merged=false;
 		}
 		
 		Collections.sort(blocks,Block.compareBlocks);

@@ -28,11 +28,11 @@ public class Extworder {
 	static public void main_test1_gettext() throws IOException {
 		//extract("A model for estimating parameters of rotational landslide");
 		//extract("Peace-Development and Peace Through");
-		extract("Broader perspective on ecosystem");
+		//extract("Broader perspective on ecosystem");
 		//extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//extract("ILL article-Impact of the KWL reading strategy");
 		extract("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-	}
+	}//
 	
 	/*static public void main_test2_printcharinfos() throws IOException {
 		printCharInfos("A model for estimating parameters of rotational landslide");
@@ -57,7 +57,8 @@ public class Extworder {
 		//displayRows("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//displayRows("ILL article-Impact of the KWL reading strategy");
 		//displayRows("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-    }
+		//displayRows("AMS-PACMAN RENORMALIZATION");
+	}
 	
 	static public void main_test4_getText() throws IOException {
 		//displayChars("A model for estimating parameters of rotational landslide");
@@ -96,10 +97,10 @@ public class Extworder {
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("Amer-Trends affecting entry level");
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
-		//printBlocks("AMS-PACMAN RENORMALIZATION");
+		printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-		printBlocks("acs-A Review on Perovskite-Type LaFeO3");
+		//printBlocks("acs-A Review on Perovskite-Type LaFeO3");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -118,12 +119,12 @@ public class Extworder {
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
-		// lots of unknow chars printContent("AMS-PACMAN RENORMALIZATION");
+		printContent("AMS-PACMAN RENORMALIZATION");
 		// unable to read printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
 		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
-		printContent("acs-A Review on Perovskite-Type LaFeO3");
+		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 	}
 	
 	public static void extract(String fn) throws IOException {

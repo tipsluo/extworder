@@ -93,9 +93,26 @@ public class Block extends Rectangle {
 		
 		rows.addAll(block.rows);
 		
+		page.blocks.remove(block);
+		
 		Collections.sort(rows,Row.compareRows);
 		
-		page.blocks.remove(block);
+		boolean merged=false;
+		for(int i1=0; i1<rows.size(); i1++) {
+			Row row1=rows.get(i1);
+			for(int i2=0; i2<rows.size(); i2++) {
+				Row row2=rows.get(i2);
+				if(row1!=row2 && 
+					(row1.isVIntersected(row2) && row1.isHIntersected(row2)) ) {
+					row1.merge(row2);
+					i2--;
+					merged=true;
+				}
+			}
+			if(merged)
+				i1--;
+			merged=false;
+		}
 	}
 	
 	ArrayList<Block> split(int rowNum) {
