@@ -57,6 +57,7 @@ public class Common {
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
+	final static int _CENTERALIGNED_WI_INDENT=2;
 	final static int _UNKNOWNALIGNED=-98;
 	final static int _NOALIGNED=-99;
 	
@@ -138,11 +139,11 @@ public class Common {
 						String lastStr=block.rows.get(block.rows.size()-1).string();
 						
 						return ((! infinishedTextBlock.matcher(lastStr.trim()).find()) &&
-								(! block.isTrivial(block.page.content,block.column)) &&
+								(! block.isTrivial()) &&
 								(! scarceRow.matcher(lastStr).find())
 							   );
 					} else {
-						return (! block.isTrivial(block.page.content,block.column)) &&
+						return (! block.isTrivial()) &&
 							   (! block.isAllScarce());
 					}
 				}
@@ -177,7 +178,9 @@ public class Common {
 			if(charfontDiff>0 && block.isNonTitle())
 				return false;
 			
-			return  charfontDiff >= 0 &&
+			return  ( charfontDiff >= 0 || 
+						charfontDiff == 0 && block.format.alignment==Common._CENTERALIGNED)
+					&&
 					! pattern.matcher(block.type).find();
 		}
 	}

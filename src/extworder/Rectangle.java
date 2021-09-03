@@ -9,10 +9,7 @@ public abstract class Rectangle {
 	int left,upper,right,lower;
 	
 	Rectangle() {
-		left=9999;
-		upper=9999;
-		right=0;
-		lower=0;
+		resetRectangle();
 	}
 	
 	Rectangle(int left,int upper,int right, int lower) {
@@ -20,6 +17,13 @@ public abstract class Rectangle {
 		this.right=right;
 		this.upper=upper;
 		this.lower=lower;
+	}
+	
+	protected void resetRectangle() {
+		left=9999;
+		upper=9999;
+		right=0;
+		lower=0;
 	}
 
 	protected void updateRectangle(Rectangle r) {
@@ -94,15 +98,6 @@ public abstract class Rectangle {
 			
 		return width >= content.lowColumnWidth &&
 				width <= content.highColumnWidth;
-	}
-	
-	boolean isTrivial(Content content, Column column) {
-		int width=right-left+1;
-		
-		if(column==null)
-			return width<=content.maxContentTrivalBlockWidth;
-		
-		return width<=content.maxColumnTrivalBlockWidth;
 	}
 	
 	/*boolean isTrivial1(Content content, Column column) {

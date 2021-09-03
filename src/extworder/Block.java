@@ -206,9 +206,15 @@ public class Block extends Rectangle {
 		int leftIndent=left-l;
 		int rightIndent=r-right;
 		
+		/*if(string().contains("INTRODUCTION"))
+			System.out.println("");*/
+		
 		if(Math.abs(leftIndent-rightIndent) < 
 				(int)(page.content.columnWidth*Common._CenterAlignAdjustment))
-			return Common._CENTERALIGNED;
+			if(leftIndent==0)
+				return Common._CENTERALIGNED;
+			else
+				return Common._CENTERALIGNED_WI_INDENT;
 		else if(leftIndent==0)
 			return Common._LEFTALIGNED;
 		else if(rightIndent==0)
@@ -268,6 +274,15 @@ public class Block extends Rectangle {
 		return false;
 	}
 	
+	boolean isNotTextBlock() {
+		int width=right-left+1;
+		
+		if(column==null)
+			return width<=page.content.maxContentTrivalBlockWidth;
+		
+		return width<=page.content.maxColumnTrivalBlockWidth;
+	}
+	
 	public boolean priorTo(Block block) {
 		if(page!=block.page)
 			return page.id<block.page.id;
@@ -293,8 +308,8 @@ public class Block extends Rectangle {
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
 				content.charfontIndexes.get(format.charfont),left,right,upper,lower));
-		fw.write(String.format("charfont height=%f, charfont bold=%d\n\n",
-				format.charfont.height, format.charfont.bold));
+		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d\n\n",
+				format.charfont.height, format.charfont.bold, format.alignment));
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {
@@ -371,6 +386,20 @@ public class Block extends Rectangle {
 			
 			if(r!=0)
 				return r;
+			
+			if(alignment==Common._CENTERALIGNED_WI_INDENT && 
+					blockformat.alignment!=Common._CENTERALIGNED_WI_INDENT)
+				return 1;
+			else if((alignment!=Common._CENTERALIGNED_WI_INDENT && 
+					blockformat.alignment==Common._CENTERALIGNED_WI_INDENT))
+				return -1;
+			
+			if(alignment==Common._CENTERALIGNED && 
+					blockformat.alignment!=Common._CENTERALIGNED)
+				return 1;
+			else if((alignment!=Common._CENTERALIGNED && 
+					blockformat.alignment==Common._CENTERALIGNED))
+				return -1;
 			
 			return allUppercase-blockformat.allUppercase;
 		}

@@ -31,7 +31,7 @@ public class Extworder {
 		//extract("Broader perspective on ecosystem");
 		//extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//extract("ILL article-Impact of the KWL reading strategy");
-		extract("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//extract("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}//
 	
 	/*static public void main_test2_printcharinfos() throws IOException {
@@ -67,6 +67,7 @@ public class Extworder {
 		//getText("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//getText("ILL article-Impact of the KWL reading strategy");
 		//displayChars("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//displayChars("APS-Evidence for CP violation in B");
     }
 	
 	public static void main_test5_block_display() throws IOException {
@@ -101,6 +102,7 @@ public class Extworder {
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printBlocks("acs-A Review on Perovskite-Type LaFeO3");
+		//printBlocks("APS-Evidence for CP violation in B");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -125,6 +127,7 @@ public class Extworder {
 		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
+		//printContent("APS-Evidence for CP violation in B");
 	}
 	
 	public static void extract(String fn) throws IOException {
@@ -269,6 +272,9 @@ public class Extworder {
 		myWriter.write(content.subtitles());
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.text());
+		
+		//java.io.PrintStream p = new java.io.PrintStream(Common._TestDataDir+fn+"_content.txt","UTF-8");
+		//p.println(content.text());
 		
 		File fileTemp = new File(Common._TestDataDir+fn + "_page1.jpg");
 		ImageIO.write(content.pages.get(1).pageImg.img,"JPEG",fileTemp);

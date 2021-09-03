@@ -1,5 +1,8 @@
 APS-Evidence for CP violation in B.pdf  title
+
 AMS-PACMAN RENORMALIZATION_content     subtitle
+error when extract. INTRODUCTION became Introduction
+
 ALA-Past is Prologue  interesting title
 
 no abstract
@@ -11,9 +14,12 @@ acs-A Review on Perovskite-Type LaFeO3_content
 
 
 Medline-Beneficial Effects of Principal Polyphenols from Green Tea : 1. negative index, 2. many short blocks which confuse columns, 3. number undefined rows/chars/blocks is more than those of text
+resolved.
+
 
 printContent(AMS-PACMAN RENORMALIZATION) : error
 acs-A Review on Perovskite-Type LaFeO3 : missing "structure is not very common due to the lack o"
+reported.
 
 
 

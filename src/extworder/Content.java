@@ -10,9 +10,12 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.font.PDFont;
 import org.apache.pdfbox.rendering.PDFRenderer;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
+import org.apache.pdfbox.util.Matrix;
+import org.apache.pdfbox.util.Vector;
 
 import extworder.Block.BlockFormat;
 import extworder.Page.Column;
@@ -165,7 +168,7 @@ public class Content extends PDFTextStripper {
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
 					//for(Block block:page.blocks) {
-						if(! block.isTrivial(this,block.column) &&
+						if(! block.isTrivial() &&
 								! charfonts.containsKey(block.format.charfont))
 							charfonts.put(block.format.charfont,evaluateTextCharfont(block.format.charfont));
 				}
@@ -182,7 +185,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			for(Block block:page.blocks) {
-				if(block.isTrivial(this,block.column))
+				if(block.isTrivial())
 					continue;
 				
 				if(block.format.charfont.equals(charfont)) {
@@ -718,8 +721,8 @@ public class Content extends PDFTextStripper {
 			int i1=endBlockIndex-1;
 			for(; i1>=0; i1--) {
 				Block block1=blocks.get(i1);
-				if(block1.format.charfont.equals(textCharfont))
-					break;
+				/*if(block1.format.charfont.equals(textCharfont))
+					break;*/
 				
 				if(block0.format.compareFormat(block1.format)>=0)
 					break;
@@ -861,5 +864,15 @@ public class Content extends PDFTextStripper {
 			}
 			return -1;
 		}
+	}
+	
+	@Override
+	protected void showGlyph(Matrix textRenderingMatrix, PDFont font, int code, String unicode, Vector displacement) throws IOException
+	{
+	    super.showGlyph(textRenderingMatrix, font, code, unicode, displacement);
+	    if (unicode == null || unicode.isEmpty())
+	    {
+	        // do stuff
+	    }
 	}
 }
