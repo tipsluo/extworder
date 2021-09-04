@@ -45,7 +45,8 @@ public class Common {
 	final static float _ColumnWidthAdjustment=0.05f;
 	//final static float _ColumnMinWidthRatio=0.3f;
 	
-	final static float _MaxTrivialCharBlockWidth=0.70f;
+	final static float _MinTextCharBlockWidth=0.70f;
+	final static float _MinTitleLength=4;
 	
 	final static float _CenterAlignAdjustment=0.05f;
 	
@@ -54,10 +55,13 @@ public class Common {
 	
 	final static int _MaxTrivialColoredLength=5;
 	
+	final static float _MinUppercaseBlockRatio=0.5f;
+	final static int _MinUppercaseBlockCount=5;
+	
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
-	final static int _CENTERALIGNED_WI_INDENT=2;
+	final static int _CENTERALIGNEDWIINDENT=2;
 	final static int _UNKNOWNALIGNED=-98;
 	final static int _NOALIGNED=-99;
 	
@@ -68,6 +72,7 @@ public class Common {
 	
 	final static Pattern infinishedTextBlock;
 	final static Pattern lowercaseExisting;
+	final static Pattern uppercase;
 	final static Pattern leading2Uppercase;
 	final static Pattern scarceRow;
 	
@@ -78,6 +83,7 @@ public class Common {
 	static {
 		infinishedTextBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");
+		uppercase=Pattern.compile("[A-Z]");
 		leading2Uppercase=Pattern.compile("^\\s*[A-Z]{2,}");
 		scarceRow=Pattern.compile("\\S+\s{3,}\\S");
 		
@@ -139,11 +145,12 @@ public class Common {
 						String lastStr=block.rows.get(block.rows.size()-1).string();
 						
 						return ((! infinishedTextBlock.matcher(lastStr.trim()).find()) &&
-								(! block.isTrivial()) &&
+								/*(! block.isTrivial()) &&*/
+								(block.format.alignment==Common._LEFTALIGNED) &&
 								(! scarceRow.matcher(lastStr).find())
 							   );
 					} else {
-						return (! block.isTrivial()) &&
+						return (! block.isNotTextBlock()) &&
 							   (! block.isAllScarce());
 					}
 				}
@@ -179,7 +186,10 @@ public class Common {
 				return false;
 			
 			return  ( charfontDiff >= 0 || 
-						charfontDiff == 0 && block.format.alignment==Common._CENTERALIGNED)
+						charfontDiff == 0 && 
+						( block.format.alignment==Common._CENTERALIGNED ||
+						  block.format.alignment==Common._CENTERALIGNEDWIINDENT)
+					)
 					&&
 					! pattern.matcher(block.type).find();
 		}

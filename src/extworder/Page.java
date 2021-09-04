@@ -337,14 +337,14 @@ public class Page extends Rectangle{
 		
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
-		/*for(Block block:blocks)
+		for(Block block:blocks)
 			//if(block.column==null)
-				block.print(fw);*/
+				block.print(fw);
 		
-		fw.write("\n\nColumn:\n");
+		/*fw.write("\n\nColumn:\n");
 		for(Column column:columns) {
 			column.print(fw);
-		}
+		}*/
 		
 		/*fw.write("\n\nColored Blocks:\n----------------------\n");
 		if(coloredBlocks!=null && coloredBlocks.size()>0)

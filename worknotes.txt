@@ -1,7 +1,9 @@
 APS-Evidence for CP violation in B.pdf  title
 
 AMS-PACMAN RENORMALIZATION_content     subtitle
-error when extract. INTRODUCTION became Introduction
+issue remaining, sent
+1. error of font not found when extract. INTRODUCTION became Introduction
+2. too many formulars messing up
 
 ALA-Past is Prologue  interesting title
 

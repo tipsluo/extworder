@@ -48,9 +48,9 @@ public class Content extends PDFTextStripper {
     Page currPage=null;
 	PDFRenderer renderer;
     int contentLeft,contentRight,contentWidth;
-    float lowContentWidth, highContentWidth, maxContentTrivalBlockWidth;
+    float lowContentWidth, highContentWidth, minTextBlockWidth;
 	int columnNumber,columnWidth;
-	float lowColumnWidth,highColumnWidth,maxColumnTrivalBlockWidth;
+	float lowColumnWidth,highColumnWidth,minTextColumnBlockWidth;
 	
 	boolean hasFirstTextBlock=false;
 	BlockFormatChain subtitleFormatChain;
@@ -167,10 +167,9 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					//for(Block block:page.blocks) {
-						if(! block.isTrivial() &&
-								! charfonts.containsKey(block.format.charfont))
-							charfonts.put(block.format.charfont,evaluateTextCharfont(block.format.charfont));
+					if(! block.isNotTextBlock() &&
+							! charfonts.containsKey(block.format.charfont))
+						charfonts.put(block.format.charfont,evaluateTextCharfont(block.format.charfont));
 				}
 		
 		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
@@ -185,7 +184,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			for(Block block:page.blocks) {
-				if(block.isTrivial())
+				if(block.isNotTextBlock())
 					continue;
 				
 				if(block.format.charfont.equals(charfont)) {
@@ -315,12 +314,12 @@ public class Content extends PDFTextStripper {
 		contentWidth=contentRight-contentLeft+1;
 		lowContentWidth=contentWidth*(1-Common._ColumnWidthAdjustment);
 		highContentWidth=contentWidth*(1+Common._ColumnWidthAdjustment);
-		maxContentTrivalBlockWidth=contentWidth*Common._MaxTrivialCharBlockWidth;
+		minTextBlockWidth=contentWidth*Common._MinTextCharBlockWidth;  //for multiple rows
 		
 		columnWidth=columnWidth();
 		lowColumnWidth=columnWidth*(1-Common._ColumnWidthAdjustment);
 		highColumnWidth=columnWidth*(1+Common._ColumnWidthAdjustment);
-		maxColumnTrivalBlockWidth=columnWidth*Common._MaxTrivialCharBlockWidth;
+		minTextColumnBlockWidth=columnWidth*Common._MinTextCharBlockWidth;
 		
 		if(columnWidth+columnWidth+columnWidth < contentWidth)
 			columnNumber=3;

@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.TreeMap;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import extworder.Block.BlockFormat;
@@ -214,7 +215,7 @@ public class Block extends Rectangle {
 			if(leftIndent==0)
 				return Common._CENTERALIGNED;
 			else
-				return Common._CENTERALIGNED_WI_INDENT;
+				return Common._CENTERALIGNEDWIINDENT;
 		else if(leftIndent==0)
 			return Common._LEFTALIGNED;
 		else if(rightIndent==0)
@@ -251,7 +252,10 @@ public class Block extends Rectangle {
 
 	boolean isNonTitle() {
 		if(rows.size()<2)
-			return false;
+			if(string().length() >= Common._MinTitleLength)
+				return false;
+			else
+				return true;
 		
 		Row row1=rows.get(0);
 		for(int i=1; i<rows.size(); i++) {
@@ -277,10 +281,13 @@ public class Block extends Rectangle {
 	boolean isNotTextBlock() {
 		int width=right-left+1;
 		
+		/* need to support lines like:
+		 * 1.       last sentence.
+		 */
 		if(column==null)
-			return width<=page.content.maxContentTrivalBlockWidth;
+			return format.alignment!=Common._LEFTALIGNED && width<=page.content.minTextBlockWidth;
 		
-		return width<=page.content.maxColumnTrivalBlockWidth;
+		return format.alignment!=Common._LEFTALIGNED && width<=page.content.minTextColumnBlockWidth;
 	}
 	
 	public boolean priorTo(Block block) {
@@ -308,8 +315,8 @@ public class Block extends Rectangle {
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
 				content.charfontIndexes.get(format.charfont),left,right,upper,lower));
-		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d\n\n",
-				format.charfont.height, format.charfont.bold, format.alignment));
+		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d\n\n",
+				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase));
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {
@@ -361,7 +368,20 @@ public class Block extends Rectangle {
 		public void update(Block block) {
 			this.indent=block.indent();
 			this.alignment=block.alignment();
-			this.allUppercase = Common.lowercaseExisting.matcher(block.string()).find() ? -1 : 1;
+			
+			String s=block.string();
+			if(s.length()<Common._MinUppercaseBlockCount || Common.lowercaseExisting.matcher(s).find())
+				this.allUppercase=-1;
+			else {
+				int c=0;
+				Matcher m=Common.uppercase.matcher(s);
+				while(m.find())
+					c++;
+				if(c < s.length() * Common._MinUppercaseBlockRatio)
+					this.allUppercase=-1;
+				else
+					this.allUppercase=1;
+			}
 		}
 		
 		public BlockFormat(CharFont charfont) {
@@ -387,11 +407,11 @@ public class Block extends Rectangle {
 			if(r!=0)
 				return r;
 			
-			if(alignment==Common._CENTERALIGNED_WI_INDENT && 
-					blockformat.alignment!=Common._CENTERALIGNED_WI_INDENT)
+			/*if(alignment==Common._CENTERALIGNEDWIINDENT && 
+					blockformat.alignment!=Common._CENTERALIGNEDWIINDENT)
 				return 1;
-			else if((alignment!=Common._CENTERALIGNED_WI_INDENT && 
-					blockformat.alignment==Common._CENTERALIGNED_WI_INDENT))
+			else if((alignment!=Common._CENTERALIGNEDWIINDENT && 
+					blockformat.alignment==Common._CENTERALIGNEDWIINDENT))
 				return -1;
 			
 			if(alignment==Common._CENTERALIGNED && 
@@ -399,7 +419,7 @@ public class Block extends Rectangle {
 				return 1;
 			else if((alignment!=Common._CENTERALIGNED && 
 					blockformat.alignment==Common._CENTERALIGNED))
-				return -1;
+				return -1;*/
 			
 			return allUppercase-blockformat.allUppercase;
 		}
