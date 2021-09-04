@@ -122,12 +122,14 @@ public class Extworder {
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printContent("AMS-PACMAN RENORMALIZATION");
-		// unable to read printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
+		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
-		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
-		printContent("APS-Evidence for CP violation in B");
+		//printContent("APS-Evidence for CP violation in B");
+		//printContent("Wiley-Early life stress and HPA axis");
+		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 	}
 	
 	public static void extract(String fn) throws IOException {
@@ -262,22 +264,22 @@ public class Extworder {
 	}
 	
 	static void printContent(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(),false,true,true);
+		Content content = new Content(fn, new IgnorePage(),true,true,true);
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
 
 		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
 				content.title(),content.abstractStr));
-		myWriter.write(String.format("Subtitles:\n"));
-		myWriter.write(content.subtitles());
+		//myWriter.write(String.format("Subtitles:\n"));
+		//myWriter.write(content.subtitles());
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.text());
 		
 		//java.io.PrintStream p = new java.io.PrintStream(Common._TestDataDir+fn+"_content.txt","UTF-8");
 		//p.println(content.text());
 		
-		File fileTemp = new File(Common._TestDataDir+fn + "_page1.jpg");
-		ImageIO.write(content.pages.get(1).pageImg.img,"JPEG",fileTemp);
+		//File fileTemp = new File(Common._TestDataDir+fn + "_page1.jpg");
+		//ImageIO.write(content.pages.get(1).pageImg.img,"JPEG",fileTemp);
 		
 		myWriter.close();
 	}

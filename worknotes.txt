@@ -6,6 +6,7 @@ AMS-PACMAN RENORMALIZATION_content     subtitle
 issue remaining, sent
 1. error of font not found when extract. INTRODUCTION became Introduction
 2. too many formulars messing up
+(3) missing "structure is not very common due to the lack o"
 
 ALA-Past is Prologue  interesting title
 
@@ -21,10 +22,9 @@ Medline-Beneficial Effects of Principal Polyphenols from Green Tea : 1. negative
 resolved.
 
 
-printContent(AMS-PACMAN RENORMALIZATION) : error
-acs-A Review on Perovskite-Type LaFeO3 : missing "structure is not very common due to the lack o"
-reported.
-
+AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,
+fixed issue: not able to extract any character
+have to disable colored block to make it work. otherwise, hangs at getting image.
 
 
 https://github.com/mkl-public/testarea-pdfbox2/tree/d44c6283c4618a026372ac6186a08861c988482f    extract only visible chars

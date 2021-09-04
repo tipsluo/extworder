@@ -74,7 +74,8 @@ public class Content extends PDFTextStripper {
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
-		renderer = new PDFRenderer(document);
+		if(! ignoreColoredBlock)
+			renderer = new PDFRenderer(document);
 		
 		setSortByPosition( true ); 
 		
@@ -93,9 +94,11 @@ public class Content extends PDFTextStripper {
 				e.printStackTrace();
 			}
 
-			currPage.pageImg=currPage.new PageImg(renderer.renderImage(currPid-1));
-			if(!currPage.pageImg.normal())
-				currPage.pageImg=null;
+			if(! ignoreColoredBlock) {
+				currPage.pageImg=currPage.new PageImg(renderer.renderImage(currPid-1));
+				if(!currPage.pageImg.normal())
+					currPage.pageImg=null;
+			}
 			
 			pages.add(currPage);
 		}
