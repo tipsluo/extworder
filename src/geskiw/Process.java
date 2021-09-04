@@ -14,7 +14,7 @@ public class Process {
 	String result;
 	
 	public Process(String fn) throws IOException {
-		content = new Content(fn, new IgnorePage(), false, true);
+		content = new Content(fn, new IgnorePage(), false, true, true);
 		
 		clean();
 	}

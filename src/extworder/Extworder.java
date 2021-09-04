@@ -98,7 +98,7 @@ public class Extworder {
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("Amer-Trends affecting entry level");
 		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
-		printBlocks("AMS-PACMAN RENORMALIZATION");
+		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printBlocks("acs-A Review on Perovskite-Type LaFeO3");
@@ -121,13 +121,13 @@ public class Extworder {
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
-		printContent("AMS-PACMAN RENORMALIZATION");
+		//printContent("AMS-PACMAN RENORMALIZATION");
 		// unable to read printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
 		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
-		//printContent("APS-Evidence for CP violation in B");
+		printContent("APS-Evidence for CP violation in B");
 	}
 	
 	public static void extract(String fn) throws IOException {
@@ -187,7 +187,7 @@ public class Extworder {
 	}
 	
 	public static void displayChars(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(), false, true);
+		Content content = new Content(fn, new IgnorePage(), false, true, true);
 		
 		FileWriter myWriter = null;
 		
@@ -207,7 +207,7 @@ public class Extworder {
 	}
 	
 	public static void displayRows(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(), false, true);
+		Content content = new Content(fn, new IgnorePage(), false, true, true);
 		
 		FileWriter myWriter = null;
 		
@@ -228,7 +228,7 @@ public class Extworder {
 	}
 	
 	public static void displayBlocks(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(), false, true);
+		Content content = new Content(fn, new IgnorePage(), false, true,true);
 		
 		FileWriter myWriter = null;
 		
@@ -252,7 +252,7 @@ public class Extworder {
 	}
 	
 	public static void printBlocks(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(),false,true);
+		Content content = new Content(fn, new IgnorePage(),false,true,true);
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_block2.txt");
 		
@@ -262,7 +262,7 @@ public class Extworder {
 	}
 	
 	static void printContent(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(),false,true);
+		Content content = new Content(fn, new IgnorePage(),false,true,true);
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
 

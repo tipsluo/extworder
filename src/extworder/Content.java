@@ -51,6 +51,7 @@ public class Content extends PDFTextStripper {
     float lowContentWidth, highContentWidth, minTextBlockWidth;
 	int columnNumber,columnWidth;
 	float lowColumnWidth,highColumnWidth,minTextColumnBlockWidth;
+	private boolean ignoreSubtitle=true;
 	
 	boolean hasFirstTextBlock=false;
 	BlockFormatChain subtitleFormatChain;
@@ -61,8 +62,11 @@ public class Content extends PDFTextStripper {
 	public Content(String fn, 
 				Common.IgnorePage ignorePage,
 				boolean ignoreIntraBlock,
-				boolean ignoreColoredBlock)  throws IOException {
+				boolean ignoreColoredBlock,
+				boolean ignoreSubtitle)  throws IOException {
 
+		this.ignoreSubtitle=ignoreSubtitle;
+		
 		this.ignorePage=ignorePage;
 		
 		pages=new ArrayList<Page>();
@@ -139,7 +143,8 @@ public class Content extends PDFTextStripper {
 		if(ignoreIntraBlock)
 			markIntraTextBlocks();
 		
-		markSubtitleBlocks();
+		if(! ignoreSubtitle)
+			markSubtitleBlocks();
 	}
 
 	@Override
@@ -480,6 +485,8 @@ public class Content extends PDFTextStripper {
 		
 		if(subtitleFormatChain!=null) {
 			fw.write(String.format("Subtitles: "));
+			if(ignoreSubtitle)
+				fw.write("Skipped due to ignoreSubtitle is set");
 			for(BlockFormat blockformat:subtitleFormatChain.blockformats)
 				fw.write(String.format(" %d",charfontIndexes.get(blockformat.charfont)));
 			fw.write("\n\n");
@@ -505,6 +512,10 @@ public class Content extends PDFTextStripper {
 	}
 	
 	public String subtitles() {
+		if(ignoreSubtitle) {
+			return "(Not proessed. Skipped due to ignoreSubtitle is set)";
+		}
+		
 		String str="";
 		
 		for(Page page:pages) {
