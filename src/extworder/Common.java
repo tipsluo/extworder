@@ -2,6 +2,7 @@ package extworder;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -14,6 +15,8 @@ public class Common {
 	public final static int _MinKeywordWordNum=50;*/
 	public final static int _KeyBlockWordPageRation=10;
 	public final static int _MinKeyBlockWordNum=50;	
+	
+	final static float _MinAbstractFreqencyRatio=0.8f;
 	
 	final static String _TestDataDir="data/";
 	
@@ -128,6 +131,34 @@ public class Common {
 		return Common._SubtitlePrefix+Integer.toString(
 					block.page.content.charfontIndexes.get(block.format.charfont));
 	}
+	
+	static ArrayList<String> getLetterWords(String str) {
+		String[] ws = str.replaceAll("[\n\r,.\"':;\\?&]"," ").split("\\s+");
+		ArrayList<String> ret=new ArrayList<String>();
+		Pattern alphabet=Pattern.compile("[a-zA-Z]");
+		
+		for (int i = 0; i < ws.length; i++) {
+			if(alphabet.matcher(ws[i]).find())
+				ret.add(ws[i].toLowerCase());
+		}
+			
+		return ret;
+	}
+	
+	static float hits(ArrayList<String> allWords, ArrayList<String> words) {
+		if(words.size()==0)
+			return -1f;
+		
+		int sum=0;
+				
+		for(int i=0; i<words.size(); i++)
+			if(Collections.binarySearch(allWords,words.get(i)) >= 0)
+				sum++;
+
+		
+		return sum/words.size();
+	}
+	
 
 	
 	interface BlockFilter {

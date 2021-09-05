@@ -23,8 +23,10 @@ import extworder.Row.CharFont;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -157,20 +159,6 @@ public class Content extends PDFTextStripper {
         }
     }
 	
-	/*private void getTextCharfont() {
-		for(Page page:pages)
-			//for(Column column:page.columns)
-				//for(Block block:column.blocks)
-					for(Row row:page.rows) {
-						Integer n=charfonts.compute(row.charfont, (k,v) -> (v == null ? 0 : v) + 1);
-						charfonts.put(row.charfont,n);
-
-				}
-		
-		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		charfontIndexes=makeCharfontIndexes();
-	}*/
-	
 	private void getTextCharfont() {
 		for(Page page:pages)
 			for(Column column:page.columns)
@@ -228,29 +216,6 @@ public class Content extends PDFTextStripper {
 		
 		return cfIndexes;
 	}
-		
-	/*private Map<CharFont,Integer> makeCharfontIndexes() {
-		CharFont[] cfs = new CharFont[charfonts.size()];
-		int i=0;
-		for (CharFont cf : charfonts.keySet()) {
-	        cfs[i++]=cf;
-		}
-		Arrays.sort(cfs);
-		
-		int textCharfontIndex=-1;
-		for(i = 0; i<cfs.length;i++ )
-            if(cfs[i] == textCharfont) {
-            	textCharfontIndex = i;
-                break;
-            }
-		
-		Map<CharFont,Integer> cfIndexes=new HashMap<>();
-		for(i=0; i<cfs.length;i++ ) {
-			cfIndexes.put(cfs[i],i-textCharfontIndex);
-		}
-		
-		return cfIndexes;
-	}*/
 	
 	private int columnWidth() {
 		Map<Integer,Integer> blockWidths=new TreeMap<Integer,Integer>();
@@ -479,6 +444,30 @@ public class Content extends PDFTextStripper {
 			}
 		}
 	}
+	
+	private ArrayList<String> scanTextAlphabetWords() {
+		ArrayList<String> words;
+		
+		words=new ArrayList<String>();
+		
+		for(Page page:pages)
+			for(Block block:page.blocks) {
+				if(! Block.textBlockFilter.filter(block))
+					continue;
+				
+				ArrayList<String> ws = Common.getLetterWords(block.string());
+				
+				for(String s: ws) {
+					int i=Collections.binarySearch(words,s);
+					if(i<0) {
+						i = -i - 1;
+						words.add(i,s);
+					}
+				}
+			}
+		
+		return words;
+	}
 
 	public void print(FileWriter fw) throws IOException {
 		fw.write(String.format("Content:\nColumnWidth %d ColumnNumber %d\n",
@@ -562,21 +551,49 @@ public class Content extends PDFTextStripper {
 	
 	private Block getAbstractBlock() {
 		abstractStr=getKeyBlockStr(
+				0,
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"));
-		if(activeBlock!=null)
+		if(activeBlock!=null) {
 			activeBlock.type=Common._AbstractBlock;
-		return activeBlock;	
+			return activeBlock;	
+		} else {
+			ArrayList<String> words=scanTextAlphabetWords();
+			for (Page page:pages) {
+				for(int i=0; i<page.blocks.size();i++) {
+					Block block=page.blocks.get(i);
+					
+					if(block.type==Common._FirstText) {
+						return null;
+					} 
+					
+					ArrayList<String> strs=Common.getLetterWords(block.string());
+					
+					if(block.type!="" || strs.size()<Common._MinKeyBlockWordNum)
+						continue;
+					
+					if(Common.hits(words,strs) >= Common._MinAbstractFreqencyRatio) {
+						activeBlock=block;
+						activeBlock.type=Common._AbstractBlock;
+						abstractStr=block.string();
+						return activeBlock;	
+					}
+				}
+			}
+			
+			return null;
+		}
 	}
 	
 	private Block getKeywordBlock() {
 		keywordStr=getKeyBlockStr(
+				0,
 				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"));
 		if(activeBlock!=null)
 			activeBlock.type=Common._KeywordBlock;
 		return activeBlock;	
 	}
 	
-	public String getKeyBlockStr(Pattern pattern) {
+	public String getKeyBlockStr(int skipBlockNumber, Pattern pattern) {
 		int minKeyBlockWordNum=Common._MinKeyBlockWordNum + 
 				pages.size() * Common._KeyBlockWordPageRation;
 		
@@ -587,6 +604,9 @@ public class Content extends PDFTextStripper {
 		
 		for (Page page:pages) {
 			for(int i=0; i<page.blocks.size();i++) {
+				if(i<skipBlockNumber)
+					continue;
+				
 				Block block=page.blocks.get(i);
 				
 				if(block.type==Common._FirstText) {
@@ -598,7 +618,7 @@ public class Content extends PDFTextStripper {
 				str=str.replaceAll("[\\r\\n]+", " ");
 				str=str.replaceAll("\\s+", " ");
 				
-				String[] words=str.split("[\\s\n]");
+				String[] ws=str.split("[\\s\n]");
 				
 				Matcher m = pattern.matcher(str);
 				if (m.find()) {
@@ -613,7 +633,7 @@ public class Content extends PDFTextStripper {
 					activeBlock=block;
 					return ret;
 				} else {
-					if (words.length >= minKeyBlockWordNum && 
+					if (ws.length >= minKeyBlockWordNum && 
 						! block.format.charfont.equals(textCharfont)) {
 
 						activeBlock=block;

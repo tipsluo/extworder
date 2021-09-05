@@ -54,17 +54,17 @@ public class Process {
 	}
 	
 	private String getAbstractBlock() {
-		return content.getKeyBlockStr(
+		return content.getKeyBlockStr(0,
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"));
 	}
 	
 	private String getKeywordBlock() {
-		return content.getKeyBlockStr(
+		return content.getKeyBlockStr(0,
 				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"));
 	}
 	
 	private void ignoreCatNSubBlock() {
-		content.getKeyBlockStr(
+		content.getKeyBlockStr(0,
 				Pattern.compile("^\\s*Categories\s+and\s+Subject\s+Descriptors\\s*[\\s:\n]?"));
 		content.activeBlock.setIgnored(Consts._CatNSubBlock);
 	}

@@ -124,12 +124,13 @@ public class Extworder {
 		//printContent("AMS-PACMAN RENORMALIZATION");
 		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
-		printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 		//printContent("APS-Evidence for CP violation in B");
 		//printContent("Wiley-Early life stress and HPA axis");
 		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
+		printContent("No Headings- Moisture assisted perovskite film");
 	}
 	
 	public static void extract(String fn) throws IOException {
