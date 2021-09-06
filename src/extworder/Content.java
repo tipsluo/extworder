@@ -424,12 +424,12 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private void addSimilar(ArrayList<ArrayList<Block>> bls, Block b1, Block b2) {
-		if(b1.isSimilar(b2)) {							
+		if(b1.isSimilar(b2,false)) {							
 			boolean found=false;
 			
 			for(ArrayList<Block> bl:bls)
 				if(bl.size()>0)
-					if (b1.isSimilar(bl.get(0))) {
+					if (b1.isSimilar(bl.get(0),false)) {
 						bl.add(b1);
 						bl.add(b2);
 						found=true;

@@ -151,23 +151,38 @@ public class Block extends Rectangle {
 		return block;
 	}
 	
-	boolean isSimilar(Block block) {
+	boolean isSimilar(Block block, boolean verifyVertical) {
 		if(rows.size() != block.rows.size())
 			return false;
 		
+		String s1=string();
+		String s2=string();
+		
+		if(s1==s2)
+			return true;
+		
+		if(! format.equals(block.format))
+			return false;
+		
 		Pattern pattern=Pattern.compile("\\s+");
-		long i1=pattern.matcher(string()).results().count();
-		long i2=pattern.matcher(block.string()).results().count();
+		long i1=pattern.matcher(s1).results().count();
+		long i2=pattern.matcher(s2).results().count();
 		if(i1!=i2)
 			return false;
 		
 		int allowedDisplace = (int) (Common._BlockDisplaceRatio * format.charfont.height);
 		
-		if( Math.abs(left - block.left) <= allowedDisplace &&
-				Math.abs(upper - block.upper) <= allowedDisplace &&
-				Math.abs(right - block.right) < allowedDisplace &&
-				Math.abs(lower - block.lower) < allowedDisplace )
-			return true;
+		if(verifyVertical) {
+			if( Math.abs(left - block.left) <= allowedDisplace &&
+					Math.abs(upper - block.upper) <= allowedDisplace &&
+					Math.abs(right - block.right) < allowedDisplace &&
+					Math.abs(lower - block.lower) < allowedDisplace )
+				return true;
+		} else {
+			if( Math.abs(left - block.left) <= allowedDisplace &&
+					Math.abs(right - block.right) < allowedDisplace )
+				return true;
+		}
 		return false;
 	}
 	

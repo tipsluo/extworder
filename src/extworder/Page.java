@@ -113,6 +113,13 @@ public class Page extends Rectangle{
 				if(footerY>block.upper)
 					footerY=block.upper;
 		}
+		
+		for(Block block:blocks)
+			if(block.upper<=headerY)
+				block.type=Common._PageHeaderBlock;
+			else if(block.lower>=footerY)
+				block.type=Common._PageFooterBlock;
+
 	}
 	
 	void updateBlockFormats() {
