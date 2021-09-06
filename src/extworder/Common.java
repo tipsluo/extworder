@@ -168,6 +168,9 @@ public class Common {
 	static class TextBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
+			if(block.column==null)
+				return false;
+			
 			if(block.format.charfont.equals(block.page.content.textCharfont)) {
 				if(block.type==Common._BeforeFirstText)
 					return false;

@@ -10,8 +10,12 @@ issue remaining, sent
 
 ALA-Past is Prologue  interesting title
 
-no abstract
+
 ALA-Past is Prologue
+big letter
+
+
+
 AIP-Magnetic fields for modulating the nervous system_content
 
 missing subtitle
@@ -28,9 +32,13 @@ have to disable colored block to make it work. otherwise, hangs at getting image
 
 
 No Headings- Moisture assisted perovskite film
-issue: no abstract
+solved issue: no obvious abstract
 
 
+
+AIP-Magnetic fields for modulating the nervous system
+columns not aligned
+big letter
 
 
 https://github.com/mkl-public/testarea-pdfbox2/tree/d44c6283c4618a026372ac6186a08861c988482f    extract only visible chars

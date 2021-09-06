@@ -314,11 +314,17 @@ public class Block extends Rectangle {
 			fw.write(String.format("type: text"));
 		else 
 			fw.write(String.format("type: undefined"));
+		
+		int columnLeft;
+		if(column==null)
+			columnLeft=-1;
+		else
+			columnLeft=column.left;
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
 				content.charfontIndexes.get(format.charfont),left,right,upper,lower));
-		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d\n\n",
-				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase));
+		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d\n\n",
+				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft));
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {

@@ -329,17 +329,21 @@ public class Page extends Rectangle{
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
+
+		
 		fw.write(String.format("Page %d\n Left %d Right %d Top %d Bottom %d\n",
 				id,left,right,upper,lower));
+		
 		if(pageImg!=null)
 			fw.write(String.format("BufferImage Width %d Height %d\n",
 					pageImg.img.getWidth(),pageImg.img.getHeight()));
 		
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
-		for(Block block:blocks)
+		for(Block block:blocks) {
 			//if(block.column==null)
 				block.print(fw);
+		}
 		
 		/*fw.write("\n\nColumn:\n");
 		for(Column column:columns) {

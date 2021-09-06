@@ -184,7 +184,7 @@ public class Content extends PDFTextStripper {
 					continue;
 				
 				if(block.format.charfont.equals(charfont)) {
-					value+=currValue;
+					value+=currValue * block.rows.size();
 					break;
 				}
 			}
