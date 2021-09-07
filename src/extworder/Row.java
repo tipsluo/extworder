@@ -220,13 +220,17 @@ public class Row extends Rectangle {
 	String string() {
 		String str="";
 		
-		int x0=chars.get(0).right;
+		//int x0=chars.get(0).right;
+		Char ch0=chars.get(0);
 		for(Char ch:chars) {
-			if(ch.left > x0 + ch.height * Common._HSpaceMin) {
+			float h=Math.max(ch0.height,ch.height);
+			
+			if(ch.left > ch0.right + h * Common._HSpaceMin) {
 				str+=" ";
 			}
 			str+=ch.str;
-			x0=ch.right;
+			//x0=ch.right;
+			ch0=ch;
 		}
 		
 		return str;
