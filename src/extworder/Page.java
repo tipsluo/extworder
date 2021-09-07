@@ -291,6 +291,12 @@ public class Page extends Rectangle{
 				}
 			}
 		
+		for(int i=0;i<rows.size();i++) {
+			Row row=rows.get(i);
+			
+			row.separateUpperLeftBigChar();
+		}
+		
 		Collections.sort(rows,Row.compareRows);
 	}
 	

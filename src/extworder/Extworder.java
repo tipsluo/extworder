@@ -14,7 +14,7 @@ import org.apache.pdfbox.text.PDFTextStripper;
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
         ArrayList<String> pdfs=Common.getAllPDFs();
-		//main_test1_gettext();
+		main_test1_gettext();
 		//main_test2_printcharinfos();
 		//main_test3_getTitle();
         main_test4_printRows();
@@ -32,6 +32,7 @@ public class Extworder {
 		//extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//extract("ILL article-Impact of the KWL reading strategy");
 		//extract("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
+		extract("ALA-Past is Prologue");
 	}//
 	
 	/*static public void main_test2_printcharinfos() throws IOException {
@@ -58,6 +59,7 @@ public class Extworder {
 		//displayRows("ILL article-Impact of the KWL reading strategy");
 		//displayRows("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//displayRows("AMS-PACMAN RENORMALIZATION");
+		displayRows("ALA-Past is Prologue");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -68,6 +70,7 @@ public class Extworder {
 		//getText("ILL article-Impact of the KWL reading strategy");
 		//displayChars("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//displayChars("APS-Evidence for CP violation in B");
+		displayChars("ALA-Past is Prologue");
     }
 	
 	public static void main_test5_block_display() throws IOException {

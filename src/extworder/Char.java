@@ -2,12 +2,9 @@ package extworder;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Char extends Rectangle {
 	String str;
-	//float x,y;
 	String fontname;
 	Row row;
 	float width,height;
@@ -17,8 +14,6 @@ public class Char extends Rectangle {
 		
 	public Char(String str,float x, float y, float width, float height, String fontname) {
 		this.str=str;
-		//this.x=x;
-		//this.y=y;
 		this.height=height;
 		this.width=width;
 		this.fontname=fontname;

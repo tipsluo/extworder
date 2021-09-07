@@ -18,11 +18,16 @@ public class Row extends Rectangle {
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
-		//r1.upper != r2.upper ? (int)(r1.upper-r2.upper) : (int) (r1.left-r2.left);
 	
 	public Row(Page page, int x, int y) {
 		this.page=page;
 		build(x,y);
+		width=right-left;
+		height=lower-upper;
+	}
+	
+	public Row(Page page, Char ch) {
+		this(page,ch.left,ch.upper);
 		width=right-left;
 		height=lower-upper;
 	}
@@ -140,6 +145,9 @@ public class Row extends Rectangle {
 	}
 	
 	private CharFont getCharFont() {
+		if(chars.size()==0)
+			return null;
+		
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
 		for (Char ch: chars) {
@@ -154,6 +162,48 @@ public class Row extends Rectangle {
 		
 		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		return cf;
+	}
+	
+	boolean separateUpperLeftBigChar() {
+		if(chars.size()<=2)
+			return false;
+		
+		Char ul=chars.get(0);
+		
+		ArrayList<Char> rights=ul.getRightConnected(page);
+		
+		if(rights.size()<2)
+			return false;
+		
+		for(Char ch:chars)
+			ch.row=null;
+		
+		
+		int index=page.rows.indexOf(this);
+		
+		ul.row=this; //set row temporarily so that it will not be expanded.
+		
+		for(Char ch:rights) {
+			Row row=new Row(page,ch);
+			
+			if(index>=0) {
+				page.rows.add(index,row);
+				index=-1;
+			} else
+				page.rows.add(row);
+		}
+		
+		ul.row=rights.get(0).row;
+		ul.row.chars.add(ul);
+
+		page.rows.remove(this);
+		if(block!=null)
+			block.rows.remove(this);
+		
+		for(Char ch:rights)
+			Collections.sort(ch.row.chars,Char.compareChars);
+		
+		return true;
 	}
 	
 	public void print(FileWriter fw) throws IOException {
