@@ -103,7 +103,8 @@ public class Extworder {
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printBlocks("acs-A Review on Perovskite-Type LaFeO3");
 		//printBlocks("APS-Evidence for CP violation in B"); 
-		printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
+		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
+		printBlocks("ALA-Past is Prologue");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -132,8 +133,8 @@ public class Extworder {
 		//printContent("Wiley-Early life stress and HPA axis");
 		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
-		printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
-		//printContent("ALA-Past is Prologue");  //big letter
+		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
+		printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 	}
 	
