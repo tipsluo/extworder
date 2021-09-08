@@ -32,7 +32,7 @@ public class Extworder {
 		//extract("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//extract("ILL article-Impact of the KWL reading strategy");
 		//extract("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-		extract("ALA-Past is Prologue");
+		//extract("ALA-Past is Prologue");
 	}//
 	
 	/*static public void main_test2_printcharinfos() throws IOException {
@@ -59,7 +59,7 @@ public class Extworder {
 		//displayRows("ILL article-Impact of the KWL reading strategy");
 		//displayRows("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//displayRows("AMS-PACMAN RENORMALIZATION");
-		displayRows("ALA-Past is Prologue");
+		//displayRows("ALA-Past is Prologue");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -70,7 +70,7 @@ public class Extworder {
 		//getText("ILL article-Impact of the KWL reading strategy");
 		//displayChars("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//displayChars("APS-Evidence for CP violation in B");
-		displayChars("ALA-Past is Prologue");
+		//displayChars("ALA-Past is Prologue");
     }
 	
 	public static void main_test5_block_display() throws IOException {
@@ -107,7 +107,8 @@ public class Extworder {
 		//printBlocks("acs-A Review on Perovskite-Type LaFeO3");
 		//printBlocks("APS-Evidence for CP violation in B"); 
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
-		printBlocks("ALA-Past is Prologue");
+		//printBlocks("ALA-Past is Prologue");
+		printBlocks("AIP-Magnetic fields for modulating the nervous system");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -137,8 +138,9 @@ public class Extworder {
 		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
-		printContent("ALA-Past is Prologue");  //big letter
+		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
+		printContent("AIP-Magnetic fields for modulating the nervous system");
 	}
 	
 	public static void extract(String fn) throws IOException {

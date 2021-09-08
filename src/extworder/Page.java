@@ -79,7 +79,7 @@ public class Page extends Rectangle{
 		
 		pageBitmap=null;
 		
-		if(! ignoreColoredBlock && pageImg!=null)
+		if((! ignoreColoredBlock) && pageImg!=null)
 			markColoredCharBlocks();
 	}
 	
