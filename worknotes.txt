@@ -34,8 +34,11 @@ solved issue: no obvious abstract
 
 
 AIP-Magnetic fields for modulating the nervous system
+solved
 columns not aligned
 big letter
+narrow split
+need to change the vgap to be 1.0f
 
 
 https://github.com/mkl-public/testarea-pdfbox2/tree/d44c6283c4618a026372ac6186a08861c988482f    extract only visible chars

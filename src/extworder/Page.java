@@ -1,19 +1,15 @@
 package extworder;
 
 import java.awt.image.BufferedImage;
-import java.awt.image.ColorModel;
-import java.awt.image.WritableRaster;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
@@ -256,24 +252,6 @@ public class Page extends Rectangle{
 				} 
 			}
 		
-		boolean merged=false;
-		for(int i=0;i<blocks.size();i++) {
-			Block b1=blocks.get(i);
-			for(int j=0;j<blocks.size();j++) {
-				Block b2=blocks.get(j);
-				if(b1!=b2 && 
-					//( b1.contains(b2) ||
-						(b1.isVIntersected(b2) && b1.isHIntersected(b2)) ) {
-					b1.merge(b2);
-					j--;
-					merged=true;
-				}
-			}
-			if(merged)
-				i--;
-			merged=false;
-		}
-		
 		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
@@ -351,6 +329,10 @@ public class Page extends Rectangle{
 			fw.write(String.format("BufferImage Width %d Height %d\n",
 					pageImg.img.getWidth(),pageImg.img.getHeight()));
 		
+		fw.write("\n\nColumn meta:\n");
+		for(Column column:columns) {
+			column.printMeta(fw);
+		}
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks) {
@@ -460,6 +442,11 @@ public class Page extends Rectangle{
 		}
 		
 		public void tuneBlocks(CharFont textCharfont) {
+			separateAllUppers(textCharfont);
+			mergeBlocks();
+		}
+		
+		private void separateAllUppers(CharFont textCharfont) {
 			Block block;
 			for(int i=0; i<blocks.size(); i++) {
 				block=blocks.get(i);
@@ -491,11 +478,37 @@ public class Page extends Rectangle{
 			Collections.sort(blocks,Block.compareBlocks);
 		}
 		
+		private void mergeBlocks() {
+			boolean merged=false;
+			for(int i=0;i<blocks.size();i++) {
+				Block b1=blocks.get(i);
+				for(int j=0;j<blocks.size();j++) {
+					Block b2=blocks.get(j);
+					if(b1!=b2 && 
+						 b1.contains(b2) ) {
+							//(b1.isVIntersected(b2) && b1.isHIntersected(b2)) ) {
+						b1.merge(b2);
+						j--;
+						merged=true;
+					}
+				}
+				if(merged)
+					i--;
+				merged=false;
+			}
+			Collections.sort(blocks,Block.compareBlocks);
+		}
+		
 		public void print(FileWriter fw) throws IOException  {
 			fw.write(String.format("Column left:%d upper:%d right:%d lower %d\n",
 									left,upper,right,lower));
 			for(Block block:blocks)
 				block.print(fw);
+		}
+		
+		public void printMeta(FileWriter fw) throws IOException  {
+			fw.write(String.format("Column left:%d upper:%d right:%d lower %d\n",
+									left,upper,right,lower));
 		}
 		
 		String string(BlockFilter ...blockFilters) {

@@ -97,6 +97,8 @@ public class Block extends Rectangle {
 		rows.addAll(block.rows);
 		
 		page.blocks.remove(block);
+		if(column!=null)
+			column.blocks.remove(block);
 		
 		Collections.sort(rows,Row.compareRows);
 		
@@ -364,6 +366,7 @@ public class Block extends Rectangle {
 				str+="\n";
 				y=row.lower;
 			}
+			
 			str+=row.string();
 		}
 		

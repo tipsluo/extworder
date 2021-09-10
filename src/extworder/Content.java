@@ -137,6 +137,9 @@ public class Content extends PDFTextStripper {
 		getFirstTextBlock();
 		
 		for(Page page:pages) {
+			if(page.id==20)
+				System.out.print("");
+			
 			page.updateBlockFormats();
 			page.tuneBlocks(textCharfont);
 		}

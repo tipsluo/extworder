@@ -180,6 +180,10 @@ public class Row extends Rectangle {
 		
 		
 		int index=page.rows.indexOf(this);
+
+		page.rows.remove(this);
+		if(block!=null)
+			block.rows.remove(this);
 		
 		ul.row=this; //set row temporarily so that it will not be expanded.
 		
@@ -195,10 +199,6 @@ public class Row extends Rectangle {
 		
 		ul.row=rights.get(0).row;
 		ul.row.chars.add(ul);
-
-		page.rows.remove(this);
-		if(block!=null)
-			block.rows.remove(this);
 		
 		for(Char ch:rights)
 			Collections.sort(ch.row.chars,Char.compareChars);
