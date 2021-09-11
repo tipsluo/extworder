@@ -5,9 +5,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Row extends Rectangle {
 	CharFont charfont;
@@ -15,12 +22,16 @@ public class Row extends Rectangle {
 	Block block;
 	Page page;
 	float width,height;
+	int wordInterval;
+	int spaceWidth;
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
 	
 	public Row(Page page, int x, int y) {
 		this.page=page;
+		wordInterval=-1;
+		spaceWidth=-1;
 		build(x,y);
 		width=right-left;
 		height=lower-upper;
@@ -35,8 +46,26 @@ public class Row extends Rectangle {
 	public void build(int x,int y) {
 		chars=new ArrayList<Char>();
 		
-		if ( page.pageBitmap.points[x][y].ch != null )
-			expand(page.pageBitmap.points[x][y].ch);
+		if ( page.pageBitmap.points[x][y].ch == null)
+			return;
+		
+		wordInterval=Common._CharHGap;
+		
+		expand(page.pageBitmap.points[x][y].ch);
+		
+		if(spaceWidth>0)
+			wordInterval=Common._CharHGapSpaceTimes * spaceWidth;
+		else
+			wordInterval=getWordInterval(chars);
+		
+		if(wordInterval==-1)
+			wordInterval=Common._CharHGap;
+		
+		clear();
+		
+		chars=new ArrayList<Char>();
+		
+		expand(page.pageBitmap.points[x][y].ch);
 		
 		Collections.sort(chars,Char.compareChars);
 
@@ -46,15 +75,78 @@ public class Row extends Rectangle {
 	private void expand(Char ch) {
 		if (ch==null) return;
 		
+		if(ch.str.contains(" "))
+			spaceWidth=ch.right-ch.left+1;
+		
 		if (ch.row==null) {
 			chars.add(ch); 
 			ch.row=this;
 			
 			updateRectangle(ch);
 			
-			ch.getLeftConnected(page).forEach(this::expand);
-			ch.getRightConnected(page).forEach(this::expand);
-		}	
+			ch.getLeftConnected(page,wordInterval).forEach(this::expand);
+			ch.getRightConnected(page,wordInterval).forEach(this::expand);
+		}
+	}
+	
+	private int getWordInterval(ArrayList<Char> chs) {
+		if(chars.size()<2)
+			return -1;
+		
+		HashMap<Integer,Integer> intervals=new HashMap<Integer,Integer>();
+		
+		Collections.sort(chars,Char.compareChars);
+		
+		int r=chs.get(0).right;
+		
+		for(int i=1; i<chs.size(); i++) {
+			Char ch=chs.get(i);
+			
+			int interval=ch.left-r;
+			
+			if(intervals.containsKey(interval))
+				intervals.put(interval, intervals.get(interval)+1);
+			else
+				intervals.put(interval,1);
+			
+			r=ch.right;
+		}
+		
+		Map<Integer, Integer> sortedMap = intervals.entrySet().stream()
+		        .sorted(Comparator.comparingInt(e -> e.getValue()))
+		        .collect(Collectors.toMap(
+		                Map.Entry::getKey,
+		                Map.Entry::getValue,
+		                (a, b) -> { throw new AssertionError(); },
+		                LinkedHashMap::new
+		        ));
+		Iterator<Map.Entry<Integer, Integer>> itr = sortedMap.entrySet().iterator();
+		
+		int i=0;
+		int interval=-1;
+		for(;itr.hasNext();i++) {
+			interval=itr.next().getKey();
+			if(i==1)
+				break;
+		}
+		if(i<1)
+			return -1;
+		else
+			return interval;
+		
+		
+		/*List<Integer> arr=new ArrayList<>(intervals.keySet());
+		
+		if(arr.size()<2)
+			return -1;
+		
+		return arr.get(1);*/
+	}
+	
+	private void clear() {
+		for(Char ch:chars)
+			//if(ch.row==this)
+				ch.row=null;
 	}
 	
 	void merge(Row row) {
@@ -161,6 +253,7 @@ public class Row extends Rectangle {
 		}
 		
 		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		
 		return cf;
 	}
 	
@@ -170,7 +263,7 @@ public class Row extends Rectangle {
 		
 		Char ul=chars.get(0);
 		
-		ArrayList<Char> rights=ul.getRightConnected(page);
+		ArrayList<Char> rights=ul.getRightConnected(page,wordInterval);
 		
 		if(rights.size()<2)
 			return false;
@@ -209,7 +302,8 @@ public class Row extends Rectangle {
 	public void print(FileWriter fw) throws IOException {
 		int x0=chars.get(0).right;
 		for(Char ch:chars) {
-			if(ch.left > x0 + ch.width * Common._HSpaceMin) {
+			if(spaceWidth<0 &&
+					ch.left > x0 + ch.width * Common._HSpaceMin) {
 				fw.write(" ");
 			}
 			fw.write(ch.str);
@@ -220,12 +314,12 @@ public class Row extends Rectangle {
 	String string() {
 		String str="";
 		
-		//int x0=chars.get(0).right;
 		Char ch0=chars.get(0);
 		for(Char ch:chars) {
 			float h=Math.max(ch0.height,ch.height);
 			
-			if(ch.left > ch0.right + h * Common._HSpaceMin) {
+			if(spaceWidth<0 &&
+					ch.left > ch0.right + h * Common._HSpaceMin) {
 				str+=" ";
 			}
 			str+=ch.str;

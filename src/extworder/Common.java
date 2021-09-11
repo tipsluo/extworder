@@ -20,7 +20,9 @@ public class Common {
 	
 	final static String _TestDataDir="data/";
 	
-	final static float _CharHGapRatio=1f;
+	final static int _CharHGapSpaceTimes=2;
+	final static int _CharHGap=10;
+	//final static float _CharHGapRatio=1f;
 	final static float _CharVGapRatio=1.5f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;

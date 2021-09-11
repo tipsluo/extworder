@@ -23,7 +23,7 @@ public class Char extends Rectangle {
 		lower=(int)(Math.round(y+height-0.001));
 	}
 
-	public ArrayList<Char> getLeftConnected(Page page) {		
+	public ArrayList<Char> getLeftConnected(Page page, int maxInterval) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
 		if (left<1) return chars;
@@ -32,7 +32,7 @@ public class Char extends Rectangle {
 		
 		for (int j=upper; j<=lower; j++) {
 			int i=left;
-			for(int i1=1; i1 < height * Common._CharHGapRatio;i1++) {
+			for(int i1=1; i1 < maxInterval;i1++) {
 				i=left-i1;
 				if (i<0) break;
 				if (page.pageBitmap.points[i][j]!=null) break;
@@ -48,7 +48,7 @@ public class Char extends Rectangle {
 		return chars;
 	}
 
-	public ArrayList<Char> getRightConnected(Page page) {		
+	public ArrayList<Char> getRightConnected(Page page, int maxInterval) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
 		
 		if (right >= page.right) return chars;
@@ -57,7 +57,7 @@ public class Char extends Rectangle {
 		
 		for (int j=upper; j<=lower; j++) {
 			int i=right;
-			for(int i1=1; i1 < height * Common._CharHGapRatio ; i1++) {
+			for(int i1=1; i1 < maxInterval ; i1++) {
 				i=right+i1;
 				if (i>page.right) break;
 				if (page.pageBitmap.points[i][j]!=null) break;

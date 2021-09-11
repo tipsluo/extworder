@@ -23,6 +23,7 @@ import extworder.Row.CharFont;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -205,6 +206,7 @@ public class Content extends PDFTextStripper {
 				if(! cfs.contains(row.charfont))
 					cfs.add(row.charfont);
 		
+		Collections.sort(cfs);
 		int textCharfontIndex=-1;
 		for(int i = 0; i<cfs.size();i++ )
             if(cfs.get(i).equals(textCharfont)) {

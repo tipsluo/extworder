@@ -60,7 +60,7 @@ public class Extworder {
 		//displayRows("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//displayRows("AMS-PACMAN RENORMALIZATION");
 		//displayRows("ALA-Past is Prologue");
-		//displayRows("AIP-Magnetic fields for modulating the nervous system");
+		displayRows("AIP-Magnetic fields for modulating the nervous system");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -105,11 +105,11 @@ public class Extworder {
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-		printBlocks("acs-A Review on Perovskite-Type LaFeO3");
+		//printBlocks("acs-A Review on Perovskite-Type LaFeO3");
 		//printBlocks("APS-Evidence for CP violation in B"); 
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printBlocks("ALA-Past is Prologue");
-		//printBlocks("AIP-Magnetic fields for modulating the nervous system");
+		printBlocks("AIP-Magnetic fields for modulating the nervous system");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -133,7 +133,6 @@ public class Extworder {
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
 		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
-		printContent("acs-A Review on Perovskite-Type LaFeO3");
 		//printContent("APS-Evidence for CP violation in B");
 		//printContent("Wiley-Early life stress and HPA axis");
 		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
@@ -141,7 +140,8 @@ public class Extworder {
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
-		//printContent("AIP-Magnetic fields for modulating the nervous system");
+		printContent("AIP-Magnetic fields for modulating the nervous system");
+		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 	}
 	
 	public static void extract(String fn) throws IOException {
