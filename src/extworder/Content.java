@@ -576,6 +576,10 @@ public class Content extends PDFTextStripper {
 					if(block.type!="" || strs.size()<Common._MinKeyBlockWordNum)
 						continue;
 					
+					
+					if(strs.contains("neuroscience"))
+						System.out.print("");
+					
 					if(Common.hits(words,strs) >= Common._MinAbstractFreqencyRatio) {
 						activeBlock=block;
 						activeBlock.type=Common._AbstractBlock;

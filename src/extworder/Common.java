@@ -16,7 +16,7 @@ public class Common {
 	public final static int _KeyBlockWordPageRation=10;
 	public final static int _MinKeyBlockWordNum=50;	
 	
-	final static float _MinAbstractFreqencyRatio=0.8f;
+	final static float _MinAbstractFreqencyRatio=0.65f;
 	
 	final static String _TestDataDir="data/";
 	
@@ -157,8 +157,8 @@ public class Common {
 			if(Collections.binarySearch(allWords,words.get(i)) >= 0)
 				sum++;
 
-		
-		return sum/words.size();
+		float ret=(float)sum/(float)words.size();
+		return ret;
 	}
 	
 
