@@ -485,7 +485,8 @@ public class Page extends Rectangle{
 				for(int j=0;j<blocks.size();j++) {
 					Block b2=blocks.get(j);
 					if(b1!=b2 && 
-						 b1.contains(b2) ) {
+						 b1.contains(b2) &&
+						 ( ! b2.isNotTextBlock() || b2.format.indent==Common._LEFTALIGNED)) {
 							//(b1.isVIntersected(b2) && b1.isHIntersected(b2)) ) {
 						b1.merge(b2);
 						j--;
