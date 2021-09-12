@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import extworder.Common.RangeGroup;
-import extworder.Common.RangeGroup.Range;
+import extworder.Common.Range;
 
 public class Row extends Rectangle {
 	CharFont charfont;
@@ -25,7 +25,7 @@ public class Row extends Rectangle {
 	Block block;
 	Page page;
 	float width,height;
-	RangeGroup.Range wordInterval;
+	Range wordInterval;
 	int spaceWidth;
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
@@ -46,15 +46,15 @@ public class Row extends Rectangle {
 	}
 	
 	public void build(int x,int y) {
-		chars=new ArrayList<Char>();
-		
 		if ( page.pageBitmap.points[x][y].ch == null)
 			return;
 		
 		wordInterval=new Range(Common._CharHGap);
 		
+		chars=new ArrayList<Char>();
 		expand(page.pageBitmap.points[x][y].ch);
-		
+		Collections.sort(chars,Char.compareChars);
+	
 		if(spaceWidth>0)
 			//wordInterval=new Range((int)((float)Common._CharHGapSpaceTimes * spaceWidth));
 			wordInterval=new Range(Common._CharHSpaceAddGap+spaceWidth);
@@ -67,9 +67,7 @@ public class Row extends Rectangle {
 		clearCharRows();
 		
 		chars=new ArrayList<Char>();
-		
 		expand(page.pageBitmap.points[x][y].ch);
-		
 		Collections.sort(chars,Char.compareChars);
 
 		charfont=getCharFont();
@@ -96,7 +94,7 @@ public class Row extends Rectangle {
 		}
 	}
 	
-	private RangeGroup.Range getWordInterval(ArrayList<Char> chs) {
+	private Range getWordInterval(ArrayList<Char> chs) {
 		if(chars.size()<2)
 			return null;
 		
@@ -124,55 +122,6 @@ public class Row extends Rectangle {
 			return null;
 		else
 			return rangeGroup.ranges.get(1);
-		
-		/*HashMap<Integer,Integer> intervals=new HashMap<Integer,Integer>();
-		
-		Collections.sort(chars,Char.compareChars);
-		
-		int r=chs.get(0).right;
-		
-		for(int i=1; i<chs.size(); i++) {
-			Char ch=chs.get(i);
-			
-			int interval=ch.left-r;
-			
-			if(intervals.containsKey(interval))
-				intervals.put(interval, intervals.get(interval)+1);
-			else
-				intervals.put(interval,1);
-			
-			r=ch.right;
-		}*/
-		
-		/*Map<Integer, Integer> sortedMap = intervals.entrySet().stream()
-		        .sorted(Comparator.comparingInt(e -> e.getValue()))
-		        .collect(Collectors.toMap(
-		                Map.Entry::getKey,
-		                Map.Entry::getValue,
-		                (a, b) -> { throw new AssertionError(); },
-		                LinkedHashMap::new
-		        ));
-		Iterator<Map.Entry<Integer, Integer>> itr = sortedMap.entrySet().iterator();
-		
-		int i=0;
-		int interval=-1;
-		for(;itr.hasNext();i++) {
-			interval=itr.next().getKey();
-			if(i==1)
-				break;
-		}
-		if(i<1)
-			return -1;
-		else
-			return interval;*/
-		
-		
-		/*List<Integer> arr=new ArrayList<>(intervals.keySet());
-		
-		if(arr.size()<2)
-			return -1;
-		
-		return arr.get(1);*/
 	}
 	
 	public void clearCharRows() {
@@ -197,6 +146,12 @@ public class Row extends Rectangle {
 			row.block.rows.remove(row);
 		page.rows.remove(row);
 	}
+	
+	/*ArrayList<Row> separateRows() {
+		ArrayList<Row> newRows=new ArrayList<Row>();
+		
+		
+	}*/
 	
 	public ArrayList<Row> getAboveConnected() {		
 		ArrayList<Row> rows=new ArrayList<Row>();

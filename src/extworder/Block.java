@@ -477,11 +477,11 @@ public class Block extends Rectangle {
 				return b1.upper==b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
 			else {*/
 				if(b1.column==null && b2.column==null)
-					return b1.upper==b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
+					return b1.upper!=b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
 				else if(b1.column==null)
-					return -1;
-				else if(b2.column==null)
 					return 1;
+				else if(b2.column==null)
+					return -1;
 				else {
 					if(b1.isVIntersected(b2))
 						return b1.left-b2.left;

@@ -1,7 +1,9 @@
 APS-Evidence for CP violation in B.pdf  
 issue, subtitle
-1. many math signs
+1. many small char
+2. ROWs CLOSE
 2. author list looks like text
+3. title includes strang char
 
 AMS-PACMAN RENORMALIZATION_content     subtitle
 issue remaining, sent

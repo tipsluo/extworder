@@ -158,50 +158,7 @@ public class Common {
 		return ret;
 	}
 	
-	
-	static class RangeGroup {
-		static class Range {
-			int min,max;
-			
-			public Range(int value) {
-				min=max=value;
-			}
-			
-			boolean isIn(int value) {
-				return value>=min && value<=max;
-			}
-		}
-		
-		ArrayList<Range> ranges;
-		
-		public RangeGroup(ArrayList<Integer> elements) {
-			//elements should have been sorted
-			
-			ranges=new ArrayList<Range>();
-			
-			boolean bMin=false;
-			Range range=new Range(-9999);
-			int element1=-9999;
-			for(int i=0; i<elements.size(); i++) {
-				int element=elements.get(i);
-				if(! bMin) {
-					range.min=element;
-					bMin=true;
-				} else {
-					if(element-element1 > 1) {
-						range.max=element1;
-						ranges.add(range);
-						
-						range=new Range(element);
-					}
-				}
-				
-				element1=element;
-			}
-			range.max=element1;
-			ranges.add(range);
-		}
-	}
+
 	
 	interface BlockFilter {
 		public boolean filter(Block block);
@@ -302,5 +259,85 @@ public class Common {
     
 	static abstract public class IgnorePage {
 		public abstract boolean isIgnored(Page page);
+	}
+	
+	static class Range implements Comparable<Range> {
+		protected int min;
+		protected int max;
+		
+		public Range(int min,int max) {
+			this.min=min;
+			this.max=max;
+		}
+		
+		public Range(int value) {
+			min=max=value;
+		}
+		
+	    @Override
+	    public int hashCode() {
+	        return min*100000 + max;
+	    }
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (getClass() != obj.getClass())
+	            return false;
+			Range other = (Range) obj;
+			return hashCode()==other.hashCode();
+		}
+
+		@Override
+		public int compareTo(Range s) {
+			return hashCode()-s.hashCode();
+		}
+		
+		boolean isIn(int value) {
+			return value>=min && value<=max;
+		}
+	}
+	
+	static class RangeGroup {
+		/*static class Range {
+			int min,max;
+			
+			public Range(int value) {
+				min=max=value;
+			}
+			
+			boolean isIn(int value) {
+				return value>=min && value<=max;
+			}
+		}*/
+		
+		ArrayList<Range> ranges;
+		
+		public RangeGroup(ArrayList<Integer> elements) {
+			//elements should have been sorted
+			
+			ranges=new ArrayList<Range>();
+			
+			boolean bMin=false;
+			Range range=new Range(-9999);
+			int element1=-9999;
+			for(int i=0; i<elements.size(); i++) {
+				int element=elements.get(i);
+				if(! bMin) {
+					range.min=element;
+					bMin=true;
+				} else {
+					if(element-element1 > 1) {
+						range.max=element1;
+						ranges.add(range);
+						
+						range=new Range(element);
+					}
+				}
+				
+				element1=element;
+			}
+			range.max=element1;
+			ranges.add(range);
+		}
 	}
 }

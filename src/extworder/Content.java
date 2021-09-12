@@ -805,34 +805,6 @@ public class Content extends PDFTextStripper {
 		return null;
 	}
 	
-	static class HStretch implements Comparable<HStretch> {
-		protected int left;
-		protected int right;
-		
-		public HStretch(int left,int right) {
-			this.left=left;
-			this.right=right;
-		}
-		
-	    @Override
-	    public int hashCode() {
-	        return left*100000 + right;
-	    }
-		
-		@Override
-		public boolean equals(Object obj) {
-			if (getClass() != obj.getClass())
-	            return false;
-			HStretch other = (HStretch) obj;
-			return hashCode()==other.hashCode();
-		}
-
-		@Override
-		public int compareTo(HStretch s) {
-			return hashCode()-s.hashCode();
-		}
-	}
-	
 	static class BlockFormatChain implements Comparable<BlockFormatChain> {
 		ArrayList<BlockFormat> blockformats=new ArrayList<>();
 

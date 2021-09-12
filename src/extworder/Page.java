@@ -13,7 +13,7 @@ import java.util.TreeMap;
 import org.apache.pdfbox.text.TextPosition;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
-import extworder.Content.HStretch;
+import extworder.Common.Range;
 import extworder.Row.CharFont;
 
 public class Page extends Rectangle{
@@ -192,27 +192,27 @@ public class Page extends Rectangle{
 	}
 	
 	protected void makeColumns() {
-		TreeMap<HStretch,Integer> hStretches=new TreeMap<>();
+		TreeMap<Range,Integer> hStretches=new TreeMap<>();
 		
 		for(Row row:rows) {
 			if(row.width < content.lowColumnWidth || row.width > content.highColumnWidth)
 				continue;
 			
-			HStretch hStretch=new HStretch(row.left,row.right);
+			Range hStretch=new Range(row.left,row.right);
 			
 			int n=hStretches.compute(hStretch, (k,v) -> (v == null ? 0 : v) + 1);
 			hStretches.put(hStretch,n);
 		}
 		
-		ArrayList<HStretch> columnStretches=new ArrayList<>();
+		ArrayList<Range> columnStretches=new ArrayList<>();
 		
-		LinkedHashMap<HStretch, Integer> reverseSortedMap = new LinkedHashMap<>();
+		LinkedHashMap<Range, Integer> reverseSortedMap = new LinkedHashMap<>();
 		hStretches.entrySet()
 	    	.stream()
 	    	.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) 
 	    	.forEachOrdered(x -> reverseSortedMap.put(x.getKey(), x.getValue()));
 		int i=0;
-		for (Map.Entry<HStretch,Integer> entry : reverseSortedMap.entrySet()) {
+		for (Map.Entry<Range,Integer> entry : reverseSortedMap.entrySet()) {
 			if(i>=content.columnNumber) break;
 			columnStretches.add(entry.getKey());
 			i++;
@@ -220,10 +220,10 @@ public class Page extends Rectangle{
 		
 		Collections.sort(columnStretches);
 		
-		for(HStretch columnStretch:columnStretches) {
+		for(Range columnStretch:columnStretches) {
 			int a=(int) (content.columnWidth * Common._ColumnWidthAdjustment / 2);
-			int l=columnStretch.left - a;
-			int r=columnStretch.right + a;
+			int l=columnStretch.min - a;
+			int r=columnStretch.max + a;
 			
 			columns.add(new Column(l,headerY,
 					r,footerY));
