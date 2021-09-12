@@ -16,13 +16,16 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import extworder.Common.RangeGroup;
+import extworder.Common.RangeGroup.Range;
+
 public class Row extends Rectangle {
 	CharFont charfont;
 	ArrayList<Char> chars;
 	Block block;
 	Page page;
 	float width,height;
-	int wordInterval;
+	RangeGroup.Range wordInterval;
 	int spaceWidth;
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
@@ -30,7 +33,6 @@ public class Row extends Rectangle {
 	
 	public Row(Page page, int x, int y) {
 		this.page=page;
-		wordInterval=-1;
 		spaceWidth=-1;
 		build(x,y);
 		width=right-left;
@@ -49,23 +51,31 @@ public class Row extends Rectangle {
 		if ( page.pageBitmap.points[x][y].ch == null)
 			return;
 		
-		wordInterval=Common._CharHGap;
+		wordInterval=new Range(Common._CharHGap);
 		
 		expand(page.pageBitmap.points[x][y].ch);
 		
 		if(spaceWidth>0)
-			wordInterval=Common._CharHGapSpaceTimes * spaceWidth;
+			wordInterval=new Range(Common._CharHGapSpaceTimes * spaceWidth);
 		else
 			wordInterval=getWordInterval(chars);
 		
-		if(wordInterval==-1)
-			wordInterval=Common._CharHGap;
+		if(wordInterval==null)
+			wordInterval=new Range(Common._CharHGap);
 		
-		clear();
+ArrayList<Char> chars1=chars;
+if(chars.size()==0)		
+	System.out.print(chars1);
+		
+		
+		clearCharRows();
 		
 		chars=new ArrayList<Char>();
 		
 		expand(page.pageBitmap.points[x][y].ch);
+		
+if(chars.size()==0)		
+	System.out.print(chars1);
 		
 		Collections.sort(chars,Char.compareChars);
 
@@ -84,16 +94,41 @@ public class Row extends Rectangle {
 			
 			updateRectangle(ch);
 			
-			ch.getLeftConnected(page,wordInterval).forEach(this::expand);
-			ch.getRightConnected(page,wordInterval).forEach(this::expand);
+			ch.getLeftConnected(page,wordInterval.max*Common._CharHGapSpaceTimes).forEach(this::expand);
+			ch.getRightConnected(page,wordInterval.max*Common._CharHGapSpaceTimes).forEach(this::expand);
 		}
 	}
 	
-	private int getWordInterval(ArrayList<Char> chs) {
+	private RangeGroup.Range getWordInterval(ArrayList<Char> chs) {
 		if(chars.size()<2)
-			return -1;
+			return null;
 		
-		HashMap<Integer,Integer> intervals=new HashMap<Integer,Integer>();
+		ArrayList<Integer> intervals=new ArrayList<Integer>();
+		
+		Collections.sort(chars,Char.compareChars);
+		
+		int r=chs.get(0).right;
+		for(int i=1; i<chs.size(); i++) {
+			Char ch=chs.get(i);
+			
+			int interval=ch.left-r;
+			
+			if(! intervals.contains(interval))
+				intervals.add(interval);
+			
+			r=ch.right;
+		}
+		
+		Collections.sort(intervals);
+		
+		RangeGroup rangeGroup=new RangeGroup(intervals);
+		
+		if(rangeGroup.ranges.size()<2)
+			return null;
+		else
+			return rangeGroup.ranges.get(1);
+		
+		/*HashMap<Integer,Integer> intervals=new HashMap<Integer,Integer>();
 		
 		Collections.sort(chars,Char.compareChars);
 		
@@ -110,9 +145,9 @@ public class Row extends Rectangle {
 				intervals.put(interval,1);
 			
 			r=ch.right;
-		}
+		}*/
 		
-		Map<Integer, Integer> sortedMap = intervals.entrySet().stream()
+		/*Map<Integer, Integer> sortedMap = intervals.entrySet().stream()
 		        .sorted(Comparator.comparingInt(e -> e.getValue()))
 		        .collect(Collectors.toMap(
 		                Map.Entry::getKey,
@@ -132,7 +167,7 @@ public class Row extends Rectangle {
 		if(i<1)
 			return -1;
 		else
-			return interval;
+			return interval;*/
 		
 		
 		/*List<Integer> arr=new ArrayList<>(intervals.keySet());
@@ -143,7 +178,7 @@ public class Row extends Rectangle {
 		return arr.get(1);*/
 	}
 	
-	private void clear() {
+	public void clearCharRows() {
 		for(Char ch:chars)
 			//if(ch.row==this)
 				ch.row=null;
@@ -255,48 +290,6 @@ public class Row extends Rectangle {
 		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		
 		return cf;
-	}
-	
-	boolean separateUpperLeftBigChar() {
-		if(chars.size()<=2)
-			return false;
-		
-		Char ul=chars.get(0);
-		
-		ArrayList<Char> rights=ul.getRightConnected(page,wordInterval);
-		
-		if(rights.size()<2)
-			return false;
-		
-		for(Char ch:chars)
-			ch.row=null;
-		
-		
-		int index=page.rows.indexOf(this);
-
-		page.rows.remove(this);
-		if(block!=null)
-			block.rows.remove(this);
-		
-		ul.row=this; //set row temporarily so that it will not be expanded.
-		
-		for(Char ch:rights) {
-			Row row=new Row(page,ch);
-			
-			if(index>=0) {
-				page.rows.add(index,row);
-				index=-1;
-			} else
-				page.rows.add(row);
-		}
-		
-		ul.row=rights.get(0).row;
-		ul.row.chars.add(ul);
-		
-		for(Char ch:rights)
-			Collections.sort(ch.row.chars,Char.compareChars);
-		
-		return true;
 	}
 	
 	public void print(FileWriter fw) throws IOException {

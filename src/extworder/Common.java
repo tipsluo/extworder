@@ -9,10 +9,6 @@ import java.util.regex.Pattern;
 import extworder.Block.BlockFormat;
 
 public class Common {
-	/*public final static int _AbstractWordPageRatio=10;
-	public final static int _KeywordWordPageRatio=10;
-	public final static int _MinAbstractWordNum=50;
-	public final static int _MinKeywordWordNum=50;*/
 	public final static int _KeyBlockWordPageRation=10;
 	public final static int _MinKeyBlockWordNum=50;	
 	
@@ -161,7 +157,50 @@ public class Common {
 		return ret;
 	}
 	
-
+	
+	static class RangeGroup {
+		static class Range {
+			int min,max;
+			
+			public Range(int value) {
+				min=max=value;
+			}
+			
+			boolean isIn(int value) {
+				return value>=min && value<=max;
+			}
+		}
+		
+		ArrayList<Range> ranges;
+		
+		public RangeGroup(ArrayList<Integer> elements) {
+			//elements should have been sorted
+			
+			ranges=new ArrayList<Range>();
+			
+			boolean bMin=false;
+			Range range=new Range(-9999);
+			int element1=-9999;
+			for(int i=0; i<elements.size(); i++) {
+				int element=elements.get(i);
+				if(! bMin) {
+					range.min=element;
+					bMin=true;
+				} else {
+					if(element-element1 > 1) {
+						range.max=element1;
+						ranges.add(range);
+						
+						range=new Range(element);
+					}
+				}
+				
+				element1=element;
+			}
+			range.max=element1;
+			ranges.add(range);
+		}
+	}
 	
 	interface BlockFilter {
 		public boolean filter(Block block);
@@ -193,17 +232,6 @@ public class Common {
 			} else {
 				return Block.subtitleBlockFilter.filter(block);
 			}
-			
-			/*return ((block.format.charfont.compareTo(block.page.content.textCharfont) == 0) &&
-						block.type!=Common._BeforeFirstText &&
-						(! (block.isTrivial(block.page.content,block.column) || 
-						    (block.rows.size()==1 && infinishedTextBlock.matcher(lastStr.trim()).find())
-						   )
-						)
-					) ||
-				   	Block.subtitleBlockFilter.filter(block); */
-			
-			
 		}
 	}
 	

@@ -272,10 +272,52 @@ public class Page extends Rectangle{
 		for(int i=0;i<rows.size();i++) {
 			Row row=rows.get(i);
 			
-			row.separateUpperLeftBigChar();
+			separateUpperLeftBigChar(row);
 		}
 		
 		Collections.sort(rows,Row.compareRows);
+	}
+	
+	boolean separateUpperLeftBigChar(Row row) {
+		if(chars.size()<=2)
+			return false;
+		
+		Char ul=chars.get(0);
+		
+		ArrayList<Char> rights=ul.getRightConnected(this,row.wordInterval.max*Common._CharHGapSpaceTimes);
+		
+		if(rights.size()<2)
+			return false;
+		
+		/*for(Char ch:chars)
+			ch.row=null;*/
+		row.clearCharRows();
+		
+		int index=rows.indexOf(row);
+
+		rows.remove(this);
+		if(row.block!=null)
+			row.block.rows.remove(row);
+		
+		ul.row=row; //set row temporarily so that it will not be expanded.
+		
+		for(Char ch:rights) {
+			Row row1=new Row(this,ch);
+			
+			if(index>=0) {
+				rows.add(index,row1);
+				index=-1;
+			} else
+				rows.add(row1);
+		}
+		
+		ul.row=rights.get(0).row;
+		ul.row.chars.add(ul);
+		
+		for(Char ch:rights)
+			Collections.sort(ch.row.chars,Char.compareChars);
+		
+		return true;
 	}
 	
 	protected ArrayList<Block> upperBlocks() {
