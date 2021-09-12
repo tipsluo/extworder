@@ -1,6 +1,7 @@
 APS-Evidence for CP violation in B.pdf  
 issue, subtitle
 1. many math signs
+2. author list looks like text
 
 AMS-PACMAN RENORMALIZATION_content     subtitle
 issue remaining, sent
