@@ -463,26 +463,31 @@ public class Block extends Rectangle {
 				System.out.println("CompareBlocks error");
 			}*/
 			
-			boolean vint=b1.isVIntersected(b2);
-			boolean hint=b1.isHIntersected(b2);
+			//boolean vint=b1.isVIntersected(b2);
+			//boolean hint=b1.isHIntersected(b2);
 
-			Char c1=b1.rows.get(0).chars.get(0);
-			Char c2=b2.rows.get(0).chars.get(0);
+			/*Char c1=b1.rows.get(0).chars.get(0);
+			Char c2=b2.rows.get(0).chars.get(0);*/
 			
-			if(vint && hint)
-				return c1.left-c2.left;
+			/*if(vint && hint)
+				return b1.left==b2.left ? b1.left-b2.left : b1.upper-b2.upper;
 			else if(vint)
-				return Common.compareValue(c1.left,c2.left);
+				return b1.left==b2.left ? b1.left-b2.left : b1.upper-b2.upper;
 			else if(hint)
-				return Common.compareValue(c1.upper,c2.upper);
-			else {
-				if(b1.column==null || b2.column==null)
-					return c1.upper-c2.upper;
-				else
-					return b1.column.left!=b2.column.left ?
-							 b1.column.left-b2.column.left :
-								c1.upper-c2.upper;
-			}
+				return b1.upper==b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
+			else {*/
+				if(b1.column==null && b2.column==null)
+					return b1.upper==b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
+				else if(b1.column==null)
+					return -1;
+				else if(b2.column==null)
+					return 1;
+				else {
+					if(b1.isVIntersected(b2))
+						return b1.left-b2.left;
+					else
+						return b1.upper-b2.upper;
+				}
 		}
 	}
 }

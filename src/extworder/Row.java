@@ -56,26 +56,19 @@ public class Row extends Rectangle {
 		expand(page.pageBitmap.points[x][y].ch);
 		
 		if(spaceWidth>0)
-			wordInterval=new Range(Common._CharHGapSpaceTimes * spaceWidth);
+			//wordInterval=new Range((int)((float)Common._CharHGapSpaceTimes * spaceWidth));
+			wordInterval=new Range(Common._CharHSpaceAddGap+spaceWidth);
 		else
 			wordInterval=getWordInterval(chars);
 		
 		if(wordInterval==null)
 			wordInterval=new Range(Common._CharHGap);
 		
-ArrayList<Char> chars1=chars;
-if(chars.size()==0)		
-	System.out.print(chars1);
-		
-		
 		clearCharRows();
 		
 		chars=new ArrayList<Char>();
 		
 		expand(page.pageBitmap.points[x][y].ch);
-		
-if(chars.size()==0)		
-	System.out.print(chars1);
 		
 		Collections.sort(chars,Char.compareChars);
 
@@ -94,8 +87,12 @@ if(chars.size()==0)
 			
 			updateRectangle(ch);
 			
-			ch.getLeftConnected(page,wordInterval.max*Common._CharHGapSpaceTimes).forEach(this::expand);
-			ch.getRightConnected(page,wordInterval.max*Common._CharHGapSpaceTimes).forEach(this::expand);
+			ch.getLeftConnected(page,
+					Common._CharHSpaceAddGap+wordInterval.max).forEach(this::expand);
+					//(int)((float)wordInterval.max*Common._CharHGapSpaceTimes)).forEach(this::expand);
+			ch.getRightConnected(page,
+					Common._CharHSpaceAddGap+wordInterval.max).forEach(this::expand);
+					//(int)((float)wordInterval.max*Common._CharHGapSpaceTimes)).forEach(this::expand);
 		}
 	}
 	

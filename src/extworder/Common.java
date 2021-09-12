@@ -16,7 +16,8 @@ public class Common {
 	
 	final static String _TestDataDir="data/";
 	
-	final static int _CharHGapSpaceTimes=2;
+	//final static float _CharHGapSpaceTimes=1.5f;
+	final static int _CharHSpaceAddGap=1;
 	final static int _CharHGap=10;
 	//final static float _CharHGapRatio=1f;
 	final static float _CharVGapRatio=1.5f;

@@ -284,7 +284,9 @@ public class Page extends Rectangle{
 		
 		Char ul=chars.get(0);
 		
-		ArrayList<Char> rights=ul.getRightConnected(this,row.wordInterval.max*Common._CharHGapSpaceTimes);
+		ArrayList<Char> rights=ul.getRightConnected(this,
+								Common._CharHSpaceAddGap+row.wordInterval.max);
+									//(int)((float)(row.wordInterval.max)*Common._CharHGapSpaceTimes));
 		
 		if(rights.size()<2)
 			return false;
