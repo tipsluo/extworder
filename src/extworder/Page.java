@@ -273,6 +273,11 @@ public class Page extends Rectangle{
 			Row row=rows.get(i);
 			
 			separateUpperLeftBigChar(row);
+			
+			ArrayList<Row> newRows=row.separateCloseRows();
+			rows.remove(row);
+			i--;
+			rows.addAll(newRows);
 		}
 		
 		Collections.sort(rows,Row.compareRows);

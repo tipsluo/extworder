@@ -3,6 +3,10 @@ package extworder;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -200,6 +204,47 @@ public class Common {
 			}
 			range.max=element1;
 			ranges.add(range);
+		}
+	}
+	
+	class StatGroup<T> {
+		HashMap<T,Integer> records;
+		
+		StatGroup() {
+			records=new HashMap<T,Integer>();
+		}
+		
+		void add(T t) {
+			if(records.containsKey(t))
+				records.put(t,records.get(t)+1);
+			else
+				records.put(t,1);
+		}
+		
+		T maxByValue() {
+			return records.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		}
+		
+		Map<T,Integer> reverseSortByValue() {
+			LinkedHashMap<T, Integer> reverseSortedRecords = new LinkedHashMap<>();
+			
+			records.entrySet()
+		    .stream()
+		    .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) 
+		    .forEachOrdered(x -> reverseSortedRecords.put(x.getKey(), x.getValue()));
+			
+			return reverseSortedRecords;
+		}
+		
+		Map<T,Integer> sortByValue() {
+			LinkedHashMap<T, Integer> sortedRecords = new LinkedHashMap<>();
+			 
+			records.entrySet()
+			    .stream()
+			    .sorted(Map.Entry.comparingByValue())
+			    .forEachOrdered(x -> sortedRecords.put(x.getKey(), x.getValue()));
+			
+			return sortedRecords;
 		}
 	}
 	

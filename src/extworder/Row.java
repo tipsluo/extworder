@@ -18,6 +18,7 @@ import java.util.stream.Stream;
 
 import extworder.Common.RangeGroup;
 import extworder.Common.RangeGroup.Range;
+import extworder.Common.StatGroup;
 
 public class Row extends Rectangle {
 	CharFont charfont;
@@ -31,6 +32,10 @@ public class Row extends Rectangle {
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
 	
+	public Row(Page page) {
+		this.page=page;
+	}
+		
 	public Row(Page page, int x, int y) {
 		this.page=page;
 		spaceWidth=-1;
@@ -43,6 +48,12 @@ public class Row extends Rectangle {
 		this(page,ch.left,ch.upper);
 		width=right-left;
 		height=lower-upper;
+	}
+	
+	public void addChar(Char ch) {
+		chars.add(ch);
+		ch.row=this;
+		updateRectangle(ch);
 	}
 	
 	public void build(int x,int y) {
@@ -124,55 +135,6 @@ public class Row extends Rectangle {
 			return null;
 		else
 			return rangeGroup.ranges.get(1);
-		
-		/*HashMap<Integer,Integer> intervals=new HashMap<Integer,Integer>();
-		
-		Collections.sort(chars,Char.compareChars);
-		
-		int r=chs.get(0).right;
-		
-		for(int i=1; i<chs.size(); i++) {
-			Char ch=chs.get(i);
-			
-			int interval=ch.left-r;
-			
-			if(intervals.containsKey(interval))
-				intervals.put(interval, intervals.get(interval)+1);
-			else
-				intervals.put(interval,1);
-			
-			r=ch.right;
-		}*/
-		
-		/*Map<Integer, Integer> sortedMap = intervals.entrySet().stream()
-		        .sorted(Comparator.comparingInt(e -> e.getValue()))
-		        .collect(Collectors.toMap(
-		                Map.Entry::getKey,
-		                Map.Entry::getValue,
-		                (a, b) -> { throw new AssertionError(); },
-		                LinkedHashMap::new
-		        ));
-		Iterator<Map.Entry<Integer, Integer>> itr = sortedMap.entrySet().iterator();
-		
-		int i=0;
-		int interval=-1;
-		for(;itr.hasNext();i++) {
-			interval=itr.next().getKey();
-			if(i==1)
-				break;
-		}
-		if(i<1)
-			return -1;
-		else
-			return interval;*/
-		
-		
-		/*List<Integer> arr=new ArrayList<>(intervals.keySet());
-		
-		if(arr.size()<2)
-			return -1;
-		
-		return arr.get(1);*/
 	}
 	
 	public void clearCharRows() {
@@ -196,6 +158,69 @@ public class Row extends Rectangle {
 		if (row.block!=null)
 			row.block.rows.remove(row);
 		page.rows.remove(row);
+	}
+	
+	ArrayList<Row> separateCloseRows() {
+		ArrayList<Row> newRows=new ArrayList<Row>();
+		
+		ArrayList<Stretch> stretches=new ArrayList<Stretch>();
+		ArrayList<Stretch> separated=new ArrayList<Stretch>();
+		ArrayList<Stretch> allCharStretches=new ArrayList<Stretch>();
+		
+		for(Char ch:chars) {
+			Stretch stretch=new Stretch(ch);
+			
+			if(! stretches.contains(stretch))
+				stretches.add(stretch);
+			
+			allCharStretches.add(stretch);
+		}
+		
+		for(Stretch stretch1:stretches) {
+			boolean intersected=false;
+			for(Stretch stretch2:stretches) {
+				if(stretch1.isIntersected(stretch2)) {
+					intersected=true;
+					//inseperated.add(stretch1);
+					break;
+				}
+				if(! intersected)
+					separated.add(stretch1);
+			}
+		}
+		
+		for(Stretch stretch:separated) {
+			Row row=new Row(page);
+			newRows.add(row);
+		}
+		
+		for(int i=0; i<chars.size(); i++) {
+			Char ch=chars.get(i);
+			Stretch stretch=allCharStretches.get(i);
+			int interLength=-1;
+			int interIndex=-1;
+			
+			for(int j=0; j<separated.size(); j++) {
+				Stretch separatedStretch=separated.get(j);
+				if(separatedStretch.equals(stretch)) {
+					newRows.get(j).addChar(ch);
+					break;
+				} else {
+					int l=separatedStretch.intersection(stretch).length();
+					if(l > interLength) {
+						interLength=l;
+						interIndex=j;
+					}
+				}
+			}
+			if(interIndex>=0)
+				newRows.get(interIndex).addChar(ch);
+		}
+		
+		for(Row row:newRows)
+			Collections.sort(row.chars,Char.compareChars);
+			
+		return newRows;
 	}
 	
 	public ArrayList<Row> getAboveConnected() {		

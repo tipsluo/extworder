@@ -144,4 +144,44 @@ public abstract class Rectangle {
 					b1.right-b1.left+b1.lower-b1.upper);
 		}
 	}
+	
+	class Stretch {
+		int start,end;
+		
+		Stretch(int start, int end) {
+			this.start=start;
+			this.end=end;
+		}
+		
+		Stretch(Char ch) {
+			start=ch.upper;
+			end=ch.lower;
+		}
+		
+	    public boolean equals(Object object) {
+	        if (object != null && object instanceof Stretch) {
+				return start== ((Stretch) object).start && end==((Stretch) object).end;
+			}
+			return false;
+	    }
+		
+		boolean isIntersected(Stretch stretch) {
+			return (start>=stretch.start && start<=stretch.end) ||
+					(stretch.start>=start && stretch.end<=end);
+		}
+		
+		Stretch intersection(Stretch stretch) {
+			int s=Math.max(start,stretch.start);
+			int e=Math.min(end,stretch.end);
+			
+			if(start<=end)
+				return new Stretch(s,e);
+			else
+				return null;
+		}
+		
+		int length() {
+			return end-start+1;
+		}
+	}
 }
