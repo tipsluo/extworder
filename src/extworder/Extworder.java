@@ -109,7 +109,7 @@ public class Extworder {
 		//printBlocks("APS-Evidence for CP violation in B"); 
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printBlocks("ALA-Past is Prologue");
-		//printBlocks("AIP-Magnetic fields for modulating the nervous system");
+		printBlocks("AIP-Magnetic fields for modulating the nervous system");
 		//printBlocks("APS-Evidence for CP violation in B");
 	}
 	
@@ -126,7 +126,7 @@ public class Extworder {
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		printContent("ILL article-Impact of the KWL reading strategy");
+		//printContent("ILL article-Impact of the KWL reading strategy");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printContent("AMS-PACMAN RENORMALIZATION");
@@ -140,7 +140,7 @@ public class Extworder {
 		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
-		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
+		printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 		//printContent("APS-Evidence for CP violation in B");

@@ -69,7 +69,7 @@ public class Page extends Rectangle{
 		adjustCoordinates();
 		
 		pageBitmap=new PageBitmap(this);
-		
+
 		getAllRows();
 		getAllCharBlocks();
 		
@@ -274,20 +274,23 @@ public class Page extends Rectangle{
 			
 			separateUpperLeftBigChar(row);
 			
-			ArrayList<Row> newRows=row.separateCloseRows();
-			rows.remove(row);
-			i--;
-			rows.addAll(newRows);
+			/*ArrayList<Row> newRows=row.separateCloseRows();
+			if(newRows.size()>0) {
+				rows.remove(row);
+				i--;
+				rows.addAll(newRows);
+			}
+			*/
 		}
 		
 		Collections.sort(rows,Row.compareRows);
 	}
 	
 	boolean separateUpperLeftBigChar(Row row) {
-		if(chars.size()<=2)
+		if(row.chars.size()<=2)
 			return false;
 		
-		Char ul=chars.get(0);
+		Char ul=row.chars.get(0);
 		
 		ArrayList<Char> rights=ul.getRightConnected(this,
 								Common._CharHSpaceAddGap+row.wordInterval.max);
@@ -301,12 +304,12 @@ public class Page extends Rectangle{
 		row.clearCharRows();
 		
 		int index=rows.indexOf(row);
-
-		rows.remove(this);
-		if(row.block!=null)
-			row.block.rows.remove(row);
 		
 		ul.row=row; //set row temporarily so that it will not be expanded.
+
+		rows.remove(row);
+		if(row.block!=null)
+			row.block.rows.remove(row);
 		
 		for(Char ch:rights) {
 			Row row1=new Row(this,ch);

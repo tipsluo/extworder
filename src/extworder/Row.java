@@ -32,8 +32,11 @@ public class Row extends Rectangle {
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
 	
-	public Row(Page page) {
+	public Row(Page page, Row from) {
 		this.page=page;
+		chars=new ArrayList<Char>();
+		wordInterval=from.wordInterval;
+		spaceWidth=from.spaceWidth;
 	}
 		
 	public Row(Page page, int x, int y) {
@@ -189,8 +192,11 @@ public class Row extends Rectangle {
 			}
 		}
 		
-		for(Stretch stretch:separated) {
-			Row row=new Row(page);
+		if(separated.size()<2)
+			return newRows;
+		
+		for(int i=0; i<separated.size(); i++) {
+			Row row=new Row(page,this);
 			newRows.add(row);
 		}
 		
