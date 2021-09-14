@@ -45,13 +45,6 @@ public class Page extends Rectangle{
     		return;
     	}
     	
-		/*CharFont charfont=new CharFont(text.getFont().getName(),text.getHeight());
-		//CharFont charfont=new CharFont(text.getFont().getName(),text.getHeightDir());
-    	
-    	Integer n;
-    	n=content.charfonts.compute(charfont, (k,v) -> (v == null ? 0 : v) + 1);
-    	content.charfonts.put(charfont,n);*/
-    	
     	String str;
     	str=text.toString();
     	
@@ -271,16 +264,17 @@ public class Page extends Rectangle{
 		
 		for(int i=0;i<rows.size();i++) {
 			Row row=rows.get(i);
-			
 			separateUpperLeftBigChar(row);
-			
-			/*ArrayList<Row> newRows=row.separateCloseRows();
-			if(newRows.size()>0) {
+		}
+		
+		for(int i=0;i<rows.size();i++) {
+			Row row=rows.get(i);
+			ArrayList<Row> newRows=row.separateCloseRows();
+			if(newRows.size()>1) {
 				rows.remove(row);
 				i--;
 				rows.addAll(newRows);
 			}
-			*/
 		}
 		
 		Collections.sort(rows,Row.compareRows);
@@ -299,8 +293,6 @@ public class Page extends Rectangle{
 		if(rights.size()<2)
 			return false;
 		
-		/*for(Char ch:chars)
-			ch.row=null;*/
 		row.clearCharRows();
 		
 		int index=rows.indexOf(row);

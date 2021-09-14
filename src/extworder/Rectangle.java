@@ -183,5 +183,11 @@ public abstract class Rectangle {
 		int length() {
 			return end-start+1;
 		}
+		
+		Stretch add(Stretch stretch) {
+			s=Math.min(start,stretch.start);
+			e=Math.max(end,stretch.end);
+			return new Stretch(s,e);
+		}
 	}
 }

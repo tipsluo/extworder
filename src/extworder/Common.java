@@ -222,7 +222,9 @@ public class Common {
 		}
 		
 		T maxByValue() {
-			return records.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+			return records.entrySet().stream().
+					max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).
+					get().getKey();
 		}
 		
 		Map<T,Integer> reverseSortByValue() {

@@ -168,7 +168,9 @@ public class Row extends Rectangle {
 		
 		ArrayList<Stretch> stretches=new ArrayList<Stretch>();
 		ArrayList<Stretch> separated=new ArrayList<Stretch>();
+		ArrayList<Stretch> shared2=new ArrayList<Stretch>();
 		ArrayList<Stretch> allCharStretches=new ArrayList<Stretch>();
+		ArrayList<Stretch> newStretches=new ArrayList<Stretch>();
 		
 		for(Char ch:chars) {
 			Stretch stretch=new Stretch(ch);
@@ -179,19 +181,98 @@ public class Row extends Rectangle {
 			allCharStretches.add(stretch);
 		}
 		
-		for(Stretch stretch1:stretches) {
-			boolean intersected=false;
+		for(int i=0; i<stretches.size(); i++) {
+			Stretch stretch1=stretches.get(i);
+			ArrayList<Stretch> intersected=new ArrayList<Stretch>();
 			for(Stretch stretch2:stretches) {
+				if(stretch1.equals(stretch2))
+					continue;
+				if(stretch1.isIntersected(stretch2))
+					intersected.add(stretch2);
+			}
+			if(intersected.size()==0) {
+				newStretches.add(stretch1);
+				separated.add(stretch1);
+				stretches.remove(stretch1);
+				i--;
+			} else if(intersected.size()==2)
+				shared2.add(stretch1);	
+		}
+		
+		for(int i=0;i<shared2.size();i++) {
+			Stretch stretch1=shared2.get(i);
+			
+			Stretch stretch=null;
+			int interLength=-1;
+			for(Stretch stretch2:stretches) {
+				if(stretch2==stretch1)
+					continue;
+				int l=stretch1.intersection(stretch2).length();
+				if(l>interLength) {
+					interLength=l;
+					stretch=stretch2;
+				}
+			}
+			Stretch newStretch=stretch1.add(stretch);
+			newStretches.add(newStretch);
+		}
+		
+		/* for those only have one intersection: */
+		for(int i=0; i<stretches.size(); i++) {
+			Stretch stretch1=newStretches.get(i);
+			if(shared2.contains(stretch1))
+				continue;
+			for(Stretch stretch2:stretches) {
+				if(stretch1.equals(stretch2))
+					continue;
 				if(stretch1.isIntersected(stretch2)) {
-					intersected=true;
-					//inseperated.add(stretch1);
+					Stretch newStretch=stretch1.add(stretch2);
+					newStretches.add(newStretch);
+					stretches.remove(stretch1);
+					i--;
 					break;
 				}
-				if(! intersected)
-					separated.add(stretch1);
+			}
+		}
+			
+		/* Remove duplicate */
+		for(int i=0;i<newStretches.size();i++) {
+			Stretch stretch1=newStretches.get(i);
+			for(Stretch stretch2:stretches) {
+				if(stretch1.equals(stretch2)) {
+					newStretches.remove(stretch1);
+					i--;
+					break;
+				}
 			}
 		}
 		
+		if(newStretches.size()<2)
+			return newRows;
+		
+		for(int i=0; i<newStretches.size(); i++) {
+			Row row=new Row(page,this);
+			newRows.add(row);
+		}
+		
+		for(int i=0; i<chars.size(); i++) {
+			Char ch=chars.get(i);
+			Stretch stretch=allCharStretches.get(i);
+			
+			for(int j=0; j<separated.size(); j++) {
+				Stretch separatedStretch=newStretches.get(j);
+				if(separatedStretch.equals(stretch)) {
+					newRows.get(j).addChar(ch);
+					break;
+				}
+			}
+		}
+		
+		for(Row row:newRows)
+			Collections.sort(row.chars,Char.compareChars);
+			
+		return newRows;
+		/*
 		if(separated.size()<2)
 			return newRows;
 		
@@ -226,7 +307,7 @@ public class Row extends Rectangle {
 		for(Row row:newRows)
 			Collections.sort(row.chars,Char.compareChars);
 			
-		return newRows;
+		return newRows;*/
 	}
 	
 	public ArrayList<Row> getAboveConnected() {		
