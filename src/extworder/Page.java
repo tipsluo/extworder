@@ -13,6 +13,7 @@ import java.util.TreeMap;
 import org.apache.pdfbox.text.TextPosition;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
+import extworder.Common.RangeGroup.Range;
 import extworder.Content.HStretch;
 import extworder.Row.CharFont;
 
@@ -270,7 +271,7 @@ public class Page extends Rectangle{
 		for(int i=0;i<rows.size();i++) {
 			Row row=rows.get(i);
 			ArrayList<Row> newRows=row.separateCloseRows();
-			if(newRows.size()>1) {
+			if(newRows!=null && newRows.size()>1) {
 				rows.remove(row);
 				i--;
 				rows.addAll(newRows);
@@ -284,6 +285,8 @@ public class Page extends Rectangle{
 		if(row.chars.size()<=2)
 			return false;
 		
+		ArrayList<Row> newRows=new ArrayList<Row>();
+		
 		Char ul=row.chars.get(0);
 		
 		ArrayList<Char> rights=ul.getRightConnected(this,
@@ -293,28 +296,50 @@ public class Page extends Rectangle{
 		if(rights.size()<2)
 			return false;
 		
+		Range r=new Range(9999,-9999);
+		for(Char ch: rights) {
+			r.add(ch.left);
+		}
+		if(r.length()>Common._CharLeftAdjustment)
+			return false;
+		
 		row.clearCharRows();
 		
 		int index=rows.indexOf(row);
 		
 		ul.row=row; //set row temporarily so that it will not be expanded.
 
-		rows.remove(row);
+		//rows.remove(row);
 		if(row.block!=null)
 			row.block.rows.remove(row);
 		
 		for(Char ch:rights) {
 			Row row1=new Row(this,ch);
 			
-			if(index>=0) {
-				rows.add(index,row1);
+			if(row1.chars.size()==0) continue;
+			
+			row1.left=ul.left;
+			
+			newRows.add(row1);
+			/*if(index>=0) {
+				// If the row is too short, it is likely the math sign
+				if(row1.right-row1.left+1 <= Common._MinBigTextBlockFirstRowLength)
+					return false;
+				
+				//rows.add(index,row1);
 				index=-1;
 			} else
-				rows.add(row1);
+				//rows.add(row1);	*/	
 		}
+		
+		if(newRows.size()<2)
+			return false;
 		
 		ul.row=rights.get(0).row;
 		ul.row.chars.add(ul);
+		
+		rows.remove(row);
+		rows.addAll(index,newRows);
 		
 		for(Char ch:rights)
 			Collections.sort(ch.row.chars,Char.compareChars);

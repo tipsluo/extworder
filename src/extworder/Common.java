@@ -27,7 +27,8 @@ public class Common {
 	final static float _CharVGapRatio=1.5f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
-
+	final static int _CharLeftAdjustment=2;
+	final static int _MinBigTextBlockFirstRowLength=5;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -171,8 +172,24 @@ public class Common {
 				min=max=value;
 			}
 			
+			public Range(int min,int max) {
+				this.min=min;
+				this.max=max;
+			}
+			
 			boolean isIn(int value) {
 				return value>=min && value<=max;
+			}
+			
+			void add(int value) {
+				if(min>value)
+					min=value;
+				if(max<value)
+					max=value;
+			}
+			
+			int length() {
+				return max-min+1;
 			}
 		}
 		

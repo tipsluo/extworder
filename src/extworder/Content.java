@@ -199,9 +199,10 @@ public class Content extends PDFTextStripper {
 		ArrayList<CharFont> cfs=new ArrayList<CharFont>();
 		
 		for(Page page:pages)
-			for(Row row:page.rows)
+			for(Row row:page.rows) {
 				if(! cfs.contains(row.charfont))
 					cfs.add(row.charfont);
+			}
 		
 		Collections.sort(cfs);
 		int textCharfontIndex=-1;
