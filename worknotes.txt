@@ -1,8 +1,9 @@
 APS-Evidence for CP violation in B.pdf  
 issue, subtitle
-1. many math signs
+1. many math signs including up and down sign togeter.   K0S.
 2. author list looks like text
 3 rows close
+
 
 AMS-PACMAN RENORMALIZATION_content     subtitle
 issue remaining, sent

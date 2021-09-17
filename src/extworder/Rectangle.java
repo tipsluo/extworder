@@ -145,6 +145,16 @@ public abstract class Rectangle {
 		}
 	}
 	
+	class VStretch extends Stretch {
+		VStretch(Char ch) {
+			super(ch.upper,ch.lower);
+		}
+		
+		VStretch(Stretch stretch) {
+			super(stretch.start,stretch.end);
+		}
+	}
+	
 	class Stretch {
 		int start,end;
 		
@@ -152,22 +162,21 @@ public abstract class Rectangle {
 			this.start=start;
 			this.end=end;
 		}
-		
-		Stretch(Char ch) {
-			start=ch.upper;
-			end=ch.lower;
-		}
-		
+
 	    public boolean equals(Object object) {
 	        if (object != null && object instanceof Stretch) {
 				return start== ((Stretch) object).start && end==((Stretch) object).end;
 			}
 			return false;
 	    }
+	    
+	    public boolean contains(Stretch stretch) {
+	    	return start<=stretch.start && end>=stretch.end;
+	    }
 		
 		boolean isIntersected(Stretch stretch) {
 			return (start>=stretch.start && start<=stretch.end) ||
-					(stretch.start>=start && stretch.end<=end);
+					(stretch.start>=start && stretch.start<=end);
 		}
 		
 		Stretch intersection(Stretch stretch) {
@@ -185,9 +194,13 @@ public abstract class Rectangle {
 		}
 		
 		Stretch add(Stretch stretch) {
-			s=Math.min(start,stretch.start);
-			e=Math.max(end,stretch.end);
+			int s=Math.min(start,stretch.start);
+			int e=Math.max(end,stretch.end);
 			return new Stretch(s,e);
+		}
+		
+		Stretch copy() {
+			return new Stretch(start,end);
 		}
 	}
 }

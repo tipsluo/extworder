@@ -56,12 +56,15 @@ public class Char extends Rectangle {
 		Char ch=null;
 		
 		for (int j=upper; j<=lower; j++) {
-			int i=right;
+			int i=-1;
 			for(int i1=1; i1 < maxInterval ; i1++) {
 				i=right+i1;
 				if (i>page.right) break;
 				if (page.pageBitmap.points[i][j]!=null) break;
 			}
+			
+			if(i==-1)
+				continue;
 			
 			if (i>=page.right || page.pageBitmap.points[i][j]==null) continue;
 			if (ch==page.pageBitmap.points[i][j].ch) continue;

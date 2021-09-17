@@ -32,11 +32,13 @@ public class Row extends Rectangle {
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
 	
-	public Row(Page page, Row from) {
-		this.page=page;
+	public Row(Row from) {
+		page=from.page;
 		chars=new ArrayList<Char>();
 		wordInterval=from.wordInterval;
 		spaceWidth=from.spaceWidth;
+		charfont=new CharFont(from.charfont.name,from.charfont.height);
+		block=from.block;
 	}
 		
 	public Row(Page page, int x, int y) {
@@ -49,8 +51,8 @@ public class Row extends Rectangle {
 	
 	public Row(Page page, Char ch) {
 		this(page,ch.left,ch.upper);
-		width=right-left;
-		height=lower-upper;
+		//width=right-left;
+		//height=lower-upper;
 	}
 	
 	public void addChar(Char ch) {
@@ -166,69 +168,102 @@ public class Row extends Rectangle {
 	ArrayList<Row> separateCloseRows() {
 		ArrayList<Row> newRows=new ArrayList<Row>();
 		
-		ArrayList<Stretch> stretches=new ArrayList<Stretch>();
-		ArrayList<Stretch> separated=new ArrayList<Stretch>();
-		ArrayList<Stretch> shared2=new ArrayList<Stretch>();
-		ArrayList<Stretch> allCharStretches=new ArrayList<Stretch>();
+		if(chars.size()<2)
+			return null;
+		
+		ArrayList<VStretch> vStretches=new ArrayList<VStretch>();
+		ArrayList<VStretch> shared2=new ArrayList<VStretch>();
+		ArrayList<VStretch> allCharVStretches=new ArrayList<VStretch>();
 		ArrayList<Stretch> newStretches=new ArrayList<Stretch>();
 		
 		for(Char ch:chars) {
-			Stretch stretch=new Stretch(ch);
+			VStretch vStretch=new VStretch(ch);
 			
-			if(! stretches.contains(stretch))
-				stretches.add(stretch);
-			
-			allCharStretches.add(stretch);
+			allCharVStretches.add(vStretch);
+		}
+		allCharVStretches.set(0,new VStretch(allCharVStretches.get(1).copy()));
+		
+		for(VStretch vStretch: allCharVStretches) {
+			if(! vStretches.contains(vStretch))
+				vStretches.add(vStretch);
 		}
 		
-		for(int i=0; i<stretches.size(); i++) {
-			Stretch stretch1=stretches.get(i);
-			ArrayList<Stretch> intersected=new ArrayList<Stretch>();
-			for(Stretch stretch2:stretches) {
-				if(stretch1.equals(stretch2))
+		/* Remove duplicate */
+		for(int i=0;i<vStretches.size();i++) {
+			VStretch vStretch1=vStretches.get(i);
+			for(VStretch vStretch2:vStretches) {
+				if(vStretch1==vStretch2)
 					continue;
-				if(stretch1.isIntersected(stretch2))
-					intersected.add(stretch2);
+				if(vStretch2.contains(vStretch1) || vStretch1.contains(vStretch2)) {
+					vStretches.add(new VStretch(vStretch1.add(vStretch2)));
+					vStretches.remove(vStretch1);
+					vStretches.remove(vStretch2);
+					
+					i--;
+					break;
+				}
+			}
+		}
+		
+		if(vStretches.size()<2)
+			return null;
+		
+		for(int i=0; i<vStretches.size(); i++) {
+			VStretch vStretch1=vStretches.get(i);
+			ArrayList<VStretch> intersected=new ArrayList<VStretch>();
+			for(VStretch vStretch2:vStretches) {
+				if(vStretch1==vStretch2)
+					continue;
+				if(vStretch1.isIntersected(vStretch2))
+					intersected.add(vStretch2);
 			}
 			if(intersected.size()==0) {
-				newStretches.add(stretch1);
-				separated.add(stretch1);
-				stretches.remove(stretch1);
+				newStretches.add(vStretch1);
+				vStretches.remove(vStretch1);
 				i--;
-			} else if(intersected.size()==2)
-				shared2.add(stretch1);	
+			} else if(intersected.size()>=2) {
+				shared2.add(vStretch1);
+				//vStretches.remove(vStretch1);
+				//i--;
+			}
 		}
 		
 		for(int i=0;i<shared2.size();i++) {
-			Stretch stretch1=shared2.get(i);
+			VStretch vStretch1=shared2.get(i);
 			
-			Stretch stretch=null;
+			VStretch vStretch=null;
 			int interLength=-1;
-			for(Stretch stretch2:stretches) {
-				if(stretch2==stretch1)
+			for(int j=0;j<vStretches.size();j++) {
+				VStretch vStretch2=vStretches.get(j);
+				if(vStretch2==vStretch1) {
 					continue;
-				int l=stretch1.intersection(stretch2).length();
-				if(l>interLength) {
-					interLength=l;
-					stretch=stretch2;
+				}
+				Stretch intersection=vStretch1.intersection(vStretch2);
+				if(intersection!=null) {
+					int l=intersection.length();
+					if(l>interLength) {
+						interLength=l;
+						vStretch=vStretch2;
+					}
 				}
 			}
-			Stretch newStretch=stretch1.add(stretch);
-			newStretches.add(newStretch);
+			
+			Stretch newVStretch=vStretch1.add(vStretch);
+			newStretches.add(newVStretch);
 		}
 		
 		/* for those only have one intersection: */
-		for(int i=0; i<stretches.size(); i++) {
-			Stretch stretch1=newStretches.get(i);
+		for(int i=0; i<vStretches.size(); i++) {
+			Stretch stretch1=vStretches.get(i);
 			if(shared2.contains(stretch1))
 				continue;
-			for(Stretch stretch2:stretches) {
-				if(stretch1.equals(stretch2))
+			for(VStretch vStretch2:vStretches) {
+				if(stretch1==vStretch2)
 					continue;
-				if(stretch1.isIntersected(stretch2)) {
-					Stretch newStretch=stretch1.add(stretch2);
+				if(stretch1.isIntersected(vStretch2)) {
+					Stretch newStretch=stretch1.add(vStretch2);
 					newStretches.add(newStretch);
-					stretches.remove(stretch1);
+					vStretches.remove(stretch1);
 					i--;
 					break;
 				}
@@ -238,9 +273,14 @@ public class Row extends Rectangle {
 		/* Remove duplicate */
 		for(int i=0;i<newStretches.size();i++) {
 			Stretch stretch1=newStretches.get(i);
-			for(Stretch stretch2:stretches) {
-				if(stretch1.equals(stretch2)) {
+			for(Stretch stretch2:newStretches) {
+				if(stretch1==stretch2)
+					continue;
+				if(stretch2.contains(stretch1) || stretch1.contains(stretch2)) {
+					newStretches.add(stretch1.add(stretch2));
 					newStretches.remove(stretch1);
+					newStretches.remove(stretch2);
+					
 					i--;
 					break;
 				}
@@ -248,28 +288,37 @@ public class Row extends Rectangle {
 		}
 		
 		if(newStretches.size()<2)
-			return newRows;
+			return null;
 		
 		for(int i=0; i<newStretches.size(); i++) {
-			Row row=new Row(page,this);
+			Row row=new Row(this);
 			newRows.add(row);
 		}
 		
 		for(int i=0; i<chars.size(); i++) {
 			Char ch=chars.get(i);
-			Stretch stretch=allCharStretches.get(i);
+			VStretch vStretch=allCharVStretches.get(i);
 			
-			for(int j=0; j<separated.size(); j++) {
-				Stretch separatedStretch=newStretches.get(j);
-				if(separatedStretch.equals(stretch)) {
+			for(int j=0; j<newStretches.size(); j++) {
+				Stretch separatedVStretch=newStretches.get(j);
+				if(separatedVStretch.contains(vStretch)) {
 					newRows.get(j).addChar(ch);
 					break;
 				}
 			}
 		}
 		
-		for(Row row:newRows)
+		for(int i=0;i<newRows.size();i++) {
+			Row row=newRows.get(i);
+			if(row.chars.size()==0) {
+				newRows.remove(row);
+				i--;
+				continue;
+			}
+				
+			row.charfont=row.getCharFont();
 			Collections.sort(row.chars,Char.compareChars);
+		}
 			
 		return newRows;
 		/*
@@ -283,17 +332,17 @@ public class Row extends Rectangle {
 		
 		for(int i=0; i<chars.size(); i++) {
 			Char ch=chars.get(i);
-			Stretch stretch=allCharStretches.get(i);
+			VStretch VStretch=allCharVStretches.get(i);
 			int interLength=-1;
 			int interIndex=-1;
 			
 			for(int j=0; j<separated.size(); j++) {
-				Stretch separatedStretch=separated.get(j);
-				if(separatedStretch.equals(stretch)) {
+				VStretch separatedVStretch=separated.get(j);
+				if(separatedVStretch.equals(VStretch)) {
 					newRows.get(j).addChar(ch);
 					break;
 				} else {
-					int l=separatedStretch.intersection(stretch).length();
+					int l=separatedVStretch.intersection(VStretch).length();
 					if(l > interLength) {
 						interLength=l;
 						interIndex=j;
@@ -389,8 +438,8 @@ public class Row extends Rectangle {
 		for (Char ch: chars) {
 			CharFont cf=new CharFont(ch.fontname,ch.height);
 			
-			if(cf.equals(page.content.textCharfont))
-				return cf;
+			/*if(cf.equals(page.content.textCharfont))
+				return cf;*/
 			
 			int n=charFonts.compute(cf, (k,v) -> (v == null ? 0 : v) + 1);
         	charFonts.put(cf,n);
