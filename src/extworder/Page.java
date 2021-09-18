@@ -225,9 +225,68 @@ public class Page extends Rectangle{
 	}
 	
 	public void tuneBlocks(CharFont textCharfont) {
+		separateAllUppers(textCharfont);
+		mergeBlocks();
+	}
+	
+	/*public void tuneBlocks(CharFont textCharfont) {
 		for(Column column:columns)
 			column.tuneBlocks(textCharfont);
 		
+		Collections.sort(blocks,Block.compareBlocks);
+	}*/
+	
+	private void separateAllUppers(CharFont textCharfont) {
+		Block block;
+		for(int i=0; i<blocks.size(); i++) {
+			block=blocks.get(i);
+			
+			if( block.format.charfont.compareTo(textCharfont) <= 0 || 
+					block.rows.size()<2 )
+				continue;
+			
+			Row row1=block.rows.get(0);
+			if(Common.lowercaseExisting.matcher(row1.string()).find())
+				continue;
+
+			Row row2=block.rows.get(1);
+			if(Common.leading2Uppercase.matcher(row2.string()).find())
+				continue;
+			
+			// Split lines of all upper case
+			ArrayList<Block> newBlocks=block.split(1);
+			
+			blocks.remove(block);
+			blocks.addAll(newBlocks);
+			
+			Page.this.blocks.remove(block);
+			Page.this.blocks.addAll(newBlocks);
+			
+			i--;
+		}
+		
+		Collections.sort(blocks,Block.compareBlocks);
+	}
+	
+	private void mergeBlocks() {
+		boolean merged=false;
+		for(int i=0;i<blocks.size();i++) {
+			Block b1=blocks.get(i);
+			for(int j=0;j<blocks.size();j++) {
+				Block b2=blocks.get(j);
+				if(b1!=b2 && 
+					 b1.contains(b2) ) {
+					 /*&&
+					 ( ! b2.isNotTextBlock() || b2.format.indent==Common._LEFTALIGNED)) {*/
+					b1.merge(b2);
+					j--;
+					merged=true;
+				}
+			}
+			if(merged)
+				i--;
+			merged=false;
+		}
 		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
@@ -243,8 +302,11 @@ public class Page extends Rectangle{
 				if(ch.row.block==null) {
 					Block block=new Block(this,x,y);
 					blocks.add(block);
-				} 
+				}
 			}
+		
+		for(Block block:blocks)
+			block.separateUpperLeftBigChar();
 		
 		Collections.sort(blocks,Block.compareBlocks);
 	}
@@ -265,11 +327,6 @@ public class Page extends Rectangle{
 		
 		for(int i=0;i<rows.size();i++) {
 			Row row=rows.get(i);
-			separateUpperLeftBigChar(row);
-		}
-		
-		for(int i=0;i<rows.size();i++) {
-			Row row=rows.get(i);
 			ArrayList<Row> newRows=row.separateCloseRows();
 			if(newRows!=null && newRows.size()>1) {
 				rows.remove(row);
@@ -279,72 +336,6 @@ public class Page extends Rectangle{
 		}
 		
 		Collections.sort(rows,Row.compareRows);
-	}
-	
-	boolean separateUpperLeftBigChar(Row row) {
-		if(row.chars.size()<=2)
-			return false;
-		
-		ArrayList<Row> newRows=new ArrayList<Row>();
-		
-		Char ul=row.chars.get(0);
-		
-		ArrayList<Char> rights=ul.getRightConnected(this,
-								Common._CharHSpaceAddGap+row.wordInterval.max);
-									//(int)((float)(row.wordInterval.max)*Common._CharHGapSpaceTimes));
-		
-		if(rights.size()<2)
-			return false;
-		
-		Range r=new Range(9999,-9999);
-		for(Char ch: rights) {
-			r.add(ch.left);
-		}
-		if(r.length()>Common._CharLeftAdjustment)
-			return false;
-		
-		row.clearCharRows();
-		
-		int index=rows.indexOf(row);
-		
-		ul.row=row; //set row temporarily so that it will not be expanded.
-
-		//rows.remove(row);
-		if(row.block!=null)
-			row.block.rows.remove(row);
-		
-		for(Char ch:rights) {
-			Row row1=new Row(this,ch);
-			
-			if(row1.chars.size()==0) continue;
-			
-			row1.left=ul.left;
-			
-			newRows.add(row1);
-			/*if(index>=0) {
-				// If the row is too short, it is likely the math sign
-				if(row1.right-row1.left+1 <= Common._MinBigTextBlockFirstRowLength)
-					return false;
-				
-				//rows.add(index,row1);
-				index=-1;
-			} else
-				//rows.add(row1);	*/	
-		}
-		
-		if(newRows.size()<2)
-			return false;
-		
-		ul.row=rights.get(0).row;
-		ul.row.chars.add(ul);
-		
-		rows.remove(row);
-		rows.addAll(index,newRows);
-		
-		for(Char ch:rights)
-			Collections.sort(ch.row.chars,Char.compareChars);
-		
-		return true;
 	}
 	
 	protected ArrayList<Block> upperBlocks() {
@@ -508,65 +499,6 @@ public class Page extends Rectangle{
 			resetRectangle();
 			for(Block block:blocks)
 				updateRectangle(block);
-		}
-		
-		public void tuneBlocks(CharFont textCharfont) {
-			separateAllUppers(textCharfont);
-			mergeBlocks();
-		}
-		
-		private void separateAllUppers(CharFont textCharfont) {
-			Block block;
-			for(int i=0; i<blocks.size(); i++) {
-				block=blocks.get(i);
-				
-				if( block.format.charfont.compareTo(textCharfont) <= 0 || 
-						block.rows.size()<2 )
-					continue;
-				
-				Row row1=block.rows.get(0);
-				if(Common.lowercaseExisting.matcher(row1.string()).find())
-					continue;
-
-				Row row2=block.rows.get(1);
-				if(Common.leading2Uppercase.matcher(row2.string()).find())
-					continue;
-				
-				// Split lines of all upper case
-				ArrayList<Block> newBlocks=block.split(1);
-				
-				blocks.remove(block);
-				blocks.addAll(newBlocks);
-				
-				Page.this.blocks.remove(block);
-				Page.this.blocks.addAll(newBlocks);
-				
-				i--;
-			}
-			
-			Collections.sort(blocks,Block.compareBlocks);
-		}
-		
-		private void mergeBlocks() {
-			boolean merged=false;
-			for(int i=0;i<blocks.size();i++) {
-				Block b1=blocks.get(i);
-				for(int j=0;j<blocks.size();j++) {
-					Block b2=blocks.get(j);
-					if(b1!=b2 && 
-						 b1.contains(b2) &&
-						 ( ! b2.isNotTextBlock() || b2.format.indent==Common._LEFTALIGNED)) {
-							//(b1.isVIntersected(b2) && b1.isHIntersected(b2)) ) {
-						b1.merge(b2);
-						j--;
-						merged=true;
-					}
-				}
-				if(merged)
-					i--;
-				merged=false;
-			}
-			Collections.sort(blocks,Block.compareBlocks);
 		}
 		
 		public void print(FileWriter fw) throws IOException  {

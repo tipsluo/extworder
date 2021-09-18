@@ -51,8 +51,6 @@ public class Row extends Rectangle {
 	
 	public Row(Page page, Char ch) {
 		this(page,ch.left,ch.upper);
-		//width=right-left;
-		//height=lower-upper;
 	}
 	
 	public void addChar(Char ch) {

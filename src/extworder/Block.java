@@ -16,6 +16,7 @@ import extworder.Common.AdditionalSubtitleFormatFilter;
 import extworder.Common.BigBlockFilter;
 import extworder.Common.SubtitleBlockFilter;
 import extworder.Common.TextBlockFilter;
+import extworder.Common.RangeGroup.Range;
 import extworder.Page.Column;
 import extworder.Row.CharFont;
 
@@ -245,6 +246,71 @@ public class Block extends Rectangle {
 	
 	public void setIgnored(String ignoredString) {
 		type=Common._IgnoredBlockPrefix+ignoredString;
+	}
+	
+	boolean separateUpperLeftBigChar() {
+		Row row=rows.get(0);
+		
+		if(row.chars.size()<=2)
+			return false;
+		
+		ArrayList<Row> newRows=new ArrayList<Row>();
+		
+		Char ul=row.chars.get(0);
+		
+		ArrayList<Char> rights=ul.getRightConnected(this.page,
+								Common._CharHSpaceAddGap+row.wordInterval.max);
+		
+		if(rights.size()<2)
+			return false;
+		
+		Range r=new Range(9999,-9999);
+		for(Char ch: rights) {
+			r.add(ch.left);
+		}
+		if(r.length()>Common._CharLeftAdjustment)
+			return false;
+		
+		row.clearCharRows();
+		
+		int index=rows.indexOf(row);
+		
+		ul.row=row; //set row temporarily so that it will not be expanded.
+
+		for(Char ch:rights) {
+			Row row1=new Row(this.page,ch);
+			
+			if(row1.chars.size()==0) continue;
+			
+			row1.left=ul.left;
+			
+			newRows.add(row1);
+			/*if(index>=0) {
+				// If the row is too short, it is likely the math sign
+				if(row1.right-row1.left+1 <= Common._MinBigTextBlockFirstRowLength)
+					return false;
+				
+				//rows.add(index,row1);
+				index=-1;
+			} else
+				//rows.add(row1);	*/	
+		}
+		
+		if(newRows.size()<2)
+			return false;
+		
+		ul.row=rights.get(0).row;
+		ul.row.chars.add(ul);
+		
+		rows.remove(row);
+		rows.addAll(index,newRows);
+		page.rows.remove(row);
+		page.rows.addAll(newRows);
+		
+		for(Char ch:rights)
+			Collections.sort(ch.row.chars,Char.compareChars);
+		
+		return true;
 	}
 	
 	boolean isTextFullBlock() {
