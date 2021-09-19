@@ -135,9 +135,6 @@ public class Content extends PDFTextStripper {
 		getFirstTextBlock();
 		
 		for(Page page:pages) {
-			if(page.id==20)
-				System.out.print("");
-			
 			page.updateBlockFormats();
 			//page.tuneBlocks(textCharfont);
 			page.separateAllUppers(textCharfont);
@@ -556,7 +553,7 @@ public class Content extends PDFTextStripper {
 	private Block getAbstractBlock() {
 		abstractStr=getKeyBlockStr(
 				0,
-				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"));
+				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s*:\n*]?"));
 		if(activeBlock!=null) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
@@ -570,21 +567,22 @@ public class Content extends PDFTextStripper {
 						return null;
 					} 
 					
-					ArrayList<String> strs=Common.getLetterWords(block.string());
+					String blockStr=block.string();
 					
-					if(block.type!="" || strs.size()<Common._MinKeyBlockWordNum)
+					ArrayList<String> strs=Common.getLetterWords(blockStr);
+					
+					if(block.type=="")
+						continue;		
+					if(strs.size()<Common._MinKeyBlockWordNum)
+						continue;
+					if(Common.hits(words,strs) < Common._MinAbstractFreqencyRatio)
+					if(Common.sentenceRatio(blockStr) < Common._MinAbstractSentenceRatio)
 						continue;
 					
-					
-					if(strs.contains("neuroscience"))
-						System.out.print("");
-					
-					if(Common.hits(words,strs) >= Common._MinAbstractFreqencyRatio) {
-						activeBlock=block;
-						activeBlock.type=Common._AbstractBlock;
-						abstractStr=block.string();
-						return activeBlock;	
-					}
+					activeBlock=block;
+					activeBlock.type=Common._AbstractBlock;
+					abstractStr=block.string();
+					return activeBlock;	
 				}
 			}
 			

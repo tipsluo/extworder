@@ -17,6 +17,7 @@ public class Common {
 	public final static int _MinKeyBlockWordNum=50;	
 	
 	final static float _MinAbstractFreqencyRatio=0.65f;
+	final static float _MinAbstractSentenceRatio=0.65f;
 	
 	final static String _TestDataDir="data/";
 	
@@ -24,7 +25,7 @@ public class Common {
 	final static int _CharHSpaceAddGap=1;
 	final static int _CharHGap=10;
 	//final static float _CharHGapRatio=1f;
-	final static float _CharVGapRatio=1.5f;
+	final static float _CharVGapRatio=2.5f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static int _CharLeftAdjustment=2;
@@ -82,6 +83,7 @@ public class Common {
 	final static Pattern uppercase;
 	final static Pattern leading2Uppercase;
 	final static Pattern scarceRow;
+	final static Pattern likeSentence1,likeSentence2;
 	
 	/* May need it later
 	final static Pattern bulletPart1;
@@ -93,7 +95,8 @@ public class Common {
 		uppercase=Pattern.compile("[A-Z]");
 		leading2Uppercase=Pattern.compile("^\\s*[A-Z]{2,}");
 		scarceRow=Pattern.compile("\\S+\s{3,}\\S");
-		
+		likeSentence1=Pattern.compile("(\\s+\\w+){2,}\\s*\\.");
+		likeSentence2=Pattern.compile("(is|are|was|were|has|have|had|did|do|didn't|don't|hadn't|hasn't|havn't)\\s+");
 		/* May need it later
 		bulletPart1=Pattern.compile("^\\s*([a-zA-Z][.])?(.*)");
 		bulletPart2=Pattern.compile("^\s*([ivxIVX]*[.])?(.*)");*/
@@ -137,7 +140,7 @@ public class Common {
 	}
 	
 	static ArrayList<String> getLetterWords(String str) {
-		String[] ws = str.replaceAll("[\n\r,.\"':;\\?&]"," ").split("\\s+");
+		String[] ws = str.replaceAll("[\n\r,.\":;\\?&]"," ").split("\\s+");
 		ArrayList<String> ret=new ArrayList<String>();
 		Pattern alphabet=Pattern.compile("[a-zA-Z]");
 		
@@ -147,6 +150,11 @@ public class Common {
 		}
 			
 		return ret;
+	}
+	
+	static String[] getSentences(String str){
+		String[] ws = str.toLowerCase().split("[\\.,?;]");
+		return ws;
 	}
 	
 	static float hits(ArrayList<String> allWords, ArrayList<String> words) {
@@ -163,6 +171,16 @@ public class Common {
 		return ret;
 	}
 	
+	static float sentenceRatio(String str) {
+		int likeSentence=0;
+		String[] sents=Common.getSentences(str);
+		for(String sent:sents) {
+			if(Common.likeSentence1.matcher(sent).find() &&
+					Common.likeSentence2.matcher(sent).find())
+				likeSentence++;
+		}
+		return (float)likeSentence / sents.length;
+	}
 	
 	static class RangeGroup {
 		static class Range {
