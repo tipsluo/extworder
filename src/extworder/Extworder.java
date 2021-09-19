@@ -61,6 +61,7 @@ public class Extworder {
 		//displayRows("AMS-PACMAN RENORMALIZATION");
 		//displayRows("ALA-Past is Prologue");
 		//displayRows("AIP-Magnetic fields for modulating the nervous system");
+		displayRows("APS-Evidence for CP violation in B");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -232,14 +233,15 @@ public class Extworder {
 		
 			for(Page page:content.pages) {
 				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
-			    		for(Row row:page.rows) {
+				for(Block block:page.blocks)
+					for(Row row:block.rows) {
 			    			/*if(row.chars.size()==0) {
 			    				int i=page.rows.indexOf(row);
 			    				System.out.printf("%d",i);
 			    			}*/
 			    			
-				    		myWriter.write(String.format("%s\nblock=%d (x=%d y=%d) width=%f height=%f fontname=%s\n", 
-				    				row.string(),row.block.hashCode(),row.left,row.upper,row.width,row.height,row.charfont.name));
+			    				myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d) width=%f height=%f fontname=%s\n", 
+				    				row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,row.width,row.height,row.charfont.name));
 				    	}
 			    	
 			}

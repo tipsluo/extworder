@@ -49,8 +49,14 @@ public class Page extends Rectangle{
     	String str;
     	str=text.toString();
     	
-    	Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidth(),text.getHeight(),
-    			text.getFont().getName());
+    	Char ch=new Char(str, text.getX(),text.getY(),text.getWidth(),text.getHeight(),
+    	    		text.getFont().getName());
+    	
+    	//--- Don't remove
+    	//The following code worked for imageblock
+    	//Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidth(),text.getHeight(),
+    	//		text.getFont().getName());
+    
     	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     	//		text.getFont().getName());
 		
@@ -66,6 +72,11 @@ public class Page extends Rectangle{
 
 		getAllRows();
 		getAllCharBlocks();
+		
+		mergeBlocks();
+		
+		for(Block block:blocks)
+			block.separateUpperLeftBigChar();
 		
 		pageBitmap=null;
 		
@@ -224,11 +235,6 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	public void tuneBlocks(CharFont textCharfont) {
-		separateAllUppers(textCharfont);
-		mergeBlocks();
-	}
-	
 	/*public void tuneBlocks(CharFont textCharfont) {
 		for(Column column:columns)
 			column.tuneBlocks(textCharfont);
@@ -236,7 +242,7 @@ public class Page extends Rectangle{
 		Collections.sort(blocks,Block.compareBlocks);
 	}*/
 	
-	private void separateAllUppers(CharFont textCharfont) {
+	void separateAllUppers(CharFont textCharfont) {
 		Block block;
 		for(int i=0; i<blocks.size(); i++) {
 			block=blocks.get(i);
@@ -305,9 +311,6 @@ public class Page extends Rectangle{
 				}
 			}
 		
-		for(Block block:blocks)
-			block.separateUpperLeftBigChar();
-		
 		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
@@ -321,7 +324,7 @@ public class Page extends Rectangle{
 				if(ch==null) continue;
 				
 				if(ch.row==null) {
-					rows.add(new Row(this,x,y));
+					rows.add(new Row(this,null,x,y));
 				}
 			}
 		

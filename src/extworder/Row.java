@@ -34,6 +34,7 @@ public class Row extends Rectangle {
 	
 	public Row(Row from) {
 		page=from.page;
+		block=from.block;
 		chars=new ArrayList<Char>();
 		wordInterval=from.wordInterval;
 		spaceWidth=from.spaceWidth;
@@ -41,16 +42,20 @@ public class Row extends Rectangle {
 		block=from.block;
 	}
 		
-	public Row(Page page, int x, int y) {
+	public Row(Page page, Block block, int x, int y) {
 		this.page=page;
+		
+		if(block!=null)
+			this.block=block;
+			
 		spaceWidth=-1;
 		build(x,y);
 		width=right-left;
 		height=lower-upper;
 	}
 	
-	public Row(Page page, Char ch) {
-		this(page,ch.left,ch.upper);
+	public Row(Page page, Block block, Char ch) {
+		this(page,block,ch.left,ch.upper);
 	}
 	
 	public void addChar(Char ch) {

@@ -278,7 +278,7 @@ public class Block extends Rectangle {
 		ul.row=row; //set row temporarily so that it will not be expanded.
 
 		for(Char ch:rights) {
-			Row row1=new Row(this.page,ch);
+			Row row1=new Row(this.page,this,ch);
 			
 			if(row1.chars.size()==0) continue;
 			

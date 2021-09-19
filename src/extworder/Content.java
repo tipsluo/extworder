@@ -139,7 +139,8 @@ public class Content extends PDFTextStripper {
 				System.out.print("");
 			
 			page.updateBlockFormats();
-			page.tuneBlocks(textCharfont);
+			//page.tuneBlocks(textCharfont);
+			page.separateAllUppers(textCharfont);
 		}
 		
 		titleBlock=getTitleBlock();
