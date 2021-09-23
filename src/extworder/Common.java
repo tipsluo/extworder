@@ -75,8 +75,10 @@ public class Common {
 	
 	final static int _UNKNOWNINDENT=-98;
 	final static int _UNKNOWNALLUPPERCASE=-98;
+	final static Char.Point _ConfusingPoint;
 	
 	final static boolean __DEBUG=false;
+	
 	
 	final static Pattern infinishedTextBlock;
 	final static Pattern lowercaseExisting;
@@ -90,6 +92,8 @@ public class Common {
 	final static Pattern bulletPart2;*/
 	
 	static {
+		_ConfusingPoint=new Char.Point(-1,-1,null);
+		
 		infinishedTextBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");
 		uppercase=Pattern.compile("[A-Z]");

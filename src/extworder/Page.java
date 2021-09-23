@@ -60,8 +60,7 @@ public class Page extends Rectangle{
     	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     	//		text.getFont().getName());
 		
-    	chars.add(ch);
-    	
+    	chars.add(ch);	
     	updateRectangle(ch);
 	}
 	
@@ -300,7 +299,7 @@ public class Page extends Rectangle{
 		for(int x=left; x<=right;x++)
 			for(int y=upper;y<=lower;y++) {
 				Point p=pageBitmap.points[x][y];
-				if ( p == null ) continue;
+				if ( p == null || p==Common._ConfusingPoint) continue;
 				
 				Char ch=p.ch;
 				if(ch==null) continue;
@@ -318,7 +317,7 @@ public class Page extends Rectangle{
 		for(int x=left; x<=right;x++)
 			for(int y=upper;y<=lower;y++) {
 				Point p=pageBitmap.points[x][y];
-				if ( p == null ) continue;
+				if ( p == null || p==Common._ConfusingPoint) continue;
 				
 				Char ch=p.ch;
 				if(ch==null) continue;
@@ -473,10 +472,36 @@ public class Page extends Rectangle{
 				
 				for (int x=ch.left; x<=ch.right; x++)
 					for (int y=ch.upper; y<=ch.lower; y++) {
-						Point point=new Char.Point(x,y,ch);
-						points[x][y]=point;
+						if(points[x][y]!=null) {
+							points[x][y].ch=null;
+							points[x][y]=Common._ConfusingPoint;
+						} else {
+							Point point=new Char.Point(x,y,ch);
+							points[x][y]=point;
+						}
 					}
 			}
+			
+			updatePageChars(page);
+		}
+		
+		void updatePageChars(Page page) {
+			for(Char ch:page.chars)
+				for(int x=ch.left; x<=ch.right; x++) {
+					boolean clear=false;
+					for(int y=ch.upper; y<=lower; y++) {
+						if(points[x][y]==Common._ConfusingPoint) {
+							ch.clearCross(points,x,y);
+							clear=true;
+							break;
+						}
+					}
+					if(clear)
+						break;
+				}
+			
+			for(Char ch:page.chars)
+				ch.updateRectangle(points);
 		}
 	}
 	

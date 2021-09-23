@@ -3,6 +3,8 @@ package extworder;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+import extworder.Page.PageBitmap;
+
 public class Char extends Rectangle {
 	String str;
 	String fontname;
@@ -35,10 +37,15 @@ public class Char extends Rectangle {
 			for(int i1=1; i1 < maxInterval;i1++) {
 				i=left-i1;
 				if (i<0) break;
-				if (page.pageBitmap.points[i][j]!=null) break;
+				if (page.pageBitmap.points[i][j]!=null && 
+						page.pageBitmap.points[i][j]!=Common._ConfusingPoint) 
+					break;
 			}
 					
-			if (i<0 || page.pageBitmap.points[i][j]==null) continue;
+			if (i<0 || 
+				 page.pageBitmap.points[i][j]==null ||
+				 page.pageBitmap.points[i][j]==Common._ConfusingPoint) 
+				continue;
 			if (ch==page.pageBitmap.points[i][j].ch) continue;
 			
 			ch=page.pageBitmap.points[i][j].ch;
@@ -60,13 +67,17 @@ public class Char extends Rectangle {
 			for(int i1=1; i1 < maxInterval ; i1++) {
 				i=right+i1;
 				if (i>page.right) break;
-				if (page.pageBitmap.points[i][j]!=null) break;
+				if (page.pageBitmap.points[i][j]!=null && 
+						page.pageBitmap.points[i][j]!=Common._ConfusingPoint) break;
 			}
 			
 			if(i==-1)
 				continue;
 			
-			if (i>=page.right || page.pageBitmap.points[i][j]==null) continue;
+			if (i>=page.right || 
+					page.pageBitmap.points[i][j]==null ||
+					page.pageBitmap.points[i][j]==Common._ConfusingPoint) 
+				continue;
 			if (ch==page.pageBitmap.points[i][j].ch) continue;
 			
 			ch=page.pageBitmap.points[i][j].ch;
@@ -74,6 +85,31 @@ public class Char extends Rectangle {
 		}
 		
 		return chars;
+	}
+	
+	public void clearCross(Point[][] points, int x,int y) {
+		for (int i=left; i<=right; i++)
+			points[i][y]=null;
+		for (int i=upper; i<=lower; i++)
+			points[x][i]=null;
+	}
+	
+	public void updateRectangle(Point[][] points) {
+		int le=left;
+		int ri=right;
+		int up=upper;
+		int lo=lower;
+		
+		resetRectangle();
+		
+		for(int x=le; x<=ri; x++)
+			for(int y=up; y<=lo; y++) 
+				if(points[x][y]!=null && points[x][y].ch==this) {
+					updateRectangle(x,y);
+				}
+		
+		width=right-left;
+		height=lower-upper;
 	}
 	
 	static public class Point {

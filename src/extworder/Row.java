@@ -67,7 +67,8 @@ public class Row extends Rectangle {
 	public void build(int x,int y) {
 		chars=new ArrayList<Char>();
 		
-		if ( page.pageBitmap.points[x][y].ch == null)
+		if ( page.pageBitmap.points[x][y].ch == null ||
+				page.pageBitmap.points[x][y]==Common._ConfusingPoint)
 			return;
 		
 		wordInterval=new Range(Common._CharHGap);
@@ -379,7 +380,10 @@ public class Row extends Rectangle {
 				if (page.pageBitmap.points[i][j]!=null) break;
 			}
 			
-			if (j<0 || page.pageBitmap.points[i][j]==null) continue;
+			if (j<0 || 
+					page.pageBitmap.points[i][j]==null ||
+					page.pageBitmap.points[i][j]==Common._ConfusingPoint) 
+				continue;
 			
 			if (row==page.pageBitmap.points[i][j].ch.row) continue;
 			
@@ -409,10 +413,15 @@ public class Row extends Rectangle {
 			for (;j1<maxDist;j1++) {
 				j=lower+j1;
 				if (j>=page.lower) break;
-				if (page.pageBitmap.points[i][j]!=null) break;
+				if (page.pageBitmap.points[i][j]!=null &&
+						page.pageBitmap.points[i][j]!=Common._ConfusingPoint) 
+					break;
 			}
 			
-			if(j>page.lower || page.pageBitmap.points[i][j]==null) continue;
+			if(j>page.lower || 
+					page.pageBitmap.points[i][j]==null ||
+					page.pageBitmap.points[i][j]==Common._ConfusingPoint) 
+				continue;
 			if (row==page.pageBitmap.points[i][j].ch.row) continue;
 			
 			row=page.pageBitmap.points[i][j].ch.row;
@@ -467,7 +476,7 @@ public class Row extends Rectangle {
 	
 	String string() {
 		String str="";
-		
+
 		Char ch0=chars.get(0);
 		for(Char ch:chars) {
 			float h=Math.max(ch0.height,ch.height);
