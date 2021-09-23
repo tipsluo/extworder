@@ -5,20 +5,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import extworder.Common.RangeGroup;
 import extworder.Common.RangeGroup.Range;
-import extworder.Common.StatGroup;
 
 public class Row extends Rectangle {
 	CharFont charfont;
@@ -64,7 +56,49 @@ public class Row extends Rectangle {
 		updateRectangle(ch);
 	}
 	
+	/*public void buildTentative(int x,int y) {
+		int fixedsameRowVGap=-1;
+
+		for(sameRowVGap=Common._InitSameRowVGap; sameRowVGap>=-2; sameRowVGap--)  {
+			resetChars();
+			build(x,y);
+			if(Validation.verifyRow(this)) {
+				fixedsameRowVGap=sameRowVGap;
+				break;
+			}
+		}
+		if(fixedsameRowVGap<0) {
+			System.out.println("error: No row is satisfied. Aborted.");
+			System.exit(1);
+		}
+		
+		resetChars();
+		sameRowVGap=fixedsameRowVGap;
+		build(x,y);
+	}*/
+	
 	public void build(int x,int y) {
+		chars=new ArrayList<Char>();
+		
+		if ( page.pageBitmap.points[x][y].ch == null)
+			return;
+		
+		wordInterval=new Range(Common._CharHGap);
+		
+		expand(page.pageBitmap.points[x][y].ch);
+		Collections.sort(chars,Char.compareChars);
+		
+		wordInterval=getWordInterval();
+
+		resetChars();		
+		expand(page.pageBitmap.points[x][y].ch);
+		Collections.sort(chars,Char.compareChars);
+
+		charfont=getCharFont();
+		wordInterval=getWordInterval();
+	}
+	
+	/*public void build(int x,int y) {
 		chars=new ArrayList<Char>();
 		
 		if ( page.pageBitmap.points[x][y].ch == null ||
@@ -93,7 +127,7 @@ public class Row extends Rectangle {
 		Collections.sort(chars,Char.compareChars);
 
 		charfont=getCharFont();
-	}
+	}*/
 
 	private void expand(Char ch) {
 		if (ch==null) return;
@@ -116,7 +150,64 @@ public class Row extends Rectangle {
 		}
 	}
 	
-	private RangeGroup.Range getWordInterval(ArrayList<Char> chs) {
+	private void resetChars() {
+		if(chars!=null)
+			clearCharRows();
+		chars=new ArrayList<Char>();
+		resetRectangle();
+		width=height=-1;
+	}
+	
+	private RangeGroup.Range getWordInterval() {
+		Range ret;
+		
+		if(spaceWidth>0)
+			//wordInterval=new Range((int)((float)Common._CharHGapSpaceTimes * spaceWidth));
+			return new Range(spaceWidth,Common._CharHSpaceAddGap+spaceWidth);
+		
+		if(chars.size()<2)
+			return new Range(Common._CharHGap);
+		
+		ArrayList<Integer> intervals=new ArrayList<Integer>();
+		
+		Char ch1=chars.get(0);
+		
+		for(int i=1; i<chars.size(); i++) {
+			Char ch=chars.get(i);
+
+			// float interRatio=ch.vIntersection(ch1) / Math.min(ch.height,ch1.height);
+			//if(interRatio<Common._MinSameRowInterRatio) {
+
+			if(!ch.isVIntersected(ch1))
+				continue;
+			
+			int interval=ch.left-ch1.right;
+			
+			if(interval<0) 
+				continue;
+			// The internal could be less than 0 because of the upper/lower signs.
+			
+			if(! intervals.contains(interval))
+				intervals.add(interval);
+			
+			ch1=ch;
+		}
+		
+		Collections.sort(intervals);
+		
+		RangeGroup rangeGroup=new RangeGroup(intervals);
+
+		if(rangeGroup.ranges.size()<2)
+			ret=new Range(1,Common._CharHGap);
+		else {
+			ret=new Range(1, rangeGroup.ranges.get(1).max+1);
+		}
+		
+		
+		return ret;
+	}
+
+	/*private RangeGroup.Range getWordInterval(ArrayList<Char> chs) {
 		if(chars.size()<2)
 			return null;
 		
@@ -144,7 +235,7 @@ public class Row extends Rectangle {
 			return null;
 		else
 			return rangeGroup.ranges.get(1);
-	}
+	}*/
 	
 	public void clearCharRows() {
 		for(Char ch:chars)
@@ -462,7 +553,7 @@ public class Row extends Rectangle {
 		return cf;
 	}
 	
-	public void print(FileWriter fw) throws IOException {
+	/*public void print(FileWriter fw) throws IOException {
 		int x0=chars.get(0).right;
 		for(Char ch:chars) {
 			if(spaceWidth<0 &&
@@ -491,8 +582,40 @@ public class Row extends Rectangle {
 		}
 		
 		return str;
+	}*/
+	
+	public void print(FileWriter fw) throws IOException {
+		fw.write(string());
+		/*int x0=chars.get(0).right;
+		for(Char ch:chars) {
+			if(spaceWidth<0 &&
+					ch.left > x0 + ch.width * Common._HSpaceMin) {
+				fw.write(" ");
+			}
+			fw.write(ch.str);
+			x0=ch.right;
+		}*/
 	}
 	
+	String string() {
+		String str="";
+		
+		Char ch0=chars.get(0);
+		for(Char ch:chars) {
+			//float h=Math.max(ch0.height,ch.height);
+			
+			/*if(spaceWidth<0 &&
+					ch.left > ch0.right + h * Common._HSpaceMin) {*/
+			if(wordInterval.min<ch.left-ch0.right) {
+				str+=" ";
+			}
+			str+=ch.str;
+			//x0=ch.right;
+			ch0=ch;
+		}
+		
+		return str;
+	}
 	
 	static public class CharFont implements Comparable<CharFont>{
 		String name;

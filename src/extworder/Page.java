@@ -68,6 +68,7 @@ public class Page extends Rectangle{
 		adjustCoordinates();
 		
 		pageBitmap=new PageBitmap(this);
+		eliminateCharIntersections();
 
 		getAllRows();
 		getAllCharBlocks();
@@ -98,6 +99,46 @@ public class Page extends Rectangle{
 		right=right-xOffset;
 		upper=upper-yOffset;
 		lower=lower-yOffset;
+	}
+	
+	private void eliminateCharIntersections() {
+		for(int x=left; x<=right;x++)
+			for(int y=upper;y<=lower;y++) {
+				if(pageBitmap.points[x][y]==null)
+					continue;
+				
+				Char ch=pageBitmap.points[x][y].ch;
+				if(ch==null)
+					continue;
+				
+				ArrayList<Char> rights=ch.getRightConnected(this,1);
+				if(rights.size()==0)
+					continue;
+				
+				for(Char ch1:rights) {
+					if(ch1.left<=ch.right) {
+						for(int i=ch1.left; i<=ch.right; i++) {
+							for(int j=ch1.upper; j<=ch1.lower; j++)
+								pageBitmap.points[i][j].ch=ch1;
+						}
+						ch.right=ch1.left-1;
+					}
+				}
+				
+				ArrayList<Char> lowers=ch.getRightConnected(this,1);
+				if(lowers.size()==0)
+					continue;
+				
+				for(Char ch1:lowers) {
+					if(ch1.upper<=ch.lower) {
+						for(int i=ch1.upper; i<=ch.lower; i++) {
+							for(int j=ch1.left; j<=ch1.right; j++)
+								pageBitmap.points[j][i].ch=ch1;
+						}
+						ch.lower=ch1.upper-1;
+					}
+				}
+			}
 	}
 
 	void markHeaderFooter() {
@@ -482,10 +523,10 @@ public class Page extends Rectangle{
 					}
 			}
 			
-			updatePageChars(page);
+			//updatePageChars(page);
 		}
 		
-		void updatePageChars(Page page) {
+		/*void updatePageChars(Page page) {
 			for(Char ch:page.chars)
 				for(int x=ch.left; x<=ch.right; x++) {
 					boolean clear=false;
@@ -502,7 +543,7 @@ public class Page extends Rectangle{
 			
 			for(Char ch:page.chars)
 				ch.updateRectangle(points);
-		}
+		}*/
 	}
 	
 	class Column extends Rectangle {

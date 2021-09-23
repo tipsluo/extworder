@@ -124,7 +124,7 @@ public class Extworder {
 		}*/
 		
 		//printContent("A model for estimating parameters of rotational landslide");
-		printContent("Peace-Development and Peace Through");
+		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
@@ -144,7 +144,7 @@ public class Extworder {
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
-		//printContent("APS-Evidence for CP violation in B");
+		printContent("APS-Evidence for CP violation in B");
 	}
 	
 	public static void extract(String fn) throws IOException {

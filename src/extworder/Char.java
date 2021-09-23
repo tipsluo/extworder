@@ -89,9 +89,9 @@ public class Char extends Rectangle {
 	
 	public void clearCross(Point[][] points, int x,int y) {
 		for (int i=left; i<=right; i++)
-			points[i][y]=null;
+			points[i][y]=Common._ConfusingPoint;
 		for (int i=upper; i<=lower; i++)
-			points[x][i]=null;
+			points[x][i]=Common._ConfusingPoint;
 	}
 	
 	public void updateRectangle(Point[][] points) {
