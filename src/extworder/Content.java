@@ -51,6 +51,7 @@ public class Content extends PDFTextStripper {
     float lowContentWidth, highContentWidth, minTextBlockWidth;
 	int columnNumber,columnWidth;
 	float lowColumnWidth,highColumnWidth,minTextColumnBlockWidth;
+	int centralAlignmentAdjustment=0;
 	private boolean ignoreSubtitle=true;
 	
 	boolean hasFirstTextBlock=false;
@@ -301,6 +302,8 @@ public class Content extends PDFTextStripper {
 			columnNumber=2;
 		else
 			columnNumber=1;
+		
+		centralAlignmentAdjustment=(int) (columnWidth*Common._CenterAlignAdjustment);
 	}
 	
 	private void markFooterBlock() {

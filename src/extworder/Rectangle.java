@@ -71,6 +71,25 @@ public abstract class Rectangle {
 		return Math.min(Math.min(d1,d2),Math.min(d3,d4));
 	}
 	
+	protected int alignment(Rectangle parentRect, int adj) {
+		int leftIndent=left-parentRect.left;
+		int rightIndent=parentRect.right-right;
+		
+		if(Math.abs(leftIndent-rightIndent) < adj)
+			if(leftIndent==0)
+				return Common._CENTERALIGNED;
+			else
+				return Common._CENTERALIGNEDWIINDENT;
+		else if(leftIndent==0)
+			return Common._LEFTALIGNED;
+		else if(rightIndent==0)
+			return Common._RIGHTALIGNED;
+		else
+			return Common._NOALIGNED;
+	}
+	
+
+	
 	protected boolean isHIntersected(Rectangle r1) {
 		return (left >= r1.left && left <= r1.right) ||
 			   (r1.left >= left && r1.left <= right);

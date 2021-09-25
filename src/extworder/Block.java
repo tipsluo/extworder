@@ -103,7 +103,7 @@ public class Block extends Rectangle {
 		
 		Collections.sort(rows,Row.compareRows);
 		
-		boolean merged=false;
+		/*boolean merged=false;
 		for(int i1=0; i1<rows.size(); i1++) {
 			Row row1=rows.get(i1);
 			for(int i2=0; i2<rows.size(); i2++) {
@@ -118,7 +118,7 @@ public class Block extends Rectangle {
 			if(merged)
 				i1--;
 			merged=false;
-		}
+		}*/
 	}
 	
 	ArrayList<Block> split(int rowNum) {
@@ -213,35 +213,18 @@ public class Block extends Rectangle {
 		return left-l;
 	}
 	
-	protected int alignment() {
-		int l,r;
-		
-		if(column!=null) {
+	int alignment() {
+		if(column!=null)
+			return super.alignment(column,page.content.centralAlignmentAdjustment);
+		else
+			return super.alignment(page,page.content.centralAlignmentAdjustment);
+		/*if(column!=null) {
 			l=column.left;
 			r=column.right;
 		} else {
 			l=page.left;
 			r=page.right;
-		}
-		
-		int leftIndent=left-l;
-		int rightIndent=r-right;
-		
-		/*if(string().contains("INTRODUCTION"))
-			System.out.println("");*/
-		
-		if(Math.abs(leftIndent-rightIndent) < 
-				(int)(page.content.columnWidth*Common._CenterAlignAdjustment))
-			if(leftIndent==0)
-				return Common._CENTERALIGNED;
-			else
-				return Common._CENTERALIGNEDWIINDENT;
-		else if(leftIndent==0)
-			return Common._LEFTALIGNED;
-		else if(rightIndent==0)
-			return Common._RIGHTALIGNED;
-		else
-			return Common._NOALIGNED;
+		}*/
 	}
 	
 	public void setIgnored(String ignoredString) {
@@ -259,7 +242,8 @@ public class Block extends Rectangle {
 		Char ul=row.chars.get(0);
 		
 		ArrayList<Char> rights=ul.getRightConnected(this.page,
-								Common._CharHSpaceAddGap+row.wordInterval.max);
+								Common._CharHSpaceAddGap+row.wordInterval.max,
+								0);
 		
 		if(rights.size()<2)
 			return false;
@@ -329,7 +313,7 @@ public class Block extends Rectangle {
 	
 	boolean isAllScarce() {
 		for(Row row:rows) {
-			if(! Common.scarceRow.matcher(row.string()).find())
+			if(! row.scarce())
 				return false;
 		}
 		return true;
@@ -409,8 +393,11 @@ public class Block extends Rectangle {
 		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d\n\n",
 				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft));
 		
-		int y=rows.get(0).lower;
+		/*int y=rows.get(0).lower;
 		for(Row row:rows) {
+			if(row.scarce())
+				continue;
+			
 			if (row.upper>y) {
 				fw.write("\n");
 				y=row.lower;
@@ -418,7 +405,9 @@ public class Block extends Rectangle {
 				fw.write(" ");
 			}
 			row.print(fw);
-		}
+		}*/
+		
+		fw.write(string());
 		
 		fw.write("\n==============================\n\n");
 	}
@@ -428,7 +417,9 @@ public class Block extends Rectangle {
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {
-			if (row.upper>y) {
+			if(row.scarce())
+				continue;
+			if (row.upper>=y) {
 				str+="\n";
 				y=row.lower;
 			}
@@ -478,8 +469,8 @@ public class Block extends Rectangle {
 		
 		public BlockFormat(CharFont charfont) {
 			this.charfont=charfont;
-			this.indent=Common._RIGHTALIGNED;
-			this.alignment=Common._UNKNOWNINDENT;
+			this.indent=Common._UNKNOWNINDENT;
+			this.alignment=Common._UNKNOWNALIGNED;
 		}
 		
 		boolean equals(BlockFormat blockformat) {

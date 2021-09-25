@@ -48,7 +48,8 @@ public class Common {
 	final static String _IgnoredBlockPrefix="IGNORED_";
 	final static String _IgnoredBlockIntraText=_IgnoredBlockPrefix+"INTRATEXT";
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
-	
+	final static int _MaxCharVGapAdj=1;
+	final static int _MinCharVGapAdj=-2;
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	//final static float _ColumnMinWidthRatio=0.3f;
@@ -75,7 +76,7 @@ public class Common {
 	
 	final static int _UNKNOWNINDENT=-98;
 	final static int _UNKNOWNALLUPPERCASE=-98;
-	final static Char.Point _ConfusingPoint;
+	//final static Char.Point _ConfusingPoint;
 	
 	final static boolean __DEBUG=false;
 	
@@ -92,13 +93,14 @@ public class Common {
 	final static Pattern bulletPart2;*/
 	
 	static {
-		_ConfusingPoint=new Char.Point(-1,-1,null);
+		//_ConfusingPoint=new Char.Point(-1,-1,null);
 		
 		infinishedTextBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");
 		uppercase=Pattern.compile("[A-Z]");
 		leading2Uppercase=Pattern.compile("^\\s*[A-Z]{2,}");
-		scarceRow=Pattern.compile("\\S+\s{3,}\\S");
+		//scarceRow=Pattern.compile("\\S+\\s{3,}\\S");
+		scarceRow=Pattern.compile("^(\\S+\\s+){0,2}\\S*$");
 		likeSentence1=Pattern.compile("(\\s+\\w+){2,}\\s*\\.");
 		likeSentence2=Pattern.compile("(is|are|was|were|has|have|had|did|do|didn't|don't|hadn't|hasn't|havn't)\\s+");
 		/* May need it later

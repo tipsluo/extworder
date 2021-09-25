@@ -20,6 +20,7 @@ public class Row extends Rectangle {
 	float width,height;
 	RangeGroup.Range wordInterval;
 	int spaceWidth;
+	int vAdjustment;
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
@@ -41,7 +42,8 @@ public class Row extends Rectangle {
 			this.block=block;
 			
 		spaceWidth=-1;
-		build(x,y);
+		//build(x,y);
+		buildTentative(x,y);
 		width=right-left;
 		height=lower-upper;
 	}
@@ -56,26 +58,22 @@ public class Row extends Rectangle {
 		updateRectangle(ch);
 	}
 	
-	/*public void buildTentative(int x,int y) {
-		int fixedsameRowVGap=-1;
+	public void buildTentative(int x,int y) {
+		//int fixedsameRowVGap=-1;
 
-		for(sameRowVGap=Common._InitSameRowVGap; sameRowVGap>=-2; sameRowVGap--)  {
+		for(vAdjustment=Common._MaxCharVGapAdj; vAdjustment>=Common._MinCharVGapAdj; vAdjustment--)  {
 			resetChars();
 			build(x,y);
+
 			if(Validation.verifyRow(this)) {
-				fixedsameRowVGap=sameRowVGap;
 				break;
 			}
 		}
-		if(fixedsameRowVGap<0) {
+		/*if(vAdjustment<k) {
 			System.out.println("error: No row is satisfied. Aborted.");
 			System.exit(1);
-		}
-		
-		resetChars();
-		sameRowVGap=fixedsameRowVGap;
-		build(x,y);
-	}*/
+		}*/
+	}
 	
 	public void build(int x,int y) {
 		chars=new ArrayList<Char>();
@@ -98,37 +96,6 @@ public class Row extends Rectangle {
 		wordInterval=getWordInterval();
 	}
 	
-	/*public void build(int x,int y) {
-		chars=new ArrayList<Char>();
-		
-		if ( page.pageBitmap.points[x][y].ch == null ||
-				page.pageBitmap.points[x][y]==Common._ConfusingPoint)
-			return;
-		
-		wordInterval=new Range(Common._CharHGap);
-		
-		expand(page.pageBitmap.points[x][y].ch);
-		
-		if(spaceWidth>0)
-			//wordInterval=new Range((int)((float)Common._CharHGapSpaceTimes * spaceWidth));
-			wordInterval=new Range(Common._CharHSpaceAddGap+spaceWidth);
-		else
-			wordInterval=getWordInterval(chars);
-		
-		if(wordInterval==null)
-			wordInterval=new Range(Common._CharHGap);
-		
-		clearCharRows();
-		
-		chars=new ArrayList<Char>();
-		
-		expand(page.pageBitmap.points[x][y].ch);
-		
-		Collections.sort(chars,Char.compareChars);
-
-		charfont=getCharFont();
-	}*/
-
 	private void expand(Char ch) {
 		if (ch==null) return;
 		
@@ -142,11 +109,11 @@ public class Row extends Rectangle {
 			updateRectangle(ch);
 			
 			ch.getLeftConnected(page,
-					Common._CharHSpaceAddGap+wordInterval.max).forEach(this::expand);
-					//(int)((float)wordInterval.max*Common._CharHGapSpaceTimes)).forEach(this::expand);
+					Common._CharHSpaceAddGap+wordInterval.max,
+					vAdjustment).forEach(this::expand);
 			ch.getRightConnected(page,
-					Common._CharHSpaceAddGap+wordInterval.max).forEach(this::expand);
-					//(int)((float)wordInterval.max*Common._CharHGapSpaceTimes)).forEach(this::expand);
+					Common._CharHSpaceAddGap+wordInterval.max,
+					vAdjustment).forEach(this::expand);
 		}
 	}
 	
@@ -162,7 +129,6 @@ public class Row extends Rectangle {
 		Range ret;
 		
 		if(spaceWidth>0)
-			//wordInterval=new Range((int)((float)Common._CharHGapSpaceTimes * spaceWidth));
 			return new Range(spaceWidth,Common._CharHSpaceAddGap+spaceWidth);
 		
 		if(chars.size()<2)
@@ -174,9 +140,6 @@ public class Row extends Rectangle {
 		
 		for(int i=1; i<chars.size(); i++) {
 			Char ch=chars.get(i);
-
-			// float interRatio=ch.vIntersection(ch1) / Math.min(ch.height,ch1.height);
-			//if(interRatio<Common._MinSameRowInterRatio) {
 
 			if(!ch.isVIntersected(ch1))
 				continue;
@@ -207,36 +170,6 @@ public class Row extends Rectangle {
 		return ret;
 	}
 
-	/*private RangeGroup.Range getWordInterval(ArrayList<Char> chs) {
-		if(chars.size()<2)
-			return null;
-		
-		ArrayList<Integer> intervals=new ArrayList<Integer>();
-		
-		Collections.sort(chars,Char.compareChars);
-		
-		int r=chs.get(0).right;
-		for(int i=1; i<chs.size(); i++) {
-			Char ch=chs.get(i);
-			
-			int interval=ch.left-r;
-			
-			if(! intervals.contains(interval))
-				intervals.add(interval);
-			
-			r=ch.right;
-		}
-		
-		Collections.sort(intervals);
-		
-		RangeGroup rangeGroup=new RangeGroup(intervals);
-		
-		if(rangeGroup.ranges.size()<2)
-			return null;
-		else
-			return rangeGroup.ranges.get(1);
-	}*/
-	
 	public void clearCharRows() {
 		for(Char ch:chars)
 			//if(ch.row==this)
@@ -318,8 +251,6 @@ public class Row extends Rectangle {
 				i--;
 			} else if(intersected.size()>=2) {
 				shared2.add(vStretch1);
-				//vStretches.remove(vStretch1);
-				//i--;
 			}
 		}
 		
@@ -416,42 +347,6 @@ public class Row extends Rectangle {
 		}
 			
 		return newRows;
-		/*
-		if(separated.size()<2)
-			return newRows;
-		
-		for(int i=0; i<separated.size(); i++) {
-			Row row=new Row(page,this);
-			newRows.add(row);
-		}
-		
-		for(int i=0; i<chars.size(); i++) {
-			Char ch=chars.get(i);
-			VStretch VStretch=allCharVStretches.get(i);
-			int interLength=-1;
-			int interIndex=-1;
-			
-			for(int j=0; j<separated.size(); j++) {
-				VStretch separatedVStretch=separated.get(j);
-				if(separatedVStretch.equals(VStretch)) {
-					newRows.get(j).addChar(ch);
-					break;
-				} else {
-					int l=separatedVStretch.intersection(VStretch).length();
-					if(l > interLength) {
-						interLength=l;
-						interIndex=j;
-					}
-				}
-			}
-			if(interIndex>=0)
-				newRows.get(interIndex).addChar(ch);
-		}
-		
-		for(Row row:newRows)
-			Collections.sort(row.chars,Char.compareChars);
-			
-		return newRows;*/
 	}
 	
 	public ArrayList<Row> getAboveConnected() {		
@@ -472,8 +367,7 @@ public class Row extends Rectangle {
 			}
 			
 			if (j<0 || 
-					page.pageBitmap.points[i][j]==null ||
-					page.pageBitmap.points[i][j]==Common._ConfusingPoint) 
+					page.pageBitmap.points[i][j]==null) 
 				continue;
 			
 			if (row==page.pageBitmap.points[i][j].ch.row) continue;
@@ -504,14 +398,12 @@ public class Row extends Rectangle {
 			for (;j1<maxDist;j1++) {
 				j=lower+j1;
 				if (j>=page.lower) break;
-				if (page.pageBitmap.points[i][j]!=null &&
-						page.pageBitmap.points[i][j]!=Common._ConfusingPoint) 
+				if (page.pageBitmap.points[i][j]!=null) 
 					break;
 			}
 			
 			if(j>page.lower || 
-					page.pageBitmap.points[i][j]==null ||
-					page.pageBitmap.points[i][j]==Common._ConfusingPoint) 
+					page.pageBitmap.points[i][j]==null) 
 				continue;
 			if (row==page.pageBitmap.points[i][j].ch.row) continue;
 			
@@ -531,6 +423,24 @@ public class Row extends Rectangle {
 	private boolean checkSameBlock(Row row) {
 		return charfont.equals(row.charfont);
 	}
+	
+	boolean scarce() {
+		if(isFull(page.content,block.column))
+			return false;
+		
+		return Common.scarceRow.matcher(string()).find();
+
+		/*if(alignment()!=Common._NOALIGNED)
+			return false;*/
+	}
+	
+	int alignment() {
+		if(block.column!=null)
+			return super.alignment(block.column,page.content.centralAlignmentAdjustment);
+		else
+			return super.alignment(page,page.content.centralAlignmentAdjustment);
+	}
+
 	
 	private CharFont getCharFont() {
 		if(chars.size()==0)
@@ -553,48 +463,8 @@ public class Row extends Rectangle {
 		return cf;
 	}
 	
-	/*public void print(FileWriter fw) throws IOException {
-		int x0=chars.get(0).right;
-		for(Char ch:chars) {
-			if(spaceWidth<0 &&
-					ch.left > x0 + ch.width * Common._HSpaceMin) {
-				fw.write(" ");
-			}
-			fw.write(ch.str);
-			x0=ch.right;
-		}
-	}
-	
-	String string() {
-		String str="";
-
-		Char ch0=chars.get(0);
-		for(Char ch:chars) {
-			float h=Math.max(ch0.height,ch.height);
-			
-			if(spaceWidth<0 &&
-					ch.left > ch0.right + h * Common._HSpaceMin) {
-				str+=" ";
-			}
-			str+=ch.str;
-			//x0=ch.right;
-			ch0=ch;
-		}
-		
-		return str;
-	}*/
-	
 	public void print(FileWriter fw) throws IOException {
 		fw.write(string());
-		/*int x0=chars.get(0).right;
-		for(Char ch:chars) {
-			if(spaceWidth<0 &&
-					ch.left > x0 + ch.width * Common._HSpaceMin) {
-				fw.write(" ");
-			}
-			fw.write(ch.str);
-			x0=ch.right;
-		}*/
 	}
 	
 	String string() {
@@ -602,15 +472,10 @@ public class Row extends Rectangle {
 		
 		Char ch0=chars.get(0);
 		for(Char ch:chars) {
-			//float h=Math.max(ch0.height,ch.height);
-			
-			/*if(spaceWidth<0 &&
-					ch.left > ch0.right + h * Common._HSpaceMin) {*/
 			if(wordInterval.min<ch.left-ch0.right) {
 				str+=" ";
 			}
 			str+=ch.str;
-			//x0=ch.right;
 			ch0=ch;
 		}
 		
