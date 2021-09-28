@@ -40,7 +40,7 @@ public class Row extends Rectangle {
 		
 		if(block!=null)
 			this.block=block;
-			
+	
 		spaceWidth=-1;
 		//build(x,y);
 		buildTentative(x,y);
@@ -59,8 +59,6 @@ public class Row extends Rectangle {
 	}
 	
 	public void buildTentative(int x,int y) {
-		//int fixedsameRowVGap=-1;
-
 		for(vAdjustment=Common._MaxCharVGapAdj; vAdjustment>=Common._MinCharVGapAdj; vAdjustment--)  {
 			resetChars();
 			build(x,y);
@@ -69,10 +67,6 @@ public class Row extends Rectangle {
 				break;
 			}
 		}
-		/*if(vAdjustment<k) {
-			System.out.println("error: No row is satisfied. Aborted.");
-			System.exit(1);
-		}*/
 	}
 	
 	public void build(int x,int y) {
@@ -81,11 +75,14 @@ public class Row extends Rectangle {
 		if ( page.pageBitmap.points[x][y].ch == null)
 			return;
 		
-		wordInterval=new Range(Common._CharHGap);
+		Char ch=page.pageBitmap.points[x][y].ch;
+		
+		//wordInterval=new Range(Common._CharHGap);
+		wordInterval=new Range((int) (ch.height * Common._CharHGapRatio));
 		
 		expand(page.pageBitmap.points[x][y].ch);
 		Collections.sort(chars,Char.compareChars);
-		
+
 		wordInterval=getWordInterval();
 
 		resetChars();		
@@ -100,7 +97,7 @@ public class Row extends Rectangle {
 		if (ch==null) return;
 		
 		if(ch.str.contains(" "))
-			spaceWidth=ch.right-ch.left+1;
+			spaceWidth=(int) ch.width;
 		
 		if (ch.row==null) {
 			chars.add(ch); 
@@ -131,8 +128,9 @@ public class Row extends Rectangle {
 		if(spaceWidth>0)
 			return new Range(spaceWidth,Common._CharHSpaceAddGap+spaceWidth);
 		
-		if(chars.size()<2)
-			return new Range(Common._CharHGap);
+		if(chars.size()==1)
+			//return new Range(Common._CharHGap);
+			return new Range((int) (chars.get(0).height * Common._CharHGapRatio));
 		
 		ArrayList<Integer> intervals=new ArrayList<Integer>();
 		
@@ -161,9 +159,10 @@ public class Row extends Rectangle {
 		RangeGroup rangeGroup=new RangeGroup(intervals);
 
 		if(rangeGroup.ranges.size()<2)
-			ret=new Range(1,Common._CharHGap);
+			ret=new Range(2,(int)(chars.get(0).height*Common._CharHGapRatio));
+			//ret=new Range(1,Common._CharHGap);
 		else {
-			ret=new Range(1, rangeGroup.ranges.get(1).max+1);
+			ret=new Range(rangeGroup.ranges.get(0).max+1, rangeGroup.ranges.get(1).max+1);
 		}
 		
 		
@@ -172,8 +171,7 @@ public class Row extends Rectangle {
 
 	public void clearCharRows() {
 		for(Char ch:chars)
-			//if(ch.row==this)
-				ch.row=null;
+			ch.row=null;
 	}
 	
 	void merge(Row row) {
@@ -193,7 +191,15 @@ public class Row extends Rectangle {
 		page.rows.remove(row);
 	}
 	
-	ArrayList<Row> separateCloseRows() {
+	void reupdateRectangle() {
+		for(Char ch:chars)
+			updateRectangle(ch);
+		
+		width=right-left;
+		height=lower-upper;
+	}
+	
+	/*ArrayList<Row> separateCloseRows() {
 		ArrayList<Row> newRows=new ArrayList<Row>();
 		
 		if(chars.size()<2)
@@ -216,7 +222,7 @@ public class Row extends Rectangle {
 				vStretches.add(vStretch);
 		}
 		
-		/* Remove duplicate */
+		// Remove duplicate
 		for(int i=0;i<vStretches.size();i++) {
 			VStretch vStretch1=vStretches.get(i);
 			for(VStretch vStretch2:vStretches) {
@@ -278,7 +284,7 @@ public class Row extends Rectangle {
 			newStretches.add(newVStretch);
 		}
 		
-		/* for those only have one intersection: */
+		// for those only have one intersection:
 		for(int i=0; i<vStretches.size(); i++) {
 			Stretch stretch1=vStretches.get(i);
 			if(shared2.contains(stretch1))
@@ -296,7 +302,7 @@ public class Row extends Rectangle {
 			}
 		}
 			
-		/* Remove duplicate */
+		// Remove duplicate
 		for(int i=0;i<newStretches.size();i++) {
 			Stretch stretch1=newStretches.get(i);
 			for(Stretch stretch2:newStretches) {
@@ -347,7 +353,7 @@ public class Row extends Rectangle {
 		}
 			
 		return newRows;
-	}
+	}*/
 	
 	public ArrayList<Row> getAboveConnected() {		
 		ArrayList<Row> rows=new ArrayList<Row>();
@@ -420,6 +426,49 @@ public class Row extends Rectangle {
 		return rows;
 	}
 	
+	boolean joinUpperLeftBigChar() {
+		boolean toRemove=false;
+		
+		Char ul=chars.get(0);
+		
+		//ArrayList<Char> rights=ul.getRightConnected(this.page,Common._CharHGap,0);
+		ArrayList<Char> rights=ul.getRightConnected(this.page,(int)(ul.height*Common._CharHGapRatio),0);
+
+		if(rights.size()<2)
+			return false;
+		
+		ul.row=null;
+		chars.remove(ul);
+		reupdateRectangle();
+		
+		ArrayList<Row> rows=new ArrayList<Row>();
+		for(Char r:rights)
+			rows.add(r.row);
+		Collections.sort(rows,Row.compareRows);
+		
+		if(rows.get(0)==this) {
+			ul.row=this;
+			chars.add(ul);
+			left=ul.left;
+			Collections.sort(chars,Char.compareChars);
+			return false;
+		}
+			
+		if(chars.size()==0)
+			toRemove=true;
+		
+		Collections.sort(chars,Char.compareChars);
+		
+		Row r1=rows.get(0);
+		ul.row=r1;
+		r1.chars.add(ul);
+		Collections.sort(r1.chars,Char.compareChars);
+		for(Row r:rows)
+			r.left=ul.left;
+		
+		return toRemove;
+	}
+	
 	private boolean checkSameBlock(Row row) {
 		return charfont.equals(row.charfont);
 	}
@@ -428,10 +477,10 @@ public class Row extends Rectangle {
 		if(isFull(page.content,block.column))
 			return false;
 		
+		if(alignment()!=Common._NOALIGNED)
+			return false;
+		
 		return Common.scarceRow.matcher(string()).find();
-
-		/*if(alignment()!=Common._NOALIGNED)
-			return false;*/
 	}
 	
 	int alignment() {
@@ -471,6 +520,7 @@ public class Row extends Rectangle {
 		String str="";
 		
 		Char ch0=chars.get(0);
+	
 		for(Char ch:chars) {
 			if(wordInterval.min<ch.left-ch0.right) {
 				str+=" ";

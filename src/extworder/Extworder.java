@@ -73,6 +73,7 @@ public class Extworder {
 		//displayChars("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//displayChars("APS-Evidence for CP violation in B");
 		//displayChars("ALA-Past is Prologue");
+		//displayChars("AIP-Magnetic fields for modulating the nervous system");
     }
 	
 	public static void main_test5_block_display() throws IOException {
@@ -110,7 +111,7 @@ public class Extworder {
 		//printBlocks("APS-Evidence for CP violation in B"); 
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printBlocks("ALA-Past is Prologue");
-		printBlocks("AIP-Magnetic fields for modulating the nervous system");
+		//printBlocks("AIP-Magnetic fields for modulating the nervous system");
 		//printBlocks("APS-Evidence for CP violation in B");
 	}
 	
@@ -141,7 +142,7 @@ public class Extworder {
 		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
-		printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
+		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 		printContent("APS-Evidence for CP violation in B");
@@ -240,8 +241,10 @@ public class Extworder {
 			    				System.out.printf("%d",i);
 			    			}*/
 			    			
-			    				myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d) width=%f height=%f fontname=%s\n", 
-				    				row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,row.width,row.height,row.charfont.name));
+			    				myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
+			    								" width=%f height=%f fontname=%s wordint.min=%d wordint.max=%d\n", 
+				    				row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,
+				    				row.width,row.height,row.charfont.name,row.wordInterval.min, row.wordInterval.max));
 				    	}
 			    	
 			}

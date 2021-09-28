@@ -571,7 +571,6 @@ public class Content extends PDFTextStripper {
 					} 
 					
 					String blockStr=block.string();
-					
 					ArrayList<String> strs=Common.getLetterWords(blockStr);
 					
 					if(block.type=="")

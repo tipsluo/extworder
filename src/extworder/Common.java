@@ -23,8 +23,8 @@ public class Common {
 	
 	//final static float _CharHGapSpaceTimes=1.5f;
 	final static int _CharHSpaceAddGap=1;
-	final static int _CharHGap=10;
-	//final static float _CharHGapRatio=1f;
+	final static float _CharHGapRatio=1.5f;
+	//final static int _CharHGap=10;
 	final static float _CharVGapRatio=2.5f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;

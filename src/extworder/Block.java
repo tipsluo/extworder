@@ -269,15 +269,6 @@ public class Block extends Rectangle {
 			row1.left=ul.left;
 			
 			newRows.add(row1);
-			/*if(index>=0) {
-				// If the row is too short, it is likely the math sign
-				if(row1.right-row1.left+1 <= Common._MinBigTextBlockFirstRowLength)
-					return false;
-				
-				//rows.add(index,row1);
-				index=-1;
-			} else
-				//rows.add(row1);	*/	
 		}
 		
 		if(newRows.size()<2)
@@ -417,8 +408,8 @@ public class Block extends Rectangle {
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {
-			if(row.scarce())
-				continue;
+		//	if(row.scarce())
+		//		continue;
 			if (row.upper>=y) {
 				str+="\n";
 				y=row.lower;
@@ -516,6 +507,15 @@ public class Block extends Rectangle {
 	
 	static class CompareBlocks implements Comparator<Block> {
 		public int compare(Block b1, Block b2) {
+			if(b1.page!=b2.page)
+				return b1.page.id-b2.page.id;
+			
+			int b1column= b1.column==null ? -1 : b1.column.left;
+			int b2column= b2.column==null ? -1 : b2.column.left;
+			
+			return b1column!=b2column ? b1column-b2column :
+						b1.upper!=b2.upper ? b1.upper-b2.upper :
+							b1.left-b2.left;
 			/*if(b1.isVIntersected(b2) && b1.isHIntersected(b2)) {
 				System.out.println("CompareBlocks error");
 			}*/
@@ -533,7 +533,7 @@ public class Block extends Rectangle {
 			else if(hint)
 				return b1.upper==b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
 			else {*/
-				if(b1.column==null && b2.column==null)
+				/*if(b1.column==null && b2.column==null)
 					return b1.upper!=b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
 				else if(b1.column==null)
 					return -1;
@@ -544,7 +544,7 @@ public class Block extends Rectangle {
 						return b1.left-b2.left;
 					else
 						return b1.upper-b2.upper;
-				}
+				}*/
 		}
 	}
 }

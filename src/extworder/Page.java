@@ -13,7 +13,6 @@ import java.util.TreeMap;
 import org.apache.pdfbox.text.TextPosition;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
-import extworder.Common.RangeGroup.Range;
 import extworder.Content.HStretch;
 import extworder.Row.CharFont;
 
@@ -49,7 +48,7 @@ public class Page extends Rectangle{
     	String str;
     	str=text.toString();
     	
-    	Char ch=new Char(str, text.getX(),text.getY(),text.getWidth(),text.getHeight(),
+    	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     	    		text.getFont().getName());
     	
     	//--- Don't remove
@@ -76,8 +75,8 @@ public class Page extends Rectangle{
 		
 		mergeBlocks();
 		
-		for(Block block:blocks)
-			block.separateUpperLeftBigChar();
+		/*for(Block block:blocks)
+			block.separateUpperLeftBigChar();*/
 		
 		pageBitmap=null;
 		
@@ -383,13 +382,31 @@ public class Page extends Rectangle{
 				}
 			}
 		
-		for(int i=0;i<rows.size();i++) {
+		Collections.sort(rows,Row.compareRows);
+
+/*if(id==3) 
+	System.out.println();*/
+		/*for(int i=0;i<rows.size();i++) {
 			Row row=rows.get(i);
 			ArrayList<Row> newRows=row.separateCloseRows();
 			if(newRows!=null && newRows.size()>1) {
+				if(row.block!=null)
+					row.block.rows.remove(row);
 				rows.remove(row);
 				i--;
 				rows.addAll(newRows);
+			}
+		}
+		
+		Collections.sort(rows,Row.compareRows);*/
+		
+		for (int i=0;i<rows.size();i++) {
+			Row row=rows.get(i);
+			if(row.joinUpperLeftBigChar()) {
+				if(row.block!=null)
+					row.block.rows.remove(row);
+				rows.remove(row);
+				i--;
 			}
 		}
 		
