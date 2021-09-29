@@ -22,6 +22,7 @@ public class Common {
 	final static String _TestDataDir="data/";
 	
 	//final static float _CharHGapSpaceTimes=1.5f;
+	final static float _SpaceAdjustment=0.8f;
 	final static int _CharHSpaceAddGap=1;
 	final static float _CharHGapRatio=1.5f;
 	//final static int _CharHGap=10;
@@ -245,6 +246,14 @@ public class Common {
 			}
 			range.max=element1;
 			ranges.add(range);
+		}
+		
+		Range getRange(int value) {
+			for(Range range:ranges)
+				if(range.isIn(value))
+					return range;
+			
+			return null;
 		}
 	}
 	

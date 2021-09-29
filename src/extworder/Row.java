@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -90,7 +95,7 @@ public class Row extends Rectangle {
 		Collections.sort(chars,Char.compareChars);
 
 		charfont=getCharFont();
-		wordInterval=getWordInterval();
+		//wordInterval=getWordInterval();
 	}
 	
 	private void expand(Char ch) {
@@ -106,10 +111,10 @@ public class Row extends Rectangle {
 			updateRectangle(ch);
 			
 			ch.getLeftConnected(page,
-					Common._CharHSpaceAddGap+wordInterval.max,
+					wordInterval.max,
 					vAdjustment).forEach(this::expand);
 			ch.getRightConnected(page,
-					Common._CharHSpaceAddGap+wordInterval.max,
+					wordInterval.max,
 					vAdjustment).forEach(this::expand);
 		}
 	}
@@ -133,6 +138,7 @@ public class Row extends Rectangle {
 			return new Range((int) (chars.get(0).height * Common._CharHGapRatio));
 		
 		ArrayList<Integer> intervals=new ArrayList<Integer>();
+		HashMap<Integer,Integer> intervalCounts=new HashMap<Integer,Integer>();
 		
 		Char ch1=chars.get(0);
 		
@@ -151,22 +157,53 @@ public class Row extends Rectangle {
 			if(! intervals.contains(interval))
 				intervals.add(interval);
 			
+			intervalCounts.put(interval,intervalCounts.getOrDefault(interval,0)+1);
+			
 			ch1=ch;
 		}
 		
 		Collections.sort(intervals);
 		
-		RangeGroup rangeGroup=new RangeGroup(intervals);
+		if(intervalCounts.size()==1)
+			return new Range(intervals.get(0)+1, intervals.get(intervals.size()-1)+1);
+		
+		//RangeGroup rangeGroup=new RangeGroup(intervals);
+		/*if(rangeGroup.ranges.size()<2)
+			ret=new Range(2,(int)(chars.get(0).height*Common._CharHGapRatio));*/
+		
+		List<Entry<Integer, Integer>> list = new ArrayList<>(intervalCounts.entrySet());
+        list.sort(Entry.<Integer, Integer>comparingByValue().reversed());
+        int i=0;
+        int cInterval=-1;
+        int wInterval=-1;
+        for (Entry<Integer, Integer> entry : list) {
+        	if(i==0)
+        		cInterval=entry.getKey();
+        	else if(i==1) {
+        		wInterval=entry.getKey();
+        		break;
+        	}
+        	i++;
+        }
+        
+		if(wInterval==-1)
+			ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio)+Common._CharHSpaceAddGap);
+		else {
+			//Range range=rangeGroup.getRange(wInterval);
+			//ret=new Range(range.max,range.max+1);
+			ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),wInterval+Common._CharHSpaceAddGap);
+		}
+		return ret;
+		
+		//RangeGroup rangeGroup=new RangeGroup(intervals);
 
-		if(rangeGroup.ranges.size()<2)
+		/*if(rangeGroup.ranges.size()<2)
 			ret=new Range(2,(int)(chars.get(0).height*Common._CharHGapRatio));
 			//ret=new Range(1,Common._CharHGap);
 		else {
-			ret=new Range(rangeGroup.ranges.get(0).max+1, rangeGroup.ranges.get(1).max+1);
-		}
+			ret=new Range(rangeGroup.ranges.get(0).max, rangeGroup.ranges.get(1).max+1);
+		}*/
 		
-		
-		return ret;
 	}
 
 	public void clearCharRows() {
