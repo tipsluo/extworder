@@ -417,7 +417,9 @@ public class Row extends Rectangle {
 			
 			row=page.pageBitmap.points[i][j].ch.row;
 			
-			if(!checkSameBlock(row)) continue;
+			//if(!checkSameBlock(row)) continue;
+			if(! charfont.equals(row.charfont))
+				continue;
 			
 			if( j1 > row.charfont.height*Common._CharVGapRatio ) continue;
 			
@@ -452,7 +454,8 @@ public class Row extends Rectangle {
 			
 			row=page.pageBitmap.points[i][j].ch.row;
 			
-			if(!checkSameBlock(row))
+			//if(!checkSameBlock(row)) continue;
+			if(! charfont.equals(row.charfont))
 				continue;
 			
 			if( j1 > row.charfont.height*Common._CharVGapRatio ) continue;
@@ -506,9 +509,9 @@ public class Row extends Rectangle {
 		return toRemove;
 	}
 	
-	private boolean checkSameBlock(Row row) {
+	/*private boolean checkSameBlock(Row row) {
 		return charfont.equals(row.charfont);
-	}
+	}*/
 	
 	boolean scarce() {
 		if(isFull(page.content,block.column))
@@ -521,12 +524,43 @@ public class Row extends Rectangle {
 	}
 	
 	int alignment() {
-		if(block.column!=null)
-			return super.alignment(block.column,page.content.centralAlignmentAdjustment);
-		else
-			return super.alignment(page,page.content.centralAlignmentAdjustment);
+		int a;
+		int l;
+		if(block.column!=null) {
+			a=super.alignment(block.column,page.content.centralAlignmentAdjustment);
+			l=block.column.left;
+		} else {
+			a=super.alignment(page,page.content.centralAlignmentAdjustment);
+			l=page.left;
+		}
+		
+		if(a==Common._RIGHTALIGNED) {
+			int d=left-l;
+			if(d>=0 && 
+					d < charfont.height * Common._FirstRowIndentRatio)
+				return Common._FIRSTROWCENTERALIGNED;
+		}
+		
+		return a;
 	}
 
+	int sameAlignedInBlock(Row row) {
+		// negative: no; zero: possible;  positive yes
+		
+		int a0=alignment();
+		int a=row.alignment();
+		
+		if(a0==Common._CENTERALIGNED && a==Common._CENTERALIGNED)
+			return 1;
+		if(block.rows.indexOf(this)==0 && a0==Common._FIRSTROWCENTERALIGNED && a==Common._CENTERALIGNED)
+			return 1;
+		if( (a0==Common._NOALIGNED && a!=Common._NOALIGNED) ||
+				(a==Common._NOALIGNED && a0!=Common._NOALIGNED) )
+			return -1;
+		
+		return 0;
+	}
+	
 	
 	private CharFont getCharFont() {
 		if(chars.size()==0)

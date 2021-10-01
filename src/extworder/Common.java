@@ -31,6 +31,7 @@ public class Common {
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static int _CharLeftAdjustment=2;
 	final static int _MinBigTextBlockFirstRowLength=5;
+	final static float _FirstRowIndentRatio=2.0f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -72,6 +73,7 @@ public class Common {
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
 	final static int _CENTERALIGNEDWIINDENT=2;
+	final static int _FIRSTROWCENTERALIGNED=3;
 	final static int _UNKNOWNALIGNED=-98;
 	final static int _NOALIGNED=-99;
 	

@@ -88,8 +88,6 @@ public abstract class Rectangle {
 			return Common._NOALIGNED;
 	}
 	
-
-	
 	protected boolean isHIntersected(Rectangle r1) {
 		return (left >= r1.left && left <= r1.right) ||
 			   (r1.left >= left && r1.left <= right);
