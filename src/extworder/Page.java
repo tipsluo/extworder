@@ -362,31 +362,6 @@ public class Page extends Rectangle{
 				}
 			}
 		
-		for(int i=0;i<blocks.size();i++) {
-			Block block=blocks.get(i);
-			
-			if(block.rows.size()<2)
-				continue;
-			
-			Row row1=block.rows.get(0);
-			for(int j=1;j<block.rows.size(); j++) {
-				Row row2=block.rows.get(j);
-				if(row1.sameAlignedInBlock(row2)<0) {
-					ArrayList<Block> newBlocks=block.split(j);
-					
-					blocks.remove(block);
-					blocks.addAll(newBlocks);
-					
-					Page.this.blocks.remove(block);
-					Page.this.blocks.addAll(newBlocks);
-					
-					i--;
-					break;
-				}
-				row1=row2;
-			}
-		}
-		
 		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
@@ -433,6 +408,35 @@ public class Page extends Rectangle{
 		}
 		
 		Collections.sort(rows,Row.compareRows);
+	}
+	
+	void separateBlockDiffAligned() {
+		for(int i=0;i<blocks.size();i++) {
+			Block block=blocks.get(i);
+			
+			if(block.rows.size()<2)
+				continue;
+			
+			Row row1=block.rows.get(0);
+			for(int j=1;j<block.rows.size(); j++) {
+				Row row2=block.rows.get(j);
+	//if(row1.string().contains("The Cabibbo-"))
+	//	System.out.println("");
+				if(row1.sameAlignedInBlock(row2)<0) {
+					ArrayList<Block> newBlocks=block.split(j);
+					
+					blocks.remove(block);
+					blocks.addAll(newBlocks);
+					
+					Page.this.blocks.remove(block);
+					Page.this.blocks.addAll(newBlocks);
+					
+					i--;
+					break;
+				}
+				row1=row2;
+			}
+		}
 	}
 	
 	protected ArrayList<Block> upperBlocks() {

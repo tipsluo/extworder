@@ -132,6 +132,10 @@ public class Content extends PDFTextStripper {
 		markContentX();
 		makeColumns();
 		
+		for(Page page:pages) {
+			page.separateBlockDiffAligned();
+		}
+		
 		getTextCharfont();
 		getFirstTextBlock();
 		
