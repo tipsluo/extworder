@@ -338,7 +338,7 @@ public class Block extends Rectangle {
 		return false;
 	}
 	
-	boolean isNotTextBlock() {
+	boolean isNotTextBlockWidth() {
 		int width=right-left+1;
 		
 		/* need to support lines like:

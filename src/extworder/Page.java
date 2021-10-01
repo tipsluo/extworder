@@ -73,10 +73,7 @@ public class Page extends Rectangle{
 		getAllRows();
 		getAllCharBlocks();
 		
-		mergeBlocks();
-		
-		/*for(Block block:blocks)
-			block.separateUpperLeftBigChar();*/
+		//mergeBlocks();
 		
 		pageBitmap=null;
 		

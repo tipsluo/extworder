@@ -309,27 +309,31 @@ public class Common {
 		public boolean filter(Block block) {
 			if(block.column==null)
 				return false;
-			
+if(block.page.id==3)
+	System.out.println("");
 			if(block.format.charfont.equals(block.page.content.textCharfont)) {
 				if(block.type==Common._BeforeFirstText)
 					return false;
 				else {
+					if(block.isNotTextBlockWidth() || block.isAllScarce())
+						return false;
+					
 					if (block.rows.size()==1) {
 						String lastStr=block.rows.get(block.rows.size()-1).string();
 						
-						return ((! infinishedTextBlock.matcher(lastStr.trim()).find()) &&
-								/*(! block.isTrivial()) &&*/
-								(block.format.alignment==Common._LEFTALIGNED) &&
-								(! scarceRow.matcher(lastStr).find())
-							   );
-					} else {
-						return (! block.isNotTextBlock()) &&
-							   (! block.isAllScarce());
+						if(infinishedTextBlock.matcher(lastStr.trim()).find())
+							return false;
+						if( block.format.alignment==Common._NOALIGNED )
+							return false;
+						if(scarceRow.matcher(lastStr).find())
+							return false;
 					}
+					
+					return true;
 				}
-			} else {
-				return Block.subtitleBlockFilter.filter(block);
 			}
+			
+			return false;
 		}
 	}
 	

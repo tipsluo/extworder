@@ -163,7 +163,7 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(! block.isNotTextBlock() &&
+					if(! block.isNotTextBlockWidth() &&
 							! charfonts.containsKey(block.format.charfont))
 						charfonts.put(block.format.charfont,evaluateTextCharfont(block.format.charfont));
 				}
@@ -180,7 +180,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			for(Block block:page.blocks) {
-				if(block.isNotTextBlock())
+				if(block.isNotTextBlockWidth())
 					continue;
 				
 				if(block.format.charfont.equals(charfont)) {

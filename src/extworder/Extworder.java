@@ -125,7 +125,7 @@ public class Extworder {
 		}*/
 		
 		//printContent("A model for estimating parameters of rotational landslide");
-		//printContent("Peace-Development and Peace Through");
+		////printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
@@ -135,16 +135,16 @@ public class Extworder {
 		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printContent("APS-Search for millicharged particles in proton-proton collisions");
 		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-		printContent("ALA-Past is Prologue");
+		//printContent("ALA-Past is Prologue");
 		//printContent("APS-Evidence for CP violation in B");
 		//printContent("Wiley-Early life stress and HPA axis");
 		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
-		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
+		printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
-		//printContent("acs-A Review on Perovskite-Type LaFeO3");
+		printContent("acs-A Review on Perovskite-Type LaFeO3");
 		printContent("APS-Evidence for CP violation in B");
 	}
 	
