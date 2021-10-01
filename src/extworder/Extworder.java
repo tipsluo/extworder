@@ -111,6 +111,7 @@ public class Extworder {
 		//printBlocks("APS-Evidence for CP violation in B"); 
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printBlocks("ALA-Past is Prologue");
+		printBlocks("No Headings- Moisture assisted perovskite film"); 
 		//printBlocks("AIP-Magnetic fields for modulating the nervous system");
 		//printBlocks("APS-Evidence for CP violation in B");
 	}
@@ -144,8 +145,8 @@ public class Extworder {
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
-		printContent("acs-A Review on Perovskite-Type LaFeO3");
-		printContent("APS-Evidence for CP violation in B");
+		//printContent("acs-A Review on Perovskite-Type LaFeO3");
+		//printContent("APS-Evidence for CP violation in B");
 	}
 	
 	public static void extract(String fn) throws IOException {

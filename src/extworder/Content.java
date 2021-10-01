@@ -565,7 +565,8 @@ public class Content extends PDFTextStripper {
 			for (Page page:pages) {
 				for(int i=0; i<page.blocks.size();i++) {
 					Block block=page.blocks.get(i);
-					
+	if(block.string().contains("Moisture"))
+		System.out.println();
 					if(block.type==Common._FirstText) {
 						return null;
 					} 
@@ -573,8 +574,8 @@ public class Content extends PDFTextStripper {
 					String blockStr=block.string();
 					ArrayList<String> strs=Common.getLetterWords(blockStr);
 					
-					if(block.type=="")
-						continue;		
+					//if(block.type=="")
+					//	continue;		
 					if(strs.size()<Common._MinKeyBlockWordNum)
 						continue;
 					if(Common.hits(words,strs) < Common._MinAbstractFreqencyRatio)

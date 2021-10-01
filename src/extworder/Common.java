@@ -309,8 +309,7 @@ public class Common {
 		public boolean filter(Block block) {
 			if(block.column==null)
 				return false;
-if(block.page.id==3)
-	System.out.println("");
+			
 			if(block.format.charfont.equals(block.page.content.textCharfont)) {
 				if(block.type==Common._BeforeFirstText)
 					return false;
