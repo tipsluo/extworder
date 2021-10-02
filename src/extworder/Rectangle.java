@@ -88,21 +88,21 @@ public abstract class Rectangle {
 			return Common._NOALIGNED;
 	}
 	
-	protected boolean isHIntersected(Rectangle r1) {
+	protected boolean hIntersected(Rectangle r1) {
 		return (left >= r1.left && left <= r1.right) ||
 			   (r1.left >= left && r1.left <= right);
 	}
 	
-	protected boolean isVIntersected(Rectangle r1) {
+	protected boolean vIntersected(Rectangle r1) {
 		return (upper >= r1.upper && upper <= r1.lower) ||
 			   (r1.upper >= upper && r1.upper <= lower);
 	}
 	
-	protected boolean isHContaining(Rectangle r1) {
+	protected boolean hContains(Rectangle r1) {
 		return (left <= r1.left && right >= r1.right);
 	}
 	
-	protected boolean isVContaining(Rectangle r1) {
+	protected boolean vContains(Rectangle r1) {
 		return (upper <= r1.upper && lower >= r1.lower) ;
 	}
 	
@@ -134,7 +134,7 @@ public abstract class Rectangle {
 		if (upper<1) return cs;
 		
 		for(T t:ts) {
-			if(isHIntersected(t) && upper>t.lower)
+			if(hIntersected(t) && upper>t.lower)
 				cs.add(t);
 		}
 		
@@ -147,7 +147,7 @@ public abstract class Rectangle {
 		if (upper<1) return cs;
 		
 		for(T t:ts) {
-			if(isHIntersected(t) && lower<t.upper)
+			if(hIntersected(t) && lower<t.upper)
 				cs.add(t);
 		}
 		

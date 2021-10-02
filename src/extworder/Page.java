@@ -410,7 +410,9 @@ public class Page extends Rectangle{
 		Collections.sort(rows,Row.compareRows);
 	}
 	
-	void separateBlockDiffAligned() {
+	boolean separateBlockDiffAligned() {
+		boolean changed=false;
+		
 		for(int i=0;i<blocks.size();i++) {
 			Block block=blocks.get(i);
 			
@@ -428,8 +430,7 @@ public class Page extends Rectangle{
 					blocks.remove(block);
 					blocks.addAll(newBlocks);
 					
-					Page.this.blocks.remove(block);
-					Page.this.blocks.addAll(newBlocks);
+					changed=true;
 					
 					i--;
 					break;
@@ -437,6 +438,8 @@ public class Page extends Rectangle{
 				row1=row2;
 			}
 		}
+		
+		return changed;
 	}
 	
 	protected ArrayList<Block> upperBlocks() {
@@ -448,7 +451,7 @@ public class Page extends Rectangle{
 		for(Block block:blocks)
 			for(int i=0; i<tbs.size(); i++) {
 				Block tb=tbs.get(i);
-				if( tb.isHIntersected(block) && tb.upper>block.lower ) {
+				if( tb.hIntersected(block) && tb.upper>block.lower ) {
 					tbs.remove(tb);
 					i--;
 				}
@@ -468,7 +471,7 @@ public class Page extends Rectangle{
 		for(Block block:blocks)
 			for(int i=0; i<bbs.size(); i++) {
 				Block bb=bbs.get(i);
-				if( bb.isHIntersected(block) && bb.lower<block.upper ) {
+				if( bb.hIntersected(block) && bb.lower<block.upper ) {
 					bbs.remove(bb);
 					i--;
 				}

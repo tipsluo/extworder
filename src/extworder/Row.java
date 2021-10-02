@@ -131,7 +131,8 @@ public class Row extends Rectangle {
 		Range ret;
 		
 		if(spaceWidth>0)
-			return new Range(spaceWidth,Common._CharHSpaceAddGap+spaceWidth);
+			return new Range(spaceWidth,(int)(spaceWidth*Common._CharHGapRatio));
+			//return new Range(spaceWidth,Common._CharHSpaceAddGap+spaceWidth);
 		
 		if(chars.size()==1)
 			//return new Range(Common._CharHGap);
@@ -145,13 +146,16 @@ public class Row extends Rectangle {
 		for(int i=1; i<chars.size(); i++) {
 			Char ch=chars.get(i);
 
-			if(!ch.isVIntersected(ch1))
+			if(!ch.vIntersected(ch1)) {
+				ch1=ch;
 				continue;
+			}
 			
 			int interval=ch.left-ch1.right;
 			
-			if(interval<0) 
+			if(interval<0)
 				continue;
+	
 			// The internal could be less than 0 because of the upper/lower signs.
 			
 			if(! intervals.contains(interval))
@@ -187,11 +191,11 @@ public class Row extends Rectangle {
         }
         
 		if(wInterval==-1)
-			ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio)+Common._CharHSpaceAddGap);
+			ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio));
+			//ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio)+Common._CharHSpaceAddGap);
 		else {
-			//Range range=rangeGroup.getRange(wInterval);
-			//ret=new Range(range.max,range.max+1);
-			ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),wInterval+Common._CharHSpaceAddGap);
+			//ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),wInterval+Common._CharHSpaceAddGap);
+			ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),(int)(wInterval* Common._CharHGapRatio));
 		}
 		return ret;
 		
@@ -214,10 +218,14 @@ public class Row extends Rectangle {
 	void merge(Row row) {
 		for (Char ch:row.chars) {
 			ch.row=this;
-			updateRectangle(ch);
+			//updateRectangle(ch);
 		}
 		
 		chars.addAll(row.chars);
+		
+		updateRectangle(row);
+		width=right-left;
+		height=lower-upper;
 		
 		Collections.sort(chars,Char.compareChars);
 
@@ -557,6 +565,18 @@ public class Row extends Rectangle {
 		if( (a0==Common._NOALIGNED && a!=Common._NOALIGNED) ||
 				(a==Common._NOALIGNED && a0!=Common._NOALIGNED) )
 			return -1;
+		if(a0==Common._CENTERALIGNED || a==Common._CENTERALIGNED) 
+			return -1;
+		
+		return 0;
+	}
+	
+	int sameRowInBlock(Row row) {
+		if(hIntersected(row))
+			return -1;
+		
+		if(vContains(row))
+			return 1;
 		
 		return 0;
 	}
