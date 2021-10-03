@@ -351,6 +351,19 @@ public class Block extends Rectangle {
 		return format.alignment!=Common._LEFTALIGNED && width<=page.content.minBodyColumnBlockWidth;
 	}
 	
+	int isParagraphBlock() {
+		int ret=1;
+		for(Row row:rows) {
+			if(row.firstParagraphLine() || 
+					row.isParaphaphLine() ||
+					row.lastParagraphLine()>=0)
+				continue;	
+			ret=-1;
+			break;
+		}
+		return ret;
+	}
+	
 	public boolean priorTo(Block block) {
 		if(page!=block.page)
 			return page.id<block.page.id;

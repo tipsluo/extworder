@@ -376,21 +376,21 @@ public class Row extends Rectangle {
 	
 	int alignmentInFrame() {
 		int a;
-		int l;
+		//int l;
 		if(block.column!=null) {
 			a=super.alignment(block.column,page.content.centralAlignmentAdjustment);
-			l=block.column.left;
+			//l=block.column.left;
 		} else {
 			a=super.alignment(page,page.content.centralAlignmentAdjustment);
-			l=page.left;
+			//l=page.left;
 		}
 		
-		if(a==Common._RIGHTALIGNED) {
+		/*if(a==Common._RIGHTALIGNED) {
 			int d=left-l;
 			if(d>=0 && 
 					d < charfont.height * Common._FirstRowIndentRatio)
 				return Common._FIRSTROWCENTERALIGNED;
-		}
+		}*/
 		
 		return a;
 	}
@@ -398,17 +398,49 @@ public class Row extends Rectangle {
 	int alignmentInBlock() {
 		int a=super.alignment(block,page.content.centralAlignmentAdjustment);
 		
-		if(a==Common._RIGHTALIGNED) {
+		/*if(a==Common._RIGHTALIGNED) {
 			int d=left-block.left;
 			if(d>=0 && 
 					d < charfont.height * Common._FirstRowIndentRatio)
 				return Common._FIRSTROWCENTERALIGNED;
-		}
+		}*/
 		
 		return a;
 	}
+	
+	private boolean terminatedSentence() {
+		String s=chars.get(chars.size()-1).str;
+		
+		return Common.terminated.matcher(s).find();
+	}
+	
+	boolean firstParagraphLine() {
+		int d=left-block.left;
+		if(d>=0 &&
+				d < charfont.height * Common._FirstLineIndentRatio &&
+				rightAligned(this))
+			return true;
+					
+		return false;
+	}
+	
+	int lastParagraphLine() {
+		if(!leftAligned(this) && !firstParagraphLine())
+			return -1;
+		if(rightAligned(this))
+			return 0;
 
-	int sameAlignedInBlock(Row row) {
+		if(terminatedSentence())
+			return 1;
+		
+		return -1;
+	}
+	
+	boolean isParaphaphLine() {
+		return leftAligned(this) && rightAligned(this);
+	}
+
+	/*int sameAlignedInBlock(Row row) {
 		// negative: no; zero: possible;  positive yes
 		
 		int a0=alignmentInBlock();
@@ -416,8 +448,8 @@ public class Row extends Rectangle {
 		
 		if(a0==Common._CENTERALIGNED && a==Common._CENTERALIGNED)
 			return 1;
-		if(block.rows.indexOf(this)==0 && a0==Common._FIRSTROWCENTERALIGNED && a==Common._CENTERALIGNED)
-			return 1;
+		//if(block.rows.indexOf(this)==0 && a0==Common._FIRSTROWCENTERALIGNED && a==Common._CENTERALIGNED)
+		//	return 1;
 		if( (a0==Common._NOALIGNED && a!=Common._NOALIGNED) ||
 				(a==Common._NOALIGNED && a0!=Common._NOALIGNED) )
 			return -1;
@@ -425,7 +457,9 @@ public class Row extends Rectangle {
 			return -1;
 		
 		return 0;
-	}
+	}*/
+	
+	
 	
 	/*int sameRowInBlock(Row row) {
 		if(hIntersected(row))

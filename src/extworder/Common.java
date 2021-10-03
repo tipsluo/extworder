@@ -31,7 +31,7 @@ public class Common {
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static int _CharLeftAdjustment=2;
 	final static int _MinBigTextBlockFirstRowLength=5;
-	final static float _FirstRowIndentRatio=2.0f;
+	final static float _FirstLineIndentRatio=2.0f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -73,7 +73,7 @@ public class Common {
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
 	final static int _CENTERALIGNEDWIINDENT=2;
-	final static int _FIRSTROWCENTERALIGNED=3;
+	//final static int _FIRSTROWCENTERALIGNED=3;
 	final static int _UNKNOWNALIGNED=-98;
 	final static int _NOALIGNED=-99;
 	
@@ -90,6 +90,7 @@ public class Common {
 	final static Pattern leading2Uppercase;
 	final static Pattern scarceRow;
 	final static Pattern likeSentence1,likeSentence2;
+	final static Pattern terminated;
 	
 	/* May need it later
 	final static Pattern bulletPart1;
@@ -109,6 +110,7 @@ public class Common {
 		/* May need it later
 		bulletPart1=Pattern.compile("^\\s*([a-zA-Z][.])?(.*)");
 		bulletPart2=Pattern.compile("^\s*([ivxIVX]*[.])?(.*)");*/
+		terminated=Pattern.compile("[.,;?:\")]");
 	}
 	
 	public Common() {
@@ -329,6 +331,9 @@ public class Common {
 						if(scarceRow.matcher(lastStr).find())
 							return false;
 					}
+					
+					if(block.isParagraphBlock()<0)
+						return false;
 					
 					return true;
 				}

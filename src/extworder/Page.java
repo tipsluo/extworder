@@ -410,7 +410,7 @@ public class Page extends Rectangle{
 		Collections.sort(rows,Row.compareRows);
 	}
 	
-	boolean separateBlockDiffAligned() {
+	/*boolean separateBlockDiffAligned() {
 		boolean changed=false;
 		
 		for(int i=0;i<blocks.size();i++) {
@@ -440,7 +440,7 @@ public class Page extends Rectangle{
 		}
 		
 		return changed;
-	}
+	}*/
 	
 	protected ArrayList<Block> upperBlocks() {
 		ArrayList<Block> tbs=new ArrayList<Block>();

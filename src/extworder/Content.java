@@ -564,7 +564,7 @@ public class Content extends PDFTextStripper {
 		abstractStr=getKeyBlockStr(
 				0,
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s*:\n*]?"));
-		if(activeBlock!=null) {
+		if(activeBlock!=null && activeBlock.isParagraphBlock()>=0) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
 		} else {
@@ -577,6 +577,9 @@ public class Content extends PDFTextStripper {
 					} 
 
 					if(block.type==Common._PageHeaderBlock || block.type==Common._PageFooterBlock)
+						continue;
+					
+					if(block.isParagraphBlock()<0)
 						continue;
 					
 					String blockStr=block.string();
@@ -649,14 +652,14 @@ public class Content extends PDFTextStripper {
 					
 					activeBlock=block;
 					return ret;
-				} else {
+				} /*else {
 					if (ws.length >= minKeyBlockWordNum && 
 						! block.format.charfont.equals(bodyCharfont)) {
 
 						activeBlock=block;
 						return str;
 					}
-				}
+				}*/
 			}
 			
 			if(stopped)

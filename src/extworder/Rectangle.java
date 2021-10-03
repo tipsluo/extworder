@@ -98,6 +98,24 @@ public abstract class Rectangle {
 			return Common._NOALIGNED;
 	}
 	
+	protected boolean rightAligned(Rectangle parent) {
+		return right<=parent.right && 
+				right>=parent.right-Math.round(parent.width*Common._ColumnWidthAdjustment);
+	}
+	
+	protected boolean rightAligned(Rectangle parent, int rightAdj) {
+		return right<=parent.right && right>=rightAdj;
+	}
+	
+	protected boolean leftAligned(Rectangle parent) {
+		return left>=parent.left && 
+				left<=parent.left+Math.round(parent.width*Common._ColumnWidthAdjustment);
+	}
+	
+	protected boolean leftAligned(Rectangle parent, int leftAdj) {
+		return left<=parent.left && left<leftAdj;
+	}
+	
 	protected boolean hIntersected(Rectangle r1) {
 		return (left >= r1.left && left <= r1.right) ||
 			   (r1.left >= left && r1.left <= right);

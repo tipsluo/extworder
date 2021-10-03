@@ -243,7 +243,7 @@ public class Extworder {
 			    			}*/
 			    			
 			    				myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
-			    								" width=%f height=%f fontname=%s wordint.min=%d wordint.max=%d\n", 
+			    								" width=%d height=%d fontname=%s wordint.min=%d wordint.max=%d\n", 
 				    				row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,
 				    				row.width,row.height,row.charfont.name,row.wordInterval.min, row.wordInterval.max));
 				    	}
