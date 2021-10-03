@@ -130,7 +130,7 @@ public class Row extends Rectangle {
 		Range ret;
 		
 		if(spaceWidth>0)
-			return new Range(spaceWidth,(int)(spaceWidth*Common._CharHGapRatio));
+			return new Range(spaceWidth,(int)(spaceWidth + Common._CharHSpaceAddGap));
 			//return new Range(spaceWidth,Common._CharHSpaceAddGap+spaceWidth);
 		
 		if(chars.size()==1)
@@ -194,7 +194,7 @@ public class Row extends Rectangle {
 			//ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio)+Common._CharHSpaceAddGap);
 		else {
 			//ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),wInterval+Common._CharHSpaceAddGap);
-			ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),(int)(wInterval* Common._CharHGapRatio));
+			ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),(int)(wInterval+Common._CharHSpaceAddGap));
 		}
 		return ret;
 		
