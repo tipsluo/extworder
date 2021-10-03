@@ -22,7 +22,7 @@ public class Row extends Rectangle {
 	ArrayList<Char> chars;
 	Block block;
 	Page page;
-	float width,height;
+	//float width,height;
 	RangeGroup.Range wordInterval;
 	int spaceWidth;
 	int vAdjustment;
@@ -124,7 +124,6 @@ public class Row extends Rectangle {
 			clearCharRows();
 		chars=new ArrayList<Char>();
 		resetRectangle();
-		width=height=-1;
 	}
 	
 	private RangeGroup.Range getWordInterval() {
@@ -243,162 +242,6 @@ public class Row extends Rectangle {
 		width=right-left;
 		height=lower-upper;
 	}
-	
-	/*ArrayList<Row> separateCloseRows() {
-		ArrayList<Row> newRows=new ArrayList<Row>();
-		
-		if(chars.size()<2)
-			return null;
-		
-		ArrayList<VStretch> vStretches=new ArrayList<VStretch>();
-		ArrayList<VStretch> shared2=new ArrayList<VStretch>();
-		ArrayList<VStretch> allCharVStretches=new ArrayList<VStretch>();
-		ArrayList<Stretch> newStretches=new ArrayList<Stretch>();
-		
-		for(Char ch:chars) {
-			VStretch vStretch=new VStretch(ch);
-			
-			allCharVStretches.add(vStretch);
-		}
-		allCharVStretches.set(0,new VStretch(allCharVStretches.get(1).copy()));
-		
-		for(VStretch vStretch: allCharVStretches) {
-			if(! vStretches.contains(vStretch))
-				vStretches.add(vStretch);
-		}
-		
-		// Remove duplicate
-		for(int i=0;i<vStretches.size();i++) {
-			VStretch vStretch1=vStretches.get(i);
-			for(VStretch vStretch2:vStretches) {
-				if(vStretch1==vStretch2)
-					continue;
-				if(vStretch2.contains(vStretch1) || vStretch1.contains(vStretch2)) {
-					vStretches.add(new VStretch(vStretch1.add(vStretch2)));
-					vStretches.remove(vStretch1);
-					vStretches.remove(vStretch2);
-					
-					i--;
-					break;
-				}
-			}
-		}
-		
-		if(vStretches.size()<2)
-			return null;
-		
-		for(int i=0; i<vStretches.size(); i++) {
-			VStretch vStretch1=vStretches.get(i);
-			ArrayList<VStretch> intersected=new ArrayList<VStretch>();
-			for(VStretch vStretch2:vStretches) {
-				if(vStretch1==vStretch2)
-					continue;
-				if(vStretch1.isIntersected(vStretch2))
-					intersected.add(vStretch2);
-			}
-			if(intersected.size()==0) {
-				newStretches.add(vStretch1);
-				vStretches.remove(vStretch1);
-				i--;
-			} else if(intersected.size()>=2) {
-				shared2.add(vStretch1);
-			}
-		}
-		
-		for(int i=0;i<shared2.size();i++) {
-			VStretch vStretch1=shared2.get(i);
-			
-			VStretch vStretch=null;
-			int interLength=-1;
-			for(int j=0;j<vStretches.size();j++) {
-				VStretch vStretch2=vStretches.get(j);
-				if(vStretch2==vStretch1) {
-					continue;
-				}
-				Stretch intersection=vStretch1.intersection(vStretch2);
-				if(intersection!=null) {
-					int l=intersection.length();
-					if(l>interLength) {
-						interLength=l;
-						vStretch=vStretch2;
-					}
-				}
-			}
-			
-			Stretch newVStretch=vStretch1.add(vStretch);
-			newStretches.add(newVStretch);
-		}
-		
-		// for those only have one intersection:
-		for(int i=0; i<vStretches.size(); i++) {
-			Stretch stretch1=vStretches.get(i);
-			if(shared2.contains(stretch1))
-				continue;
-			for(VStretch vStretch2:vStretches) {
-				if(stretch1==vStretch2)
-					continue;
-				if(stretch1.isIntersected(vStretch2)) {
-					Stretch newStretch=stretch1.add(vStretch2);
-					newStretches.add(newStretch);
-					vStretches.remove(stretch1);
-					i--;
-					break;
-				}
-			}
-		}
-			
-		// Remove duplicate
-		for(int i=0;i<newStretches.size();i++) {
-			Stretch stretch1=newStretches.get(i);
-			for(Stretch stretch2:newStretches) {
-				if(stretch1==stretch2)
-					continue;
-				if(stretch2.contains(stretch1) || stretch1.contains(stretch2)) {
-					newStretches.add(stretch1.add(stretch2));
-					newStretches.remove(stretch1);
-					newStretches.remove(stretch2);
-					
-					i--;
-					break;
-				}
-			}
-		}
-		
-		if(newStretches.size()<2)
-			return null;
-		
-		for(int i=0; i<newStretches.size(); i++) {
-			Row row=new Row(this);
-			newRows.add(row);
-		}
-		
-		for(int i=0; i<chars.size(); i++) {
-			Char ch=chars.get(i);
-			VStretch vStretch=allCharVStretches.get(i);
-			
-			for(int j=0; j<newStretches.size(); j++) {
-				Stretch separatedVStretch=newStretches.get(j);
-				if(separatedVStretch.contains(vStretch)) {
-					newRows.get(j).addChar(ch);
-					break;
-				}
-			}
-		}
-		
-		for(int i=0;i<newRows.size();i++) {
-			Row row=newRows.get(i);
-			if(row.chars.size()==0) {
-				newRows.remove(row);
-				i--;
-				continue;
-			}
-				
-			row.charfont=row.getCharFont();
-			Collections.sort(row.chars,Char.compareChars);
-		}
-			
-		return newRows;
-	}*/
 	
 	public ArrayList<Row> getAboveConnected() {		
 		ArrayList<Row> rows=new ArrayList<Row>();
@@ -521,17 +364,17 @@ public class Row extends Rectangle {
 		return charfont.equals(row.charfont);
 	}*/
 	
-	boolean scarce() {
-		if(isFull(page.content,block.column))
+	boolean scarceInBlock() {
+		if(isFull(page.content,block))
 			return false;
 		
-		if(alignment()!=Common._NOALIGNED)
+		if(alignmentInFrame()!=Common._NOALIGNED)
 			return false;
 		
 		return Common.scarceRow.matcher(string()).find();
 	}
 	
-	int alignment() {
+	int alignmentInFrame() {
 		int a;
 		int l;
 		if(block.column!=null) {
@@ -551,12 +394,25 @@ public class Row extends Rectangle {
 		
 		return a;
 	}
+	
+	int alignmentInBlock() {
+		int a=super.alignment(block,page.content.centralAlignmentAdjustment);
+		
+		if(a==Common._RIGHTALIGNED) {
+			int d=left-block.left;
+			if(d>=0 && 
+					d < charfont.height * Common._FirstRowIndentRatio)
+				return Common._FIRSTROWCENTERALIGNED;
+		}
+		
+		return a;
+	}
 
 	int sameAlignedInBlock(Row row) {
 		// negative: no; zero: possible;  positive yes
 		
-		int a0=alignment();
-		int a=row.alignment();
+		int a0=alignmentInBlock();
+		int a=row.alignmentInBlock();
 		
 		if(a0==Common._CENTERALIGNED && a==Common._CENTERALIGNED)
 			return 1;
@@ -571,7 +427,7 @@ public class Row extends Rectangle {
 		return 0;
 	}
 	
-	int sameRowInBlock(Row row) {
+	/*int sameRowInBlock(Row row) {
 		if(hIntersected(row))
 			return -1;
 		
@@ -579,7 +435,7 @@ public class Row extends Rectangle {
 			return 1;
 		
 		return 0;
-	}
+	}*/
 	
 	
 	private CharFont getCharFont() {

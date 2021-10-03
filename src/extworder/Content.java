@@ -43,18 +43,18 @@ public class Content extends PDFTextStripper {
 	ArrayList<Page> pages;
     TreeMap<CharFont,Integer> charfonts;
     Map<CharFont,Integer> charfontIndexes;
-    CharFont textCharfont;
+    CharFont bodyCharfont;
     int currPid;
     Page currPage=null;
 	PDFRenderer renderer;
     int contentLeft,contentRight,contentWidth;
-    float lowContentWidth, highContentWidth, minTextBlockWidth;
+    float lowContentWidth, highContentWidth, minBodyBlockWidth;
 	int columnNumber,columnWidth;
-	float lowColumnWidth,highColumnWidth,minTextColumnBlockWidth;
+	float lowColumnWidth,highColumnWidth,minBodyColumnBlockWidth;
 	int centralAlignmentAdjustment=0;
 	private boolean ignoreSubtitle=true;
 	
-	boolean hasFirstTextBlock=false;
+	boolean hasFirstBodyBlock=false;
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
 	
@@ -132,18 +132,20 @@ public class Content extends PDFTextStripper {
 		markContentX();
 		makeColumns();
 		
-		/*for(Page page:pages) {
+		
+		/* to revisit
+		 * for(Page page:pages) {
 			if(page.separateBlockDiffAligned())
 				page.markHeaderFooter();
 		}*/
 		
-		getTextCharfont();
-		getFirstTextBlock();
+		getBodyCharfont();
+		getFirstBodyBlock();
 		
 		for(Page page:pages) {
 			page.updateBlockFormats();
 			//page.tuneBlocks(textCharfont);
-			page.separateAllUppers(textCharfont);
+			page.separateAllUppers(bodyCharfont);
 		}
 		
 		titleBlock=getTitleBlock();
@@ -151,7 +153,7 @@ public class Content extends PDFTextStripper {
 		keywordBlock=getKeywordBlock();
 	
 		if(ignoreIntraBlock)
-			markIntraTextBlocks();
+			markIntraBodyBlocks();
 		
 		if(! ignoreSubtitle)
 			markSubtitleBlocks();
@@ -164,28 +166,28 @@ public class Content extends PDFTextStripper {
         }
     }
 	
-	private void getTextCharfont() {
+	private void getBodyCharfont() {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(! block.isNotTextBlockWidth() &&
+					if(! block.isNotBodyBlockWidth() &&
 							! charfonts.containsKey(block.format.charfont))
-						charfonts.put(block.format.charfont,evaluateTextCharfont(block.format.charfont));
+						charfonts.put(block.format.charfont,evaluateBodyCharfont(block.format.charfont));
 				}
 		
-		textCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		bodyCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		
 		charfontIndexes=makeCharfontIndexes();
 	}
 	
-	private int evaluateTextCharfont(CharFont charfont) {
+	private int evaluateBodyCharfont(CharFont charfont) {
 		int value=0;
 		
 		int currValue=pages.size();
 		
 		for(Page page:pages) {
 			for(Block block:page.blocks) {
-				if(block.isNotTextBlockWidth())
+				if(block.isNotBodyBlockWidth())
 					continue;
 				
 				if(block.format.charfont.equals(charfont)) {
@@ -209,16 +211,16 @@ public class Content extends PDFTextStripper {
 			}
 		
 		Collections.sort(cfs);
-		int textCharfontIndex=-1;
+		int bodyCharfontIndex=-1;
 		for(int i = 0; i<cfs.size();i++ )
-            if(cfs.get(i).equals(textCharfont)) {
-            	textCharfontIndex = i;
+            if(cfs.get(i).equals(bodyCharfont)) {
+            	bodyCharfontIndex = i;
                 break;
             }
 		
 		Map<CharFont,Integer> cfIndexes=new HashMap<>();
 		for(int i=0; i<cfs.size();i++ ) {
-			cfIndexes.put(cfs.get(i),i-textCharfontIndex);
+			cfIndexes.put(cfs.get(i),i-bodyCharfontIndex);
 		}
 		
 		return cfIndexes;
@@ -294,12 +296,12 @@ public class Content extends PDFTextStripper {
 		contentWidth=contentRight-contentLeft+1;
 		lowContentWidth=contentWidth*(1-Common._ColumnWidthAdjustment);
 		highContentWidth=contentWidth*(1+Common._ColumnWidthAdjustment);
-		minTextBlockWidth=contentWidth*Common._MinTextCharBlockWidth;  //for multiple rows
+		minBodyBlockWidth=contentWidth*Common._MinBodyCharBlockWidth;  //for multiple rows
 		
 		columnWidth=columnWidth();
 		lowColumnWidth=columnWidth*(1-Common._ColumnWidthAdjustment);
 		highColumnWidth=columnWidth*(1+Common._ColumnWidthAdjustment);
-		minTextColumnBlockWidth=columnWidth*Common._MinTextCharBlockWidth;
+		minBodyColumnBlockWidth=columnWidth*Common._MinBodyCharBlockWidth;
 		
 		if(columnWidth+columnWidth+columnWidth < contentWidth)
 			columnNumber=3;
@@ -362,7 +364,7 @@ public class Content extends PDFTextStripper {
 		for(;i<bigBlockList.size();i++) {
 			Block block=bigBlockList.get(i);
 			
-			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).isTextFullBlock())
+			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).isBodyFullBlock())
 				if(Block.additionalSubtitleFormatFilter.filter(block)) {
 					block.type=Common.subtitleBlockType(block);
 					continue;
@@ -386,23 +388,23 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	private void markIntraTextBlocks() {
+	private void markIntraBodyBlocks() {
 		boolean textInfinished=false;
 		
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(block.isTextInfinished()) {
+					if(block.isBodyInfinished()) {
 						textInfinished=true;
 						continue;
 					}
 					
 					if(textInfinished)
-						if(block.isTextFullBlock()) {
+						if(block.isBodyFullBlock()) {
 							textInfinished=false;
 							continue;
 						} else if(block.type.isEmpty()) {
-							block.type=Common._IgnoredBlockIntraText;
+							block.type=Common._IgnoredBlockIntraBody;
 						}	
 				}
 	}
@@ -461,7 +463,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages)
 			for(Block block:page.blocks) {
-				if(! Block.textBlockFilter.filter(block))
+				if(! Block.bodyBlockFilter.filter(block))
 					continue;
 				
 				ArrayList<String> ws = Common.getLetterWords(block.string());
@@ -499,12 +501,12 @@ public class Content extends PDFTextStripper {
 	}
 	
 	public String text() {		
-		hasFirstTextBlock=false;
+		hasFirstBodyBlock=false;
 		
 		String str="";
 		
 		for(Page page:pages) {
-			str+=page.text()+"\n";
+			str+=page.body()+"\n";
 		}
 		
 		str=Common.prepareOut(str);
@@ -543,14 +545,14 @@ public class Content extends PDFTextStripper {
 			for(int j=0; j<page.blocks.size();j++) {
 				block=page.blocks.get(j);
 				
-				if(block.type==Common._FirstText)
+				if(block.type==Common._FirstBody)
 					break;
 				
 				if(block.format.charfont.compareTo(titleBlock.format.charfont)>0)
 					titleBlock=block;
 			}
 			
-			if(block.type==Common._FirstText)
+			if(block.type==Common._FirstBody)
 				break;
 		}
 			
@@ -570,7 +572,7 @@ public class Content extends PDFTextStripper {
 			for (Page page:pages) {
 				for(int i=0; i<page.blocks.size();i++) {
 					Block block=page.blocks.get(i);
-					if(block.type==Common._FirstText) {
+					if(block.type==Common._FirstBody) {
 						return null;
 					} 
 
@@ -624,7 +626,7 @@ public class Content extends PDFTextStripper {
 				
 				Block block=page.blocks.get(i);
 				
-				if(block.type==Common._FirstText) {
+				if(block.type==Common._FirstBody) {
 					stopped=true;
 					break;
 				}
@@ -649,7 +651,7 @@ public class Content extends PDFTextStripper {
 					return ret;
 				} else {
 					if (ws.length >= minKeyBlockWordNum && 
-						! block.format.charfont.equals(textCharfont)) {
+						! block.format.charfont.equals(bodyCharfont)) {
 
 						activeBlock=block;
 						return str;
@@ -763,7 +765,7 @@ public class Content extends PDFTextStripper {
 	private int getIncreasingFormatBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
-		if(block.isTextFullBlock()) {
+		if(block.isBodyFullBlock()) {
 			Block block0=block;
 			
 			int i1=endBlockIndex-1;
@@ -797,15 +799,15 @@ public class Content extends PDFTextStripper {
 		return blocklist;
 	}
 	
-	private Block getFirstTextBlock() {
+	private Block getFirstBodyBlock() {
 		for(Page page:pages) {
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(block.isTextFullBlock()) {
-						block.type=Common._FirstText;
+					if(block.isBodyFullBlock()) {
+						block.type=Common._FirstBody;
 						return block;
 					} else if(block.type.isEmpty())
-						block.type=Common._BeforeFirstText;
+						block.type=Common._BeforeFirstBody;
 				}
 		}
 		return null;

@@ -9,15 +9,15 @@ public class Char extends Rectangle {
 	String str;
 	String fontname;
 	Row row;
-	float width,height;
+	//float width,height;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
 		
 	public Char(String str,float x, float y, float width, float height, String fontname) {
 		this.str=str;
-		this.height=height;
-		this.width=width;
+		this.height=Math.round(height);
+		this.width=Math.round(width);
 		this.fontname=fontname;
 		left=Math.round(x);
 		right=(int)(Math.round(x+width-0.001));

@@ -7,6 +7,7 @@ import extworder.Page.Column;
 
 public abstract class Rectangle {
 	int left,upper,right,lower;
+	int width, height;
 	
 	Rectangle() {
 		resetRectangle();
@@ -17,6 +18,8 @@ public abstract class Rectangle {
 		this.right=right;
 		this.upper=upper;
 		this.lower=lower;
+		width=right-left;
+		height=lower-upper;
 	}
 	
 	protected void resetRectangle() {
@@ -24,6 +27,7 @@ public abstract class Rectangle {
 		upper=9999;
 		right=0;
 		lower=0;
+		width=height=-1;
 	}
 
 	protected void updateRectangle(Rectangle r) {
@@ -31,6 +35,9 @@ public abstract class Rectangle {
 		if (right<r.right) right=r.right;
 		if (upper>r.upper) upper=r.upper;
 		if (lower<r.lower) lower=r.lower;
+		
+		width=right-left;
+		height=lower-upper;
 	}
 	
 	protected void updateRectangle(int x,int y) {
@@ -38,6 +45,9 @@ public abstract class Rectangle {
 		if (right<x) right=x;
 		if (upper>y) upper=y;
 		if (lower<y) lower=y;
+		
+		width=right-left;
+		height=lower-upper;
 	}
 	
 	protected boolean contains(Rectangle r) {
@@ -107,7 +117,7 @@ public abstract class Rectangle {
 	}
 	
 	boolean isFull(Content content, Column column) {
-		int width=right-left+1;
+		//int width=right-left;
 		
 		if(column==null)
 			return width >= content.lowContentWidth &&
@@ -115,6 +125,14 @@ public abstract class Rectangle {
 			
 		return width >= content.lowColumnWidth &&
 				width <= content.highColumnWidth;
+	}
+	
+	boolean isFull(Content content, Rectangle rect) {
+		//int width=right-left;
+		//int rWidth=rect.right-rect.left;
+		
+		return width >= rect.width * (1-Common._ColumnWidthAdjustment) &&
+				width <= rect.width * (1+Common._ColumnWidthAdjustment);
 	}
 	
 	/*boolean isTrivial1(Content content, Column column) {

@@ -518,12 +518,12 @@ public class Page extends Rectangle{
 
 	}
 	
-	String text() {
+	String body() {
 		String str="";
 		
 		for(Column column: columns) {
 			//str+=column.string(Block.textBlockFilter,Block.bigBlockFilter);
-			str+=column.string(Block.textBlockFilter);
+			str+=column.string(Block.bodyBlockFilter);
 		}
 		
 		return str;

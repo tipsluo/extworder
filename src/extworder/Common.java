@@ -44,11 +44,11 @@ public class Common {
 	final static String _KeywordBlock="KEYWORD";
 	final static String _PageHeaderBlock="PAGEHEADER";
 	final static String _PageFooterBlock="PAGEFOOTER";
-	final static String _BeforeFirstText="BEFOREFIRSTTEXT";
-	final static String _FirstText="FIRSTTEXT";
+	final static String _BeforeFirstBody="BEFOREFIRSTBODY";
+	final static String _FirstBody="FIRSTBODY";
 	final static String _SubtitlePrefix="SUBTITLE_";
 	final static String _IgnoredBlockPrefix="IGNORED_";
-	final static String _IgnoredBlockIntraText=_IgnoredBlockPrefix+"INTRATEXT";
+	final static String _IgnoredBlockIntraBody=_IgnoredBlockPrefix+"INTRABODY";
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
 	final static int _MaxCharVGapAdj=1;
 	final static int _MinCharVGapAdj=-2;
@@ -56,7 +56,7 @@ public class Common {
 	final static float _ColumnWidthAdjustment=0.05f;
 	//final static float _ColumnMinWidthRatio=0.3f;
 	
-	final static float _MinTextCharBlockWidth=0.70f;
+	final static float _MinBodyCharBlockWidth=0.70f;
 	final static float _MinTitleLength=4;
 	
 	final static float _CenterAlignAdjustment=0.05f;
@@ -84,7 +84,7 @@ public class Common {
 	final static boolean __DEBUG=false;
 	
 	
-	final static Pattern infinishedTextBlock;
+	final static Pattern infinishedBodyBlock;
 	final static Pattern lowercaseExisting;
 	final static Pattern uppercase;
 	final static Pattern leading2Uppercase;
@@ -98,7 +98,7 @@ public class Common {
 	static {
 		//_ConfusingPoint=new Char.Point(-1,-1,null);
 		
-		infinishedTextBlock=Pattern.compile("[a-zA-Z0-9,]$");
+		infinishedBodyBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");
 		uppercase=Pattern.compile("[A-Z]");
 		leading2Uppercase=Pattern.compile("^\\s*[A-Z]{2,}");
@@ -306,23 +306,23 @@ public class Common {
 		public boolean filter(Block block);
 	}
 	
-	static class TextBlockFilter implements BlockFilter {
+	static class BodyBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
 			if(block.column==null)
 				return false;
 			
-			if(block.format.charfont.equals(block.page.content.textCharfont)) {
-				if(block.type==Common._BeforeFirstText)
+			if(block.format.charfont.equals(block.page.content.bodyCharfont)) {
+				if(block.type==Common._BeforeFirstBody)
 					return false;
 				else {
-					if(block.isNotTextBlockWidth() || block.isAllScarce())
+					if(block.isNotBodyBlockWidth() || block.isAllScarce())
 						return false;
 					
 					if (block.rows.size()==1) {
 						String lastStr=block.rows.get(block.rows.size()-1).string();
 						
-						if(infinishedTextBlock.matcher(lastStr.trim()).find())
+						if(infinishedBodyBlock.matcher(lastStr.trim()).find())
 							return false;
 						if( block.format.alignment==Common._NOALIGNED )
 							return false;
@@ -347,7 +347,7 @@ public class Common {
 		
 		@Override
 		public boolean filter(Block block) {
-			int charfontDiff=block.format.charfont.compareTo(block.page.content.textCharfont);
+			int charfontDiff=block.format.charfont.compareTo(block.page.content.bodyCharfont);
 			
 			if(charfontDiff>0 && block.isNonTitle())
 				return false;
@@ -365,7 +365,7 @@ public class Common {
 	static class SubtitleBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
-			return block.format.charfont.compareTo(block.page.content.textCharfont) > 0 &&
+			return block.format.charfont.compareTo(block.page.content.bodyCharfont) > 0 &&
 					block.type.contains(_SubtitlePrefix);
 		}
 	}

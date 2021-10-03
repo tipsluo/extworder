@@ -15,7 +15,7 @@ import extworder.Block.BlockFormat;
 import extworder.Common.AdditionalSubtitleFormatFilter;
 import extworder.Common.BigBlockFilter;
 import extworder.Common.SubtitleBlockFilter;
-import extworder.Common.TextBlockFilter;
+import extworder.Common.BodyBlockFilter;
 import extworder.Common.RangeGroup.Range;
 import extworder.Page.Column;
 import extworder.Row.CharFont;
@@ -28,7 +28,7 @@ public class Block extends Rectangle {
 	String type="";
     
 	final static CompareBlocks compareBlocks=new CompareBlocks();
-	final static TextBlockFilter textBlockFilter=new TextBlockFilter();
+	final static BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 	final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
 	final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 	static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
@@ -267,6 +267,7 @@ public class Block extends Rectangle {
 			if(row1.chars.size()==0) continue;
 			
 			row1.left=ul.left;
+			row1.width=row1.right-row1.left;
 			
 			newRows.add(row1);
 		}
@@ -288,23 +289,23 @@ public class Block extends Rectangle {
 		return true;
 	}
 	
-	boolean isTextFullBlock() {
-		return format.charfont.equals(page.content.textCharfont) && 
+	boolean isBodyFullBlock() {
+		return format.charfont.equals(page.content.bodyCharfont) && 
 				isFull(page.content,column);
 	}
 	
-	boolean isTextInfinished() {
-		if(! isTextFullBlock())
+	boolean isBodyInfinished() {
+		if(! isBodyFullBlock())
 			return false;
 			
 		String lastStr=rows.get(rows.size()-1).string();
 			
-		return Common.infinishedTextBlock.matcher(lastStr.trim()).find();
+		return Common.infinishedBodyBlock.matcher(lastStr.trim()).find();
 	}
 	
 	boolean isAllScarce() {
 		for(Row row:rows) {
-			if(! row.scarce())
+			if(! row.scarceInBlock())
 				return false;
 		}
 		return true;
@@ -338,16 +339,16 @@ public class Block extends Rectangle {
 		return false;
 	}
 	
-	boolean isNotTextBlockWidth() {
-		int width=right-left+1;
+	boolean isNotBodyBlockWidth() {
+		//int width=right-left+1;
 		
 		/* need to support lines like:
 		 * 1.       last sentence.
 		 */
 		if(column==null)
-			return format.alignment!=Common._LEFTALIGNED && width<=page.content.minTextBlockWidth;
+			return format.alignment!=Common._LEFTALIGNED && width<=page.content.minBodyBlockWidth;
 		
-		return format.alignment!=Common._LEFTALIGNED && width<=page.content.minTextColumnBlockWidth;
+		return format.alignment!=Common._LEFTALIGNED && width<=page.content.minBodyColumnBlockWidth;
 	}
 	
 	public boolean priorTo(Block block) {
@@ -368,8 +369,8 @@ public class Block extends Rectangle {
 			fw.write("type: abstract");
 		else if (!type.isBlank())
 			fw.write(String.format("type: %s",type));
-		else if (format.charfont.equals(content.textCharfont))
-			fw.write(String.format("type: text"));
+		else if (format.charfont.equals(content.bodyCharfont))
+			fw.write(String.format("type: "));
 		else 
 			fw.write(String.format("type: undefined"));
 		
