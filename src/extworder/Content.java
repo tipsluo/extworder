@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPageTree;
 import org.apache.pdfbox.pdmodel.font.PDFont;
 import org.apache.pdfbox.rendering.PDFRenderer;
 import org.apache.pdfbox.text.PDFTextStripper;
@@ -75,12 +76,14 @@ public class Content extends PDFTextStripper {
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
+		
 		if(! ignoreColoredBlock)
 			renderer = new PDFRenderer(document);
 		
 		setSortByPosition( true ); 
 		
 		for (currPid=1; currPid<=document.getNumberOfPages(); currPid++) {
+			
 			setStartPage(currPid);
 			setEndPage(currPid);
 			
@@ -110,10 +113,13 @@ public class Content extends PDFTextStripper {
 		if(!ignoreColoredBlock)
 			bgRGB=getBackgroundColor();
 		
+
+		PDPageTree allPages = document.getDocumentCatalog().getPages();
+		
 		for(int i=0; i<pages.size();) {
 			Page page=pages.get(i);
 			
-			page.complete(ignoreColoredBlock);
+			page.complete(allPages.get(i),ignoreColoredBlock);
 			
 			if(page.ignored()) {
 				pages.remove(i);
@@ -535,8 +541,9 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private Block getTitleBlock() {
-		Block titleBlock=pages.get(0).blocks.get(0);
+		Block titleBlock=null;
 		Block block=null;
+		CharFont titleCharFont=bodyCharfont;
 		
 		for(Page page:pages) {
 			if(page.ignored())
@@ -548,15 +555,23 @@ public class Content extends PDFTextStripper {
 				if(block.type==Common._FirstBody)
 					break;
 				
-				if(block.format.charfont.compareTo(titleBlock.format.charfont)>0)
+				//if(block.isNonTitle())
+				if(block.likeTitleBlock()<0)
+					continue;
+				
+				if(block.format.charfont.compareTo(titleCharFont)>0) {
 					titleBlock=block;
+					titleCharFont=titleBlock.format.charfont;
+				}
 			}
 			
 			if(block.type==Common._FirstBody)
 				break;
 		}
 			
-		titleBlock.type=Common._TitleBlock;
+		if(titleBlock!=null)
+			titleBlock.type=Common._TitleBlock;
+		
 		return titleBlock;
 	}
 	

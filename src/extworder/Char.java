@@ -3,8 +3,6 @@ package extworder;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-import extworder.Page.PageBitmap;
-
 public class Char extends Rectangle {
 	String str;
 	String fontname;

@@ -61,7 +61,8 @@ public class Extworder {
 		//displayRows("AMS-PACMAN RENORMALIZATION");
 		//displayRows("ALA-Past is Prologue");
 		//displayRows("AIP-Magnetic fields for modulating the nervous system");
-		displayRows("APS-Evidence for CP violation in B");
+		//displayRows("APS-Evidence for CP violation in B");
+		displayRows("Library&Archive-Review Essay-Instruction and Archives");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -74,6 +75,7 @@ public class Extworder {
 		//displayChars("APS-Evidence for CP violation in B");
 		//displayChars("ALA-Past is Prologue");
 		//displayChars("AIP-Magnetic fields for modulating the nervous system");
+		//displayChars("Library&Archive-Review Essay-Instruction and Archives");
     }
 	
 	public static void main_test5_block_display() throws IOException {
@@ -112,8 +114,9 @@ public class Extworder {
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printBlocks("ALA-Past is Prologue");
 		//printBlocks("No Headings- Moisture assisted perovskite film"); 
-		//printBlocks("AIP-Magnetic fields for modulating the nervous system");
-		printBlocks("APS-Evidence for CP violation in B");
+		printBlocks("AIP-Magnetic fields for modulating the nervous system");
+		//printBlocks("APS-Evidence for CP violation in B");
+		//printBlocks("Library&Archive-Review Essay-Instruction and Archives");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -126,7 +129,7 @@ public class Extworder {
 		}*/
 		
 		//printContent("A model for estimating parameters of rotational landslide");
-		////printContent("Peace-Development and Peace Through");
+		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
@@ -144,9 +147,10 @@ public class Extworder {
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
-		//printContent("AIP-Magnetic fields for modulating the nervous system");
+		printContent("AIP-Magnetic fields for modulating the nervous system");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
-		printContent("APS-Evidence for CP violation in B");
+		//printContent("APS-Evidence for CP violation in B");
+		//printContent("Library&Archive-Review Essay-Instruction and Archives"); //strange. some chars are not be able to be marked.
 	}
 	
 	public static void extract(String fn) throws IOException {
@@ -216,7 +220,8 @@ public class Extworder {
 			for(Page page:content.pages) {
 				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
 			    		for(Char ch:page.chars) {
-				    		myWriter.write(String.format("%s (x=%d y=%d) width=%f height=%f fontname=%s\n", ch.str,ch.left,ch.upper,ch.width,ch.height,ch.fontname));
+				    		myWriter.write(String.format("%s (x=%d y=%d) width=%d height=%d fontname=%s\n", 
+				    				ch.str,ch.left,ch.upper,ch.width,ch.height,ch.fontname));
 				    	}
 			    	
 			}

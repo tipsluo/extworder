@@ -33,11 +33,22 @@ public class Block extends Rectangle {
 	final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 	static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
 	
-	public Block(Page page, int x, int y) {
+	/*public Block(Page page, int x, int y) {
 		super();
 		
 		this.page=page;
 		build(x,y);
+		
+		Collections.sort(rows,Row.compareRows);
+		
+		format=new BlockFormat(mostCharFont());
+	}*/
+	
+	public Block(Page page, Row row) {
+		super();
+		
+		this.page=page;
+		build(row);
 		
 		Collections.sort(rows,Row.compareRows);
 		
@@ -66,11 +77,16 @@ public class Block extends Rectangle {
 		updateFormat();
 	}
 	
-	public void build(int x, int y) {
+	/*public void build(int x, int y) {
 		rows=new ArrayList<Row>();
 		
 		if ( page.pageBitmap.points[x][y].ch != null )
 			expand(page.pageBitmap.points[x][y].ch.row);
+	}*/
+	
+	public void build(Row row) {
+		rows=new ArrayList<Row>();
+		expand(row);
 	}
 	
 	public void updateFormat() {
@@ -261,6 +277,7 @@ public class Block extends Rectangle {
 		
 		ul.row=row; //set row temporarily so that it will not be expanded.
 
+		Row highestRight=null;
 		for(Char ch:rights) {
 			Row row1=new Row(this.page,this,ch);
 			
@@ -270,21 +287,27 @@ public class Block extends Rectangle {
 			row1.width=row1.right-row1.left;
 			
 			newRows.add(row1);
+			if(highestRight==null || row1.upper<highestRight.upper)
+				highestRight=row1;
 		}
 		
 		if(newRows.size()<2)
 			return false;
 		
-		ul.row=rights.get(0).row;
-		ul.row.chars.add(ul);
+		ul.row=highestRight;
+		highestRight.chars.add(ul);
 		
 		rows.remove(row);
 		rows.addAll(index,newRows);
 		page.rows.remove(row);
 		page.rows.addAll(newRows);
 		
-		for(Char ch:rights)
-			Collections.sort(ch.row.chars,Char.compareChars);
+		Collections.sort(rows,Row.compareRows);
+		
+		for(Char ch:rights) {
+			ch.row.render();
+			//Collections.sort(ch.row.chars,Char.compareChars);
+		}
 		
 		return true;
 	}
@@ -311,7 +334,7 @@ public class Block extends Rectangle {
 		return true;
 	}
 
-	boolean isNonTitle() {
+	/*boolean isNonTitle() {
 		if(rows.size()<2)
 			if(string().length() >= Common._MinTitleLength)
 				return false;
@@ -337,6 +360,46 @@ public class Block extends Rectangle {
 			row1=row2;
 		}
 		return false;
+	}*/
+	
+	int likeTitleBlock( ) {
+		Row row=rows.get(0);
+		boolean raRow=row.rightAligned(this);
+		boolean laRow=row.leftAligned(this);
+		boolean caRow=raRow && laRow;
+		boolean fullRow=row.isFull(page.content,column);
+		int lendiff=Math.round(Common._SameBlockRowWidthDiff*row.width);
+		
+		for(int i=1; i<rows.size(); i++) {
+			Row row1=rows.get(i);
+			
+			boolean raRow1=row1.rightAligned(this);
+			boolean laRow1=row1.leftAligned(this);
+			boolean caRow1=raRow1 && laRow1;
+			boolean fullRow1=row1.isFull(page.content,column);
+			int lendiff1=Math.round(Common._SameBlockRowWidthDiff*row1.width);
+			
+			if(! fullRow || ! fullRow1) {
+				if( (fullRow && !laRow1 && !raRow1 && !caRow1) ||
+						(fullRow1 && !laRow && !raRow && !caRow))
+					return -1;
+			}
+			
+			if(caRow != caRow1 && laRow!=laRow1 && raRow!=raRow1)
+				return -1;
+			
+			if(laRow && row1.width-row.width > lendiff)
+				return -1;
+				
+			row=row1;
+			raRow=raRow1;
+			laRow=laRow1;
+			caRow=caRow1;
+			fullRow=fullRow1;
+			lendiff=lendiff1;
+		}
+		
+		return 0;
 	}
 	
 	boolean isNotBodyBlockWidth() {

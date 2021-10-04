@@ -311,6 +311,9 @@ public class Common {
 	static class BodyBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
+			
+/*if(block.string().contains("How can archi"))
+				System.out.println("");*/
 			if(block.column==null)
 				return false;
 			
@@ -354,7 +357,8 @@ public class Common {
 		public boolean filter(Block block) {
 			int charfontDiff=block.format.charfont.compareTo(block.page.content.bodyCharfont);
 			
-			if(charfontDiff>0 && block.isNonTitle())
+			//if(charfontDiff>0 && block.isNonTitle())
+			if(charfontDiff>0 && block.likeTitleBlock()<0)
 				return false;
 			
 			return  ( charfontDiff >= 0 || 

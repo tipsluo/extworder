@@ -26,6 +26,7 @@ public class Row extends Rectangle {
 	RangeGroup.Range wordInterval;
 	int spaceWidth;
 	int vAdjustment;
+	private String str="";
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
@@ -55,6 +56,13 @@ public class Row extends Rectangle {
 	
 	public Row(Page page, Block block, Char ch) {
 		this(page,block,ch.left,ch.upper);
+	}
+	
+	public void render() {
+		Collections.sort(chars,Char.compareChars);
+		str="";
+		string();
+		charfont=getCharFont();
 	}
 	
 	public void addChar(Char ch) {
@@ -92,10 +100,12 @@ public class Row extends Rectangle {
 
 		resetChars();		
 		expand(page.pageBitmap.points[x][y].ch);
-		Collections.sort(chars,Char.compareChars);
+		
+		render();
+		
+		/*Collections.sort(chars,Char.compareChars);
 
-		charfont=getCharFont();
-		//wordInterval=getWordInterval();
+		charfont=getCharFont();*/
 	}
 	
 	private void expand(Char ch) {
@@ -119,7 +129,7 @@ public class Row extends Rectangle {
 		}
 	}
 	
-	private void resetChars() {
+	public void resetChars() {
 		if(chars!=null)
 			clearCharRows();
 		chars=new ArrayList<Char>();
@@ -226,9 +236,11 @@ public class Row extends Rectangle {
 		width=right-left;
 		height=lower-upper;
 		
-		Collections.sort(chars,Char.compareChars);
+		/*Collections.sort(chars,Char.compareChars);
 
-		charfont=getCharFont();
+		charfont=getCharFont();*/
+		
+		render();
 		
 		if (row.block!=null)
 			row.block.rows.remove(row);
@@ -317,7 +329,7 @@ public class Row extends Rectangle {
 		return rows;
 	}
 	
-	boolean joinUpperLeftBigChar() {
+	/*boolean joinUpperLeftBigChar() {
 		boolean toRemove=false;
 		
 		Char ul=chars.get(0);
@@ -341,24 +353,27 @@ public class Row extends Rectangle {
 			ul.row=this;
 			chars.add(ul);
 			left=ul.left;
-			Collections.sort(chars,Char.compareChars);
+			render();
 			return false;
 		}
 			
 		if(chars.size()==0)
 			toRemove=true;
 		
-		Collections.sort(chars,Char.compareChars);
+		//Collections.sort(chars,Char.compareChars);
+		render();
 		
 		Row r1=rows.get(0);
 		ul.row=r1;
 		r1.chars.add(ul);
-		Collections.sort(r1.chars,Char.compareChars);
+		r1.render();
+		//Collections.sort(r1.chars,Char.compareChars);
+		
 		for(Row r:rows)
 			r.left=ul.left;
 		
 		return toRemove;
-	}
+	}*/
 	
 	/*private boolean checkSameBlock(Row row) {
 		return charfont.equals(row.charfont);
@@ -498,7 +513,8 @@ public class Row extends Rectangle {
 	}
 	
 	String string() {
-		String str="";
+		if(str!="")
+			return str;
 		
 		Char ch0=chars.get(0);
 	

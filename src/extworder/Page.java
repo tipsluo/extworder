@@ -10,6 +10,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.text.TextPosition;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
@@ -63,7 +65,8 @@ public class Page extends Rectangle{
     	updateRectangle(ch);
 	}
 	
-	public void complete(boolean ignoreColoredBlock) throws IOException {
+	public void complete(PDPage pdPage, boolean ignoreColoredBlock) throws IOException {
+		//getPDPageWH(pdPage);
 		adjustCoordinates();
 		
 		pageBitmap=new PageBitmap(this);
@@ -72,13 +75,19 @@ public class Page extends Rectangle{
 
 		getAllRows();
 		getAllCharBlocks();
-		
+	
 		//mergeBlocks();
 		
 		pageBitmap=null;
 		
 		if((! ignoreColoredBlock) && pageImg!=null)
 			markColoredCharBlocks();
+	}
+	
+	private void getPDPageWH(PDPage pdPage) {
+		PDRectangle pdRectangle=pdPage.getCropBox();
+		width=Math.round(pdRectangle.getWidth());
+		height=Math.round(pdRectangle.getHeight());
 	}
 	
 	private void adjustCoordinates() {
@@ -96,6 +105,9 @@ public class Page extends Rectangle{
 		right=right-xOffset;
 		upper=upper-yOffset;
 		lower=lower-yOffset;
+		
+		width=right-left;
+		height=lower-upper;
 	}
 	
 	private void eliminateCharIntersections() {
@@ -348,7 +360,14 @@ public class Page extends Rectangle{
 	}
 	
 	private void getAllCharBlocks() {
-		for(int x=left; x<=right;x++)
+		for(Row row:rows) {
+			if(row.block==null) {
+				Block block=new Block(this,row);
+				blocks.add(block);
+			}
+		}
+			
+		/*for(int x=left; x<=right;x++)
 			for(int y=upper;y<=lower;y++) {
 				Point p=pageBitmap.points[x][y];
 				if ( p == null) continue;
@@ -357,10 +376,14 @@ public class Page extends Rectangle{
 				if(ch==null) continue;
 				
 				if(ch.row.block==null) {
-					Block block=new Block(this,x,y);
+					//Block block=new Block(this,x,y);
+					Block block=new Block(this,ch.row);
 					blocks.add(block);
 				}
-			}
+			}*/
+		for(Block block:blocks) {
+			block.separateUpperLeftBigChar();
+		}
 		
 		Collections.sort(blocks,Block.compareBlocks);
 	}
@@ -375,7 +398,11 @@ public class Page extends Rectangle{
 				if(ch==null) continue;
 				
 				if(ch.row==null) {
-					rows.add(new Row(this,null,x,y));
+					Row row=new Row(this,null,x,y);
+					if(! row.string().trim().isEmpty())
+						rows.add(row);
+					else
+						row.resetChars();
 				}
 			}
 		
@@ -397,7 +424,7 @@ public class Page extends Rectangle{
 		
 		Collections.sort(rows,Row.compareRows);*/
 		
-		for (int i=0;i<rows.size();i++) {
+		/*for (int i=0;i<rows.size();i++) {
 			Row row=rows.get(i);
 			if(row.joinUpperLeftBigChar()) {
 				if(row.block!=null)
@@ -405,7 +432,7 @@ public class Page extends Rectangle{
 				rows.remove(row);
 				i--;
 			}
-		}
+		}*/
 		
 		Collections.sort(rows,Row.compareRows);
 	}
