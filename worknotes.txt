@@ -61,4 +61,7 @@ Archaeology-1896 CRETAN EXPEDITION_content -- not resolved
 Artforum-1995 Painting for Profit and Pleasure_content -- not resolved, partly article
 
 
+Ad in front-Library-driven approach for fast implementation
+- first page is empty
+
 https://github.com/mkl-public/testarea-pdfbox2/tree/d44c6283c4618a026372ac6186a08861c988482f    extract only visible chars

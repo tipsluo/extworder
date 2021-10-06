@@ -141,8 +141,6 @@ public class Content extends PDFTextStripper {
 			page.markHeaderFooter();
 		}
 		
-		allWords=scanTextAlphabetWords();
-		
 		markContentX();
 		makeColumns();
 		
@@ -161,6 +159,8 @@ public class Content extends PDFTextStripper {
 			//page.tuneBlocks(textCharfont);
 			page.separateAllUppers(bodyCharfont);
 		}
+		
+		allWords=scanTextAlphabetWords();
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
