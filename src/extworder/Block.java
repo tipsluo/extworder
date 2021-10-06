@@ -278,7 +278,16 @@ public class Block extends Rectangle {
 		ul.row=row; //set row temporarily so that it will not be expanded.
 
 		Row highestRight=null;
-		for(Char ch:rights) {
+		int i=0;
+		for(;i<rights.size();i++) {
+			Char ch=rights.get(i);
+			
+			if(ch.row!=null) {
+				rights.remove(i);
+				i--;
+				continue;
+			}
+			
 			Row row1=new Row(this.page,this,ch);
 			
 			if(row1.chars.size()==0) continue;
@@ -363,6 +372,9 @@ public class Block extends Rectangle {
 	}*/
 	
 	int likeTitleBlock( ) {
+		if(string().trim().isEmpty())
+			return -1;
+		
 		Row row=rows.get(0);
 		boolean raRow=row.rightAligned(this);
 		boolean laRow=row.leftAligned(this);

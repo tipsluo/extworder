@@ -48,11 +48,17 @@ big letter
 narrow split
 need to change the vgap to be 1.0f
 
-Library&Archive-Review Essay-Instruction and Archives
+
+Library&Archive-Review Essay-Instruction and Archives  - not resolved
 - strange on the second page
 - title charfont no bold feature
 -upleftbigfont
 - colum width not consistent between pages
+
+Archaeology-1896 CRETAN EXPEDITION_content -- not resolved
+
+
+Artforum-1995 Painting for Profit and Pleasure_content -- not resolved, partly article
 
 
 https://github.com/mkl-public/testarea-pdfbox2/tree/d44c6283c4618a026372ac6186a08861c988482f    extract only visible chars

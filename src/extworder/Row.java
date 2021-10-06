@@ -100,7 +100,7 @@ public class Row extends Rectangle {
 
 		resetChars();		
 		expand(page.pageBitmap.points[x][y].ch);
-		
+
 		render();
 		
 		/*Collections.sort(chars,Char.compareChars);

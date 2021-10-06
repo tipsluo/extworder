@@ -18,6 +18,7 @@ public class Common {
 	
 	final static float _MinAbstractFreqencyRatio=0.65f;
 	final static float _MinAbstractSentenceRatio=0.65f;
+	final static float _MinTitleFreqencyRatio=0.65f;
 	
 	final static String _TestDataDir="data/";
 	

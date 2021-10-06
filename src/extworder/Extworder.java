@@ -62,7 +62,7 @@ public class Extworder {
 		//displayRows("ALA-Past is Prologue");
 		//displayRows("AIP-Magnetic fields for modulating the nervous system");
 		//displayRows("APS-Evidence for CP violation in B");
-		displayRows("Library&Archive-Review Essay-Instruction and Archives");
+		//displayRows("Library&Archive-Review Essay-Instruction and Archives");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -114,9 +114,11 @@ public class Extworder {
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printBlocks("ALA-Past is Prologue");
 		//printBlocks("No Headings- Moisture assisted perovskite film"); 
-		printBlocks("AIP-Magnetic fields for modulating the nervous system");
+		//printBlocks("AIP-Magnetic fields for modulating the nervous system");
 		//printBlocks("APS-Evidence for CP violation in B");
 		//printBlocks("Library&Archive-Review Essay-Instruction and Archives");
+		//printBlocks("Artforum-1995 Painting for Profit and Pleasure");
+		//printBlocks("Ad in front-Library-driven approach for fast implementation");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -147,10 +149,14 @@ public class Extworder {
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
-		printContent("AIP-Magnetic fields for modulating the nervous system");
+		//printContent("AIP-Magnetic fields for modulating the nervous system");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 		//printContent("APS-Evidence for CP violation in B");
 		//printContent("Library&Archive-Review Essay-Instruction and Archives"); //strange. some chars are not be able to be marked.
+		//printContent("Archaeology-1896 CRETAN EXPEDITION"); // not resolved , arabic chars
+		//printContent("Archaeology-2020Digital Platforms and the Nature");
+		//printContent("Artforum-1995 Painting for Profit and Pleasure");
+		printContent("Ad in front-Library-driven approach for fast implementation");
 	}
 	
 	public static void extract(String fn) throws IOException {

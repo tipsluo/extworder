@@ -71,7 +71,7 @@ public class Page extends Rectangle{
 		
 		pageBitmap=new PageBitmap(this);
 		eliminateCharIntersections();
-		pageBitmap=new PageBitmap(this);
+		//pageBitmap=new PageBitmap(this);
 
 		getAllRows();
 		getAllCharBlocks();
@@ -381,6 +381,8 @@ public class Page extends Rectangle{
 					blocks.add(block);
 				}
 			}*/
+		
+		
 		for(Block block:blocks) {
 			block.separateUpperLeftBigChar();
 		}
@@ -399,17 +401,15 @@ public class Page extends Rectangle{
 				
 				if(ch.row==null) {
 					Row row=new Row(this,null,x,y);
-					if(! row.string().trim().isEmpty())
+					//if(! row.string().trim().isEmpty())
 						rows.add(row);
-					else
-						row.resetChars();
+					//else
+					//	row.resetChars();
 				}
 			}
 		
 		Collections.sort(rows,Row.compareRows);
 
-/*if(id==3) 
-	System.out.println();*/
 		/*for(int i=0;i<rows.size();i++) {
 			Row row=rows.get(i);
 			ArrayList<Row> newRows=row.separateCloseRows();
@@ -434,7 +434,7 @@ public class Page extends Rectangle{
 			}
 		}*/
 		
-		Collections.sort(rows,Row.compareRows);
+		//Collections.sort(rows,Row.compareRows);
 	}
 	
 	/*boolean separateBlockDiffAligned() {
@@ -601,37 +601,11 @@ public class Page extends Rectangle{
 				
 				for (int x=ch.left; x<=ch.right; x++)
 					for (int y=ch.upper; y<=ch.lower; y++) {
-						/*if(points[x][y]!=null) {
-							points[x][y].ch=null;
-							points[x][y]=Common._ConfusingPoint;
-						} else {*/
-							Point point=new Char.Point(x,y,ch);
-							points[x][y]=point;
-						//}
+						Point point=new Char.Point(x,y,ch);
+						points[x][y]=point;
 					}
 			}
-			
-			//updatePageChars(page);
 		}
-		
-		/*void updatePageChars(Page page) {
-			for(Char ch:page.chars)
-				for(int x=ch.left; x<=ch.right; x++) {
-					boolean clear=false;
-					for(int y=ch.upper; y<=lower; y++) {
-						if(points[x][y]==Common._ConfusingPoint) {
-							ch.clearCross(points,x,y);
-							clear=true;
-							break;
-						}
-					}
-					if(clear)
-						break;
-				}
-			
-			for(Char ch:page.chars)
-				ch.updateRectangle(points);
-		}*/
 	}
 	
 	class Column extends Rectangle {

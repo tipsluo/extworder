@@ -54,6 +54,7 @@ public class Content extends PDFTextStripper {
 	float lowColumnWidth,highColumnWidth,minBodyColumnBlockWidth;
 	int centralAlignmentAdjustment=0;
 	private boolean ignoreSubtitle=true;
+	private ArrayList<String> allWords;
 	
 	boolean hasFirstBodyBlock=false;
 	BlockFormatChain subtitleFormatChain;
@@ -119,6 +120,11 @@ public class Content extends PDFTextStripper {
 		for(int i=0; i<pages.size();) {
 			Page page=pages.get(i);
 			
+			if(page.chars.size()==0) {
+				pages.remove(i);
+				continue;
+			}
+			
 			page.complete(allPages.get(i),ignoreColoredBlock);
 			
 			if(page.ignored()) {
@@ -134,6 +140,8 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages) {
 			page.markHeaderFooter();
 		}
+		
+		allWords=scanTextAlphabetWords();
 		
 		markContentX();
 		makeColumns();
@@ -537,6 +545,8 @@ public class Content extends PDFTextStripper {
 	}
 	
 	public String title() {
+		if(titleBlock==null)
+			return "";
 		return titleBlock.string();
 	}
 	
@@ -557,6 +567,10 @@ public class Content extends PDFTextStripper {
 				
 				//if(block.isNonTitle())
 				if(block.likeTitleBlock()<0)
+					continue;
+				
+				ArrayList<String> strs=Common.getLetterWords(block.string());
+				if(Common.hits(allWords,strs) < Common._MinTitleFreqencyRatio)
 					continue;
 				
 				if(block.format.charfont.compareTo(titleCharFont)>0) {
@@ -583,7 +597,7 @@ public class Content extends PDFTextStripper {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
 		} else {
-			ArrayList<String> words=scanTextAlphabetWords();
+			//ArrayList<String> words1=scanTextAlphabetWords();
 			for (Page page:pages) {
 				for(int i=0; i<page.blocks.size();i++) {
 					Block block=page.blocks.get(i);
@@ -604,8 +618,8 @@ public class Content extends PDFTextStripper {
 					//	continue;		
 					if(strs.size()<Common._MinKeyBlockWordNum)
 						continue;
-					if(Common.hits(words,strs) < Common._MinAbstractFreqencyRatio)
-					if(Common.sentenceRatio(blockStr) < Common._MinAbstractSentenceRatio)
+					if((Common.hits(allWords,strs) < Common._MinAbstractFreqencyRatio) ||
+						(Common.sentenceRatio(blockStr) < Common._MinAbstractSentenceRatio))
 						continue;
 					
 					activeBlock=block;
