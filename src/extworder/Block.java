@@ -378,7 +378,7 @@ public class Block extends Rectangle {
 		Row row=rows.get(0);
 		boolean raRow=row.rightAligned(this);
 		boolean laRow=row.leftAligned(this);
-		boolean caRow=raRow && laRow;
+		boolean caRow=row.centralAligned(this);
 		boolean fullRow=row.isFull(page.content,column);
 		int lendiff=Math.round(Common._SameBlockRowWidthDiff*row.width);
 		
@@ -387,7 +387,7 @@ public class Block extends Rectangle {
 			
 			boolean raRow1=row1.rightAligned(this);
 			boolean laRow1=row1.leftAligned(this);
-			boolean caRow1=raRow1 && laRow1;
+			boolean caRow1=row1.centralAligned(this);
 			boolean fullRow1=row1.isFull(page.content,column);
 			int lendiff1=Math.round(Common._SameBlockRowWidthDiff*row1.width);
 			

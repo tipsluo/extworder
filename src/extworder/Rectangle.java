@@ -86,10 +86,8 @@ public abstract class Rectangle {
 		int rightIndent=parentRect.right-right;
 		
 		if(Math.abs(leftIndent-rightIndent) < adj)
-			if(leftIndent==0)
-				return Common._CENTERALIGNED;
-			else
-				return Common._CENTERALIGNEDWIINDENT;
+			return Common._CENTERALIGNED;
+
 		else if(leftIndent==0)
 			return Common._LEFTALIGNED;
 		else if(rightIndent==0)
@@ -114,6 +112,19 @@ public abstract class Rectangle {
 	
 	protected boolean leftAligned(Rectangle parent, int leftAdj) {
 		return left<=parent.left && left<leftAdj;
+	}
+	
+	protected boolean centralAligned(Rectangle parent) {
+		return centralAligned(parent,
+				Math.round(parent.width*Common._ColumnWidthAdjustment));
+	}
+	
+	protected boolean centralAligned(Rectangle parent, int adj) {
+		int leftIndent=left-parent.left;
+		int rightIndent=parent.right-right;
+		
+		return Math.abs(leftIndent-rightIndent) < adj;
+			
 	}
 	
 	protected boolean hIntersected(Rectangle r1) {
@@ -146,23 +157,9 @@ public abstract class Rectangle {
 	}
 	
 	boolean isFull(Content content, Rectangle rect) {
-		//int width=right-left;
-		//int rWidth=rect.right-rect.left;
-		
 		return width >= rect.width * (1-Common._ColumnWidthAdjustment) &&
 				width <= rect.width * (1+Common._ColumnWidthAdjustment);
 	}
-	
-	/*boolean isTrivial1(Content content, Column column) {
-		int blockWidth=right-left+1;
-		
-		if(column!=null)
-			return blockWidth >= content.lowColumnWidth &&
-				blockWidth <= content.highColumnWidth;
-			
-		return blockWidth >= content.lowContentWidth &&
-				blockWidth <= content.highContentWidth;
-	}*/
 	
 	protected <T extends Rectangle> ArrayList<T> getAllAbove(ArrayList<T> ts) {		
 		ArrayList<T> cs=new ArrayList<T>();

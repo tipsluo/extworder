@@ -619,7 +619,6 @@ public class Content extends PDFTextStripper {
 				if(block.type==Common._FirstBody)
 					break;
 				
-				//if(block.isNonTitle())
 				if(block.likeTitleBlock()<0)
 					continue;
 				
@@ -646,12 +645,11 @@ public class Content extends PDFTextStripper {
 	private Block getAbstractBlock() {
 		abstractStr=getKeyBlockStr(
 				0,
-				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s*:\n*]?"));
+				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n*]?"));
 		if(activeBlock!=null && activeBlock.isParagraphBlock()>=0) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
 		} else {
-			//ArrayList<String> words1=scanTextAlphabetWords();
 			for (Page page:pages) {
 				for(int i=0; i<page.blocks.size();i++) {
 					Block block=page.blocks.get(i);

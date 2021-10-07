@@ -413,13 +413,6 @@ public class Row extends Rectangle {
 	int alignmentInBlock() {
 		int a=super.alignment(block,page.content.centralAlignmentAdjustment);
 		
-		/*if(a==Common._RIGHTALIGNED) {
-			int d=left-block.left;
-			if(d>=0 && 
-					d < charfont.height * Common._FirstRowIndentRatio)
-				return Common._FIRSTROWCENTERALIGNED;
-		}*/
-		
 		return a;
 	}
 	
@@ -455,38 +448,6 @@ public class Row extends Rectangle {
 		return leftAligned(this) && rightAligned(this);
 	}
 
-	/*int sameAlignedInBlock(Row row) {
-		// negative: no; zero: possible;  positive yes
-		
-		int a0=alignmentInBlock();
-		int a=row.alignmentInBlock();
-		
-		if(a0==Common._CENTERALIGNED && a==Common._CENTERALIGNED)
-			return 1;
-		//if(block.rows.indexOf(this)==0 && a0==Common._FIRSTROWCENTERALIGNED && a==Common._CENTERALIGNED)
-		//	return 1;
-		if( (a0==Common._NOALIGNED && a!=Common._NOALIGNED) ||
-				(a==Common._NOALIGNED && a0!=Common._NOALIGNED) )
-			return -1;
-		if(a0==Common._CENTERALIGNED || a==Common._CENTERALIGNED) 
-			return -1;
-		
-		return 0;
-	}*/
-	
-	
-	
-	/*int sameRowInBlock(Row row) {
-		if(hIntersected(row))
-			return -1;
-		
-		if(vContains(row))
-			return 1;
-		
-		return 0;
-	}*/
-	
-	
 	private CharFont getCharFont() {
 		if(chars.size()==0)
 			return null;

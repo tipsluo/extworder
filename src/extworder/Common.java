@@ -73,7 +73,7 @@ public class Common {
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
-	final static int _CENTERALIGNEDWIINDENT=2;
+	//final static int _CENTERALIGNEDWIINDENT=2;
 	//final static int _FIRSTROWCENTERALIGNED=3;
 	final static int _UNKNOWNALIGNED=-98;
 	final static int _NOALIGNED=-99;
@@ -362,8 +362,7 @@ public class Common {
 			
 			return  ( charfontDiff >= 0 || 
 						charfontDiff == 0 && 
-						( block.format.alignment==Common._CENTERALIGNED ||
-						  block.format.alignment==Common._CENTERALIGNEDWIINDENT)
+						( block.format.alignment==Common._CENTERALIGNED)
 					)
 					&&
 					! pattern.matcher(block.type).find();
