@@ -33,6 +33,7 @@ public class Extworder {
 		//extract("ILL article-Impact of the KWL reading strategy");
 		//extract("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//extract("ALA-Past is Prologue");
+		//extract("AMS-PACMAN RENORMALIZATION");
 	}//
 	
 	/*static public void main_test2_printcharinfos() throws IOException {
@@ -76,6 +77,7 @@ public class Extworder {
 		//displayChars("ALA-Past is Prologue");
 		//displayChars("AIP-Magnetic fields for modulating the nervous system");
 		//displayChars("Library&Archive-Review Essay-Instruction and Archives");
+		displayChars("AMS-PACMAN RENORMALIZATION");
     }
 	
 	public static void main_test5_block_display() throws IOException {
@@ -119,6 +121,8 @@ public class Extworder {
 		//printBlocks("Library&Archive-Review Essay-Instruction and Archives");
 		//printBlocks("Artforum-1995 Painting for Profit and Pleasure");
 		//printBlocks("Ad in front-Library-driven approach for fast implementation");
+		printBlocks("AMS-PACMAN RENORMALIZATION");
+		//printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -156,7 +160,9 @@ public class Extworder {
 		//printContent("Archaeology-1896 CRETAN EXPEDITION"); // not resolved , arabic chars
 		//printContent("Archaeology-2020Digital Platforms and the Nature");
 		//printContent("Artforum-1995 Painting for Profit and Pleasure");
-		printContent("Ad in front-Library-driven approach for fast implementation");
+		//printContent("Ad in front-Library-driven approach for fast implementation");
+		printContent("AMS-PACMAN RENORMALIZATION");
+		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS");
 	}
 	
 	public static void extract(String fn) throws IOException {

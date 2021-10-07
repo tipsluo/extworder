@@ -79,7 +79,8 @@ public class Common {
 	final static int _NOALIGNED=-99;
 	
 	final static int _UNKNOWNINDENT=-98;
-	final static int _UNKNOWNALLUPPERCASE=-98;
+	final static int _ALLUPPERCASE=1;
+	final static int _NOTALLUPPERCASE=0;
 	//final static Char.Point _ConfusingPoint;
 	
 	final static boolean __DEBUG=false;
@@ -148,7 +149,7 @@ public class Common {
 	
 	static String subtitleBlockType(Block block) {
 		return Common._SubtitlePrefix+Integer.toString(
-					block.page.content.charfontIndexes.get(block.format.charfont));
+					block.page.content.blockformatIndexes.get(block.format));
 	}
 	
 	static ArrayList<String> getLetterWords(String str) {
@@ -312,13 +313,10 @@ public class Common {
 	static class BodyBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
-			
-/*if(block.string().contains("How can archi"))
-				System.out.println("");*/
 			if(block.column==null)
 				return false;
 			
-			if(block.format.charfont.equals(block.page.content.bodyCharfont)) {
+			if(block.format.equals(block.page.content.bodyBlockformat)) {
 				if(block.type==Common._BeforeFirstBody)
 					return false;
 				else {
@@ -356,7 +354,7 @@ public class Common {
 		
 		@Override
 		public boolean filter(Block block) {
-			int charfontDiff=block.format.charfont.compareTo(block.page.content.bodyCharfont);
+			int charfontDiff=block.format.compareTo(block.page.content.bodyBlockformat);
 			
 			//if(charfontDiff>0 && block.isNonTitle())
 			if(charfontDiff>0 && block.likeTitleBlock()<0)
@@ -375,7 +373,7 @@ public class Common {
 	static class SubtitleBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
-			return block.format.charfont.compareTo(block.page.content.bodyCharfont) > 0 &&
+			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
 					block.type.contains(_SubtitlePrefix);
 		}
 	}

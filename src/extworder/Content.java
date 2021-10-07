@@ -42,9 +42,12 @@ public class Content extends PDFTextStripper {
     String keywordStr;
     
 	ArrayList<Page> pages;
-    TreeMap<CharFont,Integer> charfonts;
-    Map<CharFont,Integer> charfontIndexes;
-    CharFont bodyCharfont;
+    //TreeMap<CharFont,Integer> charfonts;
+    //Map<CharFont,Integer> charfontIndexes;
+    //CharFont bodyCharfont;
+	TreeMap<BlockFormat,Integer> blockformats;
+	Map<BlockFormat,Integer> blockformatIndexes;
+    BlockFormat bodyBlockformat;
     int currPid;
     Page currPage=null;
 	PDFRenderer renderer;
@@ -73,7 +76,8 @@ public class Content extends PDFTextStripper {
 		this.ignorePage=ignorePage;
 		
 		pages=new ArrayList<Page>();
-		charfonts=new TreeMap<>();
+		//charfonts=new TreeMap<>();
+		blockformats=new TreeMap<>();
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
 		PDDocument document = PDDocument.load(file);
@@ -151,13 +155,16 @@ public class Content extends PDFTextStripper {
 				page.markHeaderFooter();
 		}*/
 		
+		for(Page page:pages) {
+			page.updateBlockFormats();
+		}
+		
 		getBodyCharfont();
 		getFirstBodyBlock();
 		
 		for(Page page:pages) {
-			page.updateBlockFormats();
-			//page.tuneBlocks(textCharfont);
-			page.separateAllUppers(bodyCharfont);
+			page.separateAllUppers(bodyBlockformat.charfont);
+			//page.separateAllUppers(bodyCharfont);
 		}
 		
 		allWords=scanTextAlphabetWords();
@@ -185,16 +192,41 @@ public class Content extends PDFTextStripper {
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
 					if(! block.isNotBodyBlockWidth() &&
-							! charfonts.containsKey(block.format.charfont))
-						charfonts.put(block.format.charfont,evaluateBodyCharfont(block.format.charfont));
+							! blockformats.containsKey(block.format))
+						blockformats.put(block.format,evaluateBodyBlockformat(block.format));
+							//! charfonts.containsKey(block.format.charfont))
+						//charfonts.put(block.format.charfont,evaluateBodyCharfont(block.format.charfont));
 				}
 		
-		bodyCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		//bodyCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		bodyBlockformat=blockformats.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		
-		charfontIndexes=makeCharfontIndexes();
+		//charfontIndexes=makeCharfontIndexes();
+		blockformatIndexes=makeBlockformatIndexes();
 	}
 	
-	private int evaluateBodyCharfont(CharFont charfont) {
+	private int evaluateBodyBlockformat(BlockFormat blockformat) {
+		int value=0;
+		
+		int currValue=pages.size();
+		
+		for(Page page:pages) {
+			for(Block block:page.blocks) {
+				if(block.isNotBodyBlockWidth())
+					continue;
+				
+				if(block.format.equals(blockformat)) {
+					value+=currValue * block.rows.size();
+					break;
+				}
+			}
+			currValue--;
+		}
+		
+		return value;
+	}
+	
+	/*private int evaluateBodyCharfont(CharFont charfont) {
 		int value=0;
 		
 		int currValue=pages.size();
@@ -213,18 +245,39 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return value;
-	}
+	}*/
 	
-	private Map<CharFont,Integer> makeCharfontIndexes() {
-		ArrayList<CharFont> cfs=new ArrayList<CharFont>();
+	//private Map<CharFont,Integer> makeCharfontIndexes() {
+	private Map<BlockFormat,Integer> makeBlockformatIndexes() {
+		//ArrayList<CharFont> cfs=new ArrayList<CharFont>();
+		ArrayList<BlockFormat> bfs=new ArrayList<BlockFormat>();
 		
 		for(Page page:pages)
-			for(Row row:page.rows) {
-				if(! cfs.contains(row.charfont))
-					cfs.add(row.charfont);
+			for(Block block:page.blocks) {
+				if(! bfs.contains(block.format))
+					bfs.add(block.format);
 			}
 		
-		Collections.sort(cfs);
+		Collections.sort(bfs);
+		int bodyBlockformatIndex=-1;
+		for(int i = 0; i<bfs.size();i++ )
+            if(bfs.get(i).equals(bodyBlockformat)) {
+            	bodyBlockformatIndex = i;
+                break;
+            }
+		
+		Map<BlockFormat,Integer> bfIndexes=new HashMap<>();
+		for(int i=0; i<bfs.size();i++ ) {
+			bfIndexes.put(bfs.get(i),i-bodyBlockformatIndex);
+		}
+		
+		return bfIndexes;
+		
+			//for(Row row:page.rows) {
+				//if(! cfs.contains(row.charfont))
+					//cfs.add(row.charfont);	
+		
+		/*Collections.sort(cfs);
 		int bodyCharfontIndex=-1;
 		for(int i = 0; i<cfs.size();i++ )
             if(cfs.get(i).equals(bodyCharfont)) {
@@ -237,7 +290,7 @@ public class Content extends PDFTextStripper {
 			cfIndexes.put(cfs.get(i),i-bodyCharfontIndex);
 		}
 		
-		return cfIndexes;
+		return cfIndexes;*/
 	}
 	
 	private int columnWidth() {
@@ -505,7 +558,7 @@ public class Content extends PDFTextStripper {
 			if(ignoreSubtitle)
 				fw.write("Skipped due to ignoreSubtitle is set");
 			for(BlockFormat blockformat:subtitleFormatChain.blockformats)
-				fw.write(String.format(" %d",charfontIndexes.get(blockformat.charfont)));
+				fw.write(String.format(" %d",blockformatIndexes.get(blockformat)));
 			fw.write("\n\n");
 		}
 		
@@ -553,7 +606,8 @@ public class Content extends PDFTextStripper {
 	private Block getTitleBlock() {
 		Block titleBlock=null;
 		Block block=null;
-		CharFont titleCharFont=bodyCharfont;
+		//CharFont titleCharFont=bodyCharfont;
+		BlockFormat titleBlockformat=bodyBlockformat;
 		
 		for(Page page:pages) {
 			if(page.ignored())
@@ -573,9 +627,9 @@ public class Content extends PDFTextStripper {
 				if(Common.hits(allWords,strs) < Common._MinTitleFreqencyRatio)
 					continue;
 				
-				if(block.format.charfont.compareTo(titleCharFont)>0) {
+				if(block.format.compareTo(titleBlockformat)>0) {
 					titleBlock=block;
-					titleCharFont=titleBlock.format.charfont;
+					titleBlockformat=titleBlock.format;
 				}
 			}
 			
@@ -806,7 +860,7 @@ public class Content extends PDFTextStripper {
 				/*if(block1.format.charfont.equals(textCharfont))
 					break;*/
 				
-				if(block0.format.compareFormat(block1.format)>=0)
+				if(block0.format.compareTo(block1.format)>=0)
 					break;
 				
 				block0=block1;

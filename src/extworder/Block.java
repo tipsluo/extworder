@@ -322,7 +322,7 @@ public class Block extends Rectangle {
 	}
 	
 	boolean isBodyFullBlock() {
-		return format.charfont.equals(page.content.bodyCharfont) && 
+		return format.equals(page.content.bodyBlockformat) && 
 				isFull(page.content,column);
 	}
 	
@@ -457,7 +457,7 @@ public class Block extends Rectangle {
 			fw.write("type: abstract");
 		else if (!type.isBlank())
 			fw.write(String.format("type: %s",type));
-		else if (format.charfont.equals(content.bodyCharfont))
+		else if (format.equals(content.bodyBlockformat))
 			fw.write(String.format("type: "));
 		else 
 			fw.write(String.format("type: undefined"));
@@ -469,7 +469,7 @@ public class Block extends Rectangle {
 			columnLeft=column.left;
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
-				content.charfontIndexes.get(format.charfont),left,right,upper,lower));
+				content.blockformatIndexes.get(format),left,right,upper,lower));
 		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d\n\n",
 				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft));
 		
@@ -511,7 +511,7 @@ public class Block extends Rectangle {
 	}
 	
 	
-	static class BlockFormat {
+	static class BlockFormat implements Comparable<BlockFormat> {
 		final CharFont charfont;
 		int indent;
 		int alignment;
@@ -521,7 +521,7 @@ public class Block extends Rectangle {
 			this.charfont=charfont;
 			this.indent=indent;
 			this.alignment=alignment;
-			allUppercase=Common._UNKNOWNALLUPPERCASE;
+			allUppercase=Common._NOTALLUPPERCASE;
 		}
 		
 		public BlockFormat(Block block) {
@@ -541,9 +541,9 @@ public class Block extends Rectangle {
 				while(m.find())
 					c++;
 				if(c < s.length() * Common._MinUppercaseBlockRatio)
-					this.allUppercase=-1;
+					this.allUppercase=Common._NOTALLUPPERCASE;
 				else
-					this.allUppercase=1;
+					this.allUppercase=Common._ALLUPPERCASE;
 			}
 		}
 		
@@ -551,44 +551,37 @@ public class Block extends Rectangle {
 			this.charfont=charfont;
 			this.indent=Common._UNKNOWNINDENT;
 			this.alignment=Common._UNKNOWNALIGNED;
+			this.allUppercase=Common._NOTALLUPPERCASE;
 		}
 		
-		boolean equals(BlockFormat blockformat) {
-			if(alignment==Common._CENTERALIGNED || 
+		@Override
+		public boolean equals(Object obj) {
+			return compareTo((BlockFormat)obj)==0;
+			/*if(alignment==Common._CENTERALIGNED || 
 					blockformat.alignment==Common._CENTERALIGNED)
 				return charfont.equals(blockformat.charfont) &&
 						allUppercase==blockformat.allUppercase;
 			else 
 				return charfont.equals(blockformat.charfont) &&
 						indent==blockformat.indent &&
-						allUppercase==blockformat.allUppercase;
+						allUppercase==blockformat.allUppercase;*/
 		}
 		
-		int compareFormat(BlockFormat blockformat) {
-			int r=charfont.compareTo(blockformat.charfont);
+		@Override
+		public int compareTo(BlockFormat blockformat) {
+			return hashCode()-blockformat.hashCode();
+			/*int r=charfont.compareTo(blockformat.charfont);
 			
 			if(r!=0)
-				return r;
+				return r;*/
 			
-			/*if(alignment==Common._CENTERALIGNEDWIINDENT && 
-					blockformat.alignment!=Common._CENTERALIGNEDWIINDENT)
-				return 1;
-			else if((alignment!=Common._CENTERALIGNEDWIINDENT && 
-					blockformat.alignment==Common._CENTERALIGNEDWIINDENT))
-				return -1;
-			
-			if(alignment==Common._CENTERALIGNED && 
-					blockformat.alignment!=Common._CENTERALIGNED)
-				return 1;
-			else if((alignment!=Common._CENTERALIGNED && 
-					blockformat.alignment==Common._CENTERALIGNED))
-				return -1;*/
-			
-			return allUppercase-blockformat.allUppercase;
+			//return allUppercase-blockformat.allUppercase;
 		}
 		
+		@Override
 		public int hashCode() {
-	        int hash=charfont.hashCode() + (indent<<12) + (alignment<<24) ;
+			int hash=charfont.hashCode() * 2 + allUppercase;
+	        //int hash=charfont.hashCode() + (indent<<12) + (alignment<<24) ;
 	        
 	        return hash;
 		}
@@ -605,35 +598,6 @@ public class Block extends Rectangle {
 			return b1column!=b2column ? b1column-b2column :
 						b1.upper!=b2.upper ? b1.upper-b2.upper :
 							b1.left-b2.left;
-			/*if(b1.isVIntersected(b2) && b1.isHIntersected(b2)) {
-				System.out.println("CompareBlocks error");
-			}*/
-			
-			//boolean vint=b1.isVIntersected(b2);
-			//boolean hint=b1.isHIntersected(b2);
-
-			/*Char c1=b1.rows.get(0).chars.get(0);
-			Char c2=b2.rows.get(0).chars.get(0);*/
-			
-			/*if(vint && hint)
-				return b1.left==b2.left ? b1.left-b2.left : b1.upper-b2.upper;
-			else if(vint)
-				return b1.left==b2.left ? b1.left-b2.left : b1.upper-b2.upper;
-			else if(hint)
-				return b1.upper==b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
-			else {*/
-				/*if(b1.column==null && b2.column==null)
-					return b1.upper!=b2.upper ? b1.upper-b2.upper : b1.left-b2.left;
-				else if(b1.column==null)
-					return -1;
-				else if(b2.column==null)
-					return 1;
-				else {
-					if(b1.isVIntersected(b2))
-						return b1.left-b2.left;
-					else
-						return b1.upper-b2.upper;
-				}*/
 		}
 	}
 }
