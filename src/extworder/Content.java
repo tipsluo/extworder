@@ -76,7 +76,6 @@ public class Content extends PDFTextStripper {
 		this.ignorePage=ignorePage;
 		
 		pages=new ArrayList<Page>();
-		//charfonts=new TreeMap<>();
 		blockformats=new TreeMap<>();
 		
 		File file = new File(Common._TestDataDir+fn+".pdf");
@@ -148,7 +147,6 @@ public class Content extends PDFTextStripper {
 		markContentX();
 		makeColumns();
 		
-		
 		/* to revisit
 		 * for(Page page:pages) {
 			if(page.separateBlockDiffAligned())
@@ -159,7 +157,7 @@ public class Content extends PDFTextStripper {
 			page.updateBlockFormats();
 		}
 		
-		getBodyCharfont();
+		getBodyFormat();
 		getFirstBodyBlock();
 		
 		for(Page page:pages) {
@@ -187,21 +185,17 @@ public class Content extends PDFTextStripper {
         }
     }
 	
-	private void getBodyCharfont() {
+	private void getBodyFormat() {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(! block.isNotBodyBlockWidth() &&
+					if(block.likeBodyBlock()>0 &&
 							! blockformats.containsKey(block.format))
 						blockformats.put(block.format,evaluateBodyBlockformat(block.format));
-							//! charfonts.containsKey(block.format.charfont))
-						//charfonts.put(block.format.charfont,evaluateBodyCharfont(block.format.charfont));
 				}
 		
-		//bodyCharfont = charfonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		bodyBlockformat=blockformats.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		
-		//charfontIndexes=makeCharfontIndexes();
 		blockformatIndexes=makeBlockformatIndexes();
 	}
 	
@@ -212,7 +206,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			for(Block block:page.blocks) {
-				if(block.isNotBodyBlockWidth())
+				if(block.likeBodyBlock()>0)
 					continue;
 				
 				if(block.format.equals(blockformat)) {
@@ -300,6 +294,9 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages)
 			for(Block block:page.blocks) {
+				//if(block.likeBodyBlock()<=0)
+				//	continue;
+				
 				int w=block.right-block.left+1;
 				
 				if(w<minColumnWidth)

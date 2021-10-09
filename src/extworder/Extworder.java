@@ -64,6 +64,7 @@ public class Extworder {
 		//displayRows("AIP-Magnetic fields for modulating the nervous system");
 		//displayRows("APS-Evidence for CP violation in B");
 		//displayRows("Library&Archive-Review Essay-Instruction and Archives");
+		//displayRows("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -77,7 +78,7 @@ public class Extworder {
 		//displayChars("ALA-Past is Prologue");
 		//displayChars("AIP-Magnetic fields for modulating the nervous system");
 		//displayChars("Library&Archive-Review Essay-Instruction and Archives");
-		displayChars("AMS-PACMAN RENORMALIZATION");
+		//displayChars("AMS-PACMAN RENORMALIZATION");
     }
 	
 	public static void main_test5_block_display() throws IOException {
@@ -100,7 +101,7 @@ public class Extworder {
 			return;
 		}*/
 		
-		//printBlocks("A model for estimating parameters of rotational landslide");
+		printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -121,8 +122,8 @@ public class Extworder {
 		//printBlocks("Library&Archive-Review Essay-Instruction and Archives");
 		//printBlocks("Artforum-1995 Painting for Profit and Pleasure");
 		//printBlocks("Ad in front-Library-driven approach for fast implementation");
-		printBlocks("AMS-PACMAN RENORMALIZATION");
-		//printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS");
+		//printBlocks("AMS-PACMAN RENORMALIZATION");
+		//printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -134,12 +135,11 @@ public class Extworder {
 			return;
 		}*/
 		
-		//printContent("A model for estimating parameters of rotational landslide");
+		printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
-		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printContent("AMS-PACMAN RENORMALIZATION");
 		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
@@ -150,7 +150,6 @@ public class Extworder {
 		//printContent("Wiley-Early life stress and HPA axis");
 		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
-		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
@@ -161,8 +160,12 @@ public class Extworder {
 		//printContent("Archaeology-2020Digital Platforms and the Nature");
 		//printContent("Artforum-1995 Painting for Profit and Pleasure");
 		//printContent("Ad in front-Library-driven approach for fast implementation");
-		printContent("AMS-PACMAN RENORMALIZATION");
-		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS");
+		//printContent("AMS-PACMAN RENORMALIZATION");
+		
+		//to fix
+		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
+		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
+		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 	}
 	
 	public static void extract(String fn) throws IOException {

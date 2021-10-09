@@ -55,10 +55,15 @@ Library&Archive-Review Essay-Instruction and Archives  - not resolved
 -upleftbigfont
 - colum width not consistent between pages
 
-Archaeology-1896 CRETAN EXPEDITION_content -- not resolved
+Archaeology-1896 CRETAN EXPEDITION_content -- not resolved 
+- no exit
+- no exit
 
 
 Artforum-1995 Painting for Profit and Pleasure_content -- not resolved, partly article
+
+AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,
+- different body font size
 
 
 Ad in front-Library-driven approach for fast implementation

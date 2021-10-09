@@ -416,7 +416,7 @@ public class Row extends Rectangle {
 		return a;
 	}
 	
-	private boolean terminatedSentence() {
+	public boolean terminatedSentence() {
 		String s=chars.get(chars.size()-1).str;
 		
 		return Common.terminated.matcher(s).find();
@@ -426,7 +426,8 @@ public class Row extends Rectangle {
 		int d=left-block.left;
 		if(d>=0 &&
 				d < charfont.height * Common._FirstLineIndentRatio &&
-				rightAligned(this))
+				(rightAligned(this) || terminatedSentence()))
+				//rightAligned(this))
 			return true;
 					
 		return false;

@@ -166,7 +166,7 @@ public class Page extends Rectangle{
 
 	void markHeaderFooter() {
 		headerY=upper;
-		footerY=Math.round(lower);
+		footerY=lower;
 		
 		for(Block block:blocks) {
 			if(block.type==Common._PageHeaderBlock)
@@ -179,9 +179,9 @@ public class Page extends Rectangle{
 		}
 		
 		for(Block block:blocks)
-			if(block.upper<=headerY)
+			if(block.lower<=headerY)
 				block.type=Common._PageHeaderBlock;
-			else if(block.lower>=footerY)
+			else if(block.upper>=footerY)
 				block.type=Common._PageFooterBlock;
 
 	}

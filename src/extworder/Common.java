@@ -112,7 +112,7 @@ public class Common {
 		/* May need it later
 		bulletPart1=Pattern.compile("^\\s*([a-zA-Z][.])?(.*)");
 		bulletPart2=Pattern.compile("^\s*([ivxIVX]*[.])?(.*)");*/
-		terminated=Pattern.compile("[.,;?:\")]");
+		terminated=Pattern.compile("[.,;?:\")]$");
 	}
 	
 	public Common() {
@@ -320,7 +320,8 @@ public class Common {
 				if(block.type==Common._BeforeFirstBody)
 					return false;
 				else {
-					if(block.isNotBodyBlockWidth() || block.isAllScarce())
+					//if(block.isNotBodyBlockWidth1() || block.isAllScarce())
+					if(block.likeBodyBlock()<0 || block.isAllScarce())
 						return false;
 					
 					if (block.rows.size()==1) {

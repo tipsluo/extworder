@@ -414,7 +414,7 @@ public class Block extends Rectangle {
 		return 0;
 	}
 	
-	boolean isNotBodyBlockWidth() {
+	boolean isNotBodyBlockWidth3() {
 		//int width=right-left+1;
 		
 		/* need to support lines like:
@@ -428,15 +428,34 @@ public class Block extends Rectangle {
 	
 	int isParagraphBlock() {
 		int ret=1;
+		
 		for(Row row:rows) {
 			if(row.firstParagraphLine() || 
 					row.isParaphaphLine() ||
 					row.lastParagraphLine()>=0)
 				continue;	
-			ret=-1;
-			break;
+			return -1;
 		}
 		return ret;
+	}
+	
+	int likeBodyBlock() {
+		Rectangle rect = column==null ? page : column;
+		
+		//if(width<=page.content.minBodyBlockWidth)
+		//	return -1;
+		
+		if(rows.size()==1) {
+			Row row=rows.get(0);
+			if(! row.rightAligned(rect) && ! row.terminatedSentence())
+				return -1;
+		}
+
+		int ret=isParagraphBlock();
+		if(ret != 0)
+			return ret;
+
+		return 0;
 	}
 	
 	public boolean priorTo(Block block) {
