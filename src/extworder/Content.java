@@ -23,6 +23,7 @@ import extworder.Page.Column;
 import extworder.Row.CharFont;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -147,6 +148,8 @@ public class Content extends PDFTextStripper {
 		markContentX();
 		makeColumns();
 		
+		joinColumnSameRow();
+		
 		/* to revisit
 		 * for(Page page:pages) {
 			if(page.separateBlockDiffAligned())
@@ -220,30 +223,7 @@ public class Content extends PDFTextStripper {
 		return value;
 	}
 	
-	/*private int evaluateBodyCharfont(CharFont charfont) {
-		int value=0;
-		
-		int currValue=pages.size();
-		
-		for(Page page:pages) {
-			for(Block block:page.blocks) {
-				if(block.isNotBodyBlockWidth())
-					continue;
-				
-				if(block.format.charfont.equals(charfont)) {
-					value+=currValue * block.rows.size();
-					break;
-				}
-			}
-			currValue--;
-		}
-		
-		return value;
-	}*/
-	
-	//private Map<CharFont,Integer> makeCharfontIndexes() {
 	private Map<BlockFormat,Integer> makeBlockformatIndexes() {
-		//ArrayList<CharFont> cfs=new ArrayList<CharFont>();
 		ArrayList<BlockFormat> bfs=new ArrayList<BlockFormat>();
 		
 		for(Page page:pages)
@@ -266,25 +246,6 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return bfIndexes;
-		
-			//for(Row row:page.rows) {
-				//if(! cfs.contains(row.charfont))
-					//cfs.add(row.charfont);	
-		
-		/*Collections.sort(cfs);
-		int bodyCharfontIndex=-1;
-		for(int i = 0; i<cfs.size();i++ )
-            if(cfs.get(i).equals(bodyCharfont)) {
-            	bodyCharfontIndex = i;
-                break;
-            }
-		
-		Map<CharFont,Integer> cfIndexes=new HashMap<>();
-		for(int i=0; i<cfs.size();i++ ) {
-			cfIndexes.put(cfs.get(i),i-bodyCharfontIndex);
-		}
-		
-		return cfIndexes;*/
 	}
 	
 	private int columnWidth() {
@@ -308,6 +269,39 @@ public class Content extends PDFTextStripper {
 		
 		Integer i=blockWidths.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		return i;
+	}
+	
+	private void joinColumnSameRow() {
+		for(Page page:pages) {
+			Collections.sort(page.rows,Row.compareRowHeights);
+			Collections.reverse(page.rows);
+			
+			for(int i=0;i<page.rows.size();i++) {
+				Row row1=page.rows.get(i);
+				for(int j=i+1;j<page.rows.size();j++) {
+					Row row2=page.rows.get(j);
+					
+					if(! row1.vContains(row2))
+						continue;
+					
+					if(row1.block==row2.block || 
+							(row2.block.rows.size()==1 && row1.block.column==row2.block.column)) {
+						row1.mergeUpdateWidth(row2);
+						
+
+						Block b=row2.block;
+						if(b.rows.size()==0) {
+							if(b.column!=null)
+								b.column.blocks.remove(b);
+							page.blocks.remove(b);
+						}
+					}
+				}
+					
+			}
+			
+			Collections.sort(page.rows,Row.compareRows);
+		}
 	}
 	
 	private void markHeaderBlock() {
@@ -564,7 +558,7 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	public String text() {		
+	public String body() {		
 		hasFirstBodyBlock=false;
 		
 		String str="";

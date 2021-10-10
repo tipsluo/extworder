@@ -33,17 +33,6 @@ public class Block extends Rectangle {
 	final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 	static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
 	
-	/*public Block(Page page, int x, int y) {
-		super();
-		
-		this.page=page;
-		build(x,y);
-		
-		Collections.sort(rows,Row.compareRows);
-		
-		format=new BlockFormat(mostCharFont());
-	}*/
-	
 	public Block(Page page, Row row) {
 		super();
 		
@@ -76,13 +65,6 @@ public class Block extends Rectangle {
 		format=new BlockFormat(mostCharFont());
 		updateFormat();
 	}
-	
-	/*public void build(int x, int y) {
-		rows=new ArrayList<Row>();
-		
-		if ( page.pageBitmap.points[x][y].ch != null )
-			expand(page.pageBitmap.points[x][y].ch.row);
-	}*/
 	
 	public void build(Row row) {
 		rows=new ArrayList<Row>();
@@ -427,14 +409,25 @@ public class Block extends Rectangle {
 	}
 	
 	int isParagraphBlock() {
-		int ret=1;
+		int ret=Common._ParaSentDefaultTrue;
+		
+		int paraSentUnoNoTerm=0;
 		
 		for(Row row:rows) {
-			if(row.firstParagraphLine() || 
-					row.isParaphaphLine() ||
-					row.lastParagraphLine()>=0)
+			int f=row.firstParagraphLine();
+			boolean p=row.isParaphaphLine();
+			int l=row.lastParagraphLine();
+			
+			if(f>Common._ParaSentDefaultTrue || p || l>=Common._ParaSentDefaultTrue)
 				continue;	
-			return -1;
+			
+			if(l==Common._ParaSentUnoNoTerm)
+				paraSentUnoNoTerm++;
+			else
+				paraSentUnoNoTerm=0;
+				
+			if(paraSentUnoNoTerm>1)
+				return Common._ParaSentDefaultFalse;
 		}
 		return ret;
 	}
@@ -443,19 +436,28 @@ public class Block extends Rectangle {
 		Rectangle rect = column==null ? page : column;
 		
 		//if(width<=page.content.minBodyBlockWidth)
-		//	return -1;
+		//	return -100;
+		
+		if(type==Common._PageFooterBlock || type==Common._PageHeaderBlock)
+			return Common._ParaSentDefaultFalse;
 		
 		if(rows.size()==1) {
 			Row row=rows.get(0);
-			if(! row.rightAligned(rect) && ! row.terminatedSentence())
-				return -1;
+			
+			// row need to be the lastlineinblock
+			if(row.lastParagraphLine()<=Common._ParaSentDefaultFalse)
+				return Common._ParaSentDefaultFalse;
+			/*if(! row.rightAligned(rect) && ! row.terminatedSentence())
+				return Common._ParaSentDefaultFalse;*/
+			
+			//for ",   (2)"
+			if(row.firstParagraphLineInRect(rect)<=Common._ParaSentDefaultFalse)
+				return Common._ParaSentDefaultFalse;
 		}
 
 		int ret=isParagraphBlock();
-		if(ret != 0)
-			return ret;
-
-		return 0;
+		
+		return ret;
 	}
 	
 	public boolean priorTo(Block block) {
@@ -489,22 +491,8 @@ public class Block extends Rectangle {
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
 				content.blockformatIndexes.get(format),left,right,upper,lower));
-		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d\n\n",
-				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft));
-		
-		/*int y=rows.get(0).lower;
-		for(Row row:rows) {
-			if(row.scarce())
-				continue;
-			
-			if (row.upper>y) {
-				fw.write("\n");
-				y=row.lower;
-			} else {
-				fw.write(" ");
-			}
-			row.print(fw);
-		}*/
+		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d, likeBody=%d\n\n",
+				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft, likeBodyBlock()));
 		
 		fw.write(string());
 		

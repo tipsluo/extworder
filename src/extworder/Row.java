@@ -6,9 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
@@ -30,6 +28,8 @@ public class Row extends Rectangle {
 	
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
+	static Comparator<Row> compareRowHeights = (Row r1, Row r2) ->
+		r1.height-r2.height;
 	
 	public Row(Row from) {
 		page=from.page;
@@ -224,26 +224,26 @@ public class Row extends Rectangle {
 			ch.row=null;
 	}
 	
-	void merge(Row row) {
+	void mergeUpdateWidth(Row row) {
 		for (Char ch:row.chars) {
 			ch.row=this;
-			//updateRectangle(ch);
 		}
 		
 		chars.addAll(row.chars);
 		
-		updateRectangle(row);
+		if(left>row.left)
+			left=row.left;
+		if(right<row.right)
+			right=row.right;
+		
 		width=right-left;
 		height=lower-upper;
 		
-		/*Collections.sort(chars,Char.compareChars);
-
-		charfont=getCharFont();*/
-		
 		render();
 		
-		if (row.block!=null)
+		if (row.block!=null) {
 			row.block.rows.remove(row);
+		}
 		page.rows.remove(row);
 	}
 	
@@ -391,21 +391,11 @@ public class Row extends Rectangle {
 	
 	int alignmentInFrame() {
 		int a;
-		//int l;
 		if(block.column!=null) {
 			a=super.alignment(block.column,page.content.centralAlignmentAdjustment);
-			//l=block.column.left;
 		} else {
 			a=super.alignment(page,page.content.centralAlignmentAdjustment);
-			//l=page.left;
 		}
-		
-		/*if(a==Common._RIGHTALIGNED) {
-			int d=left-l;
-			if(d>=0 && 
-					d < charfont.height * Common._FirstRowIndentRatio)
-				return Common._FIRSTROWCENTERALIGNED;
-		}*/
 		
 		return a;
 	}
@@ -422,31 +412,43 @@ public class Row extends Rectangle {
 		return Common.terminated.matcher(s).find();
 	}
 	
-	boolean firstParagraphLine() {
-		int d=left-block.left;
-		if(d>=0 &&
-				d < charfont.height * Common._FirstLineIndentRatio &&
-				(rightAligned(this) || terminatedSentence()))
-				//rightAligned(this))
-			return true;
+	int firstParagraphLineInRect(Rectangle rect) {
+		if( ! rightAligned(rect) && ! terminatedSentence())
+			return Common._ParaSentDefaultFalse;
+		
+		int d=left-rect.left;
+		if(d>0 && 
+			d < charfont.height * Common._FirstLineIndentRatio)
+			return Common._ParaSentDefaultTrue;
+		
+		if(d==0)
+			return Common._ParaSentDefaultUno;
 					
-		return false;
+		return Common._ParaSentDefaultFalse;
+	}
+	
+	int firstParagraphLine() {
+		return firstParagraphLineInRect(block);
+	}
+	
+	int lastParagraphLineInRect(Rectangle rect) {
+		if(!leftAligned(rect) && firstParagraphLine()<100)
+			return Common._ParaSentDefaultFalse;
+		if(rightAligned(rect))
+			return Common._ParaSentDefaultUno;
+
+		if(terminatedSentence())
+			return Common._ParaSentDefaultTrue;
+		else
+			return Common._ParaSentUnoNoTerm;
 	}
 	
 	int lastParagraphLine() {
-		if(!leftAligned(this) && !firstParagraphLine())
-			return -1;
-		if(rightAligned(this))
-			return 0;
-
-		if(terminatedSentence())
-			return 1;
-		
-		return -1;
+		return lastParagraphLineInRect(block);
 	}
 	
 	boolean isParaphaphLine() {
-		return leftAligned(this) && rightAligned(this);
+		return leftAligned(block) && rightAligned(block);
 	}
 
 	private CharFont getCharFont() {

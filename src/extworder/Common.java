@@ -27,12 +27,12 @@ public class Common {
 	final static int _CharHSpaceAddGap=2;
 	final static float _CharHGapRatio=2.5f;
 	//final static int _CharHGap=10;
-	final static float _CharVGapRatio=2.5f;
+	final static float _CharVGapRatio=2.0f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static int _CharLeftAdjustment=2;
 	final static int _MinBigTextBlockFirstRowLength=5;
-	final static float _FirstLineIndentRatio=2.0f;
+	final static float _FirstLineIndentRatio=2.5f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -53,6 +53,11 @@ public class Common {
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
 	final static int _MaxCharVGapAdj=1;
 	final static int _MinCharVGapAdj=-2;
+	
+	final static int _ParaSentUnoNoTerm=1;
+	final static int _ParaSentDefaultTrue=100;
+	final static int _ParaSentDefaultFalse=-100;
+	final static int _ParaSentDefaultUno=0;
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	//final static float _ColumnMinWidthRatio=0.3f;

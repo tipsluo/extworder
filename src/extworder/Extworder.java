@@ -53,7 +53,7 @@ public class Extworder {
     }*/
 	
 	static public void main_test4_printRows() throws IOException {
-		//displayRows("A model for estimating parameters of rotational landslide");
+		displayRows("A model for estimating parameters of rotational landslide");
 		//displayRows("Peace-Development and Peace Through");
 		//displayRows("Broader perspective on ecosystem");
 		//displayRows("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -257,16 +257,11 @@ public class Extworder {
 				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
 				for(Block block:page.blocks)
 					for(Row row:block.rows) {
-			    			/*if(row.chars.size()==0) {
-			    				int i=page.rows.indexOf(row);
-			    				System.out.printf("%d",i);
-			    			}*/
-			    			
-			    				myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
-			    								" width=%d height=%d fontname=%s wordint.min=%d wordint.max=%d\n", 
-				    				row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,
-				    				row.width,row.height,row.charfont.name,row.wordInterval.min, row.wordInterval.max));
-				    	}
+						myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
+								" width=%d height=%d fontname=%s wordint.min=%d wordint.max=%d\n", 
+								row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,
+								row.width,row.height,row.charfont.name,row.wordInterval.min, row.wordInterval.max));
+					}
 			    	
 			}
 		} finally {
@@ -318,7 +313,7 @@ public class Extworder {
 		//myWriter.write(String.format("Subtitles:\n"));
 		//myWriter.write(content.subtitles());
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
-		myWriter.write(content.text());
+		myWriter.write(content.body());
 		
 		//java.io.PrintStream p = new java.io.PrintStream(Common._TestDataDir+fn+"_content.txt","UTF-8");
 		//p.println(content.text());

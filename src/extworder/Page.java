@@ -71,7 +71,6 @@ public class Page extends Rectangle{
 		
 		pageBitmap=new PageBitmap(this);
 		eliminateCharIntersections();
-		//pageBitmap=new PageBitmap(this);
 
 		getAllRows();
 		getAllCharBlocks();
@@ -366,22 +365,6 @@ public class Page extends Rectangle{
 				blocks.add(block);
 			}
 		}
-			
-		/*for(int x=left; x<=right;x++)
-			for(int y=upper;y<=lower;y++) {
-				Point p=pageBitmap.points[x][y];
-				if ( p == null) continue;
-				
-				Char ch=p.ch;
-				if(ch==null) continue;
-				
-				if(ch.row.block==null) {
-					//Block block=new Block(this,x,y);
-					Block block=new Block(this,ch.row);
-					blocks.add(block);
-				}
-			}*/
-		
 		
 		for(Block block:blocks) {
 			block.separateUpperLeftBigChar();
@@ -527,22 +510,8 @@ public class Page extends Rectangle{
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks) {
-			//if(block.column==null)
 				block.print(fw);
 		}
-		
-		/*fw.write("\n\nColumn:\n");
-		for(Column column:columns) {
-			column.print(fw);
-		}*/
-		
-		/*fw.write("\n\nColored Blocks:\n----------------------\n");
-		if(coloredBlocks!=null && coloredBlocks.size()>0)
-			for(ColoredBlock coloredBlock: coloredBlocks)
-				fw.write(String.format("left %d upper %d right %d lower %d \n",
-						coloredBlock.left,coloredBlock.upper,
-						coloredBlock.right,coloredBlock.lower));*/
-
 	}
 	
 	String body() {

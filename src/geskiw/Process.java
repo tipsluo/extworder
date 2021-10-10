@@ -48,7 +48,7 @@ public class Process {
 		
 		ignoreCatNSubBlock();
 
-		str+=content.text();
+		str+=content.body();
 		
 		return str;
 	}
