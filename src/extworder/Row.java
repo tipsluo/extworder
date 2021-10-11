@@ -413,6 +413,11 @@ public class Row extends Rectangle {
 	}
 	
 	int firstParagraphLineInRect(Rectangle rect) {
+		
+		
+//if(string().contains("The global nursing shortage") )
+//		System.out.println("");
+
 		if( ! rightAligned(rect) && ! terminatedSentence())
 			return Common._ParaSentDefaultFalse;
 		
@@ -434,8 +439,9 @@ public class Row extends Rectangle {
 	int lastParagraphLineInRect(Rectangle rect) {
 		if(!leftAligned(rect) && firstParagraphLine()<100)
 			return Common._ParaSentDefaultFalse;
-		if(rightAligned(rect))
-			return Common._ParaSentDefaultUno;
+		
+		/*if(rightAligned(rect))
+			return Common._ParaSentDefaultUno;*/
 
 		if(terminatedSentence())
 			return Common._ParaSentDefaultTrue;

@@ -5,13 +5,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import extworder.Block.BlockFormat;
 import extworder.Common.AdditionalSubtitleFormatFilter;
 import extworder.Common.BigBlockFilter;
 import extworder.Common.SubtitleBlockFilter;
@@ -32,6 +29,10 @@ public class Block extends Rectangle {
 	final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
 	final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 	static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
+	
+	public Block() {
+		super();
+	}
 	
 	public Block(Page page, Row row) {
 		super();
@@ -100,23 +101,6 @@ public class Block extends Rectangle {
 			column.blocks.remove(block);
 		
 		Collections.sort(rows,Row.compareRows);
-		
-		/*boolean merged=false;
-		for(int i1=0; i1<rows.size(); i1++) {
-			Row row1=rows.get(i1);
-			for(int i2=0; i2<rows.size(); i2++) {
-				Row row2=rows.get(i2);
-				if(row1!=row2 && 
-					(row1.isVIntersected(row2) && row1.isHIntersected(row2)) ) {
-					row1.merge(row2);
-					i2--;
-					merged=true;
-				}
-			}
-			if(merged)
-				i1--;
-			merged=false;
-		}*/
 	}
 	
 	ArrayList<Block> split(int rowNum) {
@@ -216,13 +200,6 @@ public class Block extends Rectangle {
 			return super.alignment(column,page.content.centralAlignmentAdjustment);
 		else
 			return super.alignment(page,page.content.centralAlignmentAdjustment);
-		/*if(column!=null) {
-			l=column.left;
-			r=column.right;
-		} else {
-			l=page.left;
-			r=page.right;
-		}*/
 	}
 	
 	public void setIgnored(String ignoredString) {
@@ -303,13 +280,18 @@ public class Block extends Rectangle {
 		return true;
 	}
 	
-	boolean isBodyFullBlock() {
+	boolean isBodyCharfontFullBlock() {
 		return format.equals(page.content.bodyBlockformat) && 
 				isFull(page.content,column);
 	}
 	
+	boolean isBodyBlock() {
+		return format.equals(page.content.bodyBlockformat) && 
+				likeBodyBlock()>=Common._ParaSentDefaultFalse;
+	}
+	
 	boolean isBodyInfinished() {
-		if(! isBodyFullBlock())
+		if(! isBodyCharfontFullBlock())
 			return false;
 			
 		String lastStr=rows.get(rows.size()-1).string();
@@ -325,34 +307,6 @@ public class Block extends Rectangle {
 		return true;
 	}
 
-	/*boolean isNonTitle() {
-		if(rows.size()<2)
-			if(string().length() >= Common._MinTitleLength)
-				return false;
-			else
-				return true;
-		
-		Row row1=rows.get(0);
-		for(int i=1; i<rows.size(); i++) {
-			Row row2=rows.get(i);
-			String s=row2.string();
-			
-			int p=s.indexOf(' ');
-			
-			if(p<0)
-				continue;
-			
-			int l=row2.chars.get(p).right-row2.chars.get(0).left+1;
-			int minRight=column.right - l;
-			
-			if(row1.right < minRight)
-				return true;
-			
-			row1=row2;
-		}
-		return false;
-	}*/
-	
 	int likeTitleBlock( ) {
 		if(string().trim().isEmpty())
 			return -1;
@@ -396,21 +350,7 @@ public class Block extends Rectangle {
 		return 0;
 	}
 	
-	boolean isNotBodyBlockWidth3() {
-		//int width=right-left+1;
-		
-		/* need to support lines like:
-		 * 1.       last sentence.
-		 */
-		if(column==null)
-			return format.alignment!=Common._LEFTALIGNED && width<=page.content.minBodyBlockWidth;
-		
-		return format.alignment!=Common._LEFTALIGNED && width<=page.content.minBodyColumnBlockWidth;
-	}
-	
 	int isParagraphBlock() {
-		int ret=Common._ParaSentDefaultTrue;
-		
 		int paraSentUnoNoTerm=0;
 		
 		for(Row row:rows) {
@@ -418,28 +358,38 @@ public class Block extends Rectangle {
 			boolean p=row.isParaphaphLine();
 			int l=row.lastParagraphLine();
 			
-			if(f>Common._ParaSentDefaultTrue || p || l>=Common._ParaSentDefaultTrue)
+			if(f>=Common._ParaSentDefaultTrue || p || l>=Common._ParaSentDefaultTrue)
 				continue;	
 			
-			if(l==Common._ParaSentUnoNoTerm)
-				paraSentUnoNoTerm++;
-			else
-				paraSentUnoNoTerm=0;
-				
-			if(paraSentUnoNoTerm>1)
+			if(f<=Common._ParaSentDefaultFalse && !p && l<=Common._ParaSentDefaultFalse)
 				return Common._ParaSentDefaultFalse;
+			
+			if(l==Common._ParaSentUnoNoTerm) {
+				paraSentUnoNoTerm++;
+				if(paraSentUnoNoTerm>1)
+					return Common._ParaSentDefaultFalse;
+			} else
+				paraSentUnoNoTerm=0;
 		}
-		return ret;
+		
+		if(paraSentUnoNoTerm>0)
+			return Common._ParaSentUnoNoTerm;
+		
+		return Common._ParaSentDefaultTrue;
 	}
 	
 	int likeBodyBlock() {
 		Rectangle rect = column==null ? page : column;
-		
-		//if(width<=page.content.minBodyBlockWidth)
-		//	return -100;
-		
+
 		if(type==Common._PageFooterBlock || type==Common._PageHeaderBlock)
 			return Common._ParaSentDefaultFalse;
+
+		if(page.content.bodyBlockformat!=null &&
+				! format.equals(page.content.bodyBlockformat))
+				return Common._ParaSentDefaultFalse;
+//if(string().contains("School of Nursing, University of Notre") )
+//		System.out.println("");
+		
 		
 		if(rows.size()==1) {
 			Row row=rows.get(0);

@@ -22,17 +22,15 @@ public class Common {
 	
 	final static String _TestDataDir="data/";
 	
-	//final static float _CharHGapSpaceTimes=1.5f;
 	final static float _SpaceAdjustment=0.8f;
 	final static int _CharHSpaceAddGap=2;
 	final static float _CharHGapRatio=2.5f;
-	//final static int _CharHGap=10;
 	final static float _CharVGapRatio=2.0f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static int _CharLeftAdjustment=2;
 	final static int _MinBigTextBlockFirstRowLength=5;
-	final static float _FirstLineIndentRatio=2.5f;
+	final static float _FirstLineIndentRatio=3.5f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -46,13 +44,15 @@ public class Common {
 	final static String _PageHeaderBlock="PAGEHEADER";
 	final static String _PageFooterBlock="PAGEFOOTER";
 	final static String _BeforeFirstBody="BEFOREFIRSTBODY";
-	final static String _FirstBody="FIRSTBODY";
+	//final static String _FirstBody="FIRSTBODY";
+	final static String _Body="BODY";
 	final static String _SubtitlePrefix="SUBTITLE_";
 	final static String _IgnoredBlockPrefix="IGNORED_";
 	final static String _IgnoredBlockIntraBody=_IgnoredBlockPrefix+"INTRABODY";
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
 	final static int _MaxCharVGapAdj=1;
 	final static int _MinCharVGapAdj=-2;
+	final static float _MaxInterBodyBlockGap=8;
 	
 	final static int _ParaSentUnoNoTerm=1;
 	final static int _ParaSentDefaultTrue=100;
@@ -320,13 +320,17 @@ public class Common {
 		public boolean filter(Block block) {
 			if(block.column==null)
 				return false;
+			return block.type==Common._Body;
+			//return block.likeBodyBlock()>=Common._ParaSentDefaultTrue;
 			
-			if(block.format.equals(block.page.content.bodyBlockformat)) {
-				if(block.type==Common._BeforeFirstBody)
+			/*if(block.format.equals(block.page.content.bodyBlockformat)) {
+				if(block.type==Common._BeforeFirstBody || block.column==null)
 					return false;
 				else {
-					//if(block.isNotBodyBlockWidth1() || block.isAllScarce())
-					if(block.likeBodyBlock()<0 || block.isAllScarce())
+					if(block.isParagraphBlock()<Common._ParaSentDefaultTrue)
+						return false;
+					
+					if(block.isAllScarce())
 						return false;
 					
 					if (block.rows.size()==1) {
@@ -340,14 +344,11 @@ public class Common {
 							return false;
 					}
 					
-					if(block.isParagraphBlock()<0)
-						return false;
-					
 					return true;
 				}
-			}
+			}*/
 			
-			return false;
+			//return false;
 		}
 	}
 	

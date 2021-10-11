@@ -53,7 +53,7 @@ public class Extworder {
     }*/
 	
 	static public void main_test4_printRows() throws IOException {
-		displayRows("A model for estimating parameters of rotational landslide");
+		//displayRows("A model for estimating parameters of rotational landslide");
 		//displayRows("Peace-Development and Peace Through");
 		//displayRows("Broader perspective on ecosystem");
 		//displayRows("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -101,7 +101,7 @@ public class Extworder {
 			return;
 		}*/
 		
-		printBlocks("A model for estimating parameters of rotational landslide");
+		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -122,6 +122,7 @@ public class Extworder {
 		//printBlocks("Library&Archive-Review Essay-Instruction and Archives");
 		//printBlocks("Artforum-1995 Painting for Profit and Pleasure");
 		//printBlocks("Ad in front-Library-driven approach for fast implementation");
+		printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 	}
@@ -135,7 +136,7 @@ public class Extworder {
 			return;
 		}*/
 		
-		printContent("A model for estimating parameters of rotational landslide");
+		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
@@ -163,8 +164,9 @@ public class Extworder {
 		//printContent("AMS-PACMAN RENORMALIZATION");
 		
 		//to fix
+		printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
-		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
+		
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 	}
 	

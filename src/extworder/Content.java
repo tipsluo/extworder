@@ -1,8 +1,5 @@
 package extworder;
 
-import java.awt.geom.Area;
-import java.awt.geom.GeneralPath;
-import java.awt.geom.Point2D;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
@@ -20,10 +17,8 @@ import org.apache.pdfbox.util.Vector;
 
 import extworder.Block.BlockFormat;
 import extworder.Page.Column;
-import extworder.Row.CharFont;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -43,9 +38,6 @@ public class Content extends PDFTextStripper {
     String keywordStr;
     
 	ArrayList<Page> pages;
-    //TreeMap<CharFont,Integer> charfonts;
-    //Map<CharFont,Integer> charfontIndexes;
-    //CharFont bodyCharfont;
 	TreeMap<BlockFormat,Integer> blockformats;
 	Map<BlockFormat,Integer> blockformatIndexes;
     BlockFormat bodyBlockformat;
@@ -53,7 +45,7 @@ public class Content extends PDFTextStripper {
     Page currPage=null;
 	PDFRenderer renderer;
     int contentLeft,contentRight,contentWidth;
-    float lowContentWidth, highContentWidth, minBodyBlockWidth;
+    float lowContentWidth, highContentWidth;
 	int columnNumber,columnWidth;
 	float lowColumnWidth,highColumnWidth,minBodyColumnBlockWidth;
 	int centralAlignmentAdjustment=0;
@@ -161,11 +153,11 @@ public class Content extends PDFTextStripper {
 		}
 		
 		getBodyFormat();
-		getFirstBodyBlock();
+		//getFirstBodyBlock();
+		getAllBodyBlocks();
 		
 		for(Page page:pages) {
 			page.separateAllUppers(bodyBlockformat.charfont);
-			//page.separateAllUppers(bodyCharfont);
 		}
 		
 		allWords=scanTextAlphabetWords();
@@ -192,7 +184,7 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(block.likeBodyBlock()>0 &&
+					if(block.likeBodyBlock()>Common._ParaSentDefaultFalse &&
 							! blockformats.containsKey(block.format))
 						blockformats.put(block.format,evaluateBodyBlockformat(block.format));
 				}
@@ -354,7 +346,7 @@ public class Content extends PDFTextStripper {
 		contentWidth=contentRight-contentLeft+1;
 		lowContentWidth=contentWidth*(1-Common._ColumnWidthAdjustment);
 		highContentWidth=contentWidth*(1+Common._ColumnWidthAdjustment);
-		minBodyBlockWidth=contentWidth*Common._MinBodyCharBlockWidth;  //for multiple rows
+		//minBodyBlockWidth=contentWidth*Common._MinBodyCharBlockWidth;  //for multiple rows
 		
 		columnWidth=columnWidth();
 		lowColumnWidth=columnWidth*(1-Common._ColumnWidthAdjustment);
@@ -422,7 +414,7 @@ public class Content extends PDFTextStripper {
 		for(;i<bigBlockList.size();i++) {
 			Block block=bigBlockList.get(i);
 			
-			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).isBodyFullBlock())
+			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).likeBodyBlock()>=Common._ParaSentDefaultTrue)
 				if(Block.additionalSubtitleFormatFilter.filter(block)) {
 					block.type=Common.subtitleBlockType(block);
 					continue;
@@ -458,7 +450,7 @@ public class Content extends PDFTextStripper {
 					}
 					
 					if(textInfinished)
-						if(block.isBodyFullBlock()) {
+						if(block.isBodyCharfontFullBlock()) {
 							textInfinished=false;
 							continue;
 						} else if(block.type.isEmpty()) {
@@ -607,7 +599,7 @@ public class Content extends PDFTextStripper {
 			for(int j=0; j<page.blocks.size();j++) {
 				block=page.blocks.get(j);
 				
-				if(block.type==Common._FirstBody)
+				if(block.type==Common._Body)
 					break;
 				
 				if(block.likeTitleBlock()<0)
@@ -623,7 +615,7 @@ public class Content extends PDFTextStripper {
 				}
 			}
 			
-			if(block.type==Common._FirstBody)
+			if(block.type==Common._Body)
 				break;
 		}
 			
@@ -636,7 +628,7 @@ public class Content extends PDFTextStripper {
 	private Block getAbstractBlock() {
 		abstractStr=getKeyBlockStr(
 				0,
-				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n*]?"));
+				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?"));
 		if(activeBlock!=null && activeBlock.isParagraphBlock()>=0) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
@@ -644,7 +636,7 @@ public class Content extends PDFTextStripper {
 			for (Page page:pages) {
 				for(int i=0; i<page.blocks.size();i++) {
 					Block block=page.blocks.get(i);
-					if(block.type==Common._FirstBody) {
+					if(block.type==Common._Body) {
 						return null;
 					} 
 
@@ -686,8 +678,8 @@ public class Content extends PDFTextStripper {
 	}
 	
 	public String getKeyBlockStr(int skipBlockNumber, Pattern pattern) {
-		int minKeyBlockWordNum=Common._MinKeyBlockWordNum + 
-				pages.size() * Common._KeyBlockWordPageRation;
+		/*int minKeyBlockWordNum=Common._MinKeyBlockWordNum + 
+				pages.size() * Common._KeyBlockWordPageRation;*/
 		
 		String str;
 		String ret;
@@ -701,7 +693,7 @@ public class Content extends PDFTextStripper {
 				
 				Block block=page.blocks.get(i);
 				
-				if(block.type==Common._FirstBody) {
+				if(block.type==Common._Body) {
 					stopped=true;
 					break;
 				}
@@ -709,8 +701,6 @@ public class Content extends PDFTextStripper {
 				str=block.string();
 				str=str.replaceAll("[\\r\\n]+", " ");
 				str=str.replaceAll("\\s+", " ");
-				
-				String[] ws=str.split("[\\s\n]");
 				
 				Matcher m = pattern.matcher(str);
 				if (m.find()) {
@@ -840,14 +830,13 @@ public class Content extends PDFTextStripper {
 	private int getIncreasingFormatBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
-		if(block.isBodyFullBlock()) {
+		//if(block.isBodyFullBlock()) {
+		if(block.likeBodyBlock()>=Common._ParaSentDefaultTrue) {
 			Block block0=block;
 			
 			int i1=endBlockIndex-1;
 			for(; i1>=0; i1--) {
 				Block block1=blocks.get(i1);
-				/*if(block1.format.charfont.equals(textCharfont))
-					break;*/
 				
 				if(block0.format.compareTo(block1.format)>=0)
 					break;
@@ -874,11 +863,11 @@ public class Content extends PDFTextStripper {
 		return blocklist;
 	}
 	
-	private Block getFirstBodyBlock() {
+	/*private Block getFirstBodyBlock() {
 		for(Page page:pages) {
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(block.isBodyFullBlock()) {
+					if(block.likeBodyBlock()>=Common._ParaSentDefaultTrue) {
 						block.type=Common._FirstBody;
 						return block;
 					} else if(block.type.isEmpty())
@@ -886,6 +875,48 @@ public class Content extends PDFTextStripper {
 				}
 		}
 		return null;
+	}*/
+	
+	private void getAllBodyBlocks() {
+		ArrayList<Block> bodyBlocks=new ArrayList<Block>();
+		
+		for(Page page: pages) {
+			ArrayList<Block> unoBlocks=new ArrayList<Block>();
+			
+			for(Column column:page.columns)
+				for(Block block:column.blocks) {
+					if(block.type!="")
+						continue;
+					
+					int lbb=block.likeBodyBlock();
+					if(lbb>=Common._ParaSentDefaultTrue)
+						bodyBlocks.add(block);
+					if(lbb<Common._ParaSentDefaultTrue &&
+							lbb>Common._ParaSentDefaultFalse)
+						unoBlocks.add(block);
+				}
+		
+			/*for(Block block:unoBlocks) {
+				if(block.column==null || block.type!="")
+					continue;
+				
+				Block virtualBlock=Validation.verifyUnoBodyBlock(block,unoBlocks);
+				
+				if(virtualBlock!=null)
+					for(Block b: unoBlocks)
+						if(virtualBlock.contains(b) && b.type!="")
+							bodyBlocks.add(b);
+			}*/
+		}
+		
+		for(Block block:bodyBlocks) {
+//if(block.string().contains("Senior registered nurses"))
+	//			System.out.println("");
+			
+			Block virtualBlock=Validation.verifyBodyBlock(block,block.page.blocks);
+			if(virtualBlock!=null)
+				block.type=Common._Body;
+		}
 	}
 	
 	static class HStretch implements Comparable<HStretch> {
