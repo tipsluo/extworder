@@ -126,6 +126,7 @@ public class Extworder {
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
+		//printBlocks("Archaeology-2020Digital Platforms and the Nature");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -157,19 +158,18 @@ public class Extworder {
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 		//printContent("APS-Evidence for CP violation in B");
-		//printContent("Library&Archive-Review Essay-Instruction and Archives"); //strange. some chars are not be able to be marked.
-		//printContent("Archaeology-1896 CRETAN EXPEDITION"); // not resolved , arabic chars
-		//printContent("Archaeology-2020Digital Platforms and the Nature");
 		//printContent("Artforum-1995 Painting for Profit and Pleasure");
 		//printContent("Ad in front-Library-driven approach for fast implementation");
 		//printContent("AMS-PACMAN RENORMALIZATION");
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
+		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
+		//printContent("Archaeology-2020Digital Platforms and the Nature");
+		//to fix:
 		
-		//to fix
-		
+		//backlog:
 		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
-		
-		printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
+		//printContent("Archaeology-1896 CRETAN EXPEDITION"); // not resolved , arabic chars
+		//printContent("Library&Archive-Review Essay-Instruction and Archives"); //strange. some chars are not be able to be marked.
 	}
 	
 	public static void extract(String fn) throws IOException {

@@ -636,9 +636,6 @@ public class Content extends PDFTextStripper {
 				for(int i=0; i<page.blocks.size();i++) {
 					Block block=page.blocks.get(i);
 
-					
-if(block.string().contains("Collisions between complex"))
-						System.out.println("");
 					if(block.type==Common._Body) {
 						return null;
 					} 

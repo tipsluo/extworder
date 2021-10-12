@@ -30,7 +30,7 @@ public class Common {
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static int _CharLeftAdjustment=2;
 	final static int _MinBigTextBlockFirstRowLength=5;
-	final static float _FirstLineIndentRatio=3.5f;
+	final static float _FirstLineIndentRatio=5f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
