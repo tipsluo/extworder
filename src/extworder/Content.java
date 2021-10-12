@@ -913,7 +913,7 @@ public class Content extends PDFTextStripper {
 //if(block.string().contains("Senior registered nurses"))
 	//			System.out.println("");
 			
-			Block virtualBlock=Validation.verifyBodyBlock(block,block.page.blocks);
+			Block virtualBlock=Validation.verifyBodyBlock(block);
 			if(virtualBlock!=null)
 				block.type=Common._Body;
 		}

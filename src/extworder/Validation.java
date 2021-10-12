@@ -1,5 +1,9 @@
 package extworder;
 
+import java.util.ArrayList;
+
+import extworder.Block.BlockFormat;
+
 public class Validation {
 	public Validation() {
 		// TODO Auto-generated constructor stub
@@ -19,5 +23,44 @@ public class Validation {
 			}
 			
 		return true;
+	}
+	
+	static Block verifyBodyBlock(Block block) {
+		int maxGap=Math.round(Common._MaxInterBodyBlockGap * block.format.charfont.height);
+
+		Block virtualBlock=new Block();
+				
+		virtualBlock.updateRectangle(block);
+		
+		ArrayList<Block> ubs=block.traceAllAbove(block.page.blocks,maxGap);
+		for(Block ub:ubs) {
+			virtualBlock.updateRectangle(ub);
+		}
+		
+		ArrayList<Block> lbs=block.traceAllBelow(block.page.blocks,maxGap);
+		for(Block lb:lbs) {
+			virtualBlock.updateRectangle(lb);
+		}
+		
+		if( Math.abs(block.column.width-virtualBlock.width) > block.column.width * Common._ColumnWidthAdjustment)
+			return null;
+		
+		int c=block.page.columns.indexOf(block.column);
+		
+		if( c == block.page.columns.size()-1)
+			return virtualBlock;
+		
+		if(block.page.columns.get(c+1).blocks.size()==0)
+			return virtualBlock;
+		
+		lbs=block.getAllBelow(block.column.blocks);
+		if(lbs.size()>0)
+			return virtualBlock;
+
+		
+		if(virtualBlock.lower < block.column.lower - maxGap)
+			return null;
+		
+		return virtualBlock;
 	}
 }

@@ -52,7 +52,7 @@ public class Common {
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
 	final static int _MaxCharVGapAdj=1;
 	final static int _MinCharVGapAdj=-2;
-	final static float _MaxInterBodyBlockGap=8;
+	final static float _MaxInterBodyBlockGap=4;
 	
 	final static int _ParaSentUnoNoTerm=1;
 	final static int _ParaSentDefaultTrue=100;

@@ -297,13 +297,6 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	/*public void tuneBlocks(CharFont textCharfont) {
-		for(Column column:columns)
-			column.tuneBlocks(textCharfont);
-		
-		Collections.sort(blocks,Block.compareBlocks);
-	}*/
-	
 	void separateAllUppers(CharFont textCharfont) {
 		Block block;
 		for(int i=0; i<blocks.size(); i++) {

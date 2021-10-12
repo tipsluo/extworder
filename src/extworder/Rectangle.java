@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 import extworder.Page.Column;
 
-public abstract class Rectangle {
+public class Rectangle {
 	int left,upper,right,lower;
 	int width, height;
 	
@@ -185,6 +185,68 @@ public abstract class Rectangle {
 		}
 		
 		return cs;
+	}
+	
+	@SuppressWarnings("unchecked")
+	protected <T extends Rectangle> ArrayList<T> traceAllAbove(ArrayList<T> ts, int maxGap) {
+		ArrayList<T> rects=new ArrayList<T>();
+		rects.add((T)this);
+		
+		for(;;) {
+			ArrayList<T> rects1=new ArrayList<T>();
+			
+			for(T rect:rects) {
+				if(!rects1.contains(rect))
+					rects1.add(rect);
+				
+				ArrayList<T> als=rect.getAllAbove(ts);
+				
+				for(T al:als)
+					if(rect.distance(al)<=maxGap)
+						if(!rects1.contains(al))
+							rects1.add(al);
+			}
+			
+			if(rects1.size()==rects.size()) {
+				rects=rects1;
+				break;
+			} else {
+				rects=rects1;
+			}
+		}
+		
+		return rects;
+	}
+	
+	@SuppressWarnings("unchecked")
+	protected <T extends Rectangle> ArrayList<T> traceAllBelow(ArrayList<T> ts, int maxGap) {
+		ArrayList<T> rects=new ArrayList<T>();
+		rects.add((T)this);
+		
+		for(;;) {
+			ArrayList<T> rects1=new ArrayList<T>();
+			
+			for(T rect:rects) {
+				if(!rects1.contains(rect))
+					rects1.add(rect);
+				
+				ArrayList<T> bls=rect.getAllBelow(ts);
+				
+				for(T bl:bls)
+					if(rect.distance(bl)<=maxGap)
+						if(!rects1.contains(bl))
+							rects1.add(bl);
+			}
+			
+			if(rects1.size()==rects.size()) {
+				rects=rects1;
+				break;
+			} else {
+				rects=rects1;
+			}
+		}
+		
+		return rects;
 	}
 	
 	static class ComparePerimeter<T extends Rectangle> implements Comparator<T> {
