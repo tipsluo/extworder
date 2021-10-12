@@ -184,7 +184,7 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(block.likeBodyBlock()>Common._ParaSentDefaultFalse &&
+					if(block.likeBodyBlock()>=Common._ParaSentDefaultTrue &&
 							! blockformats.containsKey(block.format))
 						blockformats.put(block.format,evaluateBodyBlockformat(block.format));
 				}
@@ -201,7 +201,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			for(Block block:page.blocks) {
-				if(block.likeBodyBlock()>0)
+				if(block.likeBodyBlock()<Common._ParaSentDefaultTrue)
 					continue;
 				
 				if(block.format.equals(blockformat)) {
@@ -589,7 +589,6 @@ public class Content extends PDFTextStripper {
 	private Block getTitleBlock() {
 		Block titleBlock=null;
 		Block block=null;
-		//CharFont titleCharFont=bodyCharfont;
 		BlockFormat titleBlockformat=bodyBlockformat;
 		
 		for(Page page:pages) {
@@ -636,6 +635,10 @@ public class Content extends PDFTextStripper {
 			for (Page page:pages) {
 				for(int i=0; i<page.blocks.size();i++) {
 					Block block=page.blocks.get(i);
+
+					
+if(block.string().contains("Collisions between complex"))
+						System.out.println("");
 					if(block.type==Common._Body) {
 						return null;
 					} 
@@ -643,14 +646,12 @@ public class Content extends PDFTextStripper {
 					if(block.type==Common._PageHeaderBlock || block.type==Common._PageFooterBlock)
 						continue;
 					
-					if(block.isParagraphBlock()<0)
+					if(block.isParagraphBlock()<Common._ParaSentDefaultTrue)
 						continue;
 					
 					String blockStr=block.string();
 					ArrayList<String> strs=Common.getLetterWords(blockStr);
-					
-					//if(block.type=="")
-					//	continue;		
+						
 					if(strs.size()<Common._MinKeyBlockWordNum)
 						continue;
 					if((Common.hits(allWords,strs) < Common._MinAbstractFreqencyRatio) ||
@@ -714,14 +715,7 @@ public class Content extends PDFTextStripper {
 					
 					activeBlock=block;
 					return ret;
-				} /*else {
-					if (ws.length >= minKeyBlockWordNum && 
-						! block.format.charfont.equals(bodyCharfont)) {
-
-						activeBlock=block;
-						return str;
-					}
-				}*/
+				}
 			}
 			
 			if(stopped)
@@ -895,23 +889,11 @@ public class Content extends PDFTextStripper {
 							lbb>Common._ParaSentDefaultFalse)
 						unoBlocks.add(block);
 				}
-		
-			/*for(Block block:unoBlocks) {
-				if(block.column==null || block.type!="")
-					continue;
-				
-				Block virtualBlock=Validation.verifyUnoBodyBlock(block,unoBlocks);
-				
-				if(virtualBlock!=null)
-					for(Block b: unoBlocks)
-						if(virtualBlock.contains(b) && b.type!="")
-							bodyBlocks.add(b);
-			}*/
 		}
 		
 		for(Block block:bodyBlocks) {
-//if(block.string().contains("Senior registered nurses"))
-	//			System.out.println("");
+//if(block.string().contains("Introduction.—The"))
+//				System.out.println("");
 			
 			Block virtualBlock=Validation.verifyBodyBlock(block);
 			if(virtualBlock!=null)

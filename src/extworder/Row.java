@@ -439,9 +439,6 @@ public class Row extends Rectangle {
 	int lastParagraphLineInRect(Rectangle rect) {
 		if(!leftAligned(rect) && firstParagraphLine()<100)
 			return Common._ParaSentDefaultFalse;
-		
-		/*if(rightAligned(rect))
-			return Common._ParaSentDefaultUno;*/
 
 		if(terminatedSentence())
 			return Common._ParaSentDefaultTrue;
@@ -465,9 +462,6 @@ public class Row extends Rectangle {
 		
 		for (Char ch: chars) {
 			CharFont cf=new CharFont(ch.fontname,ch.height);
-			
-			/*if(cf.equals(page.content.textCharfont))
-				return cf;*/
 			
 			int n=charFonts.compute(cf, (k,v) -> (v == null ? 0 : v) + 1);
         	charFonts.put(cf,n);

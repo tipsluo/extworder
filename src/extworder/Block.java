@@ -387,7 +387,8 @@ public class Block extends Rectangle {
 		if(page.content.bodyBlockformat!=null &&
 				! format.equals(page.content.bodyBlockformat))
 				return Common._ParaSentDefaultFalse;
-//if(string().contains("School of Nursing, University of Notre") )
+		
+//if(string().contains("Introduction.—The") )
 //		System.out.println("");
 		
 		

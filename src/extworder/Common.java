@@ -17,7 +17,7 @@ public class Common {
 	public final static int _MinKeyBlockWordNum=50;	
 	
 	final static float _MinAbstractFreqencyRatio=0.65f;
-	final static float _MinAbstractSentenceRatio=0.65f;
+	final static float _MinAbstractSentenceRatio=0.5f;
 	final static float _MinTitleFreqencyRatio=0.65f;
 	
 	final static String _TestDataDir="data/";
@@ -110,13 +110,11 @@ public class Common {
 		lowercaseExisting=Pattern.compile("[a-z]");
 		uppercase=Pattern.compile("[A-Z]");
 		leading2Uppercase=Pattern.compile("^\\s*[A-Z]{2,}");
-		//scarceRow=Pattern.compile("\\S+\\s{3,}\\S");
 		scarceRow=Pattern.compile("^(\\S+\\s+){0,2}\\S*$");
-		likeSentence1=Pattern.compile("(\\s+\\w+){2,}\\s*\\.");
-		likeSentence2=Pattern.compile("(is|are|was|were|has|have|had|did|do|didn't|don't|hadn't|hasn't|havn't)\\s+");
-		/* May need it later
-		bulletPart1=Pattern.compile("^\\s*([a-zA-Z][.])?(.*)");
-		bulletPart2=Pattern.compile("^\s*([ivxIVX]*[.])?(.*)");*/
+		likeSentence1=Pattern.compile("(\\s+\\w+){2,}\\s*$");
+		likeSentence2=Pattern.compile("(is|are|was|were|am|arn't|" +
+				"wasn't|weren't|has|have|had|did|do|didn't|don't|doesn't" +
+				"hadn't|hasn't|havn't|may|might|must|could|can|should|will|would)\\s+");
 		terminated=Pattern.compile("[.,;?:\")]$");
 	}
 	
@@ -171,7 +169,7 @@ public class Common {
 	}
 	
 	static String[] getSentences(String str){
-		String[] ws = str.toLowerCase().split("[\\.,?;]");
+		String[] ws = str.toLowerCase().split("[\\.?;]");
 		return ws;
 	}
 	

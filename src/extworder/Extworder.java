@@ -124,7 +124,8 @@ public class Extworder {
 		//printBlocks("Ad in front-Library-driven approach for fast implementation");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
-		printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
+		//printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
+		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -162,12 +163,13 @@ public class Extworder {
 		//printContent("Artforum-1995 Painting for Profit and Pleasure");
 		//printContent("Ad in front-Library-driven approach for fast implementation");
 		//printContent("AMS-PACMAN RENORMALIZATION");
+		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		
 		//to fix
-		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
-		printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		
-		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
+		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
+		
+		printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 	}
 	
 	public static void extract(String fn) throws IOException {
