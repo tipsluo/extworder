@@ -65,7 +65,7 @@ public class Extworder {
 		//displayRows("APS-Evidence for CP violation in B");
 		//displayRows("Library&Archive-Review Essay-Instruction and Archives");
 		//displayRows("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
-		displayRows("acs-A Review on Perovskite-Type LaFeO3");
+		//displayRows("acs-A Review on Perovskite-Type LaFeO3");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -113,7 +113,7 @@ public class Extworder {
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-		printBlocks("acs-A Review on Perovskite-Type LaFeO3");
+		//printBlocks("acs-A Review on Perovskite-Type LaFeO3");
 		//printBlocks("APS-Evidence for CP violation in B"); 
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printBlocks("ALA-Past is Prologue");
@@ -151,7 +151,7 @@ public class Extworder {
 		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
 		//printContent("APS-Evidence for CP violation in B");
-		//printContent("Wiley-Early life stress and HPA axis");
+		printContent("Wiley-Early life stress and HPA axis");
 		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter

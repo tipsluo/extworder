@@ -142,22 +142,13 @@ public class Content extends PDFTextStripper {
 		
 		joinColumnSameRow();
 		
-		/* to revisit
-		 * for(Page page:pages) {
-			if(page.separateBlockDiffAligned())
-				page.markHeaderFooter();
-		}*/
-		
 		for(Page page:pages) {
+			page.separateAllUppers();
 			page.updateBlockFormats();
 		}
 		
 		getBodyFormat();
 		getAllBodyBlocks();
-		
-		for(Page page:pages) {
-			page.separateAllUppers(bodyBlockformat);
-		}
 		
 		allWords=scanTextAlphabetWords();
 		
@@ -853,25 +844,11 @@ public class Content extends PDFTextStripper {
 		return blocklist;
 	}
 	
-	/*private Block getFirstBodyBlock() {
-		for(Page page:pages) {
-			for(Column column:page.columns)
-				for(Block block:column.blocks) {
-					if(block.likeBodyBlock()>=Common._ParaSentDefaultTrue) {
-						block.type=Common._FirstBody;
-						return block;
-					} else if(block.type.isEmpty())
-						block.type=Common._BeforeFirstBody;
-				}
-		}
-		return null;
-	}*/
-	
 	private void getAllBodyBlocks() {
 		ArrayList<Block> bodyBlocks=new ArrayList<Block>();
 		
 		for(Page page: pages) {
-			ArrayList<Block> unoBlocks=new ArrayList<Block>();
+			//ArrayList<Block> unoBlocks=new ArrayList<Block>();
 			
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
@@ -879,11 +856,11 @@ public class Content extends PDFTextStripper {
 						continue;
 					
 					int lbb=block.likeBodyBlock();
-					if(lbb>=Common._ParaSentDefaultTrue)
+					if(lbb>=Common._ParaSentDefaultUno)
 						bodyBlocks.add(block);
-					if(lbb<Common._ParaSentDefaultTrue &&
+					/*if(lbb<Common._ParaSentDefaultTrue &&
 							lbb>Common._ParaSentDefaultFalse)
-						unoBlocks.add(block);
+						unoBlocks.add(block);*/
 				}
 		}
 		

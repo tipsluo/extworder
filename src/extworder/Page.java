@@ -299,13 +299,12 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	void separateAllUppers(BlockFormat format) {
+	void separateAllUppers() {
 		Block block;
 		for(int i=0; i<blocks.size(); i++) {
 			block=blocks.get(i);
 		
-			if( block.format.compareTo(format) < 0 || 
-					block.rows.size()<2 )
+			if(block.rows.size()<2 )
 				continue;
 			
 			Row row1=block.rows.get(0);
@@ -327,9 +326,6 @@ public class Page extends Rectangle{
 			
 			blocks.remove(block);
 			blocks.addAll(newBlocks);
-			
-			Page.this.blocks.remove(block);
-			Page.this.blocks.addAll(newBlocks);
 			
 			i--;
 		}

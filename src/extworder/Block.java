@@ -388,8 +388,8 @@ public class Block extends Rectangle {
 				! format.equals(page.content.bodyBlockformat))
 				return Common._ParaSentDefaultFalse;
 		
-if(string().contains("Yet platform economics") )
-		System.out.println("");
+//if(string().contains("High temperature solid oxide") )
+//		System.out.println("");
 		
 		
 		if(rows.size()==1) {
