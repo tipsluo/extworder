@@ -153,11 +153,10 @@ public class Content extends PDFTextStripper {
 		}
 		
 		getBodyFormat();
-		//getFirstBodyBlock();
 		getAllBodyBlocks();
 		
 		for(Page page:pages) {
-			page.separateAllUppers(bodyBlockformat.charfont);
+			page.separateAllUppers(bodyBlockformat);
 		}
 		
 		allWords=scanTextAlphabetWords();

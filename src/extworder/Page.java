@@ -13,6 +13,8 @@ import java.util.TreeMap;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.text.TextPosition;
+
+import extworder.Block.BlockFormat;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
 import extworder.Content.HStretch;
@@ -297,12 +299,12 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	void separateAllUppers(CharFont textCharfont) {
+	void separateAllUppers(BlockFormat format) {
 		Block block;
 		for(int i=0; i<blocks.size(); i++) {
 			block=blocks.get(i);
-			
-			if( block.format.charfont.compareTo(textCharfont) <= 0 || 
+		
+			if( block.format.compareTo(format) < 0 || 
 					block.rows.size()<2 )
 				continue;
 			
@@ -316,6 +318,12 @@ public class Page extends Rectangle{
 			
 			// Split lines of all upper case
 			ArrayList<Block> newBlocks=block.split(1);
+			
+			Column column=block.column;
+			if(column!=null) {
+				column.blocks.remove(block);
+				column.blocks.addAll(newBlocks);
+			}
 			
 			blocks.remove(block);
 			blocks.addAll(newBlocks);
