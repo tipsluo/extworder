@@ -377,74 +377,13 @@ public class Page extends Rectangle{
 				
 				if(ch.row==null) {
 					Row row=new Row(this,null,x,y);
-					//if(! row.string().trim().isEmpty())
 						rows.add(row);
-					//else
-					//	row.resetChars();
 				}
 			}
 		
 		Collections.sort(rows,Row.compareRows);
-
-		/*for(int i=0;i<rows.size();i++) {
-			Row row=rows.get(i);
-			ArrayList<Row> newRows=row.separateCloseRows();
-			if(newRows!=null && newRows.size()>1) {
-				if(row.block!=null)
-					row.block.rows.remove(row);
-				rows.remove(row);
-				i--;
-				rows.addAll(newRows);
-			}
-		}
-		
-		Collections.sort(rows,Row.compareRows);*/
-		
-		/*for (int i=0;i<rows.size();i++) {
-			Row row=rows.get(i);
-			if(row.joinUpperLeftBigChar()) {
-				if(row.block!=null)
-					row.block.rows.remove(row);
-				rows.remove(row);
-				i--;
-			}
-		}*/
-		
-		//Collections.sort(rows,Row.compareRows);
 	}
-	
-	/*boolean separateBlockDiffAligned() {
-		boolean changed=false;
-		
-		for(int i=0;i<blocks.size();i++) {
-			Block block=blocks.get(i);
-			
-			if(block.rows.size()<2)
-				continue;
-			
-			Row row1=block.rows.get(0);
-			for(int j=1;j<block.rows.size(); j++) {
-				Row row2=block.rows.get(j);
-	//if(row1.string().contains("The Cabibbo-"))
-	//	System.out.println("");
-				if(row1.sameAlignedInBlock(row2)<0) {
-					ArrayList<Block> newBlocks=block.split(j);
-					
-					blocks.remove(block);
-					blocks.addAll(newBlocks);
-					
-					changed=true;
-					
-					i--;
-					break;
-				}
-				row1=row2;
-			}
-		}
-		
-		return changed;
-	}*/
-	
+
 	protected ArrayList<Block> upperBlocks() {
 		ArrayList<Block> tbs=new ArrayList<Block>();
 		

@@ -65,6 +65,7 @@ public class Extworder {
 		//displayRows("APS-Evidence for CP violation in B");
 		//displayRows("Library&Archive-Review Essay-Instruction and Archives");
 		//displayRows("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
+		displayRows("acs-A Review on Perovskite-Type LaFeO3");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -112,7 +113,7 @@ public class Extworder {
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
-		//printBlocks("acs-A Review on Perovskite-Type LaFeO3");
+		printBlocks("acs-A Review on Perovskite-Type LaFeO3");
 		//printBlocks("APS-Evidence for CP violation in B"); 
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printBlocks("ALA-Past is Prologue");
@@ -156,7 +157,6 @@ public class Extworder {
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
-		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 		//printContent("APS-Evidence for CP violation in B");
 		//printContent("Artforum-1995 Painting for Profit and Pleasure");
 		//printContent("Ad in front-Library-driven approach for fast implementation");
@@ -165,6 +165,7 @@ public class Extworder {
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printContent("Archaeology-2020Digital Platforms and the Nature");
 		//to fix:
+		printContent("acs-A Review on Perovskite-Type LaFeO3");
 		
 		//backlog:
 		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");

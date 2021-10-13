@@ -279,7 +279,7 @@ public class Content extends PDFTextStripper {
 					if(row1.block==row2.block || 
 							(row2.block.rows.size()==1 && row1.block.column==row2.block.column)) {
 						row1.mergeUpdateWidth(row2);
-						
+						j--;
 
 						Block b=row2.block;
 						if(b.rows.size()==0) {
