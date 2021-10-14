@@ -264,6 +264,9 @@ public class Page extends Rectangle{
 		TreeMap<HStretch,Integer> hStretches=new TreeMap<>();
 		
 		for(Row row:rows) {
+			if(row.width!=row.block.width)
+				continue;
+			
 			if(row.width < content.lowColumnWidth || row.width > content.highColumnWidth)
 				continue;
 			

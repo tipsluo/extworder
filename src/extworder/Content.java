@@ -137,10 +137,10 @@ public class Content extends PDFTextStripper {
 			page.markHeaderFooter();
 		}
 		
+		joinFrameSameRow();
+		
 		markContentX();
 		makeColumns();
-		
-		joinColumnSameRow();
 		
 		for(Page page:pages) {
 			page.separateAllUppers();
@@ -237,9 +237,9 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages)
 			for(Block block:page.blocks) {
-				//if(block.likeBodyBlock()<=0)
-				//	continue;
-				
+				if(block.isParagraphBlock()<=Common._ParaSentDefaultFalse)
+					continue;
+					
 				int w=block.right-block.left+1;
 				
 				if(w<minColumnWidth)
@@ -253,7 +253,7 @@ public class Content extends PDFTextStripper {
 		return i;
 	}
 	
-	private void joinColumnSameRow() {
+	private void joinFrameSameRow() {
 		for(Page page:pages) {
 			Collections.sort(page.rows,Row.compareRowHeights);
 			Collections.reverse(page.rows);
@@ -285,6 +285,39 @@ public class Content extends PDFTextStripper {
 			Collections.sort(page.rows,Row.compareRows);
 		}
 	}
+	
+	/*private void joinColumnSameRow() {
+		for(Page page:pages) {
+			Collections.sort(page.rows,Row.compareRowHeights);
+			Collections.reverse(page.rows);
+			
+			for(int i=0;i<page.rows.size();i++) {
+				Row row1=page.rows.get(i);
+				for(int j=i+1;j<page.rows.size();j++) {
+					Row row2=page.rows.get(j);
+					
+					if(! row1.vContains(row2))
+						continue;
+					
+					if(row1.block==row2.block || 
+							(row2.block.rows.size()==1 && row1.block.column==row2.block.column)) {
+						row1.mergeUpdateWidth(row2);
+						j--;
+
+						Block b=row2.block;
+						if(b.rows.size()==0) {
+							if(b.column!=null)
+								b.column.blocks.remove(b);
+							page.blocks.remove(b);
+						}
+					}
+				}
+					
+			}
+			
+			Collections.sort(page.rows,Row.compareRows);
+		}
+	}*/
 	
 	private void markHeaderBlock() {
 		ArrayList<ArrayList<Block>> hbls=new ArrayList<ArrayList<Block>>();

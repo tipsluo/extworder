@@ -62,11 +62,11 @@ public class Extworder {
 		//displayRows("AMS-PACMAN RENORMALIZATION");
 		//displayRows("ALA-Past is Prologue");
 		//displayRows("AIP-Magnetic fields for modulating the nervous system");
-		//displayRows("APS-Evidence for CP violation in B");
+		displayRows("APS-Evidence for CP violation in B");
 		//displayRows("Library&Archive-Review Essay-Instruction and Archives");
 		//displayRows("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//displayRows("acs-A Review on Perovskite-Type LaFeO3");
-		displayRows("Wiley-Early life stress and HPA axis");
+		//displayRows("Wiley-Early life stress and HPA axis");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -120,7 +120,7 @@ public class Extworder {
 		//printBlocks("ALA-Past is Prologue");
 		//printBlocks("No Headings- Moisture assisted perovskite film"); 
 		//printBlocks("AIP-Magnetic fields for modulating the nervous system");
-		//printBlocks("APS-Evidence for CP violation in B");
+		printBlocks("APS-Evidence for CP violation in B");
 		//printBlocks("Library&Archive-Review Essay-Instruction and Archives");
 		//printBlocks("Artforum-1995 Painting for Profit and Pleasure");
 		//printBlocks("Ad in front-Library-driven approach for fast implementation");
@@ -129,7 +129,7 @@ public class Extworder {
 		//printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
 		//printBlocks("Archaeology-2020Digital Platforms and the Nature");
-		printBlocks("Wiley-Early life stress and HPA axis");
+		//printBlocks("Wiley-Early life stress and HPA axis");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -153,13 +153,13 @@ public class Extworder {
 		//printContent("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 		//printContent("ALA-Past is Prologue");
 		//printContent("APS-Evidence for CP violation in B");
-		printContent("Wiley-Early life stress and HPA axis");
+		//printContent("Wiley-Early life stress and HPA axis");
 		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
-		//printContent("APS-Evidence for CP violation in B");
+		printContent("APS-Evidence for CP violation in B");
 		//printContent("Artforum-1995 Painting for Profit and Pleasure");
 		//printContent("Ad in front-Library-driven approach for fast implementation");
 		//printContent("AMS-PACMAN RENORMALIZATION");

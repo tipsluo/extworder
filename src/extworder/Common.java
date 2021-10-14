@@ -24,7 +24,7 @@ public class Common {
 	
 	final static float _SpaceAdjustment=0.8f;
 	final static int _CharHSpaceAddGap=2;
-	final static float _CharHGapRatio=2.5f;
+	final static float _CharHGapRatio=3.5f;
 	final static float _CharVGapRatio=2.0f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;

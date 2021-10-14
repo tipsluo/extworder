@@ -69,4 +69,7 @@ AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,
 Ad in front-Library-driven approach for fast implementation
 - first page is empty
 
+Wiley-Early life stress and HPA axis
+- Pennington, 2017; Engert, Efanov, Dedovic, Dagher, & is separated if 2.5. changed to float _CharHGapRatio=3.5f;
+
 https://github.com/mkl-public/testarea-pdfbox2/tree/d44c6283c4618a026372ac6186a08861c988482f    extract only visible chars
