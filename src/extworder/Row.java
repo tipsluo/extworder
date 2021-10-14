@@ -280,7 +280,6 @@ public class Row extends Rectangle {
 			
 			row=page.pageBitmap.points[i][j].ch.row;
 			
-			//if(!checkSameBlock(row)) continue;
 			if(! charfont.equals(row.charfont))
 				continue;
 			
@@ -317,7 +316,6 @@ public class Row extends Rectangle {
 			
 			row=page.pageBitmap.points[i][j].ch.row;
 			
-			//if(!checkSameBlock(row)) continue;
 			if(! charfont.equals(row.charfont))
 				continue;
 			

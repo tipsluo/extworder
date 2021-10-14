@@ -25,6 +25,7 @@ public class Block extends Rectangle {
 	String type="";
     
 	final static CompareBlocks compareBlocks=new CompareBlocks();
+	final static CompareBlockLeftUppers compareBlockLeftUppers=new CompareBlockLeftUppers();
 	final static BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 	final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
 	final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
@@ -471,13 +472,13 @@ public class Block extends Rectangle {
 	
 	static class BlockFormat implements Comparable<BlockFormat> {
 		final CharFont charfont;
-		int indent;
+		//int indent;
 		int alignment;
 		int allUppercase;
 		
 		public BlockFormat(CharFont charfont, int indent, int alignment) {
 			this.charfont=charfont;
-			this.indent=indent;
+			//this.indent=indent;
 			this.alignment=alignment;
 			allUppercase=Common._NOTALLUPPERCASE;
 		}
@@ -487,7 +488,7 @@ public class Block extends Rectangle {
 		}
 		
 		public void update(Block block) {
-			this.indent=block.indent();
+			//this.indent=block.indent();
 			this.alignment=block.alignment();
 			
 			String s=block.string();
@@ -507,7 +508,7 @@ public class Block extends Rectangle {
 		
 		public BlockFormat(CharFont charfont) {
 			this.charfont=charfont;
-			this.indent=Common._UNKNOWNINDENT;
+			//this.indent=Common._UNKNOWNINDENT;
 			this.alignment=Common._UNKNOWNALIGNED;
 			this.allUppercase=Common._NOTALLUPPERCASE;
 		}
@@ -515,31 +516,16 @@ public class Block extends Rectangle {
 		@Override
 		public boolean equals(Object obj) {
 			return compareTo((BlockFormat)obj)==0;
-			/*if(alignment==Common._CENTERALIGNED || 
-					blockformat.alignment==Common._CENTERALIGNED)
-				return charfont.equals(blockformat.charfont) &&
-						allUppercase==blockformat.allUppercase;
-			else 
-				return charfont.equals(blockformat.charfont) &&
-						indent==blockformat.indent &&
-						allUppercase==blockformat.allUppercase;*/
 		}
 		
 		@Override
 		public int compareTo(BlockFormat blockformat) {
 			return hashCode()-blockformat.hashCode();
-			/*int r=charfont.compareTo(blockformat.charfont);
-			
-			if(r!=0)
-				return r;*/
-			
-			//return allUppercase-blockformat.allUppercase;
 		}
 		
 		@Override
 		public int hashCode() {
 			int hash=charfont.hashCode() * 2 + allUppercase;
-	        //int hash=charfont.hashCode() + (indent<<12) + (alignment<<24) ;
 	        
 	        return hash;
 		}
@@ -556,6 +542,20 @@ public class Block extends Rectangle {
 			return b1column!=b2column ? b1column-b2column :
 						b1.upper!=b2.upper ? b1.upper-b2.upper :
 							b1.left-b2.left;
+		}
+	}
+	
+	static class CompareBlockLeftUppers implements Comparator<Block> {
+		public int compare(Block b1, Block b2) {
+			if(b1.page!=b2.page)
+				return b1.page.id-b2.page.id;
+			
+			int b1column= b1.column==null ? -1 : b1.column.left;
+			int b2column= b2.column==null ? -1 : b2.column.left;
+			
+			return b1column!=b2column ? b1column-b2column :
+						b1.left!=b2.left ? b1.left-b2.left :
+							b1.upper-b2.upper;
 		}
 	}
 }

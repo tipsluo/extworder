@@ -66,6 +66,7 @@ public class Extworder {
 		//displayRows("Library&Archive-Review Essay-Instruction and Archives");
 		//displayRows("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//displayRows("acs-A Review on Perovskite-Type LaFeO3");
+		displayRows("Wiley-Early life stress and HPA axis");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -128,6 +129,7 @@ public class Extworder {
 		//printBlocks("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
 		//printBlocks("Archaeology-2020Digital Platforms and the Nature");
+		printBlocks("Wiley-Early life stress and HPA axis");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -164,8 +166,10 @@ public class Extworder {
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printContent("Archaeology-2020Digital Platforms and the Nature");
+		
+		//printContent("acs-A Review on Perovskite-Type LaFeO3");
+		
 		//to fix:
-		printContent("acs-A Review on Perovskite-Type LaFeO3");
 		
 		//backlog:
 		//printContent("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");

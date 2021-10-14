@@ -333,7 +333,7 @@ public class Page extends Rectangle{
 		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
-	private void mergeBlocks() {
+	/*private void mergeBlocks() {
 		boolean merged=false;
 		for(int i=0;i<blocks.size();i++) {
 			Block b1=blocks.get(i);
@@ -341,8 +341,6 @@ public class Page extends Rectangle{
 				Block b2=blocks.get(j);
 				if(b1!=b2 && 
 					 b1.contains(b2) ) {
-					 /*&&
-					 ( ! b2.isNotTextBlock() || b2.format.indent==Common._LEFTALIGNED)) {*/
 					b1.merge(b2);
 					j--;
 					merged=true;
@@ -353,7 +351,7 @@ public class Page extends Rectangle{
 			merged=false;
 		}
 		Collections.sort(blocks,Block.compareBlocks);
-	}
+	}*/
 	
 	private void getAllCharBlocks() {
 		for(Row row:rows) {
@@ -366,6 +364,8 @@ public class Page extends Rectangle{
 		for(Block block:blocks) {
 			block.separateUpperLeftBigChar();
 		}
+		
+		mergeNeighborBlocks();
 		
 		Collections.sort(blocks,Block.compareBlocks);
 	}
@@ -387,6 +387,100 @@ public class Page extends Rectangle{
 		
 		Collections.sort(rows,Row.compareRows);
 	}
+	
+	private void mergeNeighborBlocks() {
+		if(blocks.size()<3)
+			return;
+		
+		Collections.sort(blocks,Block.compareBlockLeftUppers);
+		
+		int[] gaps=new int[blocks.size()];
+		
+		Block block0=blocks.get(0);
+		for(int i=1;i<blocks.size();i++) {
+			Block block=blocks.get(i);
+			gaps[i-1]=block.upper-block0.lower;
+			block0=block;
+		}
+		
+		block0=blocks.get(0);
+		Block block1=blocks.get(1);
+		boolean b01 = block0.format.charfont.equals(block1.format.charfont) &&
+						block0.left==block1.left;
+		
+		for(int i=2, j=2;i<blocks.size();i++,j++) {
+			Block block2=blocks.get(i);
+			boolean b01new=block1.format.charfont.equals(block2.format.charfont) && block1.left==block2.left;
+			
+			if(b01) {
+				if(b01new && gaps[j-2]==gaps[j-1]) {
+					if(block0==null) {
+						block1.merge(block2);
+						i--;
+						
+						continue;
+					} else {
+						block0.merge(block1);
+						block0.merge(block2);
+						i-=2;
+						block1=block0;
+						block0=null;
+						
+						continue;
+					}
+				}
+			}
+			block0=block1;
+			block1=block2;
+			b01=b01new;
+		}
+	}
+	
+	/*private void mergeNeighborBlocks() {
+		if(blocks.size()<2)
+			return;
+		
+		Collections.sort(blocks,Block.compareBlockLeftUppers);
+		
+		Block block0=blocks.get(0);
+		Block block1=blocks.get(1);
+		int gap0;
+		if(block1.format.charfont.equals(block0.format.charfont))
+			gap0=block1.upper-block0.lower;
+		else
+			gap0=-1;
+		int i;
+		
+		for(i=1;i<blocks.size();i++) {
+			Block block=blocks.get(i);
+			
+if(block.string().contains("have increasingly"))
+				System.out.println("");			
+			
+			int gap1=block.upper-block1.lower;
+			
+			if (! block.format.charfont.equals(block1.format.charfont) ||
+					block.left!=block0.left || 
+					(gap0!=-1 && gap0!=gap1)) {
+				gap=-1;
+				block0=block;
+				continue;
+			}
+			
+			if(gap==-1) {
+				block0=block;
+				gap=gap1;
+				continue;
+			} else if(gap==gap1) {
+				block0.merge(block);
+				i--;
+				gap=gap1;
+			} else {
+				block0=block;
+				gap=-1;
+			}
+		}
+	}*/
 
 	protected ArrayList<Block> upperBlocks() {
 		ArrayList<Block> tbs=new ArrayList<Block>();
