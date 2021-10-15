@@ -17,7 +17,7 @@ public class Common {
 	public final static int _MinKeyBlockWordNum=50;	
 	
 	final static float _MinAbstractFreqencyRatio=0.65f;
-	final static float _MinAbstractSentenceRatio=0.5f;
+	final static float _MinAbstractSentenceRatio=0.3f;
 	final static float _MinTitleFreqencyRatio=0.65f;
 	
 	final static String _TestDataDir="data/";
@@ -28,6 +28,7 @@ public class Common {
 	final static float _CharVGapRatio=2.0f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
+	final static float _MaxSameRowDistanceRatio=2f;
 	final static int _CharLeftAdjustment=2;
 	final static int _MinBigTextBlockFirstRowLength=5;
 	final static float _FirstLineIndentRatio=5f;
@@ -78,15 +79,12 @@ public class Common {
 	final static int _LEFTALIGNED=-1;
 	final static int _CENTERALIGNED=0;
 	final static int _RIGHTALIGNED=1;
-	//final static int _CENTERALIGNEDWIINDENT=2;
-	//final static int _FIRSTROWCENTERALIGNED=3;
 	final static int _UNKNOWNALIGNED=-98;
 	final static int _NOALIGNED=-99;
 	
 	final static int _UNKNOWNINDENT=-98;
 	final static int _ALLUPPERCASE=1;
 	final static int _NOTALLUPPERCASE=0;
-	//final static Char.Point _ConfusingPoint;
 	
 	final static boolean __DEBUG=false;
 	
@@ -104,8 +102,6 @@ public class Common {
 	final static Pattern bulletPart2;*/
 	
 	static {
-		//_ConfusingPoint=new Char.Point(-1,-1,null);
-		
 		infinishedBodyBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");
 		uppercase=Pattern.compile("[A-Z]");

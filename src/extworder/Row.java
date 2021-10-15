@@ -20,8 +20,8 @@ public class Row extends Rectangle {
 	ArrayList<Char> chars;
 	Block block;
 	Page page;
-	//float width,height;
-	RangeGroup.Range wordInterval;
+	//RangeGroup.Range wordInterval;
+	int charReach, wordReach;
 	int spaceWidth;
 	int vAdjustment;
 	private String str="";
@@ -31,7 +31,7 @@ public class Row extends Rectangle {
 	static Comparator<Row> compareRowHeights = (Row r1, Row r2) ->
 		r1.height-r2.height;
 	
-	public Row(Row from) {
+	/*public Row(Row from) {
 		page=from.page;
 		block=from.block;
 		chars=new ArrayList<Char>();
@@ -39,7 +39,7 @@ public class Row extends Rectangle {
 		spaceWidth=from.spaceWidth;
 		charfont=new CharFont(from.charfont.name,from.charfont.height);
 		block=from.block;
-	}
+	}*/
 		
 	public Row(Page page, Block block, int x, int y) {
 		this.page=page;
@@ -48,7 +48,6 @@ public class Row extends Rectangle {
 			this.block=block;
 	
 		spaceWidth=-1;
-		//build(x,y);
 		buildTentative(x,y);
 		width=right-left;
 		height=lower-upper;
@@ -90,13 +89,14 @@ public class Row extends Rectangle {
 		
 		Char ch=page.pageBitmap.points[x][y].ch;
 		
-		//wordInterval=new Range(Common._CharHGap);
-		wordInterval=new Range((int) (ch.height * Common._CharHGapRatio));
+		//wordInterval=new Range((int) (ch.height * Common._CharHGapRatio));
+		charReach=wordReach=(int) (ch.height * Common._CharHGapRatio);
 		
 		expand(page.pageBitmap.points[x][y].ch);
 		Collections.sort(chars,Char.compareChars);
 
-		wordInterval=getWordInterval();
+		//wordInterval=getWordInterval();
+		getWordInterval();
 
 		resetChars();		
 		expand(page.pageBitmap.points[x][y].ch);
@@ -120,12 +120,8 @@ public class Row extends Rectangle {
 			
 			updateRectangle(ch);
 			
-			ch.getLeftConnected(page,
-					wordInterval.max,
-					vAdjustment).forEach(this::expand);
-			ch.getRightConnected(page,
-					wordInterval.max,
-					vAdjustment).forEach(this::expand);
+			ch.getLeftConnected(page,wordReach,vAdjustment).forEach(this::expand);
+			ch.getRightConnected(page,wordReach,vAdjustment).forEach(this::expand);
 		}
 	}
 	
@@ -136,16 +132,19 @@ public class Row extends Rectangle {
 		resetRectangle();
 	}
 	
-	private RangeGroup.Range getWordInterval() {
-		Range ret;
-		
-		if(spaceWidth>0)
-			return new Range(spaceWidth,(int)(spaceWidth + Common._CharHSpaceAddGap));
-			//return new Range(spaceWidth,Common._CharHSpaceAddGap+spaceWidth);
-		
-		if(chars.size()==1)
-			//return new Range(Common._CharHGap);
-			return new Range((int) (chars.get(0).height * Common._CharHGapRatio));
+	private void getWordInterval() {
+		if(spaceWidth>0) {
+			charReach=spaceWidth;
+			wordReach=(int)(spaceWidth + Common._CharHSpaceAddGap);
+			return;
+		}
+			//return new Range(spaceWidth,(int)(spaceWidth + Common._CharHSpaceAddGap));
+			
+		if(chars.size()==1) {
+			charReach=wordReach=(int) (chars.get(0).height * Common._CharHGapRatio);
+			return;
+		}
+			//return new Range((int) (chars.get(0).height * Common._CharHGapRatio));
 		
 		ArrayList<Integer> intervals=new ArrayList<Integer>();
 		HashMap<Integer,Integer> intervalCounts=new HashMap<Integer,Integer>();
@@ -164,8 +163,6 @@ public class Row extends Rectangle {
 			
 			if(interval<0)
 				continue;
-	
-			// The internal could be less than 0 because of the upper/lower signs.
 			
 			if(! intervals.contains(interval))
 				intervals.add(interval);
@@ -177,12 +174,11 @@ public class Row extends Rectangle {
 		
 		Collections.sort(intervals);
 		
-		if(intervalCounts.size()==1)
-			return new Range(intervals.get(0)+1, intervals.get(intervals.size()-1)+1);
-		
-		//RangeGroup rangeGroup=new RangeGroup(intervals);
-		/*if(rangeGroup.ranges.size()<2)
-			ret=new Range(2,(int)(chars.get(0).height*Common._CharHGapRatio));*/
+		if(intervalCounts.size()==1) {
+			charReach=intervals.get(0)+1;
+			wordReach=intervals.get(intervals.size()-1)+1;
+		}
+			//return new Range(intervals.get(0)+1, intervals.get(intervals.size()-1)+1);
 		
 		List<Entry<Integer, Integer>> list = new ArrayList<>(intervalCounts.entrySet());
         list.sort(Entry.<Integer, Integer>comparingByValue().reversed());
@@ -199,24 +195,15 @@ public class Row extends Rectangle {
         	i++;
         }
         
-		if(wInterval==-1)
-			ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio));
-			//ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio)+Common._CharHSpaceAddGap);
-		else {
-			//ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),wInterval+Common._CharHSpaceAddGap);
-			ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),(int)(wInterval+Common._CharHSpaceAddGap));
+		if(wInterval==-1) {
+			charReach=cInterval;
+			wordReach=(int)(chars.get(0).height*Common._CharHGapRatio);
+			//ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio));
+		} else {
+			charReach=(int)Math.round(cInterval*Common._SpaceAdjustment);
+			wordReach=(int)(wInterval+Common._CharHSpaceAddGap);
+			//ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),(int)(wInterval+Common._CharHSpaceAddGap));
 		}
-		return ret;
-		
-		//RangeGroup rangeGroup=new RangeGroup(intervals);
-
-		/*if(rangeGroup.ranges.size()<2)
-			ret=new Range(2,(int)(chars.get(0).height*Common._CharHGapRatio));
-			//ret=new Range(1,Common._CharHGap);
-		else {
-			ret=new Range(rangeGroup.ranges.get(0).max, rangeGroup.ranges.get(1).max+1);
-		}*/
-		
 	}
 
 	public void clearCharRows() {
@@ -325,6 +312,13 @@ public class Row extends Rectangle {
 		}
 		
 		return rows;
+	}
+	
+	int hDistance(Row row) {
+		if(left>row.left)
+			return left-row.right;
+		else
+			return row.left-right;
 	}
 	
 	/*boolean joinUpperLeftBigChar() {
@@ -476,7 +470,7 @@ public class Row extends Rectangle {
 		Char ch0=chars.get(0);
 	
 		for(Char ch:chars) {
-			if(wordInterval.min<ch.left-ch0.right) {
+			if(charReach < ch.left-ch0.right) {
 				str+=" ";
 			}
 			str+=ch.str;

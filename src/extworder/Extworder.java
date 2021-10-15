@@ -62,7 +62,7 @@ public class Extworder {
 		//displayRows("AMS-PACMAN RENORMALIZATION");
 		//displayRows("ALA-Past is Prologue");
 		//displayRows("AIP-Magnetic fields for modulating the nervous system");
-		displayRows("APS-Evidence for CP violation in B");
+		//displayRows("APS-Evidence for CP violation in B");
 		//displayRows("Library&Archive-Review Essay-Instruction and Archives");
 		//displayRows("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//displayRows("acs-A Review on Perovskite-Type LaFeO3");
@@ -106,7 +106,7 @@ public class Extworder {
 		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
-		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("Amer-Trends affecting entry level");
@@ -120,7 +120,7 @@ public class Extworder {
 		//printBlocks("ALA-Past is Prologue");
 		//printBlocks("No Headings- Moisture assisted perovskite film"); 
 		//printBlocks("AIP-Magnetic fields for modulating the nervous system");
-		printBlocks("APS-Evidence for CP violation in B");
+		//printBlocks("APS-Evidence for CP violation in B");
 		//printBlocks("Library&Archive-Review Essay-Instruction and Archives");
 		//printBlocks("Artforum-1995 Painting for Profit and Pleasure");
 		//printBlocks("Ad in front-Library-driven approach for fast implementation");
@@ -144,7 +144,7 @@ public class Extworder {
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
-		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printContent("AMS-PACMAN RENORMALIZATION");
@@ -159,7 +159,7 @@ public class Extworder {
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column
 		//printContent("AIP-Magnetic fields for modulating the nervous system");
-		printContent("APS-Evidence for CP violation in B");
+		//printContent("APS-Evidence for CP violation in B");
 		//printContent("Artforum-1995 Painting for Profit and Pleasure");
 		//printContent("Ad in front-Library-driven approach for fast implementation");
 		//printContent("AMS-PACMAN RENORMALIZATION");
@@ -269,7 +269,7 @@ public class Extworder {
 						myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
 								" width=%d height=%d fontname=%s wordint.min=%d wordint.max=%d\n", 
 								row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,
-								row.width,row.height,row.charfont.name,row.wordInterval.min, row.wordInterval.max));
+								row.width,row.height,row.charfont.name,row.charReach, row.wordReach));
 					}
 			    	
 			}

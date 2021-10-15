@@ -154,7 +154,7 @@ public class Content extends PDFTextStripper {
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
-		keywordBlock=getKeywordBlock();
+		//keywordBlock=getKeywordBlock();
 	
 		if(ignoreIntraBlock)
 			markIntraBodyBlocks();
@@ -263,7 +263,8 @@ public class Content extends PDFTextStripper {
 				for(int j=i+1;j<page.rows.size();j++) {
 					Row row2=page.rows.get(j);
 					
-					if(! row1.vContains(row2))
+					if(! row1.vContains(row2) || 
+							row1.hDistance(row2)>(int)(row1.wordReach*Common._MaxSameRowDistanceRatio))
 						continue;
 					
 					if(row1.block==row2.block || 
@@ -651,7 +652,7 @@ public class Content extends PDFTextStripper {
 		abstractStr=getKeyBlockStr(
 				0,
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?"));
-		if(activeBlock!=null && activeBlock.isParagraphBlock()>=0) {
+		if(activeBlock!=null && activeBlock.isParagraphBlock()>=Common._ParaSentDefaultUno) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
 		} else {
@@ -699,9 +700,6 @@ public class Content extends PDFTextStripper {
 	}
 	
 	public String getKeyBlockStr(int skipBlockNumber, Pattern pattern) {
-		/*int minKeyBlockWordNum=Common._MinKeyBlockWordNum + 
-				pages.size() * Common._KeyBlockWordPageRation;*/
-		
 		String str;
 		String ret;
 	

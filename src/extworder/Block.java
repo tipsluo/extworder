@@ -217,9 +217,7 @@ public class Block extends Rectangle {
 		
 		Char ul=row.chars.get(0);
 		
-		ArrayList<Char> rights=ul.getRightConnected(this.page,
-								row.wordInterval.max,
-								0);
+		ArrayList<Char> rights=ul.getRightConnected(this.page,row.wordReach,0);
 		
 		if(rights.size()<2)
 			return false;
