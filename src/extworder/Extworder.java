@@ -54,7 +54,7 @@ public class Extworder {
 	
 	static public void main_test4_printRows() throws IOException {
 		//displayRows("A model for estimating parameters of rotational landslide");
-		displayRows("Peace-Development and Peace Through");
+		//displayRows("Peace-Development and Peace Through");
 		//displayRows("Broader perspective on ecosystem");
 		//displayRows("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//displayRows("ILL article-Impact of the KWL reading strategy");
@@ -105,7 +105,7 @@ public class Extworder {
 		}*/
 		
 		//printBlocks("A model for estimating parameters of rotational landslide");
-		printBlocks("Peace-Development and Peace Through");
+		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
@@ -132,6 +132,7 @@ public class Extworder {
 		//printBlocks("Archaeology-2020Digital Platforms and the Nature");
 		//printBlocks("Wiley-Early life stress and HPA axis");
 		//printBlocks("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
+		printBlocks("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -144,7 +145,7 @@ public class Extworder {
 		}*/
 		
 		//printContent("A model for estimating parameters of rotational landslide");
-		printContent("Peace-Development and Peace Through");
+		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
@@ -168,7 +169,7 @@ public class Extworder {
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printContent("Archaeology-2020Digital Platforms and the Nature");
-		
+		printContent("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 		
 		//to fix:
@@ -335,8 +336,25 @@ public class Extworder {
 		myWriter.close();
 	}
 	
-	static class IgnorePage extends Common.IgnorePage {
+	/*static class IgnorePage extends Common.IgnorePage {
 		public boolean isIgnored(Page page) {
+			return false;
+		}
+	}*/
+	
+	static class IgnorePage extends Common.IgnorePage {
+		final String[] pstr=new String[]{
+			"LENDER",
+			"BORROWER",
+			"SAGE Businesscases"
+		};
+		
+		public boolean isIgnored(Page page) {
+			String str=page.string();
+			for(int i=0; i<pstr.length; i++)
+				if (str.contains(pstr[i]))
+					return true;
+
 			return false;
 		}
 	}

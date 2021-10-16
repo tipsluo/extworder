@@ -892,8 +892,6 @@ public class Content extends PDFTextStripper {
 		ArrayList<Block> bodyBlocks=new ArrayList<Block>();
 		
 		for(Page page: pages) {
-			//ArrayList<Block> unoBlocks=new ArrayList<Block>();
-			
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
 					if(block.type!="")
@@ -908,8 +906,7 @@ public class Content extends PDFTextStripper {
 				}
 		}
 		
-		for(Block block:bodyBlocks) {
-//if(block.string().contains("Introduction.—The"))
+//if(block.string().contains("The flow of fertilizer"))
 //				System.out.println("");
 			
 			Block virtualBlock=Validation.verifyBodyBlock(block);
