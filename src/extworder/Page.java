@@ -384,7 +384,7 @@ public class Page extends Rectangle{
 				
 				if(ch.row==null) {
 					Row row=new Row(this,null,x,y);
-						rows.add(row);
+					rows.add(row);	
 				}
 			}
 		

@@ -67,6 +67,7 @@ public class Extworder {
 		//displayRows("AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,");
 		//displayRows("acs-A Review on Perovskite-Type LaFeO3");
 		//displayRows("Wiley-Early life stress and HPA axis");
+		displayRows("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 	}
 	
 	static public void main_test4_getText() throws IOException {
@@ -106,7 +107,7 @@ public class Extworder {
 		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
-		printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("Amer-Trends affecting entry level");
@@ -130,6 +131,7 @@ public class Extworder {
 		//printBlocks("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
 		//printBlocks("Archaeology-2020Digital Platforms and the Nature");
 		//printBlocks("Wiley-Early life stress and HPA axis");
+		printBlocks("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -144,7 +146,7 @@ public class Extworder {
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
 		//printContent("Broader perspective on ecosystem");
-		printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printContent("AMS-PACMAN RENORMALIZATION");
@@ -154,7 +156,7 @@ public class Extworder {
 		//printContent("ALA-Past is Prologue");
 		//printContent("APS-Evidence for CP violation in B");
 		//printContent("Wiley-Early life stress and HPA axis");
-		//printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
+		printContent("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 		//printContent("No Headings- Moisture assisted perovskite film");  //no obvious abstract
 		//printContent("ALA-Past is Prologue");  //big letter
 		//printContent("AIP-Magnetic fields for modulating the nervous system"); // big letter, not aligned column

@@ -260,15 +260,24 @@ public class Content extends PDFTextStripper {
 			
 			for(int i=0;i<page.rows.size();i++) {
 				Row row1=page.rows.get(i);
-				for(int j=i+1;j<page.rows.size();j++) {
+
+				int j;
+				for(j=i+1;j<page.rows.size();j++) {
 					Row row2=page.rows.get(j);
 					
-					if(! row1.vContains(row2) || 
-							row1.hDistance(row2)>(int)(row1.wordReach*Common._MaxSameRowDistanceRatio))
+					if(row1==row2)
 						continue;
 					
+/*if(row1.string().contains("valent amongst inpatients") && row2.string().contains("those"))
+						System.out.println("");	*/
+					
+					if(! row1.vContains(row2))
+						continue;
+	
 					if(row1.block==row2.block || 
-							(row2.block.rows.size()==1 && row1.block.column==row2.block.column)) {
+							(row2.block.rows.size()==1 && 
+								row1.block.column==row2.block.column &&
+									row1.hDistance(row2)<=(int)(row1.height*Common._MaxSameRowDistanceRatio))) {
 						row1.mergeUpdateWidth(row2);
 						j--;
 
@@ -282,7 +291,6 @@ public class Content extends PDFTextStripper {
 				}
 					
 			}
-			
 			Collections.sort(page.rows,Row.compareRows);
 		}
 	}

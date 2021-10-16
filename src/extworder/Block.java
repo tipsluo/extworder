@@ -286,7 +286,7 @@ public class Block extends Rectangle {
 	
 	boolean isBodyBlock() {
 		return format.equals(page.content.bodyBlockformat) && 
-				likeBodyBlock()>=Common._ParaSentDefaultFalse;
+				likeBodyBlock()>=Common._ParaSentDefaultUno;
 	}
 	
 	boolean isBodyInfinished() {
@@ -387,8 +387,8 @@ public class Block extends Rectangle {
 				! format.equals(page.content.bodyBlockformat))
 				return Common._ParaSentDefaultFalse;
 		
-//if(string().contains("High temperature solid oxide") )
-//		System.out.println("");
+/*if(string().contains("Music-based interventions") )
+		System.out.println("");*/
 		
 		
 		if(rows.size()==1) {
