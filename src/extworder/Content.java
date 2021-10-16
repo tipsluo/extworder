@@ -154,7 +154,7 @@ public class Content extends PDFTextStripper {
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
-		//keywordBlock=getKeywordBlock();
+		keywordBlock=getKeywordBlock();
 	
 		if(ignoreIntraBlock)
 			markIntraBodyBlocks();
@@ -632,18 +632,23 @@ public class Content extends PDFTextStripper {
 				
 				if(block.type==Common._Body)
 					break;
+								
+				int c=block.format.compareTo(titleBlockformat);
 				
-				if(block.likeTitleBlock()<0)
-					continue;
-				
-				ArrayList<String> strs=Common.getLetterWords(block.string());
-				if(Common.hits(allWords,strs) < Common._MinTitleFreqencyRatio)
-					continue;
-				
-				if(block.format.compareTo(titleBlockformat)>0) {
-					titleBlock=block;
-					titleBlockformat=titleBlock.format;
+				if(c<0)
+					continue; 
+					
+				if(c==0 && titleBlock==null)  {
+					if(block.likeTitleBlock()<0)
+						continue;
+					
+					ArrayList<String> strs=Common.getLetterWords(block.string());
+					if(Common.hits(allWords,strs) < Common._MinTitleFreqencyRatio)
+						continue;
 				}
+					
+				titleBlock=block;
+				titleBlockformat=titleBlock.format;
 			}
 			
 			if(block.type==Common._Body)
@@ -720,10 +725,10 @@ public class Content extends PDFTextStripper {
 				
 				Block block=page.blocks.get(i);
 				
-				if(block.type==Common._Body) {
+				/*if(block.type==Common._Body) {
 					stopped=true;
 					break;
-				}
+				}*/
 				
 				str=block.string();
 				str=str.replaceAll("[\\r\\n]+", " ");
