@@ -6,7 +6,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -53,7 +55,8 @@ public class Common {
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
 	final static int _MaxCharVGapAdj=1;
 	final static int _MinCharVGapAdj=-2;
-	final static float _MaxInterBodyBlockGap=4;
+	final static float _MaxInterBodyBlockGapRatio=4;
+	final static float _MaxIntraBlockRowGapRatio=2;
 	
 	final static int _ParaSentUnoNoTerm=1;
 	final static int _ParaSentDefaultTrue=100;
@@ -262,7 +265,7 @@ public class Common {
 		}
 	}
 	
-	class StatGroup<T> {
+	static class StatGroup<T> {
 		HashMap<T,Integer> records;
 		
 		StatGroup() {

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -14,6 +15,7 @@ import extworder.Common.BigBlockFilter;
 import extworder.Common.SubtitleBlockFilter;
 import extworder.Common.BodyBlockFilter;
 import extworder.Common.RangeGroup.Range;
+import extworder.Common.StatGroup;
 import extworder.Page.Column;
 import extworder.Row.CharFont;
 
@@ -273,10 +275,39 @@ public class Block extends Rectangle {
 		
 		for(Char ch:rights) {
 			ch.row.render();
-			//Collections.sort(ch.row.chars,Char.compareChars);
 		}
 		
 		return true;
+	}
+	
+	protected ArrayList<Block> separateFarRows() {
+		if(rows.size()<3)
+			return null;
+
+		int[] gaps=new int[rows.size()];
+		StatGroup<Integer> gapCounts=new StatGroup<Integer>();
+		
+		Row row1=rows.get(0);
+		for(int i=1;i<rows.size();i++) {
+			Row row2=rows.get(i);
+			
+			gaps[i]=row2.upper-row1.lower;
+			
+			row1=row2;
+		}
+		
+		for(int i=1;i<rows.size();i++) {
+			gapCounts.add(gaps[i]);
+		}
+		
+		int maxGap=Math.round(Common._MaxIntraBlockRowGapRatio * gapCounts.maxByValue());
+		
+		for(int i=1;i<rows.size();i++) {
+			if(gaps[i]>maxGap) {
+				return split(i);
+			}
+		}
+		return null;
 	}
 	
 	boolean isBodyCharfontFullBlock() {

@@ -26,7 +26,7 @@ public class Validation {
 	}
 	
 	static Block verifyBodyBlock(Block block) {
-		int maxGap=Math.round(Common._MaxInterBodyBlockGap * block.format.charfont.height);
+		int maxGap=Math.round(Common._MaxInterBodyBlockGapRatio * block.format.charfont.height);
 
 		Block virtualBlock=new Block();
 				

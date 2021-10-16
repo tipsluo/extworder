@@ -68,7 +68,6 @@ public class Page extends Rectangle{
 	}
 	
 	public void complete(PDPage pdPage, boolean ignoreColoredBlock) throws IOException {
-		//getPDPageWH(pdPage);
 		adjustCoordinates();
 		
 		pageBitmap=new PageBitmap(this);
@@ -371,6 +370,20 @@ public class Page extends Rectangle{
 		mergeNeighborBlocks();
 		
 		Collections.sort(blocks,Block.compareBlocks);
+		
+		for(int i=0;i<blocks.size();i++) {
+			Block block=blocks.get(i);
+			
+			ArrayList<Block> bs=block.separateFarRows();
+			
+			if(bs==null)
+				continue;
+			
+			blocks.remove(i);
+			blocks.addAll(i,bs);
+			
+			i--;
+		}
 	}
 	
 	private void getAllRows() {
@@ -439,52 +452,6 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	/*private void mergeNeighborBlocks() {
-		if(blocks.size()<2)
-			return;
-		
-		Collections.sort(blocks,Block.compareBlockLeftUppers);
-		
-		Block block0=blocks.get(0);
-		Block block1=blocks.get(1);
-		int gap0;
-		if(block1.format.charfont.equals(block0.format.charfont))
-			gap0=block1.upper-block0.lower;
-		else
-			gap0=-1;
-		int i;
-		
-		for(i=1;i<blocks.size();i++) {
-			Block block=blocks.get(i);
-			
-if(block.string().contains("have increasingly"))
-				System.out.println("");			
-			
-			int gap1=block.upper-block1.lower;
-			
-			if (! block.format.charfont.equals(block1.format.charfont) ||
-					block.left!=block0.left || 
-					(gap0!=-1 && gap0!=gap1)) {
-				gap=-1;
-				block0=block;
-				continue;
-			}
-			
-			if(gap==-1) {
-				block0=block;
-				gap=gap1;
-				continue;
-			} else if(gap==gap1) {
-				block0.merge(block);
-				i--;
-				gap=gap1;
-			} else {
-				block0=block;
-				gap=-1;
-			}
-		}
-	}*/
-
 	protected ArrayList<Block> upperBlocks() {
 		ArrayList<Block> tbs=new ArrayList<Block>();
 		

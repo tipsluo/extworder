@@ -906,6 +906,7 @@ public class Content extends PDFTextStripper {
 				}
 		}
 		
+		for(Block block:bodyBlocks) {
 //if(block.string().contains("The flow of fertilizer"))
 //				System.out.println("");
 			

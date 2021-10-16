@@ -132,7 +132,8 @@ public class Extworder {
 		//printBlocks("Archaeology-2020Digital Platforms and the Nature");
 		//printBlocks("Wiley-Early life stress and HPA axis");
 		//printBlocks("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
-		printBlocks("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
+		//printBlocks("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
+		printBlocks("FootNote&Small#-BetweenNegativeStigmaCulturalD");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -169,9 +170,9 @@ public class Extworder {
 		//printContent("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printContent("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion"); 
 		//printContent("Archaeology-2020Digital Platforms and the Nature");
-		printContent("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
+		//printContent("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
-		
+		printContent("FootNote&Small#-BetweenNegativeStigmaCulturalD");
 		//to fix:
 		
 		//backlog:
