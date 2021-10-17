@@ -89,23 +89,17 @@ public class Row extends Rectangle {
 		
 		Char ch=page.pageBitmap.points[x][y].ch;
 		
-		//wordInterval=new Range((int) (ch.height * Common._CharHGapRatio));
 		charReach=wordReach=(int) (ch.height * Common._CharHGapRatio);
 		
 		expand(page.pageBitmap.points[x][y].ch);
 		Collections.sort(chars,Char.compareChars);
 
-		//wordInterval=getWordInterval();
 		getWordInterval();
 
 		resetChars();		
 		expand(page.pageBitmap.points[x][y].ch);
 
 		render();
-		
-		/*Collections.sort(chars,Char.compareChars);
-
-		charfont=getCharFont();*/
 	}
 	
 	private void expand(Char ch) {
@@ -138,13 +132,11 @@ public class Row extends Rectangle {
 			wordReach=(int)(spaceWidth + Common._CharHSpaceAddGap);
 			return;
 		}
-			//return new Range(spaceWidth,(int)(spaceWidth + Common._CharHSpaceAddGap));
 			
 		if(chars.size()==1) {
 			charReach=wordReach=(int) (chars.get(0).height * Common._CharHGapRatio);
 			return;
 		}
-			//return new Range((int) (chars.get(0).height * Common._CharHGapRatio));
 		
 		ArrayList<Integer> intervals=new ArrayList<Integer>();
 		HashMap<Integer,Integer> intervalCounts=new HashMap<Integer,Integer>();

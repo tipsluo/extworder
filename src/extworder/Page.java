@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
@@ -14,11 +15,9 @@ import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.text.TextPosition;
 
-import extworder.Block.BlockFormat;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
-import extworder.Content.Stretch;
-import extworder.Row.CharFont;
+import extworder.Common.Stretch;
 
 public class Page extends Rectangle{
 	Content content;
@@ -27,6 +26,7 @@ public class Page extends Rectangle{
     ArrayList<Block> blocks;
     ArrayList<Row> rows;
     ArrayList<Column> columns;
+    ArrayList<Border> borders;
     PageBitmap pageBitmap;
     int headerY,footerY;
     PageImg pageImg;
@@ -74,6 +74,7 @@ public class Page extends Rectangle{
 		eliminateCharIntersections();
 
 		getAllRows();
+		getAllRowBorders();
 		getAllCharBlocks();
 	
 		//mergeBlocks();
@@ -257,6 +258,39 @@ public class Page extends Rectangle{
 					((charBlock.right-charBlock.left)/(coloredBlock.right-coloredBlock.left)) < Common._IgnoredColoredBlockRatio &&
 						((charBlock.lower-charBlock.upper)/(coloredBlock.lower-coloredBlock.upper)) < Common._IgnoredColoredBlockRatio)
 					charBlock.type=Common._IgnoredBlockColored;
+	}
+	
+	protected void getAllRowBorders() {
+		borders=new ArrayList<Border>();
+		
+		for(Row row:rows) {
+			Stretch stretch=new Stretch(row.upper,row.lower);
+			Border leftBorder=new Border(row.left,Common._LEFTORIENTED,stretch);
+			Border rightBorder=new Border(row.right,Common._RIGHTORIENTED,stretch);
+			float maxGap=row.charfont.height * Common._CharVGapRatio;
+			
+			boolean connected=false;
+			for(Border border:borders) {
+				if(border.connected(leftBorder,maxGap) || border.connected(rightBorder,maxGap)) {
+					border.extend(stretch);
+					connected=true;
+					break;
+				}
+			}
+			
+			if(!connected) {
+				borders.add(leftBorder);
+				borders.add(rightBorder);
+			}
+		}
+	}
+	
+	protected boolean checkSeparatingBorder(Rectangle rect1,Rectangle rect2) {
+		for(Border border:borders)
+			if(border.separating(rect1,rect2)) {
+				return true;
+			}
+		return false;
 	}
 	
 	protected void makeColumns() {
@@ -491,6 +525,24 @@ public class Page extends Rectangle{
 		
 		return bbs;
 	}
+	
+	/*protected ArrayList<Border> onLeftSideBorder(Rectangle rect) {
+		ArrayList<Border> bs=new ArrayList<Border>();
+		for(Border border:borders)
+			if(border.onLSide(rect)!=null && 
+					(rect.height * Common._CharVGapRatio)<border.stretch.length())
+				bs.add(border);
+		return bs;
+	}
+	
+	protected ArrayList<Border> onRightSideBorder(Rectangle rect) {
+		ArrayList<Border> bs=new ArrayList<Border>();
+		for(Border border:borders)
+			if(border.onRSide(rect)!=null && 
+					(rect.height * Common._CharVGapRatio)<border.stretch.length())
+				bs.add(border);
+		return bs;
+	}*/
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
@@ -772,6 +824,85 @@ public class Page extends Rectangle{
 		
 		int getPageRGB(int xPage, int yPage) {
 			return img.getRGB(xPage-1,yPage-1);
+		}
+	}
+	
+	class Border implements Comparable<Border>{
+		int coord;
+		int orient;
+		Stretch stretch;
+		
+		public Border(int coordinate, int orientation, Stretch stretch) {
+			this.coord=coordinate;
+			this.orient=orientation;
+			this.stretch=stretch;
+		}
+		
+		public boolean contains(Border border) {
+			return coord==border.coord && 
+					orient==border.orient && 
+					stretch.contains(border.stretch);
+		}
+		
+		public boolean contains(Stretch s) {
+			return stretch.contains(s);
+		}
+		
+		public boolean contains(Stretch s, int adjustment) {
+			return stretch.contains(s,adjustment);
+		}
+		
+		public boolean connected(Border border, float maxGap) {
+			if(coord!=border.coord ||orient!=border.orient)
+				return false;
+			
+			return Math.abs(stretch.start-border.stretch.end) < maxGap || 
+					Math.abs(stretch.end-border.stretch.start) < maxGap;
+		}
+		
+		public void extend(int point) {
+			stretch.extend(point);
+		}
+		
+		public void extend(Stretch s) {
+			stretch.extend(s);
+		}
+		
+		public boolean onLeftSide(Rectangle rect) {
+			return rect.right<=coord;
+		}
+		
+		public boolean onRightSide(Rectangle rect) {
+			return rect.left>=coord;
+		}
+		
+		public boolean separating(Rectangle rect1, Rectangle rect2) {
+			Stretch s1=new Stretch(rect1.upper,rect1.lower);
+			Stretch s2=new Stretch(rect2.upper,rect2.lower);
+			
+			if(! stretch.contains(s1, s1.length()*Common._CharVGapRatio) ||
+					! stretch.contains(s2, s2.length()*Common._CharVGapRatio))
+				return false;
+			
+			return (onLeftSide(rect1) && onRightSide(rect2)) ||
+					(onLeftSide(rect2) && onRightSide(rect1));
+		}
+
+		@Override
+		public int compareTo(Border b) {
+			return hashCode()-b.hashCode();
+		}
+		
+		@Override
+	    public int hashCode() {
+			return (coord<<1 + orient)<<1 + stretch.hashCode();
+		}
+		
+		public boolean equals(Object obj) {
+			if (getClass() != obj.getClass())
+	            return false;
+			Border other = (Border) obj;
+			return hashCode()==other.hashCode();
 		}
 	}
 }

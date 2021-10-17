@@ -16,6 +16,7 @@ import org.apache.pdfbox.util.Matrix;
 import org.apache.pdfbox.util.Vector;
 
 import extworder.Block.BlockFormat;
+import extworder.Page.Border;
 import extworder.Page.Column;
 
 import java.util.ArrayList;
@@ -268,15 +269,17 @@ public class Content extends PDFTextStripper {
 					if(row1==row2)
 						continue;
 					
-/*if(row1.string().contains("valent amongst inpatients") && row2.string().contains("those"))
-						System.out.println("");	*/
+if(row2.string().contains("ing the") && row1.string().contains("with complex"))
+						System.out.println("");	
 					
 					if(! row1.vContains(row2))
 						continue;
-	
+
 					if(row1.block==row2.block || 
-							(row2.block.rows.size()==1 && 
-									row1.hDistance(row2)<=(int)(row1.height*Common._MaxSameRowDistanceRatio))) {
+							! page.checkSeparatingBorder(row1,row2)) {
+							//(row2.block.rows.size()==1 && 
+							//		row1.hDistance(row2)<=(int)(row1.height*Common._MaxSameRowDistanceRatio))) {
+						
 						row1.mergeUpdateWidth(row2);
 						j--;
 
@@ -911,34 +914,6 @@ public class Content extends PDFTextStripper {
 			Block virtualBlock=Validation.verifyBodyBlock(block);
 			if(virtualBlock!=null)
 				block.type=Common._Body;
-		}
-	}
-	
-	static class Stretch implements Comparable<Stretch> {
-		protected int start;
-		protected int end;
-		
-		public Stretch(int start,int end) {
-			this.start=start;
-			this.end=end;
-		}
-		
-	    @Override
-	    public int hashCode() {
-	        return start*100000 + end;
-	    }
-		
-		@Override
-		public boolean equals(Object obj) {
-			if (getClass() != obj.getClass())
-	            return false;
-			Stretch other = (Stretch) obj;
-			return hashCode()==other.hashCode();
-		}
-
-		@Override
-		public int compareTo(Stretch s) {
-			return hashCode()-s.hashCode();
 		}
 	}
 	

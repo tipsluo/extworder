@@ -6,9 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -88,6 +86,9 @@ public class Common {
 	final static int _UNKNOWNINDENT=-98;
 	final static int _ALLUPPERCASE=1;
 	final static int _NOTALLUPPERCASE=0;
+	
+	final static int _LEFTORIENTED=-1;
+	final static int _RIGHTORIENTED=1;
 	
 	final static boolean __DEBUG=false;
 	
@@ -415,5 +416,64 @@ public class Common {
     
 	static abstract public class IgnorePage {
 		public abstract boolean isIgnored(Page page);
+	}
+	
+	static class Stretch implements Comparable<Stretch> {
+		protected int start;
+		protected int end;
+		
+		public Stretch(int start,int end) {
+			this.start=start;
+			this.end=end;
+		}
+		
+	    @Override
+	    public int hashCode() {
+	        return start<<10 + end;
+	    }
+	    
+	    public int length() {
+	    	return end-start;
+	    }
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (getClass() != obj.getClass())
+	            return false;
+			Stretch other = (Stretch) obj;
+			return hashCode()==other.hashCode();
+		}
+
+		@Override
+		public int compareTo(Stretch s) {
+			return hashCode()-s.hashCode();
+		}
+		
+		public void extend(int point) {
+			if(point>end)
+				end=point;
+			if(point<start)
+				start=point;
+		}
+		
+		public void extend(Stretch stretch) {
+			if(stretch.end>end)
+				end=stretch.end;
+			if(stretch.start<start)
+				start=stretch.start;
+		}
+		
+		public boolean contains(Stretch stretch) {
+			return start<=stretch.start && end>=stretch.end;
+		}
+		
+		public boolean contains(Stretch stretch,float adjustment) {
+			return contains(stretch) && (length()-stretch.length())>adjustment;
+		}
+		
+		public boolean intersected(Stretch stretch) {
+			return (start >= stretch.start && start <= stretch.end) ||
+					   (stretch.start >= start && stretch.end <= end);
+		}
 	}
 }

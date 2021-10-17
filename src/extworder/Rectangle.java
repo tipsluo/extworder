@@ -145,9 +145,15 @@ public class Rectangle {
 		return (upper <= r1.upper && lower >= r1.lower) ;
 	}
 	
+	protected boolean onLeftSide(Rectangle r) {
+		return right<r.left;
+	}
+	
+	protected boolean onRightSide(Rectangle r) {
+		return left>r.right;
+	}
+	
 	boolean isFull(Content content, Column column) {
-		//int width=right-left;
-		
 		if(column==null)
 			return width >= content.lowContentWidth &&
 				width <= content.highContentWidth;
@@ -267,7 +273,7 @@ public class Rectangle {
 		}
 	}*/
 	
-	class Stretch {
+	/*class Stretch implements Comparator<Stretch> {
 		int start,end;
 		
 		Stretch(int start, int end) {
@@ -315,5 +321,10 @@ public class Rectangle {
 		Stretch copy() {
 			return new Stretch(start,end);
 		}
-	}
+
+		@Override
+		public int compare(Stretch s1, Stretch s2) {
+			return s1.start!=s2.start ? s1.start-s2.start : s1.end-s2.end;
+		}
+	}*/
 }

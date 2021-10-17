@@ -106,12 +106,12 @@ public class Extworder {
 		*/
 		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
-		//printBlocks("Broader perspective on ecosystem");
+		printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("Amer-Trends affecting entry level");
-		printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
@@ -148,7 +148,7 @@ public class Extworder {
 		
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		//printContent("Broader perspective on ecosystem");
+		printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
@@ -174,7 +174,7 @@ public class Extworder {
 		//printContent("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
 		//printContent("FootNote&Small#-BetweenNegativeStigmaCulturalD");
-		printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+		//printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//to fix:
 		
 		//backlog:
