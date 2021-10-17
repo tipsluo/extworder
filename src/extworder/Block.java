@@ -281,7 +281,7 @@ public class Block extends Rectangle {
 	}
 	
 	protected ArrayList<Block> separateFarRows() {
-		if(rows.size()<3)
+		if(rows.size()<4)
 			return null;
 
 		int[] gaps=new int[rows.size()];

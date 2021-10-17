@@ -34,15 +34,17 @@ public class Validation {
 		
 		ArrayList<Block> ubs=block.traceAllAbove(block.page.blocks,maxGap);
 		for(Block ub:ubs) {
-			if(ub.type==Common._PageHeaderBlock || ub.type==Common._PageFooterBlock)
-				continue;
+			if(ub.type==Common._PageHeaderBlock || ub.type==Common._PageFooterBlock ||
+					ub.column!=block.column)
+				break;
 			virtualBlock.updateRectangle(ub);
 		}
 		
 		ArrayList<Block> lbs=block.traceAllBelow(block.page.blocks,maxGap);
 		for(Block lb:lbs) {
-			if(lb.type==Common._PageHeaderBlock || lb.type==Common._PageFooterBlock)
-				continue;
+			if(lb.type==Common._PageHeaderBlock || lb.type==Common._PageFooterBlock ||
+					lb.column!=block.column)
+				break;
 			virtualBlock.updateRectangle(lb);
 		}
 		

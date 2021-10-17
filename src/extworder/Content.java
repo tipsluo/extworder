@@ -907,7 +907,7 @@ public class Content extends PDFTextStripper {
 		}
 		
 		for(Block block:bodyBlocks) {
-//if(block.string().contains("The flow of fertilizer"))
+//if(block.string().contains("The California State"))
 //				System.out.println("");
 			
 			Block virtualBlock=Validation.verifyBodyBlock(block);

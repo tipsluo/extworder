@@ -102,8 +102,8 @@ public class Extworder {
 				printBlocks(pdf);
 			}
 			return;
-		}*/
-		
+		}
+		*/
 		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
 		//printBlocks("Broader perspective on ecosystem");
@@ -111,7 +111,7 @@ public class Extworder {
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
 		//printBlocks("Amer-Trends affecting entry level");
-		//printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+		printBlocks("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//printBlocks("AMS-PACMAN RENORMALIZATION");
 		//printBlocks("APS-Search for millicharged particles in proton-proton collisions");
 		//printBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
@@ -133,7 +133,7 @@ public class Extworder {
 		//printBlocks("Wiley-Early life stress and HPA axis");
 		//printBlocks("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 		//printBlocks("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
-		printBlocks("FootNote&Small#-BetweenNegativeStigmaCulturalD");
+		//printBlocks("FootNote&Small#-BetweenNegativeStigmaCulturalD");
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
@@ -143,7 +143,8 @@ public class Extworder {
 				printContent(pdf);
 			}
 			return;
-		}*/
+		}
+		*/
 		
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
@@ -172,7 +173,8 @@ public class Extworder {
 		//printContent("Archaeology-2020Digital Platforms and the Nature");
 		//printContent("Engineer-ILL-Modeling Solute Transport in the WinSRFR S");
 		//printContent("acs-A Review on Perovskite-Type LaFeO3");
-		printContent("FootNote&Small#-BetweenNegativeStigmaCulturalD");
+		//printContent("FootNote&Small#-BetweenNegativeStigmaCulturalD");
+		printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
 		//to fix:
 		
 		//backlog:
