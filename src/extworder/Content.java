@@ -269,8 +269,8 @@ public class Content extends PDFTextStripper {
 					if(row1==row2)
 						continue;
 					
-if(row2.string().contains("ing the") && row1.string().contains("with complex"))
-						System.out.println("");	
+//if(row2.string().contains("ing the") && row1.string().contains("with complex"))
+//						System.out.println("");	
 					
 					if(! row1.vContains(row2))
 						continue;
@@ -294,6 +294,7 @@ if(row2.string().contains("ing the") && row1.string().contains("with complex"))
 					
 			}
 			Collections.sort(page.rows,Row.compareRows);
+			Collections.sort(page.blocks,Block.compareBlocks);
 		}
 	}
 	
@@ -908,8 +909,8 @@ if(row2.string().contains("ing the") && row1.string().contains("with complex"))
 		}
 		
 		for(Block block:bodyBlocks) {
-//if(block.string().contains("The California State"))
-//				System.out.println("");
+/*if(block.string().contains("The concept of sustainability increasingly"))
+				System.out.println("");*/
 			
 			Block virtualBlock=Validation.verifyBodyBlock(block);
 			if(virtualBlock!=null)

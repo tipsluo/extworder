@@ -15,6 +15,7 @@ import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.text.TextPosition;
 
+import extworder.Block.CompareBlocks;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
 import extworder.Common.Stretch;
@@ -33,6 +34,7 @@ public class Page extends Rectangle{
     ArrayList<ColoredBlock> coloredBlocks;
 	private int xOffset;
 	private int yOffset;
+	final static CompareColumns compareColumns=new CompareColumns();
 	
 	public Page(Content content,int id) {
 		this.content=content;
@@ -76,8 +78,6 @@ public class Page extends Rectangle{
 		getAllRows();
 		getAllRowBorders();
 		getAllCharBlocks();
-	
-		//mergeBlocks();
 		
 		pageBitmap=null;
 		
@@ -333,6 +333,8 @@ public class Page extends Rectangle{
 			columns.add(new Column(l,headerY,
 					r,footerY));
 		}
+		
+		Collections.sort(columns,compareColumns);
 	}
 	
 	void separateAllUppers() {
@@ -369,26 +371,6 @@ public class Page extends Rectangle{
 		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
-	/*private void mergeBlocks() {
-		boolean merged=false;
-		for(int i=0;i<blocks.size();i++) {
-			Block b1=blocks.get(i);
-			for(int j=0;j<blocks.size();j++) {
-				Block b2=blocks.get(j);
-				if(b1!=b2 && 
-					 b1.contains(b2) ) {
-					b1.merge(b2);
-					j--;
-					merged=true;
-				}
-			}
-			if(merged)
-				i--;
-			merged=false;
-		}
-		Collections.sort(blocks,Block.compareBlocks);
-	}*/
-	
 	private void getAllCharBlocks() {
 		for(Row row:rows) {
 			if(row.block==null) {
@@ -418,6 +400,8 @@ public class Page extends Rectangle{
 			
 			i--;
 		}
+		
+		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
 	private void getAllRows() {
@@ -570,7 +554,6 @@ public class Page extends Rectangle{
 		String str="";
 		
 		for(Column column: columns) {
-			//str+=column.string(Block.textBlockFilter,Block.bigBlockFilter);
 			str+=column.string(Block.bodyBlockFilter);
 		}
 		
@@ -683,21 +666,6 @@ public class Page extends Rectangle{
 				str+=block.string()+"\n";
 			}
 			
-			/*for(Block block:blocks) {
-				boolean unmatched=false;
-				
-				for(BlockFilter filter : blockFilters)
-					if(! filter.filter(block)) {
-						unmatched=true;
-						break;
-					}
-				
-					if(unmatched)
-						continue;
-				
-					str+=block.string()+"\n";
-			}*/
-			
 			return str;
 		}
 		
@@ -737,6 +705,12 @@ public class Page extends Rectangle{
 			}
 			
 			return str;
+		}
+	}
+	
+	static class CompareColumns implements Comparator<Column> {
+		public int compare(Column c1,Column c2) {
+			return c1.left-c2.left;
 		}
 	}
 
@@ -869,11 +843,17 @@ public class Page extends Rectangle{
 		}
 		
 		public boolean onLeftSide(Rectangle rect) {
-			return rect.right<=coord;
+			if(orient==Common._LEFTORIENTED)
+				return rect.right<coord;
+			else
+				return rect.right<=coord;
 		}
 		
 		public boolean onRightSide(Rectangle rect) {
-			return rect.left>=coord;
+			if(orient==Common._LEFTORIENTED)
+				return rect.left>=coord;
+			else
+				return rect.left>coord;
 		}
 		
 		public boolean separating(Rectangle rect1, Rectangle rect2) {
