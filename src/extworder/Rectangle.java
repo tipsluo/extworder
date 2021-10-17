@@ -257,7 +257,7 @@ public class Rectangle {
 		}
 	}
 	
-	class VStretch extends Stretch {
+	/*class VStretch extends Stretch {
 		VStretch(Char ch) {
 			super(ch.upper,ch.lower);
 		}
@@ -265,7 +265,7 @@ public class Rectangle {
 		VStretch(Stretch stretch) {
 			super(stretch.start,stretch.end);
 		}
-	}
+	}*/
 	
 	class Stretch {
 		int start,end;
@@ -275,6 +275,7 @@ public class Rectangle {
 			this.end=end;
 		}
 
+		@Override
 	    public boolean equals(Object object) {
 	        if (object != null && object instanceof Stretch) {
 				return start== ((Stretch) object).start && end==((Stretch) object).end;

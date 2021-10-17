@@ -17,7 +17,7 @@ import org.apache.pdfbox.text.TextPosition;
 import extworder.Block.BlockFormat;
 import extworder.Char.Point;
 import extworder.Common.BlockFilter;
-import extworder.Content.HStretch;
+import extworder.Content.Stretch;
 import extworder.Row.CharFont;
 
 public class Page extends Rectangle{
@@ -260,7 +260,7 @@ public class Page extends Rectangle{
 	}
 	
 	protected void makeColumns() {
-		TreeMap<HStretch,Integer> hStretches=new TreeMap<>();
+		TreeMap<Stretch,Integer> stretches=new TreeMap<>();
 		
 		for(Row row:rows) {
 			if(row.width!=row.block.width)
@@ -269,21 +269,21 @@ public class Page extends Rectangle{
 			if(row.width < content.lowColumnWidth || row.width > content.highColumnWidth)
 				continue;
 			
-			HStretch hStretch=new HStretch(row.left,row.right);
+			Stretch stretch=new Stretch(row.left,row.right);
 			
-			int n=hStretches.compute(hStretch, (k,v) -> (v == null ? 0 : v) + 1);
-			hStretches.put(hStretch,n);
+			int n=stretches.compute(stretch, (k,v) -> (v == null ? 0 : v) + 1);
+			stretches.put(stretch,n);
 		}
 		
-		ArrayList<HStretch> columnStretches=new ArrayList<>();
+		ArrayList<Stretch> columnStretches=new ArrayList<>();
 		
-		LinkedHashMap<HStretch, Integer> reverseSortedMap = new LinkedHashMap<>();
-		hStretches.entrySet()
+		LinkedHashMap<Stretch, Integer> reverseSortedMap = new LinkedHashMap<>();
+		stretches.entrySet()
 	    	.stream()
 	    	.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) 
 	    	.forEachOrdered(x -> reverseSortedMap.put(x.getKey(), x.getValue()));
 		int i=0;
-		for (Map.Entry<HStretch,Integer> entry : reverseSortedMap.entrySet()) {
+		for (Map.Entry<Stretch,Integer> entry : reverseSortedMap.entrySet()) {
 			if(i>=content.columnNumber) break;
 			columnStretches.add(entry.getKey());
 			i++;
@@ -291,10 +291,10 @@ public class Page extends Rectangle{
 		
 		Collections.sort(columnStretches);
 		
-		for(HStretch columnStretch:columnStretches) {
+		for(Stretch columnStretch:columnStretches) {
 			int a=(int) (content.columnWidth * Common._ColumnWidthAdjustment / 2);
-			int l=columnStretch.left - a;
-			int r=columnStretch.right + a;
+			int l=columnStretch.start - a;
+			int r=columnStretch.end + a;
 			
 			columns.add(new Column(l,headerY,
 					r,footerY));

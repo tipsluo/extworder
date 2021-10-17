@@ -276,7 +276,6 @@ public class Content extends PDFTextStripper {
 	
 					if(row1.block==row2.block || 
 							(row2.block.rows.size()==1 && 
-								row1.block.column==row2.block.column &&
 									row1.hDistance(row2)<=(int)(row1.height*Common._MaxSameRowDistanceRatio))) {
 						row1.mergeUpdateWidth(row2);
 						j--;
@@ -378,7 +377,6 @@ public class Content extends PDFTextStripper {
 		contentWidth=contentRight-contentLeft+1;
 		lowContentWidth=contentWidth*(1-Common._ColumnWidthAdjustment);
 		highContentWidth=contentWidth*(1+Common._ColumnWidthAdjustment);
-		//minBodyBlockWidth=contentWidth*Common._MinBodyCharBlockWidth;  //for multiple rows
 		
 		columnWidth=columnWidth();
 		lowColumnWidth=columnWidth*(1-Common._ColumnWidthAdjustment);
@@ -916,30 +914,30 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	static class HStretch implements Comparable<HStretch> {
-		protected int left;
-		protected int right;
+	static class Stretch implements Comparable<Stretch> {
+		protected int start;
+		protected int end;
 		
-		public HStretch(int left,int right) {
-			this.left=left;
-			this.right=right;
+		public Stretch(int start,int end) {
+			this.start=start;
+			this.end=end;
 		}
 		
 	    @Override
 	    public int hashCode() {
-	        return left*100000 + right;
+	        return start*100000 + end;
 	    }
 		
 		@Override
 		public boolean equals(Object obj) {
 			if (getClass() != obj.getClass())
 	            return false;
-			HStretch other = (HStretch) obj;
+			Stretch other = (Stretch) obj;
 			return hashCode()==other.hashCode();
 		}
 
 		@Override
-		public int compareTo(HStretch s) {
+		public int compareTo(Stretch s) {
 			return hashCode()-s.hashCode();
 		}
 	}
