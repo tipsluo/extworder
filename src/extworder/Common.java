@@ -26,6 +26,7 @@ public class Common {
 	final static int _CharHSpaceAddGap=2;
 	final static float _CharHGapRatio=3.5f;
 	final static float _CharVGapRatio=2.0f;
+	final static float _MaxBorderExpandRatio=2.0f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static float _MaxSameRowDistanceRatio=2f;

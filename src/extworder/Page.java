@@ -267,21 +267,26 @@ public class Page extends Rectangle{
 			Stretch stretch=new Stretch(row.upper,row.lower);
 			Border leftBorder=new Border(row.left,Common._LEFTORIENTED,stretch);
 			Border rightBorder=new Border(row.right,Common._RIGHTORIENTED,stretch);
-			float maxGap=row.charfont.height * Common._CharVGapRatio;
+			float maxGap=row.charfont.height * Common._MaxBorderExpandRatio;
 			
-			boolean connected=false;
+			boolean lConnected=false;
+			boolean rConnected=false;
 			for(Border border:borders) {
-				if(border.connected(leftBorder,maxGap) || border.connected(rightBorder,maxGap)) {
-					border.extend(stretch);
-					connected=true;
-					break;
+				if(border.connected(leftBorder,maxGap)) {
+					lConnected=true;
 				}
+				if(border.connected(rightBorder,maxGap)) {
+					rConnected=true;
+				}	
+					
+				if(rConnected || lConnected)
+					border.extend(stretch);
 			}
 			
-			if(!connected) {
+			if(!lConnected)
 				borders.add(leftBorder);
+			if(!rConnected)
 				borders.add(rightBorder);
-			}
 		}
 	}
 	
@@ -830,8 +835,8 @@ public class Page extends Rectangle{
 			if(coord!=border.coord ||orient!=border.orient)
 				return false;
 			
-			return Math.abs(stretch.start-border.stretch.end) < maxGap || 
-					Math.abs(stretch.end-border.stretch.start) < maxGap;
+			return Math.abs(stretch.start-border.stretch.end) <= maxGap || 
+					Math.abs(stretch.end-border.stretch.start) <= maxGap;
 		}
 		
 		public void extend(int point) {
