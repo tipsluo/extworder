@@ -13,16 +13,32 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
-        ArrayList<String> pdfs=Common.getAllPDFs();
-		main_test1_gettext();
-		//main_test2_printcharinfos();
-		//main_test3_getTitle();
+        ArrayList<String> pdfs=new ArrayList<String>();
+        //pdfs=Common.getAllPDFs();
+        
+        pdfs.add("acs-A Review on Perovskite-Type LaFeO3");
+        main_test1_pdfs(pdfs);
+        
+		/*main_test1_gettext();
         main_test4_printRows();
 		main_test4_getText();
 		main_test5_block_display();
 		main_test6_block_print(pdfs);
-		main_test7_content_print(pdfs);
+		main_test7_content_print(pdfs);*/
+		/*if(pdfs.size()!=0) {
+			for(String pdf:pdfs) {
+				System.out.println("printContent("+pdf+")");
+				printContent(pdf);
+			}
+			return;
+		}*/
 		System.out.println("Extworder Done.");
+	}
+	
+	static public void main_test1_pdfs(ArrayList<String> pdfs) throws IOException {
+		main_test4_printRows(pdfs);
+		main_test6_block_print(pdfs);
+		main_test7_content_print(pdfs);
 	}
 
 	static public void main_test1_gettext() throws IOException {
@@ -52,7 +68,14 @@ public class Extworder {
 		getTitle("ILL article-Impact of the KWL reading strategy");
     }*/
 	
-	static public void main_test4_printRows() throws IOException {
+	static public void main_test4_printRows(ArrayList<String> pdfs) throws IOException {
+		if(pdfs.size()!=0) {
+			for(String pdf:pdfs) {
+				System.out.println("displayRows("+pdf+")");
+				displayRows(pdf);
+			}
+			return;
+		}
 		//displayRows("A model for estimating parameters of rotational landslide");
 		//displayRows("Peace-Development and Peace Through");
 		//displayRows("Broader perspective on ecosystem");
@@ -70,7 +93,8 @@ public class Extworder {
 		//displayRows("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 	}
 	
-	static public void main_test4_getText() throws IOException {
+	static public void main_test4_getText(ArrayList<String> pdfs) throws IOException {
+
 		//displayChars("A model for estimating parameters of rotational landslide");
 		//getText("Peace-Development and Peace Through");
 		//getText("Broader perspective on ecosystem");
@@ -96,17 +120,17 @@ public class Extworder {
 	}
 	
 	static public void main_test6_block_print(ArrayList<String> pdfs) throws IOException {
-		/*if(pdfs.size()!=0) {
+		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printBlocks("+pdf+")");
 				printBlocks(pdf);
 			}
 			return;
 		}
-		*/
+		
 		//printBlocks("A model for estimating parameters of rotational landslide");
 		//printBlocks("Peace-Development and Peace Through");
-		printBlocks("Broader perspective on ecosystem");
+		//printBlocks("Broader perspective on ecosystem");
 		//printBlocks("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printBlocks("ILL article-Impact of the KWL reading strategy");
 		//printBlocks("Nursing-NewFormat-narrative inquiry approach to understanding");
@@ -137,18 +161,18 @@ public class Extworder {
 	}
 	
 	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
-		/*if(pdfs.size()!=0) {
+		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printContent("+pdf+")");
 				printContent(pdf);
 			}
 			return;
 		}
-		*/
+		
 		
 		//printContent("A model for estimating parameters of rotational landslide");
 		//printContent("Peace-Development and Peace Through");
-		printContent("Broader perspective on ecosystem");
+		//printContent("Broader perspective on ecosystem");
 		//printContent("Taylor&Francis-Purification technology for renewable production of fuel from methan");
 		//printContent("ILL article-Impact of the KWL reading strategy");
 		// pages messed up: printContent("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
