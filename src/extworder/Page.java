@@ -35,6 +35,7 @@ public class Page extends Rectangle{
 	private int xOffset;
 	private int yOffset;
 	final static CompareColumns compareColumns=new CompareColumns();
+	final static CompareBorders compareBorders=new CompareBorders();
 	
 	public Page(Content content,int id) {
 		this.content=content;
@@ -264,23 +265,25 @@ public class Page extends Rectangle{
 		borders=new ArrayList<Border>();
 		
 		for(Row row:rows) {
-			Stretch stretch=new Stretch(row.upper,row.lower);
-			Border leftBorder=new Border(row.left,Common._LEFTORIENTED,stretch);
-			Border rightBorder=new Border(row.right,Common._RIGHTORIENTED,stretch);
+//if(row.left==87 || row.right==87)
+//	System.out.println("");
+			Stretch lStretch=new Stretch(row.upper,row.lower);
+			Stretch rStretch=new Stretch(row.upper,row.lower);
+			Border leftBorder=new Border(row.left,Common._LEFTORIENTED,lStretch);
+			Border rightBorder=new Border(row.right,Common._RIGHTORIENTED,rStretch);
 			float maxGap=row.charfont.height * Common._MaxBorderExpandRatio;
 			
 			boolean lConnected=false;
 			boolean rConnected=false;
 			for(Border border:borders) {
 				if(border.connected(leftBorder,maxGap)) {
+					border.extend(lStretch);
 					lConnected=true;
 				}
 				if(border.connected(rightBorder,maxGap)) {
+					border.extend(rStretch);
 					rConnected=true;
-				}	
-					
-				if(rConnected || lConnected)
-					border.extend(stretch);
+				}
 			}
 			
 			if(!lConnected)
@@ -288,6 +291,9 @@ public class Page extends Rectangle{
 			if(!rConnected)
 				borders.add(rightBorder);
 		}
+		
+		Collections.sort(borders,compareBorders);
+		Collections.reverse(borders);
 	}
 	
 	protected boolean checkSeparatingBorder(Rectangle rect1,Rectangle rect2) {
@@ -716,6 +722,19 @@ public class Page extends Rectangle{
 	static class CompareColumns implements Comparator<Column> {
 		public int compare(Column c1,Column c2) {
 			return c1.left-c2.left;
+		}
+	}
+	
+	static class CompareBorders implements Comparator<Border> {
+		public int compare(Border b1,Border b2) {
+			int s1=b1.stretch.length();
+			int s2=b2.stretch.length();
+			
+			return s1!=s2 ? s1-s2 
+							:
+							b1.coord != b2.coord ? b1.coord-b2.coord
+													:
+													b1.orient-b2.orient;
 		}
 	}
 

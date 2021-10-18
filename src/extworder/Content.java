@@ -268,8 +268,8 @@ public class Content extends PDFTextStripper {
 					if(row1==row2)
 						continue;
 					
-if(row1.string().contains("water/CO2") && row2.string().contains("Figure 1."))
-						System.out.println("");	
+//if(row2.string().contains("Ce") && row1.string().contains("LaFE03"))
+						//System.out.println("");	
 					
 					if(! row1.vContains(row2))
 						continue;
@@ -878,8 +878,8 @@ if(row1.string().contains("water/CO2") && row2.string().contains("Figure 1."))
 /*if(block.string().contains("The concept of sustainability increasingly"))
 				System.out.println("");*/
 			
-			Block virtualBlock=Validation.verifyBodyBlock(block);
-			if(virtualBlock!=null)
+			//Block virtualBlock=Validation.verifyBodyBlock(block);
+			//if(virtualBlock!=null)
 				block.type=Common._Body;
 		}
 	}

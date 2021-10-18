@@ -25,7 +25,7 @@ public class Validation {
 		return true;
 	}
 	
-	static Block verifyBodyBlock(Block block) {
+	/*static Block verifyBodyBlock(Block block) {
 		int maxGap=Math.round(Common._MaxInterBodyBlockGapRatio * block.format.charfont.height);
 
 		Block virtualBlock=new Block();
@@ -68,5 +68,5 @@ public class Validation {
 			return null;
 		
 		return virtualBlock;
-	}
+	}*/
 }
