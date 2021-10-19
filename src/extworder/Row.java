@@ -512,6 +512,10 @@ public class Row extends Rectangle {
 	        return hashCode()==other.hashCode();
 		}
 		
+		public boolean allEquals(CharFont charfont) {
+			return name==charfont.name && height==charfont.height;
+		}
+		
 		@Override
 	    public int compareTo(CharFont charfont) {
 	        return hashCode()-charfont.hashCode();

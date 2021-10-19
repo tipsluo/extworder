@@ -237,7 +237,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages)
 			for(Block block:page.blocks) {
-				if(block.isParagraphBlock()<=Common._ParaSentDefaultFalse)
+				if(block.isParagraphBlock(null)<=Common._ParaSentDefaultFalse)
 					continue;
 					
 				int w=block.right-block.left+1;
@@ -633,7 +633,7 @@ public class Content extends PDFTextStripper {
 		abstractStr=getKeyBlockStr(
 				0,
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?"));
-		if(activeBlock!=null && activeBlock.isParagraphBlock()>=Common._ParaSentDefaultUno) {
+		if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
 		} else {
@@ -648,7 +648,7 @@ public class Content extends PDFTextStripper {
 					if(block.type==Common._PageHeaderBlock || block.type==Common._PageFooterBlock)
 						continue;
 					
-					if(block.isParagraphBlock()<Common._ParaSentDefaultTrue)
+					if(block.isParagraphBlock(null)<Common._ParaSentDefaultTrue)
 						continue;
 					
 					String blockStr=block.string();
@@ -823,7 +823,6 @@ public class Content extends PDFTextStripper {
 	private int getIncreasingFormatBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
-		//if(block.isBodyFullBlock()) {
 		if(block.likeBodyBlock()>=Common._ParaSentDefaultTrue) {
 			Block block0=block;
 			
@@ -868,9 +867,6 @@ public class Content extends PDFTextStripper {
 					int lbb=block.likeBodyBlock();
 					if(lbb>=Common._ParaSentDefaultUno)
 						bodyBlocks.add(block);
-					/*if(lbb<Common._ParaSentDefaultTrue &&
-							lbb>Common._ParaSentDefaultFalse)
-						unoBlocks.add(block);*/
 				}
 		}
 		
@@ -880,7 +876,7 @@ public class Content extends PDFTextStripper {
 			
 			//Block virtualBlock=Validation.verifyBodyBlock(block);
 			//if(virtualBlock!=null)
-				block.type=Common._Body;
+			block.type=Common._Body;
 		}
 	}
 	

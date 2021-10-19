@@ -380,10 +380,13 @@ public class Block extends Rectangle {
 		return 0;
 	}
 	
-	int isParagraphBlock() {
+	int isParagraphBlock(CharFont charfont) {
 		int paraSentUnoNoTerm=0;
 		
 		for(Row row:rows) {
+			if(charfont!=null && ! row.charfont.allEquals(charfont))
+				continue;
+			
 			int f=row.firstParagraphLine();
 			boolean p=row.isParaphaphLine();
 			int l=row.lastParagraphLine();
@@ -416,10 +419,10 @@ public class Block extends Rectangle {
 
 		if(page.content.bodyBlockformat!=null &&
 				! format.equals(page.content.bodyBlockformat))
-				return Common._ParaSentDefaultFalse;
+			return Common._ParaSentDefaultFalse;
 		
-/*if(string().contains("Music-based interventions") )
-		System.out.println("");*/
+if(string().contains("2. STRUCTURE PROPERTIES OF LaFeO3 AND ITS") )
+		System.out.println("");
 		
 		
 		if(rows.size()==1) {
@@ -428,15 +431,17 @@ public class Block extends Rectangle {
 			// row need to be the lastlineinblock
 			if(row.lastParagraphLine()<=Common._ParaSentDefaultFalse)
 				return Common._ParaSentDefaultFalse;
-			/*if(! row.rightAligned(rect) && ! row.terminatedSentence())
-				return Common._ParaSentDefaultFalse;*/
 			
 			//for ",   (2)"
 			if(row.firstParagraphLineInRect(rect)<=Common._ParaSentDefaultFalse)
 				return Common._ParaSentDefaultFalse;
 		}
-
-		int ret=isParagraphBlock();
+		
+		int ret;
+		if(page.content.bodyBlockformat!=null)
+			ret=isParagraphBlock(page.content.bodyBlockformat.charfont);
+		else
+			ret=isParagraphBlock(null);
 		
 		return ret;
 	}
@@ -501,7 +506,6 @@ public class Block extends Rectangle {
 	
 	static class BlockFormat implements Comparable<BlockFormat> {
 		final CharFont charfont;
-		//int indent;
 		int alignment;
 		int allUppercase;
 		
@@ -517,7 +521,6 @@ public class Block extends Rectangle {
 		}
 		
 		public void update(Block block) {
-			//this.indent=block.indent();
 			this.alignment=block.alignment();
 			
 			String s=block.string();
@@ -537,7 +540,6 @@ public class Block extends Rectangle {
 		
 		public BlockFormat(CharFont charfont) {
 			this.charfont=charfont;
-			//this.indent=Common._UNKNOWNINDENT;
 			this.alignment=Common._UNKNOWNALIGNED;
 			this.allUppercase=Common._NOTALLUPPERCASE;
 		}
