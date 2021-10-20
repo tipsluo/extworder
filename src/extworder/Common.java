@@ -55,7 +55,7 @@ public class Common {
 	final static int _MaxCharVGapAdj=1;
 	final static int _MinCharVGapAdj=-2;
 	final static float _MaxInterBodyBlockGapRatio=4;
-	final static float _MaxIntraBlockRowGapRatio=2;
+	final static float _MaxIntraBlockRowGapRatio=1.5f;
 	
 	final static int _ParaSentUnoNoTerm=1;
 	final static int _ParaSentDefaultTrue=100;

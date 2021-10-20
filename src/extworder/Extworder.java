@@ -17,7 +17,7 @@ public class Extworder {
         //pdfs=Common.getAllPDFs();
         
         pdfs.add("acs-A Review on Perovskite-Type LaFeO3");
-        main_test1_pdfs(pdfs);
+        main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();
         main_test4_printRows();
@@ -35,13 +35,21 @@ public class Extworder {
 		System.out.println("Extworder Done.");
 	}
 	
-	static public void main_test1_pdfs(ArrayList<String> pdfs) throws IOException {
+	static public void main_test_pdfs(ArrayList<String> pdfs) throws IOException {
+		main_test4_getText(pdfs);
 		main_test4_printRows(pdfs);
 		main_test6_block_print(pdfs);
 		main_test7_content_print(pdfs);
 	}
 
-	static public void main_test1_gettext() throws IOException {
+	static public void main_test1_gettext(ArrayList<String> pdfs) throws IOException {
+		if(pdfs.size()!=0) {
+			for(String pdf:pdfs) {
+				System.out.println("extract("+pdf+")");
+				extract(pdf);
+			}
+			return;
+		}
 		//extract("A model for estimating parameters of rotational landslide");
 		//extract("Peace-Development and Peace Through");
 		//extract("Broader perspective on ecosystem");
@@ -52,12 +60,19 @@ public class Extworder {
 		//extract("AMS-PACMAN RENORMALIZATION");
 	}//
 	
-	/*static public void main_test2_printcharinfos() throws IOException {
-		printCharInfos("A model for estimating parameters of rotational landslide");
-		printCharInfos("Peace-Development and Peace Through");
-		printCharInfos("Broader perspective on ecosystem");
-		printCharInfos("Taylor&Francis-Purification technology for renewable production of fuel from methan");
-		printCharInfos("ILL article-Impact of the KWL reading strategy");
+	/*static public void main_test2_printcharinfos(ArrayList<String> pdfs) throws IOException {
+		if(pdfs.size()!=0) {
+			for(String pdf:pdfs) {
+				System.out.println("printCharInfos("+pdf+")");
+				printCharInfos(pdf);
+			}
+			return;
+		}
+		//printCharInfos("A model for estimating parameters of rotational landslide");
+		//printCharInfos("Peace-Development and Peace Through");
+		//printCharInfos("Broader perspective on ecosystem");
+		//printCharInfos("Taylor&Francis-Purification technology for renewable production of fuel from methan");
+		//printCharInfos("ILL article-Impact of the KWL reading strategy");
 	}*/
 	
 	/*static public void main_test3_getTitle() throws IOException {
@@ -94,7 +109,13 @@ public class Extworder {
 	}
 	
 	static public void main_test4_getText(ArrayList<String> pdfs) throws IOException {
-
+		if(pdfs.size()!=0) {
+			for(String pdf:pdfs) {
+				System.out.println("displayChars("+pdf+")");
+				displayChars(pdf);
+			}
+			return;
+		}
 		//displayChars("A model for estimating parameters of rotational landslide");
 		//getText("Peace-Development and Peace Through");
 		//getText("Broader perspective on ecosystem");

@@ -124,6 +124,25 @@ public class Block extends Rectangle {
 		return newBlocks;
 	}
 	
+	ArrayList<Block> split(ArrayList<Integer> rowIds) {
+		ArrayList<Block> newBlocks=new ArrayList<Block>();
+		
+		rowIds.add(rows.size());
+		
+		int r=0;
+		for(int i=0; i<rowIds.size(); i++) {
+			ArrayList<Row> newRows=new ArrayList<Row>();
+			
+			for(;r<rowIds.get(i); r++)
+				newRows.add(rows.get(r));
+			
+			Block block=new Block(page,column,newRows);
+			newBlocks.add(block);
+		}
+		
+		return newBlocks;
+	}
+	
 	Block closestBlock() {
 		Block block=null;
 		float minDistance=999;
@@ -310,6 +329,42 @@ public class Block extends Rectangle {
 		return null;
 	}
 	
+	ArrayList<Block> separateRowsByCharfont() {
+		ArrayList<Integer> splits=new ArrayList<Integer>();
+		
+		if(rows.size()<2)
+			return null;
+		
+		Row row1;
+		Row row2=rows.get(0);
+		
+		for(int i=1;i<rows.size();i++) {
+			row1=row2;
+			row2=rows.get(i);
+			
+			if(row1.charfont.allEquals(row2.charfont)) {
+			//if(row1.charfont.equals(row2.charfont)) {
+				continue;
+			}
+			
+			Char row1last=row1.chars.get(row1.chars.size()-1);
+			Char row2first=row2.chars.get(0);
+			
+			if(row1last.fontname==row2first.fontname && 
+					row1last.height==row2first.height &&
+					row1.rightAligned(this) &&
+					row2.leftAligned(this))
+				continue;
+			
+			splits.add(i);
+		}
+		
+		if(splits.size()==0)
+			return null;
+			
+		return split(splits);
+	}
+	
 	boolean isBodyCharfontFullBlock() {
 		return format.equals(page.content.bodyBlockformat) && 
 				isFull(page.content,column);
@@ -385,6 +440,7 @@ public class Block extends Rectangle {
 		
 		for(Row row:rows) {
 			if(charfont!=null && ! row.charfont.allEquals(charfont))
+			//if(charfont!=null && ! row.charfont.equals(charfont))
 				continue;
 			
 			int f=row.firstParagraphLine();
@@ -421,8 +477,8 @@ public class Block extends Rectangle {
 				! format.equals(page.content.bodyBlockformat))
 			return Common._ParaSentDefaultFalse;
 		
-if(string().contains("2. STRUCTURE PROPERTIES OF LaFeO3 AND ITS") )
-		System.out.println("");
+//if(string().contains("2. STRUCTURE PROPERTIES OF LaFeO3 AND ITS") )
+//		System.out.println("");
 		
 		
 		if(rows.size()==1) {

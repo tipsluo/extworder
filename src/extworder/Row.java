@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 
 import extworder.Common.RangeGroup;
 import extworder.Common.RangeGroup.Range;
+import extworder.Common.StatGroup;
 
 public class Row extends Rectangle {
 	CharFont charfont;
@@ -437,6 +438,24 @@ public class Row extends Rectangle {
 		if(chars.size()==0)
 			return null;
 		
+//if(string().contains("ABSTRACT:"))
+	//System.out.println("");
+		
+		StatGroup<CharFont> charfonts=new StatGroup<CharFont>();
+		
+		for (Char ch: chars) {
+			CharFont cf=new CharFont(ch.fontname,ch.height);
+			
+			charfonts.add(cf);
+		}
+			
+		return charfonts.maxByValue();
+	}
+	
+	/*private CharFont getCharFont() {
+		if(chars.size()==0)
+			return null;
+		
 		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
 		
 		for (Char ch: chars) {
@@ -449,7 +468,7 @@ public class Row extends Rectangle {
 		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		
 		return cf;
-	}
+	}*/
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write(string());
@@ -488,14 +507,14 @@ public class Row extends Rectangle {
 			int i=(int) (height * 1000);
 			
 			if(bold>0)
-				i=i + 400 * bold;	
+				i=i<<1 + 1;	
 					
 	        return i;
 		}
 		
 	    @Override
 	    public int hashCode() {
-	    	return value();
+	    	return (value()<<20) + (name.hashCode()>>20);
 	    }
 		
 		@Override
@@ -509,7 +528,7 @@ public class Row extends Rectangle {
 	        
 	        CharFont other = (CharFont) obj;
 	        
-	        return hashCode()==other.hashCode();
+	        return value()==other.value();
 		}
 		
 		public boolean allEquals(CharFont charfont) {
@@ -518,7 +537,7 @@ public class Row extends Rectangle {
 		
 		@Override
 	    public int compareTo(CharFont charfont) {
-	        return hashCode()-charfont.hashCode();
+	        return value()-charfont.value();
 	    }
 
 		final static class CheckBold {

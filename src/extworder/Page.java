@@ -402,7 +402,6 @@ public class Page extends Rectangle{
 			Block block=blocks.get(i);
 			
 			ArrayList<Block> bs=block.separateFarRows();
-			
 			if(bs==null)
 				continue;
 			
@@ -411,6 +410,20 @@ public class Page extends Rectangle{
 			
 			i--;
 		}
+		
+		for(int i=0;i<blocks.size();i++) {
+			Block block=blocks.get(i);
+			
+			ArrayList<Block> bs=block.separateRowsByCharfont();
+			if(bs==null)
+				continue;
+			
+			blocks.remove(i);
+			blocks.addAll(i,bs);
+			
+			i--;
+		}
+		
 		
 		Collections.sort(blocks,Block.compareBlocks);
 	}
