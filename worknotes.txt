@@ -5,7 +5,7 @@ issue, subtitle
 3 rows close
 
 
-AMS-PACMAN RENORMALIZATION_content     subtitle
+AMS-PACMAN RENORMALIZATION_content     subtitle   
 issue remaining, sent
 1. error of font not found when extract. INTRODUCTION became Introduction
 2. too many formulars messing up
@@ -17,6 +17,7 @@ big letter
 
 
 AIP-Magnetic fields for modulating the nervous system_content
+curse border
 big letter
 spread letters
 rows very close

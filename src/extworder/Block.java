@@ -373,7 +373,7 @@ public class Block extends Rectangle {
 	
 	boolean isBodyBlock() {
 		return format.equals(page.content.bodyBlockformat) && 
-				likeBodyBlock()>=Common._ParaSentDefaultUno;
+				likeBodyBlock1()>=Common._ParaSentDefaultUno;
 	}
 	
 	boolean isBodyInfinished() {
@@ -468,7 +468,7 @@ public class Block extends Rectangle {
 		return Common._ParaSentDefaultTrue;
 	}
 	
-	int likeBodyBlock() {
+	int likeBodyBlock1() {
 		Rectangle rect = column==null ? page : column;
 
 		if(type==Common._PageFooterBlock || type==Common._PageHeaderBlock)
@@ -503,6 +503,24 @@ public class Block extends Rectangle {
 		return ret;
 	}
 	
+	int likeBodyBlock2() {
+		if(page.content.bodyBlockformat!=null &&
+				! format.equals(page.content.bodyBlockformat))
+			return Common._ParaSentDefaultFalse;
+		
+		int noAligned=0;
+		
+		for(Row row:rows) {
+			if(! row.leftAligned(column) && ! row.rightAligned(column))
+				noAligned++;
+		}
+		
+		if(noAligned/rows.size() > Common._MaxNoAlignedInBlockRation)
+			return Common._BodyNoAligned;
+		
+		return Common._BodyAlignedColumn;
+	}
+	
 	public boolean priorTo(Block block) {
 		if(page!=block.page)
 			return page.id<block.page.id;
@@ -535,7 +553,7 @@ public class Block extends Rectangle {
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
 				content.blockformatIndexes.get(format),left,right,upper,lower));
 		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d, likeBody=%d\n\n",
-				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft, likeBodyBlock()));
+				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft, likeBodyBlock1()));
 		
 		fw.write(string());
 		

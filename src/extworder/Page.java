@@ -321,6 +321,8 @@ public class Page extends Rectangle{
 		}
 		
 		ArrayList<Stretch> columnStretches=new ArrayList<>();
+//if(id==6)
+//	System.out.println("");
 		
 		LinkedHashMap<Stretch, Integer> reverseSortedMap = new LinkedHashMap<>();
 		stretches.entrySet()
@@ -330,8 +332,19 @@ public class Page extends Rectangle{
 		int i=0;
 		for (Map.Entry<Stretch,Integer> entry : reverseSortedMap.entrySet()) {
 			if(i>=content.columnNumber) break;
-			columnStretches.add(entry.getKey());
-			i++;
+			
+			Stretch s=entry.getKey();
+			boolean intersected=false;
+			for(Stretch cs:columnStretches)
+				if(cs.intersected(s)) {
+					intersected=true;
+					break;
+				}
+					
+			if(!intersected) {
+				columnStretches.add(s);
+				i++;
+			}
 		}
 		
 		Collections.sort(columnStretches);
@@ -897,8 +910,8 @@ public class Page extends Rectangle{
 			Stretch s1=new Stretch(rect1.upper,rect1.lower);
 			Stretch s2=new Stretch(rect2.upper,rect2.lower);
 			
-			if(! stretch.contains(s1, s1.length()*Common._CharVGapRatio) ||
-					! stretch.contains(s2, s2.length()*Common._CharVGapRatio))
+			if(! stretch.contains(s1, s1.length()*Common._MaxBorderExpandRatio) &&
+					! stretch.contains(s2, s2.length()*Common._MaxBorderExpandRatio))
 				return false;
 			
 			return (onLeftSide(rect1) && onRightSide(rect2)) ||

@@ -34,6 +34,7 @@ public class Common {
 	final static int _MinBigTextBlockFirstRowLength=5;
 	final static float _FirstLineIndentRatio=5f;
 	final static float _MaxUpperLeftWidthRatio=3f;
+	final static float _MaxNoAlignedInBlockRation=0.3f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -58,10 +59,13 @@ public class Common {
 	final static float _MaxInterBodyBlockGapRatio=4;
 	final static float _MaxIntraBlockRowGapRatio=1.5f;
 	
-	final static int _ParaSentUnoNoTerm=1;
+	
 	final static int _ParaSentDefaultTrue=100;
-	final static int _ParaSentDefaultFalse=-100;
+	final static int _BodyAlignedColumn=2;
+	final static int _ParaSentUnoNoTerm=1;
 	final static int _ParaSentDefaultUno=0;
+	final static int _ParaSentDefaultFalse=-100;
+	final static int _BodyNoAligned=101;
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	//final static float _ColumnMinWidthRatio=0.3f;

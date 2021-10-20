@@ -174,7 +174,7 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(block.likeBodyBlock()>=Common._ParaSentDefaultTrue &&
+					if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue &&
 							! blockformats.containsKey(block.format))
 						blockformats.put(block.format,evaluateBodyBlockformat(block.format));
 				}
@@ -191,7 +191,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			for(Block block:page.blocks) {
-				if(block.likeBodyBlock()<Common._ParaSentDefaultTrue)
+				if(block.likeBodyBlock1()<Common._ParaSentDefaultTrue)
 					continue;
 				
 				if(block.format.equals(blockformat)) {
@@ -414,7 +414,7 @@ public class Content extends PDFTextStripper {
 		for(;i<bigBlockList.size();i++) {
 			Block block=bigBlockList.get(i);
 			
-			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).likeBodyBlock()>=Common._ParaSentDefaultTrue)
+			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).likeBodyBlock1()>=Common._ParaSentDefaultTrue)
 				if(Block.additionalSubtitleFormatFilter.filter(block)) {
 					block.type=Common.subtitleBlockType(block);
 					continue;
@@ -823,7 +823,7 @@ public class Content extends PDFTextStripper {
 	private int getIncreasingFormatBlockNumber(ArrayList<Block> blocks, int endBlockIndex) {
 		Block block=blocks.get(endBlockIndex);
 	
-		if(block.likeBodyBlock()>=Common._ParaSentDefaultTrue) {
+		if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue) {
 			Block block0=block;
 			
 			int i1=endBlockIndex-1;
@@ -864,15 +864,25 @@ public class Content extends PDFTextStripper {
 					if(block.type!="")
 						continue;
 					
-					int lbb=block.likeBodyBlock();
+//if(block.string().contains("Michael Christiansenis "))
+//					System.out.println("");
+					
+					int lbb=block.likeBodyBlock1();
 					if(lbb>=Common._ParaSentDefaultUno)
 						bodyBlocks.add(block);
+					else {
+						if(block.column==null)
+							continue;
+						
+						lbb=block.likeBodyBlock2();
+						if(lbb>=Common._ParaSentDefaultUno)
+							bodyBlocks.add(block);
+					}
 				}
 		}
 		
 		for(Block block:bodyBlocks) {
-/*if(block.string().contains("The concept of sustainability increasingly"))
-				System.out.println("");*/
+
 			
 			//Block virtualBlock=Validation.verifyBodyBlock(block);
 			//if(virtualBlock!=null)
