@@ -16,7 +16,7 @@ public class Extworder {
         ArrayList<String> pdfs=new ArrayList<String>();
         //pdfs=Common.getAllPDFs();
         
-        pdfs.add("AMS-PACMAN RENORMALIZATION");
+        pdfs.add("AIP-Magnetic fields for modulating the nervous system");
         main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();

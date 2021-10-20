@@ -503,7 +503,7 @@ public class Row extends Rectangle {
 			bold=CheckBold.check(name);
 		}
 		
-		private int value() {
+		public int value() {
 			int i=(int) (height * 1000);
 			
 			if(bold>0)
@@ -514,7 +514,7 @@ public class Row extends Rectangle {
 		
 	    @Override
 	    public int hashCode() {
-	    	return (value()<<20) + (name.hashCode()>>20);
+	    	return (value()<<10) + (name.hashCode()>>20);
 	    }
 		
 		@Override

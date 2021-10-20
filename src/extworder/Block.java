@@ -613,7 +613,7 @@ public class Block extends Rectangle {
 		
 		@Override
 		public int hashCode() {
-			int hash=charfont.hashCode() * 2 + allUppercase;
+			int hash=charfont.value() * 2 + allUppercase;
 	        
 	        return hash;
 		}
