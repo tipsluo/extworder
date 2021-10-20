@@ -33,6 +33,7 @@ public class Common {
 	final static int _CharLeftAdjustment=2;
 	final static int _MinBigTextBlockFirstRowLength=5;
 	final static float _FirstLineIndentRatio=5f;
+	final static float _MaxUpperLeftWidthRatio=5f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;

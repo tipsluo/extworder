@@ -231,7 +231,8 @@ public class Block extends Rectangle {
 	boolean separateUpperLeftBigChar() {
 		Row row=rows.get(0);
 		
-		if(row.chars.size()<=2)
+		if(row.chars.size()<=2 || 
+				row.chars.get(0).width * Common._MaxUpperLeftWidthRatio > width )
 			return false;
 		
 		ArrayList<Row> newRows=new ArrayList<Row>();

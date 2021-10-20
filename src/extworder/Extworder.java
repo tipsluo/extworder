@@ -16,7 +16,7 @@ public class Extworder {
         ArrayList<String> pdfs=new ArrayList<String>();
         //pdfs=Common.getAllPDFs();
         
-        pdfs.add("acs-A Review on Perovskite-Type LaFeO3");
+        pdfs.add("AMS-PACMAN RENORMALIZATION");
         main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();
