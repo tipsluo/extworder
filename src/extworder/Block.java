@@ -437,6 +437,11 @@ public class Block extends Rectangle {
 	}
 	
 	int isParagraphBlock(CharFont charfont) {
+//if(string().contains("Andrew Wooyoung") )
+//				System.out.println("");
+		if(Common.leadingCapitalCount(string()) > Common._MaxLeadingCapitalRatio)
+			return Common._TooManyLeadingCapital;
+		
 		int paraSentUnoNoTerm=0;
 		
 		for(Row row:rows) {
@@ -478,10 +483,6 @@ public class Block extends Rectangle {
 				! format.equals(page.content.bodyBlockformat))
 			return Common._ParaSentDefaultFalse;
 		
-//if(string().contains("2. STRUCTURE PROPERTIES OF LaFeO3 AND ITS") )
-//		System.out.println("");
-		
-		
 		if(rows.size()==1) {
 			Row row=rows.get(0);
 			
@@ -508,17 +509,67 @@ public class Block extends Rectangle {
 				! format.equals(page.content.bodyBlockformat))
 			return Common._ParaSentDefaultFalse;
 		
-		int noAligned=0;
-		
+		float noAlignedColumn=0;
+		float noAlignedBlock=0;
+	
 		for(Row row:rows) {
 			if(! row.leftAligned(column) && ! row.rightAligned(column))
-				noAligned++;
+				noAlignedColumn++;
+			if(! row.leftAligned(this) || ! row.rightAligned(this))
+				noAlignedBlock++;
 		}
 		
-		if(noAligned/rows.size() > Common._MaxNoAlignedInBlockRation)
+		if(noAlignedColumn/rows.size() > Common._MaxMissingAlignedInColumnRation)
 			return Common._BodyNoAligned;
-		
+		if(noAlignedBlock/rows.size() > Common._MaxNoAlignedInBlockRation)
+			return Common._BodyNoAligned;
+
 		return Common._BodyAlignedColumn;
+	}
+	
+	boolean likeBodyBlock3() {
+		int maxGap=Math.round(Common._MaxInterBodyBlockGapRatio * format.charfont.height);
+
+		Block virtualBlock=new Block();
+				
+		virtualBlock.updateRectangle(this);
+		
+		ArrayList<Block> ubs=traceAllAbove(page.blocks,maxGap);
+		for(Block ub:ubs) {
+			if(ub.type==Common._PageHeaderBlock || ub.type==Common._PageFooterBlock ||
+					ub.column!=column)
+				break;
+			virtualBlock.updateRectangle(ub);
+		}
+		
+		ArrayList<Block> lbs=traceAllBelow(page.blocks,maxGap);
+		for(Block lb:lbs) {
+			if(lb.type==Common._PageHeaderBlock || lb.type==Common._PageFooterBlock ||
+					lb.column!=column)
+				break;
+			virtualBlock.updateRectangle(lb);
+		}
+		
+		if( Math.abs(column.width-virtualBlock.width) > column.width * Common._ColumnWidthAdjustment)
+			return false;
+		
+		int c=page.columns.indexOf(column);
+		
+		if( c == page.columns.size()-1)
+			return true;
+		
+		if(page.columns.get(c+1).blocks.size()==0)
+			return true;
+		
+		lbs=getAllBelow(column.blocks);
+		if(lbs.size()>0)
+			return true;
+
+		
+		if(virtualBlock.lower < column.lower - maxGap)
+			return false;
+		
+		return true;
 	}
 	
 	public boolean priorTo(Block block) {

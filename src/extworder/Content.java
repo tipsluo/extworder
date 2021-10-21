@@ -275,9 +275,8 @@ public class Content extends PDFTextStripper {
 						continue;
 
 					if(row1.block==row2.block || 
-							! page.checkSeparatingBorder(row1,row2)) {
-							//(row2.block.rows.size()==1 && 
-							//		row1.hDistance(row2)<=(int)(row1.height*Common._MaxSameRowDistanceRatio))) {
+							( ! page.checkSeparatingBorder(row1,row2) &&
+							row1.hDistance(row2)<=(int)(row1.height*Common._MaxSameRowDistanceRatio))) {
 						
 						row1.mergeUpdateWidth(row2);
 						j--;
@@ -516,7 +515,7 @@ public class Content extends PDFTextStripper {
 				if(! Block.bodyBlockFilter.filter(block))
 					continue;
 				
-				ArrayList<String> ws = Common.getLetterWords(block.string());
+				ArrayList<String> ws = Common.getLetterWords(block.string(),true);
 				
 				for(String s: ws) {
 					int i=Collections.binarySearch(words,s);
@@ -610,7 +609,7 @@ public class Content extends PDFTextStripper {
 					if(block.likeTitleBlock()<0)
 						continue;
 					
-					ArrayList<String> strs=Common.getLetterWords(block.string());
+					ArrayList<String> strs=Common.getLetterWords(block.string(),true);
 					if(Common.hits(allWords,strs) < Common._MinTitleFreqencyRatio)
 						continue;
 				}
@@ -652,7 +651,7 @@ public class Content extends PDFTextStripper {
 						continue;
 					
 					String blockStr=block.string();
-					ArrayList<String> strs=Common.getLetterWords(blockStr);
+					ArrayList<String> strs=Common.getLetterWords(blockStr,true);
 						
 					if(strs.size()<Common._MinKeyBlockWordNum)
 						continue;
@@ -864,8 +863,8 @@ public class Content extends PDFTextStripper {
 					if(block.type!="")
 						continue;
 					
-//if(block.string().contains("Michael Christiansenis "))
-//					System.out.println("");
+//if(block.string().contains("Andrew Wooyoung Kim"))
+	//				System.out.println("");
 					
 					int lbb=block.likeBodyBlock1();
 					if(lbb>=Common._ParaSentDefaultUno)
@@ -875,17 +874,13 @@ public class Content extends PDFTextStripper {
 							continue;
 						
 						lbb=block.likeBodyBlock2();
-						if(lbb>=Common._ParaSentDefaultUno)
+						if(lbb>=Common._ParaSentDefaultUno && block.likeBodyBlock3())
 							bodyBlocks.add(block);
 					}
 				}
 		}
 		
 		for(Block block:bodyBlocks) {
-
-			
-			//Block virtualBlock=Validation.verifyBodyBlock(block);
-			//if(virtualBlock!=null)
 			block.type=Common._Body;
 		}
 	}

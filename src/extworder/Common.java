@@ -26,15 +26,18 @@ public class Common {
 	final static int _CharHSpaceAddGap=2;
 	final static float _CharHGapRatio=3.5f;
 	final static float _CharVGapRatio=2.0f;
-	final static float _MaxBorderExpandRatio=2.0f;
+	final static float _MaxBorderExpandRatio=2.5f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static float _MaxSameRowDistanceRatio=2f;
 	final static int _CharLeftAdjustment=2;
-	final static int _MinBigTextBlockFirstRowLength=5;
+	//final static int _MinBigTextBlockFirstRowLength=5;
 	final static float _FirstLineIndentRatio=5f;
 	final static float _MaxUpperLeftWidthRatio=3f;
+	
+	final static float _MaxMissingAlignedInColumnRation=0.3f;
 	final static float _MaxNoAlignedInBlockRation=0.3f;
+	final static float _MaxLeadingCapitalRatio=0.2f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -65,7 +68,8 @@ public class Common {
 	final static int _ParaSentUnoNoTerm=1;
 	final static int _ParaSentDefaultUno=0;
 	final static int _ParaSentDefaultFalse=-100;
-	final static int _BodyNoAligned=101;
+	final static int _BodyNoAligned=-101;
+	final static int _TooManyLeadingCapital=-102;
 	
 	final static float _ColumnWidthAdjustment=0.05f;
 	//final static float _ColumnMinWidthRatio=0.3f;
@@ -104,7 +108,7 @@ public class Common {
 	final static Pattern uppercase;
 	final static Pattern leading2Uppercase;
 	final static Pattern scarceRow;
-	final static Pattern likeSentence1,likeSentence2;
+	final static Pattern likeSentence1,likeSentence2,likeLeadingWord;
 	final static Pattern terminated;
 	
 	/* May need it later
@@ -121,6 +125,7 @@ public class Common {
 		likeSentence2=Pattern.compile("(is|are|was|were|am|arn't|" +
 				"wasn't|weren't|has|have|had|did|do|didn't|don't|doesn't" +
 				"hadn't|hasn't|havn't|may|might|must|could|can|should|will|would)\\s+");
+		likeLeadingWord=Pattern.compile("^[A-Z].*$");
 		terminated=Pattern.compile("[.,;?:\")]$");
 	}
 	
@@ -161,14 +166,17 @@ public class Common {
 					block.page.content.blockformatIndexes.get(block.format));
 	}
 	
-	static ArrayList<String> getLetterWords(String str) {
+	static ArrayList<String> getLetterWords(String str,boolean toLower) {
 		String[] ws = str.replaceAll("[\n\r,.\":;\\?&]"," ").split("\\s+");
 		ArrayList<String> ret=new ArrayList<String>();
 		Pattern alphabet=Pattern.compile("[a-zA-Z]");
 		
 		for (int i = 0; i < ws.length; i++) {
 			if(alphabet.matcher(ws[i]).find())
-				ret.add(ws[i].toLowerCase());
+				if(toLower)
+					ret.add(ws[i].toLowerCase());
+				else
+					ret.add(ws[i]);
 		}
 			
 		return ret;
@@ -202,6 +210,16 @@ public class Common {
 				likeSentence++;
 		}
 		return (float)likeSentence / sents.length;
+	}
+	
+	static float leadingCapitalCount(String str) {
+		ArrayList<String> ws = Common.getLetterWords(str,false);
+		float leading=0;
+		for(String w:ws) {
+			if(likeLeadingWord.matcher(w).find())
+				leading++;
+		}
+		return leading/ws.size();
 	}
 	
 	static class RangeGroup {
