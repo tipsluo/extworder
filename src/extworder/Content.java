@@ -869,6 +869,8 @@ public class Content extends PDFTextStripper {
 					int lbb=block.likeBodyBlock1();
 					if(lbb>=Common._ParaSentDefaultUno)
 						bodyBlocks.add(block);
+					else if(lbb<Common._ParaSentDefaultFalse)
+						continue;
 					else {
 						if(block.column==null)
 							continue;
