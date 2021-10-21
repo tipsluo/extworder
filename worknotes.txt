@@ -28,7 +28,8 @@ missing subtitle
 acs-A Review on Perovskite-Type LaFeO3_content
 
 
-Medline-Beneficial Effects of Principal Polyphenols from Green Tea : 1. negative index, 2. many short blocks which confuse columns, 3. number undefined rows/chars/blocks is more than those of text
+Medline-Beneficial Effects of Principal Polyphenols from Green Tea : 
+1. negative index, 2. many short blocks which confuse columns, 3. number undefined rows/chars/blocks is more than those of text
 resolved.
 
 
