@@ -334,7 +334,9 @@ public class Page extends Rectangle{
 			if(i>=content.columnNumber) break;
 			
 			Stretch s=entry.getKey();
-			boolean intersected=false;
+			columnStretches.add(s);
+			i++;
+			/*boolean intersected=false;
 			for(Stretch cs:columnStretches)
 				if(cs.intersected(s)) {
 					intersected=true;
@@ -344,7 +346,7 @@ public class Page extends Rectangle{
 			if(!intersected) {
 				columnStretches.add(s);
 				i++;
-			}
+			}*/
 		}
 		
 		Collections.sort(columnStretches);

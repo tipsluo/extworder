@@ -14,8 +14,9 @@ import org.apache.pdfbox.text.PDFTextStripper;
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
         ArrayList<String> pdfs=new ArrayList<String>();
-        pdfs=Common.getAllPDFs();
+        //pdfs=Common.getAllPDFs();
         
+        pdfs.add("acs-Classics in Chemical Neuroscience");
         //pdfs.add("Wiley-Early life stress and HPA axis");
 		//pdfs.add("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
         main_test_pdfs(pdfs);

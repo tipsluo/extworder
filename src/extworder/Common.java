@@ -453,7 +453,7 @@ public class Common {
 		
 	    @Override
 	    public int hashCode() {
-	        return start<<10 + end;
+	        return start + end<<10;
 	    }
 	    
 	    public int length() {

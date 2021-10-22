@@ -437,8 +437,8 @@ public class Block extends Rectangle {
 	}
 	
 	int isParagraphBlock(CharFont charfont) {
-//if(string().contains("Andrew Wooyoung") )
-//				System.out.println("");
+if(string().contains("amine to") )
+				System.out.println("");
 		if(Common.leadingCapitalCount(string()) > Common._MaxLeadingCapitalRatio)
 			return Common._TooManyLeadingCapital;
 		
@@ -446,15 +446,16 @@ public class Block extends Rectangle {
 		
 		for(Row row:rows) {
 			if(charfont!=null && ! row.charfont.allEquals(charfont))
-			//if(charfont!=null && ! row.charfont.equals(charfont))
 				continue;
 			
 			int f=row.firstParagraphLine();
 			boolean p=row.isParaphaphLine();
 			int l=row.lastParagraphLine();
 			
-			if(f>=Common._ParaSentDefaultTrue || p || l>=Common._ParaSentDefaultTrue)
+			if(f>=Common._ParaSentDefaultTrue || p || l>=Common._ParaSentDefaultTrue) {
+				paraSentUnoNoTerm=0;
 				continue;	
+			}
 			
 			if(f<=Common._ParaSentDefaultFalse && !p && l<=Common._ParaSentDefaultFalse)
 				return Common._ParaSentDefaultFalse;
