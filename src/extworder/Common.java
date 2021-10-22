@@ -37,7 +37,7 @@ public class Common {
 	
 	final static float _MaxMissingAlignedInColumnRation=0.3f;
 	final static float _MaxNoAlignedInBlockRation=0.3f;
-	final static float _MaxLeadingCapitalRatio=0.2f;
+	final static float _MaxLeadingCapitalRatio=0.35f;
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
@@ -215,11 +215,20 @@ public class Common {
 	static float leadingCapitalCount(String str) {
 		ArrayList<String> ws = Common.getLetterWords(str,false);
 		float leading=0;
+		float all=ws.size();
 		for(String w:ws) {
+			if(w.length()==1) {
+				all--;
+				continue;
+			}
 			if(likeLeadingWord.matcher(w).find())
 				leading++;
 		}
-		return leading/ws.size();
+		
+		if(all>0)
+			return leading/all;
+		else
+			return -1f;
 	}
 	
 	static class RangeGroup {
