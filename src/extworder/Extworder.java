@@ -5,8 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import javax.imageio.ImageIO;
-
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
 import org.apache.pdfbox.text.PDFTextStripper;
@@ -16,7 +14,9 @@ public class Extworder {
         ArrayList<String> pdfs=new ArrayList<String>();
         //pdfs=Common.getAllPDFs();
         
-        pdfs.add("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
+        //pdfs.add("");
+        pdfs.add("Archaeology-2020Digital Platforms and the Nature");
+        //pdfs.add("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
         //pdfs.add("APS-Search for millicharged particles in proton-proton collisions");
         //pdfs.add("APS-Evidence for CP violation in B");
         //pdfs.add("acs-Classics in Chemical Neuroscience");

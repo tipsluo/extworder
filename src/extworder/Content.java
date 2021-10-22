@@ -613,6 +613,9 @@ public class Content extends PDFTextStripper {
 					if(Common.hits(allWords,strs) < Common._MinTitleFreqencyRatio)
 						continue;
 				}
+				
+				if(c==0 && titleBlock!=null)
+					continue;
 					
 				titleBlock=block;
 				titleBlockformat=titleBlock.format;
