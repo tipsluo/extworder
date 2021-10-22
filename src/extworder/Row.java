@@ -220,6 +220,7 @@ public class Row extends Rectangle {
 		height=lower-upper;
 		
 		render();
+		block.updateRectangle(this);
 		
 		if (row.block!=null) {
 			row.block.rows.remove(row);
