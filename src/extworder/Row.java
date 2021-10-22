@@ -307,62 +307,31 @@ public class Row extends Rectangle {
 		return rows;
 	}
 	
+	int lastMainFontChar() {
+		for(int i=chars.size()-1; i>=0;i--) {
+			if(chars.get(i).height==charfont.height)
+				return i;
+		}
+		
+		return -1;
+	}
+	
+	int lastTerminator() {
+		for(int i=chars.size()-1; i>=0; i--) {
+			String c=chars.get(i).str;
+			if(c.contains(".") || c.contains("?") || c.contains("!"))
+				return i;
+		}
+		
+		return -1;
+	}
+	
 	int hDistance(Row row) {
 		if(left>row.left)
 			return left-row.right;
 		else
 			return row.left-right;
 	}
-	
-	/*boolean joinUpperLeftBigChar() {
-		boolean toRemove=false;
-		
-		Char ul=chars.get(0);
-		
-		//ArrayList<Char> rights=ul.getRightConnected(this.page,Common._CharHGap,0);
-		ArrayList<Char> rights=ul.getRightConnected(this.page,(int)(ul.height*Common._CharHGapRatio),0);
-
-		if(rights.size()<2)
-			return false;
-		
-		ul.row=null;
-		chars.remove(ul);
-		reupdateRectangle();
-		
-		ArrayList<Row> rows=new ArrayList<Row>();
-		for(Char r:rights)
-			rows.add(r.row);
-		Collections.sort(rows,Row.compareRows);
-		
-		if(rows.get(0)==this) {
-			ul.row=this;
-			chars.add(ul);
-			left=ul.left;
-			render();
-			return false;
-		}
-			
-		if(chars.size()==0)
-			toRemove=true;
-		
-		//Collections.sort(chars,Char.compareChars);
-		render();
-		
-		Row r1=rows.get(0);
-		ul.row=r1;
-		r1.chars.add(ul);
-		r1.render();
-		//Collections.sort(r1.chars,Char.compareChars);
-		
-		for(Row r:rows)
-			r.left=ul.left;
-		
-		return toRemove;
-	}*/
-	
-	/*private boolean checkSameBlock(Row row) {
-		return charfont.equals(row.charfont);
-	}*/
 	
 	boolean scarceInBlock() {
 		if(isFull(page.content,block))
@@ -392,9 +361,16 @@ public class Row extends Rectangle {
 	}
 	
 	public boolean terminatedSentence() {
-		String s=chars.get(chars.size()-1).str;
+		int lt=lastTerminator();
 		
-		return Common.terminated.matcher(s).find();
+		if(lt<0)
+			return false;
+		
+		return lastMainFontChar() < lt;
+		
+		/*String s=chars.get(chars.size()-1).str;
+		
+		return Common.terminated.matcher(s).find();*/
 	}
 	
 	int firstParagraphLineInRect(Rectangle rect) {

@@ -109,7 +109,7 @@ public class Common {
 	final static Pattern leading2Uppercase;
 	final static Pattern scarceRow;
 	final static Pattern likeSentence1,likeSentence2,likeLeadingWord;
-	final static Pattern terminated;
+	//final static Pattern terminated;
 	
 	/* May need it later
 	final static Pattern bulletPart1;
@@ -126,7 +126,7 @@ public class Common {
 				"wasn't|weren't|has|have|had|did|do|didn't|don't|doesn't" +
 				"hadn't|hasn't|havn't|may|might|must|could|can|should|will|would)\\s+");
 		likeLeadingWord=Pattern.compile("^[A-Z].*$");
-		terminated=Pattern.compile("[.,;?:\")]$");
+		//terminated=Pattern.compile("[.!,;?:\")]$");
 	}
 	
 	public Common() {

@@ -437,8 +437,8 @@ public class Block extends Rectangle {
 	}
 	
 	int isParagraphBlock(CharFont charfont) {
-if(string().contains("amine to") )
-				System.out.println("");
+//if(string().contains("amine to") )
+//				System.out.println("");
 		if(Common.leadingCapitalCount(string()) > Common._MaxLeadingCapitalRatio)
 			return Common._TooManyLeadingCapital;
 		
