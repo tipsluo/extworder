@@ -310,6 +310,8 @@ public class Row extends Rectangle {
 	
 	int lastMainFontChar() {
 		for(int i=chars.size()-1; i>=0;i--) {
+			if(chars.get(i).isTerminator())
+				continue;
 			if(chars.get(i).height==charfont.height)
 				return i;
 		}
@@ -319,8 +321,7 @@ public class Row extends Rectangle {
 	
 	int lastTerminator() {
 		for(int i=chars.size()-1; i>=0; i--) {
-			String c=chars.get(i).str;
-			if(c.contains(".") || c.contains("?") || c.contains("!"))
+			if(chars.get(i).isTerminator())
 				return i;
 		}
 		

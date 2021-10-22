@@ -126,6 +126,10 @@ public class Char extends Rectangle {
 		return chars;
 	}
 	
+	boolean isTerminator() {
+		return (str.contains(".") || str.contains("?") || str.contains("!"));
+	}
+	
 	/*public void clearCross(Point[][] points, int x,int y) {
 		for (int i=left; i<=right; i++)
 			points[i][y]=Common._ConfusingPoint;
