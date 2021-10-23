@@ -12,10 +12,11 @@ import org.apache.pdfbox.text.PDFTextStripper;
 public class Extworder {
 	public static void main(String args[]) throws IOException  {
         ArrayList<String> pdfs=new ArrayList<String>();
-        //pdfs=Common.getAllPDFs();
+        pdfs=Common.getAllPDFs();
         
         //pdfs.add("");
-        pdfs.add("Archaeology-2020Digital Platforms and the Nature");
+        //pdfs.add("Artforum-1995 Painting for Profit and Pleasure");
+        //pdfs.add("Archaeology-2020Digital Platforms and the Nature");
         //pdfs.add("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
         //pdfs.add("APS-Search for millicharged particles in proton-proton collisions");
         //pdfs.add("APS-Evidence for CP violation in B");
@@ -399,7 +400,8 @@ public class Extworder {
 		final String[] pstr=new String[]{
 			"LENDER",
 			"BORROWER",
-			"SAGE Businesscases"
+			"SAGE Businesscases",
+			"JSTOR is a not-for-profit service that helps scholars"
 		};
 		
 		public boolean isIgnored(Page page) {

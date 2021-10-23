@@ -62,7 +62,8 @@ Archaeology-1896 CRETAN EXPEDITION_content -- not resolved
 - no exit
 
 
-Artforum-1995 Painting for Profit and Pleasure_content -- not resolved, partly article
+Artforum-1995 Painting for Profit and Pleasure_content 
+-- not resolved, partly article
 
 AMS-1991-GEODESIC FLOWS, INTERVAL MAPS,
 - different body font size
