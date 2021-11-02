@@ -31,11 +31,12 @@ import java.util.regex.Pattern;
 
 public class Content extends PDFTextStripper {
     public Block activeBlock;
-    Block titleBlock;
-	Block abstractBlock;
+    public Block titleBlock;
+	public Block abstractBlock;
 	Block keywordBlock;
-    String abstractStr;
-    String keywordStr;
+    //String abstractStr;
+    //String keywordStr;
+    //String bodyStr;
     
 	ArrayList<Page> pages;
 	TreeMap<BlockFormat,Integer> blockformats;
@@ -52,7 +53,7 @@ public class Content extends PDFTextStripper {
 	private boolean ignoreSubtitle=true;
 	private ArrayList<String> allWords;
 	
-	boolean hasFirstBodyBlock=false;
+	//boolean hasFirstBodyBlock=false;
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
 	
@@ -154,7 +155,7 @@ public class Content extends PDFTextStripper {
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
-		keywordBlock=getKeywordBlock();
+		//keywordBlock=getKeywordBlock();
 	
 		if(ignoreIntraBlock)
 			markIntraBodyBlocks();
@@ -549,8 +550,8 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	public String body() {		
-		hasFirstBodyBlock=false;
+	public String body() {
+		//hasFirstBodyBlock=false;
 		
 		String str="";
 		
@@ -632,7 +633,7 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private Block getAbstractBlock() {
-		abstractStr=getKeyBlockStr(
+		getKeyBlockStr(
 				0,
 				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?"));
 		if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
@@ -664,7 +665,7 @@ public class Content extends PDFTextStripper {
 					
 					activeBlock=block;
 					activeBlock.type=Common._AbstractBlock;
-					abstractStr=block.string();
+					//abstractStr=block.string();
 					return activeBlock;	
 				}
 			}
@@ -673,14 +674,14 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	private Block getKeywordBlock() {
+	/*private Block getKeywordBlock() {
 		keywordStr=getKeyBlockStr(
 				0,
 				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"));
 		if(activeBlock!=null)
 			activeBlock.type=Common._KeywordBlock;
 		return activeBlock;	
-	}
+	}*/
 	
 	public String getKeyBlockStr(int skipBlockNumber, Pattern pattern) {
 		String str;
@@ -826,6 +827,7 @@ public class Content extends PDFTextStripper {
 		Block block=blocks.get(endBlockIndex);
 	
 		if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue) {
+
 			Block block0=block;
 			
 			int i1=endBlockIndex-1;

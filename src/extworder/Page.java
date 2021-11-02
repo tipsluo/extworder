@@ -462,6 +462,10 @@ public class Page extends Rectangle{
 	}
 	
 	private void mergeNeighborBlocks() {
+		
+//if(id==3)
+//	System.out.println("");
+		
 		if(blocks.size()<3)
 			return;
 		
@@ -484,9 +488,12 @@ public class Page extends Rectangle{
 		for(int i=2, j=2;i<blocks.size();i++,j++) {
 			Block block2=blocks.get(i);
 			boolean b01new=block1.format.charfont.equals(block2.format.charfont) && block1.left==block2.left;
+		
+//if(block2.string().contains("Data come from the Cebu"))
+					//	System.out.println("");
 			
 			if(b01) {
-				if(b01new && gaps[j-2]==gaps[j-1]) {
+				if(b01new && Math.abs(gaps[j-2]-gaps[j-1])<=Common._MaxSameBlockRowGapAdj ) {
 					if(block0==null) {
 						block1.merge(block2);
 						i--;

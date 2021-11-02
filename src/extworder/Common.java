@@ -2,6 +2,7 @@ package extworder;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -11,6 +12,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import extworder.Block.BlockFormat;
+import extworder.Common.StatGroup;
+import extworder.Common.Stretch;
 
 public class Common {
 	public final static int _KeyBlockWordPageRation=10;
@@ -34,6 +37,7 @@ public class Common {
 	//final static int _MinBigTextBlockFirstRowLength=5;
 	final static float _FirstLineIndentRatio=5f;
 	final static float _MaxUpperLeftWidthRatio=3f;
+	final static int _MaxSameBlockRowGapAdj=1;
 	
 	final static float _MaxMissingAlignedInColumnRation=0.3f;
 	final static float _MaxNoAlignedInBlockRation=0.3f;
@@ -182,8 +186,20 @@ public class Common {
 		return ret;
 	}
 	
+	public static ArrayList<String> getWords(String str, boolean lowerCase) {
+		String s=str.replaceAll("[\n\r,.\":;\\?&()!]"," ");
+		
+		if(lowerCase)
+			s=s.toLowerCase();
+		
+		String[] ws = s.split("\\s+");
+		
+		return (ArrayList<String>) Arrays.asList(ws);
+	}
+	
+
 	static String[] getSentences(String str){
-		String[] ws = str.toLowerCase().split("[\\.?;]");
+		String[] ws = str.toLowerCase().split("[\\.?!](\"|\\s+|$)");
 		return ws;
 	}
 	
@@ -299,24 +315,66 @@ public class Common {
 		}
 	}
 	
-	static class StatGroup<T> {
-		HashMap<T,Integer> records;
+	public static class StatGroup<T extends Comparable<T>> {
+		public HashMap<T,Integer> records;
 		
-		StatGroup() {
+		public StatGroup() {
 			records=new HashMap<T,Integer>();
 		}
 		
-		void add(T t) {
+		public StatGroup(ArrayList<T> source) {
+			for(T t:source)
+				add(t);
+		}
+		
+		public void add(T t) {
 			if(records.containsKey(t))
 				records.put(t,records.get(t)+1);
 			else
 				records.put(t,1);
 		}
 		
+		public void add(Map.Entry<T,Integer> entry) {
+			T t=entry.getKey();
+			if(records.containsKey(t))
+				records.put(t,records.get(t)+entry.getValue());
+			else
+				records.put(t,entry.getValue());
+		}
+		
+		public void addAll(ArrayList<T> ts) {
+			for(T t:ts)
+				add(t);
+		}
+		
+		public void remove(T t) {
+			records.remove(t);
+		}
+		
 		T maxByValue() {
 			return records.entrySet().stream().
 					max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).
 					get().getKey();
+		}
+		
+		public ArrayList<T> topsByValue(int number) {
+			ArrayList<T> tops=new ArrayList<T>();
+			
+			LinkedHashMap<T, Integer> reverseSortedMap = new LinkedHashMap<>();
+			records.entrySet()
+		    	.stream()
+		    	.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) 
+		    	.forEachOrdered(x -> reverseSortedMap.put(x.getKey(), x.getValue()));
+			
+			int i=0;
+			for (Map.Entry<T,Integer> entry : reverseSortedMap.entrySet()) {
+				if(i>=number) break;
+				T t=entry.getKey();
+				tops.add(t);
+				i++;
+			}
+			
+			return tops;
 		}
 		
 		Map<T,Integer> reverseSortByValue() {

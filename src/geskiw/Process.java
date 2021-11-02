@@ -1,79 +1,132 @@
 package geskiw;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 import extworder.Block;
 import extworder.Common;
+import extworder.Common.StatGroup;
 import extworder.Content;
 import extworder.Page;
 
 public class Process {
-
 	static Content content;
-	String result;
+	String bodyStr;
 	
 	public Process(String fn) throws IOException {
 		content = new Content(fn, new IgnorePage(), false, true, true);
-		
-		clean();
-	}
-
-	void clean() {
-		try {
-			result=rawContent();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		bodyStr=content.body();
 	}
 	
-	public String rawContent() throws IOException {
-	    Block abstractBlock,keywordBlock;
-	    String abstractStr,keywordStr;
+	ArrayList<String> topKeywords(int number) throws IOException {
+		ArrayList<String> stopWords=readWordsFromFile(Consts._StopWordFile);
 		
-		String str;
-		str=content.title()+"\n\n\n";
+		ArrayList<String> titleWords=Common.getWords(content.titleBlock.string(),true);
+		titleWords=removeWords(titleWords,stopWords);
 		
-		abstractStr=getAbstractBlock();
-		abstractBlock=content.activeBlock;
+		ArrayList<String> abstractWords=Common.getWords(content.abstractBlock.string(),true);
+		abstractWords=removeWords(abstractWords,stopWords);
 		
-		keywordStr=getKeywordBlock();
-		keywordBlock=content.activeBlock;
-	
-		if(keywordBlock.priorTo(abstractBlock))
-			str+=keywordStr+"\n\n\n";
+		StatGroup<String> kws=new StatGroup<String>(titleWords);
+		kws.addAll(abstractWords);
+		@SuppressWarnings("unchecked")
+		ArrayList<String> list1=(ArrayList<String>) kws.records.keySet();
+		Collections.sort(list1);
 		
-		str+=abstractStr+"\n\n\n";
+		ArrayList<String> bodyWords=Common.getWords(bodyStr,true);
+		bodyWords=removeWords(bodyWords,stopWords);
+		StatGroup<String> list2=new StatGroup<String>(bodyWords);
 		
-		ignoreCatNSubBlock();
-
-		str+=content.body();
+		StatGroup<String> list3=getCommonWords(list2,list1);
 		
-		return str;
+		return list3.topsByValue(number);
 	}
 	
-	private String getAbstractBlock() {
-		return content.getKeyBlockStr(0,
-				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[\\s:\n]?"));
-	}
-	
-	private String getKeywordBlock() {
-		return content.getKeyBlockStr(0,
-				Pattern.compile("^\\s*[Kk][Ee][Yy][Ww][Oo][Rr][Dd]\\s*[\\s:\n]?"));
-	}
-	
-	private void ignoreCatNSubBlock() {
+	/*private void ignoreCatNSubBlock() {
 		content.getKeyBlockStr(0,
 				Pattern.compile("^\\s*Categories\s+and\s+Subject\s+Descriptors\\s*[\\s:\n]?"));
 		content.activeBlock.setIgnored(Consts._CatNSubBlock);
+	}*/
+	
+	/*private void removeStopWords(StatGroup<String> statGroup, ArrayList<String> stopWords) {
+		for(String word: statGroup.records.keySet()) {
+			if(Collections.binarySearch(stopWords,word.toLowerCase()) > 0)
+				statGroup.remove(word);
+		}
+	}*/
+	
+	/*private ArrayList<String> removeStopWords(ArrayList<String> source) throws IOException {
+		return removeWords(source,readWordsFromFile(Consts._StopWordFile));
+	}*/
+	
+	
+	private ArrayList<String> removeWords(ArrayList<String> source, ArrayList<String> list) {
+		ArrayList<String> words=new ArrayList<String>();
+		
+		for(String s: source) {
+			int i=Collections.binarySearch(list,s);
+			if(i<0) {
+				words.add(s);
+			}
+		}
+		
+		return words;
 	}
+	
+	private StatGroup<String> getCommonWords(StatGroup<String> whole, ArrayList<String> sortedTarget) {
+		StatGroup<String> ret=new StatGroup<String>();
+		
+		for(Map.Entry<String,Integer> record: whole.records.entrySet()) {
+			int i=Collections.binarySearch(sortedTarget,record.getKey());
+			if(i>=0)
+				ret.add(record);
+		}
+		return ret;
+	}
+	
+	private ArrayList<String> readWordsFromFile(String filename) throws IOException {
+		ArrayList<String> stopWords=new ArrayList<String>();
+		
+		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+		    String line;
+		    while ((line = br.readLine()) != null) {
+		       stopWords.addAll(Arrays.asList(line.split(" ")));
+		    }
+		}
+		
+		Collections.sort(stopWords);
+		
+		return stopWords;
+	}
+	
+	/*private ArrayList<String> getTopSentence() {
+		ArrayList<String> top5=topKeywords(8);
+		ArrayList<String> allSentences=(ArrayList<String>) Arrays.asList(Common.getSentences(bodyStr));
+		
+		ArrayList<String> top1_3=(ArrayList<String>) top5.subList(0, 3);
+		ArrayList<String> top4_8=(ArrayList<String>) top5.subList(3, 5);
+		
+		ArrayList<String> ret=new ArrayList<String>();
+		
+		for(ArrayList<String> sentence: allSentences)
+			for(String kw: keywords)
+				if(sentence.contains(kw))
+					ret.add(sentence);
+		return ret;
+	}*/
 	
 	class IgnorePage extends Common.IgnorePage {
 		final String[] pstr=new String[]{
 			"LENDER",
 			"BORROWER",
-			"SAGE Businesscases"
+			"SAGE Businesscases",
+			"JSTOR is a not-for-profit service that helps scholars"
 		};
 		
 		public boolean isIgnored(Page page) {

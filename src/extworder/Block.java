@@ -612,7 +612,7 @@ public class Block extends Rectangle {
 		fw.write("\n==============================\n\n");
 	}
 	
-	String string() {
+	public String string() {
 		String str="";
 		
 		int y=rows.get(0).lower;
