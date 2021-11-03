@@ -18,6 +18,8 @@ import extworder.Page;
 public class Process {
 	static Content content;
 	String bodyStr;
+	ArrayList<String> keySentences;
+	ArrayList<String> keySubtitles;
 	
 	public Process(String fn) throws IOException {
 		content = new Content(fn, new IgnorePage(), false, true, true);
@@ -103,6 +105,48 @@ public class Process {
 		Collections.sort(stopWords);
 		
 		return stopWords;
+	}
+	
+	private ArrayList<String> getTopSentence() throws IOException {
+		keySentences=new ArrayList<String>();
+		keySubtitles=new ArrayList<String>();
+		
+		ArrayList<String> top5=topKeywords(8);
+		
+		ArrayList<String> top1_3=(ArrayList<String>) top5.subList(0, 3);
+		ArrayList<String> top4_8=(ArrayList<String>) top5.subList(3, 5);
+
+		Block subtitleBlock;
+		
+		for(Page page: content.pages)
+			for(Block block:page.blocks) {
+				if(Block.subtitleBlockFilter.filter(block)) {
+					subtitleBlock=block;
+					continue;
+				}
+				
+				for(String sentence: Common.getSentences(block.string())) {
+					boolean found=false;
+					for(String kw: top1_3)
+						if(sentence.contains(kw)) {
+							found=true;
+							break;
+						}
+					if(!found) continue;
+					
+					for(String kw:top4_8) {
+						if(sentence.contains(kw)) {
+							keySentences.add(sentence);
+							
+							if(subtitleBlock!=null) {
+								keySubtitles.add(subtitleBlock.string());
+								subtitleBlock==null;
+							}
+						}
+					}
+				}
+
+			}
 	}
 	
 	/*private ArrayList<String> getTopSentence() {

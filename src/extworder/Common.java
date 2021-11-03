@@ -165,7 +165,7 @@ public class Common {
 			return -1;
 	}
 	
-	static String subtitleBlockType(Block block) {
+	public static String subtitleBlockType(Block block) {
 		return Common._SubtitlePrefix+Integer.toString(
 					block.page.content.blockformatIndexes.get(block.format));
 	}
@@ -198,7 +198,7 @@ public class Common {
 	}
 	
 
-	static String[] getSentences(String str){
+	public static String[] getSentences(String str){
 		String[] ws = str.toLowerCase().split("[\\.?!](\"|\\s+|$)");
 		return ws;
 	}
@@ -465,7 +465,7 @@ public class Common {
 		}
 	}
 	
-	static class SubtitleBlockFilter implements BlockFilter {
+	public static class SubtitleBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
 			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
