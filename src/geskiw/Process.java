@@ -2,10 +2,12 @@ package geskiw;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
@@ -20,13 +22,18 @@ public class Process {
 	String bodyStr;
 	ArrayList<String> keySentences;
 	ArrayList<String> keySubtitles;
+	List<String> top1_3;
+	List<String> top4_8;
 	
 	public Process(String fn) throws IOException {
-		content = new Content(fn, new IgnorePage(), false, true, true);
+		content = new Content(fn, new IgnorePage(), false, true, false);
 		bodyStr=content.body();
+		getTopSentence();
+		
+		print(fn);
 	}
 	
-	ArrayList<String> topKeywords(int number) throws IOException {
+	List<String> topKeywords(int number) throws IOException {
 		ArrayList<String> stopWords=readWordsFromFile(Consts._StopWordFile);
 		
 		ArrayList<String> titleWords=Common.getWords(content.titleBlock.string(),true);
@@ -37,8 +44,7 @@ public class Process {
 		
 		StatGroup<String> kws=new StatGroup<String>(titleWords);
 		kws.addAll(abstractWords);
-		@SuppressWarnings("unchecked")
-		ArrayList<String> list1=(ArrayList<String>) kws.records.keySet();
+		ArrayList<String> list1=kws.allKeys();
 		Collections.sort(list1);
 		
 		ArrayList<String> bodyWords=Common.getWords(bodyStr,true);
@@ -48,6 +54,30 @@ public class Process {
 		StatGroup<String> list3=getCommonWords(list2,list1);
 		
 		return list3.topsByValue(number);
+	}
+	
+	private void print(String fn) throws IOException {
+		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+".out");
+		
+		myWriter.write("Most repeated keywords ==>\n\n");
+		for(String kw: top1_3)
+			myWriter.write(kw+"\n");
+		
+		myWriter.write("\nMedium repeated keywords ==>\n\n");
+		for(String kw: top4_8)
+			myWriter.write(kw+"\n");
+		
+		myWriter.write("\n\nExtracted Output ===>\n");
+				
+		myWriter.write("\n\nSection sentences followed by one of the key sentences below ===> \n\n");
+		for(String keySubtitle: keySubtitles)
+			myWriter.write(keySubtitle.replaceAll("\\n"," ")+"\n");
+		
+		myWriter.write("\n\nKey sentences including at least one most repeated and one medium repeated keywors ===> \n\n");
+		for(String keySentence: keySentences)
+			myWriter.write(keySentence+"\n\n");
+			
+		myWriter.close();
 	}
 	
 	/*private void ignoreCatNSubBlock() {
@@ -62,11 +92,7 @@ public class Process {
 				statGroup.remove(word);
 		}
 	}*/
-	
-	/*private ArrayList<String> removeStopWords(ArrayList<String> source) throws IOException {
-		return removeWords(source,readWordsFromFile(Consts._StopWordFile));
-	}*/
-	
+
 	
 	private ArrayList<String> removeWords(ArrayList<String> source, ArrayList<String> list) {
 		ArrayList<String> words=new ArrayList<String>();
@@ -107,46 +133,49 @@ public class Process {
 		return stopWords;
 	}
 	
-	private ArrayList<String> getTopSentence() throws IOException {
+	private void getTopSentence() throws IOException {
 		keySentences=new ArrayList<String>();
 		keySubtitles=new ArrayList<String>();
 		
-		ArrayList<String> top5=topKeywords(8);
-		
-		ArrayList<String> top1_3=(ArrayList<String>) top5.subList(0, 3);
-		ArrayList<String> top4_8=(ArrayList<String>) top5.subList(3, 5);
+		List<String> top8=topKeywords(8);
+		top1_3=top8.subList(0, 3);
+		top4_8=top8.subList(3, 8);
 
-		Block subtitleBlock;
+		Block subtitleBlock=null;
 		
 		for(Page page: content.pages)
-			for(Block block:page.blocks) {
-				if(Block.subtitleBlockFilter.filter(block)) {
-					subtitleBlock=block;
-					continue;
-				}
-				
-				for(String sentence: Common.getSentences(block.string())) {
-					boolean found=false;
-					for(String kw: top1_3)
-						if(sentence.contains(kw)) {
-							found=true;
-							break;
-						}
-					if(!found) continue;
+			for(Page.Column column: page.columns)
+				for(Block block:column.blocks) {
+					if(Block.subtitleBlockFilter.filter(block)) {
+						subtitleBlock=block;
+						continue;
+					}
 					
-					for(String kw:top4_8) {
-						if(sentence.contains(kw)) {
-							keySentences.add(sentence);
-							
-							if(subtitleBlock!=null) {
-								keySubtitles.add(subtitleBlock.string());
-								subtitleBlock==null;
+					if(! (new Common.BodyBlockFilter()).filter(block))
+						continue;
+					
+					for(String sentence: Common.getSentences(block.string())) {
+						boolean found=false;
+						for(String kw: top1_3)
+							if(sentence.contains(kw)) {
+								found=true;
+								break;
+							}
+						if(!found) continue;
+						
+						for(String kw:top4_8) {
+							if(sentence.contains(kw)) {
+								keySentences.add(sentence);
+								
+								if(subtitleBlock!=null) {
+									keySubtitles.add(subtitleBlock.string());
+									subtitleBlock=null;
+								}
+								break;
 							}
 						}
 					}
 				}
-
-			}
 	}
 	
 	/*private ArrayList<String> getTopSentence() {

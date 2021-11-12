@@ -23,7 +23,7 @@ public class Common {
 	final static float _MinAbstractSentenceRatio=0.3f;
 	final static float _MinTitleFreqencyRatio=0.65f;
 	
-	final static String _TestDataDir="data/";
+	public final static String _TestDataDir="data/";
 	
 	final static float _SpaceAdjustment=0.8f;
 	final static int _CharHSpaceAddGap=2;
@@ -194,7 +194,9 @@ public class Common {
 		
 		String[] ws = s.split("\\s+");
 		
-		return (ArrayList<String>) Arrays.asList(ws);
+		ArrayList<String> ret=new ArrayList<String>();
+		ret.addAll(Arrays.asList(ws));
+		return ret;
 	}
 	
 
@@ -323,6 +325,7 @@ public class Common {
 		}
 		
 		public StatGroup(ArrayList<T> source) {
+			this();
 			for(T t:source)
 				add(t);
 		}
@@ -377,6 +380,13 @@ public class Common {
 			return tops;
 		}
 		
+		public ArrayList<T> allKeys() {
+			ArrayList<T> ret=new ArrayList<T>();
+			ret.addAll(records.keySet());
+			
+			return ret;
+		}
+		
 		Map<T,Integer> reverseSortByValue() {
 			LinkedHashMap<T, Integer> reverseSortedRecords = new LinkedHashMap<>();
 			
@@ -404,38 +414,12 @@ public class Common {
 		public boolean filter(Block block);
 	}
 	
-	static class BodyBlockFilter implements BlockFilter {
+	public static class BodyBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
 			if(block.column==null)
 				return false;
 			return block.type==Common._Body;
-			//return block.likeBodyBlock()>=Common._ParaSentDefaultTrue;
-			
-			/*if(block.format.equals(block.page.content.bodyBlockformat)) {
-				if(block.type==Common._BeforeFirstBody || block.column==null)
-					return false;
-				else {
-					if(block.isParagraphBlock()<Common._ParaSentDefaultTrue)
-						return false;
-					
-					if(block.isAllScarce())
-						return false;
-					
-					if (block.rows.size()==1) {
-						String lastStr=block.rows.get(block.rows.size()-1).string();
-						
-						if(infinishedBodyBlock.matcher(lastStr.trim()).find())
-							return false;
-						if( block.format.alignment==Common._NOALIGNED )
-							return false;
-						if(scarceRow.matcher(lastStr).find())
-							return false;
-					}
-					
-					return true;
-				}
-			}*/
 			
 			//return false;
 		}

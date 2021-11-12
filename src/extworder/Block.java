@@ -24,13 +24,13 @@ public class Block extends Rectangle {
 	ArrayList<Row> rows;
 	Page page;
 	Column column;
-	String type="";
+	public String type="";
     
 	final static CompareBlocks compareBlocks=new CompareBlocks();
 	final static CompareBlockLeftUppers compareBlockLeftUppers=new CompareBlockLeftUppers();
 	final static BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 	final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
-	final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
+	public final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 	static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
 	
 	public Block() {

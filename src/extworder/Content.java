@@ -38,7 +38,7 @@ public class Content extends PDFTextStripper {
     //String keywordStr;
     //String bodyStr;
     
-	ArrayList<Page> pages;
+	public ArrayList<Page> pages;
 	TreeMap<BlockFormat,Integer> blockformats;
 	Map<BlockFormat,Integer> blockformatIndexes;
     BlockFormat bodyBlockformat;
@@ -813,8 +813,8 @@ public class Content extends PDFTextStripper {
 					if(chain.blockformats.size()>1 || 
 							count<Common._MinTimeAdditionalSubtitle)
 						continue;
-					
-					additionalSubtitleFormatFilter.add(chain.blockformats.get(0));
+					//keep it
+					//additionalSubtitleFormatFilter.add(chain.blockformats.get(0));
 				}
 				Block.additionalSubtitleFormatFilter=new Common.AdditionalSubtitleFormatFilter(additionalSubtitleFormatFilter);
 				

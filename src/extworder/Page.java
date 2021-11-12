@@ -24,9 +24,9 @@ public class Page extends Rectangle{
 	Content content;
 	int id;
     ArrayList<Char> chars;
-    ArrayList<Block> blocks;
+    public ArrayList<Block> blocks;
     ArrayList<Row> rows;
-    ArrayList<Column> columns;
+    public ArrayList<Column> columns;
     ArrayList<Border> borders;
     PageBitmap pageBitmap;
     int headerY,footerY;
@@ -658,8 +658,8 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	class Column extends Rectangle {
-		ArrayList<Block> blocks;
+	public class Column extends Rectangle {
+		public ArrayList<Block> blocks;
 		
 		public Column(int left,int upper,int right, int lower) {
 			super(left,upper,right,lower);
