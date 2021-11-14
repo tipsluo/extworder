@@ -411,7 +411,7 @@ public class Common {
 		}
 	}
 	
-	interface BlockFilter {
+	public interface BlockFilter {
 		public boolean filter(Block block);
 	}
 	
@@ -421,8 +421,6 @@ public class Common {
 			if(block.column==null)
 				return false;
 			return block.type==Common._Body;
-			
-			//return false;
 		}
 	}
 	
@@ -459,6 +457,14 @@ public class Common {
 		public boolean filter(Block block) {
 			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
 					block.type.contains(_SubtitlePrefix);
+		}
+	}
+	
+	public static class SectionBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
+					block.type.contains(_SectionPrefix);
 		}
 	}
 	

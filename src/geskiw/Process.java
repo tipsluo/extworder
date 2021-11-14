@@ -13,7 +13,10 @@ import java.util.regex.Pattern;
 
 import extworder.Block;
 import extworder.Common;
+import extworder.Common.BodyBlockFilter;
+import extworder.Common.SectionBlockFilter;
 import extworder.Common.StatGroup;
+import extworder.Common.SubtitleBlockFilter;
 import extworder.Content;
 import extworder.Page;
 
@@ -26,7 +29,7 @@ public class Process {
 	List<String> top4_8;
 	
 	public Process(String fn) throws IOException {
-		content = new Content(fn, new IgnorePage(), false, true, false);
+		content = new Content(fn, new IgnorePage(), true, true, false);
 		bodyStr=content.body();
 		getTopSentence();
 		
@@ -73,7 +76,7 @@ public class Process {
 		for(String keySubtitle: keySubtitles)
 			myWriter.write(keySubtitle.replaceAll("\\n"," ")+"\n");
 		
-		myWriter.write("\n\nKey sentences including at least one most repeated and one medium repeated keywors ===> \n\n");
+		myWriter.write("\n\nKey sentences including at least one most repeated and one medium repeated keywords ===> \n\n");
 		for(String keySentence: keySentences)
 			myWriter.write(keySentence+"\n\n");
 			
@@ -142,8 +145,44 @@ public class Process {
 		top4_8=top8.subList(3, 8);
 
 		Block subtitleBlock=null;
+		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
+		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 		
-		for(Page page: content.pages)
+		ArrayList<Block> blocks=content.getBodyBlocks();
+				
+		for(Block block:blocks) {
+			if(subtitleBlockFilter.filter(block)) {
+				subtitleBlock=block;
+				continue;
+			}
+
+			if(! bodyBlockFilter.filter(block))
+				continue;
+			
+			for(String sentence: Common.getSentences(block.string())) {
+				boolean found=false;
+				for(String kw: top1_3)
+					if(sentence.contains(kw)) {
+						found=true;
+						break;
+					}
+				if(!found) continue;
+				
+				for(String kw:top4_8) {
+					if(sentence.contains(kw)) {
+						keySentences.add(sentence);
+						
+						if(subtitleBlock!=null) {
+							keySubtitles.add(subtitleBlock.string());
+							subtitleBlock=null;
+						}
+						break;
+					}
+				}
+			}
+		}
+		
+		/*for(Page page: content.pages)
 			for(Page.Column column: page.columns)
 				for(Block block:column.blocks) {
 					if(Block.subtitleBlockFilter.filter(block)) {
@@ -175,7 +214,7 @@ public class Process {
 							}
 						}
 					}
-				}
+				}*/
 	}
 	
 	/*private ArrayList<String> getTopSentence() {

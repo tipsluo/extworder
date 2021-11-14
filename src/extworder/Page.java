@@ -596,7 +596,7 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	String body() {
+	/*String body() {
 		String str="";
 		
 		for(Column column: columns) {
@@ -604,6 +604,16 @@ public class Page extends Rectangle{
 		}
 		
 		return str;
+	}*/
+	
+	public ArrayList<Block> filterBlocks(BlockFilter ...blockFilters) {
+		ArrayList<Block> bs=new ArrayList<Block>();
+		
+		for(Column column: columns) {
+			bs.addAll(column.filterBlocks(blockFilters));
+		}
+		
+		return bs;
 	}
 	
 	String subtitles() {
@@ -753,24 +763,35 @@ public class Page extends Rectangle{
 			return str;
 		}
 		
-		String body() {
+		/*String body() {
 			String str="";
 			
 			for(Block block:blocks) {
-				if(content.reachedLastSubtitle && block.type==Common._SectionPrefix)
-					content.bodyFinished=true;
-				
-				if(content.bodyFinished)
-					break;
-				
-				if(block==content.lastSubtitleBlock)
-					content.reachedLastSubtitle=true;
-				
 				if(Block.bodyBlockFilter.filter(block))
 					str+=block.string()+"\n";
 			}
 			
 			return str;
+		}*/
+		
+		public ArrayList<Block> filterBlocks(BlockFilter ...blockFilters) {
+			ArrayList<Block> bs=new ArrayList<Block>();
+			
+			for(Block block:blocks) {
+				boolean matched=false;
+				
+				for(BlockFilter blockFilter: blockFilters)
+					if(blockFilter.filter(block)) {
+						matched=true;
+					
+						break;
+					}
+				
+				if(matched)
+					bs.add(block);
+			}
+			
+			return bs;
 		}
 	}
 	

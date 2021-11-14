@@ -16,6 +16,10 @@ import org.apache.pdfbox.util.Matrix;
 import org.apache.pdfbox.util.Vector;
 
 import extworder.Block.BlockFormat;
+import extworder.Common.BlockFilter;
+import extworder.Common.BodyBlockFilter;
+import extworder.Common.SectionBlockFilter;
+import extworder.Common.SubtitleBlockFilter;
 import extworder.Page.Column;
 
 import java.util.ArrayList;
@@ -50,9 +54,6 @@ public class Content extends PDFTextStripper {
 	int centralAlignmentAdjustment=0;
 	private boolean ignoreSubtitle=true;
 	private ArrayList<String> allWords;
-	
-	boolean reachedLastSubtitle;
-	boolean bodyFinished;
 	
 	//boolean hasFirstBodyBlock=false;
 	BlockFormatChain subtitleFormatChain;
@@ -556,23 +557,73 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	public String body() {
+	/*public String body() {
 		//hasFirstBodyBlock=false;
 		
 		String str="";
-		reachedLastSubtitle=false;
-		bodyFinished=false;
 		
 		for(Page page:pages) {
-			if(bodyFinished)
-				break;
-			
 			str+=page.body()+"\n";
 		}
 		
 		str=Common.prepareOut(str);
 		
 		return str;
+	}*/
+	
+	public ArrayList<Block> getBodyBlocks() {
+		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
+		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
+		Common.SectionBlockFilter sectionBlockFilter=new SectionBlockFilter();
+		
+		ArrayList<Block> bs=filterBlocks(bodyBlockFilter,subtitleBlockFilter,sectionBlockFilter);
+		bs=removeTailingSections(bs);
+		
+		return bs;
+	}
+	
+	public String body() {
+		String str="";
+		
+		for(Block block:getBodyBlocks()) {
+			str+=block.string()+"\n";
+		}
+		
+		str=Common.prepareOut(str);
+		
+		return str;
+	}
+	
+	public ArrayList<Block> filterBlocks(BlockFilter ...blockFilters) {
+		ArrayList<Block> bs=new ArrayList<Block>();
+		
+		for(Page page:pages) {
+			bs.addAll(page.filterBlocks(blockFilters));
+		}
+		
+		return bs;
+	}
+	
+	public ArrayList<Block> removeTailingSections(ArrayList<Block> inputBlocks) {
+		boolean reachedLastSubtitle=false;
+		boolean bodyFinished=false;
+		
+		ArrayList<Block> outputBlocks=new ArrayList<Block>();
+		
+		for(Block block:inputBlocks) {
+			if(reachedLastSubtitle && block.type==Common._SectionPrefix)
+				bodyFinished=true;
+			
+			if(bodyFinished)
+				break;
+			
+			if(block==lastSubtitleBlock)
+				reachedLastSubtitle=true;
+			
+			outputBlocks.add(block);
+		}
+		
+		return outputBlocks;
 	}
 	
 	public String subtitles() {
