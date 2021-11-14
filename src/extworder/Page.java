@@ -600,7 +600,7 @@ public class Page extends Rectangle{
 		String str="";
 		
 		for(Column column: columns) {
-			str+=column.string(Block.bodyBlockFilter);
+			str+=column.body();
 		}
 		
 		return str;
@@ -748,6 +748,26 @@ public class Page extends Rectangle{
 			
 			for(Block block:blocks) {
 				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		String body() {
+			String str="";
+			
+			for(Block block:blocks) {
+				if(content.reachedLastSubtitle && block.type==Common._SectionPrefix)
+					content.bodyFinished=true;
+				
+				if(content.bodyFinished)
+					break;
+				
+				if(block==content.lastSubtitleBlock)
+					content.reachedLastSubtitle=true;
+				
+				if(Block.bodyBlockFilter.filter(block))
+					str+=block.string()+"\n";
 			}
 			
 			return str;

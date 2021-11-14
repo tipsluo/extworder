@@ -34,6 +34,7 @@ public class Content extends PDFTextStripper {
     public Block titleBlock;
 	public Block abstractBlock;
 	//Block keywordBlock;
+	Block lastSubtitleBlock=null;
     
 	public ArrayList<Page> pages;
 	TreeMap<BlockFormat,Integer> blockformats;
@@ -49,6 +50,9 @@ public class Content extends PDFTextStripper {
 	int centralAlignmentAdjustment=0;
 	private boolean ignoreSubtitle=true;
 	private ArrayList<String> allWords;
+	
+	boolean reachedLastSubtitle;
+	boolean bodyFinished;
 	
 	//boolean hasFirstBodyBlock=false;
 	BlockFormatChain subtitleFormatChain;
@@ -430,8 +434,10 @@ public class Content extends PDFTextStripper {
 					}
 				}
 				if(allContained)
-					for(int j=i-n; j<i; j++)
+					for(int j=i-n; j<i; j++) {
 						bigBlockList.get(j).type=Common.subtitleBlockType(bigBlockList.get(j));
+						lastSubtitleBlock=bigBlockList.get(j);
+					}
 			}
 		}
 	}
@@ -554,8 +560,13 @@ public class Content extends PDFTextStripper {
 		//hasFirstBodyBlock=false;
 		
 		String str="";
+		reachedLastSubtitle=false;
+		bodyFinished=false;
 		
 		for(Page page:pages) {
+			if(bodyFinished)
+				break;
+			
 			str+=page.body()+"\n";
 		}
 		

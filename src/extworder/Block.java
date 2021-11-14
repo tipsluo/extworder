@@ -619,8 +619,6 @@ public class Block extends Rectangle {
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {
-		//	if(row.scarce())
-		//		continue;
 			if (row.upper>=y) {
 				str+="\n";
 				y=row.lower;
