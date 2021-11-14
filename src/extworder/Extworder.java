@@ -360,7 +360,7 @@ public class Extworder {
 	}
 	
 	public static void printBlocks(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(),false,true,true);
+		Content content = new Content(fn, new IgnorePage(),true,true,false);
 		
 		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_block2.txt");
 		

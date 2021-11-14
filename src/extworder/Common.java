@@ -58,6 +58,7 @@ public class Common {
 	//final static String _FirstBody="FIRSTBODY";
 	final static String _Body="BODY";
 	final static String _SubtitlePrefix="SUBTITLE_";
+	final static String _SectionPrefix="SECTION_";
 	final static String _IgnoredBlockPrefix="IGNORED_";
 	final static String _IgnoredBlockIntraBody=_IgnoredBlockPrefix+"INTRABODY";
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
@@ -436,16 +437,20 @@ public class Common {
 		public boolean filter(Block block) {
 			int charfontDiff=block.format.compareTo(block.page.content.bodyBlockformat);
 			
-			//if(charfontDiff>0 && block.isNonTitle())
-			if(charfontDiff>0 && block.likeTitleBlock()<0)
-				return false;
+			if(block.likeBodyBlock1()>=Common._ParaSentDefaultUno)
+				return true;
 			
-			return  ( charfontDiff >= 0 || 
+			if(charfontDiff>=0 && block.likeTitleBlock()>=0)
+				return true;
+			
+			return false;
+			
+			/*return  ( charfontDiff >= 0 || 
 						charfontDiff == 0 && 
 						( block.format.alignment==Common._CENTERALIGNED)
 					)
 					&&
-					! pattern.matcher(block.type).find();
+					! pattern.matcher(block.type).find();*/
 		}
 	}
 	

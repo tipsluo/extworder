@@ -583,7 +583,9 @@ public class Block extends Rectangle {
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
-		Content content=page.content;
+		//Content content=page.content;
+//if(string().contains("5 | CONCLUSION"))
+//			 System.out.println("");
 		
 		if (this==page.content.titleBlock)
 			fw.write("type: title");
@@ -591,10 +593,10 @@ public class Block extends Rectangle {
 			fw.write("type: abstract");
 		else if (!type.isBlank())
 			fw.write(String.format("type: %s",type));
-		else if (format.equals(content.bodyBlockformat))
-			fw.write(String.format("type: "));
-		else 
-			fw.write(String.format("type: undefined"));
+		//else if (format.equals(content.bodyBlockformat))
+		//	fw.write(String.format("type: "));
+		//else 
+		//	fw.write(String.format("type: undefined"));
 		
 		int columnLeft;
 		if(column==null)
@@ -603,7 +605,7 @@ public class Block extends Rectangle {
 			columnLeft=column.left;
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
-				content.blockformatIndexes.get(format),left,right,upper,lower));
+				page.content.blockformatIndexes.get(format),left,right,upper,lower));
 		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d, likeBody=%d\n\n",
 				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft, likeBodyBlock1()));
 		

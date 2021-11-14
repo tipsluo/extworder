@@ -33,10 +33,7 @@ public class Content extends PDFTextStripper {
     public Block activeBlock;
     public Block titleBlock;
 	public Block abstractBlock;
-	Block keywordBlock;
-    //String abstractStr;
-    //String keywordStr;
-    //String bodyStr;
+	//Block keywordBlock;
     
 	public ArrayList<Page> pages;
 	TreeMap<BlockFormat,Integer> blockformats;
@@ -416,7 +413,8 @@ public class Content extends PDFTextStripper {
 			
 			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).likeBodyBlock1()>=Common._ParaSentDefaultTrue)
 				if(Block.additionalSubtitleFormatFilter.filter(block)) {
-					block.type=Common.subtitleBlockType(block);
+					//block.type=Common.subtitleBlockType(block);
+					block.type=Common._SectionPrefix;
 					continue;
 				}
 				
@@ -538,8 +536,10 @@ public class Content extends PDFTextStripper {
 		
 		if(subtitleFormatChain!=null) {
 			fw.write(String.format("Subtitles: "));
-			if(ignoreSubtitle)
+			if(ignoreSubtitle) {
 				fw.write("Skipped due to ignoreSubtitle is set");
+				return;
+			}
 			for(BlockFormat blockformat:subtitleFormatChain.blockformats)
 				fw.write(String.format(" %d",blockformatIndexes.get(blockformat)));
 			fw.write("\n\n");
@@ -814,7 +814,7 @@ public class Content extends PDFTextStripper {
 							count<Common._MinTimeAdditionalSubtitle)
 						continue;
 					//keep it
-					//additionalSubtitleFormatFilter.add(chain.blockformats.get(0));
+					additionalSubtitleFormatFilter.add(chain.blockformats.get(0));
 				}
 				Block.additionalSubtitleFormatFilter=new Common.AdditionalSubtitleFormatFilter(additionalSubtitleFormatFilter);
 				

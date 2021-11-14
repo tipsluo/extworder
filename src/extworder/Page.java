@@ -592,7 +592,7 @@ public class Page extends Rectangle{
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block block:blocks) {
-				block.print(fw);
+			block.print(fw);
 		}
 	}
 	
