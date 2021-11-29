@@ -74,7 +74,7 @@ public class Content extends PDFTextStripper {
 		pages=new ArrayList<Page>();
 		blockformats=new TreeMap<>();
 		
-		File file = new File(Common._TestDataDir+fn+".pdf");
+		File file = new File(fn);
 		PDDocument document = PDDocument.load(file);
 		
 		if(! ignoreColoredBlock)

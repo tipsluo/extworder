@@ -18,6 +18,7 @@ import extworder.Common.SectionBlockFilter;
 import extworder.Common.StatGroup;
 import extworder.Common.SubtitleBlockFilter;
 import extworder.Content;
+import extworder.Extworder;
 import extworder.Page;
 
 public class Process {
@@ -59,8 +60,8 @@ public class Process {
 		return list3.topsByValue(number);
 	}
 	
-	private void print(String fn) throws IOException {
-		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+".out");
+	private void print(String pdfName) throws IOException {
+		FileWriter myWriter= new FileWriter(Extworder._TestDataDir+pdfName+".out");
 		
 		myWriter.write("Most repeated keywords ==>\n\n");
 		for(String kw: top1_3)

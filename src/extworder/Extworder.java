@@ -10,6 +10,8 @@ import org.apache.pdfbox.pdmodel.PDDocumentInformation;
 import org.apache.pdfbox.text.PDFTextStripper;
 
 public class Extworder {
+	public final static String _TestDataDir="data/";
+	
 	public static void main(String args[]) throws IOException  {
         ArrayList<String> pdfs=new ArrayList<String>();
         //pdfs=Common.getAllPDFs();
@@ -234,8 +236,8 @@ public class Extworder {
 		//printContent("Library&Archive-Review Essay-Instruction and Archives"); //strange. some chars are not be able to be marked.
 	}
 	
-	public static void extract(String fn) throws IOException {
-			File file = new File(Common._TestDataDir+fn+".pdf");
+	public static void extract(String pdfName) throws IOException {
+			File file = new File(pdfPath(pdfName));
 			PDDocument document = PDDocument.load(file);
 			
 			PDDocumentInformation info = document.getDocumentInformation();
@@ -254,7 +256,7 @@ public class Extworder {
 			String text = pdfStripper.getText(document);
 			
 			try {
-			      FileWriter myWriter = new FileWriter(Common._TestDataDir+fn+".txt");
+			      FileWriter myWriter = new FileWriter(_TestDataDir+pdfName+".txt");
 			      
 			      myWriter.write("Document Infomation ===========>\n");
 			      myWriter.write("Title=" + info.getTitle() +"\n");
@@ -279,8 +281,8 @@ public class Extworder {
 			document.close();
 	}
 	
-	public static String getMetaTitle(String fn) throws IOException {
-		File file = new File(Common._TestDataDir+fn+".pdf");
+	public static String getMetaTitle(String pdfName) throws IOException {
+		File file = new File(pdfPath(pdfName));
 		PDDocument document = PDDocument.load(file);
 		
 		PDDocumentInformation info = document.getDocumentInformation();
@@ -290,13 +292,13 @@ public class Extworder {
 		return info.getTitle();
 	}
 	
-	public static void displayChars(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(), false, true, true);
+	public static void displayChars(String pdfName) throws IOException {
+		Content content = new Content(pdfPath(pdfName), new IgnorePage(), false, true, true);
 		
 		FileWriter myWriter = null;
 		
 		try {
-			myWriter= new FileWriter(Common._TestDataDir+fn+"_char2.txt");
+			myWriter= new FileWriter(_TestDataDir+pdfName+"_char2.txt");
 		
 			for(Page page:content.pages) {
 				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
@@ -311,13 +313,13 @@ public class Extworder {
 		}
 	}
 	
-	public static void displayRows(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(), false, true, true);
+	public static void displayRows(String pdfName) throws IOException {
+		Content content = new Content(pdfPath(pdfName), new IgnorePage(), false, true, true);
 		
 		FileWriter myWriter = null;
 		
 		try {
-			myWriter= new FileWriter(Common._TestDataDir+fn+"_row.txt");
+			myWriter= new FileWriter(_TestDataDir+pdfName+"_row.txt");
 		
 			for(Page page:content.pages) {
 				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
@@ -335,13 +337,13 @@ public class Extworder {
 		}
 	}
 	
-	public static void displayBlocks(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(), false, true,true);
+	public static void displayBlocks(String pdfName) throws IOException {
+		Content content = new Content(pdfPath(pdfName), new IgnorePage(), false, true,true);
 		
 		FileWriter myWriter = null;
 		
 		try {
-			myWriter= new FileWriter(Common._TestDataDir+fn+"_block.txt");
+			myWriter= new FileWriter(_TestDataDir+pdfName+"_block.txt");
 		
 			for(Page page:content.pages) {
 				myWriter.write(String.format("Page: %d\n",page.id));
@@ -359,20 +361,20 @@ public class Extworder {
 		}
 	}
 	
-	public static void printBlocks(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(),true,true,false);
+	public static void printBlocks(String pdfName) throws IOException {
+		Content content = new Content(pdfPath(pdfName), new IgnorePage(),true,true,false);
 		
-		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_block2.txt");
+		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_block2.txt");
 		
 		content.print(myWriter);
 		
 		myWriter.close();
 	}
 	
-	static void printContent(String fn) throws IOException {
-		Content content = new Content(fn, new IgnorePage(),true,true,false);
+	static void printContent(String pdfName) throws IOException {
+		Content content = new Content(pdfPath(pdfName), new IgnorePage(),true,true,false);
 		
-		FileWriter myWriter= new FileWriter(Common._TestDataDir+fn+"_content.txt");
+		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_content.txt");
 
 		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
 				content.title(),content.abstractBlock.string()));
@@ -395,6 +397,25 @@ public class Extworder {
 			return false;
 		}
 	}*/
+	
+    static ArrayList<String> getAllTestPDFs() {
+        ArrayList<String> files=new ArrayList<String>();
+        
+        File directoryPath = new File(_TestDataDir);
+        String contents[] = directoryPath.list();
+          
+        for(int i=0; i<contents.length; i++) {
+             if(contents[i].endsWith(".pdf")) {
+                 files.add(contents[i].substring(0, contents[i].lastIndexOf('.')));
+             }
+        }
+        
+        return files;
+    }
+    
+    static String pdfPath(String pdfName) {
+    	return _TestDataDir+pdfName+".pdf";
+    }
 	
 	static class IgnorePage extends Common.IgnorePage {
 		final String[] pstr=new String[]{

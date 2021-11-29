@@ -23,8 +23,6 @@ public class Common {
 	final static float _MinAbstractSentenceRatio=0.3f;
 	final static float _MinTitleFreqencyRatio=0.65f;
 	
-	public final static String _TestDataDir="data/";
-	
 	final static float _SpaceAdjustment=0.8f;
 	final static int _CharHSpaceAddGap=2;
 	final static float _CharHGapRatio=3.5f;
@@ -484,21 +482,6 @@ public class Common {
 			return false;
 		}
 	}
-	
-    static ArrayList<String> getAllPDFs() {
-        ArrayList<String> files=new ArrayList<String>();
-        
-        File directoryPath = new File(_TestDataDir);
-        String contents[] = directoryPath.list();
-          
-        for(int i=0; i<contents.length; i++) {
-             if(contents[i].endsWith(".pdf")) {
-                 files.add(contents[i].substring(0, contents[i].lastIndexOf('.')));
-             }
-        }
-        
-        return files;
-    }
     
 	static abstract public class IgnorePage {
 		public abstract boolean isIgnored(Page page);
