@@ -413,7 +413,7 @@ public class Extworder {
         return files;
     }
     
-    static String pdfPath(String pdfName) {
+    public static String pdfPath(String pdfName) {
     	return _TestDataDir+pdfName+".pdf";
     }
 	

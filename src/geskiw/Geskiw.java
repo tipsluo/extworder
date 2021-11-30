@@ -2,8 +2,7 @@ package geskiw;
 
 import java.io.IOException;
 
-import extworder.Content;
-import geskiw.Process.IgnorePage;
+import extworder.Extworder;
 
 public class Geskiw {
 	
@@ -12,8 +11,11 @@ public class Geskiw {
 	}
 	
 	public static void main(String args[]) throws IOException, InterruptedException  {
+		String pdfName="A model for estimating parameters of rotational landslide";
 		//Process process=new Process("Wiley-Early life stress and HPA axis");
-		Process process=new Process("A model for estimating parameters of rotational landslide");
+		Process process=new Process(Extworder.pdfPath(pdfName),Consts._StopWordFile);
+		
+		System.out.println(process.result);
 		System.out.println("Geskiw Done.");
 	}
 }

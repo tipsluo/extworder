@@ -9,36 +9,47 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 import extworder.Block;
 import extworder.Common;
 import extworder.Common.BodyBlockFilter;
-import extworder.Common.SectionBlockFilter;
 import extworder.Common.StatGroup;
 import extworder.Common.SubtitleBlockFilter;
 import extworder.Content;
-import extworder.Extworder;
 import extworder.Page;
 
 public class Process {
-	static Content content;
+	Content content;
 	String bodyStr;
 	ArrayList<String> keySentences;
 	ArrayList<String> keySubtitles;
 	List<String> top1_3;
 	List<String> top4_8;
+	public String result;
+	private String stopWordFile;
 	
-	public Process(String fn) throws IOException {
+	/*public Process(String fn) throws IOException {
 		content = new Content(fn, new IgnorePage(), true, true, false);
 		bodyStr=content.body();
 		getTopSentence();
 		
 		print(fn);
+	}*/
+	
+	public Process(String pdfPath, String stopWordFile) throws IOException {
+		if(!stopWordFile.isEmpty())
+			this.stopWordFile=stopWordFile;
+			
+		content = new Content(pdfPath, new IgnorePage(), true, true, false);
+		bodyStr=content.body();
+		getTopSentence();
+		
+		result=output();
 	}
 	
 	List<String> topKeywords(int number) throws IOException {
-		ArrayList<String> stopWords=readWordsFromFile(Consts._StopWordFile);
+		System.out.println("Stop Word File: " + stopWordFile);
+		ArrayList<String> stopWords=readStopWordsFromFile(stopWordFile);
 		
 		ArrayList<String> titleWords=Common.getWords(content.titleBlock.string(),true);
 		titleWords=removeWords(titleWords,stopWords);
@@ -60,7 +71,7 @@ public class Process {
 		return list3.topsByValue(number);
 	}
 	
-	private void print(String pdfName) throws IOException {
+	/*private void print(String pdfName) throws IOException {
 		FileWriter myWriter= new FileWriter(Extworder._TestDataDir+pdfName+".out");
 		
 		myWriter.write("Most repeated keywords ==>\n\n");
@@ -82,6 +93,30 @@ public class Process {
 			myWriter.write(keySentence+"\n\n");
 			
 		myWriter.close();
+	}*/
+	
+	private String output() throws IOException {
+		String ret="";
+		
+		ret+="Most repeated keywords ==>\n\n";
+		for(String kw: top1_3)
+			ret+=kw+"\n";
+		
+		ret+="\nMedium repeated keywords ==>\n\n";
+		for(String kw: top4_8)
+			ret+=kw+"\n";
+		
+		ret+="\n\nExtracted Output ===>\n";
+				
+		ret+="\n\nSection sentences followed by one of the key sentences below ===> \n\n";
+		for(String keySubtitle: keySubtitles)
+			ret+=keySubtitle.replaceAll("\\n"," ")+"\n";
+		
+		ret+="\n\nKey sentences including at least one most repeated and one medium repeated keywords ===> \n\n";
+		for(String keySentence: keySentences)
+			ret+=keySentence+"\n\n";
+			
+		return ret;
 	}
 	
 	/*private void ignoreCatNSubBlock() {
@@ -122,7 +157,7 @@ public class Process {
 		return ret;
 	}
 	
-	private ArrayList<String> readWordsFromFile(String filename) throws IOException {
+	private ArrayList<String> readStopWordsFromFile(String filename) throws IOException {
 		ArrayList<String> stopWords=new ArrayList<String>();
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
