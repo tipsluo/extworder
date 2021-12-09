@@ -452,7 +452,7 @@ public class Row extends Rectangle {
 		fw.write(string());
 	}
 	
-	String string() {
+	public String string() {
 		if(str!="")
 			return str;
 		

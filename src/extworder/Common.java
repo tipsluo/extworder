@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -197,11 +198,42 @@ public class Common {
 		ret.addAll(Arrays.asList(ws));
 		return ret;
 	}
-	
 
-	public static String[] getSentences(String str){
+	public static String[] getLowerSentences(String str){
 		String[] ws = str.toLowerCase().split("[\\.?!](\"|\\s+|$)");
 		return ws;
+	}
+	
+	public static String[] getOrigSentences(String str){
+		String[] ws = str.split("[\\.?!](\"|\\s+|$)");
+		return ws;
+	}
+	
+	static public String joinLines(List<String> lines) {
+		String ret="";
+		boolean lastDash=false;
+		
+		int i;
+		for(i=0; i<lines.size(); i++) {
+			String line=lines.get(i);
+			if(!lastDash && lines.indexOf(line)!=0)
+				ret+=" ";
+			
+			lastDash=false;
+
+			if(line.length()>1 &&
+					line.charAt(line.length()-1)=='-' && 
+					line.charAt(line.length()-2)!=' ' &&
+					i<lines.size()-1 && 
+					! Character.isUpperCase(lines.get(i+1).charAt(0)) &&
+					lines.get(i+1).charAt(0) != ' ') {
+				ret+=line.substring(line.length()-1);
+				lastDash=true;
+			} else
+				ret+=line;
+		}
+		
+		return ret;
 	}
 	
 	static float hits(ArrayList<String> allWords, ArrayList<String> words) {
@@ -220,7 +252,7 @@ public class Common {
 	
 	static float sentenceRatio(String str) {
 		int likeSentence=0;
-		String[] sents=Common.getSentences(str);
+		String[] sents=Common.getLowerSentences(str);
 		for(String sent:sents) {
 			if(Common.likeSentence1.matcher(sent).find() &&
 					Common.likeSentence2.matcher(sent).find())

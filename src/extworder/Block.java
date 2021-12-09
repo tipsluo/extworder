@@ -21,7 +21,7 @@ import extworder.Row.CharFont;
 
 public class Block extends Rectangle {
 	BlockFormat format;
-	ArrayList<Row> rows;
+	public ArrayList<Row> rows;
 	Page page;
 	Column column;
 	public String type="";
@@ -629,7 +629,6 @@ public class Block extends Rectangle {
 		
 		return str+"\n";
 	}
-	
 	
 	static class BlockFormat implements Comparable<BlockFormat> {
 		final CharFont charfont;

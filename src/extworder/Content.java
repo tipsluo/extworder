@@ -571,7 +571,7 @@ public class Content extends PDFTextStripper {
 		return str;
 	}*/
 	
-	public ArrayList<Block> getBodyBlocks() {
+	public ArrayList<Block> getMainBlocks() {
 		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 		Common.SectionBlockFilter sectionBlockFilter=new SectionBlockFilter();
@@ -582,10 +582,30 @@ public class Content extends PDFTextStripper {
 		return bs;
 	}
 	
+	/*public ArrayList<Block> getFollowingBodyBlocks(Block startBlock) {
+		boolean start=false;
+		ArrayList<Block> ret=new ArrayList<Block>();
+		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
+		
+		for(Page page:pages)
+			for(Block block:page.blocks) {
+				if(block==startBlock)
+					start=true;
+
+				if(start) {
+					if(! bodyBlockFilter.filter(block))
+						return ret;
+
+					ret.add(block);
+				}
+			}
+		return ret;
+	}*/
+	
 	public String body() {
 		String str="";
 		
-		for(Block block:getBodyBlocks()) {
+		for(Block block:getMainBlocks()) {
 			str+=block.string()+"\n";
 		}
 		

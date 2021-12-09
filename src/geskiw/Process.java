@@ -9,6 +9,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 import extworder.Block;
 import extworder.Common;
@@ -17,6 +18,7 @@ import extworder.Common.StatGroup;
 import extworder.Common.SubtitleBlockFilter;
 import extworder.Content;
 import extworder.Page;
+import extworder.Row;
 
 public class Process {
 	Content content;
@@ -26,7 +28,13 @@ public class Process {
 	List<String> top1_3;
 	List<String> top4_8;
 	public String result;
-	private String stopWordFile;
+	//private String stopWordFile;
+	//private String abbreviationFile;
+	ArrayList<String> stopWords;
+	ArrayList<String> abbrSubses;
+	ArrayList<Pattern> abbrPatterns;
+	Block subtitleBlock;
+	//final static Pattern abbrSubsPattern=Pattern.compile(Consts._AbbrSubsStr);
 	
 	/*public Process(String fn) throws IOException {
 		content = new Content(fn, new IgnorePage(), true, true, false);
@@ -36,9 +44,9 @@ public class Process {
 		print(fn);
 	}*/
 	
-	public Process(String pdfPath, String stopWordFile) throws IOException {
-		if(!stopWordFile.isEmpty())
-			this.stopWordFile=stopWordFile;
+	public Process(String pdfPath, String stopWordFile, String abbreviationFile) throws IOException {
+		readStopWordsFromFile(stopWordFile);
+		readAbbreviationsFromFile(abbreviationFile);
 			
 		content = new Content(pdfPath, new IgnorePage(), true, true, false);
 		bodyStr=content.body();
@@ -48,8 +56,8 @@ public class Process {
 	}
 	
 	List<String> topKeywords(int number) throws IOException {
-		System.out.println("Stop Word File: " + stopWordFile);
-		ArrayList<String> stopWords=readStopWordsFromFile(stopWordFile);
+		/*System.out.println("Stop Word File: " + stopWordFile);
+		ArrayList<String> stopWords=readStopWordsFromFile(stopWordFile);*/
 		
 		ArrayList<String> titleWords=Common.getWords(content.titleBlock.string(),true);
 		titleWords=removeWords(titleWords,stopWords);
@@ -70,30 +78,6 @@ public class Process {
 		
 		return list3.topsByValue(number);
 	}
-	
-	/*private void print(String pdfName) throws IOException {
-		FileWriter myWriter= new FileWriter(Extworder._TestDataDir+pdfName+".out");
-		
-		myWriter.write("Most repeated keywords ==>\n\n");
-		for(String kw: top1_3)
-			myWriter.write(kw+"\n");
-		
-		myWriter.write("\nMedium repeated keywords ==>\n\n");
-		for(String kw: top4_8)
-			myWriter.write(kw+"\n");
-		
-		myWriter.write("\n\nExtracted Output ===>\n");
-				
-		myWriter.write("\n\nSection sentences followed by one of the key sentences below ===> \n\n");
-		for(String keySubtitle: keySubtitles)
-			myWriter.write(keySubtitle.replaceAll("\\n"," ")+"\n");
-		
-		myWriter.write("\n\nKey sentences including at least one most repeated and one medium repeated keywords ===> \n\n");
-		for(String keySentence: keySentences)
-			myWriter.write(keySentence+"\n\n");
-			
-		myWriter.close();
-	}*/
 	
 	private String output() throws IOException {
 		String ret="";
@@ -119,20 +103,6 @@ public class Process {
 		return ret;
 	}
 	
-	/*private void ignoreCatNSubBlock() {
-		content.getKeyBlockStr(0,
-				Pattern.compile("^\\s*Categories\s+and\s+Subject\s+Descriptors\\s*[\\s:\n]?"));
-		content.activeBlock.setIgnored(Consts._CatNSubBlock);
-	}*/
-	
-	/*private void removeStopWords(StatGroup<String> statGroup, ArrayList<String> stopWords) {
-		for(String word: statGroup.records.keySet()) {
-			if(Collections.binarySearch(stopWords,word.toLowerCase()) > 0)
-				statGroup.remove(word);
-		}
-	}*/
-
-	
 	private ArrayList<String> removeWords(ArrayList<String> source, ArrayList<String> list) {
 		ArrayList<String> words=new ArrayList<String>();
 		
@@ -157,8 +127,8 @@ public class Process {
 		return ret;
 	}
 	
-	private ArrayList<String> readStopWordsFromFile(String filename) throws IOException {
-		ArrayList<String> stopWords=new ArrayList<String>();
+	private void readStopWordsFromFile(String filename) throws IOException {
+		stopWords=new ArrayList<String>();
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
 		    String line;
@@ -168,8 +138,32 @@ public class Process {
 		}
 		
 		Collections.sort(stopWords);
+	}
+	
+	private void readAbbreviationsFromFile(String filename) throws IOException {
+		abbrSubses=new ArrayList<String>();
+		abbrPatterns=new ArrayList<Pattern>();
 		
-		return stopWords;
+		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+		    String line;
+		    while ((line = br.readLine()) != null) {
+		    	abbrSubses.add(line.replaceAll("\\.",Consts._AbbrSubsStr));
+		    	abbrPatterns.add(Pattern.compile(line));
+		    }
+		}
+	}
+	
+	private String replaceAbbreviation(String str) {
+		String s=str;
+		for(int i=0;i<abbrPatterns.size();i++) {
+			abbrPatterns.get(i).matcher(s).replaceAll(abbrSubses.get(i));
+		}
+		
+		return s;
+	}
+	
+	private String restoreAbbreviation(String str) {
+		return str.replaceAll(Consts._AbbrSubsStr,".");
 	}
 	
 	private void getTopSentence() throws IOException {
@@ -180,11 +174,13 @@ public class Process {
 		top1_3=top8.subList(0, 3);
 		top4_8=top8.subList(3, 8);
 
-		Block subtitleBlock=null;
+		subtitleBlock=null;
 		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 		
-		ArrayList<Block> blocks=content.getBodyBlocks();
+		ArrayList<Block> blocks=content.getMainBlocks();
+		ArrayList<Block> bs=new ArrayList<Block>();
+		
 				
 		for(Block block:blocks) {
 			if(subtitleBlockFilter.filter(block)) {
@@ -193,81 +189,54 @@ public class Process {
 			}
 
 			if(! bodyBlockFilter.filter(block))
-				continue;
+				if(bs.size()==0)
+					continue;
+				else {
+					getkeySentences(joinBlocks(bs));
+					bs=new ArrayList<Block>();
+				}
 			
-			for(String sentence: Common.getSentences(block.string())) {
-				boolean found=false;
-				for(String kw: top1_3)
-					if(sentence.contains(kw)) {
-						found=true;
-						break;
+			bs.add(block);
+		}
+		
+		if(bs.size()!=0)
+			getkeySentences(joinBlocks(bs));
+	}
+	
+	private String joinBlocks(ArrayList<Block> mainBlocks) {
+		ArrayList<String> strs=new ArrayList<String>();
+		
+		for(Block block:mainBlocks) {
+			for(Row row:block.rows)
+				strs.add(row.string());
+		}
+		
+		return Common.joinLines(strs);
+	}
+	
+	private void getkeySentences(String str){
+		for(String sentence: Common.getOrigSentences(replaceAbbreviation(str))) {
+			boolean found=false;
+			for(String kw: top1_3)
+				if(sentence.contains(kw)) {
+					found=true;
+					break;
+				}
+			if(!found) continue;
+			
+			for(String kw:top4_8) {
+				if(sentence.contains(kw)) {
+					keySentences.add(sentence);
+					
+					if(subtitleBlock!=null) {
+						keySubtitles.add(subtitleBlock.string());
+						subtitleBlock=null;
 					}
-				if(!found) continue;
-				
-				for(String kw:top4_8) {
-					if(sentence.contains(kw)) {
-						keySentences.add(sentence);
-						
-						if(subtitleBlock!=null) {
-							keySubtitles.add(subtitleBlock.string());
-							subtitleBlock=null;
-						}
-						break;
-					}
+					break;
 				}
 			}
 		}
-		
-		/*for(Page page: content.pages)
-			for(Page.Column column: page.columns)
-				for(Block block:column.blocks) {
-					if(Block.subtitleBlockFilter.filter(block)) {
-						subtitleBlock=block;
-						continue;
-					}
-					
-					if(! (new Common.BodyBlockFilter()).filter(block))
-						continue;
-					
-					for(String sentence: Common.getSentences(block.string())) {
-						boolean found=false;
-						for(String kw: top1_3)
-							if(sentence.contains(kw)) {
-								found=true;
-								break;
-							}
-						if(!found) continue;
-						
-						for(String kw:top4_8) {
-							if(sentence.contains(kw)) {
-								keySentences.add(sentence);
-								
-								if(subtitleBlock!=null) {
-									keySubtitles.add(subtitleBlock.string());
-									subtitleBlock=null;
-								}
-								break;
-							}
-						}
-					}
-				}*/
 	}
-	
-	/*private ArrayList<String> getTopSentence() {
-		ArrayList<String> top5=topKeywords(8);
-		ArrayList<String> allSentences=(ArrayList<String>) Arrays.asList(Common.getSentences(bodyStr));
-		
-		ArrayList<String> top1_3=(ArrayList<String>) top5.subList(0, 3);
-		ArrayList<String> top4_8=(ArrayList<String>) top5.subList(3, 5);
-		
-		ArrayList<String> ret=new ArrayList<String>();
-		
-		for(ArrayList<String> sentence: allSentences)
-			for(String kw: keywords)
-				if(sentence.contains(kw))
-					ret.add(sentence);
-		return ret;
-	}*/
 	
 	class IgnorePage extends Common.IgnorePage {
 		final String[] pstr=new String[]{
