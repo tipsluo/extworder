@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
@@ -27,22 +29,12 @@ public class Process {
 	ArrayList<String> keySubtitles;
 	List<String> top1_3;
 	List<String> top4_8;
-	public String result;
-	//private String stopWordFile;
-	//private String abbreviationFile;
+	public String extractResult;
 	ArrayList<String> stopWords;
 	ArrayList<String> abbrSubses;
 	ArrayList<Pattern> abbrPatterns;
 	Block subtitleBlock;
-	//final static Pattern abbrSubsPattern=Pattern.compile(Consts._AbbrSubsStr);
-	
-	/*public Process(String fn) throws IOException {
-		content = new Content(fn, new IgnorePage(), true, true, false);
-		bodyStr=content.body();
-		getTopSentence();
-		
-		print(fn);
-	}*/
+	StatGroup<String> commonWords;
 	
 	public Process(String pdfPath, String stopWordFile, String abbreviationFile) throws IOException {
 		readStopWordsFromFile(stopWordFile);
@@ -52,13 +44,10 @@ public class Process {
 		bodyStr=content.body();
 		getTopSentence();
 		
-		result=output();
+		extractResult=output();
 	}
 	
 	List<String> topKeywords(int number) throws IOException {
-		/*System.out.println("Stop Word File: " + stopWordFile);
-		ArrayList<String> stopWords=readStopWordsFromFile(stopWordFile);*/
-		
 		ArrayList<String> titleWords=Common.getWords(content.titleBlock.string(),true);
 		titleWords=removeWords(titleWords,stopWords);
 		
@@ -75,6 +64,8 @@ public class Process {
 		StatGroup<String> list2=new StatGroup<String>(bodyWords);
 		
 		StatGroup<String> list3=getCommonWords(list2,list1);
+		
+		commonWords=list3;
 		
 		return list3.topsByValue(number);
 	}
@@ -100,7 +91,7 @@ public class Process {
 		for(String keySentence: keySentences)
 			ret+=keySentence+"\n\n";
 			
-		return ret;
+		return restoreAbbreviation(ret);
 	}
 	
 	private ArrayList<String> removeWords(ArrayList<String> source, ArrayList<String> list) {
@@ -153,7 +144,7 @@ public class Process {
 		}
 	}
 	
-	private String replaceAbbreviation(String str) {
+	private String replaceAbbreviations(String str) {
 		String s=str;
 		for(int i=0;i<abbrPatterns.size();i++) {
 			abbrPatterns.get(i).matcher(s).replaceAll(abbrSubses.get(i));
@@ -180,7 +171,6 @@ public class Process {
 		
 		ArrayList<Block> blocks=content.getMainBlocks();
 		ArrayList<Block> bs=new ArrayList<Block>();
-		
 				
 		for(Block block:blocks) {
 			if(subtitleBlockFilter.filter(block)) {
@@ -188,13 +178,14 @@ public class Process {
 				continue;
 			}
 
-			if(! bodyBlockFilter.filter(block))
-				if(bs.size()==0)
-					continue;
-				else {
+			if(! bodyBlockFilter.filter(block)) {
+				if(bs.size()!=0) {
 					getkeySentences(joinBlocks(bs));
 					bs=new ArrayList<Block>();
 				}
+				
+				continue;
+			}
 			
 			bs.add(block);
 		}
@@ -215,10 +206,10 @@ public class Process {
 	}
 	
 	private void getkeySentences(String str){
-		for(String sentence: Common.getOrigSentences(replaceAbbreviation(str))) {
+		for(String sentence: Common.getOrigSentences(replaceAbbreviations(str))) {
 			boolean found=false;
 			for(String kw: top1_3)
-				if(sentence.contains(kw)) {
+				if(sentence.toLowerCase().contains(kw)) {
 					found=true;
 					break;
 				}
@@ -236,6 +227,20 @@ public class Process {
 				}
 			}
 		}
+	}
+	
+	public String outputCommonWords() {
+		Map<java.lang.String, Integer> sortedRecords = new HashMap<>();
+		
+		sortedRecords=commonWords.reverseSortByValue();
+		
+		String ret="";
+		
+		for (Map.Entry<String,Integer> entry : sortedRecords.entrySet()) {
+			ret+=entry.getKey() + ": " + String.valueOf(entry.getValue()) + "\n";
+		}
+		
+		return ret;
 	}
 	
 	class IgnorePage extends Common.IgnorePage {

@@ -227,7 +227,7 @@ public class Common {
 					i<lines.size()-1 && 
 					! Character.isUpperCase(lines.get(i+1).charAt(0)) &&
 					lines.get(i+1).charAt(0) != ' ') {
-				ret+=line.substring(line.length()-1);
+				ret+=line.substring(0,line.length()-2);
 				lastDash=true;
 			} else
 				ret+=line;
@@ -418,7 +418,7 @@ public class Common {
 			return ret;
 		}
 		
-		Map<T,Integer> reverseSortByValue() {
+		public Map<T,Integer> reverseSortByValue() {
 			LinkedHashMap<T, Integer> reverseSortedRecords = new LinkedHashMap<>();
 			
 			records.entrySet()
