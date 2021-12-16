@@ -20,7 +20,7 @@ import extworder.Page.Column;
 import extworder.Row.CharFont;
 
 public class Block extends Rectangle {
-	BlockFormat format;
+	public BlockFormat format;
 	public ArrayList<Row> rows;
 	Page page;
 	Column column;
@@ -630,7 +630,7 @@ public class Block extends Rectangle {
 		return str+"\n";
 	}
 	
-	static class BlockFormat implements Comparable<BlockFormat> {
+	public static class BlockFormat implements Comparable<BlockFormat> {
 		final CharFont charfont;
 		int alignment;
 		int allUppercase;

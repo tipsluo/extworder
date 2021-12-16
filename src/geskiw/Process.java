@@ -25,15 +25,15 @@ import extworder.Row;
 public class Process {
 	Content content;
 	String bodyStr;
-	ArrayList<String> keySentences;
-	ArrayList<String> keySubtitles;
+	//ArrayList<String> keySentences;
+	//ArrayList<String> keySubtitles;
 	List<String> top1_3;
 	List<String> top4_8;
 	public String extractResult;
 	ArrayList<String> stopWords;
 	ArrayList<String> abbrSubses;
 	ArrayList<Pattern> abbrPatterns;
-	Block subtitleBlock;
+	//Block subtitleBlock;
 	StatGroup<String> commonWords;
 	
 	public Process(String pdfPath, String stopWordFile, String abbreviationFile) throws IOException {
@@ -42,9 +42,10 @@ public class Process {
 			
 		content = new Content(pdfPath, new IgnorePage(), true, true, false);
 		bodyStr=content.body();
-		getTopSentence();
 		
-		extractResult=output();
+		ArrayList<Section> sections=getTopSentence();
+		
+		extractResult=output(sections);
 	}
 	
 	List<String> topKeywords(int number) throws IOException {
@@ -70,7 +71,7 @@ public class Process {
 		return list3.topsByValue(number);
 	}
 	
-	private String output() throws IOException {
+	private String output(ArrayList<Section> sections) throws IOException {
 		String ret="";
 		
 		ret+="Most repeated keywords ==>\n\n";
@@ -83,13 +84,18 @@ public class Process {
 		
 		ret+="\n\nExtracted Output ===>\n";
 				
-		ret+="\n\nSection sentences followed by one of the key sentences below ===> \n\n";
+		/*ret+="\n\nSection sentences followed by one of the key sentences below ===> \n\n";
 		for(String keySubtitle: keySubtitles)
-			ret+=keySubtitle.replaceAll("\\n"," ")+"\n";
+			ret+=keySubtitle.replaceAll("\\n"," ")+"\n";*/
 		
 		ret+="\n\nKey sentences including at least one most repeated and one medium repeated keywords ===> \n\n";
-		for(String keySentence: keySentences)
-			ret+=keySentence+"\n\n";
+		for(Section section:sections) {
+			if(section.subtitleBlock!=null) {
+				ret+=section.subtitleBlock.string()+"\n\n";
+			}
+			for(String keySentence: section.keySentences)
+				ret+=keySentence+"\n\n";
+		}
 			
 		return restoreAbbreviation(ret);
 	}
@@ -157,47 +163,57 @@ public class Process {
 		return str.replaceAll(Consts._AbbrSubsStr,".");
 	}
 	
-	private void getTopSentence() throws IOException {
-		keySentences=new ArrayList<String>();
-		keySubtitles=new ArrayList<String>();
+	private ArrayList<Section> getTopSentence() throws IOException {
+		/*keySentences=new ArrayList<String>();
+		keySubtitles=new ArrayList<String>();*/
 		
 		List<String> top8=topKeywords(8);
 		top1_3=top8.subList(0, 3);
 		top4_8=top8.subList(3, 8);
 
-		subtitleBlock=null;
+		//subtitleBlock=null;
 		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 		
 		ArrayList<Block> blocks=content.getMainBlocks();
-		ArrayList<Block> bs=new ArrayList<Block>();
+		//ArrayList<Block> bs=new ArrayList<Block>();
+		ArrayList<Section> sections=new ArrayList<Section>();
+		Section section=null;
 				
 		for(Block block:blocks) {
 			if(subtitleBlockFilter.filter(block)) {
-				subtitleBlock=block;
+				if(section!=null && section.subtitleBlock!=null && 
+						block.format.compareTo(section.subtitleBlock.format)<0)
+					continue;
+				
+				section=new Section(block);
+				sections.add(section);
 				continue;
 			}
 
 			if(! bodyBlockFilter.filter(block)) {
-				if(bs.size()!=0) {
-					getkeySentences(joinBlocks(bs));
-					bs=new ArrayList<Block>();
-				}
-				
 				continue;
 			}
 			
-			bs.add(block);
+			if(section==null) {
+				section=new Section(null);
+				sections.add(section);
+			}
+			section.addBody(block);
 		}
 		
-		if(bs.size()!=0)
-			getkeySentences(joinBlocks(bs));
+		for(Section s:sections) {
+			if(s.bodyBlocks.size()>0)
+				getKeySentences(s);
+		}
+		
+		return sections;
 	}
 	
-	private String joinBlocks(ArrayList<Block> mainBlocks) {
+	private String joinBlocks(ArrayList<Block> blocks) {
 		ArrayList<String> strs=new ArrayList<String>();
 		
-		for(Block block:mainBlocks) {
+		for(Block block:blocks) {
 			for(Row row:block.rows)
 				strs.add(row.string());
 		}
@@ -205,7 +221,31 @@ public class Process {
 		return Common.joinLines(strs);
 	}
 	
-	private void getkeySentences(String str){
+	private void getKeySentences(Section section) {
+		String str=joinBlocks(section.bodyBlocks);
+		
+		for(String sentence: Common.getOrigSentences(replaceAbbreviations(str))) {
+			boolean found=false;
+			for(String kw: top1_3)
+				if(sentence.toLowerCase().contains(kw)) {
+					found=true;
+					break;
+				}
+			if(!found) continue;
+			
+			for(String kw:top4_8) {
+				if(sentence.contains(kw)) {
+					section.keySentences.add(sentence);
+
+					break;
+				}
+			}
+		}
+	}
+	
+	/*private boolean getKeySentences(String str) {
+		boolean ret=false;
+		
 		for(String sentence: Common.getOrigSentences(replaceAbbreviations(str))) {
 			boolean found=false;
 			for(String kw: top1_3)
@@ -227,7 +267,7 @@ public class Process {
 				}
 			}
 		}
-	}
+	}*/
 	
 	public String outputCommonWords() {
 		Map<java.lang.String, Integer> sortedRecords = new HashMap<>();
@@ -258,6 +298,26 @@ public class Process {
 					return true;
 
 			return false;
+		}
+	}
+	
+	public class Section {
+		Block subtitleBlock;
+		public ArrayList<Block> bodyBlocks;
+		ArrayList<String> keySentences;
+		
+		public Section(Block subtitleBlock) {
+			this.subtitleBlock=subtitleBlock;
+			this.bodyBlocks=new ArrayList<Block>();
+			keySentences=new ArrayList<String>();
+		}
+		
+		public void addBody(Block block) {
+			bodyBlocks.add(block);
+		}
+		
+		public void addKeySentence(String sentence) {
+			keySentences.add(sentence);
 		}
 	}
 }
