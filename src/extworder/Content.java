@@ -93,7 +93,7 @@ public class Content extends PDFTextStripper {
 			
 			Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
 			try {
-				writeText(document, dummy);
+				writeText(document,dummy);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -581,26 +581,6 @@ public class Content extends PDFTextStripper {
 		
 		return bs;
 	}
-	
-	/*public ArrayList<Block> getFollowingBodyBlocks(Block startBlock) {
-		boolean start=false;
-		ArrayList<Block> ret=new ArrayList<Block>();
-		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
-		
-		for(Page page:pages)
-			for(Block block:page.blocks) {
-				if(block==startBlock)
-					start=true;
-
-				if(start) {
-					if(! bodyBlockFilter.filter(block))
-						return ret;
-
-					ret.add(block);
-				}
-			}
-		return ret;
-	}*/
 	
 	public String body() {
 		String str="";

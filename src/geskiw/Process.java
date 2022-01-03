@@ -2,17 +2,14 @@ package geskiw;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
-
 import extworder.Block;
 import extworder.Common;
 import extworder.Common.BodyBlockFilter;
@@ -21,20 +18,19 @@ import extworder.Common.SubtitleBlockFilter;
 import extworder.Content;
 import extworder.Page;
 import extworder.Row;
+import geskiw.Word.WordStatGroup;
+import geskiw.Word.Words;
 
 public class Process {
 	Content content;
 	String bodyStr;
-	//ArrayList<String> keySentences;
-	//ArrayList<String> keySubtitles;
-	List<String> top1_3;
-	List<String> top4_8;
+	List<Word> top1_3;
+	List<Word> top4_8;
 	public String extractResult;
 	ArrayList<String> stopWords;
 	ArrayList<String> abbrSubses;
 	ArrayList<Pattern> abbrPatterns;
-	//Block subtitleBlock;
-	StatGroup<String> commonWords;
+	StatGroup<Word> commonWords;
 	
 	public Process(String pdfPath, String stopWordFile, String abbreviationFile) throws IOException {
 		readStopWordsFromFile(stopWordFile);
@@ -48,23 +44,22 @@ public class Process {
 		extractResult=output(sections);
 	}
 	
-	List<String> topKeywords(int number) throws IOException {
-		ArrayList<String> titleWords=Common.getWords(content.titleBlock.string(),true);
-		titleWords=removeWords(titleWords,stopWords);
+	List<Word> topKeywords(int number) throws IOException {
+		ArrayList<String> titleStrs=Common.getWords(content.titleBlock.string(),true);
+		titleStrs=removeWords(titleStrs,stopWords);
 		
-		ArrayList<String> abstractWords=Common.getWords(content.abstractBlock.string(),true);
-		abstractWords=removeWords(abstractWords,stopWords);
+		ArrayList<String> abstractStrs=Common.getWords(content.abstractBlock.string(),true);
+		abstractStrs=removeWords(abstractStrs,stopWords);
 		
-		StatGroup<String> kws=new StatGroup<String>(titleWords);
-		kws.addAll(abstractWords);
-		ArrayList<String> list1=kws.allKeys();
-		Collections.sort(list1);
+		ArrayList<String> keyWords=titleStrs;
+		keyWords.addAll(abstractStrs);
 		
-		ArrayList<String> bodyWords=Common.getWords(bodyStr,true);
-		bodyWords=removeWords(bodyWords,stopWords);
-		StatGroup<String> list2=new StatGroup<String>(bodyWords);
+		ArrayList<Word> list1=(new Words(keyWords)).list;
 		
-		StatGroup<String> list3=getCommonWords(list2,list1);
+		ArrayList<String> bodyWordStrs=Common.getWords(bodyStr,true);
+		WordStatGroup list2=new WordStatGroup(bodyWordStrs);
+		
+		WordStatGroup list3=getCommonWords(list2,list1);
 		
 		commonWords=list3;
 		
@@ -75,12 +70,14 @@ public class Process {
 		String ret="";
 		
 		ret+="Most repeated keywords ==>\n\n";
-		for(String kw: top1_3)
-			ret+=kw+"\n";
+		for(Word kw: top1_3) {
+			ret+=kw.string()+"\n";
+		}
 		
 		ret+="\nMedium repeated keywords ==>\n\n";
-		for(String kw: top4_8)
-			ret+=kw+"\n";
+		for(Word kw: top4_8) {
+			ret+=kw.string()+"\n";
+		}
 		
 		ret+="\n\nExtracted Output ===>\n";
 				
@@ -113,10 +110,10 @@ public class Process {
 		return words;
 	}
 	
-	private StatGroup<String> getCommonWords(StatGroup<String> whole, ArrayList<String> sortedTarget) {
-		StatGroup<String> ret=new StatGroup<String>();
+	private WordStatGroup getCommonWords(StatGroup<Word> whole, ArrayList<Word> sortedTarget) {
+		WordStatGroup ret=new WordStatGroup();
 		
-		for(Map.Entry<String,Integer> record: whole.records.entrySet()) {
+		for(Map.Entry<Word,Integer> record: whole.records.entrySet()) {
 			int i=Collections.binarySearch(sortedTarget,record.getKey());
 			if(i>=0)
 				ret.add(record);
@@ -164,19 +161,14 @@ public class Process {
 	}
 	
 	private ArrayList<Section> getTopSentence() throws IOException {
-		/*keySentences=new ArrayList<String>();
-		keySubtitles=new ArrayList<String>();*/
-		
-		List<String> top8=topKeywords(8);
+		List<Word> top8=topKeywords(8);
 		top1_3=top8.subList(0, 3);
 		top4_8=top8.subList(3, 8);
 
-		//subtitleBlock=null;
 		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 		
 		ArrayList<Block> blocks=content.getMainBlocks();
-		//ArrayList<Block> bs=new ArrayList<Block>();
 		ArrayList<Section> sections=new ArrayList<Section>();
 		Section section=null;
 				
@@ -226,58 +218,34 @@ public class Process {
 		
 		for(String sentence: Common.getOrigSentences(replaceAbbreviations(str))) {
 			boolean found=false;
-			for(String kw: top1_3)
-				if(sentence.toLowerCase().contains(kw)) {
-					found=true;
-					break;
-				}
+			for(Word kw: top1_3)
+				for(String s:kw.forms)
+					if(sentence.toLowerCase().contains(s)) {
+						found=true;
+						break;
+					}
 			if(!found) continue;
 			
-			for(String kw:top4_8) {
-				if(sentence.contains(kw)) {
-					section.keySentences.add(sentence);
-
-					break;
-				}
+			for(Word kw:top4_8) {
+				for(String s:kw.forms)
+					if(sentence.contains(s)) {
+						section.keySentences.add(sentence);
+	
+						break;
+					}
 			}
 		}
 	}
 	
-	/*private boolean getKeySentences(String str) {
-		boolean ret=false;
-		
-		for(String sentence: Common.getOrigSentences(replaceAbbreviations(str))) {
-			boolean found=false;
-			for(String kw: top1_3)
-				if(sentence.toLowerCase().contains(kw)) {
-					found=true;
-					break;
-				}
-			if(!found) continue;
-			
-			for(String kw:top4_8) {
-				if(sentence.contains(kw)) {
-					keySentences.add(sentence);
-					
-					if(subtitleBlock!=null) {
-						keySubtitles.add(subtitleBlock.string());
-						subtitleBlock=null;
-					}
-					break;
-				}
-			}
-		}
-	}*/
-	
 	public String outputCommonWords() {
-		Map<java.lang.String, Integer> sortedRecords = new HashMap<>();
+		Map<Word, Integer> sortedRecords = new HashMap<>();
 		
 		sortedRecords=commonWords.reverseSortByValue();
 		
 		String ret="";
 		
-		for (Map.Entry<String,Integer> entry : sortedRecords.entrySet()) {
-			ret+=entry.getKey() + ": " + String.valueOf(entry.getValue()) + "\n";
+		for (Map.Entry<Word,Integer> entry : sortedRecords.entrySet()) {
+			ret+=entry.getKey().string() + ": " + String.valueOf(entry.getValue()) + "\n";
 		}
 		
 		return ret;
