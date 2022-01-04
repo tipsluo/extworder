@@ -171,7 +171,6 @@ public class Word implements Comparable<Word>{
 		}
 	}
 
-	
 	static class WordStatGroup extends StatGroup<Word> {
 		public WordStatGroup() {
 			super();
