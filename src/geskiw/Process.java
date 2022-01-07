@@ -37,7 +37,7 @@ public class Process {
 		readAbbreviationsFromFile(abbreviationFile);
 			
 		content = new Content(pdfPath, new IgnorePage(), true, true, false);
-		bodyStr=content.body();
+		bodyStr=Common.joinLines(content.body());
 		
 		ArrayList<Section> sections=getTopSentence();
 		
@@ -45,10 +45,10 @@ public class Process {
 	}
 	
 	List<Word> topKeywords(int number) throws IOException {
-		ArrayList<String> titleStrs=Common.getWords(content.titleBlock.string(),true);
+		ArrayList<String> titleStrs=Common.getWords(Common.joinLines(content.titleBlock.string()),true);
 		titleStrs=removeWords(titleStrs,stopWords);
 		
-		ArrayList<String> abstractStrs=Common.getWords(content.abstractBlock.string(),true);
+		ArrayList<String> abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
 		abstractStrs=removeWords(abstractStrs,stopWords);
 		
 		ArrayList<String> keyWords=titleStrs;

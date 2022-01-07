@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 import extworder.Common.StatGroup;
 
 public class Word implements Comparable<Word>{
+	private final static int RootMinLen=4;
+	
 	public ArrayList<String> forms;
 	
 	public Word(String ...strs) {
@@ -93,10 +95,7 @@ public class Word implements Comparable<Word>{
 
 	@Override
 	public int compareTo(Word word) {
-		if(same(word))
-			return 0;
-		
-		return wordCode()-word.wordCode();
+		return forms.get(0).compareTo(word.forms.get(0));
 	}
 	
 	private int wordCode() {
@@ -117,7 +116,9 @@ public class Word implements Comparable<Word>{
         
         Word other = (Word) obj;
 
-		return same(other);
+		//return same(other);
+        //return hashCode()==other.hashCode();
+        return hashCode()==other.hashCode();
 	}
 	
 	protected boolean same(Word word) {
@@ -128,10 +129,25 @@ public class Word implements Comparable<Word>{
 		return false;
 	}
 	
+	/*private boolean root(Word word) {
+		String o=forms.get(0);
+		
+		if(o.length()<RootMinLen)
+			return false;
+		
+		String p=word.forms.get(0);
+		
+		if(p.length()<o.length())
+			return false;
+		
+		return o.equals(p.substring(0,o.length()));
+	}*/
+	
 	@Override
 	public int hashCode() {
-		return 0;
+		//return 0;
 		//return forms.get(0).hashCode();
+		return wordCode();
 	}
 	
 	public String string() {

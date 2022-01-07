@@ -1,6 +1,7 @@
 package extworder;
 
 import java.io.File;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -187,7 +188,7 @@ public class Common {
 	}
 	
 	public static ArrayList<String> getWords(String str, boolean lowerCase) {
-		String s=str.replaceAll("[\n\r,.\":;\\?&()!]"," ");
+		String s=str.replaceAll("[\n\r,.\":;\\?&()!-]"," ");
 		
 		if(lowerCase)
 			s=s.toLowerCase();
@@ -234,6 +235,10 @@ public class Common {
 		}
 		
 		return ret;
+	}
+	
+	static public String joinLines(String str) {
+		return joinLines(Arrays.asList(str.split("\n\r")));
 	}
 	
 	static float hits(ArrayList<String> allWords, ArrayList<String> words) {

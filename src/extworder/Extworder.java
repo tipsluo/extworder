@@ -17,13 +17,16 @@ public class Extworder {
         //pdfs=Common.getAllPDFs();
         
         //pdfs.add("");
+        //pdfs.add("");
+        pdfs.add("2column-Review-Deep learning for the design of photonic structures");
+        
         //pdfs.add("Artforum-1995 Painting for Profit and Pleasure");
         //pdfs.add("Archaeology-2020Digital Platforms and the Nature");
         //pdfs.add("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
         //pdfs.add("APS-Search for millicharged particles in proton-proton collisions");
         //pdfs.add("APS-Evidence for CP violation in B");
         //pdfs.add("acs-Classics in Chemical Neuroscience");
-        pdfs.add("Wiley-Early life stress and HPA axis");
+        //pdfs.add("Wiley-Early life stress and HPA axis");
 		//pdfs.add("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
         main_test_pdfs(pdfs);
         

@@ -630,6 +630,27 @@ public class Block extends Rectangle {
 		return str+"\n";
 	}
 	
+	/*public String line() {
+		// This is to replace some calls of string() with the solution of tailing dash.
+		
+		String str="";
+		
+		int y=rows.get(0).lower;
+		for(Row row:rows) {
+			if(str.charAt(str.length()-1)=='-')
+				str=str.substring(0,str.length()-1);
+			
+			if (row.upper>=y) {
+				str+=" ";
+				y=row.lower;
+			}
+			
+			str+=row.string();
+		}
+		
+		return str+"\n";
+	}*/
+	
 	public static class BlockFormat implements Comparable<BlockFormat> {
 		final CharFont charfont;
 		int alignment;
