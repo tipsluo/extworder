@@ -15,7 +15,11 @@ public class Geskiw {
 		//String pdfName="A model for estimating parameters of rotational landslide";
 		String pdfName="2column-Review-Deep learning for the design of photonic structures";
 		//Process process=new Process("Wiley-Early life stress and HPA axis");
-		Process process=new Process(Extworder.pdfPath(pdfName),Consts._StopWordFile,Consts._AbbreviationFile);
+		Process process=new Process(
+				Extworder.pdfPath(pdfName),
+				Consts._StopWordFile,
+				Consts._AbbreviationFile,
+				Consts._IrregularFile);
 		
 		System.out.println(process.extractResult);
 		System.out.println("Geskiw Done.");

@@ -2,14 +2,13 @@ package geskiw;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 import extworder.Common.StatGroup;
 
 public class Word implements Comparable<Word>{
-	private final static int RootMinLen=4;
-	
 	public ArrayList<String> forms;
 	
 	public Word(String ...strs) {
@@ -24,12 +23,24 @@ public class Word implements Comparable<Word>{
 	public Word(String str) {
 		forms=new ArrayList<String>();
 		
-		String str1=origin(str);
+		String irreSigular=Process.irregulars.get(str);
 		
-		if(str.equals(str1))
+		if(irreSigular != null) {
+			if(str.equals(irreSigular)) {
+				forms.add(irreSigular);
+				forms.add(str);
+			} else
+				forms.add(str);
+			
+			return;
+		}
+		
+		String orig=origin(str);
+		
+		if(str.equals(orig))
 			forms.add(str);
 		else {
-			forms.add(str1);
+			forms.add(orig);
 			forms.add(str);
 		}
 		
@@ -78,6 +89,8 @@ public class Word implements Comparable<Word>{
 			return str.substring(0,l-2);
 		else if(s.equals("'es"))
 			return str.substring(0,l-2);
+		else if(s.equals("ves"))
+			return str.substring(0,l-2)+"f";
 		
 		
 		s=str.substring(l-2);
@@ -122,11 +135,12 @@ public class Word implements Comparable<Word>{
 	}
 	
 	protected boolean same(Word word) {
-		for(String str1:forms)
+		return forms.get(0).equals(word.forms.get(0));
+		/*for(String str1:forms)
 			for(String str2:word.forms)
 				if(str1.equals(str2))
 					return true;
-		return false;
+		return false;*/
 	}
 	
 	/*private boolean root(Word word) {
@@ -216,7 +230,7 @@ public class Word implements Comparable<Word>{
 					Word word2=words.get(j);
 					
 					if(word1.same(word2)) {
-						word1.merge(word2);
+						word1.combine(word2);
 						value1+=records.get(word2);
 						
 						words.remove(word2);

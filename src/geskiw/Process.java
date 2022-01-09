@@ -22,19 +22,25 @@ import geskiw.Word.WordStatGroup;
 import geskiw.Word.Words;
 
 public class Process {
+	static ArrayList<String> stopWords;
+	static ArrayList<String> abbrSubses;
+	static HashMap<String,String> irregulars;
+	
 	Content content;
 	String bodyStr;
 	List<Word> top1_3;
 	List<Word> top4_8;
 	public String extractResult;
-	ArrayList<String> stopWords;
-	ArrayList<String> abbrSubses;
 	ArrayList<Pattern> abbrPatterns;
 	StatGroup<Word> commonWords;
 	
-	public Process(String pdfPath, String stopWordFile, String abbreviationFile) throws IOException {
+	public Process(String pdfPath, 
+					String stopWordFile, 
+					String abbreviationFile,
+					String irreNounFile) throws IOException {
 		readStopWordsFromFile(stopWordFile);
 		readAbbreviationsFromFile(abbreviationFile);
+		readirregularsFromFile(irreNounFile);
 			
 		content = new Content(pdfPath, new IgnorePage(), true, true, false);
 		bodyStr=Common.joinLines(content.body());
@@ -143,6 +149,18 @@ public class Process {
 		    while ((line = br.readLine()) != null) {
 		    	abbrSubses.add(line.replaceAll("\\.",Consts._AbbrSubsStr));
 		    	abbrPatterns.add(Pattern.compile(line));
+		    }
+		}
+	}
+	
+	private void readirregularsFromFile(String filename) throws IOException {
+		irregulars=new HashMap<String,String>();
+		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+		    String line;
+		    while ((line = br.readLine()) != null) {
+		    	String[] ss=line.split(" ");
+		    	for(int i=1;i<ss.length;i++)
+		    		irregulars.put(ss[i],ss[0]);
 		    }
 		}
 	}
