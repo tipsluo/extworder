@@ -18,7 +18,7 @@ import extworder.Common.StatGroup;
 
 public class Row extends Rectangle {
 	CharFont charfont;
-	ArrayList<Char> chars;
+	public ArrayList<Char> chars;
 	Block block;
 	Page page;
 	//RangeGroup.Range wordInterval;

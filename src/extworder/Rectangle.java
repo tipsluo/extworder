@@ -6,7 +6,8 @@ import java.util.Comparator;
 import extworder.Page.Column;
 
 public class Rectangle {
-	int left,upper,right,lower;
+	public int left,upper,right;
+	public int lower;
 	int width, height;
 	
 	Rectangle() {

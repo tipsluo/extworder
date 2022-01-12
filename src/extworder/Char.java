@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class Char extends Rectangle {
-	String str;
+	public String str;
 	String fontname;
 	Row row;
 	
@@ -129,13 +129,6 @@ public class Char extends Rectangle {
 	boolean isTerminator() {
 		return (str.contains(".") || str.contains("?") || str.contains("!"));
 	}
-	
-	/*public void clearCross(Point[][] points, int x,int y) {
-		for (int i=left; i<=right; i++)
-			points[i][y]=Common._ConfusingPoint;
-		for (int i=upper; i<=lower; i++)
-			points[x][i]=Common._ConfusingPoint;
-	}*/
 	
 	public void updateRectangle(Point[][] points) {
 		int le=left;

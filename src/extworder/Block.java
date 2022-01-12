@@ -437,8 +437,6 @@ public class Block extends Rectangle {
 	}
 	
 	int isParagraphBlock(CharFont charfont) {
-//if(string().contains("amine to") )
-//				System.out.println("");
 		if(Common.leadingCapitalCount(string()) > Common._MaxLeadingCapitalRatio)
 			return Common._TooManyLeadingCapital;
 		
@@ -487,7 +485,6 @@ public class Block extends Rectangle {
 		if(rows.size()==1) {
 			Row row=rows.get(0);
 			
-			// row need to be the lastlineinblock
 			if(row.lastParagraphLine()<=Common._ParaSentDefaultFalse)
 				return Common._ParaSentDefaultFalse;
 			
@@ -583,20 +580,12 @@ public class Block extends Rectangle {
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
-		//Content content=page.content;
-//if(string().contains("5 | CONCLUSION"))
-//			 System.out.println("");
-		
 		if (this==page.content.titleBlock)
 			fw.write("type: title");
 		else if (this==page.content.abstractBlock)
 			fw.write("type: abstract");
 		else if (!type.isBlank())
 			fw.write(String.format("type: %s",type));
-		//else if (format.equals(content.bodyBlockformat))
-		//	fw.write(String.format("type: "));
-		//else 
-		//	fw.write(String.format("type: undefined"));
 		
 		int columnLeft;
 		if(column==null)
