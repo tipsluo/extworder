@@ -245,12 +245,16 @@ public class Process {
 			if(!found) continue;
 			
 			for(Word kw:top4_8) {
+				found=false;
 				for(String s:kw.forms)
 					if(sentence.contains(s)) {
-						section.keySentences.add(sentence);
-	
+						found=true;
 						break;
 					}
+				if(found) {
+					section.keySentences.add(sentence);
+					break;
+				}
 			}
 		}
 	}
