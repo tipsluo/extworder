@@ -11,14 +11,14 @@ import extworder.Common.StatGroup;
 public class Word implements Comparable<Word>{
 	public ArrayList<String> forms;
 	
-	public Word(String ...strs) {
+	/*public Word(String ...strs) {
 		forms=new ArrayList<String>();
 		
 		for(String str:strs)
 			forms.add(str);
 		
-		sort();
-	}
+		//sort();
+	}*/
 	
 	public Word(String str) {
 		forms=new ArrayList<String>();
@@ -44,7 +44,7 @@ public class Word implements Comparable<Word>{
 			forms.add(str);
 		}
 		
-		sort();
+		//sort();
 	}
 	
 	public boolean combine(Word word) {
@@ -65,15 +65,15 @@ public class Word implements Comparable<Word>{
 			}
 		}
 		
-		if(ret)
-			sort();
+		//if(ret)
+		//	sort();
 		
 		return ret;
 	}
 	
-	public void sort() {
+	/*public void sort() {
 		forms=(ArrayList<String>) forms.stream().sorted().collect(Collectors.toList());
-	}
+	}*/
 
 	public String origin(String str) {
 		int l=str.length();
@@ -111,12 +111,12 @@ public class Word implements Comparable<Word>{
 		return forms.get(0).compareTo(word.forms.get(0));
 	}
 	
-	private int wordCode() {
+	/*private int wordCode() {
 		int ret=0;
 		for(String s: forms)
 			ret+=s.hashCode();
 		return ret;
-	}
+	}*/
 	
 	@Override
 	public boolean equals(Object obj) {
@@ -160,8 +160,8 @@ public class Word implements Comparable<Word>{
 	@Override
 	public int hashCode() {
 		//return 0;
-		//return forms.get(0).hashCode();
-		return wordCode();
+		return forms.get(0).hashCode();
+		//return wordCode();
 	}
 	
 	public String string() {
