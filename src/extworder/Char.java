@@ -21,6 +21,10 @@ public class Char extends Rectangle {
 		upper=Math.round(y);
 		lower=(int)(Math.round(y+height-0.001));
 	}
+	
+	public Char(String str) {
+		this.str=str;
+	}
 
 	public ArrayList<Char> getLeftConnected(Page page, int hInterval, int vAdj) {		
 		ArrayList<Char> chars=new ArrayList<Char>();

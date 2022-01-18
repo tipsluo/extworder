@@ -183,10 +183,30 @@ public class Process {
 		top1_3=top8.subList(0, 3);
 		top4_8=top8.subList(3, 8);
 
+		ArrayList<Section> sections=getSections(content.getMainBlocks());
+		for(Section s:sections) {
+			if(s.bodyBlocks.size()>0)
+				getKeySentences(s);
+		}
+		
+		return sections;
+	}
+	
+	private String joinBlocks(ArrayList<Block> blocks) {
+		ArrayList<String> strs=new ArrayList<String>();
+		
+		for(Block block:blocks) {
+			for(Row row:block.rows)
+				strs.add(row.string());
+		}
+		
+		return Common.joinLines(strs);
+	}
+	
+	private ArrayList<Section> getSections(ArrayList<Block> blocks) {
 		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 		
-		ArrayList<Block> blocks=content.getMainBlocks();
 		ArrayList<Section> sections=new ArrayList<Section>();
 		Section section=null;
 				
@@ -211,27 +231,41 @@ public class Process {
 			}
 			section.addBody(block);
 		}
-		
-		for(Section s:sections) {
-			if(s.bodyBlocks.size()>0)
-				getKeySentences(s);
-		}
-		
+	
 		return sections;
 	}
 	
-	private String joinBlocks(ArrayList<Block> blocks) {
-		ArrayList<String> strs=new ArrayList<String>();
+	private void getKeySentences(Section section) {
+		CharString bodyCharString=new CharString(section.bodyBlocks,abbrPatterns);
+				
+		ArrayList<CharString> css=bodyCharString.splitSentences();
 		
-		for(Block block:blocks) {
-			for(Row row:block.rows)
-				strs.add(row.string());
+		for(CharString cs:css) {
+			boolean found=false;
+			for(Word kw: top1_3)
+				for(String s:kw.forms)
+					if(cs.string().toLowerCase().contains(s)) {
+						found=true;
+						break;
+					}
+			if(!found) continue;
+			
+			for(Word kw:top4_8) {
+				found=false;
+				for(String s:kw.forms)
+					if(cs.string().contains(s)) {
+						found=true;
+						break;
+					}
+				if(found) {
+					section.keySentences.add(cs);
+					break;
+				}
+			}
 		}
-		
-		return Common.joinLines(strs);
 	}
 	
-	private void getKeySentences(Section section) {
+	/*private void getKeySentences(Section section) {
 		String str=joinBlocks(section.bodyBlocks);
 		
 		for(String sentence: Common.getOrigSentences(replaceAbbreviations(str))) {
@@ -257,7 +291,7 @@ public class Process {
 				}
 			}
 		}
-	}
+	}*/
 	
 	public String outputCommonWords() {
 		Map<Word, Integer> sortedRecords = new HashMap<>();
@@ -294,19 +328,19 @@ public class Process {
 	public class Section {
 		Block subtitleBlock;
 		public ArrayList<Block> bodyBlocks;
-		ArrayList<String> keySentences;
+		ArrayList<CharString> keySentences;
 		
 		public Section(Block subtitleBlock) {
 			this.subtitleBlock=subtitleBlock;
 			this.bodyBlocks=new ArrayList<Block>();
-			keySentences=new ArrayList<String>();
+			keySentences=new ArrayList<CharString>();
 		}
 		
 		public void addBody(Block block) {
 			bodyBlocks.add(block);
 		}
 		
-		public void addKeySentence(String sentence) {
+		public void addKeySentence(CharString sentence) {
 			keySentences.add(sentence);
 		}
 	}
