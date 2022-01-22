@@ -641,7 +641,7 @@ public class Block extends Rectangle {
 	}*/
 	
 	public static class BlockFormat implements Comparable<BlockFormat> {
-		final CharFont charfont;
+		public final CharFont charfont;
 		int alignment;
 		int allUppercase;
 		

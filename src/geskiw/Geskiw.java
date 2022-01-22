@@ -2,9 +2,11 @@ package geskiw;
 
 import java.io.IOException;
 
+import extworder.Common;
 import extworder.Extworder;
 
 public class Geskiw {
+	public final static String _TestDataDir="data/";
 	
 	public Geskiw(String fn) throws IOException, InterruptedException {
 		
@@ -20,6 +22,9 @@ public class Geskiw {
 				Consts._StopWordFile,
 				Consts._AbbreviationFile,
 				Consts._IrregularFile);
+		
+		String outputPDF=_TestDataDir+pdfName+"_out.pdf";
+		process.writePDF(outputPDF);
 		
 		System.out.println(process.extractResult);
 		System.out.println("Geskiw Done.");

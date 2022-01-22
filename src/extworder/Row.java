@@ -471,7 +471,7 @@ public class Row extends Rectangle {
 	
 	static public class CharFont implements Comparable<CharFont>{
 		String name;
-		float height;
+		public float height;
 		int bold;
 		
 		public CharFont(String name,float height) {

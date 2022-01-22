@@ -18,6 +18,7 @@ import extworder.Common.SubtitleBlockFilter;
 import extworder.Content;
 import extworder.Page;
 import extworder.Row;
+import extworder.Row.CharFont;
 import geskiw.Word.WordStatGroup;
 import geskiw.Word.Words;
 
@@ -34,6 +35,8 @@ public class Process {
 	ArrayList<Pattern> abbrPatterns;
 	StatGroup<Word> commonWords;
 	
+	ArrayList<Section> outputSections;
+	
 	public Process(String pdfPath, 
 					String stopWordFile, 
 					String abbreviationFile,
@@ -45,9 +48,9 @@ public class Process {
 		content = new Content(pdfPath, new IgnorePage(), true, true, false);
 		bodyStr=Common.joinLines(content.body());
 		
-		ArrayList<Section> sections=getTopSentence();
+		outputSections=getTopSentence();
 		
-		extractResult=output(sections);
+		extractResult=output();
 	}
 	
 	List<Word> topKeywords(int number) throws IOException {
@@ -72,7 +75,7 @@ public class Process {
 		return list3.topsByValue(number);
 	}
 	
-	private String output(ArrayList<Section> sections) throws IOException {
+	private String output() throws IOException {
 		String ret="";
 		
 		ret+="Most repeated keywords ==>\n\n";
@@ -92,15 +95,30 @@ public class Process {
 			ret+=keySubtitle.replaceAll("\\n"," ")+"\n";*/
 		
 		ret+="\n\nKey sentences including at least one most repeated and one medium repeated keywords ===> \n\n";
-		for(Section section:sections) {
+		for(Section section:outputSections) {
 			if(section.subtitleBlock!=null) {
 				ret+=section.subtitleBlock.string()+"\n\n";
 			}
-			for(String keySentence: section.keySentences)
-				ret+=keySentence+"\n\n";
+			for(CharString keySentence: section.keySentences)
+				ret+=keySentence.string()+"\n\n";
 		}
 			
 		return restoreAbbreviation(ret);
+	}
+	
+	protected void writePDF(String outputPDF) throws IOException {
+		PDFWriter pw=new PDFWriter(outputPDF,content.bodyBlockformat.charfont);
+		
+		for(Section section:outputSections) {
+			if(section.subtitleBlock!=null) {
+				pw.write(new CharString(section.subtitleBlock,abbrPatterns).unmarkAbbreviation());
+				pw.newLine();
+			}
+			for(CharString keySentence: section.keySentences) {
+				pw.write(keySentence);
+				pw.newLine();
+			}
+		}
 	}
 	
 	private ArrayList<String> removeWords(ArrayList<String> source, ArrayList<String> list) {
@@ -258,6 +276,7 @@ public class Process {
 						break;
 					}
 				if(found) {
+					cs.unmarkAbbreviation();
 					section.keySentences.add(cs);
 					break;
 				}

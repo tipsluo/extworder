@@ -1,6 +1,7 @@
 package geskiw;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,6 +12,7 @@ import extworder.Row;
 public class CharString {
 	ArrayList<Char> chars;
 	private String string;
+	HashMap<Integer,Char> charmap;
 	
 	public CharString() {
 		chars=new ArrayList<Char>();
@@ -20,6 +22,16 @@ public class CharString {
 	public CharString(ArrayList<Block> blocks,ArrayList<Pattern> abbrPatterns) {
 		chars=new ArrayList<Char>();
 		string="";
+		build(blocks);
+		markAbbreviation(abbrPatterns);
+	}
+	
+	public CharString(Block block,ArrayList<Pattern> abbrPatterns) {
+		chars=new ArrayList<Char>();
+		string="";
+		
+		ArrayList<Block> blocks=new ArrayList<Block>();
+		blocks.add(block);
 		build(blocks);
 		markAbbreviation(abbrPatterns);
 	}
@@ -90,8 +102,6 @@ public class CharString {
 	}*/
 	
 	public void build(ArrayList<Block> blocks) {
-		ArrayList<CharString> ret=new ArrayList<CharString>();
-		
 		int y=blocks.get(0).rows.get(0).lower;
 		String lastStr="";
 		
@@ -114,9 +124,17 @@ public class CharString {
 	public String string() {
 		if(string!="")
 			return string;
-		
-		for(Char c:chars)
+
+		charmap=new HashMap<Integer,Char>();
+		int i=0;
+
+		for(Char c:chars) {
 			string+=c.str;
+			for(int j=0; j<c.str.length();j++) {
+				charmap.put(i+j,c);
+			}
+			i+=c.str.length();
+		}
 		return string;
 	}
 	
@@ -132,11 +150,12 @@ public class CharString {
 			Matcher m=abbrPatterns.get(i).matcher(string());
 			while(m.find()) {
 				b=true;
-				for(int j=m.start();j<m.end();i++) {
-					Char c=chars.get(j);
+				for(int j=m.start();j<m.end();j++) {
+					Char c=charmap.get(j);
 
-					if(c.str.equals("."))
-						c.str=Consts._AbbrDot;
+					if(c.str.contains(".")) {
+						c.str.replace(".",Consts._AbbrDot);
+					}
 				}
 			}
 		}
@@ -145,10 +164,11 @@ public class CharString {
 			reString();
 	}
 	
-	public void unmarkAbbreviation() {
+	public CharString unmarkAbbreviation() {
 		for(Char c:chars)
-			if(c.str.equals(Consts._AbbrDot))
-				c.str=".";
+			if(c.str.contains(Consts._AbbrDot))
+				c.str.replace(Consts._AbbrDot,".");
+		return this;
 	}
 	
 	public ArrayList<CharString> splitSentences() {

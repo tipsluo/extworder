@@ -58,6 +58,8 @@ public class Page extends Rectangle{
     	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     	    		text.getFont().getName());
     	
+       	chars.add(ch);	
+       	
     	//--- Don't remove
     	//The following code worked for imageblock
     	//Char ch=new Char(str, text.getX(),text.getY()-text.getHeight(),text.getWidth(),text.getHeight(),
@@ -66,7 +68,7 @@ public class Page extends Rectangle{
     	//Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
     	//		text.getFont().getName());
 		
-    	chars.add(ch);	
+ 
     	updateRectangle(ch);
 	}
 	

@@ -37,13 +37,12 @@ public class Content extends PDFTextStripper {
     public Block activeBlock;
     public Block titleBlock;
 	public Block abstractBlock;
-	//Block keywordBlock;
 	Block lastSubtitleBlock=null;
     
 	public ArrayList<Page> pages;
 	TreeMap<BlockFormat,Integer> blockformats;
 	Map<BlockFormat,Integer> blockformatIndexes;
-    BlockFormat bodyBlockformat;
+    public BlockFormat bodyBlockformat;
     int currPid;
     Page currPage=null;
 	PDFRenderer renderer;

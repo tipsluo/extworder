@@ -37,7 +37,6 @@ public class Common {
 	final static float _SameBlockRowWidthDiff=0.1f;
 	final static float _MaxSameRowDistanceRatio=2f;
 	final static int _CharLeftAdjustment=2;
-	//final static int _MinBigTextBlockFirstRowLength=5;
 	final static float _FirstLineIndentRatio=5f;
 	final static float _MaxUpperLeftWidthRatio=3f;
 	final static int _MaxSameBlockRowGapAdj=1;
@@ -58,7 +57,6 @@ public class Common {
 	final static String _PageHeaderBlock="PAGEHEADER";
 	final static String _PageFooterBlock="PAGEFOOTER";
 	final static String _BeforeFirstBody="BEFOREFIRSTBODY";
-	//final static String _FirstBody="FIRSTBODY";
 	final static String _Body="BODY";
 	final static String _SubtitlePrefix="SUBTITLE_";
 	final static String _SectionPrefix="SECTION_";
@@ -70,7 +68,6 @@ public class Common {
 	final static float _MaxInterBodyBlockGapRatio=4;
 	final static float _MaxIntraBlockRowGapRatio=1.5f;
 	
-	
 	final static int _ParaSentDefaultTrue=100;
 	final static int _BodyAlignedColumn=2;
 	final static int _ParaSentUnoNoTerm=1;
@@ -80,7 +77,6 @@ public class Common {
 	final static int _TooManyLeadingCapital=-102;
 	
 	final static float _ColumnWidthAdjustment=0.05f;
-	//final static float _ColumnMinWidthRatio=0.3f;
 	
 	final static float _MinBodyCharBlockWidth=0.70f;
 	final static float _MinTitleLength=4;
@@ -117,11 +113,7 @@ public class Common {
 	final static Pattern leading2Uppercase;
 	final static Pattern scarceRow;
 	final static Pattern likeSentence1,likeSentence2,likeLeadingWord;
-	//final static Pattern terminated;
-	
-	/* May need it later
-	final static Pattern bulletPart1;
-	final static Pattern bulletPart2;*/
+
 	
 	static {
 		infinishedBodyBlock=Pattern.compile("[a-zA-Z0-9,]$");

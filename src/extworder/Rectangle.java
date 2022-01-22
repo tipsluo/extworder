@@ -8,7 +8,7 @@ import extworder.Page.Column;
 public class Rectangle {
 	public int left,upper,right;
 	public int lower;
-	int width, height;
+	public int width, height;
 	
 	Rectangle() {
 		resetRectangle();
