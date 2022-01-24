@@ -6,7 +6,7 @@ import extworder.Common;
 import extworder.Extworder;
 
 public class Geskiw {
-	public final static String _TestDataDir="data/";
+	public final static String _TestDataDir="c:\\temp\\";
 	
 	public Geskiw(String fn) throws IOException, InterruptedException {
 		
@@ -26,7 +26,7 @@ public class Geskiw {
 		String outputPDF=_TestDataDir+pdfName+"_out.pdf";
 		process.writePDF(outputPDF);
 		
-		System.out.println(process.extractResult);
+		//System.out.println(process.extractResult);
 		System.out.println("Geskiw Done.");
 	}
 }

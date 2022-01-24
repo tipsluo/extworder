@@ -351,7 +351,7 @@ public class Block extends Rectangle {
 			Char row1last=row1.chars.get(row1.chars.size()-1);
 			Char row2first=row2.chars.get(0);
 			
-			if(row1last.fontname==row2first.fontname && 
+			if(row1last.font.getName()==row2first.font.getName() && 
 					row1last.height==row2first.height &&
 					row1.rightAligned(this) &&
 					row2.leftAligned(this))

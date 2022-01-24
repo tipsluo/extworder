@@ -56,7 +56,7 @@ public class Page extends Rectangle{
     	str=text.toString();
     	
     	Char ch=new Char(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
-    	    		text.getFont().getName());
+    	    		text.getFont());
     	
        	chars.add(ch);	
        	

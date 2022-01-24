@@ -422,7 +422,7 @@ public class Row extends Rectangle {
 		StatGroup<CharFont> charfonts=new StatGroup<CharFont>();
 		
 		for (Char ch: chars) {
-			CharFont cf=new CharFont(ch.fontname,ch.height);
+			CharFont cf=new CharFont(ch.font.getName(),ch.height);
 			
 			charfonts.add(cf);
 		}

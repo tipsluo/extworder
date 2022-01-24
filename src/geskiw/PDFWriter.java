@@ -2,11 +2,14 @@ package geskiw;
 
 import java.io.IOException;
 
+import org.apache.pdfbox.cos.COSName;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.pdmodel.font.PDFont;
 import org.apache.pdfbox.pdmodel.font.PDType1Font;
+import org.apache.pdfbox.pdmodel.font.encoding.WinAnsiEncoding;
 
 import extworder.Char;
 import extworder.Row.CharFont;
@@ -15,98 +18,156 @@ public class PDFWriter {
 	private String filename;
 	private PDDocument doc;
 	PDPage page;
-	PDFont font;
+	static PDFont defaultFont=PDType1Font.COURIER;
 	int x,y;
-	static private int left;
-	static private int upper;
-	static private int right;
-	static private int lower;
-	private PDPageContentStream  stream;
+	private int left;
+	private int upper;
+	private int right;
+	private int lower;
+	private int leading;
+	private PDPageContentStream stream;
 	private int rowSpace;
 	private int charSpace;
 	private CharFont bodyCharfont;
 
-	public PDFWriter(String filename, CharFont bodyCharfont) throws IOException {
+	public PDFWriter(String filename, CharFont bodyCharfont) {
 		this.filename=filename;
 		this.bodyCharfont=bodyCharfont;
-		doc=new PDDocument();
-
-        font=PDType1Font.TIMES_ROMAN;
-
-        newPage();
-        
         rowSpace=Consts._RowSpace;
         charSpace=Consts._CharSpace;
-        left=Consts._Left;
-        upper=Consts._Upper;
-        right=Consts._Right;
-        lower=Consts._Lower;
+        leading=(int) (rowSpace+bodyCharfont.height);
+        
+		doc=new PDDocument();
+
+        newPage();
 	}
 	
-	public void write(CharString cs) throws IOException {
+	public void write(CharString cs) {
+		//print(cs.chars.get(0));
 		for(Char c:cs.chars) {
-        	stream.setFont(font, c.height);
-        	stream.newLineAtOffset(x, y);
- 
         	print(c);
         }
+		//stream.setFont(defaultFont,12);
+		//stream.showText("abcdefg");
 	}
 	
-	public void newPage() throws IOException {
+	public void newPage() {
 		if(stream!=null) {
-			stream.endText();
-			stream.close();
+			try {
+				stream.endText();
+				stream.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} finally {
+				
+			}
 		}
 		page=new PDPage();
         doc.addPage(page);
-        stream= new PDPageContentStream(doc, page);
-        stream.beginText();
         
-        x=left;
-        y=upper;
+        PDRectangle mediabox = page.getMediaBox();
+        //float width = mediabox.getWidth() - 2*Consts._Margin;
+        left=(int)mediabox.getLowerLeftX()+Consts._Margin;
+        lower=(int)Consts._Margin;
+        right=(int)mediabox.getWidth()-Consts._Margin;
+        upper=(int)mediabox.getHeight()-Consts._Margin;
+        
+        try {
+			stream=new PDPageContentStream(doc, page);
+	        stream.beginText();
+	        stream.setLeading(leading);
+	        
+	        x=left;
+	        y=upper;
+
+	        stream.newLineAtOffset(left,upper);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
-	public int newLine() throws IOException {
-		y=(int) (y+bodyCharfont.height+rowSpace);
+	public int newLine() {
+		y=(int) (y-bodyCharfont.height-rowSpace);
 		x=left;
 		
-		if(y>=lower) {
+		if(y<=lower) {
 			newPage();
 			return Consts._NewPage; 
+		} else {
+			try {
+				stream.newLine();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 		
 		return Consts._NewLine;
 	}
 	
-	private int print(Char c) throws IOException {
-		stream.showText(c.str);
+	private int print(Char c) {
+		try {
+			//if(c.font==null)
+				//stream.setFont(defaultFont,c.height);
+			//else
+			//	stream.setFont(c.font, c.height);
+			for (int i = 0; i < c.str.length(); i++) {
+				char ch=c.str.charAt(i);
+			
+				if(! WinAnsiEncoding.INSTANCE.contains(ch)) {
+					return -1;
+				}
+			}
+			
+			stream.setFont(defaultFont,c.height);
+			stream.showText(c.str);
+				
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			
+		/*} catch (IOException e) {
+			e.printStackTrace();
+			try {
+				stream.setFont(c.font, c.height);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		}*/
 		
 		x+=c.width+charSpace;
 		
 		if(x<right) {
 			return Consts._LineNotEnd;
-		}
-		
-		y+=bodyCharfont.height;
-		
-		if(y<lower) {
+		} else {
 			return newLine();
 		}
-		
-		newPage();
-		return Consts._NewPage;
+		/*if(y>=lower) {
+			return newLine();
+		} else {
+			newPage();
+			return Consts._NewPage;
+		}*/
 	}
 
-	public void save() {
+	public void save(){
 		try {
 			stream.endText();
-	    	stream.close();
-			doc.save(filename);
-			doc.close();
+		    stream.close();
+			doc.save("temp.pdf");
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
-	        
+			try {
+				if (doc != null) {
+		            doc.close();
+		        }			
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }

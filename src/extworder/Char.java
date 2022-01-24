@@ -3,19 +3,22 @@ package extworder;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+import org.apache.pdfbox.pdmodel.font.PDFont;
+
 public class Char extends Rectangle {
 	public String str;
-	String fontname;
+	//String fontname;
+	public PDFont font;
 	Row row;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
 		
-	public Char(String str,float x, float y, float width, float height, String fontname) {
+	public Char(String str,float x, float y, float width, float height, PDFont font) {
 		this.str=str;
 		this.height=Math.round(height);
 		this.width=Math.round(width);
-		this.fontname=fontname;
+		this.font=font;
 		left=Math.round(x);
 		right=(int)(Math.round(x+width-0.001));
 		upper=Math.round(y);
