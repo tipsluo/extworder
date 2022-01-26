@@ -138,11 +138,11 @@ public class Rectangle {
 			   (r1.upper >= upper && r1.upper <= lower);
 	}
 	
-	protected boolean hContains(Rectangle r1) {
+	public boolean hContains(Rectangle r1) {
 		return (left <= r1.left && right >= r1.right);
 	}
 	
-	protected boolean vContains(Rectangle r1) {
+	public boolean vContains(Rectangle r1) {
 		return (upper <= r1.upper && lower >= r1.lower) ;
 	}
 	
@@ -263,69 +263,4 @@ public class Rectangle {
 					b1.right-b1.left+b1.lower-b1.upper);
 		}
 	}
-	
-	/*class VStretch extends Stretch {
-		VStretch(Char ch) {
-			super(ch.upper,ch.lower);
-		}
-		
-		VStretch(Stretch stretch) {
-			super(stretch.start,stretch.end);
-		}
-	}*/
-	
-	/*class Stretch implements Comparator<Stretch> {
-		int start,end;
-		
-		Stretch(int start, int end) {
-			this.start=start;
-			this.end=end;
-		}
-
-		@Override
-	    public boolean equals(Object object) {
-	        if (object != null && object instanceof Stretch) {
-				return start== ((Stretch) object).start && end==((Stretch) object).end;
-			}
-			return false;
-	    }
-	    
-	    public boolean contains(Stretch stretch) {
-	    	return start<=stretch.start && end>=stretch.end;
-	    }
-		
-		boolean isIntersected(Stretch stretch) {
-			return (start>=stretch.start && start<=stretch.end) ||
-					(stretch.start>=start && stretch.start<=end);
-		}
-		
-		Stretch intersection(Stretch stretch) {
-			int s=Math.max(start,stretch.start);
-			int e=Math.min(end,stretch.end);
-			
-			if(start<=end)
-				return new Stretch(s,e);
-			else
-				return null;
-		}
-		
-		int length() {
-			return end-start+1;
-		}
-		
-		Stretch add(Stretch stretch) {
-			int s=Math.min(start,stretch.start);
-			int e=Math.max(end,stretch.end);
-			return new Stretch(s,e);
-		}
-		
-		Stretch copy() {
-			return new Stretch(start,end);
-		}
-
-		@Override
-		public int compare(Stretch s1, Stretch s2) {
-			return s1.start!=s2.start ? s1.start-s2.start : s1.end-s2.end;
-		}
-	}*/
 }

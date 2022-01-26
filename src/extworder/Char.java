@@ -9,7 +9,7 @@ public class Char extends Rectangle {
 	public String str;
 	//String fontname;
 	public PDFont font;
-	Row row;
+	public Row row;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
@@ -23,6 +23,16 @@ public class Char extends Rectangle {
 		right=(int)(Math.round(x+width-0.001));
 		upper=Math.round(y);
 		lower=(int)(Math.round(y+height-0.001));
+	}
+	
+	public Char(String str, int left, int upper, int right, int lower,PDFont font) {
+		this.str=str;
+		this.left=left;
+		this.right=right;
+		this.lower=lower;
+		this.width=right-left;
+		this.height=lower-upper;
+		this.font=font;
 	}
 	
 	public Char(String str) {

@@ -112,14 +112,11 @@ public class Process {
 		for(Section section:outputSections) {
 			if(section.subtitleBlock!=null) {
 				pw.write(new CharString(section.subtitleBlock,abbrPatterns).unmarkAbbreviation());
-				//pw.newLine();
 			}
 			for(CharString keySentence: section.keySentences) {
 				pw.write(keySentence);
-				//pw.newLine();
 			}
 		}
-		//pw.write(outputSections.get(0).keySentences.get(0).unmarkAbbreviation());
 		
 		pw.save();
 		System.out.println("PDF is created.");

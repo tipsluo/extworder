@@ -21,7 +21,6 @@ public class Row extends Rectangle {
 	public ArrayList<Char> chars;
 	Block block;
 	Page page;
-	//RangeGroup.Range wordInterval;
 	int charReach, wordReach;
 	int spaceWidth;
 	int vAdjustment;
@@ -31,16 +30,6 @@ public class Row extends Rectangle {
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
 	static Comparator<Row> compareRowHeights = (Row r1, Row r2) ->
 		r1.height-r2.height ;
-	
-	/*public Row(Row from) {
-		page=from.page;
-		block=from.block;
-		chars=new ArrayList<Char>();
-		wordInterval=from.wordInterval;
-		spaceWidth=from.spaceWidth;
-		charfont=new CharFont(from.charfont.name,from.charfont.height);
-		block=from.block;
-	}*/
 		
 	public Row(Page page, Block block, int x, int y) {
 		this.page=page;
@@ -416,9 +405,6 @@ public class Row extends Rectangle {
 		if(chars.size()==0)
 			return null;
 		
-//if(string().contains("ABSTRACT:"))
-	//System.out.println("");
-		
 		StatGroup<CharFont> charfonts=new StatGroup<CharFont>();
 		
 		for (Char ch: chars) {
@@ -429,24 +415,6 @@ public class Row extends Rectangle {
 			
 		return charfonts.maxByValue();
 	}
-	
-	/*private CharFont getCharFont() {
-		if(chars.size()==0)
-			return null;
-		
-		TreeMap<CharFont,Integer> charFonts=new TreeMap<>();
-		
-		for (Char ch: chars) {
-			CharFont cf=new CharFont(ch.fontname,ch.height);
-			
-			int n=charFonts.compute(cf, (k,v) -> (v == null ? 0 : v) + 1);
-        	charFonts.put(cf,n);
-		}
-		
-		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
-		
-		return cf;
-	}*/
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write(string());

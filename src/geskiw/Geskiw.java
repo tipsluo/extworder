@@ -26,7 +26,7 @@ public class Geskiw {
 		String outputPDF=_TestDataDir+pdfName+"_out.pdf";
 		process.writePDF(outputPDF);
 		
-		//System.out.println(process.extractResult);
+		System.out.println(process.extractResult);
 		System.out.println("Geskiw Done.");
 	}
 }

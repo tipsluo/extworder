@@ -40,6 +40,10 @@ public class CharString {
 		chars.add(c);
 	}
 	
+	public void addAllChars(CharString cs) {
+		chars.addAll(cs.chars);
+	}
+	
 	/*static public ArrayList<CharString> splitBlocks(ArrayList<Block> blocks) {
 		ArrayList<CharString> ret=new ArrayList<CharString>();
 		

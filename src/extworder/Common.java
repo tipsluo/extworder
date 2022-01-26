@@ -114,7 +114,7 @@ public class Common {
 	final static Pattern scarceRow;
 	final static Pattern likeSentence1,likeSentence2,likeLeadingWord;
 
-	
+	public final static String _WordDelimeter="[\n\r,.\":;\\?&()!\\-\\ ]";
 	static {
 		infinishedBodyBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");
@@ -183,7 +183,7 @@ public class Common {
 	}
 	
 	public static ArrayList<String> getWords(String str, boolean lowerCase) {
-		String s=str.replaceAll("[\n\r,.\":;\\?&()!-]"," ");
+		String s=str.replaceAll(_WordDelimeter," ");
 		
 		if(lowerCase)
 			s=s.toLowerCase();
@@ -520,7 +520,7 @@ public class Common {
 		public abstract boolean isIgnored(Page page);
 	}
 	
-	static class Stretch implements Comparable<Stretch> {
+	public static class Stretch implements Comparable<Stretch> {
 		protected int start;
 		protected int end;
 		

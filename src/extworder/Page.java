@@ -323,8 +323,6 @@ public class Page extends Rectangle{
 		}
 		
 		ArrayList<Stretch> columnStretches=new ArrayList<>();
-//if(id==6)
-//	System.out.println("");
 		
 		LinkedHashMap<Stretch, Integer> reverseSortedMap = new LinkedHashMap<>();
 		stretches.entrySet()
@@ -338,17 +336,6 @@ public class Page extends Rectangle{
 			Stretch s=entry.getKey();
 			columnStretches.add(s);
 			i++;
-			/*boolean intersected=false;
-			for(Stretch cs:columnStretches)
-				if(cs.intersected(s)) {
-					intersected=true;
-					break;
-				}
-					
-			if(!intersected) {
-				columnStretches.add(s);
-				i++;
-			}*/
 		}
 		
 		Collections.sort(columnStretches);

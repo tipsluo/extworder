@@ -1,6 +1,7 @@
 package geskiw;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import org.apache.pdfbox.cos.COSName;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -12,6 +13,8 @@ import org.apache.pdfbox.pdmodel.font.PDType1Font;
 import org.apache.pdfbox.pdmodel.font.encoding.WinAnsiEncoding;
 
 import extworder.Char;
+import extworder.Common;
+import extworder.Row;
 import extworder.Row.CharFont;
 
 public class PDFWriter {
@@ -43,12 +46,8 @@ public class PDFWriter {
 	}
 	
 	public void write(CharString cs) {
-		//print(cs.chars.get(0));
-		for(Char c:cs.chars) {
-        	print(c);
-        }
-		//stream.setFont(defaultFont,12);
-		//stream.showText("abcdefg");
+		for(CharString cs1: prepare(cs,right-left))
+			printLine(cs1);
 	}
 	
 	public void newPage() {
@@ -57,17 +56,15 @@ public class PDFWriter {
 				stream.endText();
 				stream.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} finally {
 				
 			}
 		}
-		page=new PDPage();
+		page=new PDPage(PDRectangle.A4);
         doc.addPage(page);
         
         PDRectangle mediabox = page.getMediaBox();
-        //float width = mediabox.getWidth() - 2*Consts._Margin;
         left=(int)mediabox.getLowerLeftX()+Consts._Margin;
         lower=(int)Consts._Margin;
         right=(int)mediabox.getWidth()-Consts._Margin;
@@ -105,12 +102,8 @@ public class PDFWriter {
 		return Consts._NewLine;
 	}
 	
-	private int print(Char c) {
+	private int printChar(Char c) {
 		try {
-			//if(c.font==null)
-				//stream.setFont(defaultFont,c.height);
-			//else
-			//	stream.setFont(c.font, c.height);
 			for (int i = 0; i < c.str.length(); i++) {
 				char ch=c.str.charAt(i);
 			
@@ -123,19 +116,8 @@ public class PDFWriter {
 			stream.showText(c.str);
 				
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-			
-		/*} catch (IOException e) {
-			e.printStackTrace();
-			try {
-				stream.setFont(c.font, c.height);
-			} catch (IOException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
-		}*/
 		
 		x+=c.width+charSpace;
 		
@@ -144,12 +126,96 @@ public class PDFWriter {
 		} else {
 			return newLine();
 		}
-		/*if(y>=lower) {
-			return newLine();
-		} else {
-			newPage();
-			return Consts._NewPage;
-		}*/
+	}
+	
+	private void printLine(CharString line) {
+		float xpSum=0f;
+		
+		for(Char c:line.chars) {
+			try {
+				boolean b=false;
+				for (int i = 0; i < c.str.length(); i++) {
+					char ch=c.str.charAt(i);
+				
+					if(! WinAnsiEncoding.INSTANCE.contains(ch)) {
+						b=true;
+						break;
+					}
+				}
+				
+				if(b) continue;
+				
+				stream.setFont(defaultFont,c.height);
+
+				float xp=c.height * defaultFont.getStringWidth(c.str) / 1000;
+				xpSum+=xp;
+				
+				stream.newLineAtOffset(0,-c.height);
+				
+				stream.showText(c.str);
+				
+				stream.newLineAtOffset(xp,c.height);
+					
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		try {
+			stream.newLineAtOffset(-xpSum,0);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		newLine();
+	}
+	
+	public ArrayList<CharString> prepare(CharString input, int pageWidth) {
+		ArrayList<CharString> output=new ArrayList<CharString>();
+		
+		CharString lineString=new CharString();
+		CharString wordString=new CharString();
+		
+		Char ch;
+
+		Row row=input.chars.get(0).row;
+		int wordLen=0;
+		int lastWordX=0;
+		
+		for(int i=0;i<input.chars.size();i++) {
+			ch=input.chars.get(i);
+			
+			int upper=ch.upper-row.upper;
+			wordString.addChar(
+					new Char(ch.str,
+							Consts._CharBaseLeft,
+							upper,
+							Consts._CharBaseLeft+ch.width,
+							upper+ch.height,
+							ch.font));
+			wordLen+=ch.width;
+			
+			if(ch.str.matches(Common._WordDelimeter)) {
+				if(lastWordX+wordLen>=pageWidth) {
+					output.add(lineString);
+					lineString=new CharString();
+					lastWordX=0;
+				} else {
+					lineString.addAllChars(wordString);
+					lastWordX+=wordLen;
+				}
+				wordLen=0;
+				wordString=new CharString();
+			}
+		}
+		
+		if(wordString.chars.size()!=0)
+			lineString.addAllChars(wordString);
+		
+		if(lineString.chars.size()!=0)
+			output.add(lineString);
+		
+		return output;
 	}
 
 	public void save(){

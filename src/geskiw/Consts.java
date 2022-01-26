@@ -12,11 +12,9 @@ public class Consts {
 	final static int _NewPage=3;
 	final static int _RowSpace=1;
 	final static int _CharSpace=1;
-	/*static int _Left=20;
-	static int _Upper=20;
-	static int _Right=650;
-	static int _Lower=650;*/
 	final static int _Margin=72;
+	final static int _LineBaseUpper=0;
+	final static int _CharBaseLeft=0;
 	
 	public Consts() {
 	}

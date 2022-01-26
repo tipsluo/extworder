@@ -11,15 +11,6 @@ import extworder.Common.StatGroup;
 public class Word implements Comparable<Word>{
 	public ArrayList<String> forms;
 	
-	/*public Word(String ...strs) {
-		forms=new ArrayList<String>();
-		
-		for(String str:strs)
-			forms.add(str);
-		
-		//sort();
-	}*/
-	
 	public Word(String str) {
 		forms=new ArrayList<String>();
 		
@@ -65,9 +56,6 @@ public class Word implements Comparable<Word>{
 			}
 		}
 		
-		//if(ret)
-		//	sort();
-		
 		return ret;
 	}
 	
@@ -111,13 +99,6 @@ public class Word implements Comparable<Word>{
 		return forms.get(0).compareTo(word.forms.get(0));
 	}
 	
-	/*private int wordCode() {
-		int ret=0;
-		for(String s: forms)
-			ret+=s.hashCode();
-		return ret;
-	}*/
-	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -129,33 +110,12 @@ public class Word implements Comparable<Word>{
         
         Word other = (Word) obj;
 
-		//return same(other);
-        //return hashCode()==other.hashCode();
         return hashCode()==other.hashCode();
 	}
 	
 	protected boolean same(Word word) {
 		return forms.get(0).equals(word.forms.get(0));
-		/*for(String str1:forms)
-			for(String str2:word.forms)
-				if(str1.equals(str2))
-					return true;
-		return false;*/
 	}
-	
-	/*private boolean root(Word word) {
-		String o=forms.get(0);
-		
-		if(o.length()<RootMinLen)
-			return false;
-		
-		String p=word.forms.get(0);
-		
-		if(p.length()<o.length())
-			return false;
-		
-		return o.equals(p.substring(0,o.length()));
-	}*/
 	
 	@Override
 	public int hashCode() {
