@@ -1,12 +1,10 @@
 package geskiw;
 
 import java.io.IOException;
-
-import extworder.Common;
 import extworder.Extworder;
 
 public class Geskiw {
-	public final static String _TestDataDir="c:\\temp\\";
+	public final static String _TestDataDir="data/";
 	
 	public Geskiw(String fn) throws IOException, InterruptedException {
 		

@@ -222,7 +222,7 @@ public class PDFWriter {
 		try {
 			stream.endText();
 		    stream.close();
-			doc.save("temp.pdf");
+			doc.save(filename);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

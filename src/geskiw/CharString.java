@@ -148,30 +148,25 @@ public class CharString {
 	}
 	
 	public void markAbbreviation(ArrayList<Pattern> abbrPatterns) {
-		boolean b=false;
-		
 		for(int i=0;i<abbrPatterns.size();i++) {
 			Matcher m=abbrPatterns.get(i).matcher(string());
 			while(m.find()) {
-				b=true;
+				//b=true;
 				for(int j=m.start();j<m.end();j++) {
 					Char c=charmap.get(j);
 
 					if(c.str.contains(".")) {
-						c.str.replace(".",Consts._AbbrDot);
+						c.str=c.str.replace(".",Consts._AbbrDot);
 					}
 				}
 			}
 		}
-		
-		if(b)
-			reString();
 	}
 	
 	public CharString unmarkAbbreviation() {
 		for(Char c:chars)
 			if(c.str.contains(Consts._AbbrDot))
-				c.str.replace(Consts._AbbrDot,".");
+				c.str=c.str.replace(Consts._AbbrDot,".");
 		return this;
 	}
 	

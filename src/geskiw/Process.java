@@ -18,7 +18,6 @@ import extworder.Common.SubtitleBlockFilter;
 import extworder.Content;
 import extworder.Page;
 import extworder.Row;
-import extworder.Row.CharFont;
 import geskiw.Word.WordStatGroup;
 import geskiw.Word.Words;
 
