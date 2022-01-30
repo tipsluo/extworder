@@ -151,7 +151,6 @@ public class CharString {
 		for(int i=0;i<abbrPatterns.size();i++) {
 			Matcher m=abbrPatterns.get(i).matcher(string());
 			while(m.find()) {
-				//b=true;
 				for(int j=m.start();j<m.end();j++) {
 					Char c=charmap.get(j);
 

@@ -28,11 +28,13 @@ public class Process {
 	
 	Content content;
 	String bodyStr;
-	List<Word> top1_3;
-	List<Word> top4_8;
+	List<Word> top0;
+	List<Word> top1;
+	List<Word> top2;
 	public String extractResult;
 	ArrayList<Pattern> abbrPatterns;
 	StatGroup<Word> commonWords;
+	private int bodySentenceCount;
 	
 	ArrayList<Section> outputSections;
 	
@@ -47,7 +49,14 @@ public class Process {
 		content = new Content(pdfPath, new IgnorePage(), true, true, false);
 		bodyStr=Common.joinLines(content.body());
 		
-		outputSections=getTopSentence();
+		int top1Num=3;
+		int top2Num=4;
+		top0=topKeywords(top1Num+top2Num);
+		while(getAllKeySentences(top1Num,top2Num)>Consts._OutputRatio && 
+				top1Num>=1) {
+			top1Num--;
+			top2Num--;
+		}
 		
 		extractResult=output();
 	}
@@ -78,20 +87,16 @@ public class Process {
 		String ret="";
 		
 		ret+="Most repeated keywords ==>\n\n";
-		for(Word kw: top1_3) {
+		for(Word kw: top1) {
 			ret+=kw.string()+"\n";
 		}
 		
 		ret+="\nMedium repeated keywords ==>\n\n";
-		for(Word kw: top4_8) {
+		for(Word kw: top2) {
 			ret+=kw.string()+"\n";
 		}
 		
 		ret+="\n\nExtracted Output ===>\n";
-				
-		/*ret+="\n\nSection sentences followed by one of the key sentences below ===> \n\n";
-		for(String keySubtitle: keySubtitles)
-			ret+=keySubtitle.replaceAll("\\n"," ")+"\n";*/
 		
 		ret+="\n\nKey sentences including at least one most repeated and one medium repeated keywords ===> \n\n";
 		for(Section section:outputSections) {
@@ -196,18 +201,30 @@ public class Process {
 		return str.replaceAll(Consts._AbbrSubsStr,".");
 	}
 	
-	private ArrayList<Section> getTopSentence() throws IOException {
-		List<Word> top8=topKeywords(8);
-		top1_3=top8.subList(0, 3);
-		top4_8=top8.subList(3, 8);
+	private float getAllKeySentences(int top1Num,int top2Num) throws IOException {
+		top1=top0.subList(0, top1Num);
+		top2=top0.subList(top1Num, top1Num+top2Num);
+		
+		System.out.printf("Processing with %d of top and %d of medium keywords...\n",top1Num, top2Num);
 
 		ArrayList<Section> sections=getSections(content.getMainBlocks());
+		bodySentenceCount=0;
+		int keySentenceCount=0;
+		
 		for(Section s:sections) {
-			if(s.bodyBlocks.size()>0)
-				getKeySentences(s);
+			if(s.bodyBlocks.size()>0) {
+				bodySentenceCount+=getKeySentences(s);
+				keySentenceCount+=s.keySentences.size();
+			}
 		}
 		
-		return sections;
+		outputSections=sections;
+		
+		if(bodySentenceCount!=0) {
+			float f= (float) keySentenceCount/ (float) bodySentenceCount;
+			return f;
+		}
+		return -1;
 	}
 	
 	private String joinBlocks(ArrayList<Block> blocks) {
@@ -253,14 +270,14 @@ public class Process {
 		return sections;
 	}
 	
-	private void getKeySentences(Section section) {
+	private int getKeySentences(Section section) {
 		CharString bodyCharString=new CharString(section.bodyBlocks,abbrPatterns);
 				
 		ArrayList<CharString> css=bodyCharString.splitSentences();
 		
 		for(CharString cs:css) {
 			boolean found=false;
-			for(Word kw: top1_3)
+			for(Word kw: top1)
 				for(String s:kw.forms)
 					if(cs.string().toLowerCase().contains(s)) {
 						found=true;
@@ -268,7 +285,7 @@ public class Process {
 					}
 			if(!found) continue;
 			
-			for(Word kw:top4_8) {
+			for(Word kw:top2) {
 				found=false;
 				for(String s:kw.forms)
 					if(cs.string().contains(s)) {
@@ -282,35 +299,8 @@ public class Process {
 				}
 			}
 		}
+		return css.size();
 	}
-	
-	/*private void getKeySentences(Section section) {
-		String str=joinBlocks(section.bodyBlocks);
-		
-		for(String sentence: Common.getOrigSentences(replaceAbbreviations(str))) {
-			boolean found=false;
-			for(Word kw: top1_3)
-				for(String s:kw.forms)
-					if(sentence.toLowerCase().contains(s)) {
-						found=true;
-						break;
-					}
-			if(!found) continue;
-			
-			for(Word kw:top4_8) {
-				found=false;
-				for(String s:kw.forms)
-					if(sentence.contains(s)) {
-						found=true;
-						break;
-					}
-				if(found) {
-					section.keySentences.add(sentence);
-					break;
-				}
-			}
-		}
-	}*/
 	
 	public String outputCommonWords() {
 		Map<Word, Integer> sortedRecords = new HashMap<>();
