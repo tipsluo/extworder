@@ -110,7 +110,7 @@ public class Process {
 		return restoreAbbreviation(ret);
 	}
 	
-	protected void writePDF(String outputPDF) throws IOException {
+	public void writePDF(String outputPDF) {
 		PDFWriter pw=new PDFWriter(outputPDF,content.bodyBlockformat.charfont);
 		
 		for(Section section:outputSections) {
