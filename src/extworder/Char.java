@@ -7,12 +7,23 @@ import org.apache.pdfbox.pdmodel.font.PDFont;
 
 public class Char extends Rectangle {
 	public String str;
-	//String fontname;
 	public PDFont font;
 	public Row row;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
+		
+	public Char(Char ch, String str) {
+		this.str=str;
+		height=ch.height;
+		width=ch.width;
+		font=ch.font;
+		left=ch.left;
+		right=ch.right;
+		upper=ch.upper;
+		lower=ch.lower;
+		row=ch.row;
+	}
 		
 	public Char(String str,float x, float y, float width, float height, PDFont font) {
 		this.str=str;
@@ -35,9 +46,9 @@ public class Char extends Rectangle {
 		this.font=font;
 	}
 	
-	public Char(String str) {
+	/*public Char(String str) {
 		this.str=str;
-	}
+	}*/
 
 	public ArrayList<Char> getLeftConnected(Page page, int hInterval, int vAdj) {		
 		ArrayList<Char> chars=new ArrayList<Char>();
@@ -163,6 +174,19 @@ public class Char extends Rectangle {
 		
 		width=right-left;
 		height=lower-upper;
+	}
+
+	public Char spaceChar(int wid) {
+		Char c=new Char(" ",
+						right+1,
+						upper,
+						right+wid,
+						lower,
+						font);
+		c.width=wid;
+		c.height=c.lower-c.upper;
+		c.row=row;
+		return c;
 	}
 	
 	static public class Point {

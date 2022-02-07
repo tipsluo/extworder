@@ -1,10 +1,5 @@
 package extworder;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -17,8 +12,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import extworder.Block.BlockFormat;
-import extworder.Common.StatGroup;
-import extworder.Common.Stretch;
 
 public class Common {
 	public final static int _KeyBlockWordPageRation=10;
@@ -249,6 +242,11 @@ public class Common {
 
 		float ret=(float)sum/(float)words.size();
 		return ret;
+	}
+	
+	public static boolean connectedChars(Char ch1,Char ch2) {
+		int interval=ch2.left-ch1.right;
+		return ch1.row.charReach >= interval ;
 	}
 	
 	static float sentenceRatio(String str) {

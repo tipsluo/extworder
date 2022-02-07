@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 
 import extworder.Block;
 import extworder.Char;
+import extworder.Common;
 import extworder.Row;
 
 public class CharString {
@@ -44,86 +45,38 @@ public class CharString {
 		chars.addAll(cs.chars);
 	}
 	
-	/*static public ArrayList<CharString> splitBlocks(ArrayList<Block> blocks) {
-		ArrayList<CharString> ret=new ArrayList<CharString>();
-		
-		CharString cs=new CharString();
-		boolean delimiter=false;
-		boolean start=true;
-		int y=blocks.get(0).rows.get(0).lower;
-		
-		for(Block block:blocks) {
-			for(Row row:block.rows) {
-				for(Char ch:row.chars) {
-					if(start && 
-							(ch.str.equals(" ") || 
-									ch.str.equals("\n") ||
-									ch.str.equals("\r"))) {
-						continue;
-					}
-					
-					start=false;
-					
-					if(ch.str.equals(".") || ch.str.equals("!") || ch.str.equals("?")) {
-						cs.chars.add(ch);
-						delimiter=true;
-						continue;
-					}
-					
-					if(delimiter) {
-						if(ch.str.equals(" ") || 
-								ch.str.equals("\n") || 
-								ch.str.equals("\r") ||
-								ch.str.equals("\"") ||
-								ch.str.equals(")")) {
-							
-							if(ch.str.equals("\"") ||
-									ch.str.equals(")")
-								cs.chars.add(ch);
-							
-							ret.add(cs);
-							cs=new CharString();
-							start=true;
-						}
-						delimiter=false;
-						continue;
-					}
-					
-					if (row.upper>=y) {
-						if(delimiter) {
-							ret.add(cs);
-							cs=new CharString();
-							start=true;
-							cs.chars.add(ch);
-						}
-						y=row.lower;
-					}
-				}
-			}
-		}
-		ret.add(cs);
-		return ret;
-	}*/
-	
 	public void build(ArrayList<Block> blocks) {
-		int y=blocks.get(0).rows.get(0).lower;
-		String lastStr="";
+		Char c=null;
+		Char c0=null;
+		boolean lastDash=false;
 		
 		for(Block block:blocks) {
 			for(Row row:block.rows) {
-				if (row.upper>=y) {
-					if(! lastStr.equals("-"))
-						chars.add(new Char(" "));
-					else
-						chars.remove(chars.size()-1);
-					y=row.lower;
-				}
+				if(c!=null && !lastDash)
+					chars.add(c0.spaceChar(c.width));	// not the first row
 				
-				for(Char c:row.chars)
+				c0=row.chars.get(0);
+				for(int i=0;i<row.chars.size();i++) {
+					c=row.chars.get(i);
+					lastDash=false;
+					
+					if(i==row.chars.size()-1)
+						if(c.str.charAt(c.str.length()-1)=='-') {
+							lastDash=true;
+							if(c.str.length()>1)
+								c=new Char(c,c.str.substring(0,c.str.length()-2));
+							else continue;
+						}
+					
+					if(c0!=c && ! Common.connectedChars(c0,c))
+						chars.add(c0.spaceChar(c.left-c0.right-1));
 					chars.add(c);
+					c0=c;
+				}
 			}
 		}
 	}
+
 	
 	public String string() {
 		if(string!="")

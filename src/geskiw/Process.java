@@ -23,7 +23,7 @@ import geskiw.Word.Words;
 
 public class Process {
 	static ArrayList<String> stopWords;
-	static ArrayList<String> abbrSubses;
+	//static ArrayList<String> abbrSubses;
 	static HashMap<String,String> irregulars;
 	
 	Content content;
@@ -164,13 +164,13 @@ public class Process {
 	}
 	
 	private void readAbbreviationsFromFile(String filename) throws IOException {
-		abbrSubses=new ArrayList<String>();
+		//abbrSubses=new ArrayList<String>();
 		abbrPatterns=new ArrayList<Pattern>();
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
 		    String line;
 		    while ((line = br.readLine()) != null) {
-		    	abbrSubses.add(line.replaceAll("\\.",Consts._AbbrSubsStr));
+		    	//abbrSubses.add(line.replaceAll("\\.",Consts._AbbrSubsStr));
 		    	abbrPatterns.add(Pattern.compile(line));
 		    }
 		}
@@ -188,14 +188,14 @@ public class Process {
 		}
 	}
 	
-	private String replaceAbbreviations(String str) {
+	/*private String replaceAbbreviations(String str) {
 		String s=str;
 		for(int i=0;i<abbrPatterns.size();i++) {
 			abbrPatterns.get(i).matcher(s).replaceAll(abbrSubses.get(i));
 		}
 		
 		return s;
-	}
+	}*/
 	
 	private String restoreAbbreviation(String str) {
 		return str.replaceAll(Consts._AbbrSubsStr,".");
