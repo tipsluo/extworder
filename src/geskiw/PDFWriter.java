@@ -102,7 +102,7 @@ public class PDFWriter {
 		return Consts._NewLine;
 	}
 	
-	private int printChar(Char c) {
+	/*private int printChar(Char c) {
 		try {
 			for (int i = 0; i < c.str.length(); i++) {
 				char ch=c.str.charAt(i);
@@ -126,7 +126,7 @@ public class PDFWriter {
 		} else {
 			return newLine();
 		}
-	}
+	}*/
 	
 	private void printLine(CharString line) {
 		float xpSum=0f;
@@ -178,14 +178,14 @@ public class PDFWriter {
 		
 		Char ch;
 
-		Row row=input.chars.get(0).row;
+		//Row row=input.chars.get(0).row;
 		int wordLen=0;
 		int lastWordX=0;
 		
 		for(int i=0;i<input.chars.size();i++) {
 			ch=input.chars.get(i);
 			
-			int upper=ch.upper-row.upper;
+			int upper=ch.upper-ch.row.upper;
 			wordString.addChar(
 					new Char(ch.str,
 							Consts._CharBaseLeft,

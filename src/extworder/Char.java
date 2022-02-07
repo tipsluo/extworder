@@ -14,6 +14,7 @@ public class Char extends Rectangle {
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
 		
 	public Char(Char ch, String str) {
+		super();
 		this.str=str;
 		height=ch.height;
 		width=ch.width;
@@ -26,7 +27,8 @@ public class Char extends Rectangle {
 	}
 		
 	public Char(String str,float x, float y, float width, float height, PDFont font) {
-		this.str=str;
+		super();
+		this.str=String.copyValueOf(str.toCharArray());
 		this.height=Math.round(height);
 		this.width=Math.round(width);
 		this.font=font;
@@ -37,9 +39,11 @@ public class Char extends Rectangle {
 	}
 	
 	public Char(String str, int left, int upper, int right, int lower,PDFont font) {
-		this.str=str;
+		super();
+		this.str=String.copyValueOf(str.toCharArray());
 		this.left=left;
 		this.right=right;
+		this.upper=upper;
 		this.lower=lower;
 		this.width=right-left;
 		this.height=lower-upper;

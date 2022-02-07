@@ -53,7 +53,7 @@ public class CharString {
 		for(Block block:blocks) {
 			for(Row row:block.rows) {
 				if(c!=null && !lastDash)
-					chars.add(c0.spaceChar(c.width));	// not the first row
+					chars.add(c.spaceChar(c.width));	// not the first row
 				
 				c0=row.chars.get(0);
 				for(int i=0;i<row.chars.size();i++) {
