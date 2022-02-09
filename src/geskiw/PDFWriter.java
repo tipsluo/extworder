@@ -21,7 +21,7 @@ public class PDFWriter {
 	private String filename;
 	private PDDocument doc;
 	PDPage page;
-	static PDFont defaultFont=PDType1Font.COURIER;
+	static PDFont defaultFont=PDType1Font.TIMES_ROMAN;
 	int x,y;
 	private int left;
 	private int upper;
@@ -38,7 +38,7 @@ public class PDFWriter {
 		this.bodyCharfont=bodyCharfont;
         rowSpace=Consts._RowSpace;
         charSpace=Consts._CharSpace;
-        leading=(int) (rowSpace+bodyCharfont.height);
+        leading=(int) ((rowSpace+bodyCharfont.height)*Consts._FontHeightRatio);
         
 		doc=new PDDocument();
 
@@ -46,8 +46,10 @@ public class PDFWriter {
 	}
 	
 	public void write(CharString cs) {
-		for(CharString cs1: prepare(cs,right-left))
+		for(CharString cs1: prepare(cs,right-left)) {
 			printLine(cs1);
+			newLine();
+		}
 	}
 	
 	public void newPage() {
@@ -85,7 +87,8 @@ public class PDFWriter {
 	}
 	
 	public int newLine() {
-		y=(int) (y-bodyCharfont.height-rowSpace);
+		//y=(int) (y-bodyCharfont.height-rowSpace);
+		y=y-leading;
 		x=left;
 		
 		if(y<=lower) {
@@ -131,28 +134,28 @@ public class PDFWriter {
 	private void printLine(CharString line) {
 		float xpSum=0f;
 		
+		PDFont font=defaultFont;
+		
 		for(Char c:line.chars) {
+			String s="";
 			try {
-				boolean b=false;
 				for (int i = 0; i < c.str.length(); i++) {
 					char ch=c.str.charAt(i);
-				
 					if(! WinAnsiEncoding.INSTANCE.contains(ch)) {
-						b=true;
-						break;
-					}
+						s=s+"?";
+					} else 
+						s=s+ch;
 				}
-				
-				if(b) continue;
-				
-				stream.setFont(defaultFont,c.height);
+				float fontSize=(float) ((float)c.height * 1000f) /
+						(float)(font.getFontDescriptor().getFontBoundingBox().getHeight());
+				stream.setFont(font,fontSize);
 
-				float xp=c.height * defaultFont.getStringWidth(c.str) / 1000;
+				float xp=c.height * font.getStringWidth(s) / 1000;
 				xpSum+=xp;
 				
 				stream.newLineAtOffset(0,-c.height);
 				
-				stream.showText(c.str);
+				stream.showText(s);
 				
 				stream.newLineAtOffset(xp,c.height);
 					
@@ -178,32 +181,33 @@ public class PDFWriter {
 		
 		Char ch;
 
-		//Row row=input.chars.get(0).row;
-		int wordLen=0;
-		int lastWordX=0;
+		float wordLen=0;
+		float lastWordX=0;
 		
 		for(int i=0;i<input.chars.size();i++) {
 			ch=input.chars.get(i);
 			
-			int upper=ch.upper-ch.row.upper;
+			int upper=(int) ((float)(ch.upper-ch.row.upper)*Consts._FontHeightRatio);
+			float w=(float)ch.width*Consts._FontWidthRatio;
 			wordString.addChar(
 					new Char(ch.str,
 							Consts._CharBaseLeft,
 							upper,
-							Consts._CharBaseLeft+ch.width,
-							upper+ch.height,
+							Consts._CharBaseLeft+w,
+							(int)((float)ch.height*Consts._FontHeightRatio),
 							ch.font));
-			wordLen+=ch.width;
+			wordLen+=w;
 			
 			if(ch.str.matches(Common._WordDelimeter)) {
 				if(lastWordX+wordLen>=pageWidth) {
 					output.add(lineString);
 					lineString=new CharString();
 					lastWordX=0;
-				} else {
-					lineString.addAllChars(wordString);
-					lastWordX+=wordLen;
-				}
+				} 
+					
+				lineString.addAllChars(wordString);
+				lastWordX+=wordLen;
+				
 				wordLen=0;
 				wordString=new CharString();
 			}

@@ -64,7 +64,7 @@ public class CharString {
 						if(c.str.charAt(c.str.length()-1)=='-') {
 							lastDash=true;
 							if(c.str.length()>1)
-								c=new Char(c,c.str.substring(0,c.str.length()-2));
+								c=new Char(c,c.str.substring(0,c.str.length()-2),c.width);
 							else continue;
 						}
 					
