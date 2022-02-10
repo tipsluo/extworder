@@ -53,8 +53,6 @@ public class Content extends PDFTextStripper {
 	int centralAlignmentAdjustment=0;
 	private boolean ignoreSubtitle=true;
 	private ArrayList<String> allWords;
-	
-	//boolean hasFirstBodyBlock=false;
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
 	

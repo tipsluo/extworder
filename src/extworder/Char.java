@@ -13,11 +13,11 @@ public class Char extends Rectangle {
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
 		
-	public Char(Char ch, String str , int wid) {
+	public Char(Char ch, String str , int wid,int hei) {
 		super();
 		this.str=String.copyValueOf(str.toCharArray());
-		height=ch.height;
-		this.width=wid;
+		height=hei;
+		width=wid;
 		font=ch.font;
 		left=ch.left;
 		right=ch.right;
@@ -37,18 +37,6 @@ public class Char extends Rectangle {
 		upper=Math.round(y);
 		lower=(int)(Math.round(y+height-0.001));
 	}
-	
-	/*public Char(String str, int left, int upper, int right, int lower,PDFont font) {
-		super();
-		this.str=String.copyValueOf(str.toCharArray());
-		this.left=left;
-		this.right=right;
-		this.upper=upper;
-		this.lower=lower;
-		this.width=right-left;
-		this.height=lower-upper;
-		this.font=font;
-	}*/
 	
 	public ArrayList<Char> getLeftConnected(Page page, int hInterval, int vAdj) {		
 		ArrayList<Char> chars=new ArrayList<Char>();

@@ -87,7 +87,6 @@ public class PDFWriter {
 	}
 	
 	public int newLine() {
-		//y=(int) (y-bodyCharfont.height-rowSpace);
 		y=y-leading;
 		x=left;
 		
@@ -105,51 +104,16 @@ public class PDFWriter {
 		return Consts._NewLine;
 	}
 	
-	/*private int printChar(Char c) {
-		try {
-			for (int i = 0; i < c.str.length(); i++) {
-				char ch=c.str.charAt(i);
-			
-				if(! WinAnsiEncoding.INSTANCE.contains(ch)) {
-					return -1;
-				}
-			}
-			
-			stream.setFont(defaultFont,c.height);
-			stream.showText(c.str);
-				
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		
-		x+=c.width+charSpace;
-		
-		if(x<right) {
-			return Consts._LineNotEnd;
-		} else {
-			return newLine();
-		}
-	}*/
-	
 	private void printLine(CharString line) {
 		float xpSum=0f;
 		
 		PDFont font=defaultFont;
 		
 		for(Char c:line.chars) {
-			String s="";
 			try {
-				for (int i = 0; i < c.str.length(); i++) {
-					char ch=c.str.charAt(i);
-					if(! WinAnsiEncoding.INSTANCE.contains(ch)) {
-						s=s+"?";
-					} else 
-						s=s+ch;
-				}
-				float fontSize=(float) ((float)c.height * 1000f) /
-						(float)(font.getFontDescriptor().getFontBoundingBox().getHeight());
-				stream.setFont(font,fontSize);
-
+				String s=replaceUnknownCharacter(c).str;
+				
+				setFontSize(font,c.height);
 				float xp=c.height * font.getStringWidth(s) / 1000;
 				xpSum+=xp;
 				
@@ -178,38 +142,48 @@ public class PDFWriter {
 		
 		CharString lineString=new CharString();
 		CharString wordString=new CharString();
+
+		PDFont font=defaultFont;
 		
 		Char ch;
-
-		float wordLen=0;
-		float lastWordX=0;
+		float xpLine=0f;
+		float xpWord=0f;
 		
 		for(int i=0;i<input.chars.size();i++) {
 			ch=input.chars.get(i);
 			
 			int upper=(int) ((float)(ch.upper-ch.row.upper)*Consts._FontHeightRatio);
-			float w=(float)ch.width*Consts._FontWidthRatio;
+			int w=(int) ((float)ch.width*Consts._FontWidthRatio);
+			int h=(int)((float)ch.height*Consts._FontHeightRatio);
 			wordString.addChar(
 					new Char(ch.str,
 							Consts._CharBaseLeft,
 							upper,
 							Consts._CharBaseLeft+w,
-							(int)((float)ch.height*Consts._FontHeightRatio),
+							h,
 							ch.font));
-			wordLen+=w;
-			
+			//wordLen+=w;
+			setFontSize(font,h);
+			float xpChar;
+			try {
+				xpChar = h * font.getStringWidth(replaceUnknownCharacter(ch).str) / 1000;
+			} catch (IOException e) {
+				e.printStackTrace();
+				continue;
+			}
+			xpWord+=xpChar;
 			if(ch.str.matches(Common._WordDelimeter)) {
-				if(lastWordX+wordLen>=pageWidth) {
+				if(xpLine+xpWord>=pageWidth) {
 					output.add(lineString);
 					lineString=new CharString();
-					lastWordX=0;
+					xpLine=0;
 				} 
 					
 				lineString.addAllChars(wordString);
-				lastWordX+=wordLen;
-				
-				wordLen=0;
+				xpLine+=xpWord;
+
 				wordString=new CharString();
+				xpWord=0;
 			}
 		}
 		
@@ -220,6 +194,31 @@ public class PDFWriter {
 			output.add(lineString);
 		
 		return output;
+	}
+	
+	private void setFontSize(PDFont font, int height) {
+		float fontSize=(float) ((float)height * 1000f) /
+				(float)(font.getFontDescriptor().getFontBoundingBox().getHeight());
+		try {
+			stream.setFont(font,fontSize);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private Char replaceUnknownCharacter(Char c) {
+		String s="";
+
+		for (int i = 0; i < c.str.length(); i++) {
+			char ch=c.str.charAt(i);
+			if(! WinAnsiEncoding.INSTANCE.contains(ch)) {
+				s=s+" ";
+			} else 
+				s=s+ch;
+		}
+		
+
+		return new Char(c,s,c.width,c.height);
 	}
 
 	public void save(){

@@ -64,11 +64,12 @@ public class CharString {
 						if(c.str.charAt(c.str.length()-1)=='-') {
 							lastDash=true;
 							if(c.str.length()>1)
-								c=new Char(c,c.str.substring(0,c.str.length()-2),c.width);
+								c=new Char(c,c.str.substring(0,c.str.length()-2),c.width,c.height);
 							else continue;
 						}
 					
-					if(c0!=c && ! Common.connectedChars(c0,c))
+					if(! c.str.equals(" ") && ! c0.str.equals(" ") &&
+							c0!=c && ! Common.connectedChars(c0,c))
 						chars.add(c0.spaceChar(c.left-c0.right-1));
 					chars.add(c);
 					c0=c;
