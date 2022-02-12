@@ -450,12 +450,15 @@ public class Row extends Rectangle {
 		}
 		
 		public int value() {
-			int i=(int) (height * 1000);
+			//int i=(int) (height * 1000);
+			float f=height;
 			
 			if(bold>0)
-				i=i<<1 + 1;	
+				f=f*2 + 1f;	
+			else
+				f=f*2;
 					
-	        return i;
+	        return (int)f;
 		}
 		
 	    @Override

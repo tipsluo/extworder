@@ -374,7 +374,7 @@ public class Extworder {
 		myWriter.close();
 	}
 	
-	static void printContent(String pdfName) throws IOException {
+	public static void printContent(String pdfName) throws IOException {
 		Content content = new Content(pdfPath(pdfName), new IgnorePage(),true,true,false);
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_content.txt");
