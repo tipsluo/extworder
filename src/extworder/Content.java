@@ -15,11 +15,12 @@ import org.apache.pdfbox.text.TextPosition;
 import org.apache.pdfbox.util.Matrix;
 import org.apache.pdfbox.util.Vector;
 
+import extworder.Block.AdditionalSubtitleFormatFilter;
+import extworder.Block.BlockFilter;
 import extworder.Block.BlockFormat;
-import extworder.Common.BlockFilter;
-import extworder.Common.BodyBlockFilter;
-import extworder.Common.SectionBlockFilter;
-import extworder.Common.SubtitleBlockFilter;
+import extworder.Block.BodyBlockFilter;
+import extworder.Block.SectionBlockFilter;
+import extworder.Block.SubtitleBlockFilter;
 import extworder.Page.Column;
 
 import java.util.ArrayList;
@@ -55,17 +56,19 @@ public class Content extends PDFTextStripper {
 	private ArrayList<String> allWords;
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
+	ArrayList<Pattern> abbrPatterns;
 	
     Common.IgnorePage ignorePage;
 	
-	public Content(String fn, 
+	public Content(String fn,
+				ArrayList<Pattern> abbrPatterns,
 				Common.IgnorePage ignorePage,
 				boolean ignoreIntraBlock,
 				boolean ignoreColoredBlock,
 				boolean ignoreSubtitle)  throws IOException {
-
-		this.ignoreSubtitle=ignoreSubtitle;
 		
+		this.abbrPatterns=abbrPatterns;
+		this.ignoreSubtitle=ignoreSubtitle;
 		this.ignorePage=ignorePage;
 		
 		pages=new ArrayList<Page>();
@@ -554,25 +557,11 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	/*public String body() {
-		//hasFirstBodyBlock=false;
-		
-		String str="";
-		
-		for(Page page:pages) {
-			str+=page.body()+"\n";
-		}
-		
-		str=Common.prepareOut(str);
-		
-		return str;
-	}*/
-	
 	public ArrayList<Block> getMainBlocks() {
-		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
-		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
-		Common.SectionBlockFilter sectionBlockFilter=new SectionBlockFilter();
-		
+		Block.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
+		Block.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
+		Block.SectionBlockFilter sectionBlockFilter=new SectionBlockFilter();
+
 		ArrayList<Block> bs=filterBlocks(bodyBlockFilter,subtitleBlockFilter,sectionBlockFilter);
 		bs=removeTailingSections(bs);
 		
@@ -875,7 +864,7 @@ public class Content extends PDFTextStripper {
 					//keep it
 					additionalSubtitleFormatFilter.add(chain.blockformats.get(0));
 				}
-				Block.additionalSubtitleFormatFilter=new Common.AdditionalSubtitleFormatFilter(additionalSubtitleFormatFilter);
+				Block.additionalSubtitleFormatFilter=new AdditionalSubtitleFormatFilter(additionalSubtitleFormatFilter);
 				
 				return retChain;
 			}
@@ -926,9 +915,6 @@ public class Content extends PDFTextStripper {
 				for(Block block:column.blocks) {
 					if(block.type!="")
 						continue;
-					
-//if(block.string().contains("Andrew Wooyoung Kim"))
-	//				System.out.println("");
 					
 					int lbb=block.likeBodyBlock1();
 					if(lbb>=Common._ParaSentDefaultUno)

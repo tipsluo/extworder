@@ -17,7 +17,7 @@ import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Block.CompareBlocks;
 import extworder.Char.Point;
-import extworder.Common.BlockFilter;
+import extworder.Block.BlockFilter;
 import extworder.Common.Stretch;
 
 public class Page extends Rectangle{
@@ -209,12 +209,6 @@ public class Page extends Rectangle{
 	private void getAllColoredBlocks() {
 		coloredBlocks=new ArrayList<ColoredBlock>();
 		
-		/*if(right>pageImg.img.getWidth()+1 ||
-			lower>pageImg.img.getHeight()+1) {
-			System.out.printf("Error getAllColoredBlocks. Page ID %d\n",id);
-			return;
-		}*/
-		
 		for(int x=left; x<=right; x++)
 			for(int y=upper; y<=lower; y++) {
 				if(! pageImg.in(x,y)) {
@@ -368,7 +362,6 @@ public class Page extends Rectangle{
 			if(Common.leading2Uppercase.matcher(row2.string()).find())
 				continue;
 			
-			// Split lines of all upper case
 			ArrayList<Block> newBlocks=block.split(1);
 			
 			Column column=block.column;
@@ -451,9 +444,6 @@ public class Page extends Rectangle{
 	}
 	
 	private void mergeNeighborBlocks() {
-		
-//if(id==3)
-//	System.out.println("");
 		
 		if(blocks.size()<3)
 			return;
@@ -584,16 +574,6 @@ public class Page extends Rectangle{
 			block.print(fw);
 		}
 	}
-	
-	/*String body() {
-		String str="";
-		
-		for(Column column: columns) {
-			str+=column.body();
-		}
-		
-		return str;
-	}*/
 	
 	public ArrayList<Block> filterBlocks(BlockFilter ...blockFilters) {
 		ArrayList<Block> bs=new ArrayList<Block>();
@@ -751,17 +731,6 @@ public class Page extends Rectangle{
 			
 			return str;
 		}
-		
-		/*String body() {
-			String str="";
-			
-			for(Block block:blocks) {
-				if(Block.bodyBlockFilter.filter(block))
-					str+=block.string()+"\n";
-			}
-			
-			return str;
-		}*/
 		
 		public ArrayList<Block> filterBlocks(BlockFilter ...blockFilters) {
 			ArrayList<Block> bs=new ArrayList<Block>();

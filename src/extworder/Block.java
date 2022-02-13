@@ -10,10 +10,7 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import extworder.Common.AdditionalSubtitleFormatFilter;
-import extworder.Common.BigBlockFilter;
-import extworder.Common.SubtitleBlockFilter;
-import extworder.Common.BodyBlockFilter;
+import extworder.Block.BlockFormat;
 import extworder.Common.RangeGroup.Range;
 import extworder.Common.StatGroup;
 import extworder.Page.Column;
@@ -577,6 +574,25 @@ public class Block extends Rectangle {
 		return compareBlocks.compare(this,block)<0 ? true : false;
 	}
 	
+	public boolean abbrOnly() {
+		if(page.content.abbrPatterns==null)
+			return false;
+		
+		String s=string();
+		s.replace("\n"," ");
+		s.replace("\r"," ");
+		for(Pattern p:page.content.abbrPatterns)
+			s=p.matcher(s).replaceAll("");
+		s=s.replace(" ","");
+		if(s.length()==0)
+			return true;
+		return false;
+	}
+	
+	public boolean trivial() {
+		return string().length()<=Common._TrivialBlockMaxLength;
+	}
+	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
@@ -618,27 +634,6 @@ public class Block extends Rectangle {
 		
 		return str+"\n";
 	}
-	
-	/*public String line() {
-		// This is to replace some calls of string() with the solution of tailing dash.
-		
-		String str="";
-		
-		int y=rows.get(0).lower;
-		for(Row row:rows) {
-			if(str.charAt(str.length()-1)=='-')
-				str=str.substring(0,str.length()-1);
-			
-			if (row.upper>=y) {
-				str+=" ";
-				y=row.lower;
-			}
-			
-			str+=row.string();
-		}
-		
-		return str+"\n";
-	}*/
 	
 	public static class BlockFormat implements Comparable<BlockFormat> {
 		public final CharFont charfont;
@@ -725,4 +720,84 @@ public class Block extends Rectangle {
 							b1.upper-b2.upper;
 		}
 	}
+	
+	public interface BlockFilter {
+		public boolean filter(Block block);
+	}
+	
+	public static class BodyBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			if(block.abbrOnly())
+				return false;
+			if(block.column==null)
+				return false;
+			return block.type==Common._Body;
+		}
+	}
+	
+	static class BigBlockFilter implements BlockFilter {
+		final static Pattern pattern;
+		
+		static {
+			pattern=Pattern.compile("^"+Common._IgnoredBlockPrefix);
+		}
+		
+		@Override
+		public boolean filter(Block block) {
+			if(block.abbrOnly() || block.trivial())
+				return false;
+			
+			int charfontDiff=block.format.compareTo(block.page.content.bodyBlockformat);
+			
+			if(block.likeBodyBlock1()>=Common._ParaSentDefaultUno)
+				return true;
+			
+			if(charfontDiff>=0 && block.likeTitleBlock()>=0)
+				return true;
+			
+			return false;
+		}
+	}
+	
+	public static class SubtitleBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			if(block.abbrOnly() || block.trivial())
+				return false;
+			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
+					block.type.contains(Common._SubtitlePrefix);
+		}
+	}
+	
+	public static class SectionBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			if(block.abbrOnly() || block.trivial())
+				return false;
+			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
+					block.type.contains(Common._SectionPrefix);
+		}
+	}
+	
+	static class AdditionalSubtitleFormatFilter implements BlockFilter {
+		private ArrayList<BlockFormat> blockformats;
+		
+		public AdditionalSubtitleFormatFilter(ArrayList<BlockFormat> blockformats) {
+			this.blockformats=blockformats;
+		}
+		
+		@Override
+		public boolean filter(Block block) {
+			if(block.abbrOnly() || block.trivial())
+				return false;
+			for(BlockFormat blockformat: blockformats)
+				if(blockformat.equals(block.format))
+					return true;
+				
+			return false;
+		}
+	}
 }
+
+

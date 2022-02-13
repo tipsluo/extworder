@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
@@ -19,7 +20,8 @@ public class Extworder {
         //pdfs.add("");
         //pdfs.add("");
         //pdfs.add("2column-Review-Deep learning for the design of photonic structures");
-        pdfs.add("1Column-An_ultrasensitive_photoelectro");
+        //pdfs.add("1Column-An_ultrasensitive_photoelectro");
+        pdfs.add("1-2colmn-Confidence_reports_in_decision");
         //pdfs.add("Artforum-1995 Painting for Profit and Pleasure");
         //pdfs.add("Archaeology-2020Digital Platforms and the Nature");
         //pdfs.add("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");
@@ -98,7 +100,7 @@ public class Extworder {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("displayRows("+pdf+")");
-				displayRows(pdf);
+				displayRows(pdf,null);
 			}
 			return;
 		}
@@ -155,7 +157,7 @@ public class Extworder {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printBlocks("+pdf+")");
-				printBlocks(pdf);
+				printBlocks(pdf,null);
 			}
 			return;
 		}
@@ -196,7 +198,7 @@ public class Extworder {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printContent("+pdf+")");
-				printContent(pdf);
+				printContent(pdf,null);
 			}
 			return;
 		}
@@ -296,7 +298,7 @@ public class Extworder {
 	}
 	
 	public static void displayChars(String pdfName) throws IOException {
-		Content content = new Content(pdfPath(pdfName), new IgnorePage(), false, true, true);
+		Content content = new Content(pdfPath(pdfName), null, new IgnorePage(), false, true, true);
 		
 		FileWriter myWriter = null;
 		
@@ -316,8 +318,8 @@ public class Extworder {
 		}
 	}
 	
-	public static void displayRows(String pdfName) throws IOException {
-		Content content = new Content(pdfPath(pdfName), new IgnorePage(), false, true, true);
+	public static void displayRows(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
+		Content content = new Content(pdfPath(pdfName), abbrPatterns, new IgnorePage(), false, true, true);
 		
 		FileWriter myWriter = null;
 		
@@ -340,8 +342,8 @@ public class Extworder {
 		}
 	}
 	
-	public static void displayBlocks(String pdfName) throws IOException {
-		Content content = new Content(pdfPath(pdfName), new IgnorePage(), false, true,true);
+	public static void displayBlocks(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
+		Content content = new Content(pdfPath(pdfName), abbrPatterns, new IgnorePage(), false, true,true);
 		
 		FileWriter myWriter = null;
 		
@@ -364,8 +366,8 @@ public class Extworder {
 		}
 	}
 	
-	public static void printBlocks(String pdfName) throws IOException {
-		Content content = new Content(pdfPath(pdfName), new IgnorePage(),true,true,false);
+	public static void printBlocks(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
+		Content content = new Content(pdfPath(pdfName), abbrPatterns, new IgnorePage(),true,true,false);
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_block2.txt");
 		
@@ -374,8 +376,8 @@ public class Extworder {
 		myWriter.close();
 	}
 	
-	public static void printContent(String pdfName) throws IOException {
-		Content content = new Content(pdfPath(pdfName), new IgnorePage(),true,true,false);
+	public static void printContent(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
+		Content content = new Content(pdfPath(pdfName), abbrPatterns,new IgnorePage(),true,true,false);
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_content.txt");
 

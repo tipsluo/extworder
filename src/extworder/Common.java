@@ -73,6 +73,7 @@ public class Common {
 	
 	final static float _MinBodyCharBlockWidth=0.70f;
 	final static float _MinTitleLength=4;
+	final static int _TrivialBlockMaxLength=4;
 	
 	final static float _CenterAlignAdjustment=0.05f;
 	
@@ -439,81 +440,7 @@ public class Common {
 			return sortedRecords;
 		}
 	}
-	
-	public interface BlockFilter {
-		public boolean filter(Block block);
-	}
-	
-	public static class BodyBlockFilter implements BlockFilter {
-		@Override
-		public boolean filter(Block block) {
-			if(block.column==null)
-				return false;
-			return block.type==Common._Body;
-		}
-	}
-	
-	static class BigBlockFilter implements BlockFilter {
-		final static Pattern pattern;
-		
-		static {
-			pattern=Pattern.compile("^"+_IgnoredBlockPrefix);
-		}
-		
-		@Override
-		public boolean filter(Block block) {
-			int charfontDiff=block.format.compareTo(block.page.content.bodyBlockformat);
-			
-			if(block.likeBodyBlock1()>=Common._ParaSentDefaultUno)
-				return true;
-			
-			if(charfontDiff>=0 && block.likeTitleBlock()>=0)
-				return true;
-			
-			return false;
-			
-			/*return  ( charfontDiff >= 0 || 
-						charfontDiff == 0 && 
-						( block.format.alignment==Common._CENTERALIGNED)
-					)
-					&&
-					! pattern.matcher(block.type).find();*/
-		}
-	}
-	
-	public static class SubtitleBlockFilter implements BlockFilter {
-		@Override
-		public boolean filter(Block block) {
-			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
-					block.type.contains(_SubtitlePrefix);
-		}
-	}
-	
-	public static class SectionBlockFilter implements BlockFilter {
-		@Override
-		public boolean filter(Block block) {
-			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
-					block.type.contains(_SectionPrefix);
-		}
-	}
-	
-	static class AdditionalSubtitleFormatFilter implements BlockFilter {
-		private ArrayList<BlockFormat> blockformats;
-		
-		public AdditionalSubtitleFormatFilter(ArrayList<BlockFormat> blockformats) {
-			this.blockformats=blockformats;
-		}
-		
-		@Override
-		public boolean filter(Block block) {
-			for(BlockFormat blockformat: blockformats)
-				if(blockformat.equals(block.format))
-					return true;
-				
-			return false;
-		}
-	}
-    
+
 	static abstract public class IgnorePage {
 		public abstract boolean isIgnored(Page page);
 	}

@@ -12,9 +12,9 @@ import java.util.Map;
 import java.util.regex.Pattern;
 import extworder.Block;
 import extworder.Common;
-import extworder.Common.BodyBlockFilter;
+import extworder.Block.BodyBlockFilter;
 import extworder.Common.StatGroup;
-import extworder.Common.SubtitleBlockFilter;
+import extworder.Block.SubtitleBlockFilter;
 import extworder.Content;
 import extworder.Page;
 import extworder.Row;
@@ -46,7 +46,7 @@ public class Process {
 		readAbbreviationsFromFile(abbreviationFile);
 		readirregularsFromFile(irreNounFile);
 			
-		content = new Content(pdfPath, new IgnorePage(), true, true, false);
+		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false);
 		bodyStr=Common.joinLines(content.body());
 		
 		int top1Num=3;
@@ -164,13 +164,11 @@ public class Process {
 	}
 	
 	private void readAbbreviationsFromFile(String filename) throws IOException {
-		//abbrSubses=new ArrayList<String>();
 		abbrPatterns=new ArrayList<Pattern>();
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
 		    String line;
 		    while ((line = br.readLine()) != null) {
-		    	//abbrSubses.add(line.replaceAll("\\.",Consts._AbbrSubsStr));
 		    	abbrPatterns.add(Pattern.compile(line));
 		    }
 		}
@@ -239,8 +237,8 @@ public class Process {
 	}
 	
 	private ArrayList<Section> getSections(ArrayList<Block> blocks) {
-		Common.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
-		Common.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
+		BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
+		SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
 		
 		ArrayList<Section> sections=new ArrayList<Section>();
 		Section section=null;

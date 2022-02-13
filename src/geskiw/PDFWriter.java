@@ -216,7 +216,6 @@ public class PDFWriter {
 			} else 
 				s=s+ch;
 		}
-		
 
 		return new Char(c,s,c.width,c.height);
 	}
