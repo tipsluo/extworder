@@ -15,7 +15,6 @@ public class Consts {
 	final static int _Margin=72;
 	final static int _LineBaseUpper=0;
 	final static int _CharBaseLeft=0;
-	final static float _OutputRatio=0.2f;
 	final static float _FontHeightRatio=2f;
 	final static float _FontWidthRatio=1.10f;
 	

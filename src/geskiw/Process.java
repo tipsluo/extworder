@@ -49,14 +49,10 @@ public class Process {
 		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false);
 		bodyStr=Common.joinLines(content.body());
 		
-		int top1Num=3;
-		int top2Num=4;
+		int top1Num=2;
+		int top2Num=3;
 		top0=topKeywords(top1Num+top2Num);
-		while(getAllKeySentences(top1Num,top2Num)>Consts._OutputRatio && 
-				top1Num>=1) {
-			top1Num--;
-			top2Num--;
-		}
+		getAllKeySentences(top1Num,top2Num);
 		
 		extractResult=output();
 	}
