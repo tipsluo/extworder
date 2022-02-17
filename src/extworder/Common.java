@@ -454,9 +454,14 @@ public class Common {
 			this.end=end;
 		}
 		
+		public Stretch(Stretch stretch) {
+			start=stretch.start;
+			end=stretch.end;
+		}
+		
 	    @Override
 	    public int hashCode() {
-	        return start + end<<10;
+	        return (start<<10) + end;
 	    }
 	    
 	    public int length() {
