@@ -261,8 +261,6 @@ public class Page extends Rectangle{
 		borders=new ArrayList<Border>();
 		
 		for(Row row:rows) {
-//if(row.left==87 || row.right==87)
-//	System.out.println("");
 			Stretch lStretch=new Stretch(row.upper,row.lower);
 			Stretch rStretch=new Stretch(row.upper,row.lower);
 			Border leftBorder=new Border(row.left,Common._LEFTORIENTED,lStretch);

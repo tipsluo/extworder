@@ -271,9 +271,6 @@ public class Content extends PDFTextStripper {
 					if(row1==row2)
 						continue;
 					
-//if(row2.string().contains("Ce") && row1.string().contains("LaFE03"))
-						//System.out.println("");	
-					
 					if(! row1.vContains(row2))
 						continue;
 
