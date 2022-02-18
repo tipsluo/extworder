@@ -261,8 +261,6 @@ public class Page extends Rectangle{
 		borders=new ArrayList<Border>();
 		
 		for(Row row:rows) {
-//if(row.left==87 || row.right==87)
-//	System.out.println("");
 			Stretch lStretch=new Stretch(row.upper,row.lower);
 			Stretch rStretch=new Stretch(row.upper,row.lower);
 			Border leftBorder=new Border(row.left,Common._LEFTORIENTED,lStretch);
@@ -386,8 +384,9 @@ public class Page extends Rectangle{
 				blocks.add(block);
 			}
 		}
-		
+
 		for(Block block:blocks) {
+			block.mergeVIntersectedRows();
 			block.separateUpperLeftBigChar();
 		}
 		
@@ -421,7 +420,6 @@ public class Page extends Rectangle{
 			i--;
 		}
 		
-		
 		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
@@ -444,7 +442,6 @@ public class Page extends Rectangle{
 	}
 	
 	private void mergeNeighborBlocks() {
-		
 		if(blocks.size()<3)
 			return;
 		
@@ -467,9 +464,6 @@ public class Page extends Rectangle{
 		for(int i=2, j=2;i<blocks.size();i++,j++) {
 			Block block2=blocks.get(i);
 			boolean b01new=block1.format.charfont.equals(block2.format.charfont) && block1.left==block2.left;
-		
-//if(block2.string().contains("Data come from the Cebu"))
-					//	System.out.println("");
 			
 			if(b01) {
 				if(b01new && Math.abs(gaps[j-2]-gaps[j-1])<=Common._MaxSameBlockRowGapAdj ) {

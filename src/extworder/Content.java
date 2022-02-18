@@ -271,9 +271,6 @@ public class Content extends PDFTextStripper {
 					if(row1==row2)
 						continue;
 					
-//if(row2.string().contains("Ce") && row1.string().contains("LaFE03"))
-						//System.out.println("");	
-					
 					if(! row1.vContains(row2))
 						continue;
 
@@ -281,7 +278,7 @@ public class Content extends PDFTextStripper {
 							( ! page.checkSeparatingBorder(row1,row2) &&
 							row1.hDistance(row2)<=(int)(row1.height*Common._MaxSameRowDistanceRatio))) {
 						
-						row1.mergeUpdateWidth(row2);
+						row1.merge(row2,true);
 						j--;
 
 						Block b=row2.block;

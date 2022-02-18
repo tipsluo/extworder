@@ -39,7 +39,7 @@ public class Block extends Rectangle {
 		
 		this.page=page;
 		build(row);
-		
+
 		Collections.sort(rows,Row.compareRows);
 		
 		format=new BlockFormat(mostCharFont());
@@ -223,6 +223,23 @@ public class Block extends Rectangle {
 	
 	public void setIgnored(String ignoredString) {
 		type=Common._IgnoredBlockPrefix+ignoredString;
+	}
+	
+	void mergeVIntersectedRows( ) {
+		for(int i=0;i<rows.size();i++) {
+			Row row1=rows.get(i);
+			for(int j=i+1;j<rows.size();j++) {
+				Row row2=rows.get(j);
+				if(row1.vIntersected(row2)) {
+					int d=(int) row1.distance(row2);
+					if(d>=row1.height || d>=row2.height) {
+						row1.merge(row2,false);
+						j--;
+					}
+				}
+			}
+		}
+			
 	}
 	
 	boolean separateUpperLeftBigChar() {

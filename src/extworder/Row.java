@@ -98,15 +98,17 @@ public class Row extends Rectangle {
 		if(ch.str.contains(" "))
 			spaceWidth=(int) ch.width;
 		
-		if (ch.row==null) {
-			chars.add(ch); 
-			ch.row=this;
-			
-			updateRectangle(ch);
-			
-			ch.getLeftConnected(page,wordReach,vAdjustment).forEach(this::expand);
-			ch.getRightConnected(page,wordReach,vAdjustment).forEach(this::expand);
+		if (ch.row !=null) {
+			return;
 		}
+		
+		chars.add(ch); 
+		ch.row=this;
+		
+		updateRectangle(ch);
+		
+		ch.getLeftConnected(page,wordReach,vAdjustment).forEach(this::expand);
+		ch.getRightConnected(page,wordReach,vAdjustment).forEach(this::expand);
 	}
 	
 	public void resetChars() {
@@ -180,11 +182,9 @@ public class Row extends Rectangle {
 		if(wInterval==-1) {
 			charReach=cInterval;
 			wordReach=(int)(chars.get(0).height*Common._CharHGapRatio);
-			//ret=new Range(cInterval,(int)(chars.get(0).height*Common._CharHGapRatio));
 		} else {
 			charReach=(int)Math.round(cInterval*Common._SpaceAdjustment);
 			wordReach=(int)(wInterval+Common._CharHSpaceAddGap);
-			//ret=new Range((int)Math.round(cInterval*Common._SpaceAdjustment),(int)(wInterval+Common._CharHSpaceAddGap));
 		}
 	}
 
@@ -193,12 +193,39 @@ public class Row extends Rectangle {
 			ch.row=null;
 	}
 	
-	void mergeUpdateWidth(Row row) {
+	void merge(Row row,boolean render) {
 		for (Char ch:row.chars) {
 			ch.row=this;
 		}
 		
 		chars.addAll(row.chars);
+		reupdateRectangle();
+		
+		if (row.block!=null) {
+			row.block.rows.remove(row);
+			row.block.resetRectangle();
+			for(Row r:row.block.rows)
+				row.block.updateRectangle(r);
+		}
+		page.rows.remove(row);
+
+		if(block!=null) {
+			block.resetRectangle();
+			for(Row r:block.rows)
+				block.updateRectangle(r);
+		}
+		
+		if(render)
+			render();
+		else {
+			Collections.sort(chars,Char.compareChars);
+			str="";
+			charfont=getCharFont();
+		}
+	}
+	
+	/*void mergeUpdateWidth(Row row) {
+		mergeWithoutRender(row);
 		
 		if(left>row.left)
 			left=row.left;
@@ -209,15 +236,10 @@ public class Row extends Rectangle {
 		height=lower-upper;
 		
 		render();
-		block.updateRectangle(this);
-		
-		if (row.block!=null) {
-			row.block.rows.remove(row);
-		}
-		page.rows.remove(row);
-	}
+	}*/
 	
 	void reupdateRectangle() {
+		resetRectangle();
 		for(Char ch:chars)
 			updateRectangle(ch);
 		
