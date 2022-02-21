@@ -23,7 +23,6 @@ import geskiw.Word.Words;
 
 public class Process {
 	static ArrayList<String> stopWords;
-	//static ArrayList<String> abbrSubses;
 	static HashMap<String,String> irregulars;
 	
 	Content content;
@@ -34,7 +33,8 @@ public class Process {
 	public String extractResult;
 	ArrayList<Pattern> abbrPatterns;
 	StatGroup<Word> commonWords;
-	private int bodySentenceCount;
+	private int originalWordCount;
+	private int extractedWordCount;
 	
 	ArrayList<Section> outputSections;
 	
@@ -70,6 +70,8 @@ public class Process {
 		ArrayList<Word> list1=(new Words(keyWords)).list;
 		
 		ArrayList<String> bodyWordStrs=Common.getWords(bodyStr,true);
+		originalWordCount=bodyWordStrs.size();
+		
 		WordStatGroup list2=new WordStatGroup(bodyWordStrs);
 		
 		WordStatGroup list3=getCommonWords(list2,list1);
@@ -108,6 +110,22 @@ public class Process {
 	
 	public void writePDF(String outputPDF) {
 		PDFWriter pw=new PDFWriter(outputPDF,content.bodyBlockformat.charfont);
+		
+		String s=String.format("Original article word count: %d",originalWordCount);
+		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
+		
+		s=String.format("Extracted content word count: %d",extractedWordCount);
+		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
+		
+		s=String.format("Title of the article: %s",content.titleBlock.string());
+		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
+		
+		pw.newLine();
+		pw.newLine();
+		
+		s=String.format("Extracted content:");
+		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
+		
 		
 		for(Section section:outputSections) {
 			if(section.subtitleBlock!=null) {
@@ -195,41 +213,23 @@ public class Process {
 		return str.replaceAll(Consts._AbbrSubsStr,".");
 	}
 	
-	private float getAllKeySentences(int top1Num,int top2Num) throws IOException {
+	private void getAllKeySentences(int top1Num,int top2Num) throws IOException {
 		top1=top0.subList(0, top1Num);
 		top2=top0.subList(top1Num, top1Num+top2Num);
 		
 		System.out.printf("Processing with %d of top and %d of medium keywords...\n",top1Num, top2Num);
+		
+		extractedWordCount=0;
 
 		ArrayList<Section> sections=getSections(content.getMainBlocks());
-		bodySentenceCount=0;
-		int keySentenceCount=0;
 		
 		for(Section s:sections) {
 			if(s.bodyBlocks.size()>0) {
-				bodySentenceCount+=getKeySentences(s);
-				keySentenceCount+=s.keySentences.size();
+				extractedWordCount+=getKeySentences(s);
 			}
 		}
 		
 		outputSections=sections;
-		
-		if(bodySentenceCount!=0) {
-			float f= (float) keySentenceCount/ (float) bodySentenceCount;
-			return f;
-		}
-		return -1;
-	}
-	
-	private String joinBlocks(ArrayList<Block> blocks) {
-		ArrayList<String> strs=new ArrayList<String>();
-		
-		for(Block block:blocks) {
-			for(Row row:block.rows)
-				strs.add(row.string());
-		}
-		
-		return Common.joinLines(strs);
 	}
 	
 	private ArrayList<Section> getSections(ArrayList<Block> blocks) {
@@ -265,6 +265,8 @@ public class Process {
 	}
 	
 	private int getKeySentences(Section section) {
+		int keySentenceWordCount=0;
+		
 		CharString bodyCharString=new CharString(section.bodyBlocks,abbrPatterns);
 				
 		ArrayList<CharString> css=bodyCharString.splitSentences();
@@ -289,11 +291,12 @@ public class Process {
 				if(found) {
 					cs.unmarkAbbreviation();
 					section.keySentences.add(cs);
+					keySentenceWordCount+=Common.getWords(cs.string(),false).size();
 					break;
 				}
 			}
 		}
-		return css.size();
+		return keySentenceWordCount;
 	}
 	
 	public String outputCommonWords() {

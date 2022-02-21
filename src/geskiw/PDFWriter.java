@@ -131,7 +131,6 @@ public class PDFWriter {
 		try {
 			stream.newLineAtOffset(-xpSum,0);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		newLine();
@@ -162,7 +161,6 @@ public class PDFWriter {
 							Consts._CharBaseLeft+w,
 							h,
 							ch.font));
-			//wordLen+=w;
 			setFontSize(font,h);
 			float xpChar;
 			try {
@@ -226,7 +224,6 @@ public class PDFWriter {
 		    stream.close();
 			doc.save(filename);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			try {

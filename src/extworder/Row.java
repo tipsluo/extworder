@@ -12,6 +12,7 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import extworder.Char.VirtualChar;
 import extworder.Common.RangeGroup;
 import extworder.Common.RangeGroup.Range;
 import extworder.Common.StatGroup;
@@ -30,6 +31,10 @@ public class Row extends Rectangle {
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
 	static Comparator<Row> compareRowHeights = (Row r1, Row r2) ->
 		r1.height-r2.height ;
+		
+	public Row() {
+		super();
+	}
 		
 	public Row(Page page, Block block, int x, int y) {
 		this.page=page;
@@ -548,6 +553,15 @@ public class Row extends Rectangle {
 				}
 				
 				return _NOBOLD;
+			}
+		}
+	}
+	
+	static public class VirtualRow extends Row {
+		public VirtualRow(ArrayList<Char> vcs) {
+			for(Char vc:vcs) {
+				vc.row=this;
+				vc.updateRectangle(vc);
 			}
 		}
 	}

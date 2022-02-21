@@ -5,10 +5,14 @@ import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.pdfbox.pdmodel.font.PDFont;
+
 import extworder.Block;
 import extworder.Char;
+import extworder.Char.VirtualChar;
 import extworder.Common;
 import extworder.Row;
+import extworder.Row.VirtualRow;
 
 public class CharString {
 	ArrayList<Char> chars;
@@ -175,5 +179,18 @@ public class CharString {
 		
 		ret.add(cs);
 		return ret;
+	}
+	
+	static public class VirtualCharString extends CharString {
+		public VirtualCharString(String s, PDFont font, float height) {
+			super();
+			
+			for(int i=0;i<s.length();i++) {
+				VirtualChar ch=new VirtualChar(s.substring(i,i+1),height,font);
+				chars.add(ch);
+			}
+			
+			VirtualRow row=new VirtualRow(chars);
+		}
 	}
 }

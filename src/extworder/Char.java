@@ -13,6 +13,10 @@ public class Char extends Rectangle {
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
 		
+	public Char() {
+		super();
+	}
+		
 	public Char(Char ch, String str , int wid,int hei) {
 		super();
 		this.str=String.copyValueOf(str.toCharArray());
@@ -185,6 +189,12 @@ public class Char extends Rectangle {
 			this.x=x;
 			this.y=y;
 			this.ch=ch;
+		}
+	}
+	
+	static public class VirtualChar extends Char {
+		public VirtualChar(String str, float height, PDFont font) {
+			super(str,-1,-1,-1,height,font);
 		}
 	}
 }
