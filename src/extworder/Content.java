@@ -148,7 +148,10 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages) {
 			page.separateAllUppers();
 			page.updateBlockFormats();
+			page.renderStrings();
 		}
+		
+		// Page contents should not be changed after this point.
 		
 		getBodyFormat();
 		getAllBodyBlocks();
@@ -157,7 +160,6 @@ public class Content extends PDFTextStripper {
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
-		//keywordBlock=getKeywordBlock();
 	
 		if(ignoreIntraBlock)
 			markIntraBodyBlocks();

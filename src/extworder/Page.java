@@ -88,11 +88,20 @@ public class Page extends Rectangle{
 			markColoredCharBlocks();
 	}
 	
-	private void getPDPageWH(PDPage pdPage) {
+	public void renderStrings() {
+		if(columns.size()>0)
+			for(Column column:columns)
+				column.renderStrings();
+		else
+			for(Block block:blocks)
+				block.renderString();
+	}
+	
+	/*private void getPDPageWH(PDPage pdPage) {
 		PDRectangle pdRectangle=pdPage.getCropBox();
 		width=Math.round(pdRectangle.getWidth());
 		height=Math.round(pdRectangle.getHeight());
-	}
+	}*/
 	
 	private void adjustCoordinates() {
 		xOffset=left-1;
@@ -653,6 +662,11 @@ public class Page extends Rectangle{
 			resetRectangle();
 			for(Block block:blocks)
 				updateRectangle(block);
+		}
+		
+		public void renderStrings( ) {
+			for(Block block:blocks)
+				block.renderString();
 		}
 		
 		public void print(FileWriter fw) throws IOException  {

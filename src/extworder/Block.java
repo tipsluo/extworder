@@ -22,6 +22,7 @@ public class Block extends Rectangle {
 	Page page;
 	Column column;
 	public String type="";
+	private String str;
     
 	final static CompareBlocks compareBlocks=new CompareBlocks();
 	final static CompareBlockLeftUppers compareBlockLeftUppers=new CompareBlockLeftUppers();
@@ -358,7 +359,6 @@ public class Block extends Rectangle {
 			row2=rows.get(i);
 			
 			if(row1.charfont.allEquals(row2.charfont)) {
-			//if(row1.charfont.equals(row2.charfont)) {
 				continue;
 			}
 			
@@ -637,7 +637,8 @@ public class Block extends Rectangle {
 	}
 	
 	public String string() {
-		String str="";
+		if(str!=null && str!="")
+			return str;
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {
@@ -650,6 +651,11 @@ public class Block extends Rectangle {
 		}
 		
 		return str+"\n";
+	}
+	
+	public void renderString() {
+		str="";
+		str=string();
 	}
 	
 	public static class BlockFormat implements Comparable<BlockFormat> {
