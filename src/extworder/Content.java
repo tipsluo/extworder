@@ -683,9 +683,9 @@ public class Content extends PDFTextStripper {
 		ArrayList<String> patterns=new ArrayList<String>();
 		
 		patterns.add("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?");
-		patterns.add("^\\s*[In][Nn][Tt[Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?");
-		patterns.add("^\\s*[Oo][Vv][Ee[Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?");
-		patterns.add("^\\s*[Ss][Un[Mm][Mm][Aa][Rr][Yy]\\s*[.:\n]?");
+		patterns.add("^\\s*[Ii][Nn][Tt][Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?");
+		patterns.add("^\\s*[Oo][Vv][Ee][Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?");
+		patterns.add("^\\s*[Ss][Un][Mm][Mm][Aa][Rr][Yy]\\s*[.:\n]?");
 		patterns.add("^\\s*[Cc][Oo[Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?");
 		
 		for(String pattern:patterns) {
