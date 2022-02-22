@@ -89,12 +89,12 @@ public class Page extends Rectangle{
 	}
 	
 	public void renderStrings() {
-		if(columns.size()>0)
+		/*if(columns.size()>0)
 			for(Column column:columns)
 				column.renderStrings();
-		else
-			for(Block block:blocks)
-				block.renderString();
+		else*/
+		for(Block block:blocks)
+			block.renderString();
 	}
 	
 	/*private void getPDPageWH(PDPage pdPage) {

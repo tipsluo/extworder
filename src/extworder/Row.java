@@ -448,7 +448,7 @@ public class Row extends Rectangle {
 	}
 	
 	public String string() {
-		if(str!="")
+		if(str!=null && str!="")
 			return str;
 		
 		Char ch0=chars.get(0);

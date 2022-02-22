@@ -20,7 +20,7 @@ public class Extworder {
         //pdfs.add("");
         //pdfs.add("");
         //pdfs.add("2column-Review-Deep learning for the design of photonic structures");
-        pdfs.add("1Column-An_ultrasensitive_photoelectro");
+        //pdfs.add("1Column-An_ultrasensitive_photoelectro");
         //pdfs.add("1-2colmn-Confidence_reports_in_decision");
         //pdfs.add("Artforum-1995 Painting for Profit and Pleasure");
         //pdfs.add("Archaeology-2020Digital Platforms and the Nature");
@@ -30,6 +30,7 @@ public class Extworder {
         //pdfs.add("acs-Classics in Chemical Neuroscience");
         //pdfs.add("Wiley-Early life stress and HPA axis");
 		//pdfs.add("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
+        pdfs.add("acs-A Review on Perovskite-Type LaFeO3");
         main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();

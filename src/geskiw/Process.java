@@ -31,6 +31,7 @@ public class Process {
 	List<Word> top1;
 	List<Word> top2;
 	public String extractResult;
+	public String error;
 	ArrayList<Pattern> abbrPatterns;
 	StatGroup<Word> commonWords;
 	private int originalWordCount;
@@ -42,6 +43,9 @@ public class Process {
 					String stopWordFile, 
 					String abbreviationFile,
 					String irreNounFile) throws IOException {
+		
+		error=null;
+		
 		readStopWordsFromFile(stopWordFile);
 		readAbbreviationsFromFile(abbreviationFile);
 		readirregularsFromFile(irreNounFile);
@@ -52,20 +56,42 @@ public class Process {
 		int top1Num=2;
 		int top2Num=3;
 		top0=topKeywords(top1Num+top2Num);
+		
+		if(top0==null) {
+			error="Not able to get top word list.";
+			return;
+		}
+		
 		getAllKeySentences(top1Num,top2Num);
 		
 		extractResult=output();
 	}
 	
 	List<Word> topKeywords(int number) throws IOException {
-		ArrayList<String> titleStrs=Common.getWords(Common.joinLines(content.titleBlock.string()),true);
-		titleStrs=removeWords(titleStrs,stopWords);
+		ArrayList<String> keyWords=null;
 		
-		ArrayList<String> abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
-		abstractStrs=removeWords(abstractStrs,stopWords);
+		if(content.titleBlock!=null) {
+			ArrayList<String> titleStrs=Common.getWords(Common.joinLines(content.titleBlock.string()),true);
+			if(titleStrs!=null) {
+				titleStrs=removeWords(titleStrs,stopWords);
+				keyWords=titleStrs;
+			}
+		}
 		
-		ArrayList<String> keyWords=titleStrs;
-		keyWords.addAll(abstractStrs);
+		if(content.abstractBlock!=null) {
+			ArrayList<String> abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
+			if(abstractStrs!=null) {
+				abstractStrs=removeWords(abstractStrs,stopWords);
+				
+				if(keyWords!=null)
+					keyWords.addAll(abstractStrs);
+				else
+					keyWords=abstractStrs;
+			}
+		}
+		
+		if(keyWords==null)
+			return null;
 		
 		ArrayList<Word> list1=(new Words(keyWords)).list;
 		
@@ -108,10 +134,13 @@ public class Process {
 		return restoreAbbreviation(ret);
 	}
 	
-	public void writePDF(String outputPDF) {
+	public void writePDF(String outputPDF, String originalFilename) {
 		PDFWriter pw=new PDFWriter(outputPDF,content.bodyBlockformat.charfont);
 		
-		String s=String.format("Original article word count: %d",originalWordCount);
+		String s=String.format("PDF file name: %s",originalFilename);
+		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
+		
+		s=String.format("Original article word count: %d",originalWordCount);
 		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
 		
 		s=String.format("Extracted content word count: %d",extractedWordCount);

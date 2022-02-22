@@ -31,7 +31,7 @@ public class Geskiw {
 				Consts._IrregularFile);
 		
 		String outputPDF=_TestDataDir+pdfName+"_out.pdf";
-		process.writePDF(outputPDF);
+		process.writePDF(outputPDF,pdfName);
 		
 		System.out.println(process.extractResult);
 		System.out.println("Geskiw Done.");

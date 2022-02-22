@@ -455,10 +455,13 @@ public class Block extends Rectangle {
 			return Common._TooManyLeadingCapital;
 		
 		int paraSentUnoNoTerm=0;
+		int rightMargin=0;
 		
 		for(Row row:rows) {
 			if(charfont!=null && ! row.charfont.allEquals(charfont))
 				continue;
+			
+			int rightMargin1=right-row.right;
 			
 			int f=row.firstParagraphLine();
 			boolean p=row.isParaphaphLine();
@@ -475,9 +478,15 @@ public class Block extends Rectangle {
 			if(l==Common._ParaSentUnoNoTerm) {
 				paraSentUnoNoTerm++;
 				if(paraSentUnoNoTerm>1)
-					return Common._ParaSentDefaultFalse;
+					//If two consecutive row with the same right margins, that could means there is picture which makes the row widths different
+					if(rightMargin1!=rightMargin) {
+						return Common._ParaSentDefaultFalse;
+					} else
+						paraSentUnoNoTerm=0;
 			} else
 				paraSentUnoNoTerm=0;
+			
+			rightMargin=rightMargin1;
 		}
 		
 		if(paraSentUnoNoTerm>0)
