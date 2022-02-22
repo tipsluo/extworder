@@ -680,9 +680,22 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private Block getAbstractBlock() {
-		getKeyBlockStr(
-				0,
-				Pattern.compile("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?"));
+		ArrayList<String> patterns=new ArrayList<String>();
+		
+		patterns.add("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?");
+		patterns.add("^\\s*[In][Nn][Tt[Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?");
+		patterns.add("^\\s*[Oo][Vv][Ee[Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?");
+		patterns.add("^\\s*[Ss][Un[Mm][Mm][Aa][Rr][Yy]\\s*[.:\n]?");
+		patterns.add("^\\s*[Cc][Oo[Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?");
+		
+		for(String pattern:patterns) {
+			getKeyBlockStr(
+					0,
+					Pattern.compile(pattern));
+			
+			if(activeBlock!=null)
+				break;
+		}
 		if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
@@ -733,11 +746,6 @@ public class Content extends PDFTextStripper {
 					continue;
 				
 				Block block=page.blocks.get(i);
-				
-				/*if(block.type==Common._Body) {
-					stopped=true;
-					break;
-				}*/
 				
 				str=block.string();
 				str=str.replaceAll("[\\r\\n]+", " ");
