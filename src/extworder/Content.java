@@ -686,7 +686,7 @@ public class Content extends PDFTextStripper {
 		patterns.add("^\\s*[Ii][Nn][Tt][Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?");
 		patterns.add("^\\s*[Oo][Vv][Ee][Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?");
 		patterns.add("^\\s*[Ss][Un][Mm][Mm][Aa][Rr][Yy]\\s*[.:\n]?");
-		patterns.add("^\\s*[Cc][Oo[Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?");
+		patterns.add("^\\s*[Cc][Oo][Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?");
 		
 		for(String pattern:patterns) {
 			getKeyBlockStr(
