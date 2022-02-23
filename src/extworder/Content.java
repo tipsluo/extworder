@@ -682,11 +682,12 @@ public class Content extends PDFTextStripper {
 	private Block getAbstractBlock() {
 		ArrayList<String> patterns=new ArrayList<String>();
 		
-		patterns.add("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?");
-		patterns.add("^\\s*[Ii][Nn][Tt][Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?");
-		patterns.add("^\\s*[Oo][Vv][Ee][Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?");
-		patterns.add("^\\s*[Ss][Un][Mm][Mm][Aa][Rr][Yy]\\s*[.:\n]?");
-		patterns.add("^\\s*[Cc][Oo][Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?");
+		patterns.add("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?\\s*$");
+		patterns.add("^\\s*[Ii][Nn][Tt][Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?\\s*$");
+		patterns.add("^\\s*[Oo][Vv][Ee][Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?\\s*$");
+		patterns.add("^\\s*[Ss][Un][Mm][Mm][Aa][Rr][Yy]\\s*[.:\n]?\\s*$");
+		patterns.add("^\\s*[Cc][Oo][Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?\\s*$");
+		patterns.add("^\\s*[Aa][Cc][Kk][Nn][Oo][Ww][Ll][Ee][Dd][Gg][Ee]\\s*[.:\n]?\\s*$");
 		
 		for(String pattern:patterns) {
 			getKeyBlockStr(
@@ -696,6 +697,7 @@ public class Content extends PDFTextStripper {
 			if(activeBlock!=null)
 				break;
 		}
+		
 		if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
@@ -725,7 +727,6 @@ public class Content extends PDFTextStripper {
 					
 					activeBlock=block;
 					activeBlock.type=Common._AbstractBlock;
-					//abstractStr=block.string();
 					return activeBlock;	
 				}
 			}

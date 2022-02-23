@@ -30,7 +30,8 @@ public class Extworder {
         //pdfs.add("acs-Classics in Chemical Neuroscience");
         //pdfs.add("Wiley-Early life stress and HPA axis");
 		//pdfs.add("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
-        pdfs.add("acs-A Review on Perovskite-Type LaFeO3");
+        //pdfs.add("acs-A Review on Perovskite-Type LaFeO3");
+        pdfs.add("ALA-INFORMATION LITERACY AND INSTRUCTIO");
         main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();
@@ -382,27 +383,18 @@ public class Extworder {
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_content.txt");
 
+		String abstrStr="";
+		if(content.abstractBlock!=null)
+			abstrStr=content.abstractBlock.string();
 		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
-				content.title(),content.abstractBlock.string()));
+				content.title(),abstrStr));
 		myWriter.write(String.format("Subtitles:\n"));
 		myWriter.write(content.subtitles());
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.body());
 		
-		//java.io.PrintStream p = new java.io.PrintStream(Common._TestDataDir+fn+"_content.txt","UTF-8");
-		//p.println(content.text());
-		
-		//File fileTemp = new File(Common._TestDataDir+fn + "_page1.jpg");
-		//ImageIO.write(content.pages.get(1).pageImg.img,"JPEG",fileTemp);
-		
 		myWriter.close();
 	}
-	
-	/*static class IgnorePage extends Common.IgnorePage {
-		public boolean isIgnored(Page page) {
-			return false;
-		}
-	}*/
 	
     static ArrayList<String> getAllTestPDFs() {
         ArrayList<String> files=new ArrayList<String>();

@@ -54,7 +54,7 @@ public class Process {
 		bodyStr=Common.joinLines(content.body());
 		
 		int top1Num=2;
-		int top2Num=3;
+		int top2Num=2;
 		top0=topKeywords(top1Num+top2Num);
 		
 		if(top0==null) {
@@ -78,16 +78,19 @@ public class Process {
 			}
 		}
 		
-		if(content.abstractBlock!=null) {
-			ArrayList<String> abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
-			if(abstractStrs!=null) {
-				abstractStrs=removeWords(abstractStrs,stopWords);
-				
-				if(keyWords!=null)
-					keyWords.addAll(abstractStrs);
-				else
-					keyWords=abstractStrs;
-			}
+		ArrayList<String> abstractStrs;
+		if(content.abstractBlock!=null)
+			abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
+		else
+			abstractStrs=Common.getWords(Common.joinLines(bodyStr),true);
+			
+		if(abstractStrs!=null) {
+			abstractStrs=removeWords(abstractStrs,stopWords);
+			
+			if(keyWords!=null)
+				keyWords.addAll(abstractStrs);
+			else
+				keyWords=abstractStrs;
 		}
 		
 		if(keyWords==null)
@@ -143,7 +146,8 @@ public class Process {
 		s=String.format("Original article word count: %d",originalWordCount);
 		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
 		
-		s=String.format("Extracted content word count: %d",extractedWordCount);
+		s=String.format("Extracted content word count: %d (%d%% of the original word count)",
+					extractedWordCount,100*extractedWordCount/originalWordCount);
 		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
 		
 		s=String.format("Title of the article: %s",content.titleBlock.string());
