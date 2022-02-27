@@ -150,7 +150,11 @@ public class Process {
 					extractedWordCount,100*extractedWordCount/originalWordCount);
 		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
 		
-		s=String.format("Title of the article: %s",content.titleBlock.string());
+		if(content.titleBlock !=null)
+			s=content.titleBlock.string();
+		else
+			s=" ";
+		s=String.format("Title of the article: %s",s);
 		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
 		
 		pw.newLine();

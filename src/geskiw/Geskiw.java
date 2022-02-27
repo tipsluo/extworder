@@ -17,8 +17,10 @@ public class Geskiw {
 		//String pdfName="A model for estimating parameters of rotational landslide";
 		//String pdfName="2column-Review-Deep learning for the design of photonic structures";
 		//String pdfName="1Column-An_ultrasensitive_photoelectro";
-		String pdfName="1-2colmn-Confidence_reports_in_decision";
+		//String pdfName="1-2colmn-Confidence_reports_in_decision";
 		//Process process=new Process("Wiley-Early life stress and HPA axis");
+		//String pdfName="ALA-Past is Prologue";
+		String pdfName="APS-Evidence for CP violation in B";
 		
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
