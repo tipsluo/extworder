@@ -165,7 +165,7 @@ public class Process {
 		
 		
 		for(Section section:outputSections) {
-			if(section.subtitleBlock!=null) {
+			if(section.subtitleBlock!=null && section.keySentences.size()>0) {
 				pw.write(new CharString(section.subtitleBlock,abbrPatterns).unmarkAbbreviation());
 			}
 			for(CharString keySentence: section.keySentences) {
