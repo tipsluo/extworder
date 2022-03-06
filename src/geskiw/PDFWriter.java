@@ -1,7 +1,9 @@
 package geskiw;
 
 import java.io.IOException;
+import java.awt.Color;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 import org.apache.pdfbox.cos.COSName;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -11,6 +13,7 @@ import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.pdmodel.font.PDFont;
 import org.apache.pdfbox.pdmodel.font.PDType1Font;
 import org.apache.pdfbox.pdmodel.font.encoding.WinAnsiEncoding;
+import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
 
 import extworder.Char;
 import extworder.Common;
@@ -22,22 +25,26 @@ public class PDFWriter {
 	private PDDocument doc;
 	PDPage page;
 	static PDFont defaultFont=PDType1Font.TIMES_ROMAN;
-	int x,y;
+	static PDFont defaultBoldFont=PDType1Font.TIMES_BOLD;
+	static PDFont defaultItalicFont=PDType1Font.TIMES_ITALIC;
+	static PDFont resultFont=PDType1Font.COURIER;
+	static PDFont resultBoldFont=PDType1Font.COURIER_BOLD;
+	private float x,y;
 	private int left;
 	private int upper;
 	private int right;
 	private int lower;
-	private int leading;
+	private float leading;
 	private PDPageContentStream stream;
 	private int rowSpace;
-	private int charSpace;
 	private CharFont bodyCharfont;
+	
 
 	public PDFWriter(String filename, CharFont bodyCharfont) {
+		x=0;y=0;
 		this.filename=filename;
 		this.bodyCharfont=bodyCharfont;
         rowSpace=Consts._RowSpace;
-        charSpace=Consts._CharSpace;
         leading=(int) ((rowSpace+bodyCharfont.height)*Consts._FontHeightRatio);
         
 		doc=new PDDocument();
@@ -45,11 +52,8 @@ public class PDFWriter {
         newPage();
 	}
 	
-	public void write(CharString cs) {
-		for(CharString cs1: prepare(cs,right-left)) {
-			printLine(cs1);
-			newLine();
-		}
+	public void write(CharString cs,PDFont pdFont) {
+		printCharString(cs,pdFont);
 	}
 	
 	public void newPage() {
@@ -77,65 +81,89 @@ public class PDFWriter {
 	        stream.beginText();
 	        stream.setLeading(leading);
 	        
+	        stream.newLineAtOffset(left,upper);
+	        
 	        x=left;
 	        y=upper;
 
-	        stream.newLineAtOffset(left,upper);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 	
 	public int newLine() {
-		y=y-leading;
-		x=left;
-		
-		if(y<=lower) {
+		float y1=y-leading;
+
+		if(y1-leading<=lower) {
 			newPage();
 			return Consts._NewPage; 
 		} else {
 			try {
-				stream.newLine();
-			} catch (IOException e) {
-				e.printStackTrace();
+				stream.newLineAtOffset(left-x,-leading);
+			} catch (IOException e1) {
+				e1.printStackTrace();
 			}
+			x=left;
+			y=y1;
 		}
 		
 		return Consts._NewLine;
 	}
 	
-	private void printLine(CharString line) {
-		float xpSum=0f;
-		
-		PDFont font=defaultFont;
+	private void printCharString(CharString line,PDFont pdFont) {
+		Char c1=line.chars.get(0);
 		
 		for(Char c:line.chars) {
 			try {
 				String s=replaceUnknownCharacter(c).str;
 				
-				setFontSize(font,c.height);
-				float xp=c.height * font.getStringWidth(s) / 1000;
-				xpSum+=xp;
+				setFontSize(pdFont,c.height);
+				float xp=c.height * pdFont.getStringWidth(s) / 1000;
 				
-				stream.newLineAtOffset(0,-c.height);
+				if(x+xp>=right) {
+					if(! Pattern.compile(Common._WordDelimeter).matcher(c.str).find() &&
+							! Pattern.compile(Common._WordDelimeter).matcher(c1.str).find()) {
+						stream.newLineAtOffset(0,leading-c.height);
+						stream.showText("-");
+						float xp1=c.height * pdFont.getStringWidth(s) / 1000;
+						stream.newLineAtOffset(xp1,c.height-leading);
+						x+=xp1;
+					}
+					
+					newLine();
+				}
 				
+				stream.newLineAtOffset(0,c.row.lower-c.lower);
 				stream.showText(s);
+				x+=xp;
 				
-				stream.newLineAtOffset(xp,c.height);
+				stream.newLineAtOffset(xp,c.lower-c.row.lower);
+				c1=c;
 					
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
-		
+	}
+	
+	public void drawHorizenLine() {
+		newLine();
 		try {
-			stream.newLineAtOffset(-xpSum,0);
+			stream.endText();
+			stream.setNonStrokingColor(Color.DARK_GRAY);
+			stream.addRect(x, y, right-x, 1);
+			stream.fill();
+			stream.beginText();
+			y-=1;
+			x=left;
+	        stream.newLineAtOffset(left,y);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		newLine();
 	}
 	
+	
+	// Prepare is kept only for backward compatible surpose
 	public ArrayList<CharString> prepare(CharString input, int pageWidth) {
 		ArrayList<CharString> output=new ArrayList<CharString>();
 		

@@ -108,7 +108,7 @@ public class Common {
 	final static Pattern scarceRow;
 	final static Pattern likeSentence1,likeSentence2,likeLeadingWord;
 
-	public final static String _WordDelimeter="[\n\r,.\":;\\?&()!\\-\\ ]";
+	public final static String _WordDelimeter="[\n\r,.\":;\\?&()!\\-\\ \\[\\]\\{\\}]";
 	static {
 		infinishedBodyBlock=Pattern.compile("[a-zA-Z0-9,]$");
 		lowercaseExisting=Pattern.compile("[a-z]");

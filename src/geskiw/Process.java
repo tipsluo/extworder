@@ -140,36 +140,45 @@ public class Process {
 	public void writePDF(String outputPDF, String originalFilename) {
 		PDFWriter pw=new PDFWriter(outputPDF,content.bodyBlockformat.charfont);
 		
-		String s=String.format("PDF file name: %s",originalFilename);
-		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
+		pw.write(new CharString.VirtualCharString("PDF file name: ",PDFWriter.defaultBoldFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultBoldFont);
+		pw.write(new CharString.VirtualCharString(originalFilename,PDFWriter.defaultItalicFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultFont);
+		pw.newLine();
+
+		pw.write(new CharString.VirtualCharString("Original article word count: ",PDFWriter.defaultBoldFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultBoldFont);
+		pw.write(new CharString.VirtualCharString(String.valueOf(originalWordCount),PDFWriter.defaultItalicFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultItalicFont);
+		pw.newLine();
 		
-		s=String.format("Original article word count: %d",originalWordCount);
-		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
-		
-		s=String.format("Extracted content word count: %d (%d%% of the original word count)",
+		String s=String.format("%d (%d%% of the original word count)",
 					extractedWordCount,100*extractedWordCount/originalWordCount);
-		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
+		pw.write(new CharString.VirtualCharString("Extracted content word count: ",PDFWriter.defaultBoldFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultBoldFont);
+		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultItalicFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultItalicFont);
+		pw.newLine();
 		
 		if(content.titleBlock !=null)
 			s=content.titleBlock.string();
 		else
 			s=" ";
-		s=String.format("Title of the article: %s",s);
-		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
-		
+		pw.write(new CharString.VirtualCharString("Title of the article: ",PDFWriter.defaultBoldFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultBoldFont);
+		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultItalicFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultItalicFont);
 		pw.newLine();
 		pw.newLine();
 		
-		s=String.format("Extracted content:");
-		pw.write(new CharString.VirtualCharString(s,PDFWriter.defaultFont,content.bodyBlockformat.charfont.height+2));
+		pw.write(new CharString.VirtualCharString("The content extracted is as following: ",PDFWriter.defaultBoldFont,content.bodyBlockformat.charfont.height),PDFWriter.defaultBoldFont);
 		
+		pw.drawHorizenLine();
+		pw.newLine();
 		
 		for(Section section:outputSections) {
 			if(section.subtitleBlock!=null && section.keySentences.size()>0) {
-				pw.write(new CharString(section.subtitleBlock,abbrPatterns).unmarkAbbreviation());
+				pw.newLine();
+				pw.write(new CharString(section.subtitleBlock,abbrPatterns).unmarkAbbreviation(),PDFWriter.resultBoldFont);
+				pw.newLine();
+				pw.newLine();
 			}
 			for(CharString keySentence: section.keySentences) {
-				pw.write(keySentence);
+				pw.write(keySentence,PDFWriter.resultFont);
+				pw.newLine();
+				pw.newLine();
 			}
 		}
 		
