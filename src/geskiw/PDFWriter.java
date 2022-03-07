@@ -17,7 +17,6 @@ import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
 
 import extworder.Char;
 import extworder.Common;
-import extworder.Row;
 import extworder.Row.CharFont;
 
 public class PDFWriter {
@@ -111,29 +110,41 @@ public class PDFWriter {
 	}
 	
 	private void printCharString(CharString line,PDFont pdFont) {
-		Char c1=line.chars.get(0);
+		//Char c1=line.chars.get(0);
+		CharString word=new CharString();
 		
-		for(Char c:line.chars) {
-			try {
+		for(int i=0; i<line.chars.size();i++) {
+			Char c=line.chars.get(i);
+			
+			word.addChar(replaceUnknownCharacter(c));
+			
+			if(Pattern.compile(Common._WordDelimeter).matcher(c.str).find()) {
+				printWord(word,pdFont);
+				word=new CharString();
+			}
+			
+			/*try {
 				String s=replaceUnknownCharacter(c).str;
 				
-				setFontSize(pdFont,c.height);
-				float xp=c.height * pdFont.getStringWidth(s) / 1000;
+				float h=Consts._FontHeightRatio * c.height;
+				
+				setFontSize(pdFont,h);
+				float xp=h * pdFont.getStringWidth(s) / 1000;
 				
 				if(x+xp>=right) {
 					if(! Pattern.compile(Common._WordDelimeter).matcher(c.str).find() &&
 							! Pattern.compile(Common._WordDelimeter).matcher(c1.str).find()) {
-						stream.newLineAtOffset(0,leading-c.height);
+						stream.newLineAtOffset(0,c.row.lower-c.lower);
 						stream.showText("-");
 						float xp1=c.height * pdFont.getStringWidth(s) / 1000;
-						stream.newLineAtOffset(xp1,c.height-leading);
+						stream.newLineAtOffset(xp1,c.lower-c.row.lower);
 						x+=xp1;
 					}
 					
 					newLine();
 				}
 				
-				setFontSize(pdFont,c.height);
+				setFontSize(pdFont,h);
 				stream.newLineAtOffset(0,c.row.lower-c.lower);
 				stream.showText(s);
 				x+=xp;
@@ -143,8 +154,62 @@ public class PDFWriter {
 					
 			} catch (IOException e) {
 				e.printStackTrace();
-			}
+			}*/
 		}
+		
+		if(word.chars.size()>0)
+			printWord(word,pdFont);
+	}
+	
+	private void printWord(CharString word,PDFont pdFont) {
+		float xSum=0;
+		
+		for(Char ch: word.chars) {
+			xSum+=getCharPrintWidth(ch,pdFont);
+		}
+		
+		if(x+xSum>=right) {
+			newLine();
+		}
+		
+		for(Char ch: word.chars) {
+			printChar(ch,pdFont);
+		}
+	}
+	
+	private void printChar(Char ch,PDFont pdFont) {
+		float h=Consts._FontHeightRatio * ch.height;
+		setFontSize(pdFont,h);
+		float xp=0;
+		try {
+			xp = h * pdFont.getStringWidth(ch.str) / 1000;
+	
+		/*if(x+xp>=right) {
+			newLine();
+		}
+		
+		setFontSize(pdFont,h);*/
+
+			stream.newLineAtOffset(0,ch.row.lower-ch.lower);
+			stream.showText(ch.str);
+			x+=xp;
+			stream.newLineAtOffset(xp,ch.lower-ch.row.lower);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private float getCharPrintWidth(Char ch, PDFont pdFont) {
+		float h=Consts._FontHeightRatio * ch.height;
+		setFontSize(pdFont,h);
+		float xp=0;
+		try {
+			xp = h * pdFont.getStringWidth(ch.str) / 1000;
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return xp;
 	}
 	
 	public void drawHorizenLine() {
@@ -223,7 +288,7 @@ public class PDFWriter {
 		return output;
 	}
 	
-	private void setFontSize(PDFont font, int height) {
+	private void setFontSize(PDFont font, float height) {
 		float fontSize=(float) ((float)height * 1000f) /
 				(float)(font.getFontDescriptor().getFontBoundingBox().getHeight());
 		try {

@@ -140,7 +140,7 @@ public class Process {
 	public void writePDF(String outputPDF, String originalFilename) {
 		PDFWriter pw=new PDFWriter(outputPDF,content.bodyBlockformat.charfont);
 		
-		float h=content.bodyBlockformat.charfont.height * Consts._FontHeightRatio;
+		float h=content.bodyBlockformat.charfont.height;
 		
 		pw.write(new CharString.VirtualCharString("PDF file name: ",PDFWriter.defaultBoldFont,h),PDFWriter.defaultBoldFont);
 		pw.write(new CharString.VirtualCharString(originalFilename,PDFWriter.defaultItalicFont,h),PDFWriter.defaultFont);
