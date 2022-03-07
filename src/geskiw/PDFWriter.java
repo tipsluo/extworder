@@ -133,6 +133,7 @@ public class PDFWriter {
 					newLine();
 				}
 				
+				setFontSize(pdFont,c.height);
 				stream.newLineAtOffset(0,c.row.lower-c.lower);
 				stream.showText(s);
 				x+=xp;
@@ -151,7 +152,7 @@ public class PDFWriter {
 		try {
 			stream.endText();
 			stream.setNonStrokingColor(Color.DARK_GRAY);
-			stream.addRect(x, y, right-x, 1);
+			stream.addRect(x, y, right-x, 0.2f);
 			stream.fill();
 			stream.beginText();
 			y-=1;
