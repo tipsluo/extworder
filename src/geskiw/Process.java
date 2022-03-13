@@ -165,7 +165,7 @@ public class Process {
 		pw.newLine();
 		pw.newLine();
 		
-		pw.write(new CharString.VirtualCharString("The content extracted is as following: ",PDFWriter.defaultBoldFont,h),PDFWriter.defaultBoldFont);
+		pw.write(new CharString.VirtualCharString("The content extracted is as follows: ",PDFWriter.defaultBoldFont,h),PDFWriter.defaultBoldFont);
 		pw.drawHorizenLine();
 		pw.newLine();
 		

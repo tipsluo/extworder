@@ -21,7 +21,9 @@ public class Geskiw {
 		//Process process=new Process("Wiley-Early life stress and HPA axis");
 		//String pdfName="ALA-Past is Prologue";
 		//String pdfName="APS-Evidence for CP violation in B";
-		String pdfName="Wiley-Early life stress and HPA axis";
+		//String pdfName="Wiley-Early life stress and HPA axis";
+		//String pdfName="AC-CanLoad-1column-Stem Cell Therapy in Heart Diseases";
+		String pdfName="1Column-An_ultrasensitive_photoelectro"; //subheading issue, same font height
 		
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);

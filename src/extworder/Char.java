@@ -17,7 +17,7 @@ public class Char extends Rectangle {
 		super();
 	}
 		
-	public Char(Char ch, String str , int wid,int hei) {
+	public Char(Char ch, String str , float wid,float hei) {
 		super();
 		this.str=String.copyValueOf(str.toCharArray());
 		height=hei;
@@ -33,8 +33,8 @@ public class Char extends Rectangle {
 	public Char(String str,float x, float y, float width, float height, PDFont font) {
 		super();
 		this.str=String.copyValueOf(str.toCharArray());
-		this.height=Math.round(height);
-		this.width=Math.round(width);
+		this.height=height;
+		this.width=width;
 		this.font=font;
 		left=Math.round(x);
 		right=(int)(Math.round(x+width-0.001));
@@ -168,7 +168,7 @@ public class Char extends Rectangle {
 		height=lower-upper;
 	}
 
-	public Char spaceChar(int wid) {
+	public Char spaceChar(float wid) {
 		Char c=new Char(" ",
 						right+1,
 						upper,

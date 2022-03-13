@@ -30,7 +30,7 @@ public class Row extends Rectangle {
 	static Comparator<Row> compareRows = (Row r1, Row r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
 	static Comparator<Row> compareRowHeights = (Row r1, Row r2) ->
-		r1.height-r2.height ;
+		(int)(r1.height-r2.height) ;
 		
 	public Row() {
 		super();

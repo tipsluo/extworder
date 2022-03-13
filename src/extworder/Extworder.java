@@ -310,7 +310,7 @@ public class Extworder {
 			for(Page page:content.pages) {
 				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
 			    		for(Char ch:page.chars) {
-				    		myWriter.write(String.format("%s (x=%d y=%d) width=%d height=%d fontname=%s\n", 
+				    		myWriter.write(String.format("%s (x=%d y=%d) width=%f height=%f fontname=%s\n", 
 				    				ch.str,ch.left,ch.upper,ch.width,ch.height,ch.font.getName()));
 				    	}
 			    	
@@ -333,7 +333,7 @@ public class Extworder {
 				for(Block block:page.blocks)
 					for(Row row:block.rows) {
 						myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
-								" width=%d height=%d fontname=%s wordint.min=%d wordint.max=%d\n", 
+								" width=%f height=%f fontname=%s wordint.min=%d wordint.max=%d\n", 
 								row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,
 								row.width,row.height,row.charfont.name,row.charReach, row.wordReach));
 					}

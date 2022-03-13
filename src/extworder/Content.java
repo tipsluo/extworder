@@ -179,6 +179,10 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
+					
+	/*	if(block.string().contains("Development and applications of the protocol"))	{
+			System.out.println("");
+		}*/
 					if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue &&
 							! blockformats.containsKey(block.format))
 						blockformats.put(block.format,evaluateBodyBlockformat(block.format));
@@ -644,7 +648,7 @@ public class Content extends PDFTextStripper {
 			
 			for(int j=0; j<page.blocks.size();j++) {
 				block=page.blocks.get(j);
-				
+
 				if(block.type==Common._Body)
 					break;
 								
