@@ -885,6 +885,11 @@ public class Content extends PDFTextStripper {
 			for(; i1>=0; i1--) {
 				Block block1=blocks.get(i1);
 				
+				Row lastRow=block1.rows.get(block1.rows.size()-1);
+				if( (block1.width - lastRow.width) > Common._SameBlockRowWidthDiff * block1.width &&
+						Common.unlikeSubtitleEnd.matcher(lastRow.string()).find())
+					continue;
+				
 				if(block0.format.compareTo(block1.format)>=0)
 					break;
 				

@@ -31,7 +31,8 @@ public class Extworder {
         //pdfs.add("Wiley-Early life stress and HPA axis");
 		//pdfs.add("NewsBased-A Peek Inside Vendor_Library Partnership to Establish aFirm Order");
         //pdfs.add("acs-A Review on Perovskite-Type LaFeO3");
-        pdfs.add("ALA-INFORMATION LITERACY AND INSTRUCTIO");
+        //pdfs.add("ALA-INFORMATION LITERACY AND INSTRUCTIO");
+        pdfs.add("1Column-An_ultrasensitive_photoelectro");
         main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();

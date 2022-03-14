@@ -107,6 +107,7 @@ public class Common {
 	final static Pattern leading2Uppercase;
 	final static Pattern scarceRow;
 	final static Pattern likeSentence1,likeSentence2,likeLeadingWord;
+	final static Pattern unlikeSubtitleEnd;
 
 	public final static String _WordDelimeter="[\n\r,.\":;\\?&()!\\-\\ \\[\\]\\{\\}]";
 	static {
@@ -120,7 +121,7 @@ public class Common {
 				"wasn't|weren't|has|have|had|did|do|didn't|don't|doesn't" +
 				"hadn't|hasn't|havn't|may|might|must|could|can|should|will|would)\\s+");
 		likeLeadingWord=Pattern.compile("^[A-Z].*$");
-		//terminated=Pattern.compile("[.!,;?:\")]$");
+		unlikeSubtitleEnd=Pattern.compile("[.,!?:]$");
 	}
 	
 	public Common() {
