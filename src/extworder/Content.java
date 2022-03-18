@@ -421,7 +421,6 @@ public class Content extends PDFTextStripper {
 			
 			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).likeBodyBlock1()>=Common._ParaSentDefaultTrue)
 				if(Block.additionalSubtitleFormatFilter.filter(block)) {
-					//block.type=Common.subtitleBlockType(block);
 					block.type=Common._SectionPrefix;
 					continue;
 				}
@@ -444,6 +443,10 @@ public class Content extends PDFTextStripper {
 					}
 			}
 		}
+	}
+	
+	private void buildTitleTree() {
+		
 	}
 	
 	private void markIntraBodyBlocks() {

@@ -3,6 +3,7 @@ package extworder;
 import java.util.ArrayList;
 
 import extworder.Block.BlockFormat;
+import extworder.Block.SubtitleBlockFilter;
 
 public class Validation {
 	public Validation() {
@@ -25,5 +26,9 @@ public class Validation {
 		return true;
 	}
 	
-	/**/
+	static int verifySubtitles(Content content) {
+		for(Block block: content.getMainBlocks()) {
+			if(SubtitleBlockFilter.filter(block))
+		}
+	}
 }
