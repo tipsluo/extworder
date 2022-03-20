@@ -50,7 +50,7 @@ public class Process {
 		readAbbreviationsFromFile(abbreviationFile);
 		readirregularsFromFile(irreNounFile);
 			
-		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false);
+		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false,extworder.Extworder.initNontitles());
 		bodyStr=Common.joinLines(content.body());
 		
 		int top1Num=2;

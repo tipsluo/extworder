@@ -57,7 +57,7 @@ public class Content extends PDFTextStripper {
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
 	ArrayList<Pattern> abbrPatterns;
-	
+	List<Block.BlockFilter> nontitleFilters;
     Common.IgnorePage ignorePage;
 	
 	public Content(String fn,
@@ -65,11 +65,13 @@ public class Content extends PDFTextStripper {
 				Common.IgnorePage ignorePage,
 				boolean ignoreIntraBlock,
 				boolean ignoreColoredBlock,
-				boolean ignoreSubtitle)  throws IOException {
+				boolean ignoreSubtitle,
+				List<Block.BlockFilter> nontitleFilters)  throws IOException {
 		
 		this.abbrPatterns=abbrPatterns;
 		this.ignoreSubtitle=ignoreSubtitle;
 		this.ignorePage=ignorePage;
+		this.nontitleFilters=nontitleFilters;
 		
 		pages=new ArrayList<Page>();
 		blockformats=new TreeMap<>();
@@ -179,10 +181,6 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					
-	/*	if(block.string().contains("Development and applications of the protocol"))	{
-			System.out.println("");
-		}*/
 					if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue &&
 							! blockformats.containsKey(block.format))
 						blockformats.put(block.format,evaluateBodyBlockformat(block.format));
@@ -659,6 +657,13 @@ public class Content extends PDFTextStripper {
 					
 				if(c==0 && titleBlock==null)  {
 					if(block.likeTitleBlock()<0)
+						continue;
+					
+					boolean nontitle=false;
+					for(BlockFilter nontitleFilter:nontitleFilters)
+						if(nontitle=nontitleFilter.filter(block))
+							break;
+					if(nontitle)
 						continue;
 					
 					ArrayList<String> strs=Common.getLetterWords(block.string(),true);
