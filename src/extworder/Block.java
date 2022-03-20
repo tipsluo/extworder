@@ -6,10 +6,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import extworder.Block.BlockFilter;
 import extworder.Block.BlockFormat;
 import extworder.Common.RangeGroup.Range;
 import extworder.Common.StatGroup;
@@ -671,6 +673,7 @@ public class Block extends Rectangle {
 		public final CharFont charfont;
 		int alignment;
 		int allUppercase;
+		boolean vIntersected;
 		
 		public BlockFormat(CharFont charfont, int indent, int alignment) {
 			this.charfont=charfont;
@@ -699,6 +702,19 @@ public class Block extends Rectangle {
 				else
 					this.allUppercase=Common._ALLUPPERCASE;
 			}
+			
+			List<Block> blocks;
+			if(block.column==null)
+				blocks=block.page.blocks;
+			else
+				blocks=block.column.blocks;
+			
+			vIntersected=false;
+			for(Block b:blocks)
+				if(block.vIntersected(b)) {
+					vIntersected=true;
+					break;
+				}
 		}
 		
 		public BlockFormat(CharFont charfont) {
@@ -789,6 +805,41 @@ public class Block extends Rectangle {
 				return true;
 			
 			return false;
+		}
+	}
+	
+	static class BigFontBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			return block.format.charfont.height>=block.page.content.bodyBlockformat.charfont.height;
+		}
+	}
+	
+	static class AllFullWidthBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			int d=block.rows.get(0).left-block.left;
+			if(d > block.format.charfont.height * Common._FirstLineIndentRatio)
+				return false;
+			
+			int i;
+			
+			for(i=1; i<block.rows.size();i++) {
+				Row row=block.rows.get(i);
+				if(! row.leftAligned(block) || ! row.rightAligned(block))
+					return false;
+			}
+			
+			Row row=block.rows.get(block.rows.size()-1);
+			if(block.rows.size()>1) {
+				if(! row.leftAligned(block))
+					return false;
+			} else {
+				if(! row.leftAligned(block) && ! row.rightAligned(block))
+					return false;
+			}
+			
+			return true;
 		}
 	}
 	

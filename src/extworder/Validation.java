@@ -26,9 +26,10 @@ public class Validation {
 		return true;
 	}
 	
-	static int verifySubtitles(Content content) {
-		for(Block block: content.getMainBlocks()) {
-			if(SubtitleBlockFilter.filter(block))
-		}
+	static boolean completeParagraphBlock(Block block) {
+		int d=block.rows.get(0).left-block.left;
+		if(d>0 && d < block.format.charfont.height * Common._FirstLineIndentRatio)
+			return true;
+		return false;
 	}
 }

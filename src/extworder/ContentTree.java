@@ -2,11 +2,14 @@ package extworder;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
+import extworder.Block.BlockFilter;
 import extworder.Block.BodyBlockFilter;
 import extworder.Block.SubtitleBlockFilter;
 
 public class ContentTree {
+	Content content;
 	Node root;
 	BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 	SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
@@ -15,17 +18,18 @@ public class ContentTree {
 	CheckLeafNode checkLeafNode;
 
 	public ContentTree(Content content) {
+		this.content=content;
 		root=new Node(content.titleBlock,null,false);
 		value=new Value();
 		
-		buildTree(content);
+		buildTree();
 		getTextNodeValue();
 	}
 	
-	private void buildTree(Content content) {
+	private void buildTree() {
 		Node node=root;
 		
-		for(Block block: content.getMainBlocks()) {
+		for(Block block: ) {
 			if(subtitleBlockFilter.filter(block)) {
 				int diff=block.format.compareTo(node.block.format);
 				if(diff==0) {
@@ -53,6 +57,17 @@ public class ContentTree {
 					node=node.addChild(block,true);
 			}
 		}
+	}
+	
+	public ArrayList<Block> getBlocks() {
+		ArrayList<Block> bs=content.filterBlocks(new Block.BigFontBlockFilter());
+		
+		ArrayList<Block> ret=new ArrayList<Block>();
+		for(Block block:bs)
+			if(block.format.vIntersected1111)
+				ret.add(block);
+		
+		return ret;
 	}
 	
 	public float evaluate() {
