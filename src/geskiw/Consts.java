@@ -17,6 +17,9 @@ public class Consts {
 	final static int _CharBaseLeft=0;
 	final static float _FontHeightRatio=1.8f;
 	final static float _FontWidthRatio=1.10f;
+	final static String nontitleStrings[] = new String[] { 
+			  "elsevier.com", 
+			  "thegreenjournal.com",};
 	
 	public Consts() {
 	}

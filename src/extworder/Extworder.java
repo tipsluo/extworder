@@ -442,7 +442,7 @@ public class Extworder {
 		}
 	}
 	
-	public static List<Block.BlockFilter> initNontitles() {
-		return new ArrayList<Block.BlockFilter>();
+	public static Content.NontitleChecker initNontitles() {
+		return new Content.NontitleChecker();
 	}
 }

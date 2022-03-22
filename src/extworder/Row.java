@@ -385,10 +385,6 @@ public class Row extends Rectangle {
 			return false;
 		
 		return lastMainFontChar() < lt;
-		
-		/*String s=chars.get(chars.size()-1).str;
-		
-		return Common.terminated.matcher(s).find();*/
 	}
 	
 	int firstParagraphLineInRect(Rectangle rect) {

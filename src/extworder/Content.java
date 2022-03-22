@@ -57,7 +57,7 @@ public class Content extends PDFTextStripper {
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
 	ArrayList<Pattern> abbrPatterns;
-	List<Block.BlockFilter> nontitleFilters;
+	NontitleChecker nontitleChecker;
     Common.IgnorePage ignorePage;
 	
 	public Content(String fn,
@@ -66,12 +66,12 @@ public class Content extends PDFTextStripper {
 				boolean ignoreIntraBlock,
 				boolean ignoreColoredBlock,
 				boolean ignoreSubtitle,
-				List<Block.BlockFilter> nontitleFilters)  throws IOException {
+				NontitleChecker nontitleChecker)  throws IOException {
 		
 		this.abbrPatterns=abbrPatterns;
 		this.ignoreSubtitle=ignoreSubtitle;
 		this.ignorePage=ignorePage;
-		this.nontitleFilters=nontitleFilters;
+		this.nontitleChecker=nontitleChecker;
 		
 		pages=new ArrayList<Page>();
 		blockformats=new TreeMap<>();
@@ -640,6 +640,8 @@ public class Content extends PDFTextStripper {
 		Block block=null;
 		BlockFormat titleBlockformat=bodyBlockformat;
 		
+		nontitleChecker.check(this);
+		
 		for(Page page:pages) {
 			if(page.ignored())
 				continue;
@@ -650,7 +652,7 @@ public class Content extends PDFTextStripper {
 				if(block.type==Common._Body)
 					break;
 								
-				int c=block.format.compareTo(titleBlockformat);
+				int c=block.format.charfont.compareTo(titleBlockformat.charfont);
 				
 				if(c<0)
 					continue; 
@@ -658,12 +660,8 @@ public class Content extends PDFTextStripper {
 				if(c==0 && titleBlock==null)  {
 					if(block.likeTitleBlock()<0)
 						continue;
-					
-					boolean nontitle=false;
-					for(BlockFilter nontitleFilter:nontitleFilters)
-						if(nontitle=nontitleFilter.filter(block))
-							break;
-					if(nontitle)
+
+					if(! nontitleChecker.select(block))
 						continue;
 					
 					ArrayList<String> strs=Common.getLetterWords(block.string(),true);
@@ -1033,5 +1031,13 @@ public class Content extends PDFTextStripper {
 	    {
 	        // do stuff
 	    }
+	}
+	
+	static public class NontitleChecker {
+		public void check(Content c) {
+		}
+		public boolean select(Block block) {
+			return true;
+		}
 	}
 }

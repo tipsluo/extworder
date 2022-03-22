@@ -16,6 +16,7 @@ import extworder.Block.BodyBlockFilter;
 import extworder.Common.StatGroup;
 import extworder.Block.SubtitleBlockFilter;
 import extworder.Content;
+import extworder.Content.NontitleChecker;
 import extworder.Page;
 import extworder.Row;
 import geskiw.Word.WordStatGroup;
@@ -50,7 +51,7 @@ public class Process {
 		readAbbreviationsFromFile(abbreviationFile);
 		readirregularsFromFile(irreNounFile);
 			
-		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false,extworder.Extworder.initNontitles());
+		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false, new ScholarNontitleChecker());
 		bodyStr=Common.joinLines(content.body());
 		
 		int top1Num=2;
@@ -395,6 +396,31 @@ public class Process {
 		
 		public void addKeySentence(CharString sentence) {
 			keySentences.add(sentence);
+		}
+	}
+	
+	public class ScholarNontitleChecker extends NontitleChecker {
+		boolean firstTitle=true;
+		boolean contentMatched=false;
+
+		public ScholarNontitleChecker() {
+		}
+		
+		public void check(Content c) {
+			for(Block block:c.pages.get(0).blocks)
+				for(String str: Consts.nontitleStrings)
+					if(block.string().contains(str)) {
+						contentMatched=true;
+						return;
+					}
+		}
+		
+		public boolean select(Block block) {
+			if(contentMatched && firstTitle) {
+				firstTitle=false;
+				return false;
+			}
+			return true;
 		}
 	}
 }
