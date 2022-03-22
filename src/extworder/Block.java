@@ -677,9 +677,9 @@ public class Block extends Rectangle {
 		
 		public BlockFormat(CharFont charfont, int indent, int alignment) {
 			this.charfont=charfont;
-			//this.indent=indent;
 			this.alignment=alignment;
 			allUppercase=Common._NOTALLUPPERCASE;
+			vIntersected=false;
 		}
 		
 		public BlockFormat(Block block) {
@@ -721,6 +721,7 @@ public class Block extends Rectangle {
 			this.charfont=charfont;
 			this.alignment=Common._UNKNOWNALIGNED;
 			this.allUppercase=Common._NOTALLUPPERCASE;
+			vIntersected=false;
 		}
 		
 		@Override
@@ -735,7 +736,10 @@ public class Block extends Rectangle {
 		
 		@Override
 		public int hashCode() {
-			int hash=charfont.value() * 2 + allUppercase;
+			int hash=charfont.value() * 4 + allUppercase*2;
+			
+			if(vIntersected)
+				hash++;
 	        
 	        return hash;
 		}
@@ -812,6 +816,13 @@ public class Block extends Rectangle {
 		@Override
 		public boolean filter(Block block) {
 			return block.format.charfont.height>=block.page.content.bodyBlockformat.charfont.height;
+		}
+	}
+	
+	static class CenteredBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block block) {
+			return block.format.alignment==Common._CENTERALIGNED && ! block.format.vIntersected;
 		}
 	}
 	

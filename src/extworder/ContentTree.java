@@ -2,11 +2,14 @@ package extworder;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 import extworder.Block.BlockFilter;
+import extworder.Block.BlockFormat;
 import extworder.Block.BodyBlockFilter;
 import extworder.Block.SubtitleBlockFilter;
+import extworder.Common.StatGroup;
 
 public class ContentTree {
 	Content content;
@@ -22,56 +25,72 @@ public class ContentTree {
 		root=new Node(content.titleBlock,null,false);
 		value=new Value();
 		
-		buildTree();
-		getTextNodeValue();
+		List<Block> blocks=getBodyBlocks(0, (int)(content.pages.size()/2)+1);
+		Map<BlockFormat,Integer> bfsg=getSubtitleFormats(blocks).sortByValue();
+		//buildTree
+		//getTextNodeValue();
 	}
 	
-	private void buildTree() {
-		Node node=root;
+	private void evaluate(Map<BlockFormat,Integer> bfsg) {
 		
-		for(Block block: ) {
-			if(subtitleBlockFilter.filter(block)) {
-				int diff=block.format.compareTo(node.block.format);
-				if(diff==0) {
-					node=node.parent.addChild(block,node.textNode);
-				} else if(diff>0) {
-					Node n;
-					for(n=node; 
-							block.format.compareTo(n.block.format)>=0; 
-							n=n.parent) {
-						if(n.parent==null)
-							break;
-					}
-					
-					if(n.parent==null)
-						node=n.addChild(block,false);
-					else
-						node.parent.addChild(block,false);
-				} else {
+	}
+	
+	private int buildTree(List<Block> blocks, BlockFormat blockformat) {
+		Node node=root;
+		int noprocess=0;
+		
+		for(Block block:blocks) {
+			if(! block.format.equals(blockformat)) {
+				if(block.format.charfont.height < node.block.format.charfont.height) {
 					node=node.addChild(block,false);
+				} else {
+					Node n=node.parent;
+					if(n==null)
+						noprocess++;
+					
+					node=n.addChild(block,false);
 				}
-			} else if(bodyBlockFilter.filter(block)) {
-				if(node.textNode)
-					node=node.parent.addChild(block,true);
-				else
+			} else {
+				if(node.textNode) {
+					Node n=node.parent;
+					if(n==null)
+						noprocess++;
+					
+					node=n.addChild(block,true);
+				}else
 					node=node.addChild(block,true);
 			}
 		}
+		
+		return noprocess;
 	}
 	
-	public ArrayList<Block> getBlocks() {
-		ArrayList<Block> bs=content.filterBlocks(new Block.BigFontBlockFilter());
+	private ArrayList<Block> getBodyBlocks(int startPage, int endPage) {
+		ArrayList<Block> bs=content.filterBlocks(new Block.BigFontBlockFilter(),
+													new Block.CenteredBlockFilter());
+		bs=content.filterBlocks(new Block.AllFullWidthBlockFilter());
 		
-		ArrayList<Block> ret=new ArrayList<Block>();
+		ArrayList<Block> newbs=new ArrayList<Block>();
 		for(Block block:bs)
-			if(block.format.vIntersected1111)
-				ret.add(block);
-		
-		return ret;
+			if(block.page.id<=endPage && block.page.id>=startPage)
+				newbs.add(block);
+			
+		return newbs;
 	}
 	
-	public float evaluate() {
-		return value.textNodeCount * value.textNodeCount / value.leafNodeCount;
+	private StatGroup<BlockFormat> getSubtitleFormats(List<Block> blocks) {
+		StatGroup<BlockFormat> bfsg=new StatGroup<BlockFormat>();
+		
+		int i;
+		for(i=0;i<blocks.size();i++) {
+			Block block=blocks.get(i);
+			if(block.format.equals(content.bodyBlockformat) && i>0) {
+				BlockFormat bf=blocks.get(i-1).format;
+				bfsg.add(bf);
+			}
+		}
+		
+		return bfsg;
 	}
 	
 	private void getTextNodeValue() {
@@ -94,6 +113,7 @@ public class ContentTree {
 	}
 	
 	static class Value {
+		int noprocess=0;
 		int textNodeCount=0;
 		int leafNodeCount=0;
 	}

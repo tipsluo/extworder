@@ -33,4 +33,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/extworder/ContentTree.java</name>
+			<type>1</type>
+			<location>C:/usaLYF/projects/workspace/extworder/src/extworder/ContentTree.java</location>
+		</link>
+	</linkedResources>
 </projectDescription>

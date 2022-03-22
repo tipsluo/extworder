@@ -596,6 +596,19 @@ public class Content extends PDFTextStripper {
 		return bs;
 	}
 	
+	public List<Block> filterBlocks(List<Block> bs, BlockFilter ...blockFilters) {
+		ArrayList<Block> newbs=new ArrayList<Block>();
+		
+		for(Block b:bs)
+			for(BlockFilter bf: blockFilters)
+				if(bf.filter(b)) {
+					newbs.add(b);
+					break;
+				}
+		
+		return newbs;
+	}
+	
 	public ArrayList<Block> removeTailingSections(ArrayList<Block> inputBlocks) {
 		boolean reachedLastSubtitle=false;
 		boolean bodyFinished=false;
