@@ -110,7 +110,6 @@ public class PDFWriter {
 	}
 	
 	private void printCharString(CharString line,PDFont pdFont) {
-		//Char c1=line.chars.get(0);
 		CharString word=new CharString();
 		
 		for(int i=0; i<line.chars.size();i++) {
@@ -122,39 +121,6 @@ public class PDFWriter {
 				printWord(word,pdFont);
 				word=new CharString();
 			}
-			
-			/*try {
-				String s=replaceUnknownCharacter(c).str;
-				
-				float h=Consts._FontHeightRatio * c.height;
-				
-				setFontSize(pdFont,h);
-				float xp=h * pdFont.getStringWidth(s) / 1000;
-				
-				if(x+xp>=right) {
-					if(! Pattern.compile(Common._WordDelimeter).matcher(c.str).find() &&
-							! Pattern.compile(Common._WordDelimeter).matcher(c1.str).find()) {
-						stream.newLineAtOffset(0,c.row.lower-c.lower);
-						stream.showText("-");
-						float xp1=c.height * pdFont.getStringWidth(s) / 1000;
-						stream.newLineAtOffset(xp1,c.lower-c.row.lower);
-						x+=xp1;
-					}
-					
-					newLine();
-				}
-				
-				setFontSize(pdFont,h);
-				stream.newLineAtOffset(0,c.row.lower-c.lower);
-				stream.showText(s);
-				x+=xp;
-				
-				stream.newLineAtOffset(xp,c.lower-c.row.lower);
-				c1=c;
-					
-			} catch (IOException e) {
-				e.printStackTrace();
-			}*/
 		}
 		
 		if(word.chars.size()>0)
@@ -178,17 +144,11 @@ public class PDFWriter {
 	}
 	
 	private void printChar(Char ch,PDFont pdFont) {
-		float h=Consts._FontHeightRatio * ch.height;
+		float h=ch.height;
 		setFontSize(pdFont,h);
 		float xp=0;
 		try {
 			xp = h * pdFont.getStringWidth(ch.str) / 1000;
-	
-		/*if(x+xp>=right) {
-			newLine();
-		}
-		
-		setFontSize(pdFont,h);*/
 
 			stream.newLineAtOffset(0,ch.row.lower-ch.lower);
 			stream.showText(ch.str);
