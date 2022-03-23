@@ -660,9 +660,6 @@ public class Content extends PDFTextStripper {
 				if(c==0 && titleBlock==null)  {
 					if(block.likeTitleBlock()<0)
 						continue;
-
-					if(! nontitleChecker.select(block))
-						continue;
 					
 					ArrayList<String> strs=Common.getLetterWords(block.string(),true);
 					if(Common.hits(allWords,strs) < Common._MinTitleFreqencyRatio)
@@ -670,6 +667,9 @@ public class Content extends PDFTextStripper {
 				}
 				
 				if(c==0 && titleBlock!=null)
+					continue;
+				
+				if(! nontitleChecker.select(block))
 					continue;
 					
 				titleBlock=block;
