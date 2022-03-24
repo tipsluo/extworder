@@ -23,9 +23,9 @@ public class PDFWriter {
 	private String filename;
 	private PDDocument doc;
 	PDPage page;
-	static PDFont defaultFont=PDType1Font.TIMES_ROMAN;
-	static PDFont defaultBoldFont=PDType1Font.TIMES_BOLD;
-	static PDFont defaultItalicFont=PDType1Font.TIMES_ITALIC;
+	static PDFont summaryFont=PDType1Font.TIMES_ROMAN;
+	static PDFont summaryBoldFont=PDType1Font.TIMES_BOLD;
+	static PDFont summaryItalicFont=PDType1Font.TIMES_ITALIC;
 	static PDFont resultFont=PDType1Font.COURIER;
 	static PDFont resultBoldFont=PDType1Font.COURIER_BOLD;
 	private float x,y;
@@ -44,7 +44,7 @@ public class PDFWriter {
 		this.filename=filename;
 		this.bodyCharfont=bodyCharfont;
         rowSpace=Consts._RowSpace;
-        leading=(int) ((rowSpace+bodyCharfont.height)*Consts._FontHeightRatio);
+        leading=rowSpace+bodyCharfont.height + Consts._AddtionalFontHeight;  //init value only
         
 		doc=new PDDocument();
 
@@ -78,7 +78,7 @@ public class PDFWriter {
         try {
 			stream=new PDPageContentStream(doc, page);
 	        stream.beginText();
-	        stream.setLeading(leading);
+	        //stream.setLeading(leading);
 	        
 	        stream.newLineAtOffset(left,upper);
 	        
@@ -110,6 +110,8 @@ public class PDFWriter {
 	}
 	
 	private void printCharString(CharString line,PDFont pdFont) {
+		leading=line.height;
+				
 		CharString word=new CharString();
 		
 		for(int i=0; i<line.chars.size();i++) {
@@ -145,6 +147,7 @@ public class PDFWriter {
 	
 	private void printChar(Char ch,PDFont pdFont) {
 		float h=ch.height;
+		
 		setFontSize(pdFont,h);
 		float xp=0;
 		try {
@@ -155,13 +158,12 @@ public class PDFWriter {
 			x+=xp;
 			stream.newLineAtOffset(xp,ch.lower-ch.row.lower);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
 	private float getCharPrintWidth(Char ch, PDFont pdFont) {
-		float h=Consts._FontHeightRatio * ch.height;
+		float h=Consts._AddtionalFontHeight + ch.height;
 		setFontSize(pdFont,h);
 		float xp=0;
 		try {
@@ -189,7 +191,7 @@ public class PDFWriter {
 	}
 	
 	
-	// Prepare is kept only for backward compatible surpose
+	/* Prepare is kept only for backward compatible surpose
 	public ArrayList<CharString> prepare(CharString input, int pageWidth) {
 		ArrayList<CharString> output=new ArrayList<CharString>();
 		
@@ -246,7 +248,7 @@ public class PDFWriter {
 			output.add(lineString);
 		
 		return output;
-	}
+	}*/
 	
 	private void setFontSize(PDFont font, float height) {
 		float fontSize=(float) ((float)height * 1000f) /

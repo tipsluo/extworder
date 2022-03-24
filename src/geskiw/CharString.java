@@ -18,10 +18,12 @@ public class CharString {
 	ArrayList<Char> chars;
 	private String string;
 	HashMap<Integer,Char> charmap;
+	float height;
 	
 	public CharString() {
 		chars=new ArrayList<Char>();
 		string="";
+		height=0;
 	}
 	
 	public CharString(ArrayList<Block> blocks,ArrayList<Pattern> abbrPatterns) {
@@ -41,23 +43,23 @@ public class CharString {
 		markAbbreviation(abbrPatterns);
 	}
 	
-	public void addChar(Char c) {
-		chars.add(c);
-	}
-	
 	public void addAllChars(CharString cs) {
 		chars.addAll(cs.chars);
+		
+		if(height<cs.height)
+			height=cs.height;
 	}
 	
 	public void build(ArrayList<Block> blocks) {
 		Char c=null;
 		Char c0=null;
 		boolean lastDash=false;
+		height=0;
 		
 		for(Block block:blocks) {
 			for(Row row:block.rows) {
 				if(c!=null && !lastDash)
-					chars.add(c.spaceChar(c.width));	// not the first row
+					addChar(c.spaceChar(c.width));	// not the first row
 				
 				c0=row.chars.get(0);
 				for(int i=0;i<row.chars.size();i++) {
@@ -74,12 +76,19 @@ public class CharString {
 					
 					if(! c.str.equals(" ") && ! c0.str.equals(" ") &&
 							c0!=c && ! Common.connectedChars(c0,c))
-						chars.add(c0.spaceChar(c.left-c0.right-1));
-					chars.add(c);
+						addChar(c0.spaceChar(c.left-c0.right-1));
+					addChar(c);
 					c0=c;
 				}
 			}
 		}
+	}
+	
+	public void addChar(Char c) {
+		chars.add(c);
+
+		if(height<c.height)
+			height=c.height;
 	}
 
 	
@@ -145,7 +154,7 @@ public class CharString {
 			start=false;
 			
 			if(ch.str.equals(".") || ch.str.equals("!") || ch.str.equals("?")) {
-				cs.chars.add(ch);
+				cs.addChar(ch);
 				delimiter=true;
 				continue;
 			}
@@ -157,8 +166,9 @@ public class CharString {
 						ch.str.equals("\"") ||
 						ch.str.equals(")")) {
 					
-					if(ch.str.equals("\"") || ch.str.equals(")"))
+					if(ch.str.equals("\"") || ch.str.equals(")")) {
 						cs.chars.add(ch);
+					}
 					
 					ret.add(cs);
 					cs=new CharString();
@@ -166,7 +176,7 @@ public class CharString {
 				} else {
 					ret.add(cs);
 					cs=new CharString();
-					cs.chars.add(ch);
+					cs.addChar(ch);
 					start=true;
 				}
 				
@@ -174,23 +184,25 @@ public class CharString {
 				continue;
 			}
 			
-			cs.chars.add(ch);
+			cs.addChar(ch);
 		}
 		
 		ret.add(cs);
 		return ret;
 	}
 	
-	static public class VirtualCharString extends CharString {
+	public static class VirtualCharString extends CharString {
 		public VirtualCharString(String s, PDFont font, float height) {
 			super();
 			
 			for(int i=0;i<s.length();i++) {
 				VirtualChar ch=new VirtualChar(s.substring(i,i+1),height,font);
-				chars.add(ch);
+				addChar(ch);
 			}
 			
 			VirtualRow row=new VirtualRow(chars);
+			
+			this.height=height;
 		}
 	}
 }

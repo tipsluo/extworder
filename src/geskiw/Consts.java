@@ -15,7 +15,8 @@ public class Consts {
 	final static int _Margin=30;
 	final static int _LineBaseUpper=0;
 	final static int _CharBaseLeft=0;
-	final static float _FontHeightRatio=1.8f;
+	final static float _AddtionalFontHeight=1.8f;
+	final static float _AddtionalSummaryFontHeight=0.6f;
 	final static float _FontWidthRatio=1.10f;
 	final static String nontitleStrings[] = new String[] { 
 			  "elsevier.com", 
