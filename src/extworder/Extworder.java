@@ -37,10 +37,11 @@ public class Extworder {
         //pdfs.add("ScientificReports-2022-Cost-efective fltering of unreliable");
         //pdfs.add("ScientificReports-2019-Dental pulp cell-derived powerful inducer");
         //pdfs.add("ScientificReports-2017-Detection of American Football Head");
-        pdfs.add("ScientificReports-2022-Accessing_the_degree_of_Majora");
+        //pdfs.add("ScientificReports-2022-Accessing_the_degree_of_Majora");
         //pdfs.add("Elsevier-2021-Nicotinamide mononucleotide (NMN)");
         //pdfs.add("Elsevier-2022-A high precision intrusion detection system for network s");
         //pdfs.add("Elsevier-2021-Towards security automation in Software Defined");
+        pdfs.add("Psy-2022-Racial Discrimination Distress Coping Motives");
         main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();
@@ -424,7 +425,7 @@ public class Extworder {
     	return _TestDataDir+pdfName+".pdf";
     }
 	
-	static class IgnorePage extends Common.IgnorePage {
+	static class IgnorePage extends Content.IgnorePage {
 		final String[] pstr=new String[]{
 			"LENDER",
 			"BORROWER",

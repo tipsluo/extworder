@@ -362,19 +362,27 @@ public class Process {
 		return ret;
 	}
 	
-	class IgnorePage extends Common.IgnorePage {
-		final String[] pstr=new String[]{
+	class IgnorePage extends Content.IgnorePage {
+		final String[] pstrs=new String[]{
 			"LENDER",
 			"BORROWER",
 			"SAGE Businesscases",
-			"JSTOR is a not-for-profit service that helps scholars"
+			"JSTOR is a not-for-profit service that helps scholars",
+			"^\s*CITATION"
 		};
 		
+		Pattern[] patterns=new Pattern[pstrs.length];
+		
+		public IgnorePage() {
+			for(int i=0; i<pstrs.length; i++)
+				patterns[i]=Pattern.compile(pstrs[i]);
+		}
+		
 		public boolean isIgnored(Page page) {
-			String str=page.string();
-			for(int i=0; i<pstr.length; i++)
-				if (str.contains(pstr[i]))
-					return true;
+			for(Block block:page.blocks)
+				for(int i=0; i<pstrs.length; i++)
+					if (patterns[i].matcher(block.string()).find())
+						return true;
 
 			return false;
 		}

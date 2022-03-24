@@ -441,10 +441,6 @@ public class Common {
 			return sortedRecords;
 		}
 	}
-
-	static abstract public class IgnorePage {
-		public abstract boolean isIgnored(Page page);
-	}
 	
 	public static class Stretch implements Comparable<Stretch> {
 		protected int start;

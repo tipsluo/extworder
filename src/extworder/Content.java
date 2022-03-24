@@ -58,11 +58,11 @@ public class Content extends PDFTextStripper {
 	int bgRGB;
 	ArrayList<Pattern> abbrPatterns;
 	NontitleChecker nontitleChecker;
-    Common.IgnorePage ignorePage;
+    IgnorePage ignorePage;
 	
 	public Content(String fn,
 				ArrayList<Pattern> abbrPatterns,
-				Common.IgnorePage ignorePage,
+				IgnorePage ignorePage,
 				boolean ignoreIntraBlock,
 				boolean ignoreColoredBlock,
 				boolean ignoreSubtitle,
@@ -642,15 +642,20 @@ public class Content extends PDFTextStripper {
 		
 		nontitleChecker.check(this);
 		
+		boolean broken=false;
+		
 		for(Page page:pages) {
 			if(page.ignored())
 				continue;
 			
 			for(int j=0; j<page.blocks.size();j++) {
+				broken=false;
 				block=page.blocks.get(j);
 
-				if(block.type==Common._Body)
+				if(block.type==Common._Body || block.trivial()) {
+					broken=true;
 					break;
+				}
 								
 				int c=block.format.charfont.compareTo(titleBlockformat.charfont);
 				
@@ -676,7 +681,7 @@ public class Content extends PDFTextStripper {
 				titleBlockformat=titleBlock.format;
 			}
 			
-			if(block.type==Common._Body)
+			if(broken)
 				break;
 		}
 			
@@ -1039,5 +1044,9 @@ public class Content extends PDFTextStripper {
 		public boolean select(Block block) {
 			return true;
 		}
+	}
+	
+	static abstract public class IgnorePage {
+		public abstract boolean isIgnored(Page page);
 	}
 }
