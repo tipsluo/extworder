@@ -363,26 +363,50 @@ public class Process {
 	}
 	
 	class IgnorePage extends Content.IgnorePage {
-		final String[] pstrs=new String[]{
-			"LENDER",
-			"BORROWER",
-			"SAGE Businesscases",
-			"JSTOR is a not-for-profit service that helps scholars",
-			"^\s*CITATION"
+		final String[][] pstrLists=new String[][]{
+			{"LENDER"},
+			{"BORROWER"},
+			{"SAGE Businesscases"},
+			{"JSTOR is a not-for-profit service that helps scholars"},
+			{"^\s*CITATION"}
 		};
 		
-		Pattern[] patterns=new Pattern[pstrs.length];
+		List<List<Pattern>> patternLists;
 		
 		public IgnorePage() {
-			for(int i=0; i<pstrs.length; i++)
-				patterns[i]=Pattern.compile(pstrs[i]);
+			patternLists=new ArrayList<List<Pattern>>();
+			
+			for(int i=0; i<pstrLists.length; i++) {
+				ArrayList<Pattern> patternList=new ArrayList<Pattern>();
+				
+				for(int j=0; j<pstrLists[i].length; j++)
+					patternList.add(Pattern.compile(pstrLists[i][j]));
+				
+				patternLists.add(patternList);
+			}
 		}
 		
 		public boolean isIgnored(Page page) {
-			for(Block block:page.blocks)
-				for(int i=0; i<pstrs.length; i++)
-					if (patterns[i].matcher(block.string()).find())
-						return true;
+			boolean matched=false;
+			
+			for(List<Pattern> patternList: patternLists) {
+				for(Pattern pattern: patternList) {
+					matched=false;
+					
+					for(Block block:page.blocks) {
+						if(pattern.matcher(block.string()).find()) {
+							matched=true;
+							break;
+						}
+					}
+					
+					if(! matched)
+						break;
+				}	
+					
+				if(matched)
+					return true;
+			}
 
 			return false;
 		}
