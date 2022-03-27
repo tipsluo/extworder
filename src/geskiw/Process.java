@@ -49,6 +49,7 @@ public class Process {
 		
 		readStopWordsFromFile(stopWordFile);
 		readAbbreviationsFromFile(abbreviationFile);
+
 		readirregularsFromFile(irreNounFile);
 			
 		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false, new ScholarNontitleChecker());

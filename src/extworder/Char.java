@@ -181,6 +181,11 @@ public class Char extends Rectangle {
 		return c;
 	}
 	
+	public boolean smallChar() {
+		float diff=row.height-height;
+		return diff>0 && diff/row.height > Common._SmallCharDiffenceRatio;
+	}
+	
 	static public class Point {
 		int x,y;
 		Char ch;

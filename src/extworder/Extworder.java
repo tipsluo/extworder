@@ -41,7 +41,8 @@ public class Extworder {
         //pdfs.add("Elsevier-2021-Nicotinamide mononucleotide (NMN)");
         //pdfs.add("Elsevier-2022-A high precision intrusion detection system for network s");
         //pdfs.add("Elsevier-2021-Towards security automation in Software Defined");
-        pdfs.add("Psy-2022-Racial Discrimination Distress Coping Motives");
+        //pdfs.add("Psy-2022-Racial Discrimination Distress Coping Motives");
+        pdfs.add("2020-Clinic-E__ect of oral administration of nicotinamide");
         main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();

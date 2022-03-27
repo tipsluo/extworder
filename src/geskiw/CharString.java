@@ -160,16 +160,14 @@ public class CharString {
 			}
 			
 			if(delimiter) {
+				if(ch.str.equals("\"") || ch.str.equals(")") || ch.smallChar()) {
+					cs.chars.add(ch);
+					continue;
+				}
+				
 				if(ch.str.equals(" ") || 
 						ch.str.equals("\n") || 
-						ch.str.equals("\r") ||
-						ch.str.equals("\"") ||
-						ch.str.equals(")")) {
-					
-					if(ch.str.equals("\"") || ch.str.equals(")")) {
-						cs.chars.add(ch);
-					}
-					
+						ch.str.equals("\r")) {
 					ret.add(cs);
 					cs=new CharString();
 					start=true;

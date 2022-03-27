@@ -33,7 +33,7 @@ public class Common {
 	final static float _FirstLineIndentRatio=5f;
 	final static float _MaxUpperLeftWidthRatio=3f;
 	final static int _MaxSameBlockRowGapAdj=1;
-	
+	final static float _SmallCharDiffenceRatio=0.3f;
 	final static float _MaxMissingAlignedInColumnRation=0.3f;
 	final static float _MaxNoAlignedInBlockRation=0.3f;
 	final static float _MaxLeadingCapitalRatio=0.35f;
