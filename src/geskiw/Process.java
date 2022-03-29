@@ -51,8 +51,11 @@ public class Process {
 		readAbbreviationsFromFile(abbreviationFile);
 
 		readirregularsFromFile(irreNounFile);
-			
-		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false, new ScholarNontitleChecker());
+		
+		List<NontitleChecker> nontitleCheckers=new ArrayList<NontitleChecker>();
+		nontitleCheckers.add(new NontitleFirstStringChecker());
+		nontitleCheckers.add(new NontitleBlockStringChecker());
+		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false, nontitleCheckers);
 		bodyStr=Common.joinLines(content.body());
 		
 		int top1Num=2;
@@ -363,25 +366,17 @@ public class Process {
 		return ret;
 	}
 	
-	class IgnorePage extends Content.IgnorePage {
-		final String[][] pstrLists=new String[][]{
-			{"LENDER"},
-			{"BORROWER"},
-			{"SAGE Businesscases"},
-			{"JSTOR is a not-for-profit service that helps scholars"},
-			{"^\s*CITATION"}
-		};
-		
+	class IgnorePage extends Content.IgnorePage {		
 		List<List<Pattern>> patternLists;
 		
 		public IgnorePage() {
 			patternLists=new ArrayList<List<Pattern>>();
 			
-			for(int i=0; i<pstrLists.length; i++) {
+			for(int i=0; i<Consts._IgnorePageLists.length; i++) {
 				ArrayList<Pattern> patternList=new ArrayList<Pattern>();
 				
-				for(int j=0; j<pstrLists[i].length; j++)
-					patternList.add(Pattern.compile(pstrLists[i][j]));
+				for(int j=0; j<Consts._IgnorePageLists[i].length; j++)
+					patternList.add(Pattern.compile(Consts._IgnorePageLists[i][j]));
 				
 				patternLists.add(patternList);
 			}
@@ -433,26 +428,67 @@ public class Process {
 		}
 	}
 	
-	public class ScholarNontitleChecker extends NontitleChecker {
+	public class NontitleFirstStringChecker extends NontitleChecker {
+		private List<Pattern> patterns=new ArrayList<Pattern>();
+		
 		boolean firstTitle=true;
 		boolean contentMatched=false;
 
-		public ScholarNontitleChecker() {
+		public NontitleFirstStringChecker() {
 		}
 		
+		@Override
 		public void check(Content c) {
+			for(String str: Consts._NontitlePageStrings) {
+				Pattern p=Pattern.compile(str);
+				patterns.add(p);
+			}
+			
 			for(Block block:c.pages.get(0).blocks)
-				for(String str: Consts.nontitleStrings)
-					if(block.string().contains(str)) {
+				for(Pattern p:patterns)
+					if(p.matcher(block.string()).find()) {
 						contentMatched=true;
 						return;
 					}
 		}
 		
+		@Override
 		public boolean select(Block block) {
 			if(contentMatched && firstTitle) {
 				firstTitle=false;
 				return false;
+			}
+			return true;
+		}
+	}
+	
+	public class NontitleBlockStringChecker extends NontitleChecker {
+		private List<Pattern> pageCriterias=new ArrayList<Pattern>();
+		private List<Pattern> blockCriterias=new ArrayList<Pattern>();
+		
+		@Override
+		public void check(Content content) {
+			int i=-1;
+			for(i=0; i<Consts._NontitleBlockStrings.length; i++) {
+				Pattern p=Pattern.compile(Consts._NontitleBlockStrings[i][0]);
+				pageCriterias.add(p);
+			}
+			for(i=0; i<Consts._NontitleBlockStrings.length; i++) {
+				Pattern p=Pattern.compile(Consts._NontitleBlockStrings[i][1]);
+				blockCriterias.add(p);
+			}
+		}
+		
+		@Override
+		public boolean select(Block block) {
+			int i;
+			String s=block.string();
+		
+			for(i=0; i<Consts._NontitleBlockStrings.length; i++)
+				if(blockCriterias.get(i).matcher(s).find()) {
+					for(Block b:block.page.content.pages.get(0).blocks)
+						if(pageCriterias.get(i).matcher(b.string()).find())
+							return false;
 			}
 			return true;
 		}

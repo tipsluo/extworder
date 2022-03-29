@@ -57,7 +57,7 @@ public class Content extends PDFTextStripper {
 	BlockFormatChain subtitleFormatChain;
 	int bgRGB;
 	ArrayList<Pattern> abbrPatterns;
-	NontitleChecker nontitleChecker;
+	List<NontitleChecker> nontitleCheckers;
     IgnorePage ignorePage;
 	
 	public Content(String fn,
@@ -66,12 +66,12 @@ public class Content extends PDFTextStripper {
 				boolean ignoreIntraBlock,
 				boolean ignoreColoredBlock,
 				boolean ignoreSubtitle,
-				NontitleChecker nontitleChecker)  throws IOException {
+				List<NontitleChecker> nontitleCheckers)  throws IOException {
 		
 		this.abbrPatterns=abbrPatterns;
 		this.ignoreSubtitle=ignoreSubtitle;
 		this.ignorePage=ignorePage;
-		this.nontitleChecker=nontitleChecker;
+		this.nontitleCheckers=nontitleCheckers;
 		
 		pages=new ArrayList<Page>();
 		blockformats=new TreeMap<>();
@@ -640,7 +640,8 @@ public class Content extends PDFTextStripper {
 		Block block=null;
 		BlockFormat titleBlockformat=bodyBlockformat;
 		
-		nontitleChecker.check(this);
+		for(NontitleChecker nontitleChecker: nontitleCheckers)
+			nontitleChecker.check(this);
 		
 		boolean broken=false;
 		
@@ -651,8 +652,10 @@ public class Content extends PDFTextStripper {
 			for(int j=0; j<page.blocks.size();j++) {
 				broken=false;
 				block=page.blocks.get(j);
+                if(block.trivial())
+                	continue;
 
-				if(block.type==Common._Body || block.trivial()) {
+				if(block.type==Common._Body) {
 					broken=true;
 					break;
 				}
@@ -674,7 +677,14 @@ public class Content extends PDFTextStripper {
 				if(c==0 && titleBlock!=null)
 					continue;
 				
-				if(! nontitleChecker.select(block))
+				boolean title=true;
+				for(NontitleChecker nontitleChecker: nontitleCheckers) {
+					if(! nontitleChecker.select(block)) {
+						title=false;
+						break;
+					}
+				}
+				if(!title)
 					continue;
 					
 				titleBlock=block;

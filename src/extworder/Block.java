@@ -19,7 +19,7 @@ import extworder.Row.CharFont;
 public class Block extends Rectangle {
 	public BlockFormat format;
 	public ArrayList<Row> rows;
-	Page page;
+	public Page page;
 	Column column;
 	public String type="";
 	private String str;
@@ -659,7 +659,8 @@ public class Block extends Rectangle {
 			str+=row.string();
 		}
 		
-		return str+"\n";
+		str=str.trim();
+		return str;
 	}
 	
 	public void renderString() {

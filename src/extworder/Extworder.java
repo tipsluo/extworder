@@ -37,12 +37,12 @@ public class Extworder {
         //pdfs.add("ScientificReports-2022-Cost-efective fltering of unreliable");
         //pdfs.add("ScientificReports-2019-Dental pulp cell-derived powerful inducer");
         //pdfs.add("ScientificReports-2017-Detection of American Football Head");
-        //pdfs.add("ScientificReports-2022-Accessing_the_degree_of_Majora");
+        pdfs.add("ScientificReports-2022-Accessing_the_degree_of_Majora");
         //pdfs.add("Elsevier-2021-Nicotinamide mononucleotide (NMN)");
         //pdfs.add("Elsevier-2022-A high precision intrusion detection system for network s");
         //pdfs.add("Elsevier-2021-Towards security automation in Software Defined");
         //pdfs.add("Psy-2022-Racial Discrimination Distress Coping Motives");
-        pdfs.add("2020-Clinic-E__ect of oral administration of nicotinamide");
+        //pdfs.add("2020-Clinic-E__ect of oral administration of nicotinamide");
         main_test_pdfs(pdfs);
         
 		/*main_test1_gettext();
@@ -444,7 +444,8 @@ public class Extworder {
 		}
 	}
 	
-	public static Content.NontitleChecker initNontitles() {
-		return new Content.NontitleChecker();
+	public static ArrayList<Content.NontitleChecker> initNontitles() {
+		ArrayList<Content.NontitleChecker> nontitleCheckers=new ArrayList<Content.NontitleChecker>();
+		return nontitleCheckers;
 	}
 }

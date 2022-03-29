@@ -21,7 +21,7 @@ import extworder.Block.BlockFilter;
 import extworder.Common.Stretch;
 
 public class Page extends Rectangle{
-	Content content;
+	public Content content;
 	int id;
     ArrayList<Char> chars;
     public ArrayList<Block> blocks;

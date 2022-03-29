@@ -23,8 +23,10 @@ public class Geskiw {
 		//String pdfName="APS-Evidence for CP violation in B";
 		//String pdfName="Wiley-Early life stress and HPA axis";
 		//String pdfName="AC-CanLoad-1column-Stem Cell Therapy in Heart Diseases";
-		String pdfName="1Column-An_ultrasensitive_photoelectro"; //subheading issue, same font height
-		
+		//String pdfName="1Column-An_ultrasensitive_photoelectro"; //subheading issue, same font height
+		//String pdfName="ScientificReports-2022-Cost-efective fltering of unreliable";
+		String pdfName="Psy-2022-Racial Discrimination Distress Coping Motives";
+
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
 		
