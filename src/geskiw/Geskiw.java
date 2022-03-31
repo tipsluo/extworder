@@ -25,7 +25,9 @@ public class Geskiw {
 		//String pdfName="AC-CanLoad-1column-Stem Cell Therapy in Heart Diseases";
 		//String pdfName="1Column-An_ultrasensitive_photoelectro"; //subheading issue, same font height
 		//String pdfName="ScientificReports-2022-Cost-efective fltering of unreliable";
-		String pdfName="Psy-2022-Racial Discrimination Distress Coping Motives";
+		//String pdfName="Psy-2022-Racial Discrimination Distress Coping Motives";
+		//String pdfName="ScientificReports-2017-Detection of American Football Head";
+		String pdfName="Oasis-2018-Drug use among youth and adults";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
