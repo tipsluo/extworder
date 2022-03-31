@@ -842,19 +842,26 @@ public class Content extends PDFTextStripper {
 			while(candidateIt.hasNext()) {
 				Entry<BlockFormatChain, Integer> candidate=candidateIt.next();
 				BlockFormatChain chain=candidate.getKey();
-				candidatesNew.put(chain,candidate.getValue());
+				int n=candidate.getValue();
+				if(n<0)
+					continue;
+				candidatesNew.put(chain,n);
 				
 				Iterator<Entry<BlockFormatChain, Integer>> candidateIt1=candidates.entrySet().iterator();
 				while(candidateIt1.hasNext()) {
 					Entry<BlockFormatChain, Integer> candidate1=candidateIt1.next();
 					BlockFormatChain chain1=candidate1.getKey();
+					int n1=candidate1.getValue();
+					if(n1<0)
+						continue;
 					
 					if(chain==chain1)
 						continue;
 					
 					if(chain.contains(chain1)) {
 						candidatesNew.put(chain,candidatesNew.get(chain)+candidate1.getValue());
-						candidateIt1.remove();
+						candidate1.setValue(-1);
+						//candidateIt1.remove();
 					}
 				}
 			}
