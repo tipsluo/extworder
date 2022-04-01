@@ -58,8 +58,8 @@ public class Process {
 		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false, nontitleCheckers);
 		bodyStr=Common.joinLines(content.body());
 		
-		int top1Num=2;
-		int top2Num=2;
+		int top1Num=Consts._TOP1NUM;
+		int top2Num=Consts._TOP2NUM;;
 		top0=topKeywords(top1Num+top2Num);
 		
 		if(top0==null) {
@@ -83,11 +83,18 @@ public class Process {
 			}
 		}
 		
-		ArrayList<String> abstractStrs;
+		ArrayList<String> abstractStrs=null;
 		if(content.abstractBlock!=null)
 			abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
-		else
-			abstractStrs=Common.getWords(Common.joinLines(bodyStr),true);
+		else {
+			int n=Consts._TOP1NUM+Consts._TOP2NUM;
+			if(keyWords.size()<n) {
+				ArrayList<String> bodyWords=Common.getWords(Common.joinLines(bodyStr),true);
+				StatGroup<String> highBodyWords=new StatGroup<String>(bodyWords);
+			
+				abstractStrs=highBodyWords.topsByValue(keyWords.size()-n);
+			}
+		}
 			
 		if(abstractStrs!=null) {
 			abstractStrs=removeWords(abstractStrs,stopWords);

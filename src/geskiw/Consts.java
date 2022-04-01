@@ -18,6 +18,8 @@ public class Consts {
 	final static float _AddtionalFontHeight=4f;
 	final static float _AddtionalSummaryFontHeight=0.6f;
 	final static float _FontWidthRatio=1.10f;
+	final static int _TOP1NUM=2;
+	final static int _TOP2NUM=2;
 	final static String _NontitlePageStrings[] = new String[] { 
 			".*elsevier.com.*", 
 			".*thegreenjournal.com.*"
