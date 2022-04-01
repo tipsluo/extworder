@@ -78,7 +78,6 @@ public class PDFWriter {
         try {
 			stream=new PDPageContentStream(doc, page);
 	        stream.beginText();
-	        //stream.setLeading(leading);
 	        
 	        stream.newLineAtOffset(left,upper);
 	        
@@ -110,7 +109,7 @@ public class PDFWriter {
 	}
 	
 	private void printCharString(CharString line,PDFont pdFont) {
-		leading=line.height;
+		leading=line.height+Consts._AddtionalFontHeight;
 				
 		CharString word=new CharString();
 		
@@ -146,7 +145,7 @@ public class PDFWriter {
 	}
 	
 	private void printChar(Char ch,PDFont pdFont) {
-		float h=ch.height;
+		float h=ch.height + Consts._AddtionalFontHeight;
 		
 		setFontSize(pdFont,h);
 		float xp=0;
@@ -191,73 +190,16 @@ public class PDFWriter {
 	}
 	
 	
-	/* Prepare is kept only for backward compatible surpose
-	public ArrayList<CharString> prepare(CharString input, int pageWidth) {
-		ArrayList<CharString> output=new ArrayList<CharString>();
-		
-		CharString lineString=new CharString();
-		CharString wordString=new CharString();
-
-		PDFont font=defaultFont;
-		
-		Char ch;
-		float xpLine=0f;
-		float xpWord=0f;
-		
-		for(int i=0;i<input.chars.size();i++) {
-			ch=input.chars.get(i);
-			
-			int upper=(int) ((float)(ch.upper-ch.row.upper)*Consts._FontHeightRatio);
-			int w=(int) ((float)ch.width*Consts._FontWidthRatio);
-			int h=(int)((float)ch.height*Consts._FontHeightRatio);
-			wordString.addChar(
-					new Char(ch.str,
-							Consts._CharBaseLeft,
-							upper,
-							Consts._CharBaseLeft+w,
-							h,
-							ch.font));
-			setFontSize(font,h);
-			float xpChar;
-			try {
-				xpChar = h * font.getStringWidth(replaceUnknownCharacter(ch).str) / 1000;
-			} catch (IOException e) {
-				e.printStackTrace();
-				continue;
-			}
-			xpWord+=xpChar;
-			if(ch.str.matches(Common._WordDelimeter)) {
-				if(xpLine+xpWord>=pageWidth) {
-					output.add(lineString);
-					lineString=new CharString();
-					xpLine=0;
-				} 
-					
-				lineString.addAllChars(wordString);
-				xpLine+=xpWord;
-
-				wordString=new CharString();
-				xpWord=0;
-			}
-		}
-		
-		if(wordString.chars.size()!=0)
-			lineString.addAllChars(wordString);
-		
-		if(lineString.chars.size()!=0)
-			output.add(lineString);
-		
-		return output;
-	}*/
-	
-	private void setFontSize(PDFont font, float height) {
-		float fontSize=(float) ((float)height * 1000f) /
-				(float)(font.getFontDescriptor().getFontBoundingBox().getHeight());
+	private float setFontSize(PDFont font, float height) {
+		float fontSize=((height ) * 1000f) /
+				(font.getFontDescriptor().getFontBoundingBox().getHeight());
 		try {
 			stream.setFont(font,fontSize);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		return fontSize;
 	}
 	
 	private Char replaceUnknownCharacter(Char c) {
