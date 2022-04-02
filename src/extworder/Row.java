@@ -472,20 +472,24 @@ public class Row extends Rectangle {
 			bold=CheckBold.check(name);
 		}
 		
-		public int value() {
+		public boolean same(CharFont cf) {
+			return name.equals(cf.name) && height==cf.height && bold==cf.bold;
+		}
+		
+		public float value() {
 			float f=height;
 			
 			if(bold>0)
-				f=f*2 + 1f;	
+				f=f + 0.5f;	
 			else
-				f=f*2;
+				f=f;
 					
-	        return (int)f;
+	        return f;
 		}
 		
 	    @Override
 	    public int hashCode() {
-	    	return (value()<<10) + (name.hashCode()>>20);
+	    	return (int)(value()*1024) + (name.hashCode()>>20);
 	    }
 		
 		@Override
@@ -508,7 +512,7 @@ public class Row extends Rectangle {
 		
 		@Override
 	    public int compareTo(CharFont charfont) {
-	        return value()-charfont.value();
+	        return (int)(value()-charfont.value());
 	    }
 
 		final static class CheckBold {

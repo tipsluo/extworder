@@ -637,8 +637,8 @@ public class Block extends Rectangle {
 					
 		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
 				page.content.blockformatIndexes.get(format),left,right,upper,lower));
-		fw.write(String.format("charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d, likeBody=%d\n\n",
-				format.charfont.height, format.charfont.bold, format.alignment,format.allUppercase, columnLeft, likeBodyBlock1()));
+		fw.write(String.format("charfont name=%s charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d, likeBody=%d\n\n",
+				format.charfont.name,format.charfont.height, format.charfont.bold, alignment(),format.allUppercase, columnLeft, likeBodyBlock1()));
 		
 		fw.write(string());
 		
@@ -670,13 +670,12 @@ public class Block extends Rectangle {
 	
 	public static class BlockFormat implements Comparable<BlockFormat> {
 		public final CharFont charfont;
-		int alignment;
+		//int alignment;
 		int allUppercase;
 		
 		public BlockFormat(CharFont charfont, int indent, int alignment) {
 			this.charfont=charfont;
-			//this.indent=indent;
-			this.alignment=alignment;
+			//this.alignment=alignment;
 			allUppercase=Common._NOTALLUPPERCASE;
 		}
 		
@@ -685,7 +684,7 @@ public class Block extends Rectangle {
 		}
 		
 		public void update(Block block) {
-			this.alignment=block.alignment();
+			//this.alignment=block.alignment();
 			
 			String s=block.string();
 			if(s.length()<Common._MinUppercaseBlockCount || Common.lowercaseExisting.matcher(s).find())
@@ -704,9 +703,13 @@ public class Block extends Rectangle {
 		
 		public BlockFormat(CharFont charfont) {
 			this.charfont=charfont;
-			this.alignment=Common._UNKNOWNALIGNED;
+			//this.alignment=Common._UNKNOWNALIGNED;
 			this.allUppercase=Common._NOTALLUPPERCASE;
 		}
+		
+		/*public boolean same(BlockFormat bf) {
+			return charfont.same(bf.charfont) && alignment==bf.alignment && allUppercase==bf.allUppercase;
+		}*/
 		
 		@Override
 		public boolean equals(Object obj) {
@@ -720,7 +723,7 @@ public class Block extends Rectangle {
 		
 		@Override
 		public int hashCode() {
-			int hash=charfont.value() * 2 + allUppercase;
+			int hash=(int)(charfont.value() * 2) + allUppercase;
 	        
 	        return hash;
 		}

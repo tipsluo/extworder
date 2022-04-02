@@ -399,7 +399,7 @@ public class Page extends Rectangle{
 			block.separateUpperLeftBigChar();
 		}
 		
-		mergeNeighborBlocks();
+		mergeNeighborBlocksInPage();
 		
 		Collections.sort(blocks,Block.compareBlocks);
 		
@@ -450,7 +450,7 @@ public class Page extends Rectangle{
 		Collections.sort(rows,Row.compareRows);
 	}
 	
-	private void mergeNeighborBlocks() {
+	private void mergeNeighborBlocksInPage() {
 		if(blocks.size()<3)
 			return;
 		

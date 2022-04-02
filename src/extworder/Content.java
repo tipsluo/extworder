@@ -21,6 +21,7 @@ import extworder.Block.BlockFormat;
 import extworder.Block.BodyBlockFilter;
 import extworder.Block.SectionBlockFilter;
 import extworder.Block.SubtitleBlockFilter;
+import extworder.Common.StatGroup;
 import extworder.Page.Column;
 
 import java.util.ArrayList;
@@ -143,6 +144,7 @@ public class Content extends PDFTextStripper {
 		}
 		
 		joinFrameSameRow();
+		mergeBlocksByGap();
 		
 		markContentX();
 		makeColumns();
@@ -154,6 +156,8 @@ public class Content extends PDFTextStripper {
 		}
 		
 		// Page contents should not be changed after this point.
+		
+		getRowGaps();
 		
 		getBodyFormat();
 		getAllBodyBlocks();
@@ -861,7 +865,6 @@ public class Content extends PDFTextStripper {
 					if(chain.contains(chain1)) {
 						candidatesNew.put(chain,candidatesNew.get(chain)+candidate1.getValue());
 						candidate1.setValue(-1);
-						//candidateIt1.remove();
 					}
 				}
 			}
@@ -968,6 +971,49 @@ public class Content extends PDFTextStripper {
 		for(Block block:bodyBlocks) {
 			block.type=Common._Body;
 		}
+	}
+	
+	private void mergeBlocksByGap() {
+		int gap=getRowGaps();
+		
+		for(Page page:pages) {
+			Block block0=null;
+			int i;
+			for(i=0; i<page.blocks.size(); i++) {
+				Block block=page.blocks.get(i);
+			
+				if(block0==null || 
+						block.upper-block0.lower>gap ||
+						(!block.format.equals(block0.format))
+						)
+					block0=block;
+				else {
+					block0.merge(block);
+					i--;
+				}
+			}
+		}
+		
+		for(Page page:pages)
+			Collections.sort(page.blocks,Block.compareBlocks);
+	}
+	
+	private int getRowGaps() {
+		StatGroup<Integer> gaps=new StatGroup<Integer>();
+		
+		for(Page page:pages) {
+			Row row0=null;
+			for(Block block: page.blocks) 
+				for(Row row:block.rows) {
+					if(row0==null || row0.left!=row.left)
+						row0=row;
+					else {
+						gaps.add(row.upper-row0.lower);
+						row0=row;
+					}
+				}
+		}
+		return gaps.maxByValue();
 	}
 	
 	static class BlockFormatChain implements Comparable<BlockFormatChain> {

@@ -29,7 +29,8 @@ public class Geskiw {
 		//String pdfName="ScientificReports-2017-Detection of American Football Head";
 		//String pdfName="Oasis-2018-Drug use among youth and adults";
 		//String pdfName="Elsevier-2021-Using ontologies to enhance human";
-		String pdfName="IEEE-2000-Hardware Controls for the STAR Experiment at RHIC";
+		//String pdfName="IEEE-2000-Hardware Controls for the STAR Experiment at RHIC";
+		String pdfName="CellularPhysiology-2020-Preferential Killing of Tetraploid Colon";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
