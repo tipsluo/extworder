@@ -473,54 +473,18 @@ public class Page extends Rectangle{
 		}
 	}
 	
-	/*private void mergeConsecutiveBlocks() {
-		if(blocks.size()<3)
-			return;
+	ArrayList<Block> getBlockList() {
+		ArrayList<Block> bl=new ArrayList<Block>();
+		if(columns.size()>0)
+			for(Column column:columns)
+				for(Block block:column.blocks)
+					bl.add(block);
+		else
+			for(Block block:blocks)
+				bl.add(block);
 		
-		Collections.sort(blocks,Block.compareBlockLeftUppers);
-		
-		int[] gaps=new int[blocks.size()];
-		
-		Block block0=blocks.get(0);
-		for(int i=1;i<blocks.size();i++) {
-			Block block=blocks.get(i);
-			gaps[i-1]=block.upper-block0.lower;
-			block0=block;
-		}
-		
-		block0=blocks.get(0);
-		Block block1=blocks.get(1);
-		boolean b01 = block0.format.charfont.equals(block1.format.charfont) &&
-						block0.left==block1.left;
-		
-		for(int i=2, j=2;i<blocks.size();i++,j++) {
-			Block block2=blocks.get(i);
-			//boolean b01new=block1.format.charfont.equals(block2.format.charfont) && block1.left==block2.left;
-			boolean b01new=block1.format.same(block2.format);
-			
-			if(b01) {
-				if(b01new && Math.abs(gaps[j-2]-gaps[j-1])<=Common._MaxSameBlockRowGapAdj ) {
-					if(block0==null) {
-						block1.merge(block2);
-						i--;
-						
-						continue;
-					} else {
-						block0.merge(block1);
-						block0.merge(block2);
-						i-=2;
-						block1=block0;
-						block0=null;
-						
-						continue;
-					}
-				}
-			}
-			block0=block1;
-			block1=block2;
-			b01=b01new;
-		}
-	}*/
+		return bl;
+	}
 	
 	protected ArrayList<Block> upperBlocks() {
 		ArrayList<Block> tbs=new ArrayList<Block>();

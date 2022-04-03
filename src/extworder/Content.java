@@ -143,7 +143,7 @@ public class Content extends PDFTextStripper {
 			page.markHeaderFooter();
 		}
 		
-		joinFrameSameRow();
+		//joinFrameSameRow();
 		
 		markContentX();
 		makeColumns();
@@ -985,23 +985,22 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages) {
 			Block block0=null;
 			int i;
-			for(i=0; i<page.blocks.size(); i++) {
-				Block block=page.blocks.get(i);
 			
+			List<Block> blocklist=page.getBlockList();
+			for(i=0; i<blocklist.size(); i++) {
+				Block block=blocklist.get(i);
 				if(block0==null || 
 						block.upper-block0.lower>gap ||
-						(!block.format.equals(block0.format))
+						(!block.format.same(block0.format))
 						)
 					block0=block;
 				else {
 					block0.merge(block);
+					blocklist.remove(block);
 					i--;
 				}
 			}
 		}
-		
-		for(Page page:pages)
-			Collections.sort(page.blocks,Block.compareBlocks);
 	}
 	
 	private int getRowGaps() {
@@ -1009,7 +1008,8 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			Row row0=null;
-			for(Block block: page.blocks) 
+			List<Block> blocklist=page.getBlockList();
+			for(Block block: blocklist) 
 				for(Row row:block.rows) {
 					if(row0==null || row0.left!=row.left)
 						row0=row;
