@@ -101,6 +101,8 @@ public class Block extends Rectangle {
 		if(column!=null)
 			column.blocks.remove(block);
 		
+		format.update(this);
+		
 		Collections.sort(rows,Row.compareRows);
 	}
 	
@@ -160,10 +162,10 @@ public class Block extends Rectangle {
 		if(rows.size() != block.rows.size())
 			return false;
 		
-		String s1=string();
-		String s2=string();
+		String s1=renderString();
+		String s2=block.renderString();
 		
-		if(s1==s2)
+		if(s1.equals(s2))
 			return true;
 		
 		if(! format.equals(block.format))
@@ -234,7 +236,7 @@ public class Block extends Rectangle {
 				if(row1.vIntersected(row2)) {
 					int d=(int) row1.distance(row2);
 					if(d>=row1.height || d>=row2.height) {
-						row1.merge(row2,false);
+						row1.merge(row2);
 						j--;
 					}
 				}
@@ -663,19 +665,20 @@ public class Block extends Rectangle {
 		return str;
 	}
 	
-	public void renderString() {
+	public String renderString() {
 		str="";
 		str=string();
+		return str;
 	}
 	
 	public static class BlockFormat implements Comparable<BlockFormat> {
-		public final CharFont charfont;
-		//int alignment;
+		public CharFont charfont;
+		int alignment;
 		int allUppercase;
 		
 		public BlockFormat(CharFont charfont, int indent, int alignment) {
-			this.charfont=charfont;
-			//this.alignment=alignment;
+			this.charfont=null;
+			this.alignment=alignment;
 			allUppercase=Common._NOTALLUPPERCASE;
 		}
 		
@@ -684,7 +687,7 @@ public class Block extends Rectangle {
 		}
 		
 		public void update(Block block) {
-			//this.alignment=block.alignment();
+			this.alignment=block.alignment();
 			
 			String s=block.string();
 			if(s.length()<Common._MinUppercaseBlockCount || Common.lowercaseExisting.matcher(s).find())
@@ -699,17 +702,19 @@ public class Block extends Rectangle {
 				else
 					this.allUppercase=Common._ALLUPPERCASE;
 			}
+			
+			this.charfont=block.getCharFont();
 		}
 		
 		public BlockFormat(CharFont charfont) {
 			this.charfont=charfont;
-			//this.alignment=Common._UNKNOWNALIGNED;
+			this.alignment=Common._UNKNOWNALIGNED;
 			this.allUppercase=Common._NOTALLUPPERCASE;
 		}
 		
-		/*public boolean same(BlockFormat bf) {
+		public boolean same(BlockFormat bf) {
 			return charfont.same(bf.charfont) && alignment==bf.alignment && allUppercase==bf.allUppercase;
-		}*/
+		}
 		
 		@Override
 		public boolean equals(Object obj) {
@@ -727,6 +732,19 @@ public class Block extends Rectangle {
 	        
 	        return hash;
 		}
+	}
+	
+	private CharFont getCharFont() {
+		if(rows.size()==0)
+			return null;
+		
+		StatGroup<CharFont> charfonts=new StatGroup<CharFont>();
+		
+		for (Row row: rows) {
+			charfonts.add(row.charfont);
+		}
+			
+		return charfonts.maxByValue();
 	}
 	
 	static class CompareBlocks implements Comparator<Block> {

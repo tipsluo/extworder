@@ -328,8 +328,7 @@ public class Process {
 		int keySentenceWordCount=0;
 		
 		CharString bodyCharString=new CharString(section.bodyBlocks,abbrPatterns);
-				
-		ArrayList<CharString> css=bodyCharString.splitSentences();
+						ArrayList<CharString> css=bodyCharString.splitSentences();
 		
 		for(CharString cs:css) {
 			boolean found=false;

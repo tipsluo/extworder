@@ -52,11 +52,12 @@ public class Row extends Rectangle {
 		this(page,block,ch.left,ch.upper);
 	}
 	
-	public void render() {
+	public String render() {
 		Collections.sort(chars,Char.compareChars);
 		str="";
 		string();
 		charfont=getCharFont();
+		return str;
 	}
 	
 	public void addChar(Char ch) {
@@ -194,11 +195,12 @@ public class Row extends Rectangle {
 	}
 
 	public void clearCharRows() {
+		str="";
 		for(Char ch:chars)
 			ch.row=null;
 	}
 	
-	void merge(Row row,boolean render) {
+	void merge(Row row) {
 		for (Char ch:row.chars) {
 			ch.row=this;
 		}
@@ -209,8 +211,14 @@ public class Row extends Rectangle {
 		if (row.block!=null) {
 			row.block.rows.remove(row);
 			row.block.resetRectangle();
-			for(Row r:row.block.rows)
+			if(row.block.rows.size()>0) {
+				row.block.renderString();
+				row.block.format.update(row.block);
+			}
+			for(Row r:row.block.rows) {
 				row.block.updateRectangle(r);
+				row.block.format.update(row.block);
+			}
 		}
 		page.rows.remove(row);
 
@@ -220,28 +228,11 @@ public class Row extends Rectangle {
 				block.updateRectangle(r);
 		}
 		
-		if(render)
-			render();
-		else {
-			Collections.sort(chars,Char.compareChars);
-			str="";
-			charfont=getCharFont();
-		}
-	}
-	
-	/*void mergeUpdateWidth(Row row) {
-		mergeWithoutRender(row);
-		
-		if(left>row.left)
-			left=row.left;
-		if(right<row.right)
-			right=row.right;
-		
-		width=right-left;
-		height=lower-upper;
-		
+		Collections.sort(chars,Char.compareChars);
 		render();
-	}*/
+		charfont=getCharFont();
+		
+	}
 	
 	void reupdateRectangle() {
 		resetRectangle();
@@ -473,16 +464,14 @@ public class Row extends Rectangle {
 		}
 		
 		public boolean same(CharFont cf) {
-			return name.equals(cf.name) && height==cf.height && bold==cf.bold;
+			return Math.abs(value()-cf.value())<=Common._MaxSameCharFontHeightDiff;
 		}
 		
 		public float value() {
 			float f=height;
 			
 			if(bold>0)
-				f=f + 0.5f;	
-			else
-				f=f;
+				f=f + Common._BoldCharFontValue;
 					
 	        return f;
 		}

@@ -86,7 +86,16 @@ public class Rectangle {
 		int leftIndent=left-parentRect.left;
 		int rightIndent=parentRect.right-right;
 		
-		if(Math.abs(leftIndent-rightIndent) < adj)
+		if(leftIndent==0)
+			return Common._LEFTALIGNED;
+		else if(rightIndent==0)
+			return Common._RIGHTALIGNED;
+		else if(Math.abs(leftIndent-rightIndent) < adj)
+			return Common._CENTERALIGNED;
+		else
+			return Common._NOALIGNED;
+		
+		/*if(Math.abs(leftIndent-rightIndent) < adj)
 			return Common._CENTERALIGNED;
 
 		else if(leftIndent==0)
@@ -94,7 +103,7 @@ public class Rectangle {
 		else if(rightIndent==0)
 			return Common._RIGHTALIGNED;
 		else
-			return Common._NOALIGNED;
+			return Common._NOALIGNED;*/
 	}
 	
 	protected boolean rightAligned(Rectangle parent) {

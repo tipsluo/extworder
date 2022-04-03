@@ -89,19 +89,9 @@ public class Page extends Rectangle{
 	}
 	
 	public void renderStrings() {
-		/*if(columns.size()>0)
-			for(Column column:columns)
-				column.renderStrings();
-		else*/
 		for(Block block:blocks)
 			block.renderString();
 	}
-	
-	/*private void getPDPageWH(PDPage pdPage) {
-		PDRectangle pdRectangle=pdPage.getCropBox();
-		width=Math.round(pdRectangle.getWidth());
-		height=Math.round(pdRectangle.getHeight());
-	}*/
 	
 	private void adjustCoordinates() {
 		xOffset=left-1;
@@ -182,6 +172,7 @@ public class Page extends Rectangle{
 		footerY=lower;
 		
 		for(Block block:blocks) {
+
 			if(block.type==Common._PageHeaderBlock)
 				if(headerY<block.lower)
 					headerY=block.lower;
@@ -399,8 +390,6 @@ public class Page extends Rectangle{
 			block.separateUpperLeftBigChar();
 		}
 		
-		mergeNeighborBlocksInPage();
-		
 		Collections.sort(blocks,Block.compareBlocks);
 		
 		for(int i=0;i<blocks.size();i++) {
@@ -443,6 +432,7 @@ public class Page extends Rectangle{
 				
 				if(ch.row==null) {
 					Row row=new Row(this,null,x,y);
+
 					rows.add(row);	
 				}
 			}
@@ -450,7 +440,40 @@ public class Page extends Rectangle{
 		Collections.sort(rows,Row.compareRows);
 	}
 	
-	private void mergeNeighborBlocksInPage() {
+	void mergeConsecutiveBlocks() {
+		if(blocks.size()<2)
+			return;
+		
+		Collections.sort(blocks,Block.compareBlockLeftUppers);
+		
+		Block block0=null;
+		
+		for(int i=0;i<blocks.size();i++) {
+			Block block1=blocks.get(i);
+
+			if(block0==null) {
+				if(block1.rows.size()<=1)
+					block0=block1;
+				
+				continue;
+			}
+			
+			if(block1.rows.size()>1) {
+				block0=null;
+				continue;
+			}
+			
+			if(block0.format.same(block1.format)) {
+				block0.merge(block1);
+				i--;
+				continue;
+			}
+			
+			block0=block1;
+		}
+	}
+	
+	/*private void mergeConsecutiveBlocks() {
 		if(blocks.size()<3)
 			return;
 		
@@ -472,7 +495,8 @@ public class Page extends Rectangle{
 		
 		for(int i=2, j=2;i<blocks.size();i++,j++) {
 			Block block2=blocks.get(i);
-			boolean b01new=block1.format.charfont.equals(block2.format.charfont) && block1.left==block2.left;
+			//boolean b01new=block1.format.charfont.equals(block2.format.charfont) && block1.left==block2.left;
+			boolean b01new=block1.format.same(block2.format);
 			
 			if(b01) {
 				if(b01new && Math.abs(gaps[j-2]-gaps[j-1])<=Common._MaxSameBlockRowGapAdj ) {
@@ -496,7 +520,7 @@ public class Page extends Rectangle{
 			block1=block2;
 			b01=b01new;
 		}
-	}
+	}*/
 	
 	protected ArrayList<Block> upperBlocks() {
 		ArrayList<Block> tbs=new ArrayList<Block>();
@@ -537,24 +561,6 @@ public class Page extends Rectangle{
 		
 		return bbs;
 	}
-	
-	/*protected ArrayList<Border> onLeftSideBorder(Rectangle rect) {
-		ArrayList<Border> bs=new ArrayList<Border>();
-		for(Border border:borders)
-			if(border.onLSide(rect)!=null && 
-					(rect.height * Common._CharVGapRatio)<border.stretch.length())
-				bs.add(border);
-		return bs;
-	}
-	
-	protected ArrayList<Border> onRightSideBorder(Rectangle rect) {
-		ArrayList<Border> bs=new ArrayList<Border>();
-		for(Border border:borders)
-			if(border.onRSide(rect)!=null && 
-					(rect.height * Common._CharVGapRatio)<border.stretch.length())
-				bs.add(border);
-		return bs;
-	}*/
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");

@@ -144,10 +144,13 @@ public class Content extends PDFTextStripper {
 		}
 		
 		joinFrameSameRow();
-		mergeBlocksByGap();
 		
 		markContentX();
 		makeColumns();
+		
+		mergeConsecutiveBlocks();
+		
+		mergeBlocksByGap();
 		
 		for(Page page:pages) {
 			page.separateAllUppers();
@@ -156,8 +159,6 @@ public class Content extends PDFTextStripper {
 		}
 		
 		// Page contents should not be changed after this point.
-		
-		getRowGaps();
 		
 		getBodyFormat();
 		getAllBodyBlocks();
@@ -271,7 +272,7 @@ public class Content extends PDFTextStripper {
 			
 			for(int i=0;i<page.rows.size();i++) {
 				Row row1=page.rows.get(i);
-
+				
 				int j;
 				for(j=i+1;j<page.rows.size();j++) {
 					Row row2=page.rows.get(j);
@@ -286,7 +287,7 @@ public class Content extends PDFTextStripper {
 							( ! page.checkSeparatingBorder(row1,row2) &&
 							row1.hDistance(row2)<=(int)(row1.height*Common._MaxSameRowDistanceRatio))) {
 						
-						row1.merge(row2,true);
+						row1.merge(row2);
 						j--;
 
 						Block b=row2.block;
@@ -971,6 +972,11 @@ public class Content extends PDFTextStripper {
 		for(Block block:bodyBlocks) {
 			block.type=Common._Body;
 		}
+	}
+	
+	private void mergeConsecutiveBlocks() {
+		for(Page page:pages) 
+			page.mergeConsecutiveBlocks();
 	}
 	
 	private void mergeBlocksByGap() {
