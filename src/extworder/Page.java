@@ -8,6 +8,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -448,8 +449,10 @@ public class Page extends Rectangle{
 		
 		Block block0=null;
 		
-		for(int i=0;i<blocks.size();i++) {
-			Block block1=blocks.get(i);
+		List<Block> blocklist=getBlockList();
+		
+		for(int i=0;i<blocklist.size();i++) {
+			Block block1=blocklist.get(i);
 
 			if(block0==null) {
 				if(block1.rows.size()<=1)
@@ -465,6 +468,7 @@ public class Page extends Rectangle{
 			
 			if(block0.format.same(block1.format)) {
 				block0.merge(block1);
+				blocklist.remove(block1);
 				i--;
 				continue;
 			}
@@ -630,8 +634,10 @@ public class Page extends Rectangle{
 			Collections.sort(blocks,Block.compareBlocks);
 			
 			resetRectangle();
-			for(Block block:blocks)
+			for(Block block:blocks) {
 				updateRectangle(block);
+				block.format.update(block);
+			}
 		}
 		
 		public void renderStrings( ) {

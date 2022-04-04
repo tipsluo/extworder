@@ -689,8 +689,12 @@ public class Block extends Rectangle {
 		public void update(Block block) {
 			this.alignment=block.alignment();
 			
-			String s=block.string();
-			if(s.length()<Common._MinUppercaseBlockCount || Common.lowercaseExisting.matcher(s).find())
+			String s=block.renderString();
+			if(Common.lowercaseExisting.matcher(s).find())
+				this.allUppercase=Common._NOTALLUPPERCASE;
+			else if (Common.uppercase.matcher(s).find())
+					this.allUppercase=Common._ALLUPPERCASE;
+			/*if(s.length()<Common._MinUppercaseBlockCount || Common.lowercaseExisting.matcher(s).find())
 				this.allUppercase=-1;
 			else {
 				int c=0;
@@ -701,7 +705,7 @@ public class Block extends Rectangle {
 					this.allUppercase=Common._NOTALLUPPERCASE;
 				else
 					this.allUppercase=Common._ALLUPPERCASE;
-			}
+			}*/
 			
 			this.charfont=block.getCharFont();
 		}
@@ -713,6 +717,9 @@ public class Block extends Rectangle {
 		}
 		
 		public boolean same(BlockFormat bf) {
+			if(alignment==Common._UNKNOWNALIGNED ||
+					bf.alignment==Common._UNKNOWNALIGNED)
+				return false;
 			return charfont.same(bf.charfont) && alignment==bf.alignment && allUppercase==bf.allUppercase;
 		}
 		
@@ -728,7 +735,7 @@ public class Block extends Rectangle {
 		
 		@Override
 		public int hashCode() {
-			int hash=(int)(charfont.value() * 2) + allUppercase;
+			int hash=(int)( (charfont.value() * 2) + allUppercase) * 8 + alignment;
 	        
 	        return hash;
 		}

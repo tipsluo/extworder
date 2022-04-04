@@ -802,7 +802,11 @@ public class Content extends PDFTextStripper {
 		return "";
 	}
 	
-	private BlockFormatChain getSubtitleFormatChain(ArrayList<Block> bigBlockList) {
+	private BlockFormatChain2 getSubtitleFormatChain(ArrayList<Block> bigBlockList) {
+		StatGroup<BlockFormatChain> StatGroup<BlockFormatChain>();
+	}
+	
+	/*private BlockFormatChain getSubtitleFormatChain(ArrayList<Block> bigBlockList) {
 		TreeMap<BlockFormatChain,Integer> candidates=new TreeMap<>();
 		
 		int i=0;
@@ -919,7 +923,7 @@ public class Content extends PDFTextStripper {
 						Common.unlikeSubtitleEnd.matcher(lastRow.string()).find())
 					continue;
 				
-				if(block0.format.compareTo(block1.format)>=0)
+				if(block0.format.compareTo(block1.format)>0)
 					break;
 				
 				block0=block1;
@@ -933,7 +937,7 @@ public class Content extends PDFTextStripper {
 				return -1;
 		} else
 			return -1;
-	}
+	}*/
 	
 	private ArrayList<Block> getBigBlockList() {
 		ArrayList<Block> blocklist=new ArrayList<Block>();
@@ -1024,6 +1028,24 @@ public class Content extends PDFTextStripper {
 	
 	static class BlockFormatChain implements Comparable<BlockFormatChain> {
 		ArrayList<BlockFormat> blockformats=new ArrayList<>();
+		
+		@Override
+		public int compareTo(BlockFormatChain blockformatChain) {
+			return hashCode() - blockformatChain.hashCode();
+		}
+		
+		@Override 
+		public int hashCode() {
+			int hash=0;
+			
+	        for(BlockFormat blockformat:blockformats)
+	        	hash+=blockformat.hashCode();
+	        
+	        return hash;
+		}
+	}
+	/*static class BlockFormatChain implements Comparable<BlockFormatChain> {
+		ArrayList<BlockFormat> blockformats=new ArrayList<>();
 
 		@Override
 		public int compareTo(BlockFormatChain blockformatChain) {
@@ -1095,7 +1117,7 @@ public class Content extends PDFTextStripper {
 			}
 			return -1;
 		}
-	}
+	}*/
 	
 	@Override
 	protected void showGlyph(Matrix textRenderingMatrix, PDFont font, int code, String unicode, Vector displacement) throws IOException

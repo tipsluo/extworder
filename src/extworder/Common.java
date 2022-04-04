@@ -83,14 +83,13 @@ public class Common {
 	
 	final static int _MaxTrivialColoredLength=5;
 	
-	final static float _MinUppercaseBlockRatio=0.5f;
-	final static int _MinUppercaseBlockCount=5;
+	//final static float _MinUppercaseBlockRatio=0.5f;
+	//final static int _MinUppercaseBlockCount=3;
 	
-	final static int _LEFTALIGNED=-1;
-	final static int _CENTERALIGNED=0;
+	final static int _LEFTALIGNED=2;
+	final static int _CENTERALIGNED=4;
 	final static int _RIGHTALIGNED=1;
-	final static int _UNKNOWNALIGNED=-98;
-	final static int _NOALIGNED=-99;
+	final static int _UNKNOWNALIGNED=0;
 	
 	final static int _UNKNOWNINDENT=-98;
 	final static int _ALLUPPERCASE=1;
