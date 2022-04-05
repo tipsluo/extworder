@@ -53,7 +53,7 @@ public class Common {
 	final static String _BeforeFirstBody="BEFOREFIRSTBODY";
 	final static String _Body="BODY";
 	final static String _SubtitlePrefix="SUBTITLE_";
-	final static String _SectionPrefix="SECTION_";
+	//final static String _SectionPrefix="SECTION_";
 	final static String _IgnoredBlockPrefix="IGNORED_";
 	final static String _IgnoredBlockIntraBody=_IgnoredBlockPrefix+"INTRABODY";
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
@@ -369,6 +369,13 @@ public class Common {
 				records.put(t,1);
 		}
 		
+		public void add(T t,Integer n) {
+			if(records.containsKey(t))
+				records.put(t,records.get(t)+n);
+			else
+				records.put(t,n);
+		}
+		
 		public void add(Map.Entry<T,Integer> entry) {
 			T t=entry.getKey();
 			if(records.containsKey(t))
@@ -417,6 +424,14 @@ public class Common {
 			ret.addAll(records.keySet());
 			
 			return ret;
+		}
+		
+		int value(T t) {
+			return records.get(t);
+		}
+		
+		void setValue(T t, Integer n) {
+			records.put(t,n);
 		}
 		
 		public Map<T,Integer> reverseSortByValue() {

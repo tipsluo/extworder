@@ -29,7 +29,7 @@ public class Block extends Rectangle {
 	final static BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 	final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
 	public final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
-	static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
+	//static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
 	
 	public Block() {
 		super();
@@ -98,8 +98,8 @@ public class Block extends Rectangle {
 		rows.addAll(block.rows);
 		
 		page.blocks.remove(block);
-		if(column!=null)
-			column.blocks.remove(block);
+		if(block.column!=null)
+			block.column.blocks.remove(block);
 		
 		format.update(this);
 		
@@ -806,7 +806,7 @@ public class Block extends Rectangle {
 		
 		@Override
 		public boolean filter(Block block) {
-			if(block.abbrOnly() || block.trivial())
+			if(block.abbrOnly() || block.trivial() || block.alignment()==Common._UNKNOWNALIGNED)
 				return false;
 			
 			int charfontDiff=block.format.compareTo(block.page.content.bodyBlockformat);
@@ -831,7 +831,7 @@ public class Block extends Rectangle {
 		}
 	}
 	
-	public static class SectionBlockFilter implements BlockFilter {
+	/*public static class SectionBlockFilter implements BlockFilter {
 		@Override
 		public boolean filter(Block block) {
 			if(block.abbrOnly() || block.trivial())
@@ -858,7 +858,7 @@ public class Block extends Rectangle {
 				
 			return false;
 		}
-	}
+	}*/
 }
 
 

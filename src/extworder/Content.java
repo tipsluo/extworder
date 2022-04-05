@@ -14,12 +14,9 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 import org.apache.pdfbox.util.Matrix;
 import org.apache.pdfbox.util.Vector;
-
-import extworder.Block.AdditionalSubtitleFormatFilter;
 import extworder.Block.BlockFilter;
 import extworder.Block.BlockFormat;
 import extworder.Block.BodyBlockFilter;
-import extworder.Block.SectionBlockFilter;
 import extworder.Block.SubtitleBlockFilter;
 import extworder.Common.StatGroup;
 import extworder.Page.Column;
@@ -55,7 +52,7 @@ public class Content extends PDFTextStripper {
 	int centralAlignmentAdjustment=0;
 	private boolean ignoreSubtitle=true;
 	private ArrayList<String> allWords;
-	BlockFormatChain subtitleFormatChain;
+	BlockFormatChain2 subtitleFormatChain;
 	int bgRGB;
 	ArrayList<Pattern> abbrPatterns;
 	List<NontitleChecker> nontitleCheckers;
@@ -143,7 +140,7 @@ public class Content extends PDFTextStripper {
 			page.markHeaderFooter();
 		}
 		
-		//joinFrameSameRow();
+		joinFrameSameRow();
 		
 		markContentX();
 		makeColumns();
@@ -161,7 +158,7 @@ public class Content extends PDFTextStripper {
 		// Page contents should not be changed after this point.
 		
 		getBodyFormat();
-		getAllBodyBlocks();
+		markAllBodyBlocks();
 		
 		allWords=scanTextAlphabetWords();
 		
@@ -172,7 +169,7 @@ public class Content extends PDFTextStripper {
 			markIntraBodyBlocks();
 		
 		if(! ignoreSubtitle)
-			markSubtitleBlocks();
+			markSubtitleBlocks2();
 	}
 
 	@Override
@@ -410,7 +407,47 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	 
-	private void markSubtitleBlocks() {
+	private void markSubtitleBlocks2() {
+		lastSubtitleBlock=null;
+		
+		ArrayList<Block> bigBlockList=getBigBlockList2();
+		
+		subtitleFormatChain=getSubtitleFormatChain2(bigBlockList);
+		
+		if(subtitleFormatChain==null)
+			return;
+		
+		int i=0;
+		List<BlockFormat> formats=subtitleFormatChain.blockformats;
+		for(;i<bigBlockList.size();i++) {
+			Block block=bigBlockList.get(i);
+			boolean foundSubtitle=false;
+			if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue) {
+				int j1=1;
+				int j2=i-1;
+				for(; j1<formats.size() && j2>0;) {
+					block=bigBlockList.get(j2);
+					BlockFormat format=formats.get(j1);
+					
+					if(format.same(block.format)) {
+						block.type=Common.subtitleBlockType(block);
+						foundSubtitle=true;
+						j1++;
+						j2--;
+						continue;
+					} else if(format.compareTo(block.format)<0) {
+						j1++;
+						continue;
+					} else {
+						break;
+					}
+				}
+				if(foundSubtitle && i>1)
+					lastSubtitleBlock=bigBlockList.get(i-1);
+			}
+		}
+	}
+	/*private void markSubtitleBlocks() {
 		ArrayList<Block> bigBlockList=getBigBlockList();
 		
 		subtitleFormatChain=getSubtitleFormatChain(bigBlockList);
@@ -447,7 +484,7 @@ public class Content extends PDFTextStripper {
 					}
 			}
 		}
-	}
+	}*/
 	
 	private void markIntraBodyBlocks() {
 		boolean textInfinished=false;
@@ -566,10 +603,11 @@ public class Content extends PDFTextStripper {
 	public ArrayList<Block> getMainBlocks() {
 		Block.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 		Block.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
-		Block.SectionBlockFilter sectionBlockFilter=new SectionBlockFilter();
+		//Block.SectionBlockFilter sectionBlockFilter=new SectionBlockFilter();
 
-		ArrayList<Block> bs=filterBlocks(bodyBlockFilter,subtitleBlockFilter,sectionBlockFilter);
-		bs=removeTailingSections(bs);
+		ArrayList<Block> bs=filterBlocks(bodyBlockFilter,subtitleBlockFilter);
+		//ArrayList<Block> bs=filterBlocks(bodyBlockFilter,subtitleBlockFilter,sectionBlockFilter);
+		//bs=removeTailingSections(bs);
 		
 		return bs;
 	}
@@ -596,7 +634,7 @@ public class Content extends PDFTextStripper {
 		return bs;
 	}
 	
-	public ArrayList<Block> removeTailingSections(ArrayList<Block> inputBlocks) {
+	/*public ArrayList<Block> removeTailingSections(ArrayList<Block> inputBlocks) {
 		boolean reachedLastSubtitle=false;
 		boolean bodyFinished=false;
 		
@@ -616,7 +654,7 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return outputBlocks;
-	}
+	}*/
 	
 	public String subtitles() {
 		if(ignoreSubtitle) {
@@ -802,8 +840,57 @@ public class Content extends PDFTextStripper {
 		return "";
 	}
 	
-	private BlockFormatChain2 getSubtitleFormatChain(ArrayList<Block> bigBlockList) {
-		StatGroup<BlockFormatChain> StatGroup<BlockFormatChain>();
+	private BlockFormatChain2 getSubtitleFormatChain2(ArrayList<Block> bigBlockList) {
+		StatGroup<BlockFormatChain2> candidates=new StatGroup<BlockFormatChain2>();
+		
+		int i;
+		for(i=0;i<bigBlockList.size();i++) {
+			Block block0=bigBlockList.get(i);
+			if(block0.type != Common._Body)
+				continue;
+			
+			BlockFormatChain2 bfChain=new BlockFormatChain2();
+			
+			Block block1=block0;
+			int j=i-1;
+			for(; j>0; j--) {
+				Block block=bigBlockList.get(j);
+				if(block.format.compareTo(block1.format)>0) {
+					bfChain.add(block.format);
+					block1=block;
+				} else {
+					break;
+				}
+			}
+				
+			if(bfChain.blockformats.size()>0) {
+				bfChain.add(0,block0.format);
+				candidates.add(bfChain);
+			}
+		}
+		
+		ArrayList<BlockFormatChain2> chains=candidates.allKeys();
+		for(BlockFormatChain2 chain1:chains) {
+			if(candidates.value(chain1)<0)
+				continue;
+			for(BlockFormatChain2 chain2:chains) {
+				if(chain1==chain2 || candidates.value(chain2)<0)
+					continue;
+				
+				int c=chain1.contains(chain2);
+				
+				if(c>0) {
+					candidates.add(chain1,candidates.value(chain2));
+					candidates.setValue(chain2,-1);
+				} else if(c<0) {
+					candidates.add(chain2,candidates.value(chain1));
+					candidates.setValue(chain1,-1);
+					break;
+				}
+			}
+		}
+		
+		return candidates.maxByValue();
 	}
 	
 	/*private BlockFormatChain getSubtitleFormatChain(ArrayList<Block> bigBlockList) {
@@ -939,7 +1026,7 @@ public class Content extends PDFTextStripper {
 			return -1;
 	}*/
 	
-	private ArrayList<Block> getBigBlockList() {
+	private ArrayList<Block> getBigBlockList2() {
 		ArrayList<Block> blocklist=new ArrayList<Block>();
 		
 		for(Page page:pages)
@@ -948,7 +1035,7 @@ public class Content extends PDFTextStripper {
 		return blocklist;
 	}
 	
-	private void getAllBodyBlocks() {
+	private void markAllBodyBlocks() {
 		ArrayList<Block> bodyBlocks=new ArrayList<Block>();
 		
 		for(Page page: pages) {
@@ -1004,6 +1091,7 @@ public class Content extends PDFTextStripper {
 					i--;
 				}
 			}
+			page.sortBlocks();
 		}
 	}
 	
@@ -1026,11 +1114,11 @@ public class Content extends PDFTextStripper {
 		return gaps.maxByValue();
 	}
 	
-	static class BlockFormatChain implements Comparable<BlockFormatChain> {
+	static class BlockFormatChain2 implements Comparable<BlockFormatChain2> {
 		ArrayList<BlockFormat> blockformats=new ArrayList<>();
 		
 		@Override
-		public int compareTo(BlockFormatChain blockformatChain) {
+		public int compareTo(BlockFormatChain2 blockformatChain) {
 			return hashCode() - blockformatChain.hashCode();
 		}
 		
@@ -1042,6 +1130,63 @@ public class Content extends PDFTextStripper {
 	        	hash+=blockformat.hashCode();
 	        
 	        return hash;
+		}
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+	            return true;
+	        if (obj == null)
+	            return false;
+	        if (getClass() != obj.getClass())
+	            return false;
+	        
+	        BlockFormatChain2 other = (BlockFormatChain2) obj;
+
+	        return compareTo(other)==0;
+		}
+		
+		void add(int i, BlockFormat blockformat)  {
+			blockformats.add(i,blockformat);
+		}
+		
+		void add(BlockFormat blockformat)  {
+			blockformats.add(blockformat);
+		}
+		
+		int contains(BlockFormatChain2 chain) {
+			int i1=0;
+			int i2=0;
+			int c=0;
+			for(;i1<blockformats.size() && i2<chain.blockformats.size();) {
+				c=blockformats.get(i1).compareTo(chain.blockformats.get(i2));
+				if(c==0) {
+					i1++;
+					i2++;
+				} else if(c<0)
+					i1++;
+				else
+					i2++;
+			}
+			
+			if(c==0)
+				if(blockformats.size() >= chain.blockformats.size())
+					return 1;
+				else
+					return -1;
+			else
+				return 0;
+		}
+		
+		public int blockformatIndex(BlockFormat blockformat) {
+			int i=0;
+			for(BlockFormat bf: blockformats) {
+				if(blockformat.equals(bf))
+					return i;
+				
+				i++;
+			}
+			return -1;
 		}
 	}
 	/*static class BlockFormatChain implements Comparable<BlockFormatChain> {

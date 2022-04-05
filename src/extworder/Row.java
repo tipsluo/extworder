@@ -346,7 +346,7 @@ public class Row extends Rectangle {
 		if(isFull(page.content,block))
 			return false;
 		
-		if(alignmentInFrame()!=Common._NOALIGNED)
+		if(alignmentInFrame()!=Common._UNKNOWNALIGNED)
 			return false;
 		
 		return Common.scarceRow.matcher(string()).find();

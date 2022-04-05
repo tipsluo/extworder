@@ -93,7 +93,7 @@ public class Rectangle {
 		else if(Math.abs(leftIndent-rightIndent) < adj)
 			return Common._CENTERALIGNED;
 		else
-			return Common._NOALIGNED;
+			return Common._UNKNOWNALIGNED;
 		
 		/*if(Math.abs(leftIndent-rightIndent) < adj)
 			return Common._CENTERALIGNED;

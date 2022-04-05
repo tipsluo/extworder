@@ -94,6 +94,15 @@ public class Page extends Rectangle{
 			block.renderString();
 	}
 	
+	void sortBlocks() {
+		if(columns.size()>0) {
+			Collections.sort(columns,compareColumns);
+			for(Column column:columns)
+				Collections.sort(column.blocks,Block.compareBlocks);
+		} else
+			Collections.sort(blocks,Block.compareBlocks);
+	}
+	
 	private void adjustCoordinates() {
 		xOffset=left-1;
 		yOffset=upper-1;
@@ -475,6 +484,8 @@ public class Page extends Rectangle{
 			
 			block0=block1;
 		}
+		
+		sortBlocks();
 	}
 	
 	ArrayList<Block> getBlockList() {
