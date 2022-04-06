@@ -177,6 +177,23 @@ public class Rectangle {
 				width <= rect.width * (1+Common._ColumnWidthAdjustment);
 	}
 	
+	boolean isLongEnough(Page page, Column column, Row next) {
+		if(next.string().length()==0)
+			return false;
+			
+		float diff;
+		
+		if(column==null)
+			diff=page.width-width;
+		else
+			diff=column.width-width;
+		
+		if(diff <= next.string().split(" ")[0].length())
+			return true;
+		
+		return false;
+	}
+	
 	protected <T extends Rectangle> ArrayList<T> getAllAbove(ArrayList<T> ts) {		
 		ArrayList<T> cs=new ArrayList<T>();
 		

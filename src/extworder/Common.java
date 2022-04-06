@@ -77,6 +77,7 @@ public class Common {
 	final static int _TrivialBlockMaxLength=4;
 	
 	final static float _CenterAlignAdjustment=0.05f;
+	final static int _RightAlignAdjustment=50;
 	
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;

@@ -34,6 +34,9 @@ public class Row extends Rectangle {
 		
 	public Row() {
 		super();
+
+		chars=new ArrayList<Char>();
+		spaceWidth=-1;
 	}
 		
 	public Row(Page page, Block block, int x, int y) {

@@ -488,6 +488,129 @@ public class Page extends Rectangle{
 		sortBlocks();
 	}
 	
+	boolean crossColumns(Block block) {
+		if(columns.size()<=1)
+			return false;
+		
+		boolean b=false;
+		for(Column column:columns)
+			if(block.left>=column.left && block.left<=column.right && block.right>column.right) {
+				b=true;
+				break;
+			}
+		if(!b)
+			return false;
+		
+		boolean l=false;
+		boolean r=false;
+		if(b)
+			for(Column column:columns) {
+				if(block.left==column.left && !l) 
+					l=true;
+				if(column.right-block.right<Common._RightAlignAdjustment && !r)
+					r=true;
+			}
+		
+		return l && r;
+	}
+	
+	void splitCrossBlock(Block block) {
+		ArrayList<Block> newBlocks=new ArrayList<Block>();
+		for(Column column:columns) {
+			Block newBlock=new Block();
+			newBlock.column=column;
+			newBlock.page=this;
+			newBlocks.add(newBlock);
+		}
+		
+		int k=0;
+		for(k=0;k<block.rows.size();k++) {
+			Row row=block.rows.get(k);
+			
+			int i=0; 
+			for(i=0; i<columns.size();i++) {
+				Column column=columns.get(i);
+				if(row.left>=column.left && row.left<=column.right && block.right>column.right) {
+					break;
+				}
+			}
+			
+			if(i<columns.size()) {
+				Column column=columns.get(i);
+				Block newBlock=newBlocks.get(i);
+				Row newRow=new Row();
+					
+				for(Char c: row.chars) {
+					if(c.right<=column.right)
+						newRow.addChar(c);
+					else {
+						if(newRow.chars.size()>0) {
+							newBlock.rows.add(newRow);
+							rows.add(newRow);
+							newRow.block=newBlock;
+							newRow.page=this;
+							newRow.charReach=row.charReach;
+							newRow.render();
+							
+							i++;
+							newBlock=newBlocks.get(i);
+							column=columns.get(i);
+							newRow=new Row();
+						}
+					}
+				}
+				
+				if(newRow.chars.size()>0) {
+					newBlock.rows.add(newRow);
+					rows.add(newRow);
+					newRow.block=newBlock;
+					newRow.page=this;
+					newRow.charReach=row.charReach;
+					newRow.render();
+				}
+				
+				rows.remove(row);
+				block.rows.remove(row);
+				k--;
+			}
+		}
+		
+		for(int i=0;i<columns.size();i++) {
+			Block newBlock=newBlocks.get(i);
+			if(newBlock.rows.size()>0) {
+				newBlock.render();
+				Column column=columns.get(i);
+				column.blocks.add(newBlock);
+				blocks.add(newBlock);
+
+				if(block.rows.size()==0) {
+					blocks.remove(block);
+					column.blocks.remove(block);
+				}
+				
+				column.render();
+			}
+		}
+	}
+	
+	void splitCrossBlocks() {
+		int i=0;
+		for(i=0;i<blocks.size();i++) {
+			Block block=blocks.get(i);
+			
+			if(crossColumns(block)) {
+				splitCrossBlock(block);
+				if(block.rows.size()==0) {
+					blocks.remove(block);
+					if(block.column!=null)
+						block.column.blocks.remove(block);
+					i--;
+				}
+			}
+		}
+		sortBlocks();
+	}
+	
 	ArrayList<Block> getBlockList() {
 		ArrayList<Block> bl=new ArrayList<Block>();
 		if(columns.size()>0)
@@ -642,16 +765,29 @@ public class Page extends Rectangle{
 					blocks.add(block);
 				}
 			}
-			Collections.sort(blocks,Block.compareBlocks);
+			
+			render();
+			
+			/*Collections.sort(blocks,Block.compareBlocks);
 			
 			resetRectangle();
 			for(Block block:blocks) {
 				updateRectangle(block);
 				block.format.update(block);
+			}*/
+		}
+		
+		void render() {
+			Collections.sort(blocks,Block.compareBlocks);
+			resetRectangle();
+			for(Block block:blocks) {
+				updateRectangle(block);
+				block.format.update(block);
+				renderStrings();
 			}
 		}
 		
-		public void renderStrings( ) {
+		public void renderStrings() {
 			for(Block block:blocks)
 				block.renderString();
 		}

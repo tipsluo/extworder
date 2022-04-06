@@ -33,6 +33,9 @@ public class Block extends Rectangle {
 	
 	public Block() {
 		super();
+		
+		rows=new ArrayList<Row>();
+		format=new BlockFormat();
 	}
 	
 	public Block(Page page, Row row) {
@@ -40,7 +43,7 @@ public class Block extends Rectangle {
 		
 		this.page=page;
 		build(row);
-
+		
 		Collections.sort(rows,Row.compareRows);
 		
 		format=new BlockFormat(mostCharFont());
@@ -92,7 +95,7 @@ public class Block extends Rectangle {
 	void merge(Block block) {
 		for (Row row:block.rows) {
 			row.block=this;
-			updateRectangle(row);
+			//updateRectangle(row);
 		}
 		
 		rows.addAll(block.rows);
@@ -101,9 +104,10 @@ public class Block extends Rectangle {
 		if(block.column!=null)
 			block.column.blocks.remove(block);
 		
-		format.update(this);
+		//format.update(this);
 		
-		Collections.sort(rows,Row.compareRows);
+		//Collections.sort(rows,Row.compareRows);
+		render();
 	}
 	
 	ArrayList<Block> split(int rowNum) {
@@ -418,6 +422,9 @@ public class Block extends Rectangle {
 		boolean laRow=row.leftAligned(this);
 		boolean caRow=row.centralAligned(this);
 		boolean fullRow=row.isFull(page.content,column);
+		boolean longEnoughRow=true;
+		if(rows.size()>1)
+			longEnoughRow=row.isLongEnough(page,column,rows.get(1));	
 		int lendiff=Math.round(Common._SameBlockRowWidthDiff*row.width);
 		
 		for(int i=1; i<rows.size(); i++) {
@@ -427,11 +434,14 @@ public class Block extends Rectangle {
 			boolean laRow1=row1.leftAligned(this);
 			boolean caRow1=row1.centralAligned(this);
 			boolean fullRow1=row1.isFull(page.content,column);
+			boolean longEnoughRow1=true;
+			if(i<rows.size()-1)
+				longEnoughRow1=row1.isLongEnough(page,column,rows.get(i+1));
 			int lendiff1=Math.round(Common._SameBlockRowWidthDiff*row1.width);
 			
-			if(! fullRow || ! fullRow1) {
-				if( (fullRow && !laRow1 && !raRow1 && !caRow1) ||
-						(fullRow1 && !laRow && !raRow && !caRow))
+			if(! (fullRow || longEnoughRow) || ! (fullRow1 || longEnoughRow1) ) {
+				if( ((fullRow || longEnoughRow) && !laRow1 && !raRow1 && !caRow1) ||
+						((fullRow1 || longEnoughRow1) && !laRow && !raRow && !caRow))
 					return -1;
 			}
 			
@@ -446,6 +456,7 @@ public class Block extends Rectangle {
 			laRow=laRow1;
 			caRow=caRow1;
 			fullRow=fullRow1;
+			longEnoughRow=longEnoughRow1;
 			lendiff=lendiff1;
 		}
 		
@@ -665,6 +676,17 @@ public class Block extends Rectangle {
 		return str;
 	}
 	
+	public void render() {
+		for (Row row:rows) {
+			updateRectangle(row);
+		}
+		format.update(this);
+		
+		Collections.sort(rows,Row.compareRows);
+		
+		renderString();
+	}
+	
 	public String renderString() {
 		str="";
 		str=string();
@@ -675,6 +697,10 @@ public class Block extends Rectangle {
 		public CharFont charfont;
 		int alignment;
 		int allUppercase;
+		
+		public BlockFormat() {
+			super();
+		}
 		
 		public BlockFormat(CharFont charfont, int indent, int alignment) {
 			this.charfont=null;

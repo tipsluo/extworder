@@ -151,6 +151,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			page.separateAllUppers();
+			page.splitCrossBlocks();
 			page.updateBlockFormats();
 			page.renderStrings();
 		}
@@ -855,7 +856,8 @@ public class Content extends PDFTextStripper {
 			int j=i-1;
 			for(; j>0; j--) {
 				Block block=bigBlockList.get(j);
-				if(block.format.compareTo(block1.format)>0) {
+				// Only statistic subtitle row number<=1
+				if(block.format.compareTo(block1.format)>0 && block.rows.size()<=2) {
 					bfChain.add(block.format);
 					block1=block;
 				} else {
