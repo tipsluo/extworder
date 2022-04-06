@@ -145,16 +145,15 @@ public class Content extends PDFTextStripper {
 		markContentX();
 		makeColumns();
 		
-		mergeConsecutiveBlocks();
-		
-		mergeBlocksByGap();
-		
 		for(Page page:pages) {
 			page.separateAllUppers();
 			page.splitCrossBlocks();
-			page.updateBlockFormats();
-			page.renderStrings();
+			//page.updateBlockFormats();
+			//page.renderStrings();
 		}
+		
+		mergeConsecutiveBlocks();
+		mergeBlocksByGap();
 		
 		// Page contents should not be changed after this point.
 		
