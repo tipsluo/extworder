@@ -574,6 +574,9 @@ public class Page extends Rectangle{
 				k--;
 			}
 		}
+
+		if(block.rows.size()>0)
+			block.render();
 		
 		for(int i=0;i<columns.size();i++) {
 			Block newBlock=newBlocks.get(i);
@@ -583,11 +586,6 @@ public class Page extends Rectangle{
 				column.blocks.add(newBlock);
 				blocks.add(newBlock);
 
-				if(block.rows.size()==0) {
-					blocks.remove(block);
-					column.blocks.remove(block);
-				}
-				
 				column.render();
 			}
 		}
