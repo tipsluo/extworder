@@ -372,6 +372,7 @@ public class Content extends PDFTextStripper {
 	
 	private void markFooterBlock() {
 		ArrayList<ArrayList<Block>> fbls=new ArrayList<ArrayList<Block>>();
+        StatGroup<Rectangle> rects=new StatGroup<Rectangle>();
 		
 		Page page0=pages.get(0);
 		float minFooterWidth=Common._MaxHeaderFooterWidthRatio * page0.right;
@@ -397,16 +398,27 @@ public class Content extends PDFTextStripper {
 						if(bb2.isFull(this,bb2.column))
 							continue;
 						
-						addSimilar(fbls,bb1,bb2);
+						if(addSimilar(fbls,bb1,bb2))
+							rects.add(new Rectangle(bb1));
 					}
 				}
 			}
 		}
 		
-		for(ArrayList<Block> bl:fbls) {
+        List<Rectangle> footerRects=rects.topsByMore(pages.size()-3);
+        
+        for(ArrayList<Block> bl:fbls) {
+            for(Block b:bl)
+                for(Rectangle fr: footerRects)
+                    if(b.samePosition(fr)) {
+                        b.type=Common._PageFooterBlock;
+                        break;
+                    }
+        }
+		/*for(ArrayList<Block> bl:fbls) {
 			for(Block b:bl)
 				b.type=Common._PageFooterBlock;
-		}
+		}*/
 	}
 	 
 	private void markSubtitleBlocks2() {
@@ -534,7 +546,7 @@ public class Content extends PDFTextStripper {
 			page.makeColumns();
 	}
 	
-	private void addSimilar(ArrayList<ArrayList<Block>> bls, Block b1, Block b2) {
+	private boolean addSimilar(ArrayList<ArrayList<Block>> bls, Block b1, Block b2) {
 		if(b1.isSimilar(b2,false)) {							
 			boolean found=false;
 			
@@ -553,7 +565,9 @@ public class Content extends PDFTextStripper {
 				bl.add(b2);
 				bls.add(bl);
 			}
+			return true;
 		}
+		return false;
 	}
 	
 	private ArrayList<String> scanTextAlphabetWords() {

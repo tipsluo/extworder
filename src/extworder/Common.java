@@ -395,10 +395,31 @@ public class Common {
 		}
 		
 		T maxByValue() {
+			if(records.size()==0)
+				return null;
+			
 			return records.entrySet().stream().
 					max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).
 					get().getKey();
 		}
+		
+        public ArrayList<T> topsByMore(int min) {
+            ArrayList<T> tops=new ArrayList<T>();
+            
+            LinkedHashMap<T, Integer> reverseSortedMap = new LinkedHashMap<>();
+            records.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) 
+                .forEachOrdered(x -> reverseSortedMap.put(x.getKey(), x.getValue()));
+            
+            for (Map.Entry<T,Integer> entry : reverseSortedMap.entrySet()) {
+                if(entry.getValue()<min) break;
+                T t=entry.getKey();
+                tops.add(t);
+            }
+            
+            return tops;
+        }
 		
 		public ArrayList<T> topsByValue(int number) {
 			ArrayList<T> tops=new ArrayList<T>();

@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 import extworder.Page.Column;
 
-public class Rectangle {
+public class Rectangle implements Comparable<Rectangle> {
 	public int left,upper,right;
 	public int lower;
 	public float width, height;
@@ -22,6 +22,19 @@ public class Rectangle {
 		width=right-left;
 		height=lower-upper;
 	}
+	
+    Rectangle(Rectangle rect) {
+        this.left=rect.left;
+        this.right=rect.right;
+        this.upper=rect.upper;
+        this.lower=rect.lower;
+        width=rect.width;
+        height=rect.height;
+    }
+    
+    boolean samePosition(Rectangle rect) {
+        return left==rect.left && right==rect.right && upper==rect.upper && lower==rect.lower;
+    }
 	
 	protected void resetRectangle() {
 		left=9999;
@@ -289,4 +302,28 @@ public class Rectangle {
 					b1.right-b1.left+b1.lower-b1.upper);
 		}
 	}
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        
+        Rectangle other = (Rectangle) obj;
+
+        return compareTo(other)==0;
+    }
+
+    @Override
+    public int compareTo(Rectangle rect) {
+        return hashCode()-rect.hashCode();
+    }
+    
+    @Override 
+    public int hashCode() {
+        return (((left * Math.round(width))) << 16 ) + upper * Math.round(height);
+    }
 }
