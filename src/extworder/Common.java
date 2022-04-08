@@ -77,7 +77,8 @@ public class Common {
 	final static int _TrivialBlockMaxLength=4;
 	
 	final static float _CenterAlignAdjustment=0.05f;
-	final static int _RightAlignAdjustment=50;
+	final static int _RightCrossAlignAdj=50;
+	final static int _AlignAdjustment=2;
 	
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;
@@ -89,8 +90,9 @@ public class Common {
 	//final static float _MinUppercaseBlockRatio=0.5f;
 	//final static int _MinUppercaseBlockCount=3;
 	
-	final static int _LEFTALIGNED=2;
-	final static int _CENTERALIGNED=4;
+	final static int _LEFTALIGNED=4;
+	final static int _CENTERALIGNED=8;
+	final static int _INDENTLEFTALIGNED=2;
 	final static int _RIGHTALIGNED=1;
 	final static int _UNKNOWNALIGNED=0;
 	

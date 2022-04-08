@@ -53,6 +53,7 @@ public class Content extends PDFTextStripper {
 	private boolean ignoreSubtitle=true;
 	private ArrayList<String> allWords;
 	BlockFormatChain2 subtitleFormatChain;
+	int firstRowIndent=-1;
 	int bgRGB;
 	ArrayList<Pattern> abbrPatterns;
 	List<NontitleChecker> nontitleCheckers;
@@ -156,6 +157,8 @@ public class Content extends PDFTextStripper {
 		
 		mergeConsecutiveBlocks();
 		mergeBlocksByGap();
+
+		firstRowIndent=getFirstRowIndent();
 		
 		// Page contents should not be changed after this point.
 		
@@ -1202,6 +1205,44 @@ public class Content extends PDFTextStripper {
 			return -1;
 		}
 	}
+	
+	private int getFirstRowIndent() {
+		List<Block> blocks=getBlockList();
+		StatGroup<Integer> indents=new StatGroup<Integer>();
+		
+		for(Block b:blocks) {
+			if(b.rows.size()==0)
+				continue;
+			
+			int i=b.rows.get(0).left - b.left;
+			
+			if(i<=0)
+				continue;
+			
+			indents.add(i);
+		}
+		
+		Integer ind=indents.maxByValue();
+		if(ind==null)
+			return -1;
+		
+		for(Block b:blocks) {
+			b.updateFormat();
+		}
+		
+		return ind;
+	}
+	
+	private List<Block> getBlockList() {
+		ArrayList<Block> bl=new ArrayList<Block>();
+		
+		for(Page page:pages)
+			bl.addAll(page.getBlockList());
+		
+		return bl;
+	}
+	
+	
 	/*static class BlockFormatChain implements Comparable<BlockFormatChain> {
 		ArrayList<BlockFormat> blockformats=new ArrayList<>();
 

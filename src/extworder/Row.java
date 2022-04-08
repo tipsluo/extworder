@@ -358,16 +358,16 @@ public class Row extends Rectangle {
 	int alignmentInFrame() {
 		int a;
 		if(block.column!=null) {
-			a=super.alignment(block.column,page.content.centralAlignmentAdjustment);
+			a=super.alignment(block.column,page.content.centralAlignmentAdjustment,page.content);
 		} else {
-			a=super.alignment(page,page.content.centralAlignmentAdjustment);
+			a=super.alignment(page,page.content.centralAlignmentAdjustment,page.content);
 		}
 		
 		return a;
 	}
 	
 	int alignmentInBlock() {
-		int a=super.alignment(block,page.content.centralAlignmentAdjustment);
+		int a=super.alignment(block,page.content.centralAlignmentAdjustment,page.content);
 		
 		return a;
 	}

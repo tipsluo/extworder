@@ -501,13 +501,14 @@ public class Page extends Rectangle{
 		if(!b)
 			return false;
 		
+		// Only left is on a column border and right is close to a border, it is crossing
 		boolean l=false;
 		boolean r=false;
 		if(b)
 			for(Column column:columns) {
 				if(block.left==column.left && !l) 
 					l=true;
-				if(column.right-block.right<Common._RightAlignAdjustment && !r)
+				if(column.right-block.right<Common._RightCrossAlignAdj && !r)
 					r=true;
 			}
 		

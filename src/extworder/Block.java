@@ -223,9 +223,9 @@ public class Block extends Rectangle {
 	
 	int alignment() {
 		if(column!=null)
-			return super.alignment(column,page.content.centralAlignmentAdjustment);
+			return super.alignment(column,page.content.centralAlignmentAdjustment,page.content);
 		else
-			return super.alignment(page,page.content.centralAlignmentAdjustment);
+			return super.alignment(page,page.content.centralAlignmentAdjustment,page.content);
 	}
 	
 	public void setIgnored(String ignoredString) {
@@ -761,7 +761,7 @@ public class Block extends Rectangle {
 		
 		@Override
 		public int hashCode() {
-			int hash=(int)( (charfont.value() * 2) + allUppercase) * 8 + alignment;
+			int hash=(int)( (charfont.value() * 2) + allUppercase) * 16 + alignment;
 	        
 	        return hash;
 		}

@@ -95,15 +95,17 @@ public class Rectangle implements Comparable<Rectangle> {
 		return Math.min(Math.min(d1,d2),Math.min(d3,d4));
 	}
 	
-	protected int alignment(Rectangle parentRect, int adj) {
+	protected int alignment(Rectangle parentRect, int centerAlignAdj, Content content) {
 		int leftIndent=left-parentRect.left;
 		int rightIndent=parentRect.right-right;
 		
-		if(leftIndent==0)
+		if(Math.abs(leftIndent)<=Common._AlignAdjustment)
 			return Common._LEFTALIGNED;
-		else if(rightIndent==0)
+		else if(Math.abs(leftIndent-content.firstRowIndent)<Common._AlignAdjustment)
+			return Common._INDENTLEFTALIGNED;
+		else if(Math.abs(rightIndent)<=Common._AlignAdjustment)
 			return Common._RIGHTALIGNED;
-		else if(Math.abs(leftIndent-rightIndent) < adj)
+		else if(Math.abs(leftIndent-rightIndent) <= centerAlignAdj)
 			return Common._CENTERALIGNED;
 		else
 			return Common._UNKNOWNALIGNED;
