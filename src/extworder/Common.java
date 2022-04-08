@@ -84,6 +84,8 @@ public class Common {
 	
 	final static int _MaxTrivialColoredLength=5;
 	
+	final static int _MaxMissingHeaderFooterPageNum=4;
+	
 	//final static float _MinUppercaseBlockRatio=0.5f;
 	//final static int _MinUppercaseBlockCount=3;
 	

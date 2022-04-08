@@ -405,7 +405,7 @@ public class Content extends PDFTextStripper {
 			}
 		}
 		
-        List<Rectangle> footerRects=rects.topsByMore(pages.size()-3);
+        List<Rectangle> footerRects=rects.topsByMore(pages.size()-Common._MaxMissingHeaderFooterPageNum);
         
         for(ArrayList<Block> bl:fbls) {
             for(Block b:bl)
@@ -415,10 +415,6 @@ public class Content extends PDFTextStripper {
                         break;
                     }
         }
-		/*for(ArrayList<Block> bl:fbls) {
-			for(Block b:bl)
-				b.type=Common._PageFooterBlock;
-		}*/
 	}
 	 
 	private void markSubtitleBlocks2() {
