@@ -101,7 +101,7 @@ public class Rectangle implements Comparable<Rectangle> {
 		
 		if(Math.abs(leftIndent)<=Common._AlignAdjustment)
 			return Common._LEFTALIGNED;
-		else if(Math.abs(leftIndent-content.firstRowIndent)<Common._AlignAdjustment)
+		else if(Math.abs(leftIndent-content.firstRowIndent)<=Common._AlignAdjustment)
 			return Common._INDENTLEFTALIGNED;
 		else if(Math.abs(rightIndent)<=Common._AlignAdjustment)
 			return Common._RIGHTALIGNED;

@@ -423,6 +423,15 @@ public class Block extends Rectangle {
 		boolean caRow=row.centralAligned(this);
 		boolean fullRow=row.isFull(page.content,column);
 		boolean longEnoughRow=true;
+		
+		int firstRowIndent;
+		if(column==null)
+			firstRowIndent=row.alignment(page,Common._AlignAdjustment,page.content);
+		else
+			firstRowIndent=row.alignment(column,Common._AlignAdjustment,page.content);
+		if(firstRowIndent==Common._INDENTLEFTALIGNED)
+			laRow=true;
+		
 		if(rows.size()>1)
 			longEnoughRow=row.isLongEnough(page,column,rows.get(1));	
 		int lendiff=Math.round(Common._SameBlockRowWidthDiff*row.width);

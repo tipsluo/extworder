@@ -158,7 +158,7 @@ public class Content extends PDFTextStripper {
 		mergeConsecutiveBlocks();
 		mergeBlocksByGap();
 
-		firstRowIndent=getFirstRowIndent();
+		getFirstRowIndent();
 		
 		// Page contents should not be changed after this point.
 		
@@ -434,6 +434,7 @@ public class Content extends PDFTextStripper {
 		List<BlockFormat> formats=subtitleFormatChain.blockformats;
 		for(;i<bigBlockList.size();i++) {
 			Block block=bigBlockList.get(i);
+			
 			boolean foundSubtitle=false;
 			if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue) {
 				int j1=1;
@@ -861,6 +862,7 @@ public class Content extends PDFTextStripper {
 		int i;
 		for(i=0;i<bigBlockList.size();i++) {
 			Block block0=bigBlockList.get(i);
+
 			if(block0.type != Common._Body)
 				continue;
 			
@@ -1206,7 +1208,7 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	private int getFirstRowIndent() {
+	private void getFirstRowIndent() {
 		List<Block> blocks=getBlockList();
 		StatGroup<Integer> indents=new StatGroup<Integer>();
 		
@@ -1224,13 +1226,13 @@ public class Content extends PDFTextStripper {
 		
 		Integer ind=indents.maxByValue();
 		if(ind==null)
-			return -1;
+			return;
+		else 
+			firstRowIndent=ind;
 		
 		for(Block b:blocks) {
 			b.updateFormat();
 		}
-		
-		return ind;
 	}
 	
 	private List<Block> getBlockList() {
