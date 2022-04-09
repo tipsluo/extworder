@@ -157,9 +157,39 @@ public class Rectangle implements Comparable<Rectangle> {
 			   (r1.left >= left && r1.left <= right);
 	}
 	
+	protected float hOverlap(Rectangle r1) {
+		int l=Math.max(left,r1.left);
+		int r=Math.min(right,r1.right);
+		
+		if(l>r)
+			return -1;
+		
+		int minLen=Math.min(right-left,r1.right-r1.left);
+		
+		if(minLen==0)
+			return -1;
+		
+		return (float)(r-l) / (float)minLen;
+	}
+	
 	protected boolean vIntersected(Rectangle r1) {
 		return (upper >= r1.upper && upper <= r1.lower) ||
 			   (r1.upper >= upper && r1.upper <= lower);
+	}
+	
+	protected float vOverlap(Rectangle r1) {
+		int l=Math.max(upper,r1.upper);
+		int r=Math.min(lower,r1.lower);
+		
+		if(l>r)
+			return -1;
+		
+		int minLen=Math.min(lower-upper,r1.lower-r1.upper);
+		
+		if(minLen==0)
+			return -1;
+		
+		return (float)(r-l) / (float)minLen;
 	}
 	
 	public boolean hContains(Rectangle r1) {

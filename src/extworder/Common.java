@@ -86,9 +86,7 @@ public class Common {
 	final static int _MaxTrivialColoredLength=5;
 	
 	final static int _MaxMissingHeaderFooterPageNum=4;
-	
-	//final static float _MinUppercaseBlockRatio=0.5f;
-	//final static int _MinUppercaseBlockCount=3;
+	final static float _MinMergeOverlapRatio=0.5f;
 	
 	final static int _LEFTALIGNED=4;
 	final static int _CENTERALIGNED=8;
@@ -113,6 +111,7 @@ public class Common {
 	final static Pattern scarceRow;
 	final static Pattern likeSentence1,likeSentence2,likeLeadingWord;
 	final static Pattern unlikeSubtitleEnd;
+	final static Pattern lastParaChar;
 
 	public final static String _WordDelimeter="[\n\r,.\":;\\?&()!\\-\\ \\[\\]\\{\\}]";
 	static {
@@ -127,6 +126,7 @@ public class Common {
 				"hadn't|hasn't|havn't|may|might|must|could|can|should|will|would)\\s+");
 		likeLeadingWord=Pattern.compile("^[A-Z].*$");
 		unlikeSubtitleEnd=Pattern.compile("[.,!?:]$");
+		lastParaChar=Pattern.compile("[.,!?:)\"]");
 	}
 	
 	public Common() {

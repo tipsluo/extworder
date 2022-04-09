@@ -147,7 +147,8 @@ public class Char extends Rectangle {
 	}
 	
 	boolean isTerminator() {
-		return (str.contains(".") || str.contains("?") || str.contains("!"));
+		//return (str.contains(".") || str.contains("?") || str.contains("!") || str.contains(":"));
+		return Common.lastParaChar.matcher(str).find();
 	}
 	
 	public void updateRectangle(Point[][] points) {

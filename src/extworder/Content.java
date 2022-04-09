@@ -157,7 +157,6 @@ public class Content extends PDFTextStripper {
 		
 		mergeConsecutiveBlocks();
 		mergeBlocksByGap();
-
 		getFirstRowIndent();
 		
 		// Page contents should not be changed after this point.
@@ -432,14 +431,14 @@ public class Content extends PDFTextStripper {
 		
 		int i=0;
 		List<BlockFormat> formats=subtitleFormatChain.blockformats;
-		for(;i<bigBlockList.size();i++) {
+		for(;i<bigBlockList.size();i++) {	
 			Block block=bigBlockList.get(i);
 			
 			boolean foundSubtitle=false;
 			if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue) {
 				int j1=1;
 				int j2=i-1;
-				for(; j1<formats.size() && j2>0;) {
+				for(; j1<formats.size() && j2>=0;) {
 					block=bigBlockList.get(j2);
 					BlockFormat format=formats.get(j1);
 					
@@ -1084,8 +1083,10 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private void mergeConsecutiveBlocks() {
-		for(Page page:pages) 
+		for(Page page:pages) {
 			page.mergeConsecutiveBlocks();
+			page.sortBlocks();
+		}
 	}
 	
 	private void mergeBlocksByGap() {
@@ -1100,7 +1101,8 @@ public class Content extends PDFTextStripper {
 				Block block=blocklist.get(i);
 				if(block0==null || 
 						block.upper-block0.lower>gap ||
-						(!block.format.same(block0.format))
+						(!block.format.same(block0.format) ||
+						block.hOverlap(block0) < Common._MinMergeOverlapRatio)
 						)
 					block0=block;
 				else {

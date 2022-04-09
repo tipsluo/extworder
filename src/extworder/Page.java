@@ -491,7 +491,7 @@ public class Page extends Rectangle{
 	boolean crossColumns(Block block) {
 		if(columns.size()<=1)
 			return false;
-		
+	
 		boolean b=false;
 		for(Column column:columns)
 			if(block.left>=column.left && block.left<=column.right && block.right>column.right) {
