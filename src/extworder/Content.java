@@ -770,12 +770,12 @@ public class Content extends PDFTextStripper {
 	private Block getAbstractBlock() {
 		ArrayList<String> patterns=new ArrayList<String>();
 		
-		patterns.add("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?\\s*$");
-		patterns.add("^\\s*[Ii][Nn][Tt][Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?\\s*$");
-		patterns.add("^\\s*[Oo][Vv][Ee][Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?\\s*$");
+		patterns.add("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?\\s*");
+		patterns.add("^\\s*[Ii][Nn][Tt][Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?\\s*");
+		patterns.add("^\\s*[Oo][Vv][Ee][Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?\\s*");
 		patterns.add("^\\s*[Ss][Un][Mm][Mm][Aa][Rr][Yy]\\s*[.:\n]?\\s*$");
-		patterns.add("^\\s*[Cc][Oo][Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?\\s*$");
-		patterns.add("^\\s*[Aa][Cc][Kk][Nn][Oo][Ww][Ll][Ee][Dd][Gg][Ee]\\s*[.:\n]?\\s*$");
+		patterns.add("^\\s*[Cc][Oo][Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?\\s*");
+		patterns.add("^\\s*[Aa][Cc][Kk][Nn][Oo][Ww][Ll][Ee][Dd][Gg][Ee]\\s*[.:\n]?\\s*");
 		
 		for(String pattern:patterns) {
 			getKeyBlockStr(

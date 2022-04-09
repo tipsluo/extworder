@@ -99,8 +99,9 @@ public class Page extends Rectangle{
 			Collections.sort(columns,compareColumns);
 			for(Column column:columns)
 				Collections.sort(column.blocks,Block.compareBlocks);
-		} else
-			Collections.sort(blocks,Block.compareBlocks);
+		}
+
+		Collections.sort(blocks,Block.compareBlocks);
 	}
 	
 	private void adjustCoordinates() {
