@@ -308,6 +308,7 @@ public class Content extends PDFTextStripper {
 	
 	private void markHeaderBlock() {
 		ArrayList<ArrayList<Block>> hbls=new ArrayList<ArrayList<Block>>();
+        StatGroup<Rectangle> rects=new StatGroup<Rectangle>();
 		
 		Page page0=pages.get(0);
 		float minHeaderWidth=Common._MaxHeaderFooterWidthRatio * page0.right;
@@ -330,46 +331,22 @@ public class Content extends PDFTextStripper {
 							
 							continue;
 						
-						addSimilar(hbls,tb1,tb2);
+						if(addSimilar(hbls,tb1,tb2))
+							rects.add(new Rectangle(tb1));
 					}
 			}
 		}
 		
+		List<Rectangle> footerRects=rects.topsByMore(pages.size()-Common._MaxMissingHeaderFooterPageNum);
+		
 		for(ArrayList<Block> bl:hbls) {
 			for(Block b:bl)
-				b.type=Common._PageHeaderBlock;
+                for(Rectangle fr: footerRects)
+                    if(b.samePosition(fr)) {
+                        b.type=Common._PageHeaderBlock;
+                        break;
+                    }
 		}
-	}
-	
-	void markContentX() {
-		contentLeft=9999;
-		contentRight=-1;
-		
-		for(Page page:pages)
-			for(Block block:page.blocks) {
-				if(contentLeft>block.left)
-					contentLeft=block.left;
-				if(contentRight<block.right)
-					contentRight=block.right;
-			}
-		
-		contentWidth=contentRight-contentLeft+1;
-		lowContentWidth=contentWidth*(1-Common._ColumnWidthAdjustment);
-		highContentWidth=contentWidth*(1+Common._ColumnWidthAdjustment);
-		
-		columnWidth=columnWidth();
-		lowColumnWidth=columnWidth*(1-Common._ColumnWidthAdjustment);
-		highColumnWidth=columnWidth*(1+Common._ColumnWidthAdjustment);
-		minBodyColumnBlockWidth=columnWidth*Common._MinBodyCharBlockWidth;
-		
-		if(columnWidth+columnWidth+columnWidth < contentWidth)
-			columnNumber=3;
-		else if (columnWidth+columnWidth < contentWidth) 
-			columnNumber=2;
-		else
-			columnNumber=1;
-		
-		centralAlignmentAdjustment=(int) (columnWidth*Common._CenterAlignAdjustment);
 	}
 	
 	private void markFooterBlock() {
@@ -418,7 +395,38 @@ public class Content extends PDFTextStripper {
                     }
         }
 	}
-	 
+	
+	void markContentX() {
+		contentLeft=9999;
+		contentRight=-1;
+		
+		for(Page page:pages)
+			for(Block block:page.blocks) {
+				if(contentLeft>block.left)
+					contentLeft=block.left;
+				if(contentRight<block.right)
+					contentRight=block.right;
+			}
+		
+		contentWidth=contentRight-contentLeft+1;
+		lowContentWidth=contentWidth*(1-Common._ColumnWidthAdjustment);
+		highContentWidth=contentWidth*(1+Common._ColumnWidthAdjustment);
+		
+		columnWidth=columnWidth();
+		lowColumnWidth=columnWidth*(1-Common._ColumnWidthAdjustment);
+		highColumnWidth=columnWidth*(1+Common._ColumnWidthAdjustment);
+		minBodyColumnBlockWidth=columnWidth*Common._MinBodyCharBlockWidth;
+		
+		if(columnWidth+columnWidth+columnWidth < contentWidth)
+			columnNumber=3;
+		else if (columnWidth+columnWidth < contentWidth) 
+			columnNumber=2;
+		else
+			columnNumber=1;
+		
+		centralAlignmentAdjustment=(int) (columnWidth*Common._CenterAlignAdjustment);
+	}
+	
 	private void markSubtitleBlocks2() {
 		lastSubtitleBlock=null;
 		
