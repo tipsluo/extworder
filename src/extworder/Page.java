@@ -553,10 +553,13 @@ public class Page extends Rectangle{
 							newRow.charReach=row.charReach;
 							newRow.render();
 							
+							newRow=new Row();
 							i++;
+							if(i>=columns.size())
+								break;
 							newBlock=newBlocks.get(i);
 							column=columns.get(i);
-							newRow=new Row();
+							
 						}
 					}
 				}
