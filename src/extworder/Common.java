@@ -82,11 +82,14 @@ public class Common {
 	
 	final static int _MinTimeSubtitle=3;
 	final static int _MinTimeAdditionalSubtitle=2;
+	final static float _RowWordReachAdjRatio=2f;
 	
 	final static int _MaxTrivialColoredLength=5;
 	
 	final static int _MaxMissingHeaderFooterPageNum=4;
 	final static float _MinMergeOverlapRatio=0.5f;
+	
+	final static float _MinSameRowOverlap=0.5f;
 	
 	final static int _LEFTALIGNED=4;
 	final static int _CENTERALIGNED=8;

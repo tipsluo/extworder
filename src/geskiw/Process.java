@@ -60,14 +60,23 @@ public class Process {
 		
 		int top1Num=Consts._TOP1NUM;
 		int top2Num=Consts._TOP2NUM;;
-		top0=topKeywords(top1Num+top2Num);
+		int top12Num=top1Num+top2Num;
+		top0=topKeywords(top12Num);
 		
 		if(top0==null) {
 			error="Not able to get top word list.";
 			return;
+		} else if(top0.size()<top12Num) {
+			error=String.format("Not able to get enough top words. %d is expected, but got %d.",top12Num,top0.size());
+			return;
 		}
 		
 		getAllKeySentences(top1Num,top2Num);
+		
+		if(outputSections.size()==0) {
+			error="Not output section is generated";
+			return;
+		}
 		
 		extractResult=output();
 	}

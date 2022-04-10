@@ -786,14 +786,15 @@ public class Content extends PDFTextStripper {
 				break;
 		}
 		
-		if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
+		//if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
+		if(activeBlock!=null && activeBlock.isParagraphBlock2()) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
 		} else {
 			for (Page page:pages) {
 				for(int i=0; i<page.blocks.size();i++) {
-					Block block=page.blocks.get(i);
-
+					Block block=page.blocks.get(i);	
+					
 					if(block.type==Common._Body) {
 						return null;
 					} 
@@ -826,8 +827,6 @@ public class Content extends PDFTextStripper {
 	public String getKeyBlockStr(int skipBlockNumber, Pattern pattern) {
 		String str;
 		String ret;
-	
-		boolean stopped=false;
 		
 		for (Page page:pages) {
 			for(int i=0; i<page.blocks.size();i++) {
@@ -835,7 +834,7 @@ public class Content extends PDFTextStripper {
 					continue;
 				
 				Block block=page.blocks.get(i);
-				
+									
 				str=block.string();
 				str=str.replaceAll("[\\r\\n]+", " ");
 				str=str.replaceAll("\\s+", " ");
@@ -854,9 +853,6 @@ public class Content extends PDFTextStripper {
 					return ret;
 				}
 			}
-			
-			if(stopped)
-				break;
 		}
 			
 		activeBlock=null;

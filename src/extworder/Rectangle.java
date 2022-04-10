@@ -222,18 +222,16 @@ public class Rectangle implements Comparable<Rectangle> {
 				width <= rect.width * (1+Common._ColumnWidthAdjustment);
 	}
 	
-	boolean isLongEnough(Page page, Column column, Row next) {
+	boolean isLongEnough(Rectangle rect, Row curr, Row next) {
 		if(next.string().length()==0)
 			return false;
 			
-		float diff;
+		float diff=rect.right-curr.right;
 		
-		if(column==null)
-			diff=page.width-width;
-		else
-			diff=column.width-width;
+		int n=next.string().split(" ")[0].length();
+		int len=curr.chars.get(n-1).right-rect.left;
 		
-		if(diff <= next.string().split(" ")[0].length())
+		if(diff <= len)
 			return true;
 		
 		return false;

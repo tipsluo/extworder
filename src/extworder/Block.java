@@ -432,8 +432,15 @@ public class Block extends Rectangle {
 		if(firstRowIndent==Common._INDENTLEFTALIGNED)
 			laRow=true;
 		
+		Rectangle rect;
+		if(column==null)
+			rect=page;
+		else
+			rect=column;
+		
 		if(rows.size()>1)
-			longEnoughRow=row.isLongEnough(page,column,rows.get(1));	
+			longEnoughRow=row.isLongEnough(rect,rows.get(0),rows.get(1));	
+		
 		int lendiff=Math.round(Common._SameBlockRowWidthDiff*row.width);
 		
 		for(int i=1; i<rows.size(); i++) {
@@ -445,7 +452,7 @@ public class Block extends Rectangle {
 			boolean fullRow1=row1.isFull(page.content,column);
 			boolean longEnoughRow1=true;
 			if(i<rows.size()-1)
-				longEnoughRow1=row1.isLongEnough(page,column,rows.get(i+1));
+				longEnoughRow1=row1.isLongEnough(rect,row1,rows.get(i+1));
 			int lendiff1=Math.round(Common._SameBlockRowWidthDiff*row1.width);
 			
 			if(! (fullRow || longEnoughRow) || ! (fullRow1 || longEnoughRow1) ) {
@@ -615,6 +622,79 @@ public class Block extends Rectangle {
 		return true;
 	}
 	
+	private boolean allRowsSeparate() {
+		if(rows.size()<=1)
+			return true;
+		
+		Row row0=rows.get(0);
+		for(int i=1; i<rows.size(); i++) {
+			Row row=rows.get(i);
+			
+			float rowOverlap=row.vOverlap(row0);
+			
+			if(rowOverlap>0 && rowOverlap<Common._MinSameRowOverlap) {
+				return false;
+			}
+			row0=row;
+		}
+		
+		return true;
+	}
+	
+	private boolean consecutive() {
+		for(Row row:rows) {
+			Char ch0=row.chars.get(0);
+			int wordReachAdj=(int) (row.wordReach * Common._RowWordReachAdjRatio);
+			for(Char ch:row.chars) {
+				if(ch.left-ch0.right > wordReachAdj)
+					return false;
+				ch0=ch;
+			}
+		}
+		
+		return true;
+	}
+	
+	private boolean rowsLeftAligned() {
+		if(rows.size()<=1)
+			return true;
+		
+		for(int i=1; i<rows.size(); i++) {
+			Row row=rows.get(i);
+			
+			if(! row.leftAligned(this))
+				return false;
+		}
+		
+		return true;
+	}
+	
+	/*boolean allRowsLongEnough() {
+		if(rows.size()<=1)
+			return true;
+	
+		Row row0=rows.get(0);
+	
+		for(int i=1; i<rows.size(); i++) {
+			Row row=rows.get(i);
+			if(! row0.isLongEnough(this,row0,row))
+				return false;
+			row0=row;
+		}
+		
+		return true;
+	}*/
+	
+	boolean isParagraphBlock2() {
+		// 1. Don't check first-row-indent because some blocks such as the abrstract of 
+		// "Spagna-1998-Dyslexia marker variables(AC2)" have different indents.
+		// 2. Ideally, check first-uppercase
+		
+		return allRowsSeparate() && 
+				consecutive() &&
+				rowsLeftAligned();
+	}
+	
 	public boolean priorTo(Block block) {
 		if(page!=block.page)
 			return page.id<block.page.id;
@@ -670,6 +750,9 @@ public class Block extends Rectangle {
 	public String string() {
 		if(str!=null && str!="")
 			return str;
+		
+		if(rows.size()==0)
+			return "";
 		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {

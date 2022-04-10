@@ -590,7 +590,6 @@ public class Page extends Rectangle{
 				Column column=columns.get(i);
 				column.blocks.add(newBlock);
 				blocks.add(newBlock);
-
 				column.render();
 			}
 		}
@@ -605,12 +604,16 @@ public class Page extends Rectangle{
 				splitCrossBlock(block);
 				if(block.rows.size()==0) {
 					blocks.remove(block);
-					if(block.column!=null)
-						block.column.blocks.remove(block);
+					if(block.column!=null) {
+						Column column=block.column;
+						column.blocks.remove(block);
+						column.render();
+					}
 					i--;
 				}
 			}
 		}
+		
 		sortBlocks();
 	}
 	
@@ -784,6 +787,8 @@ public class Page extends Rectangle{
 			Collections.sort(blocks,Block.compareBlocks);
 			resetRectangle();
 			for(Block block:blocks) {
+				if(block.rows.size()==0)
+					continue;
 				updateRectangle(block);
 				block.format.update(block);
 				renderStrings();
