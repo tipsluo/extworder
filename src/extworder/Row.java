@@ -492,7 +492,7 @@ public class Row extends Rectangle {
 			float f=height;
 			
 			if(bold>0)
-				f=f + Common._BoldCharFontValue;
+				f = f * 10 + Common._BoldCharFontValue;
 					
 	        return f;
 		}

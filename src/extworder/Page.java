@@ -476,11 +476,14 @@ public class Page extends Rectangle{
 				continue;
 			}
 			
-			if(block1.rows.size()>1) {
+			if(block1.upper-block0.lower > (int)block1.format.charfont.height * Common._CharVGapRatio) {
 				block0=null;
 				continue;
 			}
 			
+			if(block0.column!=null && block1.column!=null && block0.column!=block1.column)
+				continue;
+				
 			if(block0.format.same(block1.format)) {
 				block0.merge(block1);
 				blocklist.remove(block1);
