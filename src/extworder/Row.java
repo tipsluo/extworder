@@ -454,6 +454,24 @@ public class Row extends Rectangle {
 		return str;
 	}
 	
+	public String stringWoSmall() {
+		String s="";
+		Char ch0=chars.get(0);
+	
+		for(Char ch:chars) {
+			if(charReach < ch.left-ch0.right) {
+				s+=" ";
+			}
+			
+			if(!ch.smallChar())
+				s+=ch.str;
+			
+			ch0=ch;
+		}
+		
+		return s;
+	}
+	
 	static public class CharFont implements Comparable<CharFont>{
 		String name;
 		public float height;

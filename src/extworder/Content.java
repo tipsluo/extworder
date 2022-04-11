@@ -144,7 +144,8 @@ public class Content extends PDFTextStripper {
 		joinFrameSameRow();
 		
 		markContentX();
-		makeColumns();
+		if(! makeColumns())
+			makeColumn2();
 		
 		for(Page page:pages) {
 			page.separateAllUppers();
@@ -548,9 +549,49 @@ public class Content extends PDFTextStripper {
 	    return rgb;
 	}
 	
-	private void makeColumns() {
-		for(Page page:pages)
-			page.makeColumns();
+	private boolean makeColumns() {
+		final int _PageNumber=3;
+		boolean columned=true;
+		
+		int columnedCount=0;
+		for(int i=0;i<pages.size();i++) {
+			Page page=pages.get(i);
+			int columnedCount1=page.makeColumns();
+			
+			columnedCount+=columnedCount1;
+			
+			if(i>_PageNumber && columnedCount<Common._MinFirst3PageCount) {
+				int j=0;
+				for(Page page1:pages) {
+					page1.columns=new ArrayList<Column>();
+					for(Block block:page1.blocks)
+						block.column=null;
+					j++;
+					if(j>_PageNumber)
+						break;
+				}
+				columned=false;
+				break;
+			}
+		}
+		
+		return columned;
+	}
+	
+	private void makeColumn2() {
+		StatGroup<Integer> lefts=new StatGroup<Integer>();
+		
+		for(Block block:getBlockList())
+			lefts.add(block.left);
+		
+		int columnLeft=lefts.maxByValue();
+		
+		for(int i=0;i<pages.size();i++) {
+			Page page=pages.get(i);
+			
+			Column column=page.new Column(columnLeft,page.headerY,page.right,page.footerY);
+			page.columns.add(column);
+		}
 	}
 	
 	private boolean addSimilar(ArrayList<ArrayList<Block>> bls, Block b1, Block b2) {

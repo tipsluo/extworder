@@ -91,6 +91,8 @@ public class Common {
 	
 	final static float _MinSameRowOverlap=0.5f;
 	
+	final static int _MinFirst3PageCount=1;
+	
 	final static int _LEFTALIGNED=4;
 	final static int _CENTERALIGNED=8;
 	final static int _INDENTLEFTALIGNED=2;
@@ -115,6 +117,7 @@ public class Common {
 	final static Pattern likeSentence1,likeSentence2,likeLeadingWord;
 	final static Pattern unlikeSubtitleEnd;
 	final static Pattern lastParaChar;
+	final static Pattern firstNotUpper;
 
 	public final static String _WordDelimeter="[\n\r,.\":;\\?&()!\\-\\ \\[\\]\\{\\}]";
 	static {
@@ -130,6 +133,8 @@ public class Common {
 		likeLeadingWord=Pattern.compile("^[A-Z].*$");
 		unlikeSubtitleEnd=Pattern.compile("[.,!?:]$");
 		lastParaChar=Pattern.compile("[.,!?:)\"]");
+		
+		firstNotUpper=Pattern.compile("[.!?]\\s*[^A-Za-z0-9]*\\s*[a-z]"); // . a is illegal.
 	}
 	
 	public Common() {

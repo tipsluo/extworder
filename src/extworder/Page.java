@@ -309,7 +309,8 @@ public class Page extends Rectangle{
 		return false;
 	}
 	
-	protected void makeColumns() {
+	protected int makeColumns() {
+		int columnedBlockCount=0;
 		TreeMap<Stretch,Integer> stretches=new TreeMap<>();
 		
 		for(Row row:rows) {
@@ -348,11 +349,15 @@ public class Page extends Rectangle{
 			int l=columnStretch.start - a;
 			int r=columnStretch.end + a;
 			
-			columns.add(new Column(l,headerY,
-					r,footerY));
+			Column column=new Column(l,headerY,r,footerY);
+			columns.add(column);
+			columnedBlockCount+=column.blocks.size();
 		}
 		
-		Collections.sort(columns,compareColumns);
+		//Collections.sort(columns,compareColumns);
+		sortBlocks();
+		
+		return columnedBlockCount;
 	}
 	
 	void separateAllUppers() {
@@ -773,14 +778,6 @@ public class Page extends Rectangle{
 			}
 			
 			render();
-			
-			/*Collections.sort(blocks,Block.compareBlocks);
-			
-			resetRectangle();
-			for(Block block:blocks) {
-				updateRectangle(block);
-				block.format.update(block);
-			}*/
 		}
 		
 		void render() {

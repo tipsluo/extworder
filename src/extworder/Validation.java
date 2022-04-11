@@ -1,6 +1,7 @@
 package extworder;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import extworder.Block.BlockFormat;
 
@@ -25,5 +26,20 @@ public class Validation {
 		return true;
 	}
 	
-	/**/
+	/*static boolean checkSentencesComplete(List<Block> blocks) {
+		String s="";
+		
+		for(Block block:blocks) {
+			for(Row row:block.rows)
+				s+=row.stringWoSmall()+" ";
+		}
+		
+		return checkSentencesComplete(s);
+	}
+	
+	static boolean checkSentencesComplete(String str){
+		if(Common.firstNotUpper.matcher(str).find())
+			return false;
+		return true;
+	}*/
 }

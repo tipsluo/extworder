@@ -228,11 +228,19 @@ public class Rectangle implements Comparable<Rectangle> {
 			
 		float diff=rect.right-curr.right;
 		
-		int n=next.string().split(" ")[0].length();
-		int len=curr.chars.get(n-1).right-rect.left;
+		int i=1;
+		Char ch0=next.chars.get(0);
+		for(;i<next.chars.size();i++) {
+			Char ch=next.chars.get(i);
+			if(ch.left-ch0.right > next.charReach)
+				break;
+			
+			ch0=ch;
+		}
 		
-		if(diff <= len)
-			return true;
+		if(i<next.chars.size())
+			if(diff <= ch0.right-next.left)
+				return true;
 		
 		return false;
 	}
