@@ -32,11 +32,11 @@ public class Geskiw {
 		//String pdfName="IEEE-2000-Hardware Controls for the STAR Experiment at RHIC";
 		//String pdfName="CellularPhysiology-2020-Preferential Killing of Tetraploid Colon";
 		//String pdfName="Wiley-Early life stress and HPA axis";
-		//String pdfName="Elsevier-2021-Towards security automation in Software Defined";
+		String pdfName="Elsevier-2021-Towards security automation in Software Defined";
 		//String pdfName="IEEE-2000-Hardware Controls for the STAR Experiment at RHIC";
 		//String pdfName="Archaeology-2020Digital Platforms and the Nature";
 		//String pdfName="Spagna-1998-Dyslexia marker variables(AC2)";
-		String pdfName="ScientificReports-2019-Dental pulp cell-derived powerful inducer";
+		//String pdfName="ScientificReports-2019-Dental pulp cell-derived powerful inducer";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);

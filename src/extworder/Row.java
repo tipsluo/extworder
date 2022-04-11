@@ -492,14 +492,14 @@ public class Row extends Rectangle {
 			float f=height;
 			
 			if(bold>0)
-				f = f * 10 + Common._BoldCharFontValue;
+				f=f + bold * Common._BoldCharFontValue;
 					
 	        return f;
 		}
 		
 	    @Override
 	    public int hashCode() {
-	    	return (int)(value()*1024) + (name.hashCode()>>20);
+	    	return (int)(value()*4096) + (name.hashCode()>>20);
 	    }
 		
 		@Override

@@ -38,7 +38,7 @@ public class Common {
 	final static float _MaxNoAlignedInBlockRation=0.3f;
 	final static float _MaxLeadingCapitalRatio=0.35f;
 	final static float _MaxSameCharFontHeightDiff=0.1f;
-	final static float _BoldCharFontValue=0.5f;
+	final static float _BoldCharFontValue=0.25f;
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
 	final static float _MaxHeaderFooterHeightRatio=0.1f;
