@@ -42,6 +42,7 @@ public class Common {
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _BlockDisplaceRatio=1f;
 	final static float _MaxHeaderFooterHeightRatio=0.1f;
+	final static float _MaxSameRowCharHeightDiffRatio=0.3f;
 	
 	final static float _IgnoredColoredBlockRatio=2.0f;
 	

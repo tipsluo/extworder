@@ -55,11 +55,36 @@ public class Row extends Rectangle {
 		this(page,block,ch.left,ch.upper);
 	}
 	
+	public Row split(int i) {
+		Row row=new Row();
+		
+		for(;i<chars.size();) {
+			Char ch=chars.get(i);
+			row.addChar(ch);
+			chars.remove(ch);
+		}
+		
+		render();
+		row.render();
+		
+		row.page=page;
+		page.rows.add(row);
+		if(block!=null) {
+			row.block=block;
+			block.rows.add(row);
+		}
+		
+		reupdateRectangle();
+		
+		return row;
+	}
+	
 	public String render() {
 		Collections.sort(chars,Char.compareChars);
 		str="";
 		string();
 		charfont=getCharFont();
+		getWordInterval();
 		return str;
 	}
 	
@@ -171,7 +196,6 @@ public class Row extends Rectangle {
 			charReach=intervals.get(0)+1;
 			wordReach=intervals.get(intervals.size()-1)+1;
 		}
-			//return new Range(intervals.get(0)+1, intervals.get(intervals.size()-1)+1);
 		
 		List<Entry<Integer, Integer>> list = new ArrayList<>(intervalCounts.entrySet());
         list.sort(Entry.<Integer, Integer>comparingByValue().reversed());
