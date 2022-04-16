@@ -23,17 +23,58 @@ public class Consts {
 	final static String _NontitlePageStrings[] = new String[] { 
 			".*elsevier.com.*", 
 			".*thegreenjournal.com.*"
-		};
+	};
 	final static String _NontitleBlockStrings[][] = new String[][] { 
 			{"^www\\.nature\\.com/scientificreports$","^OPEN$"},
 			{"^www\\.nature\\.com/scientificreports$","^www\\.nature\\.com/scientificreports$"},
-		};
+	};
 	final static String[][] _IgnorePageLists=new String[][]{
 		{"LENDER"},
 		{"BORROWER"},
 		{"SAGE Businesscases"},
 		{"JSTOR is a not-for-profit service that helps scholars"},
 		{"^\s*CITATION"}
+	};
+	final static String[] _SkipSectionList=new String[]{
+		"ACM Reference Format",
+		"Publisher’s Note",
+		"Author Contributions",
+		"Authors' contributions",
+		"Funding",
+		"Citation",
+		"INDEX TERMS",
+		"Disclosures of Conflicts of Interest",
+		"Activities related to the present article",
+		"Keywords",
+		"DATA AVAILABILITY STATEMENT",
+		"Correspondence",
+		"ETHICS STATEMENT",
+		"Conflicts of Interest",
+		"List of abbreviations",
+		"ACKNOWLEDGEMENTS",
+		"Acknowledgments",
+		"About the Author",
+		"About the authors",
+		"Authors Notes",
+		"Author’s Note",
+		"Author Information",
+		"References",
+		"Reference List",
+		"REFERENCES",
+		"Notes",
+		"NOTES",
+		"Endnote",
+		"ENDNOTE",
+		"Endnotes",
+		"Works Cited",
+		"Appendix",
+		"APPENDIX",
+		"Appendix A",
+		"Appendix B",
+		"Bibliography",
+		"BIBLIOGRAPHY",
+		"External resources",
+		"Further reading"
 	};
 	
 	public Consts() {

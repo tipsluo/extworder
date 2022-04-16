@@ -34,6 +34,7 @@ public class Process {
 	public String extractResult;
 	public String error;
 	ArrayList<Pattern> abbrPatterns;
+	ArrayList<Pattern> skipSectionPatterns;
 	StatGroup<Word> commonWords;
 	private int originalWordCount;
 	private int extractedWordCount;
@@ -49,6 +50,7 @@ public class Process {
 		
 		readStopWordsFromFile(stopWordFile);
 		readAbbreviationsFromFile(abbreviationFile);
+		loadSkipSectionPattern();
 
 		readirregularsFromFile(irreNounFile);
 		
@@ -269,14 +271,11 @@ public class Process {
 		}
 	}
 	
-	/*private String replaceAbbreviations(String str) {
-		String s=str;
-		for(int i=0;i<abbrPatterns.size();i++) {
-			abbrPatterns.get(i).matcher(s).replaceAll(abbrSubses.get(i));
-		}
-		
-		return s;
-	}*/
+	private void loadSkipSectionPattern( ) {
+		skipSectionPatterns=new ArrayList<Pattern>();
+		for(String s:Consts._SkipSectionList)
+			skipSectionPatterns.add(Pattern.compile("^\\s*"+s+"\\s*:$"));
+	}
 	
 	private String restoreAbbreviation(String str) {
 		return str.replaceAll(Consts._AbbrSubsStr,".");
@@ -315,7 +314,11 @@ public class Process {
 					continue;
 				
 				section=new Section(block);
-				sections.add(section);
+				
+				if(!skipSectionString(block.string()))
+					sections.add(section);
+				// section is not added even it continues to be built.
+				
 				continue;
 			}
 
@@ -421,6 +424,13 @@ public class Process {
 
 			return false;
 		}
+	}
+	
+	private boolean skipSectionString(String s) {
+		for(Pattern p:skipSectionPatterns)
+			if(p.matcher(s.trim()).find())
+				return true;
+		return false;
 	}
 	
 	public class Section {

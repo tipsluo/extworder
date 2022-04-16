@@ -19,6 +19,7 @@ import org.apache.pdfbox.text.TextPosition;
 import extworder.Block.CompareBlocks;
 import extworder.Char.Point;
 import extworder.Block.BlockFilter;
+import extworder.Common.StatGroup;
 import extworder.Common.Stretch;
 
 public class Page extends Rectangle{
@@ -33,6 +34,7 @@ public class Page extends Rectangle{
     int headerY,footerY;
     PageImg pageImg;
     ArrayList<ColoredBlock> coloredBlocks;
+    int topCharHGap;
 	private int xOffset;
 	private int yOffset;
 	final static CompareColumns compareColumns=new CompareColumns();
@@ -78,6 +80,8 @@ public class Page extends Rectangle{
 		
 		pageBitmap=new PageBitmap(this);
 		eliminateCharIntersections();
+		
+		topCharHGap=getTopCharHGap();
 
 		getAllRows();
 		getAllRowBorders();
@@ -307,6 +311,39 @@ public class Page extends Rectangle{
 				return true;
 			}
 		return false;
+	}
+	
+	int getTopCharHGap() {
+		StatGroup<Integer> gaps=new StatGroup<Integer>();
+		
+		Comparator<Char> compareCharsV = (Char ch1, Char ch2) ->
+			ch1.upper!=ch2.upper ? (int)(ch1.upper-ch2.upper) : (int)(ch1.left-ch2.left);
+		
+		Collections.sort(chars,compareCharsV);
+		
+		Char ch0=chars.get(0);
+		for(int i=1;i<chars.size();i++) {
+			Char ch=chars.get(i);
+			
+			if(ch0==null) {
+				ch0=ch;
+				continue;
+			}
+			
+			if(ch.upper==ch0.upper && ch.lower==ch0.lower) {
+				int gap=ch.left-ch0.right;
+				if(gap<ch.height)
+					continue;
+				gaps.add(gap);
+			}
+				
+			ch0=ch;
+		}
+		
+		if(gaps.records.size()<rows.size())
+			return 9999;
+		
+		return gaps.maxByValue();
 	}
 	
 	protected int makeColumns() {

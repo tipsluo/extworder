@@ -119,6 +119,8 @@ public class Row extends Rectangle {
 		Collections.sort(chars,Char.compareChars);
 
 		getWordInterval();
+		if(wordReach>page.topCharHGap)
+			wordReach=page.topCharHGap;
 
 		resetChars();		
 		expand(page.pageBitmap.points[x][y].ch);
