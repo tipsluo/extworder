@@ -561,7 +561,7 @@ public class Page extends Rectangle{
 		return l && r;
 	}
 	
-	void splitCrossBlock(Block block) {
+	/*void splitCrossBlock(Block block) {
 		ArrayList<Block> newBlocks=new ArrayList<Block>();
 		for(Column column:columns) {
 			Block newBlock=new Block();
@@ -660,7 +660,7 @@ public class Page extends Rectangle{
 		}
 		
 		sortBlocks();
-	}
+	}*/
 	
 	ArrayList<Block> getBlockList() {
 		ArrayList<Block> bl=new ArrayList<Block>();

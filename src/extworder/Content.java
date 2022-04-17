@@ -149,7 +149,7 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			page.separateAllUppers();
-			page.splitCrossBlocks();
+			//page.splitCrossBlocks();
 			
 			// The next two lines should have been able to be removed, but "Wiley-Early..." will fail with "Kessler, & Shaver..." crossing the columns"
 			page.updateBlockFormats();

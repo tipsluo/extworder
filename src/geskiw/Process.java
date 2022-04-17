@@ -274,7 +274,7 @@ public class Process {
 	private void loadSkipSectionPattern( ) {
 		skipSectionPatterns=new ArrayList<Pattern>();
 		for(String s:Consts._SkipSectionList)
-			skipSectionPatterns.add(Pattern.compile("^\\s*"+s+"\\s*:$"));
+			skipSectionPatterns.add(Pattern.compile("^\\s*"+s+"\\s*[:]?\\s*$"));
 	}
 	
 	private String restoreAbbreviation(String str) {
