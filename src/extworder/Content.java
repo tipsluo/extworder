@@ -185,27 +185,34 @@ public class Content extends PDFTextStripper {
     }
 	
 	private void getBodyFormat() {
+		StatGroup<BlockFormat> blockformats=new StatGroup<BlockFormat>();
+		
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-					if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue &&
-							! blockformats.containsKey(block.format))
-						blockformats.put(block.format,evaluateBodyBlockformat(block.format));
+				/*	if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue &&
+							! blockformats.containsKey(block.format))*/
+					if(block.format.alignment==Common._FULLALIGNED)
+						blockformats.add(block.format, (pages.size()-page.id) * block.rows.size());  // Blocks on the earlier pages get higher weigh than those on late pages.
+						//blockformats.put(block.format,evaluateBodyBlockformat(block.format));
 				}
 		
-		bodyBlockformat=blockformats.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		//bodyBlockformat=blockformats.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+		bodyBlockformat=blockformats.maxByValue();
 		
 		blockformatIndexes=makeBlockformatIndexes();
 	}
 	
-	private int evaluateBodyBlockformat(BlockFormat blockformat) {
+	/*private int evaluateBodyBlockformat(BlockFormat blockformat) {
 		int value=0;
 		
 		int currValue=pages.size();
 		
 		for(Page page:pages) {
 			for(Block block:page.blocks) {
-				if(block.likeBodyBlock1()<Common._ParaSentDefaultTrue)
+				//if(block.likeBodyBlock1()<Common._ParaSentDefaultTrue)
+				//	continue;
+				if(block.format.alignment!=Common._FULLALIGNED && block.format.alignment!=Common._FIRSTROWINDENTFULLALIGNED)
 					continue;
 				
 				if(block.format.equals(blockformat)) {
@@ -217,7 +224,7 @@ public class Content extends PDFTextStripper {
 		}
 		
 		return value;
-	}
+	}*/
 	
 	private Map<BlockFormat,Integer> makeBlockformatIndexes() {
 		ArrayList<BlockFormat> bfs=new ArrayList<BlockFormat>();

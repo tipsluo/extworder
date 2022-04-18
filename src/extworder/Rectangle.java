@@ -99,6 +99,8 @@ public class Rectangle implements Comparable<Rectangle> {
 		int leftIndent=left-parentRect.left;
 		int rightIndent=parentRect.right-right;
 		
+		if(Math.abs(leftIndent)<=Common._AlignAdjustment && Math.abs(rightIndent)<=Common._AlignAdjustment)
+			return Common._FULLALIGNED;
 		if(Math.abs(leftIndent)<=Common._AlignAdjustment)
 			return Common._LEFTALIGNED;
 		else if(Math.abs(leftIndent-content.firstRowIndent)<=Common._AlignAdjustment)
@@ -222,11 +224,11 @@ public class Rectangle implements Comparable<Rectangle> {
 				width <= rect.width * (1+Common._ColumnWidthAdjustment);
 	}
 	
-	boolean isLongEnough(Rectangle rect, Row curr, Row next) {
+	boolean isLongEnough(Rectangle rect, Row next) {
 		if(next.string().length()==0)
 			return false;
 			
-		float diff=rect.right-curr.right;
+		float diff=rect.right-right;
 		
 		int i=1;
 		Char ch0=next.chars.get(0);

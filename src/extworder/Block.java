@@ -222,10 +222,25 @@ public class Block extends Rectangle {
 	}
 	
 	int alignment() {
-		if(column!=null)
-			return super.alignment(column,page.content.centralAlignmentAdjustment,page.content);
-		else
-			return super.alignment(page,page.content.centralAlignmentAdjustment,page.content);
+		int ali;
+		Rectangle parent = column==null ? page:column;
+		
+		ali=super.alignment(parent,page.content.centralAlignmentAdjustment,page.content);
+		
+		if(ali==Common._LEFTALIGNED && allRowsLongEnough())
+			ali=Common._FULLALIGNED;
+		
+		if(ali==Common._FULLALIGNED) {
+			int ali1=rows.get(0).alignment(this,page.content.centralAlignmentAdjustment,page.content);
+			/*if(ali1==Common._INDENTLEFTALIGNED) {
+				ali=Common._FIRSTROWINDENTFULLALIGNED;
+			}*/
+		}
+		
+		/*if(rows.size()==1 && ali==Common._INDENTLEFTALIGNED)
+			ali=Common._FIRSTROWINDENTFULLALIGNED;*/
+		
+		return ali;
 	}
 	
 	public void setIgnored(String ignoredString) {
@@ -412,6 +427,23 @@ public class Block extends Rectangle {
 		}
 		return true;
 	}
+	
+	boolean allRowsLongEnough() {
+		if(rows.size()<2)
+			return true;
+		
+		Row row0=rows.get(0);
+		
+		int n=rows.size()-1;
+		for(int i=1;i<n;i++) {
+			Row row=rows.get(i);
+			if(!row0.isLongEnough(this,row))
+				return false;
+			row0=row;
+		}
+		
+		return true;
+	}
 
 	int likeTitleBlock( ) {
 		if(string().trim().isEmpty())
@@ -439,7 +471,7 @@ public class Block extends Rectangle {
 			rect=column;
 		
 		if(rows.size()>1)
-			longEnoughRow=row.isLongEnough(rect,rows.get(0),rows.get(1));	
+			longEnoughRow=row.isLongEnough(rect,rows.get(1));	
 		
 		int lendiff=Math.round(Common._SameBlockRowWidthDiff*row.width);
 		
@@ -452,7 +484,7 @@ public class Block extends Rectangle {
 			boolean fullRow1=row1.isFull(page.content,column);
 			boolean longEnoughRow1=true;
 			if(i<rows.size()-1)
-				longEnoughRow1=row1.isLongEnough(rect,row1,rows.get(i+1));
+				longEnoughRow1=row1.isLongEnough(rect,rows.get(i+1));
 			int lendiff1=Math.round(Common._SameBlockRowWidthDiff*row1.width);
 			
 			if(! (fullRow || longEnoughRow) || ! (fullRow1 || longEnoughRow1) ) {
@@ -853,7 +885,7 @@ public class Block extends Rectangle {
 		
 		@Override
 		public int hashCode() {
-			int hash=(int)( (charfont.value() * 2) + allUppercase) * 16 + alignment;
+			int hash=(int)( (charfont.value() * 2) + allUppercase) * 32 + alignment;
 	        
 	        return hash;
 		}

@@ -453,7 +453,7 @@ public class Process {
 		}
 	}
 	
-	public class NontitleFirstStringChecker extends NontitleChecker {
+	static public class NontitleFirstStringChecker extends NontitleChecker {
 		private List<Pattern> patterns=new ArrayList<Pattern>();
 		
 		boolean firstTitle=true;
@@ -487,7 +487,7 @@ public class Process {
 		}
 	}
 	
-	public class NontitleBlockStringChecker extends NontitleChecker {
+	static public class NontitleBlockStringChecker extends NontitleChecker {
 		private List<Pattern> pageCriterias=new ArrayList<Pattern>();
 		private List<Pattern> blockCriterias=new ArrayList<Pattern>();
 		

@@ -93,10 +93,12 @@ public class Common {
 	final static float _MinSameRowOverlap=0.5f;
 	
 	final static int _MinFirst3PageCount=1;
-	
-	final static int _LEFTALIGNED=4;
-	final static int _CENTERALIGNED=8;
-	final static int _INDENTLEFTALIGNED=2;
+
+	final static int _CENTERALIGNED=16;
+	final static int _LEFTALIGNED=8;
+	final static int _INDENTLEFTALIGNED=4;
+	final static int _FULLALIGNED=2;
+	//final static int _FIRSTROWINDENTFULLALIGNED=4;
 	final static int _RIGHTALIGNED=1;
 	final static int _UNKNOWNALIGNED=0;
 	

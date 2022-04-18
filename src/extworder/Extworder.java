@@ -43,7 +43,7 @@ public class Extworder {
         pdfs.add("Elsevier-2021-Towards security automation in Software Defined");
         //pdfs.add("Psy-2022-Racial Discrimination Distress Coping Motives");
         //pdfs.add("2020-Clinic-E__ect of oral administration of nicotinamide");
-        main_test_pdfs(pdfs);
+        main_test_pdfs(pdfs,initNontitles());
         
 		/*main_test1_gettext();
         main_test4_printRows();
@@ -61,11 +61,11 @@ public class Extworder {
 		System.out.println("Extworder Done.");
 	}
 	
-	static public void main_test_pdfs(ArrayList<String> pdfs) throws IOException {
+	static public void main_test_pdfs(ArrayList<String> pdfs, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
 		main_test4_getText(pdfs);
 		main_test4_printRows(pdfs);
 		main_test6_block_print(pdfs);
-		main_test7_content_print(pdfs);
+		main_test7_content_print(pdfs,nontitleCheckers);
 	}
 
 	static public void main_test1_gettext(ArrayList<String> pdfs) throws IOException {
@@ -207,11 +207,11 @@ public class Extworder {
 		//printBlocks("FootNote&Small#-BetweenNegativeStigmaCulturalD");
 	}
 	
-	static public void main_test7_content_print(ArrayList<String> pdfs) throws IOException {
+	static public void main_test7_content_print(ArrayList<String> pdfs, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printContent("+pdf+")");
-				printContent(pdf,null);
+				printContent(pdf,null,nontitleCheckers);
 			}
 			return;
 		}
@@ -389,8 +389,8 @@ public class Extworder {
 		myWriter.close();
 	}
 	
-	public static void printContent(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
-		Content content = new Content(pdfPath(pdfName), abbrPatterns,new IgnorePage(),true,true,false, initNontitles());
+	public static void printContent(String pdfName,ArrayList<Pattern> abbrPatterns, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
+		Content content = new Content(pdfPath(pdfName), abbrPatterns,new IgnorePage(),true,true,false, nontitleCheckers);
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_content.txt");
 

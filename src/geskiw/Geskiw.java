@@ -2,8 +2,12 @@ package geskiw;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import extworder.Extworder;
+import extworder.Content.NontitleChecker;
+import geskiw.Process.NontitleBlockStringChecker;
+import geskiw.Process.NontitleFirstStringChecker;
 
 public class Geskiw {
 	public final static String _TestDataDir="data/";
@@ -38,12 +42,17 @@ public class Geskiw {
 		//String pdfName="Spagna-1998-Dyslexia marker variables(AC2)";
 		//String pdfName="ScientificReports-2019-Dental pulp cell-derived powerful inducer";
 		//String pdfName="Springer-2004-New approaches to eliciting protective immunity";
-		String pdfName="Elsvier-TheGreenJournal-Mechanisms of radiation-induced endothelium damage";
+		//String pdfName="Elsvier-TheGreenJournal-Mechanisms of radiation-induced endothelium damage";
+		String pdfName="Elsvier-TheGreenJournal-Whole-lung low-dose radiation therapy (LD-RT)";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
 		
-		Extworder.main_test_pdfs(pdfs);
+		List<NontitleChecker> nontitleCheckers=new ArrayList<NontitleChecker>();
+		nontitleCheckers.add(new NontitleFirstStringChecker());
+		nontitleCheckers.add(new NontitleBlockStringChecker());
+		
+		Extworder.main_test_pdfs(pdfs,nontitleCheckers);
 		Process process=new Process(
 				Extworder.pdfPath(pdfName),
 				Consts._StopWordFile,
