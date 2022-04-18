@@ -834,6 +834,9 @@ public class Content extends PDFTextStripper {
 				break;
 		}
 		
+if(activeBlock!=null)
+	System.out.println("");
+		
 		//if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
 		if(activeBlock!=null && activeBlock.isParagraphBlock2()) {
 			activeBlock.type=Common._AbstractBlock;
@@ -884,8 +887,9 @@ public class Content extends PDFTextStripper {
 				Block block=page.blocks.get(i);
 									
 				str=block.string();
+				
+				str=str.replaceAll("\\s+", "");
 				str=str.replaceAll("[\\r\\n]+", " ");
-				str=str.replaceAll("\\s+", " ");
 				
 				Matcher m = pattern.matcher(str);
 				if (m.find()) {

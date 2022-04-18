@@ -227,15 +227,15 @@ public class Block extends Rectangle {
 		
 		ali=super.alignment(parent,page.content.centralAlignmentAdjustment,page.content);
 		
-		if(ali==Common._LEFTALIGNED && allRowsLongEnough())
+		if(ali==Common._LEFTALIGNED && (rows.size()>1 &&allRowsLongEnough()))
 			ali=Common._FULLALIGNED;
 		
-		if(ali==Common._FULLALIGNED) {
+		/*if(ali==Common._FULLALIGNED) {
 			int ali1=rows.get(0).alignment(this,page.content.centralAlignmentAdjustment,page.content);
-			/*if(ali1==Common._INDENTLEFTALIGNED) {
+			if(ali1==Common._INDENTLEFTALIGNED) {
 				ali=Common._FIRSTROWINDENTFULLALIGNED;
-			}*/
-		}
+			}
+		}*/
 		
 		/*if(rows.size()==1 && ali==Common._INDENTLEFTALIGNED)
 			ali=Common._FIRSTROWINDENTFULLALIGNED;*/

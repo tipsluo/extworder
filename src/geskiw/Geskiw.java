@@ -42,8 +42,8 @@ public class Geskiw {
 		//String pdfName="Spagna-1998-Dyslexia marker variables(AC2)";
 		//String pdfName="ScientificReports-2019-Dental pulp cell-derived powerful inducer";
 		//String pdfName="Springer-2004-New approaches to eliciting protective immunity";
-		//String pdfName="Elsvier-TheGreenJournal-Mechanisms of radiation-induced endothelium damage";
-		String pdfName="Elsvier-TheGreenJournal-Whole-lung low-dose radiation therapy (LD-RT)";
+		String pdfName="Elsvier-TheGreenJournal-Mechanisms of radiation-induced endothelium damage";
+		//String pdfName="Elsvier-TheGreenJournal-Whole-lung low-dose radiation therapy (LD-RT)";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
