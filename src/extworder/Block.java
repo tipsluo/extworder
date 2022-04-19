@@ -227,7 +227,7 @@ public class Block extends Rectangle {
 		
 		ali=super.alignment(parent,page.content.centralAlignmentAdjustment,page.content);
 		
-		if(ali==Common._LEFTALIGNED && (rows.size()>1 &&allRowsLongEnough()))
+		if(ali==Common._LEFTALIGNED && (rows.size()>1 && allRowsLongEnough()))
 			ali=Common._FULLALIGNED;
 		
 		/*if(ali==Common._FULLALIGNED) {
@@ -836,6 +836,12 @@ public class Block extends Rectangle {
 			this(block.mostCharFont(), block.indent(), block.alignment());
 		}
 		
+		public BlockFormat(BlockFormat bf) {
+			this.charfont=new CharFont(bf.charfont);
+			this.alignment=bf.alignment;
+			this.allUppercase=bf.allUppercase;
+		}
+		
 		public void update(Block block) {
 			this.alignment=block.alignment();
 			
@@ -866,11 +872,39 @@ public class Block extends Rectangle {
 			this.allUppercase=Common._NOTALLUPPERCASE;
 		}
 		
+		public boolean similar(BlockFormat bf) {
+			if(alignment==Common._UNKNOWNALIGNED ||
+					bf.alignment==Common._UNKNOWNALIGNED)
+				return false;
+			
+			boolean charfontSimilar=charfont.similar(bf.charfont);
+					
+			boolean alignmentSame=sameAlignment(bf);
+					
+			return charfontSimilar && alignmentSame && allUppercase==bf.allUppercase;
+		}
+		
 		public boolean same(BlockFormat bf) {
 			if(alignment==Common._UNKNOWNALIGNED ||
 					bf.alignment==Common._UNKNOWNALIGNED)
 				return false;
-			return charfont.same(bf.charfont) && alignment==bf.alignment && allUppercase==bf.allUppercase;
+			
+			boolean charfontSame=charfont.equals(bf.charfont);
+					
+			boolean alignmentSame=sameAlignment(bf);
+					
+			return charfontSame && alignmentSame && allUppercase==bf.allUppercase;
+		}
+		
+		public boolean sameAlignment(BlockFormat bf) {
+			if(alignment==bf.alignment ||
+					(alignment==Common._LEFTALIGNED && bf.alignment==Common._FULLALIGNED) ||
+					(bf.alignment==Common._LEFTALIGNED && alignment==Common._FULLALIGNED) || 
+					(alignment==Common._RIGHTALIGNED && bf.alignment==Common._FULLALIGNED) ||
+					(bf.alignment==Common._RIGHTALIGNED && alignment==Common._FULLALIGNED))
+				return true;
+			
+			return false;
 		}
 		
 		@Override
@@ -976,7 +1010,7 @@ public class Block extends Rectangle {
 		public boolean filter(Block block) {
 			if(block.abbrOnly() || block.trivial())
 				return false;
-			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
+			return block.format.compareTo(block.page.content.bodyBlockformat) >= 0 &&
 					block.type.contains(Common._SubtitlePrefix);
 		}
 	}

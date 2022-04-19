@@ -510,7 +510,13 @@ public class Row extends Rectangle {
 			bold=CheckBold.check(name);
 		}
 		
-		public boolean same(CharFont cf) {
+		public CharFont(CharFont cf) {
+			this.name=cf.name;
+			this.height=cf.height;
+			bold=cf.bold;
+		}
+		
+		public boolean similar(CharFont cf) {
 			return Math.abs(value()-cf.value())<=Common._MaxSameCharFontHeightDiff;
 		}
 		

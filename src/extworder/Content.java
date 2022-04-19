@@ -834,9 +834,6 @@ public class Content extends PDFTextStripper {
 				break;
 		}
 		
-if(activeBlock!=null)
-	System.out.println("");
-		
 		//if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
 		if(activeBlock!=null && activeBlock.isParagraphBlock2()) {
 			activeBlock.type=Common._AbstractBlock;
@@ -929,7 +926,11 @@ if(activeBlock!=null)
 				Block block=bigBlockList.get(j);
 				// Only statistic subtitle row number<=1
 				if(block.format.compareTo(block1.format)>0 && block.rows.size()<=2) {
-					bfChain.add(block.format);
+					BlockFormat bf=new BlockFormat(block.format);
+					if(bf.alignment==Common._FULLALIGNED) {
+						bf.alignment=Common._LEFTALIGNED;
+					}
+					bfChain.add(bf);
 					block1=block;
 				} else {
 					break;
