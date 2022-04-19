@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -36,6 +37,15 @@ public class Block extends Rectangle {
 		
 		rows=new ArrayList<Row>();
 		format=new BlockFormat();
+	}
+	
+	public Block(Page page) {
+		super();
+		
+		rows=new ArrayList<Row>();
+		format=new BlockFormat();
+		
+		this.page=page;
 	}
 	
 	public Block(Page page, Row row) {
@@ -701,6 +711,56 @@ public class Block extends Rectangle {
 		return true;
 	}
 	
+	List<Block> removeRightAlignedRow() {
+		List<Block> newBlocks=new ArrayList<Block>();
+		
+		Block newBlock=new Block(page);
+		
+		int i=0;
+		for(;i<rows.size();i++) {
+			Row row=rows.get(i);
+			
+			int ali=row.alignment(this,Common._AlignAdjustment,page.content);
+			if(ali==Common._RIGHTALIGNED) {
+				newBlock.rows.add(row);
+				rows.remove(row);
+				i--;
+			} else {
+				if(newBlock.rows.size()>0) {
+					newBlocks.add(newBlock);
+					newBlock.render();
+					newBlock=new Block(page);
+				}
+			}
+		}
+		
+		if(newBlock.rows.size()>0) {
+			newBlocks.add(newBlock);
+			newBlock.render();
+		}
+		
+		if(newBlocks.size()>0) {
+			Column column=this.column;
+			Page page=this.page;
+			
+			if(column!=null)
+				column.blocks.addAll(newBlocks);
+			page.blocks.addAll(newBlocks);
+			
+			if(rows.size()>0)
+				render();
+			else {
+				if(column!=null)
+					column.blocks.remove(this);
+				page.blocks.remove(this);
+			}
+			
+			page.sortBlocks();
+		}
+		
+		return newBlocks;
+	}
+	
 	/*boolean allRowsLongEnough() {
 		if(rows.size()<=1)
 			return true;
@@ -849,19 +909,7 @@ public class Block extends Rectangle {
 			if(Common.lowercaseExisting.matcher(s).find())
 				this.allUppercase=Common._NOTALLUPPERCASE;
 			else if (Common.uppercase.matcher(s).find())
-					this.allUppercase=Common._ALLUPPERCASE;
-			/*if(s.length()<Common._MinUppercaseBlockCount || Common.lowercaseExisting.matcher(s).find())
-				this.allUppercase=-1;
-			else {
-				int c=0;
-				Matcher m=Common.uppercase.matcher(s);
-				while(m.find())
-					c++;
-				if(c < s.length() * Common._MinUppercaseBlockRatio)
-					this.allUppercase=Common._NOTALLUPPERCASE;
-				else
-					this.allUppercase=Common._ALLUPPERCASE;
-			}*/
+				this.allUppercase=Common._ALLUPPERCASE;
 			
 			this.charfont=block.getCharFont();
 		}

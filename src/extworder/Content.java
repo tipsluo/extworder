@@ -160,8 +160,6 @@ public class Content extends PDFTextStripper {
 		mergeBlocksByGap();
 		getFirstRowIndent();
 		
-		// Page contents should not be changed after this point.
-		
 		getBodyFormat();
 		markAllBodyBlocks();
 		
@@ -169,7 +167,7 @@ public class Content extends PDFTextStripper {
 		
 		titleBlock=getTitleBlock();
 		abstractBlock=getAbstractBlock();
-	
+		
 		if(ignoreIntraBlock)
 			markIntraBodyBlocks();
 		
@@ -833,6 +831,8 @@ public class Content extends PDFTextStripper {
 			if(activeBlock!=null)
 				break;
 		}
+
+		activeBlock.removeRightAlignedRow();
 		
 		//if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
 		if(activeBlock!=null && activeBlock.isParagraphBlock2()) {
@@ -1005,6 +1005,8 @@ public class Content extends PDFTextStripper {
 			block.type=Common._Body;
 		}
 	}
+	
+	
 	
 	private void mergeConsecutiveBlocks() {
 		for(Page page:pages) {
