@@ -29,11 +29,11 @@ public class Consts {
 			{"^www\\.nature\\.com/scientificreports$","^www\\.nature\\.com/scientificreports$"},
 	};
 	final static String[][] _IgnorePageLists=new String[][]{
-		{"LENDER"},
-		{"BORROWER"},
-		{"SAGE Businesscases"},
-		{"JSTOR is a not-for-profit service that helps scholars"},
-		{"^\s*CITATION"}
+		{"^\\s*LENDER","^\\sBORROWER"},
+		{"^\\s*SAGE Businesscases"},
+		{"Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use"},
+		{"^\\s*CITATION"},
+		{"^\\s*ILL Number:"}
 	};
 	final static String[] _SkipSectionList=new String[]{
 		"ACM Reference Format",

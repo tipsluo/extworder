@@ -846,6 +846,8 @@ public class Block extends Rectangle {
 		if(rows.size()==0)
 			return "";
 		
+		str="";
+		
 		int y=rows.get(0).lower;
 		for(Row row:rows) {
 			if (row.upper>=y) {

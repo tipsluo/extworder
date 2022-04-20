@@ -149,12 +149,19 @@ public class Process {
 		ret+="\n\nExtracted Output ===>\n";
 		
 		ret+="\n\nKey sentences including at least one most repeated and one medium repeated keywords ===> \n\n";
+		String sectionStr0="";
 		for(Section section:outputSections) {
-			if(section.subtitleBlock!=null) {
-				ret+=section.subtitleBlock.string()+"\n\n";
-			}
-			for(CharString keySentence: section.keySentences)
+			for(CharString keySentence: section.keySentences) {
+				if(section.subtitleBlock!=null) {
+					String sectionStr=section.subtitleBlock.string();
+					if(!sectionStr.equals(sectionStr0)) {
+						ret+=sectionStr+"\n\n";
+						sectionStr0=sectionStr;
+					}
+				}
+				
 				ret+=keySentence.string()+"\n\n";
+			}
 		}
 			
 		return restoreAbbreviation(ret);
