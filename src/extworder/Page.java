@@ -501,7 +501,7 @@ public class Page extends Rectangle{
 		
 		Block block0=null;
 		
-		List<Block> blocklist=getBlockList();
+		List<Block> blocklist=getBlockList2();
 		
 		for(int i=0;i<blocklist.size();i++) {
 			Block block1=blocklist.get(i);
@@ -521,7 +521,8 @@ public class Page extends Rectangle{
 			if(block0.column!=null && block1.column!=null && block0.column!=block1.column)
 				continue;
 				
-			if(block0.format.same(block1.format)) {
+			if(block0.format.same(block1.format) || 
+					Math.abs(block0.left-block1.left)<=block0.format.charfont.height*Common._SameBlockRowLeftAdjRatio) {
 				block0.merge(block1);
 				blocklist.remove(block1);
 				i--;
@@ -534,7 +535,7 @@ public class Page extends Rectangle{
 		sortBlocks();
 	}
 	
-	boolean crossColumns(Block block) {
+	/*boolean crossColumns(Block block) {
 		if(columns.size()<=1)
 			return false;
 	
@@ -559,7 +560,7 @@ public class Page extends Rectangle{
 			}
 		
 		return l && r;
-	}
+	}*/
 	
 	/*void splitCrossBlock(Block block) {
 		ArrayList<Block> newBlocks=new ArrayList<Block>();
@@ -671,6 +672,21 @@ public class Page extends Rectangle{
 		else
 			for(Block block:blocks)
 				bl.add(block);
+		
+		return bl;
+	}
+	
+	ArrayList<Block> getBlockList2() {
+		ArrayList<Block> bl=new ArrayList<Block>();
+		
+		for(Block block:blocks)
+			if(block.column==null)
+				bl.add(block);
+		
+		if(columns.size()>0)
+			for(Column column:columns)
+				for(Block block:column.blocks)
+					bl.add(block);
 		
 		return bl;
 	}

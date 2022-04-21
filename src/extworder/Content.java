@@ -24,10 +24,8 @@ import extworder.Page.Column;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -149,14 +147,13 @@ public class Content extends PDFTextStripper {
 		
 		for(Page page:pages) {
 			page.separateAllUppers();
-			//page.splitCrossBlocks();
 			
 			// The next two lines should have been able to be removed, but "Wiley-Early..." will fail with "Kessler, & Shaver..." crossing the columns"
 			page.updateBlockFormats();
 			page.renderStrings();
 		}
 		
-		mergeConsecutiveBlocks();
+		//mergeConsecutiveBlocks();
 		mergeBlocksByGap();
 		getFirstRowIndent();
 		
@@ -832,10 +829,10 @@ public class Content extends PDFTextStripper {
 				break;
 		}
 
-		activeBlock.removeRightAlignedRow();
+		//activeBlock.removeRightAlignedRow();
 		
-		//if(activeBlock!=null && activeBlock.isParagraphBlock(null)>=Common._ParaSentDefaultUno) {
-		if(activeBlock!=null && activeBlock.isParagraphBlock2()) {
+		//if(activeBlock!=null && activeBlock.isParagraphBlock2()) {
+		if(activeBlock!=null) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
 		} else {
@@ -850,8 +847,8 @@ public class Content extends PDFTextStripper {
 					if(block.type==Common._PageHeaderBlock || block.type==Common._PageFooterBlock)
 						continue;
 					
-					if(block.isParagraphBlock(null)<Common._ParaSentDefaultTrue)
-						continue;
+					//if(block.isParagraphBlock(null)<Common._ParaSentDefaultTrue)
+					//	continue;
 					
 					String blockStr=block.string();
 					ArrayList<String> strs=Common.getLetterWords(blockStr,true);
@@ -1016,18 +1013,23 @@ public class Content extends PDFTextStripper {
 	}
 	
 	private void mergeBlocksByGap() {
-		int gap=getRowGaps();
+		Map<Float,Integer> gaps=getRowGaps2();
 		
 		for(Page page:pages) {
 			Block block0=null;
 			int i;
 			
-			List<Block> blocklist=page.getBlockList();
+			List<Block> blocklist=page.getBlockList2();
 			for(i=0; i<blocklist.size(); i++) {
 				Block block=blocklist.get(i);
-				if(block0==null || 
-						block.upper-block0.lower>gap ||
+	
+				Integer gap=gaps.get(block.format.charfont.height);
+				if(gap==null)
+					continue;
+				
+				if(block0==null ||
 						(!block.format.same(block0.format) ||
+						block.upper-block0.lower > gap ||
 						block.hOverlap(block0) < Common._MinMergeOverlapRatio)
 						)
 					block0=block;
@@ -1041,23 +1043,57 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	private int getRowGaps() {
+	/*private int getRowGaps() {
 		StatGroup<Integer> gaps=new StatGroup<Integer>();
 		
 		for(Page page:pages) {
 			Row row0=null;
-			List<Block> blocklist=page.getBlockList();
-			for(Block block: blocklist) 
-				for(Row row:block.rows) {
-					if(row0==null || row0.left!=row.left)
-						row0=row;
-					else {
-						gaps.add(row.upper-row0.lower);
-						row0=row;
-					}
+			//List<Block> blocklist=page.getBlockList2();
+			//for(Block block: blocklist) 
+			Collections.sort(page.rows,Row.compareRowLefts);
+			for(Row row:page.rows) {
+				if(row0==null || row0.left!=row.left)
+					row0=row;
+				else {
+					gaps.add(row.upper-row0.lower);
+					row0=row;
 				}
+			}
+			Collections.sort(page.rows,Row.compareRows);
 		}
 		return gaps.maxByValue();
+	}*/
+	private Map<Float,Integer> getRowGaps2() {
+		HashMap<Float,Integer> gaps=new HashMap<Float,Integer>();
+		
+		HashMap<Float,StatGroup<Integer>> allGaps=new HashMap<Float,StatGroup<Integer>>();
+		
+		for(Page page:pages) {
+			Row row0=null;
+			Collections.sort(page.rows,Row.compareRowLefts);
+			for(Row row:page.rows) {
+				if(row0==null || row0.left!=row.left || row0.charfont.height!=row.charfont.height)
+					row0=row;
+				else {
+					StatGroup<Integer> sg=allGaps.get(row.charfont.height);
+					if(sg!=null)
+						sg.add(row.upper-row0.lower);
+					else {
+						sg=new StatGroup<Integer>();
+						sg.add(row.upper-row0.lower);
+						allGaps.put(row.charfont.height,sg);
+					}
+					row0=row;
+				}
+			}
+			Collections.sort(page.rows,Row.compareRows);
+		}
+		
+        for(Map.Entry<Float,StatGroup<Integer>> entry : allGaps.entrySet()) {
+        	gaps.put(entry.getKey(),entry.getValue().maxByValue());
+        }
+        
+        return gaps;
 	}
 	
 	static class BlockFormatChain2 implements Comparable<BlockFormatChain2> {

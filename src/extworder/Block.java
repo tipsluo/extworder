@@ -711,7 +711,7 @@ public class Block extends Rectangle {
 		return true;
 	}
 	
-	List<Block> removeRightAlignedRow() {
+	/*List<Block> separateRightAlignedRow() {
 		List<Block> newBlocks=new ArrayList<Block>();
 		
 		Block newBlock=new Block(page);
@@ -759,7 +759,7 @@ public class Block extends Rectangle {
 		}
 		
 		return newBlocks;
-	}
+	}*/
 	
 	/*boolean allRowsLongEnough() {
 		if(rows.size()<=1)
@@ -935,9 +935,9 @@ public class Block extends Rectangle {
 		}
 		
 		public boolean same(BlockFormat bf) {
-			if(alignment==Common._UNKNOWNALIGNED ||
+			/*if(alignment==Common._UNKNOWNALIGNED ||
 					bf.alignment==Common._UNKNOWNALIGNED)
-				return false;
+				return false;*/
 			
 			boolean charfontSame=charfont.equals(bf.charfont);
 					

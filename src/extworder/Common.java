@@ -28,6 +28,7 @@ public class Common {
 	final static float _MaxBorderExpandRatio=2.5f;
 	final static float _HSpaceMin=0.3f;
 	final static float _SameBlockRowWidthDiff=0.1f;
+	final static float _SameBlockRowLeftAdjRatio=0.3f;
 	final static float _MaxSameRowDistanceRatio=2f;
 	final static int _CharLeftAdjustment=2;
 	final static float _FirstLineIndentRatio=5f;

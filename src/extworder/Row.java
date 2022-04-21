@@ -31,6 +31,8 @@ public class Row extends Rectangle {
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
 	static Comparator<Row> compareRowHeights = (Row r1, Row r2) ->
 		(int)(r1.height-r2.height) ;
+	static Comparator<Row> compareRowLefts = (Row r1, Row r2) ->
+		r1.left != r2.left ? Common.compareValue(r1.left,r2.left) : Common.compareValue(r1.upper,r2.upper);
 		
 	public Row() {
 		super();
@@ -119,8 +121,8 @@ public class Row extends Rectangle {
 		Collections.sort(chars,Char.compareChars);
 
 		getWordInterval();
-		if(wordReach>page.topCharHGap)
-			wordReach=page.topCharHGap;
+		/*if(wordReach>page.topCharHGap)
+			wordReach=page.topCharHGap;*/
 
 		resetChars();		
 		expand(page.pageBitmap.points[x][y].ch);
