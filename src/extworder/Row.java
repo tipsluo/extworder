@@ -119,10 +119,9 @@ public class Row extends Rectangle {
 		
 		expand(page.pageBitmap.points[x][y].ch);
 		Collections.sort(chars,Char.compareChars);
+		charfont=getCharFont();
 
 		getWordInterval();
-		/*if(wordReach>page.topCharHGap)
-			wordReach=page.topCharHGap;*/
 
 		resetChars();		
 		expand(page.pageBitmap.points[x][y].ch);
@@ -157,6 +156,12 @@ public class Row extends Rectangle {
 	}
 	
 	private void getWordInterval() {
+		if(spaceWidth<=0) {
+			Integer i=page.hGaps.get(charfont.height);
+			if(i!=null)
+				spaceWidth=i;
+		}
+		
 		if(spaceWidth>0) {
 			charReach=spaceWidth;
 			wordReach=(int)(spaceWidth + Common._CharHSpaceAddGap);

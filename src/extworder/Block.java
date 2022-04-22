@@ -114,9 +114,6 @@ public class Block extends Rectangle {
 		if(block.column!=null)
 			block.column.blocks.remove(block);
 		
-		//format.update(this);
-		
-		//Collections.sort(rows,Row.compareRows);
 		render();
 	}
 	

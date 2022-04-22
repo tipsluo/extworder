@@ -34,7 +34,7 @@ public class Page extends Rectangle{
     int headerY,footerY;
     PageImg pageImg;
     ArrayList<ColoredBlock> coloredBlocks;
-    int topCharHGap;
+    Map<Float,Integer> hGaps;
 	private int xOffset;
 	private int yOffset;
 	final static CompareColumns compareColumns=new CompareColumns();
@@ -81,7 +81,7 @@ public class Page extends Rectangle{
 		pageBitmap=new PageBitmap(this);
 		eliminateCharIntersections();
 		
-		topCharHGap=getTopCharHGap();
+		hGaps=getTopCharHGap();
 
 		getAllRows();
 		getAllRowBorders();
@@ -313,7 +313,7 @@ public class Page extends Rectangle{
 		return false;
 	}
 	
-	int getTopCharHGap() {
+	/*int getTopCharHGap() {
 		StatGroup<Integer> gaps=new StatGroup<Integer>();
 		
 		Comparator<Char> compareCharsV = (Char ch1, Char ch2) ->
@@ -344,6 +344,51 @@ public class Page extends Rectangle{
 			return 9999;
 		
 		return gaps.maxByValue();
+	}*/
+	
+	Map<Float,Integer> getTopCharHGap() {
+		HashMap<Float,StatGroup<Integer>> allGaps=new HashMap<Float,StatGroup<Integer>>();
+		
+		Comparator<Char> compareCharsV = (Char ch1, Char ch2) ->
+			ch1.upper!=ch2.upper ? (int)(ch1.upper-ch2.upper) : (int)(ch1.left-ch2.left);
+		Collections.sort(chars,compareCharsV);
+		
+		Char ch0=chars.get(0);
+		for(int i=1;i<chars.size();i++) {
+			Char ch=chars.get(i);
+			
+			if(ch0==null) {
+				ch0=ch;
+				continue;
+			}
+			
+			if(ch.upper==ch0.upper && ch.lower==ch0.lower) {
+				int g=ch.left-ch0.right;
+				
+				StatGroup<Integer> gap=allGaps.get(ch.height);
+				
+				if(gap==null) {
+					gap=new StatGroup<Integer>();
+					allGaps.put(ch.height,gap);
+				}
+				
+				gap.add(g);
+			}
+				
+			ch0=ch;
+		}
+		
+		HashMap<Float,Integer> gaps=new HashMap<Float,Integer>();
+		
+        for(Map.Entry<Float,StatGroup<Integer>> entry : allGaps.entrySet()) {
+        	List<Integer> topGaps=entry.getValue().topsByValue(2);
+        	if(topGaps.size()>=2)
+        		gaps.put(entry.getKey(),topGaps.get(1));
+        	else
+        		gaps.put(entry.getKey(),null);
+        }
+        
+        return gaps;
 	}
 	
 	protected int makeColumns() {
@@ -391,7 +436,6 @@ public class Page extends Rectangle{
 			columnedBlockCount+=column.blocks.size();
 		}
 		
-		//Collections.sort(columns,compareColumns);
 		sortBlocks();
 		
 		return columnedBlockCount;
@@ -493,7 +537,7 @@ public class Page extends Rectangle{
 		Collections.sort(rows,Row.compareRows);
 	}
 	
-	void mergeConsecutiveBlocks() {
+	/*void mergeConsecutiveBlocks() {
 		if(blocks.size()<2)
 			return;
 		
@@ -533,7 +577,7 @@ public class Page extends Rectangle{
 		}
 		
 		sortBlocks();
-	}
+	}*/
 	
 	/*boolean crossColumns(Block block) {
 		if(columns.size()<=1)
@@ -680,13 +724,15 @@ public class Page extends Rectangle{
 		ArrayList<Block> bl=new ArrayList<Block>();
 		
 		for(Block block:blocks)
-			if(block.column==null)
+			if(block.column==null) {
 				bl.add(block);
+			}
 		
 		if(columns.size()>0)
 			for(Column column:columns)
-				for(Block block:column.blocks)
+				for(Block block:column.blocks) {
 					bl.add(block);
+				}
 		
 		return bl;
 	}
@@ -827,7 +873,7 @@ public class Page extends Rectangle{
 			blocks=new ArrayList<Block>();
 			
 			for(Block block:Page.this.blocks) {
-				if(contains(block)) {
+				if(contains(block) && block.column==null) {
 					block.column=this;
 					blocks.add(block);
 				}

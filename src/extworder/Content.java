@@ -153,8 +153,8 @@ public class Content extends PDFTextStripper {
 			page.renderStrings();
 		}
 		
-		//mergeConsecutiveBlocks();
 		mergeBlocksByGap();
+		
 		getFirstRowIndent();
 		
 		getBodyFormat();
@@ -563,14 +563,11 @@ public class Content extends PDFTextStripper {
 			columnedCount+=columnedCount1;
 			
 			if(i>_PageNumber && columnedCount<Common._MinFirst3PageCount) {
-				int j=0;
-				for(Page page1:pages) {
+				for(int j=0; j<i+1; j++) {
+					Page page1=pages.get(j);
 					page1.columns=new ArrayList<Column>();
 					for(Block block:page1.blocks)
 						block.column=null;
-					j++;
-					if(j>_PageNumber)
-						break;
 				}
 				columned=false;
 				break;
@@ -1005,12 +1002,12 @@ public class Content extends PDFTextStripper {
 	
 	
 	
-	private void mergeConsecutiveBlocks() {
+	/*private void mergeConsecutiveBlocks() {
 		for(Page page:pages) {
 			page.mergeConsecutiveBlocks();
 			page.sortBlocks();
 		}
-	}
+	}*/
 	
 	private void mergeBlocksByGap() {
 		Map<Float,Integer> gaps=getRowGaps2();
