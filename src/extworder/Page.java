@@ -11,12 +11,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
-
 import org.apache.pdfbox.pdmodel.PDPage;
-import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.text.TextPosition;
-
-import extworder.Block.CompareBlocks;
 import extworder.Char.Point;
 import extworder.Block.BlockFilter;
 import extworder.Common.StatGroup;
@@ -76,6 +72,9 @@ public class Page extends Rectangle{
 	}
 	
 	public void complete(PDPage pdPage, boolean ignoreColoredBlock) throws IOException {
+		if(chars.size()==0)
+			return;
+		
 		adjustCoordinates();
 		
 		pageBitmap=new PageBitmap(this);

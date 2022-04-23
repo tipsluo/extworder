@@ -37,7 +37,7 @@ public class Geskiw {
 		//String pdfName="CellularPhysiology-2020-Preferential Killing of Tetraploid Colon";
 		//String pdfName="Wiley-Early life stress and HPA axis";
 		//String pdfName="Elsevier-2021-Towards security automation in Software Defined";
-		String pdfName="IEEE-2000-Hardware Controls for the STAR Experiment at RHIC";  //need to split some rows
+		//String pdfName="IEEE-2000-Hardware Controls for the STAR Experiment at RHIC";  //seems like ocr
 		//String pdfName="Archaeology-2020Digital Platforms and the Nature";
 		//String pdfName="Spagna-1998-Dyslexia marker variables(AC2)";
 		//String pdfName="ScientificReports-2019-Dental pulp cell-derived powerful inducer";
@@ -47,6 +47,8 @@ public class Geskiw {
 		//String pdfName="Elsvier-TheGreenJournal-Tracking tumor biology with radiomics2018";
 		//String pdfName="Elsvier-TheGreenJournal-Prognostic importance of radiologic extranodal";
 		//String pdfName="Expert-Usability";  //format is not consistent.
+		//String pdfName="NotWork- Project_muse_2021-Meritorious Heroes";
+		String pdfName="Project_muse_2017-Gun Shops as Local Institutions";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
