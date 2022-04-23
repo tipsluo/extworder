@@ -49,7 +49,8 @@ public class Geskiw {
 		//String pdfName="Expert-Usability";  //format is not consistent.
 		//String pdfName="NotWork- Project_muse_2021-Meritorious Heroes";
 		//String pdfName="Project_muse_2017-Gun Shops as Local Institutions";
-		String pdfName="Elsevier-2009-Isolation and characterization of human salivary";
+		//String pdfName="Elsevier-2009-Isolation and characterization of human salivary";
+		String pdfName="Elsvier-TheGreenJournal-Tracking tumor biology with radiomics2018";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);

@@ -30,7 +30,8 @@ public class Page extends Rectangle{
     int headerY,footerY;
     PageImg pageImg;
     ArrayList<ColoredBlock> coloredBlocks;
-    Map<Float,Integer> hGaps;
+    Map<Float,Integer> wordGaps;
+    Map<Float,Integer> charGaps;
 	private int xOffset;
 	private int yOffset;
 	final static CompareColumns compareColumns=new CompareColumns();
@@ -80,7 +81,7 @@ public class Page extends Rectangle{
 		pageBitmap=new PageBitmap(this);
 		eliminateCharIntersections();
 		
-		hGaps=getTopCharHGap();
+		getTopCharHGap();
 
 		getAllRows();
 		getAllRowBorders();
@@ -345,7 +346,7 @@ public class Page extends Rectangle{
 		return gaps.maxByValue();
 	}*/
 	
-	Map<Float,Integer> getTopCharHGap() {
+	void getTopCharHGap() {
 		HashMap<Float,StatGroup<Integer>> allGaps=new HashMap<Float,StatGroup<Integer>>();
 		
 		Comparator<Char> compareCharsV = (Char ch1, Char ch2) ->
@@ -377,17 +378,22 @@ public class Page extends Rectangle{
 			ch0=ch;
 		}
 		
-		HashMap<Float,Integer> gaps=new HashMap<Float,Integer>();
+		charGaps=new HashMap<Float,Integer>();
+		wordGaps=new HashMap<Float,Integer>();
 		
         for(Map.Entry<Float,StatGroup<Integer>> entry : allGaps.entrySet()) {
         	List<Integer> topGaps=entry.getValue().topsByValue(2);
-        	if(topGaps.size()>=2)
-        		gaps.put(entry.getKey(),topGaps.get(1));
+        	if(topGaps.size()>=1)
+        		charGaps.put(entry.getKey(),topGaps.get(0));
         	else
-        		gaps.put(entry.getKey(),null);
+        		charGaps.put(entry.getKey(),null);
+        	
+        	if(topGaps.size()>=2)
+        		wordGaps.put(entry.getKey(),topGaps.get(1));
+        	else
+        		wordGaps.put(entry.getKey(),null);
         }
-        
-        return gaps;
+
 	}
 	
 	protected int makeColumns() {
