@@ -41,7 +41,7 @@ public class Process {
 	
 	ArrayList<Section> outputSections;
 	
-	public Process(String pdfPath, 
+	public Process(String pdfPath,
 					String stopWordFile, 
 					String abbreviationFile,
 					String irreNounFile) throws IOException {
