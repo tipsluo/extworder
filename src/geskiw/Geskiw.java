@@ -56,7 +56,8 @@ public class Geskiw {
 		//String pdfName="Elsevier-2009-Isolation and characterization of human salivary";
 		//String pdfName="Elsvier-TheGreenJournal-Tracking tumor biology with radiomics2018";
 		//String pdfName="FootNote&Small#-BetweenNegativeStigmaCulturalD";
-		String pdfName="Peace-Development and Peace Through";
+		//String pdfName="Peace-Development and Peace Through";
+		String pdfName="FootNote&Small#-BetweenNegativeStigmaCulturalD";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
