@@ -48,9 +48,14 @@ public class Geskiw {
 		//String pdfName="Elsvier-TheGreenJournal-Prognostic importance of radiologic extranodal";
 		//String pdfName="Expert-Usability";  //format is not consistent.
 		//String pdfName="NotWork- Project_muse_2021-Meritorious Heroes";
+		//String pdfName="NotWork- Project_muse_2016-Chinese Glass Paintings in Bangkok Monasteries";
+		//String pdfName="NotWork- Project_muse_2021-Hands Up Dont Shoot";
+		//String pdfName="Project_muse_2012-A Geography of Human Rights Abuses";
+		//String pdfName="Project_muse_2014-The Case for Moderate Gun Control";
 		//String pdfName="Project_muse_2017-Gun Shops as Local Institutions";
 		//String pdfName="Elsevier-2009-Isolation and characterization of human salivary";
-		String pdfName="Elsvier-TheGreenJournal-Tracking tumor biology with radiomics2018";
+		//String pdfName="Elsvier-TheGreenJournal-Tracking tumor biology with radiomics2018";
+		String pdfName="FootNote&Small#-BetweenNegativeStigmaCulturalD";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);

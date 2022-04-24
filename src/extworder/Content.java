@@ -261,7 +261,7 @@ public class Content extends PDFTextStripper {
 				if(w<minColumnWidth)
 					continue;
 				
-				int n=blockWidths.compute(w, (k,v) -> (v == null ? 0 : v) + 1);
+				int n=blockWidths.compute(w, (k,v) -> (v == null ? 0 : v) + block.rows.size());
 				blockWidths.put(w,n);
 			}
 		
