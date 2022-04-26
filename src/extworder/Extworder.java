@@ -426,10 +426,11 @@ public class Extworder {
     	return _TestDataDir+pdfName+".pdf";
     }
 	
+    // IgnorePage has been changed in the class Process. So the class here is no long properly. 
 	static class IgnorePage extends Content.IgnorePage {
 		final String[] pstr=new String[]{
-			"LENDER",
-			"BORROWER",
+			//"LENDER",
+			//"BORROWER",
 			"SAGE Businesscases",
 			"JSTOR is a not-for-profit service that helps scholars"
 		};

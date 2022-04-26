@@ -125,7 +125,7 @@ public class Content extends PDFTextStripper {
 			
 			page.complete(allPages.get(i),ignoreColoredBlock);
 			
-			if(page.ignored() || page.chars.size()==0) {
+			if((page.id==1 && page.ignored()) || page.chars.size()==0) {
 				pages.remove(i);
 				continue;
 			}

@@ -415,13 +415,13 @@ public class Process {
 					matched=false;
 					
 					for(Block block:page.blocks) {
-						if(pattern.matcher(block.string()).find()) {
+						if(pattern.matcher(block.renderString()).find()) {
 							matched=true;
 							break;
 						}
 					}
 					
-					if(! matched)
+					if(!matched)
 						break;
 				}	
 					
@@ -465,17 +465,16 @@ public class Process {
 		
 		boolean firstTitle=true;
 		boolean contentMatched=false;
-
-		public NontitleFirstStringChecker() {
-		}
 		
-		@Override
-		public void check(Content c) {
+		public NontitleFirstStringChecker() {
 			for(String str: Consts._NontitlePageStrings) {
 				Pattern p=Pattern.compile(str);
 				patterns.add(p);
 			}
-			
+		}
+		
+		@Override
+		public void check(Content c) {
 			for(Block block:c.pages.get(0).blocks)
 				for(Pattern p:patterns)
 					if(p.matcher(block.string()).find()) {
@@ -498,17 +497,19 @@ public class Process {
 		private List<Pattern> pageCriterias=new ArrayList<Pattern>();
 		private List<Pattern> blockCriterias=new ArrayList<Pattern>();
 		
-		@Override
-		public void check(Content content) {
-			int i=-1;
-			for(i=0; i<Consts._NontitleBlockStrings.length; i++) {
+		public NontitleBlockStringChecker() {
+			for(int i=0; i<Consts._NontitleBlockStrings.length; i++) {
 				Pattern p=Pattern.compile(Consts._NontitleBlockStrings[i][0]);
 				pageCriterias.add(p);
 			}
-			for(i=0; i<Consts._NontitleBlockStrings.length; i++) {
+			for(int i=0; i<Consts._NontitleBlockStrings.length; i++) {
 				Pattern p=Pattern.compile(Consts._NontitleBlockStrings[i][1]);
 				blockCriterias.add(p);
 			}
+		}
+		
+		@Override
+		public void check(Content c) {
 		}
 		
 		@Override
@@ -516,7 +517,7 @@ public class Process {
 			int i;
 			String s=block.string();
 		
-			for(i=0; i<Consts._NontitleBlockStrings.length; i++)
+			for(i=0; i<blockCriterias.size(); i++)
 				if(blockCriterias.get(i).matcher(s).find()) {
 					for(Block b:block.page.content.pages.get(0).blocks)
 						if(pageCriterias.get(i).matcher(b.string()).find())

@@ -29,7 +29,7 @@ public class Consts {
 			{"^www\\.nature\\.com/scientificreports$","^www\\.nature\\.com/scientificreports$"},
 	};
 	final static String[][] _IgnorePageLists=new String[][]{
-		{"^\\s*LENDER","^\\sBORROWER"},
+		{"^\\s*LENDER","^\\s*BORROWER"},
 		{"^\\s*SAGE Businesscases"},
 		{"Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use"},
 		{"^\\s*CITATION"},
