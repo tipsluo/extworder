@@ -58,7 +58,9 @@ public class Geskiw {
 		//String pdfName="FootNote&Small#-BetweenNegativeStigmaCulturalD";
 		//String pdfName="Peace-Development and Peace Through";
 		//String pdfName="FootNote&Small#-BetweenNegativeStigmaCulturalD";
-		String pdfName="ILL article-Urban Myths and Rural Legends";
+		//String pdfName="ILL article-Urban Myths and Rural Legends";
+		//String pdfName="Jstor-2020-Escape from Rome";
+		String pdfName="Jstor-2018-Indoor Air Pollution and Infant Mortality";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);

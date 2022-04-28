@@ -58,10 +58,6 @@ public class Word implements Comparable<Word>{
 		
 		return ret;
 	}
-	
-	/*public void sort() {
-		forms=(ArrayList<String>) forms.stream().sorted().collect(Collectors.toList());
-	}*/
 
 	public String origin(String str) {
 		int l=str.length();
@@ -172,37 +168,7 @@ public class Word implements Comparable<Word>{
 			for(String str:source) {
 				add(new Word(str));
 			}
-			//mergeSameWords();
 		}
-		
-		/*private void mergeSameWords() {
-			ArrayList<Word> words=new ArrayList<Word>();
-			HashMap<Word,Integer> newRecords=new HashMap<Word,Integer>();
-			
-			words.addAll(records.keySet());
-			
-			for(int i=0; i<words.size(); i++) {
-				Word word1=words.get(i);
-				int value1=records.get(word1);
-				
-				int j=i+1;
-				for(; j<words.size();j++) {
-					Word word2=words.get(j);
-					
-					if(word1.same(word2)) {
-						word1.combine(word2);
-						value1+=records.get(word2);
-						
-						words.remove(word2);
-						j--;
-					}
-				}
-				
-				newRecords.put(word1,value1);
-			}
-			
-			records=newRecords;
-		}*/
 		
 		@Override
 		public void add(Word word) {

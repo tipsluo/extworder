@@ -35,9 +35,11 @@ public class Process {
 	public String error;
 	ArrayList<Pattern> abbrPatterns;
 	ArrayList<Pattern> skipSectionPatterns;
-	StatGroup<Word> commonWords;
 	private int originalWordCount;
 	private int extractedWordCount;
+	private WordStatGroup bodyWords;
+	private ArrayList<Word> importantWordList;
+	StatGroup<Word> commonWords;
 	
 	ArrayList<Section> outputSections;
 	
@@ -59,32 +61,41 @@ public class Process {
 		nontitleCheckers.add(new NontitleBlockStringChecker());
 		content = new Content(pdfPath, abbrPatterns, new IgnorePage(), true, true, false, nontitleCheckers);
 		bodyStr=Common.joinLines(content.body());
+		getListCommonWords();
 		
 		int top1Num=Consts._TOP1NUM;
-		int top2Num=Consts._TOP2NUM;;
-		int top12Num=top1Num+top2Num;
-		top0=topKeywords(top12Num);
+		int top2Num=Consts._TOP2NUM;
+		float ratio=0;
 		
-		if(top0==null) {
-			error="Not able to get top word list.";
-			return;
-		} else if(top0.size()<top12Num) {
-			error=String.format("Not able to get enough top words. %d is expected, but got %d.",top12Num,top0.size());
-			return;
+		for(; ratio < 0.15f; top2Num++, top1Num++) {
+			int top12Num=top1Num+top2Num;
+			top0=topKeywords(top1Num,top2Num);
+			
+			if(top0==null) {
+				error="Not able to get top word list.";
+				return;
+			} else if(top0.size()<top12Num) {
+				error=String.format("Not able to get enough top words. %d is expected, but got %d.",top12Num,top0.size());
+				return;
+			}
+			
+			getAllKeySentences(top1Num,top2Num);
+			
+			if(outputSections.size()==0) {
+				error="Not output section is generated";
+				return;
+			}
+			
+			extractResult=output();
+			
+			ratio=extractedWordCount/originalWordCount;
 		}
-		
-		getAllKeySentences(top1Num,top2Num);
-		
-		if(outputSections.size()==0) {
-			error="Not output section is generated";
-			return;
-		}
-		
-		extractResult=output();
 	}
 	
-	List<Word> topKeywords(int number) throws IOException {
+	/*List<Word> topKeywords(int top1Num,int top2Num) throws IOException {
 		ArrayList<String> keyWords=null;
+		
+		int n=top1Num+top2Num;
 		
 		if(content.titleBlock!=null) {
 			ArrayList<String> titleStrs=Common.getWords(Common.joinLines(content.titleBlock.string()),true);
@@ -98,7 +109,7 @@ public class Process {
 		if(content.abstractBlock!=null)
 			abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
 		else {
-			int n=Consts._TOP1NUM+Consts._TOP2NUM;
+
 			if(keyWords.size()<n) {
 				ArrayList<String> bodyWords=Common.getWords(Common.joinLines(bodyStr),true);
 				StatGroup<String> highBodyWords=new StatGroup<String>(bodyWords);
@@ -130,7 +141,64 @@ public class Process {
 		
 		commonWords=list3;
 		
-		return list3.topsByValue(number);
+		return list3.topsByValue(n);
+	} */
+	
+	List<Word> topKeywords(int top1Num,int top2Num) throws IOException {
+		int n=top1Num+top2Num;
+		
+		List<Word> list3=commonWords.topsByValue(n);
+		
+		if(list3.size()<n) {
+			List<Word> wl=bodyWords.topsByValue(n);
+			
+			for(int i=list3.size(), j=0; i<n; i++, j++) {
+				Word w=wl.get(j);
+				boolean found=false;
+				for(int k=0; k<list3.size(); k++) {
+					if(w.same(list3.get(k))) {
+						found=true;
+						break;
+					}
+				}
+
+				if(! found)
+					list3.add(w);
+			}
+		}
+		
+		return list3;
+	}
+	
+	private void getListCommonWords() {
+		ArrayList<String> bodyWordStrs=Common.getWords(bodyStr,true);
+		originalWordCount=bodyWordStrs.size();
+		bodyWords=new WordStatGroup(removeWords(bodyWordStrs,stopWords));
+		
+		ArrayList<String> keyWords=null;
+		if(content.titleBlock!=null) {
+			ArrayList<String> titleStrs=Common.getWords(Common.joinLines(content.titleBlock.string()),true);
+			if(titleStrs!=null) {
+				titleStrs=removeWords(titleStrs,stopWords);
+				keyWords=titleStrs;
+			}
+		}
+		
+		ArrayList<String> abstractStrs=null;
+		if(content.abstractBlock!=null)
+			abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
+			
+		if(abstractStrs!=null) {
+			abstractStrs=removeWords(abstractStrs,stopWords);
+			
+			if(keyWords!=null)
+				keyWords.addAll(abstractStrs);
+			else
+				keyWords=abstractStrs;
+		}
+		importantWordList=(new Words(keyWords)).list;
+		
+		commonWords=getCommonWords(bodyWords,importantWordList);
 	}
 	
 	private String output() throws IOException {
