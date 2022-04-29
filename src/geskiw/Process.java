@@ -63,11 +63,14 @@ public class Process {
 		bodyStr=Common.joinLines(content.body());
 		getListCommonWords();
 		
+		final int MAXTOP1NUM=5;
+		final int MAXTOP2NUM=5;
+		
 		int top1Num=Consts._TOP1NUM;
 		int top2Num=Consts._TOP2NUM;
 		float ratio=0;
 		
-		for(; ratio < 0.15f; top2Num++, top1Num++) {
+		for(; ratio < 0.15f && top1Num<MAXTOP1NUM && top2Num<MAXTOP2NUM; top2Num++, top1Num++) {
 			int top12Num=top1Num+top2Num;
 			top0=topKeywords(top1Num,top2Num);
 			
@@ -88,7 +91,7 @@ public class Process {
 			
 			extractResult=output();
 			
-			ratio=extractedWordCount/originalWordCount;
+			ratio=(float)extractedWordCount/(float)originalWordCount;
 		}
 	}
 	
