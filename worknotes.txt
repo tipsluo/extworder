@@ -1,3 +1,194 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+String pdfName="IEEE-2020-Adaptive Fuzzy Finite-Time Tracking";   // the subtitle is not correct because there are many fomulars.
+
+
+
+
+(unresolved, blocking. it is because of the wrong extract . for example, 
+"and outer radii of 0.5m and 2 m respectively 121.  gas in thc main TPC volume. Thc anode high-voltage system ",
+the 121 is [2].
+crossing block rows in IEEE-2000-Hardware Controls for the STAR Experiment at RHIC
+
+
+
+
+cancelled
+row with diffent upper/lower
+
+
+
+
+
+blockformat adds left
+
+
+
+
+
+
+old format not work
+ALA-Past is Prologue
+
+
+
+(unresolved, blocking, the body font size are different after ocr)
+old format not work.
+abstract and title worked but contents no
+Spagna-1998-Dyslexia marker variables(AC2)
+
+
+
+Done.
+no title,no abstract
+Archaeology-2020Digital Platforms and the Nature
+
+
+SUBTITLE ISSUE
+"4. SDN-based reactive defense" misses because the following "4.1. Threat detection based on statistics" is body format"
+Elsevier-2021-Towards security automation in Software Defined
+4.1. Threat detection based on statistics
+
+
+Done
+pageheader need to be the same as footer
+
+
+Done
+SUBTITLE ISSUE
+CellularPhysiology-2020-Preferential Killing of Tetraploid Colon
+
+
+DONE:
+wiley-early 
+1. no page footer cause missing the last row  ("SES measure (McDade et al., 2019). Separate variables were created")
+2. 2.3 missing because the following body is not correct
+3. block "Kessler, & Shaver, ..." row is long crossing columns
+
+
+Done
+some subtitles are not correct
+Wiley-Early life stress and HPA axis
+
+
+The following is the list of the articles by the Provost Spagna. The articles were all accessibility converted. But they are not extracted correctly.
+Spagna-*.pdf
+
+
+
+
+- JSTOR: if the 1st page has "jstor.org", skip the 1st page, start from the 2nd page.
+- Rapid ILL: If the 1st page has " LENDER ", skip the 1st page, start from the 2nd page.
+
+
+done
+But the output font is still very small. I have to enlarge it to 170 % before I can read it.
+
+
+
+请看看这文章。是不是可fix.
+IEEE-2000-Hardware Controls for the STAR Experiment at RHIC.pdf
+
+
+Done
+This article has only one sentence extracted.
+CellularPhysiology-2020-Preferential Killing of Tetraploid Colon.pdf
+
+
+
+Elsevier-2021-Using ontologies to enhance human
+done:
+This Elsevier article does not extracted. It gives a blank page. But other Elsevier articles got extracted.
+but bad output:
+end if end for end while Trepan stops
+
+done
+- Sentence should stop at ". " But now I found that the Tool capture stops at "."
+Example: 4.0%: sentence takes "4." as the end of the sentence.
+Oasis-2018-Drug use among youth and adults
+
+
+worked for column but minor issue that the paragraph "It is well known that dental pulp tissue " is recognized as body
+it is because of the column not aligned
+ScientificReports-2019-Dental pulp cell-derived powerful inducer
+ScientificReports-2017-Detection of American Football Head
+
+done
+wrong subtitle:
+ScientificReports-2022-Cost-efective fltering of unreliable
+
+done
+The journal title is bigger than the article title (ScientifiReports):
+If the first page of the article has “www.nature.com/scientificreports . skip the 1sr title (journal title), capture the 2nd title (article title).
+
+done:
+The two articles loaded strangely:
+- Title: 2020-Clinic-Eectof oral -- loaded with a blank page , looks good except the number of sentence is really high
+- Title: 2020-review-The Science Behind -- loaded page with "HTTP 404 not found
+
+ 
+done
+Pull Wrong title issue:
+If the beginning of the article has “CITATION ”, skip the 1st page. Start from the 2nd page   
+psy*
+
+The journal title is bigger than the article title (ScientifiReports):
+If the first page of the article has “www.nature.com/scientificreports . skip the 1sr title (journal title), capture the 2nd title (article title).
+
+done
+Journal title is bigger than article title and & appears first:
+If there is “elsevier.com”, skip the 1st title (which is the journal title), and capture the 2nd title (which is the article title.
+
+done
+Journal title is bigger than the article title:
+When the first page has “thegreenjournal.com”, skip the 1st title (which is the journal title), and capture the 2nd title (which is the article title).
+
+
+
+New suggests and issues found:
+
+Enable PDF article load from cloud drives, like Google Drive
+Output PDF opened in a new window
+A button to go back to the Upload page
+If a subheading has a number in front, the subheading is not captured: such as I.Introduction; or 1. Introduction
+Note: Elsevier publications usually have journal names as the section headings. This kind of article does not capture well. Wrong title is captured.
+Note: Springer journals do not load well.
+
+Starting from 3/2022, list of of issues which cannot be fixed for now:
+(Could not be fixed for now) Omit the letter "fi" , example:  confident ---> con dent; find ---> nd  https://drive.google.com/drive/folders/1Rj9SLKIL5CYmwILTVx7r6kFX5RXoh5Aw
+
+(Could not be fixed for now) Subheadings did not get captured: if subheading has not a space line under to separate the subheading from the text body, the subheading could not be captured.  
+https://drive.google.com/drive/folders/1_oCj3CSH1IDiNoYlx9uSXFl2CIF_JYD4
+
+(Could not be fixed for now)Capture wrong article title: if the article has a journal section title, the Tool would capture the journal section heading as the article title; https://drive.google.com/drive/folders/1Cp3u2BnCNsU1dGgEfM0USJTuucGLut0x 
+
+
+
+
+
+=====================
+before 20220428
+
 APS-Evidence for CP violation in B.pdf  
 issue, subtitle
 1. many math signs including up and down sign togeter.   K0S.

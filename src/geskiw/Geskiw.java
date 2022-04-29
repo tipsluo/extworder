@@ -62,7 +62,8 @@ public class Geskiw {
 		//String pdfName="Jstor-2020-Escape from Rome";
 		//String pdfName="Jstor-2018-Indoor Air Pollution and Infant Mortality";
 		//String pdfName="NotWork- Project_muse_2016-Chinese Glass Paintings in Bangkok Monasteries";
-		String pdfName="IEEE-2020-Adaptive Fuzzy Finite-Time Tracking";
+		//String pdfName="IEEE-2020-Adaptive Fuzzy Finite-Time Tracking";   // the subtitle is not correct because there are many fomulars.
+		String pdfName="Jstor-2020-Escape from Rome";
 
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);

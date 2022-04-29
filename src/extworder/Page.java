@@ -153,7 +153,8 @@ public class Page extends Rectangle{
 							for(int j=ch.upper;j<=ch.lower;j++)
 								if(pageBitmap.points[i][j]!=null &&
 										pageBitmap.points[i][j].ch==ch)
-									pageBitmap.points[i][j]=null;
+									pageBitmap.points[i][j].ch=ch1;
+									//pageBitmap.points[i][j]=null;
 						}
 						ch.right=ch1.left-1;
 					}
@@ -174,7 +175,8 @@ public class Page extends Rectangle{
 							for(int j=ch.left;j<=ch.right;j++)
 								if(pageBitmap.points[j][i]!=null &&
 										pageBitmap.points[j][i].ch==ch)
-									pageBitmap.points[j][i]=null;
+									pageBitmap.points[j][i].ch=ch1;
+									//pageBitmap.points[j][i]=null;
 						}
 						ch.lower=ch1.upper-1;
 					}
