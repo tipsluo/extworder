@@ -120,7 +120,7 @@ public class Row extends Rectangle {
 		expand(page.pageBitmap.points[x][y].ch);
 		Collections.sort(chars,Char.compareChars);
 		charfont=getCharFont();
-
+	
 		getWordInterval();
 
 		resetChars();		
@@ -375,7 +375,7 @@ public class Row extends Rectangle {
 					page.pageBitmap.points[i][j]==null) 
 				continue;
 			
-			if (row==page.pageBitmap.points[i][j].ch.row) continue;
+			if (page.pageBitmap.points[i][j].ch==null || row==page.pageBitmap.points[i][j].ch.row) continue;
 			
 			row=page.pageBitmap.points[i][j].ch.row;
 			
@@ -411,7 +411,7 @@ public class Row extends Rectangle {
 			if(j>page.lower || 
 					page.pageBitmap.points[i][j]==null) 
 				continue;
-			if (row==page.pageBitmap.points[i][j].ch.row) continue;
+			if (page.pageBitmap.points[i][j].ch==null || row==page.pageBitmap.points[i][j].ch.row) continue;
 			
 			row=page.pageBitmap.points[i][j].ch.row;
 			

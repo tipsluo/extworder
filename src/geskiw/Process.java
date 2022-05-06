@@ -63,8 +63,8 @@ public class Process {
 		bodyStr=Common.joinLines(content.body());
 		getListCommonWords();
 		
-		final int MAXTOP1NUM=5;
-		final int MAXTOP2NUM=5;
+		final int MAXTOP1NUM=10;
+		final int MAXTOP2NUM=10;
 		
 		int top1Num=Consts._TOP1NUM;
 		int top2Num=Consts._TOP2NUM;
@@ -152,21 +152,25 @@ public class Process {
 		
 		List<Word> list3=commonWords.topsByValue(n);
 		
-		if(list3.size()<n) {
-			List<Word> wl=bodyWords.topsByValue(n);
+		if(list3.size()>=n)
+			return list3;
 			
-			for(int i=list3.size(), j=0; i<n; i++, j++) {
-				Word w=wl.get(j);
-				boolean found=false;
-				for(int k=0; k<list3.size(); k++) {
-					if(w.same(list3.get(k))) {
-						found=true;
-						break;
-					}
-				}
+		// Keys of bodyWords should have been sorted by values reversely
+		List<Word> wl=bodyWords.allKeys();
 
-				if(! found)
-					list3.add(w);
+		for(int j=0; list3.size()<n && j<wl.size(); j++) {
+			Word w=wl.get(j);
+			boolean found=false;
+			
+			for(int k=0; k<list3.size(); k++) {
+				if(w.same(list3.get(k))) {
+					found=true;
+					break;
+				}
+			}
+
+			if(! found) {
+				list3.add(w);
 			}
 		}
 		

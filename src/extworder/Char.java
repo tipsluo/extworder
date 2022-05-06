@@ -67,7 +67,7 @@ public class Char extends Rectangle {
 			}
 					
 			if (i<0 || 
-				 page.pageBitmap.points[i][j]==null) 
+				 page.pageBitmap.points[i][j]==null || page.pageBitmap.points[i][j].ch==null) 
 				continue;
 			if (ch==page.pageBitmap.points[i][j].ch) continue;
 			
@@ -105,7 +105,7 @@ public class Char extends Rectangle {
 				continue;
 			
 			if (i>=page.right || 
-					page.pageBitmap.points[i][j]==null) 
+					page.pageBitmap.points[i][j]==null || page.pageBitmap.points[i][j].ch==null) 
 				continue;
 			if (ch==page.pageBitmap.points[i][j].ch) continue;
 			
@@ -135,7 +135,7 @@ public class Char extends Rectangle {
 				continue;
 			
 			if (j>=page.lower || 
-					page.pageBitmap.points[i][j]==null) 
+					page.pageBitmap.points[i][j]==null || page.pageBitmap.points[i][j].ch==null) 
 				continue;
 			if (ch==page.pageBitmap.points[i][j].ch) continue;
 			

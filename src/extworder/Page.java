@@ -143,19 +143,25 @@ public class Page extends Rectangle{
 					continue;
 				
 				for(Char ch1:rights) {
-					if(ch1.left<=ch.right) {
+					if(ch1!=null && ch1.left<=ch.right) {
 						for(int i=ch1.left; i<=ch.right; i++) {
 							for(int j=ch1.upper; j<=ch1.lower; j++)
 								pageBitmap.points[i][j]=new Point(i,j,ch1);
 						}
 						
 						for(int i=ch1.left; i<=ch.right; i++) {
-							for(int j=ch.upper;j<=ch.lower;j++)
+							for(int j=ch1.upper;j<=ch1.lower;j++)
 								if(pageBitmap.points[i][j]!=null &&
 										pageBitmap.points[i][j].ch==ch)
 									pageBitmap.points[i][j].ch=ch1;
 									//pageBitmap.points[i][j]=null;
 						}
+						
+						for(int i=ch1.left; i<=ch.right; i++)
+							for(int j=ch.upper; j<=ch.lower; j++)
+								if(pageBitmap.points[i][j] != null && pageBitmap.points[i][j].ch!=null && pageBitmap.points[i][j].ch==ch)
+									pageBitmap.points[i][j]=null;
+							
 						ch.right=ch1.left-1;
 					}
 				}
@@ -165,19 +171,25 @@ public class Page extends Rectangle{
 					continue;
 				
 				for(Char ch1:lowers) {
-					if(ch1.upper<=ch.lower) {
+					if(ch1!=null && ch1.upper<=ch.lower) {
 						for(int i=ch1.upper; i<=ch.lower; i++) {
 							for(int j=ch1.left; j<=ch1.right; j++)
 								pageBitmap.points[j][i]=new Point(j,i,ch1);
 						}
 						
 						for(int i=ch1.upper; i<=ch.lower; i++) {
-							for(int j=ch.left;j<=ch.right;j++)
+							for(int j=ch1.left;j<=ch1.right;j++)
 								if(pageBitmap.points[j][i]!=null &&
 										pageBitmap.points[j][i].ch==ch)
 									pageBitmap.points[j][i].ch=ch1;
 									//pageBitmap.points[j][i]=null;
 						}
+						
+						for(int i=ch1.upper; i<=ch.lower; i++)
+							for(int j=ch.left; j<=ch.right; j++)
+								if(pageBitmap.points[j][i]!=null && pageBitmap.points[j][i].ch!=null && pageBitmap.points[j][i].ch==ch)
+									pageBitmap.points[j][i]=null;
+						
 						ch.lower=ch1.upper-1;
 					}
 				}
@@ -529,7 +541,7 @@ public class Page extends Rectangle{
 		for(int x=left; x<=right;x++)
 			for(int y=upper;y<=lower;y++) {
 				Point p=pageBitmap.points[x][y];
-				if ( p == null) continue;
+				if (p == null) continue;
 				
 				Char ch=p.ch;
 				if(ch==null) continue;
