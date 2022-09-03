@@ -1,0 +1,2064 @@
+Content:
+ColumnWidth 364 ColumnNumber 1
+ContentWidth 447 ContentLeft 1 ContentRight 447
+Subtitles:  0 3
+
+==============================
+Page 1
+ Left 1 Right 363 Top 1 Bottom 572
+
+
+Column meta:
+Column left:1 upper:1 right:363 lower 572
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=2 left=52 right=202 upper=1 lower=6
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.600000, charfont bold=0, alignment=0, allupper=1, column left=1, likeBody=-100
+
+JOURNAL OF ECONOMIC ISSUES
+==============================
+
+==============================
+
+typeindex=-2 left=52 right=208 upper=14 lower=32
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.600000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Volume LIV      No. 1      March 2020
+DOI 10.1080/00213624.2020.1720588
+==============================
+
+==============================
+type: title
+typeindex=6 left=66 right=295 upper=70 lower=78
+====>
+charfont name=GWCWTK+CGOmega-BoldItalic charfont height=7.400000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+
+typeindex=4 left=278 right=361 upper=87 lower=94
+====>
+charfont name=UKMCHI+CGOmega-BoldItalic charfont height=6.900000, charfont bold=2, alignment=1, allupper=0, column left=1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: abstract
+typeindex=-4 left=22 right=341 upper=106 lower=262
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.100000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Abstract: Digital platforms turn traditional approaches of the ?rm, which relied on the 
+wage relation to explain the major di?erence between ?rm and market, upside down and 
+underline the advantages of coordination through organization over coordination through 
+market. This study aims to propose a de?nition of the ?rm able to integrate, besides the 
+integrated ?rm,  also  hybrid forms  such as  networks of subcontractor/subcontracting 
+?rms as well as atypical forms such as digital platforms. By reactivating the ?rm-boundary 
+problem, this article suggests putting valorization by labor at the heart of the ?rm’s decisions 
+concerning integration. It suggests therefore a general de?nition of the ?rm as a techno-
+institutional center of capital valorization, provided that ?rms make pro?ts by means of the 
+appropriation of labor incorporated into their (productive, structural, intellectual) capital 
+through institutional arrangements. By stressing the relation of production between the 
+owners of the means of production and the direct producers, the approach of the ?rm 
+supported here should allow to cover the di?erent existing models of the ?rm, from the 
+classical ?rm to hybrid models, around which the boundary debate has revolved, to digital 
+platforms.
+==============================
+
+==============================
+
+typeindex=-4 left=22 right=341 upper=279 lower=295
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.100000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Keywords:  digital  platforms,  ?rm  theory,  boundaries  of  the  ?rm,  transaction  cost 
+economics, property rights theory, resource-based theory of the ?rm, hybrid models
+==============================
+
+==============================
+
+typeindex=-4 left=22 right=207 upper=312 lower=318
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.100000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+JEL Classification Codes: L14, L24, L25, L62, O30
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=363 upper=328 lower=489
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+Digital platforms turn traditional approaches of the ?rm, which relied upon the wage 
+relation to explain the major di?erence between ?rm and market, upside down and underline 
+the advantages of coordination through organization over coordination through market 
+(Bauwens, Mendoza and Iacomella 2012; Botsman 2013; Hamari, Sjöklint and Ukkonen 
+2015). Yet platform economics does not justify integration, neither by the reduction of 
+transaction costs nor by the creation of organizational resources. Therefore, it calls for a 
+renewal of the ?rm-boundary problem and the very de?nition of the ?rm. By their various 
+modes of appropriation of the producers or consumers’ activity, however, digital platforms 
+have put labor at the center of their valorization and therefore of their business models. But 
+these various forms of labor appropriation exceed the framework of the traditional wage 
+relation and reactivate, as we will see, ancient models of exploitation such as the putting-
+out system. Digital platforms demonstrate what Ayres had formally theorized about the 
+relationship between technological development and institutional structures, namely that 
+Information and communication technologies (ICTs) have allowed a speci?cally capitalist
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-3 left=1 right=363 upper=503 lower=541
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.100000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Laurent Baronian is associate professor at the University of Sorbonne Paris Nord. He has published articles in 
+history of economic thought, labor economics and money and ?nance. He published a book entitled Marx and 
+Living Labour (Routledge, 2013) among others. His current research is on knowledge management, ?nancialization 
+of corporate governance, and boundaries of the ?rm.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=1 left=174 right=189 upper=554 lower=560
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+214
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-3 left=1 right=252 upper=567 lower=572
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.100000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+© 2020, Journal of Economic Issues /Association for Evolutionary Economics
+==============================
+
+==============================
+Page 2
+ Left 1 Right 364 Top 1 Bottom 565
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 565
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+215
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=565
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+form of exploitation without wage labor. Here, technological changes are the sources of 
+institutional  changes regarding  the labor power (Ayres 1944, 177). What characterizes 
+indeed many of the digital platforms is that they do not need to hire employees for extracting 
+value from their labor. By means of software programs, digital ?rms make pro?t instead by 
+inserting themselves “between those who o?er services and others who are looking for them, 
+thereby embedding extractive processes into social interactions” (Scholz 2016, 4). Commons 
+de?ned the corporation as a going concern combining the going plant and the going business 
+(Commons 1924; Guelzo 1976). But digital platforms are going concerns in which the going 
+plant is reduced to some algorithms and software controlling the social activity for the pro?t 
+of the going business. Most of the transactions are therefore business transactions. Since 
+digital platforms use market relations extensively for valorizing their assets, the ?rm cannot 
+be distinguished from market regarding transaction costs as supported by transaction-cost 
+economics. Moreover, digital platforms question the resource-based theory of the ?rm since 
+organizational resources are not located within a ?rm through management of co-operating 
+hired workers. By subjecting potentially the whole of social activity, digital platforms have 
+completely realized the Veblenian concept of predatory business enterprise (Veblen 1923, 
+89; Jo 2018).  In other words, platform economics paradoxically demonstrate more than 
+traditional ?rms that the capitalist subjection of labor relies entirely upon the economic 
+power of the owners of the means of the production which are at the source of new forms 
+of cooperation between producers, consumers, users, et cetera, on which its business models 
+rely (Bauwens, Mendoza, and Iacomella 2012). 
+This article suggests putting valorization by labor at the heart of the ?rm’s strategies. 
+“By turning his money into commodities that serve as the natural elements of a new 
+product,” says Marx in a draft de?nition of the ?rm, “and as factors in the labor process, by 
+incorporating living labor with their dead substance, the capitalist at the same time converts 
+value, i.e. past, materialized, and dead labor into capital, into value with big value, a live 
+monster that is fruitful and multiplies” (Marx [1867] 2010, 205). Today, digital-based ?rms 
+are capable of extending their ?eld of exploitation well beyond workers’ direct labor, and 
+capitalist ?rms in general never cease to ?nd new objects of predation. But since all these 
+new objects, even the environment as such, always need the mediation of man’s activity, the 
+concept of labor called upon here includes, in fact, the social activity insofar as it is somehow 
+appropriated in order to be valorized by ?rms. 
+By reactivating the ?rm-boundary problem, the article will show how labor appropriation 
+steers ?rms' decisions concerning integration. It will show notably that neither asset speci?city 
+nor the creation of speci?c resources leads to integration. Consequently, the ?rm cannot be 
+grasped by its governance structure, as supported by transaction-cost economics, nor by its 
+capabilities and resources produced within a circumscribed space of labor, as resource-based 
+theory argues in objection to transaction-cost economics. But the features shared by quasi-
+?rms with traditional ?rms and digital platforms prompt us to suggest a de?nition of the 
+capitalist ?rm in general as a techno-institutional center of capital valorization or, to put it 
+di?erently, of appropriation of others’ labor. The ?rm is a technological center since the 
+relation of production relies upon and is carried out by a productive and organizational 
+technology. But it is also an institutional entity, since it appropriates labor incorporated into 
+their (productive, structural, intellectual) capital through institutional arrangements. As 
+Commons put it, the going concern includes rationing transactions describing a relationship 
+between legal superiors and inferiors. In the rationing transaction, the legal superior must
+==============================
+
+==============================
+Page 3
+ Left 1 Right 364 Top 1 Bottom 573
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 573
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+216
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=337
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+be able to take something from someone else and can be collective in nature as a board of 
+directors apportioning the corporate budget (Guelzo 1976, 42). By stressing the relation of 
+production between the owners of the means of production and the direct producers, the 
+approach of the ?rm supported here should allow us to cover the di?erent existing models 
+of the ?rm, from the classical ?rm to hybrid models, around which the boundary debate has 
+revolved, to digital platforms. As will be seen, all these kinds of ?rms share the basic feature 
+of extracting surplus labor either directly through work management, or indirectly through 
+contracts and price mechanisms, or through percentages on services provided and by means 
+of software technologies. In order to emphasize this aspect common to the di?erent kinds 
+of ?rms, I will show how the de?nitions of the ?rm by transaction-cost economics (TCE), 
+property-rights theory (PRT), and resource-based theory (RBT) encounter the ?rm-boundary 
+problem and how this problem gets resolved by putting the exploitation of social labor at 
+the heart of integration strategies of the ?rm. The critique of these approaches will gradually 
+show that labor haunts them, calling for a re-de?nition of the ?rm which ?nds—in the digital 
+platforms—its clearest illustration.
+The article is structured as follows. The next section shows how digital platforms 
+challenge these theories of the ?rm, by surpassing the disadvantages of the putting-out 
+system and making pro?ts without authority and hierarchy. After having recalled the history 
+of the ?rm-boundary problem, emphasis will be put on the way it has been dealt with by 
+TCE, then PRT and ?nally RBT, in accordance with their respective approaches of the ?rm. 
+The analysis of quasi-?rms, in particular the Toyota quasi-integration system, will show that 
+only a de?nition of the ?rm that deals with labor as both producing goods and services and 
+creating surplus value appropriated as pro?ts may account for hybrid models while drawing 
+a clear boundary between ?rm and market. More generally, quasi-integration con?rms the 
+priority of productive logic over logics of transaction costs and capabilities and resources. 
+The penultimate section returns to digital platforms and deals with issues emphasized by the 
+approach of the ?rm supported here. The last section concludes.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=84 right=277 upper=359 lower=365
+====>
+charfont name=GWCWTK+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Digital Platforms and the Theory of the Firm
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=388 lower=573
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+The development of information technologies alongside the growth of Web 2.0 has enabled 
+the development of online platforms that promote user-generated content, sharing, and 
+collaboration (Kaplan and Haenlein 2010). Capital has quickly taken advantage of these 
+new modes of exchange through the creation of new kinds of ?rms called “digital bridge 
+builders” which insert themselves between supply and demand of these services provided by 
+independent workers (Harris and Krueger 2015), thereby “embedding extractive processes 
+into social interactions” (Scholz 2016, 4).
+By connecting individuals and communities potentially all around the world, platform-
+based ?rms have blurred the distinction  between ?rm and market more  deeply  than 
+subcontracting and ?rms’ networks. Moreover, crowdsourcing blurs the boundaries of the 
+?rm not only because it uses “collaboration mass weapons” (Tapscott and Williams 2010) 
+extended to the whole of society, but also because local independent workers potentially have 
+access to the global market. This business model has dramatically challenged the conceptual 
+framework of transaction-cost economics. Indeed, digital platforms seem to have overcome 
+all the disadvantages of the putting-out system that led to the creation of manufactures in 
+the seventeenth century (Williamson 1985; Berg 1985, 85). It is well-known that among
+==============================
+
+==============================
+Page 4
+ Left 1 Right 364 Top 1 Bottom 565
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 565
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+217
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=565
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+the reasons that led the putting-out system to be replaced by manufactures were the lack of 
+control over labor time and intensity, as well as over-quality of the products made by the craft 
+workers (Marglin 1974,  94–95). The ITCs associated with systems of consumer assessment 
+today allow these disadvantages to be overcome by strictly controlling both labor time and 
+quality of the service accomplished by the independent workers. Moreover, digital platforms 
+bene?t from what was the main advantage of the putting-out system, namely the collection 
+of information to which their employees had special access (See Benkler 2002, 410–411). 
+Digital  platforms  thus  reduce  information  asymmetry as well  as  agents’  opportunism 
+(moral hazard). Since transaction costs are much weaker, the platform-based ?rm does not 
+lead to internalization of transactions (though software programs stand for some form of 
+internalization). Here, the almost exclusive function of the ?rm is to capture or extract 
+value by reducing market failures through software, facilitating information exchange and 
+increasing competition between independent workers.
+Since Adam Smith, it has been the norm to see wage labor as the typically capitalist 
+relationship of employment, with pro?ts, wages, and rents as the typical forms of income 
+resulting from that relationship. Yet the putting-out system depicts a relation of employment 
+where pro?ts of capital result from the extraction of surplus labor, whereas the worker does 
+not sell her labor power for wages but the product of her labor itself. However, the capitalist 
+nature of this relation of production seems so undisputable to historians and economists 
+that all the debate about the transition to the era of manufactures was focused on the 
+reasons pushing the entrepreneurs to hire the labor power in these factories. In a certain 
+way, it is true that transaction-cost economics, and more generally the conception of the 
+?rm as a nexus of contracts, made it possible to include the putting-out kind of employment 
+relationship among the ?rm’s contractual relationships. But the disadvantages of the putting-
+out system have precisely led TCE to ask, “Why do ?rms exist?” since the putting-out system 
+can be reduced to a market relationship with high transaction costs due to information 
+asymmetry and moral hazard: high bu?er inventories, weak leadership in contracting, local 
+responsiveness and system responsiveness respects, high transportation costs (Williamson 
+1980, 22). Hence, authority and hierarchy as the way to lower transaction costs related to the 
+contractual relation of employment.
+Even though authority and hierarchy have almost completely disappeared from the 
+platform employment relationship (Harris and Krueger 2015, 10), the investments made 
+in technologies necessary to connect the stakeholders or users of the platform allow the 
+platform-based ?rm to make pro?ts on the services provided through contractual devices, 
+in the  same way  as the merchant-coordinators  were  making pro?ts on the  individual 
+entrepreneur’s work.
+Therefore, digital platforms show that, against TCE, the ?rm may rely on coordination 
+through market as well as internal coordination. They thereby con?rm contract theory, 
+according to which ?rm and market di?er only according to the degree of contractual 
+commitment between agents.  More  generally,  digital  platforms  justify  the  contractual 
+approach of the ?rm, because, in this case, the link connecting the worker to the ?rm is 
+exclusively contractual and her productive activity is realized outside any organizational 
+framework. For PRT, only property institutes the manager’s hierarchical authority over the 
+worker, namely the residual control rights on the use of her non-human assets. Yet, the 
+holders of these residual control rights have power or authority over human assets, since 
+employees need physical assets to be productive (Hart and Moore 1990). Contract theory
+==============================
+
+==============================
+Page 5
+ Left 1 Right 364 Top 1 Bottom 573
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 573
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+218
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=301
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+does not deny the importance of cooperation in the running of non-human assets. According 
+to Armen Alchian and Harold Demsetz (1972), authority and control over the labor of ?rms’ 
+employees, and consequently the very existence of the ?rm, are indeed justi?ed by imperfect 
+information and moral hazard resulting from the inherently cooperative use of productive 
+assets (Alchian and Demsetz 1972, 799). What is neglected, however, is the fact that this 
+cooperation relies in turn upon the social nature of the assets which constitute and explain 
+the manager’s authority and hierarchy. Imperfect information and moral hazard are just the 
+consequences of the fact that human assets are employed in order to valorize non-human 
+assets and concern the bilateral contractual relationship between the employer and the 
+employee. In digital platforms, as well as in traditional ?rms, the manager’s power over the 
+worker relies entirely upon the power to manage the means of production necessary to the 
+workers’ social and individual reproduction. By founding the authority and incentives on 
+property, PRT not only makes no distinction between ?rm and market except in accordance 
+to their degree of property but also neglects the fact that the property of non-human assets 
+determines a relation of production exceeding the framework of interpersonal property 
+rights.
+In the capitalist ?rm in general, the property rights ordering the relations between 
+managers and employees are structured not, as PRT claims, by the collective use of the non-
+human assets as such, but by the social relation of production under which these non-human 
+assets are used and valorized. Since the use and valorization of non-human assets are planned 
+through contractual and organizational arrangements, we suggest de?ning the ?rm as a 
+techno-institutional center of valorization (i.e., of extraction of surplus labor). By focusing 
+on the way labor is organized and extracted in order to valorize capital, this approach of the 
+?rm may renew and clarify the problem of the ?rm’s boundaries.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=69 right=293 upper=323 lower=329
+====>
+charfont name=UKMCHI+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+The Coasian Genesis of the Firm-Boundary Problem
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=352 lower=573
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+Ronald Coase published his ?rst article on the nature of the ?rm in 1937, one year after 
+the publication of Keynes’ General Theory (1936), which reversed the traditional relation 
+between supply and demand in the equilibrium of prices and quantities. The starting point 
+of Coase’s argument is: “why do ?rms exist, since the market is supposed to ensure the 
+optimal allocation of economic agents’ resources?” His question implies that standard theory 
+only dealt with owners of goods, services or assets, and that production could be de jure 
+totally realized through market exchange, as in the putting-out system. Moreover, the theory 
+of factor productivity should demonstrate that labor, land, and capital are paid according 
+to their productivity, provided that they freely exchange on the market (see Clark 1907, 
+144). Therefore, Coase’s question is not “why production?” but rather “why the hierarchical 
+organization of the production?”—in other words—“why the capitalist ?rm?” Coase agrees 
+with the standard dogma according to which the market is the optimal way to allocate 
+resources in the short run. But standard approaches of the ?rm have justi?ed the ?rm only 
+by the necessity to combine factors in such a way that pro?ts be maximized, in other words, 
+that supply and demand for goods and factors be in equilibrium). However, Coase notes 
+that the ?rm exists in order to coordinate long-term exchange relations which are prone to 
+uncertainty and information asymmetry (Coase 1937, 391). Put di?erently, the manager’s 
+hierarchical authority has to replace prices and quantities in order to coordinate the factors 
+of production, in other words, to equalize the incomes of factors with their productivity
+==============================
+
+==============================
+Page 6
+ Left 1 Right 364 Top 1 Bottom 573
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 573
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+219
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=373
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+and balance production (Palermo 2000). Coase has thus left an ambivalent contribution 
+to the theory of the ?rm. On the one hand, he reintegrated within standard theory issues 
+which had been deliberately discarded, such as production, labor management, authority, et 
+cetera. On the other hand, he introduced within the ?rm the categories speci?c to market 
+relations of exchange (Pitelis 1993). What will become TCE with Oliver Williamson (1975) 
+is precisely to elaborate on marginal foundations a theory of production, division of labor, 
+capitalist enterprise, et cetera, namely elements which were excluded from economic theory. 
+The new theory should therefore explain and justify on these very foundations the existence 
+of all the excluded economic relations, particularly the capital/labor relationship within 
+the ?rm. Since the market is the prior institution of the contracting parties, choosing the 
+?rm as a means to coordinate assets should only result from market failures (Arrow 1974). 
+Coase’s theory of the ?rm therefore does not deal with the origins of production under 
+capitalism, but directly starts with the market economy whose failures push the producers 
+or asset owners to set up mechanisms of coordination not covered by market coordination: 
+“In the beginning, there were markets,” said Williamson (1975, 20). But since the basic 
+assumptions of standard theory are preserved, notably methodological individualism and 
+preference maximization, TCE assumes a vision of the ?rm primarily as a bundle of bilateral 
+exchange relations, not as a proper institutional space of production organization. 
+By de?ning the ?rm as a mode of coordination alternative to market and as a solution 
+to market failures, Coase’s theory is closely related to a speci?c phase of capitalism during 
+which “The Nature of the Firm” was written. The growth of large corporations, the power 
+of ?rms to control prices and markets, the scienti?c management of labor and production 
+within multidivisional ?rms, et cetera, stress the fact that ?rms control the markets rather 
+than reacting to their signals (Chandler 1977). Whereas William Lazonick argues correctly 
+that Coase “casts the ?rm as a passive player that arises out of ‘market failure’ rather than 
+‘organizational success’” (Lazonick 1991, 169), the point of the rise of the modern ?rm at 
+that time was rather to o?set the weakness of market as a coordinating power by transferring 
+its basic mechanisms to non-market institutions such as corporations. Before being a proper 
+theory of the ?rm, Coase’s theory is, in the ?rst place, a theory of market decline arising from 
+the development of capitalism.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=48 right=314 upper=395 lower=401
+====>
+charfont name=UKMCHI+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+The Fuzzy Boundaries of the Firm in Transaction-Cost Theory
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=424 lower=573
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+The ?rm-boundary problem arose again and developed from the 1980s onwards, when 
+liberalization and deregulation of ?nancial markets launched the second wave of mergers 
+and  acquisitions,  while  ?nancial  analysts  serving  institutional  investors  forced  large 
+corporations to fall back on their core competency and outsource numerous parts of the 
+value chain (Prahalad and Hamel 1990). Hence the renewed interest in TCE, which gives 
+theoretical tools to the ?rm’s choice to make or buy and sees the ?rm and its boundaries 
+in terms of exchange relations, not only between managers and employees, but between 
+the ?rm and its suppliers, subcontractors, customers, et cetera (Williamson 1975). From 
+this viewpoint, the boundary problem was closely related to the hold-up problem arising 
+as soon as ?rms make investments in speci?c assets (Klein, Crawford, and Alchian 1978). 
+The subcontractor investing in speci?c assets may thus be threatened by an unfavorable 
+renegotiation of contracts by the contracting ?rm, which may take advantage of the fact that 
+the valorization of the subcontractor’s assets depends exclusively on the performance of its
+==============================
+
+==============================
+Page 7
+ Left 1 Right 364 Top 1 Bottom 565
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 565
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+220
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=565
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+own assets. Conversely, the contracting ?rm is prone to opportunism for the subcontractor 
+who has the monopoly on the goods or services it provides (Klein, Crawford, and Alchian 
+1978, 299).
+Regarding the formal relationship between economic agents, TCE makes no di?erence 
+between labor, inter-?rm, and market relationships, which are all contractual relationships 
+subjected to information asymmetry and opportunism. Di?erences concern only the nature 
+of the contract linking the parties within a continuum between the ?rm and the market. It 
+is true that Williamson sees authority as the distinguishing feature of the relation between 
+the manager and its employees (Williamson 1975, 71–72). But authority may apply to very 
+di?erent forms of organizations. Moreover, Williamson associates the authority relation to 
+the ?rm because of the employees’ character and behavior within the ?rm, not because of 
+the nature of the ?rm’s functions (i.e., not because of what the ?rm makes). According to 
+TCE, what distinguishes the ?rm from the market and justi?es it is not the speci?c nature of 
+the ?rm’s activity (production) but the contractual relationship speci?c to this activity (the 
+employment relation).
+However, the employment relation is only a part of the contractual relationships of 
+the ?rm. The strength of TCE comes precisely from its ability to conceptualize all of these 
+relationships. According  to Williamson, one should  not draw  any distinction between 
+transactions on the (internal or external) labor market and transactions on the market 
+of intermediary products (Williamson 1986, 87), nor therefore between the assembly of 
+multiple tasks under the manager’s authority and the assembly of groups of tasks which 
+are technologically distinct from each other (Williamson 1975, 82). Insofar as transactions 
+are concerned, Williamson sees the same factors at the source of the respective costs and 
+advantages of ?rms and markets.
+Nevertheless, though TCE gives a theoretical framework to  integration strategies, 
+the boundaries of the ?rm seem to remain theoretically ill-de?ned. Why would savings in 
+transaction costs not lead to the integration of the entire production by one giant ?rm? In other 
+words, why not a planned economy? Following Coase, Williamson discards this possibility 
+by emphasizing the rise of bureaucratic costs and erosion of incentives (Williamson 1975, 
+126–130). But insofar as integration choice depends on di?erences between internal and 
+external transaction costs, what excludes de jure the possibility that integration costs would 
+always be weaker than market transaction costs, or, which is the same, that technological 
+e?ciency would be always higher than transaction costs and weakening incentives? Moreover, 
+progressive integration of the entire production could favor technological nonseparability 
+to such an extent that it would justify internal control of human and non-human assets 
+(Alchian and Demsetz 1972). This problem emphasizes the failure of TCE to understand 
+the ?rm as a process of production distinct from exchange relations rather than just in 
+accordance with the market (i.e., only as a solution to market failures). Even though TCE 
+founds the ?rm on the manager’s authority over potentially opportunistic employees and 
+even incorporates dynamic adaptation processes (Williamson 1999), the ?rm is nonetheless 
+understood as an institution whose choices are exclusively steered by ?nancial strategies. Not 
+only does TCE embrace the manager’s point of view by theorizing her choices and trade-
+o?s, but it also grasps her activity as exclusively concerned with the pro?ts of the ?rm and 
+disconnected from the management of the production process. Di?erences between TCE 
+and PRT, which I will soon address, has less to do with di?erences in control procedures 
+against opportunism (Quélin 2002, 65–66) than with the function of ?rm management. In
+==============================
+
+==============================
+Page 8
+ Left 1 Right 364 Top 1 Bottom 573
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 573
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+221
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=85
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+PRT, management is required by the aggregation of human and non-human assets in the 
+production process, whereas in TCE, it is required by the aggregation of exchange relations 
+for which hierarchical authority reduces the transaction costs. Since PRT’s critique of TCE 
+is based on the requirements of the combination of human and non-human assets necessary 
+to the productive activity and thus to the valorization process, let us look at the way it solves 
+the boundary-problem of the ?rm.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=10 right=354 upper=107 lower=125
+====>
+charfont name=GWCWTK+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Property Rights Theory’s Critique of Transaction-Cost Theory and its Failure to 
+Solve the Integration Problem
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=148 lower=573
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+PRT’s vision of the ?rm comes closer to its productive purpose by linking the manager’s 
+role to ownership of tradable assets, and thus by seeing the relations within the ?rm as 
+social relations of production. As de?ned by Alchian and Demsetz (1972), the ?rm is a team 
+production in which the combination of assets to produce output requires the control of 
+productivity and distribution of incomes between human assets by a manager emerging from 
+the team. What characterizes the capitalist ?rm is joint input production with numerous 
+owners, among whom one (the manager) is common to all the contracts of the joint inputs 
+and holds the residual claim as an incentive to monitor the assets.  Alchian and Demsetz’s 
+?rm is like an auction market managed by a kind of Walrasian auctioneer since the manager 
+has no authority over other team members. She has to protect them (Blair and Stout 1999, 
+253) since her function is to guarantee the optimum use of inputs and the fair income 
+distribution to the factors. Among collective organizations, only the capitalist ?rm, as a 
+pro?t-making organization, seems to require a manager for controlling possible shirking 
+by other team members (Alchian and Demsetz 1972, 795). Oliver Hart claims that PRT 
+answers the question that TCE is unable to solve: “Why are the risks of hold-up minimized 
+with integration and what are the costs of integration?” According to Hart, what integration 
+changes are the residual claims, notably concerning the use of assets (Hart 1995). Therefore, 
+he de?nes the ?rm with Sanford Grossman as an entity owning means of production 
+(Grossman and Hart 1986, 692) and argues that ownership permits holding all the rights 
+unspeci?ed by the contract (i.e., the residual rights). “Ownership is the purchase of the 
+residual rights to control” (Grossman and Hart 1986, 692). 
+For Hart and Grossman, integration does not rule out opportunism, as claimed by 
+TCE. Moreover, the assumptions of TCE give no sound reason to limit the size of the ?rm 
+(Grossman and Hart 1986, 692–693). If we do not dismiss the totally abstract neoclassical 
+assumption of maximization under constraint of decreasing returns to scale (Williamson 
+1985,  93),  trade-o?  between  internal  production  costs  and  market  transaction  costs 
+theoretically sets no limit to the expansion of the ?rm. According to PRT, integration must 
+rather be understood in terms of ownership and residual rights of control: “integration in 
+itself does not change the cost of writing down a particular contractual provision. What does 
+change is who has control over those provisions not included in the contract” (Grossman and 
+Hart 1986, 695). But integration also entails costs, insofar as ownership transfer reduces the 
+seller’s rights and thus her incentives (Grossman and Hart 1986, 693). There is no criterion 
+except the practice allowing to decide whether the incentives to opportunism are higher 
+than the advantages of integration (i.e., residual rights of control), particularly regarding 
+the pro?ts resulting from integration. Moreover, in PRT trade-o? between integration and 
+outsourcing depends exclusively on circumstances: since residual rights of control allow a
+==============================
+
+==============================
+Page 9
+ Left 1 Right 364 Top 1 Bottom 565
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 565
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+222
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=565
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+higher part of income to be derived from inputs, integration would be “optimal when one 
+?rm’s investment decision is particularly important relative to the other ?rm’s.” In addition, 
+nonintegration is desirable when both investment decisions are ‘somewhat’ important” 
+(Grossman and Hart, 716–717). As in TCE, the choice of integration remains theoretically 
+indeterminate.
+Although they follow Oliver Hart and John Moore’s property rights vision of the ?rm, 
+Bengt Holmström and John Roberts have criticized them for underrating other bene?ts 
+of non-human assets ownership than measurement cost and control, such as incentives 
+and productive e?ciency (Holmström and Roberts 1998). They noted that many ?rms, 
+notably under the subcontracting system, do not decide in favor of vertical integration even 
+though they face very high levels of uncertainty, frequent renegotiations, and use of very 
+speci?c assets, (see also Dyer 1997, 543–544). Moreover, co-dependent assets and frequent 
+renegotiations seem to favor cooperation between independent ?rms rather than integration. 
+Indeed, for Holmström the primary reason for integration is not avoiding risks of hold-up, 
+but rather having power over human capital thanks to ownership and control of non-human 
+assets, assigning tasks, delegating authority, and setting the principles that structure implicit 
+and explicit incentives (Holmström 1999, 76). Holmström’s incentive theory indeed claims 
+to provide a genesis of the ?rm as a bundle of property rights (Holmström 1999). Whereas 
+PRT allows an explanation of how assets are distributed between ?rms, given a set of assets 
+and investment activities, it fails to explain how these property rights are created. In order 
+to grasp it and thus account for the very existence of the ?rm and its boundaries, it is 
+more important to explain how and why investment activities are themselves distributed. 
+According to Holmström, the boundary question is what the ?rms do rather than what 
+they possess (Holmström and Roberts 1998, 87). From this perspective, understanding the 
+structure of assets would only amount to understanding the structure of investment activities.
+Nonetheless, this move from assets to activities brings out new questions: why do ?rms 
+(or managers) own mostly non-human assets used in production? And conversely, why do 
+workers own hardly any such assets? Put di?erently, why does the capitalist ?rm exist, insofar 
+as it is based on the fact that workers do not own their means of production? The ultimate 
+question is therefore: Why property? Why ?rms, insofar as they are de?ned by ownership 
+of tradable assets? All the suggestions made by Holmström assume as given precisely what 
+is to be explained, namely the possibility for a ?rm to possess non-human assets in order to 
+have power over human assets. He suggests that ?rms own non-human assets, because this 
+reinforces their bargaining power with external parties or because this in?uences the terms 
+of ?nancing assets. But the bene?ts of owning assets do not explain how and why these 
+assets may be privately owned. Holmström claims that the most important reason to own 
+non-human assets is to be able to assign human assets to tasks in a way that is more pro?table 
+than if ownership were not concentrated. But one of the questions was precisely: why do 
+workers not own non-human assets (Holmström 1999, 88–89)? More generally, although 
+Holmström and Roberts show the bene?ts of owning means of production and thus of 
+making rather than buying, they do not explain the conditions allowing ?rms to own these 
+means and take advantage of them by employing human assets deprived of these means. 
+They show how extensive is the managers’ power resulting from ownership of tradable assets, 
+but it is as if e?ciency and incentives served as an explanation of the power relation between 
+managers and employees. If opportunism, e?ciency, or control certainly explain the ?rm’s 
+choice to make or buy, they do not account for the very existence of the ?rm (i.e., ownership
+==============================
+
+==============================
+Page 10
+ Left 1 Right 364 Top 1 Bottom 573
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 573
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+223
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=85
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+of assets). Moreover, as will be shown, control and incentives over human assets do not 
+allow one to delimit the boundaries of the ?rm, any more than residual rights of control do. 
+However, by emphasizing the importance of incentives and e?ciency of human assets in the 
+ownership of non-human assets, Holmström and Roberts have shifted the focus from assets 
+to activities and thus from the ?rm’s structure of property to its joint process of production 
+and valorization.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=66 right=296 upper=107 lower=113
+====>
+charfont name=UKMCHI+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+The Limitless Boundaries of the Resource-Based Firm
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=136 lower=573
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+In fact, drawing the boundaries of the capitalist ?rm requires knowing its nature and 
+function. If one understands capital as a mode of production and not just as a source of 
+revenue, as Thomas Piketty (2014) contends, the function of the ?rm appears as dual and 
+consists in producing goods and services in order to valorize productive investment (i.e., 
+to make pro?ts from investment). What indeed characterizes a capitalist enterprise is that 
+production of goods and services is jointly a valorization process (Marx [1867] 2010, 208). 
+The ?rm is then a techno-institutional center in which production and distribution of goods 
+and services by labor are the means of valorizing the assets used in that process.
+Prima facie, RBT seems to be the only ?rm model to explicitly link valorization to 
+the production of speci?c goods or services by de?ning the ?rm as a bundle of capabilities, 
+organizational routines, and knowledge produced thanks to a combination of resources 
+and cooperation between stakeholders of the ?rm (Coriat and Weinstein 2010, 60–62). All 
+these routines, forms of knowledge, and capabilities give the ?rm a competitive advantage 
+(Barney 1991) resulting in “rents to costly-to-copy productive assets” (Conner 1991, 144). As 
+dynamic capabilities, now ?rms exist not because of market failures as in TCE, but because 
+markets for planned innovating products do not yet exist (Teece 2010, 175). It is up to the 
+?rms to create them according to an enlarged vision of the ?rm that not only creates value 
+but captures value on the new markets it creates at the same time (Pitelis and Teece 2009, 
+6). Therefore, ?rms exist in order to create or co-create the markets necessary to capture 
+value, in addition to creating value, thanks to their competitive advantage and their dynamic 
+capabilities (Pitelis and Teece 2009, 11; see also Teece 2006). Whereas according to Coase 
+and Williamson, the ?rm is a kind of private market, for Christos Pitelis and David Teece 
+the market appears as a public ?rm since according to this approach, the basic function 
+of the ?rm is to create a permanent disequilibrium by means of innovation. Undoubtedly 
+the ?rm’s purpose of pro?t maximization is reached through innovations and dynamic 
+capabilities that “escape the zero-pro?t condition” (Augier and Teece 2008, 1190). But this 
+purpose does not relate to the ?rm as a productive organization. It only demonstrates that 
+production of goods and services is subjected to pro?t maximization. More generally, the 
+concepts of “capability” or “routine” concern parts of the ?rm’s activity that do not enter 
+the valorization of productive capital but are relied upon in the ?rm’s connections with 
+external parties (customers, suppliers, et cetera). This “relational capital” is certainly a part 
+of the immaterial capital taken into account by ?nancial analysts in the market valuation of 
+the ?rm (Abhayawansa and Guthrie 2010), but it does not contribute to the valorization of 
+the ?rm’s productive assets.
+Furthermore, although Pitelis and Teece claim to be able to grasp the positive nature 
+of the ?rm in opposition to TCE, which justi?es it only negatively as a solution to market 
+failures, their approach does not solve the ?rm-boundary problem, insofar as it extends to
+==============================
+
+==============================
+Page 11
+ Left 1 Right 364 Top 1 Bottom 565
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 565
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+224
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=565
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+all the relations of the ?rm, and thus to the entire economy, the power of creating the value 
+captured by the ?rm (Pitelis and Teece 2009, 10). How can one delimit the boundaries of a 
+?rm whose management is based on communities of users or sharers connected to worldwide 
+communication networks such as digital platforms? The resource-based theory, by founding 
+the identity of the ?rm on its organizational and collective nature, is prone to include the 
+entire “knowledge society” (or the sharing society) as a stakeholder of the ?rm. For di?erent 
+reasons, neither TCE and PRT, nor RBT are able to strictly delimit the boundaries of the 
+?rm: TCE and RPT because the ?rm di?ers from market exclusively with respect to the 
+nature and amount of costs resulting from the incomplete contracts; RBT because the ?rm 
+is not distinguished from the whole of its connections with all its stakeholders.
+But even when the concept of capability is strictly limited to the organization of 
+production, the boundaries of the ?rm remain unde?ned. According to RBT, the choice to 
+integrate one or some parts of the value chain depends on the possibility to develop a speci?c 
+competence (Argyres and Zenger 2012). But as will be analyzed below, speci?c skills may be 
+developed through hybrid forms of organization in which the ?rm relies on the market for 
+creating its organizational advantage. Moreover, platform-based ?rms may rely exclusively on 
+the market for taking advantage of the distributed skills and competences and spontaneous 
+co-operation between users and sharers. As Laura Poppo and Todd Zenger (1998) noted 
+after Je?rey Bradach and Robert Eccles (1989), “the same exchange conditions such as asset 
+speci?city or measurement accuracy may indeed hinder the performance of hierarchical 
+exchanges as well as market performance” (Poppo and Zenger 1998, 854). Moreover, the 
+indeterminate boundaries of the resource-based ?rm seem to reinforce the position of TCE 
+regarding this issue. Indeed, Nicolai Foss has remarked that “the boundaries of the ?rm are 
+di?cult to rationalize except on a standard contractual basis” (Foss 1996, 475) when ?rms 
+have the opportunity to communicate knowledge to supplier ?rms (Dyer 1997, 546). Only 
+this contractual basis apparently justi?es the di?erent strategic choices of the ?rm in order 
+to develop its capabilities by applying to them the criterion of comparison between internal 
+organization costs and market costs (Langlois 1992, 110; Baudry and Chassagnon 2010, 
+496).
+If the ?rm is de?ned as a bundle of organizational capabilities, therefore, its boundaries 
+would be delimited by all the assets contributing both to the production of routines and 
+competences and to the process of valorization. It would be therefore necessary to exclude 
+from the boundaries of the ?rm the suppliers, subcontractors, customers, et cetera who 
+do not take part in the valorization process of productive assets; indeed the economic 
+operations between them and the ?rm consist in exchange of money for goods or services, 
+notwithstanding information exchange contributing to the creation of the contracting ?rm’s 
+speci?c resources. Although the subcontracted output is produced by means of speci?c 
+assets, it is bought by the contracting ?rm. Since it is a mere act of exchange, it does not 
+come into the production process. Thus, the concept of capability or resource is either too 
+narrow or too broad for drawing the boundaries of the ?rm: too narrow, since it excludes 
+the valorization process from the production process; too broad, since some resources are 
+created through relations of exchange with parties external to the contracting ?rm and are 
+not part of its own valorization process (Langlois 2003). It fuses production relations and 
+market relations under the same concept, even though a clear distinction between them is 
+necessary to delimit the boundaries of the ?rm within which the valorization process takes 
+place.
+==============================
+
+==============================
+Page 12
+ Left 1 Right 364 Top 1 Bottom 569
+
+
+Column meta:
+Column left:1 upper:19 right:364 lower 569
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+225
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=105 right=256 upper=19 lower=25
+====>
+charfont name=UKMCHI+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+The Quasi-Firm-Boundary Problem
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=48 lower=569
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+We have seen how TCE, PRT, and RBT meet di?culties in dealing with vertical integration 
+and ?rm-boundary problems. However, these approaches disclose their limitations mostly 
+when they tackle hybrid models. Hybrid models have been analyzed by many scholars, but 
+mostly in order to stress their speci?c advantages with respect to vertical integration and 
+market relations. Williamson (1991) himself notably insists on close contractual relations as 
+a way to compensate the weak coordination of market relations between the contracting ?rms 
+(1991, 280). According to Anoop Madhok (2002) however, the bene?ts of hybrid models 
+surpass transaction costs and allow ?rms to create and operate resources and capabilities. 
+In addition to governance structure and transaction costs, the characteristics of resources 
+determine the boundary choice of a ?rm (Madhok 2002, 541). To the extent that inter?rm 
+collaboration permits joint production of resources, the distinction between production 
+and exchange is blurred since ?rms choose hybrid models in order to not only lower their 
+transaction costs but to increase e?ciency and create more value. However, Madhok assumes 
+a narrow de?nition of the quasi-?rm as the product of alliance between two or more 
+independent ?rms. But since the distinction between production and exchange is blurred, 
+how can we delimit the boundaries of the ?rm? As soon as ?rms form alliances, “there 
+is a coevolution between the competencies of ?rms and those of their partners” (Madhok 
+2002, 546). Here again, the quasi-?rm issue is dealt with in terms of bene?ts for ?rms to 
+adopt hybrid forms, yet by obfuscating the boundary problem arising with these forms. 
+Michael Jacobides and William Billinger show through an empirical study that the boundary 
+problem does not arise from the distinction between buying or making, but that ?rms may 
+choose mixed and dynamic forms between them (Jacobides and Billinger 2006, 258).  Even 
+though their study shows how a ?rm is led to change its boundaries over time according to 
+valorization strategies, it does not deal with the question: what are the boundaries of a ?rm 
+engaging in hybrid relations with other ?rms? The existing literature stresses the advantages 
+of hybrid models which surpass the transaction cost problems and the fact that e?ciency 
+and productivity prevail among these advantages (Powell, Koput, and Smith-Doerr 1996; 
+Grant 1996; Dyer 2000). But it does not deal with the boundary problem arising from these 
+hybrid forms in which the distinction of production and exchange is blurred. Interestingly, 
+Mark Granovetter (1985) sees the quasi-?rm as closer to vertical integration than to market 
+relations  but  understands it  as  interactions  between  a  contractor  and  subcontractors 
+geographically close to each other where the latter are supervised by the former (Granovetter 
+1985, 497–498). More generally, he stresses the importance of social and personal relations 
+in the choice of vertical integration or market relations. In the wake of TCE indeed, close 
+social relations between ?rms may compensate high transaction costs arising from market 
+relations between ?rms and thus prevent them from vertical integration (1985, 498).
+I claimed above that, since subcontracting is a market relation between two or more 
+legally independent ?rms, it should exclude subcontractors from the boundaries of the 
+contracting ?rm. This seems to meet the vision of TCE according to which subcontracting 
+is a hybrid market transaction. However, what justi?es exclusion of subcontractors from the 
+boundaries of the ?rm is not the recourse to the market as such, but the fact that the value 
+exchanged between two independent ?rms does not produce more value than previously 
+created by these ?rms. Goods or services bought by the contracting ?rm are certainly a part 
+of the ?nal output, but they have just valorized the productive capital of the subcontractor.
+==============================
+
+==============================
+Page 13
+ Left 1 Right 364 Top 1 Bottom 576
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 576
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+226
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=541
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+The contracting ?rm has hypothetically bought them at their value, thus realizing the surplus 
+value (pro?ts) produced by the subcontractor. Things are di?erent when it appropriates a part 
+of the surplus value produced by the subcontractor through transfer pricing mechanisms. In 
+this case, not only is the output part of the ?nal output, but the surplus value incorporated 
+into the former has valorized the contracting ?rm’s assets. Here, everything seems as if 
+market transaction was realized between divisions of the ?rm through transfer pricing. This 
+case of “hold-up” by the contracting ?rm is enabled by the speci?city of the subcontractor’s 
+assets but leads neither to subsequent underinvestment nor to vertical or lateral integration. 
+However, the subcontractor, despite its legal independence, must be seen as included within 
+the boundaries of the contracting ?rm. This is indeed a case of quasi-integration (Houssiaux 
+1957, 2221) which shows the inadequacy of the TCE conception of the ?rm. Indeed, in a 
+great number of industrial strategies, recourse to market is merely formal and does not relate 
+to incentives or transaction cost problems, but only to productive e?ciency or combination 
+and organization of the value chain. On the other hand, quasi-integration con?rms that 
+concepts of capability or resource, insofar as they are sources of rents, no longer allow us 
+to delimit the boundaries of the ?rm. Here, the ?rm’s strategy consists simultaneously of 
+concentrating on its core competencies and appropriating the surplus value produced in 
+the outsourced segments of the value chain. The speci?c competence of the ?rm is neither 
+su?cient to de?ne the nature of the ?rm nor to delimit its boundaries. Quasi-?rms show in 
+particular that asset speci?city does not necessarily lead to vertical integration. In some cases, 
+it allows the contracting ?rm to gain power over the subcontractors through transfer pricing 
+by which it appropriates a part of the pro?ts or rents created by subcontractors thanks to 
+their specialized know-how.
+Let us take the famous and often-commented case of the Toyota system (Monden 1994; 
+Dyer 2000). The ?rm uses the “parallel order” system in order to stimulate competition between 
+its suppliers, not only over quality, but also over price (the visible hand of competition; see 
+Itami 1988). In fact, the only ?exibility of the suppliers with respect to Toyota is to develop 
+their R&D in order to rationalize production and gain additional margins on their selling 
+prices, which are ?xed according to the former production methods. Yet these improvements 
+are also pro?table to Toyota (Shimizu 1999, 73–74). Benjamin Coriat has noted that “In 
+Japan—as anywhere else in the world—relations between large and small subcontracting ?rms 
+are marked by a certain asymmetry showing more or less strongly inequality of economic 
+relations of power between contracting entities” (Coriat 1991,109; see also Houssiaux 1957, 
+232) This leads to less investment in ?xed capital by the contracting ?rm, rents on the 
+wage di?erence between employees of large and small ?rms, and amortization of cyclical 
+?uctuations e?ects (Coriat 1991, 109). In fact, the kind of subcontracting speci?c to Toyota 
+allows the ?rm to take advantage of all the bene?ts of integration through contractual 
+relations of market. Furthermore, subcontractors of the Toyota system accumulate speci?c 
+know-how thanks to their long relationship with the contracting ?rm, so that this relationship 
+allows continuous inter-?rm organizational innovation. This accumulated immaterial capital 
+explains why the contracting ?rm has di?culty changing its subcontractors, since it would 
+destroy the resources of accumulated know-how (Dyer 2000, 549–550).
+The Toyota system illustrates a case where the ?rm is grasped, beyond its traditional 
+boundaries, by its speci?c competencies. But it is only insofar as these competencies concern
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=1 right=363 upper=563 lower=576
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+1 Jacques Houssiaux is a French industrial economist who is largely unknown even in France, though he is 
+maybe the ?rst to have theorized the concept of quasi-integration.
+==============================
+
+==============================
+Page 14
+ Left 1 Right 364 Top 1 Bottom 576
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 576
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+227
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=493
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+the process of production, and thus of valorization, that RBT can delimit the boundaries of 
+the Japanese ?rm more accurately than TCE or PRT. In other words, Toyota’s subcontractors 
+have developed not only technical know-how, but organizational know-how, allowing the 
+highest continuity, ?exibility and speed for the lean production process (Coriat 1991, 226). 
+RBT therefore not  only identi?es the  ?rm di?erently—despite having similar empirical 
+results as TCE (Carter and Hodgson 2006)—but, as we have seen, can inde?nitely extend 
+the boundaries of the ?rm as long as relational capital is not related to the processes of 
+production and valorization of the ?rm’s productive assets. What allows us to distinguish 
+the part of the relational capital relied upon in the valorization process from other parts is 
+that ?rst, it gives rise to relational rents and second, it may be shared between the ?rm and 
+its subcontractors in theory, something which can never be the case between the ?rm and 
+its customers. The Japanese ?rm and its suppliers and subcontractors, as integrated from 
+the perspective of their organizational and technical competencies on the one hand, and 
+contractualized from the perspective of their formal relations on the other, are indeed quasi-
+integrated and together draw the boundaries of a single ?rm. 
+In their seminal article on the boundaries of the ?rm, Klein, Crawford, and Alchian 
+claim that hold-up threatens not only the supplier or subcontractor which has invested in 
+speci?c assets, but also the contracting ?rm, since the subcontractor may hold a monopolistic 
+position vis-à-vis the ?rm (Klein, Crawford, and Alchian 1978, 299). Theoretically, then, 
+speci?c assets may  threaten the two  contracting parties. But how, practically,  could  a 
+subcontractor, whose assets are totally dedicated to the production of output exclusively 
+bought by the contracting ?rm, ever exert any pressure on the latter? According to the 
+authors, the threat of hold-up risks bringing about underinvestment—or even no investment 
+at all—from the subcontractor. We may object that the possibility of underinvestment or no 
+investment is a risk to society’s well-being and so does not just concern the ?rm itself, which 
+in any case always takes decisions motivated by pro?t, though under bounded rationality. 
+Moreover,  referring  to  underinvestment  means  replacing  the  framework  of  positive 
+analysis by normative arguments. The problem at hand is to analyze what happens when a 
+subcontracting relationship occurs, not to state what is likely not to occur. Yet, within this 
+kind of relationship, it seems clear that the contracting ?rm has power over its subcontractor 
+(Dyer 2000, 358). Moreover, this kind of relationship implies appropriation of the whole 
+or part of the quasi-rents generated by speci?c investments of the subcontractor. This case 
+does not lead to vertical integration, neither from the contracting ?rm whose transaction 
+costs are compensated by the amount of the appropriated rent, nor from the supplier whose 
+position gives it no recourse to this option. Its only possibility would be to exit the market. 
+But subcontracting is a strategy decided by the contracting ?rm itself and most often does 
+not relate to any strategic logic between two or more independent ?rms. Therefore, it does 
+not come under the logic of transaction costs, which is entirely based on bounded rationality 
+and opportunism. It basically comes under the logic of the valorization allowed by new 
+technological possibilities (NTICs, polyvalent machinery, modular production, et cetera).2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=1 right=363 upper=515 lower=576
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+2 The fruitfulness which TCE has found in hybrid models comes exclusively from the fact that they use 
+formal mechanisms of market exchange within one and only one global production process (i.e., within a single 
+value chain). The empirical examples that Williamson cites to illustrate the scope of TCE shows indeed how the 
+productive logic subordinates the logic of transaction costs in the inter- and intra-?rm relationships. Williamson 
+himself admits that most of vertical integration downstream of distribution falls within technical requirements and 
+know-how: “Integration into ?nal sales and service is mainly observed for consumer and producer durables where 
+considerable knowledge is imparted at point of sale and specialized follow-on service is required” (Williamson 
+1985, 114). Notwithstanding the doubts cast on the Fisher Body-GM case study (Coase 2006), the fact that GM
+==============================
+
+==============================
+Page 15
+ Left 1 Right 364 Top 1 Bottom 576
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 576
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+228
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=109
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+Hybrid models such as quasi-integration challenge traditional theories of the ?rm. 
+Moreover, they show how the joint logic of production and valorization processes explains 
+the nature and stakes of the relationship between contracting ?rms and delimits clearly 
+their boundaries which remain otherwise blurred. Although contractual relations apparently 
+prevail among the multiple stakeholders, hybrid models show paradoxically the importance 
+of living labor exploitation in the understanding of industrial strategy of the ?rms. But above 
+all, they show us how digital platforms go one step further in this logic of social activity 
+exploitation.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=95 right=267 upper=131 lower=137
+====>
+charfont name=GWCWTK+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+The Digital Platform-Boundary Solution
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=160 lower=405
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+We have seen how TCE, PRT, and RBT have faced di?culties in solving the (quasi)?rm-
+boundary problem. TCE—and from this point of view also PRT—clearly distinguishes the 
+?rm from the market, but only from the perspective of their contractual relations, not with 
+respect to the speci?c function of the ?rm regarding the market: production of goods or 
+services incorporating surplus value appropriated as pro?ts. Consequently, the trade-o? 
+between internal organization costs and market costs remains practically indeterminate. 
+Thus, concerning organizational change able to reduce the internal transaction costs of the 
+?rm, Williamson unjusti?ably asserts that “the qualitative implications” of the argument 
+according to which  “the  distinctive powers  of  internal organization  are  impaired  and 
+transactional diseconomies are incurred as ?rm size and the degree of vertical integration are 
+progressively extended” “are not upset” (Williamson 1975, 117). But nowhere is it explained 
+why they are not upset. Conversely, RBT understands the ?rm as an institution creating 
+routines and knowledge dedicated to speci?c goods or services, yet confuses production of 
+surplus value with creation of competitive advantage (which is supposed to be the source of 
+rents or quasi-rents). Thus, according to this approach of the ?rm as a bundle of resources 
+giving rise to organizational routines or speci?c knowledge, rents and quasi-rents arise as 
+much from advantages drawn from market relations with its customers, suppliers, et cetera 
+as from e?ciency of the production process or speci?city of the product. Strangely, each of 
+these approaches fails to draw the boundaries of the ?rm clearly, being unable to distinguish 
+adequately the ?rm from the market: TCE and PRT, because they bring the contractual 
+nature of the speci?c market relation into the ?rm, even though PRT in particular admits the
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=1 right=363 upper=427 lower=576
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+bought Fisher Body in 1926 because it did not meet the new requirements of the ?rm—such as the proximity of 
+the site—leads Williamson to a similar conclusion: “To be sure, transaction cost reasoning does not predict this 
+sequence in detail” (Williamson 1985, 115). About Gordon Walker and David Weber who did a study on Ford 
+and GM suppliers: “Although they interpret their results as ‘mixed’ in transaction cost terms and attribute most 
+of the explanatory power to ‘comparative production costs,’ they acknowledged that this may be due to ‘limitations 
+in both the data and the model for which subsequent work is indicated’” (Williamson 1985, 116). And he adds: 
+“Further e?ort to plumb the factors that are responsible for comparative production cost di?erences between buyer 
+and supplier will, I submit, disclose added transaction cost features” (1985, 116). Concerning the integration of a 
+bauxite re?nery by steel enterprises, Williamson here again admits that it was decided “because of asset speci?city of 
+both physical plant and site speci?city kinds,” and that it was “reinforced by information asymmetry considerations” 
+(Williamson 1985, 119). Furthermore, Williamson cites cases of integration that ought to be considered as mistakes 
+from the viewpoint of transaction costs. Without any supporting evidence, he “conjecture[s]” that they “have mainly 
+been abandoned as renewal decisions have presented themselves” (Williamson 1985, 119). It is true that, in the 
+meantime, numerous empirical studies seem to have con?rmed Williamson’s assumptions concerning the trade-o? 
+between making and buying (Masten 1996; Shelanski and Klein 1995). However, in an article gathering together 
+most of the case studies illustrating “the empirical success story of the TCE” (Williamson 2000, 607), the authors 
+acknowledge that the quasi-?rm studied by Eccles (1981) seems to be an exception to the rule that integration choice 
+increases with asset speci?city and conclude that “TCE may assign too much attention to asset speci?city for the 
+integration decision” (Shelanski and Klein 1995, 346).
+==============================
+
+==============================
+Page 16
+ Left 1 Right 364 Top 1 Bottom 573
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 573
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+229
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=301
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+co-operative nature of production; and RBT because it does not draw any clear distinction 
+between the advantages of the ?rm drawn from its market relations and those resulting from 
+the organization of production. 
+By blurring the distinction between ?rm and market  more  than ever before, the 
+business model of digital platforms has practically refuted the theoretical framework of 
+TCE. Moreover, by overcoming the disadvantages of the putting-out system, digital platforms 
+have shaken the two pillars underpinning the TCE approach and its vindication of the 
+capitalist ?rm, namely information asymmetry and moral hazard (Williamson 1996). But 
+digital platforms have also challenged the PRT according to which authority and hierarchy 
+are the consequences of the residual control of non-human assets (Hart and Moore 1990). 
+As we have seen, digital platforms do not need to exercise direct authority over workers and 
+may control them through anonymous devices (software, consumer assessments, algorithms, 
+et cetera). But if digital platforms may relax direct authority and control, they nevertheless 
+share with all other kinds of capitalist ?rms the relation of production based on the property 
+and use of non-human assets by capitalists who extract living labor in order to valorize 
+these social means of production. Digital platforms have undermined employment relations 
+based on wages but at the same time they have radicalized the relation of production on 
+which is based wage labor, namely the private ownership of social and collective means of 
+production. This relation of production suggests seeing the ?rm as a techno-institutional 
+center of extraction of surplus labor. The focus on the private economic power on social 
+production allows us to distinguish e?ectively between ?rm and market whatever is the form 
+of hybridization between them. Moreover, it provides the necessary framework to account for 
+di?erent forms of authority and control by relating them to the di?erent ways of extracting 
+living labor and valorizing non-human assets.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=136 right=226 upper=323 lower=329
+====>
+charfont name=GWCWTK+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Concluding Remarks
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=352 lower=573
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+Since integration does not delimit the boundaries of the ?rm, solving the ?rm-boundary 
+problem depends on a clear understanding of the nature and function of the ?rm. If we 
+assume that labor is the source of the pro?ts made by the owners of the ?rm’s assets, all the 
+features put to the fore by traditional theories (authority over employees in TCE, control of 
+the use of ?rm’s assets by PRT, management of competencies, and knowledge by RBT) de?ne 
+the ?rm as a techno-institutional center of labor appropriation, regardless of whether or 
+not such appropriation is directly organized by the ?rm. De?ned as such, the capitalist ?rm 
+includes digital platforms, where production of value is fragmented into a large number of 
+individual provisions of services, since it frees the ?rm-boundary problem from governance 
+constraints on transactions as well as organizational constraints on knowledge and resources, 
+in the same way as ICTs have practically freed the ?rm from those same constraints. One 
+may object that digital economics raises more transaction problems than any other industrial 
+sectors. But the reduction of transaction costs made possible by ICTs does not justify anymore 
+the hierarchical institution of the ?rm asserted by TCE. Moreover, what distinguishes digital 
+platforms is that they cannot choose between integration and market, since their hybrid 
+form derives from the very nature of the services they produce. In the same way, creation 
+of organizational knowledge in digital platforms relies precisely on the decentralized and 
+scattered nature of knowledge production by the many stakeholders of the digital platform. 
+Thus, organizational resources are not limited to the resources created by the ?rm’s employees
+==============================
+
+==============================
+Page 17
+ Left 1 Right 364 Top 1 Bottom 573
+
+
+Column meta:
+Column left:1 upper:20 right:364 lower 573
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+230
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=364 upper=20 lower=121
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=100
+
+but now extend to all the data produced by the workers and consumers and appropriated by 
+the ?rm's software which interposes them. But whatever the reasons pushing ?rms to choose 
+their forms of hybridization or their modes of organizational knowledge, they are always 
+conditioned by the pursuit of the primary objective of the ?rm, namely the extraction of 
+surplus labor or the valorization of social activity. Since digital platforms make pro?ts much 
+like other capitalist ?rms by incorporating living labor to non-human assets, the typology 
+of the ?rms and their organizational modes speci?c to contemporary capitalism could and 
+should be made in accordance with the di?erent ways in which the connection between non-
+human and human assets is made.
+==============================
+
+==============================
+
+typeindex=3 left=157 right=205 upper=143 lower=149
+====>
+charfont name=UKMCHI+CGOmega-BoldItalic charfont height=6.300000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+References
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=356 upper=170 lower=193
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Abhayawansa, Subhash, and James Guthrie. 2010. “Intellectual Capital and the Capital Market: A Review and 
+Synthesis.” Journal of Human Resource Costing and Accounting 14 (3): 196–226.
+Alchian, Armen A., and Harold Demsetz. 1972. “Production, Information Costs, and Economic Organization.”
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=157 upper=199 lower=203
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+American Economic Review 62 (5): 777–795.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=359 upper=209 lower=433
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Argyres, Nicholas S., and Todd R. Zenger. 2012. “Capabilities, Transaction Costs, and Firm Boundaries: A 
+Dynamic Perspective and Integration.” Organization Science 23 (6): 1643–1657.
+Arrow, Kenneth. 1974. The Limits of Organization. New York: W. W. Norton.
+Augier, Mie, and David J. Teece. 2008. “Strategy as Evolution with Design: The Foundations of Dynamic 
+Capabilities and the Role of Managers in the Economic System.” Organization Studies 29 (08–09): 
+1187–1208.
+Ayres, Clarence E. 1944. The Theory of Economic Progress. Chapel Hill: The University of North Carolina Press.
+Barney, Jay. 1991. “Firm Resources and Sustained Competitive Advantage.” Journal of Management 17 (1): 99–120.
+Baudry, Bernard, and Virgile Chassagnon. 2010. “The Close Relation between Organization Theory and Oliver 
+Williamson’s Transaction Cost Economics: A Theory of the Firm Perspective.” Journal of Institutional 
+Economics 6 (4): 477–503.
+Bauwens, Michel, Nicolas Mendoza, and Franco Iacomella. 2012. Synthetic Overview of the Collaborative Economy. 
+P2P Foundation. Available at: https://p2pfoundation.net/wp-content/uploads/2018/02/Synthetic-
+overview-of-the-collaborative-economy.pdf Accessed on October 30, 2019.
+Benkler, Yochai. 2002. “Coase’s Penguin, or Linux and the Nature of the Firm.” In Yale Law Journal 112 (3): 
+369–446.
+Berg, Maxine. 1985. The Age of Manufactures: 1700–1820. London: Fontana Press.
+Blair, Margaret M., and Lynn A. Stout 1999. “A Team Production Theory of Corporate Law.” Virginia Law Review 
+85 (2): 247–328.
+Botsman, Rachel. 2013. The Sharing Economy Lacks a Shared De?nition. Fast Company. Retrieved from https://
+www.fastcompany.com/3022028/the-sharing-economy-lacks-a-shared-de?nition. Accessed on December 6, 
+2019.
+Bradach, Je?rey L., and Robert G. Eccles. 1989. “Price, Authority, and Trust: From Ideal Types to Plural Forms.”
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=141 upper=439 lower=443
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Annual Review of Sociology 15: 97–118.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=352 upper=449 lower=473
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Carter, Richard, and Geo?rey M. Hodgson. 2006. “The Impact of Tests of Transaction Cost Economics on the 
+Debate on the Nature of the Firm.” Strategic Management Journal 27: 461–476.
+Chandler, Alfred D. 1977. The Visible Hand. The Managerial Revolution in American Business. Harvard: Harvard
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=75 upper=479 lower=483
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+University Press.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=361 upper=489 lower=523
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Clark, John B. 1907. Essentials of Economic Theory as Applied to Modern Problems of Industry and Public Policy. New 
+York: The Macmillan Company.
+Coase, Ronald H. 1937 “The Nature of the Firm.” Economica 4 (16): 386–405.
+Coase, Ronald H. 2006. “The Conduct of Economics: The Example of Fisher Body and General Motors.” Journal
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=191 upper=529 lower=533
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+of Economics and Management Strategy 15 (2): 255–278.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=361 upper=539 lower=573
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Commons, John R. 1924. Legal Foundations of Capitalism. New York: The Macmillan Company.
+Conner, Kathleen R. 1991. “A Historical Comparison of Resource-Based Theory and Five Schools of Thought 
+within Industrial Organization Economics: Do We have a New Theory of the Firm?” Journal of Management 
+17 (1): 121–154.
+==============================
+
+==============================
+Page 18
+ Left 1 Right 362 Top 1 Bottom 574
+
+
+Column meta:
+Column left:1 upper:19 right:362 lower 574
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=101 right=261 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Digital Platforms and the Nature of the Firm
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=346 right=361 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+231
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=355 upper=19 lower=94
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Coriat, Benjamin. 1991. Penser à l’envers. Paris: Christian Bourgois.
+Coriat, Benjamin., and Olivier Weinstein. 2010. “Les théories de la ?rme entre ‘contrats’ et ‘compétences’. Une 
+revue critique des développements contemporains.” Revue d’Économie Industrielle 129–130: 57–86.
+Dyer, Je? H. 1997. “E?ective Interim Collaboration: How Firms Minimize Transaction Costs and Maximise 
+Transaction Value.” Strategic Management Journal 18: 535–556.
+Dyer, Je? H. 2000. Collaborative Advantage: Winning Through Extended Enterprise Supplier Networks. New York: 
+Oxford University Press.
+Eccles, Robert G. 1981. “The Quasi?rm in the Construction Industry.” Journal of Economic Behavior and
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=100 upper=99 lower=104
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Organization 2: 335–357.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=342 upper=109 lower=114
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Foss, Nicolai J. 1996. “Knowledge-Based Approaches to the Theory of the Firm: Some Critical Comments.”
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=133 upper=119 lower=124
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Organization Science 7 (5): 470–476.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=346 upper=129 lower=134
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Granovetter, Mark. 1985. “Economic Action and Social Structure: the Problem of Embeddedness.” American
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=133 upper=139 lower=144
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Journal of Sociology 91 (3): 481–510.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=362 upper=149 lower=194
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Grant, R. M. 1996. “Toward a Knowledge-Based Theory of the Firm.” Strategic Management Journal 17: 109–122.
+Grossman, Sanford J., and Oliver D. Hart. 1986. “The Costs and Bene?ts of Ownership: A Theory of Lateral and 
+Vertical Integration.” Journal of Political Economy 94: 691–719.
+Guelzo, Carl M. 1976. “J. R. Commons and the Theory of the Firm.” The American Economist 20 (2): 40–46.
+Hamari, Juhi, Mimmi Sjöklint, and Antti Ukkone. 2016. “The Sharing Economy: Why People Participate in
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=357 upper=199 lower=204
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Collaborative Consumption.” Journal of Association for the Information Science and Technology 67: 2047–2059.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=354 upper=209 lower=314
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Hart, Oliver D. 1995. Firms, Contracts, and Financial Structure. Oxford: Clarendon Press.
+Hart, Oliver D., and John Moore. 1990. “Property Rights and the Nature of the Firm.” Journal of Political 
+Economy 98 (6): 1119–1158.
+Harris, Seth D., and Alan B. Krueger. 2015. “A Proposal for Modernizing Labor Laws for TwentyFirstCentury 
+Work: The ‘Independent Worker.’” The Hamilton Project. Discussion Paper 201510.
+Holmström, Bengt, and John Roberts. 1998. “The Boundaries of the Firm Revisited.” Journal of Economic 
+Perspectives 12 (4): 73–94.
+Holmström, Bengt. 1999. “The Firm as a Subeconomy.” Journal of Law and Economic Behaviour 15 (1): 74–102.
+Houssiaux, Jacques. 1957. “Le concept de ‘quasi-intégration’ et le rôle des sous-traitants dans l’industrie.” Revue 
+Économique 8 (12): 221–247.
+Itami, Hirojuki. 1988. “Competition by Visible Hands: E?ciency of Parts Supply Systems.” In Competition
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=345 upper=319 lower=324
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+and Innovation; Corporate Development in the Automobile Industry, edited by Hirojuki Itami, T. Kagono, T.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=361 upper=329 lower=524
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Kobayashi, K. Sakakibara, and M. Ito. Tokyo: Toyo Keizai Shimpo-sha.
+Jacobides, Michael G., and Stephan Billinger. 2006. “Designing the Boundaries of the Firm: From Make, Buy, or 
+Ally to the Dynamic Bene?ts of Vertical Architecture.” Organization Science 17 (2): 249–261.
+Jo, Tae-Hee. 2018. “The Institutionalist Theory of the Business Enterprise: Past, Present, and Future” MPRA 
+Paper No. 84036. Available at https://mpra.ub.uni-muenchen.de/84036/, accessed on October 30, 2019.
+Kaplan Aandreas M., and Michael Haenlein. 2010. “Users of the World, Unite! The Challenges and 
+Opportunities of Social Media.” Business Horizons 53 (1): 59–68.
+Keynes, John Maynard. 1936. General Theory of Employment, Interest and Money. London: Macmillan.
+Klein, Benjamin, Robert G. Crawford, and Armen A. Alchian. 1978. “Vertical Integration, Appropriable Rents, 
+and the Competitive Contracting Process.” Journal of Law and Economics 21 (2): 297–326.
+Langlois, Richard N. 1992. “Transaction-Cost Economics in Real Time.” Industrial and Corporate Change 1 (1): 
+99–127.
+Langlois, Richard N. 2003. “The Vanishing Hand: The Changing Dynamics of Industrial Capitalism.” Industrial 
+and Corporate Change 12 (2): 351–385.
+Lazonick, William. 1991. Business Organization and the Myth of the Market Economy. New York: Cambridge 
+University Press.
+Madhok, Anoop. 2002. “Reassessing the Fundamentals and Beyond: Ronald Coase, the Transaction Cost and 
+Resource-Based Theories of the Firm and the Institutional Structure of Production.” Strategic Management 
+Journal 23: 535–550.
+Marglin, Stephen. 1974. “What Do Bosses Do? The Origins and Functions of Hierarchy in Capitalist Production,
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=215 upper=529 lower=534
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Part I.” The Review of Radical Political Economics 6 (2): 60–112.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=353 upper=539 lower=564
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Marx, Karl. (1867) 2010. Capital, Volume I. New York: Lawrence and Wishart.
+Masten, Scott E. 1996. Case Studies in Contracting and Organization. New York: Oxford University Press.
+Monden, Yasuhiro. 1994. Toyota Production System: An Integrated Approach to Just-In-Time. London: Chapman and
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=38 upper=569 lower=574
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Hall.
+==============================
+
+==============================
+Page 19
+ Left 1 Right 360 Top 1 Bottom 414
+
+
+Column meta:
+Column left:1 upper:19 right:360 lower 414
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=1 left=149 right=213 upper=1 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Laurent Baronian
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=16 upper=2 lower=7
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+232
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=335 upper=19 lower=24
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Palermo, Giulio. 2000. “Economic Power and the Firm in New Institutional Economics: Two Con?icting
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=189 upper=29 lower=34
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Problems.” Journal of Economic Issues 34 (3): 573–601.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=355 upper=38 lower=104
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Piketty, Thomas. 2014. Capital in the 21st Century. Boston: Harvard University Press.
+Pitelis, Chirstos. 1993. “On Transaction (Costs) and Markets and (as) Hierarchies.” In Transaction Costs, Markets, 
+and Hierarchies, edited by Christos Pitelis, l262–276. Oxford: Basil Blackwell.
+Pitelis, Christos, and David Teece. 2009. “The (New) Nature and Essence of the Firm.” European Management 
+Review 6 (1): 5–15.
+Poppo, Laura, and Todd R. Zenger. 1998. “Testing Alternative Theories of the Firm: Transaction Cost, 
+Knowledge-Based, and Measurement Explanations for Make-or-Buy Decisions in Information Services.”
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=170 upper=109 lower=114
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Journal of Strategic Management 19 (9): 853–877.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=359 upper=119 lower=184
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Powell, Walter W.,  Kenneth W. Koput, and Laurel Smith-Doerr. 1996. “Interorganizational Collaboration and 
+the Locus of Innovation: Networks of Learning in Biotechnology.” Administrative Science Quarterly 41(1): 
+116–145.
+Prahalad, C. K., and Gary Hamel. 1990. “The Core Competence of the Corporation.” Harvard Business Review 68 
+(3): 79–91.
+Quélin, Betrand. 2002. Les frontières de la ?rme. Paris: Economica.
+Shelanski, Howard A., and Peter G. Klein, 1995. “Empirical research in Transaction Cost Economics. A Review
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=265 upper=189 lower=194
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+and Assessment.” Journal of Law, Economics, and Organization 11 (2): 335–361.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=359 upper=199 lower=354
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Shimizu, Koïchi. 1999. Le Toyotisme. Paris: La Découverte.
+Scholz, Trebor. 2016. Platform Cooperativism. New York: Rosa Luxemburg Stiftung.
+Tapscott, Don, and Anthony D. Williams. 2010. Macrowikinomics: Rebooting Business and the World. New York: 
+Portfolio Hardcover.
+Teece, David. 2006. “Re?ections on ‘Pro?ting from Innovation.’” Research Policy 35 (8): 1131–1146.
+Teece, David. 2010. “Business Models, Business Strategy and Innovation.” Long Range Planning 43: 172–194.
+Veblen, Thorstein. 1923. Absentee Ownership. Business Enterprise in Recent Times: The Case of America. New 
+Brunswick: Transaction Publishers.
+Williamson, Oliver E. 1975. Markets and Hierarchies. New York: The Free Press.
+Williamson, Oliver E. 1980. “The Organization of Work.” Journal of Economic Behavior and Organization 1 
+(1): 5–38.
+Williamson, Oliver E. 1985. The Economic Institutions of Capitalism. New York: The Free Press.
+Williamson, Oliver E. 1986. “The Vertical Integration of Production: Market Failure Considerations.” In 
+Economic Organization: Firms, Market and Policy Control, edited by Oliver Williamson, 85–100. New York: 
+New York University Press.
+Williamson, Oliver E. 1991.“Comparative Economic Organization: The Analysis of discrete Structural
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=205 upper=359 lower=364
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Alternatives.” Administrative Science Quarterly 36: 269–296.
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=360 upper=369 lower=404
+====>
+charfont name=UKMCHI+GoudyOldSty-Reg charfont height=4.600000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+Williamson, Oliver E. 1996. The Mechanisms of Governance. New York: Oxford University Press.
+Williamson, Oliver E. 1999. “Strategy Research: Governance and Competence Perspectives.” Strategic Management 
+Journal 20: 1087–1108.
+Williamson, Oliver E. 2000. “The New Institutional Economics: Taking Stock, Looking Ahead.” Journal of
+==============================
+
+==============================
+
+typeindex=-6 left=23 right=124 upper=409 lower=414
+====>
+charfont name=UKMCHI+GoudyOldSty-RegIta charfont height=4.500000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Economic Literature 38: 595–613.
+==============================
+
+==============================
+Page 20
+ Left 1 Right 447 Top 1 Bottom 50
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=5 left=1 right=447 upper=1 lower=50
+====>
+charfont name=TimesNewRoman charfont height=7.900000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Copyright of Journal of Economic Issues (Taylor & Francis Ltd) is the property of Taylor &
+Francis Ltd and its content may not be copied or emailed to multiple sites or posted to a
+listserv without the copyright holder's express written permission. However, users may print,
+download, or email articles for individual use.
+==============================
+

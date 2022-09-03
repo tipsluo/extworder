@@ -1,0 +1,271 @@
+Title:
+Library-driven approach for fast implementation of the voxel spread function
+to correct magnetic ?eld inhomogeneity artifacts for gradient-echo
+sequences
+
+Abstract:
+
+----------------------
+
+
+Text:
+----------------------
+It is well-known that macroscopic B0 magnetic field inhomo-
+geneity adversely affect quantitative measurements of relax-
+ation parameters obtained with multi-Gradient-Recalled-
+Echo (mGRE) MRI if not accounted for.
+It was demonstrated recently that quantitative mGRE-
+based approach incorporating voxel spread function (VSF)
+method for field inhomogeneity correction1 provides quanti-
+tative information on brain tissue cellular structure2 as well as
+its alterations under healthy aging3 and different neurological
+diseases.4–7 The VSF method takes advantage of utilizing
+both magnitude and phase information of mGRE data from a
+single scan, hence it saves acquisition time and avoids mis-
+registration errors. However, a direct implementation of the
+VSF method requires a large number of voxel-dependent con-
+volutions resulting in long computational time.
+In this study, we propose a library-driven approach for fast
+implementation of the VSF method. Instead of the direct
+voxel-wise calculation, a pre-calculated library accounting
+for a variety of background field gradients caused by mag-
+netic field inhomogeneity is used. The library-driven
+approach substantially reduces the computational time of
+VSF from hours to a few minutes, and provides similar accu-
+racy compared with the direct calculation. This can facilitate
+the applications of mGRE-based quantitative techniques in
+clinical practices.
+As described previously,1 MR signal in the presence of
+inhomogeneous magnetic field b(r) can be represented as
+follows: Z
+(1)
+where k and r represent the k space and image space, respec-
+tively, ? is the gyromagnetic ratio, ?0(r) is the signal phase
+shift at TE = 0. Here, we only considered the gradient echo
+time TE and ignore the time during gradient echo acquisition.
+By using a linear approximation, b(r) and ?0(r) can be repre-
+sented in the nth voxel as follows:
+(2)
+(3)
+Assuming each imaging voxel has volume V = axayaz,
+then ?rx,y,z ? [?0.5ax,y,z, 0.5ax,y,z]. Thus, by substituting b(r)
+and ?0(r) using Eqs. (2) and (3) and assuming that the “ideal”
+signal ?(r; TE) only slightly varies across the voxels, the MR
+signal in Eq. (1) can be rewritten for discrete imaging voxels
+as follows:
+~Sðk?TEÞ¼
+(5)
+F1o=r2, ea1c=h2þ1d=imNeqn,s.i.o.,n1=2(j =1=xN,qyi,s thez)1, D normalized
+k-space. Nq represents number of q-points used in the calcula-
+(6)
+(4)
+where ?n(TE) is the “ideal” signal from the nth voxel that is
+free from B0-field inhomogeneity artifacts. The function P(q;
+q n; TE) has the form:
+where g?,j ¼ ?  gn,j  aj and gp,j ¼ ? Gn,j aj are the gradients
+for the nth voxel calculated from the spatially unwrapped fre-
+quency ? and phase ?0, respectively.
+By applying Fourier transform to Eq. (4), the image of
+mGRE-MRI Sn(TE) can be expressed as follows:
+where ?nm(TE) is a voxel-dependent convolution kernel,
+which in the 3D case can be presented as follows:
+(8)
+where the voxel indices n and m are considered as 3D vectors:
+(nx, ny, nz) and (mx, my, mz), ?m is the frequency shifts. The
+(9)
+In some circumstance, Hanning filter is often employed to
+reduce Gibbs ringing artifacts and improve the signal-to-
+noise ratio. For images obtained with the Hanning filter, Eq.
+(9) should be modified by adding an dditional factor
+cos2ð?qÞ. In the 2D case, the factor ?z ¼ sinc qm,zðTEÞ .
+Using the similarity approximation:
+Eq. (7) reduces to.
+In practice, the sum in Eq. (12) is taken over several voxels
+adjacent to a given voxel n. Even for few neighbors included
+in this sum (as shown previously1), a large number of voxel-
+dependent convolutions leads to long computational time.
+For a typical head scan using mGRE sequence with a matrix
+size of 256 × 256 × 72 × 10 (readout, phase encoding,
+slices, echoes), the calculation time of the F-function in Mat-
+lab using 4 neighbors on each dimension could take several
+hours on a computer with typical configurations.
+In the voxel-wise direct calculation, factors ? are calcu-
+lated independently for each voxel. As mentioned above, this
+procedure usually costs long computational time. In this
+study, we propose a new way to substantially accelerate the
+calculation by using a pre-calculated library for ?. As shown
+in Eq. (9), the factors ? depend on three parameters: the phase
+dispersion qm, neighbor index (n-m), and Nq. When phased-
+array coils and channel combination methods8,9 are used, ini-
+tial phase ?0 are eliminated, and the parameter qm depends
+only on the frequency gradient g?. Relatively large maximum
+g? value should be chosen to sufficiently cover the gradient
+variations of frequency ? for library building. In our case of
+imaging the human brain, we found maximum g? value of
+1500 rads/voxel is sufficient. When using an accuracy of 0.1
+rads/voxel, a total number of 30,000 points is sufficient to
+build the library for ?. Although ? also depends on the num-
+ber of q-points in the sum in Eq. (9), our simulation shows
+that as long as using a sufficient large Nq ? 256, the factor ?
+is fairly stable (see Fig. 1).
+According to Eq. (9), changing the sign of either qm or
+neighbor index ?N = (n – m) will result in a complex conju-
+gate of ?, one can only use non-negative values of q and non-
+negative neighbor index ?N for calculations. This can further
+reduce the computational time for library building. This
+library of ? is then used for F-function calculation: for each
+voxel and its neighbors with particular gm values, correspond-
+ing values of ? can be readily found from the library. Impor-
+tantly, replacing the direct computation by this new library-
+driven approach substantially reduces the computing time
+from hours to a few minutes. As long as including suffi-
+ciently large Nq and number of neighboring voxels, the
+library only needs to be built once and can be used for future
+calculations. The detailed procedure of library building and
+F-function calculation is shown in Fig. 2: First, parameters
+are determined for library building. When using a maximum
+value of 1500 rads/voxel and an accuracy of 0.1 rads/voxel, a
+total number of 30,000 points of g? ranging from ?1500 to
+1499.9 rads/voxel are used to build the library for ?. For Han-
+ning filtered data, 4 neighbors (?N = n – m = [?2, ?1, 0, 1,
+2]) is enough for each dimension. For non-Hanning filtered
+data, more neighbors (usually more than 8) are needed. As
+shown in Fig. 1, Nq = 256 can be used for ? calculation (step
+A in Fig. 2). Second, a library of ? is built using the parame-
+ters determined in step A, and the indices n1 and n2 represent
+different g? values and neighbors ?N (step B in Fig. 2). At
+the same time, magnitude and phase images are obtained
+from the complex dataset (step C in Fig. 2). Magnitude
+images of the 1st echo are used as an approximation of |S(0)|
+in Eq. (12). Frequency maps are obtained by performing a
+linear fitting of the phase images (step D in Fig. 2). Gradients
+g? are calculated from the frequency maps (step E in Fig. 2).
+Indices n1 and n2 are calculated for g? and neighbor index
+?N using parameters in step A:
+n1 ¼ g? þ1500þ1 þ 1
+0:1 2
+Images were collected from two healthy volunteers (both
+are 26 years old female) using a 3T MRI scanner (GE Dis-
+covery 750w) equipped with a 12-channel phased-array head
+Indices n1 and n2 help to quickly locate ? values in the
+library (step F in Fig. 2), which avoids direct calculation of
+Eq. (9) and save computational time. Last, ?, |S(0)|, frequency
+and g? values are used to calculate F-function (step G in
+Fig. 2).
+ated Hospital of USTC. All the participating healthy volun-
+teers provided written consents.
+High-resolution datasets with a voxel size of
+1 × 1 × 2 mm3 were
+acquired using a three-dimensional
+(3D) mGRE sequence (ESWAN on GE scanners) with a flip
+angle of 20° and TR = 50.4 ms. For each acquisition, 10
+echoes were collected with first echo time TE1 = 3.4 ms
+and echo spacing ?TE = 3.8 ms. The total acquisition time
+was around 11 min. The complex images from different
+channels were combined using a previously introduced
+method.8,9 The combined mGRE datasets were then used for
+calculation of the F-function and transverse relaxation rate
+constant (R2*). The libraries were built for three different
+values of the parameter Nq (512, 256, 128). The F-function
+was calculated with 4 neighbors on each dimension for
+Hanning-filtered data and 16 neighbors for non-filtered data.
+A maximum value of 1500 rads/voxel and a step of 0.1 rads/
+voxel were used for the gradient gm. R2* maps were calcu-
+lated by performing a least square fitting of the mGRE data-
+sets using a mono-exponential model. Previous numerical
+simulations1 showed that the field inhomogeneity can distort
+linear behavior of the signal phase. Hence, we used qm <
+0.3 as a criteria to only use short TE for R2* fitting in
+those regions where the field inhomogeneity is severe. All
+computations were done in Matlab2019a (The MathWorks,
+Inc., Natick MA, USA) on a computer with standard config-
+urations: 3.2 GHz CPU and 16 GB RAM.
+The comparison of the F-functions calculated using direct
+voxel-wise calculation and library-driven approach is shown
+in Fig. 3. The direct calculation of the F-function takes about
+5 hrs and 30 min on a computer with a 3.2 GHz CPU and
+16 GB RAM, while the new method requires only 3 min on
+the same computer. The library building process using
+parameters introduced in the “Methods” costs less than 30 s
+on the same computer. The differences between these two
+methods are below 10-4 for the F-function and 10-3 for R2*,
+respectively (panels C, F).
+As shown in Fig. 4, we compared R2* distributions within
+different ROIs. In the pre-frontal ROI marked by the yellow
+dashed box, standard deviation (SD) values of R2*
+distributions calculated using voxel-wise method and new
+library-driven method are 4.184 and 4.188 1/s, respectively. In
+the brain outside yellow dashed box, corresponding SD val-
+ues of R2* distributions for the two methods are 4.068 and
+4.067 1/s, respectively.
+R2* maps calculated using the F-function with different
+number of q-points Nq are shown in Fig. 5. Accurate R2* cal-
+culations are guaranteed when sufficient large number of q-
+points in Eq. (9) (Nq ? 256) are employed, which coincides
+with the simulation results.
+Macroscopic B0 magnetic field inhomogeneity adversely
+affects MRI images, especially the ones based on a gradient
+echo acquisition. They not only lead to image distortions,10
+but also degrade quantitative measurements of relaxation
+parameters8,11–15 if not accounted for. Numerous methods
+have been proposed to correct for these adverse effects,
+including correcting methods during data collection.16–24 and
+post processing approaches.25–30 In this paper we focus on
+the VSF method1 that allows accounting for the effects of
+magnetic field inhomogeneity in data obtained with mGRE
+sequences.
+Quantitative parameters that are derived using mGRE-
+based techniques, such as R2* mapping, are usually suffered
+from magnetic field inhomogeneity artifacts. These artifacts
+are extremely severe in those regions that are close to the
+tissue-air interfaces, i.e. in sinuses. These artifacts often dete-
+riorate the quantitative measurements, thus hinder the clinical
+application of these quantitative techniques. The VSF method
+was proposed previously to correct for this effect, however,
+direct voxel-by-voxel calculations of the F-function requires
+long computational time. In this study, we presented a
+library-driven approach for fast VSF implementation. By
+using a pre-calculated library, the calculation time of the F-
+function has been reduced from 5 hrs and 30 min to 3 min
+on a computer with a standard configuration (3.2 GHz CPU
+and 16 GB RAM). By comparing directly with the voxel-
+wise method, we demonstrated that the library-driven method
+provided similar accuracy compared with the direct calcula-
+tion (Fig. 3), even in the high susceptibility area such as pre-
+frontal regions (Fig. 4).
+Based on simulations (Fig. 1) and experiments (Fig. 5),
+we demonstrated that by selecting a sufficient number of q-
+points (Nq) and the number of neighboring voxels included in
+the sum in Eq. (9) to build the library, the new library-driven
+method substantially reduces computational time while, at
+the same time, provides similar accuracy compared with the
+direct voxel-wise calculation. The reduction of computational
+time makes it feasible to implement the VSF method with
+more neighbors, which is necessary for non- filtered data.
+We demonstrated the capability of the proposed method to
+substantially reduce B0 inhomogeneity artifacts on quantita-
+tive R2* mapping. However, it should be noted that the pro-
+posed method is based on certain “linear” approximation
+[Eqs. (2) and (3)] that is appropriate for high resolution MRI.
+It might fail to correct low resolution data and data near the
+edge of an object where the gradients gm are strong. If the
+“linear” approximation is not sufficient for calculating effect
+of field inhomogeneity across the voxel, then Eq. (5) should
+be substituted by a more general integral that is taken across a
+single voxel. In this case, the distribution of magnetic field
+and phases can be found from an independent experiment
+with higher resolution.
+In conclusion, we presented a library-driven approach for
+fast VSF method implementation. The new procedure pro-
+vides a fast way to correct mGRE-based images for back-
+ground field inhomogeneity artifacts, thus can facilitate the
+applications of mGRE-based quantitative techniques in clini-
+cal practices.
+The authors have no conflicts to disclose.
+The data that support the findings of this study are avail-
+able on request from the corresponding author. The data are
+not publicly available due to privacy or ethical restrictions.
+Additional supporting information may be found online in
+the Supporting Information section at the end of the article.
+Data S1. Fast library-driven approach for the two-step itera-
+tive calculation of the voxel spread function.

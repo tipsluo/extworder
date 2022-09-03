@@ -1,0 +1,2385 @@
+Content:
+ColumnWidth 253 ColumnNumber 2
+ContentWidth 529 ContentLeft 1 ContentRight 529
+==============================
+Page 1
+ Left 1 Right 529 Top 1 Bottom 714
+
+
+Column meta:
+Column left:1 upper:258 right:253 lower 666
+Column left:277 upper:258 right:529 lower 666
+
+
+Blocks:
+----------------------
+==============================
+type: title
+typeindex=6 left=30 right=500 upper=1 lower=33
+====>
+charfont height=11.000000, charfont bold=2, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Size Effect on FRP External Reinforcement and Retrofit
+of Concrete Structures
+
+==============================
+
+==============================
+type: undefined
+typeindex=3 left=106 right=424 upper=50 lower=73
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Abdullah Dönmez, Ph.D.1; Mohammad Rasoolinejad, Ph.D.2; and
+Zdene?k P. Baz?ant, Ph.D., S.E., Hon.M.ASCE3
+
+==============================
+
+==============================
+type: abstract
+typeindex=0 left=1 right=529 upper=105 lower=231
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+Abstract: The size effect on the strength of reinforced concrete (RC) beams ?exurally strengthened by surface bonded sheets of ?ber-reinforced
+polymer (FRP) is studied. As the failure is neither ductile nor brittle, but quasibrittle, occurring after stable growth of large cracks with large dam-
+age zones, the transitional size effect governed by the energetic size effect law (SEL) must be expected, which the present analysis con?rms.
+Owing to scarcity of size effect experimental data, ?nite element (FE) analysis is used. A powerful microplane damage constitutive model
+M7 for concrete, coupled with the crack band model to suppress spurious mesh sensitivity, is calibrated by ?tting the existing test data to
+FRP-strengthened RC specimens of diverse types, and consequently is trusted to simulate the size effect. The analysis captures the debonding
+near the concrete–FRP interface starting at midspan or at the end of the FRP sheet. It also captures the debonding between adjacent concrete
+shear cracks,and the delamination ofconcrete cover. The causesof these differentdelamination modes are explained.Simple beam-typeformulas,
+in which the size characteristic is not the beam depth but the length of the shear span, are proposed and validated by FE results. The use of single-
+lap shear tests to determine thebond strength is critically discussed. Finally, a good ?t of a few existing limited test data on the size effect ofFRP-
+strengthened specimens is demonstrated. DOI: 10.1061/(ASCE)CC.1943-5614.0001070. © 2020 American Society of Civil Engineers.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=2 left=1 right=31 upper=682 lower=687
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=1 left=244 right=286 upper=682 lower=687
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-1
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=461 right=529 upper=682 lower=687
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=194 right=336 upper=710 lower=714
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=1 right=58 upper=258 lower=263
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Introduction
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=280 lower=489
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Fiber-reinforced polymer (FRP) sheets, serving as external (skin)
+strengthening of concrete structures and as retro?t of structures
+damaged, e.g., by earthquake, have been investigated for several
+decades (Saadatmanesh and Ehsani 1991; Arduini and Nanni
+1997). Increasing the ?exural capacity of reinforced concrete
+(RC) beams or structural members with the FRP sheets is a com-
+mon practice. However, the strength prediction of this type of com-
+posite system is not as easy as thought in engineering practice.
+The performance of external reinforcement depends on many fac-
+tors, such as the strength and stiffness of the concrete and FRP, inter-
+face strength, geometrical characteristics, and the design details (ACI
+440.2R-17; ACI 2017). The variationof the parametersaffects thegov-
+erning failuremodes of FRP-strengthened RC members. The mainfail-
+ure modes of these structures are FRP debonding, FRP rupture,
+concrete crushing at the compression face, and yielding of ?exural
+reinforcement. Several failure modes may proceed simultaneously.
+Although, based on simulations, only one mechanism dominates the
+deformation growth at the peak load, the load-bearing capacity of
+the structures depends on all the failure mechanisms.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=253 upper=519 lower=666
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-102
+
+1Postdoctoral Research Fellow, Dept. of Civil and Environmental Engi-
+neering,Northwestern Univ.,Evanston,IL 60208;Dept. ofCivil Engineering,
+I?stanbul Teknik Univ., Istanbul, 34469, Turkey. Email:donmezab@itu.edu.tr
+2Postdoctoral Research Fellow, Northwestern Institute on Complex
+Systems, Northwestern Univ., Evanston, IL 60208. ORCID: https://orcid
+.org/0000-0003-3387-3580. Email: rasoolinejad@u.northwestern.edu
+3McCormick Institute Professor and W.P. Murphy Professor of
+Civil and Mechanical Engineering and Materials Science, Northwestern
+Univ., Evanston, IL 60208 (corresponding author). Email: z-bazant@
+northwestern.edu
+Note. This manuscript was submitted on January 28, 2020; approved
+on June 2, 2020; published online on August 6, 2020. Discussion period
+open until January 6, 2021; separate discussions must be submitted for in-
+dividual papers. This paper is part of the Journal of Composites for Con-
+struction, © ASCE, ISSN 1090-0268.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=258 lower=587
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+The breakage of the FRP–concrete bond, called debonding, is
+the failure mode considered here to control the peak load (Pmax).
+There are several types of debonding failures, as elucidated by
+Maalej and Bian (2001), Brena et al. (2003), Chiew et al. (2007),
+and Attari et al. (2012). The failure de?nitions vary. Here the
+term “debonding” refers to all the different delamination types,
+shown in Fig. 1. They are the midspan debonding, intermediate-
+crack (IC) debonding, end-crack (EC) debonding, cover delamina-
+tion, and cover tooth delamination (Fig. 1). These debonding types
+differ in the initiation point of failure, the triggering effects, the
+amount of debris on the FRP surface after delamination, and the
+fracture growth mechanism. As the bond at the FRP–concrete inter-
+face is generally strong enough, the debonding crack occurs not at
+the FRP surface but inside the concrete just next to that surface (un-
+less the FRP was installed improperly). Therefore, the strength of
+concrete substrate is important for the load capacity.
+If the failure mechanisms were ductile and the failure obeyed plas-
+tic limit analysis, the nominal strength ?N of geometrically similar
+structures, de?ned as the maximum load divided by any chosen ho-
+mologous cross-sectional area, would be independent of the structures
+size, D, which is called the case of no sizeeffect. If thefailureoccurred
+by brittle propagation of a sharp (point-wise) crack tip, then the size
+effect of linear elastic fracture mechanics (LEFMs), i.e., ?N ?D?1/2,
+would apply. However, because the failure mechanisms are between
+ductile and brittle, i.e., quasibrittle, consisting of the growth of large
+damage zones, the size effect on ?N is a transition between the two
+special cases (Baz?ant 1984; Baz?ant and Planas 1998; Baz?ant 2002;
+Dönmez and Baz?ant 2017). Therefore, the failure of the FRP–concrete
+interface should be calculated via quasibrittle fracture mechanics, and
+the size effect needs to be considered in design.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=277 right=477 upper=616 lower=622
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=277, likeBody=-100
+
+Beam-Type Formulation and Assumptions
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=638 lower=666
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+Normally, RC beams should designed so that the load that causes
+ductile failure by yielding of ?exural reinforcing bars would be
+smaller than the load that causes brittle failure of concrete. In that
+
+==============================
+
+==============================
+Page 2
+ Left 1 Right 529 Top 1 Bottom 544
+
+
+Column meta:
+Column left:1 upper:1 right:253 lower 517
+Column left:277 upper:158 right:529 lower 517
+
+
+Blocks:
+----------------------
+==============================
+type: 
+typeindex=0 left=148 right=382 upper=130 lower=135
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Fig. 1. Description of the FRP reinforcement and failure modes.
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=244 right=286 upper=512 lower=517
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=194 right=336 upper=540 lower=544
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=88 right=97 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(a)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=88 right=97 upper=108 lower=112
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(b)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=158 lower=295
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+case, the size effect is avoided. However, it cannot be avoided when
+the beam is externally strengthened by bonded FRP plates.
+In the design guidelines, such as the ACI 440.2R-17 report (ACI
+2017), the ultimate load capacity of an FRP-strengthened RC beam
+under ?exure is calculated based on the assumption of rectangular
+stress distribution with resulting compression Cc as shown in Fig. 1,
+subject to various restrictions. Compressive force Cs due to compres-
+sion reinforcement, if any, must be included. Crushing of concrete is
+assumed to occur when the concrete reaches a limit strain, approxi-
+mated as ?cu = 0.003. Ingeneral,concreteis assumed tohavenegligible
+tensile resistance, and so only the tensile forces due to ?exural steel, Ts,
+and the bonded FRP layer, Tf, are considered. The ?exure produces
+tension in the bonded FRP sheet. The ultimate bending moment is
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=98 right=154 upper=306 lower=316
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+Md = Ms + Mf
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=242 right=253 upper=309 lower=314
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(1)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=330 lower=381
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+where Ms, Mf are the moment contributions from ?exural steel re-
+inforcement and the FRP. According to the ACI 440.2R-17 report,
+the additional ?exural strength, Mf,due to the FRP reinforcing layer
+is calculated from the effective str(ess, ffe, in t)he FRP (ACI 2017):
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=76 right=171 upper=383 lower=397
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+Mf = ?fAf ffe h ? 1?1c
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=242 right=253 upper=389 lower=394
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(2)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=153 right=157 upper=396 lower=401
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+2
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=417 lower=444
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=1
+
+where ?f, ?1 are empirical factors, and both equal to 0.85.
+The effective stress, ffe, is the maximum stress that FRP can
+resist, and is calculated as
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=43 right=210 upper=455 lower=465
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+ffe = Ef ?fe; ?fe = ?cu(h ? c)/c ? ?i ? ?fd
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=242 right=253 upper=458 lower=463
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(3)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=480 lower=497
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Here Ef is the Young’s modulus of FRP, c is the depth from top face
+to the concrete compression resultant, and ?i is the initial strain of
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=1 right=31 upper=512 lower=517
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=158 lower=163
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+concrete at the moment of FRP installation. The effective FRP de-
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=168 lower=175
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+sign stress ffd is limited by the design strain, ?fd, which is speci?ed as
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=322 right=483 upper=176 lower=198
+====>
+charfont height=11.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=-100
+
+ffd = Ef ?fd; ?fd = ??fc?/nEf tf ? 0.9?fu
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=518 right=529 upper=191 lower=196
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=277, likeBody=-100
+
+(4)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=213 lower=361
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+Here ? is an empirical factor equal to 0.41 (0.083 in the United
+States customary system or USCS), n is the layer number (ply num-
+ber), and tf is the FRP sheet thickness. The design strength, ffd, is
+lower than the tensile strength of FRP, ffu. Aside from the safety
+factors, the type of surface treatment, the shear strains in the bond-
+ing (adhesive) layer, the relative slips between the concrete and
+FRP sheets, and the imperfections on the bonding surface are ne-
+glected in design. The main reason for the limitation of the effective
+stress (or strain) is the strength of the concrete substrate.
+Eq. (4) is a modi?ed version of the Teng et al.’s (2003) model,
+which is based on the effective bond length concept deduced from
+single-lap shear tests (SSTs). Accordingto this concept, there exists
+an effective bond length beyond which a further increase of the
+bonding length will have no effect on beam strength.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=277 right=508 upper=391 lower=408
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=277, likeBody=-100
+
+Generalization of Simplified Beam-Type Analysis
+for Fracture Size Effect
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=425 lower=497
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+To take into account the fracture size effect, a different approach to
+the strength of RC members reinforced by FRP sheets is proposed
+here. Because the fracture process zones (FPZs) are large (approx-
+imately 0.5 m for concrete, but only about a few micrometers for
+metals), i.e., nonnegligible compared with the cross-sectional di-
+mensions of the structure, the size effect on the mean nominal struc-
+ture strength, ?N, must be expected to be of theenergetic(rather than
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=461 right=529 upper=512 lower=517
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=277, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+Page 3
+ Left 1 Right 529 Top 1 Bottom 751
+
+
+Column meta:
+Column left:1 upper:1 right:253 lower 666
+Column left:277 upper:1 right:529 lower 666
+
+
+Blocks:
+----------------------
+==============================
+type: 
+typeindex=0 left=1 right=529 upper=682 lower=699
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+Fig. 2. (a) Schematic description of SSTs; (b) calibration of M7 by using the test data by Carrara et al. (2011); (c) shear stress distribution along the
+bonding length for various Lb values prior to failure; and (d) the variation of the shear stress pattern with loading for Lb=150mm.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=2 left=1 right=31 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=1 left=244 right=286 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-3
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=461 right=529 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=194 right=336 upper=747 lower=751
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=1 lower=85
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=1
+
+statistical) type, and because large cracks develop before the max-
+imum load, the size effect must be of type 2, which is most easily
+demonstrated by the dimensional analysis of energy balance (see
+A3 in Dönmez and Baz?ant 2019). This means that, to obtain the
+nominal strength ?N for any structure size D, the nominal strength,
+?N0, due to concrete and FRP calculated by the traditional strength
+theory (or limit analysis) should be multiplied by the size effect
+factor ?s, i.e.,
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=58 right=195 upper=96 lower=107
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+?N = ?N0?s, ?s = (1 + a/D0)?1/2
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=242 right=253 upper=100 lower=105
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(5)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=123 lower=183
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=1
+
+Here D0= constant = transitional structure size, and a = shear span
+(factor ?s has been introduced in 2019 into the provisions for beam
+shear, punching, and strut-and-tie model of ACI design code
+ACI-318-2019). For FRP reinforcement, ?N needs to be based on
+the shear span and on web width bw, and ?N0 is de?ned empirically
+as in classical analysis:
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=64 right=190 upper=187 lower=209
+====>
+charfont height=11.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+?N = Pmax/abw, ?N0 = ???fc?
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=242 right=253 upper=201 lower=206
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(6)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=186 right=218 upper=221 lower=241
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+? = Ef If
+EsIs
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=35 right=174 upper=225 lower=234
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+where ? = 1 + ?1?n1 ? ?2?n2 ? 1.1,
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=242 right=253 upper=228 lower=233
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(7)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=250 lower=300
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Here Ec, Es = Young’s moduli of concrete and steel; ?= empirical
+correction factor; If, Is= moments of inertia about the neutral axis
+of the transformed cross sections of FRP and steel reinforcements, re-
+spectively; ?1 = 1.1, ?2=2.5, n1 = 0.5, and n2 =2. The empirical pa-
+rameters in Eqs. (5)–(7) need to be calibrated by ?tting the database.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=1 right=220 upper=327 lower=344
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Validation and Calibration of Microplane Finite
+Element Model by Test Data
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=361 lower=498
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+There are no experimental data available to validate and calibrate
+the described model. Therefore, similar to other recent successful
+studies, a realistic constitutive and fracture model is validated
+and calibrated by experimental data that exist. The model is then
+used to predict the size and shape effects through computer ?nite
+element (FE) simulations.
+As a realistic damage constitutive model, the microplane model
+M7 (whose coding can be freely downloaded from the correspond-
+ing author’s website) is chosen. M7 is the latest in a series of micro-
+plane models for concrete developed at Northwestern University
+(Caner and Baz?ant 2013a). The material properties are character-
+ized by a relation between the stress and strain components (or
+forces and displacements) on the microlevel (Baz?ant and Oz?bolt
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=188 right=197 upper=571 lower=576
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(a)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=91 right=100 upper=661 lower=666
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(b)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=208 right=217 upper=661 lower=666
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(c)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=1 lower=360
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+1990) (or, more precisely, the mesolevel). The stress–strain rela-
+tions are de?ned not in terms of the macrolevel continuum tensors,
+but in terms of the stress and strain vectors on planes of all possible
+orientations within the material, called the microplanes.
+The microplane model, M7, which is designed for an explicit
+numerical algorithm, has been shown to be capable of realistically
+predicting the concrete damage behaviors over a broad range of
+loading scenarios (Caner and Baz?ant 2013b; Dönmez and Baz?ant
+2017; Rasoolinejad and Baz?ant 2019). It is always convergent,
+robust, and has been applied in dynamic problems with more
+than 3×107 unknowns (nodal displacements or degrees of free-
+dom). The present simulations are performed on ABAQUS,
+where M7 is inserted as a user’s material subroutine VUMAT.
+To prevent spurious mesh sensitivity, the crack band model is
+used as the localization limiter (Baz?ant and Oh 1983). To minimize
+accuracy loss due to scaling of thepostpeak, aconstant element size
+hc (equal approximately to 1–2 times the maximum aggregate size)
+is adopted for structures of all sizes. All the computations include
+eight-node hexahedral elements for concrete and two-node beam
+elements in 3D space for steel reinforcement. The FRP material
+is modeled by four-node shell elements. Because the response of
+FRP material is almost linear until rupture, a linear elastic behavior
+is adopted in the numerical analyses for the FRP plates. Perfect
+bonding features between the concrete–FRP sheet and concrete–
+reinforcing steel bars are assumed and implemented in the numer-
+ical analyses. To calibrate the free parameters of M7, FE program
+with M7 is optimally ?tted to all relevant available test data. The
+adjustable parameters of M7 suf?ced to match the main properties,
+i.e., the post-peak behavior, fracture energy, and strength values.
+The steel is modeled as a bilinear elasto-plastic or hardening plastic
+material. The FRP materials, both carbon ?ber-reinforced polymer
+(CFRP) and glass ?ber-reinforced polymer (GFRP), are simulated
+as linear elastic up to rupture.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=277 right=381 upper=393 lower=399
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=277, likeBody=-100
+
+Single-Lap Shear Test
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=416 lower=498
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+The bond characteristics of the FRP–concrete interface have gener-
+ally been assessed by SSTs [Fig. 2(a)]. In SSTs, the tension in the
+FRP is transferred to the concrete substrate by bond shear stresses
+of rather nonuniform stress distribution. Most of the FRP–concrete
+interface does not contribute strongly to resisting the transverse
+shear force in the beam. Only a certain active zone of effective
+length Le within the total bonding length Lb does. Once the shear
+stress of the concrete substrate reaches the strength value, cracking
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=326 right=335 upper=661 lower=666
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-100
+
+(d)
+
+==============================
+
+==============================
+Page 4
+ Left 1 Right 529 Top 1 Bottom 751
+
+
+Column meta:
+Column left:1 upper:1 right:253 lower 668
+Column left:277 upper:1 right:529 lower 447
+
+
+Blocks:
+----------------------
+==============================
+type: 
+typeindex=0 left=1 right=529 upper=682 lower=699
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+Fig. 3. FRP-reinforced RC beams: (a) test data and calibration of M7 using the ?rst data set (Maalej and Bian 2001); and (b) prediction for higher
+thicknesses of CFRP (?0 =0.52MPa).
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=2 left=1 right=31 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=1 left=244 right=286 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-4
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=461 right=529 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=194 right=336 upper=747 lower=751
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=1 lower=369
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+begins inside this zone. When Lb exceeds Le, the active stress trans-
+fer begins to shift towards the endpoint of Lb. The maximum load
+Pmax drops roughly when zone Le cannot propagate any further.
+The FE results illustrate the shear failure mechanism of SST.
+The calibration of M7 is based on the test data of Carrara et al.
+(2011), as shown in Fig. 2(b). The simulations of the test data
+include various bonding lengths of ?ve different SST specimens
+which are Lb= 30, 60, 90, 120, and 150 mm. The dimensions
+of the concrete prism are 150 × 90 ×300 mm3. The compressive
+strength of the concrete is 37.2 MPa and tensile strength
+4.8 MPa. The CFRP plate used measures 1.3 mm in thickness
+and 50 mm in width. Fig. 2(c) shows the shear stress distribu-
+tions at Pmax along the CFRP–concrete interface, for ?ve Lb val-
+ues. As can be seen in Fig. 2(c), the short bonding lengths are not
+suf?ciently long to fully develop Le. Nonetheless, the distribu-
+tion of the shear stresses shows very similar patterns along the
+length from the endpoint of the bond (z). The length of an active
+bond zone, in which the shear stresses transfer the tension forces
+on the FRP, does not change with the total bonding length but
+remains constant for all Lb values, as noted in previous studies
+(Chen and Teng 2001). The progress of the shear stress distribu-
+tion for Lb =150 mm until the complete failure is shown in
+Fig. 2(d). The active shear zone germinates at the nearest point
+to the applied load. After reaching the strength threshold of
+the material, the effective interface zone shifts away from the
+fractured concrete surface. Finally, failure under load control oc-
+curs when the end of the FRP sheet begins to restrict the active
+zone length.
+The effective bonding length, Lb, is expected to be a function of
+the stiffnesses of the bonded materials. The shear strength of SST
+specimens is a function of Lb and the fracture energy, Gf, of the con-
+crete. However, the application of the SST models tothe debonding
+failures of FRP-reinforced members under ?exure is questionable,
+as we show next by FE analysis.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=1 right=220 upper=397 lower=403
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Flexural Strengthening of RC Beams with FRP
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=420 lower=447
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The FE program simulating the FRP-strengthened RC beams under
+?exure is used to ?t the test data sets from different studies. In the
+tests of Maalej and Bian (2001), four layers (or sheets) of different
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=66 right=75 upper=553 lower=558
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(a)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=220 right=229 upper=663 lower=668
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(b)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=1 lower=447
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+thicknesses are used to strengthen the RC beams. One layer of a
+CFRP sheet has a thickness of 0.111 mm. The RC beams contain
+both ?exural and shear steel-reinforcement and have a cross-
+sectional dimensions of 150 × 115 mm2. The concrete cover is
+31mm thick and the FE size is 20 mm. The control beam speci-
+men with no FRP reinforcement fails by steel bar yielding, fol-
+lowed by concrete crushing. The specimen with 1 FRP layer
+(1L) fails by debonding at midspan (IC debonding); for two lay-
+ers (2L), by end debonding and IC debonding; for three (3L) and
+four layers (4L) by delamination followed by end debonding. The
+FE simulations con?rm that a slightly different failure load can
+correspond to very different failure modes. For example, the
+1L specimen in Maalej and Bian (2001) failed by FRP rupture,
+but FE analysis shows that the 1L specimens failing by FRP rup-
+ture and by IC debonding have very similar peak loads. There-
+fore, the elastic behavior of the FRP must be modeled accurately.
+The results of M7 calibration by the load-de?ection curves
+are shown in Fig. 3(a). The solid curves show the FE results,
+and the circle points the test results. Based on this calibration,
+the responses of RC beams with more FRP layers are computed.
+Fig. 3(b) shows the experimental and computed normalized
+strength values as a function of the number of layers (i.e., of
+CFRP thickness). The normalization is de?ned according to
+the unstrengthened case. Thus, ?0 refers to the strength of the
+control specimen computed according to Eq. (6). Fig. 3(b)
+shows that, initially, the strength of FRP-reinforced RC beams
+increases with the number of layers. However, increasing the
+FRP thickness changes the stiffness difference between the
+FRP-strengthened and unstrengthened RC beams. Therefore,
+the FRP-cutoff point (plate curtailment) causes a change of the
+failure mode for higher thicknesses of FRP sheets. In general,
+thin FRP layers fail by IC debonding, and thick layers fail by
+end debonding or cover delamination.
+An additional increase of the FRP layer produces a high tensile
+stress concentration at the FRP end (the cutoff point). The tensile
+stress distribution determines the failure mode change from de-
+bonding to cover delamination. An increase of the stiffness ratio
+for these two modes leads causes the concrete cover to be ripped
+off due to high tensile stresses at the sheet cutoff zone. This is
+why, after a certain speci?c stiffness, additional FRP reinforcement
+does not strengthen the beam, as seen in Fig. 3(b). The stiffness
+
+==============================
+
+==============================
+Page 5
+ Left 1 Right 529 Top 1 Bottom 661
+
+
+Column meta:
+Column left:1 upper:1 right:253 lower 634
+Column left:277 upper:1 right:529 lower 634
+
+
+Blocks:
+----------------------
+==============================
+type: 
+typeindex=0 left=12 right=518 upper=22 lower=29
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+Fig. 4. (a) Calibration of M7 by the second data set (Raoof and Bournas 2017); and (b) predictions for higher thicknesses (?0 =0.29 MPa).
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=529 upper=165 lower=183
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+Fig. 5. (a) Calibration of M7 by the third data set (Chiew et al. 2007) with GFRP reinforcement; and (b) prediction for higher thicknesses
+(?0= 0.49MPa).
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=244 right=286 upper=629 lower=634
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-5
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=194 right=336 upper=657 lower=661
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=70 right=79 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(a)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=67 right=75 upper=139 lower=144
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(a)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=208 lower=613
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+ratio, ?, in Eq. (7) can be used to distinguish the various debonding
+failure modes. The optimal ?t of Eq. (5) to the computed data is ob-
+tained by substituting 1.1, 3.0, 0.5, and 2 for ?1, ?2, n1, and n2, re-
+spectively [Fig. 3(b)].
+The calibration result based on the second data set is shown in
+Fig. 4(a) (Raoof and Bournas 2017). Here the RC beam specimens
+strengthened with one and three layers of CFRP are used in the cal-
+ibration.The beams havearectangular cross-section with dimensions
+of h×bw = 203×102 mm2, and the shear span is a= 580mm. The
+thickness of the concrete cover is 27mm and the element size hc =
+20mm. The ?exural steel reinforcement ratio is ?f = 0.56%, and
+the shear reinforcement (stirrups) ratio ?s = 1.23%. The control
+specimen (with 0 layers) fails by yielding of ?exural steel followed
+by concrete crushing on the compression face. The intermediate
+(midspan) cracks trigger the delamination failure of the 1L beam.
+The main failure mode of the 3L beam is a mix of IC debonding
+and end debonding. Fig. 4(b) also shows the result of extrapolation
+to higher thicknesses. The nominal strength of the strengthened
+member decreases when the number of layers is greater than three,
+which corresponds to the critical value of ? = 0.35. Another data
+set with M7 calibration is based on the tests of RC beams strength-
+ened with sheets of GFRP (Chiew et al. 2007) [Fig. 5(a)]. The
+beams are strengthened with one, two, and three layers of
+GFRP sheets. The cross-sectional dimensions are 350×200
+mm2 (h × bw) and the span is a= 800 mm. The thickness of the
+concrete cover is 33 mm and the element size hc = 25 mm. The
+?exural and shear steel reinforcement ratios are ?f = 0.63%
+and ?s = 0.52%, respectively. The control specimen (zero layers)
+fails by yielding of ?exural steel followed by concrete crushing on
+the compression face. The intermediate (midspan) cracks trigger the
+delamination failure of the beams with one and two layers of GFRP.
+The main failure mode of the beam with three layers is a mix of IC
+debonding and end debonding. Fig. 5(b) shows the extrapolation for
+higher thicknesses and the variation of nominal strength according
+to the number of GFRP layers. For the size effect analysis of RC
+beams strengthened with FRP, additional parameters regarding the
+test data and numerical work are given in Table 1.
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=1 right=31 upper=629 lower=634
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=349 right=358 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-100
+
+(b)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=362 right=371 upper=139 lower=144
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-100
+
+(b)
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=277 right=371 upper=207 lower=213
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=277, likeBody=-100
+
+Size Effect Analysis
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=230 lower=613
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+In the size effect analysis, the shear span (a) is chosen as the char-
+acteristic length of the FRP-reinforced beams. The main failure
+modes should not change with geometrically scaling according to
+the main principles of the size effect equation used in Eq. (5). Dif-
+ferent failure modes require some modi?cations in the size effect
+law which is not considered here. Debonding cracking mainly oc-
+curs along the FRP length. The widths of the FRP plates in the tests,
+which are chosen to conduct the numerical work, are the same with
+the beam width bw. The width of the FRP plates may be smaller
+than the beamwidth, which leads to less ?exural rigidity than the
+case of full width. As the bending of structures in this study can
+be accepted as an in-plane loading case, narrower FRP width
+would not change the bending mechanism. Eq. (6) gives the
+strength de?nition for this type of failure. The geometric scaling
+of the FRP-strengthened RC beam requires proportional scaling
+of both the RC beam and the FRP reinforcement. The effects of
+the boundary layers are minimized by using a two-dimensional
+(2D), rather than three-dimensional (3D), scaling of the structures.
+Thus, the beam dimensions should be scaled while keeping the
+width, bw, and the reinforcement ratio constant.
+The predictions for larger sizes and a different number of FRP
+layers, based on calibrations by three different data sets, are shown
+in Fig. 6. The size effect specimens are simulated using the FE
+crack-band microplane model M7, for 2D geometrical scaling,
+up to four different sizes. All the layer numbers refer to the small-
+est specimen, and the number of the layers (or layer thickness)
+scales in proportion to specimen size. The values of ?N0 and D0
+are found throughnonlinear regression. The given relative strength
+values are normalized by zero layer strength, ?0. The cross marks
+refer to M7 predictions and the circle points to the test data. The
+dashed horizontal line refers to the strength of the control speci-
+men (0 layers).
+Fig. 6(a) presents the results of the size effect analysis for the
+?rst data set. Baz?ant’s type 2 (Baz?ant 1984) size effect law matches
+the data for every delamination type and every number of layers.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=461 right=529 upper=629 lower=634
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=277, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+Page 6
+ Left 1 Right 529 Top 1 Bottom 751
+
+
+Column meta:
+Column left:1 upper:17 right:253 lower 703
+Column left:277 upper:17 right:529 lower 703
+
+
+Blocks:
+----------------------
+==============================
+type: 
+typeindex=0 left=1 right=323 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Table 1. Parameters of the experimental data and numerical study used in size effect analysis
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=245 right=286 upper=17 lower=22
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+2nd data set
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=220 right=311 upper=32 lower=56
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-102
+
+Raoof and Bournas (2017)
+4PB
+Figs. 4 and 6(b)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=262 right=268 upper=62 lower=66
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+D
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=243 right=287 upper=72 lower=76
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+D/2D/4D/8D
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=249 right=282 upper=82 lower=86
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+203×102
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=249 right=282 upper=92 lower=96
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+0.56, 176
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=230 right=301 upper=102 lower=166
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-102
+
+580 (3.3)
+CFRP
+0/1/3g
+0.095
+219
+75 ×10?6/75.0/30/50
+27
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=363 upper=175 lower=262
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=100
+
+aFour-point bending.
+bAdditional sizes are the predictions based on the calibration of the data sets.
+cHere h× bw are the cross-sectional dimensions and refer to total height and width of the concrete section.
+dCorresponds to the smallest size, D.
+eCarbon FRP.
+fGlass FRP.
+gSelected test data for small size.
+hThickness of size D.
+iThe smallest dimension of one ?nite element.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=529 upper=589 lower=629
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+Fig. 6. Relative strength versus characteristic size plots of computed (cross) and test (circle) data on the double-log scale based on the calibration of
+(a) the ?rst data set (Maalej and Bian 2001); (b) the second data set (Raoof and Bournas 2017); (c) the third data set (Chiew et al. 2007); and
+(d) simulationof the sizeeffect tests by Maalej and Leong(2005) (?0= 0.51MPa). Corresponding SEL ?ts for various tf values areshownassolid curves
+(note that the layer number, or tf, shown on the curves correspond to the smallest specimens in each set which also scales with the beam size).
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=2 left=1 right=31 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=1 left=244 right=286 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-6
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=461 right=529 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=194 right=336 upper=747 lower=751
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=15 upper=17 lower=22
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Test
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=130 right=168 upper=17 lower=22
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1st data set
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=24 upper=32 lower=36
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Source
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=108 right=190 upper=32 lower=56
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-102
+
+Maalej and Bian (2001)
+4PBa
+Figs. 3 and 6(a)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=15 upper=42 lower=46
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Test
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=32 upper=52 lower=56
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Figure(s)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=64 upper=62 lower=106
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Size range (tested)
+Size range (FEA)b
+h × bw [mm]c
+?s[%], d[mm]
+a [mm] (a/d)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=146 right=152 upper=62 lower=66
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+D
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=127 right=171 upper=72 lower=76
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+D/2D/4D/8D
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=133 right=166 upper=82 lower=86
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+150 × 115
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=133 right=165 upper=92 lower=96
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+1.36, 125
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=114 right=185 upper=102 lower=166
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-102
+
+500 (4.0)
+CFRPe
+0/1/2/3/4
+0.111
+230
+85 × 10?6/85.0/30/65
+20
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=33 upper=112 lower=116
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+FRP type
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=78 upper=122 lower=169
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Number of FRP layers
+tfh[mm] (for 1L)
+Ef [GPa]
+M7 parameters*
+hic (FE size) [mm]
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=62 right=71 upper=374 lower=379
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(a)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=62 right=72 upper=470 lower=475
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(b)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=62 right=71 upper=571 lower=576
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(c)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=653 lower=703
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The ordinates, log?N/?N0, represent the ratio of the nominal
+strength to that of a beam with no FRP. In other words, the size
+effect occurs only for the additional beam strength due to FRP re-
+inforcement. As expected, the deviation from the SEL curve in-
+creases as the nominal strength of the beam approaches the
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=357 right=396 upper=17 lower=22
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-100
+
+3rd data set
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=466 right=505 upper=17 lower=22
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-100
+
+4th data set
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=343 right=409 upper=32 lower=56
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-100
+
+Chiew et al. (2007)
+4PB
+Figs. 5 and 6(c)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=442 right=529 upper=32 lower=166
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=277, likeBody=-102
+
+Maalej and Leong (2005)
+4PB
+Fig. 6(d)
+D/2D/3.2D
+D/2D/3.2D
+146× 115d
+1.71, 120
+500 (4.17)
+CFRP
+0/1/2
+0.165
+235
+64 ×10?6/66.0/31/60
+12.5
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=373 right=379 upper=62 lower=66
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-100
+
+D
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=354 right=398 upper=72 lower=76
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=277, likeBody=-100
+
+D/2D/4D/8D
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=360 right=393 upper=82 lower=86
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=277, likeBody=-100
+
+350×200
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=360 right=393 upper=92 lower=96
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=277, likeBody=-100
+
+0.63, 317
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=341 right=412 upper=102 lower=166
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-102
+
+800 (2.52)
+GFRPf
+0/1/2/3
+1.7
+27
+55 ×10?6/55.0/31/55
+25
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=312 right=321 upper=571 lower=576
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=277, likeBody=-100
+
+(d)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=652 lower=703
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+horizontal dashed line ?N/?N0=1, indicating the strength of the
+beam with no FRP reinforcement.
+The failure mode may switch to the failure mode of the control
+specimen or a different mode of delamination as the size increases.
+This depends on which part of the FRP reinforcement gets
+
+==============================
+
+==============================
+Page 7
+ Left 1 Right 529 Top 1 Bottom 751
+
+
+Column meta:
+Column left:1 upper:1 right:253 lower 662
+Column left:277 upper:1 right:529 lower 662
+
+
+Blocks:
+----------------------
+==============================
+type: 
+typeindex=0 left=1 right=529 upper=683 lower=699
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+Fig. 8. (a) The calibration of M7 usingthe three point bendingtestof strengthened notched beams inCarloni et al. (2017); and(b)prediction forlarger
+sizes and the size effect trend of concrete prisms reinforced with SRP plates on the tension face.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=2 left=1 right=31 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=1 left=244 right=286 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-7
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=461 right=529 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=194 right=336 upper=747 lower=751
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=1 lower=175
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+debonded. For instance, for the IC debonding failure mode, the
+crack usually propagates from the middle to the FRP layer end.
+Therefore, some parts of the FRP reinforcement could still be active
+in the midspan region. This uncracked part of the beam contributes
+to the moment capacity of the base structure. Thus, the deviations
+from the SEL curve may start above the horizontal line as is usually
+seen in the case of one layer of FRP reinforcements. However, the
+nominal strength cannot go below the zero layer limit, because the
+governing failure mode of the control specimens is the yielding of
+steel followed by the crushing of concrete, in which the size effect
+is absent (or small, if the concrete is crushing, which should, of
+course, be precluded in design).
+Figs. 6(b and c) show broader size predictions using the cali-
+bration of M7 based on the second and third data sets. The results
+of the size effect simulations are similar. In addition, the experi-
+mental veri?cation of the size effect in this failure type was
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=5 right=14 upper=368 lower=373
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(a)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=5 right=14 upper=471 lower=476
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(b)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=140 right=149 upper=471 lower=476
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(c)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=491 lower=540
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Fig. 7. (a) Numerical results demonstrate the shear stress contours and
+FE mesh with cracking pattern; (b) the variations of shear stress along
+the FRP–concrete interface for both large and small beams; and (c) size
+effect behavior for four different sizes of FRP-strengthened beams
+without steel reinforcement.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=80 right=89 upper=657 lower=662
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(a)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=1 lower=61
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+conducted in Maalej and Leong (2005). In this study, beams of
+three different sizes, with the size ratios of D : 2D : 3.2D, were
+analyzed with 3D scaling. The M7 simulations ?t the test data ad-
+equately, as seen in Fig. 6(d).
+All the predictions and tests document a signi?cant size effect,
+which cannot be neglected in design.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=277 right=330 upper=95 lower=100
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=277, likeBody=-100
+
+Discussion
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=117 lower=544
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=100
+
+The steel reinforcement obstructs the simplicity of the size effect
+curve, owing to a change of the failure mode for larger FRP
+strengthened beams. The simple curve of the SEL can be obtained
+by removing from the beams the ?exural steel reinforcement
+(Fig. 7). Figs. 7(a and b) show the shear stress distribution along
+the length of concrete–FRP interface, for both small (size D) and
+large (size 2D) beams, at the maximum load, Pmax.
+The failure mechanism is not the same as it is for the SST spec-
+imens in Fig. 2. As the beam bends, tensile stresses in the cross-
+section below the neutral axis increase. As the tensile strength of
+concrete is relatively low, the ?exural cracks propagate towards
+the neutral axis, whose location moves as the cross-sectional
+stresses change. The shear forces in these cracked sections transfer
+into the FRP–concrete interface, creating a sharp shear stress con-
+centration. Further bending of the beam creates new cracks and
+sharp shear stress concentrations next to each other, with slightly
+inclined orientations due to shear cracking effects, as shown in
+Figs. 7(a and b). The failure occurs when several adjacent segments
+(or toothlike segments of the concrete cover) coalesce to form a de-
+bonding zone with an abrupt load drop. The number of coalescing
+segments depends on the balance between the strain energy re-
+leased and the energy dissipated by fracture. Therefore, large
+beams with thin FRP reinforcement may fail even by the debonding
+of one segment. That is the source of the early deviation from the
+SEL in one layer of the FRP-strengthened specimens (Fig. 6).
+On the other hand, the highest energy release can be achieved in
+small beams with fewer numbers of layers. However, these types of
+interface debonding usually do not occur exactly at the FRP–
+concrete interface because the FRP stiffness provides high con?ne-
+ment on the neighboring concrete layer. Therefore, the elements
+above the interface layer, which have weaker con?nement, can ini-
+tiate the delamination fracture by leaving concrete debris on the
+FRP inner surface.
+The texture of the toothlike segments in the concrete cover does
+not change with size. The failure mode and location of the cracking
+initiation are the same for geometrically scaled structures, as shown
+in Fig. 7(c). The stress states at the homologous points are similar
+for large and small beams, and the SEL ?ts the data without any
+horizontal limit. Therefore, the FPZ can be regarded as constant
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=277 right=286 upper=657 lower=662
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=277, likeBody=-100
+
+(b)
+
+==============================
+
+==============================
+Page 8
+ Left 1 Right 529 Top 1 Bottom 751
+
+
+Column meta:
+Column left:1 upper:1 right:253 lower 703
+Column left:276 upper:1 right:529 lower 703
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEFOOTER
+typeindex=2 left=1 right=31 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=1 left=244 right=286 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-8
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=461 right=529 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=194 right=336 upper=747 lower=751
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=1 lower=204
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+for geometrically scaled beams. What matters is the relative stiff-
+ness value or the ratio of the stiffness of the unreinforced and
+FRP-strengthened cases, ? in Eq. (7), which does not change
+with 2D or 3D scaling. These facts make the failure mechanisms
+of FRP-strengthened beams different from the SST specimens.
+Another validation of the uniform trend of size effect without
+steel reinforcement is provided by Fig. 8, showing the test data
+of Carloni et al. (2017). The concrete prisms of dimensions 150 ×
+150 × 600 mm3 and with a half-depth notch are subjected to three-
+point bending. The specimens are strengthened with steel ?ber-
+reinforced polymer (SRP) composites on their tension face. Two
+different SRP plates are used in these tests. MD in Fig. 8 refers
+to the medium density ofsteel strips whereas HD refers tohigh den-
+sity, which corresponds to two different equivalent thicknesses of
+the bonded plates. The calibration of M7 is based on the load versus
+midspan de?ection behavior of the tests for both MD and HD spec-
+imens, as shown in Fig. 8(a). The prediction for larger sizes is
+shown in Fig. 8(b). Similar to the results displayed in Fig. 7(c),
+the numerical results exhibit a clear size effect trend.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=1 right=60 upper=235 lower=241
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Conclusions
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=258 lower=703
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The results of this study, which deals with an important problem of
+the size effect on externally bonded FRP systems for strengthening
+concrete structures, are shown to be applicable to both the FRP sheets
+(cured in situ) and the laminates (pre-cured pultruded systems) used
+to strengthen beams or slabs in ?exure. For the shear strengthening
+of RC beams or slabs, the size effect factor for beam shear, recently
+introduced into ACI-318 design code, must also be applied.
+Although the restraint of FRP by the bonded concrete prevents
+cracking just next to the bonded FRP surface, cracking generally
+develops deeper in the concrete substrate than the bond surface.
+Geometrically scaled FRP-strengthened RC beams exhibit a sig-
+ni?cant energetic size effect. However, the size effect applies only
+to the additional beam strength owing to the FRP reinforcement.
+Deviations from the energetic SEL occur for large sizes for
+which the nominal strength of the beam approaches the nominal
+strength owing to the ?exural steel reinforcement alone. This is
+the strength of the case of no FRP strengthening.
+The differences among the delamination failure modes can be
+attributed to the ratio, ?, of the bending stiffnesses of steel and
+FRP reinforcement. Increasing the thickness of FRP sheets
+makes ? larger and shifts the fracture initiation towards the FRP
+end. The competition between the failure modes of delamination
+is determined by the relative importance of tensile and shear
+stresses for the fracture initiation.
+Placing the end (or cutoff point) of the FRP sheet inside the shear
+span of the FRP-reinforced beam changes the failure mode for
+higher FRP thicknesses to the cover delamination. The stress con-
+centration at the cutoff point causes ripping off the concrete at the
+cutoff point, which triggers delamination failure and lowers the
+beam strength values. FRP sheet designs extending slightly beyond
+the point of delamination could help to avoid this type of failure.
+Eq. (5) can be used to de?ne the strength of the debonding fail-
+ures of the FRP–concrete interface. The size effect factor in this
+equation is denoted as ?s. The shear span, a, should be used in ?s
+as the characteristic structure size. For smaller sizes, the beam
+strength is, in Eq. (6), de?ned as a function of the concrete com-
+pressive strength fc, and the ratio, ?, of the bending stiffnesses of
+the FRP sheet and the steel reinforcements.
+The effective length concept for the SST specimens cannot
+be applied directly to the RC beam problems. The failure and
+energy release mechanism of a bending specimen is different
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=1 lower=105
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=276, likeBody=100
+
+than it is in direct shear failures. Moreover, the geometrical
+scaling of an FRP-reinforced member under ?exure does not
+change the FPZ in debonding failures, whereas in SST, the
+FPZ changes depending on the axial stiffness of FRP (or another
+elastic material). The FPZ of debonding cracks in the RC beam is
+much longer than the FPZ in SST. More importantly, the initial
+?exural and shear-?exural cracks in the shear zone create in the
+concrete cover small toothlike segments, and these segments fur-
+ther prevent the shear zone length from reaching the full effec-
+tive length.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=277 right=404 upper=134 lower=140
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=276, likeBody=-100
+
+Data Availability Statement
+
+==============================
+
+==============================
+type: undefined
+typeindex=3 left=276 right=281 upper=156 lower=162
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=276, likeBody=-100
+
+•
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=289 right=529 upper=157 lower=195
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=276, likeBody=100
+
+Some or all data, models, or code generated or used during the
+study are available in a repository online in accordance with
+funder data retention policies (http://www.civil.northwestern
+.edu/people/bazant/s).
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=277 right=365 upper=223 lower=229
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=276, likeBody=-100
+
+Acknowledgments
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=277 right=529 upper=246 lower=306
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=276, likeBody=-102
+
+The ?rst author thanks ITU BAP for supporting the Project No.
+40860 and The Scienti?c and Technological Research Council of
+Turkey for ?nancially supporting the ?rst 12 months of his
+post-doctoral appointment at Northwestern University. Partial
+funding under NSF Grant No. CMMI-2029641 to Northwestern
+University is gratefully acknowledged.
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=277 right=330 upper=335 lower=341
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=276, likeBody=-100
+
+References
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=277 right=529 upper=358 lower=433
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=276, likeBody=-102
+
+ACI (American Concrete Institute). 2017. Guide for the design and con-
+struction of externally bonded FRP systems for strengthening concrete
+structures. Rep. No. 440.2R-17. West Lafayette, IN: ACI.
+Arduini, M., and A. Nanni. 1997. “Behavior of precracked RC beams
+strengthened withcarbon FRP sheets.” J.Compos. Constr. 1 (2): 63–70.
+Attari,N.,S. Amziane, and M. Chemrouk. 2012. “Flexuralstrengthening of
+concrete beams using CFRP, GFRP and hybrid FRP sheets.” Constr.
+Build. Mater. 37: 746–757.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=277 right=529 upper=438 lower=523
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=276, likeBody=-102
+
+Baz?ant, Z. P. 1984. “Size effect in blunt fracture: Concrete, rock, metal.”
+J. Eng. Mech. 110 (4): 518–535.
+Baz?ant, Z. P. 2002. Scaling of structural strength. London: Hermes Penton
+Science.
+Baz?ant, Z. P., and B. H. Oh. 1983. “Crack band theory for fracture of con-
+crete.” Matér. Constr. 16 (3): 155–177.
+Baz?ant, Z. P., and J. Oz?bolt. 1990. “Nonlocal microplane model for frac-
+ture, damage, and size effect in structures.” J. Eng. Mech. 116 (11):
+2485–2505.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=277 right=529 upper=528 lower=543
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=276, likeBody=-102
+
+Baz?ant, Z. P., and J. Planas. 1998. Fracture and size effect in concrete and
+other quasibrittle materials. Boca Raton, FL: CRC Press.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=277 right=529 upper=548 lower=703
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=276, likeBody=100
+
+Brena, S. F., R. M. Bramblett, S. L. Wood, and M. E. Kreger. 2003.
+“Increasing ?exural capacity of reinforced concretebeams using carbon
+?ber-reinforced polymer composites.” Struct. J. 100 (1): 36–46.
+Caner, F. C., and Z. P. Baz?ant. 2013a.“Microplane model m7 forplain con-
+crete. I: Formulation.” J. Eng. Mech. 139 (12): 1714–1723.
+Caner, F. C., and Z. P. Baz?ant. 2013b. “Microplane model m7 for plain con-
+crete. II:Calibration and veri?cation.” J. Eng. Mech. 139 (12): 1724–1735.
+Carloni, C., M. Santandrea, and I. A. O. Imohamed. 2017. “Determination
+of the interfacial properties of SRP strips bonded to concrete and com-
+parison between single-lap and notched beam tests.” Eng. Fract. Mech.
+186: 80–104.
+Carrara, P., D. Ferretti, F. Freddi, and G. Rosati. 2011. “Shear tests of car-
+bon ?ber plates bonded to concrete with control of snap-back.” Eng.
+Fract. Mech. 78 (15): 2663–2678.
+Chen, J. F., and J. G. Teng. 2001. “Anchorage strength models for FRP and
+steel plates bonded to concrete.” J. Struct. Eng. 127 (7): 784–791.
+
+==============================
+
+==============================
+Page 9
+ Left 1 Right 529 Top 1 Bottom 751
+
+
+Column meta:
+Column left:1 upper:1 right:253 lower 115
+Column left:277 upper:1 right:529 lower 115
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEFOOTER
+typeindex=2 left=1 right=31 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+© ASCE
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=1 left=244 right=286 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+04020056-9
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=461 right=529 upper=719 lower=724
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+J. Compos. Constr.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=194 right=336 upper=747 lower=751
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+ J. Compos. Constr., 2020, 24(5): 04020056 
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=253 upper=1 lower=115
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Chiew, S.-P., Q. Sun, and Y. Yu. 2007. “Flexural strength of RC beams
+with GFRP laminates.” J. Compos. Constr. 11 (5): 497–506.
+Dönmez, A., and Z. P. Baz?ant. 2017. “Size effect on punching strength of
+reinforced concrete slabs with and without shear reinforcement.” ACI
+Struct. J. 114 (4): 875–886.
+Dönmez,A., and Z. P. Baz?ant. 2019.“Critiqueof critical shear cracktheory
+for FIB model code articles on shear strength and size effect of rein-
+forced concrete beams.” Struct. Concr. 20 (4): 1451–1463.
+Maalej, M., and Y. Bian. 2001. “Interfacial shear stress concentration in
+FRP-strengthened beams.” Compos. Struct. 54 (4): 417–426.
+Maalej, M., and K. S. Leong. 2005. “Effect of beam size and FRP thick-
+ness on interfacial shear stress concentration and failure mode
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=277 right=529 upper=1 lower=45
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=-102
+
+of FRP-strengthened beams.” Compos. Sci. Technol. 65 (7–8):
+1148–1158.
+Raoof, S. M., and D. A. Bournas. 2017. “TRM versus FRP in ?exural
+strengthening of RC beams: Behaviour at high temperatures.” Constr.
+Build. Mater. 154: 424–437.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=277 right=529 upper=51 lower=115
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=277, likeBody=-102
+
+Rasoolinejad, M., and Z. P. Baz?ant. 2019. “Size effect of squat shear walls
+extrapolated by microplane model M7.” ACI Struct. J. 116 (3): 75–84.
+Saadatmanesh, H., and M. R. Ehsani. 1991. “RC beams strengthened with
+GFRPplates. I:Experimental study.” J.Struct.Eng.117(11): 3417–3433.
+Teng, J. G., S. T. Smith, J. Yao, and J. F. Chen. 2003. “Intermediate crack-
+induced debonding in RC beams and slabs.” Constr. Build. Mater.
+17 (6–7): 447–462.
+
+==============================
+

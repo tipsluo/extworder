@@ -1,0 +1,453 @@
+Title:
+Accessing the degree of Majorana 
+nonlocality in a quantum 
+dot?optical microcavity system
+Abstract:
+
+----------------------
+Subtitles:
+ We explore the tunneling transport properties of a quantum dot embedded in an optical microcavity 
+and coupled to a semiconductor?superconductor one?dimensional nanowire (Majorana nanowire) 
+hosting Majorana zero modes (MZMs) at their edges. Conductance profiles reveal that strong 
+light?matter coupling can be employed to distinguish between the cases of highly nonlocal MZMs, 
+overlapped MZMs and MZMs with less degree of nonlocal feature. Moreover, we show that it is 
+possible to access the degree of Majorana nonlocality (topological quality factor) by changing the dot 
+spectrum through photon?induced transitions tuned by an external pump applied to the microcavity.
+Over the past decade, a huge effort in both theoretical and experimental fields has been performing in the quest 
+for an unquestionable signature of exotic ‘half-fermionic’ states, the so-called Majorana zero-modes (MZMs) in 
+quasi-one dimensional hybrid semiconductor-superconductor nanowires with strong spin-orbit coupling sub-
+ject to external magnetic field, termed as Majorana nanowires1–5. In such devices, each isolated ‘half-fermionic’ 
+MZM appears at one of the opposite nanowire ends when the bulk of the system undergoes a topological phase 
+transition6–8.
+In tunneling spectroscopy measurements performed through a Majorana nanowire4,8–15, the emergence of 
+a quantized zero-bias peak (ZBP) robust to changing of relevant system parameters such as magnetic field and 
+gate voltages is considered as a strong evidence supporting the emergence of the isolated MZMs. However, it 
+has been extensively demonstrated that other physical mechanisms such as the formation of trivial zero-energy 
+Andreev bound state (ABS) at wire ends due to inhomogeneous smooth confining potentials16–25 and disorder-
+induced bound states22,25–27 can produce a robust quantized ZBP, leading to an ambiguity of the MZM signature.
+The emergence of a trivial zero-energy ABS can be mathematically described as resulting from two half-
+fermionic states with some spatial separation between them. In this scenario, a quantized ZBP may arise if one 
+of these half-fermionic states couples to a tunneling spectroscopy probe stronger than the other15,20,21. This kind 
+of trivial ABS formed by two half-fermionic states with small spatial separation between them has been dubbed 
+as partially separated ABS (ps-ABS)20 or quasi-Majoranas (quasi-MZM)21. Despite some recent advances, dis-
+tinguishing ZBPs resulting from genuine topological MZMs, trivial quasi-MZMs and disorder still remains a 
+challenge15,22–25.
+From the perspective of Majorana-based qubits28, the possibility of performing decoherence-free quantum 
+computing operations lies on the ability of storing the information nonlocaly21,29–31, once each MZM is far apart 
+from each other for the ideal situation of longer and pristine nanowires. Hereupon, it is crucial to obtain the 
+information about the spatial localization of the wave functions corresponding to these MZMs. This can be 
+achieved by measuring the so-called degree of Majorana nonlocality31,32, which indirectly quantifies the infor-
+mation about the localization of the MZMs wavefunctions along the nanowire. This quantity can be accessed by 
+means of a quantum dot (QD) working as a local tunneling spectroscopy probe at one of the ends of a Majorana 
+nanowire12,13,33–35. The degree of Majorana nonlocality is defined as ?2 = (c,R/c,L) for weakly overlapped MZMs 
+(?M ?c,R), where c,L and c,R are the coupling between the dot and the left and right MZMs, respectively (see 
+Fig. 1a). Equivalently, this quantity provides a topological quality factor q =1?(c,R/c,L) of the nanowire36,37. 
+Highly nonlocal MZMs are characterized by ? ?0 (q ? 1 ), while ?? 1 (q ?0 ) indicates MZMs with cor-
+responding wavefunctions not well-localized at the nanowire ends. Experimentally13,32, the degree of Majorana 
+nonlocality (quality factor) can be accessed by measuring the corresponding energies of anticrossing patterns 
+appearing in tunneling conductance profiles as functions of both applied bias-voltage through the QD-nanowire 
+and QD gate-voltage.
+Figure 1. (a) The sketch of the considered system: A quantum dot (QD) embedded inside a single-mode optical 
+cavity with frequency ?0. An electron in the conduction level of the dot couples with both the left (?R ) and the 
+right (?L) Majorana zero-modes (MZMs) located at the opposite ends of the Majorana nanowire, with strengths 
+c,L and c,R, respectively. The overlap between the wavefunctions of MZMs is given by ?M. The tunneling 
+conductance through the QD can by probed by means of source and drain metallic leads symmetrically coupled 
+(V) to the dot. The energy of the cavity photons is brought in resonance with interband transition in the dot 
+. (b) The scheme of a QD energy levels: the valence level ?v is far below the Fermi level EF = 0E while the 
+conduction level ?c is above EF. Strong coupling with cavity photons results in a Rabi splitting of the levels R, 
+which is determined by the oscillator strength of the optical transition and the geometry of the cavity.
+ Results and discussion
+In what follows, we analyze the conductance through the QD [Eq. (6)] as a function of bias-voltage eV, in pres-
+ence of a photonic field in the cavity (Fig. 1a). We take the effective broadening ? = 40µeV as the energy unit34,46. 
+We also use typical parameters for QDs embedded in microcavities47, taking ?v ? EF, ?c = 100? ?968GHz, 
+?R = 2.5?= 0.1meV (? 24GHz). The energy of a cavity mode is taken in resonance with the excitonic transi-
+tion in the QD, ?0 =? =35.1×103? ? 1.4ev (338THz).
+Figure 2 describes the conductance as a function of eV when the QD is coupled only with the left MZM 
+(c,L =40? ), corresponding to the situation of highly nonlocal MZMs (c,R =?M =0 , ? =0 ), for several val-
+ues of ??? . This ideal condition of true topological MZMs is expected for clean disorder-free nanowires25,27, long 
+enough to avoid the overlap between the Majorana wavefunctions located at the opposite ends23. In absence of 
+the cavity photons (? ??= 0), a robust ZBP with G(0) =0.5e2/h appears, as it is shown by the red dashed lines 
+in Fig. 2a,b, characterizing the ‘half-fermionic’ nature of an isolated MZM leaking into the QD12,34,46,48.The 
+conductance peak localized at eV ? 100? corresponds to the conduction level of the dot renormalized by the 
+finite QD-left MZM coupling.
+Figure 2. (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+highly nonlocal MZMs (?M =c,R = 0, ? =0 ) for increasing number of the excitations in the system ???, which 
+can be tuned by external pump (the curves are offset along the y axis for the better viewing). One clearly sees 
+the appearance of additional peaks due to the Rabi splitting. (b) Zoom of the conductance around eV = 0. (c) 
+Conductance through the QD at zero-bias eV = 0 for increasing ???. (d) Colormap showing the conductance 
+behavior as a function of both the eV and ???, for a range of eV corresponding to gray region of (a).
+ Figure 3. (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+overlapped MZMs localized at the nanowire ends (?M =10?, c,R = 0) for increasing numbers of photon 
+occupation ???. For a better viewing, the curves are offset along the y axis. (b) Same curves depicted in (a), but 
+considering eV only near zero-bias without offset along y axis. (c) Conductance through the QD at zero-bias 
+eV =0 for increasing number of ???. (d) Colormap showing the conductance behavior as a function of both the 
+eV and ??? , for a range of eV corresponding to gray region of (a).
+QD-nanowire coupling (Fig. 3a, dashed red line). As the mean photon occupation is increased, in analogy to 
+what happened for nonoverlapped MZMs, the peak corresponding to the QD conduction level splits into two 
+polariton peaks (Fig. 3a, solid blue line), with the value of this splitting depending on ??? . It can be seen that 
+the increase of the mean photon occupation strongly affects the pattern of near zero-energy peaks associated 
+with overlapped MZMs (see Fig. 3b). First, they become closer to each other, and coalesce into a single peak 
+at zero-bias with height of e2/h for ???= 1600. Further increase of the number of cavity photons leads to the 
+reappearance of the splitting.
+The conductance profile at eV =0 as a function of the mean photon occupation is shown in Fig. 3c. One 
+can notice that the zero-bias conductance plateau corresponding to nonverlapped and highly nonlocal MZMs 
+(solid red line) is destroyed even by a small overlap (dashed blue line). For bigger values of the overlap strength 
+?M, G(eV =0) as a function of ???, exhibits a single peak at ??? =1600 , showing the behavior similar to those 
+corresponding to a QD embedded in an optical cavity and decoupled from the nanowire (Fig. 2a, solid purple 
+line). This similarity characterizes the single-fermion nature of the state formed from the overlap between the 
+two half-fermionic MZMs.
+The conductance through the QD as a function of both eV and photon occupation, corresponding to the eV-
+range within the gray area in Fig. 3a, is shown in Fig. 3d. One can see that the photon-induced transitions in the 
+QD renormalize its spectrum, giving rise to a ‘bowtie-like’ shape, which resembles those found by Prada et al.32.
+In Fig. 4 we display the case in which the MZMs have lost their nonlocal feature (? ?1). This situation quali-
+tatively describes a scenario where the right MZM is displaced towards to left edge of the nanowire, leading to 
+a partial separation between the MZMs and hence a finite overlap between the wavefunction of the right MZM 
+and the QD ( c,R ??M)31,32,36. The emergence of this MZMs with partial separation can result from inhomo-
+geneous confining potentials in the nanowire22,23,25,31. Similarly to Fig. 3a,b, we can notice two near-zero-energy 
+conductance peaks at eV ? ±c,R for the case of zero photon occupation (Fig. 4a,b, dashed red line), which 
+points that the left and right MZMs leak into the dot with different intensities (c,L ?c,R) and form a state of 
+a regular fermionic character.
+The peak corresponding to the QD conduction level at eV ? 100? is again splitted into two polariton peaks in 
+presence of cavity photons, which also affects the position of the near-zero-energy conductance peaks (Fig. 4b). 
+But distinct from the previous case of overlapped MZMs localized at the nanowire edges (Fig. 3b), there is no 
+coalescence into a single peak at eV =0 for certain value of ???.
+Figure 4c displays the evolution of zero-bias conductance as a function of ??? for increasing values of coupling 
+between the right-MZM and the QD. For the ideal situation of highly nonlocal MZMs (solid red line), one can 
+see a ZBP plateau associated to the isolated MZM which has leaked into the dot. A plateau is still present for a 
+tiny value of c,R (dashed orange line), but with a reduction of the ZBP height (G(eV = 0) <0.5e2/h). However, 
+a little enhancement of c,R (dotted green and dash-dotted blue lines) drops the zero-bias conductance to almost 
+zero for any value of ???.
+The behavior of the conductance through the QD as a function of eV and photon occupation ??? is shown in 
+Fig. 4d. One can clearly notice that the near-zero-energy peaks corresponding to these MZMs with less degree 
+of nonlocality slightly move away from each other as photon-induced peak (upper branch in Fig. 4d) is driven 
+towards eV =0 and then start to approach each other again as the photon occupation is increased. This behavior 
+yields a pattern that resembles the ‘diamond-like’ profile reported by Prada et al.32. In this work, it was suggested,
+Figure 4. (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+MZMs with less degree of nonlocality (c,R ??M ) for increasing number of photon occupation ???. For a 
+better viewing, the curves are offset along the y axis. (b) Same curves depicted in (a), but considering eV only 
+near zero-bias without offset along y axis. (c) Conductance through the QD at zero-bias eV = 0 for increasing 
+number of ??? considering distinct values of c,R . (d) Colormap showing the conductance behavior as a function 
+of both the eV and ???, for a range of eV corresponding to gray region of (a). Dashed light-green lines indicate 
+?th2e e=ne?rg+ies ?Q+D+ an,d a s? +MprZoMpso osfe adn btiyc rPorsasdina ge tp aoli.n32t.s F eomr pthloey deadt ato s hesotwimna itne (tdh)e, deMgre?e o0f. 3M5.ajorana nonlocality
+ Conclusions
+ Methods
+ The full Hamiltonian which describes the system of Fig. 1 reads (= 1):
+correlations for T <TK52,53 or TK/?Nw  0.632,54, where T is the system temperature, TK is the characteristic 
+Kondo temperature and Nw is the induced superconducting pairing in the Majorana nanowire.
+The interaction between the cavity and the QD is given by55
+where R is the Rabi splitting strength.
+The source (S) and drain (D) metallic leads and their coupling with the QD are described by
+where ck†,? (ck,?) creates (annihilates) an electron in the lead ? = S/D, with wave-number k, energy ?k? =?k?µ? 
+and chemical potential µ?. The bias-voltage through the QD is defined as eV = µS ?µD. The parameter Vl 
+represents the coupling strength of the conduction ( l =c) and valence ( l =v) levels of the QD with the leads. 
+Once we are considering the situation in which the valence level is far below the Fermi level (?v ? EF,EF =0) 
+(Fig. 1b), one can assume Vv = 0 and Vc = V in Eq. (3) without loss of generality. Introducing even and odd 
+lcHikn,aSema=ril ct(oocnkm,ioabn+in oacftk Ei,oe)qn/. s(?3o2)f ttarhnaend ss tcfaokt,rDems =so fi (ntcthoke,5e 6l?:eadcks, oc)k,/e?2,o,, tih.ee. opderdf osrtmateins gb ethceo munei dtaercyo turpalnesdfo frrmomat itohne adcocto, radnindg t htoe
+The effective Hamiltonian which describes the ‘half-fermionic’ states corresponding to MZMs at the ends of 
+the Majorana nanowire coupled to the QD reads32,36:
+where ?L,R = ?L†,R represent the MZMs at the opposite ends of the Majorana nanowire with ?M being the overlap 
+strength between hem3. The hybridization between the left and right MZMs with the conduction level of the 
+dot is given by c,L and c,R, respectively, and one can safely assume, that v,L(R) =0 for the situation of ?v ?EF 
+considered by us, once the MZMs cannot overlap with QD valence level owing to the large energy separation 
+between them. Moreover, the assumption of ?v far below the Fermi level and consequent zero coupling strength 
+between the MZMs and the QD valence level ensures the resonance condition ?= ?c ??v = ?0 within a range 
+of realistic parameters, i.e., ?= ?0 ? eV47.
+The Hamiltonian of Eq. (5) can be rewritten in term?s of a fermionic operator?1,3 by considering the fermionic 
+representation of Majorana operators ?L = (f†+f)/ 2 and ?R = ?(f† ?f)/ 2 , where f obeys the standard 
+fermionic anticommu?tation relations. Hence, E? (5) becomes into HMZMs =?Mf†f +(tcdcf† +?cdcf +h.c.), 
+with tc = (L ?R)/ 2 and ?c =(L+R)/ 2.
+The application of a bias-voltage eV between source and drain leads, leads to the onset of the current through 
+the system, and, according to the Landauer-type formula57,58, at low temperatures (T ?0 ) the conductance 
+through the QD reads:
+where g0(?) =1/(?+????c) is the bare Green’s function of the QD conduction level58,62,63, with ? ?0+. The 
+term ?? describes the corresponding broadening introduced by the coupling with metallic leads and
+is the self-energy associated to the valence-to-conduction band transition induced by the photonic field of the 
+optical cavity, with ??? =?nc?+Nph being the mean photon occupation, which depends on the number of
+excitations (?nc? ) in the QD and photons (Nph) in the microcavity, which can be tunned by an external optical 
+pump.
+The part of the self-energy associated with the direct coupling between the QD conduction level and MZMs 
+reads:
+ Data availability
+ Author contributions
+ Additional information
+
+
+Text:
+----------------------
+We explore the tunneling transport properties of a quantum dot embedded in an optical microcavity 
+and coupled to a semiconductor?superconductor one?dimensional nanowire (Majorana nanowire) 
+hosting Majorana zero modes (MZMs) at their edges. Conductance profiles reveal that strong 
+light?matter coupling can be employed to distinguish between the cases of highly nonlocal MZMs, 
+overlapped MZMs and MZMs with less degree of nonlocal feature. Moreover, we show that it is 
+possible to access the degree of Majorana nonlocality (topological quality factor) by changing the dot 
+spectrum through photon?induced transitions tuned by an external pump applied to the microcavity.
+Over the past decade, a huge effort in both theoretical and experimental fields has been performing in the quest 
+for an unquestionable signature of exotic ‘half-fermionic’ states, the so-called Majorana zero-modes (MZMs) in 
+quasi-one dimensional hybrid semiconductor-superconductor nanowires with strong spin-orbit coupling sub-
+ject to external magnetic field, termed as Majorana nanowires1–5. In such devices, each isolated ‘half-fermionic’ 
+MZM appears at one of the opposite nanowire ends when the bulk of the system undergoes a topological phase 
+transition6–8.
+In tunneling spectroscopy measurements performed through a Majorana nanowire4,8–15, the emergence of 
+a quantized zero-bias peak (ZBP) robust to changing of relevant system parameters such as magnetic field and 
+gate voltages is considered as a strong evidence supporting the emergence of the isolated MZMs. However, it 
+has been extensively demonstrated that other physical mechanisms such as the formation of trivial zero-energy 
+Andreev bound state (ABS) at wire ends due to inhomogeneous smooth confining potentials16–25 and disorder-
+induced bound states22,25–27 can produce a robust quantized ZBP, leading to an ambiguity of the MZM signature.
+The emergence of a trivial zero-energy ABS can be mathematically described as resulting from two half-
+fermionic states with some spatial separation between them. In this scenario, a quantized ZBP may arise if one 
+of these half-fermionic states couples to a tunneling spectroscopy probe stronger than the other15,20,21. This kind 
+of trivial ABS formed by two half-fermionic states with small spatial separation between them has been dubbed 
+as partially separated ABS (ps-ABS)20 or quasi-Majoranas (quasi-MZM)21. Despite some recent advances, dis-
+tinguishing ZBPs resulting from genuine topological MZMs, trivial quasi-MZMs and disorder still remains a 
+challenge15,22–25.
+From the perspective of Majorana-based qubits28, the possibility of performing decoherence-free quantum 
+computing operations lies on the ability of storing the information nonlocaly21,29–31, once each MZM is far apart 
+from each other for the ideal situation of longer and pristine nanowires. Hereupon, it is crucial to obtain the 
+information about the spatial localization of the wave functions corresponding to these MZMs. This can be 
+achieved by measuring the so-called degree of Majorana nonlocality31,32, which indirectly quantifies the infor-
+mation about the localization of the MZMs wavefunctions along the nanowire. This quantity can be accessed by 
+means of a quantum dot (QD) working as a local tunneling spectroscopy probe at one of the ends of a Majorana 
+nanowire12,13,33–35. The degree of Majorana nonlocality is defined as ?2 = (c,R/c,L) for weakly overlapped MZMs 
+(?M ?c,R), where c,L and c,R are the coupling between the dot and the left and right MZMs, respectively (see 
+Fig. 1a). Equivalently, this quantity provides a topological quality factor q =1?(c,R/c,L) of the nanowire36,37. 
+Highly nonlocal MZMs are characterized by ? ?0 (q ? 1 ), while ?? 1 (q ?0 ) indicates MZMs with cor-
+responding wavefunctions not well-localized at the nanowire ends. Experimentally13,32, the degree of Majorana 
+nonlocality (quality factor) can be accessed by measuring the corresponding energies of anticrossing patterns 
+appearing in tunneling conductance profiles as functions of both applied bias-voltage through the QD-nanowire 
+and QD gate-voltage.
+Figure 1. (a) The sketch of the considered system: A quantum dot (QD) embedded inside a single-mode optical 
+cavity with frequency ?0. An electron in the conduction level of the dot couples with both the left (?R ) and the 
+right (?L) Majorana zero-modes (MZMs) located at the opposite ends of the Majorana nanowire, with strengths 
+c,L and c,R, respectively. The overlap between the wavefunctions of MZMs is given by ?M. The tunneling 
+conductance through the QD can by probed by means of source and drain metallic leads symmetrically coupled 
+(V) to the dot. The energy of the cavity photons is brought in resonance with interband transition in the dot 
+. (b) The scheme of a QD energy levels: the valence level ?v is far below the Fermi level EF = 0E while the 
+conduction level ?c is above EF. Strong coupling with cavity photons results in a Rabi splitting of the levels R, 
+which is determined by the oscillator strength of the optical transition and the geometry of the cavity.
+In the present work, we show that light-matter coupling can be employed as an alternative to probe the degree 
+of Majorana nonlocality through tunneling conductance experiments. We consider the system schematically 
+shown in Fig. 1a: a QD placed inside a single-mode optical cavity with frequency ?0, which is tuned in resonance 
+with valence-to-conduction band optical transition, i.e, ?= ?0, see Fig. 1b. The conductance through the dot can 
+be accessed by metallic source-drain leads. Moreover, the QD couples with both left and right MZMs hosted at 
+the edges of the Majorana nanowire. We demonstrate, that conductance profiles through the QD as functions of 
+both bias voltage and mean photon occupation adjusted by external pump reveal distinct patterns for the cases 
+of highly nonlocal MZMs, overlapped MZMs and not so well localized MZMs. We also show that it is possible 
+to access the degree of Majorana nonlocality (topological quality factor) in conductance profiles by tuning the 
+mean photon occupation instead of the QD gate-voltage as in the Prada’s original proposal31,32,36.
+To the best of our knowledge, experimental setups which combine optical and electrical methods to explore 
+the underlying physics of MZMs have not been considered previously. However, QDs in microcavity quantum 
+electrodynamics (QED) devices are routinely studied in optical experiments38,39 and, in recent years, some 
+theoretical works have employed cavity QED for studying MZMs40–43. In such theoretical proposals, the whole 
+Majorana nanowire is placed in a (microwave) cavity, whereas in our approach only the QD is sandwiched 
+between the mirrors that form an optical microcavity. Moreover, in our theoretical approach we introduce a new 
+(optical) degree of freedom in the system such that, on the one hand, it affects only a small part of the full system 
+in contrary to the previous approaches, and on the other hand, allows one optical manipulation of the electrical 
+conductance, thus providing an alternative to access degree of Majorana nonlocality via optical means. It’s worthy 
+noticing that the bridging between cavity QED and topological superconductors supporting Majorana excita-
+tions not only opens new possibilities for MZMs detection schemes, but also can pave a new way for performing 
+quantum computing operations with photons43–45 in Majorana based qubit schemes.
+Results and discussion
+In what follows, we analyze the conductance through the QD [Eq. (6)] as a function of bias-voltage eV, in pres-
+ence of a photonic field in the cavity (Fig. 1a). We take the effective broadening ? = 40µeV as the energy unit34,46. 
+We also use typical parameters for QDs embedded in microcavities47, taking ?v ? EF, ?c = 100? ?968GHz, 
+?R = 2.5?= 0.1meV (? 24GHz). The energy of a cavity mode is taken in resonance with the excitonic transi-
+tion in the QD, ?0 =? =35.1×103? ? 1.4ev (338THz).
+Figure 2 describes the conductance as a function of eV when the QD is coupled only with the left MZM 
+(c,L =40? ), corresponding to the situation of highly nonlocal MZMs (c,R =?M =0 , ? =0 ), for several val-
+ues of ??? . This ideal condition of true topological MZMs is expected for clean disorder-free nanowires25,27, long 
+enough to avoid the overlap between the Majorana wavefunctions located at the opposite ends23. In absence of 
+the cavity photons (? ??= 0), a robust ZBP with G(0) =0.5e2/h appears, as it is shown by the red dashed lines 
+in Fig. 2a,b, characterizing the ‘half-fermionic’ nature of an isolated MZM leaking into the QD12,34,46,48.The 
+conductance peak localized at eV ? 100? corresponds to the conduction level of the dot renormalized by the 
+finite QD-left MZM coupling.
+Figure 2. (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+highly nonlocal MZMs (?M =c,R = 0, ? =0 ) for increasing number of the excitations in the system ???, which 
+can be tuned by external pump (the curves are offset along the y axis for the better viewing). One clearly sees 
+the appearance of additional peaks due to the Rabi splitting. (b) Zoom of the conductance around eV = 0. (c) 
+Conductance through the QD at zero-bias eV = 0 for increasing ???. (d) Colormap showing the conductance 
+behavior as a function of both the eV and ???, for a range of eV corresponding to gray region of (a).
+For a finite photon occupation ??? =500 (solid blue line, Fig 2a), optically-induced transitions between 
+valence and conduction levels of the QD come into play, splitting the single peak associated with the QD conduc-
+tion level into two polariton peaks located at eV ? 50? and eV ?150?. The higher is the value of ??? , the bigger 
+irse stehme dbliestsa tnhcee R baebtiw sepelnit ttihneg pfoorl aarnit ionnd ipveidakusa l( Fdiogt.  i2nas,i ddea sah c-advoitttye, dfo grr weehnic ahn 2d? dRo?te??d? b49l a(cFkig l.i 1nbe)s). .N Thoties, bheohwaevvieorr, 
+that for sufficiently high values of ??? additional polariton peaks stemming from indirect MZM to photon cou-
+pling of lower amplitude appear (see black and magenta curves).
+The amplitude of the peak at zero-bias remains unchanged with increase of the number of the photons 
+(Fig. 2b). This robustness is characteristic for the situation of highly-nonlocal MZMs22,23,25,32. In the same time, 
+the width of the ZBP is monotonously increasing with increase of the number of the cavity photons, which means 
+that the latter affect the effective lifetime of the electronic states of the dot and MZMs.
+In Fig. 2c, the conductance behavior at zero-bias as a function of ??? is shown for several values of c,L. A 
+well-defined plateau of 0.5e2/h, independent on the mean photon occupation, characterizes the robustness of 
+the ZBP for the cases of strong QD-nanowire coupling c,L  ? (magenta stars and red circles). For smaller 
+vac,lLue=s o1f0 ?c2,L?, .t hWe hpelant etahue Qis Dde isst rtooytaeldly, adse ccaonu pblee sde ferno min tthhee Mgreaejonr alinnae nwaintho wtriiraen g(sleosl iodf pFuigrp. 2lec ,l icnoer,r ecs,pLo=nd0i)n,g t htoe 
+conductance at eV = 0 exhibits a single resonance at ???= 1600, which corresponds to the crossing between 
+the photon-induced lower polariton peak and Fermi energy.
+The colormap of Fig. 2d summarizes the conductance behavior as a function of both eV and???, correspond-
+ing to a range of bias-voltage within the gray region of Fig. 2a. One can notice that the photon-induced peak 
+above eV = 0 have its amplitude reduced with the co-emergence of a conductance peak symmetrically localized 
+below eV = and a ZBP with unchanged 0.5e2/h height pinned at zero-bias. Direct comparison between profile 
+of Fig. 2d and the corresponding results for highly nonlocal MZMs found by Prada et al.32 and others12,13,36,50 
+shows that the increasing of the mean photon occupation (i.e. increasing the pump intensity) is a fast indirect 
+way of tuning the QD energy without applying any gate-voltage due to renormalization of the QD spectrum in 
+the strong light-matter coupling regime, which bridges Quantum Optics and the physics of MZMs.
+It is worth noticing that the quantized ZBP Majorana amplitude of 0.5e2/h33,34,48 shown in the conductance 
+profiles of Fig. 2 is distinct from the 2e2/h quantized Majorana conductance, expected for typical tunneling 
+experiments with Majorana nanowires22,25. This difference comes from the underlying mechanism of electronic 
+transport for each case. For characteristic setups of tunneling spectroscopy experiments4,8,15, the 2e2/h quantized 
+conductance is a result of a perfect resonant zero-energy Andreev reflection in the normal lead-Majorana nanow-
+ire interface3. In our proposal otherwise (Fig. 1a), the transport occurs by normal electron tunneling through the 
+QD due to an applied voltage eV between the source-drain metallic leads, where the quantum of conductance is 
+e2/h [Eq. (6)] per spin channel. Hence, for an isolated MZM which has leaked into the QD level34,48, the amplitude 
+of the ZBP is half of the quantum of conductance for an ordinary spinless electron, indicating the half-fermionic 
+nature of a Majorana mode at zero-energy.
+Figure 3 shows the profiles of conductance through QD coupled to the Majorana nanowire for the case of 
+MZMs still localized at opposite wire ends, but with finite overlap between them ( ?M = 10? ?c,R), which may 
+describe the situation of shorter nanowires23. For a null photon occupation, G(eV) [Eq. (6)] is characterized by 
+two near zero-energy peaks at eV ?±?M (Fig. 3a,b, dashed red lines) coming from the ZBP splitting due to the 
+finite overlap33 and a third peak at eV ?100?, corresponding to the QD conduction level renormalized by the
+Figure 3. (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+overlapped MZMs localized at the nanowire ends (?M =10?, c,R = 0) for increasing numbers of photon 
+occupation ???. For a better viewing, the curves are offset along the y axis. (b) Same curves depicted in (a), but 
+considering eV only near zero-bias without offset along y axis. (c) Conductance through the QD at zero-bias 
+eV =0 for increasing number of ???. (d) Colormap showing the conductance behavior as a function of both the 
+eV and ??? , for a range of eV corresponding to gray region of (a).
+QD-nanowire coupling (Fig. 3a, dashed red line). As the mean photon occupation is increased, in analogy to 
+what happened for nonoverlapped MZMs, the peak corresponding to the QD conduction level splits into two 
+polariton peaks (Fig. 3a, solid blue line), with the value of this splitting depending on ??? . It can be seen that 
+the increase of the mean photon occupation strongly affects the pattern of near zero-energy peaks associated 
+with overlapped MZMs (see Fig. 3b). First, they become closer to each other, and coalesce into a single peak 
+at zero-bias with height of e2/h for ???= 1600. Further increase of the number of cavity photons leads to the 
+reappearance of the splitting.
+The conductance profile at eV =0 as a function of the mean photon occupation is shown in Fig. 3c. One 
+can notice that the zero-bias conductance plateau corresponding to nonverlapped and highly nonlocal MZMs 
+(solid red line) is destroyed even by a small overlap (dashed blue line). For bigger values of the overlap strength 
+?M, G(eV =0) as a function of ???, exhibits a single peak at ??? =1600 , showing the behavior similar to those 
+corresponding to a QD embedded in an optical cavity and decoupled from the nanowire (Fig. 2a, solid purple 
+line). This similarity characterizes the single-fermion nature of the state formed from the overlap between the 
+two half-fermionic MZMs.
+The conductance through the QD as a function of both eV and photon occupation, corresponding to the eV-
+range within the gray area in Fig. 3a, is shown in Fig. 3d. One can see that the photon-induced transitions in the 
+QD renormalize its spectrum, giving rise to a ‘bowtie-like’ shape, which resembles those found by Prada et al.32.
+In Fig. 4 we display the case in which the MZMs have lost their nonlocal feature (? ?1). This situation quali-
+tatively describes a scenario where the right MZM is displaced towards to left edge of the nanowire, leading to 
+a partial separation between the MZMs and hence a finite overlap between the wavefunction of the right MZM 
+and the QD ( c,R ??M)31,32,36. The emergence of this MZMs with partial separation can result from inhomo-
+geneous confining potentials in the nanowire22,23,25,31. Similarly to Fig. 3a,b, we can notice two near-zero-energy 
+conductance peaks at eV ? ±c,R for the case of zero photon occupation (Fig. 4a,b, dashed red line), which 
+points that the left and right MZMs leak into the dot with different intensities (c,L ?c,R) and form a state of 
+a regular fermionic character.
+The peak corresponding to the QD conduction level at eV ? 100? is again splitted into two polariton peaks in 
+presence of cavity photons, which also affects the position of the near-zero-energy conductance peaks (Fig. 4b). 
+But distinct from the previous case of overlapped MZMs localized at the nanowire edges (Fig. 3b), there is no 
+coalescence into a single peak at eV =0 for certain value of ???.
+Figure 4c displays the evolution of zero-bias conductance as a function of ??? for increasing values of coupling 
+between the right-MZM and the QD. For the ideal situation of highly nonlocal MZMs (solid red line), one can 
+see a ZBP plateau associated to the isolated MZM which has leaked into the dot. A plateau is still present for a 
+tiny value of c,R (dashed orange line), but with a reduction of the ZBP height (G(eV = 0) <0.5e2/h). However, 
+a little enhancement of c,R (dotted green and dash-dotted blue lines) drops the zero-bias conductance to almost 
+zero for any value of ???.
+The behavior of the conductance through the QD as a function of eV and photon occupation ??? is shown in 
+Fig. 4d. One can clearly notice that the near-zero-energy peaks corresponding to these MZMs with less degree 
+of nonlocality slightly move away from each other as photon-induced peak (upper branch in Fig. 4d) is driven 
+towards eV =0 and then start to approach each other again as the photon occupation is increased. This behavior 
+yields a pattern that resembles the ‘diamond-like’ profile reported by Prada et al.32. In this work, it was suggested,
+Figure 4. (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+MZMs with less degree of nonlocality (c,R ??M ) for increasing number of photon occupation ???. For a 
+better viewing, the curves are offset along the y axis. (b) Same curves depicted in (a), but considering eV only 
+near zero-bias without offset along y axis. (c) Conductance through the QD at zero-bias eV = 0 for increasing 
+number of ??? considering distinct values of c,R . (d) Colormap showing the conductance behavior as a function 
+of both the eV and ???, for a range of eV corresponding to gray region of (a). Dashed light-green lines indicate 
+?th2e e=ne?rg+ies ?Q+D+ an,d a s? +MprZoMpso osfe adn btiyc rPorsasdina ge tp aoli.n32t.s F eomr pthloey deadt ato s hesotwimna itne (tdh)e, deMgre?e o0f. 3M5.ajorana nonlocality
+that the degree of Majorana nonlocality can be extracted from the anticrossing points between the QD level and 
+the near-zero energy levels corresponding to MZMs by application of a QD-gate voltage13,32.
+Similarly, in the geometry considered by us, one can also extract the information about the degree of Majorana 
+nonlocality from the photon-induced conductance profile of Fig. 4d. The dot spectrum now is optically, and 
+nAost o erliegcitnraicllayl lpy,r oapnods ethde b cyo Prrreasdpao entd ailn.3g2 , atnhtei cdreogsrseien go fp Moianjtosr ?a+QnDa nanondl ?o+McaZlMit ya rine itnundnicealtiendg bcyo nddaushcetadn cgere perno fililneess13. 
+is Mgiv?en0 b.3y5 ,? o2Mr e?qu?iv2a=len?Mt+lyZ, Ma/ t?oQ+pDo,l ovgailcida lw qhueanli t?yM fa?ctorc o,Lf, ?c,R0..8 F8o3r6, 3t7h, eth puasr ainmdeitceartsin cgo rtrheastp tohned MinZgM tos Fairge.  n4dot, 
+well-localized at the nanowire edges.
+Once we cannot extract the information about the wavefunctions of the Majorana nanowire within the 
+effective model employed here, we are not able to do a detailed numerical analysis of the degree of Majorana 
+nolocality as done by Prada et al32. However, in Sec. II of the supplementary information we performed a theo-
+retical analysis of the effective spinless Hamiltonian considered throughout this work, showing the matching 
+boretigwieneanll yth per aonptoicsreods sinin Rg epf.o3i2n.ts ?±QD,MZM analytically obtained to extract M within our proposal and those ones
+Conclusions
+In summary, we have theoretically explored the effects of strong light-matter coupling on transport properties 
+of the hybrid device, consisting on quantum dot embedded inside a single-mode optical cavity and coupled to a 
+Majorana nanowire. Conductance profiles as functions of the bias-voltage and mean photon occupation num-
+ber controlled by an external pump revealed distinct shapes for the cases of highly nonlocal MZMs, overlapped 
+MZMs localized at opposite nanowire edges and MZMs which are not perfectly nonlocal. This makes possible 
+to access the degree of Majorana nonlocality (topological quality factor) all optically, by means of the tuning of 
+the polariton energies in the dot.
+Methods
+The full Hamiltonian which describes the system of Fig. 1 reads (= 1):
+where Hph = ?0c†c, is the Hamiltonian of a single-mode optical cavity, with c†,(c) being creation and annihila-
+tion operators of the cavity photons with energy ?0. The Hamiltonian of the QD reads HQD = ?cdc†dc +?vd†vdv, 
+where dv and dc describe the spinless electrons in the valence and conduction levels of the QD with energy ?c 
+and ?v, respectively, and ?= ?c ??v is the energy difference between these levels. The spinless situation can 
+be reached in the regime of large magnetic fields, where only either the spin up or down channel is accounted. 
+In this regime, only single occupancy is allowed at each QD level and therefore the onsite Coulomb repulsion 
+can be safely neglected in HQD. Otherwise, the assumption of both spin degrees of freedom with Coulomb 
+interaction between electrons at each QD level lead to the appearance of extra peaks in the QD energy spectrum, 
+known as Hubbard peaks48,50,51. Moreover, the presence of such a Coulomb repulsion also can lead to Kondo-type
+correlations for T <TK52,53 or TK/?Nw  0.632,54, where T is the system temperature, TK is the characteristic 
+Kondo temperature and Nw is the induced superconducting pairing in the Majorana nanowire.
+The interaction between the cavity and the QD is given by55
+where R is the Rabi splitting strength.
+The source (S) and drain (D) metallic leads and their coupling with the QD are described by
+where ck†,? (ck,?) creates (annihilates) an electron in the lead ? = S/D, with wave-number k, energy ?k? =?k?µ? 
+and chemical potential µ?. The bias-voltage through the QD is defined as eV = µS ?µD. The parameter Vl 
+represents the coupling strength of the conduction ( l =c) and valence ( l =v) levels of the QD with the leads. 
+Once we are considering the situation in which the valence level is far below the Fermi level (?v ? EF,EF =0) 
+(Fig. 1b), one can assume Vv = 0 and Vc = V in Eq. (3) without loss of generality. Introducing even and odd 
+lcHikn,aSema=ril ct(oocnkm,ioabn+in oacftk Ei,oe)qn/. s(?3o2)f ttarhnaend ss tcfaokt,rDems =so fi (ntcthoke,5e 6l?:eadcks, oc)k,/e?2,o,, tih.ee. opderdf osrtmateins gb ethceo munei dtaercyo turpalnesdfo frrmomat itohne adcocto, radnindg t htoe
+The effective Hamiltonian which describes the ‘half-fermionic’ states corresponding to MZMs at the ends of 
+the Majorana nanowire coupled to the QD reads32,36:
+where ?L,R = ?L†,R represent the MZMs at the opposite ends of the Majorana nanowire with ?M being the overlap 
+strength between hem3. The hybridization between the left and right MZMs with the conduction level of the 
+dot is given by c,L and c,R, respectively, and one can safely assume, that v,L(R) =0 for the situation of ?v ?EF 
+considered by us, once the MZMs cannot overlap with QD valence level owing to the large energy separation 
+between them. Moreover, the assumption of ?v far below the Fermi level and consequent zero coupling strength 
+between the MZMs and the QD valence level ensures the resonance condition ?= ?c ??v = ?0 within a range 
+of realistic parameters, i.e., ?= ?0 ? eV47.
+The Hamiltonian of Eq. (5) can be rewritten in term?s of a fermionic operator?1,3 by considering the fermionic 
+representation of Majorana operators ?L = (f†+f)/ 2 and ?R = ?(f† ?f)/ 2 , where f obeys the standard 
+fermionic anticommu?tation relations. Hence, E? (5) becomes into HMZMs =?Mf†f +(tcdcf† +?cdcf +h.c.), 
+with tc = (L ?R)/ 2 and ?c =(L+R)/ 2.
+The application of a bias-voltage eV between source and drain leads, leads to the onset of the current through 
+the system, and, according to the Landauer-type formula57,58, at low temperatures (T ?0 ) the conductance 
+through the QD reads:
+where e2/h is the quantum of conductance and ? =2?V2? represents the effective broadening introduced by 
+the coupling between the QD and the even conduction operator of the leads [Eq. (4)], with a constant density of 
+states ?58,59, valid within the the wide-band limit approximation. The local density of states of the dot is given by58:
+where ??dc;d†c??? ? Gc(?) is the retarded Green’s function in the spectral domain ?60, which can be calculated 
+by successive applications of equation-of-motion echnique58,60,61 together with an appropriate truncation scheme 
+(see Sec. I of supplementary information for details concerning the equation of motion technique and the trun-
+cation scheme adopted). This gives
+where g0(?) =1/(?+????c) is the bare Green’s function of the QD conduction level58,62,63, with ? ?0+. The 
+term ?? describes the corresponding broadening introduced by the coupling with metallic leads and
+is the self-energy associated to the valence-to-conduction band transition induced by the photonic field of the 
+optical cavity, with ??? =?nc?+Nph being the mean photon occupation, which depends on the number of
+excitations (?nc? ) in the QD and photons (Nph) in the microcavity, which can be tunned by an external optical 
+pump.
+The part of the self-energy associated with the direct coupling between the QD conduction level and MZMs 
+reads:
+??cph(?) =?2R???/(?+??+ ?0+?v) . If the QD is decoupled from the optical cavity (R = 0), ??cph(?) =0 
+and Eq. (10) is reduced to the well-known expression for the self-energy associated to the leaking of a single 
+MZM into the QD for c,R = 012,33,34,64.
+The presence of ??pch(?) in the expression for K(?) in the self-energy defined in Eq. (10) means that the 
+MZMs somehow ‘feel’ the photonic field, although there is no direct coupling between cavity photons and the 
+Majorana nanowire.
+Data availability
+The data that support the findings of this study are available from the corresponding author upon reasonable 
+request.
+Author contributions
+L.S.R., V.K.K. and I.A.S. conceived the project. L.S.R. carried out the calculations and plotted the figures, with 
+contributions from V.K.K. L.S.R. and I.A.S. wrote the paper with contributions from A.C.S. and V.K.K. All 
+authors revised the manuscript.
+Additional information
+Supplementary Information The online version contains supplementary material available at https://doi.org/ 
+10.1038/s41598-022-05855-y.
+Correspondence and requests for materials should be addressed to L.S.R.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.

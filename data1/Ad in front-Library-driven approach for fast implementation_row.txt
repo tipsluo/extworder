@@ -1,0 +1,1037 @@
+Page: 2 left:1 upper:1
+Library-driven approach for fast implementation of the voxel spread function
+page=2 block=2101527076 (x=1 y=1) width=499 height=8 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=6
+to correct magnetic ?eld inhomogeneity artifacts for gradient-echo
+page=2 block=2101527076 (x=1 y=17) width=434 height=8 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=6
+sequences
+page=2 block=2101527076 (x=1 y=33) width=71 height=8 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=28
+Department of Radiology, The First Affiliated Hospital of USTC (Anhui Provincial Hospital), Division of Life Sciences and
+page=2 block=1454026445 (x=37 y=66) width=438 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+Medicine, University of Science and Technology of China, Hefei, Anhui, China
+page=2 block=1454026445 (x=37 y=76) width=279 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+High Magnetic Field Laboratory, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China
+page=2 block=1378497201 (x=37 y=104) width=430 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+Department of Radiology, The First Affiliated Hospital of USTC (Anhui Provincial Hospital), Division of Life Sciences and
+page=2 block=892931811 (x=37 y=133) width=438 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+Medicine, University of Science and Technology of China, Hefei, Anhui, China
+page=2 block=892931811 (x=37 y=143) width=279 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+The First Affiliated Hospital of USTC (Anhui Provincial Hospital), Division of Life Sciences and Medicine, University of Science
+page=2 block=1577167234 (x=37 y=171) width=457 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+and Technology of China, Hefei, Anhui, China
+page=2 block=1577167234 (x=37 y=181) width=165 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+Department of Radiation Oncology, Washington University in St. Louis, St. Louis, MO, USA
+page=2 block=1574873161 (x=37 y=209) width=328 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+Department of Radiology, The First Affiliated Hospital of USTC (Anhui Provincial Hospital), Division of Life Sciences and
+page=2 block=1591916281 (x=37 y=238) width=438 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+Medicine, University of Science and Technology of China, Hefei, Anhui, China
+page=2 block=1591916281 (x=37 y=248) width=279 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+(Received 8 December 2020; revised 15 March 2021; accepted for publication 12 April 2021;
+page=2 block=600958416 (x=37 y=265) width=369 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+published 16 May 2021)
+page=2 block=600958416 (x=37 y=275) width=96 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Purpose: Previously developed Voxel Spread Function (VSF) method (Yablonskiy, et al, MRM,
+page=2 block=1884231057 (x=37 y=292) width=400 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+2013;70:1283) provides solution to correct artifacts induced by macroscopic magnetic field inhomo-
+page=2 block=1884231057 (x=37 y=304) width=400 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+geneity in the images obtained by multi-Gradient-Recalled-Echo (mGRE) techniques. The goal of
+page=2 block=1884231057 (x=37 y=316) width=400 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+this study was to develop a library-driven approach for fast VSF implementation.
+page=2 block=1884231057 (x=37 y=328) width=319 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Methods: The VSF approach describes the contribution of the magnetic field inhomogeneity effects
+page=2 block=1884231057 (x=37 y=340) width=400 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+on the mGRE signal decay in terms of the F-function calculated from mGRE phase and magnitude
+page=2 block=1884231057 (x=37 y=352) width=400 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+images. A pre-calculated library accounting for a variety of background field gradients caused by
+page=2 block=1884231057 (x=37 y=364) width=400 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+magnetic field inhomogeneity was used herein to speed up the calculation of F-function. Quantitative
+page=2 block=1884231057 (x=37 y=376) width=400 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+R2* maps from the mGRE data collected from two healthy volunteers were generated using the
+page=2 block=1884231057 (x=37 y=388) width=400 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+library as validation.
+page=2 block=1884231057 (x=37 y=400) width=81 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Results: As compared with direct calculation of the F-function based on a voxel-wise approach, the
+page=2 block=1884231057 (x=37 y=411) width=400 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+new library-driven method substantially reduces computational time from several hours to few min-
+page=2 block=1884231057 (x=37 y=424) width=400 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+utes, while, at the same time, providing similar accuracy of R2* mapping.
+page=2 block=1884231057 (x=37 y=435) width=292 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Conclusion: The new procedure proposed in this study provides a fast post-processing algorithm
+page=2 block=1884231057 (x=37 y=447) width=400 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+that can be incorporated in the quantitative analysis of mGRE data to account for background field
+page=2 block=1884231057 (x=37 y=459) width=400 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+inhomogeneity artifacts, thus can facilitate the applications of mGRE-based quantitative techniques
+page=2 block=1884231057 (x=37 y=471) width=400 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+in clinical practices. © 2021 American Association of Physicists in Medicine [https://doi.org/10.1002/
+page=2 block=1884231057 (x=37 y=483) width=400 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+mp.14904]
+page=2 block=1884231057 (x=37 y=495) width=42 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+Key words: fast calculation, gradient echo, library, R2*, voxel spread function
+page=2 block=1492875057 (x=37 y=519) width=312 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+0094-2405/2021/48(7)/3714/7
+page=2 block=333793193 (x=151 y=698) width=104 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Ying Liu
+page=2 block=1068945248 (x=37 y=55) width=35 height=6 fontname=JLFHMN+AdvOT15976c6e wordint.min=1 wordint.max=4
+Qiong Ye
+page=2 block=937277082 (x=37 y=93) width=41 height=6 fontname=JLFHMN+AdvOT15976c6e wordint.min=1 wordint.max=5
+Feiyan Zeng
+page=2 block=882646447 (x=37 y=121) width=55 height=6 fontname=JLFHMN+AdvOT15976c6e wordint.min=1 wordint.max=5
+Xiaohua Jiang
+page=2 block=234740890 (x=37 y=160) width=62 height=6 fontname=JLFHMN+AdvOT15976c6e wordint.min=1 wordint.max=5
+Bin Cai
+page=2 block=79290250 (x=37 y=198) width=31 height=6 fontname=JLFHMN+AdvOT15976c6e wordint.min=1 wordint.max=5
+Weifu Lv and Jie Wena)
+page=2 block=1586151649 (x=37 y=224) width=102 height=8 fontname=JLFHMN+AdvOT15976c6e wordint.min=1 wordint.max=5
+1. INTRODUCTION
+page=2 block=179294202 (x=1 y=544) width=89 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=7
+It is well-known that macroscopic B0 magnetic field inhomo-
+page=2 block=1767230265 (x=1 y=568) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+geneity adversely affect quantitative measurements of relax-
+page=2 block=1767230265 (x=1 y=580) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+ation parameters obtained with multi-Gradient-Recalled-
+page=2 block=1767230265 (x=1 y=592) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Echo (mGRE) MRI if not accounted for.
+page=2 block=1767230265 (x=1 y=604) width=160 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+It was demonstrated recently that quantitative mGRE-
+page=2 block=1767230265 (x=13 y=616) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+based approach incorporating voxel spread function (VSF)
+page=2 block=1767230265 (x=1 y=628) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+method for field inhomogeneity correction1 provides quanti-
+page=2 block=1767230265 (x=1 y=637) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+tative information on brain tissue cellular structure2 as well as
+page=2 block=1767230265 (x=1 y=649) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+its alterations under healthy aging3 and different neurological
+page=2 block=1767230265 (x=1 y=661) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+3714
+page=2 block=593103894 (x=1 y=698) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+Med. Phys. 48 (7), July 2021
+page=2 block=727666004 (x=31 y=698) width=103 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+diseases.4–7 The VSF method takes advantage of utilizing
+page=2 block=1601935322 (x=265 y=541) width=244 height=9 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+both magnitude and phase information of mGRE data from a
+page=2 block=1601935322 (x=265 y=556) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+single scan, hence it saves acquisition time and avoids mis-
+page=2 block=1601935322 (x=265 y=568) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+registration errors. However, a direct implementation of the
+page=2 block=1601935322 (x=265 y=580) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+VSF method requires a large number of voxel-dependent con-
+page=2 block=1601935322 (x=265 y=592) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+volutions resulting in long computational time.
+page=2 block=1601935322 (x=265 y=604) width=186 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+In this study, we propose a library-driven approach for fast
+page=2 block=1601935322 (x=277 y=616) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+implementation of the VSF method. Instead of the direct
+page=2 block=1601935322 (x=265 y=628) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+voxel-wise calculation, a pre-calculated library accounting
+page=2 block=1601935322 (x=265 y=640) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+for a variety of background field gradients caused by mag-
+page=2 block=1601935322 (x=265 y=652) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+netic field inhomogeneity is used. The library-driven
+page=2 block=1601935322 (x=265 y=664) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=11
+© 2021 American Association of Physicists in Medicine
+page=2 block=414225167 (x=273 y=698) width=204 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+3714
+page=2 block=1803093683 (x=491 y=698) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Page: 3 left:1 upper:1
+3715
+page=3 block=975033189 (x=1 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Liu et al.: Fast implementation of F-function
+page=3 block=962287291 (x=37 y=1) width=162 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+3715
+page=3 block=628064884 (x=491 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Medical Physics, 48(7), July 2021
+page=3 block=109069556 (x=1 y=720) width=124 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+approach substantially reduces the computational time of
+page=3 block=1389509050 (x=1 y=26) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+VSF from hours to a few minutes, and provides similar accu-
+page=3 block=1389509050 (x=1 y=38) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+racy compared with the direct calculation. This can facilitate
+page=3 block=1389509050 (x=1 y=50) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+the applications of mGRE-based quantitative techniques in
+page=3 block=1389509050 (x=1 y=62) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+clinical practices.
+page=3 block=1389509050 (x=1 y=74) width=69 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+2. METHODS
+page=3 block=828326869 (x=1 y=110) width=63 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=7
+2.A. Brief overview of the VSF method
+page=3 block=1761217448 (x=1 y=128) width=179 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=5
+As described previously,1 MR signal in the presence of
+page=3 block=1817789863 (x=13 y=143) width=232 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+inhomogeneous magnetic field b(r) can be represented as
+page=3 block=1817789863 (x=1 y=158) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+follows: Z
+page=3 block=1817789863 (x=1 y=170) width=50 height=16 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=15
+~Sðk?TEÞ ¼ dr ?ðr?TEÞexp½2?ikrþi?bðrÞðTEÞþi?0ðrÞ
+page=3 block=788905599 (x=1 y=191) width=245 height=10 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=4
+(1)
+page=3 block=1678709153 (x=233 y=214) width=11 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+where k and r represent the k space and image space, respec-
+page=3 block=1544614339 (x=1 y=230) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+tively, ? is the gyromagnetic ratio, ?0(r) is the signal phase
+page=3 block=1544614339 (x=1 y=242) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+shift at TE = 0. Here, we only considered the gradient echo
+page=3 block=1544614339 (x=1 y=254) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+time TE and ignore the time during gradient echo acquisition.
+page=3 block=1544614339 (x=1 y=266) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+By using a linear approximation, b(r) and ?0(r) can be repre-
+page=3 block=1544614339 (x=1 y=278) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+sented in the nth voxel as follows:
+page=3 block=1544614339 (x=1 y=290) width=133 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+bnðrÞ ¼bn þ gn r ¼ bn þgn  ðrn þ ?rÞ
+page=3 block=2059592603 (x=49 y=305) width=148 height=11 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=4
+?0,nðrÞ ¼ ?0,n þ Gn r ¼ ?0,n þ Gn ðrn þ?rÞ
+page=3 block=2059592603 (x=37 y=325) width=172 height=11 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=4
+(2)
+page=3 block=2016828666 (x=233 y=308) width=11 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+(3)
+page=3 block=1688782916 (x=233 y=328) width=11 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Assuming each imaging voxel has volume V = axayaz,
+page=3 block=1064154107 (x=13 y=346) width=232 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+then ?rx,y,z ? [?0.5ax,y,z, 0.5ax,y,z]. Thus, by substituting b(r)
+page=3 block=1064154107 (x=1 y=357) width=244 height=9 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+and ?0(r) using Eqs. (2) and (3) and assuming that the “ideal”
+page=3 block=1064154107 (x=1 y=370) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+signal ?(r; TE) only slightly varies across the voxels, the MR
+page=3 block=1064154107 (x=1 y=381) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+signal in Eq. (1) can be rewritten for discrete imaging voxels
+page=3 block=1064154107 (x=1 y=394) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+as follows:
+page=3 block=1064154107 (x=1 y=406) width=42 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+??nðTEÞexp i?bn TE þ i?0,nexpð2?ikrnÞ
+page=3 block=1390301622 (x=52 y=412) width=190 height=21 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=5
+
+page=3 block=415565467 (x=110 y=412) width=4 height=11 fontname=JLFHPG+AdvP4C4E46 wordint.min=38 wordint.max=38
+~Sðk?TEÞ¼
+page=3 block=973936431 (x=4 y=423) width=42 height=8 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+Pðq?qn?TEÞ
+page=3 block=1756207614 (x=52 y=443) width=48 height=11 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=31
+n
+page=3 block=1214133948 (x=55 y=435) width=3 height=4 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=14 wordint.max=14
+(4)
+page=3 block=2015301874 (x=233 y=461) width=11 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+where ?n(TE) is the “ideal” signal from the nth voxel that is
+page=3 block=712627377 (x=1 y=475) width=244 height=10 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+free from B0-field inhomogeneity artifacts. The function P(q;
+page=3 block=712627377 (x=1 y=489) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+q n; TE) has the form:
+page=3 block=712627377 (x=1 y=501) width=86 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Y
+page=3 block=782228073 (x=108 y=506) width=12 height=11 fontname=JLFHPG+AdvP4C4E46 wordint.min=1 wordint.max=2
+Pðq?qn?TEÞ ¼ sincqj qn,jðTEÞ
+page=3 block=399373008 (x=46 y=507) width=153 height=22 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=2
+(5)
+page=3 block=391506011 (x=233 y=521) width=11 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+j¼x,y,z
+page=3 block=1936550492 (x=104 y=531) width=21 height=6 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=14
+qj ¼ kjaj ¼
+page=3 block=594651850 (x=200 y=546) width=45 height=11 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=8
+F1o=r2, ea1c=h2þ1d=imNeqn,s.i.o.,n1=2(j =1=xN,qyi,s thez)1, D normalized
+page=3 block=1532139270 (x=1 y=547) width=244 height=21 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+k-space. Nq represents number of q-points used in the calcula-
+page=3 block=1677568775 (x=1 y=573) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+phase dispersion
+page=3 block=2069500590 (x=175 y=585) width=70 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+across the nth voxel:
+page=3 block=2069500590 (x=1 y=594) width=79 height=9 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+tion. The parameters qn,j(TE) describe
+page=3 block=1431556341 (x=1 y=585) width=167 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+1 
+page=3 block=452364286 (x=110 y=607) width=13 height=13 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+
+page=3 block=350069300 (x=178 y=607) width=4 height=11 fontname=JLFHPG+AdvP4C4E46 wordint.min=38 wordint.max=38
+qn,jðTEÞ¼ g?,j TE þgp,j
+page=3 block=1060703587 (x=64 y=618) width=113 height=11 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+(6)
+page=3 block=1957078537 (x=233 y=620) width=11 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+2?
+page=3 block=1514214932 (x=107 y=628) width=10 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+where g?,j ¼ ?  gn,j  aj and gp,j ¼ ? Gn,j aj are the gradients
+page=3 block=594858858 (x=1 y=640) width=244 height=11 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+for the nth voxel calculated from the spatially unwrapped fre-
+page=3 block=594858858 (x=1 y=652) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+quency ? and phase ?0, respectively.
+page=3 block=594858858 (x=1 y=667) width=146 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+By applying Fourier transform to Eq. (4), the image of
+page=3 block=594858858 (x=13 y=679) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+mGRE-MRI Sn(TE) can be expressed as follows:
+page=3 block=594858858 (x=1 y=691) width=193 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+SnðTEÞ¼ N1 ?~Sðk?TEÞ expð2?ikrnÞ¼ ??nmðTEÞ?mðTEÞ (7)
+page=3 block=1423016050 (x=274 y=26) width=234 height=17 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=4
+m
+page=3 block=352776719 (x=418 y=40) width=5 height=4 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=10 wordint.max=10
+k
+page=3 block=1202042637 (x=323 y=42) width=4 height=3 fontname=JLFHPC+AdvTT7e3dbf7c.BI wordint.min=14 wordint.max=14
+where ?nm(TE) is a voxel-dependent convolution kernel,
+page=3 block=1112527632 (x=265 y=57) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+which in the 3D case can be presented as follows:
+page=3 block=1112527632 (x=265 y=68) width=196 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+?nmðTEÞ ¼ expði?mTEþi?0Þ?x ?y  ?z
+page=3 block=440736059 (x=305 y=83) width=164 height=11 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=4
+(8)
+page=3 block=955324150 (x=497 y=87) width=11 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+where the voxel indices n and m are considered as 3D vectors:
+page=3 block=1384563514 (x=265 y=105) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+(nx, ny, nz) and (mx, my, mz), ?m is the frequency shifts. The
+page=3 block=1852661033 (x=265 y=117) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+factors ?j (j = x,y,z) have the form:
+page=3 block=1548946718 (x=265 y=129) width=138 height=16 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+?j ¼ ?sinc qqm,jðTEÞ
+page=3 block=1548946718 (x=295 y=145) width=96 height=11 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+exp2?iqnj mj
+page=3 block=1814423236 (x=397 y=134) width=82 height=21 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=20
+(9)
+page=3 block=140404585 (x=497 y=151) width=11 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+q
+page=3 block=207546206 (x=317 y=157) width=3 height=4 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=14 wordint.max=14
+In some circumstance, Hanning filter is often employed to
+page=3 block=1218519094 (x=277 y=173) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+reduce Gibbs ringing artifacts and improve the signal-to-
+page=3 block=1218519094 (x=265 y=185) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+noise ratio. For images obtained with the Hanning filter, Eq.
+page=3 block=1218519094 (x=265 y=197) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+(9) should be modified by adding an dditional factor
+page=3 block=1218519094 (x=265 y=207) width=244 height=11 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+cos2ð?qÞ. In the 2D case, the factor ?z ¼ sinc qm,zðTEÞ .
+page=3 block=1218519094 (x=265 y=218) width=221 height=11 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Using the similarity approximation:
+page=3 block=1218519094 (x=277 y=233) width=141 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+?mðTEÞ ) ?nðTEÞjjSSmnðð00ÞÞjj
+page=3 block=200404000 (x=336 y=247) width=102 height=24 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=4
+(10)
+page=3 block=1894758168 (x=492 y=257) width=16 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+Eq. (7) reduces to.
+page=3 block=191945292 (x=277 y=282) width=73 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+SnðTEÞ¼ ?nðTEÞFnðTEÞ
+page=3 block=1242688388 (x=335 y=297) width=104 height=10 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+(11)
+page=3 block=1317375498 (x=492 y=300) width=16 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+where the F-function, describing the influence of B0 field
+page=3 block=1130346421 (x=265 y=317) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+inhomogeneity on images, is given by,
+page=3 block=1130346421 (x=265 y=329) width=152 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+1
+page=3 block=1130346421 (x=365 y=346) width=5 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=21 wordint.max=21
+FnðTEÞ ¼ jSnð0Þj?m ?nmðTEÞjSmð0Þj (12)
+page=3 block=1316005672 (x=313 y=350) width=195 height=17 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=4
+In practice, the sum in Eq. (12) is taken over several voxels
+page=3 block=192428201 (x=277 y=378) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+adjacent to a given voxel n. Even for few neighbors included
+page=3 block=192428201 (x=265 y=389) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+in this sum (as shown previously1), a large number of voxel-
+page=3 block=192428201 (x=265 y=399) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+dependent convolutions leads to long computational time.
+page=3 block=192428201 (x=265 y=413) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+For a typical head scan using mGRE sequence with a matrix
+page=3 block=192428201 (x=265 y=425) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+size of 256 × 256 × 72 × 10 (readout, phase encoding,
+page=3 block=192428201 (x=265 y=437) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=9
+slices, echoes), the calculation time of the F-function in Mat-
+page=3 block=192428201 (x=265 y=449) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+lab using 4 neighbors on each dimension could take several
+page=3 block=192428201 (x=265 y=461) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+hours on a computer with typical configurations.
+page=3 block=192428201 (x=265 y=473) width=193 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+2.B. Library-driven approach
+page=3 block=1768882706 (x=265 y=503) width=136 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+In the voxel-wise direct calculation, factors ? are calcu-
+page=3 block=1463022229 (x=277 y=521) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+lated independently for each voxel. As mentioned above, this
+page=3 block=1463022229 (x=265 y=533) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+procedure usually costs long computational time. In this
+page=3 block=1463022229 (x=265 y=545) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+study, we propose a new way to substantially accelerate the
+page=3 block=1463022229 (x=265 y=557) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+calculation by using a pre-calculated library for ?. As shown
+page=3 block=1463022229 (x=265 y=569) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+in Eq. (9), the factors ? depend on three parameters: the phase
+page=3 block=1463022229 (x=265 y=581) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+dispersion qm, neighbor index (n-m), and Nq. When phased-
+page=3 block=1463022229 (x=265 y=593) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+array coils and channel combination methods8,9 are used, ini-
+page=3 block=1463022229 (x=265 y=602) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+tial phase ?0 are eliminated, and the parameter qm depends
+page=3 block=1463022229 (x=265 y=617) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+only on the frequency gradient g?. Relatively large maximum
+page=3 block=1463022229 (x=265 y=629) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+g? value should be chosen to sufficiently cover the gradient
+page=3 block=1463022229 (x=265 y=641) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+variations of frequency ? for library building. In our case of
+page=3 block=1463022229 (x=265 y=652) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+imaging the human brain, we found maximum g? value of
+page=3 block=1463022229 (x=265 y=664) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+1500 rads/voxel is sufficient. When using an accuracy of 0.1
+page=3 block=1463022229 (x=265 y=676) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+rads/voxel, a total number of 30,000 points is sufficient to
+page=3 block=1463022229 (x=265 y=688) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+Page: 4 left:1 upper:1
+3716
+page=4 block=472991420 (x=1 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Liu et al.: Fast implementation of F-function
+page=4 block=1455855843 (x=37 y=1) width=162 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+3716
+page=4 block=1202220987 (x=491 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+FIG. 1. Simulation of ? as a function of the distance from a given voxel to the neighboring voxel (?8 to 8) and the parameter qm? (2, ?2). (a–e): ? for the non-
+page=4 block=256346753 (x=1 y=651) width=508 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+filtered data; (f–j): ? for the Hanning filtered data. The factor ? calculated with Nq= 512 (a and f), Nq = 256 (b and g) and Nq = 128 (d and i) points are shown.
+page=4 block=256346753 (x=1 y=661) width=508 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+The corresponding differences are shown in c, e, h, and j. It turns out that when using a sufficient large number of q-points in the sum in Eq. (9) (Nq ? 256), the
+page=4 block=256346753 (x=1 y=671) width=508 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+changes of the values of ? are small (<1.5 × 10?3 for the non-filtered data and <2.5 × 10?10 for the Hanning filtered data). [Color figure can be viewed at wile
+page=4 block=256346753 (x=1 y=680) width=508 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Medical Physics, 48(7), July 2021
+page=4 block=425015667 (x=1 y=720) width=124 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+build the library for ?. Although ? also depends on the num-
+page=4 block=2075568954 (x=1 y=26) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+ber of q-points in the sum in Eq. (9), our simulation shows
+page=4 block=2075568954 (x=1 y=38) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+that as long as using a sufficient large Nq ? 256, the factor ?
+page=4 block=2075568954 (x=1 y=49) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+is fairly stable (see Fig. 1).
+page=4 block=2075568954 (x=1 y=62) width=105 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+According to Eq. (9), changing the sign of either qm or
+page=4 block=2075568954 (x=13 y=74) width=232 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+neighbor index ?N = (n – m) will result in a complex conju-
+page=4 block=2075568954 (x=1 y=85) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+gate of ?, one can only use non-negative values of q and non-
+page=4 block=2075568954 (x=1 y=98) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+negative neighbor index ?N for calculations. This can further
+page=4 block=2075568954 (x=1 y=109) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+reduce the computational time for library building. This
+page=4 block=2075568954 (x=1 y=122) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+library of ? is then used for F-function calculation: for each
+page=4 block=2075568954 (x=1 y=134) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+voxel and its neighbors with particular gm values, correspond-
+page=4 block=2075568954 (x=1 y=146) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+ing values of ? can be readily found from the library. Impor-
+page=4 block=2075568954 (x=1 y=158) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+tantly, replacing the direct computation by this new library-
+page=4 block=2075568954 (x=1 y=170) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+driven approach substantially reduces the computing time
+page=4 block=2075568954 (x=1 y=182) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+from hours to a few minutes. As long as including suffi-
+page=4 block=2075568954 (x=1 y=194) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+ciently large Nq and number of neighboring voxels, the
+page=4 block=2075568954 (x=1 y=206) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+library only needs to be built once and can be used for future
+page=4 block=2075568954 (x=1 y=217) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+calculations. The detailed procedure of library building and
+page=4 block=2075568954 (x=1 y=229) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+F-function calculation is shown in Fig. 2: First, parameters
+page=4 block=2075568954 (x=1 y=241) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+are determined for library building. When using a maximum
+page=4 block=2075568954 (x=1 y=253) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+value of 1500 rads/voxel and an accuracy of 0.1 rads/voxel, a
+page=4 block=2075568954 (x=1 y=265) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+total number of 30,000 points of g? ranging from ?1500 to
+page=4 block=2075568954 (x=1 y=276) width=244 height=9 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+1499.9 rads/voxel are used to build the library for ?. For Han-
+page=4 block=2075568954 (x=1 y=289) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+ning filtered data, 4 neighbors (?N = n – m = [?2, ?1, 0, 1,
+page=4 block=2075568954 (x=1 y=300) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+2]) is enough for each dimension. For non-Hanning filtered
+page=4 block=2075568954 (x=1 y=313) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+data, more neighbors (usually more than 8) are needed. As
+page=4 block=2075568954 (x=1 y=325) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+shown in Fig. 1, Nq = 256 can be used for ? calculation (step
+page=4 block=2075568954 (x=1 y=337) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+yonlinelibrary.com]
+page=4 block=2145896000 (x=1 y=692) width=62 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=14
+A in Fig. 2). Second, a library of ? is built using the parame-
+page=4 block=1279740095 (x=265 y=26) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+ters determined in step A, and the indices n1 and n2 represent
+page=4 block=1279740095 (x=265 y=38) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+different g? values and neighbors ?N (step B in Fig. 2). At
+page=4 block=1279740095 (x=265 y=49) width=244 height=9 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+the same time, magnitude and phase images are obtained
+page=4 block=1279740095 (x=265 y=62) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+from the complex dataset (step C in Fig. 2). Magnitude
+page=4 block=1279740095 (x=265 y=74) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+images of the 1st echo are used as an approximation of |S(0)|
+page=4 block=1279740095 (x=265 y=86) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+in Eq. (12). Frequency maps are obtained by performing a
+page=4 block=1279740095 (x=265 y=98) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+linear fitting of the phase images (step D in Fig. 2). Gradients
+page=4 block=1279740095 (x=265 y=110) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+g? are calculated from the frequency maps (step E in Fig. 2).
+page=4 block=1279740095 (x=265 y=122) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Indices n1 and n2 are calculated for g? and neighbor index
+page=4 block=1279740095 (x=265 y=134) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+?N using parameters in step A:
+page=4 block=1279740095 (x=265 y=145) width=124 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+n1 ¼ g? þ1500þ1 þ 1
+page=4 block=1279740095 (x=339 y=160) width=96 height=17 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+0:1 2
+page=4 block=1279740095 (x=375 y=177) width=42 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=21 wordint.max=21
+(13)
+page=4 block=2095677157 (x=492 y=169) width=16 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+n2 ¼ ?N þ 2þ1 þ 1
+page=4 block=852026681 (x=345 y=193) width=84 height=14 fontname=JLFHPF+AdvP4C4E74 wordint.min=1 wordint.max=4
+(14)
+page=4 block=1943855334 (x=492 y=199) width=16 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+2
+page=4 block=94919826 (x=407 y=207) width=5 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=21 wordint.max=21
+Indices n1 and n2 help to quickly locate ? values in the
+page=4 block=847320212 (x=277 y=222) width=232 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+library (step F in Fig. 2), which avoids direct calculation of
+page=4 block=847320212 (x=265 y=234) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+Eq. (9) and save computational time. Last, ?, |S(0)|, frequency
+page=4 block=847320212 (x=265 y=246) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+and g? values are used to calculate F-function (step G in
+page=4 block=847320212 (x=265 y=258) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+Fig. 2).
+page=4 block=847320212 (x=265 y=270) width=30 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+2.C. Image acquisition and postprocessing
+page=4 block=1201004240 (x=265 y=295) width=202 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=5
+Images were collected from two healthy volunteers (both
+page=4 block=1406848276 (x=277 y=314) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+are 26 years old female) using a 3T MRI scanner (GE Dis-
+page=4 block=1406848276 (x=265 y=326) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+covery 750w) equipped with a 12-channel phased-array head
+page=4 block=1406848276 (x=265 y=338) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Page: 5 left:1 upper:1
+3717
+page=5 block=349259569 (x=1 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Liu et al.: Fast implementation of F-function
+page=5 block=785306763 (x=37 y=1) width=162 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+3717
+page=5 block=1204088028 (x=491 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+FIG. 2. Flowchart of library building, ? values matching and F-function calculation. Librarybuilding of ?(stepA and B) is marked by the dashedbox. Magnitudes
+page=5 block=1123236701 (x=1 y=461) width=508 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+and phases are obtained from the complex images (step C), and used for later steps (D and G) of F-function calculation. Frequency maps are calculated from the
+page=5 block=1123236701 (x=1 y=471) width=508 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+phase images (step D) and usedtocalculate gradients g?(stepE). In stepF, ? valuesare matched in the library, and usedinF-functioncalculation (step G).
+page=5 block=1123236701 (x=1 y=481) width=484 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Medical Physics, 48(7), July 2021
+page=5 block=1552221437 (x=1 y=720) width=124 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+coil. All studies were approved by the IRB of The First Affili-
+page=5 block=79161706 (x=1 y=504) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+ated Hospital of USTC. All the participating healthy volun-
+page=5 block=1685407532 (x=1 y=516) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+teers provided written consents.
+page=5 block=1057468716 (x=1 y=528) width=125 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+High-resolution datasets with a voxel size of
+page=5 block=1272051933 (x=13 y=540) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+1 × 1 × 2 mm3 were
+page=5 block=1888924788 (x=1 y=550) width=88 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+acquired using a three-dimensional
+page=5 block=1041547629 (x=95 y=552) width=150 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+(3D) mGRE sequence (ESWAN on GE scanners) with a flip
+page=5 block=1016633682 (x=1 y=564) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+angle of 20° and TR = 50.4 ms. For each acquisition, 10
+page=5 block=2018220300 (x=1 y=576) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+echoes were collected with first echo time TE1 = 3.4 ms
+page=5 block=1027319653 (x=1 y=588) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+and echo spacing ?TE = 3.8 ms. The total acquisition time
+page=5 block=633079302 (x=1 y=599) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+was around 11 min. The complex images from different
+page=5 block=1561745898 (x=1 y=612) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+channels were combined using a previously introduced
+page=5 block=2033268925 (x=1 y=624) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+method.8,9 The combined mGRE datasets were then used for
+page=5 block=2033268925 (x=1 y=633) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+calculation of the F-function and transverse relaxation rate
+page=5 block=2033268925 (x=1 y=648) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+constant (R2*). The libraries were built for three different
+page=5 block=2033268925 (x=1 y=660) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+values of the parameter Nq (512, 256, 128). The F-function
+page=5 block=2033268925 (x=1 y=672) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+was calculated with 4 neighbors on each dimension for
+page=5 block=2033268925 (x=1 y=684) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+Hanning-filtered data and 16 neighbors for non-filtered data.
+page=5 block=2033268925 (x=1 y=696) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+A maximum value of 1500 rads/voxel and a step of 0.1 rads/
+page=5 block=424786033 (x=265 y=504) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+voxel were used for the gradient gm. R2* maps were calcu-
+page=5 block=424786033 (x=265 y=516) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+lated by performing a least square fitting of the mGRE data-
+page=5 block=424786033 (x=265 y=528) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+sets using a mono-exponential model. Previous numerical
+page=5 block=424786033 (x=265 y=540) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+simulations1 showed that the field inhomogeneity can distort
+page=5 block=424786033 (x=265 y=550) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+linear behavior of the signal phase. Hence, we used qm <
+page=5 block=424786033 (x=265 y=564) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+0.3 as a criteria to only use short TE for R2* fitting in
+page=5 block=424786033 (x=268 y=576) width=241 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+those regions where the field inhomogeneity is severe. All
+page=5 block=424786033 (x=265 y=588) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+computations were done in Matlab2019a (The MathWorks,
+page=5 block=424786033 (x=265 y=600) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+Inc., Natick MA, USA) on a computer with standard config-
+page=5 block=424786033 (x=265 y=612) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+urations: 3.2 GHz CPU and 16 GB RAM.
+page=5 block=424786033 (x=265 y=624) width=169 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+3. RESULTS
+page=5 block=1545077099 (x=265 y=654) width=60 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=7
+The comparison of the F-functions calculated using direct
+page=5 block=867093003 (x=277 y=672) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+voxel-wise calculation and library-driven approach is shown
+page=5 block=867093003 (x=265 y=684) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+in Fig. 3. The direct calculation of the F-function takes about
+page=5 block=867093003 (x=265 y=696) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Page: 6 left:1 upper:1
+3718
+page=6 block=1135278099 (x=1 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Liu et al.: Fast implementation of F-function
+page=6 block=1470911015 (x=37 y=1) width=162 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+3718
+page=6 block=1268974304 (x=491 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+FIG. 3. Comparison of the F-function at TE = 37.5 ms (a–c) and R2* maps (d–f) using voxel-wise method (a and d) and new library-driven method (b and e).
+page=6 block=244872973 (x=1 y=346) width=508 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+The differences are shown in c and f. The Hanning-filtered images were used to calculate F-function and R2* maps.
+page=6 block=244872973 (x=1 y=357) width=365 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+FIG. 4. Comparison of R2* maps calculated using voxel-wise method (a) and new library-driven method (b). R2* distributions within different ROIs (Black:
+page=6 block=451312813 (x=1 y=676) width=508 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+brain; Red: brain within yellow dashed box; Blue: brain outside yellow dashed box) are shown in c, with solid lines and circles representing R2* distribution cal-
+page=6 block=451312813 (x=1 y=686) width=508 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+culated from a and b, respectively. [Color figure can be viewed at wileyonlinelibrary.com]
+page=6 block=451312813 (x=1 y=696) width=282 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Medical Physics, 48(7), July 2021
+page=6 block=795748540 (x=1 y=720) width=124 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+(b)
+page=6 block=2081000371 (x=186 y=46) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(a)
+page=6 block=837073696 (x=27 y=47) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(d)
+page=6 block=416201381 (x=27 y=203) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(e)
+page=6 block=1178290888 (x=186 y=203) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+5 hrs and 30 min on a computer with a 3.2 GHz CPU and
+page=6 block=1985938863 (x=1 y=386) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+16 GB RAM, while the new method requires only 3 min on
+page=6 block=1985938863 (x=1 y=398) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+the same computer. The library building process using
+page=6 block=1985938863 (x=1 y=410) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+parameters introduced in the “Methods” costs less than 30 s
+page=6 block=1985938863 (x=1 y=422) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+on the same computer. The differences between these two
+page=6 block=1985938863 (x=1 y=434) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+methods are below 10-4 for the F-function and 10-3 for R2*,
+page=6 block=1985938863 (x=1 y=443) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+respectively (panels C, F).
+page=6 block=1985938863 (x=1 y=457) width=103 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+As shown in Fig. 4, we compared R2* distributions within
+page=6 block=1985938863 (x=13 y=469) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+different ROIs. In the pre-frontal ROI marked by the yellow
+page=6 block=1985938863 (x=1 y=481) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+dashed box, standard deviation (SD) values of R2*
+page=6 block=1985938863 (x=1 y=493) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=11
+(c)
+page=6 block=1660325375 (x=347 y=46) width=9 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(f)
+page=6 block=251664534 (x=347 y=203) width=8 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+distributions calculated using voxel-wise method and new
+page=6 block=334593716 (x=265 y=386) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+library-driven method are 4.184 and 4.188 1/s, respectively. In
+page=6 block=334593716 (x=265 y=398) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+the brain outside yellow dashed box, corresponding SD val-
+page=6 block=334593716 (x=265 y=410) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+ues of R2* distributions for the two methods are 4.068 and
+page=6 block=334593716 (x=265 y=421) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+4.067 1/s, respectively.
+page=6 block=334593716 (x=265 y=434) width=90 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+R2* maps calculated using the F-function with different
+page=6 block=334593716 (x=277 y=445) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+number of q-points Nq are shown in Fig. 5. Accurate R2* cal-
+page=6 block=334593716 (x=265 y=457) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+culations are guaranteed when sufficient large number of q-
+page=6 block=334593716 (x=265 y=469) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+points in Eq. (9) (Nq ? 256) are employed, which coincides
+page=6 block=334593716 (x=265 y=480) width=244 height=9 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+with the simulation results.
+page=6 block=334593716 (x=265 y=493) width=107 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Page: 7 left:1 upper:1
+3719
+page=7 block=487416600 (x=1 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Liu et al.: Fast implementation of F-function
+page=7 block=1271041075 (x=37 y=1) width=162 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+3719
+page=7 block=1141500277 (x=491 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+FIG. 5. Comparison of R2* maps calculated using F-function with different number of q- points Nq (a and f: 512 points; b and g: 256 points; d and i: 128 points).
+page=7 block=1544895390 (x=1 y=236) width=508 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+R2* maps were calculated from non-filtered (a–e) and Hanning-filtered (f–j) data.
+page=7 block=1544895390 (x=1 y=245) width=258 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Medical Physics, 48(7), July 2021
+page=7 block=712410791 (x=1 y=720) width=124 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+(a)
+page=7 block=1971991758 (x=14 y=43) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(b)
+page=7 block=2126723403 (x=113 y=43) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(c)
+page=7 block=201274566 (x=209 y=43) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(f)
+page=7 block=354605216 (x=14 y=142) width=8 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(g)
+page=7 block=824881806 (x=113 y=142) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(h)
+page=7 block=1447353473 (x=209 y=142) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+4. DISCUSSION AND CONCLUSIONS
+page=7 block=611289995 (x=1 y=283) width=175 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+Macroscopic B0 magnetic field inhomogeneity adversely
+page=7 block=663466110 (x=13 y=301) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+affects MRI images, especially the ones based on a gradient
+page=7 block=663466110 (x=1 y=313) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+echo acquisition. They not only lead to image distortions,10
+page=7 block=663466110 (x=1 y=323) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+but also degrade quantitative measurements of relaxation
+page=7 block=663466110 (x=1 y=337) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+parameters8,11–15 if not accounted for. Numerous methods
+page=7 block=663466110 (x=1 y=346) width=244 height=9 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+have been proposed to correct for these adverse effects,
+page=7 block=663466110 (x=1 y=361) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+including correcting methods during data collection.16–24 and
+page=7 block=663466110 (x=1 y=370) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+post processing approaches.25–30 In this paper we focus on
+page=7 block=663466110 (x=1 y=382) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+the VSF method1 that allows accounting for the effects of
+page=7 block=663466110 (x=1 y=394) width=244 height=8 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+magnetic field inhomogeneity in data obtained with mGRE
+page=7 block=663466110 (x=1 y=409) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+sequences.
+page=7 block=663466110 (x=1 y=421) width=42 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=21
+Quantitative parameters that are derived using mGRE-
+page=7 block=663466110 (x=13 y=433) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+based techniques, such as R2* mapping, are usually suffered
+page=7 block=663466110 (x=1 y=445) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+from magnetic field inhomogeneity artifacts. These artifacts
+page=7 block=663466110 (x=1 y=457) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+are extremely severe in those regions that are close to the
+page=7 block=663466110 (x=1 y=469) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+tissue-air interfaces, i.e. in sinuses. These artifacts often dete-
+page=7 block=663466110 (x=1 y=481) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+riorate the quantitative measurements, thus hinder the clinical
+page=7 block=663466110 (x=1 y=493) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+application of these quantitative techniques. The VSF method
+page=7 block=663466110 (x=1 y=504) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+was proposed previously to correct for this effect, however,
+page=7 block=663466110 (x=1 y=516) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+direct voxel-by-voxel calculations of the F-function requires
+page=7 block=663466110 (x=1 y=528) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+long computational time. In this study, we presented a
+page=7 block=663466110 (x=1 y=540) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+library-driven approach for fast VSF implementation. By
+page=7 block=663466110 (x=1 y=552) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=8
+using a pre-calculated library, the calculation time of the F-
+page=7 block=663466110 (x=1 y=564) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+function has been reduced from 5 hrs and 30 min to 3 min
+page=7 block=663466110 (x=1 y=576) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+on a computer with a standard configuration (3.2 GHz CPU
+page=7 block=663466110 (x=1 y=588) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+and 16 GB RAM). By comparing directly with the voxel-
+page=7 block=663466110 (x=1 y=600) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+wise method, we demonstrated that the library-driven method
+page=7 block=663466110 (x=1 y=612) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+provided similar accuracy compared with the direct calcula-
+page=7 block=663466110 (x=1 y=624) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+tion (Fig. 3), even in the high susceptibility area such as pre-
+page=7 block=663466110 (x=1 y=636) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+frontal regions (Fig. 4).
+page=7 block=663466110 (x=1 y=648) width=93 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Based on simulations (Fig. 1) and experiments (Fig. 5),
+page=7 block=663466110 (x=13 y=660) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+we demonstrated that by selecting a sufficient number of q-
+page=7 block=663466110 (x=1 y=672) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+points (Nq) and the number of neighboring voxels included in
+page=7 block=663466110 (x=1 y=684) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+the sum in Eq. (9) to build the library, the new library-driven
+page=7 block=663466110 (x=1 y=696) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+(d)
+page=7 block=1129433283 (x=312 y=43) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(e)
+page=7 block=864138492 (x=408 y=43) width=10 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(i)
+page=7 block=1810518740 (x=312 y=142) width=7 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+(j)
+page=7 block=295180183 (x=408 y=142) width=8 height=5 fontname=JLFONC+Helvetica-Bold wordint.min=1 wordint.max=17
+method substantially reduces computational time while, at
+page=7 block=1547883191 (x=265 y=277) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+the same time, provides similar accuracy compared with the
+page=7 block=1547883191 (x=265 y=289) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+direct voxel-wise calculation. The reduction of computational
+page=7 block=1547883191 (x=265 y=301) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+time makes it feasible to implement the VSF method with
+page=7 block=1547883191 (x=265 y=313) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+more neighbors, which is necessary for non- filtered data.
+page=7 block=1547883191 (x=265 y=325) width=228 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+We demonstrated the capability of the proposed method to
+page=7 block=1547883191 (x=277 y=337) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+substantially reduce B0 inhomogeneity artifacts on quantita-
+page=7 block=1547883191 (x=265 y=349) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+tive R2* mapping. However, it should be noted that the pro-
+page=7 block=1547883191 (x=265 y=361) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+posed method is based on certain “linear” approximation
+page=7 block=1547883191 (x=265 y=373) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+[Eqs. (2) and (3)] that is appropriate for high resolution MRI.
+page=7 block=1547883191 (x=265 y=385) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+It might fail to correct low resolution data and data near the
+page=7 block=1547883191 (x=265 y=397) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+edge of an object where the gradients gm are strong. If the
+page=7 block=1547883191 (x=265 y=409) width=244 height=7 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+“linear” approximation is not sufficient for calculating effect
+page=7 block=1547883191 (x=265 y=421) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+of field inhomogeneity across the voxel, then Eq. (5) should
+page=7 block=1547883191 (x=265 y=433) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+be substituted by a more general integral that is taken across a
+page=7 block=1547883191 (x=265 y=445) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+single voxel. In this case, the distribution of magnetic field
+page=7 block=1547883191 (x=265 y=457) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+and phases can be found from an independent experiment
+page=7 block=1547883191 (x=265 y=469) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+with higher resolution.
+page=7 block=1547883191 (x=265 y=481) width=90 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+In conclusion, we presented a library-driven approach for
+page=7 block=1547883191 (x=277 y=493) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+fast VSF method implementation. The new procedure pro-
+page=7 block=1547883191 (x=265 y=504) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+vides a fast way to correct mGRE-based images for back-
+page=7 block=1547883191 (x=265 y=516) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+ground field inhomogeneity artifacts, thus can facilitate the
+page=7 block=1547883191 (x=265 y=528) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+applications of mGRE-based quantitative techniques in clini-
+page=7 block=1547883191 (x=265 y=540) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+cal practices.
+page=7 block=1547883191 (x=265 y=552) width=51 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+ACKNOWLEDGMENTS
+page=7 block=1650113431 (x=265 y=580) width=108 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=21
+This work was partially supported by “the Fundamental
+page=7 block=1528769018 (x=277 y=602) width=232 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+Research Funds for the Central Universities”
+page=7 block=1528769018 (x=265 y=614) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=18
+(WK9110000119), the National Natural Science Foundation
+page=7 block=1528769018 (x=265 y=626) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+of China (22077116) and the Collaborative Innovation Pro-
+page=7 block=1528769018 (x=265 y=638) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+gram of Hefei Science Center, CAS (2020HSC-CIP010).
+page=7 block=1528769018 (x=265 y=650) width=224 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+CONFLICT OF INTEREST
+page=7 block=183155105 (x=265 y=677) width=118 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=5
+The authors have no conflicts to disclose.
+page=7 block=1089930529 (x=277 y=695) width=164 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Page: 8 left:1 upper:1
+3720
+page=8 block=2001115307 (x=1 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Liu et al.: Fast implementation of F-function
+page=8 block=1429483328 (x=37 y=1) width=162 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+3720
+page=8 block=172794870 (x=491 y=1) width=18 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=17
+Medical Physics, 48(7), July 2021
+page=8 block=1927963027 (x=1 y=720) width=124 height=5 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+5. AVAILABILITY OF DATA
+page=8 block=833240229 (x=1 y=32) width=128 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+The data that support the findings of this study are avail-
+page=8 block=1167088639 (x=13 y=50) width=232 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+able on request from the corresponding author. The data are
+page=8 block=1167088639 (x=1 y=62) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+not publicly available due to privacy or ethical restrictions.
+page=8 block=1167088639 (x=1 y=74) width=231 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Ying Liu and Qiong Ye equally contributed to this work.
+page=8 block=707531688 (x=1 y=109) width=178 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+a)Author to whom correspondence should be addressed. Electronic mail: jie-
+page=8 block=707531688 (x=1 y=117) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+wen@ustc.edu.cn; Telephone:+86-0551-62283486.
+page=8 block=707531688 (x=1 y=128) width=164 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+REFERENCES
+page=8 block=191568263 (x=1 y=156) width=68 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=21
+1. Yablonskiy DA, Sukstanskii AL, Luo J, Wang X. Voxel spread func-
+page=8 block=1799635803 (x=4 y=173) width=241 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+tion method for correction of magnetic field inhomogeneity effects in
+page=8 block=1799635803 (x=15 y=183) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+quantitative gradient-echo-based MRI. Magn Reson Med.
+page=8 block=1799635803 (x=15 y=192) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=14
+2013;70:1283–1292.
+page=8 block=1799635803 (x=15 y=201) width=64 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=14
+2. Wen J, Goyal MS, Astafiev SV, Raichle ME, Yablonskiy DA. Geneti-
+page=8 block=1799635803 (x=4 y=211) width=241 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+cally defined cellular correlates of the baseline brain MRI signal. Proc
+page=8 block=1799635803 (x=15 y=221) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Natl Acad Sci U S A.2018;115:E9727–E9736.
+page=8 block=1799635803 (x=15 y=229) width=145 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+3. Zhao Y, Wen J, Cross AH, Yablonskiy DA. On the relationship between
+page=8 block=1799635803 (x=4 y=240) width=241 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+cellularand hemodynamic properties of the human brain cortex through-
+page=8 block=1799635803 (x=15 y=249) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+out adult lifespan. NeuroImage. 2016;133:417–429.
+page=8 block=1799635803 (x=15 y=258) width=161 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+4. Astafiev SV, Wen J, Brody DL, et al. A novel gradient echo plural con-
+page=8 block=1799635803 (x=4 y=268) width=241 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+trast imaging method detects brain tissue abnormalities in patients with
+page=8 block=1799635803 (x=15 y=278) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+TBI without evident anatomical changes on clinical MRI: a pilot study.
+page=8 block=1799635803 (x=15 y=287) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Mil Med. 2019;184(Suppl 1):218–227.
+page=8 block=1799635803 (x=15 y=295) width=119 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+5. Wen J, Yablonskiy DA, Salter A, Cross AH. Limbic system damage in
+page=8 block=1799635803 (x=4 y=306) width=241 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+MS: MRI assessment and correlations with clinical testing. PLoS One.
+page=8 block=1799635803 (x=15 y=315) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+2017;12:e0187915.
+page=8 block=1799635803 (x=15 y=325) width=59 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=14
+6. Xiang B, Wen J, Cross AH, Yablonskiy DA. Single scan quantitative
+page=8 block=1799635803 (x=4 y=334) width=241 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+gradient recalled echo MRI for evaluation of tissue damage in lesions
+page=8 block=1799635803 (x=15 y=344) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+and normal appearing gray and white matter in multiple sclerosis. J
+page=8 block=1799635803 (x=15 y=353) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+Magn Reson Imaging. 2019;49:487–498.
+page=8 block=751608431 (x=15 y=362) width=129 height=5 fontname=JLFHMO+AdvTTe0f01e5b.I wordint.min=1 wordint.max=4
+7. Zhao Y, Raichle ME, Wen J, et al. In vivo detection of microstructural
+page=8 block=1723290893 (x=4 y=372) width=241 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+correlates of brain pathology in preclinical and early Alzheimer Disease
+page=8 block=1723290893 (x=15 y=382) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+withmagnetic resonance imaging.NeuroImage. 2017;148:296–304.
+page=8 block=1723290893 (x=15 y=390) width=213 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Luo J, Jagadeesan BD, Cross AH, Yablonskiy DA. Gradient echo plural
+page=8 block=1723290893 (x=15 y=401) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+contrast imaging–signal model and derived contrasts: T2*, T1, phase,
+page=8 block=1723290893 (x=15 y=409) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+SWI, T1f, FST2*andT2*-SWI. NeuroImage. 2012;60:1073–1082.
+page=8 block=1723290893 (x=15 y=419) width=209 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+9. Quirk JD, Sukstanskii AL, Bretthorst GL, Yablonskiy DA. Optimal
+page=8 block=1723290893 (x=4 y=429) width=241 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+decay rate constant estimates from phased array data utilizing joint Baye-
+page=8 block=1723290893 (x=15 y=438) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+sian analysis. J Magn Reson. 2009;198:49–56.
+page=8 block=1723290893 (x=15 y=447) width=146 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+10. Ludeke KM, Roschmann P, Tischler R. Susceptibility artefacts in NMR
+page=8 block=1723290893 (x=1 y=457) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+imaging. Magn Reson Imaging. 1985;3:329–343.
+page=8 block=1723290893 (x=15 y=466) width=155 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+11. Wadghiri YZ, Johnson G, Turnbull DH. Sensitivity and performance
+page=8 block=1723290893 (x=1 y=476) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+time in MRI dephasing artifact reduction methods. Magn Reson Med.
+page=8 block=1723290893 (x=15 y=486) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+2001;45:470–476.
+page=8 block=1723290893 (x=15 y=494) width=56 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=14
+12. Merboldt KD, Finsterbusch J, Frahm J. Reducing inhomogeneity arti-
+page=8 block=1723290893 (x=1 y=505) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+facts in functional MRI of human brain activation-thin sections vs gradi-
+page=8 block=1723290893 (x=15 y=514) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+ent compensation. J Magn Reson. 2000;145:184–191.
+page=8 block=1723290893 (x=15 y=523) width=168 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+13. Ulrich X, Yablonskiy DA. Separation of cellular and BOLD contribu-
+page=8 block=1723290893 (x=1 y=533) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+tions toT2* signal relaxation. Magn Reson Med. 2016;75:606–615.
+page=8 block=1723290893 (x=15 y=542) width=211 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+14. Du YP, Chu R, Hwang D, et al. Fast multislice mapping of the mye-
+page=8 block=1723290893 (x=1 y=552) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+lin water fraction using multicompartment analysis of T decay at 3T:
+page=8 block=1723290893 (x=15 y=561) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+8.
+page=8 block=893640573 (x=4 y=401) width=6 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+A preliminary postmortem study. Magn Reson Med.
+page=8 block=2085886997 (x=279 y=26) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=15
+2007;58:865–870.
+page=8 block=2085886997 (x=279 y=35) width=58 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=14
+15. Hwang D, Kim D-H, Du YP. In vivo multi-slice mapping of myelin
+page=8 block=2085886997 (x=265 y=45) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+water content using T2* decay. NeuroImage. 2010;52:198–204.
+page=8 block=2085886997 (x=280 y=53) width=199 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+16. Bashir A, Yablonskiy DA. Natural linewidth chemical shift imaging
+page=8 block=2085886997 (x=265 y=64) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+(NL-CSI). Magn Reson Med. 2006;56:7–18.
+page=8 block=2085886997 (x=279 y=72) width=140 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+17. Cho ZH, Ro YM. Reduction of susceptibility artifact in gradient-echo
+page=8 block=2085886997 (x=265 y=83) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+imaging. Magn Reson Med. 1992;23:193–200.
+page=8 block=2085886997 (x=279 y=91) width=145 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+18. Frahm J, Merboldt KD, Hanicke W. Direct FLASH MR imaging of mag-
+page=8 block=2085886997 (x=265 y=102) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+netic field inhomogeneities by gradient compensation. Magn Reson
+page=8 block=2085886997 (x=279 y=111) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+Med. 1988;6:474–480.
+page=8 block=2085886997 (x=279 y=120) width=71 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Haacke EM, Tkach JA, Parrish TB. Reduction of T2* dephasing in gra-
+page=8 block=2085886997 (x=279 y=130) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+dient field-echo imaging.Radiology. 1989;170:457–462.
+page=8 block=2085886997 (x=279 y=139) width=177 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+20. Truong T-K, Chakeres DW, Scharre DW, Beversdorf DQ, Schmalbrock
+page=8 block=2085886997 (x=265 y=149) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+P. Blipped multi gradient-echo slice excitation profile imaging (bmGE-
+page=8 block=2085886997 (x=280 y=159) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+SEPI) for fast T measurements with macroscopic B0 inhomogeneity
+page=8 block=2085886997 (x=280 y=168) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+compensation. Magn Reson Med. 2006;55:1390–1395.
+page=8 block=2085886997 (x=280 y=176) width=173 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Volz S, Hattingen E, Preibisch C, Gasser T, Deichmann R. Reduction of
+page=8 block=2085886997 (x=279 y=187) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+susceptibility-induced signal losses in multi-gradient-echo images: appli-
+page=8 block=2085886997 (x=279 y=196) width=230 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+cation to improved visualization of the subthalamic nucleus. NeuroI-
+page=8 block=2085886997 (x=279 y=206) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+mage. 2009;45:1135–1143.
+page=8 block=2085886997 (x=279 y=214) width=85 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Wild JM, Martin WRW, Allen PS. Multiple gradient echo sequence opti-
+page=8 block=2085886997 (x=280 y=225) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+mized for rapid, single-scan mapping of R at high B0. Magn Reson
+page=8 block=2085886997 (x=280 y=234) width=229 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+Med. 2002;48:867–876.
+page=8 block=2085886997 (x=280 y=243) width=75 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+23. Yang QX, Wang J, Smith MB, et al. Reduction of magnetic field inho-
+page=8 block=2085886997 (x=265 y=253) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+mogeneity artifacts in echo planar imaging with SENSE and GESEPI at
+page=8 block=2085886997 (x=280 y=263) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+high field. Magn Reson Med. 2004;52:1418–1423.
+page=8 block=2085886997 (x=280 y=271) width=158 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Yang QX, Williams GD, Demeure RJ, Mosher TJ, Smith MB. Removal
+page=8 block=2085886997 (x=280 y=282) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+of local field gradient artifacts in T2*-weighted images at high fields by
+page=8 block=2085886997 (x=280 y=291) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+gradient-echo slice excitation profile imaging. Magn Reson Med.
+page=8 block=2085886997 (x=280 y=300) width=229 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+1998;39:402–409.
+page=8 block=2085886997 (x=280 y=309) width=57 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=14
+25. Baudrexel S, Volz S, Preibisch C, et al. Rapid single-scan T-mapping
+page=8 block=2085886997 (x=265 y=319) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+using exponential excitation pulses and image-based correction for linear
+page=8 block=2085886997 (x=280 y=329) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+background gradients. Magn Reson Med. 2009;62:263–268.
+page=8 block=2085886997 (x=280 y=337) width=189 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+26. Ferna?ndez-Seara MA, Wehrli FW. Postprocessing technique to correct
+page=8 block=2085886997 (x=265 y=348) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+for background gradients in image-based R*2 measurements. Magn
+page=8 block=2085886997 (x=280 y=357) width=229 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=6
+Reson Med. 2000;44:358–366.
+page=8 block=2085886997 (x=280 y=366) width=97 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+27. Hernando D, Vigen KK, Shimakawa A, Reeder SB. R*(2) mapping in
+page=8 block=2085886997 (x=265 y=376) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+the presence of macroscopic B(0) field variations. Magn Reson Med.
+page=8 block=2085886997 (x=279 y=386) width=230 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+2012;68:830–840.
+page=8 block=2085886997 (x=279 y=394) width=57 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=14
+28. Reeder SB, Bice EK, Yu H, Hernando D, Pineda AR. On the perfor-
+page=8 block=2085886997 (x=265 y=405) width=244 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+mance of T2* correction methods for quantification of hepatic fat con-
+page=8 block=2085886997 (x=280 y=414) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+tent. Magn Reson Med. 2012;67:389–404.
+page=8 block=2085886997 (x=280 y=423) width=132 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Yablonskiy DA. Quantitation of intrinsic magnetic susceptibility-related
+page=8 block=2085886997 (x=280 y=433) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+effects in a tissue matrix. Phantom study.1998;39:417–428.
+page=8 block=2085886997 (x=280 y=441) width=186 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+Yang X, Sammet S, Schmalbrock P, Knopp MV. Postprocessing correc-
+page=8 block=2085886997 (x=280 y=452) width=229 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+tion for distortions in T2* decay caused by quadratic cross-slice B0 inho-
+page=8 block=2085886997 (x=280 y=461) width=229 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+mogeneity. Magn Reson Med. 2010;63:1258–1268.
+page=8 block=2085886997 (x=280 y=470) width=161 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+19.
+page=8 block=893523498 (x=265 y=130) width=9 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+21.
+page=8 block=1770070706 (x=265 y=187) width=9 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+22.
+page=8 block=1108517064 (x=265 y=225) width=10 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+24.
+page=8 block=511354923 (x=265 y=282) width=10 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+29.
+page=8 block=992743048 (x=265 y=433) width=10 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+30.
+page=8 block=1540894701 (x=265 y=452) width=10 height=4 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4
+SUPPORTING INFORMATION
+page=8 block=203149502 (x=265 y=499) width=138 height=6 fontname=JLFHML+AdvOT114894c7.B wordint.min=1 wordint.max=4
+Additional supporting information may be found online in
+page=8 block=1198197478 (x=265 y=517) width=244 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=7
+the Supporting Information section at the end of the article.
+page=8 block=1198197478 (x=265 y=529) width=235 height=5 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+Data S1. Fast library-driven approach for the two-step itera-
+page=8 block=476579021 (x=265 y=546) width=244 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=5
+tive calculation of the voxel spread function.
+page=8 block=476579021 (x=265 y=558) width=175 height=6 fontname=JLFHMP+AdvTTa966caec wordint.min=1 wordint.max=4

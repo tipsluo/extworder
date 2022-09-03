@@ -1,0 +1,351 @@
+Title:
+Magnetic 
+fields for
+modulating 
+the nervous 
+system
+
+Abstract:
+Neuroscience research has grown rapidly in recent
+years, driven at least in part by the emergence of
+tools and techniques that enable scientists to pose 
+experimental questions that not long ago would have
+been unanswerable. Methods for triggering activity
+in the nervous systems of living animal models have proven particularly
+useful for mapping networks, probing structure– unction relationships,
+and connecting physiology to behavior. In addition, therapeutically
+controlling the activity of neurons in patients can offer relief from
+some diseases. For example, an approach that clinicians use to stimulate
+neurons  deep in  the  brain to  treat  Parkinson’s  disease  has  also
+shown promise for addressing persistent psychiatric disorders such
+as depression.
+
+----------------------
+
+
+Text:
+----------------------
+
+Technologies for stimulating neurons are poised to become
+increasingly signi?cant, yet the presently employed methods
+have serious drawbacks. As is so often the case for biomedical
+technology, today’s innovations will appear primitive in the
+not- oo-distant future. Currently, clinical deep-brain stimula-
+tion is conducted primarily by inserting millimeter-sized
+electrodes that are powered by devices implanted in the body.
+Although e?ective at o?ering relief for patients, such drastic
+measures are justi?able in only extreme cases. Technology for
+more commonplace neuron stimulation, whether for experi-
+ments in model organisms or clinical therapy in humans, should
+be noninvasive or minimally invasive, wireless, able to access
+regions deep in the brain, spatially targeted, and selective to
+particular cell types.
+That vision has attracted numerous engineers and scientists
+to independently focus on developing devices and methods
+for coupling noninvasive stimuli—including ultrasound, near-
+Neurons propagate electrochemical signals by using voltage-
+gated biochemical machinery in their membranes. At the level
+of a single cell, a stimulus that depolarizes a small part of the
+membrane can cause an action potential that spreads through-
+out the cell. Some channel proteins function by locally increasing
+too weak to actuate membrane proteins in the manner envi-
+sioned. Several independent research groups subsequently re-
+ported an inability to demonstrate similar magnetogenetic ef-
+fects in their own laboratories, although a failure to replicate is
+not necessarily conclusive. The authors of the original works
+have since pointed out ways in which the replication attempts
+may have di?ered from their original experiments.
+A conceptual rebuttal to the biophysical argument against
+ erritin-mediated magnetogenetics has been that the magnetic
+moment of ferritin may be about 75 times larger than expected,
+which would allow for an assortment of hypothetical actuation
+mechanisms.4 Such a large magnetic moment would be sur-
+prising given the extensive body of literature characterizing
+ferritin, although a fresh investigation may be warranted. Even
+if anomalously enhanced magnetic properties could be de?ni-
+tively ruled out by experiment, asserting the impossibility of
+magnetogenetics may be overly reductionist.
+A feeble magnetic moment for ferritin at most precludes the
+possibility of direct actuation. Some of the relevant magnetic
+stimuli produce o?- arget e?ects, including induced voltages
+and mild nonselective heating. In principle, a modi?ed channel
+protein that lowers the threshold of response to those in?u-
+ences by any means, magnetic or otherwise, might lead to se-
+lective actuation e?ects. An indirect mechanism of that sort
+might help explain experimental observations, although a strat-
+egythat depends on many external factors is likely to face di?-
+culties in replication or routine use.
+Recent experimental work has indicated a possible chemical
+pathway for actuation that involves iron released from ferritin.5
+too weak to actuate membrane proteins in the manner envi-
+sioned. Several independent research groups subsequently re-
+ported an inability to demonstrate similar magnetogenetic ef-
+fects in their own laboratories, although a failure to replicate is
+not necessarily conclusive. The authors of the original works
+have since pointed out ways in which the replication attempts
+may have di?ered from their original experiments.
+A conceptual rebuttal to the biophysical argument against
+ erritin-mediated magnetogenetics has been that the magnetic
+moment of ferritin may be about 75 times larger than expected,
+which would allow for an assortment of hypothetical actuation
+mechanisms.4 Such a large magnetic moment would be sur-
+prising given the extensive body of literature characterizing
+ferritin, although a fresh investigation may be warranted. Even
+if anomalously enhanced magnetic properties could be de?ni-
+tively ruled out by experiment, asserting the impossibility of
+magnetogenetics may be overly reductionist.
+A feeble magnetic moment for ferritin at most precludes the
+possibility of direct actuation. Some of the relevant magnetic
+stimuli produce o?- arget e?ects, including induced voltages
+and mild nonselective heating. In principle, a modi?ed channel
+protein that lowers the threshold of response to those in?u-
+ences by any means, magnetic or otherwise, might lead to se-
+lective actuation e?ects. An indirect mechanism of that sort
+might help explain experimental observations, although a strat-
+egythat depends on many external factors is likely to face di?-
+culties in replication or routine use.
+Recent experimental work has indicated a possible chemical
+pathway for actuation that involves iron released from ferritin.5
+However, the way that magnetic ?elds alternating at kilohertz
+or megahertz frequencies might trigger ion release remains
+unanswered. Other experiments that used modi?ed channel
+proteins suggest that extinguishing temperature sensitivity elim-
+inates magnetic response and that having a magnetocaloric
+cooling e?ect may trigger a related channel sensitivity to cold
+rather than heat.6
+An encouraging feature of recent e?orts is a renewed focus
+on probing and explaining mechanisms. Nevertheless, one of
+the signi?cant di?culties in making comparisons and drawing
+conclusions in the magnetogenetics literature is the sheer vari-
+ety of magnetic stimuli, which allows every group to adopt its
+own seemingly unique stimulation paradigm. The situation is
+especially evident in the remarkable contrast between the mag-
+netic conditions employed in the most recent experiments,
+ranging from 12 ?T ?elds varying at 180 MHz to 250 mT ?elds
+varying at 800 mHz.
+Yet another route to magnetogenetics that researchers have
+suggested draws inspiration from nature. Numerous organ-
+isms exhibit what’s known as magnetoreception— he ability
+to sense Earth’s comparatively weak 50 ?T magnetic field,
+usually as a cue for migratory navigation (see the article by
+Sönke Johnsen and Ken Lohmann, PHYSICSTODAY, March 2008,
+page 29). Specialized magnetic receptor cells, similar to sensory
+systems that detect light or sound, have been hypothesized to
+exist. If such cells were unambiguously identi?ed and thor-
+oughly studied, perhaps their mechanism of sensation could
+be replicated through genetic modi?cation. But that remains a
+remote possibility considering that decades of vigorous research
+and debate have yet to produce satisfactory explanations for
+natural magnetoreception.7
+Another widespread category of techniques for magnetic stim-
+ulation of neurons employs synthetic nanomaterials. Usually
+introduced by direct injection, the materials o?er an energetically
+plausible means of coupling an externally applied magnetic ?eld
+to well-understood forms of stimulation. Whereas clusters of
+noninteracting atoms are expected to exhibit modest magnetic
+moments at best, collective ferro- or ferrimagnetic ordering me-
+diated by exchange or superexchange interactions can lead to
+magnetic moments that are many orders of magnitude larger.
+For magnetized particles smaller than a critical size range
+that depends on composition and geometry, opposing mag-
+netic domains do not form, and the structures are approxi-
+mately uniformly magnetized. The presence of magnetic order
+does not necessarily imply that the orientation of the magneti-
+zation remains constant. Rather, the magnetization orientation
+can rapidly precess and jump stochastically among certain pre-
+ferred directions. Under conditions at which the rate of the sto-
+chastic jumps is much faster than the time scale of measure-
+ment, magnetic particles are said to be superparamagnetic.
+Examples of magnetic nanoparticles do occur in nature, most
+famously in bacteria that employ chains of magnetite or greig-
+ite particles for coordinating their movement along magnetic
+?eld lines (see the article by David Dunlop, PHYSICSTODAY, June
+2012, page 31). However, for neurostimulation methods based
+on magnetic nanoparticles, researchers typically prefer synthetic
+materials that can be produced in large quantities with tai-
+lorable surface chemistries. Because of their biocompatibility,
+ferrites are common, especially maghemite, magnetite, and
+similar compounds doped with neighboring transition metal
+elements, such as manganese, cobalt, and nickel. Many ap-
+proaches have been reported, so researchers ?nd it helpful to
+classify them by the waysthey transduce magnetic ?elds to de-
+tectable stimuli. Those categories, which are summarized in
+?gure 3, include the production of forces or torques, magneto-
+electric coupling, actuation via dissipated heat, and triggered
+release of chemical agonists.
+Sensory neurons in the peripheral nervous system contain
+channel proteins that respond to membrane tension or other
+mechanical cues to produce the sensation of touch. Combining
+magnetic and mechanical actuation is therefore a natural and
+intuitive idea. An extensive body of literature exists that ad-
+dresses biological e?ects produced in vitrowith magnetically
+applied forces, including examples of neural stimulation. But
+those methods typically require high ?eld gradients, on the
+order of 10–103 T/m, which prohibits scaling them to most in
+vivo contexts.
+In contrast, mechanotransduction via torques generated by
+rotating or alternating uniform ?elds is a comparably scalable
+strategy. Particles suitable for applying torques must possess
+su?ciently large moments and anisotropy that links their
+physical orientation to their magnetization. For single-domain
+nanoparticles, large moments and high anisotropy tend to 
+heating. The standard heat-transfer equations suggest that the
+temperature di?erence between the surface of the nanoparticles
+and the solution should be more than a million times smaller
+than some experiments have suggested.
+An intriguing clue to explain the discrepancy came nearly
+a decade later from a study that replicated a comparable method-
+ology.11 Rather than interpreting similar observations as an in-
+crease in surface temperature, the researchers suggested two
+types of experimental artifacts that may account for the original
+observation. Their ?ndings and other recent negative results
+raise questions about the existence of nanoscale heating in sim-
+ilar systems. Nevertheless, heat-transfer e?ects peculiar to the
+nanoscale are studied extensively in solid systems and consid-
+ered in terms of the transport of quantized phonon modes
+rather than classical heat ?ow. Moreover, various nanoparticle
+systems suspended in solution compellingly demonstrate care-
+fully controlled heating e?ects and o?er researchers an oppor-
+tunity to reexamine physical models of nanoscale heat trans-
+port at crystalline-disordered interfaces.
+Even without relying on nanoscale heating e?ects, heat can
+still stimulate targeted neurons. The classical heat- ransport
+equations allow for bulk heating of concentrated ferro?uid
+droplets to stimulate neurons sensitized to increased tempera-
+ture, an e?ect that has been demonstrated experimentally.12
+One recent paper suggested an extension of those methods
+heating. The standard heat-transfer equations suggest that the
+temperature di?erence between the surface of the nanoparticles
+and the solution should be more than a million times smaller
+than some experiments have suggested.
+An intriguing clue to explain the discrepancy came nearly
+a decade later from a study that replicated a comparable method-
+ology.11 Rather than interpreting similar observations as an in-
+crease in surface temperature, the researchers suggested two
+types of experimental artifacts that may account for the original
+observation. Their ?ndings and other recent negative results
+raise questions about the existence of nanoscale heating in sim-
+ilar systems. Nevertheless, heat-transfer e?ects peculiar to the
+nanoscale are studied extensively in solid systems and consid-
+ered in terms of the transport of quantized phonon modes
+rather than classical heat ?ow. Moreover, various nanoparticle
+systems suspended in solution compellingly demonstrate care-
+fully controlled heating e?ects and o?er researchers an oppor-
+tunity to reexamine physical models of nanoscale heat trans-
+port at crystalline-disordered interfaces.
+Even without relying on nanoscale heating e?ects, heat can
+still stimulate targeted neurons. The classical heat- ransport
+equations allow for bulk heating of concentrated ferro?uid
+droplets to stimulate neurons sensitized to increased tempera-
+ture, an e?ect that has been demonstrated experimentally.12
+One recent paper suggested an extension of those methods
+based on bulk-heating e?ects: Known as magnetothermal
+multiplexing, the approach heats adjacent ferro?uid droplets
+independently by pairing di?erent types of magnetic nano-
+materials with alternating magnetic ?eld conditions that ensure
+selective heating.13
+Another method readily extendable to chemical stimuli tar-
+geted at particular channel proteins is the magnetically trig-
+gered release of chemical payloads from nanoscale carriers.
+The concept was originally explored primarily for drug deliv-
+ery and diagnostics. Available carriers include nanoparticle
+surfaces, thermally sensitive liposomes, and degradable poly-
+mer composites. In one instance, researchers controlled neural
+activity in freely behaving mice by triggering the release of
+neurochemicals from thermally sensitive liposomes.14In the fu-
+ture, chemomagnetic methods could be coupled with super-
+imposed magnetostatic selection ?elds, which o?er spatial con-
+trol in drug release.
+Chemomagnetic methods are a relatively recent develop-
+ment compared with the other approaches highlighted in this
+section. Such chemomagnetic studies are a?ected by the uncer-
+tainty surrounding nanoscale heating because they are often
+performed at concentrations of magnetic nanoparticles that are
+far below that required for bulk heating. Whether the phenom-
+enon triggered by an alternating ?eld and leading to release
+can be exclusively attributed to heat is a question worth further
+consideration.
+As described by Faraday’s law, time-varying magnetic ?uxes
+induce electric ?elds in conductive media, which generate cur-
+rents that oppose the change in ?ux. The e?ect, already put to
+wide and varied technological use, o?ers a basis for neuronal
+stimulation through e?ects experienced at the tissue scale or
+via wirelessly powered devices.
+Researchers have demonstrated that neurons in humans
+can be stimulated using magnetic ?elds pulsed at millisecond
+time scales—on the order of 104T/s with a peak amplitude of
+up to 1 T—to produce rapid variations of the ?eld strength.15
+Figure 4 depicts how placing current-carrying coils close to the
+scalp stimulates neurons within the ?rst few centimeters of the
+brain. The technique, called transcranial magnetic stimulation,
+or TMS, has shown promise for treating depression, neuro-
+pathic pain, and other disorders. 
+But researchers face several challenges when highly tar-
+geted stimulation is required. For example, changes in pulse
+duration and the physical orientation of the neurons can sup-
+press neuronal activity rather than stimulate it. Super?cial
+brain structures receive a stronger stimulus than deeper ones
+because magnetic ?eld magnitude decreases with the distance
+from the coils. To improve spatial selectivity in their e?ects, re-
+searchers commonly use ?gure-eight or butter?y-coil geome-
+tries, both of which have two coils wound in opposite direc-
+tions to focus stimulation e?ects near the point of overlap.
+Others in the research community have suggested employ-
+ing a similar e?ect in implanted devices as an alternative to the
+conventional electrodes used for deep-brain stimulation that
+apply potentials to inject small currents into their surroundings.
+The alternative electrodes remain tethered to an external power
+source and stimulate neurons in surrounding tissue through
+inductive e?ects generated by an approximately 1-mm-diameter
+solenoid.16 Although still invasive, the approach avoids scar-
+ring, in which brain cells called glia accumulate around an elec-
+trode and insulate it from its intended neuronal targets.
+Inductively powered, untethered miniature devices im-
+planted in the brain take the technology one step further and
+have been demonstrated for neural stimulation in animal mod-
+els.17 Miniaturization is constrained fundamentally by both a
+device’s requirement to reach induced voltages that are phys-
+iologically relevant and its reduced cross-sectional area. The
+most successful of those neural-stimulation devices have a
+highly permeable miniaturized ferrite core and a tightly wound
+solenoid. They use a simple circuit that resonantly couples to
+an alternating magnetic ?eld with a frequency in the low mega-
+hertz range and that recti?es the resulting voltages for direct-
+current stimulation.
+The excitation coils can be thought of as the primary windings
+of a transformer, and the device’s inductive pickup acts as the
+secondary windings. A simple and compact resonant circuit
+recti?es the induced voltage, which allows the device to inject
+current into its surroundings and stimulate neurons. The de-
+gree of the transformer’s inductive coupling is small compared
+with more familiar transformers optimized for power transfer.
+But the design of the device enables noninvasive stimulation
+over a reasonable area in which an animal can freely move.
+Other technical advantages of the approach include low power
+requirements for alternating magnetic field generation and
+the tunable resonance of the secondary coil. With multiple in-
+dependently addressable devices, researchers may be able to
+stimulatedi?erent sites in the brain.
+The present e?orts to stimulate neurons with magnetic ?elds
+serve as a reminder that progress in science is rarely linear.
+Spurred by the unmet need for a tool useful to neuroscientists
+and clinicians alike, independent researchers have produced
+intriguing ideas and strategies to tackle the same underlying
+problem. Work that garners the greatest attention is the kind
+that seeks to shift existing paradigms, so perhaps it should be
+unsurprising when controversy follows closely behind some of
+the most prominent claims.
+In those cases, a noticeable pattern emerges: Objections often
+center on foreseeable, fundamental explanatory shortcomings.
+Even when researchers have sought to defend the reproducibil-
+ity of their results, they have frequently retreated from their
+initial statements about mechanisms. Arguably, that outcome
+is more a consequence of mindset than of expertise.
+The fundamental orientation toward problem-solving often
+fostered in the physical sciences allows one to break di?cult
+problems into solvable pieces and to test plausibility with sim-
+pli?ed arguments rather than perfectly recapitulate reality.
+Thatway of thinking has already led independent researchers
+to make valuable contributions toward magnetic control over
+neurons, and additional engagement and dialog with physical
+scientists could help accelerate progress in neuroscience.

@@ -1,0 +1,878 @@
+Content:
+ColumnWidth 218 ColumnNumber 2
+ContentWidth 517 ContentLeft 1 ContentRight 517
+Subtitles:  0 5
+
+==============================
+Page 1
+ Left 1 Right 517 Top 1 Bottom 740
+
+
+Column meta:
+Column left:50 upper:180 right:268 lower 591
+Column left:9999 upper:9999 right:0 lower 0
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=-3 left=253 right=515 upper=1 lower=6
+====>
+charfont name=TimesNewRomanPSMT charfont height=4.600000, charfont bold=0, alignment=1, allupper=1, column left=-1, likeBody=-100
+
+IEEE TRANSACTIONS ON NUCLEAR SCIENCE, VOL. 41, NO, 2. APRIL 2000
+==============================
+
+==============================
+
+typeindex=-5 left=28 right=40 upper=3 lower=7
+====>
+charfont name=TimesNewRomanPSMT charfont height=4.600000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+210
+==============================
+
+==============================
+type: title
+typeindex=7 left=151 right=416 upper=21 lower=29
+====>
+charfont name=TimesNewRomanPSMT charfont height=7.600000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Hardware Controls for the STAR Experiment at RHIC
+==============================
+
+==============================
+
+typeindex=3 left=96 right=468 upper=47 lower=81
+====>
+charfont name=TimesNewRomanPSMT charfont height=6.600000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+J. Linz,F. Biesei, M. Bordua4,M. Cherney', J. Chrin', I. Ferguson', V. Ghazikhanian', 
+J. Gross', G. Harper",M.Howe6,S. Jacobson', P. Kravtsov5, C. Lionberger', C. McParland', 
+T. McShane', J. Meie?, I. Sakrejda4,E. Yamamoto', W. Zhang'
+==============================
+
+==============================
+
+typeindex=-2 left=110 right=455 upper=87 lower=149
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+'Department of Physics, University of California, Los Angeles, California 90095, USA 
+'Departmcnt of Physics, Creighton University, Omaha, Nebraska 68178, USA 
+'Department  of Physics, Kent State University, Kent, Ohio 64242, USA 
+'Lawrence Berkeley National Laboratory, University of California, Berkeley, California 94720, USA 
+Moscow Engineering Physics Institute, Moscow, 11.5409, Russia 
+'Department  of Physics, University of Washington, Seattle, Washington 98195, USA
+==============================
+
+==============================
+
+typeindex=-2 left=276 right=493 upper=180 lower=194
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+trigger and online as well as external magnet and accelerator 
+systems. The relationship of the STAR Hardware Controls to
+==============================
+
+==============================
+
+typeindex=-2 left=276 right=389 upper=198 lower=204
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.600000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+other systclns s shown in ligure
+==============================
+
+==============================
+
+typeindex=-2 left=51 right=498 upper=351 lower=600
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+The Solenoidal Tracker At RHIC (STAR) expcrimenl uses 
+a large Time Projection Chambcr (TPC) for the study of ultra- 
+relativistic heavy ion collisions. The baseline subsystems of 
+the STAR experiment are the time projection chamber, data 
+acquisition (DAQ), trigger, online computing and magnet. The 
+Fig. 1 STAR Real-Time Systems. first STAR commissioning run began in June, 1999. The first 
+collision at llhc Rclativistic Heavy Ion  Collidcr (RHIC) for 
+physics  studies is scheduled for Spring 2000 [I].  The high-voltage supply for the  TPC anode wires  creates 
+Thc main tracking dcvicc in'STAR is a cylindrical Time  high electric ficld regions near thc TPC endcaps.  Herc the 
+Projection Chambcr (TPC), 4.18 meters in length with inner  charge avalanches occur duc to the electrons from the ionized 
+and outer radii of 0.5m and 2 m respectively 121.  gas in thc main TPC volume. Thc anode high-voltage system 
+c-o nnTlerrhoaelts e S aaTlnlA ds Rdui bsHso.ylasartvdIew maa sar.re m ICns  oaanndtddro iwtlisoa nrsny, isnIt-eam r d fwosera trcse,a  cmChoo snnuitbtroos,rlsss~  acnamdn~   ~suop~p'ite sr. edanT u shien g  consneaqenlcdltc inoCcnUe rtr roCp nrtto hger' IaeLm esC' rraomyp e1d4, 58s ept owanedr  
+A real-time Vxworks environment is utilized for this purpose  The cathode and field cage create a uniform electric field 
+and a controls software package, EPICS, is used to providc a  in the TPC. The voltage gradients are set up using four rcsistor 
+common interface to all subsystems.  chains. Any  changes in  the  gas  temperature,  pressure  and 
+composition  can  vary  the  drift  velocity.  Detection  and 
+feedback mechanisms-have been implemented to maintain a 
+constant drift velocity. A Glassman hieh-voltage Power su~)oIv 
+provides the high voltage at the cathode centra? 1nembrane.and 
+center of the field cage. New EPICS driver support has been 
+written  for four VMIC modules: a 64-bit differential digital 
+input board (I1111, a 32-channel relay output hoard (2232), an 
+analog to digital  convertcr (3122) and a  digital  to  analog 
+convertcr  (41 16).  In  addition,  precision  measurements  are
+==============================
+
+==============================
+
+typeindex=-4 left=208 right=330 upper=667 lower=673
+====>
+charfont name=ArialMT charfont height=4.800000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+0018-9499/00$10.00  0 2000 IEEE
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=517 upper=736 lower=740
+====>
+charfont name=Helvetica charfont height=4.000000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Authorized licensed use limited to: California State University Dominguez Hills. Downloaded on March 23,2022 at 23:39:26 UTC from IEEE Xplore.  Restrictions apply.
+==============================
+
+==============================
+
+typeindex=6 left=142 right=180 upper=180 lower=187
+====>
+charfont name=TimesNewRomanPS-BoldItalicMT charfont height=6.600000, charfont bold=2, alignment=16, allupper=0, column left=50, likeBody=-100
+
+Abstmct
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=268 upper=194 lower=229
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+A hardware controls system has been implementcd for the 
+STAR expcrimcnt at RIHIC.  Approximately 10000 parameters 
+governing experiment operation are currently controlled and 
+monitored.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=268 upper=237 lower=318
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+The system  is  based  on  the Experimental  Physics  and 
+Industrial Control System (EPICS). The architecture of STAR 
+hardware controls will he presented 21s well as the results of 
+operation of the integrated baseline system.  Novel features of 
+the system  include a specializcd field bus (High-level  Data 
+Link Control - HDLC), new EPICS record support, Control 
+DEVice (CDEV) intcrCaces to accelerator and magnet control 
+systems, and C++ based communication bctwccn STAR online 
+and Hardware Controls and their associatcd databases.
+==============================
+
+==============================
+
+typeindex=4 left=121 right=218 upper=336 lower=343
+====>
+charfont name=TimesNewRomanPSMT charfont height=6.800000, charfont bold=0, alignment=0, allupper=1, column left=50, likeBody=-100
+
+I. INTRODUCTION
+==============================
+
+==============================
+
+typeindex=1 left=58 right=152 upper=533 lower=539
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.800000, charfont bold=0, alignment=0, allupper=1, column left=50, likeBody=-100
+
+I1. STAR HARDWARE
+==============================
+
+==============================
+
+typeindex=1 left=200 right=259 upper=534 lower=539
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=1, column left=50, likeBody=-100
+
+INTEGRATION
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=50 right=267 upper=547 lower=591
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=100
+
+The  haselinc  STAR  detector  consists  of  various  time 
+projection chamber subsystems (anode high  voltage, cathode 
+field  cage, gating grid,  front-end  electronics power  supply, 
+HDLC link, gas,  laser, interlocks, and  VME-crate control), 
+mechanisms for the exchange of incormation with thc STAR
+==============================
+
+==============================
+Page 2
+ Left 1 Right 517 Top 1 Bottom 740
+
+
+Column meta:
+Column left:29 upper:21 right:248 lower 595
+Column left:254 upper:21 right:473 lower 597
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=-7 left=481 right=495 upper=1 lower=6
+====>
+charfont name=TimesNewRomanPSMT charfont height=4.400000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+211
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=517 upper=736 lower=740
+====>
+charfont name=Helvetica charfont height=4.000000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Authorized licensed use limited to: California State University Dominguez Hills. Downloaded on March 23,2022 at 23:39:26 UTC from IEEE Xplore.  Restrictions apply.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=31 right=248 upper=21 lower=56
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=29, likeBody=1
+
+made of the voltagc drops and current through thc final two 
+rcsistors (region nearest the endcaps) of the ficld cage chains. 
+These arc monitored using a new EPICS driver providing a 
+GPIB conncction to a Keilhley electrometer.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=31 right=248 upper=63 lower=203
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=29, likeBody=1
+
+A hipolar gating grid is located  10 mm from the anodc- 
+wire plane. The gating grid separates the drift volume from the 
+amplification region. It controls the passage of electrons from 
+the drift volume into the amplification region and also prevcnts 
+ions  created  in  the amplificalion proccss Srom entcring  the 
+drift volumc. Thc potcntids on tlie wims of the gating grid can 
+be regulatctl to make the grid  opaque or trimsparcnt  to the 
+drifting clcctrons whilc bcing complctcly opaquc to ions. This 
+is achicvcd hccausc thc drift vclocity of clcctrons is about 
+1000 timcs Iargcr than thc drift vclocity  of ions. Specialized 
+control electronics  were  developed fur  STAR. Thc  control 
+cards  Sor  the  gating  grid  rcside  in  a  VME  crate  on  the 
+electronics  platform.  EPICS  drivers  have  been  written  to 
+control the potentials on lhe gating grid and to monitor its 
+slatus.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=29 right=247 upper=210 lower=595
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=29, likeBody=-100
+
+There are over 4000 front-end boards in the endcap regions 
+of thc TPC for amplifying, shaping and digitizing signals from 
+the TPC pad  planc. Thcsc hoards are powcrcd  by  144 low 
+supplies. 
+Hardwarc Controls remotcly controls powcr to the FEES via 
+six Acromag digital 110 boards that arc conncctcd to solid state 
+rclays. A new EPICS driver has been written for this purpose. 
+FEE cards are connected to 144 rcadout boards also located on 
+the TPC endcaps  [3]. In order to  have reliable links to  the 
+readout  hoards,  easily  identify  any  malfunctioning  readout 
+hoards, communicate with a large bandwidth over a distance 
+of about 30 mctcrs undcr a strong magnct ficld and minimize 
+cabling using a multi-drop topology,  a High-level Data Link 
+Control (HDLC) protocol (1 Mbitls) was selected as Lhe field 
+bus for the cxpcrimcnt [4]. Thc HDLC link lias been interfaced 
+with thc EPICS software from which a numbcr of control and 
+monitoring tasks can he perSormed [5].Thc VME intcrfacc, a 
+Radstone SBCC-I  board, supports up Lo four HDLC channcls. 
+Each HDLC channel communicates with six readout  hoards 
+over an RS-485 link.  A new EPICS record and related EPICS 
+driver support have becn written for this purpose. Using the 
+HDLC link Sor tcsting, a hit pattcrn can be scnt to a readout 
+board to initiate the creation of an analog pulsc. The FEE cards 
+that are connected to the readout hoard will rcccive the pulse 
+signal, thcn  amplify and  digitize it. By comparison of  thc 
+output  data with  the  original input, opcration  of  the  event 
+memory  buffer and thc clcctronics  can bc  cxamined. Thc 
+HDLC link controls the routing of the digitized data to  the 
+buffer on the readout boards  or dircctly to DAQ via  a fihcr 
+optics link. If the data is scnt to thc huffcr, it can be read hack 
+by Hardware Controls  via thc HDLC link. Data can also hc 
+sent  from the  buffcr  to  DAQ.  A comparison  of  tlie data 
+between Hardwarc Controls and DAQ allows the integrity of 
+thc  data  acquisition  and  HDLC  paths  to  bc  verified.  In 
+addition, volkgcs and temperatures bn the readout boards can 
+be  monitored  via  thc  HDLC link. The EPICS-HDLC link 
+enables  monitoring  and  controlling  OS  the  rcadout  boards, 
+serves  as  an  alternatc  ~CCCSS to the  data,  and  makes  the 
+debugging of readout and FEE boards and cabling significantly 
+easier. HDLC will  also be  used  for fuur  upgrade detector 
+subsystems.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=256 right=473 upper=21 lower=133
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=254, likeBody=1
+
+The gas system  maintains a high-purity mixture of 90% 
+argon and 10% methane in the drift volume of the TPC. The 
+system can also purge the chamber with argon or nitrogen to 
+avoid damage to the detector. The gas control program runs on 
+a PC using the Windows NT operating system. Data is saved 
+cvery 20 seconds on a cross-mounted disk which is accessed 
+by Hardware Controls. The values  are displayed in EPICS. 
+This is the only subsystem with a front-end not under  the 
+direct control of an EPICS interface. The implementation of an 
+EPICS front-cnd was not cost effective since the gas systcm 
+was developed in Russia using interfaccs developed specially 
+for the STAR cxperiment [6].
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=256 right=472 upper=140 lower=184
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=254, likeBody=1
+
+A high-powcr  laser  is used  to calibrate the TPC drift 
+volume.  Beam strcngth and polarization are controllcd by a 
+system using a half-wavc plate and a Glan polarizer. Hardware 
+Controls monitors and scts the laser stalus through a VMIC 32- 
+channel relay output board.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=254 right=472 upper=191 lower=419
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=254, likeBody=1
+
+Thc safcty interlock system is controlled using an Allen- 
+Bradley PLC  system. This stand-alone system passcs status 
+information via TTL signals to a STAR front-end, an Acromag 
+948X digital 110 hoard All required personncl  and property 
+protection is mandated to hc independent of STAR Hardware 
+Controls. Additional systems monitor temperaturcs, humidity 
+and cooling watcr flow. 
+At STAR, EPICS front-end  readout (IOC - input-output 
+controller)  programs  arc  distributed  among  twelve  VME 
+processors  (of  the  types  MVME  147,  162,  167).  STAR 
+clectronics controls arc housed in eleven 6-u and three 9-u 
+Wiener VME crates. Sincc during run time there is no access 
+to  the  platform  whcrc thcsc  crates  are physically  located, 
+remote control of thc VME crates is required. This is achieved 
+through a built-in  VME-CANbus intcrfacc. The VME crate- 
+control program controls the powcr status of the VME crate, 
+scts the fan spced and monitors tempcrature. All the VME 
+crates are daisy-chained with a unique crate address assigncd 
+to each [71. To allow an orderly transition of the system during 
+a power shutdown of short duration, uninterruptahle power is 
+supplicd to thc crate housing the CANbus interface as well as 
+to  the platform ethernet huh, terminal server and  platform- 
+based  workstation.  A  second systcm oversees tlic  14 VME 
+crates used for data acquisition.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=254 right=472 upper=427 lower=527
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=254, likeBody=1
+
+A solcnoidal magnet surrounds thc TPC. It provides a 0.5- 
+Tesla magnetic field, allowing for momentum measurements 
+on  the  charged  particlcs  that  pass  through  the  TPC.  The 
+magnet is opcratcd as part of the accclcrator controls system. 
+Magnet status  information is  obtained from the accelerator 
+controls  database  using  a  Control  DEVicc  (CDEV) 
+clicntlserver interface. Other accclcrator information can be 
+obtained in a similar manner. Beam scalar information, STAR 
+experiment status and STAR measurements of the magnctic 
+field can also be provided to the RHIC control group using 
+CDEV.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=254 right=471 upper=535 lower=597
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=254, likeBody=100
+
+Based on rapidly digitizcd distribution information for each 
+RHIC beam crossing, the trigger system determincs whether or 
+not to initiate rccording of a particular event. A LeCroy 1440 
+high-voltage powcr supply is used to provide high voltage to 
+thc  phototuhcs  inside  the  Central  Trigger  Barrcl  (CTB) 
+detector. Hardware Controls monitors and sets the voltage on 
+each  channel  of  the  LeCroy  1440  via  an  RS232  serial
+==============================
+
+==============================
+Page 3
+ Left 1 Right 517 Top 1 Bottom 720
+
+
+Column meta:
+Column left:50 upper:2 right:269 lower 577
+Column left:9999 upper:9999 right:0 lower 0
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=-2 left=277 right=494 upper=1 lower=55
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Interlace  (GUI)  screen designed  within  MEDM.  The  State 
+Notation Language adds inore features to the database design, 
+such  as an  110 connection with the host  machine  and  thc 
+flexibility of  controlling  the  individual  records  within  the 
+database. The structure and software configuration of EPICS is 
+shown in figurc 2.
+==============================
+
+==============================
+
+typeindex=-2 left=348 right=427 upper=100 lower=105
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Channel Access Client
+==============================
+
+==============================
+
+typeindex=10 left=378 right=414 upper=132 lower=149
+====>
+charfont name=CourierNewPS-ItalicMT charfont height=16.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+0
+==============================
+
+==============================
+
+typeindex=-2 left=332 right=435 upper=157 lower=162
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Channel Access ClicntlScrvcr
+==============================
+
+==============================
+
+typeindex=9 left=351 right=414 upper=171 lower=202
+====>
+charfont name=ArialMT charfont height=15.200000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+1-0
+==============================
+
+==============================
+
+typeindex=11 left=377 right=407 upper=207 lower=224
+====>
+charfont name=CourierNewPS-ItalicMT charfont height=17.400000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+Q
+==============================
+
+==============================
+
+typeindex=-2 left=305 right=453 upper=233 lower=239
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Hardware layer with EPICS device support
+==============================
+
+==============================
+
+typeindex=-2 left=299 right=482 upper=253 lower=258
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Pig. 2. Structure of EPICS with intcrlacc to hardware
+==============================
+
+==============================
+
+typeindex=-2 left=275 right=492 upper=279 lower=448
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Between  thc  RHIC controls  system  and  STAR EPICS 
+software, there  is  a software interface,  a  CDEV  gateway 
+service, which  is used for exchange of information. There is a 
+single network connection betwccn thc clicnt and thc galeway 
+through  which all CDEV rcqucsts  arc routed. This gateway 
+receives a request  from  the client  (STAR),  establishcs  an 
+appropriate connection to the actual service that is requcstcd, 
+and  returns  the  results  to  the  client  Aoolication  Proeram 
+Interface (API) [Ill. Thcrc is also special CDEV GUI display 
+software, CDEV MDEM, which is used to display the CDEV 
+incormation obtaincd over the gatcway. 
+The Server Contains a Device Definition Language (DDL) 
+file  which  maps  the  RHIC  information,  such  as  magnet 
+variablcs, to EPICS. On the client (Hardware Controls) side, 
+there is a clicnt DDL file that maps all the received data into 
+the EPICS variables. The client API then uses thc devices and 
+instances defined in the both DDL files to fctch thc data into 
+EPICS, ~h~ schematic connection  is shown in figure  3,
+==============================
+
+==============================
+
+typeindex=-2 left=297 right=468 upper=573 lower=579
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Fig. 3 Gateway service between RHIC and STAR
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=517 upper=716 lower=720
+====>
+charfont name=Helvetica charfont height=4.000000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Authorized licensed use limited to: California State University Dominguez Hills. Downloaded on March 23,2022 at 23:39:26 UTC from IEEE Xplore.  Restrictions apply.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-1 left=53 right=269 upper=2 lower=7
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=1, allupper=0, column left=50, likeBody=-100
+
+connection.  Communication  is  accomplished  using  the
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=52 right=269 upper=12 lower=36
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+suhinutine records. New subroutine functioiis were written for 
+this purpose. Additional support for VME access to STAR- 
+specific CTB trigger boards has been written.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=269 upper=43 lower=192
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+All of the Hardware Controls EPICS configurations will be 
+sct and monitored by the STAR Onlinc Computing system as 
+part 01 Run Control. The set of databases [or a particular run 
+configuration is maintained by Hardware Controls. The set of 
+all possible run-time databases arc stored as part of  Online 
+Computing. The appropriate set  is trailsferred  to  Hardware 
+Controls as Run Control transitions between various operating 
+states. At present, this connection consists only of an interface 
+between EPICS and Objectivity [SI. This connection will be 
+completed by the Spring run. This will requirc a C++ program 
+similar to that for the magnet system. In this case, however, 
+Hardware Controls acts as both server and client. As a server, 
+Hardware  Controls  sends the detector configurations to  tlic 
+online group, As a  clicnt, Hardware Controls receives new 
+configurations lrom the online group and puts them into the 
+EPICS database.
+==============================
+
+==============================
+type: SUBTITLE_5
+typeindex=5 left=63 right=258 upper=210 lower=217
+====>
+charfont name=TimesNewRomanPSMT charfont height=6.500000, charfont bold=0, alignment=4, allupper=1, column left=50, likeBody=-100
+
+111. STAR HARDWARC ONTROLS OITWARE
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=268 upper=224 lower=297
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=100
+
+EPICS  was  selected  as  the  ioundatiun  for  the  STAR 
+control  software  environment  bccause  it  incorporates  a 
+standard means of sharing information and services, graphical 
+display  and  control  interfaces,  and  a  robust,  real-time 
+operating system  [‘,I.  EPICS  was dcsigncd and  is maintained 
+by Los Alamos National Laboratory and the Advanced Photon 
+Source  at  Argonnc  National Laboratory  as  a dcvclopmcnt 
+toolkit [IO].
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=268 upper=305 lower=348
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+At STAR, EPICS is mn on Sun workstations  connected to 
+VME processors running the VxWorks operating system. The 
+EPICS  run-time environment  consists  or several  integrated 
+components that share a standard coinmunication layer. The 
+components of EPICS used at STAR arc:
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=267 upper=356 lower=381
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+The Motif  Editor and Display Manager (MEDM) is an 
+operator  interface  that  provides  rull-color,  window-based 
+screens that can mimic control panels.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=50 right=268 upper=388 lower=433
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+Thc Graphics Batabase Configuration Tool (GDCT) is the 
+hdearsdigwna troeo l cfohra raa cdtiesrtrisibtiuctse d,, ,rfu n-thtiem e 1d10a tabdaesvei tcheast  isforolartlel s tthilee  
+applications program and provides ht,ilt-in, low.level  colltrol 
+options.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=267 upper=442 lower=456
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+A sequencer that implements state-based control in order 
+to support system automalion.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=267 upper=464 lower=479
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=1
+
+The Alarm Handlcr (ALH) that displays the alarm status 
+hierarchically in real time.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=51 right=267 upper=487 lower=503
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=100
+
+A data archiver which  acquires and sforcs run-time data 
+and retrieves the data in a graphical format for later analysis.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=50 right=268 upper=511 lower=577
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=50, likeBody=100
+
+An interface to a channel access program that cstablishes 
+a network-wide standm1 for accessing the run-time database. 
+The  backbone  of  EPICS  readout  control  is  a  set  or 
+databases which will be loaded into the VME processors.  At 
+STAR, each database includes records written for monitoring 
+and  controlling  parameters  relating  to  a  singlc  subsystem. 
+Users  access  these  parameters  through  a  Graphical  User
+==============================
+
+==============================
+Page 4
+ Left 1 Right 517 Top 1 Bottom 718
+
+
+Column meta:
+Column left:32 upper:1 right:249 lower 182
+Column left:257 upper:1 right:474 lower 349
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=1 left=257 right=484 upper=214 lower=220
+====>
+charfont name=CourierNewPS-BoldMT charfont height=5.700000, charfont bold=2, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+littp://www.aps.anl.gov/asd/people/anj/ipac/docldevCan.lit~nl
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=517 upper=714 lower=718
+====>
+charfont name=Helvetica charfont height=4.000000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Authorized licensed use limited to: California State University Dominguez Hills. Downloaded on March 23,2022 at 23:39:26 UTC from IEEE Xplore.  Restrictions apply.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=2 left=109 right=174 upper=1 lower=8
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=16, allupper=1, column left=32, likeBody=-100
+
+IV. SUMMARY
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=32 right=249 upper=16 lower=117
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=32, likeBody=1
+
+An EPICS-based control system has been developed for the 
+STAR experiment at RHIC. The system dcvcloped contains a 
+number of new EPICS implemcntations. HDLC providcs thc 
+field  bus  used  by  the  experiment  for  controls  and  as  an 
+alternatc data path Data transfer to and from cxtcrnal inagnct 
+and accelerator control systems is accomplished using CDEV. 
+An interface betwecn EPICS and an Objcctivity database has 
+bccn written. The system  has hegun opcralion as part or an 
+cngineering run during thc summer of 1999. STAR Hardware 
+Controls  maintains  thc  systcm-wide  control  of  thc  STAR 
+detcctor with its EPICS databases at the subsystem Icvel.
+==============================
+
+==============================
+
+typeindex=4 left=88 right=205 upper=134 lower=140
+====>
+charfont name=TimesNewRomanPSMT charfont height=6.600000, charfont bold=0, alignment=0, allupper=1, column left=32, likeBody=-100
+
+V. ACKNOWLEDGMENTS
+==============================
+
+==============================
+
+typeindex=0 left=32 right=249 upper=148 lower=182
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=32, likeBody=-102
+
+This work was  supported in part by  the Unitcd  States 
+Dcpartmcnt  of  Energy  undcr  contract  number  DE-FG03- 
+96ER40991, the Creighton College of Arts and Sciences and 
+the Dean of the Graduate School, Creighton Univcrsity.
+==============================
+
+==============================
+
+typeindex=8 left=329 right=407 upper=1 lower=8
+====>
+charfont name=TimesNewRomanPSMT charfont height=7.100000, charfont bold=0, alignment=16, allupper=1, column left=257, likeBody=-100
+
+VI. REFERENCES
+==============================
+
+==============================
+
+typeindex=0 left=257 right=474 upper=16 lower=51
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=257, likeBody=-102
+
+[l] J. W. Harris et al. "The STAR Experiment at Relalivistic 
+Heavy Ion Collider," Nucl. Phys. AS66 (1994) 277c; STAR 
+Conccptual  Design  Report,  Lawrcncc  Rcrkeley  Laboratory 
+Report, PUB-5347 (1992).
+==============================
+
+==============================
+
+typeindex=0 left=257 right=474 upper=59 lower=210
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=257, likeBody=-102
+
+[2] H.  Wieman er  al., "STAR  TPC at RHIC," IEEE Trans. 
+Nucl. Sci. 44 (1997) 671. 
+[3] J.  Chrin,  ef  al., "Results  from  thc STAR TPC System 
+Tcst," IEEE Trans. Nucl. Sci. 44 (1997) 592. 
+[4] S. R. Klcin er al., "Front End Elcctronics for thc STAR 
+TPC," IEEETrans. Nucl. Sci. 43 (1996) 1786. 
+[51 I. Meier, "Development of A Slow Controls Alternate Data 
+Acquisition  lntcrfacc  for  thc  Solcnoidal  Tracker  at  RHIC 
+(STAR),"  Creighton University  preprint CU-PHY-NP 96/02 
+(October, 1996). 
+[6] L. Kotchcnda er al., "STAR TPC Gas System," Pctcrshurg 
+Nuclear Physics Institute me.i  EP-5-1998 2219 (January 
+1998). 
+[71 A. Johnson, "devCan  - CAN Bus Device Support,"  URL
+==============================
+
+==============================
+
+typeindex=0 left=257 right=473 upper=227 lower=252
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=257, likeBody=-102
+
+181 J. Chrin, "Intcrfacing  Slow Controls to Onlinc using lhe 
+CDEV C++ Class Library," Creiglilon Univcrsity prcprinl CU- 
+PI-IY-NP 99/01 (Jannary, 1999)
+==============================
+
+==============================
+
+typeindex=0 left=257 right=474 upper=259 lower=275
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=257, likeBody=-102
+
+[9] J. Gross ef al., "A  Unificd Control Systcm for thc STAR 
+Experiment," IEEETrans. Nucl. Sci. 41 (1994) 184.
+==============================
+
+==============================
+
+typeindex=0 left=257 right=474 upper=283 lower=307
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=257, likeBody=-102
+
+[IO] A.J. Kozubal, L.R. Dalcsio, J.O. Hill and D.M. Kersticns, 
+Experimental  Physics  and  Industrial  Control  System. 
+ICALEPCS Proceedings (Vancouver, 1989) 288.
+==============================
+
+==============================
+
+typeindex=0 left=257 right=473 upper=314 lower=349
+====>
+charfont name=TimesNewRomanPSMT charfont height=5.500000, charfont bold=0, alignment=2, allupper=0, column left=257, likeBody=-102
+
+1111 J. Chen, G. Heyes, W. Akers, D.Wu and W. Watson, 
+"CDEV:  An  Objcct-Orientcd Cltrss  Library  for  Dcvcloping 
+Dcvice  Control  Applications,"  ICALEPCS  Proceedings 
+(Chicago, 1995) 97.
+==============================
+

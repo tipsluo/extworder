@@ -1,0 +1,1194 @@
+Page: 1 left:1 upper:1
+Rapid #: -17611996
+page=1 block=11730958 (x=1 y=1) width=179.000000 height=14.000000 fontname=Arial-BoldMT wordint.min=5 wordint.max=7
+CROSS REF ID:
+page=1 block=6752873 (x=1 y=41) width=103.000000 height=9.000000 fontname=ArialMT wordint.min=3 wordint.max=5
+LENDER:
+page=1 block=6752873 (x=1 y=69) width=61.000000 height=9.000000 fontname=ArialMT wordint.min=1 wordint.max=33
+BORROWER:
+page=1 block=6752873 (x=1 y=97) width=88.000000 height=9.000000 fontname=ArialMT wordint.min=3 wordint.max=5
+TYPE:
+page=1 block=7171572 (x=1 y=124) width=29.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+JOURNAL TITLE:
+page=1 block=7171572 (x=1 y=144) width=79.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+USER JOURNAL TITLE:
+page=1 block=7171572 (x=1 y=164) width=109.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+ARTICLE TITLE:
+page=1 block=7171572 (x=1 y=184) width=75.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+ARTICLE AUTHOR:
+page=1 block=7171572 (x=1 y=204) width=89.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+VOLUME:
+page=1 block=7171572 (x=1 y=224) width=45.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+ISSUE:
+page=1 block=7171572 (x=1 y=244) width=33.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+MONTH:
+page=1 block=7171572 (x=1 y=264) width=39.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+YEAR:
+page=1 block=7171572 (x=1 y=284) width=30.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+PAGES:
+page=1 block=7171572 (x=1 y=304) width=36.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+ISSN:
+page=1 block=7171572 (x=1 y=324) width=26.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+OCLC #:
+page=1 block=7171572 (x=1 y=344) width=39.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+Processed by RapidX:
+page=1 block=6490752 (x=1 y=384) width=99.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+This material may be protected by copyright law (Title 17 U.S. Code)
+page=1 block=19794735 (x=1 y=409) width=302.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+64014
+page=1 block=1038813776 (x=121 y=40) width=39.000000 height=10.000000 fontname=Arial-BoldMT wordint.min=1 wordint.max=35
+EGA :: Main Library
+page=1 block=1038813776 (x=121 y=68) width=130.000000 height=10.000000 fontname=Arial-BoldMT wordint.min=3 wordint.max=5
+CDH :: Main Library
+page=1 block=1038813776 (x=121 y=96) width=131.000000 height=10.000000 fontname=Arial-BoldMT wordint.min=3 wordint.max=5
+Article CC:CCG
+page=1 block=-1376771980 (x=121 y=124) width=70.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+Popular music and society
+page=1 block=-1376771980 (x=121 y=144) width=117.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+Popular Music and Society
+page=1 block=-1376771980 (x=121 y=164) width=118.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+Urban Myths and Rural Legends: An Alternate Take on the Regionalism of Hip Hop.
+page=1 block=-1376771980 (x=121 y=184) width=368.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+43
+page=1 block=87234464 (x=121 y=224) width=11.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+4
+page=1 block=87234464 (x=121 y=244) width=6.000000 height=7.000000 fontname=ArialMT wordint.min=23 wordint.max=23
+2020
+page=1 block=380646436 (x=121 y=284) width=22.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+414-
+page=1 block=380646436 (x=121 y=304) width=20.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+0300-7766
+page=1 block=380646436 (x=121 y=324) width=48.000000 height=7.000000 fontname=ArialMT wordint.min=1 wordint.max=23
+5/27/2021 2:45:38 PM
+page=1 block=777128576 (x=121 y=384) width=98.000000 height=7.000000 fontname=ArialMT wordint.min=2 wordint.max=4
+Page: 2 left:1 upper:1
+Popular Music and Society
+page=2 block=396361738 (x=32 y=1) width=189.000000 height=10.000000 fontname=EGJCHC+OpenSans-Semibold wordint.min=3 wordint.max=5
+ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/rpms20
+page=2 block=656409128 (x=32 y=92) width=313.000000 height=6.000000 fontname=EGJCHC+OpenSans-Semibold wordint.min=2 wordint.max=4
+Urban Myths and Rural Legends: An Alternate Take
+page=2 block=28840097 (x=1 y=129) width=440.000000 height=12.000000 fontname=EGJCHC+OpenSans-Semibold wordint.min=4 wordint.max=6
+on the Regionalism of Hip Hop
+page=2 block=28840097 (x=1 y=150) width=263.000000 height=12.000000 fontname=EGJCHC+OpenSans-Semibold wordint.min=4 wordint.max=6
+Adam de Paor-Evans
+page=2 block=7800360 (x=1 y=197) width=119.000000 height=8.000000 fontname=EGJCHC+OpenSans-Semibold wordint.min=3 wordint.max=5
+To cite this article: Adam de Paor-Evans (2020) Urban Myths and Rural Legends: An
+page=2 block=27597879 (x=1 y=233) width=381.000000 height=7.000000 fontname=EGJCHD+ArialUnicodeMS wordint.min=2 wordint.max=4
+Alternate Take on the Regionalism of Hip Hop, Popular Music and Society, 43:4, 414-425, DOI:
+page=2 block=27597879 (x=1 y=245) width=421.000000 height=7.000000 fontname=EGJCHD+ArialUnicodeMS wordint.min=2 wordint.max=4
+10.1080/03007766.2020.1730651
+page=2 block=27597879 (x=1 y=257) width=150.000000 height=7.000000 fontname=EGJCHD+ArialUnicodeMS wordint.min=1 wordint.max=24
+To link to this article:  https://doi.org/10.1080/03007766.2020.1730651
+page=2 block=21628826 (x=1 y=278) width=330.000000 height=7.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+© 2020 The Author(s). Published by Informa
+page=2 block=431825094 (x=36 y=333) width=183.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+UK Limited, trading as Taylor & Francis
+page=2 block=431825094 (x=36 y=343) width=160.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+Group.
+page=2 block=431825094 (x=36 y=353) width=29.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=1 wordint.max=20
+Published online: 24 Feb 2020.
+page=2 block=431825094 (x=36 y=376) width=127.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+Submit your article to this journal 
+page=2 block=431825094 (x=36 y=421) width=142.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+Article views: 2134
+page=2 block=431825094 (x=36 y=462) width=77.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+View related articles 
+page=2 block=431825094 (x=36 y=507) width=86.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+View Crossmark data
+page=2 block=431825094 (x=36 y=550) width=88.000000 height=5.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+Full Terms & Conditions of access and use can be found at
+page=2 block=1242968118 (x=100 y=726) width=243.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=2 wordint.max=4
+https://www.tandfonline.com/action/journalInformation?journalCode=rpms20
+page=2 block=1242968118 (x=58 y=737) width=327.000000 height=6.000000 fontname=EGJCHE+OpenSans wordint.min=1 wordint.max=20
+Page: 3 left:1 upper:1
+POPULAR MUSIC AND SOCIETY
+page=3 block=5898253 (x=1 y=1) width=90.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=4
+2020, VOL. 43, NO. 4, 414–425
+page=3 block=5898253 (x=1 y=10) width=89.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=4
+https://doi.org/10.1080/03007766.2020.1730651
+page=3 block=9240652 (x=1 y=19) width=141.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=2
+Urban Myths and Rural Legends: An Alternate Take on the
+page=3 block=23463400 (x=1 y=63) width=358.000000 height=8.000000 fontname=HONPJC+AdvOTce3d9a73 wordint.min=1 wordint.max=6
+Regionalism of Hip Hop
+page=3 block=23463400 (x=1 y=79) width=146.000000 height=8.000000 fontname=HONPJC+AdvOTce3d9a73 wordint.min=1 wordint.max=6
+Adam de Paor-Evans
+page=3 block=6029912 (x=1 y=100) width=92.000000 height=6.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+Faculty of Culture and the Creative Industries, University of Central Lancashire, Preston, UK
+page=3 block=20972234 (x=1 y=119) width=320.000000 height=6.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=5
+ABSTRACT
+page=3 block=31523561 (x=13 y=149) width=37.000000 height=5.000000 fontname=HONPME+AdvOT2bda31c3.B wordint.min=1 wordint.max=15
+KEYWORDS
+page=3 block=744489705 (x=284 y=149) width=40.000000 height=5.000000 fontname=HONPME+AdvOT2bda31c3.B wordint.min=1 wordint.max=15
+Authenticity; britcore; British
+page=3 block=1656491570 (x=284 y=158) width=89.000000 height=5.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=2
+rap; hip-hop; regionalism;
+page=3 block=1656491570 (x=284 y=167) width=80.000000 height=5.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=4
+ruralism
+page=3 block=1656491570 (x=284 y=176) width=25.000000 height=5.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=2
+The practices of hip-hop evolved during the mid-1970s in New York
+page=3 block=215567779 (x=13 y=159) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+City’s dilapidated neighborhoods and are almost exclusively repre-
+page=3 block=215567779 (x=13 y=169) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+sented through the fabric of inner-city life. However, over the past
+page=3 block=215567779 (x=13 y=179) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+forty years hip-hop has produced diverse regional-rural agendas
+page=3 block=215567779 (x=13 y=189) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=6
+within the core elements of the culture, reﬂected in its sound. By
+page=3 block=215567779 (x=13 y=199) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+exploring hip-hop culturein the West Country, UK, this article locates
+page=3 block=215567779 (x=13 y=209) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+hip-hop’s regional-rural origins to attest its productions evolve dif-
+page=3 block=215567779 (x=13 y=219) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+ferently to that of metro-centric artists, coexisting as vehicles for
+page=3 block=215567779 (x=13 y=229) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=6
+negotiating socio-geographical acceptance and aﬃrming a regional-
+page=3 block=215567779 (x=13 y=239) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+rural identity. These alternate modes of practice enrichen the wider
+page=3 block=215567779 (x=13 y=249) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+hip-hop community by developing relationships with traditional
+page=3 block=215567779 (x=13 y=259) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=7
+regional culture and producing new narratives to challenge hip-
+page=3 block=215567779 (x=13 y=269) width=253.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=6
+hop’s conventions.
+page=3 block=215567779 (x=13 y=279) width=70.000000 height=5.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+It is commonly accepted that hip-hop culture originated during the early 1970s among the
+page=3 block=24526394 (x=1 y=322) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+destitute projects of New York City (Berman 15; Chang 17). Growing from economic,
+page=3 block=24526394 (x=1 y=335) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+political, and socio-spatial oppression and displacement largely due to Robert Moses’s mass
+page=3 block=24526394 (x=1 y=348) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+build housingprogram initiated during the 1930s, the origins of hip hop are ﬁrmly embedded
+page=3 block=24526394 (x=1 y=361) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+in the ground of this urbanism (Evans 187). Hip-hop’s heritage is also rooted in African-
+page=3 block=24526394 (x=1 y=374) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+American, Jamaican, and Latinx diasporas which fueled its pioneering creative and cultural
+page=3 block=24526394 (x=1 y=387) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+drive. Hip hop draws upon transglobal inﬂuences that “motivates youth internationally to
+page=3 block=24526394 (x=1 y=400) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+explore their own issues of marginalization in the hip-hop underground” (Osumare 172).
+page=3 block=24526394 (x=1 y=413) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Global hip hop transits into glocalized hip-hop as it engenders national, regional, and local
+page=3 block=24526394 (x=1 y=426) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+traditions and rituals. To date, locational studies that explicitly deal with regional-rural hip
+page=3 block=24526394 (x=1 y=439) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+hop are limited,1 although Minestrelli’s work on Australian Indigenous hip hop richly delves
+page=3 block=24526394 (x=1 y=449) width=373.000000 height=9.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+into the intertwined relationships between First Nations, music, and the land. Minestrelli
+page=3 block=24526394 (x=1 y=465) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+explores these artists as: “bricoleurs whose artistic work reﬂects their composite life experi-
+page=3 block=24526394 (x=1 y=478) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+ences” (Minestrelli 5). Regional-rural pockets omit the intensity of speed and esthetic
+page=3 block=24526394 (x=1 y=491) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+experienced in the metropolis and catalyze an alternative bricolage of hip-hop practice. It is
+page=3 block=24526394 (x=1 y=504) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+these less chartered terrains that frame this article.
+page=3 block=24526394 (x=1 y=517) width=205.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+By locating the West Country of the UK’s regional-rural hip-hop origins, this article
+page=3 block=24526394 (x=13 y=530) width=361.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+explores a three-fold inquiry. Firstly, it will reveal the transitional practices of hip hop in
+page=3 block=24526394 (x=1 y=543) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the West Country as its champions shifted from consumers to producers. Secondly, it will
+page=3 block=24526394 (x=1 y=556) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+interrogate the cultural issues that regional practitioners encountered in the broader
+page=3 block=24526394 (x=1 y=569) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+CONTACT Adam de Paor-Evans
+page=3 block=6687652 (x=1 y=596) width=102.000000 height=5.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=5
+arhevans@uclan.ac.uk
+page=3 block=530319700 (x=119 y=597) width=68.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=2
+University of Central Lancashire, Preston PR1 2HE, UK
+page=3 block=-2095117996 (x=201 y=597) width=167.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=4
+© 2020 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group.
+page=3 block=24265344 (x=1 y=608) width=249.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=4
+This is anOpen Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License
+page=3 block=24265344 (x=1 y=616) width=369.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=4
+(http://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial re-use, distribution, and reproduction in any med-
+page=3 block=24265344 (x=1 y=624) width=370.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=4
+ium, provided the originalwork is properly cited, and is not altered, transformed, or built upon in any way.
+page=3 block=24265344 (x=1 y=632) width=294.000000 height=4.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=4
+Page: 4 left:1 upper:1
+POPULAR MUSIC AND SOCIETY
+page=4 block=1555496964 (x=235 y=1) width=101.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+415
+page=4 block=261685252 (x=363 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+sphere of hip hop in terms of accent, dialectal, and geographical distancing. Lastly, it
+page=4 block=24448802 (x=1 y=26) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+explores semantics and narratives within the language of West Country rap as it engages
+page=4 block=24448802 (x=1 y=40) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+with both localized and transnational audiences. This inquiry is undertaken through
+page=4 block=24448802 (x=1 y=53) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+literature review and a mixed methodology of artifact and sonic analysis, and reﬂexive
+page=4 block=24448802 (x=1 y=65) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+autoethnography alongside semi-structured interviews with regional artists Speciﬁk, Si
+page=4 block=24448802 (x=1 y=79) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Spex, Big Tunes D, Verbal Wurzels/Lowercase, and Jackie Chat. The article concludes
+page=4 block=24448802 (x=1 y=91) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+that the production of hip hop in the West Country evolves diﬀerently from that of
+page=4 block=24448802 (x=1 y=104) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+metro-centric artists, and the regional-rural construction of hip-hop coexists as a vehicle
+page=4 block=24448802 (x=1 y=117) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+for negotiating broader socio-geographical acceptance and aﬃrming a regional identity.
+page=4 block=24448802 (x=1 y=130) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+As such, these negotiations and alternate modes of practice enrich the wider contem-
+page=4 block=24448802 (x=1 y=143) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+porary hip-hop climate, extending the thoughts of Rakim’s lyric: “It ain’t where you’re
+page=4 block=24448802 (x=1 y=156) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+from, it’s where you’re at”2 with celebration and poignancy.
+page=4 block=24448802 (x=1 y=167) width=255.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+From Urban to Rural
+page=4 block=6685884 (x=1 y=202) width=102.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=5
+Almost a decade had elapsed since DJ Kool Herc threw the ﬁrst hip-hop jam at Sedgwick
+page=4 block=24532618 (x=1 y=222) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Avenue, the Bronx,3 before the culture arrived in the West Country. Here, like many
+page=4 block=24532618 (x=1 y=232) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+places across the UK, the video to Malcolm McLaren and the World’s Famous Supreme
+page=4 block=24532618 (x=1 y=248) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Team’s single “Buﬀalo Gals” mesmerized British youth as it was transmitted into homes
+page=4 block=24532618 (x=1 y=261) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+during December 1982. The following year raised the question: what is breakdance, and
+page=4 block=24532618 (x=1 y=274) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+breakdance music? It is necessary here to point out that in 1983 the term “hip hop” was
+page=4 block=24532618 (x=1 y=287) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+not commonplace in provincial Britain, as either a music genre or a cultural anchor. As
+page=4 block=24532618 (x=1 y=300) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Gloucester’s Big Tunes D attests, “Funny, we were calling it electro-funk at that time. The
+page=4 block=24532618 (x=1 y=313) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+term hip hop came later for us; we were always a little behind because of our location” (3).
+page=4 block=24532618 (x=1 y=326) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Even London’s infamous Groove Records were publishing their “Electro-Funk Chart,”
+page=4 block=24532618 (x=1 y=339) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+rather than a hip-hop chart, and the most signiﬁcant compilation albums – the Street
+page=4 block=24532618 (x=1 y=352) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Sounds Electro series – did not introduce the term into their titles until volume 11 in
+page=4 block=24532618 (x=1 y=365) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+1986 (de Paor-evans 148). Those in the hinterlands of the regional-rural relied on
+page=4 block=24532618 (x=1 y=378) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+a narrow choice of accessible releases and the sparse number of rap records John Peel
+page=4 block=24532618 (x=1 y=391) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+would play on his BBC Radio 1 show. The Creators’ Cornwall-based Si Spex conﬁrms the
+page=4 block=24532618 (x=1 y=404) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+signiﬁcance of Peel’s eclectic shows for those in the regional-rural: “Obviously, there was
+page=4 block=24532618 (x=1 y=417) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+nothing; we were starved of music, so we had to listen to John Peel and he played two
+page=4 block=24532618 (x=1 y=430) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+tracks a night . .. trying to record and having to sit through hours of Cocteau Twins and
+page=4 block=24532618 (x=1 y=443) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Half Man Half Biscuit and crazy thrashy nonsense” (Si Spex).
+page=4 block=24532618 (x=1 y=456) width=262.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+While London and other large cities were championing hip-hop performance, these
+page=4 block=24532618 (x=13 y=469) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+formative times exist largely as memories. As stated by old.british.hiphop.co.uk: “As with
+page=4 block=24532618 (x=1 y=482) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+so much of hip-hop’s early history, as well as what was happening in New York the
+page=4 block=24532618 (x=1 y=495) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+developing scene in the UK was and remains undocumented. Records weren’t really
+page=4 block=24532618 (x=1 y=508) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+released, it was all about the live show and rocking parties and nobody thought to detail
+page=4 block=24532618 (x=1 y=521) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+all that was evolving” (“18”).4 Yet in regional-rural areas, opportunities for live shows
+page=4 block=24532618 (x=1 y=531) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+were almost nil due to the sparseness of hip-hop followers and lack of demand for events.
+page=4 block=24532618 (x=1 y=547) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Hip-hop music was perceived as alien gimmickry by the broader demographic of the
+page=4 block=24532618 (x=1 y=560) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+West Country, and rap fans suﬀered personal and institutional prejudice. An example of
+page=4 block=24532618 (x=1 y=573) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the latter’s weight can be evidenced in an hourly jingle that proudly boasted: “ . . . AND
+page=4 block=24532618 (x=1 y=586) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+WE DON’T PLAY RAP!” by Exeter’s regional radio station Gemini FM. This ampliﬁed
+page=4 block=24532618 (x=1 y=599) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the personal prejudices of an elder peer group, and Speciﬁk recalls: “They [elders] would
+page=4 block=24532618 (x=1 y=612) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Page: 5 left:1 upper:1
+416
+page=5 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+A. DE PAOR-EVANS
+page=5 block=156893188 (x=38 y=1) width=63.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+say ‘it’s not music,’ and ‘it’s a fad that won’t be around long’” (Speciﬁk). I am reminded of
+page=5 block=24447112 (x=1 y=26) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+occasions in the park where we would be told angrily to “turn oﬀ that rap crap” by elder
+page=5 block=24447112 (x=1 y=40) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+dog-walkers; hostile comments fueled by the worst in parochialist attitude and a deeply
+page=5 block=24447112 (x=1 y=53) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+concerning naivete about hip hop and its emerging global identity as a black, urban
+page=5 block=24447112 (x=1 y=65) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+culture threatening a dominantly white, rural way of life. This ostracization further
+page=5 block=24447112 (x=1 y=79) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+pushed West Country practitioners underground where the development of the artifact
+page=5 block=24447112 (x=1 y=91) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+had more presence than the ﬂuidity of public performance.
+page=5 block=24447112 (x=1 y=104) width=252.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+From Consumers to Producers
+page=5 block=9831222 (x=1 y=137) width=150.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=5
+With no critical mass to petition for regular jams, pioneering local artists turned to DIY
+page=5 block=24517148 (x=1 y=157) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+manufacturing to test their practice. The heavy reliance on products rather than the
+page=5 block=24517148 (x=1 y=170) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+processes of hip hop meant that the ﬁrst regional-rural practitioners learnt their practice
+page=5 block=24517148 (x=1 y=183) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+by undertaking detailed analysis and an almost forensic unpacking of hip-hop’s reiﬁca-
+page=5 block=24517148 (x=1 y=196) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+tions. Record sleeves, label designs, and cassette packaging were paramount to their
+page=5 block=24517148 (x=1 y=209) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+understanding of hip hop. Through these secondary forms of representation, hip hop
+page=5 block=24517148 (x=1 y=222) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+acquired meaning which was born out of both localized consumption and production.
+page=5 block=24517148 (x=1 y=235) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+The records that these ﬁrst-generation regional-rural hip-hop adopters breakdanced to
+page=5 block=24517148 (x=1 y=248) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+were visually, sonically, and lyrically laden with tropes, symbols, and representations of
+page=5 block=24517148 (x=1 y=261) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the urban. Regional-rural consumers were exposed to the notion of “city” as well as
+page=5 block=24517148 (x=1 y=274) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+“street.” City Street Records, Alex and the City Crew, and even London’s City Limits
+page=5 block=24517148 (x=1 y=287) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Crew adorned record sleeves alongside a superﬂuous number of compilation albums
+page=5 block=24517148 (x=1 y=300) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+such as Breakdance Fever, Street Beats, and Genius of Rap, all of which drew on the highly
+page=5 block=24517148 (x=1 y=313) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=4
+engaging visuals of urban graﬃti to excite consumers.
+page=5 block=24517148 (x=1 y=326) width=229.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+The mobility of these recorded artifacts carried the myth of the urban to the country,
+page=5 block=24517148 (x=13 y=339) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+a myth upon which the ﬁrst biographies of regional-rural hip-hop practitioners was built.
+page=5 block=24517148 (x=1 y=352) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+With only these visual reference points, regional-rural dwellers assumed the urban fabric as
+page=5 block=24517148 (x=1 y=365) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+a singular hip-hop context, which although unknowingly self-limiting, was hugely signiﬁcant
+page=5 block=24517148 (x=1 y=378) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+in grounding their embryonic practice. Farrugia discusses the signiﬁcance of mobilities of
+page=5 block=24517148 (x=1 y=391) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+cultural capital created in cities to youth dwelling in rural areas “As ﬂows of capital are
+page=5 block=24517148 (x=1 y=404) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+accumulated and agglomerated in cities,the relationship between thecity and the country has
+page=5 block=24517148 (x=1 y=417) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+been reshaped such that many rural young people are unable to access the resources they
+page=5 block=24517148 (x=1 y=430) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+require to build biographies” (838). The limitations of regional-rural dwellers in accessing
+page=5 block=24517148 (x=1 y=443) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+a wider breadth of hip-hop culture during its early years meant that they needed to buy into
+page=5 block=24517148 (x=1 y=456) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+these narrower scopes of representation. Through this restricted consumption of hip-hop
+page=5 block=24517148 (x=1 y=469) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+culture, a new habitusevolved which initially drewupon the ideology of hip-hop in American
+page=5 block=24517148 (x=1 y=482) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+urban life but was later reimagined and practiced in the sphere of the regional-rural.
+page=5 block=24517148 (x=1 y=495) width=344.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+In response to Bourdieu‘s habitus, the primary system which classiﬁes practices and
+page=5 block=24517148 (x=13 y=508) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+ultimately taste (167), is the structure of the regional-rural practices associated with
+page=5 block=24517148 (x=1 y=521) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+convention and tradition in the West Country; there is inherently a social placing of these
+page=5 block=24517148 (x=1 y=534) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+practices and their correlating artifacts, which in turn relate to taste, and ultimately class.5
+page=5 block=24517148 (x=1 y=544) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+To then examine the habitus of the regional-rural hip-hop practitioner in a similar way,
+page=5 block=24517148 (x=1 y=560) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the aforementioned hip-hop tropes aid a framing of habitus, but the imagined urbanism
+page=5 block=24517148 (x=1 y=573) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+projected by hip-hop’s reiﬁcations inﬂuence the construction of the regional-rural
+page=5 block=24517148 (x=1 y=586) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=8
+habitus. These reiﬁcations become the correlating artifacts of the habitus, and when
+page=5 block=24517148 (x=1 y=599) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+coupled with direct regional-rural hip-hop praxis, the habitus of the regional-rural hip-
+page=5 block=24517148 (x=1 y=612) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Page: 6 left:1 upper:1
+POPULAR MUSIC AND SOCIETY
+page=6 block=1555496964 (x=235 y=1) width=101.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+417
+page=6 block=261685252 (x=363 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+hop practitioner abridges imagined urban experience, engagement with secondary arti-
+page=6 block=24452858 (x=1 y=26) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+facts, and primary regional-rural practice. In turn, this new hip-hop habitus evolves
+page=6 block=24452858 (x=1 y=40) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+through responding to its local regional-rural traditions and the continuing development
+page=6 block=24452858 (x=1 y=53) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+of glocal hip-hop culture. Furthermore, there is an invisible class system at play between
+page=6 block=24452858 (x=1 y=65) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+regional-rural dwellers and inhabitants of cities, constructed through what Farrugia
+page=6 block=24452858 (x=1 y=79) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+describes as “structural inequalities that diﬀerentiate rural and urban places” (842).
+page=6 block=24452858 (x=1 y=91) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+These structural inequalities, cultivated through lack of access to hip-hop sources and
+page=6 block=24452858 (x=1 y=104) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+primary experience of high urbanism, resulted in the habitus of West Country hip-hop
+page=6 block=24452858 (x=1 y=117) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+diﬀering greatly from those of its urban counterpart. What is critical here, is that
+page=6 block=24452858 (x=1 y=130) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+throughout the lifespan of West Country hip hop, the anchor of its habitus shifted
+page=6 block=24452858 (x=1 y=143) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+from urban ideologies to everyday regional-rural practices.
+page=6 block=24452858 (x=1 y=156) width=250.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Bourdieu aﬃrms that “Each class condition is deﬁned simultaneously, by its intrinsic
+page=6 block=24452858 (x=13 y=169) width=361.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+properties and by the relational properties which it derives from its position in the system
+page=6 block=24452858 (x=1 y=182) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+of class conditions” (166–67). He continues to explain the distinction of class systems are
+page=6 block=24452858 (x=1 y=195) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+based on everything they are opposed to, and that: “social identity is deﬁned and asserted
+page=6 block=24452858 (x=1 y=208) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+through diﬀerence” (167). The West Country hip-hop habitus reexamined the class
+page=6 block=24452858 (x=1 y=221) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+conditions in its environment, ﬁrstly through the lens of artifacts embedded with
+page=6 block=24452858 (x=1 y=234) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+urban ideologies, and secondly through the lens of its own emerging regional-rural hip-
+page=6 block=24452858 (x=1 y=247) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+hop practice. Over the course of three decades, the habitus of West Country hip hop,
+page=6 block=24452858 (x=1 y=260) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+although historically anchored by the myth of urban life and everyday regional-rural
+page=6 block=24452858 (x=1 y=273) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+practices, formed its own biography via the modes of production that distinguished itself
+page=6 block=24452858 (x=1 y=286) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+from local traditions and rituals and from urban ideologies. These modes of production –
+page=6 block=24452858 (x=1 y=299) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+from the invisible processes of accent and dialect to the tangible recorded DIY artifact –
+page=6 block=24452858 (x=1 y=312) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+are explored in the remainder of this article.
+page=6 block=24452858 (x=1 y=325) width=189.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+The Processes of DIY Cultural Capital
+page=6 block=11995236 (x=1 y=358) width=183.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=5
+Bourdieu places the cultural capital of society in three categories: the institutional
+page=6 block=24535270 (x=1 y=378) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+(74–75), the objectiﬁed (69, 172), and the embodied (70). My interpretation here is
+page=6 block=24535270 (x=1 y=391) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+that the institutional capital represents the capital of conventional marked achievement,
+page=6 block=24535270 (x=1 y=404) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+of qualiﬁcations and certiﬁcates. The objectiﬁed is the capital of the material object,
+page=6 block=24535270 (x=1 y=417) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+artifact or thing, and the embodied, is the cultural capital of one’s thoughts, disposition of
+page=6 block=24535270 (x=1 y=430) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+mind and actions, and their inherent amassing over time. These versions of cultural
+page=6 block=24535270 (x=1 y=443) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+capital are variably intertwined, and provide representations about individuals and
+page=6 block=24535270 (x=1 y=456) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+groups, depending on ownership, acquisition, and collection. If the ideas of manufacture
+page=6 block=24535270 (x=1 y=469) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+and the processes of production are explored within the ﬁeld of West Country hip hop, it
+page=6 block=24535270 (x=1 y=482) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+is possible to discover a greater value to the tactics of production of the early hip-hop
+page=6 block=24535270 (x=1 y=495) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+pioneers – particularly when the processes themselves are understood as both cultural
+page=6 block=24535270 (x=1 y=508) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+capital gain and a response to/development of habitus.
+page=6 block=24535270 (x=1 y=521) width=233.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+The embryonic productions of West Country rap were manufactured by hand. Sleeve
+page=6 block=24535270 (x=13 y=534) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+designs were produced by the crafting technology of Letraset and cutouts of photographs,
+page=6 block=24535270 (x=1 y=547) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+mocked-up on handmade cassette templates and photocopied (Figure 1). In the forma-
+page=6 block=24535270 (x=1 y=560) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+tive, underground years of self-production between 1986 and 1988, audio was recorded
+page=6 block=24535270 (x=1 y=573) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+directly onto each cassette, as manufacture runs were as short as ten units and circulated
+page=6 block=24535270 (x=1 y=586) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+only to members of one’s crew or close friends. As external interest and artists’ con-
+page=6 block=24535270 (x=1 y=599) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+ﬁdence and experience grew, release runs extended up to 100 units, as in the case of my
+page=6 block=24535270 (x=1 y=612) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Page: 7 left:1 upper:1
+418
+page=7 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+A. DE PAOR-EVANS
+page=7 block=156893188 (x=38 y=1) width=63.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+Figure 1. Rockin Beats by Ro.La Rock, Cassette, 1988: Photograph courtesy of Rola.
+page=7 block=20121417 (x=1 y=373) width=307.000000 height=5.000000 fontname=HONPMD+AdvOT5fcf1b24 wordint.min=1 wordint.max=5
+crew – Def Deﬁance – and our Hazardous cassette album of 1992. Copies were earmarked
+page=7 block=24525931 (x=1 y=403) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+to be sent to London-based record labels as well as radio DJs Westwood (Capital Rap
+page=7 block=24525931 (x=1 y=417) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Show) and Max and Dave (KISS-FM). The remainder were sold or given away across
+page=7 block=24525931 (x=1 y=430) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Devon, yet through bootlegged tapes the album was circulated as far aﬁeld as Switzerland,
+page=7 block=24525931 (x=1 y=442) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Austria, and Germany, although this was not known until the mid-noughties and the
+page=7 block=24525931 (x=1 y=456) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+creation of a Def Deﬁance myspace page. This was a revelation, not only in illustrating
+page=7 block=24525931 (x=1 y=469) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Def Deﬁance’s reach which had previously been considered localized and provincial, but
+page=7 block=24525931 (x=1 y=481) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+also in illustrating acceptance by an international audience when London labels and radio
+page=7 block=24525931 (x=1 y=495) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+jocks had rejected it. Furthermore, a kind of legendary status had been attached to Def
+page=7 block=24525931 (x=1 y=508) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Deﬁance, spawned by the mystery behind the artifacts. Additionally, the happy accident
+page=7 block=24525931 (x=1 y=520) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+which kept Hazardous from receiving an oﬃcial timely release also deferred the music
+page=7 block=24525931 (x=1 y=533) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+from potential “product makers” (Rose 143). Cassettes of this kind documented history
+page=7 block=24525931 (x=1 y=547) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+locally, and sixth and seventh generation dubs that existed in Europe were drastically
+page=7 block=24525931 (x=1 y=559) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+deteriorated in sound quality and devoid of inlay cards. Yet while this removed much of
+page=7 block=24525931 (x=1 y=572) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the esthetic and feel of local context, it is testament to the longevity and global appeal of
+page=7 block=24525931 (x=1 y=585) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the music as Berlin’s Rawman attests upon hearing Def Deﬁance mp3s on the web: “I’d
+page=7 block=24525931 (x=1 y=598) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Page: 8 left:1 upper:1
+POPULAR MUSIC AND SOCIETY
+page=8 block=1555496964 (x=235 y=1) width=101.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+419
+page=8 block=261685252 (x=363 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+never heard of them, but one day around 2006–2007, the time of myspace, I discovered
+page=8 block=24450830 (x=1 y=26) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+these and it was like birthday and Christmas on one day together.”
+page=8 block=24450830 (x=1 y=40) width=285.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Although these DIY production techniques are not exclusive to either hip hop or
+page=8 block=24450830 (x=13 y=53) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+remotely located artistry, they are signiﬁcant in informing the histories and biographies
+page=8 block=24450830 (x=1 y=65) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+of West Country hip hop. The opportunity for lo-ﬁ DIY hip-hop production in the West
+page=8 block=24450830 (x=1 y=79) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Country was instrumentally fueled by Tandy, a nationwide electronics store where entry-
+page=8 block=24450830 (x=1 y=91) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+level drum machines, synthesizers, and mixing consoles were reasonably priced, locally
+page=8 block=24450830 (x=1 y=104) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+available, and not outside the scope of a few weeks savings from a weekend job. Tandy
+page=8 block=24450830 (x=1 y=117) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+capitalized on the idea of the bedroom producer, and this “digital revolution and its
+page=8 block=24450830 (x=1 y=130) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+impact on the nature of the recording process” (Peterson and Bennett 5) also enhanced
+page=8 block=24450830 (x=1 y=143) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the potential of its producers, breeding conﬁdence in regional-rural DIY practice. Due to
+page=8 block=24450830 (x=1 y=156) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the remoteness and disconnection to city life, much time spent on hip hop took place in
+page=8 block=24450830 (x=1 y=169) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+self-constructed bedroom studios, resulting in an emphasis of the manufacture of DIY
+page=8 block=24450830 (x=1 y=182) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+artifacts over performance. This suggests a mode of practice which by-passes the tradi-
+page=8 block=24450830 (x=1 y=195) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+tional performativity of hip hop. In fact, the performance becomes the making of and the
+page=8 block=24450830 (x=1 y=208) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+subsequent display of the artifact. This tactic ensured a form of damage-limitation, where
+page=8 block=24450830 (x=1 y=221) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+the performance becomes a historical document prior to its existence in any form of
+page=8 block=24450830 (x=1 y=234) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+public realm.
+page=8 block=24450830 (x=1 y=247) width=56.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Check the Dialect
+page=8 block=5637812 (x=1 y=286) width=86.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=5
+Why is accent and dialect paramount to the production of West Country hip hop? Przybylski
+page=8 block=24537952 (x=1 y=306) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+proposes that “Authenticity can be understood as a socially agreed upon quality by which
+page=8 block=24537952 (x=1 y=319) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+a person or group demonstrates veracity to some valued entity, such as a place or experience”
+page=8 block=24537952 (x=1 y=331) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+(493), and I would equally propose that the valued entities in West Country hip hop are
+page=8 block=24537952 (x=1 y=344) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+driven by vocal representations. Artists fromdisparate regional-rural locations are confronted
+page=8 block=24537952 (x=1 y=358) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+with a challenge in how they control their vocals, and in how they speak to their own
+page=8 block=24537952 (x=1 y=370) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+vernacular and the acquired argot ofhip hop. This relates to what is arguably the most critical
+page=8 block=24537952 (x=1 y=383) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+aspect of rap music that creates distance from other music genres – the notion of “keeping it
+page=8 block=24537952 (x=1 y=396) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+real” associated with ideas of authenticity and identity. Rappers are expected to keep true to
+page=8 block=24537952 (x=1 y=409) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+their cultural origins and hip hop’s cultural origins to retain a sense of reality depicted within
+page=8 block=24537952 (x=1 y=422) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+their narrative. It is this realness, once portrayed through the actions of their practice – their
+page=8 block=24537952 (x=1 y=435) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+narrative habitus contained within their songs – compared to their actual habitus, that aﬃrms
+page=8 block=24537952 (x=1 y=448) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+or denies their status as “real.”
+page=8 block=24537952 (x=1 y=461) width=124.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+In the formative years, West Country practices (and most across Britain) attempted to
+page=8 block=24537952 (x=13 y=474) width=361.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+emulate those of America, particularly by rappers through the adoption of fake American
+page=8 block=24537952 (x=1 y=487) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+accents and tropes, which nonsensically conﬂicted with hip hop’s core value.6 As the
+page=8 block=24537952 (x=1 y=498) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+notion of fake accents in rap became unacceptable, rappers who acquired either
+page=8 block=24537952 (x=1 y=513) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=8
+American or London accents (whilst having no connection to either place) were rejected
+page=8 block=24537952 (x=1 y=527) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+as toys.7 So, where did that leave the West Country’s striving artists? By the close of the
+page=8 block=24537952 (x=1 y=537) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+1980s a sense of localism began to present itself through an interplay between language,
+page=8 block=24537952 (x=1 y=552) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+dialect, and accent. I would attribute this rise in localist attitude to two interrelated
+page=8 block=24537952 (x=1 y=566) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+factors: First, the technical ability in the West Country had advanced to a level which was
+page=8 block=24537952 (x=1 y=578) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+perceived to be comparable to London artists, and conﬁdence grew in homegrown talent.
+page=8 block=24537952 (x=1 y=591) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Second, practitioners gained a reﬂective understanding of their own cultural terrains and
+page=8 block=24537952 (x=1 y=605) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Page: 9 left:1 upper:1
+420
+page=9 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+A. DE PAOR-EVANS
+page=9 block=156893188 (x=38 y=1) width=63.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+politics of identity revealed through local vernacular as they tested themselves against
+page=9 block=24460294 (x=1 y=26) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+their London-centric counterparts.
+page=9 block=24460294 (x=1 y=40) width=148.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Speers sketches out that hip hop’s authenticity is validated when “it has been reworked
+page=9 block=24460294 (x=13 y=53) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+and modiﬁed to ﬁt the local site of appropriation” (24); however, there remains a risk that
+page=9 block=24460294 (x=1 y=65) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+hip hop can be modiﬁed to suit a new context with the simplest application of a local
+page=9 block=24460294 (x=1 y=79) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+vernacular. In proposing a new concept for hip hop’s authenticity, Speers observes
+page=9 block=24460294 (x=1 y=91) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+a diﬀerence between authenticity of hip hop as community and the authenticity of
+page=9 block=24460294 (x=1 y=104) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+rappers whereby, “Hip-hop authenticity is based on the genre as a community and its
+page=9 block=24460294 (x=1 y=117) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+perceived ‘rules’” (118), and, “Rapper authenticity is based on individuality and origin-
+page=9 block=24460294 (x=1 y=130) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+ality and even rebelling to a certain degree” (118). These notions of authenticity are both
+page=9 block=24460294 (x=1 y=143) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+intertwined and dialectical, and in terms of West Country hip hop the shift in perception
+page=9 block=24460294 (x=1 y=156) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+from the myth of the urban to the reality of the regional-rural carried great impact on the
+page=9 block=24460294 (x=1 y=169) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+local hip-hop community. Cramer and Hallet discuss regional identities within
+page=9 block=24460294 (x=1 y=182) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=9
+Midwestern and Southern States, hypothesizing on how ﬁgurative reference points are
+page=9 block=24460294 (x=1 y=195) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+linked to regional hip-hop identities: “By indexing non-coastal references speciﬁc to their
+page=9 block=24460294 (x=1 y=208) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+respective regions, we suggest that Midwestern and Southern rappers create locally
+page=9 block=24460294 (x=1 y=221) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+relevant hip hop that exempliﬁes regional authenticity” (263), and Bennett attests that
+page=9 block=24460294 (x=1 y=234) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+a process of reconciliation occurs as British hip-hop practitioners attempt to unify: “ . . .
+page=9 block=24460294 (x=1 y=247) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+issues of musical and stylistic authenticity with those of locality, identity and everyday
+page=9 block=24460294 (x=1 y=260) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+life” (138). Similar approaches are taken by British West Country artists; however, here
+page=9 block=24460294 (x=1 y=273) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the accent and dialect become the issues and the ﬁgure. Intertextual play on accent and
+page=9 block=24460294 (x=1 y=286) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+dialect inherently become the artifacts in rapper’s narratives.
+page=9 block=24460294 (x=1 y=299) width=258.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+The idea that hip hop could be regional occurred through an intrinsic sense of distancing
+page=9 block=24460294 (x=13 y=312) width=361.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+and nearness. Distancing in the wide and heterogeneous gap between the West Country,
+page=9 block=24460294 (x=1 y=325) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+London, and New York geographic and demographic contexts, and nearness related to the
+page=9 block=24460294 (x=1 y=338) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+traditions and conventions of cultural practice and identity. In the formative years, West
+page=9 block=24460294 (x=1 y=351) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Country rappers were ostensibly at odds with their voice, caught in a chasm between the
+page=9 block=24460294 (x=1 y=364) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+established delivery of American rap and the tones of London’s rising britcore vibe. During
+page=9 block=24460294 (x=1 y=377) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the last two years of the 1980s, the rise of London-based artists such as London Posse and
+page=9 block=24460294 (x=1 y=390) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Hardnoise claimed a new territory in hip-hop’s terrain; and an identity constructed through
+page=9 block=24460294 (x=1 y=403) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+dialectic fusions of ﬁrst- and second-generation immigrants’ accents with London dialect and
+page=9 block=24460294 (x=1 y=416) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+cockney slang (Wood 180). Lindholm suggests that “[t]he ﬂattering image of performers as
+page=9 block=24460294 (x=1 y=429) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+deities of spontaneity and authenticity” is also at risk of being internalized by the artists
+page=9 block=24460294 (x=1 y=442) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+themselves (37). Regarding this as an attribute of constructed antiestablishment mentality, he
+page=9 block=24460294 (x=1 y=455) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+continues to explain the playing out of a countercultural identity “is increased by a central
+page=9 block=24460294 (x=1 y=468) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+tension in the romantic image of performative authenticity” (37). Kajikawa enforces this
+page=9 block=24460294 (x=1 y=481) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+simply: “rap musicians and fans ascribe great value to authentic expression” (6). Despite
+page=9 block=24460294 (x=1 y=494) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+many early Devonian recordings attesting to this striving for authenticity, the harnessing of
+page=9 block=24460294 (x=1 y=508) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+West Country dialect is evident, which began to negate the internalization of the mythical
+page=9 block=24460294 (x=1 y=520) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+authentic urban rapper.
+page=9 block=24460294 (x=1 y=533) width=97.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+To those outside the West Country, these voices may sound similar to a Bristolian
+page=9 block=24460294 (x=13 y=547) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+accent, yet distinctions exist and are emphasized through lyrical content which inten-
+page=9 block=24460294 (x=1 y=559) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+tionally rejects the mobility of the urban in favor of reimagining the rural.8 A robust
+page=9 block=24460294 (x=1 y=570) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+example of urban negation in lyrics can be observed on Def Deﬁance’s 1990 song “Music
+page=9 block=24460294 (x=1 y=585) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Fusion,” where the typical characteristics of Devonian speech become evident.9
+page=9 block=24460294 (x=1 y=596) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=9
+A slowness of rhythm coupled by lengthening of vowel sounds typify the Devon accent,
+page=9 block=24460294 (x=1 y=611) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Page: 10 left:1 upper:1
+POPULAR MUSIC AND SOCIETY
+page=10 block=1555496964 (x=235 y=1) width=101.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+421
+page=10 block=261685252 (x=363 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+and tentatively begin to reveal themselves in lyrics such as: “. . . my voice makes moist as
+page=10 block=24454210 (x=1 y=26) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+I pass the hoist . . .” (phonetically: “. . . moy voyse makes moyst as oi paass the hoyst .. .”
+page=10 block=24454210 (x=1 y=40) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+and, “. . . better and faster than a mad cow know how . . .” (phonetically: “. . . better and
+page=10 block=24454210 (x=1 y=53) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+faaaster than a maad caaw know haaw . . .”).10 Concurrently, the raps take a lead from Big
+page=10 block=24454210 (x=1 y=63) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Daddy Kane and Blade; drawing upon urban America and Britain and fused with Devon
+page=10 block=24454210 (x=1 y=79) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+twang demonstrates the beginnings of a distinct West Country critical regionalism.
+page=10 block=24454210 (x=1 y=92) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+Powell proposes a shift in how we consider critical regionalism: it should no longer be
+page=10 block=24454210 (x=1 y=104) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+of place vis-à-vis placelessness, but, “to discern the local – its history, its politics” (69),
+page=10 block=24454210 (x=1 y=117) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+and how that converses with wider issues. Work of this nature provided the foundation
+page=10 block=24454210 (x=1 y=131) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+for the West Country’s progression of hip hop, championed by the Hazardous album and
+page=10 block=24454210 (x=1 y=143) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+new millennium artists Verbal Wurzels/Lowercase, and Jackie Chat.
+page=10 block=24454210 (x=1 y=156) width=290.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Somerset’s Verbal Wurzels/Lowercase deliver exquisite repartee and clearly operate in
+page=10 block=24454210 (x=13 y=170) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+celebration of their West Country roots.11Discussing rap’s relationship with place,
+page=10 block=24454210 (x=1 y=180) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+Forman writes that “the emphasis is on place, and groups explicitly advertise their
+page=10 block=24454210 (x=1 y=195) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+home environments with names such as Compton’s Most Wanted” (68). The Verbal
+page=10 block=24454210 (x=1 y=209) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Wurzels also celebrate place, playing on the cross-cultural motif of the famous folk-pop
+page=10 block=24454210 (x=1 y=221) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+crossover comedic band, the Wurzels.12 The assonance contained within “verbal” and
+page=10 block=24454210 (x=1 y=232) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+“wurzel” immediately lends itself to hip-hop wordplay, and Samuel Otis and Roskoe
+page=10 block=24454210 (x=1 y=248) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Rockwell developed sophisticated rap styles by exaggerating their West Country accents,
+page=10 block=24454210 (x=1 y=261) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+placing emphasis on rhyming vernacular touchstones, revealing the regionality of West
+page=10 block=24454210 (x=1 y=273) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Country hip hop. Lyrics such as “the eloquent pelican with the sharpest beak in
+page=10 block=24454210 (x=1 y=286) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=8
+Wellington” and, “The extraverted perverted worded/The Verbal Wurzels be remaining
+page=10 block=24454210 (x=1 y=300) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+rappers hurting” forged their lyrical skill base with a humorous twist. Roscoe proclaims,
+page=10 block=24454210 (x=1 y=312) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+“to hear me it’s a novelty, honestly follow me, inﬂuenced by comedy” (“Take the Rough
+page=10 block=24454210 (x=1 y=325) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+with the Smooth”). However, the tinge of humor is not included merely to enhance their
+page=10 block=24454210 (x=1 y=339) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+badinage but as a form of personal defense. Otis states, “One of the problems is when
+page=10 block=24454210 (x=1 y=351) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+you’ve got the West Country accent, you end up taking the piss out of yourself – which is
+page=10 block=24454210 (x=1 y=364) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+shit, really.” He furthers the notion of the accent in terms of presence and performance:
+page=10 block=24454210 (x=1 y=378) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+The audience, fuck me, they picked up on our accents – they liked it. Hip hop was less
+page=10 block=297347632 (x=13 y=400) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+homogenized back then. I bring the banter, and I still do that now in live gigs with my band,
+page=10 block=297347632 (x=13 y=411) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+oooright bbooooy, ha-ha. Locally, people can relate to that, it depends where you’re playing.
+page=10 block=297347632 (x=13 y=422) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+The banter that Otis describes emerges through their hyperbolic accent and exaggerated
+page=10 block=24522010 (x=1 y=443) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+stage presence. Through a kind of damage limitation, the village idiots avoid direct
+page=10 block=24522010 (x=1 y=456) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+criticism and confrontation, and instead attract sympathy from harsher urban audiences.
+page=10 block=24522010 (x=1 y=469) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+This is clearly apparent in “Girly,” where Otis raps a self-depreciating lament about
+page=10 block=24522010 (x=1 y=482) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+failing abysmally to court a woman. Otis apologetically justiﬁes his lifestyle over
+page=10 block=24522010 (x=1 y=495) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=8
+a satirically melodic Cozy Powell sample13: “Alright, I read ‘The Star’ and I burp, and
+page=10 block=24522010 (x=1 y=505) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+fart/I also appreciate walks in the park and certain works of art.” Otis’s fusion of low
+page=10 block=24522010 (x=1 y=521) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+culture tabloid choice – The (Daily) Star – with his potential admiration of high culture –
+page=10 block=24522010 (x=1 y=534) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+“certain works of art” – displays an attempt to better himself to become attractive to his
+page=10 block=24522010 (x=1 y=547) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+desired woman. In the previous verse, Otis pontiﬁcates that he may have more courting
+page=10 block=24522010 (x=1 y=560) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+success if he “kicked some Fresh Prince shit,”14 sarcastically framing his approach in the
+page=10 block=24522010 (x=1 y=570) width=373.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+broader ironies of golden era rap narratives. A further touch of sardonicism is found in
+page=10 block=24522010 (x=1 y=586) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Otis’s contextualization of hip hop alongside wider genres of music. Hinting at the
+page=10 block=24522010 (x=1 y=599) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+cultural values placed on rappers vis-à-vis singer-songwriters, Otis raps: “I got, ‘nuﬀ
+page=10 block=24522010 (x=1 y=612) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Page: 11 left:1 upper:1
+422
+page=11 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+A. DE PAOR-EVANS
+page=11 block=156893188 (x=38 y=1) width=63.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+dignity, plenty of integrity/If there’s another fella instead of me, let her be/He writes
+page=11 block=24449140 (x=1 y=26) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+songs and he’s got nice hair/I rock raps so I’m not quite there, I’m too cool to care.”
+page=11 block=24449140 (x=1 y=40) width=360.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Yet, delivered through his brazen West Country accent, and cloaked in a multitude of
+page=11 block=24449140 (x=13 y=53) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+vocal “lovveeerrrr” drops, Otis ﬁrmly positions West Country working-class life at the
+page=11 block=24449140 (x=1 y=65) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+center of this song. The song is a tragicomedy rooted in truth, and is somewhat reminiscent
+page=11 block=24449140 (x=1 y=79) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+of the plot in Biz Markie’s “Just A Friend”: “It is a true song. . . . It’s pathetic; I was being
+page=11 block=24449140 (x=1 y=91) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+pathetic. It was from the heart, a true story, that makes it more pathetic” (Otis). Barker and
+page=11 block=24449140 (x=1 y=104) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Taylor discuss authenticity as being: “based largely on a semi-autobiographical approach”
+page=11 block=24449140 (x=1 y=117) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+(335); “Girly” epitomizes the honesty of authenticity in hip hop.
+page=11 block=24449140 (x=1 y=130) width=267.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+In contrast, Jackie Chat discusses his experiences with local audiences and accent with
+page=11 block=24449140 (x=13 y=143) width=361.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+greater optimism: “I get a lot of positive comments on my accent; people around here
+page=11 block=24449140 (x=1 y=156) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+really appreciate the fact that I’m me and I’m not jumping on no bandwagons.” Jackie
+page=11 block=24449140 (x=1 y=169) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Chat has also forged a wider impression on Instagram, generating mixed feedback:
+page=11 block=24449140 (x=1 y=182) width=353.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+On Instagram there’s a page called “Save The Hip-hop Culture” with over 80 thousand
+page=11 block=297349012 (x=13 y=203) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+followers, and they wanted to quote some of my lyrics. .. . They got loads of views – but
+page=11 block=297349012 (x=13 y=214) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+a couple of days later they messaged me and said, “We’re going to have to take it down,”
+page=11 block=297349012 (x=13 y=225) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+because they couldn’t keep up with deleting the negative comments like “what’s this stupid
+page=11 block=297349012 (x=13 y=236) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+accent he’s putting on?” he said, “the people can’t understand what you’re saying.” They
+page=11 block=297349012 (x=13 y=247) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+were hating on it. That’s nuts. (Interview)
+page=11 block=297349012 (x=13 y=258) width=161.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Jackie remains sanguine about the West Country’s future: “I’ve even had Americans say,
+page=11 block=24457348 (x=1 y=276) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+‘We love what you’re doing,’ ‘cause a lot of American people love the English accent. . . .
+page=11 block=24457348 (x=1 y=289) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+As far as the UK goes, people appreciate the fact that I’m me. It’s whats sets you apart.”
+page=11 block=24457348 (x=1 y=303) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Jackie Chat’s accent also reﬂects his regional context:
+page=11 block=24457348 (x=1 y=315) width=226.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+People say Devon folks sound dopey or whatever, but I think, any slang I use I could be in
+page=11 block=297349600 (x=13 y=336) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+a local old pub, and there’ll be old beys at the bar using the same slang.15 It goes way back.
+page=11 block=297349600 (x=13 y=344) width=349.000000 height=8.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+I feel like it’s not trying so hard. It’s not a trend, It’s timeless. Devon slang, our dialect, is
+page=11 block=297349600 (x=13 y=358) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+timeless. (Interview)
+page=11 block=297349600 (x=13 y=369) width=78.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Conclusion: Divergency and Negotiation through Hip Hop
+page=11 block=18811292 (x=1 y=410) width=287.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=5
+Regional-rural hip-hop in the West Country took almost three decades to craft its own
+page=11 block=24525338 (x=1 y=430) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+language. It negotiates between established regional-rural vernacular conventions and
+page=11 block=24525338 (x=1 y=443) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+the younger traditions of hip hop; and each dialectical turn generates a creative response
+page=11 block=24525338 (x=1 y=456) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+which fuels the progression of regional-rural hip-hop. It refutes the myth of hip hop
+page=11 block=24525338 (x=1 y=469) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+purely as urban culture, demonstrated in the anti-street lyrics: “ . . . appear here ass
+page=11 block=24525338 (x=1 y=482) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+backward through a bramble patch/Thicker than tree trunks, half as graceful”
+page=11 block=24525338 (x=1 y=495) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=9
+(Lowercase, “Take the Ruﬀ with the Smooth”), and “Eight out of ten guns ‘round here
+page=11 block=24525338 (x=1 y=508) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+belong to farmers” (Jackie Chat, “Your Land”).
+page=11 block=24525338 (x=1 y=521) width=200.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Discussing the location of British hip-hop artists with respect to their American
+page=11 block=24525338 (x=13 y=534) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+peer-group, Wood notes that “such negotiations of inﬂuences are often paradoxically
+page=11 block=24525338 (x=1 y=547) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+accompanied by an implicit sense of the rejection of cultural dominance” (183), yet
+page=11 block=24525338 (x=1 y=560) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+West Country hip hop does not suﬀer an inferiority complex; it has become charged by
+page=11 block=24525338 (x=1 y=573) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+its context. West Country hip hop does not reject its local cultural rituals but envelops
+page=11 block=24525338 (x=1 y=586) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+them into the hip-hop mind-set, amplifying what Williams refers to as hip-hop’s
+page=11 block=24525338 (x=1 y=599) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=8
+continuity and tradition (141). Local sites of appropriation are reworked to beneﬁt
+page=11 block=24525338 (x=1 y=612) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Page: 12 left:1 upper:1
+POPULAR MUSIC AND SOCIETY
+page=12 block=1555496964 (x=235 y=1) width=101.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+423
+page=12 block=261685252 (x=363 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+the regional and individual as rappers draw upon established traditions. Furthermore,
+page=12 block=24450830 (x=1 y=26) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+this enveloping of the regional-rural again challenges the myth of hip hop as pure
+page=12 block=24450830 (x=1 y=40) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+urban culture. To this end, it appears that a complementarity is forged: The West
+page=12 block=24450830 (x=1 y=53) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+Country has begun to accept homegrown hip hop, which must not become a siloed
+page=12 block=24450830 (x=1 y=65) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+hip-hop culture. Jackie Chat observes, “You can connect right into your roots. You’re
+page=12 block=24450830 (x=1 y=79) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+not claiming you’re a part of this movement; you’re part of your roots; it’s authentic”
+page=12 block=24450830 (x=1 y=91) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+(Interview). A pertinent example of this is Jackie’s acknowledgment of the old “beys” in
+page=12 block=24450830 (x=1 y=104) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+the pub, and his use of the same slang in his lyrics with as much conviction as
+page=12 block=24450830 (x=1 y=117) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+traditional hip-hop phraseology.
+page=12 block=24450830 (x=1 y=130) width=140.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+This article has revealed how West Country artists produced an alternative sound and
+page=12 block=24450830 (x=13 y=143) width=361.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+approach to making hip-hop music and was concurrently drawn into local and regional
+page=12 block=24450830 (x=1 y=156) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+culture rather than kill or replace it. Thus, the result is a sustainable hybrid hip-hop culture,
+page=12 block=24450830 (x=1 y=169) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+which respects both the state of mind of hip hop and certain positive vernacular attitudes of
+page=12 block=24450830 (x=1 y=182) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+West Country life. Hip-hop reimaginings of this nature undoubtably occur in an array of
+page=12 block=24450830 (x=1 y=195) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+regional-rural contexts, and the potential for cross-related studiesof these contexts may ignite
+page=12 block=24450830 (x=1 y=208) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+a greater discussion that hip-hop culture is desperate for: one which reaches out from the
+page=12 block=24450830 (x=1 y=221) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+cities to rurality, and by doing so deepens our understanding of hip hop’s potential as an
+page=12 block=24450830 (x=1 y=234) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+engine for the progression and conservation of broader culture itself.
+page=12 block=24450830 (x=1 y=247) width=280.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Notes
+page=12 block=1902260 (x=1 y=286) width=29.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=22
+1. “Regional-rural” is used to describe the sphere that envelops rurality, its associated villages,
+page=12 block=215378172 (x=13 y=306) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+hamlets, small provincial towns and cities geo-culturally distanced from the metropoleis.
+page=12 block=215378172 (x=25 y=317) width=343.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+2. Rakim’s lyric has been quoted by the hip-hop community since its release on “I Know You
+page=12 block=215378172 (x=13 y=328) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Got Soul” (1987). Rakim reprised the lyric in 1990 on “In the Ghetto,” and inspired the title
+page=12 block=215378172 (x=25 y=339) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+of Gilroy’s essay “It Ain’t Where You’re From, It’s Where You’re At”.
+page=12 block=215378172 (x=25 y=350) width=270.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+3. This is a common reference point for the birth of hip hop, cited throughout the hip-hop
+page=12 block=215378172 (x=13 y=361) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+community and scholarship (Chang 67–85).
+page=12 block=215378172 (x=25 y=372) width=171.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+old.britishhiphop.co.uk/ contains a useful database of UK hip hop’s key stages and artists.
+page=12 block=215378172 (x=25 y=383) width=347.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+For example, the practices of farming and hunting and the distinctive signs of Land Rovers,
+page=12 block=215378172 (x=25 y=394) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+tweed, cider, ﬁshing rods, scones, and livestock.
+page=12 block=215378172 (x=25 y=405) width=184.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+I was guilty of this myself, proclaiming in 1986, I “never fail to make the crowd say ‘Ho!’ yet
+page=12 block=215378172 (x=25 y=416) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+I had never played live or asked anyone to yell the call-and-response hip-hop trope, ‘Ho!’”.
+page=12 block=215378172 (x=25 y=427) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+The term “toy” is widely used in graﬃti and hip-hop cultures to denote an inexperienced or
+page=12 block=215378172 (x=25 y=438) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+fraudulent practitioner.
+page=12 block=215378172 (x=25 y=449) width=90.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+8. Although Bristol is a major city in the West Country and one of the ﬁrst UK places to
+page=12 block=215378172 (x=13 y=460) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+practice graﬃti and hip hop, it is still some 166 miles from its center to the far reaches of
+page=12 block=215378172 (x=25 y=471) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Cornwall.
+page=12 block=215378172 (x=25 y=482) width=38.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+9. Music Fusion, Def Deﬁance, self-released and not on label, 1990. Subsequently re-issued as
+page=12 block=215378172 (x=13 y=493) width=361.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+a 12” vinyl EP in 2017 by Berlin label Britcore Rawmance.
+page=12 block=215378172 (x=25 y=504) width=225.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+10. The “mad cow” relates, ﬁrst, to the hysteria surrounding the BSE “Mad Cow Disease,”
+page=12 block=215378172 (x=9 y=515) width=365.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+and, second, is a battle-lyric aimed at MC Mad Cow, a rapper from Plymouth, Devon.
+page=12 block=215378172 (x=25 y=526) width=333.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+11. “Wurzel” is West Country slang for a bumpkin (which the Oxford English Dictionary
+page=12 block=215378172 (x=9 y=537) width=365.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+deﬁnes as an unsophisticated person from the countryside).
+page=12 block=215378172 (x=25 y=548) width=231.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+12. The Wurzels typiﬁed the use of West Country tropes and celebration of self-depreciation
+page=12 block=215378172 (x=9 y=559) width=365.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+throughout their songs “I Am A Cider Drinker” and “The Combine Harvester (Brand New
+page=12 block=215378172 (x=25 y=570) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Key),” an approach which acts as a point of departure for the Verbal Wurzels’ work.
+page=12 block=215378172 (x=25 y=581) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+However comically, the Wurzels helped place the West Country on the popular music
+page=12 block=215378172 (x=25 y=592) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+map, where, as Webb comments, “Bristol had gone from a relative backwater where most
+page=12 block=215378172 (x=25 y=603) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+4.
+page=12 block=5986756 (x=13 y=383) width=7.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+5.
+page=12 block=5986756 (x=13 y=394) width=7.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+7.
+page=12 block=5986756 (x=13 y=438) width=7.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+6.
+page=12 block=5965856 (x=13 y=416) width=7.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+Page: 13 left:1 upper:1
+424
+page=13 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+A. DE PAOR-EVANS
+page=13 block=156893188 (x=38 y=1) width=63.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=4
+people felt that The Wurzels and Fred Wedlock were the height of West Country musical
+page=13 block=215288865 (x=25 y=27) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+production” (79–80).
+page=13 block=215288865 (x=25 y=38) width=82.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+British-born rock drummer Cozy Powell was a member of Rainbow and Black Sabbath and
+page=13 block=215288865 (x=25 y=49) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+released ﬁve solo albums between 1979 and 1992. The sample for “Girly” was sourced from
+page=13 block=215288865 (x=25 y=60) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Powell’s “Sweet Poison” (Over the Top, 1979).
+page=13 block=215288865 (x=25 y=71) width=177.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+14. The Fresh Prince is renowned for his light-touch, story-telling antics in his earlier rap
+page=13 block=215288865 (x=9 y=82) width=365.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+ventures. Particularly noteworthy here are “Girls Ain’t Nothing but Trouble” and “Parents
+page=13 block=215288865 (x=25 y=93) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+(Just Don’t Understand)” in which The Fresh Prince recounts elaborate tales of his teenage
+page=13 block=215288865 (x=25 y=104) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+encounters with girls.
+page=13 block=215288865 (x=25 y=115) width=84.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+“Beys” or “Bays” is an aﬀectionate term for local, Devonian males, used across generationsin
+page=13 block=215288865 (x=25 y=126) width=349.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+the region.
+page=13 block=215288865 (x=25 y=137) width=42.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+13.
+page=13 block=6488309 (x=9 y=49) width=11.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+15.
+page=13 block=6488694 (x=9 y=126) width=11.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+Acknowledgments
+page=13 block=6030332 (x=1 y=170) width=92.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=22
+Many thanks to the interviewees for their insightful discussions: Big Tunes D, Jackie Chat, Samuel
+page=13 block=24450085 (x=1 y=191) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Otis, Speciﬁk, Si Spex, and Rawman.Additional thanks to Rola for supplying the photographof his
+page=13 block=24450085 (x=1 y=202) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+ﬁrst self-constructed DIY album.
+page=13 block=24450085 (x=1 y=213) width=127.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Disclosure statement
+page=13 block=6817220 (x=1 y=246) width=104.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=5
+No potential conﬂict of interest was reported by the author.
+page=13 block=15140146 (x=1 y=266) width=231.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Notes on contributor
+page=13 block=6817538 (x=1 y=299) width=104.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=5
+Adam de Paor-Evans is Reader in Ethnomusicology at University of Central Lancashire, UK. His
+page=13 block=24460608 (x=1 y=320) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+research focuses on the relationship of the regional-rural and society with hip-hop culture. He is
+page=13 block=24460608 (x=1 y=331) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+author of the book Provincial Headz: British Hip-Hop and Critical Regionalism (2020). He runs
+page=13 block=24460608 (x=1 y=342) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=5
+Hip-Hop Obscura, a research project revealing the hidden histories of hip hop through ethnomu-
+page=13 block=24460608 (x=1 y=353) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+sicology and cultural theory.
+page=13 block=24460608 (x=1 y=364) width=110.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+ORCID
+page=13 block=2099534 (x=1 y=397) width=32.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=22
+Adam de Paor-Evans
+page=13 block=5376037 (x=1 y=417) width=82.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+http://orcid.org/0000-0003-4797-7495
+page=13 block=937691173 (x=98 y=417) width=146.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+Works cited
+page=13 block=3869318 (x=1 y=449) width=59.000000 height=6.000000 fontname=HONPPK+AdvOT3b30f6db.B wordint.min=1 wordint.max=5
+Barker, Hugh, and Yuval Taylor. Faking It: The Quest for Authenticity in Popular Music. W.W.
+page=13 block=24514809 (x=1 y=469) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=5
+Norton, 2007.
+page=13 block=24514809 (x=11 y=480) width=54.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Bennett, Andy. Popular Music and Youth Culture: Music, Identity and Place. Palgrave Macmillan,
+page=13 block=24514809 (x=1 y=491) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=5
+2000.
+page=13 block=24514809 (x=11 y=502) width=20.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+Berman, Marshall, and Brian Berger editors. New York Calling: From Blackout to Bloomberg.
+page=13 block=24514809 (x=1 y=513) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Reaktion Books, 2007. Big Tunes D. Personal interview. 7 June 2017.
+page=13 block=24514809 (x=11 y=524) width=266.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Berman, Marshall. “Introduction.” New York Calling: From Blackout to Bloomberg, edited by
+page=13 block=24514809 (x=1 y=535) width=373.000000 height=6.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=6
+Marshall Berman and Brian Berger, Reaktion Books, 2007, pp. 9–38.
+page=13 block=24514809 (x=11 y=546) width=264.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Bourdieu, Pierre. Distinction: A Social Critique of the Judgement of Taste. Translated by Richard
+page=13 block=24514809 (x=1 y=557) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=5
+Nice. Routledge, 2010. 1984.
+page=13 block=24514809 (x=11 y=568) width=109.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Chang, Jeﬀ. Can’t Stop Won’t Stop. Ebury P, 2007.
+page=13 block=24514809 (x=1 y=579) width=194.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Cramer,Jennifer, and Jill Hallet. “From Chi-Townto the Dirty-Dirty: RegionalIdentity Markersin
+page=13 block=24514809 (x=1 y=590) width=373.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+USHip Hop.” Languagesof Global Hip Hop, edited by Marina Terkouraﬁ, Continuum, 2010, pp.
+page=13 block=24514809 (x=11 y=601) width=363.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+256–76.
+page=13 block=24514809 (x=11 y=612) width=30.000000 height=6.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+Page: 14 left:1 upper:1
+POPULAR MUSIC AND SOCIETY
+page=14 block=1555496964 (x=235 y=1) width=101.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=5
+425
+page=14 block=261685252 (x=363 y=1) width=11.000000 height=4.000000 fontname=HONPJD+AdvOT46dcae81 wordint.min=1 wordint.max=14
+de Paor-evans, Adam. Provincial Headz: British Hip Hop and Critical Regionalism. Equinox, 2020.
+page=14 block=24458428 (x=1 y=27) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=4
+Deﬁance, Def. “Music Fusion.” Music Fusion, 1990. Self-released.
+page=14 block=24458428 (x=1 y=38) width=251.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Evans, Adam. “On the Origins of Hip Hop: Appropriation and Territorial Control of Urban
+page=14 block=24458428 (x=1 y=49) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Space.” Consuming Architecture, edited by Daniel Maudlin and Marcel Vellinga, Routledge,
+page=14 block=24458428 (x=11 y=60) width=363.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+2014, pp. 185–201.
+page=14 block=24458428 (x=11 y=71) width=72.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Farrugia, David. “The Mobility Imperative for Rural Youth: The Structural, Symbolic and
+page=14 block=24458428 (x=1 y=82) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+Non-representational Dimensions Rural Youth Mobilities.” Journal of Youth Studies, vol. 19,
+page=14 block=24458428 (x=11 y=93) width=363.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+no. 6, 2016, pp. 2–16. doi:10.1080/13676261.2015.1112886.
+page=14 block=24458428 (x=11 y=104) width=226.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Forman, Murray. “‘Represent’: Race, Space, and Place in Rap Music.” Popular Music, vol. 19, no. 1,
+page=14 block=24458428 (x=1 y=115) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+2000, pp. 65–90. doi:10.1017/S0261143000000015.
+page=14 block=24458428 (x=11 y=126) width=193.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Gilroy, Paul. “It Ain’t Where You’re From, It’s Where You’re At . . ..” Third Text, vol. 5, no. 13,
+page=14 block=24458428 (x=1 y=137) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+1991, pp. 3–16. doi:10.1080/09528829108576284.
+page=14 block=24458428 (x=11 y=148) width=188.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Jackie Chat. Personal Interview, 4 Feb. 2019.
+page=14 block=24458428 (x=1 y=159) width=170.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Jackie Chat. “Your Land.” N.I.N.D. –No It’s Not Dead, 2014. Self-released.
+page=14 block=24458428 (x=1 y=170) width=285.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Kajikawa, Loren. Sounding Race in Rap Songs. U of California P, 2015.
+page=14 block=24458428 (x=1 y=181) width=272.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Lindholm, Charles. Culture and Authenticity. Blackwell, 2008.
+page=14 block=24458428 (x=1 y=192) width=238.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Low, Peter. “Early Doors 1979–1985.” Q.E.D., old.britishhiphop.co.uk/ukhiphop/story/early_
+page=14 block=24458428 (x=1 y=203) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+doors.htm. Accessed 23 Mar. 2019.
+page=14 block=24458428 (x=11 y=214) width=135.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Lowercase. “Girly.” Take the Rough with the Smooth, Babbywang, 2006a.
+page=14 block=24458428 (x=1 y=225) width=279.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+–––. “Take the Ruﬀ with the Smooth.” Take the Rough with the Smooth, Babbywang, 2006b.
+page=14 block=24458428 (x=1 y=236) width=355.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Minestrelli, Chiara. Australian Indigenous Hip Hop: The Politics of Culture, Identity, and
+page=14 block=24458428 (x=1 y=247) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=8
+Spirituality. Routledge, 2016.
+page=14 block=24458428 (x=11 y=258) width=111.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Osumare, Halifu. “Beat Streets in the Global Hood: Connective Marginalities of the Hip-Hop
+page=14 block=24458428 (x=1 y=269) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Globe.” The Journal of American Culture, vol. 24, no. 1–2, 2001, pp. 171–81. doi:10.1111/
+page=14 block=24458428 (x=11 y=280) width=363.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+jacc.2001.24.issue-1-2.
+page=14 block=24458428 (x=11 y=291) width=85.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=18
+Otis, Samuel. Personal Interview, 28 Jan. 2019.
+page=14 block=24458428 (x=1 y=302) width=178.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Peterson, Richard A., and Andy Bennett. “Introducing Music Scenes.” Music Scenes: Local,
+page=14 block=24458428 (x=1 y=313) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=7
+Translocal, and Virtual, edited by Andy Bennett and Richard A. Peterson, Vanderbilt UP,
+page=14 block=24458428 (x=11 y=324) width=363.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+2004, pp. 1–16.
+page=14 block=24458428 (x=11 y=335) width=59.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Powell, Douglas Reichert. Critical Regionalism: Connecting Politics and Culture in the American
+page=14 block=24458428 (x=1 y=346) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=5
+Landscape. U North Carolina P, 2007.
+page=14 block=24458428 (x=11 y=357) width=146.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Przybylski, Liz. “Customs and Duty: Indigenous Hip Hop and the US-Canada Border.” Journal of
+page=14 block=24458428 (x=1 y=368) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Borderlands Studies, vol. 33, no. 3, 2018, pp. 487–506. doi: 10.1080/08865655.2016.1222880.
+page=14 block=24458428 (x=11 y=379) width=353.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Rawman. Personal Interview, 19 May 2019.
+page=14 block=24458428 (x=1 y=390) width=166.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Rose, Tricia. The Hip Hop Wars: What We Talk about When We Talk about Hip Hop –And Why It
+page=14 block=24458428 (x=1 y=401) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=4
+Matters. Civitas Books, 2008.
+page=14 block=24458428 (x=11 y=412) width=112.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Si Spex. Personal Interview, 6 Dec. 2017.
+page=14 block=24458428 (x=1 y=423) width=155.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Speciﬁk. Personal Interview, 13 May 2019.
+page=14 block=24458428 (x=1 y=434) width=162.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Speers, Laura. Hip-Hop Authenticity and the London Scene. Routledge, 2017.
+page=14 block=24458428 (x=1 y=445) width=294.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=5
+Webb, Peter. “Interrogating the Production of Sound and Place: The Bristol Phenomenon, from
+page=14 block=24458428 (x=1 y=456) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Lunatic Fringe to Worldwide Massive.” Music, Space and Place, edited by Sheila Whiteley,
+page=14 block=24458428 (x=11 y=467) width=363.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=6
+Andy Bennett, and Stan Hawkins, Routledge, 2017, pp. 66–85.
+page=14 block=24458428 (x=11 y=478) width=240.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Williams, Justin A. Rhymin’ and Stealin’: Musical Borrowing in Hip-Hop. Michigan: U of Michigan
+page=14 block=24458428 (x=1 y=489) width=373.000000 height=5.000000 fontname=HONPOJ+AdvOT7d6df7ab.I wordint.min=1 wordint.max=4
+P, 2013.
+page=14 block=24458428 (x=11 y=500) width=31.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=4
+Wood, Andy. “’original London Style’: London Posse and the Birth of British Hip-Hop.” Atlantic
+page=14 block=24458428 (x=1 y=511) width=373.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5
+Studies, vol. 6, no. 2, 2009, pp. 175–90. doi: 10.1080/14788810902981050.
+page=14 block=24458428 (x=11 y=522) width=282.000000 height=5.000000 fontname=HONPNH+AdvOT1ef757c0 wordint.min=1 wordint.max=5

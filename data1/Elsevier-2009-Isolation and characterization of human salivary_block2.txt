@@ -1,0 +1,1041 @@
+Content:
+ColumnWidth 252 ColumnNumber 2
+ContentWidth 521 ContentLeft 1 ContentRight 521
+Subtitles:  0 1 2
+
+==============================
+Page 1
+ Left 1 Right 521 Top 1 Bottom 706
+
+
+Column meta:
+Column left:1 upper:113 right:252 lower 706
+Column left:270 upper:465 right:521 lower 679
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=-3 left=188 right=333 upper=1 lower=5
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 92 (2009) 466–471
+==============================
+
+==============================
+
+typeindex=-1 left=187 right=338 upper=28 lower=32
+====>
+charfont name=EELOEA+AdvPSUnv charfont height=4.100000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Contents lists available at ScienceDirect
+==============================
+
+==============================
+type: title
+typeindex=6 left=169 right=355 upper=52 lower=60
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=8.600000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology
+==============================
+
+==============================
+
+typeindex=-1 left=154 right=371 upper=84 lower=88
+====>
+charfont name=EELOEA+AdvPSUnv charfont height=4.100000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+journal homepage: www.thegreenjournal.com
+==============================
+
+==============================
+
+typeindex=5 left=1 right=459 upper=132 lower=157
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=8.300000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Isolation and characterization of human salivary gland cells for stem cell
+transplantation to reduce radiation-induced hyposalivation
+==============================
+
+==============================
+
+typeindex=4 left=1 right=510 upper=171 lower=180
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=6.500000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Jielin Feng a,b, Marianne van der Zwaag a,b, Monique A. Stokman c, Ronald van Os b, Robert P. Coppes a,d,*
+==============================
+
+==============================
+
+typeindex=-4 left=1 right=432 upper=189 lower=221
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+aDepartment of Cell Biology, Section Radiation & Stress Cell Biology, University Medical Center Groningen, University of Groningen, The Netherlands
+bDepartment of Cell Biology, Section Stem Cell Biology, University Medical Center Groningen, University of Groningen, The Netherlands
+cDepartment of Oral & Maxillofacial Surgery, University Medical Center Groningen, University of Groningen, The Netherlands
+dDepartment of Radiation Oncology, University Medical Center Groningen, University of Groningen, The Netherlands
+==============================
+
+==============================
+type: abstract
+typeindex=-2 left=165 right=521 upper=265 lower=434
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.400000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Background: Recently, we showed that transplantation of 100–300 c-Kit+ stem cells isolated from cul-
+tured salispheres ameliorates radiation-damage in murine salivary glands. The aim of this study is to
+optimize and translate these ?ndings from mice to man.
+Methods: Mouse and human non-malignant parotid and submandibular salivary gland tissue was col-
+lected and enzymatically digested. The remaining cell suspension was cultured according to our sali-
+sphere culture method optimized for murine salispheres. Salisphere cells were tested using 3D matrix
+culturing fortheirinvitrostem cell characteristics suchasthe potential to differentiate into tissuespeci?c
+cell types. Several potential mouse and human salivary gland stem cells were selected using FACS.
+Results: In human salivary gland, c-Kit+ cells were only detected in excretory ducts as shown previously
+in mice. From bothhuman parotid and submandibulargland cell suspensionssalispheres couldbe grown,
+which when placed in 3D culture developed ductal structures and mucin-expressing acinar-like cells.
+Moreover, cells dispersed from primary salispheres were able to form secondary spheres in matrigel, a
+procedure that could be repeated for at least seven passages. Approximately 3000 c-Kit+ cells could be
+isolated from primary human salispheres per biopsy.
+Conclusion: Human salivary glands contain a similar ‘putative’ stem cell population as rodents, express-
+ing c-kit and capable of in vitro differentiation and self-renewal. In the future, these cells may have the
+potential to reduce radiotherapy-induced salivary gland dysfunction in patients.
+ 2009 Elsevier Ireland Ltd. All rights reserved. Radiotherapy and Oncology 92 (2009) 466–471
+==============================
+
+==============================
+
+typeindex=3 left=1 right=118 upper=113 lower=119
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=5.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Experimental radiobiology
+==============================
+
+==============================
+
+typeindex=-8 left=1 right=55 upper=248 lower=251
+====>
+charfont name=EELNDE+AdvGulliv-F charfont height=2.600000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+article
+==============================
+
+==============================
+
+typeindex=-9 left=65 right=95 upper=248 lower=251
+====>
+charfont name=EELNDE+AdvGulliv-F charfont height=2.600000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+in f o
+==============================
+
+==============================
+
+typeindex=-9 left=165 right=230 upper=249 lower=251
+====>
+charfont name=EELNDE+AdvGulliv-F charfont height=2.600000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+abstract
+==============================
+
+==============================
+
+typeindex=-4 left=1 right=43 upper=266 lower=270
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Article history:
+==============================
+
+==============================
+
+typeindex=-4 left=1 right=119 upper=275 lower=304
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Received 29 April 2009
+Received in revised form 22 June 2009
+Accepted 24 June 2009
+Available online 20 July 2009
+==============================
+
+==============================
+
+typeindex=-4 left=1 right=31 upper=320 lower=324
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Keywords:
+==============================
+
+==============================
+
+typeindex=-4 left=1 right=77 upper=329 lower=376
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Salivary gland
+Irradiation
+Xerostomia
+Stem cell transplantation
+Tissue stem cells
+c-Kit
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=465 lower=626
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Radiotherapy of head and neck tumors commonly induces
+hyposalivation which in most cases is an irreversible side effect
+resulting in complaints such as xerostomia (the subjective sensa-
+tion of a dry mouth). Secondary to this, most patients develop
+problems such as an increased susceptibility to oral infections
+and dental caries, impeded swallowing and speech, and nocturnal
+oral discomfort which have a major detrimental impact on health-
+related quality of life of these patients [18,19]. Even with the most
+advanced radiation techniques, such as Intensity-Modulated Radi-
+ation Therapy (IMRT), still approximately 40% of these patients de-
+velop hyposalivation and consequential life-long complaints [17].
+To date, still no satisfactory clinical management of xerostomia
+exists.
+Radiation-induced sterilization of the primitive glandular stem
+cells which prevents the replenishment of saliva-producing cells
+seems to be the main cause for irreversible late hyposalivation
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=1 right=252 upper=650 lower=671
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+* Corresponding author. Address: Department Cell Biology, Section Radiation &
+Stress Cell Biology, University Medical Center Groningen, P.O. Box 196, 9700 AD
+Groningen, The Netherlands.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=13 right=178 upper=675 lower=679
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+E-mail address: r.p.coppes@med.umcg.nl (R.P. Coppes).
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=1 right=242 upper=693 lower=706
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+0167-8140/$ - see front matter  2009 Elsevier Ireland Ltd. All rights reserved.
+doi:10.1016/j.radonc.2009.06.023
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=465 lower=679
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+[4]. Transplantation of salivary gland stem cells potentially offers
+a therapy to rescue irradiated salivary glands. For many tissues
+experimental forms of stem cell transplantation have been shown
+to result in improvement of tissue function, such as that for bone
+marrow, skin [2,12], mammary gland [13,15], eye [14], kidney
+[4], brain [10], and heart [1]. However, only hematopoietic stem
+cell transplantation and epithelial stem cell-based treatments for
+skin burns and corneal disorders are routinely applied clinically.
+The ?rst attempt to isolate and transplant rat salivary gland
+stem/progenitor cells was described in 2004, but failed to show
+formation of saliva-producing acinar cells or functional improve-
+ment [16]. Later, stem cells that were selected using the stem cell
+markers Sca-1, c-Kit or a6+b1+integrin cells from, respectively,
+mouse [5,11] and rat [6] glands were shown to contribute to tissue
+regeneration when transplanted via the portal vein into partially
+hepatectomized animals. The ?rst success in developing an
+in vitro stem cell assay based on colony forming units was per-
+formed in 2006 when Kishi and colleagues developed a clonal col-
+ony assay for salivary gland cells [6]. However, due to the lack of
+in vivo functional assessment, these as such determined colony
+forming cells could not be de?ned as stem cells [6]. Recently, how-
+==============================
+
+==============================
+Page 2
+ Left 1 Right 521 Top 1 Bottom 707
+
+
+Column meta:
+Column left:1 upper:22 right:252 lower 707
+Column left:270 upper:22 right:521 lower 707
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-3 left=171 right=350 upper=1 lower=6
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+J. Feng et al./Radiotherapy and Oncology 92 ð2009Þ 466–471
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-7 left=509 right=521 upper=2 lower=6
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+467
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=22 lower=142
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+ever, in a series of studies [3,7,9], we showed that salivary glands
+do contain cells that when stimulated appropriately have the
+capacity to regenerate damaged tissue after irradiation. Moreover,
+we developed a culture and isolation procedure to obtain a c-Kit+
+cell population from mice submandibular glands that contain stem
+cells which when transplanted in irradiated salivary gland, promi-
+nently restored function and morphology [8].
+The aim of this study was to expand our ?ndings to human sal-
+ivary glands for future development of clinical application. Since
+this therapy might be applicable to older patients, we also investi-
+gated the relationship between age and the number of salivary
+gland stem cells.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=93 upper=168 lower=173
+====>
+charfont name=EELOJP+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Materials and methods
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=1 right=29 upper=189 lower=194
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Animals
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=210 lower=299
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Female C57BL/6 mice, 2–3 months of age, were purchased from
+Harlan (Horst, Netherlands). Salivary glands of 24–26 months old
+mice were kindly provided by Dr. BradDykstra (Department of Cell
+Biology, section Stem Cell Biology, University Medical Center Gron-
+ingen, the Netherlands). The mice were kept under clean conven-
+tional conditions, and fed ad libitum with food pellets (RMH-B,
+Hope Farms B.V., Woerden, The Netherlands) and acidi?ed tap
+water (pH 2.8). All experiments were approved by the Ethical Com-
+mittee on animal testing of the University of Groningen.
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=1 right=93 upper=315 lower=320
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Salivary gland irradiation
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=336 lower=456
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Salivary glands were locally irradiated with a single dose of
+15 Gy of X-rays (Philips CMG 41 X, 200 kV, 10 mA, 5 Gy/min). Mice
+were protected from off-target radiation by a 3 mm lead shield.
+15 Gy is a dose known to induce suf?cient damage without com-
+promising the general health of the animals. Four days post-irradi-
+ation, mice were sacri?ced and glands were collected for further
+investigation.
+Irradiated human salivary gland tissue was obtained from a pa-
+tient (after informed consent) with a squamous cell carcinoma of
+the oral cavity in whom a neck dissection procedure was per-
+formed. This patient was operated and irradiated 15 years ago for
+an oropharyngeal tumor T4N1M0.
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=1 right=112 upper=472 lower=476
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Isolation of salivary gland cells
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=492 lower=707
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Salispheres were obtained as previously published [8]. In short,
+mice were euthanized immediately after blood removal (via car-
+diac puncture) under full anesthesia (N2O/O2/iso?urane). Subman-
+dibular glands were dissected carefully, avoiding contamination
+from other tissues. A cell suspension was prepared by mincing
+and enzymatical dissociation with collagenase type II (0.025%),
+hyaluronidase (0.04%) and CaCl2 (6.25 mM) at 37 C for 40 min
+with gentle mechanical movement. After an additional 40 min of
+fresh enzyme digestion, thetissuecell suspension was ?ltered with
+a 100 lm and a 50 lm mesh using a 25G needle, and plated in non-
+coated 12-well plates at 400,000 cells per well. Per gland, between
+2 and 4.6  106 cells were isolated. The culture medium consisted
+of DMEM/F12 (Invitrogen, Carlsbad, CA; 11320–074), penicillin,
+streptomycin, glutamax, EGF (20 ng/mL), FGF-2 (20 ng/mL), N-2
+(serum-free supplement for culturing neural cells) (1/100), insulin
+(10 lg/mL) and dexamethasone (1 lM)further depicted as salivary
+gland medium (SGM). Fresh medium was added every three days.
+All growth factors were purchased from Sigma–Aldrich (St. Louis,
+MO), except for N-2 (Invitrogen, Carlsbad, CA).
+Human parotid and submandibular salivary glands were ob-
+tained frompatients (after informed consent) with a squamouscell
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=22 lower=111
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+carcinoma of the oral cavity in whom a neck dissection procedure
+was performed. None of the patients had received any other cancer
+treatment before surgicalprocedure. Cultureconditions for the for-
+mation of human salispheres were similar to those for the mouse.
+For differentiation experiments three day-old spheres were
+mixed with Collagen type I (BD 3.68 mg/mL) and cultured for
+twenty additional days until branches and acinar-like outgrowth
+could be visualized. Mucin and mucopolysaccharide containing
+acinar cells were detected by Periodic Acid Schiff’s base (PAS).
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=270 right=389 upper=127 lower=131
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Immunohistochemical processing
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=147 lower=299
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+After extirpation, the submandibular glands or cultured cells
+were incubated for 30 h at 4 C in 4% buffered formaldehyde. Fol-
+lowing dehydration, the tissue was embedded in paraf?n. Floating
+spheres were incubated in 4% buffered formaldehyde at 4 C,
+washed and resuspended in Histogel (Richard-Allan Scienti?c, Kal-
+amazoo, MI;HG-4000–012), after dehydration the cells were
+embedded in paraf?n. Five-lm sections were dewaxed and labeled
+with a polyclonal rabbit anti-human c-Kit antibody (Cat. No.
+A4502; Dako, Glostrup, Denmark). Visualization was accomplished
+by adding speci?c secondary ?uorescent antibodies (Jackson
+ImmunoresearchEurope, Suffolk, UK). Nuclei werevisualized using
+4,6-diamino-2-phenylindole (DAPI). Control sections without pri-
+mary antibodies were all negative. Cell morphology was visualized
+by routine histological techniques using hematoxylin-eosin
+staining.
+==============================
+
+==============================
+
+typeindex=-6 left=270 right=521 upper=677 lower=707
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-100
+
+Fig.1. Human submandibular(A andB)andparotid glands (Cand D),before (Aand
+C)and15years after radiotherapyforanoropharyngeal tumor T4N1M0both glands
+(B and D) showed severe reduction in acinar cells ("), with some remaining ducts
+(?), very similar to mouse submandibular glands (E and F). Bars indicate 50 lm.
+==============================
+
+==============================
+Page 3
+ Left 1 Right 521 Top 1 Bottom 706
+
+
+Column meta:
+Column left:1 upper:1 right:252 lower 429
+Column left:270 upper:236 right:521 lower 429
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=-6 left=1 right=521 upper=1 lower=706
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+468
+Fig. 3. Differentiationof salispherecells. Dispersed cells from salispheresform newsalispheres inMatrigel which graduallyform outgrowthresembling duct cells (A–E) ina
+very similar way as mouse salispheres (F–J). In time, differentiation into mucin-producing acinar-like cells(human, K and mice L) is present. Bars indicate 50 lm.
+Magni?cation (A–E) 50 and mice (F–J) 100.
+==============================
+
+==============================
+
+typeindex=-3 left=169 right=359 upper=1 lower=5
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Isolation and characterization of human selivary gland stem cells
+==============================
+
+==============================
+
+typeindex=-3 left=26 right=495 upper=208 lower=213
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 2. Salisphere formation. Human submandibular (A–E) gland dispersed cells form salispheres much alike the ones from mice [8]. Magni?cation 400.
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=1 right=165 upper=236 lower=241
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Flow cytometric analysis and cell puri?cation
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=257 lower=367
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Cultured cells were dissociated by 0.05% trypsin–EDTA (Gibco,
+Invitrogen, Carlsbad, CA;25300) with mechanical use of 26G nee-
+dles. Incubation with APC-conjugated anti-human C-Kit antibody
+(BD Biosciences Pharmingen-550412) was performed at 4 C for
+20 min, followed by a washing step in PBS containing 0.2% BSA. Fi-
+nally, Propidium Iodide (PI, 1 lg/ml) was added to the cells before
+analysis using a FACS Calibur Flow Cytometer (BD) with a least
+100,000eventsfor eachmeasurement. Data wereanalyzedbyFlow-
+Josoftware (Tree Star,Ashland,OR).Gatesforviable(PI-negative) C-
+Kit+cellswere setby using iso-typecontrols(BDBiosciences Pharm-
+ingen) for APC. From 7 patients c-Kit cells were selected.
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=1 right=68 upper=383 lower=388
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Self-renewal assay
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=404 lower=429
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+After 3 days of culture, cells were dissociated with 0.05% tryp-
+sin–EDTA and counted using a hemocytometer and suspended in
+growth factor-reduced BD Matrigel Matrix (BD Biosciences) with
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=236 lower=377
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+SGM in a 3:2 ratio (a total volume of 125 ll) with a total number
+of 10,000 cells. Samples were plated in a 12-well plate and allowed
+to solidify at 37C for 20 min, before 1 ml SGM was added. Med-
+ium was replenished every 3 days. Ten days after plating, spheres
+were counted.
+To passage spheres, medium was aspirated off, and Matrigel
+GFR was digested by incubation with 1 ml dispase solution (Gibco,
+Invitrogen 1 mg/mL, dissolved in SGM) for 1 h at 37C. Digested
+cultures were collected, pelleted, resuspended, and incubated in
+1ml type 1 collagenase (Gibco, Invitrogen 190 units/mL) for
+45 min at 37 C. Cells were then pelleted, resuspended, and incu-
+bated in 0.05% trypsin–EDTA for 10 min at 37 C, passed through
+a 26G needle and a 50 lm mesh-?lter. Finally, cells were counted
+by hemocytometer and replated.
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=270 right=336 upper=393 lower=398
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Statistical analysis
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=414 lower=429
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+Statistical analysis was performed with SPSS (version 15) soft-
+ware computer program using a Mann–Whitney test. Statistical
+==============================
+
+==============================
+Page 4
+ Left 1 Right 521 Top 1 Bottom 707
+
+
+Column meta:
+Column left:1 upper:242 right:252 lower 706
+Column left:270 upper:242 right:521 lower 707
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-3 left=171 right=350 upper=1 lower=6
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+J. Feng et al./Radiotherapy and Oncology 92 ð2009Þ 466–471
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-7 left=509 right=521 upper=2 lower=6
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+469
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=521 upper=206 lower=218
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Fig.4. Self-renewal of human salivary gland cells. Dispersedcells obtained fromsalispheres gradually form secondary salispheres in matrigel. Human salispheresA= day 0,
+B=day 3, and C = day 10 and mouse salispheres D =day 0, E = day 3, and F = day 10. Magni?cation 200.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=242 lower=257
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+signi?cance was de?ned as P < 0.05. Numbers represent aver-
+age± SEM, unless otherwise speci?ed.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=29 upper=282 lower=287
+====>
+charfont name=EELOJP+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Results
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=301 lower=706
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+The successful transplantation of a murine c-kit+ salivary gland
+stem cell containing cell population that restored the function of
+irradiated glands [8], warrants translation of theresults to humans.
+The present study was performed to compare some basics in radi-
+ation response and stem cell characteristics between human and
+mouse salivary glands. The success of the mouse salivary gland
+stem cell transplantation is partly due to the typical response of
+the tissue to radiation with disappearing acinar cells but with a
+ductal compartment remaining largely intact. Since, the stem cells
+of the salivary gland reside in the ducts [8], they provide the envi-
+ronment for engraftment of the transplanted cells. Therefore, we
+?rst studied the histopathology of irradiated human salivary gland.
+Normal human salivary parenchyma comprises of acini, which
+similar to mice are composed of triangle-shaped saliva-producing
+acinar cells, and a branchy duct system (Fig. 1A, C, and E). After
+radiotherapy, acinar cells are replaced by ?brotic tissue but similar
+to mice still some ductal tissue remains (Fig. 1B, D, and F), which
+may allow for the engraftment of stem cells in patients.
+Next, we investigated the presence of salivary gland stem cells
+in human salivary gland, using the same method of culturing sali-
+spheres as in our mice studies [8]. Indeed, using this method, we
+were able to grow human salispheres, which usually appeared
+2 days after isolation and culturing. In general, the appearance of
+the salisphereswas very similar tothat of the spheres derived from
+mouse tissue (Fig. 2). To show that human salispheres contain cells
+that are able to differentiate in saliva-producing cells, the dis-
+persed salispheres were placed in collagen type I after 3 days of
+?oating culture. Human salispheres were able to form spheres in
+3D collagen type I (Fig. 3), which gradually transformed into duct-
+and acinar-like structures. Fig. 3A–E shows the gradual differenti-
+ation process, indicated by branching of duct-like cells and forma-
+tion of acinar-like structures. The appearance of PAS (to detect
+mucins) and amylase-positive cells (Fig. 3K and L) in the sali-
+spheres indicates functional differentiation of cells in the spheres.
+The similarities with mouse salisphere differentiation are striking
+(Fig. 3 F–J, M, and N).
+To show the self-renewal potential ofsalispherecells, they were
+dissociated after 2 days of ?oating culture and a dispersed cell sus-
+pension was plated into matrigel. New salispheres were formed in
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=242 lower=435
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+10 days (Fig. 4A–F). These spheres were collected and dispersed
+into a cell suspension which was replated in matrigel to form sec-
+ondary (tertiary etc.) spheres. This procedure could be repeated at
+least seven times, without apparent loss of replating ef?ciency.
+This assay reveals long-term self-renewal ability in vitro to suggest
+the presence of a stem cell population in human salispheres.
+Recently, we showed that especially c-Kit+ cell isolated from 3-
+day-old spheres cultured from mouse salivary glands contained
+cells that were able to transdifferentiate in all salivary gland cell
+types, to regenerate irradiated glands, and to self-renew in vivo
+[8]. Therefore, we investigated human salivary glands for the pres-
+ence of c-Kit+ cells. Using immuno-?uorescentstaining,normalhu-
+man salivary gland clearly showed c-Kit+ cells in excretory ducts of
+both submandibular and parotid glands (Fig. 5A and B, respec-
+tively). This is in agreement with our ?ndings in mice [8], where
+c-Kit+ was found to be con?ned to these type of ducts. Next, we
+tested if the cultured human salispheres contained c-Kit+ cells.
+Hereto, we dispersed 3-day-old human salispheres into single
+cells and analyzed them using ?ow cytometry. Indeed, a clear
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=270 right=521 upper=669 lower=707
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-100
+
+Fig. 5. Human submandibular (A) and parotid (B) gland excretory ducts contain
+c-Kit+ cells, as indicated by the positive ?uorescence label. From the salispheres
+grown from these glands a clear population of c-Kit cells could be observed (C).
+Nuclei are blue (Dapi)andc-Kit+ cellsare purple (TexasRed; submandibulargland)
+or green (Cy-2; parotid gland). Bars indicate 50 lm.
+==============================
+
+==============================
+Page 5
+ Left 1 Right 521 Top 1 Bottom 703
+
+
+Column meta:
+Column left:1 upper:1 right:252 lower 703
+Column left:270 upper:207 right:521 lower 703
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=-6 left=1 right=521 upper=1 lower=178
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+470
+Fig.6. Reducednumber ofstem/progenitor cells inoldermurine submandibularglands. One-to two-year-old mice submandibularglands contain a similaramountofcellsas
+young mice glands (A),butall salispheres that couldbegrown from old mice together contained fewer cells (B). Furthermore,thesecells werediminished in their capability
+to form secondary spheres in matrigel (C). *P <.0.05, Error bars depict SEM of n= 6.
+==============================
+
+==============================
+
+typeindex=-3 left=169 right=359 upper=1 lower=5
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Isolation and characterization of human selivary gland stem cells
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=205 lower=463
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+population of c-Kit+ cells (less than 1%) could be observed (Fig. 5C),
+albeit in slightly lower frequencies than in mouse salispheres [8].
+The salispherescultured from mouse glands were obtained from
+rather young (2–3 months) animals. However, patients that are
+treated for head and neck cancer are often relatively much older
+and potentially may have different numbers of stem cells. Since
+we showed that the number of salispheres that can be grown from
+mouse salivary glands represent the number of stem cells present
+[9], we testedfor a possible relationship between age and the num-
+ber of salivarygland stem cells.To this end,we quantitatively com-
+pared thesalispherecultureofold miceand young mice.Salispheres
+were cultured from 10 old mice and the number of salispheresthat
+couldbe grownwas comparedtoyoungmice.After3 days of cultur-
+ing, salisphereswerecountedandsubsequently dispersedinto a cell
+suspension, put into matrigel and cultured for another 10 days. As
+such wewereabletomeasurethreedifferentvariables:(1)thenum-
+ber of cells after isolation, (2)the number ofcells derivedfrom sali-
+spheres after 3 days of culturing and (3) the number of secondary
+spheres formed after passaging in matrigel. The result showed that
+there was no signi?cant difference (P > 0.05) between the number
+of cells that could be isolated from young or old mouse (Fig. 6A).
+However,primary salispheres from oldermice contain signi?cantly
+less cells than primary salispheres from young mice (P < 0.01,
+Fig. 6B). Moreover, these cells were less capable to grow spheres in
+matrigel in the secondary salisphere culture (Fig. 6C).
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=43 upper=489 lower=494
+====>
+charfont name=EELOJP+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Discussion
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=510 lower=703
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Recently, we discovered a population of c-Kit-expressing cellsin
+mice with remarkable capability to restore salivary glands dam-
+aged by radiation [8]. Salispheres cultured from rodent subman-
+dibular glands contained cells that expressed many stem cell
+markers (e.g., Sca-1, c-Kit, Musashi-1) and were able to differenti-
+ate into all salivary gland lineages. These cells were also able to
+self-renew in vivo [8]. After stem cell enrichment by ?ow cytomet-
+ric selection using c-Kit as a single marker, as few as 100 c-Kit+
+cells were able to completely restore salivary gland function and
+morphology 3 months after transplantation. This study was the
+?rst evidence for the potential use of stem cell transplantation to
+functionally rescue salivary gland damaged by irradiation.
+In this study, we investigated the presence and in vitro potential
+of human salivary gland stem cells. We determined the character-
+istics of human salivary gland for the following aspects: morphol-
+ogy and pathology, salisphere formation, in vitro differentiation,
+self-renewal ability and the presence of c-Kit stem cell marker.
+Although human and mouse salivary glands are not exactly the
+same, the tissue architecture after irradiation looks remarkably
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=207 lower=515
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+similar. In both species, the ductal compartment necessary for
+stem cell engraftment largely remains intact. Moreover, salisphere
+formation of human salivary gland cells was very similar to mice.
+In addition, human salispheres could form duct and acinar-like
+cells and were able to self-renew for at least seven passages in cul-
+ture. These results indicate that human salispheres do contain cells
+with stem cell-like properties. The potential existence of stem cells
+that may be used for transplantation purposes is further substanti-
+ated by the location of c-Kit+ cells in the excretory ducts of both
+human submandibular and parotid glands. Furthermore, these
+cells could be isolated from human salispheres in substantial num-
+bers, albeit in lower percentages than from rodent salispheres. This
+may be due toa lower stem cell number in older people such asthe
+patients with head and neck cancer used in this study. Our ?nding
+that older mice may have reduced numbers of cells capable to form
+salispheres in ?oating culture is in agreement with this.
+Therefore, we conclude that it may very well be possible to de-
+velop human adult stem cell therapy to restore the function of irra-
+diated salivary glands in patients. However, before we can proceed
+a number of problems still have to be addressed. For instance, does
+the human c-Kit+ cell population contain cells that have in vivo
+regeneration ability? And, can we get suf?cient and potent enough
+stem cells to establish long term regeneration of salivary glands or
+do we have to expand human salivary gland stem cells in vitro be-
+fore transplantation? Recently, we have shown that in vivo expan-
+sion of salivary gland stem cells is attempted [9] and it may thus
+also be possible in vitro.
+Human and mouse salivary glands contain a similar ‘putative’
+stem cell population, which might have potential to reduce radio-
+therapy-induced salivary gland dysfunction in the future.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=270 right=348 upper=531 lower=536
+====>
+charfont name=EELOJP+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Acknowledgements
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=552 lower=599
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+We would like to thank Dr. B. Dykstra (Department of Cell Biol-
+ogy, section Stem Cell Biology, University Medical Center Gronin-
+gen, the Netherlands) for providing us with the opportunity to
+collect salivary glands from aged mice and for discussion of the
+results.
+==============================
+
+==============================
+
+typeindex=2 left=270 right=313 upper=616 lower=621
+====>
+charfont name=EELOJP+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+References
+==============================
+
+==============================
+
+typeindex=-7 left=273 right=521 upper=635 lower=703
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=270, likeBody=-100
+
+[1] Beltrami AP, Barlucchi L, Torella D, et al. Adult cardiac stem cells are
+multipotent and support myocardial regeneration. Cell 2003;114:763–76.
+[2] Blanpain C, LowryWE, GeogheganA, etal. Self-renewal,multipotency, and the
+existence of two cell populations within an epithelial stem cell niche. Cell
+2004;118:635–48.
+[3] Burlage FR, Faber H, Kampinga HH, et al. Enhanced proliferation of acinar and
+progenitor cells by prophylactic pilocarpine treatment underlies the observed
+amelioration of radiation injury to parotid glands. Radiother Oncol
+2009;90:253–6.
+==============================
+
+==============================
+Page 6
+ Left 1 Right 521 Top 1 Bottom 193
+
+
+Column meta:
+Column left:1 upper:22 right:252 lower 193
+Column left:270 upper:22 right:521 lower 193
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-3 left=171 right=350 upper=1 lower=6
+====>
+charfont name=EELNDD+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+J. Feng et al./Radiotherapy and Oncology 92 ð2009Þ 466–471
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-7 left=509 right=521 upper=2 lower=6
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+471
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=252 upper=22 lower=193
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+[4] Bussolati B, Bruno S, Grange C, et al. Isolation of renal progenitor cells from
+adult human kidney. Am J Pathol 2005;166:545–55.
+[5] Hisatomi Y, Okumura K, Nakamura K, et al. Flow cytometric isolation of
+endodermal progenitors from mouse salivary gland differentiate into hepatic
+and pancreatic lineages. Hepatology 2004;39:667–75.
+[6] Kishi T, Takao T, Fujita K, et al. Clonal proliferation of multipotent stem/
+progenitor cells inthe neonatalandadultsalivaryglands.Biochem BiophysRes
+Commun 2006;340:544–52.
+[7] Lombaert IM, Wierenga PK, Kok T, et al. Mobilization of bone marrow stem
+cells by granulocyte colony-stimulating factor ameliorates radiation-induced
+damage to salivary glands. Clin Cancer Res 2006;12:1804–12.
+[8] LombaertIMA,BrunstingJF,WierengaPK,etal.Rescueofsalivaryglandfunction
+afterstem cell transplantation inirradiated glands. PLoSONE 2008;3:e2063.
+[9] Lombaert IM, Brunsting JF, Wierenga PK, et al. Keratinocyte growth factor
+prevents radiation damage to salivary glands by expansion of the stem/
+progenitor pool. Stem Cells 2008;26:2595–601.
+[10] Meissner KK, Kirkham DL, Doering LC. Transplants of neurosphere cell
+suspensions from aged mice are functional in the mouse model of
+Parkinson’s. Brain Res 2005;1057:105–12.
+[11] Okumura K, Nakamura K, Hisatomi Y, et al. Salivary gland progenitor cells
+induced by duct ligation differentiate into hepatic and pancreatic lineages.
+Hepatology 2003;38:104–13.
+==============================
+
+==============================
+
+typeindex=-6 left=270 right=521 upper=22 lower=193
+====>
+charfont name=EELNDB+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-100
+
+[12] Ronfard V, Rives JM, Neveux Y, et al. Long-term regeneration of human
+epidermis on third degree burns transplanted with autologous cultured
+epithelium grown on a ?brin matrix. Transplantation 2000;70:1588–98.
+[13] Shackleton M, Vaillant F, Simpson KJ, et al. Generation of a functional
+mammary gland from a single stem cell. Nature 2006;439:84–8.
+[14] Shortt AJ, Secker GA, Notara MD, et al. Transplantation of ex vivo cultured
+limbal epithelial stem cells: a review of techniques and clinical results. Surv
+Ophthalmol 2007;52:483–502.
+[15] Stingl J, Eirew P, Ricketson I, et al. Puri?cation and unique properties of
+mammary epithelial stem cells. Nature 2006;439:993–7.
+[16] Sugito T, Kagami H, Hata K, et al. Transplantation of cultured salivary gland
+cells into an atrophic salivary gland. Cell Transplant 2004;13:691–9.
+[17] Vergeer MR, Doornaert PA, Rietveld DH, et al. Intensity-modulated
+radiotherapy reduces radiation-induced morbidity and improves health-
+related quality of life: results of a nonrandomized prospective study using
+a standardized follow-up program. Int J Radiat Oncol Biol Phys
+2009;74:1–8.
+[18] Vissink A, Burlage FR, Spijkervet FK, et al. Prevention and treatment of the
+consequences of head and neck radiotherapy. Crit Rev Oral Biol Med
+2003;14:213–25.
+[19] Vissink A, Jansma J, Spijkervet FK, et al. Oral sequelae of head and neck
+radiotherapy. Crit Rev Oral Biol Med 2003;14:199–212.
+==============================
+

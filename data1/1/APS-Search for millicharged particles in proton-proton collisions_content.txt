@@ -1,0 +1,634 @@
+Title:
+Search for millicharged particles in proton-proton collisions at s = 13 TeV
+
+Abstract:
+
+----------------------
+
+
+Text:
+----------------------
+Over a quarter of the mass energy of the Universe is
+widely thought to be some kind of nonluminous “dark”
+matter (DM), however, all experiments to date have failed
+to confirm its existence as a particle, much less its
+properties. The possibility that DM is not a single particle,
+but rather a diverse set of particles with as complex a
+structure in their sector as normal matter, has grown in
+prominence in the past decade, beginning with attempts
+to explain observations in high-energy astrophysics
+experiments [1,2].
+Many experimental efforts have been launched to look
+for signs of a dark sector, including searches at high-
+energy colliders, explorations at low-energy colliders,
+precision tests, and effects in DM direct detection
+experiments (for recent reviews see Refs. [3–5]). Most
+of these experiments target the dark sector via a massive
+dark photon, in what we refer to as the “Okun phase”
+[6,7]. An alternative assumption, which we call the
+“Holdom phase” [7,8], results in massless dark photons.
+In these models the principal physical effect is that new
+dark sector particles that couple to the dark photon will
+have a small effective electric charge. These are generi-
+cally called millicharged particles since a natural value
+for their electric charge of Q ? ?e=? arises from one-
+loop effects [9]. In this paper we use the symbol ? to
+denote a millicharged particle. For a given mass and
+charge, the pair production of millicharged particles at
+the CERN Large Hadron Collider (LHC) is almost
+model independent. Every standard model (SM) process
+that results in dilepton pairs through a virtual photon
+would, if kinematically allowed, also produce ?þ?? pairs
+with a cross section reduced by a factor of ðQ=eÞ2 and
+by mass-dependent factors that are well understood.
+Millicharged particles can also be produced through Z
+boson couplings that depend on their hypercharge [7].
+Previous experiments have searched for millicharged
+particles [10–17]. The parameter space spanned by the
+mass and charge of ? is also constrained by indirect
+observations from astrophysical systems [9,15,18–24],
+terrestrial matter [25], the cosmic microwave background
+(CMB) [26], big-bang nucleosynthesis [27], and universe
+overclosure bounds [18]. While direct searches robustly
+constrain the parameter space of millicharged particles,
+indirect observations can be evaded by adding extra degrees
+of freedom, which can readily occur in minimally extended
+dark sector models [7]. In particular, the parameter space
+1 < m? < 100 GeV, an ideal mass range for production at
+the LHC, is largely unexplored by direct (or indirect)
+searches. Such a signature would not be detectable by the
+CMS and ATLAS experiments at the LHC [28,29], as all
+detector elements rely on the electromagnetic (EM) inter-
+action of the millicharged particle with ordinary matter. For
+a millicharged particle the interaction strength is reduced by
+a factor of ðQ=eÞ2 with respect to that of a particle of the
+same mass that has charge e. The detector signal is also
+reduced by the same factor, and is typically too small to be
+recorded by detectors designed for particles of charge e.
+The production of millicharged particles in collider experi-
+ments would result in events with missing transverse
+momentum, however, SM processes with neutrinos as well
+as instrumental effects tend to overwhelm their signatures.
+No searches for particles with Q ? 0.1e have been per-
+formed at hadron colliders.
+It is then clear that dedicated detectors are needed to
+search for millicharged particles at a hadron collider. In
+2016, we discussed the possibility to build such a detector
+at the LHC, which we called milliQan [30], at the CMS
+experimental site and aligned with the CMS interaction
+point (IP). Since then we have installed and operated a
+small fraction of such a detector (“milliQan demonstrator”)
+to measure backgrounds and provide a proof of principle
+and feedback for the full detector design. In 2018, the
+demonstrator collected a dataset of proton-proton (pp)
+interactions corresponding to an integrated luminosity
+of 37.5 fb?1, at a center-of-mass energy of 13 TeV.
+This corresponds to 86% of the total luminosity delivered
+by the LHC in the period the demonstrator was opera-
+tional. While the demonstrator is only ?1% of the full
+milliQan, the data collected already provides competitive
+constraints on the existence of millicharged particles of
+mass 20–4700 MeV=c2 and Q=e ? 0.01–0.3.
+A thick sensitive volume is required to be capable of
+observing the small energy deposition of a particle with
+Q ? 0.1e. The milliQan demonstrator is, therefore, com-
+posed of three layers of 80 × 5 × 5 cm scintillator bar
+arrays pointing to the CMS IP, with each array consisting of
+three pairs of bars, stacked on a 3.6 m long rectangular
+aluminum tube, for a total of 18 bars. We label the closest,
+middle and furthest layer from the CMS IP as layer 1,
+layer 2 and layer 3, respectively.
+The milliQan demonstrator is located in an underground
+tunnel at a distance of 33 m from the CMS IP, with 17 m of
+rock between the CMS IP and the demonstrator that
+provides shielding from most particles produced in LHC
+collisions. In the CMS coordinate system [29], the detector
+is positioned at an azimuthal angle (?) of 43° and
+pseudorapidity (?) of 0.1. Diagrams of the detector’s
+position are shown in Fig. 1. Located 70 m underground,
+the muon flux from cosmic rays is reduced by a factor of
+?100 compared to the surface. The detector is aligned
+using standard laser-based survey techniques such that the
+center of the scintillator array projects a line to within 1 cm
+of the CMS IP. This alignment is validated using muons
+produced at the CMS IP, as discussed in Sec. IV C.
+In addition to the scintillator bars, additional components
+were installed to reduce or characterize certain types of
+backgrounds. Lead bricks are placed between the layers to
+prevent low-energy secondary particles from one layer
+from entering another layer. Four scintillator slabs are
+located along the length of the detector to tag throughgoing
+particles, provide time information, and shield the bars
+from neutron radiation. Thin scintillator panels cover the
+top and sides, providing the ability to reject cosmic muons.
+Lastly, hodoscopes consisting of 2 × 2 × 45 cm scintillator
+volumes are used to identify the tracks of beam and cosmic
+muons. A diagram of the detector components is shown
+in Fig. 2, and a photograph of the installed detector is
+shown in Fig. 3. All scintillator volumes are comprised of
+Eljen EJ-200 [31].
+Scintillator light in the bars, panels, and slabs is detected
+by photomultiplier tubes (PMTs) coupled to the scintillator
+volumes. Three types of PMTs are used in order to test
+different manufacturers and gains: the Hamamatsu R878,
+Hamamatsu R7725 [32], and Electron Tube 9814B [33].
+Analog signals from each PMT are sent to two 16-channel
+samples per second with 12-bit resolution, providing
+1024 samples within a 640 ns acquisition window. Each
+scintillator volume with a PMT attached is referred to as a
+“channel.” Since millicharged particles produced at the
+CMS IP would traverse the full length of the detector in
+Oð10Þ ns, tight timing requirements allow for a significant
+reduction in combinatoric backgrounds by requiring the
+coincidence of in time signals in all layers, as described in
+Sec. V. The PMTs are powered by a CAEN SY5527 power
+supply system [35]. The hodoscopes are readout with
+silicon photomultipliers. Their data are triggered and stored
+independently from the main data stream.
+The dataset analyzed for this search was collected during
+2018, including periods with the LHC beam providing pp
+collisions (the “beam-on” dataset) and periods with no
+collisions (the “beam-off” dataset). The beam-off dataset
+provides a statistically independent sample to study back-
+ground processes. The detector is located in an area in the
+far fringe field of the CMS superconducting magnet, and
+both beam-on and beam-off datasets were recorded with the
+magnet at its nominal strength of 3.8 T. The actual magnetic
+field in the milliQan cavern is measured by magnetic field
+sensors installed in various positions around the detector.
+We find this magnetic field to be under 2 mT when the CMS
+magnet is at 3.8 T. Additional data samples were recorded
+with the field at 0 T for PMT calibration.
+Data is collected by triggering on the coincidence of at
+least three channels (triple coincidence) within a window of
+100 ns. A bar contributes to this coincidence if it has a
+rising edge consistent with a single photoelectron thresh-
+old, and the panels and slabs contribute to the coincidence
+with more stringent thresholds appropriate for identification
+of muons from cosmic rays (“cosmic muons”) and muons
+from pp interactions (“beam muons”). The total trigger
+live times were 1106 and 1042 hours for the beam-on and
+beam-off datasets, respectively. The average trigger rate
+was 14.4 Hz. Outside of the beam time, additional special-
+ized runs were taken using single-channel and double-
+coincidencetriggers,with different thresholds and operating
+voltage settings, in order to collect data samples for
+calibrations and validation studies.
+We first calibrate the size of the generated pulses in each
+channel, which requires a measurement of the average
+size of a pulse from a single photoelectron (SPE) in each
+PMT, as well as the mean number of photoelectrons hNPEi
+generated in each channel by a throughgoing muon. The
+former is strictly a property of each PMT, while the latter
+depends on each scintillator, its wrapping, its coupling to
+the PMT, and the PMT quantum efficiency.
+The SPE calibration is performed in situ by isolating
+pulses from late-arriving scintillation photons, which
+largely produce SPEs in the PMTs. The mean SPE area
+is then found by locating the peak of the resulting pulse area
+distribution. These measurements are cross-checked by
+bench measurements of SPE waveforms generated by a
+flashing LED, following the method outlined in Ref. [36].
+In the following, the npe of a given pulse is defined as the
+pulse area divided by this per-channel SPE calibration, and
+represents an estimate of the true number of photoelectrons
+that generated the pulse.
+For panels and slabs, the hNPEi calibration is performed
+directly based on throughgoing beam muons (slabs) and
+cosmic muons (panels). The measured average pulse area is
+scaled by the per-channel SPE measurement to calculate
+the mean number of photoelectrons generated by a beam or
+cosmic muon.
+For the bars, we use cosmic ray muons for calibration.
+Direct calibration with radioactive sources was not possible
+because the detector could not be accessed during LHC
+running. Since cosmic ray muons saturate the readout, we
+take an indirect approach, using the fact that the PMT
+response scales as a power law over a wide range of
+operating voltages. First, the mean areas of cosmic muon
+pulses are measured at 5–6 operating voltages, which are
+low enough to ensure that the PMT signals do not saturate.
+A power law function is then fit to these points, and
+extrapolated to the nominal operating voltage. Finally, this
+number is scaled by the per-channel SPE measurement to
+arrive at an estimate of the number of photoelectrons
+generated by a cosmic muon. The validity of the power
+law assumption is confirmed by separately fitting a power
+law function to the mean areas of SPE pulses over a range
+of voltages near the nominal operating voltage. The fitted
+exponent is found to be consistent with that from the fit to
+the cosmic muon pulse areas for all bars. The calibrated
+value of hNPEi for a beam muon traversing the full 80 cm
+length of a bar varies from 22 000 to 82 000; this means
+that hNPEi ¼ 1 is expected in the bars for particles of
+charge Q=e ? 0.004–0.007.
+The dominant source of uncertainty in each bar’s hNPEi
+measurement is the statistical uncertainty from the power
+law fit and extrapolation, which is 10%–20% depending on
+the channel, and is uncorrelated between channels. Smaller
+uncertainties, generally on the order of a few percent, come
+from differences in the residual magnetic field between
+calibration runs and data-taking runs; the effect of a
+low-pass filter applied to the waveforms; and differences
+between the in situ and lab-based SPE measurements.
+These are correlated between bars with PMTs of the same
+type. Time dependent drifts in the response, inferred from
+variations in the dark count rate, are subdominant.
+The timing of the PMTs must also be calibrated. The
+calibration procedure is designed such that a particle
+traveling near the speed of light through the detector from
+the CMS IP should have the same time value in every bar,
+panel and slab. This calibration is performed using both
+beam and cosmic muons. Figure 4 shows the time differ-
+ence between a muon pulse in layer 3 compared to a muon
+pulse in layer 1, where the events have been categorized as
+either beam or cosmic muons based on the timing of the
+pulses in the slabs. The resolution in the time difference
+between layers is approximately 4 ns for beam muons
+which travel through the detector from the CMS IP. An
+additional correction is applied to account for the depend-
+ence of the timing of the pulses on their size. This
+correction is derived using secondary particles that result
+from the interactions of beam muons with the detector as
+they traverse it. The timing resolution degrades as the
+size of the pulses gets smaller; the resolution of the lowest
+npe pulses passing the selection outlined in Sec. V is
+?15 ns. The modeling of the timing of these secondaries is
+used to derive a systematic uncertainty in the timing in
+simulation.
+The trigger efficiency is measured as a function of npe for
+each channel by comparing the rate between dedicated
+triple-coincidence runs and double-coincidence runs. For
+the triple-coincidence runs, the trigger decision is based on
+coincident signals in two “tag-channels” and one “probe
+channel,” whose trigger efficiency is to be measured. For
+the double coincidence runs, the trigger decision involves
+only the two tag channels. The trigger efficiency for each
+channel is given by the ratio of the pulse rate when the
+probe channel is required in the trigger over the pulse rate
+when the probe channel is not required in the trigger. This
+efficiency is used to reweight the simulated samples of
+signals from millicharged particles described in Sec. IV B.
+The trigger efficiency is measured to reach 100% for
+npe ? 2 for all channels.
+We generate pair production of millicharged particles in
+13 TeV pp collisions through the Drell-Yan process, as well
+as from ?, J=?, ?ð2SÞ, ?, ?, and ? decays into ?þ??, and
+from Dalitz decays of ?0, ?, ?0, and ?.
+Drell-Yan events are generated assuming that ?s are
+isospin singlet fermions, using the Lagrangian of Ref. [37]
+implemented in the MADGRAPH5_aMC@NLO [38] event
+generator, with a minimum invariant mass requirement
+on the millicharged pair of 2 GeV=c2. Because of the
+limited integrated luminosity and the small size of the
+demonstrator, there is essentially no sensitivity to Drell-Yan
+production of millicharged particles in the dataset discussed
+in this paper.
+The production cross section and transverse momentum
+distribution of J=? and ?ð2SÞ in the central rapidity
+pT
+y region is taken from calculations of charmonium
+production from direct processes [39–41] and
+tainties. Theoretical calculations of bottomonium produc-
+tion [45] are not reliable at low transverse momentum
+(pT < 15 GeV) [46], where most of the cross section lies.
+As a result, for pT > 20 GeV we use the cross sections and
+pT spectra measured at a center-of-mass energy of 13 TeV
+[47]; at lower pT we use measurements from 7 TeV data
+[48,49], rescaled using the measured ratio of 13 to 7 TeV
+cross sections at slightly higher rapidity (2 < y < 2.5) [50].
+All relevant light flavor mesons except ? mesons are
+generated with the minimum bias PYTHIA8 generator [51]
+with the Monash 2013 tune [52]. This is the tune that gives
+the best agreement with several measurements of light
+meson rates and pT spectra at the LHC, albeit in most cases
+at center-of-mass energies lower than 13 TeV [53–56]. The
+Monte Carlo spectra for ?ð?;?Þ with pT < 3 (1) GeV are
+scaled down by factors as large as 2, based on the
+experimental results cited above. On the other hand, the
+production of ? mesons is modeled with the minimum bias
+PYTHIA6 generator [57] with the DW tune [58], since this
+Monte Carlo setup best reproduces ? meson data [59]. All
+PYTHIA Monte Carlo generations are normalized to a
+minimum bias cross section of 80  10 mb based on a
+measurement by ATLAS [60], with an uncertainty taken to
+cover the difference with respect to a similar CMS
+measurement [61]. We assess an additional 30% uncer-
+tainty in the overall rate of each process to account for
+remaining differences between experimental measurements
+and PYTHIA predictions of the rates of light mesons per
+minimum bias event, based on the references cited above.
+The branching fractions for all vector meson decays,
+V ? ?þ??, as a function of the ? mass are calculated using
+the Van Royen-Weisskopf formula [62], normalized to the
+PDG value of the branching fraction for V ? eþe? [63],
+and rescaled appropriately for the assumed charge of the ?.
+The branching fractions for meson Dalitz decays, e.g., ?0 ?
+?þ??? or ? ? ?þ???0, as well as the ?þ?? invariant mass
+distributions in these decays are modeled as a function of
+the ? mass and charge using the partial width for decays
+into photons, e.g., ?0 ? ?? or ? ? ?0? [64], assuming a
+vector dominance model for the form factors.
+Production cross sections of millicharged particles
+from different processes are summarized in Fig. 5. The
+possible contribution from millicharged particle produc-
+tion in EM showers in the CMS calorimeters generated
+by particles from pp collisions is not considered in this
+analysis.
+We also generate inclusive muon events (pp ? X ? ?)
+that are used for calibration and background studies. The
+same theoretical calculation used to obtain the differential
+cross sections of J=? and ?ð2SÞ from bottom hadron
+decays is also used to generate muons from bottom and
+charm hadron decays, while muons from decays in flight of
+pions and kaons are generated with PYTHIA8 using the
+Monash 2013 tune. Muons from W and Z decays are taken
+from MADGRAPH5, though these electroweak processes
+contribute only ?3% of the total muon flux. Finally, muons
+are generated using an appropriate angular distribution to
+simulate cosmic ray events. This angular distribution is
+derived by assuming a cos2ð?zenithÞ distribution at the
+surface and propagating the muons to the demonstrator
+using the method described in Sec. IV B.
+Generated particles are propagated through a simplified
+model of the material in the CMS detector, including the
+magnetic field, and the 17 m of rock between the CMS
+cavern and the demonstrator.
+Propagation is performed with fourth-order Runge-Kutta
+integration, incorporating the effects of the magnetic field,
+multiple scattering, and energy loss. Particles are propa-
+gated until 2 m before the face of the demonstrator, after
+which they are fed into a full GEANT4 [65] simulation of the
+remaining rock, the drainage gallery where the demon-
+strator is located, and the demonstrator itself. Similarly,
+muons from cosmic ray showers are propagated from the
+surface of the earth to a plane 1 m above the top of the
+cavern. Muon interactions in the cavern walls generate
+showers of gamma rays and electrons that significantly
+contribute to the cosmic ray background. A simulated
+cosmic ray shower event is shown in Fig. 6.
+The simulation parameters are nominally configured to
+be consistent with EJ-200 scintillator and existing mea-
+surements for Tyvek reflectivity and each PMT species’
+quantum efficiency [66]. Overall photon propagation is
+handled using GEANT4’s UNIFIED optical model [67].
+Photon propagation is further calibrated by measuring
+the effects of scintillator roughness and wrapping quality
+on light attenuation in the scintillator bars and matching the
+effect in simulation. These measurements indicated a
+wrapping reflectivity R ¼ 0.97 and scintillator roughness
+? ¼ 1%, typical values for Tyvek and EJ-200 [68]. A per-
+channel calibration is applied to each PMT quantum
+efficiency so that the measured hNPEi values agree between
+data and simulation.
+The electronic response is simulated using SPE wave-
+form templates measured on a test bench with an LED.
+SPE templates for each GEANT4 photoelectron are added
+together, with appropriate arrival times, and including
+the individual PMT calibration described in Sec. III. The
+resulting waveform is then added to a randomly selected
+zero-bias data waveform to properly account for elec-
+tronic noise.
+The simulation is validated by studying beam muons as
+well as cosmic ray events. The absolute rate of beam muons
+passing through all four slabs is compared with the rate
+predicted from a simulated sample of muon production
+from heavy-flavor and electroweak decays, as well as
+meson decays in flight, as described in Sec. IV B. We
+measure a rate of 0.20  0.01 muons=pb?1, based on a
+sample of 7363 muons, in agreement with the prediction of
+0.25  0.08 muons=pb?1. The dominant uncertainties in
+this prediction arise from the uncertainty in the bb? cross
+section (21%) and from the modeling of the material
+between the CMS IP and milliQan (25%). This last
+uncertainty is derived from a 7% variation in the total
+amount of intervening material, which is in turn due
+primarily to uncertainties in both the thickness and density
+of the rock layer. This 7% variation corresponds to a 25%
+uncertainty in the muon rate because of the steeply falling
+muon momentum distribution. This same variation is used
+to derive a systematic uncertainty in the predicted signal
+yields, though in that case the effect is much smaller
+because of the smaller charge of the ?.
+We additionally perform a comparison of the angular
+distribution of beam muon trajectories, in order to probe the
+scattering and magnetic field modeling in simulation and
+validate the alignment of the detector. We compare rates of
+muons passing through various subsets of bars that trace a
+range of angles through the detector. The rates of these
+paths in both the horizontal and vertical directions are
+measured to be consistent within statistical uncertainties
+between data and simulation.
+Finally, the GEANT4 modeling is validated by compar-
+ing distributions of photoelectron counts in bars near
+either beam or cosmic muon trajectories. Hits are
+expected from electrons and gamma rays produced as
+the muon travels through the rock or nearby detector
+material. An example comparison is shown in Fig. 7.
+Here we show npe distributions in data and simulation in
+events with a tagged beam muon, for bars that do not
+contain a pulse consistent with originating from a muon
+(npe < 750), and are not neighboring any such bars.
+Contributions come primarily from electrons and gamma
+rays produced in scintillator material, rock, or the lead
+bricks. Good agreement is seen across a wide range of
+npe levels.
+The search for millicharged particles looks for a signal
+with the signature of a pulse in each of the three layers of
+the demonstrator. A number of sources can produce such a
+signature:
+(i) Each PMT has a dark current arising from effects
+such as the thermal emission of electrons from the
+cathode. The simplest background source comes
+from random overlap of three such dark rate pulses.
+In addition, dark rate counts may overlap with two
+correlated pulses from another source.
+Cosmic muon showers may generate a large number
+of gamma rays and electrons from an interaction of
+one or more cosmic ray muons with the rock in the
+milliQan cavern. This may cause a pulse in each
+layer of the demonstrator. Such a background could
+also be expected from a beam muon that travels
+close to the demonstrator.
+Radiation in the cavern, scintillator bars or surround-
+ing material can cause correlated deposits in several
+bars. The lead blocks placed between layers should
+reduce the probability of deposit in multiple layers
+arising from photons or electrons while the slabs
+provide shielding of neutrons.
+(iv) Afterpulses, which are small pulses caused by
+positive ions generated by the ionization of residual
+gases in the PMT, can appear several hundred
+nanoseconds to over a few microseconds after the
+initial pulse. The afterpulses from correlated depos-
+its in several PMTs may overlap and produce a
+signal-like signature in the demonstrator. For this to
+occur, the interaction event that gives rise to the
+afterpulses must not be triggered because, in this
+case, the afterpulses will fall in the 125 ?s readout
+deadtime that follows each triggered event, and will
+not be recorded.
+Selections are applied in order to reject contributions
+from these background sources. If there is a pulse within
+the acquisition time window in any panel, or in more than
+one bar in each layer, the event is rejected. These require-
+ments reject backgrounds due to cosmic muon showers,
+which are expected to cause deposits across the detector. In
+addition, if there is a pulse in any slab within the acquisition
+time window consistent with originating from a muon
+(npe > 250) the event is vetoed. This requirement rejects
+deposits due to beam and cosmic muons passing close to
+the bars. The bars with reconstructed pulses are required to
+be pointing to the CMS IP. This reduces the backgrounds
+from neutrons, cosmic muon showers and random overlap,
+while being efficient for signal, which typically has a small
+angular spread. To mitigate backgrounds from afterpulses,
+in each channel a requirement is made to reject the event if
+a pulse occurs before the window in which the pulse may be
+involved in the trigger decision. In addition, the first pulse
+in each channel must have the largest npe value. Events that
+contain initial pulses in the bars with a large spread in npe
+(maximum npe/minimum npe > 10) are vetoed to reject
+events containing contributions from different sources,
+such as dark rate overlap with shower deposits or deposits
+from two or more shower particles traveling through the
+demonstrator. Finally, the maximum calibrated time differ-
+ence between the first bar pulse in each layer (?tmax) is
+required to be less than 15 ns, which is efficient for signals
+traveling through the detector from the CMS IP and forms a
+powerful rejection of backgrounds that have different paths
+through the detector, such as cosmic muon showers, or that
+have deposits in each layer that are uncorrelated in their
+timing, such as dark rate overlap.
+Selected events are subsequently categorized into five
+signal regions (SRs) through requirements on both the
+number of slabs that contain a pulse and the minimum npe
+of the pulses in the three bars. This categorization allows
+for sensitivity to a wide range of charge values in the signal
+parameter space. The definitions of the five SRs are
+summarized in Table I. For events with a pulse in each
+of the three layers the selection criteria provide high
+efficiency for the targeted models while rejecting the
+background by more than 5 orders of magnitude.
+Residual background passing selection is estimated for
+each signal region by measuring the pass/fail ratio of the
+timing requirement in events with a hit in each layer,
+consistent with signal requirements except that the bars do
+not form a pointing path towards the CMS IP, and then
+multiplying it by the number of events failing the timing
+selection that form a pointing path towards the CMS IP.
+This prediction method relies on the independence of the
+dominant backgrounds on the pointing path requirement.
+This method is used rather than taking the prediction from
+the beam-off dataset as it is robust against time dependent
+drifts in the background rate. However, the beam-off
+dataset provides a statistically independent sample to
+validate the prediction without contamination from signal.
+The results of the beam-off prediction for the SR are
+summarized in Table II. The uncertainty in the prediction
+reflects the limited statistics in the regions used to make the
+prediction. The prediction is shown to be in agreement with
+the observation for all validation regions. The level of
+agreement between prediction and observation in each
+validation region is used to derive a systematic uncertainty
+in the prediction.
+Given the validation of the background prediction
+method with the beam-off dataset, the SR prediction is
+made using the beam-on dataset. The background contri-
+bution from beam processes is estimated from simulation to
+be less than 2% for all regions. Results are given in
+Table III. The predictions are seen to be consistent with
+those from the beam-off dataset (taking the 6% difference
+in collection time into account), which provides additional
+confidence that the beam-based backgrounds are negli-
+gible. The uncertainty in the prediction reflects both the
+limited statistical power of the regions used for the
+prediction as well as the systematic uncertainty derived
+from the validation using the beam-off dataset. The
+predictions are found to be consistent with the observations
+in all SRs.
+The search is interpreted using the signal model
+described in Sec. IV. The full set of selection criteria
+described in Sec. V is applied to each event. The efficiency
+to pass these criteria for three benchmark ? masses and
+charges is shown in Table I.
+There are several sources of systematic uncertainty in
+the number of signal events entering the SRs. These are
+evaluated independently for each model point and are
+summarized below:
+(i) Signal cross section (described in Sec. IVA):
+typically 15%–30% depending on the mass of the ?.
+(ii) Material interactions (described in Sec. IV C):
+typically 1%–5% depending on the charge and mass
+of the ?.
+Pulse timing (described in Sec. III): typically
+1%–40% depending on the charge of the ?.
+(iv) hNPEi calibration (described in Sec. III): 1%–50%
+depending on the SR populated by the ?.
+(v) Limited simulated sample size: up to 30%.
+Under the signal plus background hypothesis, a modified
+frequentist approach is used to determine observed upper
+limits at 95% confidence level on the cross section (?) to
+produce a pair of ?s, as a function of mass and charge. The
+approach uses the LHC-style profile likelihood ratio as the
+test statistic [69] and the criterion of the C.L. [70,71].
+The observed upper limits are evaluated through the use of
+asymptotic formulas [72]. Figure 8 shows the exclusion at
+95% confidence level in mass and charge of the ?. The
+exclusion is compared to existing constraints, showing new
+sensitivity for ? masses above 700 MeV.
+In Refs. [30,37] we assumed the largest irreducible
+background to the signal would come from dark-current
+pulses in the PMTs. From experience gained by operating
+the demonstrator, we now know that an equally important
+background comes from correlated effects caused by
+activity in the scintillator (from effects such as environ-
+mental radiation or cosmic muon showers). This realization
+prompted us to revisit the milliQan design, adding a fourth
+layer in order to mitigate the contribution from these
+correlated backgrounds.
+We have studied the effect of adding a fourth layer with
+the demonstrator. The demonstrator has three rather than
+four layers so backgrounds are determined for threefold
+coincidence and then extended to fourfold using an addi-
+tional pulse in a slab. The results of this study indicate that
+the contribution from pure dark-current overlap drops to a
+negligible level for the case of fourfold coincidence, even
+with the somewhat high-noise PMTs that are used in the
+demonstrator. The calculations presented in Refs. [30,37]
+remain a conservative estimate of the milliQan discovery
+potential since the background with four layers as measured
+with the demonstrator is significantly smaller than the
+estimate used in those simulations.
+Given the experience obtained from the demonstrator,
+we are confident that the proposed full-scale detector will
+perform as expected provided sufficient funding becomes
+available.
+We have deployed a prototype dedicated detector at the
+LHC to conduct the first search for elementary particles
+with charges much smaller than the electron charge at a
+hadron collider. We analyzedpa? data sample of proton-proton collisions collected at s? ¼ 13 TeV provided by
+the LHC, corresponding to an integrated luminosity of
+37.5 fb?1. The existence of new particles with masses
+between 20 and 4700 MeV is excluded at 95% confidence
+level for charges varying between 0.006e and 0.3e,
+depending on mass. New sensitivity is achieved for masses
+larger than 700 MeV. The successful operation of the
+milliQan demonstrator and search carried out have shown
+the feasibility of a dedicated detector for millicharged
+particles at the LHC and provided important lessons for
+the design of the full detector.
+We congratulate our colleagues in the CERN accelerator
+departments for the excellent performance of the LHC and
+thank the technical and administrative staffs at CERN.
+In addition, we gratefully acknowledge the CMS collabo-
+ration for supporting this endeavor by providing invaluable
+logistical and technical assistance. We also thank Eder
+Izaguirre and Itay Yavin for their enduring contributions to
+this idea. Finally, we acknowledge the following funding
+agencies who support the investigators that carried out this
+research in various capacities: FWO (Belgium) under the
+Excellence of Science EOS be.h Project No. 30820817;
+DFG and HGF (Germany); Swiss Funding Agencies
+(Switzerland); STFC (United Kingdom); DOE and NSF
+(USA); Lebanese University (Lebanon).

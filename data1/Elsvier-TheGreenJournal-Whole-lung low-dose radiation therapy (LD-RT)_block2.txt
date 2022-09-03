@@ -1,0 +1,4788 @@
+Content:
+ColumnWidth 252 ColumnNumber 2
+ContentWidth 521 ContentLeft 1 ContentRight 521
+Subtitles:  0 2 3
+
+==============================
+Page 1
+ Left 1 Right 521 Top 1 Bottom 697
+
+
+Column meta:
+Column left:1 upper:113 right:252 lower 697
+Column left:270 upper:543 right:521 lower 663
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=-6 left=190 right=331 upper=1 lower=5
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 165 (2021) 20–31
+==============================
+
+==============================
+
+typeindex=-2 left=187 right=338 upper=28 lower=32
+====>
+charfont name=PCDJAA+AdvPSUnv charfont height=4.100000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Contents lists available at ScienceDirect
+==============================
+
+==============================
+type: title
+typeindex=8 left=169 right=355 upper=52 lower=60
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=8.600000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology
+==============================
+
+==============================
+
+typeindex=-2 left=154 right=370 upper=84 lower=88
+====>
+charfont name=PCDJAA+AdvPSUnv charfont height=4.100000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+journal homepage: www.thegreenjournal.com
+==============================
+
+==============================
+
+typeindex=7 left=1 right=418 upper=133 lower=176
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=8.300000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Whole-lung low-dose radiation therapy (LD-RT) for non-intubated
+oxygen-dependent patients with COVID-19-related pneumonia
+receiving dexamethasone and/or remdesevir
+==============================
+
+==============================
+
+typeindex=6 left=1 right=476 upper=189 lower=224
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=6.500000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Clayton B. Hessa,b, Tony Y. Eng a,h, Tahseen H. Nasti b, Vishal R. Dhere a,h, Troy J. Kleberc,
+JLeufifsraeyS.MT.aSvwerintcahge, nAklovadr,ho, BPererenzt DDa. iWsseoinnbg,eRrga?e, ANhamdiendebR, oMuophhaamelmf, aSdiboK.TKiahnana,ha,,cS,ho,?umon Rudra a,h,
+==============================
+
+==============================
+
+typeindex=-8 left=1 right=521 upper=234 lower=248
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+aDepartment/Division of Radiation Oncology; b Department/Division of Microbiology and Immunology; cSchool of Medicine; dSchool of Biostatistics and Bioinformatics; eSchool of
+Radiology; f School of Infectious Disease; gUndergraduateScholarly Inquiry and Research Experience (SIRE); and hWinship Cancer Institute,Emory University, Atlanta, United States
+==============================
+
+==============================
+type: abstract
+typeindex=-4 left=165 right=521 upper=294 lower=480
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.400000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Background: Low-dose radiotherapy (LD-RT) has produced anti-in?ammatory effects in both animal
+models and early human trials of COVID-19-related pneumonia. The role of whole-lung LD-RT within
+existing treatment paradigms merits further study.
+Methods: A phase II prospective trial studied the addition of LD-RT to standard drug treatments.
+Hospitalized and oxygen-dependent patients receiving dexamethasone and/or remdesevir were treated
+with 1.5 Gy whole-lung LD-RT and compared to a blindly-matched contemporaneous control cohort.
+Results: Of 40 patients evaluated, 20 received drug therapy combined with whole-lung LD-RT and 20
+without LD-RT. Intubation rates were 14% with LD-RT compared to 32% without (p = 0.09). Intubation-
+free survival was 77% vs. 68% (p = 0.17). Biomarkers of in?ammation (C-reactive protein, p = 0.02) and
+cardiac injury (creatine kinase, p < 0.01) declined following LD-RT compared to controls. Mean time feb-
+rile was 1.4 vs 3.3 days, respectively (p = 0.14). Signi?cant differences in clinical recovery (7.5 vs. 7 days,
+p = 0.37) and radiographic improvement (p = 0.72) were not detected. On subset analysis, CRP decline
+following LD-RT was predictive of recovery without intubation compared to controls (0% vs. 31%,
+p = 0.04), freedom from prolonged hospitalizations (21+ days) (0% vs. 31%, p = 0.04), and decline in oxy-
+genation burden (56% reduction, p = 0.06). CRP decline following 1st drug therapy was not similarly pre-
+dictive of outcome in controls (p = 0.36).
+Conclusions: Adding LD-RT to standard drug treatmentsreduced biomarkers of in?ammation and cardiac
+injury in COVID-19 patients and may have reduced intubation. Durable CRP decline following LD-RT pre-
+dicted especially favorable recovery, freedom from intubation, reduction in prolonged hospitalization,
+and reduced oxygenation burden. A con?rmatory randomized trial is now ongoing.
+==============================
+
+==============================
+
+typeindex=-5 left=165 right=304 upper=485 lower=490
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Clinical Trial Registration: NCT04366791.
+==============================
+
+==============================
+
+typeindex=-4 left=223 right=521 upper=494 lower=499
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.400000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+2021 Elsevier B.V. All rights reserved. Radiotherapy and Oncology 165 (2021) 20–31
+==============================
+
+==============================
+
+typeindex=5 left=1 right=68 upper=113 lower=119
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=5.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Original Article
+==============================
+
+==============================
+
+typeindex=5 left=1 right=95 upper=273 lower=278
+====>
+charfont name=PCDIIB+AdvGulliv-F charfont height=5.500000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+a r t i c l e in f o
+==============================
+
+==============================
+
+typeindex=4 left=165 right=230 upper=273 lower=279
+====>
+charfont name=PCDIIB+AdvGulliv-F charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+abstract
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=43 upper=294 lower=297
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Article history:
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=120 upper=302 lower=340
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Received 26 July 2021
+Received in revised form 30 September
+2021
+Accepted 3 October 2021
+Available online 13 October 2021
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=31 upper=356 lower=360
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Keywords:
+==============================
+
+==============================
+
+typeindex=-3 left=1 right=31 upper=365 lower=369
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=1, column left=1, likeBody=-100
+
+COVID-19
+==============================
+
+==============================
+
+typeindex=-8 left=1 right=59 upper=373 lower=386
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Low-dose radiation
+Pneumonia
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=543 lower=580
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+The severe-acute-respiratory-syndrome coronavirus 2
+(SARS-CoV-2) and coronavirus disease 2019 (COVID-19) have
+caused unprecedented death and disruption. Mediated by a
+cascading, hyperin?ammatory, macrophage-activating event in
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-8 left=1 right=252 upper=606 lower=671
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Abbreviations: ARDS, acute respiratory distress syndrome; CRP, C-reactive
+protein; CT, chest tomography; CXR, chest X-ray; LD-RT, low-dose radiation
+therapy; OS, overall survival; PCR, polymerase chain reaction; P:F ratio, ratio of
+arterialpressure (mmHg) of oxygen (PaO2)to fractionof inspiredoxygen (FiO2)[P:
+F ratio]; TTCR, time to clinical recovery.
+? Corresponding author at: Radiation Oncology, WinshipCancer Institute, Emory
+University Hospital, 1365 Clifton Road NE, Atlanta, GA 30345, United States.
+E-mail address: drkhurram2000@gmail.com (M.K. Khan).
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-8 left=1 right=157 upper=685 lower=697
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+https://doi.org/10.1016/j.radonc.2021.10.003
+0167-8140/ 2021 Elsevier B.V. All rights reserved.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=543 lower=663
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+the lungs [1], patients can face mortality rates of 30–50% once
+dependent on mechanical ventillation [2–4]. The
+anti-in?ammatory effects of low-dose, ionizing radiation therapy
+(LD-RT) are well-established for multiple hyper-in?ammatory
+conditions [5–12]. LD-RT has reduced in?ammatory opacities in
+the lung, pro-in?ammatory markers interleukin-6 and interferon-
+gamma, and increased anti-in?ammatory marker interleukin-10
+in murine models of acute lung injury using intra-tracheal admin-
+istration of lipopolysacharade (LPS) [13]. LD-RT directed at the
+lungs may dampen COVID-19’s cytokine hyperactivity through
+similar immunomodulatory pathways [14–16]. Initial reports of
+LD-RT for COVID-19 demonstrated safety, reduced intubation
+==============================
+
+==============================
+Page 2
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 706
+Column left:270 upper:21 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=101 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-9 left=386 right=521 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 165 (2021) 20–31
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+21
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=21 lower=78
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+rates, declined in?ammatory markers, and hastened recovery in
+non-intubated patients [17–19]. A recent but small randomized
+trial studied LD-RT in 11 intubated patients and detected no bene-
+?t compared to 11 intubated controls [20]. Further study of LD-RT
+combined with current standard treatments in non-intubated
+patients is warranted.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=1 right=93 upper=98 lower=103
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Materials and methods
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=43 upper=119 lower=124
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Trial design
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=134 lower=234
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+The Radiation Eliminates Storming Cytokines and Unchecked
+Edema as a 1-day Treatment for COVID-19 (RESCUE 1–19) trial is
+an investigator-initiated, single-institution combined phase I/II
+trial. One trial cohort studied 1.5 Gy whole-lung LD-RT with con-
+current dexamethasone and/or remdesevir. All participants gave
+written informed consent prior to study procedures, which
+included risk of second cancer and accelerated cardiovascular dis-
+ease. Clinical Trial Registration Number was NCT04366791. The
+research protocol was approved by the Emory University Institu-
+tional Review Board.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=29 upper=256 lower=260
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Patients
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=271 lower=611
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Eligible LD-RT patients tested positive for SARS-CoV-2 using
+PCR, were hospitalized, had pneumonic consolidation on either
+chest radiograph (CXR) or computed tomography (CT), required
+oxygen supplementation, and failed a trial of oxygen weaning.
+Exclusion criteria included disease severity that was too mild
+(weanable to room air) or too severe (intubated). Patients who
+required oxygen levels beyond 15 L/min were transport ineligible.
+Anti-pyretic medications were suspended at enrollment. Following
+LD-RT, oxygen weaning followed standards of care. Patients under-
+went clinical assessment at the time of enrollment and on post-RT
+days 1, 3, 7, and 28, as well as optional assessment on days 14 and
+21. Charlson Comorbidity Index (CCI) [21] was used to assess
+comorbidity burden. Radiographs were permitted at any time as
+clinically indicated, but obtained atleast within 1 day prior to radi-
+ation, 24 hours following radiation, and at the timepoints men-
+tioned above. Evaluation of serum in?ammatory, renal, cardiac,
+chemistry, clotting, and hematologic markers were encouraged
+daily, but obtained at least at baseline and at the timepoints men-
+tioned aboved. Following trial completion, a prospective cohort of
+20 contemporaneous controls was retroactively and blindly
+matchedby age, comorbidityburden, and disease severity for com-
+parative outcome analysis. Controls were selected from among
+SARS-CoV-2-positive patients who had enrolled on a separate,
+non-therapeutic, prospective institutional trial. Study investigators
+were blinded to the selection and outcomes of control patients.
+Controls were permitted but not required to be co-enrolled on
+any therapeutic trial of COVID-19-directed drugs, including the
+Adaptive COVID-19 Treatment Trial (ACTT-1, Clinical Trial
+NCT04280705). To match disease severity, eligible controls were
+required to have received supplemental oxygen during hospitaliza-
+tion and were excluded if they experienced rapid clinical decline
+requiring intubation on the day of admission. No oxygen wean
+attempt prior to enrollment was feasible for controls.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=45 upper=633 lower=638
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Intervention
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=649 lower=706
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+All enrolled patients received best supportive care plus
+dexamethasone and/or remdesevir prior to LD-RT delivery. Asingle
+treatment of 1.5 Gy was delivered to the bilateral whole lungs with
+15 megavoltage photons on a linear accelerator, utilizing a
+2-dimensional technique, an anterior-posterior beam con?gura-
+tion, and standard dose rates (600 MU/min). Patients in the control
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=21 lower=57
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+cohort received best supportive care and standard of care drug
+therapies for COVID-19 (i.e., glucocorticosteroids, remdesevir,
+etc.) per physician discretion or therapeutic protocol without
+LD-RT.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=270 right=338 upper=79 lower=83
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Outcome measures
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=94 lower=549
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+Primary objectives were (1) safety and (2) ef?cacy of LD-RT
+delivered concurrently with dexamethasone and/or remdesevir
+[17]. Ef?cacy was explored by comparing intubation rates and time
+to clinical recovery (TTCR). TTCR was de?ned equivalentlyas it was
+in the ACTT-1 trial, as time from ?rst COVID-19 intervention to the
+?rst day on which a subject satis?ed one of three categories: (1)
+Not hospitalized, no limitations on activities; (2) Not hospitalized,
+limitation on activities and/or requiring home oxygen; or (3)
+Hospitalized, not requiring supplemental oxygen. A full 24-hour
+calendar day free of oxygen supplementation was required to trig-
+ger the binary classi?cation of a patient as recovered. Additional
+secondary outcomes explored clinical course, radiographic
+changes, and clinical lab results. Clinical course was evaluated by
+overall survival (OS), total hospital duration, time from admission
+to clinical recovery, freedom from intubation, intubation-free sur-
+vival,duration of intubation, and cumulative oxygen supplementa-
+tion requirement. Intubation-free survival was de?ned as the
+proportion of patients who were both alive and had not required
+intubation or mechanical ventilation during hospitalization. Dis-
+ease severity was assessed at baseline by oxygen requirement (L/
+min) and arterial blood gas using a ratio of arterial pressure
+(mmHg) of oxygen (PaO2) to fraction of inspired oxygen (FiO2)
+[P:F ratio]. Radiographic changes were evaluated by serial imaging.
+Chest radiographs were categorized as improved (I), stable (S), or
+worse (W) by comparing to the immediately preceding study by
+a blinded board-certi?ed diagnostic radiologist (BW) and also
+blindly assigned an ordinal 1–5 score, using an acute respiratory
+distress syndrome (ARDS) scoring scale [22]. Radiological blinding
+allowed knowledge of radiograph sequencing but ensured no
+knowledge of cohort designation, intervention received, or timing
+thereof. Chest computed tomography studies obtained at baseline
+and day 7 were subjectively assessed and visually compared with-
+out a standardized scoring system. Serological course was mea-
+sured by serial laboratory evaluations of hematologic, renal,
+cardiac, chemistry, clotting, and in?ammatory markers. Start time
+to clinical recovery was de?ned as it was in prior cohorts [17], as
+the time from LD-RT delivery (in the radiation cohort), as the ?rst
+day of administration of COVID-19 therapy (in control patients, if
+received [n = 18]), or as the ?rst full-day of hospitalization (in con-
+trol patients who received best supportive care alone [n = 2]). To
+control for lead-time bias from this de?nition, hospital duration
+and time from hospital admission to clinical recovery were also
+evaluated. Days febrile and oxygenation duration and burden were
+tracked.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=270 right=317 upper=570 lower=575
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=270, likeBody=-100
+
+CRP response
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=586 lower=643
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+During trial enrollment, durable declines in C-reactive protein
+(CRP) were observed following LD-RT in most recovering patients,
+while CRP rise occurred prior to poor outcomes. A subset analysis
+was planned mid-trial, de?ning a predictive variable ‘‘CRP
+response.” Patients who did and did not experience consistent
+decline in CRP over 3 days following LD-RT were categorized as re-
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=270 right=521 upper=649 lower=653
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+sponders and non-responders, respectively. CRP non-responders
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=659 lower=706
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+were de?ned as experiencing both of the following: (1) elevated
+CRP level (>10 mg/dL) the morning prior to LD-RT (baseline), and
+(2) two sequential rises in CRP above baseline among the ?rst three
+daily measurements immediately following LD-RT. To control for
+lab variability, rise in CRP level was de?ned as an increase of
+==============================
+
+==============================
+Page 3
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:19 right:252 lower 335
+Column left:270 upper:21 right:521 lower 335
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=171 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+==============================
+
+==============================
+
+typeindex=-6 left=213 right=308 upper=701 lower=705
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 1. CONSORT ?ow diagram.
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+22
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=19 lower=68
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+2% above the immediately preceding result. Daily labs were
+drawn approximately 24 hours apart so that duplicate or rapidly
+repeated lab rises did not overestimate sequential CRP rise. Evalu-
+ation was permitted to span 4 days following LD-RT in the event of
+missing labs.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=67 upper=95 lower=99
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Statistical analysis
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=110 lower=335
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Wilcoxon rank sum tests, Fisher’s exact tests, and log-rank tests
+were used for continuous, categorical, and time-to-event end-
+points, respectively. Cumulative incidence of recovery and dis-
+charge, overall survival, freedom from intubation, and
+intubation-free survival were estimated and/or graphed using the
+Kaplan-Meier method. Deceased patients were censored at time
+of death. Univariate Cox proportional hazards models were ?t
+and hazard ratios reported. Serial imaging ARDS scores were car-
+riedforwardfrom Day 7 to 14 to21, if missing. CXR outcomes were
+reported as mean ARDS scale scores for sequential time periods.
+Median and interquartile range was calculated for laboratory val-
+ues at clustered time points: hospital days 0–2, 3–5, 6–8, 9–11,
+and 12–14. Univariate ANOVA (within clustered days) and multi-
+variate repeated values ANOVA (between clustered days) were
+used to compare changes in repeated laboratory measures. Clinical
+outcomes were strati?ed in subset analysis by binary classi?cation
+of CRP responders vs. non-responders. Within this analysis, t-tests
+were used for continuous endpoints rather than Wilcoxon rank
+sum tests because of observations of effect on outlier data points
+likely to alter means rather than medians. Means were reported
+wherever medians did not explain cohort differences. Statistical
+analysis was performed using SAS 9.4 (SAS Institute Inc., Cary,
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=21 lower=57
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+NC), and statistical signi?cance was two-sided and assessed at
+the 0.05 level. To evaluate the predictive value of CRP decline fol-
+lowing drug interventions alone, the same de?nition of CRP
+response and strati?ed analysis was applied to controls.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=270 right=298 upper=79 lower=84
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Results
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=100 lower=335
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+From June 11, 2020 to December 7, 2020, 65 patients were
+screened for eligibility, and twenty-?ve were enrolled. Of these,
+the ?rst twenty were treated with LD-RT and 5 were reserved as
+future controls for immunologic pro?ling. None required more
+than 15 L/min of supplemental oxygen, making all patients eligible
+for transport. Of the 40 patients screened but not enrolled, 21 had
+disease too mild to meet severity criteria, 5 declined to participate,
+5 were young and likely to spontaneously recover, 5 had no docu-
+mented rationale for non-enrollment, 3 had disease too severe to
+meet severity criteria and were intubated before written consent,
+and 1 did not ultimately meet SARS-CoV-2 eligibility criteria
+(Fig. 1). Following trial completion, 20control patients hospitalized
+between March 6, 2020 and November 19, 2020 and enrolled on a
+separate collaborating non-therapeutic trial were blindly matched
+for comparison against the LD-RT group. One control rapidly intu-
+bated on the day of admission and later died and was excluded and
+blindly replaced to ensure matching of disease severity at admis-
+sion between cohorts.
+Table 1 outlines patient demographics at the time of hospital
+admission and administered COVID-19 drug therapies. Median
+age was 63 (49–88). Fifty-three percent of patients were
+African-American, 38% were female, and 12% were residents of
+assisted living centers. None experienced altered mentation at
+==============================
+
+==============================
+Page 4
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:21 right:253 lower 706
+Column left:270 upper:44 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=101 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-9 left=386 right=521 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 165 (2021) 20–31
+==============================
+
+==============================
+
+typeindex=-10 left=215 right=270 upper=73 lower=86
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Age 65 and over
+Age 64 and under
+==============================
+
+==============================
+
+typeindex=-10 left=215 right=277 upper=94 lower=141
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Black/Non-Hispanic
+Non-Black/Other
+White/Non-Hispanic
+Asian
+White/Hispanic
+Not disclosed
+==============================
+
+==============================
+
+typeindex=-10 left=215 right=293 upper=170 lower=191
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Independent/With Family
+Caregiver/Assisted
+Living/Nursing Home
+==============================
+
+==============================
+
+typeindex=-10 left=215 right=277 upper=312 lower=333
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Hydroxychloroquine
+Remdesevir
+Dexamethasone
+==============================
+
+==============================
+
+typeindex=-10 left=5 right=476 upper=460 lower=474
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+* The non-parametric p-value is calculated by a Wilcoxon rank sum test for numerical covariates and Fisher’s exact test for 2-level categorical covariates.
+** P:F ratio normal range in ARDS: 300 to 200 is mild, 200 to 100 is moderate and less than 100 is severe.
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+23
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-3 left=1 right=23 upper=21 lower=25
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Table 1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=1 right=66 upper=29 lower=33
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Patient demographics.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=95 upper=65 lower=69
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Median age in years (range)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=53 upper=94 lower=98
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Race/Ethnicity
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=31 upper=149 lower=153
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Gender
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=215 right=237 upper=149 lower=162
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Female
+Male
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=39 upper=170 lower=174
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Residence
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=133 upper=200 lower=204
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Median Comorbidity Index (CCI) (Range)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=132 upper=212 lower=216
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Chronic Home Oxygen Supplementation
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=202 upper=224 lower=228
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Median duration of symptoms: days prior to admission (range)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=143 upper=237 lower=241
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Positive SARS-CoV-2 test prior to admission
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=180 upper=249 lower=261
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Mean time (in days) between prior positive SARS-CoV-2
+test and admission (range)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=132 upper=270 lower=274
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Median O2 (L/min) at admission (range)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=202 upper=291 lower=303
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Median P:F Ratio: Ratio of Arterial Pressure (mmHg) of Oxygen
+(PaO2) to Fraction of Inspired Oxygen (FiO2) (range)**
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=54 upper=312 lower=316
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+COVID therapy
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=57 upper=341 lower=345
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Anti-coagulants
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=215 right=253 upper=341 lower=414
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=1, likeBody=-100
+
+Enoxaparin
+Aspirin
+Heparin
+Rivaroxaban
+Apixaban
+Warfarin
+Single-agent
+Multi-agent
+None
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=121 upper=422 lower=438
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Median days of COVID drugs (range)
+Median start day of RT (range)§§
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=139 upper=445 lower=451
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Median start day of COVID drugs (range)§§
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=492 lower=706
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+enrollment. Median CCI comorbidity scores were: 3 (range 1–12).
+Median duration of symptoms prior to admission was 10 (range
+1–15) and 7 (2–14) days following LD-RT and for controls, respec-
+tively (p = 0.10). Median oxygen supplementation requirement at
+the time of admission was 3 liters (range 0–15) for both cohorts
+(p = 0.51). Disease severity, as assessed by median ratio of arterial
+pressure (mmHg) of oxygen (PaO2) to fraction of inspired oxygen
+(FiO2) [P:F ratio] was not statistically different between the
+cohorts: 169 (range 122–325) compared to 183 (range 94–314),
+respectively (p = 0.84). Patients in both the LD-RT and control
+cohorts received COVID-directed drug therapy for a median of
+7.5 days (p = 0.87). LD-RT was administered at median hospital
+day 3 (range 1–8). Patients in the LD-RT cohort received COVID-
+directed therapy (dexamethasone and/or remdesevir, etc.) at a
+median start time of hospital day 1 (range 1–5), compared to 2.5
+(range 1–6) in controls (p = 0.02).
+LD-RT was delivered safely with dexamethasone and/or
+remdesevir without acute toxicity or re?ex clinical, radiographic,
+or serologic worsening of pneumonia. Intubation rates reduced
+by 56% following LD-RT compared to controls (14% vs. 32% in con-
+trols), translating to freedom from intubation at day 28 (Fig. 2) of
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=347 upper=44 lower=56
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+LD-RT Cohort
+(n = 20)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=365 right=419 upper=44 lower=56
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=270, likeBody=-100
+
+Matched Controls
+(n = 20)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=456 upper=44 lower=56
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Total
+(n = 40)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=512 upper=44 lower=48
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+p-Value*
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=346 upper=65 lower=69
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+64.5 (53–85)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=398 upper=65 lower=69
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+63 (49–88)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=465 upper=65 lower=69
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+63 (49–88)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=65 lower=69
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.54
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=73 lower=77
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+10
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=73 lower=77
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+8
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=73 lower=77
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+18 (45%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=73 lower=77
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.75
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=82 lower=86
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+10
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=82 lower=86
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+12
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=82 lower=86
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+22 (55%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=94 lower=98
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+11
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=94 lower=98
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+10
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=94 lower=98
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+21 (53%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=495 upper=94 lower=98
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1. 0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=103 lower=107
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+9
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=103 lower=107
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+10
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=103 lower=107
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+19 (47%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=111 lower=115
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=111 lower=115
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+8
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=111 lower=115
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+13 (33%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=490 upper=111 lower=115
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+–
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=120 lower=124
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=120 lower=124
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=450 upper=120 lower=124
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1 (3%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=129 lower=132
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=129 lower=132
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=450 upper=129 lower=132
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (8%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=137 lower=141
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=368 upper=137 lower=141
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=450 upper=137 lower=141
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2 (5%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=149 lower=153
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+6
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=149 lower=153
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+9
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=149 lower=153
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+15 (38%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=149 lower=153
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.51
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=158 lower=162
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+14
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=158 lower=162
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+11
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=158 lower=162
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+25 (62%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=170 lower=174
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+17
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=170 lower=174
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+18
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=170 lower=174
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+35 (88%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=495 upper=170 lower=174
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1. 0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=179 lower=183
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=179 lower=183
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=454 upper=179 lower=183
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5 (12%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=333 upper=200 lower=204
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (1–10)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=391 upper=200 lower=204
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (1–12)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=200 lower=204
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (1–12)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=200 lower=204
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.74
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=212 lower=216
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=368 upper=212 lower=216
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=450 upper=212 lower=216
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0 (0%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=490 upper=212 lower=216
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+–
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=336 upper=224 lower=228
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+10 (1–15)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=391 upper=224 lower=228
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+7 (2–14)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=224 lower=228
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+7 (1–15)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=224 lower=228
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.10
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=237 lower=241
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+8
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=237 lower=241
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+6
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=237 lower=241
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+14 (35%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=237 lower=241
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.74
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=334 upper=249 lower=253
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3.3 (013)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=396 upper=249 lower=253
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1.7 (0–12)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=463 upper=249 lower=253
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2.5 (0–13)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=249 lower=253
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.32
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=338 upper=270 lower=274
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3.0 (0–15)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=396 upper=270 lower=274
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3.0 (0–15)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=463 upper=270 lower=274
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3.0 (0–15)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=270 lower=274
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.51
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=340 upper=278 lower=282
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+[Mean 4.4]
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=398 upper=278 lower=282
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+[Mean 3.3]
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=465 upper=278 lower=282
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+[Mean 3.8]
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=352 upper=291 lower=295
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+169 (122–325)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=406 upper=291 lower=295
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+183 (94–314)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=473 upper=291 lower=295
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+176 (94–325)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=291 lower=295
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.84
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=312 lower=316
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=312 lower=316
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=450 upper=312 lower=316
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2 (5%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=490 upper=312 lower=316
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+–
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=320 lower=324
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+14
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=320 lower=324
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+15
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=320 lower=324
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+29 (72%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=329 lower=333
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+19
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=329 lower=333
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+10
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=329 lower=333
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+29 (72%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=341 lower=345
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+14
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=341 lower=345
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+17
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=341 lower=345
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+31 (78%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=490 upper=341 lower=345
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+–
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=350 lower=354
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=350 lower=354
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=454 upper=350 lower=354
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+6 (15%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=358 lower=362
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+6
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=358 lower=362
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=454 upper=358 lower=362
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+8 (20%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=367 lower=371
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=368 upper=367 lower=371
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=450 upper=367 lower=371
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1 (3%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=375 lower=379
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=375 lower=379
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=450 upper=375 lower=379
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (8%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=384 lower=388
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=384 lower=388
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=450 upper=384 lower=388
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1 (3%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=314 upper=393 lower=396
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+11
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=372 upper=393 lower=396
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+15
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=393 lower=396
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+26 (65%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=401 lower=405
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+9
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=401 lower=405
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=458 upper=401 lower=405
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+14 (35%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=310 upper=410 lower=414
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=368 upper=410 lower=414
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=439 upper=410 lower=414
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0%
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=338 upper=422 lower=426
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+7.5 (1–11)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=396 upper=422 lower=426
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+7.5 (0–16)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=463 upper=422 lower=426
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+7.5 (0–16)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=499 upper=422 lower=426
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.87
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=329 upper=434 lower=438
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (1–8)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=369 upper=434 lower=438
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+–
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=454 upper=434 lower=438
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (1–8)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=486 right=490 upper=434 lower=438
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+–
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=307 right=329 upper=447 lower=451
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1 (1–5)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=365 right=392 upper=447 lower=451
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2.5 (1–6)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=432 right=454 upper=447 lower=451
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1 (1–6)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=486 right=499 upper=447 lower=451
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.02
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=492 lower=706
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+86% following LD-RT compared to 68% in controls, which
+approached statistical signi?cance (p = 0.09). Intubation-free sur-
+vival was 77% compared to 68%, respectively (p = 0.17). Statistical
+differences in median time to clinical recovery (TTCR) and time
+from admission to clinical recovery between the cohorts were
+not detectable (p = 0.37, Table 2). Median hospital duration was
+10.5 days (range 5–33) in the LD-RT cohort compared to 11.5 days
+(range 3–42) in controls (p = 0.61). Additional treatment outcomes
+for the entire cohort are reported in Table 2.
+Radiographic improvement was not detectable between the LD-
+RT and control cohorts (p = 0.72, Fig. 4). Representative CT images
+from patients with high burden of pulmonary consolidations asso-
+ciated with COVID-19 that radiographically worsened following
+LD-RT, as well as an example of radiographic improvement, are
+shown in Fig. 5.
+Hematologic, renal, cardiac, chemistry, clotting, and in?amma-
+tory markers were tracked from the ?rst day of hospitalization.
+Plotted medians and inter-quartile ranges of serologic biomarkers
+for both LD-RT and control patients are shown in Fig. 6. Decline
+of in?ammatory biomarker C-reactive protein (CRP) was statisti-
+cally superior in the LD-RT cohort compared with controls
+==============================
+
+==============================
+Page 5
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:196 right:252 lower 406
+Column left:270 upper:21 right:521 lower 402
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=171 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+==============================
+
+==============================
+
+typeindex=-6 left=158 right=364 upper=699 lower=703
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 3a. Time to clinical recovery for LD-RT responders vs. controls.
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+24
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-8 left=1 right=251 upper=196 lower=200
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Fig. 2. Freedom from intubation for the entire LD-RT cohort vs. matched controls.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=224 lower=406
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+(p = 0.02). Cardiac marker, creatine kinase, started higher in LD-RT
+patients, but wasalso signi?cantlyreduced over controls (p < 0.01).
+Lower troponin-1 levels in the LD-RT were not statistically detect-
+able (p = 0.29). Liver function remained normal following LD-RT,
+while transaminitis occurred in some controls, but did not reach
+signi?cance(AST =0.35;ALTp=0.60).Neutrophil-to-
+lymphocyte ratio trended higher following LD-RT (p = 0.12). There
+were no detectable reductions (p = 0.80) in white blood cell count.
+No neutropenia was observed. Renal biomarker creatinine was not
+signi?cantly affected (p = 0.75). Myoglobin, erythrocyte sedimen-
+tation rate, lactate dehydrogenase, monocyte count, ferritin, ?b-
+rinogen, procalcitonin, and interleukein-6 trended downward
+after LD-RT but did not reach signi?cance or control comparisons
+were not different or not available (Fig. 6).
+Sixteen of 20 irradiated patients (80%) experienced durable
+decline in CRP levels over 3 days following LD-RT and were classi-
+?ed as CRP responders. The remaining four (20%) experienced
+sequential rises in CRP above elevated baseline levels and were
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-1 left=76 right=80 upper=276 lower=281
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+p
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=270 right=521 upper=21 lower=26
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+classi?ed as non-responders (Fig. 6, bottom right pane.Supplemental
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=31 lower=402
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+Fig. 1). Outcomes for these 16 LD-RT responders compared with
+their 16 matched controls are shown in Fig. 3 and Table 3
+(n = 32). Freedom from intubation was 100% for LD-RT responders
+compared to 66% for matched controls (p = 0.01, Table 3, Fig. 3d),
+translating to a reduction in intubation from 34% to 0%. As a cate-
+gorical variable, none of the LD-RT responders died or required
+intubation, compared to 5 of 16 matched controls (p = 0.04,
+Table 3). Median duration of time intubated was 0 days for LD-
+RT responders vs. 10 days in those matched controls who required
+intubation. Median time to clinical recovery was 7.5 days (range
+2–15) in LD-RT responders and 7 days (range 3–38) in controls
+but maximum recovery time was reduced (15 vs 38 days), shown
+as upper curve separation (p = 0.29, Fig. 3a). Median time from
+admission to clinical recovery was 9.5 days (range 1–17) following
+LD-RT compared to 9 days (range 1–41) in controls, with reduction
+in maximum recovery time (17 vs. 41 days) and upper curve sep-
+aration (p = 0.26, Fig. 3b). Median hospital duration was 10 days
+(range 5–18) for LD-RT responders compared to 10 days (range
+3–42) for controls, with reduced maximum hospitalization (18 vs
+42 days) and upper curve separation (p = 0.22, Fig. 3c). The propor-
+tion of patients requiring prolonged hospitalization of 3 weeks or
+longer fell from 30% to 10% with the addition of LD-RT (p = 0.24)
+Of the 4 patients who were CRP non-responders in the LD-RT
+cohort, 2 required intubation, 3 died by day 28 (1 refused intuba-
+tion), and the 4th died on day 33.
+CRP decline over 3 days was observed in 18 of 20 controls (90%)
+but was not predictive of outcome. Six of 18 CRP responder-
+controls (33%) required intubation despite post-drug CRP decline
+and both of the non-responders recovered without intubation
+(p =0.36).Mean total time requiring oxygen supplementation prior
+to recovery was 10.5 days (range 4–18) in LD-RT responders com-
+pared to 14.3 days (range 3–42) in controls (p = 0.24). Average
+daily oxygen maximums per patient were 32% lower at 7.6 L/min
+(mean) in LD-RT responders compared to 24 L/min in controls
+(p = 0.03,Table 3). Mean aggregated amount of oxygen supplemen-
+tation (maximum daily L/min  total days oxygenated per patient)
+==============================
+
+==============================
+Page 6
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:562 right:252 lower 703
+Column left:270 upper:562 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=101 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-9 left=386 right=521 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 165 (2021) 20–31
+==============================
+
+==============================
+
+typeindex=-6 left=133 right=389 upper=254 lower=258
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 3b. Time from admission to clinical recovery for LD-RT responders vs. controls.
+==============================
+
+==============================
+
+typeindex=-6 left=161 right=361 upper=537 lower=541
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 3c. Total hospital duration for LD-RT responders vs. controls.
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+25
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=562 lower=703
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+was 56% lower at 46.2 vs. 104.5 L/min * days, respectively
+(p = 0.06). Average number of days febrile (any fever) was 1.4 days
+(range 0–9) vs. 3.3 days (range 0–12), respectively (p = 0.14,
+Table 3), in favor of LD-RT responders. Rates of prolonged hospital-
+izations of 21+ days fell from 31% to 0% among CRP responders
+compared to matched controls (p = 0.04). Additional treatment
+outcomes for LD-RT responders are reported in Table 3.
+There were no recorded acute toxicities. The 3 deaths (15%)
+observed at day 28 in the LD-RT cohort are described in Table 2.
+Two patients had COVID-19 symptoms escalate despite LD-RT;
+both went on to intubation and could not be weaned. The third
+was a patient with a large brain meningioma who died after family
+removed opted to remove supportive high-?ow oxygen. Contrary
+to published mortality rates, none of the 20 blindly selected con-
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=562 lower=577
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+trols died. No other toxicity, airway emergencies, or adverse events
+were observed following LD-RT.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=270 right=312 upper=596 lower=601
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Discussion
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=617 lower=706
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+This report describes 28-day outcomes of an exploratory phase
+II trial of whole-lung, low-dose radiation therapy (LD-RT) given
+concurrently with standard drug treatments for COVID-19-
+related pneumonia. Intubation rates declined 56% following LD-
+RT compared to controls, from 32% to 14%, which approached sig-
+ni?cance despite a sample size of only 40 patients (p = 0.09, Fig. 2).
+This reproduces ?ndings from prior reports, where intubation fell
+from 40% to 10% following LD-RT [17]. Among CRP responders,
+intubation was not required in any patient, compared to 31% of
+==============================
+
+==============================
+Page 7
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:304 right:252 lower 702
+Column left:270 upper:327 right:521 lower 702
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=171 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+==============================
+
+==============================
+
+typeindex=-6 left=159 right=362 upper=242 lower=246
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 3d. Intubation-free survival for LD-RT responders vs. controls.
+==============================
+
+==============================
+
+typeindex=-10 left=258 right=326 upper=327 lower=331
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+LD-RT Cohort (N = 20)
+==============================
+
+==============================
+
+typeindex=-2 left=258 right=268 upper=340 lower=344
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Yes
+==============================
+
+==============================
+
+typeindex=-10 left=258 right=284 upper=348 lower=352
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+16 (80%)
+==============================
+
+==============================
+
+typeindex=-10 left=258 right=280 upper=357 lower=361
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+2 (10%)
+==============================
+
+==============================
+
+typeindex=-10 left=258 right=280 upper=366 lower=369
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+3 (15%)
+==============================
+
+==============================
+
+typeindex=-10 left=258 right=280 upper=374 lower=378
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+2 (10%)
+==============================
+
+==============================
+
+typeindex=-5 left=258 right=282 upper=386 lower=390
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Median
+==============================
+
+==============================
+
+typeindex=-6 left=258 right=271 upper=395 lower=399
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+10.5
+==============================
+
+==============================
+
+typeindex=-10 left=258 right=290 upper=403 lower=493
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Mean 12.5
+10.5
+Mean 12.1
+9. 5
+Mean 9.5
+6. 7
+Mean 15.3
+48.3
+Mean 210
+1. 0
+Mean 2.0
+==============================
+
+==============================
+
+typeindex=-5 left=258 right=282 upper=502 lower=505
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Median
+==============================
+
+==============================
+
+typeindex=-6 left=258 right=267 upper=510 lower=514
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+7. 5
+==============================
+
+==============================
+
+typeindex=-6 left=258 right=265 upper=519 lower=523
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+10
+==============================
+
+==============================
+
+typeindex=-10 left=258 right=295 upper=527 lower=540
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Not reached
+Not reached
+==============================
+
+==============================
+
+typeindex=-8 left=1 right=521 upper=549 lower=588
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+* Thenon-parametricp-value iscalculated by a Wilcoxon rank sum test for numerical covariates,Fisher’s exact test for 2-levelcategorical covariates, and log-rank test for
+time-to-event covariates with medians reported from Kaplan-Meier curves.
+** (1) Patient around 80–85 years old with do-not-resuscitate orders,whose family refused intubation, de-escalatedcare, and pursuedcomfort measures. Died hospital day
+11, hypoxicafter refusing high-?ow oxygen support. (2) Patient around 55–60 years old who received dexamethasone and LD-RT before intubation. Died on hospital day 8
+despite aggressive care. (3) Patient around age 70–75 who received dexamethasone and LD-RT before intubation. Died on hospital day 25 despite aggressive care.
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+26
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-3 left=1 right=23 upper=304 lower=308
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Table 2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=1 right=226 upper=313 lower=317
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Day 28 outcomes for the entire LD-RT cohort vs. matched controls (n = 40).
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=37 upper=327 lower=331
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Variables
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=43 upper=340 lower=344
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Categorical
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=75 right=103 upper=340 lower=344
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Outcome
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=75 right=158 upper=348 lower=378
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Clinically Recovered
+Mechanically Ventilated
+Deceased**
+Hospital Duration 21+ days
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=44 upper=386 lower=390
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Continuous
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=75 right=150 upper=395 lower=399
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Hospital Duration (days)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=75 right=209 upper=412 lower=416
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Duration of Oxygen Supplementation (days)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=75 right=205 upper=429 lower=433
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Duration of Ventilation, if intubated (days)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=75 right=217 upper=446 lower=450
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Average Daily Maximum Oxygen Need (L/min)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=75 right=190 upper=463 lower=484
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=1, likeBody=-100
+
+Cumulative Cohort Oxygenation Need
+(max daily L/min * days oxygenated)
+Days Febrile
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=53 upper=502 lower=505
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Time-to-Event
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=75 right=236 upper=510 lower=540
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Time to Clinical Recovery [TTCR] (days)
+Time from Admission to Clinical Recovery (days)
+Freedom from Intubation at day 28 (percent, 95% CI)
+Intubation-free Survival at day 28 (percent, 95% CI)
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=624 lower=702
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+matched controls. An ongoing phase III trial has been powered
+based on these ?ndings. A sample size of 150 randomized patients
+will be used to determine LD-RT’s effect on intubation rates and
+intubation-free survival.
+TTCR and hospital duration were improved following LD-RT
+without drug therapies in a prior report (n = 20) [17]. In this study,
+TTCR and prolonged hospitalizations were improved among CRP
+responders, but not in the total cohort despite a larger sample size
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=444 upper=327 lower=331
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Control Cohort (N = 20)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=512 upper=327 lower=331
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+p-value*
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=317 right=325 upper=340 lower=344
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+No
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=372 right=383 upper=340 lower=344
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Yes
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=431 right=440 upper=340 lower=344
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+No
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=339 upper=348 lower=352
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+4 (20%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=399 upper=348 lower=352
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+17 (85%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=454 upper=348 lower=352
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (15%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=496 upper=348 lower=352
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1. 0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=343 upper=357 lower=361
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+18 (90%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=395 upper=357 lower=361
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+6 (30%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=457 upper=357 lower=361
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+14 (70%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=357 lower=361
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.24
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=343 upper=366 lower=369
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+17 (85%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=376 upper=366 lower=369
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=461 upper=366 lower=369
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+20 (100%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=366 lower=369
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.23
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=343 upper=374 lower=378
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+18 (90%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=395 upper=374 lower=378
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+6 (30%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=457 upper=374 lower=378
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+14 (70%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=374 lower=378
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.24
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=317 right=336 upper=386 lower=390
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Range
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=372 right=396 upper=386 lower=390
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Median
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=431 right=451 upper=386 lower=390
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Range
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=332 upper=395 lower=399
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5–33
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=385 upper=395 lower=399
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+11.5
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=446 upper=395 lower=399
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3–42
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=395 lower=399
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.61
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=404 upper=403 lower=493
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Mean 15.8
+9.5
+Mean 13.9
+9.5
+Mean 13
+4.0
+Mean 23.1
+60.3
+Mean 530
+1.0
+Mean 3.0
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=332 upper=412 lower=416
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+4–33
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=446 upper=412 lower=416
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3–42
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=412 lower=416
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.72
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=332 upper=429 lower=433
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5–14
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=446 upper=429 lower=433
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1–34
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=429 lower=433
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.87
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=343 upper=446 lower=450
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1.5–81.5
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=452 upper=446 lower=450
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1.5–86
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=446 lower=450
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.91
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=340 upper=463 lower=467
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+6–1591
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=459 upper=463 lower=467
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+7.5–3636
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=463 lower=467
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.73
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=328 upper=481 lower=484
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0–9
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=446 upper=481 lower=484
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0–12
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=481 lower=484
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.91
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=317 right=336 upper=502 lower=505
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Range
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=372 right=396 upper=502 lower=505
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Median
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=431 right=451 upper=502 lower=505
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Range
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=332 upper=510 lower=514
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2–30
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=376 upper=510 lower=514
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+7
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=446 upper=510 lower=514
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2–38
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=510 lower=514
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.37
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=332 upper=519 lower=523
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+4–33
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=372 right=376 upper=519 lower=523
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+9
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=446 upper=519 lower=523
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2–41
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=519 lower=523
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.37
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=350 upper=527 lower=531
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+86 (54–97)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=372 right=409 upper=527 lower=540
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=270, likeBody=-100
+
+Not reached
+Not reached
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=465 upper=527 lower=531
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+68 (42–84)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=487 right=500 upper=527 lower=531
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.09
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=317 right=350 upper=536 lower=540
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+77 (42–92)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=431 right=465 upper=536 lower=540
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+68 (42–84)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=487 right=500 upper=536 lower=540
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.17
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=624 lower=702
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+(n = 40, Table 2). Outcomes may have been confounded by an
+unusually favorable control population. Controls were not able to
+undergo oxygen weaning trials prior to enrollment, were not all
+ill enough to prioritize enrollment on therapeutic trials, and were
+speci?cally excluded if they experienced rapid clinical decline on
+admission. Thesefactors may have introduced a favorable selection
+bias among controls, corroborated by the surprising observation
+that no deaths were observed among controls.
+==============================
+
+==============================
+Page 8
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=101 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-9 left=386 right=521 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 165 (2021) 20–31
+==============================
+
+==============================
+
+typeindex=-6 left=188 right=333 upper=655 lower=659
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 4. ARDS X-ray scale scores by hospital day.
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+27
+==============================
+
+==============================
+Page 9
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:661 right:252 lower 697
+Column left:270 upper:661 right:521 lower 697
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=171 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+==============================
+
+==============================
+
+typeindex=-6 left=141 right=380 upper=625 lower=629
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 5. Radiographic changes after low-dose whole-lung radiotherapy (LD-RT).
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+28
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=661 lower=697
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+A recent randomized trial of 11 intubated patients with
+advanced COVID-19 evaluated LD-RT and observed no clinical ben-
+e?t [20]. This study was small and lacked prior knowledge of effect
+size to inform its power analysis but is the only published
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=661 lower=697
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+randomized trial to date. We also observed little improvement in
+CRP non-responders. Both CRP rise following LD-RT and intubation
+may be indicative of disseminated or more severe COVID-19.
+Mechanistically, LD-RT may be utilized best as an extinguisher of
+==============================
+
+==============================
+Page 10
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:344 right:252 lower 694
+Column left:270 upper:367 right:521 lower 694
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=101 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-9 left=386 right=521 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 165 (2021) 20–31
+==============================
+
+==============================
+
+typeindex=-6 left=36 right=485 upper=302 lower=306
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 6. Serologic median and interquartile ranges after low-dose whole-lung radiation therapy with concurrent dexamethasone and/or remdesevir.
+==============================
+
+==============================
+
+typeindex=-10 left=256 right=339 upper=367 lower=371
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+LD-RT Responders (N = 16)
+==============================
+
+==============================
+
+typeindex=-2 left=256 right=267 upper=379 lower=383
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Yes
+==============================
+
+==============================
+
+typeindex=-10 left=256 right=286 upper=388 lower=392
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+16 (100%)
+==============================
+
+==============================
+
+typeindex=-6 left=256 right=260 upper=397 lower=400
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+0
+==============================
+
+==============================
+
+typeindex=-6 left=256 right=260 upper=405 lower=409
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+0
+==============================
+
+==============================
+
+typeindex=-6 left=256 right=275 upper=414 lower=418
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+0 (0%)
+==============================
+
+==============================
+
+typeindex=-5 left=256 right=280 upper=426 lower=430
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Median
+==============================
+
+==============================
+
+typeindex=-6 left=256 right=266 upper=435 lower=439
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+9.5
+==============================
+
+==============================
+
+typeindex=-10 left=256 right=288 upper=443 lower=473
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Mean 10.8
+9.5
+Mean 10.5
+0
+==============================
+
+==============================
+
+typeindex=-6 left=256 right=266 upper=486 lower=490
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+4.8
+==============================
+
+==============================
+
+typeindex=-10 left=256 right=288 upper=495 lower=533
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Mean 7.6
+46.2
+Mean 94.2
+1.0
+Mean 1.4
+==============================
+
+==============================
+
+typeindex=-5 left=256 right=280 upper=537 lower=541
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Median
+==============================
+
+==============================
+
+typeindex=-6 left=256 right=260 upper=550 lower=554
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+7
+==============================
+
+==============================
+
+typeindex=-6 left=256 right=266 upper=558 lower=562
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+9.5
+==============================
+
+==============================
+
+typeindex=-10 left=256 right=293 upper=567 lower=588
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Not reached
+Not reached
+Not reached
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+29
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-3 left=1 right=23 upper=344 lower=348
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Table 3
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=1 right=208 upper=353 lower=356
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Day 28 outcomes for LD-RT responders vs. matched controls (n = 32).
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=37 upper=367 lower=371
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Variables
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=43 upper=379 lower=383
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Categorical
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=74 right=103 upper=379 lower=383
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Outcome
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=74 right=157 upper=388 lower=418
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Clinically Recovered
+Mechanically Ventilated
+Deceased
+Hospital Duration 21+ days
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=44 upper=426 lower=430
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Continuous
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=74 right=149 upper=435 lower=439
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Hospital Duration (days)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=74 right=209 upper=452 lower=456
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Duration of Oxygen Supplementation (days)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=74 right=205 upper=469 lower=473
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Duration of Ventilation, if intubated (days)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=74 right=217 upper=486 lower=490
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Average Daily Maximum Oxygen Need (L/min)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=74 right=189 upper=503 lower=524
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=1, likeBody=-100
+
+Cumulative Cohort Oxygenation Need
+(max daily L/min * days oxygenated)
+Days Febrile
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=9 right=53 upper=550 lower=554
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Time-to-Event
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=74 right=235 upper=550 lower=588
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Time to Clinical Recovery (days)
+Time from Admission to Clinical Recovery (days)
+Freedom from Intubation at day 28 (percent, 95% CI)
+Intubation-free Survival at day 28 (percent, 95% CI)
+Intubation-free Survival at day 28 (percent, 95% CI)
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=627 lower=694
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+local cascading hyperimmunity prior to dissemination and severe
+organ damage. The RECOVERY trial evaluated dexamethasone with
+a sample size was over 6000, where 1500 deaths had to be
+observed to detect a survival bene?t for steroids [23]. The small
+sample size (n = 22) in the aforementionend randomized trial rep-
+resents less than 1% of the power needed to detect a bene?t equal
+to that of dexamethasone [23].
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=438 upper=367 lower=371
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Control Cohort (N = 16)
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=505 upper=367 lower=371
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+p-value*
+==============================
+
+==============================
+
+typeindex=-5 left=315 right=324 upper=379 lower=383
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+No
+==============================
+
+==============================
+
+typeindex=-5 left=366 right=377 upper=379 lower=383
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Yes
+==============================
+
+==============================
+
+typeindex=-5 left=424 right=433 upper=379 lower=383
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+No
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=318 upper=388 lower=392
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=392 upper=388 lower=392
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+13 (81%)
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=447 upper=388 lower=392
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3 (19%)
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=492 upper=388 lower=392
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.23
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=345 upper=397 lower=400
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+16 (100%)
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=389 upper=397 lower=400
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5 (31%)
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=451 upper=397 lower=400
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+11 (69%)
+==============================
+
+==============================
+
+typeindex=-5 left=479 right=492 upper=397 lower=400
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.04
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=345 upper=405 lower=409
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+16 (100%)
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=370 upper=405 lower=409
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=432 upper=405 lower=409
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+16
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=488 upper=405 lower=409
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1.0
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=345 upper=414 lower=418
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+16 (100%)
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=389 upper=414 lower=418
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5 (31%)
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=451 upper=414 lower=418
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+11 (69%)
+==============================
+
+==============================
+
+typeindex=-5 left=479 right=492 upper=414 lower=418
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.04
+==============================
+
+==============================
+
+typeindex=-5 left=315 right=334 upper=426 lower=430
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Range
+==============================
+
+==============================
+
+typeindex=-5 left=366 right=390 upper=426 lower=430
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Median
+==============================
+
+==============================
+
+typeindex=-5 left=424 right=444 upper=426 lower=430
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Range
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=330 upper=435 lower=439
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+5–18
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=375 upper=435 lower=439
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+9. 5
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=440 upper=435 lower=439
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3–42
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=492 upper=435 lower=439
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.15
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=398 upper=443 lower=533
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Mean 15.5
+9. 5
+Mean 14.3
+10
+Mean 14.2
+7. 1
+Mean 24.0
+104.5
+Mean 593
+1. 0
+Mean 3.3
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=330 upper=452 lower=456
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+4–18
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=440 upper=452 lower=456
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3–42
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=492 upper=452 lower=456
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.24
+==============================
+
+==============================
+
+typeindex=-5 left=315 right=324 upper=469 lower=473
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=270, likeBody=-100
+
+NA
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=440 upper=469 lower=473
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1–34
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=482 upper=469 lower=473
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+-
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=335 upper=486 lower=490
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1.5–30
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=445 upper=486 lower=490
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+1.5–86
+==============================
+
+==============================
+
+typeindex=-5 left=479 right=492 upper=486 lower=490
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.03
+==============================
+
+==============================
+
+typeindex=-5 left=479 right=512 upper=495 lower=516
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+32% lower
+0.06
+56% lower
+==============================
+
+==============================
+
+typeindex=-5 left=315 right=334 upper=503 lower=507
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+6–454
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=447 upper=503 lower=507
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+8–3636
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=326 upper=520 lower=524
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0–9
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=439 upper=520 lower=524
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0–12
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=492 upper=520 lower=524
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.14
+==============================
+
+==============================
+
+typeindex=-5 left=315 right=334 upper=537 lower=541
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Range
+==============================
+
+==============================
+
+typeindex=-5 left=366 right=390 upper=537 lower=541
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Median
+==============================
+
+==============================
+
+typeindex=-5 left=424 right=444 upper=537 lower=541
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Range
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=330 upper=550 lower=554
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2–15
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=370 upper=550 lower=554
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+7
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=440 upper=550 lower=554
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+3–38
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=492 upper=550 lower=554
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.29
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=330 upper=558 lower=562
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+4–17
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=370 upper=558 lower=562
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+9
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=440 upper=558 lower=562
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+2–41
+==============================
+
+==============================
+
+typeindex=-10 left=479 right=492 upper=558 lower=562
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.26
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=330 upper=567 lower=571
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+100%
+==============================
+
+==============================
+
+typeindex=-10 left=366 right=403 upper=567 lower=588
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Not reached
+Not reached
+Not reached
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=458 upper=567 lower=571
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+66 (36–84)
+==============================
+
+==============================
+
+typeindex=-5 left=479 right=492 upper=567 lower=571
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.01
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=330 upper=575 lower=579
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+100%
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=458 upper=575 lower=579
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+66 (36–84)
+==============================
+
+==============================
+
+typeindex=-5 left=479 right=492 upper=575 lower=579
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.01
+==============================
+
+==============================
+
+typeindex=-10 left=315 right=330 upper=584 lower=588
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+100%
+==============================
+
+==============================
+
+typeindex=-10 left=424 right=458 upper=584 lower=588
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+66 (36–84)
+==============================
+
+==============================
+
+typeindex=-5 left=479 right=492 upper=584 lower=588
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=0, allupper=0, column left=270, likeBody=-100
+
+0.01
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=627 lower=694
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+Our results complement recent preclinical data reporting
+reduced in?ammatory cytokines IL-6 and INF-gamma, and
+increased anti-in?ammatory cytokine IL-10 in C57BL/6 mice with
+induce ARDS. We report serologic reductions following LD-RT com-
+pared to controls: C-reactive protein (p = 0.02) and creatine kinase
+(p < 0.01), as well as cardiac marker troponin-1, liver function, and
+coagulopathies (Fig. 6), suggesting LD-RT may prevent ‘‘long-
+==============================
+
+==============================
+Page 11
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 706
+Column left:270 upper:22 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=171 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+30
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=21 lower=214
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+COVID” sequalae and may be detectable with larger sample sizes.
+LD-RT did not exacerbate but rather decreased in?ammation and
+did not promote but rather reduced biomarkers of cardiac injury.
+As of July 2021, more than 186 million people globally are con-
+?rmed as infected with SARS-CoV-2, leading to over 4 million
+known COVID-19-related deaths. The worldwide accessibility of
+LD-RT as a rapid and inexpensive potential treatment merits fur-
+ther study, especially in countries with limited access to drugs or
+vaccines.
+Our study has numerous limitations: a blindly-matched but
+non-randomized design, exploratory intent, small patient num-
+bers, differing control treatments, differing laboratory and imaging
+schedulesbetween the LD-RT and controlcohorts, variabletimes of
+symptom onset, limited imaging (Fig. 5) and serological (Fig. 6)
+studiesinthecontrol cohort beforeintervention and beyond7 days,
+and lack of detailed viral load evaluations. Future work with LD-RT
+will include a phase III design, lower dose ranges, detailed CD-8
+and CD-4T-cell activation studies, changes in B-cell pro?les, anti-
+body formation, cytokine analysis, and neutralization tests.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=1 right=45 upper=244 lower=249
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Conclusion
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=265 lower=364
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+A cohort of hospitalized patients with COVID-19 safely received
+LD-RT concurrently with dexamethasone and/or remdesevir,
+required fewer intubations (p = 0.09), and showed reductions in
+in?ammatory and cardiac biomarkers. Patients whose CRP
+declined over 3 days following LD-RT had 100% survival without
+intubation, fewer prolonged hospitalizations, and lower burden
+of oxygen requirements. Early intervention with LD-RT after oxy-
+gen dependency but prior to intubation may be an optimal thera-
+peutic timeline. Further clinical trials are justi?ed.
+[Clinical Trial Registration: NCT04433949].
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=1 right=89 upper=394 lower=399
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Authors contributions
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=415 lower=650
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Clayton Hess: conceptualization, design, data acquisition, data
+analysis, data interpretation, manuscript drafting/revision and
+?nal draft review. Tony Eng: data acquisition, manuscript draft-
+ing/revision and ?nal draft review. Tahseen Nasti: conceptualiza-
+tion, design, data acquisition, data analysis, data interpretation,
+manuscript drafting/revision and ?nal draft review. Vishal Dhere:
+data acquisition, manuscript drafting/revision and ?nal draft
+review. Troy Kleber: data acquisition, manuscript drafting/revision
+and ?nal draft review. Jeff Switchenko: design, data analysis,
+manuscript drafting/revision and ?nal draft review. Brent Wein-
+berg: data acquisition, data analysis, manuscript drafting/revision
+and ?nal draft review. Nadine Rouphael: design, data acquisition,
+data analysis, data interpretation, manuscript drafting/revision
+and ?nal draft review. Sibo Tian: data acquisition, manuscript
+drafting/revisionand?nal draft review. Soumon Rudra: data acqui-
+sition, manuscript drafting/revision and ?nal draft review. Luisa
+Taverna: data acquisition, manuscript drafting/revision and ?nal
+draft review. Alvaro Perez: data acquisition, manuscript drafting/
+revision and ?nal draft review. Ra? Ahmed: conceptualization,
+design, data interpretation, manuscript drafting/revision and ?nal
+draft review. Mohammad Khan: conceptualization, design, data
+acquisition, data interpretation, manuscript drafting/revision and
+?nal draft review.
+==============================
+
+==============================
+
+typeindex=3 left=1 right=34 upper=680 lower=685
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Funding
+==============================
+
+==============================
+
+typeindex=1 left=12 right=34 upper=701 lower=706
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=4, allupper=0, column left=1, likeBody=-100
+
+None.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=270 right=405 upper=22 lower=27
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Declaration of Competing Interest
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=43 lower=68
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+First (CBH) and last (MKK) authors disclose a provisional patent
+and relationship with CureRays, Inc. No other relevant disclosures
+for remaining authors.
+==============================
+
+==============================
+
+typeindex=3 left=270 right=348 upper=85 lower=90
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Acknowledgements
+==============================
+
+==============================
+
+typeindex=0 left=270 right=521 upper=106 lower=163
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-102
+
+Infection Prevention: Aaron L. Preston, Jill Holdsworth and team.
+Radiation Therapy: Maxine Washington RTT, Jamani Swift, Nikki
+Stanford RTT, Wileena Burns RTT, Rafael Reeves RTT and team.
+Nursing: Hally Majors RN, Emily Voigt RN and team.
+Respiratory Therapy: Vinod P. Chacko RRT and team.
+Security: Richard Mittenzwei and team.
+==============================
+
+==============================
+
+typeindex=1 left=281 right=454 upper=169 lower=174
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=4, allupper=0, column left=270, likeBody=-100
+
+Environmental Services: Brian Frisle and team.
+==============================
+
+==============================
+
+typeindex=0 left=270 right=521 upper=179 lower=237
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-102
+
+Radiation Oncology: Karen Godette MD, Beth B. Ghavidel PhD,
+and team.
+Critical Care: David J. Murphy MD PhD and team.
+Infectious Diseases: Jesse T. Jacob MD MSc, James P. Steinberg
+MD and team.
+Basic Science Research: Tahseen H. Nasti PhD and team.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=270 right=401 upper=255 lower=260
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Appendix A. Supplementary data
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=276 lower=291
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.radonc.2021.10.003.
+==============================
+
+==============================
+
+typeindex=3 left=270 right=313 upper=308 lower=313
+====>
+charfont name=PCDJDA+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+References
+==============================
+
+==============================
+
+typeindex=-8 left=270 right=521 upper=327 lower=706
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-100
+
+[1] Mehta P, McAuley DF, Brown M, et al. COVID-19: consider cytokine storm
+syndromes and immunosuppression. Lancet 2020;395:1033–4.
+[2] Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019
+novel coronavirus in Wuhan, China. Lancet 2020;395:497–506.
+[3] Bhatraju PK, Ghassemieh BJ, Nichols M, etal. Covid-19 inCriticallyIll Patients
+in the Seattle Region - Case Series. N Engl J Med 2020;382:2012–22.
+[4] AuldSC, Caridi-ScheibleM, BlumJM, et al.ICU and ventilator mortality among
+critically ill adults with coronavirus disease 2019. Crit Care Med 2020.
+[5] Calabrese EJ. X-Ray treatment of carbuncles and furuncles (boils): a historical
+assessment. Hum Exp Toxicol 2013;32:817–27.
+[6] Calabrese EJ, Dhawan G. How radiotherapy was historically used to treat
+pneumonia: could it be useful today? Yale J Biol Med 2013;86:555–70.
+[7] CalabreseEJ,DhawanG.The historicaluse of radiotherapy in the treatment of
+sinus infections. Dose Response 2013;11:469–79.
+[8] Calabrese EJ, Dhawan G, Kapoor R, Kozumbo WJ. Radiotherapy treatment of
+human in?ammatory diseases andconditions: Optimal dose.Hum Exp Toxicol
+2019;38:888–98.
+[9] Fischer A, Virelizier JL, Arenzana-Seisdedos F, et al. Treatment of four patients
+with erythrophagocytic lymphohistiocytosis by a combination of
+epipodophyllotoxin, steroids, intrathecal methotrexate, and cranial
+irradiation. Pediatrics 1985;76:263–8.
+[10] KienapfelH, KollerM, Wüst A, et al. Prevention ofheterotopic bone formation
+after total hip arthroplasty: a prospective randomised study comparing
+postoperative radiation therapy with indomethacin medication. Arch Orthop
+Trauma Surg 1999;119:296–302.
+[11] Olschewski T, Seegenschmiedt MH. Radiotherapy for bony manifestations of
+Langerhans cell histiocytosis. Review and proposal for an international
+registry. Strahlenther Onkol 2006;182:72–9.
+[12] Schuster J, Saraiya S, Tennyson N, et al. Patient-reported outcomes after
+electron radiation treatment for early-stage palmar and plantar ?bromatosis.
+Pract Radiat Oncol 2015;5:e651–8.
+[13] Meziani L, Robert C, Classe M, et al. Low doses of radiation increase the
+immunosuppressive pro?le of lung macrophages during viral infection and
+pneumonia. Int J Radiat Biol 2021;110:1283–94.
+[14] Salomaa S, Cardis E, Bouf?er SD, et al. Low dose radiation therapy for COVID-
+19 pneumonia: is there any supportive evidence? Int J Radiat Biol
+2020;96:1224–7.
+[15] Lara PC, Burgos J, Macias D. Low dose lung radiotherapy for COVID-19
+pneumonia. The rationale for a cost-effective anti-in?ammatory treatment.
+Clin Transl Radiat Oncol 2020;23:27–9.
+[16] Prasanna PG, Woloschak GE, DiCarlo AL, et al. Low-Dose Radiation Therapy
+(LDRT) for COVID-19: Bene?ts or Risks? Radiat Res 2020;194:452–64.
+[17] Hess CB,Buchwald ZS, Stokes WA, et al. Immunomodulatory low-dosewhole-
+lung radiation for patients with COVID-19-related pneumonia. Int J Radiat
+Oncol Biol Phys 2020;108:1401.
+[18] Hess CB, Buchwald ZS, Stokes W, et al. Low-dose whole-lung radiation for
+COVID-19 pneumonia: Planned day 7 interim analysis of a registered clinical
+trial. Cancer 2020;126:5109–13.
+==============================
+
+==============================
+Page 12
+ Left 1 Right 521 Top 1 Bottom 721
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 80
+Column left:270 upper:21 right:521 lower 56
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-7 left=1 right=101 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-9 left=386 right=521 upper=1 lower=5
+====>
+charfont name=PCDIHB+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 165 (2021) 20–31
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=257 right=264 upper=717 lower=721
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+31
+==============================
+
+==============================
+
+typeindex=-8 left=1 right=252 upper=21 lower=80
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+[19] AmeriA, RahnamaN,Bozorgmehr R, etal. Low-dosewhole-lung irradiationfor
+COVID-19 pneumonia: short course results. Int J Radiat Oncol Biol Phys 2020.
+[20] Papachristo?lou A, Finazzi T, Blum A, et al. Low dose radiation therapy for
+severe COVID-19 pneumonia: a randomized double-blind study. Int J Radiat
+Oncol Biol Phys 2021.
+[21] Charlson ME, Pompei P, Ales KL, et al. A new method of classifying prognostic
+comorbidity inlongitudinal studies: developmentandvalidation. JChronic Dis
+1987;40:373–83.
+==============================
+
+==============================
+
+typeindex=-8 left=270 right=521 upper=21 lower=56
+====>
+charfont name=PCDIEP+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-100
+
+[22] Taylor E, Haven K, Reed P, etal. Achest radiograph scoring system in patients
+with severe acute respiratory infection: a validationstudy. BMC Med Imaging
+2015;15:61.
+[23] GroupRC,Horby P,LimWS,et al.Dexamethasone inhospitalized patients with
+covid-19. N Engl J Med 2021;384:693–704.
+==============================
+

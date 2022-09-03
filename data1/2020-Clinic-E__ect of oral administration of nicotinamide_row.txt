@@ -1,0 +1,1119 @@
+Page: 1 left:1 upper:1
+2020, 67 (2), 153-160
+page=1 block=522553046 (x=77 y=1) width=74.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Original
+page=1 block=275266973 (x=8 y=27) width=49.000000 height=8.000000 fontname=CLOZWR+TimesNewRomanPS-BoldMT wordint.min=1 wordint.max=29
+Effect of oral administration of nicotinamide
+page=1 block=1069716895 (x=1 y=61) width=366.000000 height=12.000000 fontname=CLOZWR+MyriadPro-Regular wordint.min=4 wordint.max=6
+mononucleotide on clinical parameters and
+page=1 block=1069716895 (x=1 y=83) width=362.000000 height=12.000000 fontname=CLOZWR+MyriadPro-Regular wordint.min=4 wordint.max=6
+nicotinamide metabolite levels in healthy Japanese men
+page=1 block=1069716895 (x=1 y=105) width=467.000000 height=12.000000 fontname=CLOZWR+MyriadPro-Regular wordint.min=4 wordint.max=6
+Junichiro Irie1), Emi Inagaki2),?3),?4), Masataka Fujita1), Hideaki Nakaya1), Masanori Mitsuishi1),
+page=1 block=1521083627 (x=1 y=138) width=413.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Shintaro Yamaguchi1), Kazuya Yamashita2), Shuhei Shigaki5), Takashi Ono6), Hideo Yukioka6),
+page=1 block=1521083627 (x=1 y=153) width=415.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Hideyuki Okano4),?7), Yo-ichi Nabeshima8), Shin-ichiro Imai8),?9), Masato Yasui7),?10), Kazuo Tsubota2),?7) and
+page=1 block=1521083627 (x=1 y=168) width=465.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Hiroshi Itoh1),?7)
+page=1 block=1521083627 (x=1 y=183) width=68.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1) Department of Endocrinology, Metabolism and Nephrology, Keio University School of Medicine, Shinjuku, Tokyo 160-8582, Japan
+page=1 block=1770642014 (x=20 y=210) width=451.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+2) Department of Ophthalmology, Keio University School of Medicine, Shinjuku, Tokyo 160-8582, Japan
+page=1 block=1770642014 (x=20 y=221) width=353.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+3) Japan Society for the Promotion of Science, Chiyoda, Tokyo 102- 0083, Japan
+page=1 block=1770642014 (x=20 y=232) width=272.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+4) Department of Physiology, Keio University School of Medicine, Shinjuku, Tokyo 160-8582, Japan
+page=1 block=1770642014 (x=20 y=243) width=338.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+5) Biomarker Research and Development Department, Shionogi & Co., Ltd., Toyonaka, Osaka 561-0825, Japan
+page=1 block=1770642014 (x=20 y=254) width=378.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+6) Drug Discovery and Disease Research Laboratory, Shionogi & Co., Ltd, Toyonaka, Osaka 561-0825, Japan
+page=1 block=1770642014 (x=20 y=265) width=374.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+7) Keio University Global Research Institute (KGRI), Minato, Tokyo 108-8345, Japan
+page=1 block=1770642014 (x=20 y=276) width=289.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+8) Laboratory of Molecular Life Science, Department of Gerontology, Institute of Biomedical Research and Innovation, Kobe, Hyogo
+page=1 block=1770642014 (x=20 y=287) width=450.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+650-0047, Japan
+page=1 block=1770642014 (x=26 y=299) width=57.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+9) Department of Developmental Biology, Washington University School of Medicine, St. Louis, MO 63110, USA
+page=1 block=1770642014 (x=20 y=309) width=380.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+10) Department of Pharmacology, Keio University School of Medicine, Shinjuku, Tokyo 160-8582, Japan
+page=1 block=1770642014 (x=17 y=320) width=353.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Abstract.?Recent studies have revealed that decline in cellular nicotinamide adenine dinucleotide (NAD+) levels causes
+page=1 block=945591847 (x=26 y=344) width=431.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+aging-related disorders and therapeutic approaches increasing cellular NAD+ prevent these disorders in animal models. The
+page=1 block=945591847 (x=26 y=355) width=431.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+administration of nicotinamide mononucleotide (NMN) has been shown to mitigate aging-related dysfunctions. However, the
+page=1 block=945591847 (x=26 y=367) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+safety of NMN in humans have remained unclear. We, therefore, conducted a clinical trial to investigate the safety of single
+page=1 block=945591847 (x=26 y=378) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN  administration  in  10  healthy  men.  A  single-arm  non-randomized  intervention  was  conducted  by  single  oral
+page=1 block=945591847 (x=26 y=389) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+administration of  100, 250, and 500 mg  NMN. Clinical findings  and parameters, and the pharmacokinetics of NMN
+page=1 block=945591847 (x=26 y=400) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+metabolites were investigated for 5 h after each intervention. Ophthalmic examination and sleep quality assessment were also
+page=1 block=945591847 (x=26 y=411) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+conducted before and after the intervention. The single oral administrations of NMN did not cause any significant clinical
+page=1 block=945591847 (x=26 y=422) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+symptoms or changes in heart rate, blood pressure, oxygen saturation, and body temperature. Laboratory analysis results did
+page=1 block=945591847 (x=26 y=433) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+not show significant changes, except for increases in serum bilirubin levels and decreases in serum creatinine, chloride, and
+page=1 block=945591847 (x=26 y=444) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+blood glucose levels within the normal ranges, independent of the dose of NMN. Results of ophthalmic examination and sleep
+page=1 block=945591847 (x=26 y=455) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+quality score showed no differences before and after the intervention. Plasma concentrations of N-methyl-2-pyridone-5-
+page=1 block=945591847 (x=26 y=466) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+carboxamide  and  N-methyl-4-pyridone-5-carboxamide  were  significantly  increased  dose-dependently  by  NMN
+page=1 block=945591847 (x=26 y=477) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+administration. The single oral administration of NMN was safe and effectively metabolized in healthy men without causing
+page=1 block=945591847 (x=26 y=488) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+any significant deleterious effects. Thus, the oral administration of NMN was found to be feasible, implicating a potential
+page=1 block=945591847 (x=26 y=499) width=431.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+therapeutic strategy to mitigate aging-related disorders in humans.
+page=1 block=945591847 (x=26 y=510) width=225.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Key words:?Nicotinamide mononucleotide, N-methyl-2-pyridone-5-carboxamide, N-methyl-4-pyridone-5-carboxamide,
+page=1 block=328827614 (x=26 y=532) width=409.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Pharmacokinetics
+page=1 block=328827614 (x=68 y=543) width=60.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=20
+©The Japan Endocrine Society
+page=1 block=109228794 (x=1 y=729) width=96.000000 height=5.000000 fontname=MKHTSQ+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+AGING increases incidences of age-associated diseases,
+page=1 block=561959774 (x=1 y=602) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+such as cancer, cardiovascular diseases, type 2 diabetes,
+page=1 block=561959774 (x=1 y=616) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+obesity, hypertension, macular degeneration, and many
+page=1 block=561959774 (x=1 y=629) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Submitted Jul. 18, 2019; Accepted Oct. 5, 2019 as EJ19-0313
+page=1 block=2110756088 (x=1 y=652) width=212.000000 height=5.000000 fontname=CLOZWR+ArialMT wordint.min=2 wordint.max=4
+Released online in J-STAGE as advance publication Nov. 2, 2019
+page=1 block=2110756088 (x=1 y=663) width=224.000000 height=5.000000 fontname=CLOZWR+ArialMT wordint.min=2 wordint.max=4
+Correspondence to: Hiroshi Itoh, Department of  Endocrinology,
+page=1 block=580871917 (x=1 y=674) width=230.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Metabolism and Nephrology, Keio University School of Medicine,
+page=1 block=580871917 (x=1 y=685) width=230.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+35 Shinanomachi, Shinjuku, Tokyo 160-8582, Japan.
+page=1 block=580871917 (x=1 y=696) width=180.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+E-mail: hiito@keio.jp
+page=1 block=580871917 (x=1 y=707) width=74.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+others. Prevention of age-associated diseases has increas?
+page=1 block=823723302 (x=247 y=603) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ingly become important because the average human life?
+page=1 block=823723302 (x=247 y=616) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+span has been extended worldwide. Recent studies have
+page=1 block=823723302 (x=247 y=629) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+shown that decreases in nicotinamide adenine dinucleo?
+page=1 block=823723302 (x=247 y=642) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tide (NAD+) levels in multiple tissues contribute to the
+page=1 block=823723302 (x=247 y=654) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pathogenesis of age-associated functional disorders [1].
+page=1 block=823723302 (x=247 y=668) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Thus, preventive and therapeutic interventions with key
+page=1 block=823723302 (x=247 y=681) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NAD+ intermediates, such as nicotinamide mononucleo?
+page=1 block=823723302 (x=247 y=693) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tide (NMN) and nicotinamide riboside (NR), which can
+page=1 block=823723302 (x=247 y=707) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 2 left:1 upper:1
+154
+page=2 block=1714078840 (x=1 y=1) width=15.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+Irie et al.
+page=2 block=1732502545 (x=223 y=2) width=31.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+replenish cellular NAD+ levels, have drawn significant
+page=2 block=1051876890 (x=1 y=37) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+attention in the field of aging research [2].
+page=2 block=1051876890 (x=1 y=51) width=168.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+In various animal models, the administration of NMN
+page=2 block=1051876890 (x=11 y=64) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+has been shown to mitigate age-associated physiological
+page=2 block=1051876890 (x=1 y=77) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+declines in  the liver,  adipose tissue, muscle, pancreas,
+page=2 block=1051876890 (x=1 y=90) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+kidney, retina, and central nervous system. Several stud?
+page=2 block=1051876890 (x=1 y=103) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ies  have  already  reported  that  NMN  restores  tissue
+page=2 block=1051876890 (x=1 y=116) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NAD+ levels and ameliorates obesity, insulin resistance,
+page=2 block=1051876890 (x=1 y=128) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+muscle mitochondrial dysfunction, renal failure, and reti?
+page=2 block=1051876890 (x=1 y=142) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nal  degeneration in rodent models [3-6].  Moreover, it
+page=2 block=1051876890 (x=1 y=155) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+was recently reported that NMN was rapidly absorbed
+page=2 block=1051876890 (x=1 y=168) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+through a transporter in the small intestine [7]. Although
+page=2 block=1051876890 (x=1 y=181) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+preclinical results provide a hope to develop NMN as an
+page=2 block=1051876890 (x=1 y=194) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+evidence-based  anti-aging intervention,  the  safety  and
+page=2 block=1051876890 (x=1 y=207) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+efficacy of NMN in humans remain unclear. Therefore,
+page=2 block=1051876890 (x=1 y=220) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+we  conducted  the  first  human  study  to  examine  the
+page=2 block=1051876890 (x=1 y=233) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+safety of a single NMN administration by assessing clini?
+page=2 block=1051876890 (x=1 y=246) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cal parameters and its metabolite levels in healthy Japa?
+page=2 block=1051876890 (x=1 y=259) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nese men.
+page=2 block=1051876890 (x=1 y=272) width=40.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Materials and Methods
+page=2 block=1199262943 (x=53 y=296) width=125.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPS-BoldMT wordint.min=3 wordint.max=5
+Patients and methods
+page=2 block=2009221452 (x=1 y=323) width=92.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-BoldItalicMT wordint.min=2 wordint.max=4
+We performed a nonblinded clinical trial in 10 healthy
+page=2 block=257513673 (x=11 y=337) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+men to investigate the pharmacokinetics of nicotinamide
+page=2 block=257513673 (x=1 y=350) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+metabolites  and  evaluate the safety of  orally  adminis?
+page=2 block=257513673 (x=1 y=363) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tered NMN at the Clinical Trial Unit, Keio University
+page=2 block=257513673 (x=1 y=376) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+School of Medicine, Japan. The healthy male subjects,
+page=2 block=257513673 (x=1 y=389) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+who were 40 to 60 years of age and agreed to participate
+page=2 block=257513673 (x=1 y=402) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+in the trial, were recruited. Subjects having 1) a previous
+page=2 block=257513673 (x=1 y=415) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+history of diseases, 2) malignant neoplasms, 3) serious
+page=2 block=257513673 (x=1 y=428) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+infections, 4) psychiatric disorders, 5) ophthalmic disor?
+page=2 block=257513673 (x=1 y=441) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ders, 6) allergic disorders, or 7) metabolic diseases were
+page=2 block=257513673 (x=1 y=454) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+excluded.
+page=2 block=257513673 (x=1 y=467) width=38.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+The subjects orally received 100, 250, or 500 mg of
+page=2 block=257513673 (x=11 y=480) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN in capsules at 9 AM after an overnight fasting at
+page=2 block=257513673 (x=1 y=493) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+each visit and followed for 5 h at rest with drinking only
+page=2 block=257513673 (x=1 y=506) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+water freely. The interval of each visit was longer than
+page=2 block=257513673 (x=1 y=519) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+one week. The measurement of height and body weight,
+page=2 block=257513673 (x=1 y=532) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+a  physical  examination  by  registered  physicians,  and
+page=2 block=257513673 (x=1 y=545) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+chest radiography and electrocardiography were conduct?
+page=2 block=257513673 (x=1 y=558) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ed  before and after the  intervention. Heart rate, blood
+page=2 block=257513673 (x=1 y=571) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pressure, oxygen saturation, and body temperature were
+page=2 block=257513673 (x=1 y=584) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+monitored  for  5  h  after  the  administration  of  NMN.
+page=2 block=257513673 (x=1 y=597) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Urine collections were conducted every 30 to 60 min for
+page=2 block=257513673 (x=1 y=610) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the first 2 h and at the end of the study, and urine sam?
+page=2 block=257513673 (x=1 y=623) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ples  were  analyzed as  previously reported  [8].  Blood
+page=2 block=257513673 (x=1 y=636) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+samples  were  obtained from  the forearm vein  via  an
+page=2 block=257513673 (x=1 y=649) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+inserted catheter every 5 to 20 min for the first 1 h, fol?
+page=2 block=257513673 (x=1 y=662) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lowed by every 30 to 120 min for the next 4 h on the
+page=2 block=257513673 (x=1 y=675) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+basis of the findings that plasma NMN levels decreased
+page=2 block=257513673 (x=1 y=688) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+to baseline in  30 minutes  after oral  administration of
+page=2 block=257513673 (x=1 y=701) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN  in  mice  and  that  serum  nicotinamide  levels
+page=2 block=257513673 (x=1 y=714) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+decreased to baseline in 3 h after oral intake of nicotina?
+page=2 block=590845366 (x=247 y=38) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mide in healthy subjects [4, 9]. Blood analyses including
+page=2 block=590845366 (x=247 y=51) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+complete blood count, liver and kidney function, glucose
+page=2 block=590845366 (x=247 y=64) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+level, lipid profile, and  amylase level were  conducted
+page=2 block=590845366 (x=247 y=77) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+using routine  automated  laboratory  methods as  previ?
+page=2 block=590845366 (x=247 y=90) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ously  described  [10].  Blood  samples  with  hemolysis
+page=2 block=590845366 (x=247 y=103) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were excluded from the analysis. Ophthalmic examina?
+page=2 block=590845366 (x=247 y=116) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tions  and  measurements  of  ophthalmic  parameters,
+page=2 block=590845366 (x=247 y=129) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+including visual acuity, functional visual acuity, intraocu?
+page=2 block=590845366 (x=247 y=142) width=229.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lar pressure measurement, and meniscometry were con?
+page=2 block=590845366 (x=247 y=155) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ducted  by  registered  ophthalmologists  on  the  day  of
+page=2 block=590845366 (x=247 y=168) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+intervention with 100 and 500 mg of NMN before and
+page=2 block=590845366 (x=247 y=181) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+after the administration. The best-corrected visual acui?
+page=2 block=590845366 (x=247 y=194) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ties were 20/16 in all subjects, as measured by Landolt C
+page=2 block=590845366 (x=247 y=207) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+optotypes. Functional visual acuity (FVA) was measured
+page=2 block=590845366 (x=247 y=220) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+by an FVA measurement system (AS-28; Kowa Com?
+page=2 block=590845366 (x=247 y=233) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pany, Japan) to examine time-wise changes in the contin?
+page=2 block=590845366 (x=247 y=246) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+uous  visual  acuity  for  1  minute.  Tear  function  was
+page=2 block=590845366 (x=247 y=259) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+evaluated by meniscometry test (Echo Electricity, Japan).
+page=2 block=590845366 (x=247 y=272) width=229.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Standard tear film break-up time was measured. Central
+page=2 block=590845366 (x=247 y=285) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+flicker  frequency  (CFF) was measured  by  a CFF  test
+page=2 block=590845366 (x=247 y=298) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+apparatus  (Yagami Scientific Instruments, Japan). Cor?
+page=2 block=590845366 (x=247 y=311) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+neal  endothelial  cell  density  was  measured  by  an
+page=2 block=590845366 (x=247 y=324) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+EM-3000  specular  microscope  (Tomey  Corp.,  Japan),
+page=2 block=590845366 (x=247 y=337) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and corneal thickness was measured by CASIA optical
+page=2 block=590845366 (x=247 y=350) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+coherence tomography system (Tomey Corp.). The left
+page=2 block=590845366 (x=247 y=363) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+eyes were chosen for  the  analysis. Fundus photo was
+page=2 block=590845366 (x=247 y=376) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+captured  by  an  AFC-330  non-mydriatic  auto  fundus
+page=2 block=590845366 (x=247 y=389) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+camera (NIDEK Co., Japan) [11]. The quality of sleep
+page=2 block=590845366 (x=247 y=402) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+was evaluated using the Pittsburgh Sleep Quality Index
+page=2 block=590845366 (x=247 y=415) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(PSQI) before and after the day of intervention [12].
+page=2 block=590845366 (x=247 y=428) width=209.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN was provided in a capsule of 100 mg or 250 mg
+page=2 block=590845366 (x=257 y=441) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+by Oriental Yeast Co., Ltd. (Tokyo, Japan). The purity of
+page=2 block=590845366 (x=247 y=454) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN  was  96–97%  according  to  a  high-performance
+page=2 block=590845366 (x=247 y=467) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+liquid  chromatography (HPLC) analysis  result, and its
+page=2 block=590845366 (x=247 y=480) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+endotoxin  level  was  0.1–0.2  EU/mg  as  previously
+page=2 block=590845366 (x=247 y=493) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+described [4].
+page=2 block=590845366 (x=247 y=506) width=55.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+This study was conducted in accordance with the 1964
+page=2 block=590845366 (x=257 y=519) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Declaration of Helsinki and approved by the Keio Uni?
+page=2 block=590845366 (x=247 y=532) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+versity School of Medicine Ethics Committee (registra?
+page=2 block=590845366 (x=247 y=545) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion number 20150414). This study was also registered
+page=2 block=590845366 (x=247 y=558) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+in the University Hospital Medical Information Network
+page=2 block=590845366 (x=247 y=571) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(UMIN) Clinical Trials Registry (http://www.umin.ac.jp/
+page=2 block=590845366 (x=247 y=584) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ctr/) as UMIN000021309. A written informed consent
+page=2 block=590845366 (x=247 y=597) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+was  obtained  from  all  participants  in  the  study.  The
+page=2 block=590845366 (x=247 y=610) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+safety monitoring was conducted at each dose by inde?
+page=2 block=590845366 (x=247 y=623) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pendent researchers.
+page=2 block=590845366 (x=247 y=636) width=81.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Analysis of nicotinamide metabolites
+page=2 block=1052195003 (x=247 y=661) width=159.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-BoldItalicMT wordint.min=2 wordint.max=4
+Blood samples were stored  in a cooled heparinized
+page=2 block=1541049864 (x=257 y=675) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tube  and centrifuged  at 4°C  for  5  min.  The obtained
+page=2 block=1541049864 (x=247 y=688) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+plasma was frozen under –80°C until analysis. Levels of
+page=2 block=1541049864 (x=247 y=701) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nicotinamide  metabolites including methylnicotinamide
+page=2 block=1541049864 (x=247 y=714) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 3 left:1 upper:1
+155
+page=3 block=511707818 (x=462 y=1) width=15.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+Oral administration of NMN in men
+page=3 block=25536233 (x=177 y=2) width=123.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(MNA), N-methyl-2-pyridone-5-carboxamide (2Py), and
+page=3 block=116405378 (x=1 y=38) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+N-methyl-4-pyridone-5-carboxamide (4Py), were meas?
+page=3 block=116405378 (x=1 y=51) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ured using LC/MS/MS as described previously [13] with
+page=3 block=116405378 (x=1 y=64) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+minor modifications. Briefly, plasma was deproteinized
+page=3 block=116405378 (x=1 y=77) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+using methanol containing a deuterated internal standard.
+page=3 block=116405378 (x=1 y=90) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The mixture was vortexed and centrifuged. The superna?
+page=3 block=116405378 (x=1 y=103) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tant  was  diluted  with  water  and  analyzed  using  a
+page=3 block=116405378 (x=1 y=116) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Shimadzu  Nexera  UHPLC  system  (Shimadzu,  Kyoto,
+page=3 block=116405378 (x=1 y=129) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Japan) coupled with an API5000 triple quadrupole mass
+page=3 block=116405378 (x=1 y=142) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+spectrometer  (SCIEX,  Framingham,  MA,  USA)  with
+page=3 block=116405378 (x=1 y=155) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+electrospray ionization operated  in  positive ion  mode.
+page=3 block=116405378 (x=1 y=168) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The separation was performed on a Triart C18 column
+page=3 block=116405378 (x=1 y=181) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(3.0 × 150 mm, 5 ?m, YMC, Kyoto, Japan) at 50°C.
+page=3 block=116405378 (x=1 y=194) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Mobile phase A and B were water/formic acid/undeca?
+page=3 block=116405378 (x=1 y=207) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+fluorohexanoic acid (1,000/0.1/0.2, v/v/v) and methanol,
+page=3 block=116405378 (x=1 y=220) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+respectively. The chromatographic conditions were: 0–4
+page=3 block=116405378 (x=1 y=233) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+min (5–80% B, 0.5 mL/min), 4–4.01 min (80–95% B,
+page=3 block=116405378 (x=1 y=246) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+0.5–1.0 mL/min), 4.01–7 min (95% B, 1.0 mL/min), 7–
+page=3 block=116405378 (x=1 y=259) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+7.01 min (95–5% B, 1.0–0.5 mL/min), and 7.01–13 min
+page=3 block=116405378 (x=1 y=272) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(5%  B,  0.5  mL/min).  Quantitations  were  performed
+page=3 block=116405378 (x=1 y=285) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+using multiple reaction  monitoring with  the  following
+page=3 block=116405378 (x=1 y=298) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+transitions: m/z 137 ? 94 for MNA, m/z 140 ? 97 for
+page=3 block=116405378 (x=1 y=311) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+MNA-d3, m/z 153 ? 110 for 2Py, m/z 156 ? 113 for
+page=3 block=116405378 (x=1 y=324) width=230.000000 height=8.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+2Py-d3, m/z 153 ? 136 for 4Py, m/z 156 ? 139 for
+page=3 block=116405378 (x=1 y=337) width=230.000000 height=8.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+4Py-d3.  1-methylnicotinamide  chloride  was  obtained
+page=3 block=116405378 (x=1 y=350) width=230.000000 height=8.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+from Santa Cruz Biotechnology, Inc. (Dallas, TX, USA).
+page=3 block=116405378 (x=1 y=363) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+N-methyl-2-pyridone-5-carboxamide,  N-(methyl-d3)-2-
+page=3 block=116405378 (x=1 y=376) width=230.000000 height=8.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pyridone-5-carboxamide,  N-methyl-4-pyridone-5-
+page=3 block=116405378 (x=1 y=389) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+carboxamide,  N-methyl-4-pyridone-5-carboxamide-d3
+page=3 block=116405378 (x=1 y=402) width=230.000000 height=8.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were obtained from Toronto  Research Chemicals Inc.,
+page=3 block=116405378 (x=1 y=415) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(Toronto,  ON,  Canada).  1-methylnicotinamide-d3  was
+page=3 block=116405378 (x=1 y=428) width=230.000000 height=8.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+synthesized at Shionogi laboratory (Osaka, Japan). For?
+page=3 block=116405378 (x=1 y=441) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mic acid was obtained from Nacalai Tesque, Inc. (Kyoto,
+page=3 block=116405378 (x=1 y=454) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Japan),  undecafluorohexanoic  acid  was obtained  from
+page=3 block=116405378 (x=1 y=467) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Tokyo Chemical Industry Co., Ltd., (Tokyo, Japan), and
+page=3 block=116405378 (x=1 y=480) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+methanol was obtained from Kanto Chemical Co. Inc.,
+page=3 block=116405378 (x=1 y=493) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(Tokyo, Japan). Water was purified before use with an
+page=3 block=116405378 (x=1 y=506) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ultra-pure water generating equipment.
+page=3 block=116405378 (x=1 y=519) width=156.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The incremental area under the curve was calculated
+page=3 block=116405378 (x=11 y=532) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+by multiplying the interval time between two points by
+page=3 block=116405378 (x=1 y=545) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the difference between the value and baseline.
+page=3 block=116405378 (x=1 y=558) width=184.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Statistical analyses
+page=3 block=164974746 (x=1 y=583) width=82.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPS-BoldItalicMT wordint.min=2 wordint.max=4
+Differences between two groups were  examined  by
+page=3 block=396283472 (x=11 y=597) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  Wilcoxon signed-rank test.  The  changes  from the
+page=3 block=396283472 (x=1 y=610) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+baseline in clinical parameters and laboratory data were
+page=3 block=396283472 (x=1 y=623) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+estimated by using the mixed-effects model for repeated
+page=3 block=396283472 (x=1 y=636) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+measures model with a compound symmetry covariance
+page=3 block=396283472 (x=1 y=649) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+structure. Bonferroni’s multiple comparison was conduc?
+page=3 block=396283472 (x=1 y=662) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ted to identify the time and group differences.
+page=3 block=396283472 (x=1 y=675) width=182.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Pearson’s  correlation analysis  was  used  to  analyze
+page=3 block=396283472 (x=11 y=688) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+statistical correlation between two parameters. A p value
+page=3 block=396283472 (x=1 y=701) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of <0.05 was considered statistically significant. Statisti?
+page=3 block=396283472 (x=1 y=714) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cal analyses were performed using IBM SPSS Statistics
+page=3 block=989892772 (x=247 y=38) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+version 23 (IBM Japan, Tokyo, Japan).
+page=3 block=989892772 (x=247 y=51) width=156.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Results
+page=3 block=1020520290 (x=342 y=75) width=39.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPS-BoldMT wordint.min=1 wordint.max=30
+Ten  healthy male  subjects  were  enrolled,  and their
+page=3 block=530653666 (x=257 y=103) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+characteristics are shown in Table 1. They received 100,
+page=3 block=530653666 (x=247 y=116) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+250,  or  500  mg  NMN,  and  these  doses  were  well-
+page=3 block=530653666 (x=247 y=129) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tolerated without causing severe adverse events, includ?
+page=3 block=530653666 (x=247 y=142) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing flush and  gastrointestinal  symptoms (Fig. 1). The
+page=3 block=530653666 (x=247 y=155) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+average interval between each visit was 63 ± 23 days
+page=3 block=530653666 (x=247 y=168) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(mean ± SD). The NMN administration at all doses did
+page=3 block=530653666 (x=247 y=181) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+not affect the heart rate, blood pressure, oxygen satura?
+page=3 block=530653666 (x=247 y=194) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion, nor body temperature (Fig. 2 and Supplementary
+page=3 block=530653666 (x=247 y=207) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Fig. 1). The examination results of the neurological sys?
+page=3 block=530653666 (x=247 y=220) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tem, ocular fundus, and ophthalmic parameters did not
+page=3 block=530653666 (x=247 y=233) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+show any significant changes after NMN administration
+page=3 block=530653666 (x=247 y=246) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+at all doses (Table 2). The sleep quality score by PSQI
+page=3 block=530653666 (x=247 y=259) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+did not differ before and after the intervention (3.1 ± 1.5
+page=3 block=530653666 (x=247 y=272) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+versus 2.8 ± 2.5, 2.0 ± 2.3 versus 2.1 ± 2.0, and 1.8 ± 2.3
+page=3 block=530653666 (x=247 y=285) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+versus 1.8 ± 2.3 in the 100 mg, 250 mg, and 500 mg
+page=3 block=530653666 (x=247 y=298) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+groups, respectively).
+page=3 block=530653666 (x=247 y=311) width=86.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The results of laboratory analysis of blood and urine
+page=3 block=530653666 (x=257 y=324) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+did not show any significant changes before and after
+page=3 block=530653666 (x=247 y=337) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN administration, except for serum bilirubin, creati?
+page=3 block=530653666 (x=247 y=350) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nine, chloride, and glucose levels (Fig. 3 and  Supple?
+page=3 block=530653666 (x=247 y=363) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mentary Table 1). Whereas the serum levels of bilirubin
+page=3 block=530653666 (x=247 y=376) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+significantly increased by 51.3%, the levels of glucose,
+page=3 block=530653666 (x=247 y=389) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+creatinine,  and  chloride  significantly  decreased  by
+page=3 block=530653666 (x=247 y=402) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+11.7%, 5.1%, and 2.3%, respectively, at 300 min at all
+page=3 block=530653666 (x=247 y=415) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+doses  from the baseline. These  changes  stayed within
+page=3 block=530653666 (x=247 y=428) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+normal ranges, independent of the dose of NMN.
+page=3 block=530653666 (x=247 y=441) width=196.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The major final metabolites of NMN, such as MNA,
+page=3 block=530653666 (x=257 y=454) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+2Py, and 4Py, were detected at the baseline (Fig. 4A).
+page=3 block=530653666 (x=247 y=467) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The mean plasma concentrations of 2Py and 4Py were
+page=3 block=530653666 (x=247 y=480) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1,423 nM and 237 nM at baseline, respectively, and they
+page=3 block=530653666 (x=247 y=493) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+both showed significant increases at all doses throughout
+page=3 block=530653666 (x=247 y=506) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the time course after the NMN administration (Fig. 4B,
+page=3 block=530653666 (x=247 y=519) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+C). The plasma concentration of MNA tended to moder?
+page=3 block=530653666 (x=247 y=532) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ately increase (Fig. 4D and Supplementary Fig. 2). The
+page=3 block=530653666 (x=247 y=545) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+peak concentrations of 2Py and 4Py were observed at
+page=3 block=530653666 (x=247 y=558) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+300 min after the administration, and the mean peak con?
+page=3 block=530653666 (x=247 y=571) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+centrations of MNA were 253 ± 70 nM, 292 ± 131 nM,
+page=3 block=530653666 (x=247 y=584) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and 316 ± 58 nM in the 100 mg, 250 mg, and 500 mg
+page=3 block=530653666 (x=247 y=597) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+groups,  respectively.  The  incremental  area  under  the
+page=3 block=530653666 (x=247 y=610) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+curve of 2Py and 4Py over the baseline value was signifi?
+page=3 block=530653666 (x=247 y=623) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cantly greater in the group with 500 mg NMN than those
+page=3 block=530653666 (x=247 y=636) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+in the groups with 100 mg and 250 mg NMN (Fig. 4E).
+page=3 block=530653666 (x=247 y=649) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The incremental areas under the curve of 2Py were posi?
+page=3 block=530653666 (x=247 y=662) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tively correlated with those of 4Py, and those of MNA
+page=3 block=530653666 (x=247 y=675) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were also correlated with those of 2Py and 4Py (Fig. 4F,
+page=3 block=530653666 (x=247 y=688) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+4G, 4H).
+page=3 block=530653666 (x=247 y=701) width=35.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 4 left:1 upper:1
+156
+page=4 block=2125238280 (x=1 y=1) width=15.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+Irie et al.
+page=4 block=1092004553 (x=223 y=2) width=31.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Table 1?Baseline characteristics of the participants
+page=4 block=1658699134 (x=21 y=37) width=178.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Number 10
+page=4 block=1658699134 (x=25 y=53) width=162.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=20
+Age (year) 47.9 ± 6.0
+page=4 block=1658699134 (x=25 y=70) width=175.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Body weight (kg) 71.2 ± 5.7
+page=4 block=1658699134 (x=25 y=86) width=175.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Body mass index (kg/m2) 23.7 ± 2.1
+page=4 block=1658699134 (x=25 y=101) width=175.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Waist circumference (cm) 88.0 ± 6.8
+page=4 block=1658699134 (x=25 y=118) width=175.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Glucose (mg/dL) 104.2 ± 7.9
+page=4 block=1658699134 (x=25 y=134) width=175.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Total cholesterol (mg/dL) 178.5 ± 35.2
+page=4 block=1658699134 (x=25 y=150) width=179.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Triglyceride (mg/dL) 101.8 ± 29.4
+page=4 block=1658699134 (x=25 y=166) width=179.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Aspartate aminotransferase (IU/L) 19.8 ± 4.7
+page=4 block=1658699134 (x=25 y=182) width=175.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Alanine aminotransferase (IU/L) 19.4 ± 6.9
+page=4 block=1658699134 (x=25 y=198) width=175.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Values are expressed as mean ± standard deviation
+page=4 block=1658699134 (x=21 y=214) width=172.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Fig. 1?Flowchart of the study
+page=4 block=1961176822 (x=1 y=552) width=106.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Discussion
+page=4 block=1859374258 (x=88 y=582) width=56.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPS-BoldMT wordint.min=1 wordint.max=30
+In this study, we reported the safety of the single oral
+page=4 block=442987331 (x=11 y=609) width=220.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+administration of NMN and the kinetics of NMN metab?
+page=4 block=442987331 (x=1 y=622) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+olites in healthy men. The recent studies have shown that
+page=4 block=442987331 (x=1 y=635) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  parenteral  and  enteral  supplementation  of  NMN
+page=4 block=442987331 (x=1 y=648) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+increased NAD+ levels in various organs and improved
+page=4 block=442987331 (x=1 y=660) width=230.000000 height=8.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+age-associated disease conditions such as obesity, insulin
+page=4 block=442987331 (x=1 y=674) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+resistance, and retinal degeneration in aged mice [4-6].
+page=4 block=442987331 (x=1 y=687) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+However, the safety and efficacy of NMN in  humans
+page=4 block=442987331 (x=1 y=700) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+have remained unclear.
+page=4 block=442987331 (x=1 y=713) width=92.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The single oral administration of NMN did not cause
+page=4 block=366873404 (x=257 y=38) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+any specific deleterious effects in healthy men, whereas
+page=4 block=366873404 (x=247 y=51) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nicotinamide  has  been  known  to  induce  nausea  and
+page=4 block=366873404 (x=247 y=64) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+flushing, thereby causing difficulty in using nicotinamide
+page=4 block=366873404 (x=247 y=77) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+at high amounts to increase cellular NAD+ [14]. Because
+page=4 block=366873404 (x=247 y=89) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+we did not observe adverse events such as nausea, NMN
+page=4 block=366873404 (x=247 y=103) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+would not increase nicotinamide blood levels enough to
+page=4 block=366873404 (x=247 y=116) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cause  any adverse events in this study. Moreover, the
+page=4 block=366873404 (x=247 y=129) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+administration of nicotinamide at a very high dose has
+page=4 block=366873404 (x=247 y=142) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+been  reported to induce hepatoxicity,  but  we  did  not
+page=4 block=366873404 (x=247 y=155) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+observe any adverse effects of NMN on liver enzymes
+page=4 block=366873404 (x=247 y=168) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+[14]. Whereas the plasma bilirubin levels increased, the
+page=4 block=366873404 (x=247 y=181) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+glucose levels decreased significantly within the refer?
+page=4 block=366873404 (x=247 y=194) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ence range. It is likely that these changes were due to
+page=4 block=366873404 (x=247 y=207) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+fasting for 5 h [15]. All other parameters did not show
+page=4 block=366873404 (x=247 y=220) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+any clinically significant changes at any single dose of
+page=4 block=366873404 (x=247 y=233) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN. Overall, NMN was well tolerated up to a single
+page=4 block=366873404 (x=247 y=246) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dose of 500 mg.
+page=4 block=366873404 (x=247 y=259) width=64.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+We previously reported that the light-dark cycle regu?
+page=4 block=366873404 (x=257 y=272) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lated the retinal expression of nicotinamide phosphoribo?
+page=4 block=366873404 (x=247 y=285) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+syltransferase (Nampt), which converts nicotinamide to
+page=4 block=366873404 (x=247 y=298) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN, and that photoreceptor-specific deletion of Nampt
+page=4 block=366873404 (x=247 y=311) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+caused  retinal  NAD+  deficiency  and  degeneration  in
+page=4 block=366873404 (x=247 y=323) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mice [5, 16].  Moreover, the  supplementation of NMN
+page=4 block=366873404 (x=247 y=337) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+prevented the  age-associated changes in the fundus as
+page=4 block=366873404 (x=247 y=350) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+well  as  decline in retinal response and lacrimal gland
+page=4 block=366873404 (x=247 y=363) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+functioning in 17-month-old C57BL/6N mice [4]. In this
+page=4 block=366873404 (x=247 y=376) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+study, no single dose of NMN changed eye functions.
+page=4 block=366873404 (x=247 y=389) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The  intraocular pressure  tended  to  decrease  after  the
+page=4 block=366873404 (x=247 y=402) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+administration of 100 mg NMN. However, it was repor?
+page=4 block=366873404 (x=247 y=415) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ted to decrease in the postmeridian period so that the
+page=4 block=366873404 (x=247 y=428) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+change could simply be due to diurnal variations [17].
+page=4 block=366873404 (x=247 y=441) width=216.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+In this study, we also performed preliminary evalua?
+page=4 block=366873404 (x=257 y=454) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion of the sleep quality by PSQI score before and after
+page=4 block=366873404 (x=247 y=467) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the intervention with NMN. In mice, Sirt1, a mammalian
+page=4 block=366873404 (x=247 y=480) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NAD+-dependent protein deacetylase, has been reported
+page=4 block=366873404 (x=247 y=492) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+to be involved in the homeostatic regulation of sleep in
+page=4 block=366873404 (x=247 y=506) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the hypothalamus [18]. In our study, the indices did not
+page=4 block=366873404 (x=247 y=519) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+show any significant differences by the intervention.
+page=4 block=366873404 (x=247 y=532) width=210.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+We  showed  that  2Py  and  4Py  levels  significantly
+page=4 block=366873404 (x=257 y=545) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+increased and their incremental areas above the baseline
+page=4 block=366873404 (x=247 y=558) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were increased in a dose-dependent manner. A previous
+page=4 block=366873404 (x=247 y=571) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+study reported  that  the  incremental changes  in NAD+
+page=4 block=366873404 (x=247 y=583) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+level were correlated with those in MNA and 2Py levels
+page=4 block=366873404 (x=247 y=597) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+in peripheral blood mononuclear cells in healthy subject
+page=4 block=366873404 (x=247 y=610) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+after the administration of NR [19]. The finding supports
+page=4 block=366873404 (x=247 y=623) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the speculation that the administration of NMN increased
+page=4 block=366873404 (x=247 y=636) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tissue NAD+ and plasma metabolites such as MNA, 2Py,
+page=4 block=366873404 (x=247 y=648) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and 4Py in this study. The levels of 2Py and 4Py at base?
+page=4 block=366873404 (x=247 y=662) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+line in our study were consistent with those in a previous
+page=4 block=366873404 (x=247 y=675) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+study reporting that the mean  serum concentrations of
+page=4 block=366873404 (x=247 y=688) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+2Py and 4Py were 830 nM and 260 nM, respectively, in
+page=4 block=366873404 (x=247 y=701) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+healthy subjects  [20].  In addition,  we  found  that  the
+page=4 block=366873404 (x=247 y=714) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 5 left:1 upper:1
+157
+page=5 block=1217467887 (x=462 y=1) width=15.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+Oral administration of NMN in men
+page=5 block=945288723 (x=177 y=2) width=123.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Fig. 2?Changes in clinical parameters after the oral administration of NMN
+page=5 block=428566321 (x=1 y=364) width=262.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Nicotinamide mononucleotide (NMN) was orally administered to 10 healthy men and the clinical parameters were measured for 5
+page=5 block=428566321 (x=31 y=377) width=446.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+h. Heart rate (A), blood pressures (B), oxygen saturation (C), and body temperature (D) are indicated. N = 10. Data are expressed
+page=5 block=428566321 (x=31 y=388) width=446.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+as mean ± standard deviation. Circle, triangle, and square indicate 100, 250, and 500 mg of NMN, respectively. Solid lines and dot
+page=5 block=428566321 (x=31 y=399) width=446.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lines represent systolic and diastolic blood pressures, respectively. SBP, systolic blood pressure; DBP, diastolic blood pressure.
+page=5 block=428566321 (x=31 y=410) width=430.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Table 2?Ophthalmic parameters before and after NMN administration
+page=5 block=2087258327 (x=39 y=441) width=243.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN dose (mg) 100
+page=5 block=2087258327 (x=43 y=458) width=225.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Time point Before After Before After
+page=5 block=2087258327 (x=43 y=474) width=376.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+BCVA (logMAR) –0.079 –0.079 –0.079 –0.079
+page=5 block=2087258327 (x=43 y=490) width=379.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Functional VA (logMAR) 0.043 ± 0.14 0.065 ± 0.11 0.052 ± 0.11 0.078 ± 0.09
+page=5 block=2087258327 (x=43 y=506) width=388.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Intraocular pressure (mmHg) 12.63 ± 1.63 11.63 ± 2.09 12.87 ± 2.28 12.43 ± 1.68
+page=5 block=2087258327 (x=43 y=522) width=388.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Tear break-up time (sec) 6.4 ± 3.8 6.5 ± 3.8 6.8 ± 3.5 6.6 ± 3.2
+page=5 block=2087258327 (x=43 y=538) width=384.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Critical flicker frequency (Hz) 49.6 ± 4.0 49.8 ± 3.3 49.5 ± 4.9 48.9 ± 5.6
+page=5 block=2087258327 (x=43 y=570) width=384.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Corneal endothelial density (cells/mm2) 2,754 ± 228 2,713 ± 235 2,748 ± 231 2,718 ± 236
+page=5 block=2087258327 (x=43 y=585) width=386.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Corneal thickness (?m) 541 ± 18 540 ± 19 542 ± 18 541 ± 19
+page=5 block=2087258327 (x=43 y=602) width=382.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Values are expressed as mean ± standard deviation. BCVA, best-corrected visual acuity; MAR, minimum angle of
+page=5 block=2087258327 (x=39 y=618) width=400.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+resolution; Functional VA, functional visual acuity.
+page=5 block=2087258327 (x=39 y=629) width=173.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Tear function test (mm) 6.4 ± 4.0 5.5 ± 3.5 ? 6.1 ± 4.7 5.8 ± 4.7
+page=5 block=1016550616 (x=43 y=554) width=384.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+?
+page=5 block=1006094903 (x=199 y=554) width=4.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+incremental areas above the baseline for 300 min in 2Py
+page=5 block=2030538903 (x=1 y=661) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were strongly correlated with those in 4Py and the ratio
+page=5 block=2030538903 (x=1 y=674) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of 2Py to 4Py was constant among the subjects. These
+page=5 block=2030538903 (x=1 y=687) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+findings indicated that administered NMN was degraded
+page=5 block=2030538903 (x=1 y=700) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and  converted  to  2Py  and  4Py  proportionally  in  the
+page=5 block=2030538903 (x=1 y=713) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+500
+page=5 block=1293680848 (x=375 y=458) width=13.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=20
+healthy subjects. However, the incremental areas in 2Py
+page=5 block=1261153343 (x=247 y=661) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and 4Py varied largely by the subjects in this study. The
+page=5 block=1261153343 (x=247 y=674) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+difference may be explained by an efficiency of absorp?
+page=5 block=1261153343 (x=247 y=687) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion and metabolism of NMN, although the precise kinet?
+page=5 block=1261153343 (x=247 y=700) width=229.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ics  of  NMN  were  not  evaluated  in  this  study.
+page=5 block=1261153343 (x=247 y=713) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 6 left:1 upper:1
+158
+page=6 block=1309176095 (x=1 y=1) width=15.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+Irie et al.
+page=6 block=198099809 (x=223 y=2) width=31.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Fig. 3?Changes in serum parameters after the oral administration of NMN
+page=6 block=645482568 (x=1 y=550) width=258.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN was orally administered to 10 healthy men and the serum parameters were measured for 5 h. Serum parameters included
+page=6 block=645482568 (x=31 y=563) width=446.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+aspartate transaminase (AST) (A), alanine transaminase (ALT) (B), total bilirubin (C), amylase (D), creatinine (E), sodium and
+page=6 block=645482568 (x=31 y=574) width=446.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+chloride (F), glucose (G), and insulin (H) levels, and white blood cell count (I). N = 8–10. Data are presented as mean ± standard
+page=6 block=645482568 (x=31 y=585) width=446.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+deviation. Circle, triangle, and square indicate 100, 250, and 500 mg of NMN, respectively.
+page=6 block=645482568 (x=31 y=596) width=311.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Unfortunately, we failed to detect NMN in plasma sam?
+page=6 block=807752428 (x=1 y=635) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ples in this study, most likely because freezing plasma
+page=6 block=807752428 (x=1 y=648) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+samples before extraction might have caused the degra?
+page=6 block=807752428 (x=1 y=661) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dation of NMN. The procedure of blood sampling could
+page=6 block=807752428 (x=1 y=674) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+have also contributed to the failure of the detection of
+page=6 block=807752428 (x=1 y=687) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN, because the recent reports showed that NMN was
+page=6 block=807752428 (x=1 y=700) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+degraded very rapidly in blood that was handled above –
+page=6 block=807752428 (x=1 y=713) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+80°C [7, 21].
+page=6 block=1026055550 (x=247 y=635) width=52.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+There are several limitations to this study. First, the
+page=6 block=1073763441 (x=257 y=648) width=220.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+study was not a placebo-controlled study. Therefore, it
+page=6 block=1073763441 (x=247 y=661) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+was not clear if the alteration in clinical and laboratory
+page=6 block=1073763441 (x=247 y=674) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+data was due to the administration of NMN or fasting for
+page=6 block=1073763441 (x=247 y=687) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+5 h. In fact, the decrease in blood glucose level and the
+page=6 block=1073763441 (x=247 y=700) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+increase in serum bilirubin level were consistent with the
+page=6 block=1073763441 (x=247 y=713) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 7 left:1 upper:1
+159
+page=7 block=752316209 (x=462 y=1) width=15.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+Oral administration of NMN in men
+page=7 block=914356853 (x=177 y=2) width=123.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Fig. 4?Changes in plasma levels of NMN metabolites after the oral administration of NMN
+page=7 block=1229161065 (x=1 y=486) width=316.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN was orally administered to 10 healthy men and the plasma concentration of N-methyl-2-pyridone-5-carboxamide (2Py), N-
+page=7 block=1229161065 (x=31 y=500) width=446.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+methyl-4-pyridone-5-carboxamide (4Py), and N-methyl nicotinamide (MNA) were measured for 300 min. The metabolic pathway
+page=7 block=1229161065 (x=31 y=511) width=446.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of NMN is shown (A). The plasma concentrations of 2Py (B), 4Py (C), and MNA (D) are shown. N = 7–10. Data are presented as
+page=7 block=1229161065 (x=31 y=522) width=446.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mean ± standard deviation. Circle, triangle, and square indicate 100, 250, and 500 mg of NMN, respectively. The incremental area
+page=7 block=1229161065 (x=31 y=533) width=446.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+under the curve was calculated by multiplying the interval time between two points by the difference between the value and the
+page=7 block=1229161065 (x=31 y=544) width=446.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+baseline. The areas for 300 min are shown for 2Py and 4Py (E). White boxes, white boxes with lines, and filled boxes represent
+page=7 block=1229161065 (x=31 y=555) width=446.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+100, 250, and 500 mg of NMN, respectively. Data are presented as mean ± standard deviation. *p < 0.05, **p < 0.01. The
+page=7 block=1229161065 (x=31 y=566) width=446.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+correlation of the incremental area under the curve for 300 min between 2Py and 4Py (F), MNA and 2Py (G), and MNA and 4Py
+page=7 block=1229161065 (x=31 y=577) width=446.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(H) in the group with 500 mg NMN are shown, *p < 0.05, **p < 0.01
+page=7 block=1229161065 (x=31 y=588) width=236.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+findings frequently observed in healthy men after fasting
+page=7 block=195228908 (x=1 y=622) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+[15]. Nonetheless, the dose-dependent increases in 2Py
+page=7 block=195228908 (x=1 y=635) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and 4Py levels in plasma samples supported the dose-
+page=7 block=195228908 (x=1 y=648) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dependent uptake of NMN in the subjects. Second, the
+page=7 block=195228908 (x=1 y=661) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+long-term administration of NMN should be conducted
+page=7 block=195228908 (x=1 y=674) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+to further investigate the safety and the efficacy of NMN
+page=7 block=195228908 (x=1 y=687) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+as a new treatment for age-associated disorders. Third,
+page=7 block=195228908 (x=1 y=700) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tissue NAD+ and plasma NMN levels were not measured
+page=7 block=195228908 (x=1 y=713) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+in this study. Our next clinical study to evaluate plasma
+page=7 block=471579726 (x=247 y=622) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+NMN levels and NAD+ levels in peripheral blood mono?
+page=7 block=471579726 (x=247 y=635) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nuclear cells is now in progress. If possible, biopsy sam?
+page=7 block=471579726 (x=247 y=648) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ples from tissues such as the adipose tissue and skeletal
+page=7 block=471579726 (x=247 y=661) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+muscle need to be analyzed for tissue NMN and NAD+
+page=7 block=471579726 (x=247 y=674) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+levels.
+page=7 block=471579726 (x=247 y=687) width=25.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+In conclusion, the single oral administration of NMN
+page=7 block=471579726 (x=257 y=700) width=220.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+up to 500 mg was safe and well-tolerated in healthy men
+page=7 block=471579726 (x=247 y=713) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 8 left:1 upper:1
+160
+page=8 block=1442726378 (x=1 y=1) width=15.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=23
+Irie et al.
+page=8 block=16503286 (x=223 y=2) width=31.000000 height=5.000000 fontname=CLOZWR+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+References
+page=8 block=484589713 (x=210 y=249) width=58.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPS-BoldMT wordint.min=1 wordint.max=30
+Imai S, Guarente L (2014) NAD+ and sirtuins in aging and
+page=8 block=1574598287 (x=19 y=275) width=212.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+disease. Trends Cell Biol 24: 464–471.
+page=8 block=1574598287 (x=19 y=288) width=139.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Yoshino J, Baur JA, Imai S (2018) NAD+ intermediates:
+page=8 block=1574598287 (x=19 y=298) width=212.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the biology and therapeutic potential of NMN and NR.
+page=8 block=1574598287 (x=19 y=311) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Cell Metab 27: 513–528.
+page=8 block=1574598287 (x=19 y=322) width=90.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Hasegawa K, Wakino S, Simic P, Sakamaki Y, Minakuchi
+page=8 block=1574598287 (x=19 y=334) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+H, et al. (2013) Renal tubular Sirt1 attenuates diabetic
+page=8 block=1574598287 (x=19 y=345) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+albuminuria by epigenetically suppressing Claudin-1 over?
+page=8 block=1574598287 (x=19 y=357) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+expression in podocytes. Nat Med 19: 1496–1504.
+page=8 block=1574598287 (x=19 y=368) width=181.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Mills KF, Yoshida S, Stein LR, Grozio A, Kubota S, et al.
+page=8 block=1574598287 (x=19 y=380) width=211.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(2016) Long-term administration of nicotinamide mono?
+page=8 block=1574598287 (x=19 y=391) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nucleotide mitigates age-associated physiological decline
+page=8 block=1574598287 (x=19 y=403) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+in mice. Cell Metab 24: 795–806.
+page=8 block=1574598287 (x=19 y=414) width=121.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Lin JB, Kubota S, Ban N, Yoshida M, Santeford A, et al.
+page=8 block=1574598287 (x=19 y=426) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(2016) NAMPT-mediated NAD+ biosynthesis is essential
+page=8 block=1574598287 (x=19 y=436) width=212.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+for vision in mice. Cell Rep 17: 69–85.
+page=8 block=1574598287 (x=19 y=449) width=140.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Yoshino J, Mills KF, Yoon MJ, Imai S (2011) Nicotina?
+page=8 block=1574598287 (x=19 y=460) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mide mononucleotide, a key NAD+ intermediate, treats the
+page=8 block=1574598287 (x=19 y=471) width=212.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pathophysiology  of  diet-  and  age-induced  diabetes  in
+page=8 block=1574598287 (x=19 y=483) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mice. Cell Metab 14: 528–536.
+page=8 block=1574598287 (x=19 y=495) width=112.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Grozio A, Mills KF, Yoshino J, Bruzzone S, Sociali G, et
+page=8 block=1574598287 (x=19 y=506) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+al.  (2019)  Slc12a8  is  a  nicotinamide  mononucleotide
+page=8 block=1574598287 (x=19 y=518) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+transporter. Nat Metab 1: 47–57.
+page=8 block=1574598287 (x=19 y=529) width=117.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Masuda H, Sakamoto M, Irie J, Kitaoka A, Shiono K, et
+page=8 block=1574598287 (x=19 y=541) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+al. (2008) Comparison of twice-daily injections of bipha?
+page=8 block=1574598287 (x=19 y=552) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sic insulin lispro and basal-bolus therapy: glycaemic con?
+page=8 block=1574598287 (x=19 y=564) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+trol  and  quality-of-life  of insulin-naive  type  2 diabetic
+page=8 block=1574598287 (x=19 y=575) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+patients. Diabetes Obes Metab 10: 1261–1265.
+page=8 block=1574598287 (x=19 y=587) width=169.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Petley A, Macklin B, Renwick AG, Wilkin TJ (1995) The
+page=8 block=1574598287 (x=19 y=598) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pharmacokinetics of nicotinamide in humans and rodents.
+page=8 block=1574598287 (x=19 y=610) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Diabetes 44: 152–155.
+page=8 block=1574598287 (x=19 y=621) width=81.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Tanaka K, Saisho Y, Manesso E, Tanaka M, Meguro S, et
+page=8 block=1574598287 (x=19 y=633) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+al. (2015) Effects of liraglutide monotherapy on beta cell
+page=8 block=1574598287 (x=19 y=644) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+function and pancreatic enzymes compared with metfor?
+page=8 block=1574598287 (x=19 y=656) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+min in  Japanese overweight/obese patients  with type 2
+page=8 block=1574598287 (x=19 y=667) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+diabetes mellitus: a subpopulation analysis of the KIND-
+page=8 block=1574598287 (x=19 y=679) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+LM randomized trial. Clin Drug Investig 35: 675–684.
+page=8 block=1574598287 (x=19 y=690) width=196.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Dogru M, Ishida K, Matsumoto Y, Goto E, Ishioka M, et
+page=8 block=1574598287 (x=19 y=702) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+al. (2006) Strip meniscometry: a new and simple method
+page=8 block=1574598287 (x=19 y=713) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of tear meniscus evaluation. Invest Ophthalmol Vis Sci 47:
+page=8 block=2056031695 (x=265 y=276) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1895–1901.
+page=8 block=2056031695 (x=265 y=288) width=42.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+Buysse DJ, Reynolds  CF 3rd, Monk TH, Berman SR,
+page=8 block=2056031695 (x=265 y=299) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Kupfer DJ (1989) The Pittsburgh Sleep Quality Index: a
+page=8 block=2056031695 (x=265 y=311) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+new instrument for psychiatric practice and research. Psy?
+page=8 block=2056031695 (x=265 y=322) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+chiatry Res 28: 193–213.
+page=8 block=2056031695 (x=265 y=334) width=90.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Komatsu M, Kanda T, Urai H, Kurokochi A, Kitahama R,
+page=8 block=2056031695 (x=265 y=345) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+et al. (2018) NNMT activation can contribute to the devel?
+page=8 block=2056031695 (x=265 y=357) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+opment of fatty liver  disease by modulating  the NAD+
+page=8 block=2056031695 (x=265 y=367) width=212.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+metabolism. Sci Rep 8: 8637.
+page=8 block=2056031695 (x=265 y=380) width=105.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Knip M, Douek IF, Moore WP, Gillmor HA, McLean AE,
+page=8 block=2056031695 (x=265 y=391) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+et al. (2000) Safety of high-dose nicotinamide: a review.
+page=8 block=2056031695 (x=265 y=403) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Diabetologia 43: 1337–1345.
+page=8 block=2056031695 (x=265 y=414) width=106.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Griffin PM, Elliott SL, Manton KJ (2014) Fasting increa?
+page=8 block=2056031695 (x=265 y=426) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ses serum  bilirubin levels in  clinically  normal, healthy
+page=8 block=2056031695 (x=265 y=437) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+males but not females: a retrospective study from phase I
+page=8 block=2056031695 (x=265 y=449) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+clinical trial participants. J Clin Pathol 67: 529–534.
+page=8 block=2056031695 (x=265 y=460) width=189.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Ban N, Ozawa Y, Inaba T, Miyake S, Watanabe M, et al.
+page=8 block=2056031695 (x=265 y=472) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(2013) Light-dark condition regulates sirtuin mRNA lev?
+page=8 block=2056031695 (x=265 y=483) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+els in the retina. Exp Gerontol 48: 1212–1217.
+page=8 block=2056031695 (x=265 y=495) width=167.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Liu JH, Kripke DF, Twa MD, Hoffman RE, Mansberger
+page=8 block=2056031695 (x=265 y=506) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+SL, et al. (1999) Twenty-four-hour pattern of intraocular
+page=8 block=2056031695 (x=265 y=518) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pressure in the aging population. Invest Ophthalmol Vis
+page=8 block=2056031695 (x=265 y=529) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Sci 40: 2912–2917.
+page=8 block=2056031695 (x=265 y=541) width=69.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Satoh A, Brace CS, Rensing N, Cliften P, Wozniak DF, et
+page=8 block=2056031695 (x=265 y=552) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+al. (2013) Sirt1 extends life span and delays aging in mice
+page=8 block=2056031695 (x=265 y=564) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+through the regulation of Nk2 homeobox 1 in the DMH
+page=8 block=2056031695 (x=265 y=575) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and LH. Cell Metab 18: 416–430.
+page=8 block=2056031695 (x=265 y=587) width=121.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Trammell SA, Schmidt MS, Weidemann BJ, Redpath P,
+page=8 block=2056031695 (x=265 y=598) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Jaksch F, et al. (2016) Nicotinamide riboside is uniquely
+page=8 block=2056031695 (x=265 y=610) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and orally bioavailable in mice and humans. Nat Commun
+page=8 block=2056031695 (x=265 y=621) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+7: 12948.
+page=8 block=2056031695 (x=265 y=633) width=34.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Rutkowski B, Slominska E, Szolkiewicz M,  Smolenski
+page=8 block=2056031695 (x=265 y=644) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+carboxamide: a novel uremic toxin? Kidney Int Suppl 84:
+page=8 block=2056031695 (x=265 y=667) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+S19–S21.
+page=8 block=2056031695 (x=265 y=679) width=34.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+Liu L, Su X, Quinn WJ 3rd, Hui S, Krukenberg K, et al.
+page=8 block=2056031695 (x=265 y=690) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(2018) Quantitative analysis of NAD synthesis-breakdown
+page=8 block=2056031695 (x=265 y=702) width=211.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+fluxes. Cell Metab 27: 1067–1080.
+page=8 block=2056031695 (x=265 y=713) width=125.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+11.
+page=8 block=606508809 (x=1 y=702) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+without causing any significant deleterious effects. Thus,
+page=8 block=718187988 (x=1 y=38) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+oral administration of NMN is feasible and could be a
+page=8 block=718187988 (x=1 y=51) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+therapeutic strategy to replenish cellular NAD+ levels to
+page=8 block=718187988 (x=1 y=63) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mitigate  aging-related  functional disorders  in  humans.
+page=8 block=718187988 (x=1 y=77) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The pharmacokinetics of NMN and NAD+ in the plasma
+page=8 block=718187988 (x=1 y=89) width=230.000000 height=7.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and tissues need to be investigated in future studies.
+page=8 block=718187988 (x=1 y=103) width=207.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Acknowledgments
+page=8 block=615438348 (x=67 y=127) width=98.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPS-BoldMT wordint.min=1 wordint.max=30
+This research was also supported by internal budgets
+page=8 block=978508707 (x=11 y=155) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+from the Institutes, including Program for the Advance?
+page=8 block=978508707 (x=1 y=168) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ment of Research in Core Projects on Longevity of Keio
+page=8 block=978508707 (x=1 y=181) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+University Global Research Institute from Keio Univer?
+page=8 block=978508707 (x=1 y=194) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sity to H.I., H.O., K.T., and M.Y.
+page=8 block=978508707 (x=1 y=207) width=131.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1.
+page=8 block=710708543 (x=5 y=277) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+2.
+page=8 block=1965237677 (x=5 y=300) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+3.
+page=8 block=664792509 (x=5 y=334) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+4.
+page=8 block=188523822 (x=5 y=380) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+5.
+page=8 block=1170727939 (x=5 y=426) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+6.
+page=8 block=690339675 (x=5 y=461) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+7.
+page=8 block=1896828359 (x=5 y=507) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+8.
+page=8 block=536122141 (x=5 y=541) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+9.
+page=8 block=1709804316 (x=5 y=599) width=7.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+10.
+page=8 block=1630678941 (x=1 y=633) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The authors thank Professor Samuel Klein and Profes?
+page=8 block=1792550665 (x=257 y=38) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sor Rajendra Apte in Washington University School of
+page=8 block=1792550665 (x=247 y=51) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Medicine for their supports for the study.
+page=8 block=1792550665 (x=247 y=64) width=164.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Disclosure
+page=8 block=1359953204 (x=334 y=88) width=55.000000 height=9.000000 fontname=CLOZWR+TimesNewRomanPS-BoldMT wordint.min=1 wordint.max=30
+S.I. is an inventor on patents about the use of NMN
+page=8 block=2014838114 (x=257 y=116) width=220.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(PCT/US2014/30920)  and  about  the  Slc12a8  NMN
+page=8 block=2014838114 (x=247 y=129) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+transporter  (PCT/US2018/46233),  whose  applicant  is
+page=8 block=2014838114 (x=247 y=142) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Washington University and which have been licensed by
+page=8 block=2014838114 (x=247 y=155) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+MetroBiotech  (U.S.A.)  and  Teijin  Limited  (Japan),
+page=8 block=2014838114 (x=247 y=168) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+respectively. S.S., T.O., and H.Y. are employed by Shio?
+page=8 block=2014838114 (x=247 y=181) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nogi &  Co., Ltd. H.I.  received research funding from
+page=8 block=2014838114 (x=247 y=194) width=230.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Oriental Yeast Co., Ltd.
+page=8 block=2014838114 (x=247 y=207) width=95.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+12.
+page=8 block=136936250 (x=247 y=300) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+13.
+page=8 block=593687897 (x=247 y=346) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+14.
+page=8 block=187472540 (x=247 y=392) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+15.
+page=8 block=1276611190 (x=247 y=426) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+16.
+page=8 block=262457445 (x=247 y=472) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+17.
+page=8 block=1004023029 (x=247 y=507) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+18.
+page=8 block=1414506856 (x=247 y=553) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+19.
+page=8 block=612097453 (x=247 y=599) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+20.
+page=8 block=221634215 (x=247 y=645) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+RT,  Striley  C,  et  al.  (2003)  N-methyl-2-pyridone-5-
+page=8 block=2003891312 (x=265 y=656) width=212.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+21.
+page=8 block=1583159071 (x=247 y=691) width=11.000000 height=6.000000 fontname=CLOZWR+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 9 left:1 upper:1
+Copyright of Endocrine Journal is the property of Japan Endocrine Society and its content
+page=9 block=607207372 (x=1 y=1) width=432.000000 height=8.000000 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+may not be copied or emailed to multiple sites or posted to a listserv without the copyright
+page=9 block=607207372 (x=1 y=15) width=434.000000 height=8.000000 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+holder's express written permission. However, users may print, download, or email articles for
+page=9 block=607207372 (x=1 y=29) width=453.000000 height=8.000000 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+individual use.
+page=9 block=607207372 (x=1 y=43) width=71.000000 height=7.000000 fontname=TimesNewRoman wordint.min=1 wordint.max=6

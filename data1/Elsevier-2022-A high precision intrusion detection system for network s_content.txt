@@ -1,0 +1,326 @@
+Title:
+Future Generation Computer Systems
+
+Abstract:
+The openness of network data makes it vulnerable to hackers, viruses and other attacks, which
+seriously threatens the privacy and property security of users. In order to improve the accuracy of the
+intrusion detection for network security communication, based on the traditional intrusion detection
+system, combining with the deep learning theory and shortcomings, this paper proposed an intrusion
+detection system for network security communication based on multi-scale convolutional neural
+network, and conducted the corresponding experiments on public data sets. The experimental results
+perform that compared to the intrusion detection system based on Adaboost model and Recurrent
+Neural Network model, the convergence speed of multi-scale convolutional neural network system is
+faster, the average error detection rate is reduced by 4.02%, and the average accuracy is improved by
+4.37%. The results prove that the intrusion detection system based on multi-scale convolution neural
+network has a high detection accuracy.
+
+----------------------
+Subtitles:
+ 1. Introduction
+ 2. Related work
+ 3. Design of the high precision intrusion detection system for
+network security communication
+ 4. Application effect analysis of the high precision intrusion
+detection system
+ 5. Conclusion
+ Declaration of competing interest
+ Acknowledgment
+
+
+Text:
+----------------------
+1. Introduction
+The world information is gradually integrated, and data shar-
+ing brings network security risks, so in order to protect people’s
+information security when they work and communicate on the
+Internet, some scholars have begun to study the network security
+protection [1]. Among them, the intrusion detection system is
+one of the widely used technical types in the market, which
+can effectively prevent network intrusion, and ensure the safe
+operation of the system by detecting and issuing early warning
+before the attack is launched [2].
+However, it is undeniable that the types of hacker network
+intrusion are becoming more and more sophisticated, so that the
+commonly used intrusion detection system for the network secu-
+rity also began to become slow, and the accuracy is significantly
+poor. To find a good solution, this paper introduces the deep
+learning technique to design an intrusion detection system, and
+proposes a high precision intrusion detection system based on
+multi-scale convolutional neural network (MSCNN).
+There are two main contributions in this paper. Firstly, the net-
+work data mining technology based on deep learning is used to
+extract features from unordered data to improve the accuracy of
+the intrusion detection. Secondly, this paper uses MSCNN to solve
+the compatibility problem between intrusion detection system
+2. Related work
+Wei, et al. proposed an intrusion detection system combining hi-
+erarchical spatiotemporal features, which improved the accuracy
+of feature set describing network traffic [7]. Datta, et al. have
+proposed an effective scheme, on the premise of not affecting
+the effectiveness of intrusion detection system, it shortens the
+activity time of the intrusion detection system [8]. Zhang, et al.
+proposed a detection model and an improved adaptive evolution
+strategy of constrained covariance matrix [9].
+As we know, deep learning as a very advanced technique is
+being studied by a lot of scholars, and it can take some good
+solutions for the intrusion detection. At present, the deep learning
+technique has been widely applied to a lot of fields. Kruthiventi,
+et al. proposed a fully CNN model, established a bottom-up vi-
+sual attention mechanism model through explicit prediction, and
+automatically learned features in a hierarchical way to predict
+saliency graph in an end-to-end way [10]. CNN is used to identify
+abnormal EEG samples, and it is found that the accuracy of neural
+network is obviously better than some other models [11]. Ma,
+et al. proposed a traffic image learning method based on CNN,
+which can predict the traffic speed of large-scale and whole
+network with high accuracy. In the acceptable execution time, the
+average accuracy of the algorithm is significantly improved [12].
+Peng, et al. introduced a module composed of coding layer and
+time pyramid pool layer, and proposed a new network structure,
+allowing any number of frames as network input, avoiding the
+risk of losing any important frame [13]. Antipov, et al. led the
+team to improve the gender and age prediction methods in the
+existing demographic estimation methods based on CNN, and
+designed an advanced gender recognition and age estimation
+model [14]. Zhu, et al. proposed a single event recognition al-
+gorithm framework for cold electron microscope images based
+on deep learning, which realized the integration of automatic
+particle picking, selection and verification [15]. Kawahara, et al.
+proposed a neural network framework to solve this question [16].
+To sum up, a lot of researches have been done on the intrusion
+detection system and deep learning. However, the traditional
+deep learning model has some shortcomings, such as big samples
+and time cost. In order to find a good solution, this paper tried to
+design a MSCNN model and apply it to the intrusion detection.
+3. Design of the high precision intrusion detection system for
+network security communication
+f (x) = max(0, x) (2)
+In Eq. (2), x is the total amount of data, and max is the
+maximum value.
+In order to avoid the over fitting problem of network, improve
+the generalization ability of network and speed up the training
+speed, this study uses Dropout strategy to connect the full con-
+nection layer and softmax classifier [21]. The principle of Dropout
+algorithm is to set the activation value of a neuron to 0 with
+a certain probability when it propagates forward, so that some
+neurons stop working, and calculate and connect the data that is
+not set to 0 [22]. According to the randomly generated probability
+to connect the neurons, the sparsity of the network appears, the
+possibility of over fitting is reduced, and the training speed of the
+n??eettwwrjloo?rrkkBiisesrgncraoeluaclutlilly(apti)medparosvfeodllo[2w3s]:.UndertheDropoutstrategy,the
+(3)
+The rjl vector in Eq. (3) is generated by Bernoulli function,
+which will generate a vector of 0 and 1 randomly.yl is the ac-
+tivation function, and y?l is the activation value after rlj vector
+processing.
+In feature extraction and processing of neural network, for
+the training data with large distribution difference, classification
+accuracy will be greatly reduced. Because the distribution of each
+training set is different, if the model needs to adapt each time,
+it will seriously affect the training speed of the network, so
+normalization processing is required for each input data [24]. A
+BN algorithm is proposed, which can be used in volume layer to
+accelerate the efficiency of network learning and can be used to
+optimize network training. The BN algorithm is represented as
+follow1s: ?
+(4)
+u? in Eq. (5) represents the mean value, and the variance is
+??2, and then the variance is standardized, as shown in Eq. (6).
+u? in Eq. (6) represents the mean value in the sample data, ??
+represents the standard deviation, and then outputs the original
+value yi through linear transformation, as shown in Eq. (7).
+? and ? in Eq. (7) represent training parameters, and BN
+represents normalization. In the forward propagation, the output
+value does not change, but changes the two training parameters
+of ? and ?, and each change is recorded for subsequent operation.
+In the reverse training, the chain derivation is used to calculate
+the recorded training parameters, and then the learning efficiency
+of the network is calculated to change the weights.
+The mentioned algorithm is used to update the weight and
+bias of the model. The processing method of gradient descent
+lgori?thm is shown1in?q. (8?).
+?wiljj(W, b) = [m
+(8)
+In Eq. (8), wilj represents the weights of (i, j) neurons in layer l,
+blij represents the bias of (i, j) neurons in layer l, and ? represents
+the training parameters of each layer for parameter regulariza-
+??ion. The?f edWbialj?ckl+1e)rr·ofr(ziisl)expressed as:
+the historical behavior, specific behavior pattern and other be-
+haviors of monitoring objects as information sources. The infor-
+mation is integrated and transmitted to the analysis engine. The
+analysis engine detects and analyzes the input information based
+on the behavior of the system and users to determine whether
+there is an intrusion behavior. If the result is that there is no
+intrusion, the normal data is extracted, and the security data is
+returned to allow the user to operate; if the data has intrusion
+behavior, the data is sent to the response component to record
+the evidence and process [26].
+However, the current intrusion detection technology is limited
+by its complexity, resulting in most of the intrusion detection
+systems still have security risks, such as the lack of defense
+capability and the accuracy of detection is not optimistic [27].
+This paper proposes an intelligent intrusion detection technology
+combining with MSCNN, and the model learning process is shown
+in Fig. 5.
+As shown in Fig. 5, the original data set is preprocessed. Firstly,
+the attribute mapping of the data is carried out, the data is
+digitized, and then normalized to obtain the standardized data
+set. Finally, the data preprocessing is completed by converting
+the data into two-dimensional data in accordance with the con-
+volution neural network input format. The integrated target data
+set is divided into two sub data sets, one is used as the training
+data set of MSCNN model for model learning, and the weight
+is adjusted by reverse fine-tuning, the other is the test data of
+MSCNN model, which is used as the final test analysis to get the
+final classification results.
+The standardization in data preprocessing needs to first dig-
+itize the symbolic features, and the operation method of dig-
+itization is to use attribute mapping, such as representing the
+identified protocol type attributes through computer binary cod-
+ing [28]. The normalization process is to unify the numerical
+processing results to (0,1) interval distribution, and normalize
+them through Eq. (10).
+x ? min
+y = max ? min
+In Eq. (10), x is the random attribute in the network, min is the
+minimum numerical attribute in the network record, and max is
+the maximum numerical attribute in thenetwork record. Through
+the preprocessing of the network data, the data will present the
+image data format and input to the convolutional neural network.
+4. Application effect analysis of the high precision intrusion
+detection system
+With the increasing of connection probability, the classifica-
+tion accuracy of MSCNN model is also increasing. When P=0.7, the
+accuracy rate reaches the maximum value of 95.7%. Then, with
+the increase of connection probability, the accuracy of MSCNN
+model does not increase and decrease. The results show that 0.7
+should be chosen as the connection probability for the probability
+selection between the connection layers, which can greatly im-
+prove the accuracy. By analyzing the difference of pooling in the
+overlapping mode of the pooling layer, the step size is 1–10, and
+the comparison (Table 1).
+As can be seen from Table 1, when average pooling is used
+to eliminate noise, the error rate decreases with the increase
+of step size, and decreases by 5% from the highest 44%. On the
+contrary, Max Polo method can also eliminate noise better, and
+the error rate decreases with the increase of step size. However,
+it is obvious that the error rate of Max Polo is higher than average
+Polo under the same step size. The final solution shows that
+the average pooling is correct, which improves the convergence
+speed of the model, and increases the accuracy of the model. Fig. 7
+shows the training time change of the system under the change
+of input data dimension.
+The training time of the system model changes with the di-
+mension of the input data, and there is a positive correlation
+between the two as shown in Fig. 8. And it is not difficult to
+find that with the increasing dimension of input data, the growth
+trend of training time is increasing, until the dimension increases
+to more than 12, the accuracy gradually tends to be stable, and
+gradually keeps the accuracy within the maximum range. This
+means that the accuracy of the model is affected by the dimen-
+sion, and with the increase of the dimension, the accuracy of the
+model also continues to increase, indicating that the performance
+of the model is also continuously improving.
+In addition, the effect of establishing experimental analysis BN
+layer is shown in Fig. 9.
+The MSCNN model without BN layer increases with the in-
+crease of step number, and the accuracy rate increases gradually
+(Fig. 9). When the number of steps is less than 1000, the accuracy
+rate rises rapidly, and then gradually slows down. When the steps
+reach 4000, it will become stable and the accuracy rate will be
+stable at about 98%. However, the accuracy of MSCNN model with
+BN layer increases with the increase of steps. However, unlike
+the model without BN, when the number of steps is less than
+500, the accuracy of the model increases rapidly and the speed is
+obviously higher than that without BN model. When the number
+of steps reaches 2000, the accuracy rate has begun to stabilize,
+keeping at about 98%. The results show that adding BN layer to
+MSCNN model effectively improves the convergence speed of the
+model and the learning speed of the model.
+In addition, in order to verify the proposed model, it is com-
+pared to some baseline methods including Recurrent Neural Net-
+work (RNN) and Adaboost models as shown in Fig. 10.
+The detection rate in Fig. 10 is the average detection rate of
+the three algorithms for different attack types. It can be seen from
+Fig. 10 that the three algorithms can well detect different attack
+types, and the detection rate is above 80%. The detection rates of
+Adaboost to DOS, Normal, Probe, U2R and R2L are 87.3%, 83.1%,
+84.1%, 83.7% and 80.2% respectively. The detection rates of RNN to
+DOS, Normal, Probe, U2R and R2L are 90.3%, 90.3%, 90.2%, 90.3%
+and 90.4% respectively. By observing the detection rate of MSCNN
+model, it is found that the detection rate of MSCNN model for five
+For that, the short-term detection effect and long-term de-
+tection effect are analyzed respectively. First, the short-term ap-
+plication effect evaluation is carried out, and the average early
+warning time of intrusion detection based on different algorithms
+is compared, as shown in Fig. 13.
+The warning time of the proposed detection system decreases
+with the increase of attack speed, which indicates that the in-
+trusion detection system based on MSCNN can perfectly cope
+with external network attacks as shown in Fig. 13. The same
+experiment is also conducted for other two baseline methods, and
+the two detection models can also achieve reducing the alarm
+time with the increase of attack speed. However, from the overall
+situation, the early warning time of MSCNN intrusion detection
+system and the other two groups of detection systems is not
+different when the attack speed is low. However, as the attack
+speed increases by more than 25, it is obvious that the average
+early alarm time of MSCNN intrusion detection system is 0.1s
+and 0.15s faster than RNN and Adaboost respectively. The results
+show that MSCNN intrusion detection system after a short-term
+test, its response to network intrusion is faster, early alarm is fast,
+and withthe speed of network attacks, it canalso improve its own
+early warning time adaptively, which is conducive to network
+security protection.
+And in practical application, the installation cost of the three
+intrusion detection systems and the later maintenance cost of
+MSCNN are slightly lower than the other two intrusion detection
+systems to a certain extent, so from the overall benefit, MSCNN
+has better usability. 10 IP addresses were selected as the test ob-
+jects to be attacked. The number of network attacks and detection
+system in these 10 IP addresses in the next 6 months is shown in
+Table 2.
+It can be seen from Table 2 that the 10 IP addresses are mainly
+affected by the network unknown encrypted data transmission,
+Web service remote SQL injection attack, SOCKS proxy access op-
+eration, HTTP protocol URL field super long buffer overflow attack
+and port scanner PING Sweep operates five types of attacks, in
+which the network unknown encrypted data transmission is the
+most frequent of all attacks, and the maximum number of attacks
+is 21513. The port scanner Ping sweep is the least attack type. The
+most attack is 1622 and the lowest is 768. It shows that under
+the support of intrusion detection system based on multi-scale
+convolutional neural network, the number of attacks of each IP is
+well detected. And it further shows that the intrusion detection
+system can achieve good results in practical application, and also
+verifies the effectiveness and feasibility of the research content.
+5. Conclusion
+In view of the defects of the network intrusion detection
+system in the market, a high-precision intrusion detection tech-
+nology based on MSCNN is proposed. The performance of the
+network model and the effect of the detection system in the
+practical application are analyzed and discussed. MSCNN is a kind
+of deep learning method to realize high-precision recognition,
+and it is applied to the network security intrusion detection
+system. After the final performance analysis, it is found that the
+convergence rate of the network adding BN layer is significantly
+faster than that without BN layer. By comparing the accuracy and
+false alarm rate of different algorithms in the face of different
+attack types, it is found that the detection rate of MSCNN model
+is higher than that of other models when facing five attack types.
+In addition, the false alarm rate of MSCNN model detection is also
+obvious. In the practical application, it can be seen from the short-
+term application effect that the early alarm time of the system to
+network attack is better than other detection systems with the
+increase of attack speed. The long-term evaluation of application
+effect shows that the system can prevent and classify different
+types of attacks. In conclusion, MSCNN can effectively improve
+the intrusion detection, which provides a theoretical support for
+network security protection. However, in the future, there are still
+some rooms to improve the model to construct a better intrusion
+detection system.
+Declaration of competing interest
+Acknowledgment
+This work has been supported by the research project funded
+by the National Key Research and Development Program of China
+(2019QY1402).

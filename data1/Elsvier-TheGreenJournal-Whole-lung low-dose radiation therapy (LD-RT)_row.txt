@@ -1,0 +1,2046 @@
+Page: 1 left:1 upper:1
+Radiotherapy and Oncology 165 (2021) 20–31
+page=1 block=1755709444 (x=190 y=1) width=141.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Contents lists available at ScienceDirect
+page=1 block=1850540144 (x=187 y=28) width=151.000000 height=4.000000 fontname=PCDJAA+AdvPSUnv wordint.min=1 wordint.max=5
+Radiotherapy and Oncology
+page=1 block=2060059040 (x=169 y=52) width=186.000000 height=8.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+journal homepage: www.thegreenjournal.com
+page=1 block=-2114977456 (x=154 y=84) width=216.000000 height=4.000000 fontname=PCDJAA+AdvPSUnv wordint.min=1 wordint.max=5
+Whole-lung low-dose radiation therapy (LD-RT) for non-intubated
+page=1 block=27334231 (x=1 y=133) width=417.000000 height=8.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+oxygen-dependent patients with COVID-19-related pneumonia
+page=1 block=27334231 (x=1 y=150) width=394.000000 height=8.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+receiving dexamethasone and/or remdesevir
+page=1 block=27334231 (x=1 y=167) width=278.000000 height=9.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Clayton B. Hessa,b, Tony Y. Eng a,h, Tahseen H. Nasti b, Vishal R. Dhere a,h, Troy J. Kleberc,
+page=1 block=31136215 (x=1 y=189) width=434.000000 height=9.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+JLeufifsraeyS.MT.aSvwerintcahge, nAklovadr,ho, BPererenzt DDa. iWsseoinnbg,eRrga?e, ANhamdiendebR, oMuophhaamelmf, aSdiboK.TKiahnana,ha,,cS,ho,?umon Rudra a,h,
+page=1 block=31136215 (x=1 y=202) width=475.000000 height=22.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+aDepartment/Division of Radiation Oncology; b Department/Division of Microbiology and Immunology; cSchool of Medicine; dSchool of Biostatistics and Bioinformatics; eSchool of
+page=1 block=34081996 (x=1 y=234) width=520.000000 height=5.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Radiology; f School of Infectious Disease; gUndergraduateScholarly Inquiry and Research Experience (SIRE); and hWinship Cancer Institute,Emory University, Atlanta, United States
+page=1 block=34081996 (x=1 y=242) width=520.000000 height=6.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Background: Low-dose radiotherapy (LD-RT) has produced anti-in?ammatory effects in both animal
+page=1 block=-445327972 (x=165 y=294) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+models and early human trials of COVID-19-related pneumonia. The role of whole-lung LD-RT within
+page=1 block=-445327972 (x=165 y=303) width=356.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+existing treatment paradigms merits further study.
+page=1 block=-445327972 (x=165 y=313) width=175.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Methods: A phase II prospective trial studied the addition of LD-RT to standard drug treatments.
+page=1 block=-445327972 (x=165 y=323) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Hospitalized and oxygen-dependent patients receiving dexamethasone and/or remdesevir were treated
+page=1 block=-445327972 (x=165 y=332) width=356.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+with 1.5 Gy whole-lung LD-RT and compared to a blindly-matched contemporaneous control cohort.
+page=1 block=-445327972 (x=165 y=342) width=347.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Results: Of 40 patients evaluated, 20 received drug therapy combined with whole-lung LD-RT and 20
+page=1 block=-445327972 (x=165 y=351) width=356.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+without LD-RT. Intubation rates were 14% with LD-RT compared to 32% without (p = 0.09). Intubation-
+page=1 block=-445327972 (x=165 y=361) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+free survival was 77% vs. 68% (p = 0.17). Biomarkers of in?ammation (C-reactive protein, p = 0.02) and
+page=1 block=-445327972 (x=165 y=370) width=356.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+cardiac injury (creatine kinase, p < 0.01) declined following LD-RT compared to controls. Mean time feb-
+page=1 block=-445327972 (x=165 y=380) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+rile was 1.4 vs 3.3 days, respectively (p = 0.14). Signi?cant differences in clinical recovery (7.5 vs. 7 days,
+page=1 block=-445327972 (x=165 y=390) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+p = 0.37) and radiographic improvement (p = 0.72) were not detected. On subset analysis, CRP decline
+page=1 block=-445327972 (x=165 y=399) width=356.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+following LD-RT was predictive of recovery without intubation compared to controls (0% vs. 31%,
+page=1 block=-445327972 (x=165 y=409) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+p = 0.04), freedom from prolonged hospitalizations (21+ days) (0% vs. 31%, p = 0.04), and decline in oxy-
+page=1 block=-445327972 (x=165 y=418) width=356.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+genation burden (56% reduction, p = 0.06). CRP decline following 1st drug therapy was not similarly pre-
+page=1 block=-445327972 (x=165 y=428) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+dictive of outcome in controls (p = 0.36).
+page=1 block=-445327972 (x=165 y=437) width=140.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Conclusions: Adding LD-RT to standard drug treatmentsreduced biomarkers of in?ammation and cardiac
+page=1 block=-445327972 (x=165 y=447) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+injury in COVID-19 patients and may have reduced intubation. Durable CRP decline following LD-RT pre-
+page=1 block=-445327972 (x=165 y=457) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+dicted especially favorable recovery, freedom from intubation, reduction in prolonged hospitalization,
+page=1 block=-445327972 (x=165 y=466) width=356.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+and reduced oxygenation burden. A con?rmatory randomized trial is now ongoing.
+page=1 block=-445327972 (x=165 y=476) width=286.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Clinical Trial Registration: NCT04366791.
+page=1 block=1503070585 (x=165 y=485) width=139.000000 height=5.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+ 2021 Elsevier B.V. All rights reserved. Radiotherapy and Oncology 165 (2021) 20–31
+page=1 block=60164518 (x=223 y=494) width=298.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Original Article
+page=1 block=4391590 (x=1 y=113) width=67.000000 height=6.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+a r t i c l e in f o
+page=1 block=6161749 (x=1 y=273) width=94.000000 height=5.000000 fontname=PCDIIB+AdvGulliv-F wordint.min=3 wordint.max=5
+abstract
+page=1 block=702875238 (x=165 y=273) width=65.000000 height=6.000000 fontname=PCDIIB+AdvGulliv-F wordint.min=4 wordint.max=19
+Article history:
+page=1 block=2753394 (x=1 y=294) width=42.000000 height=3.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Received 26 July 2021
+page=1 block=7810260 (x=1 y=302) width=67.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Received in revised form 30 September
+page=1 block=7810260 (x=1 y=311) width=119.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+2021
+page=1 block=7810260 (x=1 y=319) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Accepted 3 October 2021
+page=1 block=7810260 (x=1 y=328) width=76.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Available online 13 October 2021
+page=1 block=7810260 (x=1 y=336) width=102.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Keywords:
+page=1 block=1967504 (x=1 y=356) width=30.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=13
+COVID-19
+page=1 block=1967540 (x=1 y=365) width=30.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Low-dose radiation
+page=1 block=3805937 (x=1 y=373) width=58.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Pneumonia
+page=1 block=3805937 (x=1 y=382) width=34.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+The severe-acute-respiratory-syndrome coronavirus 2
+page=1 block=16469627 (x=12 y=543) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=16
+(SARS-CoV-2) and coronavirus disease 2019 (COVID-19) have
+page=1 block=16469627 (x=1 y=554) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+caused unprecedented death and disruption. Mediated by a
+page=1 block=16469627 (x=1 y=564) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+cascading, hyperin?ammatory, macrophage-activating event in
+page=1 block=16469627 (x=1 y=575) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+Abbreviations: ARDS, acute respiratory distress syndrome; CRP, C-reactive
+page=1 block=16488926 (x=13 y=606) width=239.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+protein; CT, chest tomography; CXR, chest X-ray; LD-RT, low-dose radiation
+page=1 block=16488926 (x=1 y=614) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+therapy; OS, overall survival; PCR, polymerase chain reaction; P:F ratio, ratio of
+page=1 block=16488926 (x=1 y=623) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+arterialpressure (mmHg) of oxygen (PaO2)to fractionof inspiredoxygen (FiO2)[P:
+page=1 block=16488926 (x=1 y=632) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+F ratio]; TTCR, time to clinical recovery.
+page=1 block=16488926 (x=1 y=640) width=121.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+? Corresponding author at: Radiation Oncology, WinshipCancer Institute, Emory
+page=1 block=16488926 (x=5 y=645) width=247.000000 height=8.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+University Hospital, 1365 Clifton Road NE, Atlanta, GA 30345, United States.
+page=1 block=16488926 (x=1 y=657) width=232.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+E-mail address: drkhurram2000@gmail.com (M.K. Khan).
+page=1 block=16488926 (x=12 y=667) width=172.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+https://doi.org/10.1016/j.radonc.2021.10.003
+page=1 block=10231836 (x=1 y=685) width=135.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+0167-8140/ 2021 Elsevier B.V. All rights reserved.
+page=1 block=10231836 (x=1 y=693) width=156.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+the lungs [1], patients can face mortality rates of 30–50% once
+page=1 block=146472584 (x=270 y=543) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+dependent on mechanical ventillation [2–4]. The
+page=1 block=146472584 (x=270 y=554) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=18
+anti-in?ammatory effects of low-dose, ionizing radiation therapy
+page=1 block=146472584 (x=270 y=564) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(LD-RT) are well-established for multiple hyper-in?ammatory
+page=1 block=146472584 (x=270 y=575) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+conditions [5–12]. LD-RT has reduced in?ammatory opacities in
+page=1 block=146472584 (x=270 y=585) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+the lung, pro-in?ammatory markers interleukin-6 and interferon-
+page=1 block=146472584 (x=270 y=596) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+gamma, and increased anti-in?ammatory marker interleukin-10
+page=1 block=146472584 (x=270 y=606) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+in murine models of acute lung injury using intra-tracheal admin-
+page=1 block=146472584 (x=270 y=617) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+istration of lipopolysacharade (LPS) [13]. LD-RT directed at the
+page=1 block=146472584 (x=270 y=627) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+lungs may dampen COVID-19’s cytokine hyperactivity through
+page=1 block=146472584 (x=270 y=637) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+similar immunomodulatory pathways [14–16]. Initial reports of
+page=1 block=146472584 (x=270 y=648) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+LD-RT for COVID-19 demonstrated safety, reduced intubation
+page=1 block=146472584 (x=270 y=658) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+Page: 2 left:1 upper:1
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+page=2 block=6553604 (x=1 y=1) width=100.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Radiotherapy and Oncology 165 (2021) 20–31
+page=2 block=-879886332 (x=386 y=1) width=135.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+21
+page=2 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+rates, declined in?ammatory markers, and hastened recovery in
+page=2 block=16450733 (x=1 y=21) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+non-intubated patients [17–19]. A recent but small randomized
+page=2 block=16450733 (x=1 y=31) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+trial studied LD-RT in 11 intubated patients and detected no bene-
+page=2 block=16450733 (x=1 y=42) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+?t compared to 11 intubated controls [20]. Further study of LD-RT
+page=2 block=16450733 (x=1 y=52) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+combined with current standard treatments in non-intubated
+page=2 block=16450733 (x=1 y=63) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+patients is warranted.
+page=2 block=16450733 (x=1 y=73) width=83.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Materials and methods
+page=2 block=6029802 (x=1 y=98) width=92.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=4
+Trial design
+page=2 block=2753107 (x=1 y=119) width=42.000000 height=5.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=5
+The Radiation Eliminates Storming Cytokines and Unchecked
+page=2 block=16462936 (x=12 y=134) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Edema as a 1-day Treatment for COVID-19 (RESCUE 1–19) trial is
+page=2 block=16462936 (x=1 y=145) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+an investigator-initiated, single-institution combined phase I/II
+page=2 block=16462936 (x=1 y=155) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+trial. One trial cohort studied 1.5 Gy whole-lung LD-RT with con-
+page=2 block=16462936 (x=1 y=166) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+current dexamethasone and/or remdesevir. All participants gave
+page=2 block=16462936 (x=1 y=176) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+written informed consent prior to study procedures, which
+page=2 block=16462936 (x=1 y=187) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+included risk of second cancer and accelerated cardiovascular dis-
+page=2 block=16462936 (x=1 y=197) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+ease. Clinical Trial Registration Number was NCT04366791. The
+page=2 block=16462936 (x=1 y=208) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+research protocol was approved by the Emory University Institu-
+page=2 block=16462936 (x=1 y=218) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+tional Review Board.
+page=2 block=16462936 (x=1 y=229) width=78.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Patients
+page=2 block=1836032 (x=1 y=256) width=28.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=16
+Eligible LD-RT patients tested positive for SARS-CoV-2 using
+page=2 block=16541676 (x=12 y=271) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+PCR, were hospitalized, had pneumonic consolidation on either
+page=2 block=16541676 (x=1 y=282) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+chest radiograph (CXR) or computed tomography (CT), required
+page=2 block=16541676 (x=1 y=292) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+oxygen supplementation, and failed a trial of oxygen weaning.
+page=2 block=16541676 (x=1 y=303) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Exclusion criteria included disease severity that was too mild
+page=2 block=16541676 (x=1 y=313) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+(weanable to room air) or too severe (intubated). Patients who
+page=2 block=16541676 (x=1 y=324) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+required oxygen levels beyond 15 L/min were transport ineligible.
+page=2 block=16541676 (x=1 y=334) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Anti-pyretic medications were suspended at enrollment. Following
+page=2 block=16541676 (x=1 y=344) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+LD-RT, oxygen weaning followed standards of care. Patients under-
+page=2 block=16541676 (x=1 y=355) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+went clinical assessment at the time of enrollment and on post-RT
+page=2 block=16541676 (x=1 y=365) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+days 1, 3, 7, and 28, as well as optional assessment on days 14 and
+page=2 block=16541676 (x=1 y=376) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+21. Charlson Comorbidity Index (CCI) [21] was used to assess
+page=2 block=16541676 (x=1 y=386) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+comorbidity burden. Radiographs were permitted at any time as
+page=2 block=16541676 (x=1 y=397) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+clinically indicated, but obtained atleast within 1 day prior to radi-
+page=2 block=16541676 (x=1 y=407) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+ation, 24 hours following radiation, and at the timepoints men-
+page=2 block=16541676 (x=1 y=418) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+tioned above. Evaluation of serum in?ammatory, renal, cardiac,
+page=2 block=16541676 (x=1 y=428) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+chemistry, clotting, and hematologic markers were encouraged
+page=2 block=16541676 (x=1 y=439) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+daily, but obtained at least at baseline and at the timepoints men-
+page=2 block=16541676 (x=1 y=449) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+tioned aboved. Following trial completion, a prospective cohort of
+page=2 block=16541676 (x=1 y=459) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+20 contemporaneous controls was retroactively and blindly
+page=2 block=16541676 (x=1 y=470) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+matchedby age, comorbidityburden, and disease severity for com-
+page=2 block=16541676 (x=1 y=480) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+parative outcome analysis. Controls were selected from among
+page=2 block=16541676 (x=1 y=491) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+SARS-CoV-2-positive patients who had enrolled on a separate,
+page=2 block=16541676 (x=1 y=501) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+non-therapeutic, prospective institutional trial. Study investigators
+page=2 block=16541676 (x=1 y=512) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+were blinded to the selection and outcomes of control patients.
+page=2 block=16541676 (x=1 y=522) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Controls were permitted but not required to be co-enrolled on
+page=2 block=16541676 (x=1 y=533) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+any therapeutic trial of COVID-19-directed drugs, including the
+page=2 block=16541676 (x=1 y=543) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Adaptive COVID-19 Treatment Trial (ACTT-1, Clinical Trial
+page=2 block=16541676 (x=1 y=554) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=10
+NCT04280705). To match disease severity, eligible controls were
+page=2 block=16541676 (x=1 y=564) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+required to have received supplemental oxygen during hospitaliza-
+page=2 block=16541676 (x=1 y=575) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+tion and were excluded if they experienced rapid clinical decline
+page=2 block=16541676 (x=1 y=585) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+requiring intubation on the day of admission. No oxygen wean
+page=2 block=16541676 (x=1 y=595) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+attempt prior to enrollment was feasible for controls.
+page=2 block=16541676 (x=1 y=606) width=203.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Intervention
+page=2 block=2886749 (x=1 y=633) width=44.000000 height=5.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=16
+All enrolled patients received best supportive care plus
+page=2 block=16486529 (x=12 y=649) width=240.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+dexamethasone and/or remdesevir prior to LD-RT delivery. Asingle
+page=2 block=16486529 (x=1 y=659) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+treatment of 1.5 Gy was delivered to the bilateral whole lungs with
+page=2 block=16486529 (x=1 y=669) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+15 megavoltage photons on a linear accelerator, utilizing a
+page=2 block=16486529 (x=1 y=680) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+2-dimensional technique, an anterior-posterior beam con?gura-
+page=2 block=16486529 (x=1 y=690) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+tion, and standard dose rates (600 MU/min). Patients in the control
+page=2 block=16486529 (x=1 y=701) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+cohort received best supportive care and standard of care drug
+page=2 block=146408180 (x=270 y=21) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+therapies for COVID-19 (i.e., glucocorticosteroids, remdesevir,
+page=2 block=146408180 (x=270 y=31) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+etc.) per physician discretion or therapeutic protocol without
+page=2 block=146408180 (x=270 y=42) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+LD-RT.
+page=2 block=146408180 (x=270 y=52) width=25.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=17
+Outcome measures
+page=2 block=1203241276 (x=270 y=79) width=68.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Primary objectives were (1) safety and (2) ef?cacy of LD-RT
+page=2 block=146450194 (x=281 y=94) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+delivered concurrently with dexamethasone and/or remdesevir
+page=2 block=146450194 (x=270 y=105) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+[17]. Ef?cacy was explored by comparing intubation rates and time
+page=2 block=146450194 (x=270 y=115) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+to clinical recovery (TTCR). TTCR was de?ned equivalentlyas it was
+page=2 block=146450194 (x=270 y=126) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+in the ACTT-1 trial, as time from ?rst COVID-19 intervention to the
+page=2 block=146450194 (x=270 y=136) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+?rst day on which a subject satis?ed one of three categories: (1)
+page=2 block=146450194 (x=270 y=146) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Not hospitalized, no limitations on activities; (2) Not hospitalized,
+page=2 block=146450194 (x=270 y=157) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+limitation on activities and/or requiring home oxygen; or (3)
+page=2 block=146450194 (x=270 y=167) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+Hospitalized, not requiring supplemental oxygen. A full 24-hour
+page=2 block=146450194 (x=270 y=178) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+calendar day free of oxygen supplementation was required to trig-
+page=2 block=146450194 (x=270 y=188) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+ger the binary classi?cation of a patient as recovered. Additional
+page=2 block=146450194 (x=270 y=199) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+secondary outcomes explored clinical course, radiographic
+page=2 block=146450194 (x=270 y=209) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=10
+changes, and clinical lab results. Clinical course was evaluated by
+page=2 block=146450194 (x=270 y=220) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+overall survival (OS), total hospital duration, time from admission
+page=2 block=146450194 (x=270 y=230) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+to clinical recovery, freedom from intubation, intubation-free sur-
+page=2 block=146450194 (x=270 y=241) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+vival,duration of intubation, and cumulative oxygen supplementa-
+page=2 block=146450194 (x=270 y=251) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+tion requirement. Intubation-free survival was de?ned as the
+page=2 block=146450194 (x=270 y=262) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+proportion of patients who were both alive and had not required
+page=2 block=146450194 (x=270 y=272) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+intubation or mechanical ventilation during hospitalization. Dis-
+page=2 block=146450194 (x=270 y=282) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+ease severity was assessed at baseline by oxygen requirement (L/
+page=2 block=146450194 (x=270 y=293) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+min) and arterial blood gas using a ratio of arterial pressure
+page=2 block=146450194 (x=270 y=303) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+(mmHg) of oxygen (PaO2) to fraction of inspired oxygen (FiO2)
+page=2 block=146450194 (x=270 y=314) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+[P:F ratio]. Radiographic changes were evaluated by serial imaging.
+page=2 block=146450194 (x=270 y=324) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Chest radiographs were categorized as improved (I), stable (S), or
+page=2 block=146450194 (x=270 y=335) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+worse (W) by comparing to the immediately preceding study by
+page=2 block=146450194 (x=270 y=345) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+a blinded board-certi?ed diagnostic radiologist (BW) and also
+page=2 block=146450194 (x=270 y=356) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+blindly assigned an ordinal 1–5 score, using an acute respiratory
+page=2 block=146450194 (x=270 y=366) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+distress syndrome (ARDS) scoring scale [22]. Radiological blinding
+page=2 block=146450194 (x=270 y=377) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+allowed knowledge of radiograph sequencing but ensured no
+page=2 block=146450194 (x=270 y=387) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+knowledge of cohort designation, intervention received, or timing
+page=2 block=146450194 (x=270 y=397) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+thereof. Chest computed tomography studies obtained at baseline
+page=2 block=146450194 (x=270 y=408) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+and day 7 were subjectively assessed and visually compared with-
+page=2 block=146450194 (x=270 y=418) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+out a standardized scoring system. Serological course was mea-
+page=2 block=146450194 (x=270 y=429) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+sured by serial laboratory evaluations of hematologic, renal,
+page=2 block=146450194 (x=270 y=439) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+cardiac, chemistry, clotting, and in?ammatory markers. Start time
+page=2 block=146450194 (x=270 y=450) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+to clinical recovery was de?ned as it was in prior cohorts [17], as
+page=2 block=146450194 (x=270 y=460) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+the time from LD-RT delivery (in the radiation cohort), as the ?rst
+page=2 block=146450194 (x=270 y=471) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+day of administration of COVID-19 therapy (in control patients, if
+page=2 block=146450194 (x=270 y=481) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+received [n = 18]), or as the ?rst full-day of hospitalization (in con-
+page=2 block=146450194 (x=270 y=492) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+trol patients who received best supportive care alone [n = 2]). To
+page=2 block=146450194 (x=270 y=502) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+control for lead-time bias from this de?nition, hospital duration
+page=2 block=146450194 (x=270 y=513) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+and time from hospital admission to clinical recovery were also
+page=2 block=146450194 (x=270 y=523) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+evaluated. Days febrile and oxygenation duration and burden were
+page=2 block=146450194 (x=270 y=533) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+tracked.
+page=2 block=146450194 (x=270 y=544) width=30.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=17
+CRP response
+page=2 block=831654690 (x=270 y=570) width=47.000000 height=5.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+During trial enrollment, durable declines in C-reactive protein
+page=2 block=146440826 (x=281 y=586) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(CRP) were observed following LD-RT in most recovering patients,
+page=2 block=146440826 (x=270 y=596) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+while CRP rise occurred prior to poor outcomes. A subset analysis
+page=2 block=146440826 (x=270 y=607) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+was planned mid-trial, de?ning a predictive variable ‘‘CRP
+page=2 block=146440826 (x=270 y=617) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+response.” Patients who did and did not experience consistent
+page=2 block=146440826 (x=270 y=628) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+decline in CRP over 3 days following LD-RT were categorized as re-
+page=2 block=146440826 (x=270 y=638) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+sponders and non-responders, respectively. CRP non-responders
+page=2 block=146410020 (x=270 y=649) width=251.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=8
+were de?ned as experiencing both of the following: (1) elevated
+page=2 block=146438397 (x=270 y=659) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+CRP level (>10 mg/dL) the morning prior to LD-RT (baseline), and
+page=2 block=146438397 (x=270 y=669) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(2) two sequential rises in CRP above baseline among the ?rst three
+page=2 block=146438397 (x=270 y=680) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+daily measurements immediately following LD-RT. To control for
+page=2 block=146438397 (x=270 y=690) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+lab variability, rise in CRP level was de?ned as an increase of
+page=2 block=146438397 (x=270 y=701) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Page: 3 left:1 upper:1
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+page=3 block=11141124 (x=1 y=1) width=170.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 1. CONSORT ?ow diagram.
+page=3 block=1326123764 (x=213 y=701) width=95.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+22
+page=3 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+2% above the immediately preceding result. Daily labs were
+page=3 block=16450467 (x=1 y=19) width=251.000000 height=7.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+drawn approximately 24 hours apart so that duplicate or rapidly
+page=3 block=16450467 (x=1 y=31) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+repeated lab rises did not overestimate sequential CRP rise. Evalu-
+page=3 block=16450467 (x=1 y=42) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+ation was permitted to span 4 days following LD-RT in the event of
+page=3 block=16450467 (x=1 y=52) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+missing labs.
+page=3 block=16450467 (x=1 y=63) width=49.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Statistical analysis
+page=3 block=4325756 (x=1 y=95) width=66.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Wilcoxon rank sum tests, Fisher’s exact tests, and log-rank tests
+page=3 block=16474286 (x=12 y=110) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+were used for continuous, categorical, and time-to-event end-
+page=3 block=16474286 (x=1 y=121) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+points, respectively. Cumulative incidence of recovery and dis-
+page=3 block=16474286 (x=1 y=131) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+charge, overall survival, freedom from intubation, and
+page=3 block=16474286 (x=1 y=142) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=12
+intubation-free survival were estimated and/or graphed using the
+page=3 block=16474286 (x=1 y=152) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Kaplan-Meier method. Deceased patients were censored at time
+page=3 block=16474286 (x=1 y=162) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+of death. Univariate Cox proportional hazards models were ?t
+page=3 block=16474286 (x=1 y=173) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+and hazard ratios reported. Serial imaging ARDS scores were car-
+page=3 block=16474286 (x=1 y=183) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+riedforwardfrom Day 7 to 14 to21, if missing. CXR outcomes were
+page=3 block=16474286 (x=1 y=194) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+reported as mean ARDS scale scores for sequential time periods.
+page=3 block=16474286 (x=1 y=204) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Median and interquartile range was calculated for laboratory val-
+page=3 block=16474286 (x=1 y=215) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+ues at clustered time points: hospital days 0–2, 3–5, 6–8, 9–11,
+page=3 block=16474286 (x=1 y=225) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+and 12–14. Univariate ANOVA (within clustered days) and multi-
+page=3 block=16474286 (x=1 y=236) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+variate repeated values ANOVA (between clustered days) were
+page=3 block=16474286 (x=1 y=246) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+used to compare changes in repeated laboratory measures. Clinical
+page=3 block=16474286 (x=1 y=257) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+outcomes were strati?ed in subset analysis by binary classi?cation
+page=3 block=16474286 (x=1 y=267) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+of CRP responders vs. non-responders. Within this analysis, t-tests
+page=3 block=16474286 (x=1 y=277) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+were used for continuous endpoints rather than Wilcoxon rank
+page=3 block=16474286 (x=1 y=288) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+sum tests because of observations of effect on outlier data points
+page=3 block=16474286 (x=1 y=298) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+likely to alter means rather than medians. Means were reported
+page=3 block=16474286 (x=1 y=309) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+wherever medians did not explain cohort differences. Statistical
+page=3 block=16474286 (x=1 y=319) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+analysis was performed using SAS 9.4 (SAS Institute Inc., Cary,
+page=3 block=16474286 (x=1 y=330) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+NC), and statistical signi?cance was two-sided and assessed at
+page=3 block=146408180 (x=270 y=21) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+the 0.05 level. To evaluate the predictive value of CRP decline fol-
+page=3 block=146408180 (x=270 y=31) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+lowing drug interventions alone, the same de?nition of CRP
+page=3 block=146408180 (x=270 y=42) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+response and strati?ed analysis was applied to controls.
+page=3 block=146408180 (x=270 y=52) width=213.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Results
+page=3 block=495452555 (x=270 y=79) width=28.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=17
+From June 11, 2020 to December 7, 2020, 65 patients were
+page=3 block=146430924 (x=281 y=100) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+screened for eligibility, and twenty-?ve were enrolled. Of these,
+page=3 block=146430924 (x=270 y=110) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+the ?rst twenty were treated with LD-RT and 5 were reserved as
+page=3 block=146430924 (x=270 y=121) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+future controls for immunologic pro?ling. None required more
+page=3 block=146430924 (x=270 y=131) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+than 15 L/min of supplemental oxygen, making all patients eligible
+page=3 block=146430924 (x=270 y=141) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+for transport. Of the 40 patients screened but not enrolled, 21 had
+page=3 block=146430924 (x=270 y=152) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+disease too mild to meet severity criteria, 5 declined to participate,
+page=3 block=146430924 (x=270 y=162) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+5 were young and likely to spontaneously recover, 5 had no docu-
+page=3 block=146430924 (x=270 y=173) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+mented rationale for non-enrollment, 3 had disease too severe to
+page=3 block=146430924 (x=270 y=183) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+meet severity criteria and were intubated before written consent,
+page=3 block=146430924 (x=270 y=194) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+and 1 did not ultimately meet SARS-CoV-2 eligibility criteria
+page=3 block=146430924 (x=270 y=204) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+(Fig. 1). Following trial completion, 20control patients hospitalized
+page=3 block=146430924 (x=270 y=215) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+between March 6, 2020 and November 19, 2020 and enrolled on a
+page=3 block=146430924 (x=270 y=225) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+separate collaborating non-therapeutic trial were blindly matched
+page=3 block=146430924 (x=270 y=236) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+for comparison against the LD-RT group. One control rapidly intu-
+page=3 block=146430924 (x=270 y=246) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+bated on the day of admission and later died and was excluded and
+page=3 block=146430924 (x=270 y=257) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+blindly replaced to ensure matching of disease severity at admis-
+page=3 block=146430924 (x=270 y=267) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+sion between cohorts.
+page=3 block=146430924 (x=270 y=277) width=83.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Table 1 outlines patient demographics at the time of hospital
+page=3 block=146430924 (x=281 y=288) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+admission and administered COVID-19 drug therapies. Median
+page=3 block=146430924 (x=270 y=298) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+age was 63 (49–88). Fifty-three percent of patients were
+page=3 block=146430924 (x=270 y=309) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+African-American, 38% were female, and 12% were residents of
+page=3 block=146430924 (x=270 y=319) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+assisted living centers. None experienced altered mentation at
+page=3 block=146430924 (x=270 y=330) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+Page: 4 left:1 upper:1
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+page=4 block=6553604 (x=1 y=1) width=100.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Radiotherapy and Oncology 165 (2021) 20–31
+page=4 block=-879886332 (x=386 y=1) width=135.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Age 65 and over
+page=4 block=774964149 (x=215 y=73) width=50.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Age 64 and under
+page=4 block=774964149 (x=215 y=82) width=55.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Black/Non-Hispanic
+page=4 block=873599298 (x=215 y=94) width=60.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Non-Black/Other
+page=4 block=873599298 (x=215 y=103) width=51.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+White/Non-Hispanic
+page=4 block=873599298 (x=215 y=111) width=62.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Asian
+page=4 block=873599298 (x=215 y=120) width=17.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+White/Hispanic
+page=4 block=873599298 (x=215 y=129) width=47.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Not disclosed
+page=4 block=873599298 (x=215 y=137) width=41.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Independent/With Family
+page=4 block=1099042290 (x=215 y=170) width=78.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Caregiver/Assisted
+page=4 block=1099042290 (x=215 y=179) width=56.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Living/Nursing Home
+page=4 block=1099042290 (x=215 y=187) width=65.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Hydroxychloroquine
+page=4 block=873601432 (x=215 y=312) width=62.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Remdesevir
+page=4 block=873601432 (x=215 y=320) width=36.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Dexamethasone
+page=4 block=873601432 (x=215 y=329) width=49.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+* The non-parametric p-value is calculated by a Wilcoxon rank sum test for numerical covariates and Fisher’s exact test for 2-level categorical covariates.
+page=4 block=154343720 (x=7 y=460) width=469.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+** P:F ratio normal range in ARDS: 300 to 200 is mild, 200 to 100 is moderate and less than 100 is severe.
+page=4 block=154343720 (x=5 y=468) width=324.000000 height=6.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+23
+page=4 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Table 1
+page=4 block=1441876 (x=1 y=21) width=22.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=4
+Patient demographics.
+page=4 block=4259956 (x=1 y=29) width=65.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median age in years (range)
+page=4 block=50725124 (x=9 y=65) width=86.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Race/Ethnicity
+page=4 block=25952632 (x=9 y=94) width=44.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Gender
+page=4 block=12976724 (x=9 y=149) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Female
+page=4 block=309987217 (x=215 y=149) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Male
+page=4 block=309987217 (x=215 y=158) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Residence
+page=4 block=17695400 (x=9 y=170) width=30.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Median Comorbidity Index (CCI) (Range)
+page=4 block=73138976 (x=9 y=200) width=124.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Chronic Home Oxygen Supplementation
+page=4 block=72549200 (x=9 y=212) width=123.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median duration of symptoms: days prior to admission (range)
+page=4 block=113836928 (x=9 y=224) width=193.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Positive SARS-CoV-2 test prior to admission
+page=4 block=79037364 (x=9 y=237) width=134.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Mean time (in days) between prior positive SARS-CoV-2
+page=4 block=100862892 (x=9 y=249) width=171.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+test and admission (range)
+page=4 block=100862892 (x=18 y=258) width=82.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median O2 (L/min) at admission (range)
+page=4 block=72549432 (x=9 y=270) width=123.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median P:F Ratio: Ratio of Arterial Pressure (mmHg) of Oxygen
+page=4 block=113839524 (x=9 y=291) width=193.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(PaO2) to Fraction of Inspired Oxygen (FiO2) (range)**
+page=4 block=113839524 (x=18 y=298) width=164.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+COVID therapy
+page=4 block=26543328 (x=9 y=312) width=45.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Anti-coagulants
+page=4 block=28312916 (x=9 y=341) width=48.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Enoxaparin
+page=4 block=535454013 (x=215 y=341) width=35.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Aspirin
+page=4 block=535454013 (x=215 y=350) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Heparin
+page=4 block=535454013 (x=215 y=358) width=25.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Rivaroxaban
+page=4 block=535454013 (x=215 y=367) width=38.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Apixaban
+page=4 block=535454013 (x=215 y=375) width=29.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Warfarin
+page=4 block=535454013 (x=215 y=384) width=27.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Single-agent
+page=4 block=535454013 (x=215 y=393) width=38.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Multi-agent
+page=4 block=535454013 (x=215 y=401) width=36.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+None
+page=4 block=535454013 (x=215 y=410) width=16.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Median days of COVID drugs (range)
+page=4 block=66067040 (x=9 y=422) width=112.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median start day of RT (range)§§
+page=4 block=66067040 (x=9 y=433) width=99.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median start day of COVID drugs (range)§§
+page=4 block=76679790 (x=9 y=445) width=130.000000 height=6.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+enrollment. Median CCI comorbidity scores were: 3 (range 1–12).
+page=4 block=16554824 (x=1 y=492) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Median duration of symptoms prior to admission was 10 (range
+page=4 block=16554824 (x=1 y=502) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+1–15) and 7 (2–14) days following LD-RT and for controls, respec-
+page=4 block=16554824 (x=1 y=512) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+tively (p = 0.10). Median oxygen supplementation requirement at
+page=4 block=16554824 (x=1 y=523) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+the time of admission was 3 liters (range 0–15) for both cohorts
+page=4 block=16554824 (x=1 y=533) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(p = 0.51). Disease severity, as assessed by median ratio of arterial
+page=4 block=16554824 (x=1 y=544) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+pressure (mmHg) of oxygen (PaO2) to fraction of inspired oxygen
+page=4 block=16554824 (x=1 y=554) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(FiO2) [P:F ratio] was not statistically different between the
+page=4 block=16554824 (x=1 y=565) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+cohorts: 169 (range 122–325) compared to 183 (range 94–314),
+page=4 block=16554824 (x=1 y=575) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+respectively (p = 0.84). Patients in both the LD-RT and control
+page=4 block=16554824 (x=1 y=586) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+cohorts received COVID-directed drug therapy for a median of
+page=4 block=16554824 (x=1 y=596) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+7.5 days (p = 0.87). LD-RT was administered at median hospital
+page=4 block=16554824 (x=1 y=607) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+day 3 (range 1–8). Patients in the LD-RT cohort received COVID-
+page=4 block=16554824 (x=1 y=617) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+directed therapy (dexamethasone and/or remdesevir, etc.) at a
+page=4 block=16554824 (x=1 y=628) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+median start time of hospital day 1 (range 1–5), compared to 2.5
+page=4 block=16554824 (x=1 y=638) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(range 1–6) in controls (p = 0.02).
+page=4 block=16554824 (x=1 y=648) width=128.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+LD-RT was delivered safely with dexamethasone and/or
+page=4 block=16554824 (x=12 y=659) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+remdesevir without acute toxicity or re?ex clinical, radiographic,
+page=4 block=16554824 (x=1 y=669) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+or serologic worsening of pneumonia. Intubation rates reduced
+page=4 block=16554824 (x=1 y=680) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+by 56% following LD-RT compared to controls (14% vs. 32% in con-
+page=4 block=16554824 (x=1 y=690) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+trols), translating to freedom from intubation at day 28 (Fig. 2) of
+page=4 block=16554824 (x=1 y=701) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+LD-RT Cohort
+page=4 block=804782608 (x=307 y=44) width=40.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(n = 20)
+page=4 block=804782608 (x=307 y=52) width=24.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Matched Controls
+page=4 block=1291715088 (x=365 y=44) width=54.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(n = 20)
+page=4 block=1291715088 (x=365 y=52) width=24.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Total
+page=4 block=679477776 (x=432 y=44) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+(n = 40)
+page=4 block=679477776 (x=432 y=52) width=24.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+p-Value*
+page=4 block=828113072 (x=486 y=44) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+64.5 (53–85)
+page=4 block=784662788 (x=307 y=65) width=39.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+63 (49–88)
+page=4 block=789381380 (x=365 y=65) width=33.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+63 (49–88)
+page=4 block=934281476 (x=432 y=65) width=33.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.54
+page=4 block=414056708 (x=486 y=65) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+10
+page=4 block=140837156 (x=307 y=73) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+8
+page=4 block=95682852 (x=365 y=73) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+18 (45%)
+page=4 block=736100644 (x=432 y=73) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.75
+page=4 block=414056740 (x=486 y=73) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+10
+page=4 block=140837192 (x=307 y=82) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+12
+page=4 block=167444808 (x=365 y=82) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+22 (55%)
+page=4 block=736100680 (x=432 y=82) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+11
+page=4 block=140837240 (x=307 y=94) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+10
+page=4 block=167444856 (x=365 y=94) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+21 (53%)
+page=4 block=736100728 (x=432 y=94) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1. 0
+page=4 block=286654840 (x=486 y=94) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+9
+page=4 block=60359068 (x=307 y=103) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+10
+page=4 block=167444892 (x=365 y=103) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+19 (47%)
+page=4 block=736100764 (x=432 y=103) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+5
+page=4 block=60359100 (x=307 y=111) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+8
+page=4 block=95683004 (x=365 y=111) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+13 (33%)
+page=4 block=736100796 (x=432 y=111) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+–
+page=4 block=127402428 (x=486 y=111) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0
+page=4 block=60359136 (x=307 y=120) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1
+page=4 block=95683040 (x=365 y=120) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1 (3%)
+page=4 block=509608416 (x=432 y=120) width=18.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+2
+page=4 block=60359043 (x=307 y=129) width=3.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1
+page=4 block=95682947 (x=365 y=129) width=4.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+3 (8%)
+page=4 block=509608323 (x=432 y=129) width=18.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+2
+page=4 block=60359204 (x=307 y=137) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0
+page=4 block=71762468 (x=365 y=137) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+2 (5%)
+page=4 block=509608484 (x=432 y=137) width=18.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+6
+page=4 block=60359252 (x=307 y=149) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+9
+page=4 block=95683156 (x=365 y=149) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+15 (38%)
+page=4 block=736100948 (x=432 y=149) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.51
+page=4 block=414057044 (x=486 y=149) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+14
+page=4 block=140837496 (x=307 y=158) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+11
+page=4 block=167445112 (x=365 y=158) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+25 (62%)
+page=4 block=736100984 (x=432 y=158) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+17
+page=4 block=140837544 (x=307 y=170) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+18
+page=4 block=167445160 (x=365 y=170) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+35 (88%)
+page=4 block=736101032 (x=432 y=170) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1. 0
+page=4 block=286655144 (x=486 y=170) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+3
+page=4 block=60359372 (x=307 y=179) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+2
+page=4 block=95683276 (x=365 y=179) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+5 (12%)
+page=4 block=622854860 (x=432 y=179) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+3 (1–10)
+page=4 block=523109152 (x=307 y=200) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+3 (1–12)
+page=4 block=621937440 (x=365 y=200) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+3 (1–12)
+page=4 block=736101152 (x=432 y=200) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+0.74
+page=4 block=414057248 (x=486 y=200) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+1
+page=4 block=60359504 (x=307 y=212) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0
+page=4 block=71762768 (x=365 y=212) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0 (0%)
+page=4 block=509608784 (x=432 y=212) width=18.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+–
+page=4 block=127402832 (x=486 y=212) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+10 (1–15)
+page=4 block=583467904 (x=307 y=224) width=29.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+7 (2–14)
+page=4 block=621937536 (x=365 y=224) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+7 (1–15)
+page=4 block=736101248 (x=432 y=224) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+0.10
+page=4 block=414057344 (x=486 y=224) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+8
+page=4 block=60359604 (x=307 y=237) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+6
+page=4 block=95683508 (x=365 y=237) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+14 (35%)
+page=4 block=736101300 (x=432 y=237) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.74
+page=4 block=414057396 (x=486 y=237) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+3.3 (013)
+page=4 block=543228900 (x=307 y=249) width=27.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1.7 (0–12)
+page=4 block=741540836 (x=365 y=249) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+2.5 (0–13)
+page=4 block=877659108 (x=432 y=249) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.32
+page=4 block=414057444 (x=486 y=249) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+3.0 (0–15)
+page=4 block=623707192 (x=307 y=270) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+3.0 (0–15)
+page=4 block=741540920 (x=365 y=270) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+3.0 (0–15)
+page=4 block=877659192 (x=432 y=270) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.51
+page=4 block=414057528 (x=486 y=270) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+[Mean 4.4]
+page=4 block=663946328 (x=307 y=278) width=33.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+[Mean 3.3]
+page=4 block=789382232 (x=365 y=278) width=33.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[Mean 3.8]
+page=4 block=934282328 (x=432 y=278) width=33.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+169 (122–325)
+page=4 block=905381004 (x=307 y=291) width=45.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+183 (94–314)
+page=4 block=980747404 (x=365 y=291) width=41.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+176 (94–325)
+page=4 block=1160774796 (x=432 y=291) width=41.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.84
+page=4 block=414057612 (x=486 y=291) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+0
+page=4 block=60359904 (x=307 y=312) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+2
+page=4 block=95683808 (x=365 y=312) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+2 (5%)
+page=4 block=509609184 (x=432 y=312) width=18.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+–
+page=4 block=127403232 (x=486 y=312) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+14
+page=4 block=140838144 (x=307 y=320) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+15
+page=4 block=167445760 (x=365 y=320) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+29 (72%)
+page=4 block=736101632 (x=432 y=320) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+19
+page=4 block=140838180 (x=307 y=329) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+10
+page=4 block=167445796 (x=365 y=329) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+29 (72%)
+page=4 block=736101668 (x=432 y=329) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+14
+page=4 block=140838228 (x=307 y=341) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+17
+page=4 block=167445844 (x=365 y=341) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+31 (78%)
+page=4 block=736101716 (x=432 y=341) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+–
+page=4 block=127403348 (x=486 y=341) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+5
+page=4 block=60360056 (x=307 y=350) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1
+page=4 block=95683960 (x=365 y=350) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+6 (15%)
+page=4 block=622855544 (x=432 y=350) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+6
+page=4 block=60360088 (x=307 y=358) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+2
+page=4 block=95683992 (x=365 y=358) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+8 (20%)
+page=4 block=622855576 (x=432 y=358) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+1
+page=4 block=60360124 (x=307 y=367) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0
+page=4 block=71763388 (x=365 y=367) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1 (3%)
+page=4 block=509609404 (x=432 y=367) width=18.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+2
+page=4 block=60360156 (x=307 y=375) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1
+page=4 block=95684060 (x=365 y=375) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+3 (8%)
+page=4 block=509609436 (x=432 y=375) width=18.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+0
+page=4 block=60360192 (x=307 y=384) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1
+page=4 block=95684096 (x=365 y=384) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1 (3%)
+page=4 block=509609472 (x=432 y=384) width=18.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+11
+page=4 block=140838043 (x=307 y=393) width=7.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+15
+page=4 block=167445659 (x=365 y=393) width=7.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+26 (65%)
+page=4 block=736101531 (x=432 y=393) width=26.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+9
+page=4 block=60360260 (x=307 y=401) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+5
+page=4 block=95684164 (x=365 y=401) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+14 (35%)
+page=4 block=736101956 (x=432 y=401) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0
+page=4 block=60360296 (x=307 y=410) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0
+page=4 block=71763560 (x=365 y=410) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0%
+page=4 block=198182504 (x=432 y=410) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+7.5 (1–11)
+page=4 block=623707800 (x=307 y=422) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+7.5 (0–16)
+page=4 block=741541528 (x=365 y=422) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+7.5 (0–16)
+page=4 block=877659800 (x=432 y=422) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.87
+page=4 block=414058136 (x=486 y=422) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+3 (1–8)
+page=4 block=442631880 (x=307 y=434) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+–
+page=4 block=95684296 (x=365 y=434) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+3 (1–8)
+page=4 block=622855880 (x=432 y=434) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+–
+page=4 block=127403720 (x=486 y=434) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1 (1–5)
+page=4 block=442631932 (x=307 y=447) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+2.5 (1–6)
+page=4 block=645859068 (x=365 y=447) width=27.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+1 (1–6)
+page=4 block=622855932 (x=432 y=447) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+0.02
+page=4 block=414058236 (x=486 y=447) width=13.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+86% following LD-RT compared to 68% in controls, which
+page=4 block=146512712 (x=270 y=492) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+approached statistical signi?cance (p = 0.09). Intubation-free sur-
+page=4 block=146512712 (x=270 y=502) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+vival was 77% compared to 68%, respectively (p = 0.17). Statistical
+page=4 block=146512712 (x=270 y=512) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+differences in median time to clinical recovery (TTCR) and time
+page=4 block=146512712 (x=270 y=523) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+from admission to clinical recovery between the cohorts were
+page=4 block=146512712 (x=270 y=533) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+not detectable (p = 0.37, Table 2). Median hospital duration was
+page=4 block=146512712 (x=270 y=544) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+10.5 days (range 5–33) in the LD-RT cohort compared to 11.5 days
+page=4 block=146512712 (x=270 y=554) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(range 3–42) in controls (p = 0.61). Additional treatment outcomes
+page=4 block=146512712 (x=270 y=565) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+for the entire cohort are reported in Table 2.
+page=4 block=146512712 (x=270 y=575) width=169.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Radiographic improvement was not detectable between the LD-
+page=4 block=146512712 (x=281 y=586) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+RT and control cohorts (p = 0.72, Fig. 4). Representative CT images
+page=4 block=146512712 (x=270 y=596) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+from patients with high burden of pulmonary consolidations asso-
+page=4 block=146512712 (x=270 y=607) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+ciated with COVID-19 that radiographically worsened following
+page=4 block=146512712 (x=270 y=617) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+LD-RT, as well as an example of radiographic improvement, are
+page=4 block=146512712 (x=270 y=628) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+shown in Fig. 5.
+page=4 block=146512712 (x=270 y=638) width=60.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Hematologic, renal, cardiac, chemistry, clotting, and in?amma-
+page=4 block=146512712 (x=281 y=648) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+tory markers were tracked from the ?rst day of hospitalization.
+page=4 block=146512712 (x=270 y=659) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Plotted medians and inter-quartile ranges of serologic biomarkers
+page=4 block=146512712 (x=270 y=669) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+for both LD-RT and control patients are shown in Fig. 6. Decline
+page=4 block=146512712 (x=270 y=680) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+of in?ammatory biomarker C-reactive protein (CRP) was statisti-
+page=4 block=146512712 (x=270 y=690) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+cally superior in the LD-RT cohort compared with controls
+page=4 block=146512712 (x=270 y=701) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+Page: 5 left:1 upper:1
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+page=5 block=11141124 (x=1 y=1) width=170.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 3a. Time to clinical recovery for LD-RT responders vs. controls.
+page=5 block=2133068524 (x=158 y=699) width=206.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+24
+page=5 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Fig. 2. Freedom from intubation for the entire LD-RT cohort vs. matched controls.
+page=5 block=16384784 (x=1 y=196) width=250.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(p = 0.02). Cardiac marker, creatine kinase, started higher in LD-RT
+page=5 block=16490304 (x=1 y=224) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+patients, but wasalso signi?cantlyreduced over controls (p < 0.01).
+page=5 block=16490304 (x=1 y=234) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Lower troponin-1 levels in the LD-RT were not statistically detect-
+page=5 block=16490304 (x=1 y=245) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+able (p = 0.29). Liver function remained normal following LD-RT,
+page=5 block=16490304 (x=1 y=255) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+while transaminitis occurred in some controls, but did not reach
+page=5 block=16490304 (x=1 y=265) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+signi?cance(AST =0.35;ALTp=0.60).Neutrophil-to-
+page=5 block=16490304 (x=1 y=276) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+lymphocyte ratio trended higher following LD-RT (p = 0.12). There
+page=5 block=16490304 (x=1 y=286) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+were no detectable reductions (p = 0.80) in white blood cell count.
+page=5 block=16490304 (x=1 y=297) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+No neutropenia was observed. Renal biomarker creatinine was not
+page=5 block=16490304 (x=1 y=307) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+signi?cantly affected (p = 0.75). Myoglobin, erythrocyte sedimen-
+page=5 block=16490304 (x=1 y=318) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+tation rate, lactate dehydrogenase, monocyte count, ferritin, ?b-
+page=5 block=16490304 (x=1 y=328) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+rinogen, procalcitonin, and interleukein-6 trended downward
+page=5 block=16490304 (x=1 y=339) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+after LD-RT but did not reach signi?cance or control comparisons
+page=5 block=16490304 (x=1 y=349) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+were not different or not available (Fig. 6).
+page=5 block=16490304 (x=1 y=360) width=162.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Sixteen of 20 irradiated patients (80%) experienced durable
+page=5 block=16490304 (x=12 y=370) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+decline in CRP levels over 3 days following LD-RT and were classi-
+page=5 block=16490304 (x=1 y=381) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+?ed as CRP responders. The remaining four (20%) experienced
+page=5 block=16490304 (x=1 y=391) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+sequential rises in CRP above elevated baseline levels and were
+page=5 block=16490304 (x=1 y=401) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+p
+page=5 block=19924324 (x=76 y=276) width=4.000000 height=5.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=16 wordint.max=16
+classi?ed as non-responders (Fig. 6, bottom right pane.Supplemental
+page=5 block=146407529 (x=270 y=21) width=251.000000 height=5.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 1). Outcomes for these 16 LD-RT responders compared with
+page=5 block=146418925 (x=270 y=31) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+their 16 matched controls are shown in Fig. 3 and Table 3
+page=5 block=146418925 (x=270 y=42) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+(n = 32). Freedom from intubation was 100% for LD-RT responders
+page=5 block=146418925 (x=270 y=52) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+compared to 66% for matched controls (p = 0.01, Table 3, Fig. 3d),
+page=5 block=146418925 (x=270 y=63) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+translating to a reduction in intubation from 34% to 0%. As a cate-
+page=5 block=146418925 (x=270 y=73) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+gorical variable, none of the LD-RT responders died or required
+page=5 block=146418925 (x=270 y=84) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+intubation, compared to 5 of 16 matched controls (p = 0.04,
+page=5 block=146418925 (x=270 y=94) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+Table 3). Median duration of time intubated was 0 days for LD-
+page=5 block=146418925 (x=270 y=105) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+RT responders vs. 10 days in those matched controls who required
+page=5 block=146418925 (x=270 y=115) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+intubation. Median time to clinical recovery was 7.5 days (range
+page=5 block=146418925 (x=270 y=126) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+2–15) in LD-RT responders and 7 days (range 3–38) in controls
+page=5 block=146418925 (x=270 y=136) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+but maximum recovery time was reduced (15 vs 38 days), shown
+page=5 block=146418925 (x=270 y=146) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+as upper curve separation (p = 0.29, Fig. 3a). Median time from
+page=5 block=146418925 (x=270 y=157) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+admission to clinical recovery was 9.5 days (range 1–17) following
+page=5 block=146418925 (x=270 y=167) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+LD-RT compared to 9 days (range 1–41) in controls, with reduction
+page=5 block=146418925 (x=270 y=178) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+in maximum recovery time (17 vs. 41 days) and upper curve sep-
+page=5 block=146418925 (x=270 y=188) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+aration (p = 0.26, Fig. 3b). Median hospital duration was 10 days
+page=5 block=146418925 (x=270 y=199) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(range 5–18) for LD-RT responders compared to 10 days (range
+page=5 block=146418925 (x=270 y=209) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+3–42) for controls, with reduced maximum hospitalization (18 vs
+page=5 block=146418925 (x=270 y=220) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+42 days) and upper curve separation (p = 0.22, Fig. 3c). The propor-
+page=5 block=146418925 (x=270 y=230) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+tion of patients requiring prolonged hospitalization of 3 weeks or
+page=5 block=146418925 (x=270 y=241) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+longer fell from 30% to 10% with the addition of LD-RT (p = 0.24)
+page=5 block=146418925 (x=270 y=251) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Of the 4 patients who were CRP non-responders in the LD-RT
+page=5 block=146418925 (x=270 y=262) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+cohort, 2 required intubation, 3 died by day 28 (1 refused intuba-
+page=5 block=146418925 (x=270 y=272) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+tion), and the 4th died on day 33.
+page=5 block=146418925 (x=270 y=282) width=128.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+CRP decline over 3 days was observed in 18 of 20 controls (90%)
+page=5 block=146418925 (x=281 y=293) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+but was not predictive of outcome. Six of 18 CRP responder-
+page=5 block=146418925 (x=270 y=303) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+controls (33%) required intubation despite post-drug CRP decline
+page=5 block=146418925 (x=270 y=314) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+and both of the non-responders recovered without intubation
+page=5 block=146418925 (x=270 y=324) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+(p =0.36).Mean total time requiring oxygen supplementation prior
+page=5 block=146418925 (x=270 y=335) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+to recovery was 10.5 days (range 4–18) in LD-RT responders com-
+page=5 block=146418925 (x=270 y=345) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+pared to 14.3 days (range 3–42) in controls (p = 0.24). Average
+page=5 block=146418925 (x=270 y=356) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+daily oxygen maximums per patient were 32% lower at 7.6 L/min
+page=5 block=146418925 (x=270 y=366) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(mean) in LD-RT responders compared to 24 L/min in controls
+page=5 block=146418925 (x=270 y=377) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+(p = 0.03,Table 3). Mean aggregated amount of oxygen supplemen-
+page=5 block=146418925 (x=270 y=387) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+tation (maximum daily L/min  total days oxygenated per patient)
+page=5 block=146418925 (x=270 y=395) width=251.000000 height=7.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Page: 6 left:1 upper:1
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+page=6 block=6553604 (x=1 y=1) width=100.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Radiotherapy and Oncology 165 (2021) 20–31
+page=6 block=-879886332 (x=386 y=1) width=135.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 3b. Time from admission to clinical recovery for LD-RT responders vs. controls.
+page=6 block=-2063596552 (x=133 y=254) width=256.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Fig. 3c. Total hospital duration for LD-RT responders vs. controls.
+page=6 block=2110261348 (x=161 y=537) width=200.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+25
+page=6 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+was 56% lower at 46.2 vs. 104.5 L/min * days, respectively
+page=6 block=16528778 (x=1 y=562) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+(p = 0.06). Average number of days febrile (any fever) was 1.4 days
+page=6 block=16528778 (x=1 y=572) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(range 0–9) vs. 3.3 days (range 0–12), respectively (p = 0.14,
+page=6 block=16528778 (x=1 y=583) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Table 3), in favor of LD-RT responders. Rates of prolonged hospital-
+page=6 block=16528778 (x=1 y=593) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+izations of 21+ days fell from 31% to 0% among CRP responders
+page=6 block=16528778 (x=1 y=604) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+compared to matched controls (p = 0.04). Additional treatment
+page=6 block=16528778 (x=1 y=614) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+outcomes for LD-RT responders are reported in Table 3.
+page=6 block=16528778 (x=1 y=625) width=211.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+There were no recorded acute toxicities. The 3 deaths (15%)
+page=6 block=16528778 (x=12 y=635) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+observed at day 28 in the LD-RT cohort are described in Table 2.
+page=6 block=16528778 (x=1 y=646) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Two patients had COVID-19 symptoms escalate despite LD-RT;
+page=6 block=16528778 (x=1 y=656) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+both went on to intubation and could not be weaned. The third
+page=6 block=16528778 (x=1 y=666) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+was a patient with a large brain meningioma who died after family
+page=6 block=16528778 (x=1 y=677) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+removed opted to remove supportive high-?ow oxygen. Contrary
+page=6 block=16528778 (x=1 y=687) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+to published mortality rates, none of the 20 blindly selected con-
+page=6 block=16528778 (x=1 y=698) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+trols died. No other toxicity, airway emergencies, or adverse events
+page=6 block=146415854 (x=270 y=562) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+were observed following LD-RT.
+page=6 block=146415854 (x=270 y=572) width=121.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Discussion
+page=6 block=743181220 (x=270 y=596) width=42.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=17
+This report describes 28-day outcomes of an exploratory phase
+page=6 block=146462337 (x=281 y=617) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+II trial of whole-lung, low-dose radiation therapy (LD-RT) given
+page=6 block=146462337 (x=270 y=628) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+concurrently with standard drug treatments for COVID-19-
+page=6 block=146462337 (x=270 y=638) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+related pneumonia. Intubation rates declined 56% following LD-
+page=6 block=146462337 (x=270 y=649) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+RT compared to controls, from 32% to 14%, which approached sig-
+page=6 block=146462337 (x=270 y=659) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+ni?cance despite a sample size of only 40 patients (p = 0.09, Fig. 2).
+page=6 block=146462337 (x=270 y=669) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+This reproduces ?ndings from prior reports, where intubation fell
+page=6 block=146462337 (x=270 y=680) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+from 40% to 10% following LD-RT [17]. Among CRP responders,
+page=6 block=146462337 (x=270 y=690) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+intubation was not required in any patient, compared to 31% of
+page=6 block=146462337 (x=270 y=701) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Page: 7 left:1 upper:1
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+page=7 block=11141124 (x=1 y=1) width=170.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 3d. Intubation-free survival for LD-RT responders vs. controls.
+page=7 block=2115306440 (x=159 y=242) width=203.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+LD-RT Cohort (N = 20)
+page=7 block=1149764892 (x=258 y=327) width=68.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Yes
+page=7 block=169084240 (x=258 y=340) width=10.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+16 (80%)
+page=7 block=439616880 (x=258 y=348) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+2 (10%)
+page=7 block=371983764 (x=258 y=357) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+3 (15%)
+page=7 block=371983434 (x=258 y=366) width=22.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+2 (10%)
+page=7 block=371983832 (x=258 y=374) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median
+page=7 block=405800456 (x=258 y=386) width=24.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+10.5
+page=7 block=219809324 (x=258 y=395) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 12.5
+page=7 block=541101486 (x=258 y=403) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+10.5
+page=7 block=541101486 (x=258 y=412) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 12.1
+page=7 block=541101486 (x=258 y=421) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+9. 5
+page=7 block=541101486 (x=258 y=429) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+Mean 9.5
+page=7 block=541101486 (x=258 y=438) width=28.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+6. 7
+page=7 block=541101486 (x=258 y=446) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+Mean 15.3
+page=7 block=541101486 (x=258 y=455) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+48.3
+page=7 block=541101486 (x=258 y=463) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 210
+page=7 block=541101486 (x=258 y=472) width=30.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1. 0
+page=7 block=541101486 (x=258 y=481) width=9.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+Mean 2.0
+page=7 block=541101486 (x=258 y=489) width=28.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Median
+page=7 block=405800418 (x=258 y=502) width=24.000000 height=3.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+7. 5
+page=7 block=152176632 (x=258 y=510) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+10
+page=7 block=118360092 (x=258 y=519) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Not reached
+page=7 block=625613507 (x=258 y=527) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Not reached
+page=7 block=625613507 (x=258 y=536) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+* Thenon-parametricp-value iscalculated by a Wilcoxon rank sum test for numerical covariates,Fisher’s exact test for 2-levelcategorical covariates, and log-rank test for
+page=7 block=34100131 (x=7 y=549) width=514.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+time-to-event covariates with medians reported from Kaplan-Meier curves.
+page=7 block=34100131 (x=1 y=559) width=230.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+** (1) Patient around 80–85 years old with do-not-resuscitate orders,whose family refused intubation, de-escalatedcare, and pursuedcomfort measures. Died hospital day
+page=7 block=34100131 (x=5 y=566) width=516.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+11, hypoxicafter refusing high-?ow oxygen support. (2) Patient around 55–60 years old who received dexamethasone and LD-RT before intubation. Died on hospital day 8
+page=7 block=34100131 (x=1 y=576) width=520.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+despite aggressive care. (3) Patient around age 70–75 who received dexamethasone and LD-RT before intubation. Died on hospital day 25 despite aggressive care.
+page=7 block=34100131 (x=1 y=585) width=495.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+26
+page=7 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Table 2
+page=7 block=1443008 (x=1 y=304) width=22.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=4
+Day 28 outcomes for the entire LD-RT cohort vs. matched controls (n = 40).
+page=7 block=14746852 (x=1 y=313) width=225.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Variables
+page=7 block=16516380 (x=9 y=327) width=28.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Categorical
+page=7 block=20055376 (x=9 y=340) width=34.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Outcome
+page=7 block=137626960 (x=75 y=340) width=28.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Clinically Recovered
+page=7 block=407972040 (x=75 y=348) width=61.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Mechanically Ventilated
+page=7 block=407972040 (x=75 y=357) width=73.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Deceased**
+page=7 block=407972040 (x=75 y=364) width=32.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Hospital Duration 21+ days
+page=7 block=407972040 (x=75 y=374) width=83.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Continuous
+page=7 block=20645384 (x=9 y=386) width=35.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Hospital Duration (days)
+page=7 block=368641580 (x=75 y=395) width=75.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Duration of Oxygen Supplementation (days)
+page=7 block=658638448 (x=75 y=412) width=134.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Duration of Ventilation, if intubated (days)
+page=7 block=638977716 (x=75 y=429) width=130.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Average Daily Maximum Oxygen Need (L/min)
+page=7 block=697960184 (x=75 y=446) width=142.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Cumulative Cohort Oxygenation Need
+page=7 block=565257723 (x=75 y=463) width=115.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(max daily L/min * days oxygenated)
+page=7 block=565257723 (x=75 y=472) width=112.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Days Febrile
+page=7 block=565257723 (x=75 y=481) width=37.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Time-to-Event
+page=7 block=25953762 (x=9 y=502) width=44.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Time to Clinical Recovery [TTCR] (days)
+page=7 block=791362500 (x=75 y=510) width=120.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Time from Admission to Clinical Recovery (days)
+page=7 block=791362500 (x=75 y=519) width=148.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Freedom from Intubation at day 28 (percent, 95% CI)
+page=7 block=791362500 (x=75 y=527) width=161.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Intubation-free Survival at day 28 (percent, 95% CI)
+page=7 block=791362500 (x=75 y=536) width=156.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+matched controls. An ongoing phase III trial has been powered
+page=7 block=16498208 (x=1 y=624) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+based on these ?ndings. A sample size of 150 randomized patients
+page=7 block=16498208 (x=1 y=634) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+will be used to determine LD-RT’s effect on intubation rates and
+page=7 block=16498208 (x=1 y=645) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+intubation-free survival.
+page=7 block=16498208 (x=1 y=655) width=92.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+TTCR and hospital duration were improved following LD-RT
+page=7 block=16498208 (x=12 y=666) width=240.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+without drug therapies in a prior report (n = 20) [17]. In this study,
+page=7 block=16498208 (x=1 y=676) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+TTCR and prolonged hospitalizations were improved among CRP
+page=7 block=16498208 (x=1 y=686) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+responders, but not in the total cohort despite a larger sample size
+page=7 block=16498208 (x=1 y=697) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Control Cohort (N = 20)
+page=7 block=1755317532 (x=372 y=327) width=72.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+p-value*
+page=7 block=797902108 (x=487 y=327) width=25.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+No
+page=7 block=166200656 (x=317 y=340) width=8.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Yes
+page=7 block=268174672 (x=372 y=340) width=11.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+No
+page=7 block=254215504 (x=431 y=340) width=9.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+4 (20%)
+page=7 block=457049456 (x=317 y=348) width=22.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+17 (85%)
+page=7 block=658244976 (x=372 y=348) width=27.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+3 (15%)
+page=7 block=649659760 (x=431 y=348) width=23.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1. 0
+page=7 block=287245680 (x=487 y=348) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+18 (90%)
+page=7 block=540149140 (x=317 y=357) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+6 (30%)
+page=7 block=560727444 (x=372 y=357) width=23.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+14 (70%)
+page=7 block=734397844 (x=431 y=357) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.24
+page=7 block=414909844 (x=487 y=357) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+17 (85%)
+page=7 block=540148810 (x=317 y=366) width=26.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0
+page=7 block=97518666 (x=372 y=366) width=4.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+20 (100%)
+page=7 block=847381578 (x=431 y=366) width=30.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.23
+page=7 block=414909514 (x=487 y=366) width=13.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+18 (90%)
+page=7 block=540149208 (x=317 y=374) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+6 (30%)
+page=7 block=560727512 (x=372 y=374) width=23.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+14 (70%)
+page=7 block=734397912 (x=431 y=374) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.24
+page=7 block=414909912 (x=487 y=374) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Range
+page=7 block=394724872 (x=317 y=386) width=19.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Median
+page=7 block=585106952 (x=372 y=386) width=24.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Range
+page=7 block=564921864 (x=431 y=386) width=20.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+5–33
+page=7 block=311625260 (x=317 y=395) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+11.5
+page=7 block=316933676 (x=372 y=395) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+3–42
+page=7 block=423691820 (x=431 y=395) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.61
+page=7 block=414909996 (x=487 y=395) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Mean 15.8
+page=7 block=780176814 (x=372 y=403) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+9.5
+page=7 block=780176814 (x=372 y=412) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 13.9
+page=7 block=780176814 (x=372 y=421) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+9.5
+page=7 block=780176814 (x=372 y=429) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 13
+page=7 block=780176814 (x=372 y=438) width=27.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+4.0
+page=7 block=780176814 (x=372 y=446) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 23.1
+page=7 block=780176814 (x=372 y=455) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+60.3
+page=7 block=780176814 (x=372 y=463) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Mean 530
+page=7 block=780176814 (x=372 y=472) width=31.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1.0
+page=7 block=780176814 (x=372 y=481) width=9.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 3.0
+page=7 block=780176814 (x=372 y=489) width=28.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+4–33
+page=7 block=311625328 (x=317 y=412) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+3–42
+page=7 block=423691888 (x=431 y=412) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.72
+page=7 block=414910064 (x=487 y=412) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+5–14
+page=7 block=311625396 (x=317 y=429) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+1–34
+page=7 block=423691956 (x=431 y=429) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.87
+page=7 block=414910132 (x=487 y=429) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+1.5–81.5
+page=7 block=540149496 (x=317 y=446) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+1.5–86
+page=7 block=593168120 (x=431 y=446) width=21.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.91
+page=7 block=414910200 (x=487 y=446) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+6–1591
+page=7 block=477824828 (x=317 y=463) width=23.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+7.5–3636
+page=7 block=790890300 (x=431 y=463) width=28.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.73
+page=7 block=414910268 (x=487 y=463) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+0–9
+page=7 block=228525475 (x=317 y=481) width=11.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0–12
+page=7 block=423691683 (x=431 y=481) width=15.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.91
+page=7 block=414909859 (x=487 y=481) width=13.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Range
+page=7 block=394724834 (x=317 y=502) width=19.000000 height=3.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Median
+page=7 block=585106914 (x=372 y=502) width=24.000000 height=3.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Range
+page=7 block=564921826 (x=431 y=502) width=20.000000 height=3.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+2–30
+page=7 block=311625720 (x=317 y=510) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+7
+page=7 block=97519608 (x=372 y=510) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+2–38
+page=7 block=423692280 (x=431 y=510) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.37
+page=7 block=414910456 (x=487 y=510) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+4–33
+page=7 block=311625756 (x=317 y=519) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+9
+page=7 block=97519644 (x=372 y=519) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+2–41
+page=7 block=423692316 (x=431 y=519) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.37
+page=7 block=414910492 (x=487 y=519) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+86 (54–97)
+page=7 block=685574204 (x=317 y=527) width=33.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Not reached
+page=7 block=902044355 (x=372 y=527) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Not reached
+page=7 block=902044355 (x=372 y=536) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+68 (42–84)
+page=7 block=960366652 (x=431 y=527) width=34.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.09
+page=7 block=414910524 (x=487 y=527) width=13.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=2
+77 (42–92)
+page=7 block=685574240 (x=317 y=536) width=33.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+68 (42–84)
+page=7 block=960366688 (x=431 y=536) width=34.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.17
+page=7 block=414910560 (x=487 y=536) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+(n = 40, Table 2). Outcomes may have been confounded by an
+page=7 block=146456096 (x=270 y=624) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+unusually favorable control population. Controls were not able to
+page=7 block=146456096 (x=270 y=634) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+undergo oxygen weaning trials prior to enrollment, were not all
+page=7 block=146456096 (x=270 y=645) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+ill enough to prioritize enrollment on therapeutic trials, and were
+page=7 block=146456096 (x=270 y=655) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+speci?cally excluded if they experienced rapid clinical decline on
+page=7 block=146456096 (x=270 y=666) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+admission. Thesefactors may have introduced a favorable selection
+page=7 block=146456096 (x=270 y=676) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+bias among controls, corroborated by the surprising observation
+page=7 block=146456096 (x=270 y=686) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+that no deaths were observed among controls.
+page=7 block=146456096 (x=270 y=697) width=177.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Page: 8 left:1 upper:1
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+page=8 block=6553604 (x=1 y=1) width=100.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Radiotherapy and Oncology 165 (2021) 20–31
+page=8 block=-879886332 (x=386 y=1) width=135.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 4. ARDS X-ray scale scores by hospital day.
+page=8 block=1786513980 (x=188 y=655) width=145.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+27
+page=8 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Page: 9 left:1 upper:1
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+page=9 block=11141124 (x=1 y=1) width=170.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 5. Radiographic changes after low-dose whole-lung radiotherapy (LD-RT).
+page=9 block=-2086467132 (x=141 y=625) width=239.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+28
+page=9 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+A recent randomized trial of 11 intubated patients with
+page=9 block=16473332 (x=12 y=661) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+advanced COVID-19 evaluated LD-RT and observed no clinical ben-
+page=9 block=16473332 (x=1 y=672) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+e?t [20]. This study was small and lacked prior knowledge of effect
+page=9 block=16473332 (x=1 y=682) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+size to inform its power analysis but is the only published
+page=9 block=16473332 (x=1 y=692) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+randomized trial to date. We also observed little improvement in
+page=9 block=146431220 (x=270 y=661) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+CRP non-responders. Both CRP rise following LD-RT and intubation
+page=9 block=146431220 (x=270 y=672) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+may be indicative of disseminated or more severe COVID-19.
+page=9 block=146431220 (x=270 y=682) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+Mechanistically, LD-RT may be utilized best as an extinguisher of
+page=9 block=146431220 (x=270 y=692) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Page: 10 left:1 upper:1
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+page=10 block=6553604 (x=1 y=1) width=100.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Radiotherapy and Oncology 165 (2021) 20–31
+page=10 block=-879886332 (x=386 y=1) width=135.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 6. Serologic median and interquartile ranges after low-dose whole-lung radiation therapy with concurrent dexamethasone and/or remdesevir.
+page=10 block=1059325112 (x=36 y=302) width=449.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+LD-RT Responders (N = 16)
+page=10 block=1392510396 (x=256 y=367) width=83.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Yes
+page=10 block=184550892 (x=256 y=379) width=11.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+16 (100%)
+page=10 block=503318032 (x=256 y=388) width=30.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0
+page=10 block=67110055 (x=256 y=397) width=4.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0
+page=10 block=67110484 (x=256 y=405) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+0 (0%)
+page=10 block=318768760 (x=256 y=414) width=19.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median
+page=10 block=402654888 (x=256 y=426) width=24.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+9.5
+page=10 block=167773900 (x=256 y=435) width=10.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 10.8
+page=10 block=536884202 (x=256 y=443) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+9.5
+page=10 block=536884202 (x=256 y=452) width=10.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 10.5
+page=10 block=536884202 (x=256 y=460) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0
+page=10 block=536884202 (x=256 y=469) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+4.8
+page=10 block=167774104 (x=256 y=486) width=10.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 7.6
+page=10 block=536889722 (x=256 y=495) width=29.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+46.2
+page=10 block=536889722 (x=256 y=503) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 94.2
+page=10 block=536889722 (x=256 y=512) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1.0
+page=10 block=536889722 (x=256 y=520) width=10.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 1.4
+page=10 block=536889722 (x=256 y=529) width=29.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Median
+page=10 block=402655332 (x=256 y=537) width=24.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+7
+page=10 block=67111064 (x=256 y=550) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+9.5
+page=10 block=167774392 (x=256 y=558) width=10.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Not reached
+page=10 block=620768899 (x=256 y=567) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Not reached
+page=10 block=620768899 (x=256 y=575) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Not reached
+page=10 block=620768899 (x=256 y=584) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+29
+page=10 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Table 3
+page=10 block=1443168 (x=1 y=344) width=22.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=4
+Day 28 outcomes for LD-RT responders vs. matched controls (n = 32).
+page=10 block=13567011 (x=1 y=353) width=207.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Variables
+page=10 block=16516540 (x=9 y=367) width=28.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Categorical
+page=10 block=20055532 (x=9 y=379) width=34.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Outcome
+page=10 block=140641772 (x=74 y=379) width=29.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Clinically Recovered
+page=10 block=402533752 (x=74 y=388) width=61.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Mechanically Ventilated
+page=10 block=402533752 (x=74 y=397) width=74.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+Deceased
+page=10 block=402533752 (x=74 y=405) width=28.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Hospital Duration 21+ days
+page=10 block=402533752 (x=74 y=414) width=83.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Continuous
+page=10 block=20645544 (x=9 y=426) width=35.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Hospital Duration (days)
+page=10 block=363726540 (x=74 y=435) width=75.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Duration of Oxygen Supplementation (days)
+page=10 block=654706448 (x=74 y=452) width=135.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Duration of Ventilation, if intubated (days)
+page=10 block=635307860 (x=74 y=469) width=131.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Average Daily Maximum Oxygen Need (L/min)
+page=10 block=693503896 (x=74 y=486) width=143.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Cumulative Cohort Oxygenation Need
+page=10 block=557721923 (x=74 y=503) width=115.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(max daily L/min * days oxygenated)
+page=10 block=557721923 (x=74 y=512) width=113.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Days Febrile
+page=10 block=557721923 (x=74 y=520) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Time-to-Event
+page=10 block=25954456 (x=9 y=550) width=44.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Time to Clinical Recovery (days)
+page=10 block=780816804 (x=74 y=550) width=98.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Time from Admission to Clinical Recovery (days)
+page=10 block=780816804 (x=74 y=558) width=149.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Freedom from Intubation at day 28 (percent, 95% CI)
+page=10 block=780816804 (x=74 y=567) width=161.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Intubation-free Survival at day 28 (percent, 95% CI)
+page=10 block=780816804 (x=74 y=575) width=157.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Intubation-free Survival at day 28 (percent, 95% CI)
+page=10 block=780816804 (x=74 y=584) width=157.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+local cascading hyperimmunity prior to dissemination and severe
+page=10 block=16491545 (x=1 y=627) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+organ damage. The RECOVERY trial evaluated dexamethasone with
+page=10 block=16491545 (x=1 y=637) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+a sample size was over 6000, where 1500 deaths had to be
+page=10 block=16491545 (x=1 y=648) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+observed to detect a survival bene?t for steroids [23]. The small
+page=10 block=16491545 (x=1 y=658) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+sample size (n = 22) in the aforementionend randomized trial rep-
+page=10 block=16491545 (x=1 y=669) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+resents less than 1% of the power needed to detect a bene?t equal
+page=10 block=16491545 (x=1 y=679) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+to that of dexamethasone [23].
+page=10 block=16491545 (x=1 y=690) width=117.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Control Cohort (N = 16)
+page=10 block=1727006140 (x=366 y=367) width=72.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+p-value*
+page=10 block=816186812 (x=479 y=367) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+No
+page=10 block=185796076 (x=315 y=379) width=9.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Yes
+page=10 block=263849452 (x=366 y=379) width=11.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+No
+page=10 block=250086892 (x=424 y=379) width=9.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+0
+page=10 block=61933072 (x=315 y=388) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+13 (81%)
+page=10 block=623642128 (x=366 y=388) width=26.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+3 (19%)
+page=10 block=639108624 (x=424 y=388) width=23.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.23
+page=10 block=408094224 (x=479 y=388) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+16 (100%)
+page=10 block=619316391 (x=315 y=397) width=30.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+5 (31%)
+page=10 block=551683239 (x=366 y=397) width=23.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+11 (69%)
+page=10 block=750257319 (x=424 y=397) width=27.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.04
+page=10 block=408093863 (x=479 y=397) width=13.000000 height=3.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+16 (100%)
+page=10 block=619316820 (x=315 y=405) width=30.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0
+page=10 block=95946324 (x=366 y=405) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+16
+page=10 block=222299732 (x=424 y=405) width=8.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+1.0
+page=10 block=282527316 (x=479 y=405) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+16 (100%)
+page=10 block=619316856 (x=315 y=414) width=30.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+5 (31%)
+page=10 block=551683704 (x=366 y=414) width=23.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+11 (69%)
+page=10 block=750257784 (x=424 y=414) width=27.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.04
+page=10 block=408094328 (x=479 y=414) width=13.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Range
+page=10 block=392234664 (x=315 y=426) width=19.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Median
+page=10 block=575669928 (x=366 y=426) width=24.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Range
+page=10 block=555746984 (x=424 y=426) width=20.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+5–18
+page=10 block=309659340 (x=315 y=435) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+9. 5
+page=10 block=215877324 (x=366 y=435) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+3–42
+page=10 block=444597964 (x=424 y=435) width=16.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.15
+page=10 block=408094412 (x=479 y=435) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 15.5
+page=10 block=767597502 (x=366 y=443) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+9. 5
+page=10 block=767597502 (x=366 y=452) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+Mean 14.3
+page=10 block=767597502 (x=366 y=460) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+10
+page=10 block=767597502 (x=366 y=469) width=8.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 14.2
+page=10 block=767597502 (x=366 y=477) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+7. 1
+page=10 block=767597502 (x=366 y=486) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+Mean 24.0
+page=10 block=767597502 (x=366 y=495) width=32.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+104.5
+page=10 block=767597502 (x=366 y=503) width=17.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Mean 593
+page=10 block=767597502 (x=366 y=512) width=30.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1. 0
+page=10 block=767597502 (x=366 y=520) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=0 wordint.max=3
+Mean 3.3
+page=10 block=767597502 (x=366 y=529) width=28.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+4–18
+page=10 block=309659408 (x=315 y=452) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+3–42
+page=10 block=444598032 (x=424 y=452) width=16.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.24
+page=10 block=408094480 (x=479 y=452) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+NA
+page=10 block=185796436 (x=315 y=469) width=9.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+1–34
+page=10 block=444598100 (x=424 y=469) width=16.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+-
+page=10 block=94177108 (x=479 y=469) width=3.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+1.5–30
+page=10 block=412878744 (x=315 y=486) width=20.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=2
+1.5–86
+page=10 block=583534488 (x=424 y=486) width=21.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.03
+page=10 block=408094616 (x=479 y=486) width=13.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+32% lower
+page=10 block=1035937947 (x=479 y=495) width=33.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=4
+0.06
+page=10 block=1035937947 (x=479 y=503) width=13.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+56% lower
+page=10 block=1035937947 (x=479 y=512) width=33.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=4
+6–454
+page=10 block=392234972 (x=315 y=503) width=19.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+8–3636
+page=10 block=639109084 (x=424 y=503) width=23.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0–9
+page=10 block=227084320 (x=315 y=520) width=11.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0–12
+page=10 block=416811040 (x=424 y=520) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.14
+page=10 block=408094752 (x=479 y=520) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Range
+page=10 block=392235108 (x=315 y=537) width=19.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Median
+page=10 block=575670372 (x=366 y=537) width=24.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Range
+page=10 block=555747428 (x=424 y=537) width=20.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+2–15
+page=10 block=309659800 (x=315 y=550) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+7
+page=10 block=95946904 (x=366 y=550) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+3–38
+page=10 block=444598424 (x=424 y=550) width=16.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.29
+page=10 block=408094872 (x=479 y=550) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+4–17
+page=10 block=309659832 (x=315 y=558) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+9
+page=10 block=95946936 (x=366 y=558) width=4.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=13 wordint.max=13
+2–41
+page=10 block=444598456 (x=424 y=558) width=16.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+0.26
+page=10 block=408094904 (x=479 y=558) width=13.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+100%
+page=10 block=309659868 (x=315 y=567) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+Not reached
+page=10 block=887500419 (x=366 y=567) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Not reached
+page=10 block=887500419 (x=366 y=575) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Not reached
+page=10 block=887500419 (x=366 y=584) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+66 (36–84)
+page=10 block=944769244 (x=424 y=567) width=34.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.01
+page=10 block=408094940 (x=479 y=567) width=13.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+100%
+page=10 block=309659900 (x=315 y=575) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+66 (36–84)
+page=10 block=944769276 (x=424 y=575) width=34.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.01
+page=10 block=408094972 (x=479 y=575) width=13.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+100%
+page=10 block=309659936 (x=315 y=584) width=15.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+66 (36–84)
+page=10 block=944769312 (x=424 y=584) width=34.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+0.01
+page=10 block=408095008 (x=479 y=584) width=13.000000 height=4.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=13
+Our results complement recent preclinical data reporting
+page=10 block=146449433 (x=281 y=627) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+reduced in?ammatory cytokines IL-6 and INF-gamma, and
+page=10 block=146449433 (x=270 y=637) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+increased anti-in?ammatory cytokine IL-10 in C57BL/6 mice with
+page=10 block=146449433 (x=270 y=648) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+induce ARDS. We report serologic reductions following LD-RT com-
+page=10 block=146449433 (x=270 y=658) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+pared to controls: C-reactive protein (p = 0.02) and creatine kinase
+page=10 block=146449433 (x=270 y=669) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+(p < 0.01), as well as cardiac marker troponin-1, liver function, and
+page=10 block=146449433 (x=270 y=679) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+coagulopathies (Fig. 6), suggesting LD-RT may prevent ‘‘long-
+page=10 block=146449433 (x=270 y=690) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+Page: 11 left:1 upper:1
+Whole-Lung Low-Dose Radiation for COVID-19 Pneumonia
+page=11 block=11141124 (x=1 y=1) width=170.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+30
+page=11 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+COVID” sequalae and may be detectable with larger sample sizes.
+page=11 block=16453589 (x=1 y=21) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+LD-RT did not exacerbate but rather decreased in?ammation and
+page=11 block=16453589 (x=1 y=31) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+did not promote but rather reduced biomarkers of cardiac injury.
+page=11 block=16453589 (x=1 y=42) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+As of July 2021, more than 186 million people globally are con-
+page=11 block=16453589 (x=1 y=52) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+?rmed as infected with SARS-CoV-2, leading to over 4 million
+page=11 block=16453589 (x=1 y=63) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+known COVID-19-related deaths. The worldwide accessibility of
+page=11 block=16453589 (x=1 y=73) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+LD-RT as a rapid and inexpensive potential treatment merits fur-
+page=11 block=16453589 (x=1 y=84) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+ther study, especially in countries with limited access to drugs or
+page=11 block=16453589 (x=1 y=94) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+vaccines.
+page=11 block=16453589 (x=1 y=105) width=33.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=17
+Our study has numerous limitations: a blindly-matched but
+page=11 block=16453589 (x=12 y=115) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+non-randomized design, exploratory intent, small patient num-
+page=11 block=16453589 (x=1 y=126) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+bers, differing control treatments, differing laboratory and imaging
+page=11 block=16453589 (x=1 y=136) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+schedulesbetween the LD-RT and controlcohorts, variabletimes of
+page=11 block=16453589 (x=1 y=146) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+symptom onset, limited imaging (Fig. 5) and serological (Fig. 6)
+page=11 block=16453589 (x=1 y=157) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+studiesinthecontrol cohort beforeintervention and beyond7 days,
+page=11 block=16453589 (x=1 y=167) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+and lack of detailed viral load evaluations. Future work with LD-RT
+page=11 block=16453589 (x=1 y=178) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+will include a phase III design, lower dose ranges, detailed CD-8
+page=11 block=16453589 (x=1 y=188) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+and CD-4T-cell activation studies, changes in B-cell pro?les, anti-
+page=11 block=16453589 (x=1 y=199) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+body formation, cytokine analysis, and neutralization tests.
+page=11 block=16453589 (x=1 y=209) width=225.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Conclusion
+page=11 block=2884804 (x=1 y=244) width=44.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=17
+A cohort of hospitalized patients with COVID-19 safely received
+page=11 block=16475771 (x=12 y=265) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+LD-RT concurrently with dexamethasone and/or remdesevir,
+page=11 block=16475771 (x=1 y=275) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+required fewer intubations (p = 0.09), and showed reductions in
+page=11 block=16475771 (x=1 y=286) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+in?ammatory and cardiac biomarkers. Patients whose CRP
+page=11 block=16475771 (x=1 y=296) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=9
+declined over 3 days following LD-RT had 100% survival without
+page=11 block=16475771 (x=1 y=307) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+intubation, fewer prolonged hospitalizations, and lower burden
+page=11 block=16475771 (x=1 y=317) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+of oxygen requirements. Early intervention with LD-RT after oxy-
+page=11 block=16475771 (x=1 y=328) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+gen dependency but prior to intubation may be an optimal thera-
+page=11 block=16475771 (x=1 y=338) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+peutic timeline. Further clinical trials are justi?ed.
+page=11 block=16475771 (x=1 y=349) width=191.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+[Clinical Trial Registration: NCT04433949].
+page=11 block=16475771 (x=12 y=359) width=163.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Authors contributions
+page=11 block=5769138 (x=1 y=394) width=88.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=5
+Clayton Hess: conceptualization, design, data acquisition, data
+page=11 block=16547061 (x=12 y=415) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+analysis, data interpretation, manuscript drafting/revision and
+page=11 block=16547061 (x=1 y=425) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+?nal draft review. Tony Eng: data acquisition, manuscript draft-
+page=11 block=16547061 (x=1 y=436) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+ing/revision and ?nal draft review. Tahseen Nasti: conceptualiza-
+page=11 block=16547061 (x=1 y=446) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+tion, design, data acquisition, data analysis, data interpretation,
+page=11 block=16547061 (x=1 y=457) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+manuscript drafting/revision and ?nal draft review. Vishal Dhere:
+page=11 block=16547061 (x=1 y=467) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+data acquisition, manuscript drafting/revision and ?nal draft
+page=11 block=16547061 (x=1 y=478) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+review. Troy Kleber: data acquisition, manuscript drafting/revision
+page=11 block=16547061 (x=1 y=488) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+and ?nal draft review. Jeff Switchenko: design, data analysis,
+page=11 block=16547061 (x=1 y=499) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+manuscript drafting/revision and ?nal draft review. Brent Wein-
+page=11 block=16547061 (x=1 y=509) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+berg: data acquisition, data analysis, manuscript drafting/revision
+page=11 block=16547061 (x=1 y=520) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+and ?nal draft review. Nadine Rouphael: design, data acquisition,
+page=11 block=16547061 (x=1 y=530) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+data analysis, data interpretation, manuscript drafting/revision
+page=11 block=16547061 (x=1 y=540) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+and ?nal draft review. Sibo Tian: data acquisition, manuscript
+page=11 block=16547061 (x=1 y=551) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+drafting/revisionand?nal draft review. Soumon Rudra: data acqui-
+page=11 block=16547061 (x=1 y=561) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+sition, manuscript drafting/revision and ?nal draft review. Luisa
+page=11 block=16547061 (x=1 y=572) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+Taverna: data acquisition, manuscript drafting/revision and ?nal
+page=11 block=16547061 (x=1 y=582) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+draft review. Alvaro Perez: data acquisition, manuscript drafting/
+page=11 block=16547061 (x=1 y=593) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+revision and ?nal draft review. Ra? Ahmed: conceptualization,
+page=11 block=16547061 (x=1 y=603) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+design, data interpretation, manuscript drafting/revision and ?nal
+page=11 block=16547061 (x=1 y=614) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+draft review. Mohammad Khan: conceptualization, design, data
+page=11 block=16547061 (x=1 y=624) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+acquisition, data interpretation, manuscript drafting/revision and
+page=11 block=16547061 (x=1 y=635) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+?nal draft review.
+page=11 block=16547061 (x=1 y=645) width=68.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Funding
+page=11 block=2166088 (x=1 y=680) width=33.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=17
+None.
+page=11 block=17305009 (x=12 y=701) width=22.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=17
+Declaration of Competing Interest
+page=11 block=-1906179986 (x=270 y=22) width=135.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=5
+First (CBH) and last (MKK) authors disclose a provisional patent
+page=11 block=146408499 (x=282 y=43) width=239.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+and relationship with CureRays, Inc. No other relevant disclosures
+page=11 block=146408499 (x=270 y=53) width=251.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+for remaining authors.
+page=11 block=146408499 (x=270 y=64) width=84.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Acknowledgements
+page=11 block=1380188585 (x=270 y=85) width=78.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=17
+Infection Prevention: Aaron L. Preston, Jill Holdsworth and team.
+page=11 block=146413466 (x=270 y=106) width=242.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Radiation Therapy: Maxine Washington RTT, Jamani Swift, Nikki
+page=11 block=146413466 (x=281 y=117) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Stanford RTT, Wileena Burns RTT, Rafael Reeves RTT and team.
+page=11 block=146413466 (x=270 y=127) width=239.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Nursing: Hally Majors RN, Emily Voigt RN and team.
+page=11 block=146413466 (x=281 y=138) width=199.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Respiratory Therapy: Vinod P. Chacko RRT and team.
+page=11 block=146413466 (x=281 y=148) width=198.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Security: Richard Mittenzwei and team.
+page=11 block=146413466 (x=281 y=158) width=150.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Environmental Services: Brian Frisle and team.
+page=11 block=-1109064883 (x=281 y=169) width=173.000000 height=5.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=5
+Radiation Oncology: Karen Godette MD, Beth B. Ghavidel PhD,
+page=11 block=146417806 (x=281 y=179) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+and team.
+page=11 block=146417806 (x=270 y=190) width=37.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Critical Care: David J. Murphy MD PhD and team.
+page=11 block=146417806 (x=281 y=200) width=187.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Infectious Diseases: Jesse T. Jacob MD MSc, James P. Steinberg
+page=11 block=146417806 (x=281 y=211) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+MD and team.
+page=11 block=146417806 (x=270 y=221) width=54.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Basic Science Research: Tahseen H. Nasti PhD and team.
+page=11 block=146417806 (x=281 y=232) width=210.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Appendix A. Supplementary data
+page=11 block=-1976957701 (x=270 y=255) width=131.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=4
+Supplementary data to this article can be found online at
+page=11 block=146411564 (x=281 y=276) width=240.000000 height=5.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=7
+https://doi.org/10.1016/j.radonc.2021.10.003.
+page=11 block=146411564 (x=270 y=287) width=171.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=17
+References
+page=11 block=760874500 (x=270 y=308) width=43.000000 height=5.000000 fontname=PCDJDA+AdvGulliv-B wordint.min=1 wordint.max=17
+[1] Mehta P, McAuley DF, Brown M, et al. COVID-19: consider cytokine storm
+page=11 block=146531357 (x=273 y=327) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+syndromes and immunosuppression. Lancet 2020;395:1033–4.
+page=11 block=146531357 (x=285 y=335) width=191.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[2] Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019
+page=11 block=146531357 (x=273 y=343) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+novel coronavirus in Wuhan, China. Lancet 2020;395:497–506.
+page=11 block=146531357 (x=285 y=351) width=192.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[3] Bhatraju PK, Ghassemieh BJ, Nichols M, etal. Covid-19 inCriticallyIll Patients
+page=11 block=146531357 (x=273 y=359) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+in the Seattle Region - Case Series. N Engl J Med 2020;382:2012–22.
+page=11 block=146531357 (x=285 y=367) width=208.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[4] AuldSC, Caridi-ScheibleM, BlumJM, et al.ICU and ventilator mortality among
+page=11 block=146531357 (x=273 y=375) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+critically ill adults with coronavirus disease 2019. Crit Care Med 2020.
+page=11 block=146531357 (x=285 y=383) width=215.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[5] Calabrese EJ. X-Ray treatment of carbuncles and furuncles (boils): a historical
+page=11 block=146531357 (x=273 y=391) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+assessment. Hum Exp Toxicol 2013;32:817–27.
+page=11 block=146531357 (x=285 y=399) width=144.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[6] Calabrese EJ, Dhawan G. How radiotherapy was historically used to treat
+page=11 block=146531357 (x=273 y=407) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+pneumonia: could it be useful today? Yale J Biol Med 2013;86:555–70.
+page=11 block=146531357 (x=285 y=415) width=216.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[7] CalabreseEJ,DhawanG.The historicaluse of radiotherapy in the treatment of
+page=11 block=146531357 (x=273 y=423) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+sinus infections. Dose Response 2013;11:469–79.
+page=11 block=146531357 (x=285 y=431) width=150.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[8] Calabrese EJ, Dhawan G, Kapoor R, Kozumbo WJ. Radiotherapy treatment of
+page=11 block=146531357 (x=273 y=439) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+human in?ammatory diseases andconditions: Optimal dose.Hum Exp Toxicol
+page=11 block=146531357 (x=285 y=447) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+2019;38:888–98.
+page=11 block=146531357 (x=285 y=455) width=52.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+[9] Fischer A, Virelizier JL, Arenzana-Seisdedos F, et al. Treatment of four patients
+page=11 block=146531357 (x=273 y=463) width=248.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+with erythrophagocytic lymphohistiocytosis by a combination of
+page=11 block=146531357 (x=285 y=471) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=10
+epipodophyllotoxin, steroids, intrathecal methotrexate, and cranial
+page=11 block=146531357 (x=285 y=479) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=10
+irradiation. Pediatrics 1985;76:263–8.
+page=11 block=146531357 (x=285 y=487) width=115.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[10] KienapfelH, KollerM, Wüst A, et al. Prevention ofheterotopic bone formation
+page=11 block=146531357 (x=270 y=495) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+after total hip arthroplasty: a prospective randomised study comparing
+page=11 block=146531357 (x=285 y=503) width=236.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+postoperative radiation therapy with indomethacin medication. Arch Orthop
+page=11 block=146531357 (x=285 y=511) width=236.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Trauma Surg 1999;119:296–302.
+page=11 block=146531357 (x=285 y=519) width=101.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[11] Olschewski T, Seegenschmiedt MH. Radiotherapy for bony manifestations of
+page=11 block=146531357 (x=270 y=526) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Langerhans cell histiocytosis. Review and proposal for an international
+page=11 block=146531357 (x=285 y=534) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+registry. Strahlenther Onkol 2006;182:72–9.
+page=11 block=146531357 (x=285 y=542) width=135.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[12] Schuster J, Saraiya S, Tennyson N, et al. Patient-reported outcomes after
+page=11 block=146531357 (x=270 y=550) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+electron radiation treatment for early-stage palmar and plantar ?bromatosis.
+page=11 block=146531357 (x=285 y=558) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Pract Radiat Oncol 2015;5:e651–8.
+page=11 block=146531357 (x=285 y=566) width=106.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[13] Meziani L, Robert C, Classe M, et al. Low doses of radiation increase the
+page=11 block=146531357 (x=270 y=574) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+immunosuppressive pro?le of lung macrophages during viral infection and
+page=11 block=146531357 (x=285 y=582) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+pneumonia. Int J Radiat Biol 2021;110:1283–94.
+page=11 block=146531357 (x=285 y=590) width=147.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[14] Salomaa S, Cardis E, Bouf?er SD, et al. Low dose radiation therapy for COVID-
+page=11 block=146531357 (x=270 y=598) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+19 pneumonia: is there any supportive evidence? Int J Radiat Biol
+page=11 block=146531357 (x=285 y=606) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=8
+2020;96:1224–7.
+page=11 block=146531357 (x=285 y=614) width=52.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+[15] Lara PC, Burgos J, Macias D. Low dose lung radiotherapy for COVID-19
+page=11 block=146531357 (x=270 y=622) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=6
+pneumonia. The rationale for a cost-effective anti-in?ammatory treatment.
+page=11 block=146531357 (x=285 y=630) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Clin Transl Radiat Oncol 2020;23:27–9.
+page=11 block=146531357 (x=285 y=638) width=120.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[16] Prasanna PG, Woloschak GE, DiCarlo AL, et al. Low-Dose Radiation Therapy
+page=11 block=146531357 (x=270 y=646) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+(LDRT) for COVID-19: Bene?ts or Risks? Radiat Res 2020;194:452–64.
+page=11 block=146531357 (x=285 y=654) width=213.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[17] Hess CB,Buchwald ZS, Stokes WA, et al. Immunomodulatory low-dosewhole-
+page=11 block=146531357 (x=270 y=662) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+lung radiation for patients with COVID-19-related pneumonia. Int J Radiat
+page=11 block=146531357 (x=285 y=670) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Oncol Biol Phys 2020;108:1401.
+page=11 block=146531357 (x=285 y=678) width=98.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[18] Hess CB, Buchwald ZS, Stokes W, et al. Low-dose whole-lung radiation for
+page=11 block=146531357 (x=270 y=686) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+COVID-19 pneumonia: Planned day 7 interim analysis of a registered clinical
+page=11 block=146531357 (x=285 y=694) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+trial. Cancer 2020;126:5109–13.
+page=11 block=146531357 (x=285 y=702) width=98.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+Page: 12 left:1 upper:1
+C.B. Hess, T.Y. Eng, T.H. Nasti et al.
+page=12 block=6553604 (x=1 y=1) width=100.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+Radiotherapy and Oncology 165 (2021) 20–31
+page=12 block=-879886332 (x=386 y=1) width=135.000000 height=4.000000 fontname=PCDIHB+AdvGulliv-I wordint.min=1 wordint.max=4
+31
+page=12 block=117902132 (x=257 y=717) width=7.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+[19] AmeriA, RahnamaN,Bozorgmehr R, etal. Low-dosewhole-lung irradiationfor
+page=12 block=16450775 (x=1 y=21) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+COVID-19 pneumonia: short course results. Int J Radiat Oncol Biol Phys 2020.
+page=12 block=16450775 (x=16 y=29) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[20] Papachristo?lou A, Finazzi T, Blum A, et al. Low dose radiation therapy for
+page=12 block=16450775 (x=1 y=37) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+severe COVID-19 pneumonia: a randomized double-blind study. Int J Radiat
+page=12 block=16450775 (x=16 y=45) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=5
+Oncol Biol Phys 2021.
+page=12 block=16450775 (x=16 y=53) width=67.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+[21] Charlson ME, Pompei P, Ales KL, et al. A new method of classifying prognostic
+page=12 block=16450775 (x=1 y=61) width=251.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+comorbidity inlongitudinal studies: developmentandvalidation. JChronic Dis
+page=12 block=16450775 (x=16 y=69) width=236.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+1987;40:373–83.
+page=12 block=16450775 (x=16 y=76) width=52.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+[22] Taylor E, Haven K, Reed P, etal. Achest radiograph scoring system in patients
+page=12 block=146408159 (x=270 y=21) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+with severe acute respiratory infection: a validationstudy. BMC Med Imaging
+page=12 block=146408159 (x=285 y=29) width=236.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+2015;15:61.
+page=12 block=146408159 (x=285 y=37) width=37.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=13
+[23] GroupRC,Horby P,LimWS,et al.Dexamethasone inhospitalized patients with
+page=12 block=146408159 (x=270 y=45) width=251.000000 height=4.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4
+covid-19. N Engl J Med 2021;384:693–704.
+page=12 block=146408159 (x=285 y=53) width=132.000000 height=3.000000 fontname=PCDIEP+AdvGulliv-R wordint.min=1 wordint.max=4

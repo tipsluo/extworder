@@ -1,0 +1,381 @@
+Title:
+38 Against the Grain / December 2019 - January 2020 
+
+Abstract:
+
+----------------------
+
+
+Text:
+----------------------
+
+The California State University (CSU) system is one of the largest 
+public higher education systems in the United States and includes 23 
+institutions, largely comprehensive universities, across the state. Within 
+this state system, the CSU libraries have been cooperating on collections 
+building and have shared technology services through the Chancellor’s 
+Office (CO). In June 2015, the contract was signed for CSU libraries 
+and the CO’s libraries supporting the division to migrate to Ex Libris’ 
+(ULMS), where some of the principles in moving toward a shared inte-
+grated library system (ILS) and discovery environment were to increase 
+collaboration and share cost savings.
+The CSU libraries went live with Alma and Primo in the summer 
+of 2017. For those working in technical services, the possibilities to 
+centrally manage consortially licensed resources as well as share bib-
+liographic records in Alma’s Network Zone (NZ) at the consortial layer 
+meant new opportunities to collaborate across the libraries and new ways 
+to re-think workflows. The migration and subsequent implementation 
+of an unfamiliar ILS intimated that it was going to be necessary to come 
+up with consortial policies and best practices within the CSU libraries, 
+but also required close partnerships with vendors to establish workflows 
+and integrate systems to gain efficiencies. The special issue on “Vendor 
+Library Partnerships” in Against the Grain highlights the importance of 
+this symbiotic relationship and stresses the common “vision” vendors 
+and libraries share to “provide access to the world’s information in or-
+der to create new knowledge.”1 The CSU consortial migration proved 
+that collaboration within the consortium as well as with vendors is a 
+necessary requirement to execute this vision. 
+a territory system where Library Technical Services (LTS) representa-
+tives work with libraries on various technical service projects such as 
+migrations, opening day collections, workflow automation, shelf-ready 
+services, and any needed training sessions to support service set-ups. 
+Having one individual working throughout the region on all institutional 
+projects helps provide best practice information to current customers 
+and allows for multi-campus projects to have a common representative 
+working with individual institutions on a variety of levels for consortial 
+integration.
+As different vendors offer different degrees of support and feed-
+back mechanisms to understand a library’s individual structure, hav-
+ing a regionally appointed representative with the understanding of 
+multiple libraries can lead to better understanding of library technical 
+service trends, best practices, and needs. For example, although most 
+libraries have unique set-ups, there will often be other institutions 
+with similar needs, and vendors can be a source of information to 
+other library contacts for best practices, or new ideas. A customer 
+who has completed implementation and has been using a service for 
+some time may have advice for libraries looking to set-up a similar 
+service. A regionally placed vendor representative willing to assist 
+with cross library communication can, with permission, provide 
+contact details or responses to the libraries that are working on 
+service implementations.
+Libraries and vendors collaborate on technical services automa-
+tion and migration projects. CSU Fullerton, as part of the larger 
+ULMS consortial migration, worked closely with the regional GOBI 
+LTS to implement a workflow that avoided duplicating record fees in 
+the new environment where bibliographic records are shared consor-
+tially. System migration projects are time and labor intensive, and, 
+depending on the scale of the project, setting-up the vendor profiles 
+and system testing can take months to coordinate. It is critical to 
+get in contact with vendor representatives well in advance of the 
+migration in order to have a smooth transition, discuss timelines, 
+and form best practices. It is also equally important to maintain 
+those communication channels during and after the migration to 
+troubleshoot any issues as they arise.
+Locally at Fullerton, there was very little integration connecting the 
+former ILS, Millennium, to other vendor systems, nor to the CSU-wide 
+financial system, PeopleSoft, in the acquisitions work area prior to the 
+migration. Thus, there was a lot of duplicative work being done to align 
+acquisitions information in various systems in the form of data entry. 
+The migration was viewed and utilized as an opportunity to update 
+legacy practices and take advantage of the functionalities offered in a 
+new ILS to streamline both local and consortial acquisitions workflows. 
+GOBI is the main vendor supplying materials in the English language 
+or published in predominantly English-speaking countries to Fullerton. 
+GOBI supplies one-time and standing order titles to Fullerton via the 
+approval plan, firm orders, DDA, and ongoing standing orders. Ful-
+lerton uses GOBI’s shelf-ready services and works with OCLC to get 
+full bibliographic records for the approval and firm order titles ordered 
+through GOBI. Most of the GOBI orders supported local collections 
+building efforts. For the purposes of this discussion, the focus will be 
+on optimizing the use of the LTS and the available GOBI options to 
+establish a firm ordering workflow.
+GOBI customers with Alma as their ILS have three available firm 
+order workflow options to choose from. During the migration process, 
+a library would work with a GOBI LTS representative to learn more 
+about the available workflow options, select a workflow, and have the 
+workflow implemented in their Alma environment. This process can 
+take several months depending on the length of time the library needs to 
+select a workflow and the complexities of a library’s account structure 
+within GOBI. The three available firm order workflow options are 
+GobiAPI, GobiExport, and Electronic Order Confirmation Records 
+(EOCR). It is important to note that each workflow option is part of 
+GOBI’s library technical services, and both the GobiExport and the 
+EOCR workflows have “Plus” and “Basic” versions. The GobiAPI 
+currently has only one version most analogous to the “Basic” version 
+in terms of the bibliographic data provided. For the sake of simplicity, 
+this article will focus solely on the “Basic” level workflows for Alma 
+libraries.2 All the bibliographic information in the “Basic” level records 
+for all three firm ordering options are capitalized and are easy to visually 
+identify in the system.
+The GobiAPI firm ordering entails the library placing an order 
+directly in GOBI and through the API set-up, a brief bibliographic 
+record that includes order details is provided to a library’s Alma sys-
+tem (Institution Zone (IZ) vs. NZ is based on a library’s Alma system 
+settings). Through the transfer of information, GOBI obtains Alma’s 
+purchase order line (POL) number for each title in an order, allowing 
+for the POL to be a match point for any downstream services such 
+as cataloging or Electronic Data Interchange For Administration, 
+Commerce and Transport (EDIFACT) invoicing. With the API, the 
+library does not need to connect to GOBI’s FTP server to obtain the 
+brief bibliographic records. Of note, the brief records are not MARC 
+formatted nor are they available for easy access to the library as the 
+API is a traditional mechanism to automatically feed metadata into 
+a library’s Alma system. Specifically, the API build specifies what 
+GOBI information is placed in each corresponding section of Alma. 
+The resulting file is a X12 file generated for the server to read. These 
+files are only accessible by a developer on the GOBI server. Files with 
+errors generate an error report by Alma and an error report is sent to 
+GOBI.3 Upon receiving an error report, GOBI representatives reach 
+out to the library to help resolve the errors.
+The GobiExport firm ordering workflow4 operates as follows: the 
+library places titles into an “export” cart online in GOBI’s interface 
+and batch exports MARC files with bibliographic information and the 
+GOBI’s FTP site. The export files are usually available within five min-
+utes of initiating the export and the library would then load the files into 
+Alma using an import profile that loads the EOD files, generating POLs 
+for individual titles and item records for print materials. The import 
+profile(s) would set needed default values and/or map pertinent values 
+to the local data indices, and either immediately or on a scheduled job, 
+the library’s ILS would “package” the POLs and send back EDIFACT 
+orders to GOBI on specified subaccounts. The packaged orders would 
+contain various information from the export records and Alma about 
+each ordered title.
+The EOCR firm order method involves: the library placing orders 
+directly in GOBI and a brief bibliographic record is provided to the 
+library through FTP the next business day after a library places the order. 
+The library then uses an EOD load in Alma to pull in the brief records 
+from GOBI’s FTP server. The EOCR records are MARC formatted 
+records that have the bibliographic information and contain the order 
+detail information the library provided at point of order. The EOCR 
+workflow uses the vendor order number also known as the GOBI order 
+key as a match point for downstream services. 
+The ULMS migration at Fullerton necessitated a thorough under-
+standing of all the available options with the help of the GOBI LTS. 
+Each one of these workflows have different set-ups with GOBI and 
+Alma, allowing for institutions with very different needs to have a variety 
+of options to choose from. But each chosen workflow has implications 
+on subsequent workflows, especially because acquisitions is one of 
+the first steps whereby records get created and/or loaded into the ILS.
+service but this workflow required an added order acknowledgement 
+data transmission process in a Millennium environment. Therefore, 
+the EOCR service for Alma was quite different. During the migration 
+planning stages, Fullerton opted to utilize the GobiExport service 
+with the recognition that the bibliographic records will be shared at the 
+consortial level and governed under the consortial bibliographic man-
+agement policies5 as well as begin the EDIFACT electronic invoicing 
+to improve the invoicing workflow. Neither of these two services were 
+previously implemented at Fullerton.
+Within the CSU libraries, there is a varied landscape on the GOBI 
+ordering workflows across individual campuses and there were a few 
+institutions that went live directly with the GobiAPI service in the sum-
+mer of 2017, which aligned with the CSU consortial Alma go-live date. 
+Fullerton opted for a more conservative approach for establishing firm 
+ordering procedures. After reviewing all the options, in consultation 
+with the GOBI LTS and other colleagues utilizing Alma and GOBI, 
+Fullerton implemented the GobiExport option in order to have more 
+direct control over the timing of when the brief order files will be ready, 
+better manage the orders before they are sent out from the system, and 
+still be able to batch ingest records by exporting EOD bibliographic 
+files from GOBI and loading them into Alma.
+All Alma users will have an IZ and have access to the Community 
+Zone (CZ). Local information, records, and inventory will live in 
+the IZ while the CZ is a knowledge base for electronic resources, can 
+serve as a catalog, and stores community authority records. Consortial 
+Alma users will have the added benefit of utilizing the NZ, which hosts 
+shared bibliographic records and facilitates the central management of 
+consortially licensed electronic resources. The CSUs initially populated 
+the NZ based on gathering the attached holdings information of every 
+CSU library in OCLC. There is currently a daily OCLC feed that con-
+tinuously refreshes the NZ with any adds, updates, and deletes of CSU 
+libraries holdings in OCLC to maintain currency of bibliographic data.
+In this shared bibliographic space comprised of universities with 
+similar missions and somewhat overlapping purchasing patterns based 
+on the collections review in GreenGlass, the Acquisitions Librarian prior 
+to the migration envisioned scenarios where two or more institutions 
+would initiate orders for the exact same resource that would utilize the 
+same bibliographic record in the NZ. The consortial migration already 
+necessitated a close communication with the GOBI LTS since the 
+majority of Fullerton’s firm order purchases were transacted through 
+GOBI, but Fullerton also wanted to put in place a workflow whereby 
+it would be possible to avoid purchasing the same bibliographic record 
+that others have already purchased within the consortium.
+The main CSU system’s funding comes from the public; more than 
+half of CSU’s revenue is from the state of California through its taxpayer 
+contributions and a major portion of the remaining funding is through the 
+collection of tuition fees. The distribution of state funds initially trickles 
+out through the CO, which then filters to the individual campuses, and 
+continues to subdivide to the various colleges and administrative units. 
+It is the responsibility of acquisitions professionals to “strive to ensure 
+good stewardship and maximum value of the institution’s resources” 
+according to ALA ALCTS’s “Statement on Principles and Standards of 
+Acquisitions Practice.” 6 Since most of the CSU libraries’ collections 
+and/or operations budgets ultimately come from the same source, as 
+a steward of public funds, the original thought process behind imple-
+menting GobiExport at Fullerton was to design an ethically-minded 
+financial workflow where public funds were not expended for the exact 
+same product more than once, if possible.
+Fullerton contracts with OCLC’s WorldShare Collection Manager 
+(WCM) service through GOBI for full bibliographic records of titles 
+purchased via GOBI’s approval and firm orders. It is possible to create 
+bypass subaccounts with GOBI for firm orders so that resources pur-
+chased under this type of an account would not result in an automatic 
+purchase of a full bibliographic record.7 Purchases made under the 
+bypass subaccounts would however also result in no physical processing, 
+so Fullerton essentially forfeited shelf-ready services for a portion of 
+their firm orders in favor of attempting to ethically steward public funds.
+In addition to the GobiExport firm ordering workflow outlined in 
+the previous section, at a more granular level, Fullerton’s acquisitions 
+record import workflow includes the manual review of bibliographic re-
+cords if there is a match in the NZ. Alma has matching 
+algorithms built into the import profiles predominantly 
+based on bibliographic records matching on MARC 
+fields 02X and 035. When the GobiExport files with 
+EOD bibliographic records are loaded, if there are no 
+matches in the system, then the EOD bibliographic 
+records would load to the NZ and create the POLs 
+and item records in the IZ. But if the loads included 
+matches, an acquisitions staff would utilize the full bib-
+liographic record already in the NZ and flip the subaccount to a bypass 
+subaccount in the POL, which would avoid triggering a purchase of a 
+full bibliographic record through WCM.
+Fullerton’s fiscal year runs from July 1st to June 30th and, over the 
+span of the two fiscal years 2017/2018 and 2018/2019, there was a total 
+of 2,537 firm orders placed with GOBI, 624 electronic and 1,913 print. 
+Out of the 2,537 GOBI firm orders, 600 firm orders total were placed 
+on bypass subaccounts, 16 electronic and 584 print, meaning nearly 
+25% of firm orders were ordered without full bibliographic records 
+or shelf-ready physical processing in two fiscal years. This process 
+allowed for the customer to select and use certain subaccounts for 
+different purposes, ultimately putting the control on technical services 
+outsourcing usage on the library.
+Having a single vendor representative that was knowledgeable 
+about workflows across the entire consortium was helpful in getting 
+a sense of the diversity of workflows. From the financial perspective, 
+there were cost savings as Fullerton avoided purchasing bibliographic 
+records that had already been purchased by another member of the 
+consortium. There was also an informal assessment of the cost to 
+physically process the materials in-house with student labor. At optimal 
+production with varying degrees of complexity in physically processing 
+where the students were paid at minimum $12.00 per hour in 2019, it 
+took the students one to three minutes to apply security device, apply 
+two stamp impressions, apply barcode, scan barcode into the ILS, then 
+generate and apply the spine label. Having in-house physical processing 
+of materials was significantly cheaper than outsourcing that activity 
+to a vendor. The physical processing factor obviously does not apply 
+to electronic materials but Fullerton is an e-preferred campus so the 
+benefits derived from using existing bibliographic records in the NZ 
+for e-books might be better realized in the future as there are increased 
+purchases of e-formats on the bypass subaccounts.8 From an ethically 
+principled stance, if funds were allocated to state institutions in a 
+The GobiExport and EDIFACT ordering workflow provides CSU 
+Fullerton with more complete control over the ordering workflow by 
+allowing for brief bibliographic records to be uploaded to the ILS be-
+fore orders for resources are placed. This amount of micro-managing 
+of orders can be a successful cost savings option for libraries wanting 
+a mixture of outsourced shelf-ready services with the flexibility to 
+completely bypass outsourcing. Fullerton’s GobiExport service along 
+with the GOBI firm orders import profiles set-up by the Acquisitions 
+Librarian ensured that in situations where there is already an acceptable 
+full bibliographic record in the NZ that adhered to local cataloging stan-
+dards, the records were utilized. From a purely financial perspective, 
+the quotes for the EOCR and GobiExport services at the “Basic” level 
+were comparable while the GobiAPI service was quoted at a higher rate 
+than the other two, even with the CSU consortial deal for the GobiAPI. 
+Furthermore, the implementation of GobiExport cut down the lag time 
+in loading the EOD records from one day to immediately when switch-
+ing from the EOCR service to GobiExport, significantly improving the 
+discoverability of newly purchased items right away.
+GobiExport and EDIFACT ordering workflow is more time and labor 
+intensive for the library because it requires more steps to order a title 
+than GobiAPI and it does not fully utilize the automation technology 
+Alma and GOBI are capable of. Although nearly 25% of firm orders 
+were ordered on bypass accounts over the span of two fiscal years, the 
+WCM fees charged were modest and the workflow was 
+not the most efficient way to acquire materials using Alma. 
+The ordering work at Fullerton is done by Library Services 
+Specialist IIIs, who typically “perform more complex or spe-
+cialized [...] library duties to support daily library operations 
+and/or programs,” 9 and therefore are compensated for their 
+labor at a rate higher than entry level employees. Due to the 
+layered workflow for GOBI firm ordering, it required staff 
+with more experience to handle the work but could introduce 
+more human errors. The ordering workflow could be optimized if the 
+ethical stance could be overlooked, especially since specialized labor 
+costs far outpace the cost savings from purchasing bibliographic records.
+This is one of the many conversations taking place across libraries, 
+vendors, and consortia. More work needs to be done to fully understand 
+the optimized or non-optimal workflow trade-offs and re-imagine how it 
+could be enhanced in the future. Having a 360 conversation with vendors 
+and librarians working at various ends of consortial work is one way to 
+start the assessment. Through a close partnership with the GOBI LTS 
+representative, Fullerton was able to implement a system that bypassed 
+duplicate purchasing of bibliographic records. But for those interested 
+in simulating a similar workflow, it would be recommended to look at 
+the costs and efficiencies as they pertain to the cost of services, cost 
+for labor, cost savings, steps involved, and the time it takes to perform 
+the full GobiExport firm ordering cycle, while balancing the ethical 
+conundrum of managing public funds. It would also be interesting to 
+find a more efficient solution that could scale consortially.
+The overall workflow resulted in a GobiExport option at Fullerton 
+that allowed the flexibility to utilize the bypass subaccount structures 
+whereas consortially some sister campuses preferred the GobiAPI. 
+Through close partnership with GOBI’s LTS representative, the 
+project to update institutional technical specifications had a common 
+representative working with individual institutions on a variety of 
+levels for consortial integration and for Fullerton to be able to enact 
+a system that bypassed duplicate purchasing of bibliographic records, 
+which was the desired outcome. Although it is not yet certain if the 
+benefits fully outweigh the downsides, the migration not only resulted 
+in consortial collaboration across the libraries and the CO employees 
+but formed a close alliance with vendors to flesh out the workflows 
+behind the scenes and re-visit existing infrastructures with a new lens 
+framed by the ILS. 
+as necessary. Create a space for employees to voice their concerns. 
+This can be done via group meetings, regular one on one check-ins, 
+or in casual conversation. Also, when implementing a new policy 
+or procedure, follow up with your staff to see if the new procedure 
+is working well. Document your steps and progress along the way. 
+Sometimes the smallest changes can have a much bigger meaning to 
+staff than to managers. 
+Staff: Ask questions and provide feedback. Not everything that 
+you suggest to your manager may be acted upon immediately, but it 
+may spark ideas for long-term or other improvements. Be willing to 
+give a new workflow or procedure a try to see how it goes. Also, be 
+patient with your managers as they test out new workflows and look 
+for ways to make improvements.
+in our workflow. We made a conscious effort over the last two years 
+to reframe our relationship with outsourcing so that we may provide 
+better customer service and so that our staff feel less vulnerable and 
+more confident of the value they bring to the system. The additional 
+services we have been able to offer in cataloging and processing allow 
+us to highlight in-house talent and skills. Outsourcing felt like a threat 
+for many years, but now it is a tool to facilitate quick delivery of 
+customized cataloged and processed materials — we can allow vendors 
+to handle highly repetitive tasks so we can turn our attention to in-depth 
+customizations, services, and projects that benefit our local community.
+1. Hahn, Joel. OML for the complete beginner. http://www.
+http://computerwhizzard.50megs.com/OCLCconnexioncli-
+entmacros.html
+5. WaltsMacros. https://github.com/wnickeson/WaltsMacros 
+publishers and their interactees, primarily on matters relating to digital 
+change or the supply chain. I enjoy reading his blog which I don’t do 
+enough! Check out one of the latest — 2020: Zero year thoughts 
+blog/.
+Audible has finally settled the lawsuit over its speech-to-text feature, 
+Captions. In July, Audible announced Captions, claiming it will be 
+geared toward students as an educational text accompaniment to its 
+audiobooks. Publishers were immediately up in arms, declaring it a 
+copyright issue, arguing that Audible only had licenses for audio-use, 
+not text. While Audible insisted that its service was not a replacement 
+for eBooks, publishers took the issue to court, where it has been stew-
+ing since August. The Guardian reports that “the parties had resolved 
+their disputes and expected to submit the settlement documents by 21 
+January.”
+https://www.theguardian.com/books/2020/jan/15/audible-settles-copy-
+right-lawsuit-publishers-captions
+Speaking of Audible, I have been riveted by listening to The House 
+of Morgan: An American Banking Dynasty and the Rise of Modern Fi-
+nance by Ron Chernow. This is from Amazon and is very accurate in 
+my opinion: “Published to critical acclaim twenty years ago, and now 
+considered a classic, The House of Morgan is the most ambitious history 
+ever written about American finance. It is a rich, panoramic story of 

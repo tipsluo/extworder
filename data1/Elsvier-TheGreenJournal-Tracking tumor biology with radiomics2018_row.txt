@@ -1,0 +1,2146 @@
+Page: 1 left:1 upper:1
+Radiotherapy and Oncology 127 (2018) 349–360
+page=1 block=1816264708 (x=186 y=1) width=149.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Contents lists available at ScienceDirect
+page=1 block=1850540144 (x=187 y=28) width=151.000000 height=4.000000 fontname=KPGPDL+AdvPSUnv wordint.min=1 wordint.max=4
+Radiotherapy and Oncology
+page=1 block=2060059040 (x=169 y=52) width=186.000000 height=8.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+journal homepage: www.thegreenjournal.com
+page=1 block=-2114977456 (x=154 y=84) width=216.000000 height=4.000000 fontname=KPGPDL+AdvPSUnv wordint.min=1 wordint.max=5
+Tracking tumor biology with radiomics: A systematic review utilizing a
+page=1 block=29428989 (x=1 y=133) width=449.000000 height=8.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+radiomics quality score
+page=1 block=29428989 (x=1 y=150) width=146.000000 height=8.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Sebastian Sanduleanua,b,?,1, Henry C. Woodruff a,b,d,1, Evelyn E.C. de Jonga,b, Janna E. van Timmeren a,b,
+page=1 block=32968976 (x=1 y=168) width=503.000000 height=13.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Arthur Jochems a,b, Ludwig Duboisa,c, Philippe Lambin a,b,c
+page=1 block=32968976 (x=1 y=185) width=283.000000 height=9.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+aDepartment of Radiation Oncology, GROW – School for Oncology and Developmental Biology, Maastricht University Medical Centre+; bThe-D-Lab: Decision Support for Precision
+page=1 block=34083389 (x=1 y=203) width=520.000000 height=6.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Medicine, GROW – School for Oncology and Developmental Biology, Maastricht University Medical Centre+; cDepartment of Radiotherapy, The M-Lab Group, GROW – School for
+page=1 block=34083389 (x=1 y=212) width=520.000000 height=5.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Oncology and Developmental Biology, Maastricht University Medical Centre+; and dMAASTRO Clinic, Department of Radiation Oncology, Maastricht, The Netherlands
+page=1 block=34083389 (x=1 y=221) width=480.000000 height=5.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Introduction: In this review we describe recent developments in the ?eld of radiomics along with current
+page=1 block=-445323531 (x=165 y=275) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+relevant literature linking it to tumor biology. We furthermore explore themethodologic quality ofthese
+page=1 block=-445323531 (x=165 y=284) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+studies with our in-house radiomics quality scoring (RQS) tool. Finally, we offer our vision on necessary
+page=1 block=-445323531 (x=165 y=294) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+future steps for the development of stable radiomic features and their links to tumor biology. Methods:
+page=1 block=-445323531 (x=165 y=304) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Two authors (S.S. and H.W.) independently performed a thorough systematic literature search and out-
+page=1 block=-445323531 (x=165 y=313) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+come extraction to identify relevant studies published in MEDLINE/PubMed (National Center for
+page=1 block=-445323531 (x=165 y=323) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+BiotechnologyInformation,NCBI), EMBASE (Ovid) and Web ofScience(WoS). Twoauthors (S.S, H.W) sep-
+page=1 block=-445323531 (x=165 y=332) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+arately and two authors (J.v.T and E.d.J) concordantly scored the articles for their methodology and anal-
+page=1 block=-445323531 (x=165 y=342) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+yses according to the previously published radiomics quality score (RQS). Results: In summary, a total of
+page=1 block=-445323531 (x=165 y=351) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+655 records wereidenti?ed till 25-09-2017 basedon the previously speci?ed searchterms, from whichn
+page=1 block=-445323531 (x=165 y=361) width=354.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+= 236 in MEDLINE/PubMed, n = 215 in EMBASE and n =204 from Web of Science. After determining full
+page=1 block=-445323531 (x=165 y=371) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+article availability and reading theavailablearticles, a total of n = 41studieswere includedin thesystem-
+page=1 block=-445323531 (x=165 y=380) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+atic review. The RQS scoring resulted in some discrepancies between the reviewers, e.g. reviewer H.W
+page=1 block=-445323531 (x=165 y=390) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+scored 4 studies 50%, reviewer S.S scored 3 studies 50% while reviewers J.v.T and E.d.J scored 1 study
+page=1 block=-445323531 (x=165 y=397) width=356.000000 height=7.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+50%.Up to nine studieswere givena quality score of 0%. The majority ofstudieswere scored below 50%.
+page=1 block=-445323531 (x=165 y=407) width=356.000000 height=6.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Discussion: In this study, we performed a systematic literature search linking radiomics to tumor biology.
+page=1 block=-445323531 (x=165 y=418) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+All but two studies (n = 39) revealed that radiomic features derived from ultrasound, CT, PET and/or MR
+page=1 block=-445323531 (x=165 y=428) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+are signi?cantly associated with one or several speci?c tumor biologic substrates, from somatic mutation
+page=1 block=-445323531 (x=165 y=437) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+status to tumor histopathologic grading and metabolism. Considerable inter-observer differences were
+page=1 block=-445323531 (x=165 y=447) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+found with regard to RQS scoring, while important questions were raised concerning the interpretability
+page=1 block=-445323531 (x=165 y=457) width=356.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+of the outcome of such scores.
+page=1 block=-445323531 (x=165 y=466) width=105.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+ 2018 The Author(s). Published by Elsevier B.V. Radiotherapy and Oncology 127 (2018) 349–360 Thisis
+page=1 block=-445323531 (x=165 y=475) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+an open accessarticleunder the CCBY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+page=1 block=-445323531 (x=165 y=485) width=356.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+https://doi.org/10.1016/j.radonc.2018.03.033
+page=1 block=22362161 (x=1 y=685) width=135.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+0167-8140/ 2018 The Author(s). Published by Elsevier B.V.
+page=1 block=22362161 (x=1 y=693) width=184.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+This isanopen accessarticle under the CCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+page=1 block=22362161 (x=1 y=702) width=341.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Systematic review
+page=1 block=5309094 (x=1 y=113) width=81.000000 height=6.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+a r t ic l e i n fo
+page=1 block=6161654 (x=1 y=254) width=94.000000 height=5.000000 fontname=KPGOGM+AdvGulliv-F wordint.min=3 wordint.max=5
+abstract
+page=1 block=702875124 (x=165 y=254) width=65.000000 height=6.000000 fontname=KPGOGM+AdvGulliv-F wordint.min=4 wordint.max=19
+Article history:
+page=1 block=2753608 (x=1 y=274) width=42.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Received 15 May 2017
+page=1 block=7872810 (x=1 y=283) width=69.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Received in revised form 2 March 2018
+page=1 block=7872810 (x=1 y=291) width=120.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Accepted 29 March 2018
+page=1 block=7872810 (x=1 y=300) width=76.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Available online 18 May 2018
+page=1 block=7872810 (x=1 y=309) width=91.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Keywords:
+page=1 block=1967396 (x=1 y=329) width=30.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=13
+Radiomics
+page=1 block=2169765 (x=1 y=337) width=31.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Neoplasms
+page=1 block=2169765 (x=1 y=346) width=33.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Biology
+page=1 block=2169765 (x=1 y=354) width=22.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Medical images are estimated to account for as much as 90 per-
+page=1 block=16495282 (x=12 y=514) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+cent of total stored medical data, with collections of over 30 billion
+page=1 block=16495282 (x=1 y=525) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+medical images currently available in the United States privatesec-
+page=1 block=16495282 (x=1 y=535) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+tor domain for advanced arti?cial intelligence pattern analysis [1].
+page=1 block=16495282 (x=1 y=546) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Medical images such as computed tomography (CT), magnetic res-
+page=1 block=16495282 (x=1 y=556) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+onance imaging (MRI) and positron emission tomography (PET) are
+page=1 block=16495282 (x=1 y=567) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+obtained for nearly all oncology patients undergoing therapy. Cur-
+page=1 block=16495282 (x=1 y=577) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+rently, most patients will undergo multiple imaging sessions dur-
+page=1 block=16495282 (x=1 y=588) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+ing the course of their treatment. These digital data are
+page=1 block=16495282 (x=1 y=598) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=9
+? Corresponding author at: Department of Radiation Oncology, GROW – School
+page=1 block=16477124 (x=5 y=627) width=247.000000 height=8.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+for Oncology and Developmental Biology, Maastricht University Medical Centre+,
+page=1 block=16477124 (x=1 y=640) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Universiteitssingel 40, 6229 ER Maastricht, The Netherlands.
+page=1 block=16477124 (x=1 y=648) width=184.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+E-mail address: s.sanduleanu@maastrichtuniversity.nl (S. Sanduleanu).
+page=1 block=16477124 (x=12 y=658) width=213.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+1 Both authors contributed equally.
+page=1 block=16477124 (x=6 y=665) width=106.000000 height=6.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+increasingly available in the standard DICOM data format, allowing
+page=1 block=146485552 (x=270 y=514) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+for easy and consistent analysis.
+page=1 block=146485552 (x=270 y=525) width=122.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Over the past decade the endeavor to transformdigital standard
+page=1 block=146485552 (x=281 y=535) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+of care medical images to mineable high-dimensional data by
+page=1 block=146485552 (x=270 y=546) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+extracting mathematically quantitative features has been at the
+page=1 block=146485552 (x=270 y=556) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+forefront of imaging research. Radiomic studies may help to char-
+page=1 block=146485552 (x=270 y=567) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+acterize tumor biology in vivo by correlating imaging features with
+page=1 block=146485552 (x=270 y=577) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ground truth pathology substrates.
+page=1 block=146485552 (x=270 y=588) width=132.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Although medical images are commonly used by radiologists to
+page=1 block=146485552 (x=281 y=598) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+describe a pathologic substrate, features extracted in the radiomic
+page=1 block=146485552 (x=270 y=609) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+process are not part of radiologists’ lexica since they are generally
+page=1 block=146485552 (x=270 y=619) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+not visible to the naked eye. The hypothesis is that these features
+page=1 block=146485552 (x=270 y=629) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+provide added relevant tumor-biology related genomic, cellular
+page=1 block=146485552 (x=270 y=640) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+and metabolic information [2,3]. Features derived from radiomic
+page=1 block=146485552 (x=270 y=650) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+analysis (e.g., intensity, shape, texture, wavelet, etc.) can provide
+page=1 block=146485552 (x=270 y=661) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Page: 2 left:1 upper:1
+350
+page=2 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+page=2 block=-2094268412 (x=146 y=1) width=230.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+information that is complementary to other relevant clinical infor-
+page=2 block=16453379 (x=1 y=21) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mation and are therefore intended to augment currently available
+page=2 block=16453379 (x=1 y=31) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+clinical decision support systems (CDSS) [4–7]. The ?nal goal is to
+page=2 block=16453379 (x=1 y=42) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+improve personalized medical decision-making (see Fig. 1): estab-
+page=2 block=16453379 (x=1 y=52) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+lishing reliable models that can stratify therapy outcomes and can
+page=2 block=16453379 (x=1 y=63) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+be used for assessing patients’ personal trade-off between the risks
+page=2 block=16453379 (x=1 y=73) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+and bene?ts of different treatment options [8–10].
+page=2 block=16453379 (x=1 y=84) width=192.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+In this review recent developments in the ?eld of radiomics are
+page=2 block=16453379 (x=12 y=94) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+described, along with relevant literature linking it to tumor biol-
+page=2 block=16453379 (x=1 y=105) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+ogy. Metrics for internal/external validity and completeness of
+page=2 block=16453379 (x=1 y=115) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+the radiomic work?ow have been calculated for these studies with
+page=2 block=16453379 (x=1 y=126) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+our in-house developed radiomics quality score (RQS) tool [11].
+page=2 block=16453379 (x=1 y=136) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Introducing this tool highlights the methodology upon which
+page=2 block=16453379 (x=1 y=146) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+inference was drawn with regard to the link between radiomics
+page=2 block=16453379 (x=1 y=157) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+and biology. General comments and recommendations for the
+page=2 block=16453379 (x=1 y=167) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+improvement of this tool are presented. Finally, we offer our vision
+page=2 block=16453379 (x=1 y=178) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+on necessary future steps for the development of stable and robust
+page=2 block=16453379 (x=1 y=188) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+radiomic biomarkers and their link to tumor biology.
+page=2 block=16453379 (x=1 y=199) width=202.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Materials and methods
+page=2 block=6030427 (x=1 y=223) width=92.000000 height=5.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=4
+Systematic search strategy
+page=2 block=6292676 (x=1 y=244) width=96.000000 height=5.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=5
+The research question for this systematic review is described as:
+page=2 block=16483336 (x=12 y=260) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+‘‘What are the known studies linking radiomics to tumor biology
+page=2 block=16483336 (x=1 y=270) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+and what is the methodological quality of these studies?”
+page=2 block=16483336 (x=1 y=281) width=220.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+We conducteda comprehensive literature search to identify rel-
+page=2 block=16483336 (x=12 y=291) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+evant studies published in MEDLINE/PubMed (National Center for
+page=2 block=16483336 (x=1 y=302) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Biotechnology Information, NCBI), EMBASE (Ovid) and Web of
+page=2 block=16483336 (x=1 y=312) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+Science (WoS) until 25-09-2017. We used a search string contain-
+page=2 block=16483336 (x=1 y=323) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ing free-text and/or Medical Subject Headings (MeSH) search of 3
+page=2 block=16483336 (x=1 y=333) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+key search terms: ‘biology’, ‘neoplasms’ and ‘radiomics’ while
+page=2 block=16483336 (x=1 y=344) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+search terms such as ‘imaging features’ were not used as our pur-
+page=2 block=16483336 (x=1 y=354) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+pose was to review manuscripts using more recent, high through-
+page=2 block=16483336 (x=1 y=365) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+put technology. Details on the search method are shown in the
+page=2 block=16483336 (x=1 y=375) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Supplementary Appendix.
+page=2 block=16483336 (x=1 y=386) width=98.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Study selection
+page=2 block=3540596 (x=1 y=413) width=54.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=5
+We included articles satisfying the following inclusion criteria:
+page=2 block=16491908 (x=12 y=428) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+(1) articles were full-text and written in English, (2) the study pop-
+page=2 block=16491908 (x=1 y=439) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ulation consisted of humans or animals with acquired tissue sam-
+page=2 block=16491908 (x=1 y=449) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+ples or biologic biomarkers, and (3) radiomic analysis was
+page=2 block=16491908 (x=1 y=459) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+performed on mammography, ultrasound, CT, PET or MR images.
+page=2 block=16491908 (x=1 y=470) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Duplicate ?ndings were discarded to ensure that no data overlap
+page=2 block=16491908 (x=1 y=480) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+occurred. Further selection was performed by applying the follow-
+page=2 block=16491908 (x=1 y=491) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ing exclusion criteria: (1) studies not linking fundamental biologic
+page=2 block=16491908 (x=1 y=501) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+substrate (e.g., blood biomarkers) to radiomics, and (2) case-
+page=2 block=16491908 (x=1 y=512) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+reports, (systematic) reviews, and expert opinion papers.
+page=2 block=16491908 (x=1 y=522) width=217.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Data extraction
+page=2 block=3672761 (x=1 y=549) width=56.000000 height=5.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=5
+Two authors (S.S. and H.W.) independently performed a thor-
+page=2 block=16529201 (x=12 y=565) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+ough systematic literature search and outcome extraction. From
+page=2 block=16529201 (x=1 y=575) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+the included articles, data concerning study characteristics was
+page=2 block=16529201 (x=1 y=586) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+extracted and tabulated (author, publication year, study popula-
+page=2 block=16529201 (x=1 y=596) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+tion, radiomic feature extraction, main results and conclusion)
+page=2 block=16529201 (x=1 y=607) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+together with measurement characteristics (i.e., method for quan-
+page=2 block=16529201 (x=1 y=617) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+tifying biological mechanism). Furthermore, most relevant statisti-
+page=2 block=16529201 (x=1 y=628) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+cal results (e.g., p-values, AUC, c-index) were extracted and
+page=2 block=16529201 (x=1 y=638) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+summarized. p-Values <0.05 were considered indicative of statisti-
+page=2 block=16529201 (x=1 y=649) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+cal signi?cance.
+page=2 block=16529201 (x=1 y=659) width=59.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+S.S., H.W. separately and E.d.J. and J.v.T. concordantly scoredthe
+page=2 block=16529201 (x=12 y=669) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+articles for their methodology according to the radiomics quality
+page=2 block=16529201 (x=1 y=680) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+score (RQS) [11], consisting of sixteen key components (e.g., robust
+page=2 block=16529201 (x=1 y=690) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+segmentation, use of standardized imaging protocols, use of valida-
+page=2 block=16529201 (x=1 y=701) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+tion dataset); each component was assigned a number of points
+page=2 block=146410595 (x=270 y=21) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+corresponding to its importance as shown in Table 1. Agreement
+page=2 block=146410595 (x=270 y=31) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+between the reviewers was assessed by means of a modi?ed Fleiss
+page=2 block=146410595 (x=270 y=42) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+kappa statistic (linear weights, 1000 iterations for the percentile
+page=2 block=146410595 (x=270 y=52) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Bootstrap and for the Monte Carlo test, alpha = 0.05) in R-studio
+page=2 block=146410595 (x=270 y=63) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+for Windows (R version 1.0.136, Boston). Although the RQS serves
+page=2 block=146410595 (x=270 y=73) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+as a guideline to evaluate the radiomic work?ow presented in a
+page=2 block=146410595 (x=270 y=84) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+given publication for internal consistency, clinical relevance and
+page=2 block=146410595 (x=270 y=94) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+applicability, and reproducibility, it neither completely reveals
+page=2 block=146410595 (x=270 y=105) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+the methodologic quality nor does it re?ect the overall quality or
+page=2 block=146410595 (x=270 y=115) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+importance of the research and as such it should not replace the
+page=2 block=146410595 (x=270 y=126) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+reader’s scienti?c appraisal. In the context of this review it is used
+page=2 block=146410595 (x=270 y=136) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+as an example for a protocol that can be applied when trying to
+page=2 block=146410595 (x=270 y=146) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+assess the reliability of correlations, classi?ers and predictors built
+page=2 block=146410595 (x=270 y=157) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+using radiomics as their basis.
+page=2 block=146410595 (x=270 y=167) width=115.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Results
+page=2 block=495453205 (x=270 y=209) width=28.000000 height=5.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=17
+In summary (see Fig. 2), a total of 655 records were identi?ed
+page=2 block=146516904 (x=281 y=230) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+until 25-09-2017 based on the previously speci?ed search terms,
+page=2 block=146516904 (x=270 y=241) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+from which n = 236 in MEDLINE/PubMed, n = 215 in EMBASE and
+page=2 block=146516904 (x=270 y=251) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+n = 204 from Web of Science. After imposing language-
+page=2 block=146516904 (x=270 y=262) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=11
+restrictions and removing duplicate ?ndings, 450 articles
+page=2 block=146516904 (x=270 y=272) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=10
+remained. Further screening by reading the abstracts and applying
+page=2 block=146516904 (x=270 y=282) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+the outlined inclusion criteria resulted in 78 potentially eligible
+page=2 block=146516904 (x=270 y=293) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+studies. After determining full article (open source as well as
+page=2 block=146516904 (x=270 y=303) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+request print) availability and reading the available articles taking
+page=2 block=146516904 (x=270 y=314) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+into account the exclusion criteria set out for this systematic
+page=2 block=146516904 (x=270 y=324) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+review, a total of 41 studies were included, while 37 articles were
+page=2 block=146516904 (x=270 y=335) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+eliminated. A tabulated view of the principal results, conclusion
+page=2 block=146516904 (x=270 y=345) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+and RQS score per component and rater for these studies is pro-
+page=2 block=146516904 (x=270 y=356) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+vided in Supplementary Table 1 and Fig. 3a–c. A brief summary
+page=2 block=146516904 (x=270 y=366) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+of the mean RQS scores between reviewers J.v.T. and E.d.J., H.W.
+page=2 block=146516904 (x=270 y=377) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+and S.S. and the biological correlates, and if mentioned the micro-
+page=2 block=146516904 (x=270 y=387) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+biologic technique, is presented in Table 2. The inter-observer
+page=2 block=146516904 (x=270 y=397) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+agreement with upper/lower level con?dence interval is presented
+page=2 block=146516904 (x=270 y=408) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+per RQS component in Fig. 4.
+page=2 block=146516904 (x=270 y=418) width=110.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Although many correlations between radiomics and specimen
+page=2 block=146516904 (x=281 y=429) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+biology are weak, all but one study [12] reported that at least
+page=2 block=146516904 (x=270 y=439) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+one radiomic model was signi?cantly associated with one or sev-
+page=2 block=146516904 (x=270 y=450) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+eral speci?c biologic mechanisms. In total 38 studies were on clin-
+page=2 block=146516904 (x=270 y=460) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ical cancer patients and three on preclinical data. Occasionally
+page=2 block=146516904 (x=270 y=471) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+multiple links between radiomics and biology were addressed,
+page=2 block=146516904 (x=270 y=481) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+e.g., histopathological grading and gene expression. For instance,
+page=2 block=146516904 (x=270 y=492) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Grossmann et al. identi?ed and independently validated thirteen
+page=2 block=146516904 (x=270 y=502) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+radiomic-pathway modules with coherent expression patterns,
+page=2 block=146516904 (x=270 y=513) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+eleven of which were signi?cantly associated with overall survival,
+page=2 block=146516904 (x=270 y=523) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+stage, or histology [13]. By basing these clinical associations exclu-
+page=2 block=146516904 (x=270 y=533) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+sively on radiomic features, they could demonstrate that the asso-
+page=2 block=146516904 (x=270 y=544) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+ciated molecular pathways robustly matched radiomic-based
+page=2 block=146516904 (x=270 y=554) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+hypotheses. For example Laplace of Gaussian intensity standard
+page=2 block=146516904 (x=270 y=565) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+deviation, wavelet intensity variance, and wavelet texture entropy
+page=2 block=146516904 (x=270 y=575) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+were prognostic and associated with staging. These features were
+page=2 block=146516904 (x=270 y=586) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+highly enriched (pathway analysis) for immune system, p53, and
+page=2 block=146516904 (x=270 y=596) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+cell-cycle regulation pathways, biological processes that are widely
+page=2 block=146516904 (x=270 y=607) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+recognized to play key roles in lung cancer.
+page=2 block=146516904 (x=270 y=617) width=165.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+A total of 17 studies established a correlation between cancer
+page=2 block=146516904 (x=281 y=628) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+imaging features and a certain gene expression or gene mutation,
+page=2 block=146516904 (x=270 y=638) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+a process called radiogenomics [12–28]. Importantly, a causal rela-
+page=2 block=146516904 (x=270 y=649) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+tionship rather than a correlation was demonstrated between
+page=2 block=146516904 (x=270 y=659) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+genetic changes and image features, reported by Panth et al. [26].
+page=2 block=146516904 (x=270 y=669) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+In this preclinical study gene induction with doxycycline (dox+)
+page=2 block=146516904 (x=270 y=680) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+and irradiation translated into signi?cant changes in radiomic fea-
+page=2 block=146516904 (x=270 y=690) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+tures in GADD34 mouse xenografts (between the dox+ and irradi-
+page=2 block=146516904 (x=270 y=701) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Page: 3 left:1 upper:1
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+page=3 block=2115305476 (x=159 y=1) width=203.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+351
+page=3 block=400293892 (x=509 y=1) width=12.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Fig.1. Fromtop to bottom.(a)Intra-tumor heterogeneity, therapid evolution of tumors over time andin response totherapies, andthe potential sampling bias involved ina
+page=3 block=34090060 (x=1 y=540) width=520.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+single tumorbiopsy (currentmodel)limits the ef?cientidenti?cationandquali?cation ofbiomarkers forclinical use. Radiomics can alleviatethese problems through ‘virtual
+page=3 block=34090060 (x=1 y=548) width=520.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+biopsies’ at multiple sites and time points. (b) Radiomics potentially encapsulates information from the anatomic to the genomic level.
+page=3 block=34090060 (x=1 y=557) width=412.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ation groups 8 and 4 of these features remained consistent for 40
+page=3 block=16519736 (x=1 y=585) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+and 80kVp, respectively).
+page=3 block=16519736 (x=1 y=595) width=95.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+A total of nine studies associated radiomic features with tumor
+page=3 block=16519736 (x=12 y=606) width=240.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+histopathological grading/malignancy prediction [29–37]. Another
+page=3 block=16519736 (x=1 y=616) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+15 studies explored the correlation between imaging features and
+page=3 block=16519736 (x=1 y=626) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+a speci?c histological substrate, e.g., hormone receptor status or
+page=3 block=16519736 (x=1 y=637) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+microvascular density (MVD) [37–51]. Finally, three studies found
+page=3 block=16519736 (x=1 y=647) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+correlations between tumor metabolism and radiomic features
+page=3 block=16519736 (x=1 y=658) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+[22,51,52].
+page=3 block=16519736 (x=1 y=668) width=40.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=17
+The best performing classi?er achieved an AUC of 0.96 in differ-
+page=3 block=16519736 (x=12 y=679) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+entiating between high and low grade intraductal papillary muci-
+page=3 block=16519736 (x=1 y=689) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+nous neoplasms (IPMNs) (this performance was based on
+page=3 block=16519736 (x=1 y=700) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=9
+internal cross-validation, rather than on an independent validation
+page=3 block=146477624 (x=270 y=585) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+cohort) [29]. The poorest performing classi?er, ‘tumor diameter’,
+page=3 block=146477624 (x=270 y=595) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+achieved an AUC of 0.56 in the prediction of EGFR mutation status
+page=3 block=146477624 (x=270 y=606) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[27].
+page=3 block=146477624 (x=270 y=616) width=17.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=17
+The RQS scoring resulted in some discrepancies between the
+page=3 block=146477624 (x=281 y=626) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+reviewers, e.g. H.W. scored 4 studies 50%, S.S. scored 3 studies
+page=3 block=146477624 (x=270 y=635) width=251.000000 height=7.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+50% while J.v.T. and E.d.J. scored 1 study 50%. Up to nine studies
+page=3 block=146477624 (x=270 y=645) width=251.000000 height=7.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+were given a quality score of 0%. The majority of studies were
+page=3 block=146477624 (x=270 y=658) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+scored below 50% due to lacking robust segmentation, external val-
+page=3 block=146477624 (x=270 y=668) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+idation and cut-off analyses/reporting. Nearly all studies were ret-
+page=3 block=146477624 (x=270 y=679) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+rospective and lacking a calibration plot. Striking was that a lack of
+page=3 block=146477624 (x=270 y=689) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+a prospective study design registered in a trial database accounted
+page=3 block=146477624 (x=270 y=700) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Page: 4 left:1 upper:1
+352
+page=4 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+page=4 block=-2094268412 (x=146 y=1) width=230.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Radiomics quality score as described in earlier work [11]. A radiomic study can achieve a total of 36 points maximum. Higher scores provide an indication of higher quality research.
+page=4 block=34078836 (x=1 y=29) width=520.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Image protocol quality – well-documented image protocols (e.g., contrast, slice
+page=4 block=647184072 (x=25 y=56) width=242.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+thickness, energy, etc.) and/or usage of public image protocols allow reproducibility/
+page=4 block=647184072 (x=25 y=65) width=259.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+replicability
+page=4 block=647184072 (x=25 y=73) width=37.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Multiple segmentations – possible actions are: segmentation by different physicians/
+page=4 block=647184072 (x=25 y=82) width=260.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+algorithms/software, perturbing segmentations by (random) noise, segmentation at
+page=4 block=647184072 (x=25 y=90) width=255.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+different breathing cycles. Analyze feature robustness to segmentation variabilities
+page=4 block=647184072 (x=25 y=99) width=253.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Phantomstudy on all scanners –detect inter-scanner differencesandvendor-dependent
+page=4 block=647184072 (x=25 y=108) width=265.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+features. Analyze feature robustness to these sources of variability
+page=4 block=647184072 (x=25 y=116) width=203.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Imaging at multiple time points – collect individuals’ images at additional time points.
+page=4 block=647184072 (x=25 y=125) width=265.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Analyze feature robustness to temporal variabilities (e.g., organ movement, organ
+page=4 block=647184072 (x=25 y=133) width=249.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+expansion/shrinkage).
+page=4 block=647184072 (x=25 y=142) width=67.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Feature reduction oradjustment for multiple testing – decreases the risk of over?tting. 3 (if neither measure is implemented)
+page=4 block=647184072 (x=25 y=149) width=395.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Over?tting is inevitable if the number of features exceeds the number of samples.
+page=4 block=647184072 (x=25 y=159) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++3 (if either measure is implemented)
+page=4 block=647184072 (x=299 y=159) width=116.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Consider feature robustness when selecting features
+page=4 block=647184072 (x=25 y=168) width=160.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Multivariable analysis with non radiomicfeatures (e.g.,EGFR mutation) – is expected to
+page=4 block=647184072 (x=25 y=176) width=265.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+provide a more holistic model. Permits correlating/inferencing between radiomics and
+page=4 block=647184072 (x=25 y=185) width=264.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+non radiomics features
+page=4 block=647184072 (x=25 y=193) width=70.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Detect and discuss biological correlates – demonstration of phenotypic differences
+page=4 block=647184072 (x=25 y=202) width=252.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+(possibly associated with underlying gene–protein expression patterns) deepens
+page=4 block=647184072 (x=25 y=210) width=246.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+understanding of radiomics and biology
+page=4 block=647184072 (x=25 y=219) width=122.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Cut-off analyses – determine risk groups by either the median, a previously published
+page=4 block=647184072 (x=25 y=228) width=264.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+cut-off or report a continuous risk variable. Reduces the risk of reporting overly
+page=4 block=647184072 (x=25 y=236) width=244.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+optimistic results
+page=4 block=647184072 (x=25 y=245) width=53.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Discrimination statistics – report discrimination statistics (e.g., C-statistic, ROC curve,
+page=4 block=647184072 (x=25 y=253) width=261.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+AUC) and their statistical signi?cance (e.g.,p-values, con?dence intervals). One canalso
+page=4 block=647184072 (x=25 y=262) width=265.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+apply resampling method (e.g., bootstrapping, cross-validation)
+page=4 block=647184072 (x=25 y=270) width=194.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Calibration statistics – report calibration statistics (e.g., Calibration-in-the-large/slope,
+page=4 block=647184072 (x=25 y=279) width=263.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+calibration plots) and their statistical signi?cance (e.g., p-values, con?dence intervals).
+page=4 block=647184072 (x=25 y=288) width=264.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+One can also apply resampling method (e.g., bootstrapping, cross-validation)
+page=4 block=647184072 (x=25 y=296) width=234.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Prospective study registered in a trial database – provides the highestlevel of evidence
+page=4 block=647184072 (x=25 y=305) width=265.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+supporting the clinical validity and usefulness of the radiomics biomarker
+page=4 block=647184072 (x=25 y=313) width=226.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Validation – the validation is performed without retraining and without adaptation of
+page=4 block=647184072 (x=25 y=322) width=263.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+the cut-off value, provides crucial information with regard to credible clinical
+page=4 block=647184072 (x=25 y=330) width=237.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+performance
+page=4 block=647184072 (x=25 y=339) width=39.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Comparison to ‘gold standard’ – assess the extent to which the model agrees with/is
+page=4 block=434204728 (x=25 y=399) width=259.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+superior to the current ‘gold standard’ method (e.g., TNM-staging for survival
+page=4 block=434204728 (x=25 y=408) width=237.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+prediction). This comparison shows the added value of radiomics
+page=4 block=434204728 (x=25 y=416) width=199.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Potential clinicalutility– report onthe current and potentialapplication ofthe modelin
+page=4 block=434204728 (x=25 y=425) width=265.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+a clinical setting (e.g., decision curve analysis)
+page=4 block=434204728 (x=25 y=433) width=141.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Cost-effectiveness analysis – report on the cost-effectiveness of the clinical application
+page=4 block=434204728 (x=25 y=442) width=265.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+(e.g., quality adjusted life years generated)
+page=4 block=434204728 (x=25 y=450) width=130.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Open science and data – make code and data publicly available.Open science facilitates
+page=4 block=434204728 (x=25 y=459) width=265.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+knowledge transfer and reproducibility of the study
+page=4 block=434204728 (x=25 y=468) width=159.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Table 1
+page=4 block=1441876 (x=1 y=21) width=22.000000 height=4.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=5
+Criteria
+page=4 block=37683376 (x=25 y=44) width=23.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+1
+page=4 block=2359520 (x=9 y=56) width=4.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+2
+page=4 block=2359624 (x=9 y=82) width=4.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+3
+page=4 block=2359728 (x=9 y=108) width=4.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+4
+page=4 block=2359796 (x=9 y=125) width=4.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+5
+page=4 block=2359896 (x=9 y=150) width=4.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+6
+page=4 block=2360000 (x=9 y=176) width=4.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+7
+page=4 block=2360104 (x=9 y=202) width=4.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+8
+page=4 block=2359980 (x=9 y=228) width=4.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+9
+page=4 block=2360308 (x=9 y=253) width=4.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=13 wordint.max=13
+10
+page=4 block=4719708 (x=9 y=279) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+11
+page=4 block=4719812 (x=9 y=305) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+12
+page=4 block=4719880 (x=9 y=322) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+13
+page=4 block=4720188 (x=9 y=399) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+14
+page=4 block=4720292 (x=9 y=425) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+15
+page=4 block=4720360 (x=9 y=442) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+16
+page=4 block=4720428 (x=9 y=459) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Total points (36= 100%)
+page=4 block=119605208 (x=25 y=502) width=73.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Abbreviations: AUC: area under the curve, EGFR: epidermal growth factor receptor.
+page=4 block=16517136 (x=1 y=516) width=252.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Fig. 2. Flowchart systematic review.
+page=4 block=516492024 (x=71 y=702) width=111.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Points
+page=4 block=372310192 (x=299 y=44) width=19.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1 (if protocols are well-documented)
+page=4 block=-2021915944 (x=299 y=56) width=116.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++1 (if public protocol is used)
+page=4 block=-2021915944 (x=299 y=65) width=90.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++1
+page=4 block=137167176 (x=299 y=82) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1
+page=4 block=137167280 (x=299 y=108) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1
+page=4 block=137167348 (x=299 y=125) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1
+page=4 block=137167552 (x=299 y=176) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1
+page=4 block=137167656 (x=299 y=202) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1
+page=4 block=137167532 (x=299 y=228) width=7.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1 (if a discrimination statistic and its statistical signi?cance are
+page=4 block=-121166450 (x=299 y=253) width=197.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+reported)
+page=4 block=-121166450 (x=299 y=262) width=28.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1 (if also an resampling method technique is applied)
+page=4 block=-121166450 (x=299 y=270) width=167.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++1 (if a calibration statistic and its statistical signi?cance are reported)
+page=4 block=-121166450 (x=299 y=279) width=213.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++1 (if also an resampling method technique is applied)
+page=4 block=-121166450 (x=299 y=288) width=167.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++7 (for prospective validation of a radiomics signature in an
+page=4 block=-121146174 (x=299 y=305) width=183.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+appropriate trial)
+page=4 block=-121146174 (x=299 y=313) width=52.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+5 (if validation is missing)
+page=4 block=-121146174 (x=299 y=320) width=85.000000 height=6.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++2 (if validation is based on a dataset from the same institute)
+page=4 block=-121146174 (x=299 y=330) width=191.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++3 (if validation is based on a dataset from another institute)
+page=4 block=-121146174 (x=299 y=339) width=187.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++4 (if validation is based on two datasets from two distinct institutes)
+page=4 block=-121146174 (x=299 y=348) width=213.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++4 (if the study validates a previously published signature)
+page=4 block=-121146174 (x=299 y=356) width=180.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++5 (if validation is based on three or more datasets from distinct
+page=4 block=-121146174 (x=299 y=365) width=198.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+institutes)
+page=4 block=-121146174 (x=299 y=373) width=31.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+*Datasets should be of comparable size and should have at least 10
+page=4 block=-121146174 (x=299 y=380) width=205.000000 height=6.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+events per model feature.
+page=4 block=-121146174 (x=299 y=390) width=78.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++2
+page=4 block=-121146174 (x=299 y=399) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++2
+page=4 block=137168548 (x=299 y=425) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1
+page=4 block=137168616 (x=299 y=442) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
++1 (if scans are open source)
+page=4 block=-121158622 (x=299 y=459) width=88.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++1 (if region of interest segmentations are open source)
+page=4 block=-121158622 (x=299 y=468) width=170.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++1 (if code is open source)
+page=4 block=-121158622 (x=299 y=476) width=81.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
++1 (if radiomics features are calculated on a set of representative ROIs
+page=4 block=-121158622 (x=299 y=485) width=213.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+and the calculated features +representative ROIs are open source)
+page=4 block=-121158622 (x=299 y=493) width=202.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+for as high as 7/36 (nearly 20%) of the total RQS score. Not a single
+page=4 block=146421308 (x=270 y=534) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+study investigated cost-effectiveness of a potential clinically
+page=4 block=146421308 (x=270 y=545) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+implemented radiomic signature.
+page=4 block=146421308 (x=270 y=555) width=126.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Discussion
+page=4 block=743181170 (x=270 y=586) width=42.000000 height=5.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=17
+In this study, we performed a systematic literature review of
+page=4 block=146467517 (x=281 y=607) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+studies addressing the interplay between radiomic features and
+page=4 block=146467517 (x=270 y=617) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+tumor biology. In total 39 out of 41 studies reveal that radiomic
+page=4 block=146467517 (x=270 y=628) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+features derived from mammography, ultrasound, CT, PET and/or
+page=4 block=146467517 (x=270 y=638) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+MRI are signi?cantly associated with one or several speci?c tumor
+page=4 block=146467517 (x=270 y=649) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+biologic substrates, from somatic mutation status to tumor
+page=4 block=146467517 (x=270 y=659) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+histopathological grading and tumor metabolism.
+page=4 block=146467517 (x=270 y=669) width=188.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+To assist with benchmarking the radiomic work?ow for report-
+page=4 block=146467517 (x=281 y=680) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ing, internal consistency, reproducibility and clinical applicability
+page=4 block=146467517 (x=270 y=690) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+we utilized the RQS score [11], which expands upon initiatives
+page=4 block=146467517 (x=270 y=701) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Page: 5 left:1 upper:1
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+page=5 block=2115305476 (x=159 y=1) width=203.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+353
+page=5 block=400293892 (x=509 y=1) width=12.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Fig. 3. (a–c) Heat map of scoring per individual RQS component for raters (a) J.v.T. and E.d.J, (b) H.W (c) S.S.
+page=5 block=2060782328 (x=95 y=702) width=331.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+such as the recent established consensus ‘Transparent Reporting of
+page=5 block=16452707 (x=1 y=21) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+a multivariable prediction model for individual Prognosis or Diag-
+page=5 block=16452707 (x=1 y=31) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+nosis’ (TRIPOD) statement, albeit in a radiomics context. Although
+page=5 block=16452707 (x=1 y=42) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+the RQS score makes no claims about the overall signi?cance or
+page=5 block=16452707 (x=1 y=52) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+impact of a study, it may guide the reader in their appraisal of
+page=5 block=16452707 (x=1 y=63) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+the work?ow. The RQS score mentions the use of a biological cor-
+page=5 block=16452707 (x=1 y=73) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+relate in a speci?c study, but doesnot quantify nor puts in perspec-
+page=5 block=16452707 (x=1 y=84) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+tive the link between tumor biologic substrate and radiomics.
+page=5 block=16452707 (x=1 y=94) width=235.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+A good example here of the contrast between work?ow quality
+page=5 block=16452707 (x=12 y=105) width=240.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+and impact is a study performed by Grossmann et al. [13] which
+page=5 block=16452707 (x=1 y=115) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+was assigned less than half of the RQS points (mean = 38.9%) e.g.,
+page=5 block=16452707 (x=1 y=126) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+due to not adequately reporting the image protocol and not
+page=5 block=16452707 (x=1 y=136) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+addressing the cut-off values used for the different biologic end-
+page=5 block=16452707 (x=1 y=146) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+points while on the other hand exhibiting a sound methodology
+page=5 block=16452707 (x=1 y=157) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+(e.g., feature reduction, external validation) and performing a com-
+page=5 block=16452707 (x=1 y=167) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+prehensive genetic pro?ling of the tumors on a relatively large
+page=5 block=146410595 (x=270 y=21) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+study population (n = 351).
+page=5 block=146410595 (x=270 y=31) width=103.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Overall, we found only minor discrepancies between lower RQS
+page=5 block=146410595 (x=281 y=42) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+score studies and the claims about clinical signi?cance made by
+page=5 block=146410595 (x=270 y=52) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+these studies. A total of 30 out of 41 papers had an average RQS
+page=5 block=146410595 (x=270 y=63) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+score of <30%, while only 3/30 of these studies claimed to be
+page=5 block=146410595 (x=270 y=73) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+non-exploratory but of signi?cant impact on clinical outcome
+page=5 block=146410595 (x=270 y=84) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+and/or decision-making. The other 2 studies had an average score
+page=5 block=146410595 (x=270 y=94) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+50 and both of these studies [14,16] addressed a potential clinical
+page=5 block=146410595 (x=270 y=103) width=251.000000 height=7.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+relevance for the reported imaging biomarker. Furthermore, we
+page=5 block=146410595 (x=270 y=115) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+found some differences in the inter-rater interpretation of the dif-
+page=5 block=146410595 (x=270 y=126) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ferent RQS score components, justifying the need for more robust
+page=5 block=146410595 (x=270 y=136) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+and easily interpretable methodological scoring systems for radio-
+page=5 block=146410595 (x=270 y=146) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mic work?ows and reporting. The greatest difference was found for
+page=5 block=146410595 (x=270 y=157) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+RQS-score component ‘potential clinical applicability’, for instance
+page=5 block=146410595 (x=270 y=167) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Page: 6 left:1 upper:1
+354
+page=6 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+page=6 block=-2094268412 (x=146 y=1) width=230.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Fig. 3 (continued)
+page=6 block=812779564 (x=234 y=523) width=53.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=2
+the study by Zhang et al. [42] receiving two points by two scorers
+page=6 block=16532737 (x=1 y=551) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+(J.v.T./E.d.J. and H.W.) and 0 points by one scorer (S.S.). This differ-
+page=6 block=16532737 (x=1 y=561) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ence is related to the high interpretability of the statements made
+page=6 block=16532737 (x=1 y=572) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+in the conclusion section of these studies combined with a lack of
+page=6 block=16532737 (x=1 y=582) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+clear de?nition within the RQS score. Future versions of the RQS
+page=6 block=16532737 (x=1 y=593) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+scoreshould aim at making a clearer distinction between the crite-
+page=6 block=16532737 (x=1 y=603) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ria for allocation of points, especially in ambiguous components
+page=6 block=16532737 (x=1 y=614) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+such as ‘potential clinical applicability’.
+page=6 block=16532737 (x=1 y=624) width=149.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Throughout the entire radiomic work?ow major limitations
+page=6 block=16532737 (x=12 y=635) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+may in?uence the conclusion of the study [10,11,53]: Radiomic
+page=6 block=16532737 (x=1 y=645) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+studies systematically underreport study designs and (semi-) auto-
+page=6 block=16532737 (x=1 y=656) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+matic and manual delineations oflarge amounts of images aretime
+page=6 block=16532737 (x=1 y=666) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+consuming and subject to error. Moreover, selection and pre-
+page=6 block=16532737 (x=1 y=677) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+processing of images prior to feature extraction are very heteroge-
+page=6 block=16532737 (x=1 y=687) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+neous, and the terminology used for the derived image features
+page=6 block=16532737 (x=1 y=697) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+lack a standard lexicon, factors which might signi?cantly in?uence
+page=6 block=146490625 (x=270 y=551) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+the conclusion. Additionally, modeling methodology and the
+page=6 block=146490625 (x=270 y=561) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+reporting of outcomes in a clinical relevant fashion is lacking in a
+page=6 block=146490625 (x=270 y=572) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+large amount of studies.
+page=6 block=146490625 (x=270 y=582) width=92.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+The two major types of features extracted in the radiomic pro-
+page=6 block=146490625 (x=281 y=593) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+cess are semantic and agnostic [54]. Some recent studies have
+page=6 block=146490625 (x=270 y=603) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+focused on semantic features, which are qualitative radiologic fea-
+page=6 block=146490625 (x=270 y=614) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+tures, e.g., presence of cavitation, location of the lesion, presence of
+page=6 block=146490625 (x=270 y=624) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+pleural effusion and shape of the lesion [22,52,55–57]. These stud-
+page=6 block=146490625 (x=270 y=635) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ies found signi?cant differences in the semantic features between
+page=6 block=146490625 (x=270 y=645) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mutated tumors and non-mutated tumors. EGFR mutated tumors
+page=6 block=146490625 (x=270 y=656) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+were for example associated with air bronchogram and pleural
+page=6 block=146490625 (x=270 y=666) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+retraction, while KRAS mutated tumors were associated with nod-
+page=6 block=146490625 (x=270 y=677) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ules in non-tumor lobes and ALK rearrangements were associated
+page=6 block=146490625 (x=270 y=687) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+with pleural effusion [56]. Both types of radiomic features convey
+page=6 block=146490625 (x=270 y=697) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Page: 7 left:1 upper:1
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+page=7 block=2115305476 (x=159 y=1) width=203.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+355
+page=7 block=400293892 (x=509 y=1) width=12.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Fig. 3 (continued)
+page=7 block=812779560 (x=234 y=522) width=53.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+pertinent information that is complementary to each other.
+page=7 block=16532586 (x=1 y=550) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+Radiologist-scored semantic annotation is a time consuming and
+page=7 block=16532586 (x=1 y=560) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+costly process and regards non-mineable, qualitative data. There
+page=7 block=16532586 (x=1 y=571) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+is a stride to capture semantic databymeans of deep learning com-
+page=7 block=16532586 (x=1 y=581) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+puter methods to achieve higher inter-reader agreement, faster
+page=7 block=16532586 (x=1 y=592) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+throughput and lower variance [54]. In contrast, agnostic radiomic
+page=7 block=16532586 (x=1 y=602) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+features can be swiftly extracted with minimal operator input and
+page=7 block=16532586 (x=1 y=613) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+make up the bulk of highly mineable quantitative data.
+page=7 block=16532586 (x=1 y=623) width=210.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+A key hypothesis driving radiomics research is the potential to
+page=7 block=16532586 (x=12 y=633) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+enable a spatiotemporal and quantitative measurement of both
+page=7 block=16532586 (x=1 y=644) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+intra- and intertumoral heterogeneity based on medical images.
+page=7 block=16532586 (x=1 y=654) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+The studies presented in this systematic review lay a foundation
+page=7 block=16532586 (x=1 y=665) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+for such research by exploring the correlation of imaging biomark-
+page=7 block=16532586 (x=1 y=675) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ers and the underlying biology. The majority of the studies pre-
+page=7 block=16532586 (x=1 y=686) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+sented fall within the ?eld of radiogenomics; genomic
+page=7 block=16532586 (x=1 y=696) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=11
+heterogeneity within tumors and across metastatic tumor sites in
+page=7 block=146490474 (x=270 y=550) width=250.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+the same patient is currently thought to be a major cause of treat-
+page=7 block=146490474 (x=270 y=560) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ment failure and the emergence of (targeted) therapy resistance
+page=7 block=146490474 (x=270 y=571) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+[58]. Phylogenetic reconstruction has revealed branched evolu-
+page=7 block=146490474 (x=270 y=581) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+tionary tumor growth, wherein nearly 70% ofall somatic mutations
+page=7 block=146490474 (x=270 y=592) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+are not detectable across every tumor region [59]. This may lead to
+page=7 block=146490474 (x=270 y=602) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+underestimation of the tumor genomic landscape portrayed from
+page=7 block=146490474 (x=270 y=613) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+single tumor-biopsy samples. Aside from (epi)genetic heterogene-
+page=7 block=146490474 (x=270 y=623) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+itya complex andhighly heterogeneoussynergistic interplay exists
+page=7 block=146490474 (x=270 y=633) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+between tumor cellular (proteomic, metabolic, morphological)
+page=7 block=146490474 (x=270 y=644) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+phenotype and the microenvironment surrounding the tumor bed.
+page=7 block=146490474 (x=270 y=654) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Several studies investigated quantitative CT/PET-derived fea-
+page=7 block=146490474 (x=281 y=665) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+tures associated with genomic and proteomic tumor expression
+page=7 block=146490474 (x=270 y=675) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+[12–28,35,37,47,49,51]. One study (Yip et al.) found that EGFR
+page=7 block=146490474 (x=270 y=686) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+mutated tumors shows different metabolic tumor phenotypes on
+page=7 block=146490474 (x=270 y=696) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Page: 8 left:1 upper:1
+356
+page=8 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+page=8 block=-2094268412 (x=146 y=1) width=230.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Table 2
+page=8 block=1441876 (x=1 y=21) width=22.000000 height=4.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=5
+Summary of systematic review with RQS-scoring.
+page=8 block=9633908 (x=1 y=29) width=147.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Study (Ref.)
+page=8 block=21233840 (x=9 y=44) width=36.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Modality
+page=8 block=168820912 (x=92 y=44) width=28.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Disease
+page=8 block=230621360 (x=153 y=44) width=23.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+(Mean) RQS score
+page=8 block=1620836528 (x=458 y=44) width=54.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Guo et al. [12]
+page=8 block=25952480 (x=9 y=56) width=44.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+MR
+page=8 block=66322656 (x=92 y=56) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=80216288 (x=153 y=56) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+18.5%
+page=8 block=510263520 (x=458 y=56) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Grossmann et al. [13]
+page=8 block=38928744 (x=9 y=90) width=66.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+CT
+page=8 block=48234856 (x=92 y=90) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LC
+page=8 block=70189416 (x=153 y=90) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+38.9%
+page=8 block=510263656 (x=458 y=90) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Aerts et al. [14]
+page=8 block=28312016 (x=9 y=116) width=48.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=48234960 (x=92 y=116) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+NSCLC
+page=8 block=210571576 (x=153 y=116) width=19.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+HN
+page=8 block=210571576 (x=153 y=125) width=9.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+HGSOC
+page=8 block=210571576 (x=153 y=133) width=21.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LAC
+page=8 block=210571576 (x=153 y=142) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=210571576 (x=153 y=150) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+55.6%
+page=8 block=510263760 (x=458 y=116) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Vargas et al. [15]
+page=8 block=37161705 (x=9 y=133) width=52.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Velazquez et al. [16]
+page=8 block=37161705 (x=9 y=142) width=63.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Li et al. [17]
+page=8 block=37161705 (x=9 y=150) width=37.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+CT
+page=8 block=66325225 (x=92 y=133) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=8 block=66325225 (x=92 y=142) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=66325225 (x=92 y=150) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+17.6%
+page=8 block=510266089 (x=458 y=133) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+50.0%
+page=8 block=510266089 (x=458 y=142) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+23.1%
+page=8 block=510266089 (x=458 y=150) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Yu et al. [18]
+page=8 block=38934768 (x=9 y=168) width=40.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Grossmann et al. [19]
+page=8 block=38934768 (x=9 y=176) width=66.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Lee et al. [20]
+page=8 block=38934768 (x=9 y=185) width=42.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Yu et al. [21]
+page=8 block=38934768 (x=9 y=193) width=40.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Yip et al. [22]
+page=8 block=38934768 (x=9 y=202) width=42.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+MR
+page=8 block=162797808 (x=92 y=168) width=11.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=162797808 (x=92 y=176) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=162797808 (x=92 y=185) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=162797808 (x=92 y=193) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+FDG-PET
+page=8 block=162797808 (x=92 y=202) width=27.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LGG
+page=8 block=190519536 (x=153 y=168) width=12.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+GBM
+page=8 block=190519536 (x=153 y=176) width=14.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+GBM
+page=8 block=190519536 (x=153 y=185) width=14.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LGG
+page=8 block=190519536 (x=153 y=193) width=12.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+NSCLC
+page=8 block=190519536 (x=153 y=202) width=19.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+1.9%
+page=8 block=510269680 (x=458 y=168) width=14.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+11.1%
+page=8 block=510269680 (x=458 y=176) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+10.2%
+page=8 block=510269680 (x=458 y=185) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+37.9%
+page=8 block=510269680 (x=458 y=193) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+15.8%
+page=8 block=510269680 (x=458 y=202) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Gevaert et al. [23]
+page=8 block=32441264 (x=9 y=236) width=55.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=48235440 (x=92 y=236) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LC
+page=8 block=70190000 (x=153 y=236) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+20.3%
+page=8 block=510264240 (x=458 y=236) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Yoon et al. [24]
+page=8 block=27722740 (x=9 y=253) width=47.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+FDG-PET
+page=8 block=162794713 (x=92 y=253) width=27.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=8 block=162794713 (x=92 y=262) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LAC
+page=8 block=110298100 (x=153 y=253) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+23.3%
+page=8 block=510264308 (x=458 y=253) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Emaminejad et al. [25]
+page=8 block=41288544 (x=9 y=288) width=70.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=48235360 (x=92 y=288) width=8.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+NSCLC
+page=8 block=190514016 (x=153 y=288) width=19.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+22.2%
+page=8 block=510264160 (x=458 y=288) width=17.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Panth et al. [26]
+page=8 block=28905036 (x=9 y=305) width=49.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Aerts et al. [27]
+page=8 block=28905036 (x=9 y=313) width=48.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=48238156 (x=92 y=305) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=8 block=48238156 (x=92 y=313) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CRC
+page=8 block=190516812 (x=153 y=305) width=12.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+NSCLC
+page=8 block=190516812 (x=153 y=313) width=19.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+15.7%
+page=8 block=510266956 (x=458 y=305) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+39.8%
+page=8 block=510266956 (x=458 y=313) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Ghosh et al. [28]
+page=8 block=33624036 (x=9 y=339) width=51.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Hanania et al. [29]
+page=8 block=33624036 (x=9 y=348) width=57.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=48238564 (x=92 y=339) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=8 block=48238564 (x=92 y=348) width=8.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+ccRCC
+page=8 block=180490212 (x=153 y=339) width=18.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+IPMN
+page=8 block=180490212 (x=153 y=348) width=16.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+18.5%
+page=8 block=510267364 (x=458 y=339) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+14.8%
+page=8 block=510267364 (x=458 y=348) width=17.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Suo et al. [30]
+page=8 block=25363892 (x=9 y=365) width=43.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=48235956 (x=92 y=365) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LC
+page=8 block=70190516 (x=153 y=365) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+8.3%
+page=8 block=420218292 (x=458 y=365) width=14.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Bae et al. [31]
+page=8 block=25363992 (x=9 y=390) width=43.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=48236056 (x=92 y=390) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LAC
+page=8 block=110298648 (x=153 y=390) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+35.2%
+page=8 block=510264856 (x=458 y=390) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Pena et al. [32]
+page=8 block=27133128 (x=9 y=408) width=46.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=66337936 (x=92 y=408) width=8.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=66337936 (x=92 y=416) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=66337936 (x=92 y=425) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=66337936 (x=92 y=433) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=8 block=66337936 (x=92 y=442) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+mLAC
+page=8 block=170474640 (x=153 y=408) width=17.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+mPM
+page=8 block=170474640 (x=153 y=416) width=16.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+PC
+page=8 block=170474640 (x=153 y=425) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=170474640 (x=153 y=433) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+IPMN
+page=8 block=170474640 (x=153 y=442) width=16.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+12.9%
+page=8 block=510264520 (x=458 y=408) width=17.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Ginsburg et al. [33]
+page=8 block=40116957 (x=9 y=425) width=59.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Bickelhaupt et al. [34]
+page=8 block=40116957 (x=9 y=433) width=68.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Permuth et al. [35]
+page=8 block=40116957 (x=9 y=442) width=58.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+29.6%
+page=8 block=510272221 (x=458 y=425) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+25.9%
+page=8 block=510272221 (x=458 y=433) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+12.0%
+page=8 block=510272221 (x=458 y=442) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Zhang et al. [36]
+page=8 block=29496708 (x=9 y=459) width=50.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Guo et al. [37]
+page=8 block=29496708 (x=9 y=468) width=44.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+MR
+page=8 block=66324268 (x=92 y=459) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=80221572 (x=153 y=459) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=80221572 (x=153 y=468) width=8.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+17.6%
+page=8 block=510265132 (x=458 y=459) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Ultrasound
+page=8 block=204998012 (x=92 y=468) width=34.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+17.6%
+page=8 block=510264700 (x=458 y=468) width=17.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Song et al. [38]
+page=8 block=31860849 (x=9 y=493) width=46.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Patil et al. [39]
+page=8 block=31860849 (x=9 y=502) width=45.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Parmar et al. [40]
+page=8 block=31860849 (x=9 y=510) width=54.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+CT
+page=8 block=48244849 (x=92 y=493) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=8 block=48244849 (x=92 y=502) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=8 block=48244849 (x=92 y=510) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LAC
+page=8 block=210598720 (x=153 y=493) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+NSCLC
+page=8 block=210598720 (x=153 y=502) width=19.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+NSCLC
+page=8 block=210598720 (x=153 y=510) width=19.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+HNSCC
+page=8 block=210598720 (x=153 y=519) width=21.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+PC
+page=8 block=210598720 (x=153 y=527) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=210598720 (x=153 y=536) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=210598720 (x=153 y=545) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LGG
+page=8 block=210598720 (x=153 y=553) width=12.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+33. 3%
+page=8 block=600320113 (x=458 y=493) width=20.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+0%
+page=8 block=600320113 (x=458 y=502) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+38.9%
+page=8 block=600320113 (x=458 y=510) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Lin et al. [41]
+page=8 block=33635778 (x=9 y=527) width=41.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Zhang et al. [42]
+page=8 block=33635778 (x=9 y=536) width=50.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Marin et al. [43]
+page=8 block=33635778 (x=9 y=545) width=50.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Coquery et al. [44]
+page=8 block=33635778 (x=9 y=553) width=57.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+MR
+page=8 block=66324540 (x=92 y=527) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+9.3%
+page=8 block=420218940 (x=458 y=527) width=14.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Ultrasound
+page=8 block=283388920 (x=92 y=536) width=34.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Mammography
+page=8 block=283388920 (x=92 y=545) width=47.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=283388920 (x=92 y=553) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+32.4%
+page=8 block=510274552 (x=458 y=536) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+5.6%
+page=8 block=510274552 (x=458 y=545) width=14.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+29.6%
+page=8 block=510274552 (x=458 y=553) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Choi et al. [45]
+page=8 block=26554239 (x=9 y=579) width=45.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Wu et al. [46]
+page=8 block=26554239 (x=9 y=587) width=43.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Li et al. [47]
+page=8 block=26554239 (x=9 y=596) width=37.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+CT
+page=8 block=66334591 (x=92 y=579) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=8 block=66334591 (x=92 y=587) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=66334591 (x=92 y=596) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LAC
+page=8 block=110309247 (x=153 y=579) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LC
+page=8 block=110309247 (x=153 y=587) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=110309247 (x=153 y=596) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+37.0%
+page=8 block=510275455 (x=458 y=579) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+38.9%
+page=8 block=510275455 (x=458 y=587) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+15.7%
+page=8 block=510275455 (x=458 y=596) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Gnep et al. [48]
+page=8 block=29499169 (x=9 y=613) width=48.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Wang et al. [49]
+page=8 block=29499169 (x=9 y=622) width=50.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+MR
+page=8 block=66330401 (x=92 y=613) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=66330401 (x=92 y=622) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+PC
+page=8 block=80224033 (x=153 y=613) width=7.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+BC
+page=8 block=80224033 (x=153 y=622) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+22.2%
+page=8 block=510271265 (x=458 y=613) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+20.4%
+page=8 block=510271265 (x=458 y=622) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Yin et al. [50]
+page=8 block=24775164 (x=9 y=639) width=42.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+FDG-PET
+page=8 block=162799092 (x=92 y=639) width=27.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+MR
+page=8 block=162799092 (x=92 y=647) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+ccRCC
+page=8 block=180488700 (x=153 y=639) width=18.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+21.3%
+page=8 block=510265852 (x=458 y=639) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Biological correlate
+page=8 block=730792112 (x=189 y=44) width=59.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+A genomic dataset of 144 genomic features for 70 genes, including 70 gene
+page=8 block=-1136439896 (x=189 y=56) width=230.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+expression features (normalized read counts of RNA-seq data), 70 copy number
+page=8 block=-1136439896 (x=189 y=65) width=243.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+(Affymetrix Genome-Wide Human SNP Array 6.0) features, and 4 methylation
+page=8 block=-1136439896 (x=189 y=73) width=239.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+features (In?nium HumanMethylation450 BeadChip)
+page=8 block=-1136439896 (x=189 y=82) width=161.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Gene expression of 21,766 unique genes (custom Rosetta/Merck
+page=8 block=-1136439896 (x=189 y=90) width=196.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Affymetrix 2.0 microarray chipset). Immunohistochemical staining for CD3, a T-cell
+page=8 block=-1136439896 (x=189 y=99) width=255.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+co-receptor and ReIA (p65)
+page=8 block=-1136439896 (x=189 y=108) width=83.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Gene expression: affymetrix chips with the custom chipset HuRSTA_2a520709 for
+page=8 block=-1136439896 (x=189 y=116) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+21,766 genes
+page=8 block=-1136439896 (x=189 y=125) width=40.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Ampli?cation of 19q12 involving cyclin E1 gene (CCNE1)
+page=8 block=-1136439896 (x=189 y=133) width=174.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+EGFR and KRAS mutation status
+page=8 block=-1136439896 (x=189 y=142) width=98.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Core biopsy assessment of expression of ER, PR, HER2. MammaPrint (70 gene),
+page=8 block=-1136439896 (x=189 y=150) width=240.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Oncotype DX (21 gene), and PAM50 (50 gene) assays
+page=8 block=-1136439896 (x=189 y=159) width=162.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Paraf?n slide PCR assessment of Isocitrate Dehydrogenase 1 (IDH1) status
+page=8 block=-1136439896 (x=189 y=168) width=226.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Geneexpression(mRNA):583 gene sets containing at least 15 and at most500genes
+page=8 block=-1136439896 (x=189 y=176) width=255.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Gene expression: EGFR mutation and copy number status
+page=8 block=-1136439896 (x=189 y=185) width=177.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Paraf?n slide PCR assessment of Isocitrate Dehydrogenase 1 (IDH1) status
+page=8 block=-1136439896 (x=189 y=193) width=226.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tissue samples of primary tumors through biopsy or surgical resection. Somatic
+page=8 block=-1136439896 (x=189 y=202) width=244.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mutations were tested using a PCR–based method (EGFR, KRAS etc.) or PROFILE
+page=8 block=-1136439896 (x=189 y=210) width=244.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Oncomap (mass spectrometry genotyping technique analyzing > than 470 unique
+page=8 block=-1136439896 (x=189 y=219) width=249.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mutations in 41 oncogenes)
+page=8 block=-1136439896 (x=189 y=228) width=85.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic subtype. Mutation testing was done for both EGFR and KRAS
+page=8 block=-1136439896 (x=189 y=236) width=255.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+using multiplex PCR
+page=8 block=-1136439896 (x=189 y=245) width=62.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic subtype. Molecular analysis: genomic DNA or RNA extracted
+page=8 block=-1136439896 (x=189 y=253) width=255.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+from lung tumors using standard protocols (RNeasyMini Kit and QiAamp DNAMini
+page=8 block=-1136439896 (x=189 y=262) width=253.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Kit, Qiagen, Hilden, Germany). ALK, ROS1, and RET fusion assay using nCounterTM
+page=8 block=-1136439896 (x=189 y=270) width=252.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+gene expression assays
+page=8 block=-1136439896 (x=189 y=279) width=71.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Two genomicbiomarkers,ERCC1and RRM1, wereevaluatedusingthe selected tumor
+page=8 block=-1136439896 (x=189 y=288) width=255.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+specimen and a standard IHC-based analytic method
+page=8 block=-1136439896 (x=189 y=296) width=162.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+GADD34 gene expression
+page=8 block=-1136439896 (x=189 y=305) width=77.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Genomic DNA from snap frozen tumor resection specimens analyzed for most
+page=8 block=-1136439896 (x=189 y=313) width=239.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+common EGFR-sensitizing mutations (exons 19 and 21) with PCR-based methods.
+page=8 block=-1136439896 (x=189 y=322) width=250.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+EGFR wild-type (WT) tumors were also tested for KRAS mutations
+page=8 block=-1136439896 (x=189 y=330) width=203.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+BAP1 mutation status
+page=8 block=-1136439896 (x=189 y=339) width=66.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Quantitative analysis of resected specimens of the pancreatic cysts and pancreas
+page=8 block=-1136439896 (x=189 y=348) width=247.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+parenchyma to differentiate high grade from low grade lesions
+page=8 block=-1136439896 (x=189 y=356) width=192.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Surgical resection specimens, transbronchial lung biopsy, CT-guided percutaneous
+page=8 block=-1136439896 (x=189 y=365) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+biopsy or clinical examination and therapy to differentiate between benign and
+page=8 block=-1136439896 (x=189 y=373) width=243.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+malignant pulmonary nodules/masses
+page=8 block=-1136439896 (x=189 y=382) width=116.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Histopathologic tumor grade assessment based on specimen from complete
+page=8 block=-1136439896 (x=189 y=390) width=232.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+resection
+page=8 block=-1136439896 (x=189 y=399) width=28.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Histopathologic analysis malignancy
+page=8 block=-1136439896 (x=189 y=408) width=111.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Histopathologic Gleason tumor grading
+page=8 block=-1124035647 (x=189 y=425) width=120.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic grade
+page=8 block=-1124035647 (x=189 y=433) width=88.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic grade. 800 miRNAs from archived plasma using Nanostring’s
+page=8 block=-1124035647 (x=189 y=442) width=255.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+nCounter digital technology
+page=8 block=-1124035647 (x=189 y=450) width=85.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic grade.
+page=8 block=-1124035647 (x=189 y=459) width=90.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic grade (Nottingham). Tumor staining with hematoxylin-eosin
+page=8 block=-1124035647 (x=189 y=468) width=256.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+and examined in formalin-?xed, paraf?n-embedded material. Expression of ER, PR,
+page=8 block=-1124035647 (x=189 y=476) width=253.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+HER2, and Ki-67 was assessed by IHC analysis
+page=8 block=-1124035647 (x=189 y=485) width=141.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histologic subtype.
+page=8 block=-1124035647 (x=189 y=493) width=80.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic subtype.
+page=8 block=-1124035647 (x=189 y=502) width=97.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic subtype. HPV status.
+page=8 block=-1124035647 (x=189 y=510) width=134.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+H&E staining of snap-frozen tumor sections in liquid nitrogen
+page=8 block=-1124003381 (x=189 y=527) width=189.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Core biopsy or ?ne-needle aspiration cytology for histopathologic assessment
+page=8 block=-1124003381 (x=189 y=536) width=237.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor microenvironment
+page=8 block=-1124003381 (x=189 y=545) width=79.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Immunohistochemical analysis of coronal cryosections. Hematoxylin–erythrosine
+page=8 block=-1124003381 (x=189 y=553) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+staining performed to characterize tumor cell density. Tumor hypoxia was
+page=8 block=-1124003381 (x=189 y=562) width=228.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+determined using the Hypoxyprobe-1 kit (pimonidazole detection)
+page=8 block=-1124003381 (x=189 y=570) width=204.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic subtype
+page=8 block=-1124003381 (x=189 y=579) width=95.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Tumor histopathologic subtype
+page=8 block=-1124003381 (x=189 y=587) width=95.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Immunohistochemical molecular classi?cation/subtyping (ER,PR, EGFR2, luminal A/
+page=8 block=-1124003381 (x=189 y=596) width=255.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+B, Her2) based on tumor biopsy
+page=8 block=-1124003381 (x=189 y=605) width=97.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+PSA level analysis
+page=8 block=-1124003381 (x=189 y=613) width=54.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Expression of ER, PR, HER2 and Ki67 by immunohistochemical analysis of tumor
+page=8 block=-1124003381 (x=189 y=622) width=246.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+specimens
+page=8 block=-1124003381 (x=189 y=630) width=32.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Tumor samples portioned for snap freezing in liquid nitrogen/ formalin ?xed and
+page=8 block=-1124003381 (x=189 y=639) width=249.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+paraf?n embedded. De?niens Tissue Studio software used to measure microvascular
+page=8 block=-1124003381 (x=189 y=647) width=256.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+density (MVD) in CD31 stained slides
+page=8 block=-1124003381 (x=189 y=656) width=115.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Page: 9 left:1 upper:1
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+page=9 block=2115305476 (x=159 y=1) width=203.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+357
+page=9 block=400293892 (x=509 y=1) width=12.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Tumor immunohistochemical parameters, including Ki67, ER, PgR, and HER2 were
+page=9 block=-1186003130 (x=189 y=49) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+assessed. Metabolic radiomics was assessed from pretreatment 18F-FDG PET/CT
+page=9 block=-1186003130 (x=189 y=57) width=244.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+scans
+page=9 block=-1186003130 (x=189 y=66) width=16.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Magnetic resonance spectroscopy based volumetric maps of N-acetyl aspartate
+page=9 block=-1186003130 (x=189 y=75) width=241.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+(NAA) and choline (Cho) metabolic tumor volumes (MTV)
+page=9 block=-1186003130 (x=189 y=83) width=176.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+NSCLC-non small cell lungcancer; HN-head and neckcancer; BC-breast cancer(LA =locally advanced); HGSOC-high grade serous ovariancancer; LGG-low grade glioma;PC-
+page=9 block=34080778 (x=1 y=98) width=520.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+prostate cancer; LAC-lung adenocarcinoma (m = metastatic); GBM-glioblastoma multiforme; PM-pleural mesothelioma (m = malignant); ccRCC-clear cell renal cell carci-
+page=9 block=34080778 (x=1 y=106) width=520.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+noma; IPMN-intraductal papillary mucinous neoplasms; LC-lung cancer; HNSCC-head and neck squamous cell carcinoma; BC-bladder cancer; CRC-colorectal carcinoma.
+page=9 block=34080778 (x=1 y=115) width=513.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Fig. 4. RQS scoring per component.
+page=9 block=1471547052 (x=206 y=427) width=109.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Table 2 (continued)
+page=9 block=3735640 (x=1 y=22) width=57.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+Study (Ref.)
+page=9 block=20643984 (x=9 y=36) width=35.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+Modality
+page=9 block=162791568 (x=92 y=36) width=27.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Disease
+page=9 block=220594320 (x=153 y=36) width=22.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Biological correlate
+page=9 block=718405776 (x=189 y=36) width=58.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Ha et al. [51]
+page=9 block=23593156 (x=9 y=49) width=40.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+FDG-PET
+page=9 block=162792012 (x=92 y=49) width=27.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+CT
+page=9 block=162792012 (x=92 y=57) width=8.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+LABC
+page=9 block=150405316 (x=153 y=49) width=15.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Lopez et al. [52]
+page=9 block=28901601 (x=9 y=75) width=49.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+MR
+page=9 block=60293345 (x=92 y=75) width=10.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+GBM
+page=9 block=140378337 (x=153 y=75) width=14.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+PET than KRAS mutated tumor [22]. Another study (Aerts et al.)
+page=9 block=16561011 (x=1 y=455) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+found that baseline radiomic features were able to predict muta-
+page=9 block=16561011 (x=1 y=465) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+tion status and were also able to predict tyrosine kinase inhibitor
+page=9 block=16561011 (x=1 y=476) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+(TKI) treatment response [27].
+page=9 block=16561011 (x=1 y=486) width=115.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+The supplementary value of radiomic to current genomic
+page=9 block=16561011 (x=12 y=497) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+biomarkers is well illustrated in a study (Emaminejad et al.) where
+page=9 block=16561011 (x=1 y=507) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+a quantitative image feature-based classi?er yielded signi?cantly
+page=9 block=16561011 (x=1 y=518) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+higher discriminatory power than a genomic biomarker-based
+page=9 block=16561011 (x=1 y=528) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+(AUC of 0.78 ± 0.06 and 0.68 ± 0.07 respectively) classi?er in pre-
+page=9 block=16561011 (x=1 y=539) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+dicting early stage lung cancer recurrence risk [25]. Fusion of pre-
+page=9 block=16561011 (x=1 y=549) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+diction scores generated by the two classi?ers further improved
+page=9 block=16561011 (x=1 y=559) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+prediction performance to 0.84 ± 0.05, indicating that there is
+page=9 block=16561011 (x=1 y=570) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+non-overlapping value added by the radiomic signature.
+page=9 block=16561011 (x=1 y=580) width=214.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+As for the temporal heterogeneity, radiomics offers the possibil-
+page=9 block=16561011 (x=12 y=591) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ity of longitudinal use in treatment monitoring and optimization
+page=9 block=16561011 (x=1 y=601) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+and in active surveillance. Although such applications of radiomics
+page=9 block=16561011 (x=1 y=612) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+(also called delta-, or D-radiomics) have yet to be explored in
+page=9 block=16561011 (x=1 y=622) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+depth [60], they may prove to be clinically relevant. Another new
+page=9 block=16561011 (x=1 y=633) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+development is the so-called ‘4D radiomics’ approach, which can
+page=9 block=16561011 (x=1 y=643) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+beused toquantitatively monitor treatmentover time and perform
+page=9 block=16561011 (x=1 y=654) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+(early) response assessment. In window-of-opportunity trials,
+page=9 block=16561011 (x=1 y=664) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+radiomic features extracted from images before (and after) receiv-
+page=9 block=16561011 (x=1 y=675) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ing an experimental drug and prior to the start of conventional
+page=9 block=16561011 (x=1 y=685) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+treatment can potentially serve as predictive biomarker for clinical
+page=9 block=16561011 (x=1 y=696) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+(Mean) RQS score
+page=9 block=1620836496 (x=458 y=36) width=54.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+15.7%
+page=9 block=510263492 (x=458 y=49) width=17.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+8.3%
+page=9 block=390201569 (x=458 y=75) width=13.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+endpoints such as progression-free survival and (early) tumor
+page=9 block=146518899 (x=270 y=455) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+response [61,62]. A recent study shows the predictive value of
+page=9 block=146518899 (x=270 y=465) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+radiomic features extracted from weekly CT images for NSCLC
+page=9 block=146518899 (x=270 y=476) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+patient outcomes [60]. Cone-beam CT (CBCT) images might also
+page=9 block=146518899 (x=270 y=486) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+be a good candidate for 4D radiomics, since these are generally
+page=9 block=146518899 (x=270 y=497) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+acquired at multiple time points during treatment [63,64].
+page=9 block=146518899 (x=270 y=507) width=223.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+The link and interplay of metabolic, genomic and histologic
+page=9 block=146518899 (x=281 y=518) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+information with clinical and imaging parameters is crucial for
+page=9 block=146518899 (x=270 y=528) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+the establishment of effective personalized and reliable treatment
+page=9 block=146518899 (x=270 y=539) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+strategies, especially in limited tissue settings. Hananiaetal. serves
+page=9 block=146518899 (x=270 y=549) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+as an example here by evaluating the malignant potential of intra-
+page=9 block=146518899 (x=270 y=559) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ductal papillary mucinous neoplasms (IPMN’s) in order to stratify
+page=9 block=146518899 (x=270 y=570) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+patients for surgical resection [29]. Currently the consensus-
+page=9 block=146518899 (x=270 y=580) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+based Fukuoka imaging criteria are the main approach to pre-
+page=9 block=146518899 (x=270 y=591) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+operatively identify malignant IPMNs. With these criteria benign
+page=9 block=146518899 (x=270 y=601) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+lesions are incorrectly labeled for surgery 1/3rd of the time at high
+page=9 block=146518899 (x=270 y=612) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+volume and experienced centers, resulting in surgical overtreat-
+page=9 block=146518899 (x=270 y=622) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+ment. The most predictive radiomic marker (a gray-level co-
+page=9 block=146518899 (x=270 y=633) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+occurrence matrix (GLCM) feature) on the other hand differenti-
+page=9 block=146518899 (x=270 y=643) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+ated low grade (LG) and high grade (HG) lesions better than the
+page=9 block=146518899 (x=270 y=654) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Fukuoka criteria (21% incorrectly labeled for surgery) with an
+page=9 block=146518899 (x=270 y=664) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+AUC of 0.82 at a sensitivity of 85% and speci?city of 68%. Even
+page=9 block=146518899 (x=270 y=675) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+when adequate cytology and/or surgical biopsy specimens are
+page=9 block=146518899 (x=270 y=685) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+available, radiomics offers important advantages for the assess-
+page=9 block=146518899 (x=270 y=696) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Page: 10 left:1 upper:1
+358
+page=10 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+page=10 block=-2094268412 (x=146 y=1) width=230.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+ment of tumor biology. It is estimated that the error rate of cancer
+page=10 block=16463690 (x=1 y=21) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+histopathology can be as high as 23% and that most clinically rele-
+page=10 block=16463690 (x=1 y=31) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+vant solid tumors are highly heterogeneous over time at the phe-
+page=10 block=16463690 (x=1 y=42) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+notypic, physiologic, and genomic levels [54].
+page=10 block=16463690 (x=1 y=52) width=173.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+With the advent of high-resolution imaging and the use of
+page=10 block=16463690 (x=12 y=63) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+speci?c molecular imaging markers the future holds potential for
+page=10 block=16463690 (x=1 y=73) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+the more precise characterization of tumor biology. In the ?eld of
+page=10 block=16463690 (x=1 y=84) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+radiotherapy the biological phenomenon of tumor hypoxia, a com-
+page=10 block=16463690 (x=1 y=94) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mon feature in many human and animal solid tumors that can be
+page=10 block=16463690 (x=1 y=105) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+visualized by means of novel molecular imaging techniques (e.g.,
+page=10 block=16463690 (x=1 y=115) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+the hypoxia PET-tracers FMISO, FAZA and HX4), has led to recent
+page=10 block=16463690 (x=1 y=126) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+enthusiasm for hypoxic radio-sensitizers and hypoxia-selective
+page=10 block=16463690 (x=1 y=136) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+cytotoxins as an adjunct therapy before tumor irradiation [65].
+page=10 block=16463690 (x=1 y=146) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Radiomics could be a potential candidate to capture the temporal
+page=10 block=16463690 (x=1 y=157) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+changes of such biological processes over various tumor habitats.
+page=10 block=16463690 (x=1 y=167) width=249.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+An interesting development for adequate ex vivo human and
+page=10 block=16463690 (x=12 y=178) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+in vivo animal tissue biology characterization by means of CT-
+page=10 block=16463690 (x=1 y=188) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+based radiomics would be the introduction of micro-CT systems
+page=10 block=16463690 (x=1 y=199) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+[66]. These systems are based on a rotating system of X-ray tube
+page=10 block=16463690 (x=1 y=209) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+and detectors, and have a construction similar to that of human
+page=10 block=16463690 (x=1 y=220) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+CT except that their dimensions are adapted to small animals.
+page=10 block=16463690 (x=1 y=230) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Compared with standard human CT devices, which offer an instru-
+page=10 block=16463690 (x=1 y=241) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mental resolution limit of approximately 0.4 mm, therecent devel-
+page=10 block=16463690 (x=1 y=251) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+opment of X-ray microtomography (micro-CT) has introduced
+page=10 block=16463690 (x=1 y=262) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+resolutions similar to that of routine histology (spatial resolution
+page=10 block=16463690 (x=1 y=272) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+of in vivo micro-CT ranges from 100 to 30 mm) [66]. Although the
+page=10 block=16463690 (x=1 y=282) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+clinical application is limited to ex vivo human tissue and whole-
+page=10 block=16463690 (x=1 y=293) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+body imaging of small animals due to the high radiation exposure,
+page=10 block=16463690 (x=1 y=303) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+these techniques alone, or in combination with nuclear medicine
+page=10 block=16463690 (x=1 y=314) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+techniques (micro-SPECT/CT and micro-PET/CT) may provide more
+page=10 block=16463690 (x=1 y=324) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+detailed anatomical imaging information (which in turn might
+page=10 block=16463690 (x=1 y=335) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+capture voxel-size dependent imaging features more precisely
+page=10 block=16463690 (x=1 y=345) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+compared to clinical scanners) together with valuable metabolic
+page=10 block=16463690 (x=1 y=356) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+information.
+page=10 block=16463690 (x=1 y=366) width=47.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=17
+Another promising development is the current data-sharing
+page=10 block=16463690 (x=12 y=377) width=240.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+efforts set in place, such as the NCI-backed Cancer Imaging Archive
+page=10 block=16463690 (x=1 y=387) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+(TCIA) [67]. Open access to de-identi?ed medical images, histolog-
+page=10 block=16463690 (x=1 y=397) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ical, clinical and genomic data from cancer centers across the
+page=10 block=16463690 (x=1 y=408) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+world may aid the further development and validation of robust
+page=10 block=16463690 (x=1 y=418) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+biology-correlated radiomic models.
+page=10 block=16463690 (x=1 y=429) width=137.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+A major limitation in this systematic review is the omission of
+page=10 block=16463690 (x=12 y=439) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+analysis of publication bias, e.g., by means of a Funnel plot [68].
+page=10 block=16463690 (x=1 y=450) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Withholding negative results from publication is especially a con-
+page=10 block=16463690 (x=1 y=460) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+cern in the radiomics ?eld, where the application of more sophis-
+page=10 block=16463690 (x=1 y=471) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+ticated machine learning and deep learning networks on vaster
+page=10 block=16463690 (x=1 y=481) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+amounts of clinical as well as imaging data has led to more robust
+page=10 block=16463690 (x=1 y=492) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+models that nearly always produce a satisfactory model. Addition-
+page=10 block=16463690 (x=1 y=502) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ally, there are several limitations to the RQS score. Several compo-
+page=10 block=16463690 (x=1 y=513) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+nents are not always applicable to every study, e.g., clinical utility
+page=10 block=16463690 (x=1 y=523) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+for pre-clinical studies or ‘comparison to gold standard’ for out-
+page=10 block=16463690 (x=1 y=533) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+comes in which no gold standard exists for the assessment of the
+page=10 block=16463690 (x=1 y=544) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+outcome (e.g., tumor heterogeneity). Other components are not
+page=10 block=16463690 (x=1 y=554) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+described in detail in the scoring table (e.g. what should speci?-
+page=10 block=16463690 (x=1 y=565) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+cally be mentioned on clinical utility) in the scoring table AND/
+page=10 block=16463690 (x=1 y=575) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+OR are relatively ambiguous, for example in the case that only a
+page=10 block=16463690 (x=1 y=586) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+subgroup of features (special diversity, texture etc.) has been
+page=10 block=16463690 (x=1 y=596) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+extracted (in strict sense this is not feature selection). Furthermore
+page=10 block=16463690 (x=1 y=607) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+the interpretability of the RQS score is left to a large extent to the
+page=10 block=16463690 (x=1 y=617) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+reviewer, as it is not meant to report on the overall quality of a
+page=10 block=16463690 (x=1 y=628) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+manuscript or the research it presents, but rather to guide the
+page=10 block=16463690 (x=1 y=638) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+reader on a radiomic work?ow appraisal. These ?ndings indicate
+page=10 block=16463690 (x=1 y=649) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+that the RQS tool will require incremental improvements in order
+page=10 block=16463690 (x=1 y=659) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+to become a widely accepted assessment tool for the methodology
+page=10 block=16463690 (x=1 y=669) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+of radiomic studies. Some of these improvements include a clearer
+page=10 block=16463690 (x=1 y=680) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+de?nition of the RQS components including the allocation of
+page=10 block=16463690 (x=1 y=690) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+scores, the measurement of tool validity (criterion, content, con-
+page=10 block=146411036 (x=270 y=21) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+struct), and reliability.
+page=10 block=146411036 (x=270 y=31) width=84.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Ourvision for the future of radiomics is intrepid, acknowledging
+page=10 block=146411036 (x=281 y=42) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+that fundamental questions still need to be addressed before clin-
+page=10 block=146411036 (x=270 y=52) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+ical applicability of radiomic imaging biomarkers will be achieved.
+page=10 block=146411036 (x=270 y=63) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+With the advent of pre-clinical inducible knockout system stud-
+page=10 block=146411036 (x=281 y=73) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+ies, whereby a speci?c target gene of interest can be inactivated at
+page=10 block=146411036 (x=270 y=84) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+a given time point, researchers will hopefully be able to draw more
+page=10 block=146411036 (x=270 y=94) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+robust conclusions in the so-far mainly correlative relationship of
+page=10 block=146411036 (x=270 y=105) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+radiomic features with tumor biology [26]. To ?nd imaging
+page=10 block=146411036 (x=270 y=115) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+biomarkers with stronger causal rather than correlative link with
+page=10 block=146411036 (x=270 y=126) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+biological mechanisms would in our vision require not only radio-
+page=10 block=146411036 (x=270 y=136) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mic studies on a vast amount of ultra-high resolution images to
+page=10 block=146411036 (x=270 y=146) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+present high discrimination statistics in multiple validation sets,
+page=10 block=146411036 (x=270 y=157) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+but also benchmarking and standardization of image pre-
+page=10 block=146411036 (x=270 y=167) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=9
+processing and featureextraction and data-sharing techniquesthat
+page=10 block=146411036 (x=270 y=178) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+exploit matching ontologies.
+page=10 block=146411036 (x=270 y=188) width=108.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Con?ict of interest
+page=10 block=1309410340 (x=270 y=212) width=74.000000 height=5.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=5
+Authors declare there are no con?icts of interest.
+page=10 block=-851245939 (x=281 y=233) width=187.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Acknowledgements
+page=10 block=1380189435 (x=270 y=255) width=78.000000 height=5.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=17
+Authors acknowledge ?nancial support from ERC advanced
+page=10 block=146454896 (x=282 y=276) width=239.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+grant (ERC-ADG-2015, n 694812 – Hypoximmuno) and the
+page=10 block=146454896 (x=270 y=286) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+QuIC-ConCePT project, which is partly funded by EFPI A companies
+page=10 block=146454896 (x=270 y=297) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+and the Innovative Medicine Initiative Joint Undertaking (IMI JU)
+page=10 block=146454896 (x=270 y=307) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+under Grant Agreement No. 115151. This research is also sup-
+page=10 block=146454896 (x=270 y=318) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+ported by the Dutch Technology Foundation STW (grant n
+page=10 block=146454896 (x=270 y=328) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+10696 DuCAT & n P14-19 Radiomics STRaTegy), which is the
+page=10 block=146454896 (x=270 y=338) width=251.000000 height=6.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+applied science division of NWO, and the Technology Programme
+page=10 block=146454896 (x=270 y=349) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+of the Ministry of Economic Affairs. Authors also acknowledge
+page=10 block=146454896 (x=270 y=360) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+?nancial support from the EU 7th framework program (ARTFORCE
+page=10 block=146454896 (x=270 y=370) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+– n 257144, REQUITE – n 601826), SME Phase 2 (RAIL – n
+page=10 block=146454896 (x=270 y=380) width=251.000000 height=6.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+673780), EUROSTARS (DART, DECIDE, COMPACT), the European
+page=10 block=146454896 (x=270 y=391) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Program H2020-2015-17 (BD2Decide – PHC30-689715, Immuno-
+page=10 block=146454896 (x=270 y=402) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+SABR – n 733008 and PREDICT – ITN – n 766276), Interreg V-A
+page=10 block=146454896 (x=270 y=412) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Euregio Meuse-Rhine (‘‘Euradiomics”), Kankeronderzoekfonds
+page=10 block=146454896 (x=270 y=422) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=10
+Limburg from the Health Foundation Limburg and the Dutch Can-
+page=10 block=146454896 (x=270 y=433) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+cer Society.
+page=10 block=146454896 (x=270 y=443) width=43.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Appendix A. Supplementary data
+page=10 block=-1976956641 (x=270 y=467) width=131.000000 height=5.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=4
+Supplementary data associated with this articlecan befound, in
+page=10 block=146420112 (x=281 y=488) width=240.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+the online version, at https://doi.org/10.1016/j.radonc.2018.03.
+page=10 block=146420112 (x=270 y=499) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+033.
+page=10 block=146420112 (x=270 y=509) width=16.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=17
+References
+page=10 block=760875615 (x=270 y=531) width=43.000000 height=5.000000 fontname=KPGPFL+AdvGulliv-B wordint.min=1 wordint.max=17
+[1] Forbes (2015): IBM acquires merge health to supplement Watson healthcare.
+page=10 block=142162898 (x=273 y=550) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/
+page=10 block=142162898 (x=285 y=558) width=228.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+sites/greatspeculations/2015/08/12/ibm-acquires-merge-health-to-
+page=10 block=142162898 (x=285 y=566) width=203.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+supplement-watson-healthcare/&refURL=https://www.google.nl/&referrer=
+page=10 block=142162898 (x=285 y=574) width=227.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=2
+https://www.google.nl/
+page=10 block=142162898 (x=285 y=582) width=70.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[2] Lee G, Lee HY, Ko ES, et al. Radiomics and imaging genomics in precision
+page=10 block=142162898 (x=273 y=590) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+medicine. Precision and Future Medicine. 2017;1:10–31.
+page=10 block=142162898 (x=285 y=598) width=172.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[3] Lee G, Lee HY, Park H, et al. Radiomics and its emerging role in lung cancer
+page=10 block=142162898 (x=273 y=606) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+research, imaging biomarkers and clinical management: state of the art. Eur J
+page=10 block=142162898 (x=285 y=614) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Radiol 2017;86:297–307.
+page=10 block=142162898 (x=285 y=622) width=76.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[4] Lambin P, van Stiphout RG, Starmans MH, et al. Predicting outcomes in
+page=10 block=142162898 (x=273 y=630) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+radiation oncology–multifactorial decision support systems. Nat Rev Clin
+page=10 block=142162898 (x=285 y=638) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Oncol. 2013;10:27–40.
+page=10 block=142162898 (x=285 y=646) width=69.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[5] Lambin P, Roelofs E, Reymen B, et al.RapidLearning healthcare inoncology’ –
+page=10 block=142162898 (x=273 y=654) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+an approach towards decision support systems enabling customised
+page=10 block=142162898 (x=285 y=662) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+radiotherapy’. Radiother Oncol. 2013;109:159–64.
+page=10 block=142162898 (x=285 y=670) width=152.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[6] Lambin P, Zindler J, Vanneste B, et al. Modern clinical research: How rapid
+page=10 block=142162898 (x=273 y=678) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+learning health care and cohort multiple randomised clinical trials
+page=10 block=142162898 (x=285 y=686) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+complement traditional evidence based medicine. Acta Oncol 2015;23:1–12.
+page=10 block=142162898 (x=285 y=694) width=233.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Page: 11 left:1 upper:1
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+page=11 block=2115305476 (x=159 y=1) width=203.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+359
+page=11 block=400293892 (x=509 y=1) width=12.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[7] Lambin P, Zindler J, Vanneste BG, et al. Decision support systems for
+page=11 block=16463669 (x=4 y=21) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+personalized and participative radiation oncology. Adv Drug Deliv Rev
+page=11 block=16463669 (x=15 y=29) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+2017;109:131–53.
+page=11 block=16463669 (x=15 y=37) width=56.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[8] Gani C, Bonomo P, Zwirner K, et al. Organ preservation in rectal cancer –
+page=11 block=16463669 (x=4 y=45) width=248.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+challenges and future strategies. Clin Translat Radiat Oncol 2017;3:9–15.
+page=11 block=16463669 (x=15 y=53) width=223.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[9] Skripcak T, Belka C, Bosch W, et al. Creating a data exchange strategy for
+page=11 block=16463669 (x=4 y=61) width=248.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+radiotherapy research: towards federated databases and anonymised public
+page=11 block=16463669 (x=15 y=69) width=237.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+datasets. Radiother Oncol 2014;113(3):303–9.
+page=11 block=16463669 (x=15 y=76) width=141.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[10] O’Connor JPB. Radiomics: rethinking the role of clinical imaging.eLife 2017:6.
+page=11 block=16463669 (x=1 y=84) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[11] Lambin P, Leijenaar RTH, Deist TM, et al. Radiomics: the bridge between
+page=11 block=16463669 (x=1 y=92) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+medical imaging and personalized medicine. Nat Rev Clin Oncol 2017;14
+page=11 block=16463669 (x=16 y=100) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+(12):749–62.
+page=11 block=16463669 (x=16 y=108) width=39.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[12] Guo WT, Li H, Zhu YT, etal. Predictionof clinical phenotypes ininvasive breast
+page=11 block=16463669 (x=1 y=116) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+carcinomas from the integration of radiomics and genomics data. J Med
+page=11 block=16463669 (x=16 y=124) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Imaging 2015;2:041007.
+page=11 block=16463669 (x=16 y=132) width=75.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[13] Grossmann P, String?eld O, El-Hachem N, etal. De?ning the biological basis of
+page=11 block=16463669 (x=1 y=140) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+radiomic phenotypes in lung cancer. eLife 2017:6.
+page=11 block=16463669 (x=16 y=148) width=153.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[14] Aerts HJWL, Velazquez ER, Leijenaar RTH, et al. Decoding tumour phenotype
+page=11 block=16463669 (x=1 y=156) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+by noninvasive imaging using a quantitative radiomics approach. Nat
+page=11 block=16463669 (x=16 y=164) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+Commun 2014;5:4006.
+page=11 block=16463669 (x=16 y=172) width=70.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[15] Vargas HA, Veeraraghavan H, Micco M, et al. A novel representation of inter-
+page=11 block=16463669 (x=1 y=180) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+site tumour heterogeneity from pre-treatment computed tomography
+page=11 block=16463669 (x=16 y=188) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+textures classi?es ovarian cancers by clinical outcome. Eur Radiol
+page=11 block=16463669 (x=16 y=196) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+2017;27:3991–4001.
+page=11 block=16463669 (x=16 y=204) width=63.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[16] Velazquez ER, Parmar C, Liu Y, etal. Somatic mutations drivedistinct imaging
+page=11 block=16463669 (x=1 y=212) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+phenotypes in lung cancer. Cancer Res 2017;77(14).
+page=11 block=16463669 (x=16 y=220) width=159.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[17] Li H,Zhu Y, Burnside ES, et al. MR imaging radiomics signaturesfor predicting
+page=11 block=16463669 (x=1 y=228) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+the risk of breast cancer recurrence as given by research versions of
+page=11 block=16463669 (x=16 y=236) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+mammaprint, oncotype DX, and PAM50 gene assays. Radiology
+page=11 block=16463669 (x=16 y=244) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=10
+2016;281:382–91.
+page=11 block=16463669 (x=16 y=252) width=56.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[18] Yu J, Shi Z, Ji C, et al. Anatomical location differences between mutated and
+page=11 block=16463669 (x=1 y=260) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+wild-type isocitrate dehydrogenase 1 in low-grade gliomas. Int J Neurosci
+page=11 block=16463669 (x=16 y=268) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+2017;127:873–80.
+page=11 block=16463669 (x=16 y=276) width=56.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[19] Grossmann P,Gutman DA, Dunn WD, et al. Imaging-genomics reveals driving
+page=11 block=16463669 (x=1 y=284) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+pathways of MRI derived volumetric tumor phenotype features in
+page=11 block=16463669 (x=16 y=292) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=9
+Glioblastoma. BMC Cancer 2016;16:611.
+page=11 block=16463669 (x=16 y=300) width=123.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[20] Lee J, Narang S, Martinez JJ, et al. Associating spatial diversity features of
+page=11 block=16463669 (x=1 y=308) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+radiologically de?ned tumor habitats with epidermal growth factor receptor
+page=11 block=16463669 (x=16 y=316) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+driver status and 12-month survival in glioblastoma: methods and
+page=11 block=16463669 (x=16 y=324) width=236.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+preliminary investigation. J Med Imaging 2015;2:041006.
+page=11 block=16463669 (x=16 y=332) width=175.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[21] Yu J, Shi Z, Lian Y, et al. Noninvasive IDH1 mutation estimation based on a
+page=11 block=16463669 (x=1 y=340) width=251.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+quantitative radiomics approach for grade II glioma. Eur Radiol
+page=11 block=16463669 (x=16 y=347) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=9
+2017;27:3509–22.
+page=11 block=16463669 (x=16 y=355) width=56.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[22] Yip SSF, Kim J, Coroner TP, et al. Associations between somatic mutations and
+page=11 block=16463669 (x=1 y=363) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+metabolic imaging phenotypes in non-small cell lung cancer. J Nucl Med
+page=11 block=16463669 (x=16 y=371) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+2017;58:569–76.
+page=11 block=16463669 (x=16 y=379) width=52.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[23] GevaertO,Echegaray S, Khuong A, et al.Predictiveradiogenomicsmodeling of
+page=11 block=16463669 (x=1 y=387) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+EGFR mutation status in lung cancer. Sci Rep UK 2017;7:41674.
+page=11 block=16463669 (x=16 y=395) width=195.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[24] Yoon HJ, Sohn I, Cho JH, et al. Decoding tumor phenotypes for ALK, ROS1, and
+page=11 block=16463669 (x=1 y=403) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+RET fusions in lung adenocarcinoma using a radiomics approach. Medicine
+page=11 block=16463669 (x=16 y=411) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+2015;94:e1753.
+page=11 block=16463669 (x=16 y=419) width=48.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[25] Emaminejad N, Qian W, Guan YB, et al. Fusion of quantitative image and
+page=11 block=16463669 (x=1 y=427) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+genomic biomarkers to improve prognosis assessment of early stage lung
+page=11 block=16463669 (x=16 y=435) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+cancer patients. IEEE Trans Bio-Med Eng 2016;63:1034–43.
+page=11 block=16463669 (x=16 y=443) width=181.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[26] Panth KM, Leijenaar RTH, Carvalho S, et al. Is there a causal relationship
+page=11 block=16463669 (x=1 y=451) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+between genetic changes and radiomics-based image features? An in vivo
+page=11 block=16463669 (x=16 y=459) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+preclinical experiment with doxycycline inducible GADD34 tumor cells.
+page=11 block=16463669 (x=16 y=467) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+Radiother Oncol 2015;116:462–6.
+page=11 block=16463669 (x=16 y=475) width=103.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[27] Aerts HJ, Grossmann P,Tan Y,et al. De?ning a radiomicresponse phenotype: a
+page=11 block=16463669 (x=1 y=483) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+pilot study using targeted therapy in NSCLC. Sci Rep 2016;6:33860.
+page=11 block=16463669 (x=16 y=491) width=206.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[28] Ghosh P, Tamboli P, Vikram R, et al. Imaging-genomic pipeline for identifying
+page=11 block=16463669 (x=1 y=499) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+gene mutations using three-dimensionalintra-tumor heterogeneity features. J
+page=11 block=16463669 (x=16 y=507) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Med Imaging 2015;2:041009.
+page=11 block=16463669 (x=16 y=515) width=90.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[29] Hanania AN, Bantis LE, Feng ZD, et al. Quantitative imaging to evaluate
+page=11 block=16463669 (x=1 y=523) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+malignant potential of IPMNs. Oncotarget 2016;7:85776–84.
+page=11 block=16463669 (x=16 y=531) width=185.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[30] Suo ST, Cheng JJ, Cao MQ, et al. Assessment of heterogeneity difference
+page=11 block=16463669 (x=1 y=539) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+between edge and core by usingtexture analysis: differentiation of malignant
+page=11 block=16463669 (x=16 y=547) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+from in?ammatory pulmonary nodules and masses. Acad Radiol
+page=11 block=16463669 (x=16 y=555) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=10
+2016;23:1115–22.
+page=11 block=16463669 (x=16 y=563) width=56.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[31] Bae JM, Jeong JY, Lee HY, et al. Pathologic strati?cation of operable lung
+page=11 block=16463669 (x=1 y=571) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+adenocarcinoma using radiomics features extracted from dual energy ct
+page=11 block=16463669 (x=16 y=579) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+images. Oncotarget 2017;8:523–35.
+page=11 block=16463669 (x=16 y=587) width=109.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[32] Pena E, Ojiaku M, Inacio et al JR. Can CT and MR shape and textural features
+page=11 block=16463669 (x=1 y=595) width=251.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+differentiate benign versus malignant pleural lesions? Acad Radiol 2017:20.
+page=11 block=16463669 (x=16 y=603) width=236.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+S1076-6332(17)30133-2.
+page=11 block=16463669 (x=16 y=610) width=76.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[33] GinsburgSB, Algohary A, Pahwa S, etal. Radiomic features for prostate cancer
+page=11 block=16463669 (x=1 y=618) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+detection on MRI differ between the transition and peripheral zones:
+page=11 block=16463669 (x=16 y=626) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+preliminary ?ndings from a multi-institutional study. J Magn Reson Imaging
+page=11 block=16463669 (x=16 y=634) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+2017;46:184–93.
+page=11 block=16463669 (x=16 y=642) width=52.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[34] Bickelhaupt S, Paech D, Kickingereder P, et al. Prediction of malignancy by a
+page=11 block=16463669 (x=1 y=650) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+radiomic signature from contrastagent-free diffusionMRIin suspicious breast
+page=11 block=16463669 (x=16 y=658) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+lesions found on screening mammography. J Magn Reson Imaging
+page=11 block=16463669 (x=16 y=666) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+2017;46:604–16.
+page=11 block=16463669 (x=16 y=674) width=52.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[35] Permuth JB, Choi J, Balarunathan Y, et al. Combining radiomic features with a
+page=11 block=16463669 (x=1 y=682) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+miRNA classi?er may improve prediction of malignant pathology for
+page=11 block=16463669 (x=16 y=690) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+pancreatic intraductal papillary mucinous neoplasms. Oncotarget
+page=11 block=146421557 (x=285 y=21) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=12
+2016;7:85785–97.
+page=11 block=146421557 (x=285 y=29) width=56.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[36] Zhang X, Xu X, Tian Q, et al. Radiomics assessment of bladder cancer grade
+page=11 block=146421557 (x=270 y=37) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+using texture features from diffusion-weighted imaging. J Magn Reson
+page=11 block=146421557 (x=285 y=45) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+Imaging 2017;15.
+page=11 block=146421557 (x=285 y=53) width=54.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[37] Guo Y, Hu Y, Qiao M, etal. Radiomics analysis on ultrasound for prediction of
+page=11 block=146421557 (x=270 y=61) width=251.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+biologic behavior in breast invasive ductal carcinoma. Clin Breast Cancer
+page=11 block=146421557 (x=285 y=69) width=236.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+2017:1–7.
+page=11 block=146421557 (x=285 y=76) width=31.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[38] Song SH, Park H, Lee H, et al. Imaging phenotyping using radiomics to predict
+page=11 block=146421557 (x=270 y=84) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+micropapillary pattern within lung adenocarcinoma. J Thorac Oncol
+page=11 block=146421557 (x=285 y=92) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+2016;12:624–32.
+page=11 block=146421557 (x=285 y=100) width=52.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[39] PatilR,MahadevaiahG, Dekker A.An approachtowardautomatic classi?cation
+page=11 block=146421557 (x=270 y=108) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+of tumor histopathology of non-small cell lung cancer based on radiomic
+page=11 block=146421557 (x=285 y=116) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+features. Tomography 2016;2:374–7.
+page=11 block=146421557 (x=285 y=124) width=113.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[40] Parmar C, Leijenaar RT, Grossmann P, et al. Radiomic feature clusters and
+page=11 block=146421557 (x=270 y=132) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+prognostic signatures speci?c for lung and head & neck cancer. Sci Rep
+page=11 block=146421557 (x=285 y=140) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+2015;5:11044.
+page=11 block=146421557 (x=285 y=148) width=44.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[41] Lin YC, Lin G, Hong JH, et al. Diffusion radiomics analysis of intratumoral
+page=11 block=146421557 (x=270 y=156) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+heterogeneity in a murine prostate cancer model following radiotherapy:
+page=11 block=146421557 (x=285 y=164) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+pixelwise correlationwith histology. JMagnReson Imaging 2017;27:3509–22.
+page=11 block=146421557 (x=285 y=172) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[42] Zhang Q, Xiao Y, Suo J, et al. Sonoelastomics for breast tumor classi?cation: a
+page=11 block=146421557 (x=270 y=180) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+radiomics approach with clustering-based feature selection on
+page=11 block=146421557 (x=285 y=188) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=11
+sonoelastography. Ultrasound Med Biol 2017;43:1058–69.
+page=11 block=146421557 (x=285 y=196) width=178.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[43] Marin Z, Batchelder KA, Toner BC, et al. Mammographic evidence of
+page=11 block=146421557 (x=270 y=204) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+microenvironment changes intumorous breasts. Med Phys 2017;44:1324–36.
+page=11 block=146421557 (x=285 y=212) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[44] Coquery N, Francois O,Lemasson B, etal. MicrovascularMRI and unsupervised
+page=11 block=146421557 (x=270 y=220) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+clustering yields histology-resembling images in two rat models of glioma. J
+page=11 block=146421557 (x=285 y=228) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Cereb Blood Flow Met 2014;34:1354–62.
+page=11 block=146421557 (x=285 y=236) width=125.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[45] Choi ER, Lee HY, Jeong JY, et al. Quantitative image variables re?ect the
+page=11 block=146421557 (x=270 y=244) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+intratumoral pathologic heterogeneity of lung adenocarcinoma. Oncotarget
+page=11 block=146421557 (x=285 y=252) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+2016;7:67302–13.
+page=11 block=146421557 (x=285 y=260) width=56.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[46] WuWM, Parmar C, Grossmann P, etal. Exploratory study to identify radiomics
+page=11 block=146421557 (x=270 y=268) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+classi?ers for lung cancer histology. Front Oncol 2016;6:71.
+page=11 block=146421557 (x=285 y=276) width=182.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[47] Li H, Zhu Y, Burnside ES,et al. Quantitative MRI radiomics in the prediction of
+page=11 block=146421557 (x=270 y=284) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+molecular classi?cations of breast cancer subtypes in the TCGA/TCIA data set.
+page=11 block=146421557 (x=285 y=292) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+NPJ Breast Cancer 2016;2:16012.
+page=11 block=146421557 (x=285 y=300) width=101.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[48] Gnep K, Fargeas A, Gutierrez-Carvajal RE, et al. Haralick textural features on
+page=11 block=146421557 (x=270 y=308) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+T2-weighted MRI are associated with biochemical recurrence following
+page=11 block=146421557 (x=285 y=316) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+radiotherapy for peripheral zone prostate cancer. J Magn Reson Imaging
+page=11 block=146421557 (x=285 y=324) width=236.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+2017;45:103–17.
+page=11 block=146421557 (x=285 y=332) width=52.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[49] Wang J, Kato F, Oyama-Manabe N, et al. Identifying triple-negative breast
+page=11 block=146421557 (x=270 y=340) width=251.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+cancer using background parenchymal enhancement heterogeneity on
+page=11 block=146421557 (x=285 y=347) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=7
+dynamic contrast-enhanced MRI: a pilot radiomics study. PLoS One 2015;10:
+page=11 block=146421557 (x=285 y=355) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+e0143308.
+page=11 block=146421557 (x=285 y=363) width=32.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[50] Yin Q, Hung SC, Wang L, et al. Associations between tumor vascularity,
+page=11 block=146421557 (x=270 y=371) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+vascular endothelial growth factor expression and PET/MRI radiomic
+page=11 block=146421557 (x=285 y=379) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+signatures in primary clear-cell-renal-cell-carcinoma: proof-of-concept
+page=11 block=146421557 (x=285 y=387) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=9
+study. Sci Rep 2017;7:43356.
+page=11 block=146421557 (x=285 y=395) width=89.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[51] Ha S, Park S, Bang et al J. Characterize locally advanced breast cancer:
+page=11 block=146421557 (x=270 y=403) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+histopathologic characteristics, response to neoadjuvant chemotherapy, and
+page=11 block=146421557 (x=285 y=411) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+prognosis. Sci Rep 2017;7:1556.
+page=11 block=146421557 (x=285 y=419) width=98.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[52] LopezCJ, Nagornaya N, Parra NA, et al.Association of radiomics and metabolic
+page=11 block=146421557 (x=270 y=427) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+tumor volumes in radiation treatment ofglioblastoma multiforme. Int JRadiat
+page=11 block=146421557 (x=285 y=435) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Oncol 2017;97:586–95.
+page=11 block=146421557 (x=285 y=443) width=72.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[53] Yip SSF, Aerts HJWL. Applications and limitations of radiomics.Phys Med Biol
+page=11 block=146421557 (x=270 y=451) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+2016;61:150–66.
+page=11 block=146421557 (x=285 y=459) width=52.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[54] Gillies RJ, Kinahan PE, Hricak H. Radiomics: images are more than pictures
+page=11 block=146421557 (x=270 y=467) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+they are data. Radiology 2016;278:563–77.
+page=11 block=146421557 (x=285 y=475) width=132.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[55] HasegawaM, Sakai F, Ishikawa R, et al. CT features of epidermalgrowth factor
+page=11 block=146421557 (x=270 y=483) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+receptor-mutatedadenocarcinoma ofthe lung: comparison with non-mutated
+page=11 block=146421557 (x=285 y=491) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+adenocarcinoma. J Thorac Oncol 2016;11:819–26.
+page=11 block=146421557 (x=285 y=499) width=152.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[56] Rizzo S, Petrella F, Buscarino V, et al. CT radiogenomic characterization of
+page=11 block=146421557 (x=270 y=507) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+EGFR, K-RAS, and ALK mutations in non-small cell lung cancer. Eur Radiol
+page=11 block=146421557 (x=285 y=515) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+2015;26:32–42.
+page=11 block=146421557 (x=285 y=523) width=48.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[57] Fave X, Zhang L, Yang J, et al. Delta-radiomics features for the prediction of
+page=11 block=146421557 (x=270 y=531) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+patient outcomes in non-small cell lung cancer. Sci Rep 2017;7:588.
+page=11 block=146421557 (x=285 y=539) width=208.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[58] van Timmeren JE, Leijenaar RTH, van Elmpt W, et al. Survival prediction of
+page=11 block=146421557 (x=270 y=547) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+non-smallcelllung cancer patients using radiomicsanalyses on cone-beam CT
+page=11 block=146421557 (x=285 y=555) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+images. Radiother Oncol 2017;123(3):363–9.
+page=11 block=146421557 (x=285 y=563) width=137.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[59] Gerlinger M, Rowan AJ, Horswell et al S. Intratumor heterogeneity and
+page=11 block=146421557 (x=270 y=571) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+branched evolution revealed by multiregion sequencing. NEJM 2012;366
+page=11 block=146421557 (x=285 y=579) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+(10):883–91.
+page=11 block=146421557 (x=285 y=587) width=39.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+[60] Mak RH, Digumarthy SR, Muzikansky A, et al. Role of 18F-?uorodeoxyglucose
+page=11 block=146421557 (x=270 y=593) width=251.000000 height=5.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+positron emission tomographyin predicting epidermalgrowth factorreceptor
+page=11 block=146421557 (x=285 y=603) width=236.000000 height=3.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+mutations in non-small cell lung cancer. Oncologist 2011;16:319–26.
+page=11 block=146421557 (x=285 y=610) width=212.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[61] Glimelius B, Lahn M.Window-of-opportunity trials to evaluate clinical activity
+page=11 block=146421557 (x=270 y=618) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+of new molecular entities in oncology. Ann Oncol 2011;22:1717–25.
+page=11 block=146421557 (x=285 y=626) width=209.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[62] Larue RTHM, Van De Voorde L, Berbée M, et al. A phase 1 ‘‘window-of-
+page=11 block=146421557 (x=270 y=634) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+opportunity” trial testingevofosfamide (TH-302),atumour-selective hypoxia-
+page=11 block=146421557 (x=285 y=642) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+activated cytotoxic prodrug, with preoperative chemoradiotherapy in
+page=11 block=146421557 (x=285 y=650) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=8
+oesophageal adenocarcinoma patients. BMC Cancer 2016;16:644.
+page=11 block=146421557 (x=285 y=658) width=199.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[63] van Timmeren JE, Leijenaar RTH, van Elmpt W, et al. Feature selection
+page=11 block=146421557 (x=270 y=666) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=6
+methodology for longitudinal cone-beam CT radiomics. Acta Oncol 2017;1–7.
+page=11 block=146421557 (x=285 y=674) width=236.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[64] Turner NC, Reis-Filho JS. Genetic heterogeneity and cancer drug resistance.
+page=11 block=146421557 (x=270 y=682) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+Lancet Oncol 2012;13:e178–85.
+page=11 block=146421557 (x=285 y=690) width=97.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+Page: 12 left:1 upper:1
+360
+page=12 block=720900 (x=1 y=1) width=11.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=13
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+page=12 block=-2094268412 (x=146 y=1) width=230.000000 height=4.000000 fontname=KPGOGL+AdvGulliv-I wordint.min=1 wordint.max=4
+[65] Hong BJ, Kim J, Jeong H, et al. Tumor hypoxia and reoxygenation: the yin and
+page=12 block=16450124 (x=1 y=21) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+yang for radiotherapy. Radiat Oncol J 2016;34:239–49.
+page=12 block=16450124 (x=16 y=29) width=167.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[66] Gregor T, Kochová P, Eberlová L, et al., Correlating micro-CT imaging with
+page=12 block=16450124 (x=1 y=37) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=5
+quantitative histology. injury and skeletal biomechanics. 2012; 173–191.
+page=12 block=16450124 (x=16 y=45) width=223.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[67] The Cancer Imaging Archive (TCIA): http://www.cancerimagingarchive.net.
+page=12 block=146407844 (x=270 y=21) width=243.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+[68] Egger M,Davey Smith G, SchneiderM, et al.Bias inmeta-analysisdetected by
+page=12 block=146407844 (x=270 y=29) width=251.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4
+a simple, graphical test. BMJ 1997;315:629–34.
+page=12 block=146407844 (x=285 y=37) width=145.000000 height=4.000000 fontname=KPGODK+AdvGulliv-R wordint.min=1 wordint.max=4

@@ -1,0 +1,1844 @@
+Page: 1 left:1 upper:1
+JOURNAL OF ECONOMIC ISSUES
+page=1 block=511180805 (x=52 y=1) width=150.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Volume LIV      No. 1      March 2020
+page=1 block=531628284 (x=52 y=14) width=150.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+DOI 10.1080/00213624.2020.1720588
+page=1 block=531628284 (x=52 y=26) width=156.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Digital Platforms and the Nature of the Firm
+page=1 block=990511664 (x=66 y=70) width=229.000000 height=8.000000 fontname=GWCWTK+CGOmega-BoldItalic wordint.min=3 wordint.max=5
+Laurent Baronian
+page=1 block=1512178273 (x=278 y=87) width=83.000000 height=7.000000 fontname=UKMCHI+CGOmega-BoldItalic wordint.min=3 wordint.max=5
+Abstract: Digital platforms turn traditional approaches of the ?rm, which relied on the 
+page=1 block=459948184 (x=22 y=106) width=319.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+wage relation to explain the major di?erence between ?rm and market, upside down and 
+page=1 block=459948184 (x=22 y=118) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+underline the advantages of coordination through organization over coordination through 
+page=1 block=459948184 (x=22 y=128) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+market. This study aims to propose a de?nition of the ?rm able to integrate, besides the 
+page=1 block=459948184 (x=22 y=139) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+integrated ?rm,  also  hybrid forms  such as  networks of subcontractor/subcontracting 
+page=1 block=459948184 (x=22 y=150) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rms as well as atypical forms such as digital platforms. By reactivating the ?rm-boundary 
+page=1 block=459948184 (x=22 y=160) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+problem, this article suggests putting valorization by labor at the heart of the ?rm’s decisions 
+page=1 block=459948184 (x=22 y=171) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+concerning integration. It suggests therefore a general de?nition of the ?rm as a techno-
+page=1 block=459948184 (x=22 y=182) width=317.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+institutional center of capital valorization, provided that ?rms make pro?ts by means of the 
+page=1 block=459948184 (x=22 y=192) width=319.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+appropriation of labor incorporated into their (productive, structural, intellectual) capital 
+page=1 block=459948184 (x=22 y=203) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+through institutional arrangements. By stressing the relation of production between the 
+page=1 block=459948184 (x=22 y=214) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+owners of the means of production and the direct producers, the approach of the ?rm 
+page=1 block=459948184 (x=22 y=225) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+supported here should allow to cover the di?erent existing models of the ?rm, from the 
+page=1 block=459948184 (x=22 y=235) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+classical ?rm to hybrid models, around which the boundary debate has revolved, to digital 
+page=1 block=459948184 (x=22 y=246) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+platforms.
+page=1 block=459948184 (x=22 y=257) width=36.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=17
+Keywords:  digital  platforms,  ?rm  theory,  boundaries  of  the  ?rm,  transaction  cost 
+page=1 block=459936112 (x=22 y=279) width=319.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+economics, property rights theory, resource-based theory of the ?rm, hybrid models
+page=1 block=459936112 (x=22 y=290) width=294.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+JEL Classification Codes: L14, L24, L25, L62, O30
+page=1 block=266733392 (x=22 y=312) width=185.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Digital platforms turn traditional approaches of the ?rm, which relied upon the wage 
+page=1 block=23776840 (x=22 y=328) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relation to explain the major di?erence between ?rm and market, upside down and underline 
+page=1 block=23776840 (x=1 y=340) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the advantages of coordination through organization over coordination through market 
+page=1 block=23776840 (x=1 y=352) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Bauwens, Mendoza and Iacomella 2012; Botsman 2013; Hamari, Sjöklint and Ukkonen 
+page=1 block=23776840 (x=1 y=364) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+2015). Yet platform economics does not justify integration, neither by the reduction of 
+page=1 block=23776840 (x=1 y=376) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+transaction costs nor by the creation of organizational resources. Therefore, it calls for a 
+page=1 block=23776840 (x=1 y=388) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+renewal of the ?rm-boundary problem and the very de?nition of the ?rm. By their various 
+page=1 block=23776840 (x=1 y=400) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+modes of appropriation of the producers or consumers’ activity, however, digital platforms 
+page=1 block=23776840 (x=1 y=412) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+have put labor at the center of their valorization and therefore of their business models. But 
+page=1 block=23776840 (x=1 y=424) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+these various forms of labor appropriation exceed the framework of the traditional wage 
+page=1 block=23776840 (x=1 y=436) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relation and reactivate, as we will see, ancient models of exploitation such as the putting-
+page=1 block=23776840 (x=1 y=448) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+out system. Digital platforms demonstrate what Ayres had formally theorized about the 
+page=1 block=23776840 (x=1 y=460) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relationship between technological development and institutional structures, namely that 
+page=1 block=23776840 (x=1 y=472) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Information and communication technologies (ICTs) have allowed a speci?cally capitalist 
+page=1 block=23776840 (x=1 y=484) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Laurent Baronian is associate professor at the University of Sorbonne Paris Nord. He has published articles in 
+page=1 block=23743146 (x=1 y=503) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+history of economic thought, labor economics and money and ?nance. He published a book entitled Marx and 
+page=1 block=23743146 (x=1 y=514) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Living Labour (Routledge, 2013) among others. His current research is on knowledge management, ?nancialization 
+page=1 block=23743146 (x=1 y=525) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+of corporate governance, and boundaries of the ?rm.
+page=1 block=23743146 (x=1 y=536) width=165.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+214
+page=1 block=171052284 (x=174 y=554) width=15.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+© 2020, Journal of Economic Issues /Association for Evolutionary Economics
+page=1 block=16452371 (x=1 y=567) width=251.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Page: 2 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=2 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+215
+page=2 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+form of exploitation without wage labor. Here, technological changes are the sources of 
+page=2 block=23800468 (x=1 y=20) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+institutional  changes regarding  the labor power (Ayres 1944, 177). What characterizes 
+page=2 block=23800468 (x=1 y=32) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+indeed many of the digital platforms is that they do not need to hire employees for extracting 
+page=2 block=23800468 (x=1 y=44) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+value from their labor. By means of software programs, digital ?rms make pro?t instead by 
+page=2 block=23800468 (x=1 y=56) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+inserting themselves “between those who o?er services and others who are looking for them, 
+page=2 block=23800468 (x=1 y=68) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+thereby embedding extractive processes into social interactions” (Scholz 2016, 4). Commons 
+page=2 block=23800468 (x=1 y=80) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+de?ned the corporation as a going concern combining the going plant and the going business 
+page=2 block=23800468 (x=1 y=92) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Commons 1924; Guelzo 1976). But digital platforms are going concerns in which the going 
+page=2 block=23800468 (x=1 y=104) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+plant is reduced to some algorithms and software controlling the social activity for the pro?t 
+page=2 block=23800468 (x=1 y=116) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the going business. Most of the transactions are therefore business transactions. Since 
+page=2 block=23800468 (x=1 y=128) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+digital platforms use market relations extensively for valorizing their assets, the ?rm cannot 
+page=2 block=23800468 (x=1 y=140) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+be distinguished from market regarding transaction costs as supported by transaction-cost 
+page=2 block=23800468 (x=1 y=152) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+economics. Moreover, digital platforms question the resource-based theory of the ?rm since 
+page=2 block=23800468 (x=1 y=164) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+organizational resources are not located within a ?rm through management of co-operating 
+page=2 block=23800468 (x=1 y=176) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+hired workers. By subjecting potentially the whole of social activity, digital platforms have 
+page=2 block=23800468 (x=1 y=188) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+completely realized the Veblenian concept of predatory business enterprise (Veblen 1923, 
+page=2 block=23800468 (x=1 y=200) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+89; Jo 2018).  In other words, platform economics paradoxically demonstrate more than 
+page=2 block=23800468 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+traditional ?rms that the capitalist subjection of labor relies entirely upon the economic 
+page=2 block=23800468 (x=1 y=224) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+power of the owners of the means of the production which are at the source of new forms 
+page=2 block=23800468 (x=1 y=236) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of cooperation between producers, consumers, users, et cetera, on which its business models 
+page=2 block=23800468 (x=1 y=248) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+rely (Bauwens, Mendoza, and Iacomella 2012). 
+page=2 block=23800468 (x=1 y=260) width=185.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+This article suggests putting valorization by labor at the heart of the ?rm’s strategies. 
+page=2 block=23800468 (x=23 y=272) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+“By turning his money into commodities that serve as the natural elements of a new 
+page=2 block=23800468 (x=1 y=284) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+product,” says Marx in a draft de?nition of the ?rm, “and as factors in the labor process, by 
+page=2 block=23800468 (x=1 y=296) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+incorporating living labor with their dead substance, the capitalist at the same time converts 
+page=2 block=23800468 (x=1 y=308) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+value, i.e. past, materialized, and dead labor into capital, into value with big value, a live 
+page=2 block=23800468 (x=1 y=320) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+monster that is fruitful and multiplies” (Marx [1867] 2010, 205). Today, digital-based ?rms 
+page=2 block=23800468 (x=1 y=332) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+are capable of extending their ?eld of exploitation well beyond workers’ direct labor, and 
+page=2 block=23800468 (x=1 y=344) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+capitalist ?rms in general never cease to ?nd new objects of predation. But since all these 
+page=2 block=23800468 (x=1 y=356) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+new objects, even the environment as such, always need the mediation of man’s activity, the 
+page=2 block=23800468 (x=1 y=368) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+concept of labor called upon here includes, in fact, the social activity insofar as it is somehow 
+page=2 block=23800468 (x=1 y=380) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+appropriated in order to be valorized by ?rms. 
+page=2 block=23800468 (x=1 y=392) width=184.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+By reactivating the ?rm-boundary problem, the article will show how labor appropriation 
+page=2 block=23800468 (x=23 y=404) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+steers ?rms' decisions concerning integration. It will show notably that neither asset speci?city 
+page=2 block=23800468 (x=1 y=416) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+nor the creation of speci?c resources leads to integration. Consequently, the ?rm cannot be 
+page=2 block=23800468 (x=1 y=428) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+grasped by its governance structure, as supported by transaction-cost economics, nor by its 
+page=2 block=23800468 (x=1 y=440) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+capabilities and resources produced within a circumscribed space of labor, as resource-based 
+page=2 block=23800468 (x=1 y=452) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+theory argues in objection to transaction-cost economics. But the features shared by quasi-
+page=2 block=23800468 (x=1 y=464) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rms with traditional ?rms and digital platforms prompt us to suggest a de?nition of the 
+page=2 block=23800468 (x=1 y=476) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+capitalist ?rm in general as a techno-institutional center of capital valorization or, to put it 
+page=2 block=23800468 (x=1 y=488) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+di?erently, of appropriation of others’ labor. The ?rm is a technological center since the 
+page=2 block=23800468 (x=1 y=500) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relation of production relies upon and is carried out by a productive and organizational 
+page=2 block=23800468 (x=1 y=512) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+technology. But it is also an institutional entity, since it appropriates labor incorporated into 
+page=2 block=23800468 (x=1 y=524) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+their (productive, structural, intellectual) capital through institutional arrangements. As 
+page=2 block=23800468 (x=1 y=536) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Commons put it, the going concern includes rationing transactions describing a relationship 
+page=2 block=23800468 (x=1 y=548) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+between legal superiors and inferiors. In the rationing transaction, the legal superior must 
+page=2 block=23800468 (x=1 y=560) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 3 left:1 upper:1
+Laurent Baronian
+page=3 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+216
+page=3 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+be able to take something from someone else and can be collective in nature as a board of 
+page=3 block=23795908 (x=1 y=20) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+directors apportioning the corporate budget (Guelzo 1976, 42). By stressing the relation of 
+page=3 block=23795908 (x=1 y=32) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production between the owners of the means of production and the direct producers, the 
+page=3 block=23795908 (x=1 y=44) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+approach of the ?rm supported here should allow us to cover the di?erent existing models 
+page=3 block=23795908 (x=1 y=56) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the ?rm, from the classical ?rm to hybrid models, around which the boundary debate has 
+page=3 block=23795908 (x=1 y=68) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+revolved, to digital platforms. As will be seen, all these kinds of ?rms share the basic feature 
+page=3 block=23795908 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of extracting surplus labor either directly through work management, or indirectly through 
+page=3 block=23795908 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+contracts and price mechanisms, or through percentages on services provided and by means 
+page=3 block=23795908 (x=1 y=104) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of software technologies. In order to emphasize this aspect common to the di?erent kinds 
+page=3 block=23795908 (x=1 y=116) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of ?rms, I will show how the de?nitions of the ?rm by transaction-cost economics (TCE), 
+page=3 block=23795908 (x=1 y=128) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+property-rights theory (PRT), and resource-based theory (RBT) encounter the ?rm-boundary 
+page=3 block=23795908 (x=1 y=140) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+problem and how this problem gets resolved by putting the exploitation of social labor at 
+page=3 block=23795908 (x=1 y=152) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the heart of integration strategies of the ?rm. The critique of these approaches will gradually 
+page=3 block=23795908 (x=1 y=164) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+show that labor haunts them, calling for a re-de?nition of the ?rm which ?nds—in the digital 
+page=3 block=23795908 (x=1 y=176) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+platforms—its clearest illustration.
+page=3 block=23795908 (x=1 y=188) width=132.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The article is structured as follows. The next section shows how digital platforms 
+page=3 block=23795908 (x=23 y=200) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+challenge these theories of the ?rm, by surpassing the disadvantages of the putting-out 
+page=3 block=23795908 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+system and making pro?ts without authority and hierarchy. After having recalled the history 
+page=3 block=23795908 (x=1 y=224) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the ?rm-boundary problem, emphasis will be put on the way it has been dealt with by 
+page=3 block=23795908 (x=1 y=236) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+TCE, then PRT and ?nally RBT, in accordance with their respective approaches of the ?rm. 
+page=3 block=23795908 (x=1 y=248) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The analysis of quasi-?rms, in particular the Toyota quasi-integration system, will show that 
+page=3 block=23795908 (x=1 y=260) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+only a de?nition of the ?rm that deals with labor as both producing goods and services and 
+page=3 block=23795908 (x=1 y=272) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+creating surplus value appropriated as pro?ts may account for hybrid models while drawing 
+page=3 block=23795908 (x=1 y=284) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+a clear boundary between ?rm and market. More generally, quasi-integration con?rms the 
+page=3 block=23795908 (x=1 y=296) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+priority of productive logic over logics of transaction costs and capabilities and resources. 
+page=3 block=23795908 (x=1 y=308) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The penultimate section returns to digital platforms and deals with issues emphasized by the 
+page=3 block=23795908 (x=1 y=320) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+approach of the ?rm supported here. The last section concludes.
+page=3 block=23795908 (x=1 y=332) width=254.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Digital Platforms and the Theory of the Firm
+page=3 block=1062471786 (x=84 y=359) width=193.000000 height=6.000000 fontname=GWCWTK+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+The development of information technologies alongside the growth of Web 2.0 has enabled 
+page=3 block=23861348 (x=1 y=388) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the development of online platforms that promote user-generated content, sharing, and 
+page=3 block=23861348 (x=1 y=400) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+collaboration (Kaplan and Haenlein 2010). Capital has quickly taken advantage of these 
+page=3 block=23861348 (x=1 y=412) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+new modes of exchange through the creation of new kinds of ?rms called “digital bridge 
+page=3 block=23861348 (x=1 y=424) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+builders” which insert themselves between supply and demand of these services provided by 
+page=3 block=23861348 (x=1 y=436) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+independent workers (Harris and Krueger 2015), thereby “embedding extractive processes 
+page=3 block=23861348 (x=1 y=448) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+into social interactions” (Scholz 2016, 4).
+page=3 block=23861348 (x=1 y=460) width=162.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+By connecting individuals and communities potentially all around the world, platform-
+page=3 block=23861348 (x=23 y=472) width=338.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+based ?rms have blurred the distinction  between ?rm and market more  deeply  than 
+page=3 block=23861348 (x=1 y=484) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+subcontracting and ?rms’ networks. Moreover, crowdsourcing blurs the boundaries of the 
+page=3 block=23861348 (x=1 y=496) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm not only because it uses “collaboration mass weapons” (Tapscott and Williams 2010) 
+page=3 block=23861348 (x=1 y=508) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+extended to the whole of society, but also because local independent workers potentially have 
+page=3 block=23861348 (x=1 y=520) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+access to the global market. This business model has dramatically challenged the conceptual 
+page=3 block=23861348 (x=1 y=532) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+framework of transaction-cost economics. Indeed, digital platforms seem to have overcome 
+page=3 block=23861348 (x=1 y=544) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+all the disadvantages of the putting-out system that led to the creation of manufactures in 
+page=3 block=23861348 (x=1 y=556) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the seventeenth century (Williamson 1985; Berg 1985, 85). It is well-known that among 
+page=3 block=23861348 (x=1 y=568) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 4 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=4 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+217
+page=4 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+the reasons that led the putting-out system to be replaced by manufactures were the lack of 
+page=4 block=23800468 (x=1 y=20) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+control over labor time and intensity, as well as over-quality of the products made by the craft 
+page=4 block=23800468 (x=1 y=32) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+workers (Marglin 1974,  94–95). The ITCs associated with systems of consumer assessment 
+page=4 block=23800468 (x=1 y=44) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+today allow these disadvantages to be overcome by strictly controlling both labor time and 
+page=4 block=23800468 (x=1 y=56) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+quality of the service accomplished by the independent workers. Moreover, digital platforms 
+page=4 block=23800468 (x=1 y=68) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+bene?t from what was the main advantage of the putting-out system, namely the collection 
+page=4 block=23800468 (x=1 y=80) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of information to which their employees had special access (See Benkler 2002, 410–411). 
+page=4 block=23800468 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Digital  platforms  thus  reduce  information  asymmetry as well  as  agents’  opportunism 
+page=4 block=23800468 (x=1 y=104) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(moral hazard). Since transaction costs are much weaker, the platform-based ?rm does not 
+page=4 block=23800468 (x=1 y=116) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+lead to internalization of transactions (though software programs stand for some form of 
+page=4 block=23800468 (x=1 y=128) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+internalization). Here, the almost exclusive function of the ?rm is to capture or extract 
+page=4 block=23800468 (x=1 y=140) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+value by reducing market failures through software, facilitating information exchange and 
+page=4 block=23800468 (x=1 y=152) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+increasing competition between independent workers.
+page=4 block=23800468 (x=1 y=164) width=213.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Since Adam Smith, it has been the norm to see wage labor as the typically capitalist 
+page=4 block=23800468 (x=23 y=176) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relationship of employment, with pro?ts, wages, and rents as the typical forms of income 
+page=4 block=23800468 (x=1 y=188) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+resulting from that relationship. Yet the putting-out system depicts a relation of employment 
+page=4 block=23800468 (x=1 y=200) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+where pro?ts of capital result from the extraction of surplus labor, whereas the worker does 
+page=4 block=23800468 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+not sell her labor power for wages but the product of her labor itself. However, the capitalist 
+page=4 block=23800468 (x=1 y=224) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+nature of this relation of production seems so undisputable to historians and economists 
+page=4 block=23800468 (x=1 y=236) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+that all the debate about the transition to the era of manufactures was focused on the 
+page=4 block=23800468 (x=1 y=248) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+reasons pushing the entrepreneurs to hire the labor power in these factories. In a certain 
+page=4 block=23800468 (x=1 y=260) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+way, it is true that transaction-cost economics, and more generally the conception of the 
+page=4 block=23800468 (x=1 y=272) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm as a nexus of contracts, made it possible to include the putting-out kind of employment 
+page=4 block=23800468 (x=1 y=284) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relationship among the ?rm’s contractual relationships. But the disadvantages of the putting-
+page=4 block=23800468 (x=1 y=296) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+out system have precisely led TCE to ask, “Why do ?rms exist?” since the putting-out system 
+page=4 block=23800468 (x=1 y=308) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+can be reduced to a market relationship with high transaction costs due to information 
+page=4 block=23800468 (x=1 y=320) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+asymmetry and moral hazard: high bu?er inventories, weak leadership in contracting, local 
+page=4 block=23800468 (x=1 y=332) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+responsiveness and system responsiveness respects, high transportation costs (Williamson 
+page=4 block=23800468 (x=1 y=344) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+1980, 22). Hence, authority and hierarchy as the way to lower transaction costs related to the 
+page=4 block=23800468 (x=1 y=356) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+contractual relation of employment.
+page=4 block=23800468 (x=1 y=368) width=142.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Even though authority and hierarchy have almost completely disappeared from the 
+page=4 block=23800468 (x=23 y=380) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+platform employment relationship (Harris and Krueger 2015, 10), the investments made 
+page=4 block=23800468 (x=1 y=392) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+in technologies necessary to connect the stakeholders or users of the platform allow the 
+page=4 block=23800468 (x=1 y=404) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+platform-based ?rm to make pro?ts on the services provided through contractual devices, 
+page=4 block=23800468 (x=1 y=416) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+in the  same way  as the merchant-coordinators  were  making pro?ts on the  individual 
+page=4 block=23800468 (x=1 y=428) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+entrepreneur’s work.
+page=4 block=23800468 (x=1 y=440) width=81.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Therefore, digital platforms show that, against TCE, the ?rm may rely on coordination 
+page=4 block=23800468 (x=23 y=452) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+through market as well as internal coordination. They thereby con?rm contract theory, 
+page=4 block=23800468 (x=1 y=464) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+according to which ?rm and market di?er only according to the degree of contractual 
+page=4 block=23800468 (x=1 y=476) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+commitment between agents.  More  generally,  digital  platforms  justify  the  contractual 
+page=4 block=23800468 (x=1 y=488) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+approach of the ?rm, because, in this case, the link connecting the worker to the ?rm is 
+page=4 block=23800468 (x=1 y=500) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+exclusively contractual and her productive activity is realized outside any organizational 
+page=4 block=23800468 (x=1 y=512) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+framework. For PRT, only property institutes the manager’s hierarchical authority over the 
+page=4 block=23800468 (x=1 y=524) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+worker, namely the residual control rights on the use of her non-human assets. Yet, the 
+page=4 block=23800468 (x=1 y=536) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+holders of these residual control rights have power or authority over human assets, since 
+page=4 block=23800468 (x=1 y=548) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+employees need physical assets to be productive (Hart and Moore 1990). Contract theory 
+page=4 block=23800468 (x=1 y=560) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 5 left:1 upper:1
+Laurent Baronian
+page=5 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+218
+page=5 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+does not deny the importance of cooperation in the running of non-human assets. According 
+page=5 block=23795188 (x=1 y=20) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to Armen Alchian and Harold Demsetz (1972), authority and control over the labor of ?rms’ 
+page=5 block=23795188 (x=1 y=32) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+employees, and consequently the very existence of the ?rm, are indeed justi?ed by imperfect 
+page=5 block=23795188 (x=1 y=44) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+information and moral hazard resulting from the inherently cooperative use of productive 
+page=5 block=23795188 (x=1 y=56) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assets (Alchian and Demsetz 1972, 799). What is neglected, however, is the fact that this 
+page=5 block=23795188 (x=1 y=68) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+cooperation relies in turn upon the social nature of the assets which constitute and explain 
+page=5 block=23795188 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the manager’s authority and hierarchy. Imperfect information and moral hazard are just the 
+page=5 block=23795188 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+consequences of the fact that human assets are employed in order to valorize non-human 
+page=5 block=23795188 (x=1 y=104) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assets and concern the bilateral contractual relationship between the employer and the 
+page=5 block=23795188 (x=1 y=116) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+employee. In digital platforms, as well as in traditional ?rms, the manager’s power over the 
+page=5 block=23795188 (x=1 y=128) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+worker relies entirely upon the power to manage the means of production necessary to the 
+page=5 block=23795188 (x=1 y=140) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+workers’ social and individual reproduction. By founding the authority and incentives on 
+page=5 block=23795188 (x=1 y=152) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+property, PRT not only makes no distinction between ?rm and market except in accordance 
+page=5 block=23795188 (x=1 y=164) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to their degree of property but also neglects the fact that the property of non-human assets 
+page=5 block=23795188 (x=1 y=176) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+determines a relation of production exceeding the framework of interpersonal property 
+page=5 block=23795188 (x=1 y=188) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+rights.
+page=5 block=23795188 (x=1 y=200) width=25.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+In the capitalist ?rm in general, the property rights ordering the relations between 
+page=5 block=23795188 (x=23 y=212) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+managers and employees are structured not, as PRT claims, by the collective use of the non-
+page=5 block=23795188 (x=1 y=224) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+human assets as such, but by the social relation of production under which these non-human 
+page=5 block=23795188 (x=1 y=236) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assets are used and valorized. Since the use and valorization of non-human assets are planned 
+page=5 block=23795188 (x=1 y=248) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+through contractual and organizational arrangements, we suggest de?ning the ?rm as a 
+page=5 block=23795188 (x=1 y=260) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+techno-institutional center of valorization (i.e., of extraction of surplus labor). By focusing 
+page=5 block=23795188 (x=1 y=272) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+on the way labor is organized and extracted in order to valorize capital, this approach of the 
+page=5 block=23795188 (x=1 y=284) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm may renew and clarify the problem of the ?rm’s boundaries.
+page=5 block=23795188 (x=1 y=296) width=256.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The Coasian Genesis of the Firm-Boundary Problem
+page=5 block=1012926354 (x=69 y=323) width=224.000000 height=6.000000 fontname=UKMCHI+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+Ronald Coase published his ?rst article on the nature of the ?rm in 1937, one year after 
+page=5 block=23867360 (x=1 y=352) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the publication of Keynes’ General Theory (1936), which reversed the traditional relation 
+page=5 block=23867360 (x=1 y=364) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+between supply and demand in the equilibrium of prices and quantities. The starting point 
+page=5 block=23867360 (x=1 y=376) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of Coase’s argument is: “why do ?rms exist, since the market is supposed to ensure the 
+page=5 block=23867360 (x=1 y=388) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+optimal allocation of economic agents’ resources?” His question implies that standard theory 
+page=5 block=23867360 (x=1 y=400) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+only dealt with owners of goods, services or assets, and that production could be de jure 
+page=5 block=23867360 (x=1 y=412) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+totally realized through market exchange, as in the putting-out system. Moreover, the theory 
+page=5 block=23867360 (x=1 y=424) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of factor productivity should demonstrate that labor, land, and capital are paid according 
+page=5 block=23867360 (x=1 y=436) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to their productivity, provided that they freely exchange on the market (see Clark 1907, 
+page=5 block=23867360 (x=1 y=448) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+144). Therefore, Coase’s question is not “why production?” but rather “why the hierarchical 
+page=5 block=23867360 (x=1 y=460) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+organization of the production?”—in other words—“why the capitalist ?rm?” Coase agrees 
+page=5 block=23867360 (x=1 y=472) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+with the standard dogma according to which the market is the optimal way to allocate 
+page=5 block=23867360 (x=1 y=484) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+resources in the short run. But standard approaches of the ?rm have justi?ed the ?rm only 
+page=5 block=23867360 (x=1 y=496) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+by the necessity to combine factors in such a way that pro?ts be maximized, in other words, 
+page=5 block=23867360 (x=1 y=508) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+that supply and demand for goods and factors be in equilibrium). However, Coase notes 
+page=5 block=23867360 (x=1 y=520) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+that the ?rm exists in order to coordinate long-term exchange relations which are prone to 
+page=5 block=23867360 (x=1 y=532) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+uncertainty and information asymmetry (Coase 1937, 391). Put di?erently, the manager’s 
+page=5 block=23867360 (x=1 y=544) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+hierarchical authority has to replace prices and quantities in order to coordinate the factors 
+page=5 block=23867360 (x=1 y=556) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of production, in other words, to equalize the incomes of factors with their productivity 
+page=5 block=23867360 (x=1 y=568) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 6 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=6 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+219
+page=6 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+and balance production (Palermo 2000). Coase has thus left an ambivalent contribution 
+page=6 block=23796628 (x=1 y=20) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to the theory of the ?rm. On the one hand, he reintegrated within standard theory issues 
+page=6 block=23796628 (x=1 y=32) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+which had been deliberately discarded, such as production, labor management, authority, et 
+page=6 block=23796628 (x=1 y=44) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+cetera. On the other hand, he introduced within the ?rm the categories speci?c to market 
+page=6 block=23796628 (x=1 y=56) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relations of exchange (Pitelis 1993). What will become TCE with Oliver Williamson (1975) 
+page=6 block=23796628 (x=1 y=68) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+is precisely to elaborate on marginal foundations a theory of production, division of labor, 
+page=6 block=23796628 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+capitalist enterprise, et cetera, namely elements which were excluded from economic theory. 
+page=6 block=23796628 (x=1 y=92) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The new theory should therefore explain and justify on these very foundations the existence 
+page=6 block=23796628 (x=1 y=104) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of all the excluded economic relations, particularly the capital/labor relationship within 
+page=6 block=23796628 (x=1 y=116) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm. Since the market is the prior institution of the contracting parties, choosing the 
+page=6 block=23796628 (x=1 y=128) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm as a means to coordinate assets should only result from market failures (Arrow 1974). 
+page=6 block=23796628 (x=1 y=140) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Coase’s theory of the ?rm therefore does not deal with the origins of production under 
+page=6 block=23796628 (x=1 y=152) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+capitalism, but directly starts with the market economy whose failures push the producers 
+page=6 block=23796628 (x=1 y=164) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+or asset owners to set up mechanisms of coordination not covered by market coordination: 
+page=6 block=23796628 (x=1 y=176) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+“In the beginning, there were markets,” said Williamson (1975, 20). But since the basic 
+page=6 block=23796628 (x=1 y=188) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assumptions of standard theory are preserved, notably methodological individualism and 
+page=6 block=23796628 (x=1 y=200) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+preference maximization, TCE assumes a vision of the ?rm primarily as a bundle of bilateral 
+page=6 block=23796628 (x=1 y=212) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+exchange relations, not as a proper institutional space of production organization. 
+page=6 block=23796628 (x=1 y=224) width=324.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+By de?ning the ?rm as a mode of coordination alternative to market and as a solution 
+page=6 block=23796628 (x=23 y=236) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to market failures, Coase’s theory is closely related to a speci?c phase of capitalism during 
+page=6 block=23796628 (x=1 y=248) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+which “The Nature of the Firm” was written. The growth of large corporations, the power 
+page=6 block=23796628 (x=1 y=260) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of ?rms to control prices and markets, the scienti?c management of labor and production 
+page=6 block=23796628 (x=1 y=272) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+within multidivisional ?rms, et cetera, stress the fact that ?rms control the markets rather 
+page=6 block=23796628 (x=1 y=284) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+than reacting to their signals (Chandler 1977). Whereas William Lazonick argues correctly 
+page=6 block=23796628 (x=1 y=296) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+that Coase “casts the ?rm as a passive player that arises out of ‘market failure’ rather than 
+page=6 block=23796628 (x=1 y=308) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+‘organizational success’” (Lazonick 1991, 169), the point of the rise of the modern ?rm at 
+page=6 block=23796628 (x=1 y=320) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+that time was rather to o?set the weakness of market as a coordinating power by transferring 
+page=6 block=23796628 (x=1 y=332) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+its basic mechanisms to non-market institutions such as corporations. Before being a proper 
+page=6 block=23796628 (x=1 y=344) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+theory of the ?rm, Coase’s theory is, in the ?rst place, a theory of market decline arising from 
+page=6 block=23796628 (x=1 y=356) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the development of capitalism.
+page=6 block=23796628 (x=1 y=368) width=121.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The Fuzzy Boundaries of the Firm in Transaction-Cost Theory
+page=6 block=836766018 (x=48 y=395) width=266.000000 height=6.000000 fontname=UKMCHI+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+The ?rm-boundary problem arose again and developed from the 1980s onwards, when 
+page=6 block=23852744 (x=1 y=424) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+liberalization and deregulation of ?nancial markets launched the second wave of mergers 
+page=6 block=23852744 (x=1 y=436) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and  acquisitions,  while  ?nancial  analysts  serving  institutional  investors  forced  large 
+page=6 block=23852744 (x=1 y=448) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+corporations to fall back on their core competency and outsource numerous parts of the 
+page=6 block=23852744 (x=1 y=460) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+value chain (Prahalad and Hamel 1990). Hence the renewed interest in TCE, which gives 
+page=6 block=23852744 (x=1 y=472) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+theoretical tools to the ?rm’s choice to make or buy and sees the ?rm and its boundaries 
+page=6 block=23852744 (x=1 y=484) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+in terms of exchange relations, not only between managers and employees, but between 
+page=6 block=23852744 (x=1 y=496) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm and its suppliers, subcontractors, customers, et cetera (Williamson 1975). From 
+page=6 block=23852744 (x=1 y=508) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+this viewpoint, the boundary problem was closely related to the hold-up problem arising 
+page=6 block=23852744 (x=1 y=520) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+as soon as ?rms make investments in speci?c assets (Klein, Crawford, and Alchian 1978). 
+page=6 block=23852744 (x=1 y=532) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The subcontractor investing in speci?c assets may thus be threatened by an unfavorable 
+page=6 block=23852744 (x=1 y=544) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+renegotiation of contracts by the contracting ?rm, which may take advantage of the fact that 
+page=6 block=23852744 (x=1 y=556) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the valorization of the subcontractor’s assets depends exclusively on the performance of its 
+page=6 block=23852744 (x=1 y=568) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 7 left:1 upper:1
+Laurent Baronian
+page=7 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+220
+page=7 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+own assets. Conversely, the contracting ?rm is prone to opportunism for the subcontractor 
+page=7 block=23800468 (x=1 y=20) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+who has the monopoly on the goods or services it provides (Klein, Crawford, and Alchian 
+page=7 block=23800468 (x=1 y=32) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+1978, 299).
+page=7 block=23800468 (x=1 y=44) width=45.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Regarding the formal relationship between economic agents, TCE makes no di?erence 
+page=7 block=23800468 (x=23 y=56) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+between labor, inter-?rm, and market relationships, which are all contractual relationships 
+page=7 block=23800468 (x=1 y=68) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+subjected to information asymmetry and opportunism. Di?erences concern only the nature 
+page=7 block=23800468 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the contract linking the parties within a continuum between the ?rm and the market. It 
+page=7 block=23800468 (x=1 y=92) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+is true that Williamson sees authority as the distinguishing feature of the relation between 
+page=7 block=23800468 (x=1 y=104) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the manager and its employees (Williamson 1975, 71–72). But authority may apply to very 
+page=7 block=23800468 (x=1 y=116) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+di?erent forms of organizations. Moreover, Williamson associates the authority relation to 
+page=7 block=23800468 (x=1 y=128) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm because of the employees’ character and behavior within the ?rm, not because of 
+page=7 block=23800468 (x=1 y=140) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the nature of the ?rm’s functions (i.e., not because of what the ?rm makes). According to 
+page=7 block=23800468 (x=1 y=152) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+TCE, what distinguishes the ?rm from the market and justi?es it is not the speci?c nature of 
+page=7 block=23800468 (x=1 y=164) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm’s activity (production) but the contractual relationship speci?c to this activity (the 
+page=7 block=23800468 (x=1 y=176) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+employment relation).
+page=7 block=23800468 (x=1 y=188) width=87.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+However, the employment relation is only a part of the contractual relationships of 
+page=7 block=23800468 (x=23 y=200) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm. The strength of TCE comes precisely from its ability to conceptualize all of these 
+page=7 block=23800468 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relationships. According  to Williamson, one should  not draw  any distinction between 
+page=7 block=23800468 (x=1 y=224) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+transactions on the (internal or external) labor market and transactions on the market 
+page=7 block=23800468 (x=1 y=236) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of intermediary products (Williamson 1986, 87), nor therefore between the assembly of 
+page=7 block=23800468 (x=1 y=248) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+multiple tasks under the manager’s authority and the assembly of groups of tasks which 
+page=7 block=23800468 (x=1 y=260) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+are technologically distinct from each other (Williamson 1975, 82). Insofar as transactions 
+page=7 block=23800468 (x=1 y=272) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+are concerned, Williamson sees the same factors at the source of the respective costs and 
+page=7 block=23800468 (x=1 y=284) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+advantages of ?rms and markets.
+page=7 block=23800468 (x=1 y=296) width=129.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Nevertheless, though TCE gives a theoretical framework to  integration strategies, 
+page=7 block=23800468 (x=23 y=308) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the boundaries of the ?rm seem to remain theoretically ill-de?ned. Why would savings in 
+page=7 block=23800468 (x=1 y=320) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+transaction costs not lead to the integration of the entire production by one giant ?rm? In other 
+page=7 block=23800468 (x=1 y=332) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+words, why not a planned economy? Following Coase, Williamson discards this possibility 
+page=7 block=23800468 (x=1 y=344) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+by emphasizing the rise of bureaucratic costs and erosion of incentives (Williamson 1975, 
+page=7 block=23800468 (x=1 y=356) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+126–130). But insofar as integration choice depends on di?erences between internal and 
+page=7 block=23800468 (x=1 y=368) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+external transaction costs, what excludes de jure the possibility that integration costs would 
+page=7 block=23800468 (x=1 y=380) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+always be weaker than market transaction costs, or, which is the same, that technological 
+page=7 block=23800468 (x=1 y=392) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+e?ciency would be always higher than transaction costs and weakening incentives? Moreover, 
+page=7 block=23800468 (x=1 y=404) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+progressive integration of the entire production could favor technological nonseparability 
+page=7 block=23800468 (x=1 y=416) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to such an extent that it would justify internal control of human and non-human assets 
+page=7 block=23800468 (x=1 y=428) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Alchian and Demsetz 1972). This problem emphasizes the failure of TCE to understand 
+page=7 block=23800468 (x=1 y=440) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm as a process of production distinct from exchange relations rather than just in 
+page=7 block=23800468 (x=1 y=452) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+accordance with the market (i.e., only as a solution to market failures). Even though TCE 
+page=7 block=23800468 (x=1 y=464) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+founds the ?rm on the manager’s authority over potentially opportunistic employees and 
+page=7 block=23800468 (x=1 y=476) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+even incorporates dynamic adaptation processes (Williamson 1999), the ?rm is nonetheless 
+page=7 block=23800468 (x=1 y=488) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+understood as an institution whose choices are exclusively steered by ?nancial strategies. Not 
+page=7 block=23800468 (x=1 y=500) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+only does TCE embrace the manager’s point of view by theorizing her choices and trade-
+page=7 block=23800468 (x=1 y=512) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+o?s, but it also grasps her activity as exclusively concerned with the pro?ts of the ?rm and 
+page=7 block=23800468 (x=1 y=524) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+disconnected from the management of the production process. Di?erences between TCE 
+page=7 block=23800468 (x=1 y=536) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and PRT, which I will soon address, has less to do with di?erences in control procedures 
+page=7 block=23800468 (x=1 y=548) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+against opportunism (Quélin 2002, 65–66) than with the function of ?rm management. In 
+page=7 block=23800468 (x=1 y=560) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 8 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=8 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+221
+page=8 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+PRT, management is required by the aggregation of human and non-human assets in the 
+page=8 block=23790868 (x=1 y=20) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production process, whereas in TCE, it is required by the aggregation of exchange relations 
+page=8 block=23790868 (x=1 y=32) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+for which hierarchical authority reduces the transaction costs. Since PRT’s critique of TCE 
+page=8 block=23790868 (x=1 y=44) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+is based on the requirements of the combination of human and non-human assets necessary 
+page=8 block=23790868 (x=1 y=56) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to the productive activity and thus to the valorization process, let us look at the way it solves 
+page=8 block=23790868 (x=1 y=68) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the boundary-problem of the ?rm.
+page=8 block=23790868 (x=1 y=80) width=136.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Property Rights Theory’s Critique of Transaction-Cost Theory and its Failure to 
+page=8 block=225445766 (x=10 y=107) width=344.000000 height=6.000000 fontname=GWCWTK+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+Solve the Integration Problem
+page=8 block=225445766 (x=116 y=119) width=130.000000 height=6.000000 fontname=UKMCHI+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+PRT’s vision of the ?rm comes closer to its productive purpose by linking the manager’s 
+page=8 block=23852468 (x=1 y=148) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+role to ownership of tradable assets, and thus by seeing the relations within the ?rm as 
+page=8 block=23852468 (x=1 y=160) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+social relations of production. As de?ned by Alchian and Demsetz (1972), the ?rm is a team 
+page=8 block=23852468 (x=1 y=172) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production in which the combination of assets to produce output requires the control of 
+page=8 block=23852468 (x=1 y=184) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+productivity and distribution of incomes between human assets by a manager emerging from 
+page=8 block=23852468 (x=1 y=196) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the team. What characterizes the capitalist ?rm is joint input production with numerous 
+page=8 block=23852468 (x=1 y=208) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+owners, among whom one (the manager) is common to all the contracts of the joint inputs 
+page=8 block=23852468 (x=1 y=220) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and holds the residual claim as an incentive to monitor the assets.  Alchian and Demsetz’s 
+page=8 block=23852468 (x=1 y=232) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm is like an auction market managed by a kind of Walrasian auctioneer since the manager 
+page=8 block=23852468 (x=1 y=244) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+has no authority over other team members. She has to protect them (Blair and Stout 1999, 
+page=8 block=23852468 (x=1 y=256) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+253) since her function is to guarantee the optimum use of inputs and the fair income 
+page=8 block=23852468 (x=1 y=268) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+distribution to the factors. Among collective organizations, only the capitalist ?rm, as a 
+page=8 block=23852468 (x=1 y=280) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+pro?t-making organization, seems to require a manager for controlling possible shirking 
+page=8 block=23852468 (x=1 y=292) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+by other team members (Alchian and Demsetz 1972, 795). Oliver Hart claims that PRT 
+page=8 block=23852468 (x=1 y=304) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+answers the question that TCE is unable to solve: “Why are the risks of hold-up minimized 
+page=8 block=23852468 (x=1 y=316) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+with integration and what are the costs of integration?” According to Hart, what integration 
+page=8 block=23852468 (x=1 y=328) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+changes are the residual claims, notably concerning the use of assets (Hart 1995). Therefore, 
+page=8 block=23852468 (x=1 y=340) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+he de?nes the ?rm with Sanford Grossman as an entity owning means of production 
+page=8 block=23852468 (x=1 y=352) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Grossman and Hart 1986, 692) and argues that ownership permits holding all the rights 
+page=8 block=23852468 (x=1 y=364) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+unspeci?ed by the contract (i.e., the residual rights). “Ownership is the purchase of the 
+page=8 block=23852468 (x=1 y=376) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+residual rights to control” (Grossman and Hart 1986, 692). 
+page=8 block=23852468 (x=1 y=388) width=236.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+For Hart and Grossman, integration does not rule out opportunism, as claimed by 
+page=8 block=23852468 (x=23 y=400) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+TCE. Moreover, the assumptions of TCE give no sound reason to limit the size of the ?rm 
+page=8 block=23852468 (x=1 y=412) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Grossman and Hart 1986, 692–693). If we do not dismiss the totally abstract neoclassical 
+page=8 block=23852468 (x=1 y=424) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assumption of maximization under constraint of decreasing returns to scale (Williamson 
+page=8 block=23852468 (x=1 y=436) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+1985,  93),  trade-o?  between  internal  production  costs  and  market  transaction  costs 
+page=8 block=23852468 (x=1 y=448) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+theoretically sets no limit to the expansion of the ?rm. According to PRT, integration must 
+page=8 block=23852468 (x=1 y=460) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+rather be understood in terms of ownership and residual rights of control: “integration in 
+page=8 block=23852468 (x=1 y=472) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+itself does not change the cost of writing down a particular contractual provision. What does 
+page=8 block=23852468 (x=1 y=484) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+change is who has control over those provisions not included in the contract” (Grossman and 
+page=8 block=23852468 (x=1 y=496) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Hart 1986, 695). But integration also entails costs, insofar as ownership transfer reduces the 
+page=8 block=23852468 (x=1 y=508) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+seller’s rights and thus her incentives (Grossman and Hart 1986, 693). There is no criterion 
+page=8 block=23852468 (x=1 y=520) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+except the practice allowing to decide whether the incentives to opportunism are higher 
+page=8 block=23852468 (x=1 y=532) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+than the advantages of integration (i.e., residual rights of control), particularly regarding 
+page=8 block=23852468 (x=1 y=544) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the pro?ts resulting from integration. Moreover, in PRT trade-o? between integration and 
+page=8 block=23852468 (x=1 y=556) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+outsourcing depends exclusively on circumstances: since residual rights of control allow a 
+page=8 block=23852468 (x=1 y=568) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 9 left:1 upper:1
+Laurent Baronian
+page=9 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+222
+page=9 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+higher part of income to be derived from inputs, integration would be “optimal when one 
+page=9 block=23800468 (x=1 y=20) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm’s investment decision is particularly important relative to the other ?rm’s.” In addition, 
+page=9 block=23800468 (x=1 y=32) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+nonintegration is desirable when both investment decisions are ‘somewhat’ important” 
+page=9 block=23800468 (x=1 y=44) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Grossman and Hart, 716–717). As in TCE, the choice of integration remains theoretically 
+page=9 block=23800468 (x=1 y=56) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+indeterminate.
+page=9 block=23800468 (x=1 y=68) width=58.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+Although they follow Oliver Hart and John Moore’s property rights vision of the ?rm, 
+page=9 block=23800468 (x=23 y=80) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Bengt Holmström and John Roberts have criticized them for underrating other bene?ts 
+page=9 block=23800468 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of non-human assets ownership than measurement cost and control, such as incentives 
+page=9 block=23800468 (x=1 y=104) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and productive e?ciency (Holmström and Roberts 1998). They noted that many ?rms, 
+page=9 block=23800468 (x=1 y=116) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+notably under the subcontracting system, do not decide in favor of vertical integration even 
+page=9 block=23800468 (x=1 y=128) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+though they face very high levels of uncertainty, frequent renegotiations, and use of very 
+page=9 block=23800468 (x=1 y=140) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+speci?c assets, (see also Dyer 1997, 543–544). Moreover, co-dependent assets and frequent 
+page=9 block=23800468 (x=1 y=152) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+renegotiations seem to favor cooperation between independent ?rms rather than integration. 
+page=9 block=23800468 (x=1 y=164) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Indeed, for Holmström the primary reason for integration is not avoiding risks of hold-up, 
+page=9 block=23800468 (x=1 y=176) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+but rather having power over human capital thanks to ownership and control of non-human 
+page=9 block=23800468 (x=1 y=188) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assets, assigning tasks, delegating authority, and setting the principles that structure implicit 
+page=9 block=23800468 (x=1 y=200) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and explicit incentives (Holmström 1999, 76). Holmström’s incentive theory indeed claims 
+page=9 block=23800468 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to provide a genesis of the ?rm as a bundle of property rights (Holmström 1999). Whereas 
+page=9 block=23800468 (x=1 y=224) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+PRT allows an explanation of how assets are distributed between ?rms, given a set of assets 
+page=9 block=23800468 (x=1 y=236) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and investment activities, it fails to explain how these property rights are created. In order 
+page=9 block=23800468 (x=1 y=248) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to grasp it and thus account for the very existence of the ?rm and its boundaries, it is 
+page=9 block=23800468 (x=1 y=260) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+more important to explain how and why investment activities are themselves distributed. 
+page=9 block=23800468 (x=1 y=272) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+According to Holmström, the boundary question is what the ?rms do rather than what 
+page=9 block=23800468 (x=1 y=284) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+they possess (Holmström and Roberts 1998, 87). From this perspective, understanding the 
+page=9 block=23800468 (x=1 y=296) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+structure of assets would only amount to understanding the structure of investment activities.
+page=9 block=23800468 (x=1 y=308) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Nonetheless, this move from assets to activities brings out new questions: why do ?rms 
+page=9 block=23800468 (x=23 y=320) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(or managers) own mostly non-human assets used in production? And conversely, why do 
+page=9 block=23800468 (x=1 y=332) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+workers own hardly any such assets? Put di?erently, why does the capitalist ?rm exist, insofar 
+page=9 block=23800468 (x=1 y=344) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+as it is based on the fact that workers do not own their means of production? The ultimate 
+page=9 block=23800468 (x=1 y=356) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+question is therefore: Why property? Why ?rms, insofar as they are de?ned by ownership 
+page=9 block=23800468 (x=1 y=368) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of tradable assets? All the suggestions made by Holmström assume as given precisely what 
+page=9 block=23800468 (x=1 y=380) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+is to be explained, namely the possibility for a ?rm to possess non-human assets in order to 
+page=9 block=23800468 (x=1 y=392) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+have power over human assets. He suggests that ?rms own non-human assets, because this 
+page=9 block=23800468 (x=1 y=404) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+reinforces their bargaining power with external parties or because this in?uences the terms 
+page=9 block=23800468 (x=1 y=416) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of ?nancing assets. But the bene?ts of owning assets do not explain how and why these 
+page=9 block=23800468 (x=1 y=428) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assets may be privately owned. Holmström claims that the most important reason to own 
+page=9 block=23800468 (x=1 y=440) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+non-human assets is to be able to assign human assets to tasks in a way that is more pro?table 
+page=9 block=23800468 (x=1 y=452) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+than if ownership were not concentrated. But one of the questions was precisely: why do 
+page=9 block=23800468 (x=1 y=464) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+workers not own non-human assets (Holmström 1999, 88–89)? More generally, although 
+page=9 block=23800468 (x=1 y=476) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Holmström and Roberts show the bene?ts of owning means of production and thus of 
+page=9 block=23800468 (x=1 y=488) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+making rather than buying, they do not explain the conditions allowing ?rms to own these 
+page=9 block=23800468 (x=1 y=500) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+means and take advantage of them by employing human assets deprived of these means. 
+page=9 block=23800468 (x=1 y=512) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+They show how extensive is the managers’ power resulting from ownership of tradable assets, 
+page=9 block=23800468 (x=1 y=524) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+but it is as if e?ciency and incentives served as an explanation of the power relation between 
+page=9 block=23800468 (x=1 y=536) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+managers and employees. If opportunism, e?ciency, or control certainly explain the ?rm’s 
+page=9 block=23800468 (x=1 y=548) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+choice to make or buy, they do not account for the very existence of the ?rm (i.e., ownership 
+page=9 block=23800468 (x=1 y=560) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 10 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=10 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+223
+page=10 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+of assets). Moreover, as will be shown, control and incentives over human assets do not 
+page=10 block=23790868 (x=1 y=20) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+allow one to delimit the boundaries of the ?rm, any more than residual rights of control do. 
+page=10 block=23790868 (x=1 y=32) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+However, by emphasizing the importance of incentives and e?ciency of human assets in the 
+page=10 block=23790868 (x=1 y=44) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+ownership of non-human assets, Holmström and Roberts have shifted the focus from assets 
+page=10 block=23790868 (x=1 y=56) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to activities and thus from the ?rm’s structure of property to its joint process of production 
+page=10 block=23790868 (x=1 y=68) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and valorization.
+page=10 block=23790868 (x=1 y=80) width=66.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The Limitless Boundaries of the Resource-Based Firm
+page=10 block=994837122 (x=66 y=107) width=230.000000 height=6.000000 fontname=UKMCHI+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+In fact, drawing the boundaries of the capitalist ?rm requires knowing its nature and 
+page=10 block=23849000 (x=1 y=136) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+function. If one understands capital as a mode of production and not just as a source of 
+page=10 block=23849000 (x=1 y=148) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+revenue, as Thomas Piketty (2014) contends, the function of the ?rm appears as dual and 
+page=10 block=23849000 (x=1 y=160) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+consists in producing goods and services in order to valorize productive investment (i.e., 
+page=10 block=23849000 (x=1 y=172) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to make pro?ts from investment). What indeed characterizes a capitalist enterprise is that 
+page=10 block=23849000 (x=1 y=184) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production of goods and services is jointly a valorization process (Marx [1867] 2010, 208). 
+page=10 block=23849000 (x=1 y=196) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The ?rm is then a techno-institutional center in which production and distribution of goods 
+page=10 block=23849000 (x=1 y=208) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and services by labor are the means of valorizing the assets used in that process.
+page=10 block=23849000 (x=1 y=220) width=312.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Prima facie, RBT seems to be the only ?rm model to explicitly link valorization to 
+page=10 block=23849000 (x=23 y=232) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the production of speci?c goods or services by de?ning the ?rm as a bundle of capabilities, 
+page=10 block=23849000 (x=1 y=244) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+organizational routines, and knowledge produced thanks to a combination of resources 
+page=10 block=23849000 (x=1 y=256) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and cooperation between stakeholders of the ?rm (Coriat and Weinstein 2010, 60–62). All 
+page=10 block=23849000 (x=1 y=268) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+these routines, forms of knowledge, and capabilities give the ?rm a competitive advantage 
+page=10 block=23849000 (x=1 y=280) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Barney 1991) resulting in “rents to costly-to-copy productive assets” (Conner 1991, 144). As 
+page=10 block=23849000 (x=1 y=292) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+dynamic capabilities, now ?rms exist not because of market failures as in TCE, but because 
+page=10 block=23849000 (x=1 y=304) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+markets for planned innovating products do not yet exist (Teece 2010, 175). It is up to the 
+page=10 block=23849000 (x=1 y=316) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rms to create them according to an enlarged vision of the ?rm that not only creates value 
+page=10 block=23849000 (x=1 y=328) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+but captures value on the new markets it creates at the same time (Pitelis and Teece 2009, 
+page=10 block=23849000 (x=1 y=340) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+6). Therefore, ?rms exist in order to create or co-create the markets necessary to capture 
+page=10 block=23849000 (x=1 y=352) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+value, in addition to creating value, thanks to their competitive advantage and their dynamic 
+page=10 block=23849000 (x=1 y=364) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+capabilities (Pitelis and Teece 2009, 11; see also Teece 2006). Whereas according to Coase 
+page=10 block=23849000 (x=1 y=376) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and Williamson, the ?rm is a kind of private market, for Christos Pitelis and David Teece 
+page=10 block=23849000 (x=1 y=388) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the market appears as a public ?rm since according to this approach, the basic function 
+page=10 block=23849000 (x=1 y=400) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the ?rm is to create a permanent disequilibrium by means of innovation. Undoubtedly 
+page=10 block=23849000 (x=1 y=412) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm’s purpose of pro?t maximization is reached through innovations and dynamic 
+page=10 block=23849000 (x=1 y=424) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+capabilities that “escape the zero-pro?t condition” (Augier and Teece 2008, 1190). But this 
+page=10 block=23849000 (x=1 y=436) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+purpose does not relate to the ?rm as a productive organization. It only demonstrates that 
+page=10 block=23849000 (x=1 y=448) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production of goods and services is subjected to pro?t maximization. More generally, the 
+page=10 block=23849000 (x=1 y=460) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+concepts of “capability” or “routine” concern parts of the ?rm’s activity that do not enter 
+page=10 block=23849000 (x=1 y=472) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the valorization of productive capital but are relied upon in the ?rm’s connections with 
+page=10 block=23849000 (x=1 y=484) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+external parties (customers, suppliers, et cetera). This “relational capital” is certainly a part 
+page=10 block=23849000 (x=1 y=496) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the immaterial capital taken into account by ?nancial analysts in the market valuation of 
+page=10 block=23849000 (x=1 y=508) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm (Abhayawansa and Guthrie 2010), but it does not contribute to the valorization of 
+page=10 block=23849000 (x=1 y=520) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm’s productive assets.
+page=10 block=23849000 (x=1 y=532) width=109.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Furthermore, although Pitelis and Teece claim to be able to grasp the positive nature 
+page=10 block=23849000 (x=23 y=544) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the ?rm in opposition to TCE, which justi?es it only negatively as a solution to market 
+page=10 block=23849000 (x=1 y=556) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+failures, their approach does not solve the ?rm-boundary problem, insofar as it extends to 
+page=10 block=23849000 (x=1 y=568) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 11 left:1 upper:1
+Laurent Baronian
+page=11 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+224
+page=11 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+all the relations of the ?rm, and thus to the entire economy, the power of creating the value 
+page=11 block=23800468 (x=1 y=20) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+captured by the ?rm (Pitelis and Teece 2009, 10). How can one delimit the boundaries of a 
+page=11 block=23800468 (x=1 y=32) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm whose management is based on communities of users or sharers connected to worldwide 
+page=11 block=23800468 (x=1 y=44) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+communication networks such as digital platforms? The resource-based theory, by founding 
+page=11 block=23800468 (x=1 y=56) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the identity of the ?rm on its organizational and collective nature, is prone to include the 
+page=11 block=23800468 (x=1 y=68) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+entire “knowledge society” (or the sharing society) as a stakeholder of the ?rm. For di?erent 
+page=11 block=23800468 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+reasons, neither TCE and PRT, nor RBT are able to strictly delimit the boundaries of the 
+page=11 block=23800468 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm: TCE and RPT because the ?rm di?ers from market exclusively with respect to the 
+page=11 block=23800468 (x=1 y=104) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+nature and amount of costs resulting from the incomplete contracts; RBT because the ?rm 
+page=11 block=23800468 (x=1 y=116) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+is not distinguished from the whole of its connections with all its stakeholders.
+page=11 block=23800468 (x=1 y=128) width=310.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+But even when the concept of capability is strictly limited to the organization of 
+page=11 block=23800468 (x=23 y=140) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production, the boundaries of the ?rm remain unde?ned. According to RBT, the choice to 
+page=11 block=23800468 (x=1 y=152) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+integrate one or some parts of the value chain depends on the possibility to develop a speci?c 
+page=11 block=23800468 (x=1 y=164) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+competence (Argyres and Zenger 2012). But as will be analyzed below, speci?c skills may be 
+page=11 block=23800468 (x=1 y=176) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+developed through hybrid forms of organization in which the ?rm relies on the market for 
+page=11 block=23800468 (x=1 y=188) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+creating its organizational advantage. Moreover, platform-based ?rms may rely exclusively on 
+page=11 block=23800468 (x=1 y=200) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the market for taking advantage of the distributed skills and competences and spontaneous 
+page=11 block=23800468 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+co-operation between users and sharers. As Laura Poppo and Todd Zenger (1998) noted 
+page=11 block=23800468 (x=1 y=224) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+after Je?rey Bradach and Robert Eccles (1989), “the same exchange conditions such as asset 
+page=11 block=23800468 (x=1 y=236) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+speci?city or measurement accuracy may indeed hinder the performance of hierarchical 
+page=11 block=23800468 (x=1 y=248) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+exchanges as well as market performance” (Poppo and Zenger 1998, 854). Moreover, the 
+page=11 block=23800468 (x=1 y=260) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+indeterminate boundaries of the resource-based ?rm seem to reinforce the position of TCE 
+page=11 block=23800468 (x=1 y=272) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+regarding this issue. Indeed, Nicolai Foss has remarked that “the boundaries of the ?rm are 
+page=11 block=23800468 (x=1 y=284) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+di?cult to rationalize except on a standard contractual basis” (Foss 1996, 475) when ?rms 
+page=11 block=23800468 (x=1 y=296) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+have the opportunity to communicate knowledge to supplier ?rms (Dyer 1997, 546). Only 
+page=11 block=23800468 (x=1 y=308) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+this contractual basis apparently justi?es the di?erent strategic choices of the ?rm in order 
+page=11 block=23800468 (x=1 y=320) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to develop its capabilities by applying to them the criterion of comparison between internal 
+page=11 block=23800468 (x=1 y=332) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+organization costs and market costs (Langlois 1992, 110; Baudry and Chassagnon 2010, 
+page=11 block=23800468 (x=1 y=344) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+496).
+page=11 block=23800468 (x=1 y=356) width=20.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+If the ?rm is de?ned as a bundle of organizational capabilities, therefore, its boundaries 
+page=11 block=23800468 (x=23 y=368) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+would be delimited by all the assets contributing both to the production of routines and 
+page=11 block=23800468 (x=1 y=380) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+competences and to the process of valorization. It would be therefore necessary to exclude 
+page=11 block=23800468 (x=1 y=392) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+from the boundaries of the ?rm the suppliers, subcontractors, customers, et cetera who 
+page=11 block=23800468 (x=1 y=404) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+do not take part in the valorization process of productive assets; indeed the economic 
+page=11 block=23800468 (x=1 y=416) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+operations between them and the ?rm consist in exchange of money for goods or services, 
+page=11 block=23800468 (x=1 y=428) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+notwithstanding information exchange contributing to the creation of the contracting ?rm’s 
+page=11 block=23800468 (x=1 y=440) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+speci?c resources. Although the subcontracted output is produced by means of speci?c 
+page=11 block=23800468 (x=1 y=452) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assets, it is bought by the contracting ?rm. Since it is a mere act of exchange, it does not 
+page=11 block=23800468 (x=1 y=464) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+come into the production process. Thus, the concept of capability or resource is either too 
+page=11 block=23800468 (x=1 y=476) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+narrow or too broad for drawing the boundaries of the ?rm: too narrow, since it excludes 
+page=11 block=23800468 (x=1 y=488) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the valorization process from the production process; too broad, since some resources are 
+page=11 block=23800468 (x=1 y=500) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+created through relations of exchange with parties external to the contracting ?rm and are 
+page=11 block=23800468 (x=1 y=512) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+not part of its own valorization process (Langlois 2003). It fuses production relations and 
+page=11 block=23800468 (x=1 y=524) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+market relations under the same concept, even though a clear distinction between them is 
+page=11 block=23800468 (x=1 y=536) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+necessary to delimit the boundaries of the ?rm within which the valorization process takes 
+page=11 block=23800468 (x=1 y=548) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+place.
+page=11 block=23800468 (x=1 y=560) width=22.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+Page: 12 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=12 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+225
+page=12 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+The Quasi-Firm-Boundary Problem
+page=12 block=1039073394 (x=105 y=19) width=151.000000 height=6.000000 fontname=UKMCHI+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+We have seen how TCE, PRT, and RBT meet di?culties in dealing with vertical integration 
+page=12 block=23814576 (x=1 y=48) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and ?rm-boundary problems. However, these approaches disclose their limitations mostly 
+page=12 block=23814576 (x=1 y=60) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+when they tackle hybrid models. Hybrid models have been analyzed by many scholars, but 
+page=12 block=23814576 (x=1 y=72) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+mostly in order to stress their speci?c advantages with respect to vertical integration and 
+page=12 block=23814576 (x=1 y=84) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+market relations. Williamson (1991) himself notably insists on close contractual relations as 
+page=12 block=23814576 (x=1 y=96) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+a way to compensate the weak coordination of market relations between the contracting ?rms 
+page=12 block=23814576 (x=1 y=108) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(1991, 280). According to Anoop Madhok (2002) however, the bene?ts of hybrid models 
+page=12 block=23814576 (x=1 y=120) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+surpass transaction costs and allow ?rms to create and operate resources and capabilities. 
+page=12 block=23814576 (x=1 y=132) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+In addition to governance structure and transaction costs, the characteristics of resources 
+page=12 block=23814576 (x=1 y=144) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+determine the boundary choice of a ?rm (Madhok 2002, 541). To the extent that inter?rm 
+page=12 block=23814576 (x=1 y=156) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+collaboration permits joint production of resources, the distinction between production 
+page=12 block=23814576 (x=1 y=168) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and exchange is blurred since ?rms choose hybrid models in order to not only lower their 
+page=12 block=23814576 (x=1 y=180) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+transaction costs but to increase e?ciency and create more value. However, Madhok assumes 
+page=12 block=23814576 (x=1 y=192) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+a narrow de?nition of the quasi-?rm as the product of alliance between two or more 
+page=12 block=23814576 (x=1 y=204) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+independent ?rms. But since the distinction between production and exchange is blurred, 
+page=12 block=23814576 (x=1 y=216) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+how can we delimit the boundaries of the ?rm? As soon as ?rms form alliances, “there 
+page=12 block=23814576 (x=1 y=228) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+is a coevolution between the competencies of ?rms and those of their partners” (Madhok 
+page=12 block=23814576 (x=1 y=240) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+2002, 546). Here again, the quasi-?rm issue is dealt with in terms of bene?ts for ?rms to 
+page=12 block=23814576 (x=1 y=252) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+adopt hybrid forms, yet by obfuscating the boundary problem arising with these forms. 
+page=12 block=23814576 (x=1 y=264) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Michael Jacobides and William Billinger show through an empirical study that the boundary 
+page=12 block=23814576 (x=1 y=276) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+problem does not arise from the distinction between buying or making, but that ?rms may 
+page=12 block=23814576 (x=1 y=288) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+choose mixed and dynamic forms between them (Jacobides and Billinger 2006, 258).  Even 
+page=12 block=23814576 (x=1 y=300) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+though their study shows how a ?rm is led to change its boundaries over time according to 
+page=12 block=23814576 (x=1 y=312) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+valorization strategies, it does not deal with the question: what are the boundaries of a ?rm 
+page=12 block=23814576 (x=1 y=324) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+engaging in hybrid relations with other ?rms? The existing literature stresses the advantages 
+page=12 block=23814576 (x=1 y=336) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of hybrid models which surpass the transaction cost problems and the fact that e?ciency 
+page=12 block=23814576 (x=1 y=348) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and productivity prevail among these advantages (Powell, Koput, and Smith-Doerr 1996; 
+page=12 block=23814576 (x=1 y=360) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Grant 1996; Dyer 2000). But it does not deal with the boundary problem arising from these 
+page=12 block=23814576 (x=1 y=372) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+hybrid forms in which the distinction of production and exchange is blurred. Interestingly, 
+page=12 block=23814576 (x=1 y=384) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Mark Granovetter (1985) sees the quasi-?rm as closer to vertical integration than to market 
+page=12 block=23814576 (x=1 y=396) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relations  but  understands it  as  interactions  between  a  contractor  and  subcontractors 
+page=12 block=23814576 (x=1 y=408) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+geographically close to each other where the latter are supervised by the former (Granovetter 
+page=12 block=23814576 (x=1 y=420) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+1985, 497–498). More generally, he stresses the importance of social and personal relations 
+page=12 block=23814576 (x=1 y=432) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+in the choice of vertical integration or market relations. In the wake of TCE indeed, close 
+page=12 block=23814576 (x=1 y=444) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+social relations between ?rms may compensate high transaction costs arising from market 
+page=12 block=23814576 (x=1 y=456) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relations between ?rms and thus prevent them from vertical integration (1985, 498).
+page=12 block=23814576 (x=1 y=468) width=333.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+I claimed above that, since subcontracting is a market relation between two or more 
+page=12 block=23814576 (x=23 y=480) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+legally independent ?rms, it should exclude subcontractors from the boundaries of the 
+page=12 block=23814576 (x=1 y=492) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+contracting ?rm. This seems to meet the vision of TCE according to which subcontracting 
+page=12 block=23814576 (x=1 y=504) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+is a hybrid market transaction. However, what justi?es exclusion of subcontractors from the 
+page=12 block=23814576 (x=1 y=516) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+boundaries of the ?rm is not the recourse to the market as such, but the fact that the value 
+page=12 block=23814576 (x=1 y=528) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+exchanged between two independent ?rms does not produce more value than previously 
+page=12 block=23814576 (x=1 y=540) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+created by these ?rms. Goods or services bought by the contracting ?rm are certainly a part 
+page=12 block=23814576 (x=1 y=552) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the ?nal output, but they have just valorized the productive capital of the subcontractor. 
+page=12 block=23814576 (x=1 y=564) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 13 left:1 upper:1
+Laurent Baronian
+page=13 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+226
+page=13 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+The contracting ?rm has hypothetically bought them at their value, thus realizing the surplus 
+page=13 block=23799988 (x=1 y=20) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+value (pro?ts) produced by the subcontractor. Things are di?erent when it appropriates a part 
+page=13 block=23799988 (x=1 y=32) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the surplus value produced by the subcontractor through transfer pricing mechanisms. In 
+page=13 block=23799988 (x=1 y=44) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+this case, not only is the output part of the ?nal output, but the surplus value incorporated 
+page=13 block=23799988 (x=1 y=56) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+into the former has valorized the contracting ?rm’s assets. Here, everything seems as if 
+page=13 block=23799988 (x=1 y=68) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+market transaction was realized between divisions of the ?rm through transfer pricing. This 
+page=13 block=23799988 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+case of “hold-up” by the contracting ?rm is enabled by the speci?city of the subcontractor’s 
+page=13 block=23799988 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assets but leads neither to subsequent underinvestment nor to vertical or lateral integration. 
+page=13 block=23799988 (x=1 y=104) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+However, the subcontractor, despite its legal independence, must be seen as included within 
+page=13 block=23799988 (x=1 y=116) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the boundaries of the contracting ?rm. This is indeed a case of quasi-integration (Houssiaux 
+page=13 block=23799988 (x=1 y=128) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+1957, 2221) which shows the inadequacy of the TCE conception of the ?rm. Indeed, in a 
+page=13 block=23799988 (x=1 y=139) width=363.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+great number of industrial strategies, recourse to market is merely formal and does not relate 
+page=13 block=23799988 (x=1 y=152) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to incentives or transaction cost problems, but only to productive e?ciency or combination 
+page=13 block=23799988 (x=1 y=164) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and organization of the value chain. On the other hand, quasi-integration con?rms that 
+page=13 block=23799988 (x=1 y=176) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+concepts of capability or resource, insofar as they are sources of rents, no longer allow us 
+page=13 block=23799988 (x=1 y=188) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+to delimit the boundaries of the ?rm. Here, the ?rm’s strategy consists simultaneously of 
+page=13 block=23799988 (x=1 y=200) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+concentrating on its core competencies and appropriating the surplus value produced in 
+page=13 block=23799988 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the outsourced segments of the value chain. The speci?c competence of the ?rm is neither 
+page=13 block=23799988 (x=1 y=224) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+su?cient to de?ne the nature of the ?rm nor to delimit its boundaries. Quasi-?rms show in 
+page=13 block=23799988 (x=1 y=236) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+particular that asset speci?city does not necessarily lead to vertical integration. In some cases, 
+page=13 block=23799988 (x=1 y=248) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+it allows the contracting ?rm to gain power over the subcontractors through transfer pricing 
+page=13 block=23799988 (x=1 y=260) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+by which it appropriates a part of the pro?ts or rents created by subcontractors thanks to 
+page=13 block=23799988 (x=1 y=272) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+their specialized know-how.
+page=13 block=23799988 (x=1 y=284) width=108.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Let us take the famous and often-commented case of the Toyota system (Monden 1994; 
+page=13 block=23799988 (x=23 y=296) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Dyer 2000). The ?rm uses the “parallel order” system in order to stimulate competition between 
+page=13 block=23799988 (x=1 y=308) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+its suppliers, not only over quality, but also over price (the visible hand of competition; see 
+page=13 block=23799988 (x=1 y=320) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Itami 1988). In fact, the only ?exibility of the suppliers with respect to Toyota is to develop 
+page=13 block=23799988 (x=1 y=332) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+their R&D in order to rationalize production and gain additional margins on their selling 
+page=13 block=23799988 (x=1 y=344) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+prices, which are ?xed according to the former production methods. Yet these improvements 
+page=13 block=23799988 (x=1 y=356) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+are also pro?table to Toyota (Shimizu 1999, 73–74). Benjamin Coriat has noted that “In 
+page=13 block=23799988 (x=1 y=368) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Japan—as anywhere else in the world—relations between large and small subcontracting ?rms 
+page=13 block=23799988 (x=1 y=380) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+are marked by a certain asymmetry showing more or less strongly inequality of economic 
+page=13 block=23799988 (x=1 y=392) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relations of power between contracting entities” (Coriat 1991,109; see also Houssiaux 1957, 
+page=13 block=23799988 (x=1 y=404) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+232) This leads to less investment in ?xed capital by the contracting ?rm, rents on the 
+page=13 block=23799988 (x=1 y=416) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+wage di?erence between employees of large and small ?rms, and amortization of cyclical 
+page=13 block=23799988 (x=1 y=428) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?uctuations e?ects (Coriat 1991, 109). In fact, the kind of subcontracting speci?c to Toyota 
+page=13 block=23799988 (x=1 y=440) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+allows the ?rm to take advantage of all the bene?ts of integration through contractual 
+page=13 block=23799988 (x=1 y=452) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+relations of market. Furthermore, subcontractors of the Toyota system accumulate speci?c 
+page=13 block=23799988 (x=1 y=464) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+know-how thanks to their long relationship with the contracting ?rm, so that this relationship 
+page=13 block=23799988 (x=1 y=476) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+allows continuous inter-?rm organizational innovation. This accumulated immaterial capital 
+page=13 block=23799988 (x=1 y=488) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+explains why the contracting ?rm has di?culty changing its subcontractors, since it would 
+page=13 block=23799988 (x=1 y=500) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+destroy the resources of accumulated know-how (Dyer 2000, 549–550).
+page=13 block=23799988 (x=1 y=512) width=280.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+The Toyota system illustrates a case where the ?rm is grasped, beyond its traditional 
+page=13 block=23799988 (x=23 y=524) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+boundaries, by its speci?c competencies. But it is only insofar as these competencies concern 
+page=13 block=23799988 (x=1 y=536) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+1 Jacques Houssiaux is a French industrial economist who is largely unknown even in France, though he is 
+page=13 block=23731351 (x=23 y=563) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+maybe the ?rst to have theorized the concept of quasi-integration.
+page=13 block=23731351 (x=1 y=571) width=206.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 14 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=14 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+227
+page=14 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+the process of production, and thus of valorization, that RBT can delimit the boundaries of 
+page=14 block=23799028 (x=1 y=20) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the Japanese ?rm more accurately than TCE or PRT. In other words, Toyota’s subcontractors 
+page=14 block=23799028 (x=1 y=32) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+have developed not only technical know-how, but organizational know-how, allowing the 
+page=14 block=23799028 (x=1 y=44) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+highest continuity, ?exibility and speed for the lean production process (Coriat 1991, 226). 
+page=14 block=23799028 (x=1 y=56) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+RBT therefore not  only identi?es the  ?rm di?erently—despite having similar empirical 
+page=14 block=23799028 (x=1 y=68) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+results as TCE (Carter and Hodgson 2006)—but, as we have seen, can inde?nitely extend 
+page=14 block=23799028 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the boundaries of the ?rm as long as relational capital is not related to the processes of 
+page=14 block=23799028 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production and valorization of the ?rm’s productive assets. What allows us to distinguish 
+page=14 block=23799028 (x=1 y=104) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the part of the relational capital relied upon in the valorization process from other parts is 
+page=14 block=23799028 (x=1 y=116) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+that ?rst, it gives rise to relational rents and second, it may be shared between the ?rm and 
+page=14 block=23799028 (x=1 y=128) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+its subcontractors in theory, something which can never be the case between the ?rm and 
+page=14 block=23799028 (x=1 y=140) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+its customers. The Japanese ?rm and its suppliers and subcontractors, as integrated from 
+page=14 block=23799028 (x=1 y=152) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the perspective of their organizational and technical competencies on the one hand, and 
+page=14 block=23799028 (x=1 y=164) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+contractualized from the perspective of their formal relations on the other, are indeed quasi-
+page=14 block=23799028 (x=1 y=176) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+integrated and together draw the boundaries of a single ?rm. 
+page=14 block=23799028 (x=1 y=188) width=242.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+In their seminal article on the boundaries of the ?rm, Klein, Crawford, and Alchian 
+page=14 block=23799028 (x=23 y=200) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+claim that hold-up threatens not only the supplier or subcontractor which has invested in 
+page=14 block=23799028 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+speci?c assets, but also the contracting ?rm, since the subcontractor may hold a monopolistic 
+page=14 block=23799028 (x=1 y=224) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+position vis-à-vis the ?rm (Klein, Crawford, and Alchian 1978, 299). Theoretically, then, 
+page=14 block=23799028 (x=1 y=236) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+speci?c assets may  threaten the two  contracting parties. But how, practically,  could  a 
+page=14 block=23799028 (x=1 y=248) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+subcontractor, whose assets are totally dedicated to the production of output exclusively 
+page=14 block=23799028 (x=1 y=260) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+bought by the contracting ?rm, ever exert any pressure on the latter? According to the 
+page=14 block=23799028 (x=1 y=272) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+authors, the threat of hold-up risks bringing about underinvestment—or even no investment 
+page=14 block=23799028 (x=1 y=284) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+at all—from the subcontractor. We may object that the possibility of underinvestment or no 
+page=14 block=23799028 (x=1 y=296) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+investment is a risk to society’s well-being and so does not just concern the ?rm itself, which 
+page=14 block=23799028 (x=1 y=308) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+in any case always takes decisions motivated by pro?t, though under bounded rationality. 
+page=14 block=23799028 (x=1 y=320) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Moreover,  referring  to  underinvestment  means  replacing  the  framework  of  positive 
+page=14 block=23799028 (x=1 y=332) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+analysis by normative arguments. The problem at hand is to analyze what happens when a 
+page=14 block=23799028 (x=1 y=344) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+subcontracting relationship occurs, not to state what is likely not to occur. Yet, within this 
+page=14 block=23799028 (x=1 y=356) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+kind of relationship, it seems clear that the contracting ?rm has power over its subcontractor 
+page=14 block=23799028 (x=1 y=368) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Dyer 2000, 358). Moreover, this kind of relationship implies appropriation of the whole 
+page=14 block=23799028 (x=1 y=380) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+or part of the quasi-rents generated by speci?c investments of the subcontractor. This case 
+page=14 block=23799028 (x=1 y=392) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+does not lead to vertical integration, neither from the contracting ?rm whose transaction 
+page=14 block=23799028 (x=1 y=404) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+costs are compensated by the amount of the appropriated rent, nor from the supplier whose 
+page=14 block=23799028 (x=1 y=416) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+position gives it no recourse to this option. Its only possibility would be to exit the market. 
+page=14 block=23799028 (x=1 y=428) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+But subcontracting is a strategy decided by the contracting ?rm itself and most often does 
+page=14 block=23799028 (x=1 y=440) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+not relate to any strategic logic between two or more independent ?rms. Therefore, it does 
+page=14 block=23799028 (x=1 y=452) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+not come under the logic of transaction costs, which is entirely based on bounded rationality 
+page=14 block=23799028 (x=1 y=464) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and opportunism. It basically comes under the logic of the valorization allowed by new 
+page=14 block=23799028 (x=1 y=476) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+technological possibilities (NTICs, polyvalent machinery, modular production, et cetera).2
+page=14 block=23799028 (x=1 y=487) width=353.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+2 The fruitfulness which TCE has found in hybrid models comes exclusively from the fact that they use 
+page=14 block=23755447 (x=23 y=515) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+formal mechanisms of market exchange within one and only one global production process (i.e., within a single 
+page=14 block=23755447 (x=1 y=523) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+value chain). The empirical examples that Williamson cites to illustrate the scope of TCE shows indeed how the 
+page=14 block=23755447 (x=1 y=531) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+productive logic subordinates the logic of transaction costs in the inter- and intra-?rm relationships. Williamson 
+page=14 block=23755447 (x=1 y=539) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+himself admits that most of vertical integration downstream of distribution falls within technical requirements and 
+page=14 block=23755447 (x=1 y=547) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+know-how: “Integration into ?nal sales and service is mainly observed for consumer and producer durables where 
+page=14 block=23755447 (x=1 y=555) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+considerable knowledge is imparted at point of sale and specialized follow-on service is required” (Williamson 
+page=14 block=23755447 (x=1 y=563) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+1985, 114). Notwithstanding the doubts cast on the Fisher Body-GM case study (Coase 2006), the fact that GM 
+page=14 block=23755447 (x=1 y=571) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 15 left:1 upper:1
+Laurent Baronian
+page=15 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+228
+page=15 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+Hybrid models such as quasi-integration challenge traditional theories of the ?rm. 
+page=15 block=23791348 (x=23 y=20) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Moreover, they show how the joint logic of production and valorization processes explains 
+page=15 block=23791348 (x=1 y=32) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the nature and stakes of the relationship between contracting ?rms and delimits clearly 
+page=15 block=23791348 (x=1 y=44) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+their boundaries which remain otherwise blurred. Although contractual relations apparently 
+page=15 block=23791348 (x=1 y=56) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+prevail among the multiple stakeholders, hybrid models show paradoxically the importance 
+page=15 block=23791348 (x=1 y=68) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of living labor exploitation in the understanding of industrial strategy of the ?rms. But above 
+page=15 block=23791348 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+all, they show us how digital platforms go one step further in this logic of social activity 
+page=15 block=23791348 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+exploitation.
+page=15 block=23791348 (x=1 y=104) width=50.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+The Digital Platform-Boundary Solution
+page=15 block=1070859026 (x=95 y=131) width=172.000000 height=6.000000 fontname=GWCWTK+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+We have seen how TCE, PRT, and RBT have faced di?culties in solving the (quasi)?rm-
+page=15 block=23828768 (x=1 y=160) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+boundary problem. TCE—and from this point of view also PRT—clearly distinguishes the 
+page=15 block=23828768 (x=1 y=172) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm from the market, but only from the perspective of their contractual relations, not with 
+page=15 block=23828768 (x=1 y=184) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+respect to the speci?c function of the ?rm regarding the market: production of goods or 
+page=15 block=23828768 (x=1 y=196) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+services incorporating surplus value appropriated as pro?ts. Consequently, the trade-o? 
+page=15 block=23828768 (x=1 y=208) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+between internal organization costs and market costs remains practically indeterminate. 
+page=15 block=23828768 (x=1 y=220) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Thus, concerning organizational change able to reduce the internal transaction costs of the 
+page=15 block=23828768 (x=1 y=232) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+?rm, Williamson unjusti?ably asserts that “the qualitative implications” of the argument 
+page=15 block=23828768 (x=1 y=244) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+according to which  “the  distinctive powers  of  internal organization  are  impaired  and 
+page=15 block=23828768 (x=1 y=256) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+transactional diseconomies are incurred as ?rm size and the degree of vertical integration are 
+page=15 block=23828768 (x=1 y=268) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+progressively extended” “are not upset” (Williamson 1975, 117). But nowhere is it explained 
+page=15 block=23828768 (x=1 y=280) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+why they are not upset. Conversely, RBT understands the ?rm as an institution creating 
+page=15 block=23828768 (x=1 y=292) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+routines and knowledge dedicated to speci?c goods or services, yet confuses production of 
+page=15 block=23828768 (x=1 y=304) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+surplus value with creation of competitive advantage (which is supposed to be the source of 
+page=15 block=23828768 (x=1 y=316) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+rents or quasi-rents). Thus, according to this approach of the ?rm as a bundle of resources 
+page=15 block=23828768 (x=1 y=328) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+giving rise to organizational routines or speci?c knowledge, rents and quasi-rents arise as 
+page=15 block=23828768 (x=1 y=340) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+much from advantages drawn from market relations with its customers, suppliers, et cetera 
+page=15 block=23828768 (x=1 y=352) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+as from e?ciency of the production process or speci?city of the product. Strangely, each of 
+page=15 block=23828768 (x=1 y=364) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+these approaches fails to draw the boundaries of the ?rm clearly, being unable to distinguish 
+page=15 block=23828768 (x=1 y=376) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+adequately the ?rm from the market: TCE and PRT, because they bring the contractual 
+page=15 block=23828768 (x=1 y=388) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+nature of the speci?c market relation into the ?rm, even though PRT in particular admits the 
+page=15 block=23828768 (x=1 y=400) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+bought Fisher Body in 1926 because it did not meet the new requirements of the ?rm—such as the proximity of 
+page=15 block=23787655 (x=1 y=427) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the site—leads Williamson to a similar conclusion: “To be sure, transaction cost reasoning does not predict this 
+page=15 block=23787655 (x=1 y=435) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+sequence in detail” (Williamson 1985, 115). About Gordon Walker and David Weber who did a study on Ford 
+page=15 block=23787655 (x=1 y=443) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and GM suppliers: “Although they interpret their results as ‘mixed’ in transaction cost terms and attribute most 
+page=15 block=23787655 (x=1 y=451) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the explanatory power to ‘comparative production costs,’ they acknowledged that this may be due to ‘limitations 
+page=15 block=23787655 (x=1 y=459) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+in both the data and the model for which subsequent work is indicated’” (Williamson 1985, 116). And he adds: 
+page=15 block=23787655 (x=1 y=467) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+“Further e?ort to plumb the factors that are responsible for comparative production cost di?erences between buyer 
+page=15 block=23787655 (x=1 y=475) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and supplier will, I submit, disclose added transaction cost features” (1985, 116). Concerning the integration of a 
+page=15 block=23787655 (x=1 y=483) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+bauxite re?nery by steel enterprises, Williamson here again admits that it was decided “because of asset speci?city of 
+page=15 block=23787655 (x=1 y=491) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+both physical plant and site speci?city kinds,” and that it was “reinforced by information asymmetry considerations” 
+page=15 block=23787655 (x=1 y=499) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(Williamson 1985, 119). Furthermore, Williamson cites cases of integration that ought to be considered as mistakes 
+page=15 block=23787655 (x=1 y=507) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+from the viewpoint of transaction costs. Without any supporting evidence, he “conjecture[s]” that they “have mainly 
+page=15 block=23787655 (x=1 y=515) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+been abandoned as renewal decisions have presented themselves” (Williamson 1985, 119). It is true that, in the 
+page=15 block=23787655 (x=1 y=523) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+meantime, numerous empirical studies seem to have con?rmed Williamson’s assumptions concerning the trade-o? 
+page=15 block=23787655 (x=1 y=531) width=361.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+between making and buying (Masten 1996; Shelanski and Klein 1995). However, in an article gathering together 
+page=15 block=23787655 (x=1 y=539) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+most of the case studies illustrating “the empirical success story of the TCE” (Williamson 2000, 607), the authors 
+page=15 block=23787655 (x=1 y=547) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+acknowledge that the quasi-?rm studied by Eccles (1981) seems to be an exception to the rule that integration choice 
+page=15 block=23787655 (x=1 y=555) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+increases with asset speci?city and conclude that “TCE may assign too much attention to asset speci?city for the 
+page=15 block=23787655 (x=1 y=563) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+integration decision” (Shelanski and Klein 1995, 346).
+page=15 block=23787655 (x=1 y=571) width=172.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 16 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=16 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+229
+page=16 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+co-operative nature of production; and RBT because it does not draw any clear distinction 
+page=16 block=23795188 (x=1 y=20) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+between the advantages of the ?rm drawn from its market relations and those resulting from 
+page=16 block=23795188 (x=1 y=32) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the organization of production. 
+page=16 block=23795188 (x=1 y=44) width=126.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+By blurring the distinction between ?rm and market  more  than ever before, the 
+page=16 block=23795188 (x=23 y=56) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+business model of digital platforms has practically refuted the theoretical framework of 
+page=16 block=23795188 (x=1 y=68) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+TCE. Moreover, by overcoming the disadvantages of the putting-out system, digital platforms 
+page=16 block=23795188 (x=1 y=80) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+have shaken the two pillars underpinning the TCE approach and its vindication of the 
+page=16 block=23795188 (x=1 y=92) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+capitalist ?rm, namely information asymmetry and moral hazard (Williamson 1996). But 
+page=16 block=23795188 (x=1 y=104) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+digital platforms have also challenged the PRT according to which authority and hierarchy 
+page=16 block=23795188 (x=1 y=116) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+are the consequences of the residual control of non-human assets (Hart and Moore 1990). 
+page=16 block=23795188 (x=1 y=128) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+As we have seen, digital platforms do not need to exercise direct authority over workers and 
+page=16 block=23795188 (x=1 y=140) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+may control them through anonymous devices (software, consumer assessments, algorithms, 
+page=16 block=23795188 (x=1 y=152) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+et cetera). But if digital platforms may relax direct authority and control, they nevertheless 
+page=16 block=23795188 (x=1 y=164) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+share with all other kinds of capitalist ?rms the relation of production based on the property 
+page=16 block=23795188 (x=1 y=176) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and use of non-human assets by capitalists who extract living labor in order to valorize 
+page=16 block=23795188 (x=1 y=188) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+these social means of production. Digital platforms have undermined employment relations 
+page=16 block=23795188 (x=1 y=200) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+based on wages but at the same time they have radicalized the relation of production on 
+page=16 block=23795188 (x=1 y=212) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+which is based wage labor, namely the private ownership of social and collective means of 
+page=16 block=23795188 (x=1 y=224) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production. This relation of production suggests seeing the ?rm as a techno-institutional 
+page=16 block=23795188 (x=1 y=236) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+center of extraction of surplus labor. The focus on the private economic power on social 
+page=16 block=23795188 (x=1 y=248) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+production allows us to distinguish e?ectively between ?rm and market whatever is the form 
+page=16 block=23795188 (x=1 y=260) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of hybridization between them. Moreover, it provides the necessary framework to account for 
+page=16 block=23795188 (x=1 y=272) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+di?erent forms of authority and control by relating them to the di?erent ways of extracting 
+page=16 block=23795188 (x=1 y=284) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+living labor and valorizing non-human assets.
+page=16 block=23795188 (x=1 y=296) width=178.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Concluding Remarks
+page=16 block=802162578 (x=136 y=323) width=90.000000 height=6.000000 fontname=GWCWTK+CGOmega-BoldItalic wordint.min=2 wordint.max=4
+Since integration does not delimit the boundaries of the ?rm, solving the ?rm-boundary 
+page=16 block=23867360 (x=1 y=352) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+problem depends on a clear understanding of the nature and function of the ?rm. If we 
+page=16 block=23867360 (x=1 y=364) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+assume that labor is the source of the pro?ts made by the owners of the ?rm’s assets, all the 
+page=16 block=23867360 (x=1 y=376) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+features put to the fore by traditional theories (authority over employees in TCE, control of 
+page=16 block=23867360 (x=1 y=388) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the use of ?rm’s assets by PRT, management of competencies, and knowledge by RBT) de?ne 
+page=16 block=23867360 (x=1 y=400) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm as a techno-institutional center of labor appropriation, regardless of whether or 
+page=16 block=23867360 (x=1 y=412) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+not such appropriation is directly organized by the ?rm. De?ned as such, the capitalist ?rm 
+page=16 block=23867360 (x=1 y=424) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+includes digital platforms, where production of value is fragmented into a large number of 
+page=16 block=23867360 (x=1 y=436) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+individual provisions of services, since it frees the ?rm-boundary problem from governance 
+page=16 block=23867360 (x=1 y=448) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+constraints on transactions as well as organizational constraints on knowledge and resources, 
+page=16 block=23867360 (x=1 y=460) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+in the same way as ICTs have practically freed the ?rm from those same constraints. One 
+page=16 block=23867360 (x=1 y=472) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+may object that digital economics raises more transaction problems than any other industrial 
+page=16 block=23867360 (x=1 y=484) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+sectors. But the reduction of transaction costs made possible by ICTs does not justify anymore 
+page=16 block=23867360 (x=1 y=496) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the hierarchical institution of the ?rm asserted by TCE. Moreover, what distinguishes digital 
+page=16 block=23867360 (x=1 y=508) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+platforms is that they cannot choose between integration and market, since their hybrid 
+page=16 block=23867360 (x=1 y=520) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+form derives from the very nature of the services they produce. In the same way, creation 
+page=16 block=23867360 (x=1 y=532) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of organizational knowledge in digital platforms relies precisely on the decentralized and 
+page=16 block=23867360 (x=1 y=544) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+scattered nature of knowledge production by the many stakeholders of the digital platform. 
+page=16 block=23867360 (x=1 y=556) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Thus, organizational resources are not limited to the resources created by the ?rm’s employees 
+page=16 block=23867360 (x=1 y=568) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 17 left:1 upper:1
+Laurent Baronian
+page=17 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+230
+page=17 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+but now extend to all the data produced by the workers and consumers and appropriated by 
+page=17 block=23791588 (x=1 y=20) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the ?rm's software which interposes them. But whatever the reasons pushing ?rms to choose 
+page=17 block=23791588 (x=1 y=32) width=363.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+their forms of hybridization or their modes of organizational knowledge, they are always 
+page=17 block=23791588 (x=1 y=44) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+conditioned by the pursuit of the primary objective of the ?rm, namely the extraction of 
+page=17 block=23791588 (x=1 y=56) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+surplus labor or the valorization of social activity. Since digital platforms make pro?ts much 
+page=17 block=23791588 (x=1 y=68) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+like other capitalist ?rms by incorporating living labor to non-human assets, the typology 
+page=17 block=23791588 (x=1 y=80) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of the ?rms and their organizational modes speci?c to contemporary capitalism could and 
+page=17 block=23791588 (x=1 y=92) width=362.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+should be made in accordance with the di?erent ways in which the connection between non-
+page=17 block=23791588 (x=1 y=104) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+human and human assets is made.
+page=17 block=23791588 (x=1 y=116) width=136.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+References
+page=17 block=493880154 (x=157 y=143) width=48.000000 height=6.000000 fontname=UKMCHI+CGOmega-BoldItalic wordint.min=1 wordint.max=22
+Abhayawansa, Subhash, and James Guthrie. 2010. “Intellectual Capital and the Capital Market: A Review and 
+page=17 block=23269190 (x=1 y=170) width=350.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Synthesis.” Journal of Human Resource Costing and Accounting 14 (3): 196–226.
+page=17 block=23269190 (x=23 y=179) width=258.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Alchian, Armen A., and Harold Demsetz. 1972. “Production, Information Costs, and Economic Organization.” 
+page=17 block=23269190 (x=1 y=189) width=355.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+American Economic Review 62 (5): 777–795.
+page=17 block=201982748 (x=23 y=199) width=134.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Argyres, Nicholas S., and Todd R. Zenger. 2012. “Capabilities, Transaction Costs, and Firm Boundaries: A 
+page=17 block=23508704 (x=1 y=209) width=338.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Dynamic Perspective and Integration.” Organization Science 23 (6): 1643–1657.
+page=17 block=23508704 (x=23 y=219) width=245.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Arrow, Kenneth. 1974. The Limits of Organization. New York: W. W. Norton.
+page=17 block=23508704 (x=1 y=229) width=239.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Augier, Mie, and David J. Teece. 2008. “Strategy as Evolution with Design: The Foundations of Dynamic 
+page=17 block=23508704 (x=1 y=239) width=333.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Capabilities and the Role of Managers in the Economic System.” Organization Studies 29 (08–09): 
+page=17 block=23508704 (x=23 y=249) width=305.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+1187–1208.
+page=17 block=23508704 (x=23 y=259) width=38.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=16
+Ayres, Clarence E. 1944. The Theory of Economic Progress. Chapel Hill: The University of North Carolina Press.
+page=17 block=23508704 (x=1 y=269) width=345.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Barney, Jay. 1991. “Firm Resources and Sustained Competitive Advantage.” Journal of Management 17 (1): 99–120.
+page=17 block=23508704 (x=1 y=279) width=358.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Baudry, Bernard, and Virgile Chassagnon. 2010. “The Close Relation between Organization Theory and Oliver 
+page=17 block=23508704 (x=1 y=289) width=354.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Williamson’s Transaction Cost Economics: A Theory of the Firm Perspective.” Journal of Institutional 
+page=17 block=23508704 (x=23 y=299) width=316.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Economics 6 (4): 477–503.
+page=17 block=23508704 (x=23 y=309) width=80.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Bauwens, Michel, Nicolas Mendoza, and Franco Iacomella. 2012. Synthetic Overview of the Collaborative Economy. 
+page=17 block=23508704 (x=1 y=319) width=352.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+P2P Foundation. Available at: https://p2pfoundation.net/wp-content/uploads/2018/02/Synthetic-
+page=17 block=23508704 (x=23 y=329) width=314.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+overview-of-the-collaborative-economy.pdf Accessed on October 30, 2019.
+page=17 block=23508704 (x=23 y=339) width=231.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Benkler, Yochai. 2002. “Coase’s Penguin, or Linux and the Nature of the Firm.” In Yale Law Journal 112 (3): 
+page=17 block=23508704 (x=1 y=349) width=341.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+369–446.
+page=17 block=23508704 (x=23 y=359) width=30.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=16
+Berg, Maxine. 1985. The Age of Manufactures: 1700–1820. London: Fontana Press.
+page=17 block=23508704 (x=1 y=369) width=258.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Blair, Margaret M., and Lynn A. Stout 1999. “A Team Production Theory of Corporate Law.” Virginia Law Review 
+page=17 block=23508704 (x=1 y=379) width=358.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+85 (2): 247–328.
+page=17 block=23508704 (x=23 y=389) width=52.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Botsman, Rachel. 2013. The Sharing Economy Lacks a Shared De?nition. Fast Company. Retrieved from https://
+page=17 block=23508704 (x=1 y=399) width=344.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+www.fastcompany.com/3022028/the-sharing-economy-lacks-a-shared-de?nition. Accessed on December 6, 
+page=17 block=23508704 (x=23 y=409) width=335.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+2019.
+page=17 block=23508704 (x=23 y=419) width=18.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=16
+Bradach, Je?rey L., and Robert G. Eccles. 1989. “Price, Authority, and Trust: From Ideal Types to Plural Forms.” 
+page=17 block=23508704 (x=1 y=429) width=356.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Annual Review of Sociology 15: 97–118.
+page=17 block=177866460 (x=23 y=439) width=118.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Carter, Richard, and Geo?rey M. Hodgson. 2006. “The Impact of Tests of Transaction Cost Economics on the 
+page=17 block=23013912 (x=1 y=449) width=351.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Debate on the Nature of the Firm.” Strategic Management Journal 27: 461–476.
+page=17 block=23013912 (x=23 y=459) width=243.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Chandler, Alfred D. 1977. The Visible Hand. The Managerial Revolution in American Business. Harvard: Harvard 
+page=17 block=23013912 (x=1 y=469) width=344.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+University Press.
+page=17 block=78382972 (x=23 y=479) width=52.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Clark, John B. 1907. Essentials of Economic Theory as Applied to Modern Problems of Industry and Public Policy. New 
+page=17 block=23609586 (x=1 y=489) width=349.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+York: The Macmillan Company.
+page=17 block=23609586 (x=23 y=499) width=101.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Coase, Ronald H. 1937 “The Nature of the Firm.” Economica 4 (16): 386–405.
+page=17 block=23609586 (x=1 y=509) width=247.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Coase, Ronald H. 2006. “The Conduct of Economics: The Example of Fisher Body and General Motors.” Journal 
+page=17 block=23609586 (x=1 y=519) width=360.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+of Economics and Management Strategy 15 (2): 255–278.
+page=17 block=253233220 (x=23 y=529) width=168.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Commons, John R. 1924. Legal Foundations of Capitalism. New York: The Macmillan Company.
+page=17 block=23611286 (x=1 y=539) width=299.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Conner, Kathleen R. 1991. “A Historical Comparison of Resource-Based Theory and Five Schools of Thought 
+page=17 block=23611286 (x=1 y=549) width=350.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+within Industrial Organization Economics: Do We have a New Theory of the Firm?” Journal of Management 
+page=17 block=23611286 (x=23 y=559) width=338.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+17 (1): 121–154.
+page=17 block=23611286 (x=23 y=569) width=52.000000 height=4.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Page: 18 left:1 upper:1
+Digital Platforms and the Nature of the Firm
+page=18 block=1059061766 (x=101 y=1) width=160.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+231
+page=18 block=340131850 (x=346 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+Coriat, Benjamin. 1991. Penser à l’envers. Paris: Christian Bourgois.
+page=18 block=23201169 (x=1 y=19) width=210.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Coriat, Benjamin., and Olivier Weinstein. 2010. “Les théories de la ?rme entre ‘contrats’ et ‘compétences’. Une 
+page=18 block=23201169 (x=1 y=29) width=354.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+revue critique des développements contemporains.” Revue d’Économie Industrielle 129–130: 57–86.
+page=18 block=23201169 (x=23 y=39) width=306.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Dyer, Je? H. 1997. “E?ective Interim Collaboration: How Firms Minimize Transaction Costs and Maximise 
+page=18 block=23201169 (x=1 y=49) width=342.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Transaction Value.” Strategic Management Journal 18: 535–556.
+page=18 block=23201169 (x=23 y=59) width=193.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Dyer, Je? H. 2000. Collaborative Advantage: Winning Through Extended Enterprise Supplier Networks. New York: 
+page=18 block=23201169 (x=1 y=69) width=337.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Oxford University Press.
+page=18 block=23201169 (x=23 y=79) width=77.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Eccles, Robert G. 1981. “The Quasi?rm in the Construction Industry.” Journal of Economic Behavior and 
+page=18 block=23201169 (x=1 y=89) width=328.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Organization 2: 335–357.
+page=18 block=116064751 (x=23 y=99) width=77.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Foss, Nicolai J. 1996. “Knowledge-Based Approaches to the Theory of the Firm: Some Critical Comments.” 
+page=18 block=22348321 (x=1 y=109) width=341.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Organization Science 7 (5): 470–476.
+page=18 block=165806675 (x=23 y=119) width=110.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Granovetter, Mark. 1985. “Economic Action and Social Structure: the Problem of Embeddedness.” American 
+page=18 block=22610565 (x=1 y=129) width=345.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Journal of Sociology 91 (3): 481–510.
+page=18 block=165806775 (x=23 y=139) width=110.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Grant, R. M. 1996. “Toward a Knowledge-Based Theory of the Firm.” Strategic Management Journal 17: 109–122.
+page=18 block=23665201 (x=1 y=149) width=352.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Grossman, Sanford J., and Oliver D. Hart. 1986. “The Costs and Bene?ts of Ownership: A Theory of Lateral and 
+page=18 block=23665201 (x=1 y=159) width=361.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Vertical Integration.” Journal of Political Economy 94: 691–719.
+page=18 block=23665201 (x=23 y=169) width=193.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Guelzo, Carl M. 1976. “J. R. Commons and the Theory of the Firm.” The American Economist 20 (2): 40–46.
+page=18 block=23665201 (x=1 y=179) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Hamari, Juhi, Mimmi Sjöklint, and Antti Ukkone. 2016. “The Sharing Economy: Why People Participate in 
+page=18 block=23665201 (x=1 y=189) width=344.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Collaborative Consumption.” Journal of Association for the Information Science and Technology 67: 2047–2059.
+page=18 block=503448547 (x=23 y=199) width=334.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Hart, Oliver D. 1995. Firms, Contracts, and Financial Structure. Oxford: Clarendon Press.
+page=18 block=23156153 (x=1 y=209) width=274.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Hart, Oliver D., and John Moore. 1990. “Property Rights and the Nature of the Firm.” Journal of Political 
+page=18 block=23156153 (x=1 y=219) width=331.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Economy 98 (6): 1119–1158.
+page=18 block=23156153 (x=23 y=229) width=88.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Harris, Seth D., and Alan B. Krueger. 2015. “A Proposal for Modernizing Labor Laws for TwentyFirstCentury 
+page=18 block=23156153 (x=1 y=239) width=352.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Work: The ‘Independent Worker.’” The Hamilton Project. Discussion Paper 201510.
+page=18 block=23156153 (x=23 y=249) width=263.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Holmström, Bengt, and John Roberts. 1998. “The Boundaries of the Firm Revisited.” Journal of Economic 
+page=18 block=23156153 (x=1 y=259) width=333.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Perspectives 12 (4): 73–94.
+page=18 block=23156153 (x=23 y=269) width=78.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Holmström, Bengt. 1999. “The Firm as a Subeconomy.” Journal of Law and Economic Behaviour 15 (1): 74–102.
+page=18 block=23156153 (x=1 y=279) width=346.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Houssiaux, Jacques. 1957. “Le concept de ‘quasi-intégration’ et le rôle des sous-traitants dans l’industrie.” Revue 
+page=18 block=23156153 (x=1 y=289) width=353.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Économique 8 (12): 221–247.
+page=18 block=23156153 (x=23 y=299) width=89.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Itami, Hirojuki. 1988. “Competition by Visible Hands: E?ciency of Parts Supply Systems.” In Competition 
+page=18 block=23156153 (x=1 y=309) width=335.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and Innovation; Corporate Development in the Automobile Industry, edited by Hirojuki Itami, T. Kagono, T. 
+page=18 block=485361211 (x=23 y=319) width=322.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Kobayashi, K. Sakakibara, and M. Ito. Tokyo: Toyo Keizai Shimpo-sha.
+page=18 block=23657115 (x=23 y=329) width=221.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Jacobides, Michael G., and Stephan Billinger. 2006. “Designing the Boundaries of the Firm: From Make, Buy, or 
+page=18 block=23657115 (x=1 y=339) width=357.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Ally to the Dynamic Bene?ts of Vertical Architecture.” Organization Science 17 (2): 249–261.
+page=18 block=23657115 (x=23 y=349) width=288.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Jo, Tae-Hee. 2018. “The Institutionalist Theory of the Business Enterprise: Past, Present, and Future” MPRA 
+page=18 block=23657115 (x=1 y=359) width=345.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Paper No. 84036. Available at https://mpra.ub.uni-muenchen.de/84036/, accessed on October 30, 2019.
+page=18 block=23657115 (x=23 y=369) width=333.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Kaplan Aandreas M., and Michael Haenlein. 2010. “Users of the World, Unite! The Challenges and 
+page=18 block=23657115 (x=1 y=379) width=318.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Opportunities of Social Media.” Business Horizons 53 (1): 59–68.
+page=18 block=23657115 (x=23 y=389) width=201.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Keynes, John Maynard. 1936. General Theory of Employment, Interest and Money. London: Macmillan.
+page=18 block=23657115 (x=1 y=399) width=312.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Klein, Benjamin, Robert G. Crawford, and Armen A. Alchian. 1978. “Vertical Integration, Appropriable Rents, 
+page=18 block=23657115 (x=1 y=409) width=355.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and the Competitive Contracting Process.” Journal of Law and Economics 21 (2): 297–326.
+page=18 block=23657115 (x=23 y=419) width=279.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Langlois, Richard N. 1992. “Transaction-Cost Economics in Real Time.” Industrial and Corporate Change 1 (1): 
+page=18 block=23657115 (x=1 y=429) width=346.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+99–127.
+page=18 block=23657115 (x=23 y=439) width=26.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=16
+Langlois, Richard N. 2003. “The Vanishing Hand: The Changing Dynamics of Industrial Capitalism.” Industrial 
+page=18 block=23657115 (x=1 y=449) width=354.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and Corporate Change 12 (2): 351–385.
+page=18 block=23657115 (x=23 y=459) width=119.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Lazonick, William. 1991. Business Organization and the Myth of the Market Economy. New York: Cambridge 
+page=18 block=23657115 (x=1 y=469) width=330.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+University Press.
+page=18 block=23657115 (x=23 y=479) width=52.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Madhok, Anoop. 2002. “Reassessing the Fundamentals and Beyond: Ronald Coase, the Transaction Cost and 
+page=18 block=23657115 (x=1 y=489) width=349.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Resource-Based Theories of the Firm and the Institutional Structure of Production.” Strategic Management 
+page=18 block=23657115 (x=23 y=499) width=334.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Journal 23: 535–550.
+page=18 block=23657115 (x=23 y=509) width=64.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Marglin, Stephen. 1974. “What Do Bosses Do? The Origins and Functions of Hierarchy in Capitalist Production, 
+page=18 block=23657115 (x=1 y=519) width=360.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Part I.” The Review of Radical Political Economics 6 (2): 60–112.
+page=18 block=289409621 (x=23 y=529) width=192.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Marx, Karl. (1867) 2010. Capital, Volume I. New York: Lawrence and Wishart.
+page=18 block=23082147 (x=1 y=539) width=245.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Masten, Scott E. 1996. Case Studies in Contracting and Organization. New York: Oxford University Press.
+page=18 block=23082147 (x=1 y=549) width=321.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Monden, Yasuhiro. 1994. Toyota Production System: An Integrated Approach to Just-In-Time. London: Chapman and 
+page=18 block=23082147 (x=1 y=559) width=352.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Hall.
+page=18 block=22612765 (x=23 y=569) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=16
+Page: 19 left:1 upper:1
+Laurent Baronian
+page=19 block=624951302 (x=149 y=1) width=64.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+232
+page=19 block=983050 (x=1 y=2) width=15.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=19
+Palermo, Giulio. 2000. “Economic Power and the Firm in New Institutional Economics: Two Con?icting 
+page=19 block=21889119 (x=1 y=19) width=334.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Problems.” Journal of Economic Issues 34 (3): 573–601.
+page=19 block=250216593 (x=23 y=29) width=166.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Piketty, Thomas. 2014. Capital in the 21st Century. Boston: Harvard University Press.
+page=19 block=23202252 (x=1 y=38) width=264.000000 height=6.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Pitelis, Chirstos. 1993. “On Transaction (Costs) and Markets and (as) Hierarchies.” In Transaction Costs, Markets, 
+page=19 block=23202252 (x=1 y=49) width=354.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and Hierarchies, edited by Christos Pitelis, l262–276. Oxford: Basil Blackwell.
+page=19 block=23202252 (x=23 y=59) width=240.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Pitelis, Christos, and David Teece. 2009. “The (New) Nature and Essence of the Firm.” European Management 
+page=19 block=23202252 (x=1 y=69) width=344.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Review 6 (1): 5–15.
+page=19 block=23202252 (x=23 y=79) width=58.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Poppo, Laura, and Todd R. Zenger. 1998. “Testing Alternative Theories of the Firm: Transaction Cost, 
+page=19 block=23202252 (x=1 y=89) width=325.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Knowledge-Based, and Measurement Explanations for Make-or-Buy Decisions in Information Services.” 
+page=19 block=23202252 (x=23 y=99) width=327.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Journal of Strategic Management 19 (9): 853–877.
+page=19 block=221577761 (x=23 y=109) width=147.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Powell, Walter W.,  Kenneth W. Koput, and Laurel Smith-Doerr. 1996. “Interorganizational Collaboration and 
+page=19 block=23469623 (x=1 y=119) width=351.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+the Locus of Innovation: Networks of Learning in Biotechnology.” Administrative Science Quarterly 41(1): 
+page=19 block=23469623 (x=23 y=129) width=328.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+116–145.
+page=19 block=23469623 (x=23 y=139) width=29.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=16
+Prahalad, C. K., and Gary Hamel. 1990. “The Core Competence of the Corporation.” Harvard Business Review 68 
+page=19 block=23469623 (x=1 y=149) width=358.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(3): 79–91.
+page=19 block=23469623 (x=23 y=159) width=34.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Quélin, Betrand. 2002. Les frontières de la ?rme. Paris: Economica.
+page=19 block=23469623 (x=1 y=169) width=205.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Shelanski, Howard A., and Peter G. Klein, 1995. “Empirical research in Transaction Cost Economics. A Review 
+page=19 block=23469623 (x=1 y=179) width=354.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+and Assessment.” Journal of Law, Economics, and Organization 11 (2): 335–361.
+page=19 block=364774321 (x=23 y=189) width=242.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Shimizu, Koïchi. 1999. Le Toyotisme. Paris: La Découverte.
+page=19 block=23492733 (x=1 y=199) width=183.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Scholz, Trebor. 2016. Platform Cooperativism. New York: Rosa Luxemburg Stiftung.
+page=19 block=23492733 (x=1 y=209) width=257.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Tapscott, Don, and Anthony D. Williams. 2010. Macrowikinomics: Rebooting Business and the World. New York: 
+page=19 block=23492733 (x=1 y=219) width=344.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Portfolio Hardcover.
+page=19 block=23492733 (x=23 y=229) width=64.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Teece, David. 2006. “Re?ections on ‘Pro?ting from Innovation.’” Research Policy 35 (8): 1131–1146.
+page=19 block=23492733 (x=1 y=239) width=313.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Teece, David. 2010. “Business Models, Business Strategy and Innovation.” Long Range Planning 43: 172–194.
+page=19 block=23492733 (x=1 y=249) width=340.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Veblen, Thorstein. 1923. Absentee Ownership. Business Enterprise in Recent Times: The Case of America. New 
+page=19 block=23492733 (x=1 y=259) width=330.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Brunswick: Transaction Publishers.
+page=19 block=23492733 (x=23 y=269) width=111.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Williamson, Oliver E. 1975. Markets and Hierarchies. New York: The Free Press.
+page=19 block=23492733 (x=1 y=279) width=248.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Williamson, Oliver E. 1980. “The Organization of Work.” Journal of Economic Behavior and Organization 1 
+page=19 block=23492733 (x=1 y=289) width=330.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+(1): 5–38.
+page=19 block=23492733 (x=23 y=299) width=30.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=1 wordint.max=16
+Williamson, Oliver E. 1985. The Economic Institutions of Capitalism. New York: The Free Press.
+page=19 block=23492733 (x=1 y=309) width=294.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Williamson, Oliver E. 1986. “The Vertical Integration of Production: Market Failure Considerations.” In 
+page=19 block=23492733 (x=1 y=319) width=333.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Economic Organization: Firms, Market and Policy Control, edited by Oliver Williamson, 85–100. New York: 
+page=19 block=23492733 (x=23 y=329) width=336.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+New York University Press.
+page=19 block=23492733 (x=23 y=339) width=85.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Williamson, Oliver E. 1991.“Comparative Economic Organization: The Analysis of discrete Structural 
+page=19 block=23492733 (x=1 y=349) width=324.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Alternatives.” Administrative Science Quarterly 36: 269–296.
+page=19 block=274335491 (x=23 y=359) width=182.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Williamson, Oliver E. 1996. The Mechanisms of Governance. New York: Oxford University Press.
+page=19 block=23540339 (x=1 y=369) width=298.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Williamson, Oliver E. 1999. “Strategy Research: Governance and Competence Perspectives.” Strategic Management 
+page=19 block=23540339 (x=1 y=379) width=359.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Journal 20: 1087–1108.
+page=19 block=23540339 (x=23 y=389) width=72.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Williamson, Oliver E. 2000. “The New Institutional Economics: Taking Stock, Looking Ahead.” Journal of 
+page=19 block=23540339 (x=1 y=399) width=337.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-Reg wordint.min=2 wordint.max=4
+Economic Literature 38: 595–613.
+page=19 block=152242173 (x=23 y=409) width=101.000000 height=5.000000 fontname=UKMCHI+GoudyOldSty-RegIta wordint.min=2 wordint.max=4
+Page: 20 left:1 upper:1
+Copyright of Journal of Economic Issues (Taylor & Francis Ltd) is the property of Taylor &
+page=20 block=29229105 (x=1 y=1) width=443.000000 height=8.000000 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+Francis Ltd and its content may not be copied or emailed to multiple sites or posted to a
+page=20 block=29229105 (x=1 y=15) width=421.000000 height=8.000000 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+listserv without the copyright holder's express written permission. However, users may print,
+page=20 block=29229105 (x=1 y=29) width=446.000000 height=8.000000 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+download, or email articles for individual use.
+page=20 block=29229105 (x=1 y=43) width=221.000000 height=7.000000 fontname=TimesNewRoman wordint.min=1 wordint.max=5

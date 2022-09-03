@@ -1,0 +1,1743 @@
+Content:
+ColumnWidth 401 ColumnNumber 1
+ContentWidth 552 ContentLeft 1 ContentRight 552
+Subtitles:  0 1 6
+
+==============================
+Page 1
+ Left 1 Right 552 Top 1 Bottom 766
+
+
+Column meta:
+Column left:116 upper:1 right:516 lower 750
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=8 left=54 right=102 upper=121 lower=132
+====>
+charfont name=Corbel-Bold2 charfont height=10.700000, charfont bold=2, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+OPEN
+==============================
+
+==============================
+
+typeindex=-3 left=1 right=131 upper=745 lower=750
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983
+==============================
+
+==============================
+
+typeindex=-5 left=493 right=552 upper=761 lower=766
+====>
+charfont name=Corbel3 charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Vol.:(0123456789)
+==============================
+
+==============================
+
+typeindex=2 left=351 right=507 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=0, allupper=0, column left=116, likeBody=-100
+
+www.nature.com/scientificreports
+==============================
+
+==============================
+type: title
+typeindex=9 left=116 right=498 upper=122 lower=197
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=15.500000, charfont bold=2, alignment=8, allupper=0, column left=116, likeBody=-100
+
+Accessing the degree of Majorana 
+nonlocality in a quantum 
+dot?optical microcavity system
+==============================
+
+==============================
+
+typeindex=5 left=116 right=381 upper=212 lower=219
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.000000, charfont bold=2, alignment=8, allupper=0, column left=116, likeBody=-100
+
+L. S. Ricco1*, V. K. Kozin1,2, A. C. Seridonio3,4 & I. A. Shelykh1,2
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=116 right=510 upper=234 lower=305
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=5.400000, charfont bold=2, alignment=8, allupper=0, column left=116, likeBody=-100
+
+We explore the tunneling transport properties of a quantum dot embedded in an optical microcavity 
+and coupled to a semiconductor?superconductor one?dimensional nanowire (Majorana nanowire) 
+hosting Majorana zero modes (MZMs) at their edges. Conductance profiles reveal that strong 
+light?matter coupling can be employed to distinguish between the cases of highly nonlocal MZMs, 
+overlapped MZMs and MZMs with less degree of nonlocal feature. Moreover, we show that it is 
+possible to access the degree of Majorana nonlocality (topological quality factor) by changing the dot 
+spectrum through photon?induced transitions tuned by an external pump applied to the microcavity.
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=116 right=516 upper=329 lower=665
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=116, likeBody=100
+
+Over the past decade, a huge effort in both theoretical and experimental fields has been performing in the quest 
+for an unquestionable signature of exotic ‘half-fermionic’ states, the so-called Majorana zero-modes (MZMs) in 
+quasi-one dimensional hybrid semiconductor-superconductor nanowires with strong spin-orbit coupling sub-
+ject to external magnetic field, termed as Majorana nanowires1–5. In such devices, each isolated ‘half-fermionic’ 
+MZM appears at one of the opposite nanowire ends when the bulk of the system undergoes a topological phase 
+transition6–8.
+In tunneling spectroscopy measurements performed through a Majorana nanowire4,8–15, the emergence of 
+a quantized zero-bias peak (ZBP) robust to changing of relevant system parameters such as magnetic field and 
+gate voltages is considered as a strong evidence supporting the emergence of the isolated MZMs. However, it 
+has been extensively demonstrated that other physical mechanisms such as the formation of trivial zero-energy 
+Andreev bound state (ABS) at wire ends due to inhomogeneous smooth confining potentials16–25 and disorder-
+induced bound states22,25–27 can produce a robust quantized ZBP, leading to an ambiguity of the MZM signature.
+The emergence of a trivial zero-energy ABS can be mathematically described as resulting from two half-
+fermionic states with some spatial separation between them. In this scenario, a quantized ZBP may arise if one 
+of these half-fermionic states couples to a tunneling spectroscopy probe stronger than the other15,20,21. This kind 
+of trivial ABS formed by two half-fermionic states with small spatial separation between them has been dubbed 
+as partially separated ABS (ps-ABS)20 or quasi-Majoranas (quasi-MZM)21. Despite some recent advances, dis-
+tinguishing ZBPs resulting from genuine topological MZMs, trivial quasi-MZMs and disorder still remains a 
+challenge15,22–25.
+From the perspective of Majorana-based qubits28, the possibility of performing decoherence-free quantum 
+computing operations lies on the ability of storing the information nonlocaly21,29–31, once each MZM is far apart 
+from each other for the ideal situation of longer and pristine nanowires. Hereupon, it is crucial to obtain the 
+information about the spatial localization of the wave functions corresponding to these MZMs. This can be 
+achieved by measuring the so-called degree of Majorana nonlocality31,32, which indirectly quantifies the infor-
+mation about the localization of the MZMs wavefunctions along the nanowire. This quantity can be accessed by 
+means of a quantum dot (QD) working as a local tunneling spectroscopy probe at one of the ends of a Majorana 
+nanowire12,13,33–35. The degree of Majorana nonlocality is defined as ?2 = (c,R/c,L) for weakly overlapped MZMs 
+(?M ?c,R), where c,L and c,R are the coupling between the dot and the left and right MZMs, respectively (see 
+Fig. 1a). Equivalently, this quantity provides a topological quality factor q =1?(c,R/c,L) of the nanowire36,37. 
+Highly nonlocal MZMs are characterized by ? ?0 (q ? 1 ), while ?? 1 (q ?0 ) indicates MZMs with cor-
+responding wavefunctions not well-localized at the nanowire ends. Experimentally13,32, the degree of Majorana 
+nonlocality (quality factor) can be accessed by measuring the corresponding energies of anticrossing patterns 
+appearing in tunneling conductance profiles as functions of both applied bias-voltage through the QD-nanowire 
+and QD gate-voltage.
+==============================
+
+==============================
+
+typeindex=-2 left=116 right=516 upper=687 lower=723
+====>
+charfont name=UYTEFK+Corbel charfont height=5.100000, charfont bold=0, alignment=2, allupper=0, column left=116, likeBody=-100
+
+1Science  Institute,  University  of  Iceland,  Dunhagi-3,  107  Reykjavík,  Iceland.  2Department  of  Physics,  ITMO 
+University, St. Petersburg 197101,  Russia. 3Department of  Physics  and Chemistry, School  of Engineering, São 
+Paulo State University (Unesp), Ilha Solteira, SP 15385-000, Brazil. 4Department of Physics, IGCE, São Paulo State 
+University (Unesp), Rio Claro, SP 13506-970, Brazil. *email: lsricco@hi.is
+==============================
+
+==============================
+
+typeindex=-6 left=186 right=336 upper=745 lower=750
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=116, likeBody=-100
+
+| https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+
+typeindex=-5 left=510 right=514 upper=745 lower=750
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=116, likeBody=-100
+
+1
+==============================
+
+==============================
+Page 2
+ Left 1 Right 552 Top 1 Bottom 765
+
+
+Column meta:
+Column left:151 upper:234 right:552 lower 716
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=37 right=197 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+www.nature.com/scientificreports/
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=37 right=170 upper=744 lower=749
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983  |
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=225 right=372 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-5 left=546 right=550 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+2
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-3 left=1 right=59 upper=760 lower=765
+====>
+charfont name=Corbel4 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Vol:.(1234567890)
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=151 right=552 upper=234 lower=320
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=151, likeBody=100
+
+Figure 1.  (a) The sketch of the considered system: A quantum dot (QD) embedded inside a single-mode optical 
+cavity with frequency ?0. An electron in the conduction level of the dot couples with both the left (?R ) and the 
+right (?L) Majorana zero-modes (MZMs) located at the opposite ends of the Majorana nanowire, with strengths 
+c,L and c,R, respectively. The overlap between the wavefunctions of MZMs is given by ?M. The tunneling 
+conductance through the QD can by probed by means of source and drain metallic leads symmetrically coupled 
+(V) to the dot. The energy of the cavity photons is brought in resonance with interband transition in the dot 
+. (b) The scheme of a QD energy levels: the valence level ?v is far below the Fermi level EF = 0E while the 
+conduction level ?c is above EF. Strong coupling with cavity photons results in a Rabi splitting of the levels R, 
+which is determined by the oscillator strength of the optical transition and the geometry of the cavity.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=152 right=552 upper=349 lower=564
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=151, likeBody=100
+
+In the present work, we show that light-matter coupling can be employed as an alternative to probe the degree 
+of Majorana nonlocality through tunneling conductance experiments. We consider the system schematically 
+shown in Fig. 1a: a QD placed inside a single-mode optical cavity with frequency ?0, which is tuned in resonance 
+with valence-to-conduction band optical transition, i.e, ?= ?0, see Fig. 1b. The conductance through the dot can 
+be accessed by metallic source-drain leads. Moreover, the QD couples with both left and right MZMs hosted at 
+the edges of the Majorana nanowire. We demonstrate, that conductance profiles through the QD as functions of 
+both bias voltage and mean photon occupation adjusted by external pump reveal distinct patterns for the cases 
+of highly nonlocal MZMs, overlapped MZMs and not so well localized MZMs. We also show that it is possible 
+to access the degree of Majorana nonlocality (topological quality factor) in conductance profiles by tuning the 
+mean photon occupation instead of the QD gate-voltage as in the Prada’s original proposal31,32,36.
+To the best of our knowledge, experimental setups which combine optical and electrical methods to explore 
+the underlying physics of MZMs have not been considered previously. However, QDs in microcavity quantum 
+electrodynamics (QED) devices are routinely studied in optical experiments38,39 and, in recent years, some 
+theoretical works have employed cavity QED for studying MZMs40–43. In such theoretical proposals, the whole 
+Majorana nanowire is placed in a (microwave) cavity, whereas in our approach only the QD is sandwiched 
+between the mirrors that form an optical microcavity. Moreover, in our theoretical approach we introduce a new 
+(optical) degree of freedom in the system such that, on the one hand, it affects only a small part of the full system 
+in contrary to the previous approaches, and on the other hand, allows one optical manipulation of the electrical 
+conductance, thus providing an alternative to access degree of Majorana nonlocality via optical means. It’s worthy 
+noticing that the bridging between cavity QED and topological superconductors supporting Majorana excita-
+tions not only opens new possibilities for MZMs detection schemes, but also can pave a new way for performing 
+quantum computing operations with photons43–45 in Majorana based qubit schemes.
+==============================
+
+==============================
+type: SUBTITLE_6
+typeindex=6 left=152 right=258 upper=580 lower=586
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=151, likeBody=-100
+
+Results and discussion
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=151 right=552 upper=591 lower=716
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=151, likeBody=100
+
+In what follows, we analyze the conductance through the QD [Eq. (6)] as a function of bias-voltage eV, in pres-
+ence of a photonic field in the cavity (Fig. 1a). We take the effective broadening ? = 40µeV as the energy unit34,46. 
+We also use typical parameters for QDs embedded in microcavities47, taking ?v ? EF, ?c = 100? ?968GHz, 
+?R = 2.5?= 0.1meV (? 24GHz). The energy of a cavity mode is taken in resonance with the excitonic transi-
+tion in the QD, ?0 =? =35.1×103? ? 1.4ev (338THz).
+Figure 2 describes the conductance as a function of eV when the QD is coupled only with the left MZM 
+(c,L =40? ), corresponding to the situation of highly nonlocal MZMs (c,R =?M =0 , ? =0 ), for several val-
+ues of ??? . This ideal condition of true topological MZMs is expected for clean disorder-free nanowires25,27, long 
+enough to avoid the overlap between the Majorana wavefunctions located at the opposite ends23. In absence of 
+the cavity photons (? ??= 0), a robust ZBP with G(0) =0.5e2/h appears, as it is shown by the red dashed lines 
+in Fig. 2a,b, characterizing the ‘half-fermionic’ nature of an isolated MZM leaking into the  QD12,34,46,48.The 
+conductance peak localized at eV ? 100? corresponds to the conduction level of the dot renormalized by the 
+finite QD-left MZM coupling.
+==============================
+
+==============================
+Page 3
+ Left 1 Right 550 Top 1 Bottom 765
+
+
+Column meta:
+Column left:116 upper:227 right:516 lower 717
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=3 left=1 right=161 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+www.nature.com/scientificreports/
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-3 left=1 right=134 upper=744 lower=749
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983  |
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=189 right=336 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=510 right=514 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+3
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-5 left=492 right=550 upper=760 lower=765
+====>
+charfont name=Corbel4 charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Vol.:(0123456789)
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=116 right=515 upper=227 lower=283
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=116, likeBody=100
+
+Figure 2.  (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+highly nonlocal MZMs (?M =c,R = 0, ? =0 ) for increasing number of the excitations in the system ???, which 
+can be tuned by external pump (the curves are offset along the y axis for the better viewing). One clearly sees 
+the appearance of additional peaks due to the Rabi splitting. (b) Zoom of the conductance around eV = 0. (c) 
+Conductance through the QD at zero-bias eV = 0 for increasing ???. (d) Colormap showing the conductance 
+behavior as a function of both the eV and ???, for a range of eV corresponding to gray region of (a).
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=116 right=516 upper=310 lower=717
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=116, likeBody=100
+
+For a finite photon occupation ??? =500 (solid blue line, Fig 2a), optically-induced transitions between 
+valence and conduction levels of the QD come into play, splitting the single peak associated with the QD conduc-
+tion level into two polariton peaks located at eV ? 50? and eV ?150?. The higher is the value of ??? , the bigger 
+irse stehme dbliestsa tnhcee R baebtiw sepelnit ttihneg  pfoorl aarnit ionnd ipveidakusa l( Fdiogt.  i2nas,i ddea sah c-advoitttye, dfo grr weehnic ahn 2d? dRo?te??d? b49l a(cFkig l.i 1nbe)s). .N Thoties,  bheohwaevvieorr,  
+that for sufficiently high values of ??? additional polariton peaks stemming from indirect MZM to photon cou-
+pling of lower amplitude appear (see black and magenta curves).
+The amplitude of the peak at zero-bias remains unchanged with increase of the number of the photons 
+(Fig. 2b). This robustness is characteristic for the situation of highly-nonlocal MZMs22,23,25,32. In the same time, 
+the width of the ZBP is monotonously increasing with increase of the number of the cavity photons, which means 
+that the latter affect the effective lifetime of the electronic states of the dot and MZMs.
+In Fig. 2c, the conductance behavior at zero-bias as a function of ??? is shown for several values of c,L. A 
+well-defined plateau of 0.5e2/h, independent on the mean photon occupation, characterizes the robustness of 
+the ZBP for the cases of strong QD-nanowire coupling c,L  ? (magenta stars and red circles). For smaller 
+vac,lLue=s o1f0 ?c2,L?, .t hWe hpelant etahue  Qis Dde isst rtooytaeldly,  adse ccaonu pblee sde ferno min  tthhee  Mgreaejonr alinnae  nwaintho wtriiraen g(sleosl iodf  pFuigrp. 2lec ,l icnoer,r ecs,pLo=nd0i)n,g t htoe  
+conductance at eV = 0 exhibits a single resonance at ???= 1600, which corresponds to the crossing between 
+the photon-induced lower polariton peak and Fermi energy.
+The colormap of Fig. 2d summarizes the conductance behavior as a function of both eV and???, correspond-
+ing to a range of bias-voltage within the gray region of Fig. 2a. One can notice that the photon-induced peak 
+above eV = 0 have its amplitude reduced with the co-emergence of a conductance peak symmetrically localized 
+below eV =  and a ZBP with unchanged 0.5e2/h height pinned at zero-bias. Direct comparison between profile 
+of Fig. 2d and the corresponding results for highly nonlocal MZMs found by Prada et al.32 and others12,13,36,50 
+shows that the increasing of the mean photon occupation (i.e. increasing the pump intensity) is a fast indirect 
+way of tuning the QD energy without applying any gate-voltage due to renormalization of the QD spectrum in 
+the strong light-matter coupling regime, which bridges Quantum Optics and the physics of MZMs.
+It is worth noticing that the quantized ZBP Majorana amplitude of 0.5e2/h33,34,48 shown in the conductance 
+profiles of Fig. 2 is distinct from the 2e2/h quantized Majorana conductance, expected for typical tunneling 
+experiments with Majorana nanowires22,25. This difference comes from the underlying mechanism of electronic 
+transport for each case. For characteristic setups of tunneling spectroscopy experiments4,8,15, the 2e2/h quantized 
+conductance is a result of a perfect resonant zero-energy Andreev reflection in the normal lead-Majorana nanow-
+ire interface3. In our proposal otherwise (Fig. 1a), the transport occurs by normal electron tunneling through the 
+QD due to an applied voltage eV between the source-drain metallic leads, where the quantum of conductance is 
+e2/h [Eq. (6)] per spin channel. Hence, for an isolated MZM which has leaked into the QD level34,48, the amplitude 
+of the ZBP is half of the quantum of conductance for an ordinary spinless electron, indicating the half-fermionic 
+nature of a Majorana mode at zero-energy.
+Figure 3 shows the profiles of conductance through QD coupled to the Majorana nanowire for the case of 
+MZMs still localized at opposite wire ends, but with finite overlap between them ( ?M = 10? ?c,R), which may 
+describe the situation of shorter nanowires23. For a null photon occupation, G(eV) [Eq. (6)] is characterized by 
+two near zero-energy peaks at eV ?±?M (Fig. 3a,b, dashed red lines) coming from the ZBP splitting due to the 
+finite overlap33 and a third peak at eV ?100?, corresponding to the QD conduction level renormalized by the
+==============================
+
+==============================
+Page 4
+ Left 1 Right 552 Top 1 Bottom 765
+
+
+Column meta:
+Column left:152 upper:227 right:552 lower 707
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=37 right=197 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+www.nature.com/scientificreports/
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=37 right=170 upper=744 lower=749
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983  |
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=225 right=372 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-5 left=546 right=550 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+4
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-3 left=1 right=59 upper=760 lower=765
+====>
+charfont name=Corbel4 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Vol:.(1234567890)
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=152 right=549 upper=227 lower=283
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=8, allupper=0, column left=152, likeBody=-100
+
+Figure 3.  (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+overlapped MZMs localized at the nanowire ends (?M =10?, c,R = 0) for increasing numbers of photon 
+occupation ???. For a better viewing, the curves are offset along the y axis. (b) Same curves depicted in (a), but 
+considering eV only near zero-bias without offset along y axis. (c) Conductance through the QD at zero-bias 
+eV =0 for increasing number of ???. (d) Colormap showing the conductance behavior as a function of both the 
+eV and ??? , for a range of eV corresponding to gray region of (a).
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=152 right=552 upper=311 lower=707
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+QD-nanowire coupling (Fig. 3a, dashed red line). As the mean photon occupation is increased, in analogy to 
+what happened for nonoverlapped MZMs, the peak corresponding to the QD conduction level splits into two 
+polariton peaks (Fig. 3a, solid blue line), with the value of this splitting depending on ??? . It can be seen that 
+the increase of the mean photon occupation strongly affects the pattern of near zero-energy peaks associated 
+with overlapped MZMs (see Fig. 3b). First, they become closer to each other, and coalesce into a single peak 
+at zero-bias with height of e2/h for ???= 1600. Further increase of the number of cavity photons leads to the 
+reappearance of the splitting.
+The conductance profile at eV =0 as a function of the mean photon occupation is shown in Fig. 3c. One 
+can notice that the zero-bias conductance plateau corresponding to nonverlapped and highly nonlocal MZMs 
+(solid red line) is destroyed even by a small overlap (dashed blue line). For bigger values of the overlap strength 
+?M, G(eV =0) as a function of ???, exhibits a single peak at ??? =1600 , showing the behavior similar to those 
+corresponding to a QD embedded in an optical cavity and decoupled from the nanowire (Fig. 2a, solid purple 
+line). This similarity characterizes the single-fermion nature of the state formed from the overlap between the 
+two half-fermionic MZMs.
+The conductance through the QD as a function of both eV and photon occupation, corresponding to the eV-
+range within the gray area in Fig. 3a, is shown in Fig. 3d. One can see that the photon-induced transitions in the 
+QD renormalize its spectrum, giving rise to a ‘bowtie-like’ shape, which resembles those found by Prada et al.32.
+In Fig. 4 we display the case in which the MZMs have lost their nonlocal feature (? ?1). This situation quali-
+tatively describes a scenario where the right MZM is displaced towards to left edge of the nanowire, leading to 
+a partial separation between the MZMs and hence a finite overlap between the wavefunction of the right MZM 
+and the QD ( c,R ??M)31,32,36. The emergence of this MZMs with partial separation can result from inhomo-
+geneous confining potentials in the nanowire22,23,25,31. Similarly to Fig. 3a,b, we can notice two near-zero-energy 
+conductance peaks at eV ? ±c,R for the case of zero photon occupation (Fig. 4a,b, dashed red line), which 
+points that the left and right MZMs leak into the dot with different intensities (c,L ?c,R) and form a state of 
+a regular fermionic character.
+The peak corresponding to the QD conduction level at eV ? 100? is again splitted into two polariton peaks in 
+presence of cavity photons, which also affects the position of the near-zero-energy conductance peaks (Fig. 4b). 
+But distinct from the previous case of overlapped MZMs localized at the nanowire edges (Fig. 3b), there is no 
+coalescence into a single peak at eV =0 for certain value of ???.
+Figure 4c displays the evolution of zero-bias conductance as a function of ??? for increasing values of coupling 
+between the right-MZM and the QD. For the ideal situation of highly nonlocal MZMs (solid red line), one can 
+see a ZBP plateau associated to the isolated MZM which has leaked into the dot. A plateau is still present for a 
+tiny value of c,R (dashed orange line), but with a reduction of the ZBP height (G(eV = 0) <0.5e2/h). However, 
+a little enhancement of c,R (dotted green and dash-dotted blue lines) drops the zero-bias conductance to almost 
+zero for any value of ???.
+The behavior of the conductance through the QD as a function of eV and photon occupation ??? is shown in 
+Fig. 4d. One can clearly notice that the near-zero-energy peaks corresponding to these MZMs with less degree 
+of nonlocality slightly move away from each other as photon-induced peak (upper branch in Fig. 4d) is driven 
+towards eV =0 and then start to approach each other again as the photon occupation is increased. This behavior 
+yields a pattern that resembles the ‘diamond-like’ profile reported by Prada et al.32. In this work, it was suggested,
+==============================
+
+==============================
+Page 5
+ Left 1 Right 550 Top 1 Bottom 765
+
+
+Column meta:
+Column left:115 upper:226 right:516 lower 708
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=3 left=1 right=161 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+www.nature.com/scientificreports/
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-3 left=1 right=134 upper=744 lower=749
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983  |
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=189 right=336 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=510 right=514 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+5
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-5 left=492 right=550 upper=760 lower=765
+====>
+charfont name=Corbel4 charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Vol.:(0123456789)
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=115 right=515 upper=226 lower=303
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=100
+
+Figure 4.  (a) Conductance through the QD [Eq. (6)] as a function of bias-voltage eV describing the case of 
+MZMs with less degree of nonlocality (c,R ??M ) for increasing number of photon occupation ???. For a 
+better viewing, the curves are offset along the y axis. (b) Same curves depicted in (a), but considering eV only 
+near zero-bias without offset along y axis. (c) Conductance through the QD at zero-bias eV = 0 for increasing 
+number of ??? considering distinct values of c,R . (d) Colormap showing the conductance behavior as a function 
+of both the eV and ???, for a range of eV corresponding to gray region of (a). Dashed light-green lines indicate 
+?th2e e=ne?rg+ies ?Q+D+ an,d a s? +MprZoMpso osfe adn btiyc rPorsasdina ge tp aoli.n32t.s F eomr pthloey deadt ato s hesotwimna itne  (tdh)e,  deMgre?e o0f. 3M5.ajorana nonlocality
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=164 right=181 upper=298 lower=304
+====>
+charfont name=IDDNOI+MTMI28 charfont height=4.000000, charfont bold=0, alignment=0, allupper=1, column left=115, likeBody=-100
+
+/?QD
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-12 left=122 right=128 upper=302 lower=304
+====>
+charfont name=CLDHIU+MinionPro-It51 charfont height=2.900000, charfont bold=0, alignment=0, allupper=1, column left=115, likeBody=-100
+
+M
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-13 left=145 right=163 upper=302 lower=305
+====>
+charfont name=CLDHIU+MinionPro-It51 charfont height=2.900000, charfont bold=0, alignment=0, allupper=0, column left=115, likeBody=-100
+
+MZMs
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=115 right=516 upper=324 lower=470
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=100
+
+that the degree of Majorana nonlocality can be extracted from the anticrossing points between the QD level and 
+the near-zero energy levels corresponding to MZMs by application of a QD-gate voltage13,32.
+Similarly, in the geometry considered by us, one can also extract the information about the degree of Majorana 
+nonlocality from the photon-induced conductance profile of Fig. 4d. The dot spectrum now is optically, and 
+nAost o erliegcitnraicllayl lpy,r oapnods ethde b cyo Prrreasdpao entd ailn.3g2 , atnhtei cdreogsrseien go fp Moianjtosr ?a+QnDa  nanondl ?o+McaZlMit ya rine  itnundnicealtiendg  bcyo nddaushcetadn cgere perno fililneess13.  
+is Mgiv?en0 b.3y5 ,? o2Mr e?qu?iv2a=len?Mt+lyZ, Ma/ t?oQ+pDo,l ovgailcida lw qhueanli t?yM fa?ctorc o,Lf, ?c,R0..8 F8o3r6, 3t7h, eth puasr ainmdeitceartsin cgo rtrheastp tohned MinZgM tos  Fairge.  n4dot,  
+well-localized at the nanowire edges.
+Once we cannot extract the information about the wavefunctions of the Majorana nanowire within the 
+effective model employed here, we are not able to do a detailed numerical analysis of the degree of Majorana 
+nolocality as done by Prada et al32. However, in Sec. II of the supplementary information we performed a theo-
+retical analysis of the effective spinless Hamiltonian considered throughout this work, showing the matching 
+boretigwieneanll yth per aonptoicsreods sinin Rg epf.o3i2n.ts ?±QD,MZM analytically obtained to extract M within our proposal and those ones
+==============================
+
+==============================
+type: SUBTITLE_6
+typeindex=6 left=116 right=172 upper=485 lower=492
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=115, likeBody=-100
+
+Conclusions
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=116 right=516 upper=496 lower=562
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=100
+
+In summary, we have theoretically explored the effects of strong light-matter coupling on transport properties 
+of the hybrid device, consisting on quantum dot embedded inside a single-mode optical cavity and coupled to a 
+Majorana nanowire. Conductance profiles as functions of the bias-voltage and mean photon occupation num-
+ber controlled by an external pump revealed distinct shapes for the cases of highly nonlocal MZMs, overlapped 
+MZMs localized at opposite nanowire edges and MZMs which are not perfectly nonlocal. This makes possible 
+to access the degree of Majorana nonlocality (topological quality factor) all optically, by means of the tuning of 
+the polariton energies in the dot.
+==============================
+
+==============================
+type: SUBTITLE_6
+typeindex=6 left=116 right=158 upper=577 lower=584
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=115, likeBody=-100
+
+Methods
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=116 right=375 upper=588 lower=594
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=8, allupper=0, column left=115, likeBody=-100
+
+The full Hamiltonian which describes the system of Fig. 1 reads (= 1):
+==============================
+
+==============================
+
+typeindex=-11 left=234 right=396 upper=604 lower=612
+====>
+charfont name=IDDNOI+MinionPro-It46 charfont height=3.300000, charfont bold=0, alignment=16, allupper=0, column left=115, likeBody=-100
+
+H = Hph + HQD + Hint + Hlead + HMZMs,
+==============================
+
+==============================
+
+typeindex=-1 left=504 right=514 upper=606 lower=612
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=115, likeBody=-100
+
+(1)
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=116 right=516 upper=622 lower=708
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=100
+
+where Hph = ?0c†c, is the Hamiltonian of a single-mode optical cavity, with c†,(c) being creation and annihila-
+tion operators of the cavity photons with energy ?0. The Hamiltonian of the QD reads HQD = ?cdc†dc +?vd†vdv, 
+where dv and dc describe the spinless electrons in the valence and conduction levels of the QD with energy ?c 
+and ?v, respectively, and ?= ?c ??v is the energy difference between these levels. The spinless situation can 
+be reached in the regime of large magnetic fields, where only either the spin up or down channel is accounted. 
+In this regime, only single occupancy is allowed at each QD level and therefore the onsite Coulomb repulsion 
+can be safely neglected in HQD. Otherwise, the assumption of both spin degrees of freedom with Coulomb 
+interaction between electrons at each QD level lead to the appearance of extra peaks in the QD energy spectrum, 
+known as Hubbard peaks48,50,51. Moreover, the presence of such a Coulomb repulsion also can lead to Kondo-type
+==============================
+
+==============================
+Page 6
+ Left 1 Right 552 Top 1 Bottom 765
+
+
+Column meta:
+Column left:152 upper:35 right:552 lower 722
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=37 right=197 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+www.nature.com/scientificreports/
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=37 right=170 upper=744 lower=749
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983  |
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=225 right=372 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-5 left=546 right=550 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+6
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-3 left=1 right=59 upper=760 lower=765
+====>
+charfont name=Corbel4 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Vol:.(1234567890)
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=152 right=552 upper=35 lower=62
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=1
+
+correlations for T <TK52,53 or TK/?Nw  0.632,54, where T is the system temperature, TK is the characteristic 
+Kondo temperature and Nw is the induced superconducting pairing in the Majorana nanowire.
+The interaction between the cavity and the QD is given by55
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-11 left=295 right=407 upper=73 lower=83
+====>
+charfont name=IDDNOI+MinionPro-It60 charfont height=3.300000, charfont bold=0, alignment=16, allupper=0, column left=152, likeBody=-100
+
+Hint = ??R(dv†dcc† + dc†dvc),
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-1 left=540 right=550 upper=75 lower=81
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=152, likeBody=-100
+
+(2)
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=152 right=496 upper=92 lower=108
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+where R is the Rabi splitting strength.
+The source (S) and drain (D) metallic leads and their coupling with the QD are described by
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-15 left=300 right=313 upper=117 lower=118
+====>
+charfont name=WIYNXG+CMEX10 charfont height=0.400000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+?
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-15 left=361 right=374 upper=117 lower=118
+====>
+charfont name=WIYNXG+CMEX10 charfont height=0.400000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+?
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-11 left=268 right=435 upper=119 lower=129
+====>
+charfont name=IDDNOI+MinionPro-It61 charfont height=3.300000, charfont bold=0, alignment=16, allupper=0, column left=152, likeBody=-100
+
+Hlead = ??kc†k,?ck,? + Vl(c†k,?dl + h.c),
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-1 left=540 right=550 upper=125 lower=131
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=152, likeBody=-100
+
+(3)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=301 right=311 upper=134 lower=137
+====>
+charfont name=WIYNXG+MinionPro-BoldIt3 charfont height=3.200000, charfont bold=2, alignment=0, allupper=0, column left=152, likeBody=-100
+
+k,?
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-12 left=361 right=373 upper=134 lower=138
+====>
+charfont name=IDDNOI+MinionPro-Regular52 charfont height=3.000000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+k,?,l
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=152 right=552 upper=146 lower=223
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+where ck†,? (ck,?) creates (annihilates) an electron in the lead ? = S/D, with wave-number k, energy ?k? =?k?µ? 
+and chemical potential µ?. The bias-voltage through the QD is defined as eV = µS ?µD. The parameter Vl 
+represents the coupling strength of the conduction ( l =c) and valence ( l =v) levels of the QD with the leads. 
+Once we are considering the situation in which the valence level is far below the Fermi level (?v ? EF,EF =0) 
+(Fig. 1b), one can assume Vv = 0 and Vc = V in Eq. (3) without loss of generality. Introducing even and odd 
+lcHikn,aSema=ril ct(oocnkm,ioabn+in oacftk Ei,oe)qn/. s(?3o2)f   ttarhnaend ss tcfaokt,rDems =so fi (ntcthoke,5e 6l?:eadcks, oc)k,/e?2,o,,  tih.ee.  opderdf osrtmateins gb ethceo munei dtaercyo turpalnesdfo frrmomat itohne  adcocto, radnindg t htoe
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=2 left=359 right=392 upper=228 lower=234
+====>
+charfont name=TEQBMM+MTSYN27 charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+??
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-15 left=296 right=309 upper=233 lower=233
+====>
+charfont name=WIYNXG+CMEX10 charfont height=0.400000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+?
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=315 right=357 upper=235 lower=245
+====>
+charfont name=WIYNXG+MinionPro-BoldIt3 charfont height=3.200000, charfont bold=2, alignment=0, allupper=0, column left=152, likeBody=-100
+
+?kc†k,ack,a +
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=367 right=442 upper=235 lower=245
+====>
+charfont name=IDDNOI+MinionPro-Regular53 charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+2V (c†k,edc + h.c).
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-12 left=260 right=290 upper=236 lower=243
+====>
+charfont name=IDDNOI+MinionPro-It62 charfont height=3.300000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+Hlead =
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-1 left=540 right=550 upper=241 lower=247
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=152, likeBody=-100
+
+(4)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-12 left=292 right=314 upper=248 lower=253
+====>
+charfont name=IDDNOI+MinionPro-It62 charfont height=3.300000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+k,a=e,o
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=384 right=387 upper=250 lower=253
+====>
+charfont name=WIYNXG+MinionPro-BoldIt3 charfont height=3.200000, charfont bold=2, alignment=0, allupper=0, column left=152, likeBody=-100
+
+k
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=152 right=552 upper=263 lower=279
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+The effective Hamiltonian which describes the ‘half-fermionic’ states corresponding to MZMs at the ends of 
+the Majorana nanowire coupled to the QD reads32,36:
+==============================
+
+==============================
+
+typeindex=-11 left=282 right=420 upper=290 lower=299
+====>
+charfont name=IDDNOI+MinionPro-It63 charfont height=3.300000, charfont bold=0, alignment=16, allupper=0, column left=152, likeBody=-100
+
+HMZMs = ??M?L?R + c,L(dc ? dc†)?L
+==============================
+
+==============================
+
+typeindex=-1 left=540 right=550 upper=299 lower=305
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=152, likeBody=-100
+
+(5)
+==============================
+
+==============================
+
+typeindex=-11 left=319 right=391 upper=306 lower=315
+====>
+charfont name=IDDNOI+MinionPro-It63 charfont height=3.300000, charfont bold=0, alignment=16, allupper=0, column left=152, likeBody=-100
+
++ ?c,R(dc + d†c)?R,
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=152 right=552 upper=323 lower=460
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+where ?L,R = ?L†,R represent the MZMs at the opposite ends of the Majorana nanowire with ?M being the overlap 
+strength between  hem3. The hybridization between the left and right MZMs with the conduction level of the 
+dot is given by c,L and c,R, respectively, and one can safely assume, that v,L(R) =0 for the situation of ?v ?EF 
+considered by us, once the MZMs cannot overlap with QD valence level owing to the large energy separation 
+between them. Moreover, the assumption of ?v far below the Fermi level and consequent zero coupling strength 
+between the MZMs and the QD valence level ensures the resonance condition ?= ?c ??v = ?0 within a range 
+of realistic parameters, i.e., ?= ?0 ? eV47.
+The Hamiltonian of Eq. (5) can be rewritten in term?s of a fermionic operator?1,3 by considering the fermionic 
+representation of Majorana operators ?L = (f†+f)/ 2 and ?R = ?(f† ?f)/ 2 , where f obeys the standard 
+fermionic anticommu?tation relations. Hence, E? (5) becomes into HMZMs =?Mf†f +(tcdcf† +?cdcf +h.c.), 
+with tc = (L ?R)/ 2 and ?c =(L+R)/ 2.
+The application of a bias-voltage eV between source and drain leads, leads to the onset of the current through 
+the system, and, according to the Landauer-type formula57,58, at low temperatures (T ?0 ) the conductance 
+through the QD reads:
+==============================
+
+==============================
+
+typeindex=-14 left=339 right=345 upper=471 lower=471
+====>
+charfont name=WIYNXG+CMEX102 charfont height=0.400000, charfont bold=0, alignment=16, allupper=0, column left=152, likeBody=-100
+
+(
+==============================
+
+==============================
+
+typeindex=-7 left=347 right=362 upper=471 lower=477
+====>
+charfont name=IDDNOI+MinionPro-It65 charfont height=4.400000, charfont bold=0, alignment=16, allupper=0, column left=152, likeBody=-100
+
+e2)
+==============================
+
+==============================
+
+typeindex=-9 left=303 right=336 upper=477 lower=484
+====>
+charfont name=IDDNOI+MinionPro-It65 charfont height=4.400000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+G(eV) =
+==============================
+
+==============================
+
+typeindex=-1 left=540 right=550 upper=478 lower=484
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=152, likeBody=-100
+
+(6)
+==============================
+
+==============================
+
+typeindex=-9 left=362 right=399 upper=479 lower=485
+====>
+charfont name=IDDNOI+MTMI42 charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+???c(eV)
+==============================
+
+==============================
+
+typeindex=-7 left=348 right=353 upper=486 lower=490
+====>
+charfont name=IDDNOI+MinionPro-It65 charfont height=4.400000, charfont bold=0, alignment=16, allupper=0, column left=152, likeBody=-100
+
+h
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=152 right=552 upper=501 lower=527
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+where e2/h is the quantum of conductance and ? =2?V2? represents the effective broadening introduced by 
+the coupling between the QD and the even conduction operator of the leads [Eq. (4)], with a constant density of 
+states ?58,59, valid within the the wide-band limit approximation. The local density of states of the dot is given by58:
+==============================
+
+==============================
+
+typeindex=-9 left=301 right=347 upper=539 lower=556
+====>
+charfont name=IDDNOI+MTMI43 charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+?i(?) = ? 1
+?
+==============================
+
+==============================
+
+typeindex=2 left=349 right=401 upper=543 lower=552
+====>
+charfont name=TEQBMM+MTSYN34 charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+Im??dc; dc†???,
+==============================
+
+==============================
+
+typeindex=-1 left=540 right=550 upper=544 lower=550
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=152, likeBody=-100
+
+(7)
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=152 right=552 upper=564 lower=601
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=1
+
+where ??dc;d†c??? ? Gc(?) is the retarded Green’s function in the spectral domain ?60, which can be calculated 
+by successive applications of equation-of-motion  echnique58,60,61 together with an appropriate truncation scheme 
+(see Sec. I of supplementary information for details concerning the equation of motion technique and the trun-
+cation scheme adopted). This gives
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=296 right=434 upper=613 lower=635
+====>
+charfont name=IDDNOI+MTMI44 charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+g0(?)
+1 + g0(?) ?? ? ?pch(?) ? ?MZMs(?)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=260 right=292 upper=616 lower=623
+====>
+charfont name=IDDNOI+MTMI44 charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+Gc(?) =
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=434 right=442 upper=619 lower=623
+====>
+charfont name=IDDNOI+MinionPro-Regular56 charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+],
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-15 left=333 right=337 upper=622 lower=623
+====>
+charfont name=WIYNXG+CMEX103 charfont height=0.400000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+[
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-1 left=540 right=550 upper=622 lower=628
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=152, likeBody=-100
+
+(8)
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=152 right=552 upper=645 lower=663
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=1
+
+where g0(?) =1/(?+????c) is the bare Green’s function of the QD conduction level58,62,63, with ? ?0+. The 
+term ?? describes the corresponding broadening introduced by the coupling with metallic leads and
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=4 left=359 right=382 upper=675 lower=684
+====>
+charfont name=TEQBMM+MTSYN35 charfont height=6.300000, charfont bold=0, alignment=0, allupper=1, column left=152, likeBody=-100
+
+?2R???
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=294 right=331 upper=680 lower=690
+====>
+charfont name=IDDNOI+MTMI45 charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+?pch(?) =
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-1 left=540 right=550 upper=682 lower=688
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=152, likeBody=-100
+
+(9)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=335 right=407 upper=687 lower=695
+====>
+charfont name=IDDNOI+MTMI45 charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=152, likeBody=-100
+
+(? + i? ? ?0 ? ?v)
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=152 right=552 upper=704 lower=722
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+is the self-energy associated to the valence-to-conduction band transition induced by the photonic field of the 
+optical cavity, with ??? =?nc?+Nph being the mean photon occupation, which depends on the number of
+==============================
+
+==============================
+Page 7
+ Left 1 Right 550 Top 1 Bottom 765
+
+
+Column meta:
+Column left:115 upper:36 right:516 lower 720
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=3 left=1 right=161 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+www.nature.com/scientificreports/
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-3 left=1 right=134 upper=744 lower=749
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983  |
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=189 right=336 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=510 right=514 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+7
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-5 left=492 right=550 upper=760 lower=765
+====>
+charfont name=Corbel4 charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Vol.:(0123456789)
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=116 right=516 upper=36 lower=72
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=100
+
+excitations (?nc? ) in the QD and photons (Nph) in the microcavity, which can be tunned by an external optical 
+pump.
+The part of the self-energy associated with the direct coupling between the QD conduction level and MZMs 
+reads:
+==============================
+
+==============================
+
+typeindex=-7 left=239 right=391 upper=83 lower=91
+====>
+charfont name=IDDNOI+MTMI64 charfont height=4.000000, charfont bold=0, alignment=16, allupper=0, column left=115, likeBody=-100
+
+?MZMs(?) = ?1(?) + (tc?c)2?0(?)K(?),
+==============================
+
+==============================
+
+typeindex=-1 left=499 right=514 upper=84 lower=90
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=1, allupper=0, column left=115, likeBody=-100
+
+(10)
+==============================
+
+==============================
+
+typeindex=-8 left=116 right=516 upper=99 lower=120
+====>
+charfont name=IDDNOI+MTMI58 charfont height=4.000000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=-100
+
+w??1h(e?r)e =?0[(??)2c(=?+[(?i?+?i??M+)??M1 )+?1tc2+(?(?++i?i+? ??M?)M?)1?] 1, ]K, (??1()?=) =?0([t?c2)(/?(?++i????+?M?)?c1?+???pch2c((??)+?i???1+(??))M , )w?i1t]h,
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=115 right=516 upper=120 lower=177
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=100
+
+??cph(?) =?2R???/(?+??+ ?0+?v) . If the QD is decoupled from the optical cavity (R = 0), ??cph(?) =0 
+and Eq. (10) is reduced to the well-known expression for the self-energy associated to the leaking of a single 
+MZM into the QD for c,R = 012,33,34,64.
+The presence of ??pch(?) in the expression for K(?) in the self-energy defined in Eq. (10) means that the 
+MZMs somehow ‘feel’ the photonic field, although there is no direct coupling between cavity photons and the 
+Majorana nanowire.
+==============================
+
+==============================
+type: SUBTITLE_6
+typeindex=6 left=116 right=194 upper=190 lower=197
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=115, likeBody=-100
+
+Data availability
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=116 right=516 upper=201 lower=217
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=100
+
+The data that support the findings of this study are available from the corresponding author upon reasonable 
+request.
+==============================
+
+==============================
+
+typeindex=1 left=116 right=302 upper=231 lower=237
+====>
+charfont name=RLJEFQ+TimesNewRomanPSMT charfont height=5.600000, charfont bold=0, alignment=8, allupper=0, column left=115, likeBody=-100
+
+Received: 13 October 2021; Accepted: 4 January 2022
+==============================
+
+==============================
+
+typeindex=6 left=116 right=169 upper=263 lower=270
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=115, likeBody=-100
+
+References
+==============================
+
+==============================
+
+typeindex=-4 left=116 right=516 upper=273 lower=669
+====>
+charfont name=MinionPro-Regular charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=-100
+
+1.  Alicea, J. New directions in the pursuit of Majorana fermions in solid state systems. Rep. Prog. Phys. 75, 076501 (2012).
+  2.  Elliott, S. R. & Franz, M. Colloquium. Rev. Mod. Phys. 87, 137 (2015).
+  3.  Aguado, R. Majorana quasiparticles in condensed matter. Riv. Nuovo Cimento 40, 523 (2017).
+  4.  Lutchyn, R. M. et al. Majorana zero modes in superconductor-semiconductor heterostructures. Nat. Rev. Mater. 3, 52 (2018).
+  5.  Laubscher, K. & Klinovaja, J. Majorana bound states in semiconducting nanostructures. J. Appl. Phys. 130, 081101 (2021).
+  6.  Lutchyn, R. M., Sau, J. D. & Das Sarma, S. Majorana fermions and a topological phase transition in semiconductor-superconductor 
+heterostructures. Phys. Rev. Lett. 105, 077001 (2010).
+  7.  Oreg, Y., Refael, G. & von Oppen, F. Helical liquids and Majorana bound states in quantum wires. Phys. Rev. Lett. 105, 177002 
+(2010).
+  8.  Zhang, H., Liu, D. E., Wimmer, M. & Kouwenhoven L. P. Quantum transport in majorana nanowire devices: next steps, arXiv 
+e-prints (2019), arXiv:1905.07882 [cond-mat.mes-hall].
+  9.  Mourik, V. et al. Signatures of Majorana fermions in hybrid superconductor-semiconductor nanowire devices. Science 336, 1003 
+(2012).
+ 10.  Krogstrup, P. et al. Epitaxy of semiconductor-superconductor nanowires. Nat. Mater. 14, 1476 (2015).
+ 11.  Albrecht, S. M. et al. Exponential protection of zero modes in Majorana islands. Nature 531, 206 (2016).
+ 12.  Deng, M. T. et al. Majorana bound state in a coupled quantum-dot hybrid-nanowire system. Science 354, 1557 (2016).
+ 13.  Deng, M.-T. et al. Nonlocality of Majorana modes in hybrid nanowires. Phys. Rev. B 98, 085125 (2018).
+ 14.  Zhang, H. et al. Ballistic Majorana nanowire devices. Nat. Nanotechnol. 13, 1748 (2018).
+ 15.  Zhang, H. et al. Large zero-bias peaks in InSb-Al hybrid semiconductor-superconductor nanowire devices (2021), arXiv:2101. 
+11456 [cond-mat.mes-hall].
+ 16.  Liu, C.-X., Sau, J. D., Stanescu, T. D. & Das Sarma, S. Andreev bound states versus Majorana bound states in quantum dot-nanowire-
+superconductor hybrid structures: Trivial versus topological zero-bias conductance peaks. Phys. Rev. B 96, 075161 (2017).
+ 17.  Liu, C.-X., Sau, J. D. & Das Sarma, S. Distinguishing topological Majorana bound states from trivial Andreev bound states: Proposed 
+tests through differential tunneling conductance spectroscopy. Phys. Rev. B 97, 214502 (2018).
+ 18.  Hell, M., Flensberg, K. & Leijnse, M. Distinguishing Majorana bound states from localized Andreev bound states by interferometry. 
+Phys. Rev. B 97, 161401 (2018).
+ 19.  Lai, Y.-H., Sau, J. D. & Das Sarma, S. Presence versus absence of end-to-end nonlocal conductance correlations in Majorana 
+nanowires: Majorana bound states versus andreev bound states. Phys. Rev. B 100, 045302 (2019).
+ 20.  Moore, C., Stanescu, T. D. & Tewari, S. Two-terminal charge tunneling: Disentangling Majorana zero modes from partially sepa-
+rated Andreev bound states in semiconductor-superconductor heterostructures. Phys. Rev. B 97, 165302 (2018).
+ 21.  Vuik, A., Nijholt, B., Akhmerov, A. R. & Wimmer, M. Reproducing topological properties with quasi-Majorana states. SciPost 
+Phys. 7, 61 (2019).
+ 22.  Pan, H. & Das Sarma, S. Physical mechanisms for zero-bias conductance peaks in Majorana nanowires. Phys. Rev. Res. 2, 013377 
+(2020).
+ 23.  Prada, E. et al. From Andreev to Majorana bound states in hybrid superconductor-semiconductor nanowires. Nat. Rev. Phys. 2, 
+575 (2020).
+ 24.  Pan, H., Cole, W. S., Sau, J. D. & Das Sarma, S. Generic quantized zero-bias conductance peaks in superconductor-semiconductor 
+hybrid structures. Phys. Rev. B 101, 024506 (2020).
+ 25.  Pan, H., Liu, C.-X., Wimmer, M. & Sarma, S. D. Quantized and unquantized zero-bias tunneling conductance peaks in Majorana 
+nanowires: Conductance below and above 2e2/h (2021), arXiv:2102.02218 [cond-mat.mes-hall].
+ 26.  Pikulin, D. I., Dahlhaus, J. P., Wimmer, M., Schomerus, H. & Beenakker, C. W. J. A zero-voltage conductance peak from weak 
+antilocalization in a Majorana nanowire. New J. Phys. 14, 125011 (2012).
+ 27.  Pan, H. & Sarma, S. D. Disorder effects on Majorana zero modes: Kitaev chain versus semiconductor nanowire (2020), arXiv:2012. 
+12904 [cond-mat.mes-hall].
+ 28.  Aasen, D. et al. Milestones toward Majorana-based quantum computing. Phys. Rev. X 6, 031016 (2016).
+ 29.  Kitaev, A. Y. Unpaired Majorana fermions in quantum wires. Physics-Uspekhi 44, 131 (2001).
+ 30.  Nayak, C., Simon, S. H., Stern, A., Freedman, M. & Das Sarma, S. Non-abelian anyons and topological quantum computation.
+==============================
+
+==============================
+
+typeindex=-6 left=129 right=226 upper=673 lower=678
+====>
+charfont name=MinionPro-It15 charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=115, likeBody=-100
+
+Rev. Mod. Phys. 80, 1083 (2008).
+==============================
+
+==============================
+
+typeindex=-4 left=116 right=516 upper=681 lower=720
+====>
+charfont name=MinionPro-Regular charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=115, likeBody=-100
+
+31.  Peñaranda, F., Aguado, R., San-Jose, P. & Prada, E. Quantifying wave-function overlaps in inhomogeneous Majorana nanowires. 
+Phys. Rev. B 98, 235406 (2018).
+ 32.  Prada, E., Aguado, R. & San-Jose, P. Measuring Majorana nonlocality and spin structure with a quantum dot. Phys. Rev. B 96, 
+085418 (2017).
+ 33.  Liu, D. E. & Baranger, H. U. Detecting a Majorana-fermion zero mode using a quantum dot. Phys. Rev. B 84, 201308 (2011).
+==============================
+
+==============================
+Page 8
+ Left 1 Right 552 Top 1 Bottom 765
+
+
+Column meta:
+Column left:152 upper:36 right:552 lower 675
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=37 right=197 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+www.nature.com/scientificreports/
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=37 right=170 upper=744 lower=749
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983  |
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=225 right=372 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-5 left=546 right=550 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+8
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-3 left=1 right=59 upper=760 lower=765
+====>
+charfont name=Corbel4 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Vol:.(1234567890)
+==============================
+
+==============================
+
+typeindex=-4 left=152 right=552 upper=36 lower=449
+====>
+charfont name=MinionPro-Regular charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=-100
+
+34.  Vernek, E., Penteado, P. H., Seridonio, A. C. & Egues, J. C. Subtle leakage of a Majorana mode into a quantum dot. Phys. Rev. B 89, 
+165314 (2014).
+ 35.  Ricco, L. S. et al. Topological isoconductance signatures in Majorana nanowires. Sci. Rep. 11, 17310 (2021).
+ 36.  Clarke, D. J. Experimentally accessible topological quality factor for wires with zero energy modes. Phys. Rev. B 96, 201109 (2017).
+ 37.  Ricco, L. S., Marques, Y., Sanches, J. E., Shelykh, I. A. & Seridonio, A. C. Interaction induced hybridization of Majorana zero modes 
+in a coupled quantum-dot-superconducting-nanowire hybrid system. Phys. Rev. B 102, 165104 (2020).
+ 38.  Albert, F. et al. Microcavity controlled coupling of excitonic qubits. Nat. Commun. 4, 1747 (2013).
+ 39.  Kasprzak, J. et al. Up on the Jaynes-cummings ladder of a quantum-dot/microcavity system. Nat. Mater. 9, 304 (2010).
+ 40.  Trif, M. & Tserkovnyak, Y. Resonantly tunable Majorana polariton in a microwave cavity. Phys. Rev. Lett. 109, 257002 (2012).
+ 41.  Dartiailh, M. C., Kontos, T., Douuot, B. & Cottet, A. Direct cavity detection of Majorana pairs. Phys. Rev. Lett. 118, 126803 (2017).
+ 42.  Méndez-Córdoba, F. P. M. et al. Rényi entropy singularities as signatures of topological criticality in coupled photon-fermion 
+systems. Phys. Rev. Res. 2, 043264 (2020).
+ 43.  Contamin, L. C., Delbecq, M. R., çot, B. D., Cottet, A. & Kontos, T. Hybrid light-matter networks of Majorana zero modes (2021), 
+arXiv:2103.16679 [cond-mat.mes-hall].
+ 44.  Barz, S. Quantum computing with photons: Introduction to the circuit model, the one-way quantum computer, and the funda-
+mental principles of photonic experiments. J. Phys. B Atom. Mol. Opt. Phys. 48, 083001 (2015).
+ 45.  Zhong, H.-S. et al. Quantum computational advantage using photons. Science 370, 1460. https://doi.org/10.1126/ cience.abe8770 
+(2020).
+ 46.  Bara?ski, J., Bara?ska, M., Zienkiewicz, T., Taranko, R. & Doma?ski, T. Dynamical leakage of Majorana mode into side-attached 
+quantum dot. Phys. Rev. B 103, 235416 (2021).
+ 47.  Khitrova, G., Gibbs, H. M., Kira, M., Koch, S. W. & Scherer, A. Vacuum Rabi splitting in semiconductors. Nat. Phys. 2, 81 (2006).
+ 48.  Ruiz-Tijerina, D. A., Vernek, E., Dias da Silva, L. G. G. V. & Egues, J. C. Interaction effects on a Majorana zero mode leaking into 
+a quantum dot. Phys. Rev. B 91, 115435 (2015).
+ 49.  Cummings, F. W. Stimulated emission of radiation in a single mode. Phys. Rev. 140, A1051 (1965).
+ 50.  Ricco, L. S., de Souza, M., Figueira, M. S., Shelykh, I. A. & Seridonio, A. C. Spin-dependent zero-bias peak in a hybrid nanowire-
+quantum dot system: Distinguishing isolated Majorana fermions from Andreev bound states. Phys. Rev. B 99, 155159 (2019).
+ 51.  Hubbard, J. & Flowers, B. H. Electron correlations in narrow energy bands. Proc. R. Soc. Lond. Ser. A. Math. Phys. Sci. 276, 238 
+(1963).
+ 52.  Cronenwett, S. M., Oosterkamp, T. H. & Kouwenhoven, L. P. A tunable Kondo effect in quantum dots. Science 281, 540 (1998).
+ 53.  Goldhaber-Gordon, D. et al. Kondo effect in a single-electron transistor. Nature 391, 156 (1998).
+ 54.  Lee, E. J. H. et al. Scaling of subgap excitations in a superconductor-semiconductor nanowire quantum dot. Phys. Rev. B 95, 180502 
+(2017).
+ 55.  Shore, B. W. & Knight, P. L. The Jaynes-Cummings model. J. Mod. Optics 40, 1195. https://doi.org/10.1080/09500349314551321 
+(1993).
+ 56.  Ricco, L. S., Campo, V. L., Shelykh, I. A. & Seridonio, A. C. Majorana oscillations modulated by Fano interference and degree of 
+nonlocality in a topological superconducting-nanowire-quantum-dot system. Phys. Rev. B 98, 075142 (2018).
+ 57.  Meir, Y. & Wingreen, N. S. Landauer formula for the current through an interacting electron region. Phys. Rev. Lett. 68, 2512 
+(1992).
+ 58.  Bruus, H. & Flensberg, K. Many-Body Quantum Theory in Condensed Matter Physics: An Introduction, Oxford Graduate Texts 
+(Oxford University Press, 2004).
+ 59.  Anderson, P. W. Localized magnetic states in metals. Phys. Rev. 124, 41 (1961).
+ 60.  Zubarev, D. N. Double-time green functions in statistical physics. Soviet Physics Uspekhi 3, 320 (1960).
+ 61.  Haug, H. & Jauho, A. Quantum Kinetics in Transport and Optics of Semiconductors, Springer Series in Solid-State Sciences (Springer, 
+2008).
+ 62.  Dyson, F. J. The s matrix in quantum electrodynamics. Phys. Rev. 75, 1736 (1949).
+ 63.  Odashima, M. M., Prado, B. G. & Vernek, E. Pedagogical introduction to equilibrium Green’s functions: Condensed-matter 
+examples with numerical implementations. Rev. Bras. Ensino Físhttps://doi.org/10.1590/1806-9126-rbef-2016-0087 (2017).
+ 64.  Campo, V. L., Ricco, L. S. & Seridonio, A. C. Isolating Majorana fermions with finite Kitaev nanowires and temperature: Universality 
+of the zero-bias conductance. Phys. Rev. B 96, 045135 (2017).
+==============================
+
+==============================
+
+typeindex=6 left=152 right=247 upper=462 lower=469
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=152, likeBody=-100
+
+Acknowledgements
+==============================
+
+==============================
+
+typeindex=0 left=152 right=552 upper=473 lower=499
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=-102
+
+LSR, VKK and IAS acknowledge support from Icelandic Research Fund (project “Hybrid polaritonics”) and 
+Russian Science Foundation (project 20-12-00224). ACS acknowledges support from Brazilian National Council 
+for Scientific and Technological Development (CNPq), grant 305668/2018-8.
+==============================
+
+==============================
+type: SUBTITLE_6
+typeindex=6 left=152 right=252 upper=512 lower=519
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=152, likeBody=-100
+
+Author contributions
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=152 right=552 upper=523 lower=549
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+L.S.R., V.K.K. and I.A.S. conceived the project. L.S.R. carried out the calculations and plotted the figures, with 
+contributions from V.K.K. L.S.R. and I.A.S. wrote the paper with contributions from A.C.S. and V.K.K. All 
+authors revised the manuscript.
+==============================
+
+==============================
+
+typeindex=6 left=152 right=251 upper=563 lower=570
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=152, likeBody=-100
+
+Competing interests
+==============================
+
+==============================
+
+typeindex=1 left=152 right=309 upper=574 lower=580
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=8, allupper=0, column left=152, likeBody=-100
+
+The authors declare no competing interests.
+==============================
+
+==============================
+type: SUBTITLE_6
+typeindex=6 left=152 right=261 upper=593 lower=600
+====>
+charfont name=JVAGHG+Corbel-Bold charfont height=6.600000, charfont bold=2, alignment=8, allupper=0, column left=152, likeBody=-100
+
+Additional information
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=152 right=552 upper=604 lower=675
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=152, likeBody=100
+
+Supplementary Information The online version contains supplementary material available at https://doi.org/ 
+10.1038/s41598-022-05855-y.
+Correspondence and requests for materials should be addressed to L.S.R.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+==============================
+
+==============================
+Page 9
+ Left 1 Right 550 Top 1 Bottom 765
+
+
+Column meta:
+Column left:116 upper:36 right:516 lower 132
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=3 left=1 right=161 upper=1 lower=7
+====>
+charfont name=Corbel4 charfont height=6.000000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+www.nature.com/scientificreports/
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-3 left=1 right=134 upper=744 lower=749
+====>
+charfont name=Corbel2 charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Scientific Reports |         (2022) 12:1983  |
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=189 right=336 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1038/s41598-022-05855-y
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-6 left=510 right=514 upper=744 lower=749
+====>
+charfont name=UYTEFK+Corbel charfont height=4.800000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+9
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-5 left=492 right=550 upper=760 lower=765
+====>
+charfont name=Corbel4 charfont height=4.800000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Vol.:(0123456789)
+==============================
+
+==============================
+
+typeindex=0 left=116 right=516 upper=36 lower=112
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=2, allupper=0, column left=116, likeBody=-100
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the 
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from 
+the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+==============================
+
+==============================
+
+typeindex=1 left=116 right=194 upper=126 lower=132
+====>
+charfont name=MinionPro-Regular charfont height=5.900000, charfont bold=0, alignment=8, allupper=0, column left=116, likeBody=-100
+
+© The Author(s) 2022
+==============================
+
+==============================
+Page 10
+ Left 1 Right 546 Top 1 Bottom 84
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=7 left=1 right=546 upper=1 lower=84
+====>
+charfont name=ArialMT charfont height=10.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+© The Author(s) 2022. This work is published under
+http://creativecommons.org/licenses/by/4.0/(the “License”). Notwithstanding
+the ProQuest Terms and Conditions, you may use this content in accordance
+with the terms of the License.
+==============================
+

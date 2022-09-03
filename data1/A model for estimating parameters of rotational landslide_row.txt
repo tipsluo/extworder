@@ -1,0 +1,804 @@
+Page: 1 left:1 upper:1
+Turkish Journal of Earth Sciences
+page=1 block=1581078471 (x=130 y=2) width=168 height=7 fontname=QPWBWR+MinionPro-Bold wordint.min=3 wordint.max=5
+http://journals.tubitak.gov.tr/earth/
+page=1 block=1932332324 (x=148 y=22) width=131 height=5 fontname=QPWBWR+MinionPro-Bold wordint.min=1 wordint.max=17
+Research Article
+page=1 block=33233312 (x=172 y=41) width=84 height=7 fontname=QPWBWR+MinionPro-Bold wordint.min=3 wordint.max=5
+A model for estimating parameters of rotational landslide
+page=1 block=1860491691 (x=86 y=86) width=313 height=8 fontname=QPWBWR+MinionPro-Bold wordint.min=3 wordint.max=5
+using a first-order differential equation 
+page=1 block=1860491691 (x=136 y=102) width=215 height=8 fontname=QPWBWR+MinionPro-Bold wordint.min=3 wordint.max=5
+Cahit Ta?? ÇEL?K*
+page=1 block=1515403487 (x=207 y=128) width=71 height=6 fontname=QPWBWR+MinionPro-Bold wordint.min=2 wordint.max=4
+Department of Geomatic Engineering, Faculty of Engineering, Ni?de Ömer Halisdemir University, Ni?de, Turkey
+page=1 block=1099717276 (x=39 y=139) width=407 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Received: 28.06.2017               Accepted/Published Online: 11.08.2017               Final Version: 29.09.2017
+page=1 block=417557780 (x=52 y=170) width=381 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Abstract: A first-order differential equation was developed and proposed as a search tool in the detection and determination of rotational 
+page=1 block=1350751778 (x=1 y=201) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslides from two epochs of light detection and ranging (LiDAR) system data in the form of 3D points. To test the proposed method 
+page=1 block=1350751778 (x=1 y=212) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+two epochs of LiDAR data were used: one before and one after a rotational landslide occurred. The first epoch of LiDAR data was real, 
+page=1 block=1350751778 (x=1 y=223) width=484 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+while the second epoch of LiDAR data was simulated based on the first epoch to ensure one or more rotational landslides were included. 
+page=1 block=1350751778 (x=1 y=233) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+From the last returns of LiDAR data of both epochs, two functional surfaces were created. Then elevation differences were obtained for 
+page=1 block=1350751778 (x=1 y=244) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+identical points in both surfaces. The differenced elevations mainly contain two types of data; one type consists of unchanged elevation 
+page=1 block=1350751778 (x=1 y=255) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+differences and the other type includes changed elevation differences. The second type may be considered as outliers with respect to the 
+page=1 block=1350751778 (x=1 y=266) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+former. Next, segmentation was performed using the determined outliers. Finally, segmented data were used to estimate the rotational 
+page=1 block=1350751778 (x=1 y=277) width=484 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslide parameters. Using the model, all rotational landslides were detected and their parameters estimated, which were consistent 
+page=1 block=1350751778 (x=1 y=287) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+with simulation parameters. In conclusion, the developed model is capable of detecting and determining rotational landslides from 3D 
+page=1 block=1350751778 (x=1 y=298) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+data.
+page=1 block=1350751778 (x=1 y=309) width=18 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+Key words: Modelling, first-order differential equations, segmentation, rotational landslides, LiDAR
+page=1 block=332699949 (x=1 y=331) width=359 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+277
+page=1 block=808417649 (x=467 y=666) width=16 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+1. Introduction
+page=1 block=858204589 (x=1 y=366) width=64 height=6 fontname=QPWBWR+MinionPro-Bold wordint.min=2 wordint.max=4
+Landslide determinations and monitoring are important 
+page=1 block=1976752685 (x=1 y=378) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+for understanding their structures and behaviors. Studies 
+page=1 block=1976752685 (x=1 y=390) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+for  determinations of landslides have utilized a digital 
+page=1 block=1976752685 (x=1 y=402) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+terrain model (DTM) created by different sources of data 
+page=1 block=1976752685 (x=1 y=414) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+including light detection and ranging (LiDAR), which is 
+page=1 block=1976752685 (x=1 y=426) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+a powerful tool to create a bare ground model, canopy 
+page=1 block=1976752685 (x=1 y=438) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+model, etc. (Shan and Toth, 2009). Following the creation 
+page=1 block=1976752685 (x=1 y=450) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+of the  DTM, some terrain  analysis  is  usual  for  slope, 
+page=1 block=1976752685 (x=1 y=462) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+aspect, and curvature models in raster format. Using the 
+page=1 block=1976752685 (x=1 y=474) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+results of terrain analysis along with soil parameters, a 
+page=1 block=1976752685 (x=1 y=486) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslide susceptibility map is created, which is generally 
+page=1 block=1976752685 (x=1 y=498) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+based on a single epoch of the DTM (Ostu, 1979; McKean 
+page=1 block=1976752685 (x=1 y=510) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and Roering, 2004; Glenn, et al., 2006; Van Westen, et 
+page=1 block=1976752685 (x=1 y=522) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+al., 2008; Shahabi  and Hashim,  2015). Remote  sensing 
+page=1 block=1976752685 (x=1 y=534) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+techniques  have  been  used  for  detection  of  landslides 
+page=1 block=1976752685 (x=1 y=546) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+by  several  researchers.  Fernández et al. (2008) studied 
+page=1 block=1976752685 (x=1 y=558) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslide detection in rock masses at Betic Cordilleras, 
+page=1 block=1976752685 (x=1 y=570) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Spain. Two multitemporal epochs of LiDAR data along 
+page=1 block=1976752685 (x=1 y=582) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+with supplemental optical satellite imagery were used by 
+page=1 block=1976752685 (x=1 y=594) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Burns et al. (2010) to detect landslides bigger than 0.5 
+page=1 block=1976752685 (x=1 y=606) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+m. A review was done by Jaboyedoff et al. (2012). Chen 
+page=1 block=1976752685 (x=1 y=618) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+et al. (2014) proposed a landslide  detection  procedure 
+page=1 block=1976752685 (x=1 y=630) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+* Correspondence: ctcelik@ohu.edu.tr
+page=1 block=1115170891 (x=1 y=654) width=137 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Turkish J Earth Sci
+page=1 block=156710276 (x=374 y=1) width=75 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+(2017) 26: 277-283
+page=1 block=156710276 (x=374 y=13) width=75 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+© TÜB?TAK
+page=1 block=156710276 (x=374 y=25) width=51 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+doi:10.3906/yer-1706-25
+page=1 block=156710276 (x=374 y=37) width=97 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+in a forested  area, involving aspect, slope  images, and 
+page=1 block=53940034 (x=252 y=366) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+a  DTM.  Hastao?lu  (2013)  utilized  dynamic  Kalman 
+page=1 block=53940034 (x=252 y=378) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+filtering  in  dynamic  and  kinematic  modelling.  For  a 
+page=1 block=53940034 (x=252 y=390) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+forested area, a landslide susceptibility map was created 
+page=1 block=53940034 (x=252 y=402) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+by  Eker  and  Ayd?n (2014).  For areas of  different size, 
+page=1 block=53940034 (x=252 y=414) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+geo-environmental setting, and  landslide types, Hussin 
+page=1 block=53940034 (x=252 y=426) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+et al. (2016) proposed a landslide  susceptibility model 
+page=1 block=53940034 (x=252 y=438) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+based on weights-of-evidence (WoE). The majority of the 
+page=1 block=53940034 (x=252 y=450) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+studies described above used pixel-based procedures for 
+page=1 block=53940034 (x=252 y=462) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+one epoch of data. However, two epochs of 3D data (one 
+page=1 block=53940034 (x=252 y=474) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+before and after the landslide occurred) may reveal more 
+page=1 block=53940034 (x=252 y=486) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+realistic results for elevation change in topography (Burns 
+page=1 block=53940034 (x=252 y=498) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+et al., 2010). Consequently, modeling them can help one 
+page=1 block=53940034 (x=252 y=510) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+to determine realistic results for landslide determination. 
+page=1 block=53940034 (x=252 y=522) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+One type of landslide is a rotational landslide classified by 
+page=1 block=53940034 (x=252 y=534) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Varnes (1978). In this field, more modeling for detection 
+page=1 block=53940034 (x=252 y=546) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and estimation of landslides is needed.
+page=1 block=53940034 (x=252 y=558) width=154 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+In the present study, a first-order differential equation 
+page=1 block=53940034 (x=266 y=570) width=220 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+that  governs  a  rotational  landslide  is  developed  and 
+page=1 block=53940034 (x=252 y=582) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+proposed as a search tool in detecting and determining 
+page=1 block=53940034 (x=252 y=594) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the parameters of rotational landslides from two epochs of 
+page=1 block=53940034 (x=252 y=606) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+LiDAR data: one before and one after a rotational landslide 
+page=1 block=53940034 (x=252 y=618) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+occurred.
+page=1 block=53940034 (x=252 y=630) width=38 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 2 left:1 upper:1
+ÇEL?K / Turkish J Earth Sci
+page=2 block=1616359099 (x=187 y=1) width=111 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Figure 1. A typical rotational landslide (Varnes, 1978).
+page=2 block=1676605578 (x=86 y=658) width=196 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+278
+page=2 block=1394940518 (x=1 y=688) width=16 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+This study  presents some novelties as follows: a) a 
+page=2 block=1750286943 (x=16 y=30) width=219 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+model for estimation of parameters of rotational landslides 
+page=2 block=1750286943 (x=1 y=42) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+is proposed based on first-order differential equations, b) it 
+page=2 block=1750286943 (x=1 y=54) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+presents itself as a tool for detection of rotational landslides, 
+page=2 block=1750286943 (x=1 y=66) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+c)  the  proposed  procedure  is  different  from others in 
+page=2 block=1750286943 (x=1 y=78) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+dealing with vector data (in the form of 3-dimensional 
+page=2 block=1750286943 (x=1 y=90) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+coordinates) as opposed to pixel values, d) this approach 
+page=2 block=1750286943 (x=1 y=102) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+deals with the subject from the view of deformations.
+page=2 block=1750286943 (x=1 y=114) width=212 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+2. Materials and methods
+page=2 block=892083096 (x=1 y=138) width=106 height=6 fontname=QPWBWR+MinionPro-Bold wordint.min=2 wordint.max=4
+In this section, model development is given first, then the 
+page=2 block=554868511 (x=1 y=150) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+proposed model is implemented, and finally a description 
+page=2 block=554868511 (x=1 y=162) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+of the data is given.
+page=2 block=554868511 (x=1 y=174) width=77 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+2.1. Model development
+page=2 block=1520387953 (x=1 y=188) width=99 height=7 fontname=QPWBWR+MinionPro-Semibold wordint.min=2 wordint.max=4
+Surfaces may be represented in implicit form as  at time t1 
+page=2 block=674019271 (x=1 y=200) width=234 height=10 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and  at time t2 before and after a rotational landslide has 
+page=2 block=674019271 (x=1 y=212) width=234 height=10 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+occurred, respectively. When elevation differences of these 
+page=2 block=674019271 (x=1 y=224) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+surfaces are taken, the resulting function can be written as
+page=2 block=2106165633 (x=1 y=236) width=231 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+f(x,y)=h2 (x,y)-h1 (x,y), 
+page=2 block=1221991240 (x=16 y=260) width=73 height=10 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+          (1)
+page=2 block=1758624236 (x=197 y=260) width=34 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+where
+page=2 block=630028734 (x=1 y=284) width=25 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+  A  rotational  landslide  classified  by  Varnes  (1978) 
+page=2 block=351877391 (x=16 y=344) width=219 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+is shown in Figure 1; it gives an insight into what the 
+page=2 block=351877391 (x=1 y=356) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+difference  function  f (x, y)  could be for a  meaningful 
+page=2 block=351877391 (x=1 y=368) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+elevation change. The profile AA’ represents only the part 
+page=2 block=351877391 (x=1 y=380) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+of  in Figure 1, where there are changes in elevations.
+page=2 block=351877391 (x=1 y=392) width=211 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+A function of the elevation differences between time t2 
+page=2 block=1812823171 (x=266 y=30) width=220 height=9 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and t1 approximates the final state (Figure 2). 
+page=2 block=1812823171 (x=252 y=42) width=181 height=9 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+The blue line represents simple elevation difference 
+page=2 block=1812823171 (x=266 y=54) width=220 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and the red  curve  represents best-fit sinus function to 
+page=2 block=1812823171 (x=252 y=66) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the simple difference, respectively, as shown in Figure 2. 
+page=2 block=1812823171 (x=252 y=78) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+An elevation-differenced surface can be subdivided into 
+page=2 block=1812823171 (x=252 y=90) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+profiles consisting of discrete  points with  a  reasonable 
+page=2 block=1812823171 (x=252 y=102) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+width along the steepest slope direction (Figure 3a).
+page=2 block=1812823171 (x=252 y=114) width=207 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Then  each  profile  (Figure  3a),  which may or  may 
+page=2 block=1812823171 (x=266 y=126) width=220 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+not contain points  whose  elevations changed due to a 
+page=2 block=1812823171 (x=252 y=138) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+rotational landslide, may be represented by an approximate 
+page=2 block=1812823171 (x=252 y=150) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+piecewise function considering Figure 3b as
+page=2 block=1812823171 (x=252 y=162) width=175 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+,   (2)
+page=2 block=392918519 (x=463 y=187) width=20 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+where  f  p  represents  elevations  differences  of  points 
+page=2 block=1499840045 (x=252 y=221) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+whose horizontal coordinates are on a pth profile. Simple 
+page=2 block=1499840045 (x=252 y=234) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+differences of the elevations may be written considering 
+page=2 block=1499840045 (x=252 y=246) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Figures 3a and 3b as
+page=2 block=1499840045 (x=252 y=258) width=81 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ 
+page=2 block=67749199 (x=266 y=282) width=3 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ 
+page=2 block=65488937 (x=288 y=282) width=2 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+               (3)
+page=2 block=1332691311 (x=442 y=288) width=41 height=12 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+       
+page=2 block=999230073 (x=252 y=294) width=14 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+Eq. (3) can be rewritten in difference equation form as
+page=2 block=1910936570 (x=266 y=318) width=216 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ 
+page=2 block=1215904751 (x=266 y=342) width=3 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ 
+page=2 block=2099802038 (x=465 y=342) width=2 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+                                       (4)
+page=2 block=1052212904 (x=384 y=349) width=99 height=11 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+      
+page=2 block=2072724423 (x=252 y=354) width=14 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+,                                                    (5)
+page=2 block=2058135834 (x=353 y=379) width=130 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 3 left:1 upper:1
+ÇEL?K / Turkish J Earth Sci
+page=3 block=1153907750 (x=187 y=1) width=111 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Figure 2. Elevation differences of a rotational landslide and best-fit sinus curve.
+page=3 block=1090541608 (x=72 y=257) width=285 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Figure 3. A profiled elevation differenced surface (a) (lower) and two profiles with rotational landslide (b) (upper). 
+page=3 block=1622458036 (x=30 y=521) width=412 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+279
+page=3 block=2144284609 (x=467 y=688) width=16 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+where  is an instant of time and therefore considered as 
+page=3 block=34871826 (x=1 y=550) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+unity. Then a first-order differential equation is produced as
+page=3 block=34871826 (x=1 y=562) width=231 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+,                                                    (6)
+page=3 block=1100399456 (x=101 y=586) width=132 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+where a is a maximum depletion height of a rotational 
+page=3 block=68326648 (x=1 y=610) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslide serving as the amplitude of a sinus function and 
+page=3 block=68326648 (x=1 y=622) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+s is the normalized distance to fit into a 2? period along 
+page=3 block=68326648 (x=1 y=634) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the steepest slope direction of a particular profile and b 
+page=3 block=68326648 (x=1 y=646) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+is a phase angle. It is noted here that the sin function may 
+page=3 block=68326648 (x=1 y=658) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+include a frequency parameter, but only one cycle of the 
+page=3 block=35984028 (x=252 y=550) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+sinus function is considered, which may represent different 
+page=3 block=35984028 (x=252 y=562) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+movements; therefore it is not considered in this problem.
+page=3 block=35984028 (x=252 y=574) width=231 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+The left-hand side of Eq. (6) is a derivative with an 
+page=3 block=35984028 (x=266 y=586) width=220 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+independent variable time, t, while the right-hand side 
+page=3 block=35984028 (x=252 y=598) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+with an independent variable distance, s. That is a first-
+page=3 block=35984028 (x=252 y=610) width=231 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+order differential equation with unit coefficient of h (t) 
+page=3 block=35984028 (x=252 y=622) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+subject to the initial condition with elevation values of 
+page=3 block=35984028 (x=252 y=634) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+points  along a profile in the region. The integral form of 
+page=3 block=35984028 (x=252 y=646) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Eq. (6) is given by
+page=3 block=35984028 (x=252 y=658) width=72 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 4 left:1 upper:1
+ÇEL?K / Turkish J Earth Sci
+page=4 block=541285440 (x=187 y=1) width=111 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+280
+page=4 block=1463355115 (x=1 y=688) width=16 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+ 
+page=4 block=1201466784 (x=16 y=30) width=2 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ 
+page=4 block=1829217853 (x=214 y=30) width=2 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+                                               (7)
+page=4 block=1461474945 (x=114 y=38) width=118 height=10 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+     
+page=4 block=1217207511 (x=1 y=42) width=12 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+,                                                (8)
+page=4 block=1759250827 (x=110 y=64) width=122 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+ 
+page=4 block=951741667 (x=16 y=66) width=2 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+where t is an independent variable (time), which may be 
+page=4 block=220695851 (x=1 y=90) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+understood as a unit value due to most landslides not 
+page=4 block=220695851 (x=1 y=102) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+being a slow process with respect to time, that is an instant 
+page=4 block=220695851 (x=1 y=114) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+of time. 
+page=4 block=220695851 (x=1 y=126) width=33 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Eq.  (8)  is  a  general  solution  to  the  first-order 
+page=4 block=220695851 (x=16 y=138) width=219 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+differential equation, and the integration constant c may 
+page=4 block=220695851 (x=1 y=150) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+be approximately taken  as . Here the slope  is  the one 
+page=4 block=220695851 (x=1 y=162) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+calculated  along  the  steepest  slope  direction.  For  the 
+page=4 block=220695851 (x=1 y=174) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+second epoch the equation is given by 
+page=4 block=220695851 (x=1 y=186) width=154 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ 
+page=4 block=220695851 (x=16 y=198) width=2 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ 
+page=4 block=762074108 (x=214 y=198) width=2 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+      
+page=4 block=636782475 (x=1 y=210) width=14 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+   
+page=4 block=1312963234 (x=148 y=210) width=7 height=6 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+                                                                                           (9)
+page=4 block=2143139988 (x=16 y=234) width=216 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Finally, the solution can be written in terms of the 
+page=4 block=813823788 (x=16 y=270) width=219 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+difference of both epochs as
+page=4 block=813823788 (x=1 y=282) width=111 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ 
+page=4 block=813823788 (x=16 y=294) width=2 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+                                                   (10)
+page=4 block=826865256 (x=101 y=304) width=131 height=8 fontname=LFJXEB+MinionPro-It wordint.min=2 wordint.max=4
+The parameters a and b can be estimated by a least 
+page=4 block=1845517769 (x=16 y=330) width=219 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+square  technique.  Eq.  (10)  may  be  a  useful  tool  for 
+page=4 block=1845517769 (x=1 y=342) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the  detection  and  determination  of  the  parameters  of 
+page=4 block=1845517769 (x=1 y=354) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+rotational landslides.
+page=4 block=1845517769 (x=1 y=366) width=84 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+2.2. Implementation of the proposed model
+page=4 block=2095788421 (x=1 y=380) width=179 height=7 fontname=QPWBWR+MinionPro-Semibold wordint.min=2 wordint.max=4
+To  implement  the proposed model,  two  surfaces  were 
+page=4 block=1131184547 (x=1 y=392) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+created using the last return of LiDAR data: one before 
+page=4 block=1131184547 (x=1 y=404) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and one after a rotational landslide occurred. Then profile 
+page=4 block=1131184547 (x=1 y=416) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the surfaces along the steepest slope direction. Next, take 
+page=4 block=1131184547 (x=1 y=428) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the elevation differences of identical points in each profile 
+page=4 block=1131184547 (x=1 y=440) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and use these profiles to determine outliers in elevation 
+page=4 block=1131184547 (x=1 y=452) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+differences by drawing a box plot, which reveals outlying 
+page=4 block=1131184547 (x=1 y=464) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+height differences with 95% confidence. Then impose a 
+page=4 block=1131184547 (x=1 y=476) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+condition in each profile whether the elevation differences 
+page=4 block=1131184547 (x=1 y=488) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+obey sin waveform, which does not require the value of 
+page=4 block=1131184547 (x=1 y=500) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the parameters in Eq. (10) at this stage of segmentation. 
+page=4 block=1131184547 (x=1 y=512) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+This condition searches a number of successive positive 
+page=4 block=1131184547 (x=1 y=524) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+elevation differences followed by a number of successive 
+page=4 block=1131184547 (x=1 y=536) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+negative elevation differences. This process can group them 
+page=4 block=1131184547 (x=1 y=548) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and distinguish each  profile obeying the sin waveform 
+page=4 block=1131184547 (x=1 y=560) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+from others. Introduction of this technique was given by 
+page=4 block=1131184547 (x=1 y=572) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Celik (2016). Finally, each group is used to estimate the 
+page=4 block=1131184547 (x=1 y=584) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+values  of the  parameters a, and  b using  the proposed 
+page=4 block=1131184547 (x=1 y=596) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+model (Eq. (10)).
+page=4 block=1131184547 (x=1 y=608) width=69 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+2.3. Description of LiDAR data
+page=4 block=895599632 (x=1 y=623) width=128 height=7 fontname=QPWBWR+MinionPro-Semibold wordint.min=2 wordint.max=4
+The data used in this study were of two types, real LiDAR 
+page=4 block=1508059488 (x=1 y=635) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+data and  simulated  LiDAR data. The real  LiDAR data 
+page=4 block=1508059488 (x=1 y=647) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+were collected by the Ohio Department of Transportation 
+page=4 block=1508059488 (x=1 y=659) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+(ODOT) in 2008 North Zenesville, Ohio, the data of which 
+page=4 block=2082557120 (x=252 y=30) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+are based  on  the NAD HARN State Plane Coordinate 
+page=4 block=2082557120 (x=252 y=42) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+System  for  Ohio  South Zone  FIPS 3402  converted  to 
+page=4 block=2082557120 (x=252 y=54) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+meters. An estimated resolution of the LiDAR data was 
+page=4 block=2082557120 (x=252 y=66) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+50 cm. Point spacing was determined as 2.91, which is a 
+page=4 block=2082557120 (x=252 y=78) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+number obtained by the total area covered by LiDAR data 
+page=4 block=2082557120 (x=252 y=90) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+divided by the total number of points. Estimated horizontal 
+page=4 block=2082557120 (x=252 y=102) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+location and vertical accuracies were 9–15 cm and 15–25 
+page=4 block=2082557120 (x=252 y=114) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+cm, respectively. The second type of data was simulated 
+page=4 block=2082557120 (x=252 y=126) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+based on the real LiDAR data. In the prepared set, three 
+page=4 block=2082557120 (x=252 y=138) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+rotational landslides  were  inserted having  the  sizes of 
+page=4 block=2082557120 (x=252 y=150) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+6 × 9 m, 7.5 × 12 m, and 6 × 10.5 m with 2D landslide 
+page=4 block=2082557120 (x=252 y=162) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+deposit aspect ratio (amplitude) 11%, 12.5%, and 11.8%, 
+page=4 block=2082557120 (x=252 y=174) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+respectively.
+page=4 block=2082557120 (x=252 y=186) width=49 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+3. Results and discussion
+page=4 block=1533524862 (x=252 y=210) width=104 height=6 fontname=QPWBWR+MinionPro-Bold wordint.min=2 wordint.max=4
+A box plot of elevation differenced data is given in Figure 
+page=4 block=1620948294 (x=252 y=222) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+4. Here there are two horizontal lines following the narrow 
+page=4 block=1620948294 (x=252 y=234) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+rectangular box in the middle. The points located above 
+page=4 block=1620948294 (x=252 y=246) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and below the  two lines were  considered outliers  (red 
+page=4 block=1620948294 (x=252 y=258) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ones), which refer to the moved points. 
+page=4 block=1620948294 (x=252 y=270) width=159 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+This  approach  is  robust  to  outliers  due  to  the 
+page=4 block=1620948294 (x=266 y=282) width=220 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+interquartile range used as a confidence interval. For 95% 
+page=4 block=1620948294 (x=252 y=294) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+confidence level, the interquartile range is multiplied by 
+page=4 block=1620948294 (x=252 y=306) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+1.5. By taking the outlying points (or deformed points), 
+page=4 block=1620948294 (x=252 y=318) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the area was segmented and three significant rotational 
+page=4 block=1620948294 (x=252 y=330) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslides were detected (Figure 5) and their locations are 
+page=4 block=1620948294 (x=252 y=342) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+plotted in Figure 6.
+page=4 block=1620948294 (x=252 y=354) width=76 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+This robust approach in segmentation was found to 
+page=4 block=1620948294 (x=266 y=366) width=220 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+be  successful  in  determining  the rotational landslides. 
+page=4 block=1620948294 (x=252 y=378) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+However, the steepest slope direction is very important 
+page=4 block=1620948294 (x=252 y=390) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+for the approach to be successful. If the direction of the 
+page=4 block=1620948294 (x=252 y=402) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+rotational landslide is  not  coincided with  the  steepest 
+page=4 block=1620948294 (x=252 y=414) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+slope  direction,  then this  approach may be  used for a 
+page=4 block=1620948294 (x=252 y=426) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+preliminary search for possible landslides and then the 
+page=4 block=1620948294 (x=252 y=438) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+slope direction is re-determined and applied for the region 
+page=4 block=1620948294 (x=252 y=450) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+for  proper  determination.  The  positions  of  simulated 
+page=4 block=1620948294 (x=252 y=462) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Figure 4. Box plot of elevation differenced data.
+page=4 block=552937500 (x=252 y=659) width=171 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 5 left:1 upper:1
+ÇEL?K / Turkish J Earth Sci
+page=5 block=1455695758 (x=187 y=1) width=111 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+281
+page=5 block=807328355 (x=467 y=688) width=16 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+Figure 5. Segmentation results.
+page=5 block=1025797795 (x=40 y=276) width=112 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Figure 6. Locations of three rotational landslides.
+page=5 block=873993427 (x=35 y=511) width=177 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslides  were  selected  on  purpose  to  evaluate  the 
+page=5 block=1134013833 (x=1 y=539) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+approach for rotational landslides that shadow each other 
+page=5 block=1134013833 (x=1 y=551) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+from the profiling point of view. This is important in the 
+page=5 block=1134013833 (x=1 y=563) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+assessment of the segmentation as recommended by Celik 
+page=5 block=1134013833 (x=1 y=575) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+(2016). It is important to stress here that this approach 
+page=5 block=1134013833 (x=1 y=587) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+uses point data in 3-D vector format, which differs from 
+page=5 block=1134013833 (x=1 y=599) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the conventional techniques based on raster data.
+page=5 block=1134013833 (x=1 y=611) width=197 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+The proposed model described above (through Eqs. 
+page=5 block=1134013833 (x=16 y=623) width=219 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+(1)–(10))  was  applied  to  the  segmented  data  and  the 
+page=5 block=1134013833 (x=1 y=635) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+results  are  plotted  in  Figures  7a–7c,  correspondingly. 
+page=5 block=1134013833 (x=1 y=647) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Dots  represent  elevation  differences  and  solid  curves 
+page=5 block=1134013833 (x=1 y=659) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+represent model outputs. The horizontal axis was formed 
+page=5 block=94157402 (x=252 y=539) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+by normalizing the distance range to fit into the 2? period. 
+page=5 block=94157402 (x=252 y=551) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Three  rotational  landslides  were  detected.  For  each 
+page=5 block=94157402 (x=252 y=563) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+rotational landslide, the  median of  the estimated sinus 
+page=5 block=94157402 (x=252 y=575) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+waves for each landslide was taken as the representative of 
+page=5 block=94157402 (x=252 y=587) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+them, which is the bold blue solid curve in Figure 7.
+page=5 block=94157402 (x=252 y=599) width=207 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Sizes and amplitudes of landslides of simulated and 
+page=5 block=94157402 (x=266 y=611) width=220 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+estimated rotational landslides are tabulated in the Table. 
+page=5 block=94157402 (x=252 y=623) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+The  estimated  amplitudes of three rotational landslides 
+page=5 block=94157402 (x=252 y=635) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+were 1.07 m, 1.55 m, and 1.22 m, while the simulated values 
+page=5 block=94157402 (x=252 y=647) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+were 1.0 m, 1.5 m, and 1.22 m, respectively. Differences 
+page=5 block=94157402 (x=252 y=659) width=234 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 6 left:1 upper:1
+ÇEL?K / Turkish J Earth Sci
+page=6 block=466853180 (x=187 y=1) width=111 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Figure 7. Fitted sinus curve to each segmented area a, b, and c. Here angles represent corresponding s distances normalized to fit into 
+page=6 block=1863953433 (x=1 y=348) width=484 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+0–2?.
+page=6 block=1863953433 (x=1 y=359) width=21 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+Table. Simulated and estimated rotational landslide parameters.
+page=6 block=295485334 (x=54 y=392) width=229 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+-0.006 0.1
+page=6 block=1899141525 (x=216 y=447) width=53 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=22
+0 -
+page=6 block=1989132530 (x=216 y=464) width=46 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=21 wordint.max=21
+0.007 0.15
+page=6 block=1414845278 (x=216 y=481) width=58 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+0 -
+page=6 block=549496397 (x=216 y=498) width=46 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=21 wordint.max=21
+0.002 0.09
+page=6 block=1163619825 (x=216 y=515) width=58 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+0 -
+page=6 block=1306246648 (x=216 y=532) width=46 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=21 wordint.max=21
+282
+page=6 block=1063737662 (x=1 y=688) width=16 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+Parameter names
+page=6 block=447767121 (x=60 y=424) width=63 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+a (m)
+page=6 block=68857875 (x=167 y=424) width=19 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+b (m)
+page=6 block=348055829 (x=216 y=424) width=20 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Estimated
+page=6 block=286649365 (x=99 y=447) width=36 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+Simulated
+page=6 block=286649365 (x=99 y=464) width=36 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+Estimated
+page=6 block=286649365 (x=99 y=481) width=36 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+Simulated
+page=6 block=286649365 (x=99 y=498) width=36 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+Estimated
+page=6 block=286649365 (x=99 y=515) width=36 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+Simulated
+page=6 block=286649365 (x=99 y=532) width=36 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+1.07
+page=6 block=137275020 (x=167 y=447) width=15 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+1.05
+page=6 block=1508181426 (x=167 y=464) width=15 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+1.55
+page=6 block=988850650 (x=167 y=481) width=15 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+1.5
+page=6 block=71016405 (x=167 y=498) width=10 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+1.22
+page=6 block=2044482328 (x=167 y=515) width=15 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+1.2
+page=6 block=149225732 (x=167 y=532) width=10 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=21
+between simulated and estimated amplitudes are due to 
+page=6 block=937744315 (x=1 y=562) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+the white noise added after simulation. The estimated sizes 
+page=6 block=937744315 (x=1 y=574) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+of landslides differ 0.3 m in both width and length, i.e. the 
+page=6 block=937744315 (x=1 y=586) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+size of one grid space. 
+page=6 block=937744315 (x=1 y=598) width=90 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+This is caused by the specified confidence interval for 
+page=6 block=937744315 (x=16 y=610) width=219 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+detecting outliers. Estimated phase angles were close to 
+page=6 block=937744315 (x=1 y=622) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+zero, and standards errors were 0.1 m throughout, which 
+page=6 block=937744315 (x=1 y=634) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+indicates that the estimation of fitted curves was properly 
+page=6 block=937744315 (x=1 y=646) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+performed.
+page=6 block=937744315 (x=1 y=658) width=45 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+Landslide sizes (width × 
+page=6 block=1870209957 (x=322 y=419) width=89 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+length) (m × m)
+page=6 block=1870209957 (x=322 y=430) width=59 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+5.7 × 8.7
+page=6 block=1870209957 (x=322 y=447) width=31 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+6 × 9
+page=6 block=1870209957 (x=322 y=464) width=18 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+7.2 × 11.7
+page=6 block=1870209957 (x=322 y=481) width=35 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+7.5 × 12
+page=6 block=1870209957 (x=322 y=498) width=29 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+5.7 × 10.2
+page=6 block=1870209957 (x=322 y=515) width=35 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+6.0 × 10.5
+page=6 block=1870209957 (x=322 y=532) width=35 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Sigma (m)
+page=6 block=1957099969 (x=259 y=424) width=37 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+4. Conclusions
+page=6 block=1424698224 (x=252 y=562) width=62 height=6 fontname=QPWBWR+MinionPro-Bold wordint.min=2 wordint.max=4
+A  model  using  first-order  differential  equations  for 
+page=6 block=1168340825 (x=252 y=574) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+determining  parameters  of  rotational  landslides  was 
+page=6 block=1168340825 (x=252 y=586) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+developed  and  proposed  as  a  tool  for  detecting  and 
+page=6 block=1168340825 (x=252 y=598) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+determining of rotational landslides from two epochs of 
+page=6 block=1168340825 (x=252 y=610) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+LiDAR data; the first epoch is real and the second epoch 
+page=6 block=1168340825 (x=252 y=622) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+simulated  to  make  sure  that  one  or  more  rotational 
+page=6 block=1168340825 (x=252 y=634) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslides are included.
+page=6 block=1168340825 (x=252 y=646) width=94 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 7 left:1 upper:1
+ÇEL?K / Turkish J Earth Sci
+page=7 block=1667305539 (x=187 y=1) width=111 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+283
+page=7 block=550147359 (x=467 y=688) width=16 height=7 fontname=VUJFOH+MinionPro-Regular wordint.min=1 wordint.max=24
+The results of  segmentation based on the proposed 
+page=7 block=762809053 (x=16 y=30) width=219 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+model were found to be successful in determining each 
+page=7 block=762809053 (x=1 y=42) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+rotational landslide. Using the  model  their  parameters 
+page=7 block=762809053 (x=1 y=54) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+were estimated, and they are consistent with the original 
+page=7 block=762809053 (x=1 y=66) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+simulated  parameters.  The  results  indicated  that  the 
+page=7 block=762809053 (x=1 y=78) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+proposed model is capable of determining and estimating 
+page=7 block=762809053 (x=1 y=90) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+rotational landslides from 3D data.
+page=7 block=762809053 (x=1 y=102) width=139 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+However,  this  approach  is  strongly  dependent  on 
+page=7 block=762809053 (x=16 y=114) width=219 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+steepest  slope  direction.  Amplitude  estimation  was 
+page=7 block=762809053 (x=1 y=126) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+accurate while size estimation of rotational landslides was 
+page=7 block=762809053 (x=1 y=138) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+one grid length less in both directions than the simulated 
+page=7 block=762809053 (x=1 y=150) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+References
+page=7 block=1932536213 (x=1 y=182) width=45 height=6 fontname=QPWBWR+MinionPro-Bold wordint.min=1 wordint.max=24
+Burns WJ, Jeffrey AC, Kaya E, Lina MA (2010). Analysis of elevation 
+page=7 block=406375608 (x=1 y=201) width=233 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+changes  detected  from  multi-temporal  LiDAR  surveys  in 
+page=7 block=406375608 (x=21 y=212) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+forested landslide terrain in western Oregon.  Environ Eng 
+page=7 block=406375608 (x=21 y=223) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Geosci 16: 315-341.
+page=7 block=406375608 (x=21 y=234) width=67 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Celik  CT (2016). A robust approach for determining rotational 
+page=7 block=1815007437 (x=1 y=249) width=233 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslide area from two epochs of LiDAR data. 16th SGEM 
+page=7 block=1815007437 (x=21 y=260) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+GeoConference on Informatics, Geodesy and Mine Surveying, 
+page=7 block=1815007437 (x=21 y=271) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Geoinformatics and Remote Sensing, Bulgaria, June, Book 2, 
+page=7 block=1815007437 (x=21 y=282) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Vol. 2. pp. 33-38.
+page=7 block=1815007437 (x=21 y=293) width=57 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Chen W, Li X, Wang Y, Chen G, Liu S (2014). Forested landslide 
+page=7 block=2107543287 (x=1 y=308) width=233 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+detection using LiDAR data and the random forest algorithm: 
+page=7 block=2107543287 (x=21 y=319) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+a case study of the Three Gorges, China. Remote Sens Environ 
+page=7 block=2107543287 (x=21 y=330) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+152: 291-301.
+page=7 block=2107543287 (x=21 y=341) width=46 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Eker R, Ayd?n A (2014). Assessment of forest road conditions in 
+page=7 block=252738640 (x=1 y=356) width=233 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+terms of landslide susceptibility: a case study in Y???lca Forest 
+page=7 block=252738640 (x=21 y=367) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Directorate (Turkey). Turk J Agric For 38: 281-290. 
+page=7 block=252738640 (x=21 y=378) width=175 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Fernández T, Jiménez J, Fernández P, El Hamdouni R, Cardenal FJ, 
+page=7 block=1360215046 (x=1 y=394) width=233 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Delgado J, Irigaray C, Chacón J (2008). Automatic detection of 
+page=7 block=1360215046 (x=21 y=405) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslide features with remote sensing techniques in the Betic 
+page=7 block=1360215046 (x=21 y=416) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Cordilleras (Granada, Southern Spain). Int Soc Photogramme 
+page=7 block=1360215046 (x=21 y=427) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+37, Part B8, 351-356.
+page=7 block=1360215046 (x=21 y=438) width=71 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Glenn NF, Streutker DR, Chadwick DJ, Thackray GD, Dorsch SJ 
+page=7 block=1260467793 (x=1 y=453) width=233 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+(2006). Analysis of LiDAR-derived topographic information 
+page=7 block=1260467793 (x=21 y=464) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+for characterizing and differentiating landslide morphology 
+page=7 block=1260467793 (x=21 y=475) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+and activity. Geomorphology 73: 131-148.
+page=7 block=1260467793 (x=21 y=486) width=143 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Hastao?lu KÖ (2013). Investigation of the groundwater effect on 
+page=7 block=1111613684 (x=1 y=501) width=233 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+slow-motion  landslides by  using dynamic Kalman  filtering 
+page=7 block=1111613684 (x=21 y=512) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+method with GPS: Koyulhisar town center. Turkish J Earth Sci 
+page=7 block=1111613684 (x=21 y=523) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+22: 1033-1046.
+page=7 block=1111613684 (x=21 y=534) width=50 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+ones.  Another  point  to  make is  that  the results were 
+page=7 block=1321203216 (x=252 y=30) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+obtained from  simulated  data.  Therefore, real  data  for 
+page=7 block=1321203216 (x=252 y=42) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+both epochs should be used to test the proposed model. 
+page=7 block=1321203216 (x=252 y=54) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+The  proposed  model  is  for  estimating  the  parameters 
+page=7 block=1321203216 (x=252 y=66) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+of  rotational  landslide  only.  The  author  recommends 
+page=7 block=1321203216 (x=252 y=78) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+studying other types of landslides as well.
+page=7 block=1321203216 (x=252 y=90) width=165 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Acknowledgment 
+page=7 block=100929741 (x=252 y=114) width=76 height=6 fontname=QPWBWR+MinionPro-Bold wordint.min=2 wordint.max=4
+The author would like to thank the Ohio Department of 
+page=7 block=1154821602 (x=252 y=126) width=234 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Transportation for providing data.
+page=7 block=1154821602 (x=252 y=138) width=137 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Hussin HY, Zumpano V, Reichenbach P, Sterlacchini S, Micu M, 
+page=7 block=157168588 (x=252 y=201) width=233 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Westen CV, B?lteanu D (2016). Different landslide sampling 
+page=7 block=157168588 (x=272 y=212) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+strategies in a grid-based bi-variate statistical susceptibility 
+page=7 block=157168588 (x=272 y=223) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+model. Geomorphology 253: 508-523.
+page=7 block=157168588 (x=272 y=234) width=129 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Jaboyedoff  M,  Oppikofer  T,  Abellan  A,  Derron  MH,  Loye  A, 
+page=7 block=945834881 (x=252 y=249) width=233 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Metzger R, Pedrazzini A (2012). Use of LIDAR in landslide 
+page=7 block=945834881 (x=272 y=260) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+investigations: a review. Nat Hazards 61: 5-28.
+page=7 block=945834881 (x=272 y=271) width=155 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+McKean J, Roering J (2004). Objective landslide detection  and 
+page=7 block=507819576 (x=252 y=286) width=233 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+surface morphology mapping using high-resolution airborne 
+page=7 block=507819576 (x=272 y=297) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+laser altimetry. Geomorphology 57: 331-351. 
+page=7 block=507819576 (x=272 y=308) width=154 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Otsu  N  (1979).  A  threshold  selection  method from  gray-level 
+page=7 block=1939022383 (x=252 y=323) width=233 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+histograms. IEEE T Syst Man Cybern Syst 9: 62-66. 
+page=7 block=1939022383 (x=272 y=334) width=175 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Shahabi H, Hashim M (2015). Landslide susceptibility mapping 
+page=7 block=195801026 (x=252 y=350) width=233 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+using GIS-based statistical models and remote sensing data in 
+page=7 block=195801026 (x=272 y=361) width=213 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+tropical environment. Sci Rep 5: 9899.
+page=7 block=195801026 (x=272 y=372) width=129 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Shan J, Toth CK (2009). Topographic Laser Ranging and Scanning 
+page=7 block=833474933 (x=252 y=387) width=233 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Principles and Processing. Boca Raton, FL, USA: CRC Press.
+page=7 block=833474933 (x=272 y=398) width=205 height=5 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Van Westen C, Castellonos E, Kuriakose SL (2008). Spatial data for 
+page=7 block=182670350 (x=252 y=413) width=233 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+landslide susceptibility, hazard, and vulnerability assessment: 
+page=7 block=182670350 (x=272 y=424) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+an overview. Eng Geol 102: 112-131.
+page=7 block=182670350 (x=272 y=435) width=123 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Varnes DJ (1978). Slope Movement Types and Processes. In: Schuster 
+page=7 block=1611373863 (x=252 y=450) width=233 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+RL,  Krizek  RJ,  editors.  Landslides:  Analysis  and  Control. 
+page=7 block=1611373863 (x=272 y=461) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Transportation and Road Research Board, National Academy 
+page=7 block=1611373863 (x=272 y=472) width=213 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+of Science, Special Report 176, Washington D. C., pp. 11-33. 
+page=7 block=1611373863 (x=272 y=483) width=205 height=6 fontname=VUJFOH+MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 8 left:1 upper:1
+Copyright of Turkish Journal of Earth Sciences is the property of Scientific and Technical
+page=8 block=914942811 (x=1 y=1) width=432 height=8 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+Research Council of Turkey and its content may not be copied or emailed to multiple sites or
+page=8 block=914942811 (x=1 y=15) width=446 height=8 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+posted to a listserv without the copyright holder's express written permission. However, users
+page=8 block=914942811 (x=1 y=29) width=449 height=8 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+may print, download, or email articles for individual use.
+page=8 block=914942811 (x=1 y=43) width=273 height=7 fontname=TimesNewRoman wordint.min=1 wordint.max=5

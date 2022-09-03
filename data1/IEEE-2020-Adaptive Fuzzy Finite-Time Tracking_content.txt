@@ -1,0 +1,320 @@
+Title:
+Adaptive Fuzzy Finite-Time Tracking Control
+of Uncertain Non-Affine Multi-Agent
+Systems With Input Quantization
+Abstract:
+ABSTRACT In this paper, the ?nite-time tracking control problem of a class of multi-agent systems
+with nonaf?ne functions and uncertain nonlinearity is investigated, which is different from the existing on
+high-order multi-agent systems with pure feedback forms. The multi-agent systems considered in this paper,
+moreover, the nonaf?ne functions and uncertain nonlinearities are completely unknown, and the input of
+each follower agent is quantized through a hysteresis quantizer. Based on the help of the fuzzy logic systems
+approximator, an adaptive fuzzy ?nite-time tracking control protocol with adaptive update laws is presented
+by the backstepping technique. On the basis of the ?nite-time stability strategy and Bhat and Bernstein
+theorem, the ?nite-time stability of designed control protocol is fully analyzed. Under the proposed control
+protocol, it is indicated that the tracking error of each follower agent can press on a small neighborhood in
+a ?nite time. Finally, the effectiveness of designed control protocol in this paper is analyzed by numerical
+examples.
+----------------------
+Subtitles:
+
+ V?(?) ? ?cVµ(?) + d, ?t ? 0
+ Then the system ?? = f (?,s) is semi-global practical
+ Furthermore, the entire consensus error ze,1 is given as:
+ Applying the Lemma 7, we obtain:
+ Design the virtual control law ?i,m+1 as:
+ Due to ?zi,n?G(t) ? z2i,n + ?m2in, and considering V?i,n?1,
+
+
+Text:
+----------------------
+Over the past twenty years, the cooperative control prob-
+lem of multi-agent systems has paid extensively attention
+in many ?elds, such as multiple unmanned aerial vehicles,
+?exible robot manipulator systems, wireless sensor networks
+and large-scale systems [1]–[6]. The basis issue of cooper-
+ative control problem is consensus, where the objective is
+to achieve the agreement or track a given trajectory under
+a designed control protocol. In the existing literature, there
+are many results on the ?rst- and second-order multi-agent
+systems with undirected graph, directed graph and switch-
+ing graph have been obtain, see [7]–[12] and references
+therein.
+For the most practical systems, however, they need to
+be modeled as the high-order system rather than simple
+?rst- or second-order system. Moreover, the relevant results
+on ?rst- and second-order multi-agent systems cannot be
+used in high-order multi-agent systems. The control prob-
+lem of high-order multi-agent systems has been considered
+in some literature. In [13], a reduced-order observer was
+presented to solve the distributed tracking control problem
+of high-order nonlinear multi-agent systems with hetero-
+geneous leader. In [14], a distributed region regulator was
+presented to deal with the synchronization problem of a
+class of high-order multi-agent systems. For the high-order
+nonlinear strict-feedback multi-agent systems, the authors
+of [15] used the distributed extended state observer and
+backstepping technique to solve the practical time-varying
+output formation tracking problem, and in [16], [17],
+the consensus tracking problem of high-order multi-agent
+systems with high-dimensional leader was ?rstly considered,
+where a distributed robust adaptive consensus control pro-
+tocol with local observer was designed. On the basis of the
+results of [13]–[17], the containment tracking problem of
+multi-agent systems with pure-feedback form was analyzed
+in [18], where the distributed adaptive fuzzy control protocol
+and local quanzied controller were considered. Based on
+the advantages of the fuzzy control method, some control
+problems are well solved by designing the control law based
+on with the fuzzy control method [19], [20]. To the best of
+author’s knowledge, however, only a few results focus on
+the control problem of nonaf?ne multi-agent systems. For
+instance, in [21], the agreement control of a class of non-
+af?ne multi-agent systems was addressed, where a distributed
+neural adaptive consensus control scheme with guaranteed
+performance was designed. In [22], [23], the tracking prob-
+lem of uncertain nonlinear nonaf?ne multi-agent systems was
+studied, and the distributed output-feedback control protocol
+with prescribed trackingperformanceand thedistributed con-
+tainment controller were investigated, respectively.
+Referring to the literature of above-mentioned, it is easy
+to found that the control problem of multi-agent systems
+is based on the case that the control time is close to in?-
+nite. In some cases, it is desirable that the control objec-
+tive of a multi-agent system be achieved in a ?nite time.
+Recent years, the ?nite-time control problem of multi-agent
+systems has been greatly developed. The ?nite-time con-
+trol scheme for the attitude tracking problem of the space-
+craft systems was investigated in [24]. Considering the
+input saturation, a sliding mode observer was designed to
+solve the global ?nite-time tracking problem of second-
+order multi-agent systems in [25]. For the heterogeneous
+nonlinear high-order multi-agent systems with mismatched
+disturbances, the authors of [26] designed the families of
+consensus protocols and solved the ?nite-time output con-
+sensus problem. Furthermore, the containment control of a
+class of nonaf?ne pure-feedback multi-agent was addressed
+in [27], where a distributed neural adaptive control strategy
+was proposed. Moreover, the ?nite-time consensus tracking
+control of a class of nonlinear multi-agent systems with
+prescribed performance was studied in [28], where the error
+constrained control was applied to obtain satisfactory control
+performances. In addition, the ?nite-time control problems of
+Markov jump systems and nontriangular stochastic nonlinear
+systems are ananlyzed in [29]–[33]. However, it is worth
+noting that the results above-mentioned cannot work for the
+special case that input quantization. Therefore, it is necessary
+to design a suitable control protocol for uncertain nonaf?ne
+multi-agent systems with input quantization to achieve the
+desired control objective in a ?nite time.
+This observation inspires our current study. This paper
+investigates the ?nite-time tracking control problem of a type
+of nonaf?ne multi-agent systems with input quantization and
+uncertain nonlinearity. The main contributions of this paper
+are outlined as follows:
+1. A class of uncertain nonaf?ne multi-agent systems with
+inputquantizationis considered inthis paper. Considering the
+input of each agent is quantized by an introduced quantizer,
+therefore, the design of control protocol is more dif?cult and
+complex.
+2. With the help of the differential midvalue theorem, the
+nonaf?ne functions of multi-agent systems can be decom-
+posed into a strict-feedback form. Therefore, the model
+considered in this paper is more versatile than [26]–[28].
+Furthermore, the nonaf?ne functions and uncertain nonlin-
+earities are completely unknown.
+3. Based on the fuzzy logic systems approximator and
+backstepping technique, an adaptive fuzzy ?nite-time track-
+ing control protocol with adaptive update laws is designed.
+By the simulation analysis, the control protocol proposed in
+this paper can guarantee the tracking error of each follower
+agent converges to a small interval within a ?nite time.
+The rest of this paper is planned as follows. In Section II,
+the preliminaries and problem formulation are introduced.
+The detailed process of adaptive fuzzy ?nite-time tracking
+control protocol design is given in Section III, and Section IV
+provides the simulationexample to verify the effectiveness of
+the theoretical analysis. Finally, the conclusions are drawn in
+Section V.
+Let the directed graph G = (V,E,A) represent the communi-
+cation relationship among agents, whereV = {v1, ·· · , vn} is
+tiAahsgee=tnsheet[tiaosaijfn]tdfo?ojl,flRothweNed×engrNeaa.sig.jIef=Tnthths1ee,raeananddedjxEaiascti=ejsn=ac{ny(0i,emodj)tga|hiete,rjib{xwe?iwisVsee.,deTnaehnnfedootlnieleod=iwgaejs}}r
+bors of follower agent i is de?ned as Ni =
+wfoiltlhowtheer iangfeonrtmi.aTtiohne Lofapfloalcloiawnemr aagtreinxtLj icsadnebscerir?cdeiavsedLb=y
+D ? A, where D = diag {d1, ·· · , dN} with di =
+Furthermore, let the augmented graph G? consist of the
+graph G and the leader agent. The connection matrix is given
+as a diagonal matrix B = diag{b1,· · · , bN } with bi denoting
+the connection between the leader agent and the follower
+agent i. If the follower agent i obtains the information of
+leader, one has bi = 1 and bi = 0 otherwise. It can be
+obtained that H = L + B is a matrix associated with G?.
+The graph G? is connected if there exists a spanning tree in
+the graph G? and the leader agent is the root node.
+Consider a class of uncertain nonaf?ne multi-agent systems
+with N(N > 1) follower agents and one leader agent. The
+number from 1 to N represents follower agent and 0 is leader
+where ?i[m ? R is t]Te mth state of follower agent i,??mini,pm=ut,=1?,i,·m·?(??i,,1in,,m,(·,y·?i·i,,?m?+iR,)1m)s: Rthm?e+o1Ru?tmpuiRts, itushiaen?sutaRntkeinsovtwehcentoscrmonwotoritothhl
+function, 1i,m ??i,m, t represents the unknown uncertain
+nonlinearity, and n is the order of follower agent i. Q(ui)
+represents the quantized input, which is described as:
+parameters ?min > 0 and 0 < ? < 1 being the quantization
+density.
+According to the differential midvalue theorem [34],
+the dynamics of follower agents (1) can be re-described as:
+?a?nid,m?(??i,mi,m(??,?i,mi,m, ?)?,m?) ??air,me b<ou?nd(med=su1c,h· ·th·a,tn0). W<ith?oui,mt lo?ss
+of generality, it is assumed that ?i,m(??i?,m,?i,m) > 0.?
+In the subsequent analysis, some necessary lemmas will be
+considered.
+Lemma 2 [36]: Consider differential equation ???(t) =
+?a??(t) + b?(t), where a > 0 and b > 0 represent design
+parameters, if there exist ??(t0) ? 0 and ?(t) ? 0, then one
+has ?(t) ? 0 for t > t0, which also implies ??(t) > 0 for
+Lemma 3 [37]:Consider the system?? = f (?, s) for smooth
+positive de?nite function V(?) ? C1, if there exist constants
+c > 0, d > 0 and µ ? (0,1), satisfying that:
+V?(?) ? ?cVµ(?) + d, ?t ? 0
+Then the system ?? = f (?,s) is semi-global practical
+Lemma 7 [41]: Let F(x) :  ? R be a continu-
+ous function given on a co?mpact set  ? ?Rn. Then, for
+aWWny??Tc?=o(xn)st[auncth?tha>t su0p?,x]?tThei?seFt(ehxxe)is?itdeWaal?fTuwz?ze(yxig)h?lto?gvicec?ts,oyrws,theaemnrdse
+According to the multi-agent systems (3), the tracking error
+of follower agent i can be designed as ei = yi ? y0(i =
+1, ·· · , N) and y0 is the output of leader agent, then one has
+Let zi,1 be the local consensus error of follower agent i,
+hence, we have:
+Furthermore, the entire consensus error ze,1 is given as:
+where 1 = [1,· ·· ,1]T.
+For (1 ?aking the time derivative of zi,1 gets:
+with j ? Ni.
+The adaptive fuzzy tracking control law for follower agent
+i is designed by applying the backstepping technique with n
+steps.
+Step 1: According to the Lemma 7, over a compact set ,
+the function fi,1(Zi,1) can be approximated by:
+and ?i,1 are unknown, let ??i,1 and ??i,1 be their estimates,
+respectively, and their estimation error are de?ned as ??i,1 =
+?i,1 ? ??i,1 and ??i,1 = ?i,1 ? ??i,1. Thereafter, consider the
+following Lyapunov function candidate
+where ?i,1 > 0 and ?i,1 > 0 are constants.
+Taking the time derivative of Vi,1 and considering (12),
+(14), ?i,1 and ?i,1, we have:
+where qi,1 > 0 and ri,1 > 0 represent design constants.
+According to the Lemma 2, we easily obtain ??i,1 ? 0 and
+??0(.dSi u+bsbtii)tu??ztiin,1g?? ?(1T8()Zia,n1)d?((1Z9i,)1)i??nit,o1 (+17()dyi i+eldbsi):??zi,1?? ??i,1
+= Wi,2 ?(Zi,2) + ?(Zi,2) (23)
+where Wi?,2 is thfyeiindge?[l(wZei,i2g)?ht,?an??di,?2(wZii,t2h) i??si,2thebeaipnpgroaxpimosai--ttiivoen ceorrnosrtasnatt,]isT
+(??(2/??j,1) Zi,w2it=h j ???i,N2,i.??Hj,2e,nzcie,1,,w?ei,2h,a?vie,2:, (??i,2/??)i,1),
+consider the following Lyapunov function candidate:
+Vi,2 = Vi,1 + 2??1i,2z2i,2 + 2?1i,2 ??i2,2 + 2?1i,2 ??2i,2 (25)
+The time derivative of Vi,2 can be written as:
+Applying the Lemma 7, we obtain:
+(??i,m ??i,m),(??i,m ?i?,mj,,1)??,j?,2i,,mz,i,?mi?,m1w]Tithwith j ? Ni. Thus,
+we g(t:
+Design the virtual control law ?i,m+1 as:
+where pi,m > 0 is a constant.
+???T??i,hme=ada?pi,tmiv??e?ziu,mp??d? atTe(Zlai,wms)???(iZ,mi,amn)d???iq,mi,ma??rei,md,es??iig,mn(e0d)a?s:0
+Step n. This is the ?nal step of follower agent i, similar
+to step i,m, the dynamics of zi,n can be directly obtained by
+replaci[g m with n in (32). Then we have:
+and consider the Lemma 1, hence, the time derivative of Vi,n
+can be written as:
+Due to ?zi,n?G(t) ? z2i,n + ?m2in, and considering V?i,n?1,
+ri,k???i,i,kk??i,k ? ? r2i,k???i,2ik,k + r2i,k??i,2ik,k , nd considering Lemma 6, let
+ri,k 2???i2,ik,k ? ri2,k???i,2ik,k + ri,k(1 ? µ)µ 1?µµ . Thus, (47) can be
+Let t? = c(1?$)(1?µ), thus, it follows from Lemma 3 that
+for t ? t?, one has:
+which means that all signal in the closed-loop systems are
+SGPFS.
+Furthermore, according to the de?nition of Vi,n, for
+?t ? t?, on??ezig,1e??t2s:? 2??i,1 [ d ]1µ ,??ze, ??2
+where ??ze,1??22= ? ??zi,1??2 and ?max = max {??i,1, ·· · , ??N,1}.
+It implies that the tracking error of each follower agent
+converges to a small neighborhood of the origin and remains
+there after the ?nite time t?. The proof is completed.
+Remark 1: Compared with the traditional methods which
+the convergence time is usually t ? ?, we can obtain
+convergence in a ?nite time, which implies that the control
+method designed in this paper has a better convergence rate.
+Remark 2:Throughout the analysis process and simula-
+tinniterecsulvser(/heyceatriemgei,vneanmbeellyowtf),?wet?haavned owbhtaeirneedt? the?Vi,n(t0)n1?µ c(1 ? $)(1 ? µ), which shows that the con=-
+trol laws designed in this paper are effective, and that
+the fuzzy logic systems and adaptive parameters are also
+convergent.
+In this part, a practical example with input quantization is
+given to verify the effectiveness of theproposed control law.
+Consider a class of uncertain nonaf?ne multi-agent systems
+with four follower agents and one leader agent, where each
+follower agent represents an inverted pendulum system and
+the leader is used as a signal generator to generate tracking
+signal. The communication graph among agents is shown as
+Figure 1.
+Example 1. The dynamic of the ith follower agent is
+given as:
+The dynamics of the leader agent is described as ??0,1 =
+The initial conditions for four follower agents are set
+as [?1,1(0),?2,1(0),?3,1(0),?4,1(0)]T = [0.3, 1.0,1.5, 3.0]T
+and [?1,2(0),?2,2(0),?3,2(0),?4,2(0)]T =[0.1,0.5,0.3,0.4]T.
+The initial conditions for the leader agent is set as
+[e?te0r,s1(0a )/,?s0e,t2(a0s):]T? ==[00..71,,0?.2m]iTn . =The0.o2t,hemr c=ont2ro, l?pa=ram2-,
+??1,j(0) = ??2,j(0) = ??3,j(0) = ??4,j(0) = ??1,j(0) = ??2,j(0) =
+??3,j(0) = ??4,j(0) = 0, where j = 1,2,3,4. In addition,
+let the fuzzy logic systems Wi?,jT?(Zi,j) (i,j ? {1,2,3,4})
+contain 11 nodes with centers evenly spaced in the range
+[?5, 5] and widths be set as 1.5.
+Considering the control law (44) with the adaptive update
+laws (19), (29), (40) and (45), the simulation results are given
+as Figures 2-6.
+The output response curves with four follower agents
+and one leader agent under the general in?nite-time con-
+trol scheme and the ?nite-time control scheme are shown
+as Figure 2. It can be found that four follower agents can
+tracking the leader agent, and the better tracking effect can
+be obtained by applying the control scheme designed in this
+paper. The response curves for tracking error are given as
+Figure 3, which can be seen that the tracking problem is
+realized in ?nite time. The result also implies the validity of
+the theoretical analysis from another aspect. In addition, it is
+not dif?cult to ?nd that the fuzzy logic systems and other
+adaptive parameters converge in a ?nite time by analyzing
+the simulation results. The reason is that the following four
+agents can track the leading agent in a ?nite time, which
+shows that the fuzzy logic system and adaptive parameters
+also converge in a ?nite time.
+Under the hysteresis quantizer, the control input and quan-
+tized control input are shown as Figure 4. Although the con-
+trol input is quantized, the tracking control problem with the
+?nite-time control law designedin this paper can be achieved.
+In addition, the response curves for the adaptive update laws
+?? and ?? are displayed as Figures 5-6.
+Example 2. In order to verify the effectiveness of the
+designed control law (44) (scheme 1), a comparative study
+with the ?nite-time control law (scheme 2) designed in liter-
+ature [28] is given in this paper. The parameters setting are the
+same as that of Example 1. The simulation results are shown
+in Figures 7-8.
+According to the Figure 7, the control scheme 1 designed
+in this paper and the control scheme 2 designed in [28] can
+realize the tracking control problem of given multi-agent
+system in ?nite time. Compared with the scheme 2, however,
+the control law designed in this paper can achieve the con-
+trol result in a shorter time, and the control is better than
+scheme 2. The comparative resultsoftracking errors are given
+in Figure 8.
+This paper has investigated the ?nite time tracking control
+problem ofa type of uncertain nonaf?ne multi-agentsystems.
+Compared with the existing multi-agent systems, a more
+general model with unknown nonaf?ne functions and uncer-
+tain nonlinearity has been considered. The control input of
+multi-agent systems has been quantized by the quantizer.
+With the help of a fuzzy logic systems and the backstepping
+technique, furthermore, the fuzzy ?nite-time tracking control
+protocol has been proposed. Based on the presented control
+protocol, it has been proved that the tracking error of all
+follower agents can be held on a small enough neighborhood
+in a ?nite time. Finally, the effectiveness of the proposed con-
+trol law is shown by using simulation examples in simulation
+part. It should be pointed out that the differential of virtual
+control laws needs to be taken in this paper, which is going to
+cause ‘‘explosionof complexity’’.Toavoid thisphenomenon,
+the dynamic surface control method will be considered in our
+follow-up work.

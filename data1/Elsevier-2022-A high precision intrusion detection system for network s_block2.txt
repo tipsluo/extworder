@@ -1,0 +1,2782 @@
+Content:
+ColumnWidth 252 ColumnNumber 2
+ContentWidth 521 ContentLeft 1 ContentRight 521
+Subtitles:  0 1
+
+==============================
+Page 1
+ Left 1 Right 521 Top 1 Bottom 698
+
+
+Column meta:
+Column left:1 upper:164 right:252 lower 653
+Column left:270 upper:346 right:521 lower 531
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=168 right=353 upper=1 lower=6
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems 129 (2022) 399–406
+
+==============================
+
+==============================
+
+typeindex=-2 left=185 right=337 upper=28 lower=33
+====>
+charfont height=4.969357, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Contents lists available at ScienceDirect
+
+==============================
+
+==============================
+type: title
+typeindex=3 left=142 right=381 upper=52 lower=62
+====>
+charfont height=9.616338, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems
+
+==============================
+
+==============================
+
+typeindex=-2 left=168 right=355 upper=83 lower=88
+====>
+charfont height=4.969357, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+journal homepage: www.elsevier.com/locate/fgcs
+
+==============================
+
+==============================
+
+typeindex=3 left=1 right=429 upper=129 lower=156
+====>
+charfont height=9.616338, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+A high precision intrusion detection system for network security
+communication based on multi-scale convolutional neural network
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=291 upper=181 lower=195
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+a School of Software, Tsinghua University, Beijing, 100084, China
+b College of Electronic Information Engineering, Southwest University, Chongqing, 400700, China
+
+==============================
+
+==============================
+type: abstract
+typeindex=-1 left=163 right=521 upper=240 lower=341
+====>
+charfont height=5.128750, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+The openness of network data makes it vulnerable to hackers, viruses and other attacks, which
+seriously threatens the privacy and property security of users. In order to improve the accuracy of the
+intrusion detection for network security communication, based on the traditional intrusion detection
+system, combining with the deep learning theory and shortcomings, this paper proposed an intrusion
+detection system for network security communication based on multi-scale convolutional neural
+network, and conducted the corresponding experiments on public data sets. The experimental results
+perform that compared to the intrusion detection system based on Adaboost model and Recurrent
+Neural Network model, the convergence speed of multi-scale convolutional neural network system is
+faster, the average error detection rate is reduced by 4.02%, and the average accuracy is improved by
+4.37%. The results prove that the intrusion detection system based on multi-scale convolution neural
+network has a high detection accuracy.
+
+==============================
+
+==============================
+
+typeindex=0 left=270 right=521 upper=548 lower=671
+====>
+charfont height=5.698619, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=100
+
+The information integration is the inevitable trend of Inter-
+net development. Increasingly open data brings convenience and
+data security issues [3]. Therefore, in order to avoid the illegal
+intrusion, some scholars pay more and more attention to network
+security system. In order to understand the network intrusion de-
+tection data, Wei, et al. proposed a three-dimensional visualiza-
+tion interaction method of network intrusion detection data [4].
+Umarani, et al. proposed a hybrid anomaly detection system for
+wireless sensor networks, and the system makes intrusion at-
+tacks in sensor networks more secure, universal and accurate [5].
+Sedjelmaci, et al. designed an efficient and lightweight intrusion
+detection mechanism for service-oriented vehicular networks [6].
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=16 right=195 upper=658 lower=662
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+E-mail yujing15@mails.tsinghua.edu.cn (J. Yu),
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=38 right=68 upper=658 lower=662
+====>
+charfont height=4.562197, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+addresses:
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=1 right=113 upper=666 lower=671
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+nmcq75625416du@163.com (X. Ye).
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=1 right=164 upper=685 lower=698
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+https://doi.org/10.1016/j.future.2021.10.018
+0167-739X/© 2021 Elsevier B.V. All rights reserved.
+
+==============================
+
+==============================
+
+typeindex=2 left=1 right=176 upper=164 lower=174
+====>
+charfont height=7.550607, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Jing Yu a, Xiaojun Ye a,?, Hongbo Li b
+
+==============================
+
+==============================
+
+typeindex=1 left=1 right=95 upper=219 lower=225
+====>
+charfont height=6.201125, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+arti c le i nf o
+
+==============================
+
+==============================
+
+typeindex=1 left=163 right=229 upper=219 lower=225
+====>
+charfont height=6.201125, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+abs t r a c t
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=44 upper=240 lower=245
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Article history:
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=131 upper=249 lower=279
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Received 11 May 2021
+Received in revised form 13 October 2021
+Accepted 16 October 2021
+Available online 22 October 2021
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=31 upper=289 lower=294
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Keywords:
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=127 upper=298 lower=328
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Intrusiondetection
+Detection accuracy
+Multi-scale convolutionalneural network
+Network security communication
+
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=1 right=63 upper=385 lower=391
+====>
+charfont height=6.021886, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+1. Introduction
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=406 lower=630
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The world information is gradually integrated, and data shar-
+ing brings network security risks, so in order to protect people’s
+information security when they work and communicate on the
+Internet, some scholars have begun to study the network security
+protection [1]. Among them, the intrusion detection system is
+one of the widely used technical types in the market, which
+can effectively prevent network intrusion, and ensure the safe
+operation of the system by detecting and issuing early warning
+before the attack is launched [2].
+However, it is undeniable that the types of hacker network
+intrusion are becoming more and more sophisticated, so that the
+commonly used intrusion detection system for the network secu-
+rity also began to become slow, and the accuracy is significantly
+poor. To find a good solution, this paper introduces the deep
+learning technique to design an intrusion detection system, and
+proposes a high precision intrusion detection system based on
+multi-scale convolutional neural network (MSCNN).
+There are two main contributions in this paper. Firstly, the net-
+work data mining technology based on deep learning is used to
+extract features from unordered data to improve the accuracy of
+the intrusion detection. Secondly, this paper uses MSCNN to solve
+the compatibility problem between intrusion detection system
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=7 right=85 upper=647 lower=653
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+? Corresponding author.
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-1 left=388 right=521 upper=346 lower=351
+====>
+charfont height=5.128750, charfont bold=0, alignment=1, allupper=-1, column left=270, likeBody=-100
+
+© 2021Elsevier B.V.All rightsreserved.
+
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=270 right=521 upper=385 lower=508
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+and neural network, reduces processing parameters and improves
+the convergence speed.
+This work mainly includes 5 sections. In Section 1, the back-
+ground, motivations and contributions of this work are intro-
+duced. In Section 2, the results of some intrusion detection sys-
+tems and convolutional neural network in recent years are dis-
+cussed. In Section 3, the design idea of the high-precision intru-
+sion detection system based on MSCNN is described. In Section 4,
+the intrusion detection system is tested and its effect in practical
+application is discussed, and also the proposedoneis compared to
+some baseline methods. In Section 5, some findings in this paper
+are concluded and the future is presented.
+
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=270 right=335 upper=525 lower=531
+====>
+charfont height=6.021886, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+2. Related work
+
+==============================
+
+==============================
+Page 2
+ Left 1 Right 521 Top 1 Bottom 722
+
+
+Column meta:
+Column left:1 upper:20 right:252 lower 455
+Column left:270 upper:176 right:521 lower 690
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=65 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+J. Yu, X. Ye and H. Li
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=344 right=521 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems 129 (2022) 399–406
+
+==============================
+
+==============================
+
+typeindex=0 left=1 right=252 upper=470 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=100
+
+Neural network can be well used to deal with intrusion behav-
+ior. The main reason is that the neural network, so as to train the
+neural network model and judge whether the unknown data set
+has intrusion behavior. Although convolutional neural network
+theory based on deep learning is used to process positioning data,
+the research of this algorithm is not mature [17]. Therefore, a
+model for network data service is proposed, it is a model to
+extract local features and data features according to network
+traffic classification. The specific framework is shown in Fig. 1.
+The MSCNN model has multiple convolution layers, in which
+there are three layers (Fig. 1). Each layer has three channel sizes.
+The multi-scale convolution layer and two convolution layers
+are mutually staggered, and then connected to the pooling layer
+through a multi-scale convolution layer, and finally connected
+to the softmax classifier through three fully connected layers. In
+order to ensure the learning speed of the network, BN (batch
+normalization, BN) algorithm is used in convolution layer, and
+Relu function is used as the activation function of convolution
+layer, the parameters of BN algorithm + Relu function are set to
+11 ? 11 ? 64, 9 ? 9 ? 128, 7 ? 7 ? and 256 according to different
+convolution layers. The over fitting problem of full connection
+layer can be solved by dropout strategy. Among them, multi-
+scale convolution is to classify the features of different sizes by
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-4 left=274 right=275 upper=698 lower=709
+====>
+charfont height=3.991914, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+l
+j
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-4 left=301 right=303 upper=698 lower=709
+====>
+charfont height=3.991914, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+l
+j
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-4 left=332 right=341 upper=698 lower=702
+====>
+charfont height=3.989012, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+l?1
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-4 left=361 right=362 upper=698 lower=709
+====>
+charfont height=3.991914, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+l
+j
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=270 right=367 upper=701 lower=706
+====>
+charfont height=5.702764, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+x = f (? down(x ) + b )
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=510 right=521 upper=701 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+(1)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-4 left=332 right=333 upper=705 lower=709
+====>
+charfont height=3.991914, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+j
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=255 right=266 upper=717 lower=722
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+400
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=20 lower=424
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Wei, et al. proposed an intrusion detection system combining hi-
+erarchical spatiotemporal features, which improved the accuracy
+of feature set describing network traffic [7]. Datta, et al. have
+proposed an effective scheme, on the premise of not affecting
+the effectiveness of intrusion detection system, it shortens the
+activity time of the intrusion detection system [8]. Zhang, et al.
+proposed a detection model and an improved adaptive evolution
+strategy of constrained covariance matrix [9].
+As we know, deep learning as a very advanced technique is
+being studied by a lot of scholars, and it can take some good
+solutions for the intrusion detection. At present, the deep learning
+technique has been widely applied to a lot of fields. Kruthiventi,
+et al. proposed a fully CNN model, established a bottom-up vi-
+sual attention mechanism model through explicit prediction, and
+automatically learned features in a hierarchical way to predict
+saliency graph in an end-to-end way [10]. CNN is used to identify
+abnormal EEG samples, and it is found that the accuracy of neural
+network is obviously better than some other models [11]. Ma,
+et al. proposed a traffic image learning method based on CNN,
+which can predict the traffic speed of large-scale and whole
+network with high accuracy. In the acceptable execution time, the
+average accuracy of the algorithm is significantly improved [12].
+Peng, et al. introduced a module composed of coding layer and
+time pyramid pool layer, and proposed a new network structure,
+allowing any number of frames as network input, avoiding the
+risk of losing any important frame [13]. Antipov, et al. led the
+team to improve the gender and age prediction methods in the
+existing demographic estimation methods based on CNN, and
+designed an advanced gender recognition and age estimation
+model [14]. Zhu, et al. proposed a single event recognition al-
+gorithm framework for cold electron microscope images based
+on deep learning, which realized the integration of automatic
+particle picking, selection and verification [15]. Kawahara, et al.
+proposed a neural network framework to solve this question [16].
+To sum up, a lot of researches have been done on the intrusion
+detection system and deep learning. However, the traditional
+deep learning model has some shortcomings, such as big samples
+and time cost. In order to find a good solution, this paper tried to
+design a MSCNN model and apply it to the intrusion detection.
+
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=1 right=252 upper=439 lower=455
+====>
+charfont height=6.021886, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+3. Design of the high precision intrusion detection system for
+network security communication
+
+==============================
+
+==============================
+
+typeindex=-2 left=291 right=499 upper=176 lower=181
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 1. Multi-scale convolutional neural network model structure.
+
+==============================
+
+==============================
+
+typeindex=-2 left=321 right=469 upper=409 lower=414
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 2. Multi scale convolution layer structure.
+
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=270 right=521 upper=442 lower=690
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+simulating the object features recognized by human vision. The
+channel sizes used in multi-scale convolution layer are 1 ? 1, and
+3 ? 3 respectively, and the structure is shown in Fig. 2.
+Firstly, in order to combine the convolution kernel features,
+set the convolution step size to 1, and then set pad = 0, 1,
+2. In addition, the multi-scale convolution layer will reduce the
+features processed in the previous layer to processing level by 1
+? 1 scale, and then transmits the reduced features to other scale
+channels (Fig. 2). In this way, the multi parameter problem caused
+by large-scale convolution kernel convolution can be reduced.
+Finally, the processing results are sent to the filter for subsequent
+processing.
+The pooling layer in the MSCNN model is also designed to
+reduce parameters, so as to improve the network training speed,
+but the pooling layer will lose features [18]. In order to make up
+for the precision reduction caused by feature loss, the average
+pooling layer is only added to the last layer of MSCNN model.
+The advantage of average pooling is that the features in each
+network data are quite different, there is no uniformity, and
+the error of classification is small [19]. Overlapping pooling is
+adopted for pooling of pooling layer. Under certain effect, the
+convergence speed of pooling layer is improved, and the accuracy
+is less affected. Therefore, the effect of MSCNN model is the best.
+The sampling method of pooling layer is shown in Eq. (1).
+
+==============================
+
+==============================
+Page 3
+ Left 1 Right 521 Top 1 Bottom 722
+
+
+Column meta:
+Column left:1 upper:18 right:252 lower 692
+Column left:270 upper:223 right:521 lower 512
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=65 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+J. Yu, X. Ye and H. Li
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=344 right=521 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems 129 (2022) 399–406
+
+==============================
+
+==============================
+
+typeindex=0 left=270 right=521 upper=510 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=100
+
+?inl = ?(yi ? ani l) · f(zinl)
+In Eq. (9), nl is the last output layer, the residual error of
+nlaeyuerroln, sani ilsisetxhpereascsteivdataiosn?vli,azlulieisofthneeuirnopnustinvaoluutepuotflnayeuerr,osnl+s1iins
+the number of neuron nodes. The pseudo code of MSCNN model
+connection layer need to be initialized first to build the MSCNN
+model. In the training, the loss function is calculated, and the
+weights and thresholds are updated continuously. Finally, the
+updated model after training is obtained.
+Intrusion detection system is based on the existing security
+strategy to detect the network environment before intrusion,
+in order to early warning to ensure the safe operation of the
+system [25]. The general working principle of intrusion detection
+system is shown in Fig. 4.
+The intrusion detection system is mainly composed of three
+parts as shown in Fig. 4. Among them, the system mainly takes
+
+==============================
+
+==============================
+
+typeindex=0 left=1 right=521 upper=545 lower=595
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+xi in Eq. (4) represents the data entering the activation func-
+tion. This step is to calculate the average value of each data. After
+it is cal1cu?te(xdi,?thue?v)a2riance of each number is calculated (5) builAdsinsghoawndn tinraFinigin. 3g,pthroecceossnvisolsuhtoiownncoinreF,ipg.oo3l.ing layer and full
+
+==============================
+
+==============================
+
+typeindex=0 left=241 right=252 upper=644 lower=649
+====>
+charfont height=5.698619, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+(6)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=0 left=1 right=96 upper=701 lower=708
+====>
+charfont height=5.702764, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+yi = ? x?i + ? = BN?,?(xi)
+
+==============================
+
+==============================
+
+typeindex=0 left=241 right=252 upper=701 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+(7)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=255 right=266 upper=717 lower=722
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+401
+
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=1 right=252 upper=18 lower=157
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+In Eq. (1), down(xlj?1) means that the pooling layer samples
+the output data of the upper layer, ? and b represent the feature
+weight and offset of the output, and f (?) represents the activation
+function.
+The activation function of convolution layer uses Relu func-
+tion to delete some negative numbers, which increases the non-
+linearity of the network to some extent, and makes the net-
+work structure segment linear. At the same time, the output of
+some neurons can be 0, which reduces the interdependence be-
+tween parameters and avoids the over fitting phenomenon of the
+model [20]. For the full connection layer outside the volume layer,
+Sigmoid function is used as the activation function to preserve the
+complete characteristics of the data. The expression of the Relu
+function is shown in Eq. (2).
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=167 lower=173
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+f (x) = max(0, x) (2)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=182 lower=335
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+In Eq. (2), x is the total amount of data, and max is the
+maximum value.
+In order to avoid the over fitting problem of network, improve
+the generalization ability of network and speed up the training
+speed, this study uses Dropout strategy to connect the full con-
+nection layer and softmax classifier [21]. The principle of Dropout
+algorithm is to set the activation value of a neuron to 0 with
+a certain probability when it propagates forward, so that some
+neurons stop working, and calculate and connect the data that is
+not set to 0 [22]. According to the randomly generated probability
+to connect the neurons, the sparsity of the network appears, the
+possibility of over fitting is reduced, and the training speed of the
+n??eettwwrjloo?rrkkBiisesrgncraoeluaclutlilly(apti)medparosvfeodllo[2w3s]:.UndertheDropoutstrategy,the
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=4 left=1 right=70 upper=332 lower=350
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+? y?l = rl ? yl
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=241 right=252 upper=338 lower=344
+====>
+charfont height=5.698619, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(3)
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=13 right=38 upper=348 lower=359
+====>
+charfont height=3.991914, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+zli+ =
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=24 right=91 upper=348 lower=359
+====>
+charfont height=3.991914, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1 wil+1y?l + bli+1
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=365 lower=520
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=1
+
+The rjl vector in Eq. (3) is generated by Bernoulli function,
+which will generate a vector of 0 and 1 randomly.yl is the ac-
+tivation function, and y?l is the activation value after rlj vector
+processing.
+In feature extraction and processing of neural network, for
+the training data with large distribution difference, classification
+accuracy will be greatly reduced. Because the distribution of each
+training set is different, if the model needs to adapt each time,
+it will seriously affect the training speed of the network, so
+normalization processing is required for each input data [24]. A
+BN algorithm is proposed, which can be used in volume layer to
+accelerate the efficiency of network learning and can be used to
+optimize network training. The BN algorithm is represented as
+follow1s: ?
+
+==============================
+
+==============================
+
+typeindex=-4 left=1 right=53 upper=521 lower=538
+====>
+charfont height=3.991914, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+ub = m i=1 xi
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=241 right=252 upper=521 lower=527
+====>
+charfont height=5.698619, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(4)
+
+==============================
+
+==============================
+
+typeindex=-4 left=1 right=46 upper=586 lower=605
+====>
+charfont height=3.989012, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+??2 = m i=1
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=612 lower=631
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+u? in Eq. (5) represents the mean value, and the variance is
+??2, and then the variance is standardized, as shown in Eq. (6).
+
+==============================
+
+==============================
+
+typeindex=0 left=21 right=47 upper=637 lower=644
+====>
+charfont height=5.702764, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+xi ? u?
+
+==============================
+
+==============================
+
+typeindex=-5 left=1 right=17 upper=644 lower=651
+====>
+charfont height=3.390094, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+xˆi =
+
+==============================
+
+==============================
+
+typeindex=-6 left=29 right=38 upper=652 lower=657
+====>
+charfont height=2.926986, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+??
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=665 lower=692
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+u? in Eq. (6) represents the mean value in the sample data, ??
+represents the standard deviation, and then outputs the original
+value yi through linear transformation, as shown in Eq. (7).
+
+==============================
+
+==============================
+
+typeindex=-2 left=325 right=465 upper=223 lower=228
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 3. Modeling and training pseudo code.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=256 lower=376
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+? and ? in Eq. (7) represent training parameters, and BN
+represents normalization. In the forward propagation, the output
+value does not change, but changes the two training parameters
+of ? and ?, and each change is recorded for subsequent operation.
+In the reverse training, the chain derivation is used to calculate
+the recorded training parameters, and then the learning efficiency
+of the network is calculated to change the weights.
+The mentioned algorithm is used to update the weight and
+bias of the model. The processing method of gradient descent
+lgori?thm is shown1in?q. (8?).
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=360 lower=378
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=363 lower=381
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=366 lower=383
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=368 lower=386
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=0 left=388 right=471 upper=374 lower=385
+====>
+charfont height=5.702764, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+J(W, b; xi, yi)] + ?Wiij
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=283 right=351 upper=377 lower=392
+====>
+charfont height=5.702764, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+?wiljj(W, b) = [m
+
+==============================
+
+==============================
+
+typeindex=-4 left=356 right=390 upper=382 lower=405
+====>
+charfont height=3.991914, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+i1=1?mWilj?
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=386 lower=403
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=389 lower=406
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=391 lower=409
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=510 right=521 upper=392 lower=397
+====>
+charfont height=5.698619, charfont bold=0, alignment=1, allupper=-1, column left=270, likeBody=-100
+
+(8)
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=394 lower=412
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=277 upper=397 lower=415
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=-3 left=304 right=308 upper=400 lower=405
+====>
+charfont height=4.181428, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+?
+
+==============================
+
+==============================
+
+typeindex=0 left=300 right=446 upper=403 lower=423
+====>
+charfont height=5.702764, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+?blij j(W, b) = m i=1 ?blij J(W,b; xi,yi)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=431 lower=461
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+In Eq. (8), wilj represents the weights of (i, j) neurons in layer l,
+blij represents the bias of (i, j) neurons in layer l, and ? represents
+the training parameters of each layer for parameter regulariza-
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=426 upper=466 lower=499
+====>
+charfont height=5.698619, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+??ion. The?f edWbialj?ckl+1e)rr·ofr(ziisl)expressed as:
+
+==============================
+
+==============================
+
+typeindex=4 left=270 right=304 upper=489 lower=512
+====>
+charfont height=17.808355, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+?? ?il = (
+
+==============================
+
+==============================
+
+typeindex=-4 left=335 right=337 upper=496 lower=500
+====>
+charfont height=3.991914, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+j
+
+==============================
+
+==============================
+
+typeindex=0 left=510 right=521 upper=497 lower=503
+====>
+charfont height=5.698619, charfont bold=0, alignment=1, allupper=-1, column left=270, likeBody=-100
+
+(9)
+
+==============================
+
+==============================
+
+typeindex=-4 left=306 right=316 upper=504 lower=508
+====>
+charfont height=3.989012, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+j=1
+
+==============================
+
+==============================
+Page 4
+ Left 1 Right 521 Top 1 Bottom 722
+
+
+Column meta:
+Column left:1 upper:176 right:252 lower 706
+Column left:270 upper:151 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=65 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+J. Yu, X. Ye and H. Li
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=344 right=521 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems 129 (2022) 399–406
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=255 right=266 upper=717 lower=722
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+402
+
+==============================
+
+==============================
+
+typeindex=-2 left=31 right=221 upper=176 lower=181
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+Fig. 4. Working principle of the intrusion detection system.
+
+==============================
+
+==============================
+
+typeindex=-2 left=70 right=182 upper=348 lower=353
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+Fig. 5. Learning process of MSCNN.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=380 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+the historical behavior, specific behavior pattern and other be-
+haviors of monitoring objects as information sources. The infor-
+mation is integrated and transmitted to the analysis engine. The
+analysis engine detects and analyzes the input information based
+on the behavior of the system and users to determine whether
+there is an intrusion behavior. If the result is that there is no
+intrusion, the normal data is extracted, and the security data is
+returned to allow the user to operate; if the data has intrusion
+behavior, the data is sent to the response component to record
+the evidence and process [26].
+However, the current intrusion detection technology is limited
+by its complexity, resulting in most of the intrusion detection
+systems still have security risks, such as the lack of defense
+capability and the accuracy of detection is not optimistic [27].
+This paper proposes an intelligent intrusion detection technology
+combining with MSCNN, and the model learning process is shown
+in Fig. 5.
+As shown in Fig. 5, the original data set is preprocessed. Firstly,
+the attribute mapping of the data is carried out, the data is
+digitized, and then normalized to obtain the standardized data
+set. Finally, the data preprocessing is completed by converting
+the data into two-dimensional data in accordance with the con-
+volution neural network input format. The integrated target data
+set is divided into two sub data sets, one is used as the training
+data set of MSCNN model for model learning, and the weight
+is adjusted by reverse fine-tuning, the other is the test data of
+MSCNN model, which is used as the final test analysis to get the
+final classification results.
+The standardization in data preprocessing needs to first dig-
+itize the symbolic features, and the operation method of dig-
+itization is to use attribute mapping, such as representing the
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=348 right=443 upper=151 lower=156
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 6. Model training results.
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=270 right=521 upper=321 lower=335
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 7. Comparison results of dropout connection probability selection
+experiment.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=362 lower=483
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+identified protocol type attributes through computer binary cod-
+ing [28]. The normalization process is to unify the numerical
+processing results to (0,1) interval distribution, and normalize
+them through Eq. (10).
+x ? min
+y = max ? min
+In Eq. (10), x is the random attribute in the network, min is the
+minimum numerical attribute in the network record, and max is
+the maximum numerical attribute in thenetwork record. Through
+the preprocessing of the network data, the data will present the
+image data format and input to the convolutional neural network.
+
+==============================
+
+==============================
+
+typeindex=0 left=505 right=521 upper=415 lower=421
+====>
+charfont height=5.698619, charfont bold=0, alignment=1, allupper=-1, column left=270, likeBody=-100
+
+(10)
+
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=270 right=521 upper=499 lower=516
+====>
+charfont height=6.021886, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+4. Application effect analysis of the high precision intrusion
+detection system
+
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=270 right=521 upper=532 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+The simulation environment is Ubuntu 17.04, the CPU is Intel
+Core i5-3470, the memory size is 8 GB, the python 3.5 program-
+ming language is used for development, and the data reading
+is pandas. There are 5 million records in this data set. In this
+experiment, 10% of them are taken as the test set and training set,
+and then 20% of the selected data set is taken as the training set
+and 80% as the test set. The training results are shown in Fig. 6.
+As can be seen from Fig. 6, with the increase of the iterative
+times, the accuracy of the model is also constantly improving, and
+when the number of iterations reaches 20, the accuracy of the
+model gradually tends to be stable, and remains at about 0.983.
+The above results show that the MSCNN model has high accuracy,
+and can continuously improve the accuracy of the model with the
+increase of the number of iterations. Taking the mean value of 0
+as the random initialization premise of all layers with very bi-
+ased weights, the results of exploring the connection probability
+between adjacent layers are shown in Fig. 7.
+
+==============================
+
+==============================
+Page 5
+ Left 1 Right 521 Top 1 Bottom 722
+
+
+Column meta:
+Column left:1 upper:20 right:252 lower 706
+Column left:270 upper:155 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=65 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+J. Yu, X. Ye and H. Li
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=344 right=521 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems 129 (2022) 399–406
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=255 right=266 upper=717 lower=722
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+403
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=24 upper=20 lower=24
+====>
+charfont height=4.817494, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Table 1
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=247 upper=29 lower=64
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+Error rate comparison of different pooling methods.
+/ 1 2 3 4 5 6 7 8 9 10
+Avg 44% 32% 31% 24% 20% 16% 11% 7% 7% 5%
+Max 51% 45% 36% 32% 27% 23% 17% 12% 9% 8%
+
+==============================
+
+==============================
+
+typeindex=-2 left=43 right=209 upper=203 lower=208
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+Fig. 8. Training time of different dimension models.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=236 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+With the increasing of connection probability, the classifica-
+tion accuracy of MSCNN model is also increasing. When P=0.7, the
+accuracy rate reaches the maximum value of 95.7%. Then, with
+the increase of connection probability, the accuracy of MSCNN
+model does not increase and decrease. The results show that 0.7
+should be chosen as the connection probability for the probability
+selection between the connection layers, which can greatly im-
+prove the accuracy. By analyzing the difference of pooling in the
+overlapping mode of the pooling layer, the step size is 1–10, and
+the comparison (Table 1).
+As can be seen from Table 1, when average pooling is used
+to eliminate noise, the error rate decreases with the increase
+of step size, and decreases by 5% from the highest 44%. On the
+contrary, Max Polo method can also eliminate noise better, and
+the error rate decreases with the increase of step size. However,
+it is obvious that the error rate of Max Polo is higher than average
+Polo under the same step size. The final solution shows that
+the average pooling is correct, which improves the convergence
+speed of the model, and increases the accuracy of the model. Fig. 7
+shows the training time change of the system under the change
+of input data dimension.
+The training time of the system model changes with the di-
+mension of the input data, and there is a positive correlation
+between the two as shown in Fig. 8. And it is not difficult to
+find that with the increasing dimension of input data, the growth
+trend of training time is increasing, until the dimension increases
+to more than 12, the accuracy gradually tends to be stable, and
+gradually keeps the accuracy within the maximum range. This
+means that the accuracy of the model is affected by the dimen-
+sion, and with the increase of the dimension, the accuracy of the
+model also continues to increase, indicating that the performance
+of the model is also continuously improving.
+In addition, the effect of establishing experimental analysis BN
+layer is shown in Fig. 9.
+The MSCNN model without BN layer increases with the in-
+crease of step number, and the accuracy rate increases gradually
+(Fig. 9). When the number of steps is less than 1000, the accuracy
+rate rises rapidly, and then gradually slows down. When the steps
+reach 4000, it will become stable and the accuracy rate will be
+stable at about 98%. However, the accuracy of MSCNN model with
+BN layer increases with the increase of steps. However, unlike
+the model without BN, when the number of steps is less than
+500, the accuracy of the model increases rapidly and the speed is
+obviously higher than that without BN model. When the number
+of steps reaches 2000, the accuracy rate has begun to stabilize,
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=339 right=452 upper=155 lower=160
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 9. Trend of detection accuracy.
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=297 right=494 upper=338 lower=343
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 10. Accuracy comparison of MSCNN to baseline methods.
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=270 right=521 upper=522 lower=527
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 11. Comparison of detection rates of three algorithms for five attack types.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=555 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+keeping at about 98%. The results show that adding BN layer to
+MSCNN model effectively improves the convergence speed of the
+model and the learning speed of the model.
+In addition, in order to verify the proposed model, it is com-
+pared to some baseline methods including Recurrent Neural Net-
+work (RNN) and Adaboost models as shown in Fig. 10.
+The detection rate in Fig. 10 is the average detection rate of
+the three algorithms for different attack types. It can be seen from
+Fig. 10 that the three algorithms can well detect different attack
+types, and the detection rate is above 80%. The detection rates of
+Adaboost to DOS, Normal, Probe, U2R and R2L are 87.3%, 83.1%,
+84.1%, 83.7% and 80.2% respectively. The detection rates of RNN to
+DOS, Normal, Probe, U2R and R2L are 90.3%, 90.3%, 90.2%, 90.3%
+and 90.4% respectively. By observing the detection rate of MSCNN
+model, it is found that the detection rate of MSCNN model for five
+
+==============================
+
+==============================
+Page 6
+ Left 1 Right 521 Top 1 Bottom 722
+
+
+Column meta:
+Column left:1 upper:323 right:252 lower 706
+Column left:270 upper:476 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=65 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+J. Yu, X. Ye and H. Li
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=344 right=521 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems 129 (2022) 399–406
+
+==============================
+
+==============================
+
+typeindex=-2 left=131 right=390 upper=302 lower=306
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Fig. 12. Comparison of ROC curves for three algorithms against five attack types.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=255 right=266 upper=717 lower=722
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+404
+
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=1 right=252 upper=323 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+attack types is 94.2%, 93.4%, 92.5%, 92.1% and 90.3% respectively,
+which is 4.37% higher than that of other models. The results show
+that the detection rate of MSCNN model in the detection of five
+types of attacks is higher than 90%, and it is obviously better than
+the detection rate of the other two models in the five types of
+attacks, which indicates that the detection effect of the proposed
+MSCNN model is excellent. In addition, the false alarm rates of
+the three algorithms in intrusion detection of DOS, Normal, Probe,
+U2R and R2L are compared, as shown in Fig. 11.
+The traditional RNN model and Adaboost [27,28] model are
+used to compare the performance with MSCNN model. The three
+algorithms use the same test set and experimental environment.
+The comparison results of the three algorithms in detection rate
+are shown in Fig. 11.
+In Fig. 11, the false alarm rate of Adaboost model is signifi-
+cantly higher, the false alarm rate of DOS is 11%, and the false
+alarm rate of R2L has reached 16.7%, and the false alarm rate
+of other three attack types has reached 14%, 14.5% 1 and 15.2%.
+The false alarm rate of RNN model were 8.9%, 9.1%, 10.1%, 10.3%
+and 10.9% respectively. The false alarm rate of MSCNN model
+were 6.1%, 7.8%, 7.4%, 8.8% and 10.1% respectively, which are
+significantly lower than the other two models, with an average
+decrease of 4.02%. The results show that MSCNN model can detect
+the attack types in intrusion system well, and also show that
+the performance of MSCNN model is better than other models.
+In addition, the three detection models are applied to other data
+sets for detection and analysis, and the ROC curves of the three
+models are drawn to solve the offline area, so as to analyze the
+universality of the prediction efficiency of the three models. The
+ROC curve is shown in Fig. 12.
+As can be seen from Fig. 12, in three different data sets, the
+three models can make good prediction, and the offline area is far
+greater than 0.5, which indicates that the prediction efficiency of
+the three models is good, but it is not difficult to see that the
+offline area of MSCNN model is always greater than the other
+two models. The above results show that the MSCNN model has a
+strong universality, can be trained well in different data sets, and
+the prediction performance meets the ideal requirements.
+
+==============================
+
+==============================
+
+typeindex=-2 left=280 right=511 upper=476 lower=481
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+Fig. 13. Comparison of warning time under different detection methods.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=509 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+For that, the short-term detection effect and long-term de-
+tection effect are analyzed respectively. First, the short-term ap-
+plication effect evaluation is carried out, and the average early
+warning time of intrusion detection based on different algorithms
+is compared, as shown in Fig. 13.
+The warning time of the proposed detection system decreases
+with the increase of attack speed, which indicates that the in-
+trusion detection system based on MSCNN can perfectly cope
+with external network attacks as shown in Fig. 13. The same
+experiment is also conducted for other two baseline methods, and
+the two detection models can also achieve reducing the alarm
+time with the increase of attack speed. However, from the overall
+situation, the early warning time of MSCNN intrusion detection
+system and the other two groups of detection systems is not
+different when the attack speed is low. However, as the attack
+speed increases by more than 25, it is obvious that the average
+early alarm time of MSCNN intrusion detection system is 0.1s
+and 0.15s faster than RNN and Adaboost respectively. The results
+show that MSCNN intrusion detection system after a short-term
+
+==============================
+
+==============================
+Page 7
+ Left 1 Right 521 Top 1 Bottom 722
+
+
+Column meta:
+Column left:1 upper:20 right:252 lower 706
+Column left:270 upper:39 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=65 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+J. Yu, X. Ye and H. Li
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=344 right=521 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems 129 (2022) 399–406
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=325 upper=29 lower=61
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Multi-scale convolutional neural network intrusion detection system application effect.
+IP Network unknown Web service remote SCOKS proxy
+number encrypted data SQL injection attack access operation
+transmission
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=255 right=266 upper=717 lower=722
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+405
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=1 right=24 upper=20 lower=24
+====>
+charfont height=4.817494, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Table 2
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=68 lower=73
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=101 upper=68 lower=73
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+17106
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=197 upper=68 lower=73
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+10321
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=77 lower=81
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+2
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=101 upper=77 lower=81
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+20061
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=197 upper=77 lower=81
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+14679
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=85 lower=90
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+3
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=97 upper=85 lower=90
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+9752
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=193 upper=85 lower=90
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+7649
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=94 lower=98
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+4
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=101 upper=94 lower=98
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+15446
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=193 upper=94 lower=98
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+9983
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=103 lower=107
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+5
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=101 upper=103 lower=107
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+12043
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=193 upper=103 lower=107
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+9461
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=111 lower=116
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+6
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=97 upper=111 lower=116
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+7342
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=193 upper=111 lower=116
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+5435
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=120 lower=124
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+7
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=101 upper=120 lower=124
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+19413
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=197 upper=120 lower=124
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+11842
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=128 lower=133
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+8
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=101 upper=128 lower=133
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+11497
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=193 upper=128 lower=133
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+9238
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=9 upper=137 lower=141
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+9
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=101 upper=137 lower=141
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+21513
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=197 upper=137 lower=141
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+15230
+
+==============================
+
+==============================
+
+typeindex=-2 left=5 right=13 upper=145 lower=150
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+10
+
+==============================
+
+==============================
+
+typeindex=-2 left=81 right=97 upper=145 lower=150
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+8846
+
+==============================
+
+==============================
+
+typeindex=-2 left=178 right=193 upper=145 lower=150
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+7791
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=170 lower=431
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+test, its response to network intrusion is faster, early alarm is fast,
+and withthe speed of network attacks, it canalso improve its own
+early warning time adaptively, which is conducive to network
+security protection.
+And in practical application, the installation cost of the three
+intrusion detection systems and the later maintenance cost of
+MSCNN are slightly lower than the other two intrusion detection
+systems to a certain extent, so from the overall benefit, MSCNN
+has better usability. 10 IP addresses were selected as the test ob-
+jects to be attacked. The number of network attacks and detection
+system in these 10 IP addresses in the next 6 months is shown in
+Table 2.
+It can be seen from Table 2 that the 10 IP addresses are mainly
+affected by the network unknown encrypted data transmission,
+Web service remote SQL injection attack, SOCKS proxy access op-
+eration, HTTP protocol URL field super long buffer overflow attack
+and port scanner PING Sweep operates five types of attacks, in
+which the network unknown encrypted data transmission is the
+most frequent of all attacks, and the maximum number of attacks
+is 21513. The port scanner Ping sweep is the least attack type. The
+most attack is 1622 and the lowest is 768. It shows that under
+the support of intrusion detection system based on multi-scale
+convolutional neural network, the number of attacks of each IP is
+well detected. And it further shows that the intrusion detection
+system can achieve good results in practical application, and also
+verifies the effectiveness and feasibility of the research content.
+
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=1 right=56 upper=445 lower=451
+====>
+charfont height=6.021886, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+5. Conclusion
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=465 lower=706
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+In view of the defects of the network intrusion detection
+system in the market, a high-precision intrusion detection tech-
+nology based on MSCNN is proposed. The performance of the
+network model and the effect of the detection system in the
+practical application are analyzed and discussed. MSCNN is a kind
+of deep learning method to realize high-precision recognition,
+and it is applied to the network security intrusion detection
+system. After the final performance analysis, it is found that the
+convergence rate of the network adding BN layer is significantly
+faster than that without BN layer. By comparing the accuracy and
+false alarm rate of different algorithms in the face of different
+attack types, it is found that the detection rate of MSCNN model
+is higher than that of other models when facing five attack types.
+In addition, the false alarm rate of MSCNN model detection is also
+obvious. In the practical application, it can be seen from the short-
+term application effect that the early alarm time of the system to
+network attack is better than other detection systems with the
+increase of attack speed. The long-term evaluation of application
+effect shows that the system can prevent and classify different
+types of attacks. In conclusion, MSCNN can effectively improve
+the intrusion detection, which provides a theoretical support for
+network security protection. However, in the future, there are still
+some rooms to improve the model to construct a better intrusion
+detection system.
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=430 upper=39 lower=61
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+HTTP protocol URL
+field super long
+buffer overflow attack
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=514 upper=39 lower=52
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+Port scanner PING
+Sweep operation
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=68 lower=73
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+5214
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=375 upper=68 lower=73
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1321
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=468 upper=68 lower=73
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+996
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=77 lower=81
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+9432
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=375 upper=77 lower=81
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1782
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=472 upper=77 lower=81
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1023
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=85 lower=90
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+4125
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=372 upper=85 lower=90
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+922
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=468 upper=85 lower=90
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+813
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=94 lower=98
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+4698
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=372 upper=94 lower=98
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+831
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=468 upper=94 lower=98
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+842
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=103 lower=107
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+6894
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=375 upper=103 lower=107
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1025
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=468 upper=103 lower=107
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+974
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=111 lower=116
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+3283
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=375 upper=111 lower=116
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1146
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=468 upper=111 lower=116
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+768
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=120 lower=124
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+6749
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=375 upper=120 lower=124
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1953
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=472 upper=120 lower=124
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1102
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=128 lower=133
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+5122
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=375 upper=128 lower=133
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1846
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=468 upper=128 lower=133
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+953
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=137 lower=141
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+9463
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=375 upper=137 lower=141
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+2145
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=472 upper=137 lower=141
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1622
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=289 upper=145 lower=150
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+4131
+
+==============================
+
+==============================
+
+typeindex=-2 left=360 right=375 upper=145 lower=150
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+1462
+
+==============================
+
+==============================
+
+typeindex=-2 left=456 right=468 upper=145 lower=150
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+975
+
+==============================
+
+==============================
+
+typeindex=1 left=270 right=442 upper=169 lower=175
+====>
+charfont height=6.021886, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+CRediT authorship contribution statement
+
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=270 right=521 upper=190 lower=227
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-102
+
+Jing Yu: Organize graphics, Modify articles, Reply to com-
+ments. Xiaojun Ye: Revise articles, Respond to comments, Submit
+Revised drafts. Hongbo Li: Organize references, Revise articles
+and reply to comments.
+
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=270 right=407 upper=242 lower=248
+====>
+charfont height=6.021886, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+Declaration of competing interest
+
+==============================
+
+==============================
+type: SUBTITLE_0
+typeindex=0 left=270 right=521 upper=263 lower=289
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+The authors declare that they have no known competing finan-
+cial interests or personal relationships that could have appeared
+to influence the work reported in this paper.
+
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=270 right=340 upper=304 lower=310
+====>
+charfont height=6.021886, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+Acknowledgment
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=325 lower=351
+====>
+charfont height=5.698619, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=100
+
+This work has been supported by the research project funded
+by the National Key Research and Development Program of China
+(2019QY1402).
+
+==============================
+
+==============================
+
+typeindex=1 left=270 right=313 upper=366 lower=372
+====>
+charfont height=6.021886, charfont bold=0, alignment=-1, allupper=-1, column left=270, likeBody=-100
+
+References
+
+==============================
+
+==============================
+
+typeindex=-2 left=270 right=521 upper=386 lower=706
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+[1] Y. Gao, H. Wu, B. Song, et al., A distributed network intrusion detection
+system for distributed denial of service attacks in vehicular ad hoc
+network, IEEE Access 7 (2019) 154560–154571.
+T.H. Divyasree, K.K. Sherly, A network intrusion detection system based on
+ensemble CVM using efficient feature selection approach, Procedia Comput.
+Sci. 143 (2018) 442–449.
+[3] Z. Fan, Y. Xiao, A. Nayak, et al., An improved network security situation
+assessment approach in software defined networks, Peer-To-Peer Netw.
+Appl. 12 (2017) 295–309.
+[4] Z. Wei, Y.W. Chow, W. Susilo, Interactive three-dimensional visualization
+of network intrusion detection data for machine learning, Future Gener.
+Comput. Syst. 102 (2020) 292–306.
+[5] C. Umarani, S. Kannan, Intrusion detection system using hybrid tissue
+growing algorithm for wireless sensor network, Peer-To-Peer Netw. Appl.
+13 (3) (2020) 752–761.
+[6] H. Sedjelmaci, S.M. Senouci, M.A. Abu-Rgheff, An efficient and lightweight
+intrusion detection mechanism for service-oriented vehicular networks,
+IEEE Internet Things J. 1 (6) (2017) 570–577.
+[7] W. Wei, Y. Sheng, J. Wang, et al., HAST-IDS: Learning hierarchical spatial-
+temporal features using deep neural networks to improve intrusion
+detection, IEEE Access 6 (99) (2018) 1792–1806.
+R.D. Datta, et al., A novel approach for efficient usage of intrusion detection
+system in mobile ad hoc networks, IEEE Trans. Veh. Technol. 66 (5) (2017)
+1684–1695.
+[9] B.C. Zhang, G.Y. Hu, Z.J. Zhou, et al., Network intrusion detection based on
+directed acyclic graph and belief rule base, Etri J. 39 (4) (2017) 592–604.
+[10] S. Kruthiventi, K. Ayush, R.V. Babu, DeepFix: A fully convolutional neural
+network for predicting human eye fixations, IEEE Trans. Image Process. 26
+(9) (2017) 4446–4456.
+[11] R.T. Schirrmeister, L. Gemein, K. Eggensperger, et al., Deep learning with
+convolutional neural networks for decoding and visualization of EEG
+pathology, Human Brain Mapp. 38 (11) (2017) 5391–5420.
+[12] X. Ma, D. Zhuang, Z. He, et al., Learning traffic as images: A deep
+convolutional neural network for large-scale transportation network speed
+prediction, Sensors 17 (4) (2017) 818.
+[13] W. Peng, Y. Cao, C. Shen, et al., Temporal pyramid pooling based convo-
+lutional neural networks for action recognition, IEEE Trans. Multimed. 27
+(12) (2017) 2613–2622.
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=283 upper=412 lower=416
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+[2]
+
+==============================
+
+==============================
+
+typeindex=-2 left=274 right=283 upper=565 lower=570
+====>
+charfont height=4.558881, charfont bold=0, alignment=-99, allupper=-1, column left=270, likeBody=-100
+
+[8]
+
+==============================
+
+==============================
+Page 8
+ Left 1 Right 521 Top 1 Bottom 722
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 377
+Column left:270 upper:21 right:521 lower 332
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=65 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+J. Yu, X. Ye and H. Li
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=344 right=521 upper=1 lower=6
+====>
+charfont height=4.562197, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Future Generation Computer Systems 129 (2022) 399–406
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=255 right=266 upper=717 lower=722
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+406
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=14 upper=21 lower=26
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+[14]
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=252 upper=21 lower=377
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+G. Antipov, M. Baccouche, S.A. Berrani, et al., Effective training of convolu-
+tional neural networks for face-based gender and age prediction, Pattern
+Recognit. 72 (2017) 15–26.
+[15] Y. Zhu, O. Qi, Y. Mao, A deep convolutional neural network ap-
+proach to single-particle recognition in cryo-electron microscopy, BMC
+Bioinformatics 18 (1) (2017) 348.
+J. Kawahara, C.J. Brown, S.P. Miller, et al., BrainNetCNN: Convolutional neu-
+ral networks for brain networks; towards predicting neurodevelopment,
+Neuroimage 146 (2017) 1038–1049.
+[17] Z. Ahmad, A.S. Khan, C.W. Shiang, et al., Network intrusion detection
+system: A systematic study of machine learning and deep learning
+approaches, Trans. Emerg. Telecommun. Technol. 32 (2020) e4150.
+A. Becq, M. Chandnani, S. Bharadwaj, et al., Effectiveness of a deep-learning
+polyp detection system in prospectively collected colonoscopy videos with
+variable bowel preparation quality, J. Clin. Gastroenterol. 54 (6) (2019)
+554–557.
+S.H. Kim, C.L. Su, D.Y. Kim, Intelligent intrusion detection system featuring
+a virtual fence, active intruder detection, classification, tracking, and action
+recognition, Ann. Nucl. Energy 112 (2018) 845–855.
+[20] B.M. Serinelli, A.C. ollen, N.A. Nijdam, Training guidance with KDD
+Cup 1999 and NSL-KDD Data Sets of ANIDINR: anomaly-based network
+intrusion detection system, Procedia Comput. Sci. 175 (2020) (1999)
+560–565.
+I.S. Thaseen, J.S. Banu, K. Lavanya, et al., An integrated intrusion detection
+system using correlation-based attribute selection and artificial neural
+network, Trans. Emerg. Telecommun. Technol. 32 (2) (2020) e4014.
+N. Alik, O.C. Kurban, A.R. Yilmaz, et al., Large-scale offline signature recog-
+nition via deep neural networks and feature embedding, Neurocomputing
+359 (2019) 1–14.
+[23] H. Hsieh, K.S. Hsu, T.L. Jong, et al., Multi-zone fiber-optic intrusion
+detection system with active unbalanced michelson interferometer used
+for security of each defended zone, IEEE Sens. J. 20 (3) (2020) 1607–1618.
+[24] A.M. Aleesa, B.B. Zaidan, A.A. Zaidan, et al., Review of intrusion detec-
+tion systems based on deep learning techniques: coherent taxonomy,
+challenges, motivations, recommendations, substantial analysis and future
+directions, Neural Comput. Appl. 32 (5232) (2020) 9827–9858.
+H. Choi, M. Kim, G. Lee, et al., Unsupervised learning approach for network
+intrusion detection system using autoencoders, J. Supercomput. 75 (9)
+(2019) 5597–5621.
+[26] T.A. Tchakoucht, M. Ezziyyani, Building a fast intrusion detection sys-
+tem for high-speed-networks: Probe and DoS attacks detection, Procedia
+Comput. Sci. 127 (2018) 521–530.
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=14 upper=73 lower=77
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+[16]
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=14 upper=124 lower=129
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+[18]
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=14 upper=158 lower=163
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+[19]
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=14 upper=218 lower=223
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+[21]
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=14 upper=244 lower=248
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+[22]
+
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=14 upper=330 lower=334
+====>
+charfont height=4.558881, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+[25]
+
+==============================
+
+==============================
+
+typeindex=-2 left=270 right=521 upper=21 lower=69
+====>
+charfont height=4.558881, charfont bold=0, alignment=0, allupper=-1, column left=270, likeBody=-100
+
+[27] Y. Tian, J. Song, X. Zhang, et al., An algorithm combined with color
+differential models for license-plate location, Neurocomputing 212 (NOV.5)
+(2016) 22–35.
+[28] A. Albu, R.E. Precup, T.A. Teban, Results and challenges of artificial neural
+networks used for decision-making and control in medical applications,
+Facta Univ., Ser.: Mech. Eng. 17 (3) (2019) 285–308.
+
+==============================
+
+==============================
+
+typeindex=-2 left=348 right=521 upper=96 lower=152
+====>
+charfont height=4.558881, charfont bold=0, alignment=1, allupper=-1, column left=270, likeBody=-100
+
+Jing Yu, received the B.S. and M.S. degree from In-
+formation Engineering University, Zhengzhou, China, in
+2004 and 2008 respectively. From 2007 to 2015, she
+was a test engineer of software. Since 2015, she is
+a Ph.D. student in School of Software, Tsinghua Uni-
+versity, China. Her research interest covers automated
+testing for software and deep learning systems.
+
+==============================
+
+==============================
+
+typeindex=-2 left=348 right=521 upper=194 lower=259
+====>
+charfont height=4.558881, charfont bold=0, alignment=1, allupper=-1, column left=270, likeBody=-100
+
+Xiaojun Ye, received the B.S. degree in mechanical
+engineering from Northwest Polytechnical University,
+Xian, China, in 1987 and the Ph.D. degree in infor-
+mation engineering from INSA Lyon, France, in 1994.
+Currently, he is a professor at School of Software,
+Tsinghua University, Beijing, China. His research inter-
+ests include cloud data management, data security and
+privacy, and database system testing.
+
+==============================
+
+==============================
+
+typeindex=-2 left=348 right=521 upper=301 lower=332
+====>
+charfont height=4.558881, charfont bold=0, alignment=1, allupper=-1, column left=270, likeBody=-100
+
+Hongbo Li is a student of College of Electronic Infor-
+mation Engineering, southwest university, Chongqing,
+China. His research interest covers Circuit design and
+security algorithm development.
+
+==============================
+

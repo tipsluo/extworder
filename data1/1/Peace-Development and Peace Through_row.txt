@@ -1,0 +1,1320 @@
+Page: 1 left:1 upper:1
+ournal of
+page=1 block=862146308 (x=324 y=1) width=45 height=4 fontname=ELGAOJ+Trajan-Regular wordint.min=2 wordint.max=4
+ PEACEBUILDING 
+page=1 block=1234435772 (x=321 y=10) width=84 height=5 fontname=ELGAOJ+Trajan-Regular wordint.min=3 wordint.max=5
+     DEVELOPMENT
+page=1 block=1234435772 (x=321 y=20) width=86 height=5 fontname=ELGAOJ+Trajan-Regular wordint.min=3 wordint.max=5
+Article
+page=1 block=1979825302 (x=1 y=27) width=23 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=2
+Journal of Peacebuilding
+page=1 block=1218496682 (x=341 y=46) width=66 height=3 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=4
+& Development
+page=1 block=1218496682 (x=363 y=54) width=44 height=4 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+2020, Vol. 15(2) 164-177
+page=1 block=1218496682 (x=336 y=63) width=71 height=3 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=4
+ª The Author(s) 2020
+page=1 block=1218496682 (x=342 y=70) width=65 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=4
+Articlereuseguidelines:
+page=1 block=1218496682 (x=339 y=80) width=68 height=3 fontname=ELGAGJ+AdvPAC59 wordint.min=10 wordint.max=10
+sagepub.com/journals-permissions
+page=1 block=1218496682 (x=311 y=88) width=96 height=4 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=2
+DOI: 10.1177/1542316620905788
+page=1 block=1218496682 (x=311 y=97) width=96 height=3 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=2
+journals.sagepub.com/home/jpd
+page=1 block=1218496682 (x=319 y=105) width=88 height=4 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=2
+Development and Peace
+page=1 block=1637000661 (x=1 y=66) width=205 height=9 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=7
+Through Traditional,
+page=1 block=1637000661 (x=1 y=86) width=176 height=9 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=8
+Cultural, Islamic Mediation
+page=1 block=1637000661 (x=1 y=106) width=227 height=8 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=7
+Jonathan K. Zartman
+page=1 block=925024581 (x=1 y=158) width=118 height=6 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=5
+Air University, Montgomery, AL, USA
+page=1 block=1287401019 (x=1 y=173) width=154 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+Abstract
+page=1 block=43473566 (x=1 y=221) width=40 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=17
+In a world filled with conflict, competition, and war, those who work for peace shape the character
+page=1 block=1986001684 (x=1 y=233) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+of human existence at the local level. The lives and petitions of individuals who work to reduce the
+page=1 block=1986001684 (x=1 y=245) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+ravages of conflict create profound effects and deserve attention and study. In the last two decades
+page=1 block=1986001684 (x=1 y=257) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+of international politics, violence in Islamic societies in Afghanistan, Iraq, Somalia, Sudan, and else-
+page=1 block=1986001684 (x=1 y=269) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+where has gained global public attention. However, the international media frequently does see the
+page=1 block=1986001684 (x=1 y=281) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+local-level initiatives to promote peace in traditional Islamic societies. Many people, whether in
+page=1 block=1986001684 (x=1 y=293) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=6
+humanitarian nongovernmental organisation operations, or as part of a military-led reconstruction
+page=1 block=1986001684 (x=1 y=305) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+team, have worked and poured treasure into promoting stability in traditional societies suffering
+page=1 block=1986001684 (x=1 y=317) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+from insecurity. Understanding the resources for peace offered in Islam and the way in which
+page=1 block=1986001684 (x=1 y=329) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=6
+Muslims work for peace in their communities can empower those who seek to help and protect
+page=1 block=1986001684 (x=1 y=341) width=406 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+them from strategic errors.
+page=1 block=1986001684 (x=1 y=353) width=114 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+Keywords
+page=1 block=1465263219 (x=1 y=383) width=46 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=17
+local, traditional, cultural, Islamic mediation, conciliation, reputation, conflict resolution, character
+page=1 block=2050360660 (x=1 y=395) width=396 height=4 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+Seeking Peace at the Local Level
+page=1 block=1112400678 (x=1 y=427) width=184 height=6 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=6
+Given the ubiquity of quarrels and competition, traditional societies develop practices and proce-
+page=1 block=1271084832 (x=1 y=449) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+dures for dispute resolution. When outside parties enter, they become part of the dynamic of local
+page=1 block=1271084832 (x=1 y=461) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+relations. Offenses by foreigners come easily, but their efforts to resolve problems in ways that
+page=1 block=1271084832 (x=1 y=473) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+work in their home societies do not work as well in a traditional Muslim society. Therefore,
+page=1 block=1271084832 (x=1 y=485) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+whether seeking to make amends for an offence, or pursuing peace for the sake of aiding devel-
+page=1 block=1271084832 (x=1 y=498) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+opment, everyone who works in a Muslim society should become familiar with the local tradi-
+page=1 block=1271084832 (x=1 y=510) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+tions of conflict resolution.
+page=1 block=1271084832 (x=1 y=522) width=115 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+This work does not offer a theoretical analysis but rather seeks to extend awareness, and offer exam-
+page=1 block=768669591 (x=1 y=540) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ples applying the work of Funk (2014), Abu-Nimer (2014), Irani & Funk (2001), and Funk & Said
+page=1 block=768669591 (x=1 y=552) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Corresponding Author:
+page=1 block=1728465884 (x=1 y=591) width=87 height=4 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=5
+Jonathan K. Zartman, Air University, 2730 Windsor Avenue, Montgomery, AL 36109, USA.
+page=1 block=1249890505 (x=1 y=601) width=297 height=4 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=4
+Email: jkzartman@yahoo.com
+page=1 block=1249890505 (x=1 y=611) width=96 height=4 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=5
+Page: 2 left:1 upper:1
+Zartman
+page=2 block=408388753 (x=1 y=1) width=30 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=14
+165
+page=2 block=848409667 (x=394 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+(2009). It promotes three major applications for the outsider seeking to support local conflict media-
+page=2 block=1729904998 (x=1 y=34) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tion: (1) develop cultural awareness; (2) develop respect for Muslims; and (3) in each place, ask the
+page=2 block=1729904998 (x=1 y=46) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+questions, “What rituals do people here use to resolve conflicts” and “Who has a reputation for med-
+page=2 block=1729904998 (x=1 y=59) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+iating conflicts?” Discussion of seeking peace in the broad area of Muslim majority societies,
+page=2 block=1729904998 (x=1 y=71) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+encompassing about 57 countries, with many different languages, civilizations, and different doc-
+page=2 block=1729904998 (x=1 y=83) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+trines and divisions, such as Sunni, Shi’a, Ibadi, and Sufism, necessarily includes a great diversity
+page=2 block=1729904998 (x=1 y=95) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+of practices. The examples offered here, ranging from Afghanistan to Jordan, Morocco, Somaliland,
+page=2 block=1729904998 (x=1 y=107) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Tajikistan and Turkey, represent an effort to show the value of similar principles and practices across
+page=2 block=1729904998 (x=1 y=120) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+a wide range of societies, despite other aspects of social differences.
+page=2 block=1729904998 (x=1 y=132) width=283 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Local-level conflict resolution deserves attention for several crucial reasons. Local conditions rep-
+page=2 block=1406221524 (x=1 y=150) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+resent the core life experiences for Muslims in a traditional society. The principles of Islamic med-
+page=2 block=1406221524 (x=1 y=162) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+iation have great impact at the local level, so a stronger understanding of these principles can help
+page=2 block=1406221524 (x=1 y=174) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+both Muslims and non-Muslims enhance human dignity and well-being. As Hayman (2013) con-
+page=2 block=1406221524 (x=1 y=186) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+cludes from a review of peacebuilding, “Locally-led peacebuilding offers advantages over
+page=2 block=1406221524 (x=1 y=199) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=8
+internationally-led initiatives for fostering self-help, relevance and sustainability” (p. 17). She notes
+page=2 block=1406221524 (x=1 y=211) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+that international organisations lack awareness of the importance of local capacity to mediate con-
+page=2 block=1406221524 (x=1 y=223) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+flict (Hayman, 2013:21). She concludes that only locally rooted, relevant endeavours hold the dur-
+page=2 block=1406221524 (x=1 y=235) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+able commitment of the people who need help. Kalyvas (2003) has given a plethora of examples to
+page=2 block=1406221524 (x=1 y=248) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+document how local conflicts, teeming with bitterness and desires for revenge, frequently animate
+page=2 block=1406221524 (x=1 y=260) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+and become intermingled with larger political projects, issues of ethnic conflict, and civil wars.
+page=2 block=1406221524 (x=1 y=272) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Given the significance of local conflicts for the people involved, for those who seek greater human
+page=2 block=1406221524 (x=1 y=284) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+welfare in Muslim societies, and for security and stability at the regional level, local practices of
+page=2 block=1406221524 (x=1 y=297) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+mediation and conflict resolution carry great importance today. This article uses the word “local”
+page=2 block=1406221524 (x=1 y=309) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+to mean that particular place where someone wants to promote peace, whether they work for a non-
+page=2 block=1406221524 (x=1 y=321) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+governmental organisation (NGO) in aid, relief and development, healthcare, or even providing
+page=2 block=1406221524 (x=1 y=333) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+security assistance to the government.
+page=2 block=1406221524 (x=1 y=345) width=157 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+In the context of traditional Muslim societies, local traditions of mediation and conflict resolution
+page=2 block=2005293363 (x=1 y=363) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+vary in their terminology, the content of rituals for reconciliation, preferences for mediation by a
+page=2 block=2005293363 (x=1 y=376) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+single individual or a group, and the methods of enforcing decisions. Although mediators draw gui-
+page=2 block=2005293363 (x=1 y=388) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+dance and inspiration from a common treasury of examples and doctrine, their application of Islamic
+page=2 block=2005293363 (x=1 y=400) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+principles characteristically bears the distinctive imprint of local custom. This word “traditional”
+page=2 block=2005293363 (x=1 y=412) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+describes a society in which people use the values and rituals they learned from their fathers and
+page=2 block=2005293363 (x=1 y=424) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+grandfathers. These societies emphasise relationships and community, in contrast to the individua-
+page=2 block=2005293363 (x=1 y=437) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+listic, task orientation common in the West. As Funk (2014) explains it, “The forms of conflict med-
+page=2 block=2005293363 (x=1 y=449) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+iation presented here seek, not merely peace as the absence of conflict, but more importantly
+page=2 block=2005293363 (x=1 y=461) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+“restorative justice,” meaning the reintegration of the offender back into the community, after
+page=2 block=2005293363 (x=1 y=473) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+accepting responsibility, and making reparations, in a public ritual that allows all sides to recover
+page=2 block=2005293363 (x=1 y=486) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+their dignity, thereby preventing cycles of retribution.”
+page=2 block=2005293363 (x=1 y=498) width=227 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Despite the patriarchy commonly found in Muslim societies, women of dynamic intellect and
+page=2 block=1208670252 (x=1 y=516) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+distinctive personality, like the famous woman Sufi, Rabi’a of Basra, do influence their societ-
+page=2 block=1208670252 (x=1 y=528) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+ies (Keddie, 1987; Schimmel, 1982). Kadiayifci-Orellana and Sharify-Funk (2010) have written
+page=2 block=1208670252 (x=1 y=540) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+very persuasively on the role of Muslim women in peacebuilding. USAID (2011) has publicised
+page=2 block=1208670252 (x=1 y=552) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+how networks of older women use Islamic law and local custom to resolve family level
+page=2 block=1208670252 (x=1 y=565) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=8
+disputes).
+page=2 block=1208670252 (x=1 y=577) width=40 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=17
+Gang (2012), in reporting on dispute resolution in Balkh Province of Afghanistan, notes:
+page=2 block=1293465402 (x=1 y=595) width=360 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Page: 3 left:1 upper:1
+166
+page=3 block=393549265 (x=1 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+Journal of Peacebuilding & Development 15(2)
+page=3 block=1392482765 (x=248 y=1) width=159 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=5
+Disputes amongwomen are usually handled by the oldest woman in the family, or through the jalasa [com-
+page=3 block=1277882374 (x=13 y=34) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+munity meeting] of the white-bearded men. The work of NGOs and the expansion of the central govern-
+page=3 block=1277882374 (x=13 y=45) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ment has resulted in the Khadim [older woman appointed as liaison to other women] becoming more of
+page=3 block=1277882374 (x=13 y=57) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+a women’s community leader, taking “the lead in microcredit group arrangements and [as] the coordinator
+page=3 block=1277882374 (x=13 y=68) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+for women’s livelihood and development activities within the village.”
+page=3 block=1277882374 (x=13 y=80) width=258 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+However, in the context of traditional societies like Afghanistan, men play the dominant role in
+page=3 block=1141059550 (x=1 y=105) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+society, and the customs of patriarchy exercise a strong hold over popular sentiment (Irani,
+page=3 block=1141059550 (x=1 y=117) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+1999). In discussing the fact that women have to get permission from their husbands for every-
+page=3 block=1141059550 (x=1 y=129) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+thing, Gang notes, “Women’s subordinate status is not solely a product of community norms in
+page=3 block=1141059550 (x=1 y=141) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+the research sites, but rather is consistent with prevailing gender roles and relations in Afgha-
+page=3 block=1141059550 (x=1 y=153) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+nistan more generally” (p. 22). The older men normally solve conflicts within a family, and
+page=3 block=1141059550 (x=1 y=165) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+when larger scale conflicts arise, people chose older men as mediators, who hold a reputation
+page=3 block=1141059550 (x=1 y=177) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+for piety, honour, interpersonal skills, and knowledge of local history, customs, and traditions
+page=3 block=1141059550 (x=1 y=189) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+(p. 19).
+page=3 block=1141059550 (x=1 y=201) width=32 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+The effectiveness of traditional methods of mediation and conciliation in Muslim societies
+page=3 block=2070372626 (x=1 y=219) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+raises the questions, “From what sources did these practices develop? On what foundations
+page=3 block=2070372626 (x=1 y=231) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+do mediators base their work?” Traditional conflict mediation in Muslim societies rests on the
+page=3 block=2070372626 (x=1 y=243) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+example of the Prophet Muhammad, on many verses in the Qur’an, and on historical examples
+page=3 block=2070372626 (x=1 y=255) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+of noble individuals. Moussalli (2001) notes that this derives from a principle of Islamic prac-
+page=3 block=2070372626 (x=1 y=268) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+tice: “For most Muslims, be they modernists, fundamentalists or traditionalists, the introduc-
+page=3 block=2070372626 (x=1 y=280) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+tion or development of theoretical principles or practical doctrines cannot be abstractly
+page=3 block=2070372626 (x=1 y=292) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=8
+justified, but must be referred directly or analogically to past ‘authentic’ principles and doc-
+page=3 block=2070372626 (x=1 y=304) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+trines” (p. 144).
+page=3 block=2070372626 (x=1 y=317) width=69 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Roots of Peace in the Example of the Prophet
+page=3 block=1433976386 (x=1 y=349) width=257 height=6 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=6
+Ahmad Moussalli describes historical Islamic principles of arbitration, or tahkim, as rooted in tra-
+page=3 block=1313459755 (x=1 y=370) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ditional Arab practices, and exemplified in the personal example of the Prophet (p. 145). Histori-
+page=3 block=1313459755 (x=1 y=383) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+cally, “each tribe had its own arbitrators who were known for their good judgment and knowledge
+page=3 block=1313459755 (x=1 y=395) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+of tribal customs and were also respected for their justice, fairness, and superior moral qualities.
+page=3 block=1313459755 (x=1 y=407) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Some arbitrators were women” (Moussalli 2001: 145). He observes that in pre-Islamic history,
+page=3 block=1313459755 (x=1 y=419) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+“arbitrators were not necessarily tribal chiefs, but men of understanding who had knowledge
+page=3 block=1313459755 (x=1 y=431) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+of traditions and customs, so even some Christian priests played the role of arbitrators in pre-
+page=3 block=1313459755 (x=1 y=444) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Islamic Arabia, though not in their capacities as men of religion” (p. 146). Therefore, he argues
+page=3 block=1313459755 (x=1 y=456) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+that this tradition of arbitration forms the cultural context in which the Prophet Muhammad built
+page=3 block=1313459755 (x=1 y=468) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+his reputation as a man who sought peace. Moussalli records that, “Before his prophethood,
+page=3 block=1313459755 (x=1 y=480) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+Muhammad became known as an honest arbitrator” (p. 148). Furthermore, Muhammad did not
+page=3 block=1313459755 (x=1 y=493) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+just judge between Muslims, but he also applied Jewish law for offenses within the Jewish com-
+page=3 block=1313459755 (x=1 y=505) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+munity. Although Moussalli uses the term “arbitration,” today this term carries a connotation of
+page=3 block=1313459755 (x=1 y=517) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+greater formality, in which the arbitrator holds legal authority to impose a judgement in the dis-
+page=3 block=1313459755 (x=1 y=529) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+pute. In contrast, most of the following examples represent mediation, in which the process is
+page=3 block=1313459755 (x=1 y=541) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+open, more informal, and seeks to restore peaceful relations within a community, a practice of
+page=3 block=1313459755 (x=1 y=554) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+conciliation and “restorative justice.”
+page=3 block=1313459755 (x=1 y=566) width=156 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Mohammed Abu-Nimer provides a strong argument tracing the roots of peacebuilding to the example
+page=3 block=325674467 (x=1 y=584) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+of the Prophet during the 13 years of nonviolent struggle and resistance.
+page=3 block=325674467 (x=1 y=596) width=293 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Page: 4 left:1 upper:1
+Zartman
+page=4 block=1405548909 (x=1 y=1) width=30 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=14
+167
+page=4 block=1130153977 (x=394 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+During the Meccan period of the Prophet’s life (610-622 C. E.) he showed noinclination to use force in any
+page=4 block=1130656047 (x=13 y=34) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+form, even for self-defence. Instead,he waged nonviolent campaigns of resistance,through all his teachings
+page=4 block=1130656047 (x=13 y=45) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+in that period, during which the Muslims were a minority. [... ] During this time, though he was tortured,
+page=4 block=1130656047 (x=13 y=56) width=382 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+accused of blasphemy, and humiliated, and his family and supporters were ostracized, he neither cursed his
+page=4 block=1130656047 (x=13 y=68) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+enemies nor encouraged violence. (Abu-Nimer, 2003, p. 63)
+page=4 block=461001437 (x=13 y=80) width=220 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+The conditions under which the community moved from Mecca to Medina provide more instruction
+page=4 block=2140396878 (x=1 y=103) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+on principles of mediation. Funk and Said (2009) note that, “the contending tribes of Yathrib (future
+page=4 block=2140396878 (x=1 y=115) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Medina) invited him Muhammad to migrate to their city and arbitrate their many conflicts” (p. 79).
+page=4 block=2140396878 (x=1 y=127) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Under the Constitution of Medina, both Jews and Arabs became collective citizens of the new polit-
+page=4 block=2140396878 (x=1 y=139) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ical community.
+page=4 block=2140396878 (x=1 y=151) width=67 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Understanding Islamic doctrines regarding peacebuilding requires recognising exceptions to the
+page=4 block=1523957322 (x=1 y=168) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+stereotype that the verses of the Quran given during the Muslims’ sojourn in Medina promote violence
+page=4 block=1523957322 (x=1 y=180) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+and conflict. In Medina, the Muslims did fight battles, but Muslims argue that this does not mean the
+page=4 block=1523957322 (x=1 y=192) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+verses of the Qur’an dating to the Medina period lack support for peacebuilding. In addition to the cul-
+page=4 block=1523957322 (x=1 y=204) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tural heritage of Arab arbitration, and the example of the prophet, Islamic peacebuilding rests on a doc-
+page=4 block=1523957322 (x=1 y=216) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+trine regarding the acceptance of diversity. Hashmi (2001) argues that “[Instead] of steadily moving
+page=4 block=1523957322 (x=1 y=228) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+toward an attitude of war with other religious communities, the Medinan chapters contain many
+page=4 block=1523957322 (x=1 y=240) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+injunctions on toleration, including the most significant verse on this topic: ‘Let there be no compul-
+page=4 block=1523957322 (x=1 y=252) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+sion in religion; truth stands out clear from error’” (p. 116).
+page=4 block=1523957322 (x=1 y=264) width=242 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Peacemaking in Islam restson thevirtues,habits of character,andtemperament necessary forovercoming
+page=4 block=987255094 (x=1 y=282) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+differences, and the bitterness created in conflict (Thistlethwaite & Stassen, 2008). In the absence of
+page=4 block=987255094 (x=1 y=294) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+patience and humility, offenses arise easily. The Muslim who seeks peace finds the roots of every good
+page=4 block=987255094 (x=1 y=306) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+and necessary virtue in the guidance of the Qur’an. For example, Abu-Nimer (2010) notes the roots of
+page=4 block=987255094 (x=1 y=318) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+conflict resolution in Qur’an 16:90: “Repel evil [not with evil] but with something better (ahsan)—that
+page=4 block=987255094 (x=1 y=330) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+is, with forgiveness and amnesty” (p. 82). The mediator must also have a reputation for humility. He
+page=4 block=987255094 (x=1 y=342) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+furthermore cites the Qur’an 5:2 to say that Muslims should not be involved in violence at all and should
+page=4 block=987255094 (x=1 y=354) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+settle conflicts peacefully (Abu Nimer, 2010, p. 83). This leads him to describe the importance of media-
+page=4 block=987255094 (x=1 y=366) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tors,intervening in disputesto prevent a spiral of escalatingviolence: “whenathirdparty ispart of a peace-
+page=4 block=987255094 (x=1 y=378) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+building intervention, it is mainly to facilitate communication, reduce tension, and assist in rebuilding
+page=4 block=987255094 (x=1 y=390) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+relationships” (Abu Nimer, 2010, p. 83).All of this follows strong instructionin the Qur’an formediation:
+page=4 block=987255094 (x=1 y=402) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+And if two factions among the believers should fight, then make settlement between the two. But if one of
+page=4 block=1937575946 (x=13 y=426) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+them oppresses the other, then fight against the one that oppresses until it returns to the ordinance of Allah.
+page=4 block=1937575946 (x=13 y=437) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+And if it returns, thenmake settlement between themin justice and act justly. Indeed,Allah loves those who
+page=4 block=1937575946 (x=13 y=448) width=382 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+act justly. The believers are but brothers, so make settlement between your brothers. And fear Allah that
+page=4 block=1937575946 (x=13 y=460) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+you may receive mercy. (Sahih International translation of Qur’an 49:9, 10)
+page=4 block=1937575946 (x=13 y=471) width=278 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+In addition to the Qur’an, Muslims also trace the foundations of peacebuilding to specific hadith,
+page=4 block=317053574 (x=1 y=494) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+meaning reports or traditions regarding the Prophet (Thistlethwaite & Stassen, 2008).
+page=4 block=317053574 (x=1 y=506) width=346 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+What if the local peacemaker, or group of “white beards” who mediate conflicts, lacks the education
+page=4 block=1697976702 (x=1 y=524) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+and level of knowledge to access all the treasury of peacebuilding skills and ideas available in Islam?
+page=4 block=1697976702 (x=1 y=536) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+By their character and sense of duty, people who desire peace tend to seek the knowledge and
+page=4 block=1697976702 (x=1 y=548) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+resources to reconcile opponents. They seek to garner wisdom from local experience, to gain credibil-
+page=4 block=1697976702 (x=1 y=560) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ity and charisma. In a traditional Muslim society, mediators with a reputation for humility, honour, and
+page=4 block=1697976702 (x=1 y=572) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+piety will draw inspiration and knowledge from local history and traditions, as well as the Qur’an,
+page=4 block=1697976702 (x=1 y=584) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+hadith, and the Sunnah (the path or example of the Prophet). They work to develop their reputation
+page=4 block=1697976702 (x=1 y=596) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+as an “honest broker” for people involved in a dispute.
+page=4 block=1697976702 (x=1 y=608) width=222 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Page: 5 left:1 upper:1
+168
+page=5 block=488422671 (x=7 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+Journal of Peacebuilding & Development 15(2)
+page=5 block=117052390 (x=254 y=1) width=159 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=5
+Peacebuilding in Islam rests on a rich heritage of
+page=5 block=989321301 (x=211 y=34) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+examples and doctrine. Islam also promotes some
+page=5 block=989321301 (x=211 y=46) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+character traits that strongly support peacebuild-
+page=5 block=989321301 (x=211 y=58) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+ing. Therefore, the development NGO worker, or
+page=5 block=989321301 (x=211 y=70) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+medical technician who wants to build cooperation and overcome grievances should devote attention
+page=5 block=989321301 (x=7 y=82) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+to forming good relations with, and seeking the advice of men with a reputation for good character, and
+page=5 block=989321301 (x=7 y=94) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+a history of mediating local conflicts. People in most local Muslim communities can point to a specific
+page=5 block=989321301 (x=7 y=106) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+man or group of men that they trust to resolve conflicts.
+page=5 block=989321301 (x=7 y=118) width=228 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Peacebuilding in Islam rests on a rich
+page=5 block=1996787860 (x=1 y=41) width=170 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+heritage of examples and doctrine.
+page=5 block=1996787860 (x=1 y=54) width=161 height=6 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+Historical Examples of Seeking Peace in Islam
+page=5 block=260620222 (x=7 y=145) width=258 height=6 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=6
+Funk and Said (2009) note examples in the historical literature of individual Muslims who have sought
+page=5 block=1505486986 (x=7 y=166) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+peace at great personal risk:
+page=5 block=1505486986 (x=7 y=178) width=113 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Moroccans, for example,have long recitednarratives of Lala Aziza, a courageous and deeply spiritualMus-
+page=5 block=1569371800 (x=19 y=201) width=382 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+lim woman of the fourteenth century who reconciled conflicting tribal groups and on one occasion per-
+page=5 block=1569371800 (x=19 y=213) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+suaded the governor of Marrakesh to desist from his acts of military aggression against the people of
+page=5 block=1569371800 (x=19 y=224) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+her region. (p. 185)
+page=5 block=249109901 (x=19 y=236) width=71 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Given the historical record of Muslims with courageous convictions in seeking peace, one might well
+page=5 block=1147545255 (x=7 y=258) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ask whether these people represent only rare treasures of nobility in a long-lost previous age. However,
+page=5 block=1147545255 (x=7 y=270) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+recent history also offers striking cases of individuals dramatically changing their societies through
+page=5 block=1147545255 (x=7 y=282) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+their commitment to making peace. Abu Nimer (2014) notes that, “Pursuit of peace in Islam is based
+page=5 block=1147545255 (x=7 y=294) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+on justice and nonviolence” (p. 376). For instance, Abdul Ghaffar Khan, a Pashtun in present-day Paki-
+page=5 block=1147545255 (x=7 y=306) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+stan, worked with Mahatma Gandhi in seeking independence from Great Britain. His motivation
+page=5 block=1147545255 (x=7 y=318) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+derived distinctively from the example of the Prophet Muhammad. Although he lacks the international
+page=5 block=1147545255 (x=7 y=330) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+fame of Gandhi, he pursued a similar path with tremendous vigour, persistence and sacrifice. Harris
+page=5 block=1147545255 (x=7 y=342) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+(2001) quotes Khan’s explanation of why he chose the path of nonviolence:
+page=5 block=1147545255 (x=7 y=354) width=308 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+But in jail I had nothing to do except read the Qur’an. I read about the Prophet Muhammad in Mecca,
+page=5 block=1117747481 (x=19 y=377) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+about his patience, his suffering, his dedication. I had read it all before, as a child, but now I read it
+page=5 block=1244211620 (x=19 y=389) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+in the light of what I was hearing all around me about Gandhiji’s struggle against the British Raj. (p. 234)
+page=5 block=1244211620 (x=19 y=400) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Abu-Nimer quotes Khan saying, “I am going to give you such a weapon that the police and the army
+page=5 block=215638041 (x=7 y=423) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+will not be able to stand against it,” he told them. “It is the weapon of the Prophet, but you are not
+page=5 block=215638041 (x=7 y=435) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+aware of it. That weapon is patience and righteousness. No power on earth can stand against it” (Abu-
+page=5 block=215638041 (x=7 y=447) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Nimer, n.d.). Khan’s commitment to bringing Islam into practical life through good works motivated
+page=5 block=215638041 (x=7 y=458) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+a relentless drive to promote hygiene, education, skills, and freedom from foreign oppression through
+page=5 block=215638041 (x=7 y=470) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+nonviolent resistance. “It is my inmost conviction that Islam is amal, yakeen, muhabat [work, faith,
+page=5 block=215638041 (x=7 y=482) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+and love] and without these the name ‘Muslim’ is sounding brass and tinkling cymbal” (Easaran,
+page=5 block=215638041 (x=7 y=494) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+1999, p. 63). His example shows the interdependence of development and peacebuilding.
+page=5 block=215638041 (x=7 y=506) width=364 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Bediuzzaman Said Nursi, a Sufi and a highly educated scholar of Islam in Turkey, represents another
+page=5 block=2038185019 (x=7 y=524) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+relatively recent example of a man who pursued peace. Zeki Saritoprak calls Nursi the “Gandhi of the
+page=5 block=2038185019 (x=7 y=536) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Turks.” In the context of the World War I fighting between Turks and Russians, Turks regarded the
+page=5 block=2038185019 (x=7 y=548) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+orthodox Christian Armenians as a potential fifth column of disloyal agents. Conflict and fighting
+page=5 block=2038185019 (x=7 y=560) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+arose between Turks and Armenians. Saritoprak (2010) claims that, “In response to Nursi’s peace-
+page=5 block=2038185019 (x=7 y=572) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+making behaviour toward Armenian children, the Armenians chose not to kill Muslim children” (p.
+page=5 block=2038185019 (x=7 y=584) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+97). He notes that Nursi based his nonviolent doctrine on the Qur’an 16:125, “Call to the way of your
+page=5 block=2038185019 (x=7 y=596) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Lord with wisdom and beautiful discourse and debate with them in the best way” (p. 99). He also
+page=5 block=2038185019 (x=7 y=608) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Page: 6 left:1 upper:1
+Zartman
+page=6 block=1074976188 (x=1 y=1) width=30 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=14
+169
+page=6 block=1131786259 (x=394 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+reports that Nursi gained a reputation for an article in which he wrote that, “Hatred should only be
+page=6 block=485542604 (x=1 y=34) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+directed to ignorance, poverty and hypocrisy” (Saritoprak, 2010, p. 101). His example further rein-
+page=6 block=485542604 (x=1 y=46) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+forces how those who promote social peace enable human development.
+page=6 block=485542604 (x=1 y=58) width=293 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+The stories of Abdul Ghaffar Khan and Bediuzzaman Said Nursi illustrate peacebuilders who drew
+page=6 block=83210381 (x=1 y=76) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+inspiration from the example of the Prophet and the words of the Qur’an. For those who may have
+page=6 block=83210381 (x=1 y=88) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+no impression of Islam, except what they have heard from news reports of violence, the foundations
+page=6 block=83210381 (x=1 y=100) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+of peacebuilding in Islam represent a welcome surprise and a source of new insight which deserves
+page=6 block=83210381 (x=1 y=112) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+understanding and awareness.
+page=6 block=83210381 (x=1 y=124) width=120 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Character and Reputation
+page=6 block=1385966234 (x=1 y=151) width=146 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=5
+In the documentary Afghan Stories, a young Tajik man named Walied Osman visits Faisabad, where
+page=6 block=1015545330 (x=1 y=172) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+he has the great fortune of being the guest of Hajji Ahmed Shamsiddin, a town elder. Osman
+page=6 block=1015545330 (x=1 y=184) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+describes him as one of the most revered men in Faisabad. “You know when you are in the presence
+page=6 block=1015545330 (x=1 y=196) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+of a great man. He has presence. He has energy. There is an aura about him” (Afghan Stories, 2003).
+page=6 block=1015545330 (x=1 y=208) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+The director, Taran Davies, describes Shamsiddin as renowned for his work during the Soviet occu-
+page=6 block=1015545330 (x=1 y=220) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+pation of Afghanistan, as the region’s most recognised peacemaker. Shamsiddin describes his work
+page=6 block=1015545330 (x=1 y=232) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+in interceding for the protection of Faisabad from the Mujahidin that wanted to expel the Russians
+page=6 block=1015545330 (x=1 y=244) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+who controlled the city.
+page=6 block=1015545330 (x=1 y=256) width=98 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+When the city was in the hands of the Russians, I used to go to the commander of the mujahidin and asked
+page=6 block=649848324 (x=13 y=279) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+him not to fire at the city. I told him, ‘Don’t kill human beings, don’t destroy humanity.’ We protected our
+page=6 block=649848324 (x=13 y=290) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+city. Praise God, the people still feel the same way and want peace. (Afghan Stories, 2003)
+page=6 block=266554246 (x=13 y=302) width=332 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+The “presence” that Osman describes derives from Shamsiddin’s character and reputation. Huda
+page=6 block=1016625178 (x=1 y=324) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+(2010) notes that in the Islamic context, this derives from piety and devotion:
+page=6 block=1016625178 (x=1 y=336) width=315 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Historically, theologians stress the need for personal transformation and striving toward elevating spiritual
+page=6 block=1064528406 (x=13 y=360) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+awareness through fasting, prayer, charity, meditation, rituals, Qur’anic recitation, service, love of others,
+page=6 block=1064528406 (x=13 y=371) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+adoption of orphans and displaying compassion and forgiveness to oneself and to others who have done
+page=6 block=1174478906 (x=13 y=383) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+harm. (p. xviii)
+page=6 block=1174478906 (x=13 y=394) width=55 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+One of the early classics of social anthropology, Saints of the Atlas by Ernest Gellner, gave explicit
+page=6 block=1403780103 (x=1 y=416) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+recognition to the role of leaders and teachers in Sufi orders as mediators. Gellner (1969) studied a
+page=6 block=1403780103 (x=1 y=428) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+group of “professionally neutral, obligatorily pacific, saints-arbitrators” (p. 34). Gellner observed
+page=6 block=1403780103 (x=1 y=440) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+that the society he studied had been stable for 300 years under the social system in which people
+page=6 block=1403780103 (x=1 y=452) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+went to the local saint for mediation of their disputes (p. 278). These saints had set up lodges in
+page=6 block=1403780103 (x=1 y=464) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+places where the borders of two or more tribes would meet. They built their most important lodges
+page=6 block=1403780103 (x=1 y=476) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+in places of previous conflicts, such as the point on the route used by nomadic groups as they would
+page=6 block=1403780103 (x=1 y=488) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+bring their herds across the territory of farmers in highland areas. Gellner explained the role of these
+page=6 block=1403780103 (x=1 y=500) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+mediators in very functional terms. He noted that the mediators had to render rulings in accordance
+page=6 block=1403780103 (x=1 y=512) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+with the local norms and customs, rather than strictly according to the standards of Sharia, or they
+page=6 block=1403780103 (x=1 y=524) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+would lose their status (p. 149).
+page=6 block=1403780103 (x=1 y=536) width=131 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Variation in Local Practices and the Power of Symbolism
+page=6 block=747378368 (x=1 y=563) width=320 height=6 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=6
+Even though a broad variety of societies make the foundations of Islam the guiding principles of social
+page=6 block=135002781 (x=1 y=584) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+life, different Islamic cultures demonstrate a great deal of variation in customs for conflict resolution.
+page=6 block=135002781 (x=1 y=596) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Therefore, Abu-Nimer (2001) argues,
+page=6 block=135002781 (x=1 y=608) width=152 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Page: 7 left:1 upper:1
+170
+page=7 block=1204030294 (x=1 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+Journal of Peacebuilding & Development 15(2)
+page=7 block=1258527853 (x=248 y=1) width=159 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=5
+Scholars and practitioners should be aware of, investigate, and understand the existing procedures of con-
+page=7 block=133544411 (x=13 y=34) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+flict resolution which have been implemented in the local community. In the Middle East, adopting such a
+page=7 block=133544411 (x=13 y=45) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+perspective means the acceptance and recognition of the proposition that Islam and Islamic societies con-
+page=7 block=133544411 (x=13 y=57) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tain beliefs, customs, attitudes, and a history with can serve as rich bases for identifying constructive con-
+page=7 block=133544411 (x=13 y=68) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+flict resolution frameworks and processes (pp. 124, 125).
+page=7 block=133544411 (x=13 y=80) width=208 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+In contrast to conflict mediation in a Western context, practiced by the paid, professionally trained
+page=7 block=1350395050 (x=1 y=104) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+expert in legal procedures, a mediator using traditional practices in the Middle East needs primarily
+page=7 block=1350395050 (x=1 y=115) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+credibility and access. People choose their mediators based on age, political and military power, reli-
+page=7 block=1350395050 (x=1 y=127) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+gious affiliation, and knowledge of local history, social norms, and values. Therefore, local traditional
+page=7 block=1350395050 (x=1 y=139) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+authority figures have advantages in managing conflict at the village and regional level rather than pol-
+page=7 block=1350395050 (x=1 y=151) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+iticians who focus on gaining political power (Funk & Said, 2009, p. 174).
+page=7 block=1350395050 (x=1 y=163) width=303 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+A comparison of traditions of the area that includes Syria, Lebanon, and Jordan, with practices of Afgha-
+page=7 block=923032392 (x=1 y=181) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+nistan, illustrates the variation in local practices. George Irani and Nathan Funk examine the process of
+page=7 block=923032392 (x=1 y=193) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+reconciliation after the commission of a crime and consider these practices as a pattern that should be
+page=7 block=923032392 (x=1 y=205) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+applied to larger conflicts. “Rituals such as sulh (settlement) and musalaha (reconciliation) exemplify
+page=7 block=923032392 (x=1 y=217) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+key Arab-Islamic cultural values, and should be looked at—both figuratively and to some extent liter-
+page=7 block=923032392 (x=1 y=229) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ally—for insight into how to approach conflict resolution in the Middle East” (Irani & Funk, 2001, p.
+page=7 block=923032392 (x=1 y=241) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+171). This pattern emphasises the importance of restoring offenders to relations with the community and
+page=7 block=923032392 (x=1 y=253) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+building up the honour and reputation of the victims. They note that, “In Islamic law, sulh is a form of
+page=7 block=923032392 (x=1 y=265) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+contract (‘akd), legally binding on both the individual and community levels” (p. 33). Therefore, the pro-
+page=7 block=923032392 (x=1 y=277) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+cess involves the larger community, and people give great attention to symbolic actions.
+page=7 block=923032392 (x=1 y=289) width=351 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+For example, after a man commits a crime, he knows that victims will seek retribution against him and
+page=7 block=1622362417 (x=1 y=307) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+his family. If the offender wants to prevent his own death, or the death of a brother, son, or father, he
+page=7 block=1622362417 (x=1 y=319) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+must call on a delegation of mediators—comprised of village elders and notables, usually called mus-
+page=7 block=1622362417 (x=1 y=331) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+lihs or jaha (those who have gained the esteem of the community)—to request a truce and negotiate the
+page=7 block=1622362417 (x=1 y=343) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+payment of some recompense for his offence (Irani, 1999). The jaha play a crucial role in facilitating
+page=7 block=1622362417 (x=1 y=355) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+“acknowledgement, apology, compensation, forgiveness and reconciliation” (Irani & Funk, 2001, p.
+page=7 block=1622362417 (x=1 y=367) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+19). After the period of mourning and the presentation of the diya or blood money, having reached
+page=7 block=1622362417 (x=1 y=378) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+an agreement, the families gather for the ritual shaking of hands. The offender and his family must
+page=7 block=1622362417 (x=1 y=390) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+visit the family of the victim and drink the bitter coffee that they serve. Then, “The family of the offen-
+page=7 block=1622362417 (x=1 y=402) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+der serves a meal to the family of the victim. This breaking of bread together, referred to as mumalaha,
+page=7 block=1622362417 (x=1 y=414) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+completes the ritual of reconciliation” (Irani & Funk, 2001, p. 187).
+page=7 block=1622362417 (x=1 y=426) width=275 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+The presentation of the blood money carries much greater symbolic weight that the actual amount of
+page=7 block=1252138909 (x=1 y=444) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+money (Funk & Said, 2009, p. 59). In some cases, the family of the victim refuses the money, to signify
+page=7 block=1252138909 (x=1 y=456) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+their nobility in forgiving without it (Funk & Said, 2009, p. 151). Qamar-ul Huda emphasises the
+page=7 block=1252138909 (x=1 y=468) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+importance of sincerity, and a continuing effort to heal the breach in relations created by crime:
+page=7 block=1252138909 (x=1 y=480) width=389 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Compensation is not only measured in financial terms, however; it also involves service to the family or
+page=7 block=1908505175 (x=13 y=502) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+community and specific gestures of grief relief. For instance, ta’lif al-qulub, or offering to the heart, is a
+page=7 block=1908505175 (x=13 y=513) width=382 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+legally recognised practice of reconciliation, by which the offender periodically visits the victim’s family
+page=7 block=1908505175 (x=13 y=525) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+to demonstrate remorse. (p. xix)
+page=7 block=1908505175 (x=13 y=536) width=117 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+These open public rituals give great significance to symbolic actions. Similar priorities and issues play
+page=7 block=1678422332 (x=1 y=560) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+out in casesof conflictmediation in a Tajik-speaking area of northern Afghanistan. The United States has
+page=7 block=1678422332 (x=1 y=572) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+been forced to pay attention to local level disputes because anger at government corruption leads to con-
+page=7 block=1678422332 (x=1 y=584) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+flict that undermines security. Gang (2012) reports that villagers actively shop for the forum in which
+page=7 block=1678422332 (x=1 y=596) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+they believe they will gain the best justice at the lowest cost, with the greatest security that a resolved
+page=7 block=1678422332 (x=1 y=608) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Page: 8 left:1 upper:1
+Zartman
+page=8 block=504006221 (x=1 y=1) width=30 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=14
+171
+page=8 block=1141783782 (x=394 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+problem will not spring up again in the future (p. 32). At the village level, people resolve disputes in the
+page=8 block=1047000562 (x=1 y=34) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+jalasa, or “community meeting,” which can be arranged specifically for a particular dispute. Commonly
+page=8 block=1047000562 (x=1 y=46) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+the elders, men with white beards, would meet after Friday noon prayers at the mosque (p. 18). She notes
+page=8 block=1047000562 (x=1 y=58) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+that the ideal outcomes in small disputes are rooted in principles of islah,
+page=8 block=1047000562 (x=1 y=70) width=292 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+A process that uses mediation, negotiation and compromise to restore social cohesion in the community,
+page=8 block=265629779 (x=13 y=96) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+thereby preserving the peace, unity and reputation of the village [ . ...] Resolution principles that flow from
+page=8 block=265629779 (x=13 y=107) width=382 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+islah include solh konan (to make peace); uzr (apology), in which white beards encourage the wrongful
+page=8 block=265629779 (x=13 y=119) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+party to apologize in person and, commonly, to present a goat or a sheep to the aggrieved party; ebra (for-
+page=8 block=265629779 (x=13 y=131) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+giveness), inwhich the aggrieved are expected to forgive those who genuinely offer uzr; and ashty, inwhich
+page=8 block=265629779 (x=13 y=142) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+the white beards encourage the disputants to seal their forgiveness for one another withphysical gestures of
+page=8 block=265629779 (x=13 y=154) width=382 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+affection and celebration once a dispute has been resolved. (p. 33)
+page=8 block=265629779 (x=13 y=165) width=242 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Throughout Afghanistan and Pakistan where the Pashtuns live, they have a strong reputation for
+page=8 block=1160247050 (x=1 y=190) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+employing collective dispute resolution. In addition to their devotion to Islam, Pashtuns follow an hon-
+page=8 block=1160247050 (x=1 y=202) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+our code that governs social relations and behaviour called the Pashtunwali. This honour code some-
+page=8 block=1160247050 (x=1 y=214) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+times leads to conflict with Sharia and sometimes conflicts with the official laws of the government of
+page=8 block=1160247050 (x=1 y=226) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Afghanistan. The honour code gives a balanced importance to competing values such as the necessity
+page=8 block=1160247050 (x=1 y=238) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+of revenge (badal) to preserve honour and the obligation to forgive (nanawati) when your enemy begs
+page=8 block=1160247050 (x=1 y=250) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+for forgiveness. Nevertheless, it holds great power as the legitimate guide to behaviour for Pashtuns.
+page=8 block=1160247050 (x=1 y=262) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Ali Wardak notes that over the centuries of living next to each other, the different ethnic and tribal
+page=8 block=1160247050 (x=1 y=274) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+groups have emulated each other’s behaviour. He observes that, due to the presence and experience
+page=8 block=1160247050 (x=1 y=286) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+of Pashtuns in conflict situations, “it was not uncommon for non-Pashtun groups to request local Pash-
+page=8 block=1160247050 (x=1 y=298) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tun elders hold a jirga to settle a non-Pashtun conflict” (Wardak, 2003, p. 5). He describes the oper-
+page=8 block=1160247050 (x=1 y=310) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ation of collective conflict management at several levels of social hierarchy.
+page=8 block=1160247050 (x=1 y=322) width=310 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+At the local village level, Pashtuns use the term maraka for the gathering of older, respected elders and
+page=8 block=1887115844 (x=1 y=340) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+other authorities called marakachian. These include the mashran (elders). speengiri (people with grey
+page=8 block=1887115844 (x=1 y=352) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+beards), and speenpatkian (people with white turbans, which means mullahs; Wardak, 2003, p. 8). These
+page=8 block=1887115844 (x=1 y=364) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+mediators employ different rituals of reconciliation or mediation in minor cases versus criminal cases.
+page=8 block=1887115844 (x=1 y=376) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Wardak describes the gathering as two circles, an inner circle of mediators and an outer circle in which
+page=8 block=1887115844 (x=1 y=388) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+all the people of the village observe what is going on. This creates a broad spectrum of communication
+page=8 block=1887115844 (x=1 y=400) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+that reinforces the social cohesion of the village as a community with a shared morality. “It also ensures
+page=8 block=1887115844 (x=1 y=412) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+that the violator must pay the price for his/her violation, so that the actual harm inflicted (on the victim)
+page=8 block=1887115844 (x=1 y=424) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+and the symbolic damage caused tothe moral order of the village are compensated” (Wardak,2003,p. 9).
+page=8 block=1887115844 (x=1 y=436) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+In Wardak’s description, the mediators employ heavy persuasion to get all of the parties to agree to the
+page=8 block=1899145692 (x=1 y=454) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+decision. Wardak puts the weight of success or failure of a maraka on the character of the men sitting
+page=8 block=1899145692 (x=1 y=466) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+in the circle deciding and administering justice. “It is mainly the ‘traditional authority’ (based on per-
+page=8 block=1899145692 (x=1 y=478) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+sonal qualities, social status, and leadership skills) of the marakachian, which plays a central part in
+page=8 block=1899145692 (x=1 y=489) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+achieving a prikra [binding decision] that is satisfactory to both parties” (Wardak, 2003, p. 9). In his
+page=8 block=1899145692 (x=1 y=501) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+description, a jirga works like a maraka, but at this higher, tribal level, the inner circle consists of more
+page=8 block=1899145692 (x=1 y=513) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+prominent representatives of important families, men with a reputation for hospitality, bravery in bat-
+page=8 block=1899145692 (x=1 y=525) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+tle, honour, verbal eloquence, sound judgement, and political influence with the government (p. 10).
+page=8 block=1899145692 (x=1 y=537) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+The jirga can meet for several days at a time, until a decision is reached by consensus. If the jirga
+page=8 block=1899145692 (x=1 y=549) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+breaks down, “the tribal leaders reassert their authority and the jirga is reconvened” (p. 11).
+page=8 block=1899145692 (x=1 y=561) width=373 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Sometimes the jirga decides that the family of the offender must send a nanawati delegation to the vic-
+page=8 block=1464031233 (x=1 y=579) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+tim’s house to seek forgiveness and pardon. “This consists of a group of people that include speengiri,
+page=8 block=1464031233 (x=1 y=591) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+torsary (female relatives of the offender holding a Qur’an), and speenpatkian, alongside the offender’s
+page=8 block=1464031233 (x=1 y=603) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+close relatives (and sometimes the offender himself) who brings a sheep and flour to the victim’s house.
+page=8 block=1464031233 (x=1 y=615) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Page: 9 left:1 upper:1
+172
+page=9 block=765880900 (x=7 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+Journal of Peacebuilding & Development 15(2)
+page=9 block=86506638 (x=254 y=1) width=159 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=5
+The sheep is slaughtered at the door of the victim’s house” (p. 12). As a result of the pardon from the
+page=9 block=1639958975 (x=7 y=34) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+victim’s family, the tribe accepts the offender back into the tribe and treats him with respect.
+page=9 block=1639958975 (x=7 y=46) width=370 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Application
+page=9 block=745604825 (x=7 y=73) width=64 height=6 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=21
+These traditional practices of conflict management might seem unusual to the foreigner, but they hold
+page=9 block=849063257 (x=7 y=94) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+a crucial cultural importance for the people involved. When U.S. forces operating in Afghanistan kill
+page=9 block=849063257 (x=7 y=106) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+noncombatants, their procedures for dealing with the consequences need to conform to local custom.
+page=9 block=849063257 (x=7 y=118) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Families of the victims carry the obligation for revenge under Pashtunwali. If one particular unit of
+page=9 block=849063257 (x=7 y=130) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+U.S. forces fails to acknowledge and accept responsibility, the local people have little capacity for sin-
+page=9 block=849063257 (x=7 y=142) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+gling out the precise unit, or person responsible, on whom they must enact revenge. According to
+page=9 block=849063257 (x=7 y=154) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+reports, the United States has understood the duty of paying blood money, but the actual practice has
+page=9 block=849063257 (x=7 y=166) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+been perceived as perfunctory rather than demonstrating contrition.1 As such, the victim’s families do
+page=9 block=849063257 (x=7 y=175) width=406 height=7 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+not feel respected, or their humanity and their losses properly acknowledged.
+page=9 block=849063257 (x=7 y=190) width=313 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+A contrasting case can be seen in the record of a Provincial Reconstruction Team (PRT) commander
+page=9 block=140702728 (x=7 y=207) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+who took the issue of local culture seriously and researched Pashtunwali deeply before deploying. In
+page=9 block=140702728 (x=7 y=219) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Nangarhar Province, in 2006, the PRT commander discovered that a significant number of improvised
+page=9 block=140702728 (x=7 y=231) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+explosive devises were being directed at the Marines that operated in the area. The commander, LTC
+page=9 block=140702728 (x=7 y=243) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Lynda Granfield, held many shuras with the provincial and district governors to discover the root of
+page=9 block=140702728 (x=7 y=255) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+local grievances, due to some heavy-handed Marine tactics suffered previously by the people. Based
+page=9 block=140702728 (x=7 y=267) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+on her understanding of Pushtunwali, she requested a nanawati ceremony with the local Pashtuns (per-
+page=9 block=140702728 (x=7 y=279) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+sonal communication, Col Lynda Granfield, March 5, 2013). Her PRT gained a great deal of high-level
+page=9 block=140702728 (x=7 y=291) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+political commitment for the effort. The PRT and the Marine Battalion Commander conducted two
+page=9 block=140702728 (x=7 y=303) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+nanawati ceremonies in different districts. As an illustration of this political commitment, the first
+page=9 block=140702728 (x=7 y=315) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ceremony included the Deputy Provincial Governor, Provincial Council Chairman, Chief Provincial
+page=9 block=140702728 (x=7 y=327) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Prosecutor, District Governor, Afghan National Army Corps Commander, Provincial Chief of the
+page=9 block=140702728 (x=7 y=339) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Afghan National Police, and District National Directorate of Security (Intelligence Service) Director.
+page=9 block=140702728 (x=7 y=351) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Approximately 200 elders attended the first ceremony, and more than 400 attended the second cere-
+page=9 block=395257482 (x=7 y=369) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+mony, which included the Provincial Governor Gul Agha Sherzai. The elders in both districts said that
+page=9 block=395257482 (x=7 y=381) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+this was the first time that any foreigner had paid any respect to their customs under Pashtunwali. The
+page=9 block=395257482 (x=7 y=393) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+frequency of improvised explosive device attacks did diminish—until another offensive incident pro-
+page=9 block=395257482 (x=7 y=405) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+voked renewed antagonism. Nevertheless, many other benefits—in terms of improved cooperation and
+page=9 block=395257482 (x=7 y=417) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+communication—resulted from these efforts.
+page=9 block=395257482 (x=7 y=429) width=181 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Just as understanding local culture can lead to
+page=9 block=871153004 (x=211 y=447) width=202 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+appropriate behaviour and managing conflicts at the
+page=9 block=871153004 (x=211 y=458) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+personal level, similar benefits derive from applying
+page=9 block=871153004 (x=211 y=470) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+an understanding of traditions and principles of
+page=9 block=871153004 (x=211 y=482) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+Islamic peacebuilding in larger conflicts. The con-
+page=9 block=871153004 (x=211 y=494) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+trast between conditions between the internationally
+page=9 block=871153004 (x=211 y=506) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+recognised state of Somalia versus the unrecog-
+page=9 block=871153004 (x=211 y=518) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+nized—stable and increasingly prosperous—region
+page=9 block=871153004 (x=211 y=530) width=202 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+of Somaliland, provides a striking illustration of the value of traditional Islamic conflict resolution meth-
+page=9 block=871153004 (x=7 y=542) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ods (Ali et al., 2008).
+page=9 block=871153004 (x=7 y=554) width=85 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Just as understanding local culture can
+page=9 block=1550991149 (x=1 y=453) width=174 height=6 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+lead to appropriate behaviour and
+page=9 block=1550991149 (x=1 y=467) width=157 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+managing conflicts at the personal level,
+page=9 block=1550991149 (x=1 y=480) width=182 height=6 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+similar benefits derive from applying an
+page=9 block=1550991149 (x=1 y=494) width=179 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+understanding of traditions and principles
+page=9 block=1550991149 (x=1 y=507) width=188 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+of Islamic peacebuilding in larger conflicts.
+page=9 block=1550991149 (x=1 y=521) width=188 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=4
+Federico Battera notes that Somaliland represents a strikingly significant example of local peacebuild-
+page=9 block=1127174687 (x=7 y=572) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ing initiatives, with very little external help. “This result has been mainly the effect of recourse to local
+page=9 block=1127174687 (x=7 y=584) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+mechanisms of conciliation” (Battera, 2003, p. 228). He credits not only the formal role of elders and
+page=9 block=1127174687 (x=7 y=596) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+prominent chiefs but also the personal ability of President Igal, and the commitment of the Somaliland
+page=9 block=1127174687 (x=7 y=608) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Page: 10 left:1 upper:1
+Zartman
+page=10 block=763008902 (x=1 y=1) width=30 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=14
+173
+page=10 block=2074826904 (x=394 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+people to peace. In the context dominated by the military power of competing warlords, “Somaliland is
+page=10 block=913148823 (x=1 y=34) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+in fact a remarkable example of the supremacy of civil power” (p. 235). In the words of Ibrahim and
+page=10 block=913148823 (x=1 y=46) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Terlinden (2010), Somaliland represents “home grown” peacemaking. “Somaliland achieved its ces-
+page=10 block=913148823 (x=1 y=58) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+sation of hostilities and also longer-term stability through a series of no less than thirty-eight clan-
+page=10 block=913148823 (x=1 y=70) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+based peace and reconciliation conferences and meetings between 1990 and 1997.” Ibrahim and
+page=10 block=913148823 (x=1 y=82) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+Terlinden credit success to the fact that the local communities paid the expenses of the meetings, key
+page=10 block=913148823 (x=1 y=94) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+figures participated voluntarily, and they adopted resolutions by consensus.
+page=10 block=913148823 (x=1 y=106) width=305 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+A key assessment of this success notes the role of the Somali traditional code of conduct (called Xeer,
+page=10 block=267098351 (x=1 y=124) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+similar to the role of Pashtunwali) whichcombines both Islamic Sharia and customary law. Councils and
+page=10 block=267098351 (x=1 y=136) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+juries of elders guided the discussion in meetings, which included a broad cross section of society. Ali
+page=10 block=267098351 (x=1 y=148) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+et al. (2008) note that community leaders, intellectuals, poets, business people, politicians, military offi-
+page=10 block=267098351 (x=1 y=160) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+cers, religious men, and also women participated in the meetings, although “tradition did not permit their
+page=10 block=267098351 (x=1 y=172) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+direct participation in the decision-making process” (p. 86). Women supported the meeting in arranging
+page=10 block=267098351 (x=1 y=184) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+venues, preparing meals, even selling their jewellery to pay for expenses. Women connected by marriage
+page=10 block=267098351 (x=1 y=195) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+to other clans served as trusted couriers of information between competing clans. Ali, Mohammed, and
+page=10 block=267098351 (x=1 y=207) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Walls argue that the peace meetings emphasised the importance of forgetting grievances and starting
+page=10 block=267098351 (x=1 y=219) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+fresh, the local nature of the process, the crucial role of the elders, and the personal commitment to peace
+page=10 block=267098351 (x=1 y=231) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+by the prominent mediators (p. 89). In sum, Somaliland stands as a testament to the power of reconcilia-
+page=10 block=267098351 (x=1 y=243) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tion using local initiative, traditional Islamic principles, and respect for the elders as men of peace.
+page=10 block=267098351 (x=1 y=255) width=393 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Another important case that illustrates the traditions and principles of Islamic peacebuilding in larger
+page=10 block=1985280051 (x=1 y=273) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+conflicts can be found in the resolution of the Tajik Civil War. In this peace process, a form of “Track
+page=10 block=1985280051 (x=1 y=285) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+2” diplomacy played a crucial role in enabling the government and the diverse opposition coalition to
+page=10 block=1985280051 (x=1 y=297) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+reach a settlement. In this civil war, an entrenched, oppressive government of former Communist Party
+page=10 block=1985280051 (x=1 y=309) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+officials faced four different opposition groups. The Pamiris predominantly wanted freedom to be left
+page=10 block=1985280051 (x=1 y=321) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+alone, as expressed in secessionist demands for the mountainous Badakhshan region. As Ismaili Mus-
+page=10 block=1985280051 (x=1 y=333) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+lims, the Pamiris had faced discrimination—many lived in severe poverty—but the Pamiri people also
+page=10 block=1985280051 (x=1 y=345) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+had many high-levelintellectuals. Another segment of society phrased their demandsprimarilyin terms
+page=10 block=1985280051 (x=1 y=357) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+of democracy, but many of their leaders fled to Moscow when active fighting started. A third group
+page=10 block=1985280051 (x=1 y=369) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+expressed their demands primarily in terms of Tajik national identity as Persian speakers. Many of their
+page=10 block=1985280051 (x=1 y=381) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+leaders went to Iran in the face of deteriorating security. Finally, a fourth group demanded freedom of
+page=10 block=1985280051 (x=1 y=393) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+religion, andmanyoftheir leaders escaped to the mountains, or toAfghanistan.This created a challenge
+page=10 block=1985280051 (x=1 y=405) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+in terms of getting the opposition to define a negotiating platform and select representatives for the
+page=10 block=1985280051 (x=1 y=417) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+negotiations.
+page=10 block=1985280051 (x=1 y=429) width=51 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=17
+Although the government had rebranded itself in populist and nationalist terms, it lacked legitimacy in
+page=10 block=1461322233 (x=1 y=447) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+the eyes of the people, who had suffered pressure and discrimination for their faith under Communist
+page=10 block=1461322233 (x=1 y=458) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+rule. In the course of the conflict, conservative estimates say that 60,000 people died and 600,000 peo-
+page=10 block=1461322233 (x=1 y=470) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ple fled their homes. Although many people escaped to other parts of Tajikistan, large numbers went to
+page=10 block=1461322233 (x=1 y=482) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Afghanistan, Iran, Russia, and other parts of Central Asia. The heartache, grief, and losses created
+page=10 block=1461322233 (x=1 y=494) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+great barriers to mediating this conflict.
+page=10 block=1461322233 (x=1 y=506) width=161 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+The United Nations and a group of interested states worked hard to encourage the government and the
+page=10 block=225511870 (x=1 y=524) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+opposition to negotiate a political power-sharing agreement. However, even before the start of the
+page=10 block=225511870 (x=1 y=536) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Tajik Civil War, Russian and American sponsors began the Tajik Dialogue process by seeking Tajiks
+page=10 block=225511870 (x=1 y=548) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+willing to meet together, several times a year, for up to 2 weeks at a time, to discuss rising tensions and
+page=10 block=225511870 (x=1 y=560) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+conflict in the country (Saunders, 1999, p. 155). Many of those selected for participation genuinely
+page=10 block=225511870 (x=1 y=572) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+sought peace with humility, out of love for their neighbours. Those who participated noticed that their
+page=10 block=225511870 (x=1 y=584) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+thinking, and even values, began to change as a result of their interaction. Many went on to establish
+page=10 block=225511870 (x=1 y=596) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+NGOs that operated on the principle of active dialogue.
+page=10 block=225511870 (x=1 y=608) width=225 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Page: 11 left:1 upper:1
+174
+page=11 block=1578026015 (x=1 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+Journal of Peacebuilding & Development 15(2)
+page=11 block=256522893 (x=248 y=1) width=159 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=5
+Funk and Aziz (2009) offer a stirring advocacy of sustained dialogue as a means by which people can
+page=11 block=148436820 (x=1 y=34) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+process and overcome the powerful emotions createdin war: “Only active engagementthrough sustained
+page=11 block=148436820 (x=1 y=46) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+dialogue can help us transcend the fear, anger, and insecurity that foster conflict escalation and discover
+page=11 block=148436820 (x=1 y=59) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+the common humanity that these emotions conceal” (p. 43). The informal peace process in Tajikistan
+page=11 block=148436820 (x=1 y=71) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+sought to achieve these very goals. Furthermore, members of the sustained dialogue process repeatedly
+page=11 block=148436820 (x=1 y=83) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+provided crucial information and suggestions to the members of the formal negotiating teams.
+page=11 block=148436820 (x=1 y=95) width=374 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+International organisations and foreign states prefer to sponsor formal political negotiations, and they
+page=11 block=224473864 (x=1 y=113) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+only invite men supported by an armed force in the field. The agreements that they reach deal mostly
+page=11 block=224473864 (x=1 y=125) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+with issues of power-sharing from a rational-instrumental perspective. The agreements tend to lack
+page=11 block=224473864 (x=1 y=138) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+enforceable provisions for accountability to the public, political pluralism, support for minorities, and
+page=11 block=224473864 (x=1 y=150) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+protections of rights and procedures for peaceful change. The content of the General Agreement of
+page=11 block=224473864 (x=1 y=162) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Peace and Reconciliation in Tajikistan, signed by the contending parties as a result of the formal
+page=11 block=224473864 (x=1 y=174) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+UN-mediated negotiations, strengthened institutional support for centralised state control, excluded
+page=11 block=224473864 (x=1 y=186) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+competing political parties, and reduced pluralism and participation. In contrast, a sustained dialogue
+page=11 block=224473864 (x=1 y=199) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+process seeks the maximum involvement and participation of society at the local level.
+page=11 block=224473864 (x=1 y=211) width=353 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Harold H. Saunders, one of the organisers of the dialogue, advocated a “public peace process” that
+page=11 block=627519623 (x=1 y=229) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+emphasized the agency or activity of citizens, ideally interacting on many levels, outside of government,
+page=11 block=627519623 (x=1 y=241) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+separate from formal mediation or negotiations by governments (p. 78). Mullojanov (2001) notes that
+page=11 block=627519623 (x=1 y=253) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+whilst the formal agreement resulted from the negotiations amongst official decision-makers, there was
+page=11 block=627519623 (x=1 y=266) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+also an “Agreement on Social Accord in Tajikistan,” signed on March 9, 1996, by 66 political parties and
+page=11 block=627519623 (x=1 y=278) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+organizations, which established “The Public Council of the Republic of Tajikistan.”
+page=11 block=627519623 (x=1 y=290) width=337 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Given the weaknesses and limitations of the formal General Agreement, the credit for any peace in
+page=11 block=2066213108 (x=1 y=308) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Tajikistan must go to the large, resilient civil society developed by those who participated in the Sus-
+page=11 block=2066213108 (x=1 y=320) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tained Dialogue programme. Mullojanov (2001) claims that “Civic groups have also shouldered the
+page=11 block=2066213108 (x=1 y=332) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+responsibility of implementing conflict resolution, dialogue and education programmes. Their initia-
+page=11 block=2066213108 (x=1 y=345) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+tives are gradually changing the political, social and even psychological atmosphere in the country.” In
+page=11 block=2066213108 (x=1 y=357) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+summarising the contributions and observations of Abdullo Rashid, Mullojanov, and others who
+page=11 block=2066213108 (x=1 y=369) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+recorded the consequences of the Sustained Dialogue, Abdullaev and Barnes (2001) conclude, “Thus
+page=11 block=2066213108 (x=1 y=381) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+the Dialogue provided a unique bridge between the official process and civil society and complemen-
+page=11 block=2066213108 (x=1 y=394) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ted the more overtly political approaches to ending the war.” Public associations worked to reduce ten-
+page=11 block=2066213108 (x=1 y=406) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+sions and hardships. Activists sought to improve conditions for people struggling with a difficult
+page=11 block=2066213108 (x=1 y=418) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+institutional environment through extensive development of roundtables and dialogues for peacebuild-
+page=11 block=2066213108 (x=1 y=430) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ing, just like the jalosas of Northern Afghanistan, the jirgas of Pashtun areas, and the shuras of clan
+page=11 block=2066213108 (x=1 y=442) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+elders in Somaliland. Some of the people that have most actively contributed to peacebuilding were not
+page=11 block=2066213108 (x=1 y=455) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+dialogue participants, but from only limited contact with participants found the confirmation of their
+page=11 block=2066213108 (x=1 y=467) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+own ideas, and the support and impetus to embark on their own programmes.
+page=11 block=2066213108 (x=1 y=479) width=314 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+For example, Abdughani Mamadnazarov, the director of the Association of Young Political Scientists,
+page=11 block=881513107 (x=1 y=497) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+reinforced peace by providing opportunities for many people to participate in solving problems associ-
+page=11 block=881513107 (x=1 y=509) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ated with politics and society. He promoted organizations that provide conditions for discussion. As of
+page=11 block=881513107 (x=1 y=521) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+June 2001, the association had organised scores of public roundtable discussions and more than 30 con-
+page=11 block=881513107 (x=1 y=534) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tinuing political discussion clubs. These efforts included the participation of all districts or regions—
+page=11 block=881513107 (x=1 y=546) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+sometimes as many as five at a time and often more than three. Symbolism plays a big role in this work.
+page=11 block=881513107 (x=1 y=558) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Mamadazimov repeatedly organised caravans to gather roundtable participants from all parts of the
+page=11 block=881513107 (x=1 y=570) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+republic. In one programme, he asked participants from every region to bring some of the local potter’s
+page=11 block=881513107 (x=1 y=583) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+clay. When the whole group had gathered, the organisers mixedall the samples of different clay collected
+page=11 block=881513107 (x=1 y=595) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+from each region of Tajikistan and moulded it into a ceramic vase, to symbolise the unity of Tajikistan.
+page=11 block=881513107 (x=1 y=607) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Page: 12 left:1 upper:1
+Muslim conflict mediators use Islamic values,
+page=12 block=821513849 (x=1 y=320) width=207 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+combined with local examples and traditions,
+page=12 block=821513849 (x=1 y=334) width=208 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=6
+to solve problems and preserve peace in a
+page=12 block=821513849 (x=1 y=347) width=194 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+variety of ways, distinctive to each society.
+page=12 block=821513849 (x=1 y=361) width=197 height=5 fontname=ELGBJI+AdvPAC5C wordint.min=1 wordint.max=5
+Zartman
+page=12 block=747152360 (x=13 y=1) width=30 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=14
+175
+page=12 block=1756143301 (x=406 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+In sum, in Tajikistan, the supportive social and cultural environment for peacebuilding developed
+page=12 block=173070089 (x=13 y=34) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+largely through local initiatives, with a spark from the Sustained Dialogue (Lederach, 1997). Because
+page=12 block=173070089 (x=13 y=46) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+of the Sustained Dialogue process, conflict resolution in Tajikistan ultimately represented the struggle
+page=12 block=173070089 (x=13 y=58) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+of traditional Islamic and national values. This reflects the arguments of Funk and Said (2009) regard-
+page=12 block=173070089 (x=13 y=70) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ing seeking peace through local, traditional culture: “Islamic approaches to conflict resolution draw on
+page=12 block=173070089 (x=13 y=82) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+religious values, social networks, rituals of reconciliation, and historical practices of communal and
+page=12 block=173070089 (x=13 y=94) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+inter-communal coexistence” (p. 173). Therefore, they conclude: “The starting point for any intercul-
+page=12 block=173070089 (x=13 y=106) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+tural peacebuilding effort is the development of religious and cultural literacy” (p. 269). In other
+page=12 block=173070089 (x=13 y=118) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+words, efforts to support development and building peace in a traditional Muslim society can benefit
+page=12 block=173070089 (x=13 y=130) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+from learning about the local culture and the principles of conflict management in Islam.
+page=12 block=173070089 (x=13 y=142) width=361 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Conclusion
+page=12 block=6214844 (x=13 y=173) width=62 height=6 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=21
+The popular consciousness of Western audiences has little awareness of the activity of those who work
+page=12 block=1763750076 (x=13 y=195) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+for peace in a traditional Islamic society. Negative media portrayals of Muslims create barriers to
+page=12 block=1763750076 (x=13 y=206) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+understanding and appreciating the value of the Islamic heritage. If aid and development workers, peo-
+page=12 block=1763750076 (x=13 y=218) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ple working on PRTs, or those who promote health care and assist refugees, hold negative conceptions
+page=12 block=1763750076 (x=13 y=230) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+whilst working with Muslims, they not only miss all of the benefits of effectively solving problems
+page=12 block=1763750076 (x=13 y=242) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+with local traditional practices, but more seriously they face the grave danger of committing offenses
+page=12 block=1763750076 (x=13 y=254) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+and stimulating resistance to their work. On the other hand, understanding that Islam offers significant
+page=12 block=1763750076 (x=13 y=266) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+resources for Muslims to use in building peace awakens the understanding to fresh possibilities in sol-
+page=12 block=1763750076 (x=13 y=278) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+ving problems, reducing conflicts, improving communication, and promoting human development.
+page=12 block=1763750076 (x=13 y=290) width=400 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Muslim conflict mediators use Islamic values,
+page=12 block=1710641643 (x=221 y=308) width=198 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+combined with local examples and traditions, to
+page=12 block=1710641643 (x=221 y=320) width=198 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+solve problems and preserve peace in a variety
+page=12 block=1710641643 (x=221 y=332) width=198 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+of ways, distinctive to each society. Conflict med-
+page=12 block=1710641643 (x=221 y=344) width=198 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+iators accept great personal vulnerability as they
+page=12 block=1710641643 (x=221 y=356) width=198 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+work with men of violence. It also highlights the
+page=12 block=1710641643 (x=221 y=368) width=198 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+importance of sustained dialogue as a tool for
+page=12 block=1710641643 (x=221 y=380) width=198 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=7
+social stability and, when conflicts do erupt, as a strategy for supporting formal negotiations.
+page=12 block=1710641643 (x=13 y=392) width=377 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Author’s Note
+page=12 block=1771190979 (x=13 y=435) width=67 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=5
+The views expressed in this article are those of the author and do not reflect the official policy or position of the
+page=12 block=522188921 (x=13 y=450) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+U.S. Government or the Department of Defense.
+page=12 block=522188921 (x=13 y=461) width=177 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Declaration of Conflicting Interests
+page=12 block=1943408246 (x=13 y=492) width=164 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=5
+The author(s) declared no potential conflicts of interestwith respect to the research, authorship, and/or publication
+page=12 block=620261614 (x=13 y=506) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+of this article.
+page=12 block=620261614 (x=13 y=517) width=50 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Funding
+page=12 block=1547965072 (x=13 y=548) width=37 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=17
+The author(s) received no financial support for the research, authorship, and/or publication of this article.
+page=12 block=1014555985 (x=13 y=563) width=384 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+ORCID iD
+page=12 block=2132736278 (x=13 y=594) width=48 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=5
+Jonathan K. Zartman
+page=12 block=411474203 (x=13 y=608) width=76 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+https://orcid.org/0000-0002-3095-0205
+page=12 block=1688918025 (x=103 y=608) width=141 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Page: 13 left:1 upper:1
+176
+page=13 block=520354720 (x=1 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+Journal of Peacebuilding & Development 15(2)
+page=13 block=400385823 (x=248 y=1) width=159 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=5
+Note
+page=13 block=1002400446 (x=1 y=34) width=24 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=17
+1.
+page=13 block=157783888 (x=1 y=49) width=6 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Author’s conclusion, based on conversations with officers who have servedin Afghanistan, and the briefings of
+page=13 block=163160871 (x=12 y=49) width=395 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+a Pashtu speaking public affairs officer, who worked on managing the results of civilian casualties in
+page=13 block=163160871 (x=12 y=61) width=395 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Afghanistan.
+page=13 block=163160871 (x=12 y=73) width=46 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+References
+page=13 block=1973471376 (x=1 y=106) width=51 height=4 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=17
+Abu-Nimer, M (n.d.). Nonviolence in the Islamic context. http://beholders.org/spirit/spiritarticles/172-nonviole
+page=13 block=898283008 (x=1 y=121) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+nceislamic.html
+page=13 block=14838518 (x=13 y=134) width=57 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Abu-Nimer, M. (2001). Conflict resolution in an Islamic context: Some conceptual questions. In A. A Said, N. C.
+page=13 block=14838518 (x=1 y=145) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Funk, & A. S. Kadayifci (Eds.), Peace and conflict resolution in Islam: Precept and practice (pp. 123–141).
+page=13 block=1141264726 (x=13 y=158) width=394 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+University Press of America.
+page=13 block=932312334 (x=13 y=170) width=105 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Abu-Nimer, M. (2003). Nonviolence and peace building in Islam: Theory and practice. University Press of
+page=13 block=1464565578 (x=1 y=182) width=406 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=6
+Florida.
+page=13 block=1156385423 (x=13 y=194) width=28 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Abu-Nimer, M. (2010). An Islamic model of conflict resolution: Principles and challenges. In Q. Huda (Ed.),
+page=13 block=840400805 (x=1 y=206) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Crescent and dove: Peace and conflict resolution in Islam (pp. 73–92). U.S. Institute of Peace.
+page=13 block=177657196 (x=13 y=218) width=347 height=5 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Abu-Nimer, M. (2014). Peace building principles and values in Islam. In T. Matyok, M. Flaherty, H. Tuso, J.
+page=13 block=111888987 (x=1 y=230) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Senehi, & S. Byrne (Eds.), Peace on earth: The role of religion in peace and conflict studies (pp.
+page=13 block=717132147 (x=13 y=243) width=394 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=7
+375–390). Lexington Books.
+page=13 block=593308118 (x=13 y=255) width=104 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Abdullaev, K., & Barnes, C. (2001, March). Introduction: From war to politics. Accord 10: politics of compro-
+page=13 block=534553956 (x=1 y=267) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+mise: The Tajikistan peace process. Conciliation Resources. http://www.c-r.org/accord/tajik/accord10/inde
+page=13 block=1140448598 (x=13 y=279) width=394 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+x.shtml
+page=13 block=487778643 (x=13 y=292) width=26 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Ali, M. O., Mohammed, K., & Walls, M. (2008). Peace in Somaliland: An indigenous approach to state-building.
+page=13 block=1472950462 (x=1 y=304) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+In M. Walls (Ed.), Academy for Peace and Development. http://www.interpeace.org/publications/doc_do
+page=13 block=759564454 (x=13 y=316) width=394 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+wnload/58-peace-in-somaliland-english
+page=13 block=551056181 (x=13 y=328) width=142 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Battera, F. (2003). Some considerations on state building in divided societies and the role of the “International
+page=13 block=713707020 (x=1 y=340) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+community”: Somaliland and Somalia compared. Northeast African Studies, 10, 225–247.
+page=13 block=650679651 (x=13 y=352) width=328 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Davies, T.(Director). (2003). Afghan stories. Starring Walied Osman. Vanguard Films.
+page=13 block=1003928100 (x=1 y=364) width=316 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Easaran, E. (1999). Nonviolent soldier of Islam: Badshah Khan, A Man to match his Mountains. Nilgiri Press.
+page=13 block=1492400048 (x=1 y=376) width=402 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Funk, N. C. (2014). Islam and peace in conflict studies. In T. Matyok, M. Flaherty, H. Tuso, J. Senehi, & S. Byrne
+page=13 block=1492400048 (x=1 y=388) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+(Eds.), Peace on earth: The role of religion in peace and conflict studies (pp. 121–141). Lexington books.
+page=13 block=1492400048 (x=13 y=400) width=388 height=5 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=4
+Funk, N. C., & Said, A. A. (2009). Islam and peacemaking in the Middle East. Lynne Rienner.
+page=13 block=1492400048 (x=1 y=412) width=348 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Gang, R. (2012, October). Community-based dispute resolution processes in Balkh province. Afghanistan
+page=13 block=553056396 (x=1 y=424) width=406 height=5 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=7
+Research and Evaluation Unit. http://www.areu.org.af/Uploads/EditionPdfs/1036E-Community-Base
+page=13 block=1115099772 (x=13 y=437) width=394 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+d%20Dispute%20Resolution%20in%20Balkh%20CS%202010.pdf
+page=13 block=1283364748 (x=13 y=449) width=241 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Gellner, E. (1969). Saints of the Atlas. Weidenfeld & Nicolson.
+page=13 block=894332932 (x=1 y=461) width=231 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Harris, R. T. (2001). Nonviolence in Islam: The alternative community tradition. In A. A. Said, N. C. Funk, & A.
+page=13 block=585878713 (x=1 y=473) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Press of America.
+page=13 block=585878713 (x=13 y=497) width=65 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Hashmi, S. H. (2001). Islamic ethics in international society. In A. A. Said, N. C. Funk, & A. S. Kadayifci (Eds.),
+page=13 block=585878713 (x=1 y=509) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Hayman, C. (2013). Local first in peacebuilding. Peace Review: A Journal of Social Justice, 25, 17–23.
+page=13 block=585878713 (x=1 y=534) width=379 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+S. Kadayifci (Eds.), Peace and conflict resolution in Islam: Precept and practice (pp. 227–244). University
+page=13 block=1484119658 (x=13 y=485) width=394 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Peace and conflict resolution in Islam: Precept and practice (pp. 95–119). University Press of America.
+page=13 block=1620041759 (x=13 y=522) width=381 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Huda, Q. (2010). Introduction: The peacemaking and conflict resolution field and Islam. In Q. Huda (Ed.), Cres-
+page=13 block=646410842 (x=1 y=546) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+cent and dove: Peace and conflict resolution in Islam (pp. xiii–xxvii). US Institute of Peace.
+page=13 block=1517677623 (x=13 y=558) width=338 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Ibrahim, M. H., & Terlinden, U. (2010). Somaliland: ‘Home Grown’ peacemaking and political reconstruction. In
+page=13 block=738590621 (x=1 y=570) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+M. Bradbury & S. Healy (Eds.), ‘Whose peace is it anyway? Connecting Somali and international peacemak-
+page=13 block=865430810 (x=13 y=582) width=394 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=4
+ing,’ Accord: An international review of peace initiatives 21. Conciliation Resources. http://www.c-r.org/sites/
+page=13 block=773708944 (x=13 y=594) width=394 height=5 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=4
+c-r.org/files/Accord%2021_30Islam%20and%20Somali%20social%20order_2010_ENG.pdf
+page=13 block=773708944 (x=13 y=606) width=333 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Page: 14 left:1 upper:1
+Zartman
+page=14 block=1534888240 (x=1 y=1) width=30 height=5 fontname=ELGACJ+AdvPAC5B wordint.min=1 wordint.max=14
+177
+page=14 block=1485208789 (x=394 y=1) width=13 height=5 fontname=ELGAGJ+AdvPAC59 wordint.min=1 wordint.max=14
+Irani, G. E. (1999). Islamic mediation techniques for Middle East conflicts. Middle East Review of International
+page=14 block=1088628578 (x=1 y=34) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Affairs, 3, 2.
+page=14 block=5933746 (x=13 y=46) width=45 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=4
+Irani, G. E., & Funk, N. C. (2001). Rituals of reconciliation: Arab-Islamic perspectives. In A. A. Said, N. C. Funk,
+page=14 block=1062254208 (x=1 y=58) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+& A. S. Kadayifci (Eds.), Peace and conflict resolution in Islam: Precept and practice (pp. 169–191). Univer-
+page=14 block=1423639915 (x=13 y=70) width=394 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=4
+sity Press of America.
+page=14 block=224063653 (x=13 y=82) width=80 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Kadiayifci-Orellana, A,& Sharify-Funk, M. (2010). Muslim womenpeacemakers as agents of change. In Q. Huda
+page=14 block=1501688998 (x=1 y=94) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+(Ed.), Crescent and dove: Peace and conflict resolution in Islam (pp. 179–203). USIP Press Books.
+page=14 block=1675603360 (x=13 y=106) width=363 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Kalyvas, S. (2003). The ontology of ‘political violence’: Action and identity in civil wars. Perspective onPolitics,
+page=14 block=1864572141 (x=1 y=118) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+1, 475–494. http://stathis.research.yale.edu/files/The%20Ontology%20of%20Political%20Violence.pdf
+page=14 block=1864572141 (x=13 y=129) width=373 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Keddie, N. R. (1987). Islam and society in Minangkabau and in the Middle East: Comparative reflections.
+page=14 block=1864572141 (x=1 y=141) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=6
+Sojourn: Journal of Social Issues in Southeast Asia, 2, 1–30.
+page=14 block=900073076 (x=13 y=153) width=222 height=5 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Lederach, J. P. (1997). Building peace: Sustainable reconciliation in divided societies. U.S. Institute of Peace
+page=14 block=900073076 (x=1 y=165) width=406 height=5 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Press.
+page=14 block=900073076 (x=13 y=177) width=21 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Moussalli, A. S. (2001). An Islamic model for political conflict resolution: Tahkim (arbitration). In A. A. Said, N.
+page=14 block=1674899618 (x=1 y=189) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+C. Funk,& A. S. Kadayifci(Eds.), Peace and conflict resolution in Islam: Precept and practice (pp. 143–167).
+page=14 block=2105078741 (x=13 y=201) width=394 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=4
+University Press of America.
+page=14 block=172711139 (x=13 y=213) width=105 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+peace process. Conciliation Resources. http://www.c-r.org/accord/tajik/accord10/index.shtml
+page=14 block=172711139 (x=13 y=237) width=337 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Mullojanov, P. (2001). ‘Civil society and peacebuilding,’ accord 10: Politics of compromise: The Tajikistan
+page=14 block=257650296 (x=1 y=225) width=406 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Saritoprak, Z. (2010). Bediuzzaman said nursi’s pradigm of Islamic nonviolence. In Q. Huda (Ed.), Crescent and
+page=14 block=1263455953 (x=1 y=249) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+dove: Peace and conflict resolution in Islam (pp. 95–106). U.S. Institute of Peace.
+page=14 block=1905420854 (x=13 y=261) width=300 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Saunders, H. H. (1999). A public peace process: Sustained dialogue to transform racial and ethnic conflicts. St.
+page=14 block=560897187 (x=1 y=273) width=406 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=5
+Schimmel, A. (1982). Women in mystical Islam. Women’s Studies International Forum, 5, 145–151.
+page=14 block=560897187 (x=1 y=297) width=368 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Martin’s Press.
+page=14 block=1964117592 (x=13 y=285) width=54 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Thistlethwaite, S., & Stassen, G. (2008). Abrahamic alternatives to war,’ special report 214. U.S. Institute of
+page=14 block=1217883757 (x=1 y=309) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+USAID. (2011). Spinsary Brings Peace. http://afghanistan.usaid.gov/en/USAID/Article/2398/Spinsary_Brings_
+page=14 block=1217883757 (x=1 y=333) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Wardak, A. (2003). Jirga- A traditional mechanism of conflict resolution in Afghanistan. UNPAN. http://unpan1.
+page=14 block=1217883757 (x=1 y=357) width=406 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=4
+Peace. http://www.usip.org/files/resources/sr214.pdf
+page=14 block=708214419 (x=13 y=321) width=189 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+Peace
+page=14 block=708214419 (x=13 y=345) width=21 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+un.org/intradoc/groups/public/documents/apcity/unpan017434.pdf
+page=14 block=708214419 (x=13 y=369) width=238 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=14
+Author Biography
+page=14 block=2137552114 (x=1 y=397) width=84 height=5 fontname=ELGACK+AdvPAC5A wordint.min=1 wordint.max=5
+Jonathan K. Zartman is an associate professor of international security studies in the Department of Research at
+page=14 block=443401609 (x=1 y=414) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Air Command and Staff College. He received his PhD in 2004 from the University of Denver’s Graduate School
+page=14 block=443401609 (x=1 y=425) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+of International Studies. He taught at the Samarkand State Institute of Foreign Languages in Samarkand, Uzbeki-
+page=14 block=443401609 (x=1 y=436) width=406 height=5 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+stan, as aFulbright Fellow (2005–2006). He has also received a David L. Boren Fellowshipfor language study and
+page=14 block=443401609 (x=1 y=447) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+research in Dushanbe, Tajikistan, at the Technological University of Tajikistan (2000–2001). He is the editor of
+page=14 block=443401609 (x=1 y=458) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+Conflict in the Modern Middle East: An Encyclopedia of Civil War, Revolutions, and Regime Change.He has also
+page=14 block=1769616559 (x=1 y=469) width=406 height=4 fontname=ELGBEI+AdvP7B72 wordint.min=1 wordint.max=4
+written “Using Historical Islamic Sources to Promote Ethical Character.” Journal of Islamic Thought and Civi-
+page=14 block=1769616559 (x=1 y=480) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5
+lization, 8,No. 2 (Fall2018).The main focus of his work promotesunderstanding ofcultural identity in the service
+page=14 block=1769616559 (x=1 y=491) width=406 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=4
+of building peace.
+page=14 block=1769616559 (x=1 y=502) width=65 height=4 fontname=ELGAGK+AdvP7B6C wordint.min=1 wordint.max=5

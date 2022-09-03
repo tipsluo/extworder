@@ -1,0 +1,346 @@
+Page: 2 left:1 upper:1
+ ART FORUM
+page=2 block=1628252344 (x=78 y=1) width=49 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 225
+page=2 block=1405721353 (x=352 y=2) width=16 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 6. The citation and a reproduction of a drawing after the picture by Robert is in G. Henriot, Collec-
+page=2 block=624545052 (x=14 y=121) width=416 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ tion David-Weill (Paris: Des Presses De Braun, 1928), 3: 371-72. Both paintings have traditionally been
+page=2 block=624545052 (x=1 y=132) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ taken as representations of Robert's family. A drawing of the servant-and-child image is in the Pierpont
+page=2 block=624545052 (x=1 y=143) width=407 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Morgan Library.
+page=2 block=624545052 (x=1 y=154) width=58 height=3 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 3. Krzysztof Pomian, Collectors and Curiosities, Paris and Venice, 1500-1800, trans. by Elizabeth
+page=2 block=2082524624 (x=13 y=28) width=355 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Wiles-Porter (Cambridge: Polity Press, 1990).
+page=2 block=2082524624 (x=1 y=39) width=161 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 4. Annie Becq, "Expositions, peintres et critiques: Vers l'image moderne de l'artiste," Dix-huitibme
+page=2 block=1952473604 (x=13 y=55) width=355 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Siecle 14 (1982): 131-48.
+page=2 block=1952473604 (x=1 y=66) width=90 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 5. Cynthia J. Koepp, "The Alphabetical Order: Work in Diderot's Encyclopedie," in Steven Laurence
+page=2 block=1802415698 (x=13 y=83) width=354 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Kaplan & Cynthia J. Koepp, eds., Work in France, Representations, Meaning, Organization and Practice
+page=2 block=1802415698 (x=1 y=94) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ (Ithaca, N.Y.: Cornell Univ. Press, 1986), 229-57.
+page=2 block=1802415698 (x=2 y=104) width=174 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 7. Annie Becq, "Creation, Aesthetics, Market: Origins of the Modern Concept of Art," in Paul Mattick
+page=2 block=13950734 (x=14 y=171) width=354 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Jr., ed., Eighteenth-Century Aesthetics and the Reconstruction of Art (Cambridge: Cambridge Univ. Press,
+page=2 block=13950734 (x=1 y=181) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 1993), 240-54.
+page=2 block=13950734 (x=2 y=192) width=53 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 8. For example, see Elisabeth Vige-Lebrun's portrait of Robert, Salon of 1789, which configures him
+page=2 block=2061552777 (x=14 y=209) width=353 height=3 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ in the iconography of genius; also Jacques Delille's chilling account in the poem imagination (1806) of the
+page=2 block=2061552777 (x=2 y=219) width=365 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ man lost in the catacombs that alludes to an experience of Hubert Robert.
+page=2 block=2061552777 (x=2 y=229) width=260 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ WENDY WASSYNG ROWORTH, University of Rhode Island
+page=2 block=233300371 (x=79 y=257) width=240 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Painting for Profit and Pleasure: Angelica Kauffman and the Art Business
+page=2 block=333828675 (x=79 y=282) width=285 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ in Rome
+page=2 block=904872862 (x=80 y=294) width=32 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ In April 1786 Hester Lynch Piozzi wrote from Italy: "I must not quit Rome,
+page=2 block=1234654510 (x=80 y=312) width=288 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ however, without a word of Angelica Kauffman, who, though neither English nor Italian, has
+page=2 block=1234654510 (x=2 y=324) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ contrived to charm both nations, and her superior talents, both here and there. Besides her paint-
+page=2 block=1234654510 (x=2 y=335) width=366 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ ing for which the world has been the judge, her conversation attract all people of taste to her
+page=2 block=1234654510 (x=2 y=347) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ house, which none can bear to leave without difficulty and regret."1 By the time of this visit to
+page=2 block=1234654510 (x=2 y=358) width=366 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Rome, Kauffman was indeed at the height of her fame, well established as one of the stars of the
+page=2 block=1234654510 (x=2 y=370) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ international community in that city. Her studio had become a popular stop on the Grand Tour
+page=2 block=1234654510 (x=2 y=382) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ for fashionable visitors, dealers, painters, poets, and princes from all over Europe and Britain who
+page=2 block=1234654510 (x=2 y=393) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ wished to have their portraits made, to commission history paintings, or simply to participate in
+page=2 block=1234654510 (x=2 y=405) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ the evenings of conversation, poetry reading, and music with Kauffman and her husband, Anto-
+page=2 block=1234654510 (x=2 y=416) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ nio Zucchi, with whom she had settled in Rome in 1782.2
+page=2 block=1234654510 (x=2 y=427) width=220 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Throughout her career in Rome Kauffman earned a steady flow of income
+page=2 block=2077150966 (x=80 y=445) width=288 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ from works which ranged from large paintings to decorative engravings, and the sheer volume as
+page=2 block=2077150966 (x=3 y=456) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ well as the variety of Kauffman's artistic output is notable. The purpose of this paper is to explore
+page=2 block=1174694918 (x=2 y=468) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Kauffman's attitude towards her work-work which brought so much delight to her clients and
+page=2 block=1174694918 (x=2 y=479) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ profit to herself-through a study of the house in which she lived, some examples of her artistic
+page=2 block=1174694918 (x=3 y=490) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ production, and the comments of her friends.
+page=2 block=154674411 (x=3 y=502) width=171 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Soon after their arrival in Rome Kauffman and Zucchi moved into a large
+page=2 block=2062888647 (x=80 y=519) width=289 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ house on the via Sistina, and in the following years they spent lavish sums on furniture, china,
+page=2 block=2009196049 (x=3 y=531) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ silver, linens, carriages and horses, books and paintings, all the accoutrements of fashionable life
+page=2 block=2009196049 (x=3 y=543) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ in Rome.3 The house was entered through a large hall filled with plaster figures of well-known
+page=2 block=2009196049 (x=3 y=554) width=366 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ classical statues, followed by the major reception room which displayed, along with other works
+page=2 block=2009196049 (x=3 y=566) width=366 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ of art, an impressive collection of bound prints of Roman antiquities and engravings after the
+page=2 block=2009196049 (x=3 y=578) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ paintings of important Renaissance and seventeenth-century artists.4 In 1805 a German visitor
+page=2 block=2009196049 (x=3 y=590) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ claimed that Kauffman's house virtually "breathed Art." In the Salon he noted, "her portrait
+page=2 block=2009196049 (x=3 y=601) width=366 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ made by Reynolds in London "hung between two beautiful heads by Van Dyck and Rembrandt."s
+page=2 block=2009196049 (x=3 y=613) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ The "Rembrandt" was actually Kauffman's own youthful copy made after his self-portrait in
+page=2 block=2009196049 (x=3 y=624) width=366 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Florence, a painting that must have held special significance, for she kept this picture with her all
+page=2 block=2009196049 (x=3 y=636) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 
+page=2 block=314622131 (x=137 y=671) width=100 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+            132.174.250.254 on Sun, 05 Sep 2021 23:19:25 UTC             
+page=2 block=314622131 (x=78 y=679) width=220 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=2 block=314622131 (x=113 y=687) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 3 left:1 upper:1
+ political philosophy, and natural history. Such a portrait by the celebrated Kauffman would estab-
+page=3 block=1519890812 (x=3 y=336) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ lish him as a tasteful gentleman of means surrounded by the appropriate trappings of a sophisti-
+page=3 block=1519890812 (x=2 y=347) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ cated British resident in Rome. Soon after it was completed, Ker wrote to his brother with enthu-
+page=3 block=1519890812 (x=2 y=359) width=368 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ siasm about his purchases of old master paintings and a Stradivarius violin reputed to have been
+page=3 block=1519890812 (x=2 y=370) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ made for the Duke of Tuscany and bought on the advice of no less a person than Angelica Kauffman.
+page=3 block=1519890812 (x=2 y=381) width=430 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ One can easily imagine Ker posing for his portrait while enjoying conversation with the knowl-
+page=3 block=1519890812 (x=3 y=393) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ edgeable and attractive artist. But how can we imagine how the artist Kauffman may have felt,
+page=3 block=1519890812 (x=2 y=404) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ hard at work on the other side of the easel?
+page=3 block=1519890812 (x=3 y=415) width=165 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ in for what is often little work. She would like to work for her own pleasure, with greater leisure,
+page=3 block=164052991 (x=3 y=479) width=380 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ care, and study; and she could do this. They have no children, they cannot use up the interest on
+page=3 block=164052991 (x=2 y=491) width=370 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ their investments, and every day, even without working very hard, she earns another sizable amount.
+page=3 block=164052991 (x=3 y=502) width=384 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ But that is not how it is, and it never will be. She talks very candidly with me, I have told her my
+page=3 block=164052991 (x=3 y=514) width=389 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ opinion, given her my advice, and encourage her whenever I am with her.""
+page=3 block=164052991 (x=2 y=526) width=290 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Goethe's concern for Kauffman suggests an overly Romantic assessment of
+page=3 block=1909367224 (x=81 y=544) width=298 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ her situation, putting the blame for her hard work and busy schedule on her avaricious husband.
+page=3 block=1909367224 (x=3 y=555) width=386 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Another friend, the poet Johann Gottfried Herder, also believed she suffered from Zucchi's greed
+page=3 block=1909367224 (x=3 y=567) width=394 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ and lived a lonely, childless life; yet he wrote in 1789 that "she is by profession a man, and has
+page=3 block=1909367224 (x=3 y=579) width=379 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ done more than fifty men could have and would have done in the same time."'2 It seems as if
+page=3 block=1909367224 (x=3 y=590) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Goethe and Herder could not reconcile their idea of this feminine, modest, albeit clever and tal-
+page=3 block=1909367224 (x=3 y=602) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ ented woman taking satisfaction in hard work and financial gain driven by her own ambition.
+page=3 block=1909367224 (x=2 y=614) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Naturally, they would have preferred that she spend more leisure time with them as companion
+page=3 block=1909367224 (x=2 y=625) width=385 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 226
+page=3 block=1704927850 (x=1 y=1) width=16 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ EIGHTEENTH-CENTURY STUDIES 29 / 2
+page=3 block=48522228 (x=79 y=1) width=162 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ her life.6 Kauffman's Salon, with its classical statuary, ornately framed paintings, and fine books,
+page=3 block=854367376 (x=2 y=26) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ provided an appropriate setting for a woman of taste, intellect, and artistic pursuits. Her portrait
+page=3 block=854367376 (x=2 y=38) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ by the noted English painter Reynolds between her own copy of Rembrandt's self-portrait and
+page=3 block=854367376 (x=2 y=49) width=366 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ one by Van Dyck connected her as both image and artist with that masculine world of the great
+page=3 block=854367376 (x=2 y=61) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ portrait painters of past and present. This was a suite of rooms calculated to impress and would
+page=3 block=854367376 (x=2 y=73) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ have fulfilled the expectations of potential clients. In contrast to the formality of the reception
+page=3 block=917190676 (x=2 y=85) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ rooms, Kauffman's studio at the opposite end of the house, the site where she practiced her art,
+page=3 block=716951769 (x=2 y=97) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ was cluttered with easels, palettes, brushes, stones for grinding pigments, jars of oil, mannequins,
+page=3 block=716951769 (x=2 y=108) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ mirrored lamps, a pocket lens, and numerous other tools of the painter's trade.7
+page=3 block=716951769 (x=2 y=120) width=304 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Three portraits all made in 1793 can serve to illustrate the variety of
+page=3 block=190967225 (x=80 y=138) width=289 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Kauffman's clients and her talent for flattering depictions that made her work seem easy. A half-
+page=3 block=1564473433 (x=2 y=150) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ length portrait of the novelist Cornelia Knight (Manchester, City Art Gallery, 37 3/4 x 31 1/2 in.)
+page=3 block=1564473433 (x=2 y=162) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ painted "par amicizia," out of friendship, shows her with several of her books and a pencil, for, as
+page=3 block=1564473433 (x=2 y=173) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ noted in by Kauffman, she loved to draw.8 A cameo at her waist bears a profile portrait of Kauffman
+page=3 block=1564473433 (x=2 y=185) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ added at the request of Lady Knight, the sitter's mother. A much larger full-length portrait of the
+page=3 block=1564473433 (x=2 y=196) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Second Lord Berwick (National Trust, Attingham Park, 86 1/2" x 56 1/2") on the Grand Tour,
+page=3 block=1564473433 (x=2 y=208) width=370 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ represents him attired as an elegant aristocrat in fancy Van Dyck dress, seated beside one of the
+page=3 block=1564473433 (x=2 y=220) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ most notable antiquities in Rome, the Medici vase.9 The Irishman David Ker (David Ker collec-
+page=3 block=1564473433 (x=2 y=232) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ tion, England, approx. 47 x 39 1/2 in., fig. 1), although described in her "Memorandum of Paint-
+page=3 block=1564473433 (x=2 y=243) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ ings" as a "nobleman," was neither an aristocrat nor a distinguished intellectual.'1 Nevertheless,
+page=3 block=1564473433 (x=2 y=255) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Kauffman portrayed him just after his arrival in Rome in a reflective, classical pose at a library
+page=3 block=1564473433 (x=2 y=266) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ table in front of a distant view of the Coliseum. On the table are Pliny's Natural History and a
+page=3 block=1564473433 (x=2 y=278) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ volume of Milton, and the open book reveals it title across the top of the pages: "On the Human
+page=3 block=1564473433 (x=2 y=290) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Understanding," most likely meant as John Locke's essay. A small statue in the style of Canova
+page=3 block=1564473433 (x=2 y=301) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ represents Roman charity, a woman suckling her dying father. This eclectic group of items lends
+page=3 block=1564473433 (x=2 y=312) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Ker the aura of a man of deep thought and virtue, a beloved father, well versed in the classics,
+page=3 block=851116146 (x=2 y=324) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ In 1787 Johann Wolfgang von Goethe, who was then resident in Rome, wrote
+page=3 block=1181889508 (x=81 y=433) width=288 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ about a Sunday afternoon visit to the Aldobrandini collection with Kauffman: "She is not as
+page=3 block=1181889508 (x=3 y=444) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ happy as she deserves to be, in view of her truly great talent and daily increasing wealth. She is
+page=3 block=1115296438 (x=3 y=456) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ tired of painting pictures to sell, and yet her old husband delights in seeing such big money coming
+page=3 block=1613092752 (x=3 y=467) width=373 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ and guide to the artistic sites of Rome.
+page=3 block=184017782 (x=2 y=637) width=147 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 
+page=3 block=1573719263 (x=136 y=670) width=100 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+            132.174.250.254 on Sun, 05 Sep 2021 23:19:25 UTC             
+page=3 block=1573719263 (x=77 y=678) width=220 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=3 block=1573719263 (x=112 y=686) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 4 left:1 upper:1
+ ART FORUM
+page=4 block=1336953458 (x=80 y=1) width=48 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 227
+page=4 block=31956291 (x=354 y=2) width=17 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ FIGURE 1. Angelica Kauffman, Portrait of David Ker, Rome, 1793 (David Ker
+page=4 block=876487258 (x=78 y=498) width=292 height=3 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ collection, England) by kind permission of the owner.
+page=4 block=876487258 (x=1 y=508) width=187 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Although her German admirers seemed to view her as the overworked victim
+page=4 block=27294710 (x=80 y=547) width=289 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ of her husband, Kauffman's Italian biographer De Rossi presents a rather different view. Accord-
+page=4 block=1276002922 (x=3 y=559) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ ing to him, the adoring Zucchi relieved Kauffman of all domestic duties so that she could devote
+page=4 block=1276002922 (x=3 y=570) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ her time to making art while he provided help and advice.13 In fact, as the records indicate, Zucchi
+page=4 block=1276002922 (x=3 y=582) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ ran the household and kept the accounts until his death in 1795, when her cousin took over the
+page=4 block=1276002922 (x=3 y=593) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ management of her domestic and business affairs.14 Zucchi may have profited from Kauffman's
+page=4 block=1899938605 (x=3 y=605) width=367 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ labors, but he also allowed her to enjoy the spotlight while he lived comfortably in the back-
+page=4 block=1899938605 (x=3 y=616) width=367 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ ground.
+page=4 block=886510498 (x=3 y=629) width=28 height=3 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 
+page=4 block=917156101 (x=140 y=672) width=100 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+            132.174.250.254 on Sun, 05 Sep 2021 23:19:25 UTC             
+page=4 block=917156101 (x=81 y=680) width=220 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=4 block=917156101 (x=116 y=688) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 5 left:1 upper:1
+ 10. "Memoria delle pitture," 41 (Manners and Williamson, 164). I am grateful to Mr. David Ker for
+page=5 block=143239336 (x=11 y=452) width=358 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ information about the sitter and the Ker family and wish to acknowledge my indebtedness for informa-
+page=5 block=143239336 (x=3 y=462) width=386 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ tion gleaned from Sir Brinsley Ford's Grand-Tour Archive at the Paul Mellon Centre for the Study of
+page=5 block=254358847 (x=3 y=473) width=395 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 228 EIGHTEENTH-CENTURY STUDIES 29 / 2
+page=5 block=57638267 (x=1 y=1) width=239 height=4 fontname=XBBXUT+Code2000 wordint.min=4 wordint.max=6
+ My search for the woman behind the paintings, this astonishingly prolific
+page=5 block=1622066826 (x=79 y=25) width=288 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ artist, probably reveals as much as anything my desire to know how she could be so productive,
+page=5 block=1622066826 (x=2 y=37) width=365 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ maintain a comfortable household, keep up a large correspondence with a wide circle of male and
+page=5 block=631766751 (x=2 y=48) width=365 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ female friends, manage to please her clients, and to amass a personal fortune large enough to leave
+page=5 block=1667348377 (x=2 y=60) width=369 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ substantial sums and costly objects to her numerous heirs. Somehow the image of the supportive
+page=5 block=1667348377 (x=2 y=72) width=365 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ husband rings true! I conclude with a quotation from Kauffman's Last Will and Testament: "As
+page=5 block=1667348377 (x=2 y=84) width=365 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ all I possess has been attained by my work and industry, having from earliest childhood devoted
+page=5 block=1667348377 (x=2 y=95) width=365 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ myself to the study of painting, so now I can dispose of the fruits of my industry as I will."is A
+page=5 block=1667348377 (x=2 y=107) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ fitting end, indeed.
+page=5 block=1667348377 (x=2 y=119) width=76 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ NOTES
+page=5 block=463313451 (x=80 y=161) width=29 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 1. Hester Lynch Piozzi, Observations and Reflections (London: A Strahan and T. Caldwell, 1789),
+page=5 block=227644740 (x=15 y=179) width=352 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 2:140-41.
+page=5 block=227644740 (x=2 y=189) width=36 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 2. See Wedny Wassyng Roworth, Angelica Kauffman: A Continental Artist in Georgian England (Lon-
+page=5 block=400216879 (x=15 y=206) width=352 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ don: Reaktion Books, 1992), 87ff.; and Anthony M. Clark, "Roma mi e sempre in pensiero," in Studies in
+page=5 block=400216879 (x=3 y=216) width=365 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Roman Eighteenth-Century Painting, ed. Edgar P. Bowron, (Washington, D.C.: Decatur House Press,
+page=5 block=400216879 (x=3 y=227) width=365 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 1981), 125-38.
+page=5 block=400216879 (x=3 y=238) width=53 height=3 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 3. "Memoire di spese fatta cominciando dalli 8 nov. 1782," British Museum Manuscript, Egerton,
+page=5 block=2036949810 (x=15 y=254) width=353 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Z169.
+page=5 block=2036949810 (x=3 y=264) width=21 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 4. F. Romagnoli, "Descrizione di tutto cib che vi e rinvenuto nell'Abitazione dalla defonta Angelica
+page=5 block=248705782 (x=15 y=281) width=353 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ Kauffman" Rome, 25 Jan. 1808, (Special Collections, Getty Center)
+page=5 block=248705782 (x=3 y=291) width=238 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 5. August von Kotzebue, Erinnerungen von einer Reise aus Liefland nach Rom und Neapel, Berlin,
+page=5 block=266894813 (x=15 y=308) width=354 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 1805, in E. Thurnher, Angelika Kauffmann und die deutsche Dichtung (Bergenz: E. Ross, 1966), 187.
+page=5 block=266894813 (x=3 y=318) width=356 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 6. Kauffman's copy of the Rembrandt (Uffizi, Florence, 1643) is lost, but a 1762 drawing is preserved
+page=5 block=1323996324 (x=15 y=334) width=353 height=5 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ in a sketchbook in the Victoria and Albert Museum. The Reynolds portrait was engraved by Bartolozzi in
+page=5 block=1323996324 (x=3 y=345) width=365 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 1781. Both are illustrated in Roworth, Angelica Kauffman, 19 and 41.
+page=5 block=1323996324 (x=3 y=356) width=247 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 7. Romagnoli, "Descrizione," lists these and many more items.
+page=5 block=2083004088 (x=15 y=372) width=223 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 8. Mss Royal Academy of Art, London, "Memoria delle pitture fatta d'Angelica Kauffman," 40. This
+page=5 block=1710491273 (x=15 y=388) width=354 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ appears in English translation as the "Memorandum of Paintings" in Victoria Alexandra Manners and
+page=5 block=1710491273 (x=3 y=399) width=365 height=3 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ George Charles Williamson, Angelica Kauffmann, R. A.: Her Life and Works (London: John Lane, 1924),
+page=5 block=1710491273 (x=3 y=409) width=366 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 141-74.
+page=5 block=700356991 (x=4 y=419) width=27 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 9. "Memoria delle pitture," 40 (Manners and Williamson, 164)
+page=5 block=871065432 (x=15 y=435) width=226 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ British Art, London.
+page=5 block=260727363 (x=3 y=483) width=71 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 11. Johann Wolfgang Goethe, Italian Journey, Rome, 18 Aug. 1787, in Collected Works of Goethe,
+page=5 block=1250950517 (x=10 y=501) width=359 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ trans. by R. R. Heitner (New York: Suhrkamp, 1989), 6:307.
+page=5 block=1250950517 (x=3 y=511) width=215 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 12. Letter to Caroline Herder, 22 April 1789, in Thurnher, Angelika Kauffmann, 146.
+page=5 block=388489274 (x=10 y=528) width=304 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 13. G. G. De Rossi, Vita di Angelica Kauffman (Florence: A Spese di Molini, 1810), 85.
+page=5 block=2141094945 (x=10 y=545) width=320 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 14. Wendy Wassyng Roworth, "Angelica Kauffman's 'Memorandum of Paintings,'" Burlington Maga-
+page=5 block=601520619 (x=10 y=562) width=359 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ zine 76 (1984): 629-30. Her cousin Johann Anton Kauffman became her chief heir.
+page=5 block=601520619 (x=3 y=572) width=292 height=4 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+ 15. Manners and Williamson, Angelica Kauffmann, 242.
+page=5 block=378227888 (x=10 y=589) width=202 height=3 fontname=XBBXUT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 
+page=5 block=1040537707 (x=136 y=670) width=100 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+            132.174.250.254 on Sun, 05 Sep 2021 23:19:25 UTC             
+page=5 block=1040537707 (x=77 y=678) width=220 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=5 block=1040537707 (x=112 y=686) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4

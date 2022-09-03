@@ -1,0 +1,335 @@
+Title:
+Isolation and characterization of human salivary gland cells for stem cell
+transplantation to reduce radiation-induced hyposalivation
+Abstract:
+Background: Recently, we showed that transplantation of 100–300 c-Kit+ stem cells isolated from cul-
+tured salispheres ameliorates radiation-damage in murine salivary glands. The aim of this study is to
+optimize and translate these ?ndings from mice to man.
+Methods: Mouse and human non-malignant parotid and submandibular salivary gland tissue was col-
+lected and enzymatically digested. The remaining cell suspension was cultured according to our sali-
+sphere culture method optimized for murine salispheres. Salisphere cells were tested using 3D matrix
+culturing fortheirinvitrostem cell characteristics suchasthe potential to differentiate into tissuespeci?c
+cell types. Several potential mouse and human salivary gland stem cells were selected using FACS.
+Results: In human salivary gland, c-Kit+ cells were only detected in excretory ducts as shown previously
+in mice. From bothhuman parotid and submandibulargland cell suspensionssalispheres couldbe grown,
+which when placed in 3D culture developed ductal structures and mucin-expressing acinar-like cells.
+Moreover, cells dispersed from primary salispheres were able to form secondary spheres in matrigel, a
+procedure that could be repeated for at least seven passages. Approximately 3000 c-Kit+ cells could be
+isolated from primary human salispheres per biopsy.
+Conclusion: Human salivary glands contain a similar ‘putative’ stem cell population as rodents, express-
+ing c-kit and capable of in vitro differentiation and self-renewal. In the future, these cells may have the
+potential to reduce radiotherapy-induced salivary gland dysfunction in patients.
+ 2009 Elsevier Ireland Ltd. All rights reserved. Radiotherapy and Oncology 92 (2009) 466–471
+----------------------
+Subtitles:
+
+ Materials and methods
+ Animals
+ Salivary gland irradiation
+ Isolation of salivary gland cells
+ Immunohistochemical processing
+ Flow cytometric analysis and cell puri?cation
+ Self-renewal assay
+ Statistical analysis
+ Results
+ Discussion
+ Acknowledgements
+
+
+Text:
+----------------------
+Radiotherapy of head and neck tumors commonly induces
+hyposalivation which in most cases is an irreversible side effect
+resulting in complaints such as xerostomia (the subjective sensa-
+tion of a dry mouth). Secondary to this, most patients develop
+problems such as an increased susceptibility to oral infections
+and dental caries, impeded swallowing and speech, and nocturnal
+oral discomfort which have a major detrimental impact on health-
+related quality of life of these patients [18,19]. Even with the most
+advanced radiation techniques, such as Intensity-Modulated Radi-
+ation Therapy (IMRT), still approximately 40% of these patients de-
+velop hyposalivation and consequential life-long complaints [17].
+To date, still no satisfactory clinical management of xerostomia
+exists.
+Radiation-induced sterilization of the primitive glandular stem
+cells which prevents the replenishment of saliva-producing cells
+seems to be the main cause for irreversible late hyposalivation
+[4]. Transplantation of salivary gland stem cells potentially offers
+a therapy to rescue irradiated salivary glands. For many tissues
+experimental forms of stem cell transplantation have been shown
+to result in improvement of tissue function, such as that for bone
+marrow, skin [2,12], mammary gland [13,15], eye [14], kidney
+[4], brain [10], and heart [1]. However, only hematopoietic stem
+cell transplantation and epithelial stem cell-based treatments for
+skin burns and corneal disorders are routinely applied clinically.
+The ?rst attempt to isolate and transplant rat salivary gland
+stem/progenitor cells was described in 2004, but failed to show
+formation of saliva-producing acinar cells or functional improve-
+ment [16]. Later, stem cells that were selected using the stem cell
+markers Sca-1, c-Kit or a6+b1+integrin cells from, respectively,
+mouse [5,11] and rat [6] glands were shown to contribute to tissue
+regeneration when transplanted via the portal vein into partially
+hepatectomized animals. The ?rst success in developing an
+in vitro stem cell assay based on colony forming units was per-
+formed in 2006 when Kishi and colleagues developed a clonal col-
+ony assay for salivary gland cells [6]. However, due to the lack of
+in vivo functional assessment, these as such determined colony
+forming cells could not be de?ned as stem cells [6]. Recently, how-
+ever, in a series of studies [3,7,9], we showed that salivary glands
+do contain cells that when stimulated appropriately have the
+capacity to regenerate damaged tissue after irradiation. Moreover,
+we developed a culture and isolation procedure to obtain a c-Kit+
+cell population from mice submandibular glands that contain stem
+cells which when transplanted in irradiated salivary gland, promi-
+nently restored function and morphology [8].
+The aim of this study was to expand our ?ndings to human sal-
+ivary glands for future development of clinical application. Since
+this therapy might be applicable to older patients, we also investi-
+gated the relationship between age and the number of salivary
+gland stem cells.
+Materials and methods
+Animals
+Female C57BL/6 mice, 2–3 months of age, were purchased from
+Harlan (Horst, Netherlands). Salivary glands of 24–26 months old
+mice were kindly provided by Dr. BradDykstra (Department of Cell
+Biology, section Stem Cell Biology, University Medical Center Gron-
+ingen, the Netherlands). The mice were kept under clean conven-
+tional conditions, and fed ad libitum with food pellets (RMH-B,
+Hope Farms B.V., Woerden, The Netherlands) and acidi?ed tap
+water (pH 2.8). All experiments were approved by the Ethical Com-
+mittee on animal testing of the University of Groningen.
+Salivary gland irradiation
+Salivary glands were locally irradiated with a single dose of
+15 Gy of X-rays (Philips CMG 41 X, 200 kV, 10 mA, 5 Gy/min). Mice
+were protected from off-target radiation by a 3 mm lead shield.
+15 Gy is a dose known to induce suf?cient damage without com-
+promising the general health of the animals. Four days post-irradi-
+ation, mice were sacri?ced and glands were collected for further
+investigation.
+Irradiated human salivary gland tissue was obtained from a pa-
+tient (after informed consent) with a squamous cell carcinoma of
+the oral cavity in whom a neck dissection procedure was per-
+formed. This patient was operated and irradiated 15 years ago for
+an oropharyngeal tumor T4N1M0.
+Isolation of salivary gland cells
+Salispheres were obtained as previously published [8]. In short,
+mice were euthanized immediately after blood removal (via car-
+diac puncture) under full anesthesia (N2O/O2/iso?urane). Subman-
+dibular glands were dissected carefully, avoiding contamination
+from other tissues. A cell suspension was prepared by mincing
+and enzymatical dissociation with collagenase type II (0.025%),
+hyaluronidase (0.04%) and CaCl2 (6.25 mM) at 37 C for 40 min
+with gentle mechanical movement. After an additional 40 min of
+fresh enzyme digestion, thetissuecell suspension was ?ltered with
+a 100 lm and a 50 lm mesh using a 25G needle, and plated in non-
+coated 12-well plates at 400,000 cells per well. Per gland, between
+2 and 4.6  106 cells were isolated. The culture medium consisted
+of DMEM/F12 (Invitrogen, Carlsbad, CA; 11320–074), penicillin,
+streptomycin, glutamax, EGF (20 ng/mL), FGF-2 (20 ng/mL), N-2
+(serum-free supplement for culturing neural cells) (1/100), insulin
+(10 lg/mL) and dexamethasone (1 lM)further depicted as salivary
+gland medium (SGM). Fresh medium was added every three days.
+All growth factors were purchased from Sigma–Aldrich (St. Louis,
+MO), except for N-2 (Invitrogen, Carlsbad, CA).
+Human parotid and submandibular salivary glands were ob-
+tained frompatients (after informed consent) with a squamouscell
+carcinoma of the oral cavity in whom a neck dissection procedure
+was performed. None of the patients had received any other cancer
+treatment before surgicalprocedure. Cultureconditions for the for-
+mation of human salispheres were similar to those for the mouse.
+For differentiation experiments three day-old spheres were
+mixed with Collagen type I (BD 3.68 mg/mL) and cultured for
+twenty additional days until branches and acinar-like outgrowth
+could be visualized. Mucin and mucopolysaccharide containing
+acinar cells were detected by Periodic Acid Schiff’s base (PAS).
+Immunohistochemical processing
+After extirpation, the submandibular glands or cultured cells
+were incubated for 30 h at 4 C in 4% buffered formaldehyde. Fol-
+lowing dehydration, the tissue was embedded in paraf?n. Floating
+spheres were incubated in 4% buffered formaldehyde at 4 C,
+washed and resuspended in Histogel (Richard-Allan Scienti?c, Kal-
+amazoo, MI;HG-4000–012), after dehydration the cells were
+embedded in paraf?n. Five-lm sections were dewaxed and labeled
+with a polyclonal rabbit anti-human c-Kit antibody (Cat. No.
+A4502; Dako, Glostrup, Denmark). Visualization was accomplished
+by adding speci?c secondary ?uorescent antibodies (Jackson
+ImmunoresearchEurope, Suffolk, UK). Nuclei werevisualized using
+4,6-diamino-2-phenylindole (DAPI). Control sections without pri-
+mary antibodies were all negative. Cell morphology was visualized
+by routine histological techniques using hematoxylin-eosin
+staining.
+Flow cytometric analysis and cell puri?cation
+Cultured cells were dissociated by 0.05% trypsin–EDTA (Gibco,
+Invitrogen, Carlsbad, CA;25300) with mechanical use of 26G nee-
+dles. Incubation with APC-conjugated anti-human C-Kit antibody
+(BD Biosciences Pharmingen-550412) was performed at 4 C for
+20 min, followed by a washing step in PBS containing 0.2% BSA. Fi-
+nally, Propidium Iodide (PI, 1 lg/ml) was added to the cells before
+analysis using a FACS Calibur Flow Cytometer (BD) with a least
+100,000eventsfor eachmeasurement. Data wereanalyzedbyFlow-
+Josoftware (Tree Star,Ashland,OR).Gatesforviable(PI-negative) C-
+Kit+cellswere setby using iso-typecontrols(BDBiosciences Pharm-
+ingen) for APC. From 7 patients c-Kit cells were selected.
+Self-renewal assay
+After 3 days of culture, cells were dissociated with 0.05% tryp-
+sin–EDTA and counted using a hemocytometer and suspended in
+growth factor-reduced BD Matrigel Matrix (BD Biosciences) with
+SGM in a 3:2 ratio (a total volume of 125 ll) with a total number
+of 10,000 cells. Samples were plated in a 12-well plate and allowed
+to solidify at 37C for 20 min, before 1 ml SGM was added. Med-
+ium was replenished every 3 days. Ten days after plating, spheres
+were counted.
+To passage spheres, medium was aspirated off, and Matrigel
+GFR was digested by incubation with 1 ml dispase solution (Gibco,
+Invitrogen 1 mg/mL, dissolved in SGM) for 1 h at 37C. Digested
+cultures were collected, pelleted, resuspended, and incubated in
+1ml type 1 collagenase (Gibco, Invitrogen 190 units/mL) for
+45 min at 37 C. Cells were then pelleted, resuspended, and incu-
+bated in 0.05% trypsin–EDTA for 10 min at 37 C, passed through
+a 26G needle and a 50 lm mesh-?lter. Finally, cells were counted
+by hemocytometer and replated.
+Statistical analysis
+Statistical analysis was performed with SPSS (version 15) soft-
+ware computer program using a Mann–Whitney test. Statistical
+signi?cance was de?ned as P < 0.05. Numbers represent aver-
+age± SEM, unless otherwise speci?ed.
+Results
+The successful transplantation of a murine c-kit+ salivary gland
+stem cell containing cell population that restored the function of
+irradiated glands [8], warrants translation of theresults to humans.
+The present study was performed to compare some basics in radi-
+ation response and stem cell characteristics between human and
+mouse salivary glands. The success of the mouse salivary gland
+stem cell transplantation is partly due to the typical response of
+the tissue to radiation with disappearing acinar cells but with a
+ductal compartment remaining largely intact. Since, the stem cells
+of the salivary gland reside in the ducts [8], they provide the envi-
+ronment for engraftment of the transplanted cells. Therefore, we
+?rst studied the histopathology of irradiated human salivary gland.
+Normal human salivary parenchyma comprises of acini, which
+similar to mice are composed of triangle-shaped saliva-producing
+acinar cells, and a branchy duct system (Fig. 1A, C, and E). After
+radiotherapy, acinar cells are replaced by ?brotic tissue but similar
+to mice still some ductal tissue remains (Fig. 1B, D, and F), which
+may allow for the engraftment of stem cells in patients.
+Next, we investigated the presence of salivary gland stem cells
+in human salivary gland, using the same method of culturing sali-
+spheres as in our mice studies [8]. Indeed, using this method, we
+were able to grow human salispheres, which usually appeared
+2 days after isolation and culturing. In general, the appearance of
+the salisphereswas very similar tothat of the spheres derived from
+mouse tissue (Fig. 2). To show that human salispheres contain cells
+that are able to differentiate in saliva-producing cells, the dis-
+persed salispheres were placed in collagen type I after 3 days of
+?oating culture. Human salispheres were able to form spheres in
+3D collagen type I (Fig. 3), which gradually transformed into duct-
+and acinar-like structures. Fig. 3A–E shows the gradual differenti-
+ation process, indicated by branching of duct-like cells and forma-
+tion of acinar-like structures. The appearance of PAS (to detect
+mucins) and amylase-positive cells (Fig. 3K and L) in the sali-
+spheres indicates functional differentiation of cells in the spheres.
+The similarities with mouse salisphere differentiation are striking
+(Fig. 3 F–J, M, and N).
+To show the self-renewal potential ofsalispherecells, they were
+dissociated after 2 days of ?oating culture and a dispersed cell sus-
+pension was plated into matrigel. New salispheres were formed in
+10 days (Fig. 4A–F). These spheres were collected and dispersed
+into a cell suspension which was replated in matrigel to form sec-
+ondary (tertiary etc.) spheres. This procedure could be repeated at
+least seven times, without apparent loss of replating ef?ciency.
+This assay reveals long-term self-renewal ability in vitro to suggest
+the presence of a stem cell population in human salispheres.
+Recently, we showed that especially c-Kit+ cell isolated from 3-
+day-old spheres cultured from mouse salivary glands contained
+cells that were able to transdifferentiate in all salivary gland cell
+types, to regenerate irradiated glands, and to self-renew in vivo
+[8]. Therefore, we investigated human salivary glands for the pres-
+ence of c-Kit+ cells. Using immuno-?uorescentstaining,normalhu-
+man salivary gland clearly showed c-Kit+ cells in excretory ducts of
+both submandibular and parotid glands (Fig. 5A and B, respec-
+tively). This is in agreement with our ?ndings in mice [8], where
+c-Kit+ was found to be con?ned to these type of ducts. Next, we
+tested if the cultured human salispheres contained c-Kit+ cells.
+Hereto, we dispersed 3-day-old human salispheres into single
+cells and analyzed them using ?ow cytometry. Indeed, a clear
+population of c-Kit+ cells (less than 1%) could be observed (Fig. 5C),
+albeit in slightly lower frequencies than in mouse salispheres [8].
+The salispherescultured from mouse glands were obtained from
+rather young (2–3 months) animals. However, patients that are
+treated for head and neck cancer are often relatively much older
+and potentially may have different numbers of stem cells. Since
+we showed that the number of salispheres that can be grown from
+mouse salivary glands represent the number of stem cells present
+[9], we testedfor a possible relationship between age and the num-
+ber of salivarygland stem cells.To this end,we quantitatively com-
+pared thesalispherecultureofold miceand young mice.Salispheres
+were cultured from 10 old mice and the number of salispheresthat
+couldbe grownwas comparedtoyoungmice.After3 days of cultur-
+ing, salisphereswerecountedandsubsequently dispersedinto a cell
+suspension, put into matrigel and cultured for another 10 days. As
+such wewereabletomeasurethreedifferentvariables:(1)thenum-
+ber of cells after isolation, (2)the number ofcells derivedfrom sali-
+spheres after 3 days of culturing and (3) the number of secondary
+spheres formed after passaging in matrigel. The result showed that
+there was no signi?cant difference (P > 0.05) between the number
+of cells that could be isolated from young or old mouse (Fig. 6A).
+However,primary salispheres from oldermice contain signi?cantly
+less cells than primary salispheres from young mice (P < 0.01,
+Fig. 6B). Moreover, these cells were less capable to grow spheres in
+matrigel in the secondary salisphere culture (Fig. 6C).
+Discussion
+Recently, we discovered a population of c-Kit-expressing cellsin
+mice with remarkable capability to restore salivary glands dam-
+aged by radiation [8]. Salispheres cultured from rodent subman-
+dibular glands contained cells that expressed many stem cell
+markers (e.g., Sca-1, c-Kit, Musashi-1) and were able to differenti-
+ate into all salivary gland lineages. These cells were also able to
+self-renew in vivo [8]. After stem cell enrichment by ?ow cytomet-
+ric selection using c-Kit as a single marker, as few as 100 c-Kit+
+cells were able to completely restore salivary gland function and
+morphology 3 months after transplantation. This study was the
+?rst evidence for the potential use of stem cell transplantation to
+functionally rescue salivary gland damaged by irradiation.
+In this study, we investigated the presence and in vitro potential
+of human salivary gland stem cells. We determined the character-
+istics of human salivary gland for the following aspects: morphol-
+ogy and pathology, salisphere formation, in vitro differentiation,
+self-renewal ability and the presence of c-Kit stem cell marker.
+Although human and mouse salivary glands are not exactly the
+same, the tissue architecture after irradiation looks remarkably
+similar. In both species, the ductal compartment necessary for
+stem cell engraftment largely remains intact. Moreover, salisphere
+formation of human salivary gland cells was very similar to mice.
+In addition, human salispheres could form duct and acinar-like
+cells and were able to self-renew for at least seven passages in cul-
+ture. These results indicate that human salispheres do contain cells
+with stem cell-like properties. The potential existence of stem cells
+that may be used for transplantation purposes is further substanti-
+ated by the location of c-Kit+ cells in the excretory ducts of both
+human submandibular and parotid glands. Furthermore, these
+cells could be isolated from human salispheres in substantial num-
+bers, albeit in lower percentages than from rodent salispheres. This
+may be due toa lower stem cell number in older people such asthe
+patients with head and neck cancer used in this study. Our ?nding
+that older mice may have reduced numbers of cells capable to form
+salispheres in ?oating culture is in agreement with this.
+Therefore, we conclude that it may very well be possible to de-
+velop human adult stem cell therapy to restore the function of irra-
+diated salivary glands in patients. However, before we can proceed
+a number of problems still have to be addressed. For instance, does
+the human c-Kit+ cell population contain cells that have in vivo
+regeneration ability? And, can we get suf?cient and potent enough
+stem cells to establish long term regeneration of salivary glands or
+do we have to expand human salivary gland stem cells in vitro be-
+fore transplantation? Recently, we have shown that in vivo expan-
+sion of salivary gland stem cells is attempted [9] and it may thus
+also be possible in vitro.
+Human and mouse salivary glands contain a similar ‘putative’
+stem cell population, which might have potential to reduce radio-
+therapy-induced salivary gland dysfunction in the future.
+Acknowledgements
+We would like to thank Dr. B. Dykstra (Department of Cell Biol-
+ogy, section Stem Cell Biology, University Medical Center Gronin-
+gen, the Netherlands) for providing us with the opportunity to
+collect salivary glands from aged mice and for discussion of the
+results.

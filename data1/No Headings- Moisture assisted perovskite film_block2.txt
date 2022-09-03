@@ -1,0 +1,1299 @@
+Content:
+ColumnWidth 247 ColumnNumber 2
+ContentWidth 511 ContentLeft 1 ContentRight 511
+==============================
+Page 1
+ Left 1 Right 479 Top 1 Bottom 707
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: title
+typeindex=7 left=1 right=466 upper=1 lower=38
+====>
+charfont height=13.000000, charfont bold=2, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Moisture assisted perovskite film growth for
+high performance solar cells
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=430 upper=65 lower=83
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-102
+
+Cite as: Appl. Phys. Lett. 105, 183902 (2014); https://doi.org/10.1063/1.4901510
+Submitted: 13 October 2014 . Accepted: 30 October 2014 . Published Online: 07 November 2014
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=1 right=354 upper=103 lower=120
+====>
+charfont height=5.000000, charfont bold=2, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Huanping Zhou, Wei-Hsuan Chang, Gang Li, and Yang Yang
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=1 right=440 upper=103 lower=108
+====>
+charfont height=5.000000, charfont bold=2, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Jingbi You, Yang (Michael) Yang, Ziruo Hong, Tze-Bin Song, Lei Meng, Yongsheng Liu,   Chengyang Jiang,
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=1 right=205 upper=203 lower=210
+====>
+charfont height=7.000000, charfont bold=2, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+ARTICLES YOU MAY BE INTERESTED IN
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=1 right=472 upper=230 lower=266
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Morphology-photovoltaic property correlation in perovskite solar cells: One-step versus two-
+step deposition of CH3NH3PbI3
+APL Materials 2, 081510 (2014); https://doi.org/10.1063/1.4891275
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=1 right=377 upper=285 lower=306
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Detailed Balance Limit of Efficiency of p-n Junction Solar Cells
+Journal of Applied Physics 32, 510 (1961); https://doi.org/10.1063/1.1736034
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=1 right=385 upper=325 lower=348
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+The efficiency limit of CH3NH3PbI3 perovskite solar cells
+Applied Physics Letters 106, 221104 (2015); https://doi.org/10.1063/1.4922150
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=5 right=269 upper=685 lower=690
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Appl. Phys. Lett. 105, 183902 (2014); https://doi.org/10.1063/1.4901510
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=435 right=479 upper=685 lower=690
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+105, 183902
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=5 right=105 upper=703 lower=707
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+© 2014 AIP Publishing LLC.
+
+==============================
+
+==============================
+Page 2
+ Left 1 Right 511 Top 1 Bottom 738
+
+
+Column meta:
+Column left:1 upper:253 right:247 lower 738
+Column left:265 upper:253 right:511 lower 738
+
+
+Blocks:
+----------------------
+==============================
+type: undefined
+typeindex=-1 left=161 right=351 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+APPLIED PHYSICS LETTERS 105, 183902 (2014)
+
+==============================
+
+==============================
+type: undefined
+typeindex=3 left=1 right=484 upper=26 lower=33
+====>
+charfont height=7.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Moisture assisted perovskite film growth for high performance solar cells
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=37 right=407 upper=44 lower=74
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-102
+
+Jingbi You,1 Yang (Michael) Yang,1 Ziruo Hong,1 Tze-Bin Song,1 Lei Meng,1
+Yongsheng Liu,1 Chengyang Jiang,1 Huanping Zhou,1 Wei-Hsuan Chang,1 Gang Li,1
+and Yang Yang1,2,a)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=37 right=410 upper=77 lower=84
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+1Department of Materials Science and Engineering, University of California Los Angeles, Los Angeles,
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=37 right=433 upper=90 lower=104
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-102
+
+California 90095, USA
+2California NanoSystems Institute, University of California Los Angeles, Los Angeles, California 90095, USA
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=37 right=408 upper=117 lower=122
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+(Received 13 October 2014; accepted 30 October 2014; published online 7 November 2014)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=37 right=437 upper=135 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=1
+
+Moisture is assumed to be detrimental to organometal trihalide perovskite, as excess water can
+damage the crystallinity of the perovskite structure. Here, we report a growth mode for via thermal
+annealing of the perovskite precursor ?lm in a humid environment (e.g., ambient air) to greatly
+improve the ?lm quality, grain size, carrier mobility, and lifetime. Our method produces devices with
+maximum power conversion ef?ciency of 17.1% and a ?ll factor of 80%, revealing a promising route
+to achieve high quality perovskite polycrystalline ?lms with superior optoelectronic properties that
+can pave the way towards ef?cient photovoltaic conversion. V 2014 AIP Publishing LLC.
+[http://dx.doi.org/10.1063/1.4901510]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=231 right=282 upper=734 lower=738
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+105, 183902-1
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=247 upper=253 lower=678
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Perovskite type semiconductors, due to their excellent
+absorption and charge transport, have attracted a signi?cant
+amount of attention in recent years.1,2 Miyasaka et al. dem-
+onstrated the ?rst lead halide perovskite photovoltaic device
+as the light absorber in a dye-sensitized solar cell, yielding a
+power conversion ef?ciency (PCE) of 4%.2 However, it was
+later realized that the liquid electrolyte hole transport mate-
+rial resulted in degradation of the perovskite layer.2,3 Further
+progress was made within a few years by employing meso-
+porous nanostructure that boosted the PCE well above
+10%.4–9 These results suggest an enormous potential for per-
+ovskite compounds as ef?cient photoactive materials for
+photovoltaic applications.10–17
+Lead halide perovskite ?lms can be deposited onto the
+substrates through in situ reactions of precursors via single- or
+two-step methods.2–28 Initially, mesoporous metal oxides, ei-
+ther semi-conductive or insulating, were used to form continu-
+ous high-quality perovskite ?lms in photovoltaic devices.3–9
+To simplify the device architecture and processing procedures,
+planar architectures without mesoporous layers have been pro-
+posed.18–20 In the meantime, photo-physical studies have
+shown that perovskite materials exhibit several tens of nano-
+seconds in carrier lifetimes and a few hundred nanometers in
+diffusion lengths, justifying the use of planar hetero-junc-
+tions.21,22 Intriguingly, perovskite materials demonstrate bipo-
+lar transport properties20 and can be readily incorporated into
+p-i-n device architectures where they serve as the intrinsic
+absorption layer. Recent works demonstrated that solution and
+vacuum co-evaporation processing techniques delivered PCEs
+of 12%19,23–27 and 12%–15%20,28 in planar designs, respec-
+tively. Although the growth dynamics of perovskite ?lms are
+far less understood at present, the simplicity of one-step solu-
+tion processing techniques makes them preferable to two-step
+methods. It is critical to gain a deep insight into ?lm growth
+mechanisms to enable use of facile one-step processing meth-
+ods that can produce high-quality perovskite ?lms. Previous
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=247 upper=698 lower=714
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+a)Author to whom correspondence should be addressed. Electronic mail:
+yangy@ucla.edu
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=150 upper=734 lower=738
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=0, column left=1, likeBody=-100
+
+0003-6951/2014/105(18)/183902/5/$30.00
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=265 right=511 upper=253 lower=714
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=100
+
+reports show that full coverage of the perovskite ?lm on
+the substrate surface is necessary to ensure suf?cient shunt
+resistance. Coverage can be improved by annealing the ?lm to
+fuse separate crystals into one and also by increasing ?lm
+thickness.19 Similar processes are essential to reduce structural
+defects and electronic traps within thin ?lm solar cells.
+Unfortunately, perovskites cannot withstand temperatures
+above 110 C, at which they are susceptible to decomposition
+or de-wetting.19 Film thickness is also limited by the charge
+diffusion length as indicated by the deterioration of photovol-
+taic performance for thicker layers. In order to address these
+challenges, we must develop effective approaches for control-
+ling the crystal growth using facile and controllable deposition
+conditions.29–31
+In this letter, we report moisture assisted grain growth
+of solution processed perovskite ?lms. As an approach to
+achieve high-quality perovskite ?lms, we anneal the precur-
+sor ?lm in a humid environment (ambient air) to dramati-
+cally increase grain size, carrier mobility, and charge
+carrier lifetime, thus improving electrical and optical prop-
+erties and enhancing photovoltaic performance. We demon-
+strate perovskite solar cells with 17.1% PCE and a ?ll
+factor (FF) of 80%.
+The details of device fabrication can be found in our
+previous publication.24 Speci?cally, the mixture solution of
+1:3 ratio of PbCl2:CH3NH3I in N,N-dimethylformamide
+(DMF) solvent (0.8M) was spin coated onto the poly(3,4-eth-
+ylenedioxythiophene) polystyrene sulfonate (PEDOT:PSS)
+layer at 1500rpm. The precursor ?lm are annealing at 90C
+for 2 h in nitrogen glove box or dry oxygen glove box or am-
+bient air (humidity of 35%65%). To study the effect of
+moisture level on the morphology and devices’ performance,
+the samples are placed into the humid controllable chamber
+for annealing. After annealing, the perovskite ?lms were
+transferred into nitrogen glove box. A 2% phenyl-C61-bu-
+tyric acid methyl ester (PCBM) in chlorobenzene solution
+was coated onto the perovskite layer at 1000 rpm. After that,
+0.02% polyelectrolyte poly[(9,9-bis(30-(N,N-dimethylamino)
+propyl)-2,7-?uorene)-alt-2,7-(9,9-dioctyl?uorene)] (PFN) in
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=416 right=511 upper=734 lower=738
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=-1, column left=265, likeBody=-100
+
+V2014 AIP PublishingLLC
+
+==============================
+
+==============================
+Page 3
+ Left 1 Right 511 Top 1 Bottom 685
+
+
+Column meta:
+Column left:1 upper:25 right:247 lower 534
+Column left:265 upper:25 right:511 lower 685
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-1 left=1 right=34 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=0, column left=-1, likeBody=-100
+
+183902-2
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=51 right=84 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+You et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=383 right=511 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Appl. Phys. Lett. 105, 183902 (2014)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=247 upper=25 lower=534
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+methanol was spin-coated on PCBM at 2000 rpm. Finally,
+the device was transferred to vacuum chamber for Al elec-
+trode evaporation. The devices’ area is 0.1 cm2. The X-ray
+diffraction (XRD) patterns were collected on a PANalytical
+X’Pert Pro X-ray powder diffractometer using Cu-Ka radia-
+tion (k¼ 1.54050 A?). The scanning electron microscope
+(SEM) images were taken on a Jeooel JSM-6700F. Steady-
+state photoluminescence (PL) was measured by Horiba
+Jobinyvon system with an excitation at 600nm. External
+quantum ef?ciencies (EQE) were measured by an Enli
+Technology (Taiwan) EQE measurement system.
+The SEM images of the perovskite ?lms fabricated via
+the thermal annealing method (90 C, 2 h in nitrogen glove
+box, O2 and H2O level lower than 5 ppm) are shown in Figs.
+1(a) and 1(b). The pristine ?lm exhibits a grain size of
+100–300nm with apparent pin holes and grain boundaries.
+These defects introduce strong energetic disorder, which
+impedes the charge transport, induces recombination, and low-
+ers photovoltaic performance.19 Signi?cant improvement in
+?lm morphology results when perovskite precursor ?lms are
+annealed in ambient air (humidity of 35%65%). Perovskite
+?lms annealed in ambient air are shown in Figs. 1(c) and 1(d),
+respectively. Notably, individual crystal sizes have been
+increased, pin-holes have been signi?cantly reduced, and grain
+sizes increased beyond 500nm. On the other hand, when
+annealing the perovskite precursor ?lm in a dry oxygen envi-
+ronment (Figs. 1(e) and 1(f)), the ?lm morphology is similar
+as in the case of the nitrogen environment, indicating the sig-
+ni?cant role of moisture on the ?nal ?lm morphology. The
+cross-section SEM showed that the crystal change across the
+entire of perovskite ?lm (Fig. S1, in Ref. 32). XRD results
+con?rm the improved crystallinity of the perovskite ?lms (Fig.
+S2, in Ref. 32), as the diffraction peaks of ?lms annealed in a
+humid environment are stronger and sharper than those
+annealed in a dry nitrogen environment.
+To further con?rm our hypothesis, the perovskite precur-
+sor ?lms were annealed in a humid nitrogen chamber.
+Similarly, large crystals and fewer pin-holes are seen than that
+of the dry nitrogen environment (Fig. S3, in Ref. 32). This
+result directly con?rmed that the moisture introduction is
+helpful for perovskite ?lm growth. Furthermore, we system-
+atically studied the effect of moisture level (20%–80% humid-
+ity) on the perovskite ?lm formation (Fig. S4, in Ref. 32).
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=265 right=511 upper=25 lower=534
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=100
+
+Despite the contributions of humidity in constructing larger
+crystal sizes, XRD results show a small amount of PbI2
+phase present in crystals after annealing above 80% humidity.
+This may be an indication that the CH3NH3PbI3 decomposes
+under high humidity levels (Fig. S5, in Ref. 32). We can con-
+clude that while moisture is bene?cial for high quality perov-
+skite ?lm growth, the relative amount should be carefully
+controlled.
+Moisture-assisted crystal growth has previously been
+seen in various crystal systems, inducing grain boundary
+creep as a result of the absorption of moisture within the
+grain boundaries.33–35 Due to the strong hydroscopic nature
+of CH3NH3I,36 exposing perovskite precursor to moisture
+during ?lm formation could results in accumulation of mois-
+ture within grain boundaries, inducing grain boundary creep
+and subsequently merging adjacent grains together. This
+effectively increases grain size and reduces pinhole forma-
+tion. In addition to grain boundary movement, moisture
+could also provide an aqueous environment to enhance the
+diffusion length of the precursor ions, further promoting per-
+ovskite grain growth. The recrystallization process via mois-
+ture annealing give rise to a high quality perovskite ?lm, a
+proposed scheme for enhanced crystallinity of perovskite ?lm
+in moisture environment is shown in Fig. S6 (in Ref. 32). The
+accurate of moisture-assisted perovskite growth is not clear
+and still under study.
+Figure 2(a) shows steady-state PL measurement for pre-
+cursor ?lms annealed under varying atmospheric conditions,
+such as nitrogen, oxygen, and ambient air (humidity:
+35% 6 5%), the PL results are shown in Fig. 2(a). The perov-
+skite ?lm was deposited via spin-coating onto a layer of
+PEDOT:PSS to emulate real p-i-n device processing condi-
+tions. The enhanced PL indicates that the non-radiative
+decay is signi?cantly suppressed through our annealing
+method. Furthermore, time-resolved PL (TRPL) (Fig. 2(b))
+clearly shows that PL lifetime improves with annealing in
+ambient air. Annealing in a dry nitrogen and oxygen envi-
+ronment gave lifetimes of approximately 33 ns, whereas the
+humidity-controlled annealing increased the lifetime to
+91ns. Here, the PL and the TRPL measurements show that
+the non-radiative recombination channels are greatly inhib-
+ited, and therefore the number of defects reduced, by anneal-
+ing the precursor ?lm in a humid environment.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=385 right=511 upper=605 lower=685
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=-1, column left=265, likeBody=-100
+
+FIG. 1. SEM images of the perovskite
+?lm precursor ?lms annealed under
+different conditions (a) and (b) in
+nitrogen; (c) and (d) in ambient air; (e)
+and (f) in oxygen environment. The
+small white dots in the SEM images
+are evaporated gold particles on perov-
+skite ?lm surface for reducing charge
+effect during SEM measurements.
+
+==============================
+
+==============================
+Page 4
+ Left 1 Right 511 Top 1 Bottom 661
+
+
+Column meta:
+Column left:1 upper:332 right:247 lower 461
+Column left:265 upper:22 right:511 lower 661
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-1 left=1 right=34 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=0, column left=-1, likeBody=-100
+
+183902-3
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=51 right=84 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+You et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=383 right=511 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Appl. Phys. Lett. 105, 183902 (2014)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=247 upper=332 lower=384
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+FIG. 2. The perovskite ?lm with improved crystal quality con?rmed by
+steady photoluminescence and transit photoluminescence. (a) Steady-state
+PL measurement of perovskite ?lm annealed under different environment
+including nitrogen, ambient air, and oxygen, the ?lms are all coated on
+PEDOT:PSS surface. (b) TRPL measurement for the corresponding perov-
+skite ?lms.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=247 upper=409 lower=461
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Using our annealing method, we constructed devices con-
+sisting of glass/ITO/PEDOT:PSS/CH3NH3PbI3xClx/PCBM/
+PFN/Al as shown in Fig. 3(a), where PEDOT:PSS and PCBM
+are the hole and electron transport layers, respectively. We
+incorporated a layer of PFN to form an Ohmic contact to assist
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=265 right=511 upper=22 lower=426
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=1
+
+in electron extraction from the PCBM to Al.37 This resulted in
+improved device performance, especially in FF (Fig. S7, in
+Ref. 32). The J-V characteristics of the devices based on per-
+ovskite ?lms annealed in different environment are shown in
+Fig. 3(b). When the precursor ?lm is annealed in dry environ-
+ment, the device performance showed approximately 12%
+PCE. In comparison, we can see that when annealing precur-
+sor ?lm in ambient air, the PCE is increased from 12.3% to
+15.4%, the VOC from 0.86 V to 0.99V and FF from 75% to
+78%, while the short circuit current (JSC) maintained at
+19mA/cm2. The best performance achieved through our
+annealing process was 17.1% PCE (Fig. 3(c)). The perform-
+ance of the devices is summarized in Table I. External quan-
+tum ef?ciency (EQE) of the device is shown in Fig. 3(d). The
+integrated JSC is 19.2mA/cm2, which is consistent with J-V
+measurement but for a small difference resulting from encap-
+sulation degradation. Most notably, our method is robust and
+our results highly consistent and reproducible, which is unam-
+biguously ascribed to the moisture effects during annealing
+(Fig. S8, in Ref. 32). Device performance of varying humidity
+levels are shown in Fig. S9 and Table S1 (in Ref. 32), depict-
+ing that moisture levels lower than 60% result in signi?cant
+enhancements. Slight degradation occurs at humidity levels
+greater than 80%, particularly reducing the FF, which could
+be due to the presence of an inherent PbI2 phase.
+The improved VOC and FF strongly indicate a reduction
+in recombination loss as a result of our annealing method.
+For further con?rmation, the I-V characteristics of the devi-
+ces treated under different conditions were analyzed. Planar
+structured perovskite solar cells can be treated as a single
+junction diode. For a device with a large shunt resistance
+(>3000 Xcm2, the shunt resistance of the pristine and mois-
+ture treated devices both exceed 3000Xcm2),38,39 the I-V
+characteristics are described by
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=362 right=464 upper=427 lower=448
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=265, likeBody=-100
+
+ eðV þ JRsÞ 
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=310 right=381 upper=447 lower=455
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=265, likeBody=-100
+
+J ¼ JSC  J0 exp
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=443 right=466 upper=447 lower=454
+====>
+charfont height=7.000000, charfont bold=0, alignment=-99, allupper=0, column left=265, likeBody=-100
+
+1 ;
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=499 right=511 upper=449 lower=454
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=265, likeBody=-100
+
+(1)
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=399 right=423 upper=456 lower=462
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=1, column left=265, likeBody=-100
+
+AKBT
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=385 right=511 upper=553 lower=661
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=-1, column left=265, likeBody=-100
+
+FIG. 3. Device structure and device per-
+formance. (a) The device structure glass/
+ITO/PEDOT:PSS/CH3NH3PbI3xClx/
+PCBM/PFN/Al. (b) J-V curve of the cor-
+responding devices with the perovskite
+?lms annealed under different environ-
+ment, the measurements are carriedout in
+simulated sunlight at 100mW cm2.
+(c) J-V curve for a best-performance
+measured at 1 sun condition at
+100mW cm2. (d) External quantum ef-
+?ciency of the correspondingdevices.
+
+==============================
+
+==============================
+Page 5
+ Left 1 Right 511 Top 1 Bottom 738
+
+
+Column meta:
+Column left:1 upper:25 right:247 lower 738
+Column left:265 upper:339 right:511 lower 738
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-1 left=1 right=34 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=0, column left=-1, likeBody=-100
+
+183902-4
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=51 right=84 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+You et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=383 right=511 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Appl. Phys. Lett. 105, 183902 (2014)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=247 upper=25 lower=78
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+TABLE I. Devices performance of perovskite ?lms annealed under different
+environment. The device where the perovskite annealed in ambient air
+showed the best ef?ciency of 17.1%, the corresponding J-V is shown in
+Fig. 3(c), the parameters of the best device are also included in table. Our
+devices showed very good reproducibility, the histograms of devices PCE
+are shown in Figure S8.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=107 right=213 upper=93 lower=101
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+VOC (V) JSC (mA/cm2) FF (%)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=27 upper=96 lower=99
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Devices
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=218 right=247 upper=96 lower=99
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=0, column left=1, likeBody=-100
+
+PCE (%)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=101 upper=113 lower=150
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Annealing in nitrogen
+Annealing in ambient air
+Annealing in ambient air (best)
+Annealing in oxygen
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=113 right=127 upper=113 lower=117
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+0.86
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=155 right=169 upper=113 lower=117
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+19.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=197 right=205 upper=113 lower=117
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+75
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=226 right=240 upper=113 lower=117
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+12.3
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=113 right=127 upper=124 lower=128
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+0.99
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=155 right=169 upper=124 lower=128
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+19.9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=197 right=205 upper=124 lower=128
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+78
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=226 right=240 upper=124 lower=128
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+15.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=113 right=127 upper=135 lower=139
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+1.05
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=155 right=169 upper=135 lower=139
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+20.3
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=194 right=208 upper=135 lower=139
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+80.2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=226 right=240 upper=135 lower=139
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+17.1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=113 right=127 upper=146 lower=150
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+0.85
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=155 right=169 upper=146 lower=150
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+18.7
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=197 right=205 upper=146 lower=150
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+76
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=226 right=240 upper=146 lower=150
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+12.1
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=247 upper=189 lower=267
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=1
+
+where J is the current ?ow through the external load, JSC is
+the light induced current, J0 is the dark saturate current den-
+sity, V is the applied voltage, A is the ideality factor, KB is
+the Boltzmann constant, T is the temperature, and e is the
+electron charge. Based on Eq. (1), the VOC is obtained when
+the current ?owing through the external circuit is zero
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=70 right=180 upper=269 lower=283
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+VOC ¼ AKBT ln JSC þ 1 :
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=235 right=247 upper=277 lower=281
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(2)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=109 right=114 upper=283 lower=288
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+q
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=142 right=150 upper=283 lower=290
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+J0
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=247 upper=305 lower=323
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=1
+
+It can be seen through Eq. (2) that a higher VOC corresponds
+to a lower J0. Equation (1) can also be written as38,39
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=58 right=190 upper=336 lower=355
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-102
+
+ dV ¼ AKBT ðJSC  JÞ1 þ Rs;
+dJ e
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=235 right=247 upper=344 lower=348
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+(3)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=45 right=247 upper=363 lower=383
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-102
+
+elnðJSC  JÞ ¼ AKBT ðV þ RSJÞ þ lnJ0: (4)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=247 upper=395 lower=738
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+J0 can be obtained by ?tting the curve of ln(JSCJ) vs
+(Vþ RSJ), where the Rs is obtained by ?tting the curve of
+dV/dJ vs (JSCJ)1. The J-V curves shown in Figure 3(b)
+were used for analysis. The plots of dV/dJ vs (JSCJ)1
+and ln(JSCJ) vs (V þ RSJ) are shown in Figures 4(a) and
+4(b), respectively. Linear plot ?tting of Figure 4(a) shows
+that the perovskite ?lms annealed in nitrogen and ambient
+air exhibit similar series resistances (1 Xcm2). The series
+resistances of nitrogen and ambient air annealed samples
+show 0.9 and 1.4 Xcm2, respectively; while the ideality fac-
+tor calculated is close to 2.3 for the two devices. Similarly,
+by linearly ?tting the ln(JSCJ) vs (Vþ RSJ), the ideality
+factor are 2.3 for the ?lms annealing in nitrogen and ambient
+air. The ideality factors obtained by the two methods are
+consistent. J0 for the pristine and air ambient devices are
+1.4 105 and 8.1 107mA/cm2, respectively. The J0
+from air annealed samples is 2 orders of magnitude
+lower than that of the pristine samples. J0 is a well-
+understood parameter indicating the thermal emission rate of
+electrons from the valence band to the conduction band, and
+is directly related to the recombination rate. The smaller J0
+of the air exposed sample indicates a lower recombination
+loss, and accordingly a higher VOC consistent with the meas-
+ured high FF.
+Finally, it must be noted that our devices showed no
+obvious I-V hysteresis, this is much different behavior from
+conventional planar structure devices based on TiO2 trans-
+port layer,40 the details can be found in supplementary mate-
+rial (Fig. S10, in Ref. 32).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=265 right=511 upper=339 lower=363
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=-100
+
+FIG. 4. I-V characteristic the devices where the precursor ?lms are annealed
+in nitrogen and ambient air. (a) Plot of –dV/dJ vs (JSCJ)1 and linear ?t-
+ting. (b) In (JSCJ) vs (VþRSJ) and linear ?tting. Both of them ?tting are
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=265 right=511 upper=368 lower=381
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=-100
+
+located around corresponding VOC. The original J-V curve and device per-
+formance parameters are shown in Figure 3(b).
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=265 right=511 upper=401 lower=490
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=100
+
+In conclusion, we reveal that mild moisture has a posi-
+tive effect on perovskite ?lm formation, demonstrating per-
+ovskite solar cells with 17.1% power conversion ef?ciencies,
+?ll factors over 80%, and the elimination of hysteresis
+effects. The moisture induced perovskite grain growth
+method is not limited to solar cell application but applicable
+to other electronic devices, such as light-emitting diodes
+(LEDs), lasers, transistors and sensors.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=265 right=511 upper=509 lower=634
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=-102
+
+This work was ?nancially supported by the National
+Science Foundation (NSF-ECCS 1202231, Program
+Manager: Dr. Paul Werbos), Air Force Of?ce of Scienti?c
+Research (grant no. FA9550-12-1-0074, Program Manager:
+Dr. C. Lee), and UCLA internal funds. The authors would
+like to thank Professor Xingwang Zhang from the Institute of
+Semiconductors for fruitful discussion on ?lm growth. The
+authors would also like to thank Mr. Ding-Wen Chung and
+Nicholas De Marco for proof reading, Dr. Shirong Lu for
+synthesizing CH3NH3I compound, and Dr. Min Cai for
+providing PFN solution.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=268 right=511 upper=656 lower=738
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=-100
+
+1C. R. Kagan, D. B. Mitzi, and C. D. Dimitrakopoulos, Science 286, 945
+(1999).
+2A. Kojima, K. Teshima, Y. Shirai, and T. Miyasaka, J. Am. Chem. Soc.
+131, 6050 (2009).
+3J.-H. Im, C. R. Lee, J. W. Lee, S. W. Park, and N. G. Park, Nanoscale 3,
+4088 (2011).
+4H. S. Kim, C. R. Lee, J. H. Im, K. B. Lee, T. Moehl, A. Marchioro, S.
+Moon, R. Humphry-Baker, J. H. Yum, J. E. Moser, M. Gratzel, and N. G.
+Park, Sci. Rep. 2, 591 (2012).
+
+==============================
+
+==============================
+Page 6
+ Left 1 Right 511 Top 1 Bottom 313
+
+
+Column meta:
+Column left:1 upper:22 right:247 lower 313
+Column left:265 upper:22 right:511 lower 313
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-1 left=1 right=34 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=0, column left=-1, likeBody=-100
+
+183902-5
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=51 right=84 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+You et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=383 right=511 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Appl. Phys. Lett. 105, 183902 (2014)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=247 upper=22 lower=313
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+5M. M. Lee, J. Teuscher, T. Miyasaka, T. N. Murakami, and H. J. Snaith,
+Science 338, 643 (2012).
+6J. Burschka, N. Pellet, S. J. Moon, R. Humphry-Baker, P. Gao, M. K.
+Nazeeruddin, and M.Gratzel, Nature 499, 316 (2013).
+7L. Etgar, P. Gao, Z. S. Xue, Q. Peng, A. K. Chandiran, B. Liu, M.
+Nazeeuddin, and M. Graztel, J. Am. Chem. Soc.134, 17396 (2012).
+8J. H. Heo, S. H. Im, J. H. Noh, T. N. Mandal, C. S. Lim, J. A. Chang, Y. H.
+Lee, H. J. Kim, A. Sarkar, M. K. Nazeeruddin, M. Gratzel, and S. Seok, Nat.
+Photonics 7,486 (2013).
+9J. H. Noh, S. H. Im, J. H. Heo, T. N. Mandal, and S. I. Seok, Nano Lett.
+13, 1764 (2013).
+10M. D. McGehee, Nature 501, 323 (2013).
+11R. F. Service, Science 342, 794 (2013).
+12G. Hodes, Science 342, 317 (2013).
+13N.-G. Park, J. Phys. Chem. Lett. 4, 2423 (2013).
+14P. V. Kamat,J. Phys. Chem. Lett. 4, 3733 (2013).
+15J. Bisquert, J. Phys. Chem. Lett. 4, 2597 (2013).
+16H. J. Snaith, J. Phys. Chem. Lett. 4, 3623 (2013).
+17T. Leijtens, G. E. Eperon, S. Pathak, A. Abate, M. M. Lee, and H. J.
+Snaith, Nat. Commun. 4, 2885 (2013).
+18J. Y. Jeng, Y. F. Chiang, M. H. Lee, S. R. Peng, T. F. Guo, P. Chen, and
+T. C. Wen, Adv. Mater. 25, 3727 (2013).
+19G. E. Eperon, V. M. Burlakov, P. Docampo, A. Goriely, and H. J. Snaith,
+Adv. Funct. Mater. 24, 151 (2014).
+20M. Liu, M. B. Johnston, and Snaith, Nature 501, 395 (2013).
+21S. D. Stranks, G. E. Eperon, G. Grancini, C. Menelaou, M. J. P. Alcocer, T.
+Leijtens,L. M. Herz,A. Petrozza, and H.J. Snaith,Science 342, 341 (2013).
+22G. C. Xing, N. Mathews, S. Y. Sun, S. S. Lim, Y. M. Lam, M. Gratzel, S.
+Mhaisalkar, andT. C. Sum, Science 342, 344 (2013).
+23Q. Chen, H. Zhou, Z. Hong, S. Luo, H. S. Duan, H. S. Wang, Y. Liu, G.
+Li, and Y. Yang, J. Am. Chem. Soc. 136, 622 (2014).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=265 right=511 upper=22 lower=313
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=265, likeBody=-100
+
+24J. You, Z. Hong, Y. Yang, Q. Chen, M. Cai, T. Z. Song, C. C. Chen, S. R.
+Lu, Y. Liu, H. Zhou, and Y. Yang, ACS Nano 8, 1674 (2014).
+25S. Y. Sun, T. Salim, N. Mathews, M. Duchamp, C. Boothroyd, G. Xing, T.
+C. Sum, andY. M. Lam, Energy Environ. Sci. 7, 399 (2014).
+26D. Y. Liu and T. L. Kelly, Nat. Photonics 8, 133 (2014).
+27B. Conings, L. Baeten, C. D. Dobbelaere, J. D’Haen, J. Manca, and H. G.
+Boyen, Adv. Mater. 26, 2041 (2014).
+28O. Malinkiewicz, A. Yella, Y. H. Lee, G. M. Espallargas, M. Graetzel, M.
+K. Nazeeruddin, and H. J. Bolink, Nat. Photonics 8, 128 (2014).
+29M. Xiao, F. Huang, W. Huang, Y. Dkhissi, Y. Zhu, J. Etheridge, A. G.
+Weale, U. Bach, Y. Cheng, and L. Spiccia, Angew. Chem., Int. Ed. 53,
+9898 (2014).
+30N. J. Jeon, J. H. Noh, Y. C. Kim, W. S. Yang, S. Ryu, and S. Seok, Nat.
+Mater. 13, 897 (2014).
+31Z. G. Xiao, Q. F. Dong, C. Bi, Y. Shao, Y. Yuan, and J. Huang, Adv.
+Mater. 26, 6503 (2014).
+32See supplementary material at http://dx.doi.org/10.1063/1.4901510 for
+details about morphology, crystal structure , moisture level effect and
+devices measurement study (FigureS1-S10).
+33J. L. Urai, Tectonophysics 96, 125 (1983).
+34J. L. Urai, C. J.Spiers, H.J. Zwart,andG. S. Lister, Nature 324, 554 (1986).
+35P. J. Andersonand P. L. Morgan, Trans. FaradaySoc. 60, 930 (1964).
+36G. Alagona, C. Ghio, and P. Kollman, J. Am. Chem. Soc. 108, 185 (1986).
+37Z. C. He, C. Zhong, X. Huang, W. Y. Wong, H. B. Wu, L. W. Chen, S. J.
+Su, and Y. Cao,Adv. Mater. 23, 4636 (2011).
+38J. R. Sites and P. H. Mauk, Sol. Cells 27, 411 (1989).
+39J. J. Shi, J. Dong, S. Lv, Y. Xu, L. Zhu, J. Xiao, X. Xu, H. Wu, D. Li, Y.
+Luo, and Q. Meng, Appl. Phys. Lett. 104, 063901 (2014).
+40H. J. Snaith, A. Abate, J. M. Ball, G. E. Eperon, T. Leijtens, N. K. Noel,
+S. D. Stranks, J. Wang, K. Wojciechowski, and W. Zhang, J. Phys.
+Chem. Lett. 5, 1511 (2014).
+
+==============================
+

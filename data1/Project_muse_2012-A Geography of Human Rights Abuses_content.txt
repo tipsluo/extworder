@@ -1,0 +1,772 @@
+Title:
+A Geography of Human Rights Abuses
+Abstract:
+What can geography as a discipline contribute towards a better understand-
+ing of human rights issues? Based on an analysis of three maps, selected from 
+a larger set of thirty-two generated from data abstracted from 720 Amnesty 
+International Freedom Writers Letters, this study finds that the number and 
+frequency of human rights abuses over the past twenty years has remained 
+stable at best. A set of ten confounding factors are indentified to explain 
+this lack of progress towards improving worldwide human rights. This article 
+concludes that geographers and human rights scholars could profit in their 
+work by collaborating and consulting with one another’s research.
+----------------------
+Subtitles:
+
+ A Geography of Human Rights Abuses
+ Roger Mark Selya*
+ AbSTRAcT
+ I. INTRodUcTIoN
+ II. AN ANoMALY
+ IV. dATA SoURcES
+ V. dEScRIpTIoN ANd ANALYSIS of THE MApS
+ VI. TYpES of AbUSES
+ VII. WHAT WENT WRoNG?
+ Ix. coNcLUSIoN
+
+
+Text:
+----------------------
+A Geography of Human Rights Abuses
+Roger Mark Selya*
+AbSTRAcT
+I. INTRodUcTIoN
+Although geography as a discipline is not commonly associated with de-
+scribing and explaining human rights abuses or providing policy remedies 
+for such abuses, it would seem that many feel it definitely should be. Rex 
+Honey, for example, has issued an explicit call for political geographers to 
+lend their expertise to the study of human rights.1 He stresses three points in 
+his plea for geographers to engage in such research. First, geography explores 
+the context in which human rights struggles occur and brings to the study of 
+human rights two kinds of knowledge: knowledge of cultures and knowledge 
+of the nature-society nexus. As such, omitting the geographical background
+and consequences of human rights issues is likely to be incomplete because 
+it fails to capture both the cultural struggles over what a just society is and 
+the milieu of interrelated sites of injustice. Conversely, according to Honey, 
+in order for geography as a discipline to fulfill its potential as a scholarly 
+endeavor examining the human condition, human rights must be part of its 
+research focus. 
+At present, Honey notes that there are two traditions in the geographic 
+approach to human rights. An older, implicit approach has focused on hu-
+man rights problems such as racism, slavery, social justice, poverty, and 
+electoral violations without specific reference to any extant human rights 
+doctrines or agreements. In their presidential addresses, for example, many 
+past presidents of the Association of American Geographers, such as Richard 
+Hartshorne, Richard Morrill, Harold Rose, Gilbert White, and Julian Wolpert, 
+have called for the eradication of these wrongs. In contrast, the second, more 
+contemporary tradition has actively and formally advocated for democracy 
+and pushed for civil and political liberties based on both the French and 
+United States Revolutions. In some cases, scholars have lobbied or advocated 
+for a communal rights agenda emphasizing social and economic benefits: 
+wages, jobs, education, and health care.
+II. AN ANoMALY
+The proliferation of reports, country studies, and documentaries issued dur-
+ing the past two decades by a growing variety of national and international 
+governments and human rights organizations would suggest that there should 
+be sufficient data to prepare a variety of geographic analyses of the global 
+human rights situation. Oddly enough, only one article by a geographer 
+has ever appeared in the Human Rights Quarterly.2 This anomaly pervades 
+the main professional organization of geographers, the American Associa-
+tion of Geographers (AAG), which sponsors a cooperative program with 
+the American Association for the Advancement of Science (AAAS). Its goal 
+is to expand an array of projects and programs to engage geographers as 
+scientists in human rights issues. As of January 2009 the two organizations 
+anticipated creating a new Science and Human Rights Coalition, establish-
+ing an AAG clearinghouse on geographic research and human rights in 
+cooperation with an AAAS project on geospatial technologies and human 
+rights.3 Annual meetings of the AAG now feature special sessions on hu-
+man rights. One such session at the 2009 meetings was a workshop entitled 
+“Human Rights 101 for Geographers.”4 It is apparent that the professional 
+commitment and infrastructure for geographers to contribute to the study of 
+human rights is now in place.
+The above discussion notwithstanding, geographers have in fact pub-
+lished a considerable body of literature on the subject of human rights, but 
+the vast amount of it has appeared in geographic journals. For example, in 
+the Political Geography Quarterly, some 132 articles with human rights as 
+a focus were published between 1982 and 1991; in Political Geography, 
+between January 1992 and June 2011, some 712 articles with human rights 
+as a focus were published; geographers also published some 833 human 
+rights related articles in Antipod: A Radical Journal of Geography, over the 
+period January 1997 through June 2011. These materials demonstrate that 
+geographers have made meaningful, albeit unrecognized, contributions to 
+understanding the relationships between human rights abuses and borders, 
+development,5 environmental, ethnic, land and resource conflicts, and social 
+justice.6 Furthermore, the use of GIS and Remote Sensing has permitted the 
+documentation of where abuses have occurred even when it is difficult for 
+observers to directly visit suspect locations.7
+Why then are insights of geographers not part of the human rights 
+discourse? Several reasons are immediately apparent. First, to satisfy the 
+demands of department heads, tenure committees, and deans, geographers 
+interested in human rights publish almost exclusively in geography journals,
+especially those that focus on political geography. Moreover, regardless of 
+where geographers publish, they rarely refer to the broader human rights 
+literature. If they do reference non-geographic materials, they are most likely 
+to draw from contemporary materials in political science or international 
+relations. Finally, in many geographic papers dealing with human rights, the 
+human rights component frequently gets lost. So for example, Nurit Kliot’s 
+article on refugees and human rights provides considerable detail regarding 
+their number and places of origin as well as their places of refuge. But the 
+human rights aspect of the plight of the refugees is only implied.8 
+The present study seeks to provide an example of a geographic analysis 
+of a human rights issue using a multidisciplinary approach. By fulfilling this 
+goal it is hoped that on the one hand those in the field of human rights 
+research will consider looking to geography for insights and new paths of 
+research, and on the other hand that geographers will explicitly include the 
+human rights literature in their work.
+The question I wish to explore is whether or not there has been a change 
+in the prevalence of the spatial patterns of human rights abuses over the 
+period 1986–2006. There are ample reasons to speculate that such changes 
+might or should have occurred. The end of the Cold War, the fall of the So-
+viet Union, the 1997 Asian Financial Crisis, the spread of globalization and 
+economic development, and the end of the “dirty wars” in Latin America 
+have all had the potential for enhancing respect for human rights and re-
+ducing human rights abuses. So my working hypothesis will be that related 
+sets of economic and political changes have in fact led to improvements in 
+human rights, and that such improvements can be seen in an examination 
+of maps showing human rights abuses over time. Possible changes in the 
+spatial distribution of human rights abuses are dealt with as follows: first, 
+the data set used will be presented; then, maps of the number, percent, and 
+prevalence of human rights abuses will be described and analyzed. Finally, 
+materials that can provide an explanation for the maps and an answer to 
+the question regarding possible changes in the spatial distribution of rights 
+abuses will be presented.
+IV. dATA SoURcES
+Over the past twenty-five years the significant increase in the number of 
+governmental and nongovernmental organizations (NGOs) concerned with 
+human rights situations has spawned a plethora of topical and regional 
+reports devoted to the status of those rights. The same can be said of the 
+scholarly literature on human rights. However, it is widely recognized that 
+it is extremely difficult to use this massive literature to do both longitudinal 
+and cross-cultural analysis due to problems regarding the accuracy, validity, 
+and comparability of data, as well as the differences in scale, methodolo-
+gies, measuring systems, and data processing techniques employed in these 
+reports, articles, and monographs.9 Our research uses a database with a 
+twenty year history. This database is made up of the collected model letters 
+used in the Amnesty International USA (AI) Freedom Writers initiative. Each 
+month, AI provided members of the initiative with three letters to be sent 
+to heads of government or state, ministries of justice, or law enforcement 
+officials, each letter describing a specific case of human rights abuse in their 
+country. In all, there were 720 letters available for use. The letters for the 
+period September 1986 to August 2006 were accessed on 20 November 
+2006 at the Amnesty International Archive located at Columbia University.10 
+Letters missing from this archive were provided by Ellen Moore, then of the AI 
+Urgent Action Office, located in Nederland, Colorado. Letters for September
+2004 through August 2006 were in my files. It must be recognized that the 
+letters represent but a sample of the human rights cases AI is concerned 
+with. Moreover, there are some obvious, glaring gaps in the geographical 
+coverage. Some countries with questionable human rights records, such as 
+North Korea (the Democratic People’s Republic of Korea), have never been 
+cited in these letters, presumably because AI does not have field workers 
+there to identify, report, verify, and continuously monitor abuses.
+In addition to the country and date of alleged abuses, the following 
+information was extracted from the letters: the precise nature of the abuse 
+or abuses, the number and names of individuals said to have been abused, 
+and any extenuating circumstances, such as abuse targeting human rights, 
+or labor union activists. For mapping purposes the data on abuses by coun-
+try were grouped into five periods: 1986–2006, 1986–1991, 1992–1996, 
+1997–2001, and 2002–2006. For each of the five periods data were mapped 
+using three separate variables: number of abuses by country, percent of total 
+abuses, and prevalence of abuses per 1 million inhabitants. One map for the 
+entire study period was generated to show the location quotient of abuses 
+(Figure 1).11 Additional maps were created showing the spatial distribution 
+of fifteen types of abuses described in the letters. A separate map showing 
+the total number of abuse types for which a country was cited was also 
+produced. In all, thirty-two maps were generated.
+Only five maps are included in this article, however. There is a strong 
+correlation for each of the three measures of abuse for the five time period 
+maps and for the maps showing number and percent of abuse citations 
+(Table 1). In contrast there is a very low correlation (rp=0.151) between the 
+maps showing number and prevalence rate and percent of total abuses and 
+prevalence rate. The entire map set, as a well as a comprehensive bibliog-
+raphy of works consulted in writing this article, can be accessed under the 
+author’s name at www.uc.edu/geography as well as at the Archives and Rare 
+Book Department, Langsam Library, University of Cincinnati.
+V. dEScRIpTIoN ANd ANALYSIS of THE MApS
+At first glance the map showing the prevalence of human rights abuses for 
+the entire study period (Figure 2) seems cluttered and difficult to interpret.
+There appear to be few countries that were not cited at some point in time. 
+In fact, a simple headcount of countries shows that seventy-two of them, 
+amounting to 37.5 percent of all the countries and territories in the world, 
+were never cited for abuses. A regional12 breakdown (Table 2) of the percent 
+of countries that were accused of human rights abuses further qualifies our 
+first impression of the map. There is a wide range of what percent of each 
+region’s countries were cited. The Pacific Basin (including Australia and 
+New Zealand) and the Caribbean Basin appear relatively immune to human 
+rights abuse. At the opposite end of the spectrum, the countries that make 
+up the constellation of the Former Soviet Union—Armenia, Belarus, Georgia, 
+Moldova, Russia, and Ukraine—seem particularly prone to abuses. Europe 
+occupies a place slightly above the low end, while the remaining regions 
+cluster towards the high end. A regional subdivision of Europe suggests that 
+Eastern and Southern Europe are more prone to human rights abuses than 
+the Western and Northern sections. A breakdown of Asia shows that only 
+slightly more than a third of the countries in East Asia were cited, while the 
+other regions are all in the high 80 percent to 90 percent range of abuse. 
+Finally, by looking at the citation records for individual countries (Tables 3 
+and 4) it is possible to see which countries are the chronic abusers of human 
+rights. For each study period there appear to be on average fifteen chronic 
+abusers. The lists do contain repeat offenders, such as China, Myanmar, and 
+Syria, although there is also some movement of countries on and off these 
+lists. However, China, Myanmar, and Syria have the dubious honor of having 
+been cited in all four time periods of the study. In rank order, Asia appears 
+to be the most abusive region, followed by the Middle East and North Af-
+rica, Latin America, and Africa. These findings parallel those of Diamond 
+and Richards, both of whom argue that the geographic patterns of human 
+rights performance appear to reflect major cultural or civilizational roots.13
+There is one disadvantage to relying on a map showing the prevalence of 
+abuse citations: it is lacking a demographic context. To provide one, Figure 3 
+shows the rate of citations per million population. Using this metric, twenty 
+countries out of the 120 cited for human rights abuses can be considered
+the worst abusers (Table 6). Twelve of these (Bahrain, Bosnia-Herzegovina, 
+Brunei, Djibouti, El Salvador, Equatorial Guinea, Guyana, Lebanon, Mauri-
+tania, Qatar, United Arab Emirates, and Western Sahara) were not listed in 
+Tables 3 or 4. The regional groupings of these twenty countries also differ 
+from that found in Table 2: now the Middle East, Africa, and Latin America, 
+in that order, appear to be the regions where abuse is most likely to occur.
+Finally, the map of locational quotients of human rights prevalence (Fig-
+ure 1) needs to be analyzed. In some ways this metric may be considered a 
+“fair share” approach to describing the distribution of human rights abuses, 
+since the location quotient compares a country’s share of the total number 
+of abuses with its share of the total world population. We thus can get a 
+sense of which countries are over or under represented in the spectrum of 
+human rights abusers. By this standard then, thirty-two countries, including 
+China (which by the sheer number of citations can be considered a major 
+rights abuser) with location quotients below 1.00 appear to have abuse rates 
+lower that we might expect given the size of the populations. On the other 
+hand, the remaining eighty-eight countries, with location quotients above 
+1.00, clearly form easily recognized regions, such as the Middle East and 
+North Africa, Eastern and Southern Africa, and large parts of Latin America, 
+the Caribbean, and South and Southeast Asia, where human rights viola-
+tions are persistent and notorious. Moreover, it will come as no surprise that 
+countries that underwent devolution and civil wars, such as Yugoslavia and
+the USSR, have experienced a prevalence of human rights abuses in excess 
+of the size of their populations. 
+Considering all three maps, the only areas where there seems to be long 
+term, systematic improvements in fostering and maintaining human rights are 
+in Eastern Europe and East Asia. In Eastern Europe it appears that there was 
+sufficient residual liberal democratic experience from the interwar years, so 
+that when the Soviet empire disintegrated, respect for human rights could 
+revert to what is was in the pre-Soviet past. As for East Asia, the Republic 
+of China (Taiwan) and the Republic of Korea (South Korea) have both been 
+cited as examples of countries that improved their human rights records, 
+presumably because of the impact of globalization.14 However, there is a 
+debate regarding how both countries achieved their improvement. Was 
+Taiwan’s a function of the broader political initiatives of democratization, 
+liberalization, and Taiwanization fostered by Chiang Ching–kuo or was it a 
+function of judicial activism?15 The case for improved human rights records
+in the Republic of Korea is somewhat more problematic. Due to its presiden-
+tial system of government, the country is still cited for human rights abuses, 
+especially in regard to the handling of political dissidents and labor rights.16
+VI. TYpES of AbUSES
+In addition to allowing for the exploration of the different ways to describe 
+the distribution of human rights abuses, the database I worked with con-
+tained information regarding the types of abuses practiced in each country. 
+Amnesty International has identified twenty categories (Table 7). Note that 
+there is no relationship between the number and types of abuses in a given 
+country because often a country is cited simultaneously for more than one 
+type of abuse. Two questions can be answered from these data. First, for 
+each country what is the extent of abuse types? Unfortunately, with a few 
+exceptions most countries engage in multiple forms of abuse (Figure 4). The 
+most egregious examples are Turkey (seven types) and Mexico (eight types). 
+Second, are there regional preferences for certain combinations of abuse 
+(Table 8)? For example, torture appears to be a special problem in Latin 
+America, where it was believed that communist subversion was being carried 
+out and had to be stopped at all costs. Although torture was known before 
+the rise of authoritarian governments in the 1970s, in the1980s it was more 
+broadly applied to political prisoners and to social classes not accustomed to 
+torture.17 The most universal citation is for detaining individuals as prisoners
+of conscience, although this category may reflect an early, narrow concern 
+of Amnesty International as it launched the Freedom Writers initiatives.18 
+In addition to regional preferences it is important to keep in mind that 
+abuses changed over time in different areas. For example, in Africa despots 
+would use the death penalty and genocide as a means of abuse. However, 
+when civil wars broke out or during debt crises, the very existence of civil 
+strife and the breakdown of states led to refugee abuse and rape as weapons 
+of war and abuse. Even the HIV/AIDS epidemic generated discrimination 
+and abuse.19 In the Former Soviet Union abuse changed after 1991 from 
+terror and torture to official regulation and discrimination.20
+VII. WHAT WENT WRoNG?
+It is clear from the description and analysis of the maps and the supporting 
+statistics in Tables 1–8 that the initial speculation that there should have 
+been changes in the spatial patterns of human rights abuses showing an 
+improvement in human rights conditions was incorrect. The question that 
+needs answering then is what are the reasons that the initial assumption/
+hypothesis was incorrect? The broad literature on human rights suggests 
+the following as possible explanations for the lack of progress in reducing 
+human rights abuses:
+While some of these possible explanations may seem self-evident and 
+clear, others require some explication. Over the years political scientists and 
+sociologists have identified and refined a virtuous cycle linking economic 
+development, the establishment of democracy, the rise of civil society, and 
+respect for human rights. This cycle is often referred to as modernization 
+theory; in its most recent iteration it has been labeled the Washington 
+Consensus.21 
+Despite historical and statistical support for this theory,22 it has been 
+contested, revised, extended, buried, and resuscitated so much that nei-
+ther the theory nor the facts supporting it are universally accepted.23 The 
+validity of the theory has been challenged for several reasons. First, the 
+term “democracy” connotes a broad range of electoral and governmental 
+arrangements, and requires—in addition to open, free, and periodic elec-
+tions where opposition parties also have a reasonable chance to win—the 
+rule of law, an independent judiciary, accountability, and a civil society.24 
+Second, historically many models of economic development have led to 
+democracy.25 Third, although the theory assumes a link between capital-
+ism and democracy, this is not necessarily the case.26 Fourth, it is not clear 
+that the goal of economic development is necessarily democracy.27 Fifth, 
+modernization theory was formulated without substantial direct reference to 
+the experiences of the non-Western political or economic systems.28 Finally, 
+economic development can also lead to dictatorships. Despots and dictators 
+can get elected by minimally democratic means, and though their policies 
+and actions can lead to further economic development, they can also disrupt 
+or short-circuit the modernization cycle to the point where human rights 
+are violated, not respected. 
+This latter observation has led to the enunciation of an alternative to 
+modernization theory: authoritarian development, or economic develop-
+ment without human rights, where prosperity is valued over freedom.29 As 
+with the Asian Values debate regarding human rights, discussed below, the 
+origins of the theory of authoritarian development have been traced to Lee 
+Kwan Yew.30 Although this theory has been criticized as being based on post 
+hoc reasoning31 and its exponents cannot point to even a shred of evidence
+that democracy must be sacrificed to foster development,32 it is attractive to 
+many third world leaders. In addition to the political stability and economic 
+efficiency the theory offers,33 its attractiveness is based on the ability it gives 
+politicians to appeal to or give in to voters’ fears, hatreds, and prejudices in 
+the face of economic crises34 and to thereby suppress dissent.
+And as with modernization theory, authoritarian development has 
+evolved and been given an alternative name. In this iteration, termed the 
+Beijing Consensus, the emphasis has shifted from development without 
+human rights to the importance of educationally driven innovation, change 
+led by knowledge, the value of experimentation even if failure results, and 
+the importance of sustainability and equitable growth.35 Significantly, the 
+Chinese government appears to be very reluctant to claim the theory. They 
+are reluctant to alienate the United States, and if the theory fails it would 
+undermine the legitimacy of the Chinese Communist party with the public-
+ity surrounding the negative aspects of the applied theory—environmental 
+disruption, rampant corruption, and growing income disparities.36 Neverthe-
+less the model is attractive to leaders of underdeveloped countries because 
+it permits them to reject the Western model of development, allows for 
+localization where indigenous growth can be fostered, offers the promise 
+of security, and of course exculpates and exonerates them from respecting 
+human rights.37
+Neoliberalism is an economic theory associated with the writings of 
+the Austrian political philosopher Friedrich von Hayek and championed by 
+Milton Friedman. The prestige and credibility of the theory was enhanced 
+when both men won the Nobel Prize in economics (Hayek in 1974 and 
+Friedman in 1976).38 The tenets of the theory assume that human well-being 
+can best be advanced by liberating individual entrepreneurial freedoms within 
+an institutional framework emphasizing strong private property rights, free
+markets, and free trade. As such, the role of the state is to guarantee the 
+quality and integrity of money and establish the military, defense, police, and 
+legal functions required to secure private property rights and to guarantee, by 
+force if necessary, the proper functioning of markets. If markets do not exist, 
+for example for pollution credits or carbon trading, it is the obligation of the 
+state to create them. Once created, these markets should not be interfered 
+with by regulators second-guessing markets. Government should get out 
+of the business of supplying services, all areas of social provision should 
+be privatized, and all sectors of the economy should be deregulated. The 
+proper functioning of the resulting system relies on personal responsibility.39
+The adoption of neoliberalism by authoritarian governments—frequently 
+as part of IMF “adjustment” policies40—can, however, be associated with 
+gross violations of human rights, increasing income distribution disparities, 
+and high, short-term social costs, especially for migrants.41 Thus, one can 
+point to another of the many paradoxes of human rights abuses and the 
+process of democratization: democracy allows for an easier acceptance 
+of neoliberalism,42 so neoliberal ideology presents itself as pro-democracy 
+and pro-human rights.43 At the same time, however, it can be characterized 
+as remote from human rights concerns.44 The case can also be made that 
+since neoliberalism became the preferred framework for restructuring global 
+capitalism, it has led to the emergence of authoritarianism despite neoliberal 
+beliefs that authoritarianism hinders economic development.45 Furthermore, 
+the neoliberal emphasis on reducing the size and scope of state agencies 
+devoted to meeting social needs has the potential to weaken the very groups 
+that seek to implement human rights.46
+There is no consensus about the impact of globalization on human 
+rights. Virtually every social science has its own definition of globalization
+and therefore a preferred way of measuring its impact.47 Thus, any debate 
+regarding any link between globalization and human rights abuses suffers 
+from conceptual, methodological, and measurement problems and results 
+in variable and fragile conclusions.48 Moreover, it is not clear how the con-
+temporary globalization differs from previous ones.49 
+Nevertheless there have been attempts to specify as precisely as possible 
+how globalization might be affecting human rights. At one extreme, globaliza-
+tion with its emphasis and reliance on rapid communications50 can speed up 
+diffusion of the ideas of human rights, make it easier to expose human rights 
+infractions, and conduct global consumer campaigns against abuses such as 
+abusive labor practices. By eroding geographical remoteness,51 globalization 
+can theoretically expedite the creation of an international civil society. At 
+the other extreme pessimists argue that globalization has the potential for 
+either mitigating or exacerbating human rights conditions.52
+Optimists claim that globalization furthers the cause of human rights 
+because it has:
+For their part, pessimists see globalization as either having the potential 
+for, or a history of, delaying the growth of democracy and harming human 
+rights.59 Politically, they fear that globalization will expand the hegemony of 
+the West, weaken state sovereignty and lead to failed states,60 increase cross-
+border corruption and smuggling,61 and result in an increase in terrorism.62 
+Economically, there is concern that growth will weaken,63 unemployment 
+will increase in part due to outsourcing,64 economic inequality will worsen,65 
+the size and influence of labor unions will diminish,66 piracy of intellectual 
+property rights will expand,67 and the imposition of financial adjustment 
+plans will lead to economic stagnation and even collapse.68 
+Globalization may also have a negative impact on social and cultural 
+affairs. Pessimists worry about the possible breakdown of indigenous societ-
+ies, increases in crime, especially drug trade and human trafficking, a growth 
+in police violence, the dismemberment of the welfare state, and a rise in 
+illegal migration and refugee movements.69 Finally, they are concerned that 
+globalization, with its emphasis on efficiency and profits, will lead to ac-
+celeration of environmental degradation.70
+Exceptionalism was described by Freud71 as a condition whereby an in-
+dividual feels that he or she may claim an exemption from the conventional 
+constraints of society because he or she has either suffered enough or has 
+been subjected to extenuating circumstances. Just as individuals can make 
+the claim of exceptionalism to avoid respecting human rights,72 so too can 
+countries. For example, the United States is widely seen as a country that 
+makes the exceptionalist claim that its 200 years of history entitles it to its 
+own foreign policies and to forge its own approach to ratifying and imple-
+menting human rights.73 If the United States can make such a claim other 
+countries and regions can do the same,74 and they can use the same variety 
+of rationales to make their exceptionalist claim.75 The same reasoning can 
+also apply to cultures—for example, Asian or Islamic values. 
+Starting in the 1980s and accelerating as the Cold War came to an end, 
+Asian and Islamic political leaders and public intellectuals began calling 
+for an alternative to Western human rights as embodied in the Universal 
+Declaration of Human rights (UDHR), which they felt was fundamentally 
+flawed. Both Asian and Islamic perspectives point to the Western emphasis 
+on individual rights and freedoms to the detriment of family and community 
+responsibilities and values.76 They also note the emphasis on political and 
+civil rights rather than economic and social ones.77 Additional Islamic con-
+cerns over the source of the UDHR were voiced: it was after all a document 
+created by human reason and thus could not replace the rights embedded 
+in Islamic tradition, which were derived from the word of God.78 By far the 
+most important landmark in criticizing the UHDR was found in the Bangkok 
+Declaration, which was adopted by Ministers of Asian States in 1993 in the 
+lead-up to the World Conference on Human Rights. Although the Ministers 
+reaffirmed their countries’ commitment to the principles of the United Nations 
+Charter and the UDHR, they also emphasized their concerns regarding the 
+interdependence and indivisibility of human rights, the need for universality 
+and objectivity, the non-selectivity of human rights, and the need to respect 
+the principles of sovereignty and non-interference in the affairs of other 
+states. They also expressed their desire for greater emphasis on economic, 
+social, and cultural rights over civil and political ones. 
+Such claims or course do not go unchallenged in the West or in Asian 
+and Islamic societies. One immediate concern is: Who can speak for all 
+of Asia and all of Islam?79 The Asian values debate seems to draw almost 
+exclusively on Confucian teachings with little reference to Buddhist, Hindu, 
+Taoist, or any other Asian traditions.80 As for Islam, since there is no central 
+religious authority, different legal traditions developed.81 Thus it cannot be 
+claimed that Islam is monolithic.82 Given these concerns it should not be a
+surprise that attempts are made to ascertain what the true motivations are 
+for making exceptionalist claims.
+The Asian claim seem to revolve around four issues: a desire to push 
+back against the West for past grievances and exploitation;83 fear of being 
+exposed to further exploitation due to globalization and neoliberalism;84 
+belief that the West is in decline and can be challenged; and the wish to 
+protect cultural diversity.85 
+In contrast, the Islamic claim is thought to revolve around three issues: 
+the need to insure that the UDHR is not part of a culture war against Is-
+lam;86 the desire to reject Western values as part of jihad;87 and eagerness 
+to preserve Islamic values regarding women’s issues, the status of minorities, 
+religious freedom, and corporal punishment.88
+Western critics of the exceptionalist claim point out that in Asian and 
+Islamic countries economic and social rights were not formally enacted or 
+implemented, let alone fully protected.89 The West, too, has strong traditions 
+of family and social responsibility, as well as work and savings ethics.90 
+Critics argue that the adoption of any new technologies and business prac-
+tices, regardless of the place of origin, requires other cultural adaptations 
+over time.91 Further, rights derived from obligations or duties are not true 
+rights.92 Economic success in Asian and Islamic countries occurred before
+the adoption of authoritarian capitalism and any discussion of Asian or Is-
+lamic values.93 Finally, modernization is not equivalent to Westernization.94
+In summary, as an explanation for the persistence of human rights 
+abuses, exceptionalism is a debatable basis for either rejecting UDHR and 
+substituting non-Western alternatives or for justifying outright violations of 
+human rights. In many ways the exceptionalist argument on human rights can 
+be rephrased as “a human right is what the local despot says it is.”95 Asian 
+and Islamic arguments for particular, idiosyncratic, narrow, and culturally-
+based human rights often represent but one often extreme or oversimplified 
+position within a broader set of complex and changing traditions.96 Such 
+arguments are at best excuses for rejecting the basic premises of modern 
+human rights—individualism, humanism, and rationalism.97 Exceptionalism 
+may result inadvertently: the European emphasis on public reasoning can 
+force the rest of the world to ignore or forget its own experiences with such 
+reasoning.98 Furthermore, universal human rights are designed to protect 
+the most vulnerable among us from the disabling and degrading suffering 
+that result from the most threatening features of both modernization and a 
+powerful state.99 At a minimum then, universal human rights are necessary 
+because they force us to ask how we can balance what justice requires with 
+what those in power demand.100
+Given the 1997 Asian Financial Crisis and the 2011 Arab Spring, the 
+Asian and Islamic values claims used to reject UDHR rights might be re-
+garded as straw men.101 Ironically, during these two crises both the Asian 
+and Islamic “street” wanted political changes that would provide open ac-
+cess to jobs, economic growth, rule of law, accountability, and the end to 
+corruption and cronyism. All of these desiderata would be protected by a 
+strong commitment to UDHR by governments and NGOs. 
+Hypocrisy, inconsistencies, and appeasement by Western democracies 
+(and especially the United States and Britain) when citing countries for human
+rights abuses are seen as major reasons countries continue to ignore human 
+rights abuses. In particular, the administration of George W. Bush and its 
+half-hearted support of democratization, as well as its demands for waivers 
+of applicable human rights commitments for US military personnel, is said 
+to have given a bad name to democracy.102 Complaints about hypocrisy and 
+double standards come from Asia,103 Africa,104 China,105 India,106 the Middle 
+East,107 and Muslim countries.108 There are specific complaints about West-
+ern policies regarding human rights violations in Bosnia-Herzegovina and 
+Croatia.109 Concerns about inconsistencies in behavior of Western countries 
+have led to and are said to be embedded in the Bangkok Declaration.110 
+Similarly, Muslim and Middle Eastern countries have interpreted the double 
+standard issue as evidence of the West’s neo-imperial designs on them.111
+Signing a human rights convention or joining international human right 
+organizations can also be seen as a form of hypocrisy, since signatory states 
+often continue to engage in human rights violations. What is the logic behind 
+signing? First, it is less costly than paying the political costs of relinquishing 
+any authority or rights associated with sovereignty.112 This is especially true 
+for recently independent states. There are other advantages to signing human 
+rights conventions. Internationally, in addition to more equal treatment by 
+other governments, membership in desirable supranational organizations 
+such as NATO, or preferential trade agreements may be offered as a reward. 
+Domestically, a government’s credibility may be enhanced, uncertainty 
+regarding future human rights policies may be reduced, domestic reforms 
+may be secured, and worried populations may be reassured.113 
+The costs of engaging in such hypocritical behavior are low. Human 
+rights conventions have minimal enforcement mechanisms, making viola-
+tions feasible.114 Sanctions are rarely imposed, and if they are, they are not 
+onerous.115 Similarly, given the fact that human rights treaties can contain 
+both instrumental and expressive elements,116 some signatory nations assume 
+that there will not be strict enforcement or implementation since no one 
+is going to take the exalted ideals of the UDHR seriously enough to actu-
+ally demand that nations make the adjustments necessary to comply with 
+them.117 Abuses can also be readily blamed on the social and political ten-
+sions that develop as economic development progresses118 or on popular119 
+or elite demands.120 Habitual behavior, where abuses are seen as “normal” 
+opportunistic events, can also be blamed for abuses.121 Authoritarian gov-
+ernments attempt to justify continued abuses as ways to suppress terrorism, 
+defeat Marxist-Leninist guerillas, or restore law and order. These actions 
+usually are widely supported by the public.122 Finally, virtually any country 
+that achieved independence after World War II can claim that abuses are 
+inadvertent consequences of applying old colonial security laws.
+A series of strong regional patterns can be associated with the persistence 
+of corruption, instability, and institutional constraints in newly established 
+democracies. For example, in Latin America human rights abuses appear to 
+be a paradox, because historically there is a long tradition of concern for 
+human rights throughout the region.123 After World War II, Latin American 
+countries were more open to advocating universal human rights than even 
+the United States or Great Britain, and they sent delegations to United Na-
+tions conferences on human rights better prepared than any other group to 
+engage in serious debate and discussion.124 Nevertheless, as military rule
+and authoritarianism spread across the region, a wide range of human rights 
+abuses, including those against women, children, indigenous peoples, and 
+the landless occurred in increasing frequency in the form of arbitrary arrests, 
+disappearances, expulsions, forced exile, political assassinations, election 
+irregularities, extra-judicial killings, threats, and torture. Often a coup d’état 
+would be followed by decrees stripping citizens of political freedoms. There 
+appeared to be no respect for the rule of law, and corruption and fraud in 
+the police and governing bodies became widespread.125
+Explanations for such patterns of abuse, persistence of corruption, and 
+institutional constraints to reform include: the co-opting of civic leaders 
+with government positions; limited control over police and the military by 
+civilian authorities; the subversion, politicization, and intimidation of judges 
+that result in low conviction rates and lenient penalties for abusers; the 
+lack of accountability due to the presence of a presidential, rather than a 
+parliamentary governmental system; the rise of drug cartels; the preference 
+of the elite and civilian leaders for police maintenance of public safety; the 
+belief, reinforced by the Roman Catholic Church, in elitism, patrimonialism, 
+and corporatism; and the adoption of import-substitution polices that pit 
+entrepreneurs against workers when dealing with issues such as economic 
+efficiency, wages, and benefits.126
+In the Middle East and presumably Muslim majority countries, Islam is 
+said to play a long term role in perpetuating behaviors, practices, and poli-
+cies that inhibit democracy, development, and respect for human rights.127 
+For example, Islamic courts and bureaucracies are historically accustomed 
+to dealing with individuals, not corporations. Even when the concept of the 
+corporation is assimilated into Islamic business practices and law, nepotism 
+and corruption continue since judges and government workers still think of 
+transactions as taking place between individuals, and thereby still require 
+bribes. In general, the absence of complimentary institutions, a weak image of 
+civil society, and the inability to deal constructively with economic failure—
+all traceable to Islamic law and socio-cultural practices—inhibit economic 
+development, and by extension, democracy and respect for human rights.
+The sources of corruption, instability, and institutional constraints in 
+Africa differ from those in Latin America and the Middle East. Given the 
+great ethnic and religious diversity in African countries, the general goals of 
+democracy have been ignored in favor of attempts to ensure national unity, 
+stability, and order.128 Furthermore, newly independent African states lack 
+the administrative staffs and trained personnel to manage new societies; in-
+stead old authoritarian structures inherited from imperial power129 have been 
+adapted and legitimized.130 Attempts after 1989 to change the structure of 
+regimes and avoid ethnic manipulation131 have failed because new political 
+parties have not involved those outside elite circles 
+Valuable natural resources, in high demand on world markets, have also 
+been implicated in African human rights abuses.132 This issue is virtually the 
+same as the one known as the “Curse of Oil” in the Middle East.133 It seems 
+that dictators and monarchs can get rich by mining or otherwise harvest-
+ing raw materials and using the income to monopolize all instruments of 
+power—the army, police, intelligence services—while avoiding all transpar-
+ency or power sharing. Power is maintained, and the threat of a coup d’état 
+prevented, by repression, buying off opponents,134 high levels of violence,135 
+and massive spending on direct services, subsidies, or government service 
+employment.136 As a result, all civic and governmental institutions remain 
+weak if they exist at all. As Friedman understands this process, natural re-
+sources obviate the need to raise governmental funding through taxation. 
+If governments have to tax their citizens they need to develop real institu-
+tions, guarantee property rights, establish independent courts, develop an 
+education system, engage in foreign trade, attract foreign investment, and 
+permit freedom of thought.137 According to Amy Ross, in addition to allow-
+ing rulers to co-opt citizens via direct cash payments to subjects, natural 
+resource wealth eliminates the need to make difficult decisions about more
+efficient use of human resources, including women, and engage in foreign 
+trade, which stimulates innovation.138 A related economic argument sees 
+corruption and embezzlement as endemic in a poor country.139 All of the 
+above explanations are compounded in many parts of Africa where draco-
+nian legal systems, a lack of institutionalized formality regarding marriage, 
+divorce, and inheritance, and open-ended sedition laws contribute to a 
+culture characterized by few democratic traditions, little accountability, and 
+no respect for human rights.140
+As for the Former Soviet Union, its successor states, and more broadly, 
+the countries where some version of Marxism or Socialism is the dominant 
+political framework, institutional constraints that lead to human rights abuses 
+are traced back to varied sources. First, a Russian history of violence applies 
+both to extremist governments, such as those of Ivan IV or Peter the Great, 
+and to the peasantry that engaged in massacres and pogroms.141 Second, the 
+nineteenth century did not provide a long enough liberal tradition to counter 
+totalitarian rule.142 Third, the French Revolution and World War I exposed 
+both the population and politicians of Russia to cruelties and cheapened 
+the value of human life.143 Fourth, the nature and direction of revolution in 
+Russia was influenced by Serge Nechaev and Lenin, among others. Nechaev 
+assumed that revolution would require the quick and merciless destruction of 
+all those who had created a “sick society” in Russia,144 while Lenin espoused 
+the notion of dehumanizing and animalizing those who were considered 
+enemies and thus expendable.145 With time, the concept of “enemy” would 
+also become an elastic category, so that executors would become victims 
+and new groups could be eliminated.146 This approach to dealing with 
+enemies as well as the idea of endless revolution would also be taken up 
+enthusiastically by communist parties in China and Southeast Asia.147 Fifth, 
+the Russian Revolution created a situation of crisis where the possibility of 
+the state disintegrating was real, so terror was used to insure a strong, stable 
+state.148 Sixth, once the Bolsheviks seized power, Lenin imposed a policy 
+of violence on the party.149 No overt signs of opposition to this policy were
+expressed by other parties or social movements.150 Even the leadership of 
+the Russian Orthodox Church capitulated to the pressure of the state and 
+opted not to fight even for the protection of human dignity.151 Finally, the 
+intellectual framework of Marxist-Leninism contributed to the continuing 
+culture of violence in two ways. First, Marxist-Leninism was enveloped in 
+an aura of “Scientism” based on Social Darwinism.152 Thus the imposed 
+institutional constraints and accompanying human rights abuses were por-
+trayed as having a scientific basis. Second, Marx and Engels promoted a 
+strong anti-liberal tradition in Western thought,153 and this perspective would 
+have a lasting impact not only on Russia, but on China, Laos, Cambodia, 
+and Vietnam as well.154
+These constraints remained in place after the fall of the Soviet Union in 
+1991. In reality the communist system was not dismantled and the heads 
+of successor states, despite having been duly elected, were in fact former 
+regional rulers.155 To make matters worse, nongovernmental human rights 
+and civil society organizations, both domestic and foreign, have been so 
+marginalized that they are limited as to what actions they can take to re-
+duce constraints to human rights. This has presented Russian leaders with a 
+dilemma: although they would like to protect ethnic Russians living in the 
+former Soviet republics, they are helpless to do so given past human rights 
+policies.156 And the repatriation of some 30 million Russians is not seen as 
+an alternative to negotiating the fate of their Russian brethren.157
+The chaos dominating what were heralded as free and open elections 
+has also cast a pall on the virtuous cycle linking democracy and respect 
+for human rights. In particular, the political chaos and resultant economic 
+and social instability in Russia,158 Iraq,159 and the Palestinian Authority,160 
+not to mention Afghanistan, have been cited as examples of the negative 
+effects of elections on the human rights situation in these countries. In fact, 
+even the threat of Islamist parties assuming power after winning elections 
+has resulted in civil war and deterioration of human rights.161 This paradox,
+where democratic processes permit a majority to elect a government com-
+mitted to abolishing democracy, leads those concerned about human rights 
+to ask why authoritarian or autocratic governments would permit free elec-
+tions in the first place.162
+Irregular or paramilitary forces as well as off-duty death squads have 
+been implicated in “disappearances,” extrajudicial killings, kidnappings, 
+rapes, threats, forced labor, political assassinations, indiscriminant attacks by 
+guerillas, and the murder of judges, prosecutors, journalists, and politicians 
+in Latin America163 and Africa.164 During the wars in Bosnia-Herzegovina, 
+irregulars would blockade shipments of food and supplies for cities.165 
+Whether these fighters act on behalf of powerful landowners or business-
+men or for their own revolutionary purposes, they not only target civilians 
+but also local and international human rights workers and representatives of 
+NGOs.166 The presence of irregular or paramilitary forces presents govern-
+ments with multiple political human rights related challenges. Regardless of 
+who commits the human rights abuse, the national government inevitably 
+gets blamed for not protecting its vulnerable populations, whether they be 
+landless peasants or indigenous groups. They are also faulted for not being 
+able to control the guilty perpetrators. Such abuses bring into question the 
+sincerity and seriousness of governments claiming to respect human rights 
+and trying to improve their own human rights record.
+The processes contributing to the ten possible theories proposed above to 
+explain persistent human rights abuses can operate either serially or simul-
+taneously in a country. It is therefore perhaps no surprise that the maps 
+and data they are based on did not show any systematic improvement in 
+human rights abuses. That conclusion leads to an important question: If we 
+wish to pursue an agenda designed to improve human rights, how should 
+we proceed? The most obvious choice methodologically for geographers 
+would be to build a regression model incorporating the various measures
+of abuse used in the maps with key measures for each of the nine possible 
+explanations for abuse. Although the resulting model might clearly indicate 
+the combinations and permutations of risk factors for abuse in each country, 
+I doubt the model will generate viable policy options. Therefore, I will take 
+another approach and review those options for intervention recommended 
+in the human rights literature.
+One approach is to assume each country is sui generis167 and rely on 
+a bottom up approach to confronting human rights issues. This strategy has 
+been successful especially in enacting changes in legal systems to support 
+economic development and women’s rights.168 Under this approach local 
+human rights workers are advised:
+This approach doubts the efficacy of international campaigns, especially 
+those that seek to embarrass rights-abusing individuals or elites.174
+In contrast, there are those who recommend relying heavily on the 
+international organizations to take the lead and carry the burden of extend-
+ing human rights so long as this work is carried out in a culturally sensitive 
+manner.175 This position has become increasingly problematic, however. It 
+is becoming apparent that academic and professional organizations and 
+societies are increasingly reluctant to mount campaigns on behalf of indi-
+viduals or groups suffering from human rights abuses, lest doing so might 
+lessen their chances of conducting joint research with scientists from that 
+country at some future date.176
+A more accommodating position acknowledges that although the West 
+cannot single-handedly confront other cultures, international human rights 
+organizations do have a role to play in supporting local human rights 
+groups.177 They can gather, publish, and disseminate documentation on a 
+country-by-country basis on the status of human rights. They can provide 
+testimony to international organizations on the state of human rights, offer 
+training for human rights and labor leaders, members of the police, the 
+military, the judiciary, local elites, and politicians, and they can work to 
+rebuild justice systems and encourage the rule of law.178 For their part, local 
+human rights groups are charged with the same challenges and goals they 
+would have assumed in the absence of international assistance. Added to 
+this list would be working at issue creation and agenda setting within the 
+elite, proposing new human rights legislation as well as institutional pro-
+cedures and reforms, actually engaging in discourse with the government 
+over human rights issues, and monitoring state compliance with human 
+rights obligations.179
+One final suggested approach for improving human rights is to increase 
+use of regional human rights councils. In Africa these have been reasonably 
+successful in disseminating information about human rights abuses, providing 
+early warnings of impending human rights problems, and advancing early 
+action mechanisms to curb human rights abuses.180
+Ix. coNcLUSIoN
+It is important to remember that the analysis and explanation of maps of 
+human rights abuses included in this article represent but one approach
+geographers can use when approaching human rights issues. Over the 
+twentieth and twenty-first centuries geographers have fashioned and revised 
+a series of organizational and methodological “traditions.”181 In addition the 
+subject matter of geography has been divided into categories: systematic 
+(concentrating on specific subjects such as political geography, economic 
+geography, urban geography, and environmental geography), regional 
+geography, and spatial techniques (including quantitative and qualitative 
+analysis, computer cartography, GIS, and remote sensing). Contemporary 
+geographers conduct their research within a multitude of philosophical 
+and epistemological orientations including positivism, humanism, Marxism 
+(radical and critical), postmodernism, feminism, applied, post-structuralism, 
+and post-colonialism.182 Furthermore, contemporary geographers have much 
+more sophisticated means of accessing, mapping, and analyzing data than 
+previously dreamed. This means that geographers focusing on human rights 
+issues have multiple ways of approaching and reporting their findings. The 
+challenge for human rights researchers is to discover how this variety of ap-
+proaches can be incorporated in their work. For geographers the challenge 
+is two-fold: to make their work more accessible to the human rights com-
+munity by publishing more broadly and to incorporate the research of the 
+human rights community into their own work. This dual strategy approach 
+has proven useful in Asian and Jewish Studies.183

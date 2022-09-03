@@ -1,0 +1,429 @@
+Title:
+Backward Design
+
+Abstract:
+By incorporating backward design principles when designing 
+library instruction, the librarian can ensure that instruction 
+is student-focused and that each lesson, whether it is a one-
+shot workshop, an online module, or a full for-credit infor-
+mation literacy course, meaningfully contributes toward the 
+achievement of information literacy learning outcomes as well 
+as course, departmental, and university learning objectives. 
+Backward design’s focus on alignment and assessment allows 
+the librarian to not only improve the quality of instruction 
+for current students, but also helps the librarian demonstrate 
+value and impact to instructors and administrators, lending 
+itself as a powerful advocacy tool for new instructional oppor-
+tunities. In addition, integrating backward design processes 
+with an instructional design model and reflecting on librar-
+ian roles during the design, implementation, and assessment 
+of library instruction can help enhance the value of thinking 
+
+----------------------
+Subtitles:
+ LITERATURE REVIEW 
+ LITERATURE REVIEW 
+ BACKWARD DESIGN 
+ INTRODUCTION TO THE FINK BACKWARD 
+DESIGN PROCESS 
+ APPLICATION OF THE BACKWARD DESIGN 
+PROCESS 
+ CONCLUSION 
+
+
+Text:
+----------------------
+Sarah LeMire, Editor
+Library instruction sessions, courses, and programs ben-
+efit from a strategic and intentional instructional design 
+approach. This type of approach can provide a framework for 
+librarian discussions with collaborators, such as faculty or 
+other stakeholders, and facilitate librarians’ advocacy efforts 
+for information literacy instruction in the curriculum. But 
+in the midst of busy schedules and competing responsibili-
+ties, it can be difficult to find time and a strategy that works 
+well for library instructional contexts. This column shares 
+an instructional design strategy adopted by librarians to add 
+intentionality to their instruction. This backward design 
+instructional design process has proven to be an invaluable 
+tool for designing instructional contexts ranging from one-
+shots to tutorials to semester-length courses.—Editor
+A n increased focus on accountability and assess-
+ment is driving changes in higher education. In 
+addition, changing student populations require 
+new approaches to teaching, curriculum design, 
+and assessment. L. Dee Fink, in his book Creating Significant 
+Learning Experiences: An Integrated Approach to Designing Col-
+lege Courses, contends that “faculty knowledge about course 
+design is the most significant bottleneck to better teaching 
+and learning in higher education.”1 Therefore, focusing on 
+how instructors design their courses, and not just on how 
+they teach, should be a high priority when trying to improve 
+teaching. However, often library instruction places more 
+effort into showcasing library databases and information 
+literacy teaching techniques and less into designing quality 
+library instruction. Therefore, learning instructional design 
+skills will become more important as librarians continue 
+to strive to integrate the ACRL Framework for Information 
+Literacy into their teaching practice. Instructional design 
+skills using backward design methods can help librarians 
+design instruction. Marrying instructional design models 
+and frameworks with tools to help guide librarianship prac-
+tice can help librarians adjust to changing times.
+LITERATURE REVIEW 
+Backward design is a process of planning instruction that 
+begins by reflecting about the end of the course and iden-
+tifying first the learning outcomes you hope students will 
+achieve. Then you move backward to design the course 
+components aligned to these outcomes that will help attain 
+the teaching objectives. This process, embedded in several 
+course design models, helps to ensure that you are actually 
+Sarah LeMire, Editor
+Library instruction sessions, courses, and programs ben-
+efit from a strategic and intentional instructional design 
+approach. This type of approach can provide a framework for 
+librarian discussions with collaborators, such as faculty or 
+other stakeholders, and facilitate librarians’ advocacy efforts 
+for information literacy instruction in the curriculum. But 
+in the midst of busy schedules and competing responsibili-
+ties, it can be difficult to find time and a strategy that works 
+well for library instructional contexts. This column shares 
+an instructional design strategy adopted by librarians to add 
+intentionality to their instruction. This backward design 
+instructional design process has proven to be an invaluable 
+tool for designing instructional contexts ranging from one-
+shots to tutorials to semester-length courses.—Editor
+A n increased focus on accountability and assess-
+ment is driving changes in higher education. In 
+addition, changing student populations require 
+new approaches to teaching, curriculum design, 
+and assessment. L. Dee Fink, in his book Creating Significant 
+Learning Experiences: An Integrated Approach to Designing Col-
+lege Courses, contends that “faculty knowledge about course 
+design is the most significant bottleneck to better teaching 
+and learning in higher education.”1 Therefore, focusing on 
+how instructors design their courses, and not just on how 
+they teach, should be a high priority when trying to improve 
+teaching. However, often library instruction places more 
+effort into showcasing library databases and information 
+literacy teaching techniques and less into designing quality 
+library instruction. Therefore, learning instructional design 
+skills will become more important as librarians continue 
+to strive to integrate the ACRL Framework for Information 
+Literacy into their teaching practice. Instructional design 
+skills using backward design methods can help librarians 
+design instruction. Marrying instructional design models 
+and frameworks with tools to help guide librarianship prac-
+tice can help librarians adjust to changing times.
+LITERATURE REVIEW 
+Backward design is a process of planning instruction that 
+begins by reflecting about the end of the course and iden-
+tifying first the learning outcomes you hope students will 
+achieve. Then you move backward to design the course 
+components aligned to these outcomes that will help attain 
+the teaching objectives. This process, embedded in several 
+course design models, helps to ensure that you are actually 
+teaching and measuring the learning outcomes you have 
+established.2 Although many librarians are familiar with the 
+work of Wiggins and McTighe due to the implementation of 
+the ACRL Framework, which references their work,3 librar-
+ians have also begun to experiment with Fink’s backward 
+design process.4 The visual nature of the alignment grid 
+(appendix A), a backward design process tool, provides a 
+representation of how the instructional plan can help iden-
+tify gaps and redundancies during the instructional plan-
+ning process. 
+Since this model focuses on student learning outcomes, 
+and not on what the instructor is teaching, it is grounded 
+in student-centered learning principles.5 Evidence from 
+the educational literature suggests that a student-centered 
+approach engages students in the learning process.6 Bonwell 
+and Eison contend that designing instruction with active and 
+student-centered learning components helps students con-
+nect theory to practice, reflect on their own learning, and 
+construct new knowledge as they build upon prior knowl-
+edge and experience.7
+As more focus is placed on demonstrating the value of 
+academic libraries and how libraries impact student success, 
+the literature on student-centered teaching is becoming even 
+more integrated with the library science literature.8 In addi-
+tion, an increased demand for assessment and evaluation 
+due to financial constraints and accreditation is also driv-
+ing change in how academic libraries demonstrate value to 
+the campus community. This will require new instructional 
+design and assessment initiatives as well as more efficient 
+and effective library instruction models.9 These changes 
+related to library value also mandate a shift in rethink-
+ing librarian roles and the need for instructional design, 
+assessment, and evaluation.10 Professional development in 
+data management and data analysis for assessment is also 
+needed if academic libraries are to adequately contribute to 
+university missions and student success.11 Learning new 
+instructional design strategies could help equip librarians 
+for this new quality-focused instructional context in higher 
+education.
+BACKWARD DESIGN 
+The backward design process is an instructional design 
+strategy that is particularly useful for librarians because 
+it can be easily applied in a variety of instructional situa-
+tions, such as for individual lessons, a series of embedded 
+library sessions, or an entire information literacy course. 
+Because the backward design planning process aligns 
+learning outcomes, learning activities, and assessment, 
+it helps librarians ensure that instruction is directly sup-
+porting learning outcomes, regardless of the instructional 
+context. Backward design can help librarians manage and 
+prioritize their time, especially in one-shot instruction, 
+when librarians commonly have as little as fifty minutes to 
+make an impact. Backward design forces the librarian to 
+plan out lessons in advance, focusing not on what tools or 
+skills are to be covered but rather on what learning will be 
+achieved. This process helps the librarian use time wisely 
+by honing in on the most impactful activities to achieve 
+the identified learning outcomes. It makes one’s rationale 
+visible to ensure that the designed activities are truly sup-
+porting learning goals and also helps identify potential 
+gaps or redundancies in lesson planning. The backward 
+design process is also helpful in longer-term instructional 
+scenarios, including instruction delivered across multiple 
+sections, sessions, or modalities. Whether a librarian is 
+teaching a one-shot workshop or a for-credit information 
+literacy course, the principles of backward design will help 
+the librarian ensure that their teaching is directly aligned 
+to student learning outcomes. 
+The backward design process can also help librarians 
+communicate the value of information literacy instruction 
+to internal and external stakeholders. Backward design pro-
+duces an artifact clearly delineating the relationship between 
+activities and learning outcomes. By sharing the backward 
+design alignment grid with library instruction coordina-
+tors, collaborating instructors, and students, librarians can 
+help these stakeholders understand the purpose of library 
+activities and the terminal learning objectives. For example, 
+librarians can use the alignment grid to support efforts to 
+make library instruction programs more programmatic and 
+intentional. Because it clearly delineates the outcomes and 
+activities involved in an instructional opportunity, librarians 
+can use the alignment grid to map instructional outcomes 
+across an instruction program to identify gaps and points 
+of overlap and to support efforts to advocate for additional 
+instruction time. The librarian can adapt the alignment 
+grid to include course outcomes or department/program 
+outcomes, creating a document that maps the direct rela-
+tionship between information literacy learning outcomes 
+and the instructor’s own objectives. Because assessment is 
+a key element of the alignment grid, the librarian can use 
+the grid to demonstrate how incorporating information 
+literacy instruction into a course will not only help instruc-
+tors meet their course learning outcomes but will also help 
+them meet department and administrative mandates. A 
+successfully-executed alignment grid can be a powerful tool 
+when advocating for information literacy integration into a 
+course because it can very clearly articulate how the infor-
+mation literacy instruction directly supports the course and 
+or departmental learning outcomes. 
+INTRODUCTION TO THE FINK BACKWARD 
+DESIGN PROCESS 
+The backward design process based on Fink’s course design 
+model can be broken down into a three-step process that 
+guides the librarian from large-scale, long-term thinking 
+down to the granularity of learning activities and classroom 
+equipment. By following these three steps, the librarian 
+can design instruction that will directly contribute toward 
+achieving those long-term student learning goals.
+Step 1: Dream Exercise 
+The Dream Exercise is the first step of the backward design 
+process, and its function is to orient the instructor’s per-
+spective to the long-term. It asks instructors to imagine a 
+conversation with their students a year or two into the future 
+and then to consider what they would want their students to 
+know, be, or be able to do at that point in time. This exercise 
+guides instructors to think not about the end of a one-shot 
+or the result of an information literacy course, but instead 
+to focus on longer-term student outcomes. 
+As part of the Dream Exercise and reflection about 
+instructional outcomes, librarians should also consider 
+what Fink calls “situational factors” to make sure the dream, 
+outcomes, assessments, and teaching and learning activities 
+align to the instructional context.12 The situational factors 
+help librarians think about the context of the teaching/
+learning situation, the nature and scope of the subject, the 
+characteristics of the learners in front of them, and their 
+own teaching philosophy. By considering these factors, the 
+librarian can customize the instruction to meet the needs of 
+the learners based on the format, delivery mode, and context 
+of the instruction.
+Step 2: Learning Outcomes 
+The concept of learning outcomes is familiar to many librar-
+ians. Learning outcomes, like the Dream Exercise, are a pow-
+erful instructional design tool because they help the librarian 
+design the lesson based upon what the student will do, not 
+on what the librarian does. To create learning outcomes, the 
+librarian takes the broad Dream Exercise goals and breaks 
+them down into concrete learning outcomes. A single goal 
+from the Dream Exercise may have a number of learning 
+outcomes associated with it. Each learning outcome should 
+be measurable, student centered, and focused on different 
+levels of learning. The librarian should craft their learning 
+outcomes carefully, employing action verbs that lend them-
+selves to assessment so they can evaluate whether a student 
+has achieved the outcome. For example, it is common to 
+instinctively want to use verbs such as “know” or “under-
+stand” when writing learning outcomes; for example, “At 
+the end of this class, students will understand how to use 
+Boolean operators.” But it is extremely difficult to quantify 
+understanding. To make the learning outcome measurable, 
+the librarian can replace “understanding” with another verb 
+that is more easily assessed; for example, “At the end of this 
+class, students will be able to design a search that incor-
+porates Boolean operators.” This revised learning outcome 
+depicts the task at hand that students need to perform, which 
+could be easily assessed through simple observation. 
+In addition to measurability, learning outcomes should 
+focus on different levels of learning. The classification 
+hierarchical framework of Bloom’s taxonomy of learning 
+and the updated version by Krathwohl et al. have become 
+the standard frameworks used for designing learning out-
+comes.13 They are used for assessment and evaluation of 
+learning, as well as for writing learning outcomes. Design-
+ing learning outcomes using terminology from Bloom’s tax-
+onomy helps articulate how students will learn and shows 
+how students will be engaged at different levels. Bloom’s tax-
+onomy levels include Remembering, Understanding, Apply-
+ing, Analyzing, Evaluating, and Creating.14 Fink’s model also 
+contains a learning taxonomy. The Fink Significant Learn-
+ing Taxonomy contains six levels of learning: Foundational 
+Knowledge, Application, Integration, Human Dimension, 
+Caring, and Learning to Learn.15 The Fink taxonomy is 
+not hierarchical and intended to be used in a way in which 
+levels of learning overlap and integrate with each other. It 
+is the interaction or intersection of several outcomes that 
+Fink defines as the “Significant Learning” experience. For 
+example, helping students apply the skills they learn during 
+a library research session to their research paper assignment 
+can also help students see how the skills they are learning 
+in one place can be integrated with other academic projects 
+and in other courses. 
+Step 3: Alignment Grid
+The alignment grid is the third and final step of the back-
+ward design process. The alignment grid helps the librarian 
+take the learning outcomes identified in step two and trans-
+late them into assessable activities. In its most basic form, the 
+alignment grid asks the instruction librarian to record four 
+elements: the learning outcome, an assessment method, a 
+learning activity, and any resources or equipment necessary 
+to complete that activity. 
+When completing the alignment grid, it is important 
+to fill it out in order from left to right, beginning with the 
+outcome. This means that the first step after the learning 
+outcome is the assessment method. Although it may ini-
+tially seem more natural to move from the learning outcome 
+to the activity, Fink’s method requires that the assessment 
+method be determined before designing the activity. In order 
+to successfully achieve the learning outcome, it is important 
+to be able to identify if students have grasped the concept. 
+The assessment need not always be formal or summative 
+in nature. When thinking about the assessment box in an 
+alignment grid, the librarian should ask the question “How 
+will I know if this learning outcome has been achieved?” The 
+librarian can use a simple formative check on learning for 
+some learning outcomes, with a more formal, artifact-pro-
+ducing assessment method used at other points in the lesson.
+Once the librarian determines the assessment method, it 
+is time to craft the activity. It can be challenging to fit exist-
+ing lesson plans and activities into the alignment grid, so 
+it may be easier to craft an alignment grid for the first time 
+when creating a new lesson plan with new activities. The 
+alignment grid already provides the learning outcome and 
+the assessment, so the instructional delivery method and 
+learning activity should derive directly from those elements. 
+For example, when collaborating with a faculty member for 
+a five-week embedded information literacy series in a busi-
+ness course, the course learning outcomes and assessment 
+method (a group presentation) were predefined. However, 
+the alignment grid helped to “chunk out” the library tasks 
+and align to the Association of American Colleges and Uni-
+versities (AACU) outcomes being used in the course. As a 
+result, the library instruction was integrated and scaffolded 
+across the semester. The process was graphically visible to 
+both the librarian and faculty member and helped in the 
+communication about and implementation of the library 
+instruction.
+The final column in the basic alignment grid is for listing 
+resources needed to implement the lesson plan. That equip-
+ment may be a computer lab or a laptop cart. It could be 
+having Zotero installed on all of the computers, or it could 
+be a pack of flip-chart paper. Regardless of the format, the 
+resources section provides a place to pull all external tools 
+together. It is also important to note that additional fields 
+can be added to the alignment grid to make the backward 
+design process more scaffolded or more transparent for the 
+librarian or their instructor colleagues. For example, adding 
+another column to the alignment grid could help align the 
+librarian’s learning outcomes to the ACRL Framework or to 
+an AACU rubric.
+APPLICATION OF THE BACKWARD DESIGN 
+PROCESS 
+A variety of instructional design models and frameworks 
+have incorporated the backward design process. At the 
+University of Utah, instructional designers used Fink’s back-
+ward design process as the foundation for a campus-wide 
+instructional design model called the Quality Course Frame-
+work (QCF).16 This instructional design model contains four 
+phases of instruction design: The Design Phase, the Build 
+Phase, the Teach Phase, and the Revise Phase (figure 1).
+are integrated into the first phase of the QCF, the Design 
+Phase. Once the alignment grid is completed in the Design 
+Phase, librarians could then use the grid to build the learn-
+ing materials in the Build Phase, plan the individual teaching 
+activities in the Teach Phase, and reflect on the success of the 
+teaching event in the Revise Phase. Librarians can also inte-
+grate learning theories such as the ARCS motivation model 
+into the planning of teaching activities.17 For example, when 
+building a learning/teaching activity, thinking about how to 
+engage students in that learning activity is just as important 
+as the content of the activity. Using the ARCS model can 
+help librarians intentionally consider how they can (1) grab 
+the attention of the learners (A), (2) establish the relevance 
+of the content you are teaching (R), (3) help build learner 
+confidence (C), and (4) show how the learning is related to 
+a real-world application to satisfy the learner (S). Therefore, 
+going through the QCF process can not only help scaffold the 
+instructional design, but also help librarians plan and deliver 
+effective and impactful content for a variety of instructional 
+contexts, from one-shots to full information literacy courses. 
+Once librarians have used their Fink alignment grid 
+to lay out the instructional plan, they can use that grid to 
+facilitate discussions with faculty partners and demonstrate 
+how library outcomes and learning activities can also align 
+to the overall course outcomes, assessments, and learning 
+activities. To help librarians talk about instructional plan-
+ning with faculty, a project was undertaken at the University 
+of Utah to create teaching guidelines. The guidelines were 
+built upon the four phases of the QCF and were organized 
+by values identified through brainstorming and discussions 
+with a group of Education Services librarians.18 In addi-
+tion, the teaching guidelines matrix document emphasizes 
+the librarian role at each phase of the QCF. In the Design 
+Phase, librarians act as instructional designers. In the Build 
+Phase, librarians could act as instructional technologists and 
+build instructional components for teaching. In the Teach 
+Phase, librarians act as teachers and context experts, and in 
+the Revise Phase, librarians should act as researchers and 
+evaluate the library teaching and learning experience. The 
+teaching guidelines can help librarians think through their 
+different roles at these four phases of instructional design, 
+teaching, and assessment and provide guidance on how they 
+could work with faculty partners at these various phases. For 
+example, figure 2 demonstrates guidelines for how librarians 
+can interact with faculty when designing library instruc-
+tion. The four columns were values identified by librarians, 
+and bullets in each column are suggestions for how librar-
+ians can help facilitate faculty partnerships, design effective 
+instructional practices, create supportive and shared learn-
+ing environments, and display professional responsibility as 
+they design instruction. A similar process applies to each of 
+the other three QCF phases.19
+ CONCLUSION 
+backward during instruction design and improve the quality 
+and intentionality of library instruction.

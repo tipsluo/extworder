@@ -1,0 +1,937 @@
+Title:
+Broader perspective on ecosystem
+sustainability: Consequences for
+decision making
+
+Abstract:
+Although the concept of ecosystem sustainability has a long-term focus, it is often viewed from a static system perspective. Because most
+ecosystems are dynamic, we explore sustainability assessments from three additional perspectives: resilient systems; systems where tipping
+points occur; and systems subject to episodic resetting. Whereas foundations of ecosystem resilience originated in ecology, recent discussions
+have focused on geophysical attributes, and it is recognized that dynamic system components may not return to their former state following
+perturbations.Tipping points emerge when chronic changes (typically anthropogenic, but sometimes natural) push ecosystems to thresholds
+that cause collapse of process and function and may become permanent. Ecosystem resetting occurs when episodic natural disasters breach
+thresholds with little or no warning, resulting in long-term changes to environmental attributes or ecosystem function. An example of
+sustainability assessment of ecosystem goods and services along the Gulf Coast (USA) demonstrates the need to include both the resilient and
+dynamic nature of biogeomorphic components. Mountain road development in northwest Yunnan, China, makes rivers and related habitat
+vulnerable to tipping points. Ecosystems reset by natural disasters are also presented, emphasizing the need to understand the magnitude
+frequency and interrelationships among major disturbances, as shown by (i) the 2011 Great East Japan Earthquake and resulting tsunami,
+including how unsustainable urban development exacerbates geodisaster propagation, and (ii) repeated major earthquakes and associated
+geomorphic and vegetation disturbances in Papua New Guinea. Although all of these ecosystem perturbations and shifts are individually
+recognized, they are not embraced in contemporary sustainable decision making.
+
+----------------------
+
+
+Text:
+----------------------
+The concept of sustainability increasingly
+permeates government, academic, and
+private-sector organizational mantras. Sus-
+tainability is de?ned in many ways, but a
+common thread lies in its goal of harmo-
+nizing environmental, economic, and so-
+cial opportunities for the bene?t of present
+and future generations (1–4). In ecosystem
+research and management, the underlying
+foundations of environmental sustainability
+are system attributes—biosphere, hydro-
+sphere, geosphere, and atmosphere, and
+the linkages among them. Superimposed
+on these natural ecosystem attributes is the
+human component, consisting of humans
+themselves, their economies, institutions,
+infrastructures, cultures, and related land
+use (5–7).
+Belief in the balance of nature gave rise
+to early ecological concepts such as carry-
+ing capacity and maximum sustained yield,
+which view ecosystems as permanent in
+form and structure that strive to recover to
+an “equilibrium” state following distur-
+bances (8–10); thus, much thought and
+research have been invested in incorporat-
+ing the concept of resilience into sustainabil-
+ity assessments (11–13). Resilience addresses
+the ability of ecosystems to absorb change
+and disturbance and adapt to small-scale
+perturbations, both in the length of time
+it takes to recover from external stress
+and in the magnitude of stress from which
+a system can recover without rapidly moving
+to a new stable condition (7, 14). While
+many resilience concepts evolved from
+ecology (15), resilience has relevance to
+other ecosystem characteristics, such as
+the sustainability of surface water (16–18)
+and groundwater (19). Although perturbed
+ecosystems and components do not always
+return to the exact state before a distur-
+bance, there is a recognized bound on the
+breadth of resilience (20): if a system is
+viewed as resilient, it is generally perceived
+as remaining within speci?ed “bounds.”
+While this notion of an essentially ?nite
+system is accepted even by critics of sus-
+tainable development (21), the concepts of
+permanent ecosystem change are typically
+absent from sustainability discussions.
+Tipping points are encountered one step
+beyond ecosystem resilience and represent
+thresholds that, when crossed, result in
+catastrophic collapse of processes or func-
+tions that are extremely dif?cult to restore.
+These tipping points are closely associated
+with complex system behavior where small
+and cumulative anthropogenic and/or nat-
+ural stressors push ecosystems toward critical
+transitions, causing an abrupt shift from one
+state to another (16, 22, 23). Negative tipping
+points are applied to projected collapses in
+ecosystems related to climate change (24),
+climate anomalies (25), and land-use change
+(26). In most scenarios, protracted dis-
+turbance or stress causes the system to
+lose resilience, followed by an abrupt al-
+teration in state once the tipping point is
+exceeded (27). Positive tipping points may
+occur when interventions in degraded eco-
+systems allow processes and populations to
+recover with the help of human innova-
+tion (28).
+A different kind of threshold is crossed
+when episodic natural disasters affect eco-
+systems. These are reached suddenly with
+little or no warning, and the resulting im-
+pacts on ecosystems can be dramatic and
+far-reaching (16). Examples include the
+devastating 2011 earthquake-tsunami di-
+saster in eastern Japan (29); lahars ema-
+nating from the 1985 volcanic activity at
+Nevado del Ruiz, Colombia (30); climate
+change-induced glacial dam collapse and
+jökulhlaups in the Karakoram Himalaya
+(31); isostatic rebound in the Copper River
+Delta, Alaska, following the Great Alaska
+Earthquake of 1964 that caused a seaward
+shift in the salt marsh (32); and massive
+landslides in central China during a major
+earthquake in 1920 (33). These were all ex-
+treme events, but more frequent disasters of
+smaller magnitude can also in?ict long-
+term ecosystem resetting, albeit at smaller
+scales. Although it is dif?cult to predict the
+timing and areal extent of sudden, episodic
+disasters, probabilistic hazard maps, assess-
+ments, and predictive models can help guide
+sustainabilityanalysis and thus reduce risk in
+vulnerable regions (34–36). Furthermore,
+knowledge gained from episodic disasters
+can help break down barriers based on past
+experiences and ideas and reframe future
+decisions by noticing and bracketing new ev-
+idence, working cognitively to elucidate in-
+terconnected processes, and retaining this
+knowledge (37).
+Because ecosystems are intrinsically linked
+to dynamic earth system properties, con-
+fusion persists about what sustainable
+ecosystems and management practices are.
+Vulnerability analysis links sustainability
+and the stressors and perturbations that in-
+teract within resilient ecosystems and their
+socioeconomic counterparts (6, 38), but
+challenges to connecting sustainability with
+episodic threshold changes remain (10, 16).
+Given that an inherent tenet of sustainabil-
+ity is long-term viability of ecosystem func-
+tion, better focus needs to be placed on the
+natural resources that form the backbone
+of these systems—their spatial and temporal
+attributes and resilience—and how anthro-
+pogenic and natural stressors compromise
+system resilience, breach tipping points,
+and cause episodic change.
+Including sustainability in ecosystem re-
+search and assessment requires fundamen-
+tal knowledge of earth system dynamics at
+appropriate scales to assess future trajecto-
+ries of rural and community development,
+food security, disaster mitigation, reclamation,
+infrastructure, site productivity, hazardous
+waste disposal, water use, and contaminant
+transport. Once spatial and temporal scales
+of sustainability are de?ned, ecosystem
+attributes must be carefully articulated. Be-
+cause sustainability has a long-term focus,
+ecosystem resilience should be incorporated
+into these attributes (6, 14, 18, 20, 27, 38)
+(Fig. 1). Chronic agents of ecosystem change,
+such as soil development, disease, and eco-
+logical succession, are accommodated by
+resiliency, as are minor episodic events (e.g.,
+small earthquakes, ?oods, wild?res).
+In cases where long-term anthropogenic
+pressures such as forest conversion, wetland
+destruction, overhunting/over?shing, poor
+irrigation practices, and overgrazing have
+impacted ecosystems, tipping points in sys-
+tems may be reached. Chronic disturbances
+or changes may exhaust ecosystem resil-
+ience, leading to a rapid change of state
+(7, 27, 39). Anthropogenic perturbations can
+also lower the initiation threshold for certain
+natural disasters (40–42), complicating ex-
+ceedance thresholds for ecosystem change.
+Furthermore, when major episodic processes
+exceed thresholds of resilience, they may
+reset ecosystem attributes (16) (Fig. 1). For
+example, sustainable development in cities
+such as San Francisco and Tokyo must
+consider how major earthquakes may alter
+topography, coastal conditions, and vegeta-
+tion, and how ecosystem resilience accom-
+modates chronic changes such as sea-level
+rise and vegetation change induced by global
+climate change. This decision making can be
+improved by adapting and learning from
+past experiences such as natural disasters or
+more subtle signs of resilience loss (14, 37).
+Dynamic ecosystem attributes also affect
+how we assess sustainable management of
+rural lands. Widespread conversion of trop-
+ical forests to cultivated agriculture, planta-
+tions, pasture, residential developments, and
+recreational use has led to increased erosion,
+water stress, nutrient depletion, and loss of
+biodiversity (43–45). Although chronic eco-
+system shifts are often the focus of sustain-
+ability assessments, we need to understand
+how land uses exacerbate episodic processes
+such as landslides, ?oods, wild?res, and
+droughts that can reshape systems. Several
+examples are presented in the next section
+illustrating how management decisions
+could bene?t from broader sustainability
+assessments.
+Understanding the potential for natural
+change in ecosystems is essential not only to
+the environmental “pillar” of sustainability
+but also to economic and social compo-
+nents. The natural system, along with eco-
+nomic and social counterparts, shapes and
+in?uences the well-being of individuals, so-
+cieties, and ecosystems, both now and in
+the future (2, 10, 14, 46). For individuals,
+meeting basic needs such as food, shelter,
+and health maintenance is a prerequisite to
+economic and social well-being. These are
+met through adequate access to health care,
+employment, and education. Well-being
+for ecological systems can be de?ned using
+concepts similar to those for humans. The
+quality and quantity of habitat, including
+all facets required for survival, mainte-
+nance, and proliferation of populations and
+ecological functions, are analogous to hu-
+man “wealth.” Although nonhuman species
+and their ecological systems are unlikely to
+be as aware of their own well-being as
+humans, drawing the parallel between well-
+being of humans and nonhumans recog-
+nizes interconnections among the natural,
+economic, and social components of sus-
+tainability (46). If, for example, a major
+power plant or toxic waste repository is sited
+in an area that has potential for episodic
+system change (e.g., major earthquake,
+?ooding), there are strong implications for
+both economics and society. More gradual
+changes that fall within the resilience ca-
+pacity of ecosystems may test the limits of
+societal adaptability and may incur signi?-
+cant economic costs to cope. A prominent
+example of gradual environmental change
+is the effect of sea-level rise on coastal eco-
+systems and communities (47). A socio-
+economic dilemma is that huge investments
+continue to be made in increasingly vul-
+nerable coastal areas when a philosophy of
+adaptation should be encouraged instead
+(48). In such cases, although the ecosystems
+themselves may be resilient, socioeconomic
+issues are driving the sustainability agenda.
+As noted, most ecosystem sustainability
+assessments are conducted within static or,
+at best, resilient settings. Few assessments
+consider the potential for tipping points,
+such as induced by climate change or
+land degradation. Even greater challenges to
+sustainability arise when system thresholds
+are exceeded because of natural disasters or
+episodic environmental change (16). Exam-
+ples exist where sustainability assessments
+for land, coastal, energy, and industrial de-
+velopment are satisfactory for static or
+resilient ecosystems but become highly
+problematic when subtle anthropogenic or
+natural pressures push systems to tipping
+points or when thresholds are exceeded
+due to episodic change. Here we present
+four cases where resilience, tipping points, or
+ecosystem resetting should be considered in
+sustainability assessments. Key environmen-
+tal issues and attributes of each system, along
+withnatural andanthropogenic stressors, are
+detailed in TableS1 with suggestedcorrective
+measures that support sustainability.
+Mexico. Gulf of Mexico ecosystems are es-
+sential to regional socioeconomics, and pro-
+vide a foundation for rare,unique,and valued
+?shand wildlifespecies.Gulf Coast estuaries
+and wetlands are feeding, spawning, and
+nursery habitats for a rich assemblage of ?sh
+and wildlife, including shorebirds, colonial
+nesting birds, and migratory waterfowl. How-
+ever, increasing population pressures in the
+Gulf of Mexico create increased use of and
+demands on Gulf resources (Table S1).
+Given the variety of ecosystem services
+provided on the Gulf Coast, including com-
+mercial and sport ?sheries, biodiversity, and
+recreation, we must understand how they
+interact with dynamic coastal features. For
+example, barrier islands, wetlands, sloughs,
+and the coastline itself collectively form a
+natural defense against landfall hurricanes
+as well as buffer the coast from ?oodwaters
+emanating from rivers (49). These features
+also provide diverse habitats for an array of
+?sh and other marine resources. An impor-
+tant aspect of this complex system that is
+often overlooked in development, manage-
+ment, and restoration efforts is the transient
+nature of the biogeomorphic attributes. Al-
+though delta building is a progressive process
+(50), once these sites are developed, we tend
+to view the systems as static and attempt to
+force them to prior conditions following
+extreme natural events. Similarly, barrier is-
+lands, beaches, reefs, and mainland shorelines
+are naturally dynamic, responding to major
+storms and sea-level rise (51, 52). Anthro-
+pogenic activities exacerbate coastal system
+dynamics, including coastal development;
+dredging sediments from rivers; enhanced
+riverine ?ood ?ows from development; in-
+creased nutrient ?uxes and oxygen depletion;
+sea-level rise due to subsidence and climate
+change; coastal erosion control structures;
+and alteration of vegetation (50, 53–56).
+Turning a blind eye toward biogeo-
+morphic processes within coastal systems
+poses dif?culties in separating anthropo-
+genic effects from natural phenomena, and
+can misguide restoration efforts. As such,
+there are strong implications for the lu-
+crative commercial and recreational ?shing
+industry along the Gulf Coast. A recent
+report from a federal advisory group (57)
+emphasizes balancing ecosystem sustain-
+ability and resilience with other priorities
+(e.g., navigation and structural ?ood con-
+trol) in restoration efforts. Nevertheless, these
+proposed tradeoffs would bene?t in the long
+term by recognizing natural dynamics of
+barrier islands and coastal features in this
+complex ecosystem, as well as how such
+changes and resilience can affect ?sheries
+and other ecological services.
+Signi?cant restoration efforts along the
+Gulf Coast have focused on coastal regions of
+the Mississippi Deltaic and Chenier Plains,
+where wetlands are being lost to the sea. In
+Louisiana, 4,877 km2 have been lost since the
+1930s, comprising 80% of US coastal wetland
+losses (58, 59). Land loss in Louisiana has
+been called a “national emergency,” with
+up to 4,533 km2 threatened under status
+quo management (59). Louisiana wetlands
+are signi?cant to the welfare of the United
+States—?80% of Louisiana ?sheries species
+use wetlands for nurseries and 75% of
+?sheries landings in the Gulf of Mexico are
+adjacent to Louisiana (60). Moreover, in-
+land ?ooding from storm surges, exacer-
+bated by loss of wetlands, swamps, and
+barrier islands, threatens property, people,
+infrastructure, and unique cultural heritages
+(59). On average, Gulf Coast communities
+lose $14 billion annually from storms, which
+could be compounded to $350 billion by in-
+creased development and land loss (61).
+Both natural and human factors have led
+to wetland loss in Louisiana (62). Processes
+identi?ed in wetland losses range from eu-
+static sea-level rise and delta construction or
+destruction to modi?cations such as failed
+reclamation projects, canal construction, and
+impoundments (63). Subsidence from natu-
+ral compaction and restricted sediment input
+caused by levees frequently leads to wetland
+loss (62), but debates about the strength of
+the effects of natural and anthropogenic
+factors on land-loss rates are ongoing. Loca-
+tions and time periods with exceedances of
+natural geological subsidence rates might
+identify where some anthropogenic stressors
+have accelerated wetlands loss (64). A recent
+study found that decadal changes in sub-
+sidence rates trended with hydrocarbon ex-
+traction, indicating a historical in?uence of
+the latter on accelerated loss of wetlands in
+some areas (65).
+Wetland restoration and risk reduction
+measures are being implemented to prevent
+future,as well asredress past, losses to human
+and wildlife habitat. Management options
+being developed and applied in wetlands re-
+newal and land building initiatives include
+large-scale river diversions, marsh terracing,
+sediment-slurry additions, plantings, dam
+modi?cations, shoreline protection, sediment
+fences, and placement of dredged materials
+(59,66–68). Major river diversionsarecritical
+to supplying sediment and nutrients, pre-
+cipitating sul?des, and preventing saltwater
+intrusion in coastal wetlands, but require
+understanding of diverse considerations dur-
+ing implementation (59, 66). For example,
+positive and negative ancillary impacts on
+a range of attributes including eutrophica-
+tion, hazardous algal blooms, and salinity
+changes in estuaries could occur from di-
+version discharges (60, 66, 68). Restoration
+decisions require understanding dynamic
+sur?cial and subsidence processes (63). Salt
+marsh areas can reach such a low vertical
+elevation threshold that management must
+focus on complete rebuilding (69). The ef-
+fectiveness and uncertainties oflandbuilding
+and sustaining projects forkeeping pace with
+sea-level rise, subsidence, and other factors
+are being both investigated and questioned.
+For example, predictive modeling has shown
+that sea-level rise and subsidence could
+outpace many of the bene?ts from sediment
+delivery, especially if river sediment loads
+are not restored to levels before damming
+(70). However, immediate initiation of proj-
+ects to optimally decrease land loss and/or
+move communities away from danger is
+needed because of the increased future costs of
+delayingtheseefforts due to uncertainties(70).
+The importance of improving decision
+making and learning capabilities in the
+Gulf region has spurred recent activities
+by private, federal, state, tribal, local, and
+nongovernmental entities. The Gulf Coast
+Restoration Task Force, established by
+executive order to address long-term Gulf-
+wide restoration beyond the 2010 oil spill,
+has identi?ed tipping points as one critical
+learning need (58). Efforts of a Science
+Coordination Team expanded ideas in this
+report (58) to include additional actions
+for increasing resiliency in habitat types
+and coastal communities (71). Focused
+work on coastal sustainability and safety
+issues has culminated in the most recent
+Louisiana Coastal Master Plan (59), which
+assesses scienti?c and value-based needs for
+land-loss prevention decisions, including
+resiliency-related issues (Fig. 2). For deci-
+sions addressing land losses, considerations
+include ecosystems services (e.g., ?sheries
+and nature-based tourism), socioeconomic
+issues (e.g., protecting strategic assets and
+signi?cant cultural sites), and threats to re-
+siliency (e.g., sea-level rise and invasive spe-
+cies) (59). De?ning variables and criteria that
+impact stakeholders and ecological viability,
+along with other important factors such as
+causal relationsand uncertainties, will support
+management efforts to achieve desired and
+avoid undesired outcomes.
+Due to the magnitude of the land-loss
+crisis, improved governance capabilities for
+deriving, using, and exchanging process
+knowledge across scales of decision making
+is being implemented. The Coastal Protec-
+tion and Restoration Authority (CPRA) was
+established to coordinate planning, imple-
+mentation, and enforcement for restoring
+and protecting coastal Louisiana (59). De-
+velopment of CPRA management plans in-
+volves community stakeholders, industry
+representatives, government of?cials, and
+experts. The CPRA organizes teams to im-
+plement selected projects, including evalu-
+ating and addressing design considerations,
+implementation barriers, and regional con-
+sequences, and develops an adaptive man-
+agement framework to foster participatory
+bene?ts from collaboration, coordination,
+and communication (59).
+Ensuring resilience in complex environ-
+ments with multiple stressors requires man-
+agement that is ?exible and responsive to
+new information. Elements of structured
+decision making can be adapted for highly
+dynamic environments including frequently
+reexamining objectives, adapting manage-
+ment actions to changes, and incorporating
+model uncertainty into predictions (72).
+Although private and public decision makers
+work to prevent shifts from desirable to un-
+desirable ecosystem states, consideration of
+the dynamic and varied nature of Gulf
+Coast ecosystems could improve man-
+agement in all phases of decisions. Im-
+proving the decision-making process also
+requires a critical appraisal of the collection,
+interpretation, use, and communication of
+knowledge on ecological and social dy-
+namics at all scales of governance. In addi-
+tion to understanding the dynamic nature of
+Gulf ecosystems, addressing concerns of
+community members is essential to make
+informed tradeoffs in large-scale restoration
+projects.
+in both surface and landslide erosion caused
+by road construction in the mountains of
+northwest Yunnan, China, affect not only site
+productivity but also exacerbate sediment
+delivery to rivers (73). Unimproved roads are
+proliferating in this developing region due
+primarily to economic and tourism pressures
+(74, 75). This region is home of the Three
+Parallel Rivers of Yunnan Protected Areas,
+designated by the United Nations Educa-
+tional, Scienti?c, and Cultural Organization
+(UNESCO) as a World Heritage site. In this
+unique geologic and ecological area, the Jin-
+sha, Salween, and Mekong Rivers run ap-
+proximately parallel in deep gorges within
+less than a 100-km wide corridor. Sediments
+routed into the Salween and Mekong Rivers
+and their tributaries eventually ?ow through
+poorer nations (Myanmar, Thailand, Laos,
+and Cambodia) that depend on these waters
+for ?shing, aquaculture, irrigation, and other
+livelihoods. In addition to degrading site
+productivity and water quality, sediments
+impact aquatic habitat, damage hydropower
+facilities, and transfer pollutants. Excessive
+sediment deposition in steeper headwaters
+may also increase the potential for ?ooding
+and catastrophic debris ?ows (76). The larg-
+est sediment inputs from mountain roads to
+rivers do not emanate from surface erosion
+but from landslides (Fig. 3A). Landslide ero-
+sion along recently constructed roads in these
+mountains varies from about 3,000–48,000
+Mg·ha?1·y?1 (74), values that dwarf aver-
+age landslide erosion rates along forest
+roads in unstable terrain in the northwest
+USA (60 Mg·ha?1·y?1), which were suf?-
+cient to suspend forest-logging operations
+on federal lands due to concerns over
+aquatic habitat (40). Surface erosion from
+and along these roads, although signi?cant,
+is typically <10% of the landslide erosion.
+Oftentimes, >80% of the landslide and sur-
+face-eroded sediments directly reach stream
+and river systems (Fig. 3B) (76).
+Thus, a more sustainable approach to rural
+road development in Yunnan would be to
+consider potential landslides as the primary
+sediment source and to evaluate alternatives
+for road location, construction, and structural
+and nonstructural protection against end uses
+and socioeconomic bene?ts. Many newly
+constructed roads in northeastern Yunnan
+are inoperable during wet seasons or require
+extensive maintenance to remove landslide
+sediment, which eventually makes its way
+into rivers. In the worst cases, mountain road
+construction is abandoned, leaving no access
+and a legacy of sedimentation problems.
+Examples of landslide-related deaths along
+these lightly traveled mountain routes have
+already been reported (76). Current de-
+velopment is paying little attention to road
+location or construction methods to control
+the mass wasting of rock and soil (40). These
+secondary roads are typically constructed
+with hydraulic shovels, back hoes, or in-
+discriminate blasting, and the excavated
+material is simply disposed of onto slopes
+below the road. Much of the terrain is very
+steep (>30°) with few breaks in gradient,
+and thus once a landslide initiates along a
+road there is little chance of sediment en-
+trapment on the slope. Until urgent attention
+is directed toward this problem, local resi-
+dents and downstream communities will bear
+the burden of such unsustainable practices,
+not to mention damage to fragile terrestrial
+and aquatic habitats.
+This example shows how ecosystems could
+be pushed to tipping points because of poor
+management decisions. Consequences that
+have appeared or could develop include (i)
+extensive road-related landslides and surface
+erosion that progressively strip soil to the
+point where vegetation is altered and habi-
+tation downslope is unsafe; (ii) degraded
+water quality exerting long-term downstream
+impacts; (iii) catastrophic debris ?ows in
+sediment-laden headwaters; and (iv) impacts
+on livelihoods or economies of downstream
+water users. An effective sustainability as-
+sessment before extensive road construction
+and other land development activities in this
+mountainous region should include land-
+slide hazard assessments and analysis of
+potential trigger mechanisms with proba-
+bility thresholds for different road locations
+and construction methods (Fig. 4). Ac-
+ceptable levels of landslide and surface
+erosion need to be articulated, as well as
+thresholds that equate to tipping points,
+that is, where site productivity, human wel-
+fare, ecological attributes, or river conditions
+are severely impacted in the long term.
+Management activities (e.g., road build-
+ing) could be constrained to options that
+would not approach tipping points.
+complex cascade of damage in the Paci?c
+coastal region of Tohoku, Japan, was initially
+triggered by the March 11, 2011, Great East
+Japan Earthquake. This was the largest earth-
+quake ever measured in Japan in terms of
+ground motion, magnitude(M = 9.0),shaking
+duration, and magnitude and number of
+aftershocks. Much of the coastal damage oc-
+curred when a huge tsunami, with run-up
+heights exceeding 39 m in some areas, struck
+within 30–40 min of the earthquake (29) (Fig.
+5A). Even with the most advanced tsunami
+warning system in the world, a large per-
+centageofthe20,000+lives lostinthis disaster
+was directly attributed to tsunami impacts.
+The tsunami inundateddikes and breakwaters
+along the coast, bringing into question the
+protective value of such countermeasures for
+truly episodic events. On one hand, it can be
+argued that these countermeasures (although
+breached) ameliorated the extent of tsunami
+damage; on the other, a case can be made that
+such measures may lead to a false sense of
+security for residents and that emphasizing
+disaster prevention education is more effec-
+tive, particularly in a nation where residents
+are aware of such hazards (29).
+Along with the lives that were lost during
+this composite disaster, extensive infrastruc-
+ture damage occurred including roads, rail-
+ways, arti?cial ?lls, lifelines, and earthen
+dam collapse, and some 76,000 homes were
+destroyed (Fig. 5). Although reinforced con-
+crete structures mitigated some of the dam-
+age (77), the combination of earthquake and
+subsequent tsunami waves lique?ed foun-
+dation materials and actually toppled many
+reinforced structures (Fig. 5C). Associated
+“natural” disasters affected by the earth-
+quake/tsunami included ?res, landslides, and
+debris ?ows. The largest long-term conse-
+quence of the disaster is the accident at the
+Fukushima Nuclear Power Plant No. 1. After
+the earthquake, the two most-affected nu-
+clear reactors were shut down successfully;
+however, earthquake damage to the electrical
+feeder lines required that backup generators
+supply power to emergency cooling systems
+for the reactors. Within less than 1 h,
+the backup generators were inundated by
+the tsunami surge, causing power loss to the
+cooling systems. Subsequent actions taken to
+deal with the system failures resulted in a
+release of radioactive material into the en-
+vironment. The regional deposition of radi-
+oisotopes may have long-term implications
+for agricultural production and land use
+throughout coastal Fukushima Prefecture
+and neighboring regions (78). Furthermore,
+evidence exists that cesium has penetrated
+the bark of Japanese cedar (the most im-
+portant regional commercial tree species)
+to the extent that it may have contaminated
+wood to be used in housing and furniture
+construction. The Fukushima government
+is attempting to mitigate economic impacts
+of the disaster by supporting the local
+forest industry, thus exacerbating this con-
+tamination problem.
+This catastrophic set of disasters underlines
+thenecessity forconcurrent hazardanalysis in
+sustainability assessments and decision mak-
+ing. The cumulative cascade of disasters—
+earthquakes, tsunami, landslides/debris ?ows,
+?res, radioactive releases from damaged
+power plants—emphasizes the need to base
+environmental safeguards on joint probabili-
+ties of the occurrence of multiple, interrelated
+hazards in dynamic settings. Siting criteria
+and contingency plans for facilities such as
+nuclear power plants that pose severe envi-
+ronmental risks if compromised must care-
+fully consider the range and interaction of
+geohazards. Whereas the vulnerable sub-
+duction zone off Japan’s east coast is known
+for its earthquake potential, the combination
+of episodic effects that occurred on March 11,
+2011, together with power outages, were not
+anticipated in the siting and emergency
+planning of the Fukushima power plants.
+The radioactive releases that followed now
+bring into question the need for contin-
+gency planning that could anticipate such
+human and environmental exposures (in
+time and space) and how to proceed with
+managing contaminated areas (79, 80). By
+reinterpreting planning and response strat-
+egies based on experiences gained during
+this multifaceted disaster, decision makers
+can learn ways of promoting more sustain-
+able approaches of mitigating risk (37). Al-
+though human health must be of paramount
+concern, related issues include soil and
+water contamination and equitable com-
+pensation to owners of contaminated areas,
+as well as science-based decisions on future
+land-use trajectories in affected regions. In
+hindsight, sustainability assessments in tec-
+tonically active coastal settings should con-
+sider such low-frequency, high-magnitude
+events and weigh the risks of siting vul-
+nerablefacilities there.Additionally,assess-
+ments must evaluate long-term ecosystem
+changes that follow uplift, subsidence, coast-
+line alterations, and sedimentation (81, 82).
+In the shadow of the damage caused by
+tsunami waves, more than 200 residential lots
+in Sendai City were impacted (Fig. 5B).
+Among these, at least 50 residential lots were
+damaged by landslides in the urban region,
+and several hundred houses were destroyed
+by landslides, all of which were associated
+with arti?cial landforms, especially valley ?lls
+(embankments), created during residential
+development on slopes (83) (Fig. 5B). In-
+frequent, very large magnitude earthquakes
+(M ? 8) have occurred off the eastern coast
+of Japan, but smaller major earthquakes
+(M ? 7) have struck much closer to the
+mainland with greater frequency and caused
+more severe damage in this urban region. In
+particular, the 1978 Miyagi Prefecture Off
+Shore Earthquake (M = 7.4) disaster was the
+?rst case of a modern urban complex affected
+by a major earthquake (84). Before this
+earthquake, Japan had experienced several
+decades of postwar growth (1954–1973) that
+affected socioeconomic conditions and in-
+creased the demand for labor and housing in
+large cities, such as Sendai City. Concur-
+rently, energy sources evolved from charcoal
+to fossil fuels, eliminating harvesting of for-
+ests around the urban area. Even after the
+1978 earthquake, Sendai City continued to
+expand in response to population growth,
+especially during the bubble economy from
+the mid-1980s through the early 1990s, with
+large numbers of residential lots being con-
+structed on surrounding hillsides. Crests of
+hills were removed and valleys were ?lled by
+soils from cuts and industrial waste. The poor
+quality of ?lls and degraded subsurface
+water drainage were major contributors to
+the widespread valley ?ll landslides that
+occurred in the urban region during the
+2011 earthquake (83). In contrast, smaller
+cities in Japan experienced less population
+growth, thus precluding the need for ex-
+tensive ?ll construction for residential lots
+on hillsides. As such, the population dy-
+namics and urban development in the
+Tohoku region during the past half-century
+were re?ected in the distribution of urban
+landslides induced by the 2011 earthquake
+(83). Current government relocation of
+coastal communities to inland hillsides is
+designed to provide safe residential/business
+sites as well as bolster the devastated local
+economy. However, cuts and ?lls used to
+implement this massive relocation exemplify
+how power relations and mismatches of
+informational ?ows create a scenario where
+government decision makers ignore lessons
+from past experiences instead of retaining
+this knowledge and acting accordingly (37).
+The disproportional number of landslides
+that occurred in arti?cial valley ?lls during
+the 1995 Kobe earthquake further highlights
+the need to avoid residential ?lls and opt for
+more sustainable alternatives such as building
+“contour line cities,” with houses distributed
+along topographic contours to reduce the
+cascading linkage between development and
+landslides in hilly urban regions (85).
+tinual natural disturbances (e.g., earthquakes,
+volcanism, tectonic uplift, landslides) in the
+mountains of Papua New Guinea have cre-
+ated an ecosystem in a kind of “dynamic
+equilibrium.” An estimated 8–16% of New
+Guinea’s tropical forests are disturbed every
+century by earthquakes and related landslides
+(86). Earlier studies in a portion of this ter-
+rain revealed that large single earthquakes in
+1935 (M = 7.9) and 1970 (M = 7.0) denuded
+8% and 25% of affected forested areas (130
+and 60 km2), respectively (87, 88). An addi-
+tional 3% of the New Guinea landscape is
+disturbed by landslides not associated with
+earthquakes—mostly initiated by the high
+rainfall (2,500–6,000 mm·y?1) that exhibits
+strong but spatially variable seasonal cycles.
+Natural episodic disturbances maintain large
+areas of successional forest that, in the ab-
+sence of these disturbances, would even-
+tually be replaced by other tree species (86).
+Extraction of natural resources further exacer-
+bates terrain instability and resultant forest
+composition. Timber harvesting, mining, en-
+ergy development, and associated infrastruc-
+ture all affect the stability of steep slopes (40).
+Because earthquake-initiated landslides are
+more common on steep hillsides and ridge-
+lines (40), these sites are where vegetation dis-
+turbance is most prominent. Rainfall-initiated
+landslidestypicallyoccuronsteepslopes,aswell
+as in concave depressions (hollows) where
+shallowgroundwaterconcentrates(40),butnot
+along ridgelines. The ecosystem resetting asso-
+ciated with these different mechanisms and
+topographic features, therefore, should be in-
+cluded in sustainability assessments.
+The juxtaposing forces and in?uences of
+rapid tectonic uplift and denudation by mass
+erosion and other sur?cial processes are
+evident in the development of drainage
+networks in this geologically youthful ter-
+rain. The early phase of rapid tectonic uplift
+creates a pre–steady-state evolution of to-
+pography in Papua New Guinea that can be
+characterized by the following sequences in
+the Finisterre Mountains: (i) watershed ini-
+tiation in isolated gorges in terrain with
+subdued relief where drainages are created
+by dissolution processes and tectonic up-
+lift dominates erosion; (ii) watershed ex-
+pansion where mass wasting (landslides
+controlled by groundwater seepage) rap-
+idly supplies sediment to streams, which
+accelerates channel erosion, lowers valleys,
+and steepens topography; (iii) tributary ex-
+pansion by slope-clearing landslides along
+valley sides; and (iv) stream entrenchment
+due to runoff concentration and associated
+?uvial incision of landslide scars and de-
+posits (89). Each unique setting must be
+recognized in sustainability assessments of
+land use in this dynamic terrain, especially
+in how management decisions affect stream
+channel morphology, erosion, and sediment
+transport. Treating responses to manage-
+ment decisions similarly for these dif-
+ferent geomorphic settings is fraught with
+problems.
+Ecosystems are impacted by natural and
+anthropogenic stressors. Resilience in these
+systems accommodates certain levels of
+both stressor types and should be consid-
+ered to properly frame ecosystem assess-
+ments. A more dif?cult issue occurs when
+stressors push systems to tipping points,
+causing a regime shift. Whereas chronic
+anthropogenic activities such as progressive
+soildegradation, land-cover change,and air
+pollution are often linked to tipping points
+(25, 39), natural changes can also push
+systems totheir limits (16, 24). Recognizing
+tipping points and implementing strategies
+to avoid (in terms of anthropogenic stres-
+sors) or cope (in the case of natural stres-
+sors) is a challenge that requires thorough
+understanding of ecosystem processes and
+responses to stressors. Cumulative-effects
+analysis can help separate effects of an-
+thropogenic activities from those of natural
+processes and is useful in sustainability
+assessments (90).
+The most dif?cult ecosystems to assess for
+sustainability are those predisposed to epi-
+sodic natural disasters—major earthquakes,
+tsunami, large landslides, widespread wild?re,
+and volcanic activity—that can reset entire
+systems for long periods. Oftentimes, major
+events initiate a cascade of linked disasters, as
+in the case of the 2011 Great East Japan
+Earthquake, where tsunami, ?res, landslides,
+?llslope collapses, radioactive releases, and
+associated health effects occurred. Such dis-
+asters are often devastating because lack of
+warning inhibits response, and the infrequent
+nature of these events precludes the in-
+corporation of past episodes into contempo-
+rary decision making (14, 37). Capturing the
+probability of ecosystem resetting in sustain-
+ability assessments is necessary, as evidenced
+by recent disasters throughout Asia and
+North America.
+A paradigm shift is required for us to
+embrace concepts of sustainability and ex-
+plore the consequences of decision making
+that affects human and ecosystem integrity.
+Harmonizing environmental, economic, and
+social opportunities for the bene?t of present
+and future generations creates an opportu-
+nity to understand the in?uence of inherent
+chemical, geophysical, and social attrib-
+utes and stressors on human health and
+ecological integrity. It is further recog-
+nized that whereas underestimating the
+impact of certain stressors and related
+exposures may result in contamination or
+adverse health effects, overestimating the
+potential hazards could create an eco-
+nomic burden on communities. Land-
+management and regulatory agencies of-
+ten rely on indicators of sustainability in
+ecosystems (3, 91, 92), but it is important
+to understand how anthropogenic and
+natural ecosystem processes force changes
+in system behavior as well as the goods
+and services they provide (16, 24, 90).

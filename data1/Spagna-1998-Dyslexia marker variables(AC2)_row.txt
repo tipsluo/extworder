@@ -1,0 +1,1927 @@
+Page: 1 left:1 upper:1
+Dyslexia marker variables: RASE
+page=1 block=11403273 (x=1 y=1) width=174.000000 height=9.000000 fontname=QGTYBV+TimesNewRomanPS-BoldMT wordint.min=3 wordint.max=5
+Spagna, Michael E
+page=1 block=22544762 (x=2 y=14) width=72.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Remedial and Special Education; Sep/Oct 1998; 19, 5; Nursing & Allied Health Premium 
+page=1 block=22544762 (x=1 y=23) width=344.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pg. 291
+page=1 block=22544762 (x=1 y=35) width=29.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Reviving a System for Reporting Sample Characteristics in
+page=1 block=2000820890 (x=86 y=227) width=355.000000 height=10.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=3 wordint.max=5
+Learning Disabilities Research
+page=1 block=2000820890 (x=86 y=247) width=188.000000 height=10.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=3 wordint.max=5
+tioning but who could not decode words in spite of more than 
+page=1 block=882523199 (x=316 y=415) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+adequate instruction and exposure to print.
+page=1 block=882523199 (x=316 y=427) width=162.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+However, with the introduction of the first federal defi­
+page=1 block=882523199 (x=336 y=439) width=223.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nition  (National  Advisory  Committee  for  the  Handicapped, 
+page=1 block=882523199 (x=316 y=451) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1968) the more generic term learning disabilities was estab­
+page=1 block=882523199 (x=317 y=463) width=242.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lished as a disability category and, in the ensuing explosion of 
+page=1 block=882523199 (x=316 y=475) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+special education programs  and related services,  profession­
+page=1 block=882523199 (x=316 y=487) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+als in the newly formed LD field began to lump a multitude of 
+page=1 block=882523199 (x=316 y=499) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+heterogeneous  disorders  together  in  this  umbrella  category. 
+page=1 block=882523199 (x=316 y=510) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Instead of continuing to document the characteristics of indi­
+page=1 block=882523199 (x=316 y=523) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+viduals experiencing academic difficulties case by case, empha­
+page=1 block=882523199 (x=316 y=535) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sis shifted  to  setting  up intervention programs targeted on a 
+page=1 block=882523199 (x=316 y=547) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+disability that was not truly understood or properly defined at 
+page=1 block=882523199 (x=316 y=559) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the time.
+page=1 block=882523199 (x=316 y=571) width=33.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Stanovich  (1990),  among  others,  accurately  attributed 
+page=1 block=882523199 (x=336 y=583) width=229.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+much of the current definitional confusion in the LD field to 
+page=1 block=882523199 (x=316 y=595) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+this  chain of events: “Educational practice  simply ‘took off’ 
+page=1 block=882523199 (x=316 y=607) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+before a thorough investigation of certain foundational assump­
+page=1 block=882523199 (x=316 y=619) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tions  had been  carried out” (p. 7). After  the introduction of 
+page=1 block=882523199 (x=316 y=630) width=250.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+federal  legislation  aimed  at  providing  services  to  students 
+page=1 block=882523199 (x=316 y=642) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+with  LD,  “the  field  [of  learning  disabilities]  in  some sense 
+page=1 block=882523199 (x=317 y=654) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+‘got ahead’ of itself” (Stanovich, 1990, p. 7). Kavale (1995) 
+page=1 block=882523199 (x=317 y=666) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+points  out  that  the  LD field  suffers  from  an  identity  crisis, 
+page=1 block=882523199 (x=316 y=678) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+finding  itself  “lodged  between  a  natural  science  (i.e.,  the 
+page=1 block=882523199 (x=317 y=690) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+formal  study  of  learning  disabilities)  and  a  human  science 
+page=1 block=882523199 (x=317 y=702) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(i.e., a helping profession)” (p. 148). After the sudden prolif­
+page=1 block=882523199 (x=317 y=714) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+eration of services, the study of LD as a human science took 
+page=1 block=882523199 (x=317 y=726) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+precedence  over  a  natural  science  perspective;  instructional 
+page=1 block=882523199 (x=317 y=738) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+programs  were  implemented  and  services delivered,  but  the 
+page=1 block=882523199 (x=317 y=750) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+formal study of LD took on a secondary and lesser importance.
+page=1 block=882523199 (x=317 y=762) width=240.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+REMEDIAL AND SPECIAL EDUCATION 291
+page=1 block=-1449126544 (x=472 y=784) width=92.000000 height=7.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=3
+Volume 19. Number 5. September/Ociober Ì99S. Puttes 291-299
+page=1 block=-611185540 (x=365 y=799) width=154.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.
+page=1 block=90052344 (x=3 y=840) width=458.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+Dyslexia Marker Varia
+page=1 block=1174539207 (x=87 y=201) width=206.000000 height=15.000000 fontname=QGTYBV+TimesNewRomanPS-BoldMT wordint.min=5 wordint.max=0
+ABSTRACT
+page=1 block=116983720 (x=51 y=392) width=35.000000 height=5.000000 fontname=SZDKDB+ArialMT wordint.min=1 wordint.max=15
+Despite warnings that the field of learning disabilities 
+page=1 block=785497100 (x=88 y=415) width=188.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+(LD) must address the issue of population heterogeneity, the LD 
+page=1 block=785497100 (x=51 y=425) width=229.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+research community still lacks operational definitions of specific 
+page=1 block=785497100 (x=51 y=436) width=227.000000 height=5.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+learning disabilities as well as a systematic approach for reporting 
+page=1 block=785497100 (x=51 y=445) width=235.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+sample characteristics. Recently, however, a definition of dyslexia 
+page=1 block=785497100 (x=51 y=455) width=235.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+has been proposed that might signal a significant advance. This 
+page=1 block=785497100 (x=51 y=466) width=228.000000 height=5.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+article builds on this definition of dyslexia by: (a) reintroducing 
+page=1 block=785497100 (x=51 y=475) width=220.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+the concept of marker variables, (b) proposing a strategy for 
+page=1 block=785497100 (x=51 y=485) width=215.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+developing an updated marker variable system, (c) presenting 
+page=1 block=785497100 (x=51 y=495) width=222.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+a preliminary working set of dyslexia marker variables, and 
+page=1 block=785497100 (x=51 y=505) width=210.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+(d) calling for the eventual adoption of this or similar marker 
+page=1 block=785497100 (x=52 y=515) width=212.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+variable systems to facilitate future research efforts.
+page=1 block=785497100 (x=51 y=526) width=183.000000 height=5.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+plagued by  an inability to  clearly  identify  specific  learning 
+page=1 block=848658462 (x=52 y=607) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+disabilities.  The  statement  by  Kavale,  Fomess,  and  Bender 
+page=1 block=848658462 (x=52 y=619) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(1987) that “[a| major detour  in LD continues  to  be defini­
+page=1 block=848658462 (x=52 y=630) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tions” (p. 5) still rings true today. One requires only a brief 
+page=1 block=848658462 (x=52 y=642) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+history of the field to gain insight as to how generic defini­
+page=1 block=848658462 (x=52 y=654) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tions took precedence over more specific operationalized defi­
+page=1 block=848658462 (x=52 y=666) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nitions of LD.
+page=1 block=848658462 (x=52 y=678) width=54.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Beginning  with  the work  of Kussmaul (1877),  Morgan 
+page=1 block=848658462 (x=73 y=690) width=227.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(1896), and Hinshelwood (1900), the early history of the LD 
+page=1 block=848658462 (x=53 y=702) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+field  mostly  featured  case study  research,  focused primarily 
+page=1 block=848658462 (x=52 y=714) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+on one specific type of learning disability that would come to 
+page=1 block=848658462 (x=52 y=726) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+be  known  as  dyslexia.  In  particular,  these  scientists  were 
+page=1 block=848658462 (x=53 y=738) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+among the first to carefully document word blindness in young­
+page=1 block=848658462 (x=53 y=750) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sters who seemed to possess average levels of cognitive func­
+page=1 block=848658462 (x=53 y=762) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+les
+page=1 block=481299399 (x=306 y=201) width=24.000000 height=15.000000 fontname=QGTYBV+TimesNewRomanPS-BoldMT wordint.min=5 wordint.max=0
+MICHAEL E. SPAGNA
+page=1 block=461833597 (x=87 y=281) width=81.000000 height=5.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+HE FIELD OF LEARNING DISABILITIES (LD) IS 
+page=1 block=1382157810 (x=114 y=595) width=185.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 2 left:1 upper:1
+That is not to say that, faced with this situation, profes­
+page=2 block=622592666 (x=58 y=1) width=224.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sionals failed to issue words of caution. Soon after LD became 
+page=2 block=622592666 (x=38 y=13) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+federally  recognized  disability  category, 
+page=2 block=622592666 (x=50 y=25) width=169.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Reid,  Gandara,  and  Omori  (1978)  warned  against  ignoring 
+page=2 block=622592666 (x=38 y=37) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  natural  science  investigation  of  LD.  Foremost  among 
+page=2 block=622592666 (x=38 y=49) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+their concerns was that many researchers used the term “learn­
+page=2 block=622592666 (x=38 y=61) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing disabilities” in  a generic sense,  failing to recognize that 
+page=2 block=622592666 (x=38 y=73) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+individuals  with  LD  comprised  a  heterogeneous  population 
+page=2 block=622592666 (x=38 y=85) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+experiencing a multitude of learning difficulties: “Every cur­
+page=2 block=622592666 (x=38 y=97) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sory review of the literature suggests that many of the prob­
+page=2 block=622592666 (x=39 y=109) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lems of definition of learning disabilities, and thus of selection 
+page=2 block=622592666 (x=38 y=121) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and intervention, are directly attributable to the heterogeneity 
+page=2 block=622592666 (x=38 y=133) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of individuals categorized as learning disabled” (Keogh et al., 
+page=2 block=622592666 (x=38 y=145) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1978, p. 18).
+page=2 block=622592666 (x=40 y=157) width=48.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+To address this concern, Keogh, Major-Kingsley, Omori- 
+page=2 block=622592666 (x=59 y=169) width=227.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Gordon, and Reid (1982) proposed a system of marker vari­
+page=2 block=622592666 (x=38 y=181) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ables to obtain a clearer  picture  of the  individual with LD. 
+page=2 block=622592666 (x=38 y=193) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Without  the  collection  of  participant-specific  information, 
+page=2 block=622592666 (x=39 y=205) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Keogh et al. warned, researchers would be at risk of defining 
+page=2 block=622592666 (x=39 y=217) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+their  samples  in  different  ways,  gathering  inconsistent  data, 
+page=2 block=622592666 (x=39 y=229) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and conducting studies that would be impossible to replicate. 
+page=2 block=622592666 (x=39 y=241) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The  marker  variables  proposed  by  Keogh  et  al.  would  be 
+page=2 block=622592666 (x=39 y=253) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+“agreed-upon reference points or ‘bench marks’ on which to 
+page=2 block=622592666 (x=39 y=265) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+base comparisons and generalizations of results across stud­
+page=2 block=622592666 (x=39 y=277) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ies or programs, and across ages, backgrounds, or geographic 
+page=2 block=622592666 (x=39 y=289) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+locations of samples” (Keogh et al., 1982, p. 7). Once estab­
+page=2 block=622592666 (x=39 y=301) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lished, these markers would promote consistency in research 
+page=2 block=622592666 (x=39 y=313) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+terminology,  measurement  techniques,  and  reporting  proce­
+page=2 block=622592666 (x=39 y=325) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dures.
+page=2 block=622592666 (x=39 y=337) width=23.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=22
+In spite of  this early warning, a clear conceptualization 
+page=2 block=622592666 (x=59 y=349) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of LD and the development of an agreed-upon set of marker 
+page=2 block=622592666 (x=39 y=361) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables  were  not  achieved.  As  a  result,  methodological 
+page=2 block=622592666 (x=39 y=373) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+flaws, such as the lack of clearly defined samples of individ­
+page=2 block=622592666 (x=39 y=385) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+uals identified as having  LD (e.g., Durrant, 1994; Hammill, 
+page=2 block=622592666 (x=39 y=398) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Bryant, Brown, Dunn, & Marten, 1989), abound in the empirical 
+page=2 block=622592666 (x=39 y=410) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+investigation of LD in spite of two attempts by the Research 
+page=2 block=622592666 (x=40 y=422) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Committee of the Council for Learning Disabilities (Rosen­
+page=2 block=622592666 (x=39 y=433) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+berg et al., 1992; Smith etai., 1984) to set minimum standards 
+page=2 block=622592666 (x=39 y=446) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+for reporting participant information.
+page=2 block=622592666 (x=39 y=458) width=141.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+These findings confirmed Keogh et al.’s (1978) predic­
+page=2 block=622592666 (x=59 y=470) width=224.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion that without a clear conceptualization of LD and a marker 
+page=2 block=622592666 (x=40 y=482) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variable system  much  of  the  research  conducted  during  the 
+page=2 block=622592666 (x=40 y=494) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1980s  is  “largely  nonreplicable  and  therefore  presumably 
+page=2 block=622592666 (x=41 y=506) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+invalid”  (Hammill  et  al.,  1989,  p.  178;  see Note).  Durrant 
+page=2 block=622592666 (x=40 y=518) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(1994) indicated that the issue that Keogh et al. (1982) warned 
+page=2 block=622592666 (x=40 y=530) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+about—defining and describing heterogeneity in the LD popu­
+page=2 block=622592666 (x=40 y=542) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lation—is currently “almost completely ignored, despite dem­
+page=2 block=622592666 (x=40 y=554) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+onstrations of its importance” (Durrant, 1994, p. 31 ). In short, 
+page=2 block=622592666 (x=40 y=566) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  population  of  youngsters  identified  in  the  literature  as 
+page=2 block=622592666 (x=40 y=578) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+having LD continues to be treated as a homogeneous popula­
+page=2 block=622592666 (x=40 y=590) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion, and researchers fail to be consistent in their participant 
+page=2 block=622592666 (x=40 y=601) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sampling and reporting procedures. A primary reason for this 
+page=2 block=622592666 (x=40 y=613) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dilemma is the lack of a clear operational definition of learn­
+page=2 block=622592666 (x=40 y=625) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing disabilities; that is,  a definition grounded  in theory and 
+page=2 block=622592666 (x=40 y=637) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+considered  to  have  construct  validity  based  on  empirical 
+page=2 block=622592666 (x=40 y=649) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+research and clinical observations.
+page=2 block=622592666 (x=40 y=661) width=131.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+REMEDIAL AND SPECIAL EDUCATION
+page=2 block=378275853 (x=78 y=687) width=74.000000 height=3.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=3
+292
+page=2 block=43455184 (x=39 y=688) width=17.000000 height=7.000000 fontname=WNIGIR+Arial-BoldItalicMT wordint.min=1 wordint.max=3
+Volume 19, Number 5, September/October ¡998
+page=2 block=587860712 (x=78 y=698) width=115.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.
+page=2 block=30020619 (x=1 y=733) width=458.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+The purpose of this article is to: (a) reintroduce the con­
+page=2 block=633208947 (x=322 y=1) width=224.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cept of marker variables originally developed and field-tested 
+page=2 block=633208947 (x=302 y=13) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+by Keogh et al. (1982); (b) propose a strategy for developing 
+page=2 block=633208947 (x=302 y=25) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+an updated marker variable system consistent with the Orton 
+page=2 block=633208947 (x=302 y=37) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Dyslexia  Society  Research  Committee’s  definition  of  dys­
+page=2 block=633208947 (x=302 y=49) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia (cited in Lyon, 1995); (c) present a preliminary, work­
+page=2 block=633208947 (x=302 y=61) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing set of dyslexia marker variables; and (d) urge the eventual 
+page=2 block=633208947 (x=302 y=73) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+adoption of such a system in an effort to resolve the current 
+page=2 block=633208947 (x=302 y=85) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+state of definitional confusion and to facilitate future research 
+page=2 block=633208947 (x=303 y=97) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+efforts.
+page=2 block=633208947 (x=302 y=109) width=27.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=22
+REINTRODUCING MARKER VARIABLES
+page=2 block=-462421001 (x=340 y=145) width=172.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=3 wordint.max=5
+The  UCLA  Marker  Variable  Project  was  carried  out  from 
+page=2 block=633234182 (x=302 y=169) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1977  to  1980.  The  goal  of  this  project  was  to  “develop a 
+page=2 block=633234182 (x=304 y=181) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+system  for  reporting  sample  characteristics  in  learning  dis­
+page=2 block=633234182 (x=303 y=193) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+abilities (LD) research” (Keogh et al., 1982, p. 3). When this 
+page=2 block=633234182 (x=303 y=205) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+system  of  LD  markers  was  developed,  its  authors  (Keogh 
+page=2 block=633234182 (x=303 y=217) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+et al., 1982) proposed that it would facilitate future research 
+page=2 block=633234182 (x=303 y=229) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+efforts  by  providing  consistency  in  the  sample  information 
+page=2 block=633234182 (x=303 y=241) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+gathered and reported. These marker variables were touted as 
+page=2 block=633234182 (x=303 y=253) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+providing the field with an opportunity to reduce the defini­
+page=2 block=633234182 (x=303 y=265) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tional confusion present since its inception.
+page=2 block=633234182 (x=303 y=277) width=165.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+According to Keogh et al. (1982), LD marker variables 
+page=2 block=633234182 (x=323 y=289) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were developed using available theoretical and empirical evi­
+page=2 block=633234182 (x=303 y=301) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dence. The project consisted of three distinct phases:
+page=2 block=633234182 (x=303 y=313) width=201.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(a)  Phase 1 consisted of a comprehensive review 
+page=2 block=-230656390 (x=323 y=337) width=192.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of the research literature, the collection of a 
+page=2 block=-230656390 (x=343 y=349) width=168.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+set of common sample descriptors and 
+page=2 block=-230656390 (x=343 y=361) width=149.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+measures, connection of these common 
+page=2 block=-230656390 (x=343 y=373) width=152.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+descriptors and measures with conceptual 
+page=2 block=-230656390 (x=343 y=385) width=161.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+frameworks of LD, and the development of 
+page=2 block=-230656390 (x=343 y=397) width=168.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+a set of preliminary marker variables based 
+page=2 block=-230656390 (x=343 y=409) width=167.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+on this analysis;
+page=2 block=-230656390 (x=343 y=421) width=61.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(b)  Phase 2 consisted of a series of conferences 
+page=2 block=-260546991 (x=324 y=439) width=186.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+held at UCLA where two sets of consultants 
+page=2 block=-260546991 (x=343 y=451) width=171.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were invited to refine, reformulate, add and 
+page=2 block=-260546991 (x=343 y=463) width=168.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+possibly delete markers from the list col­
+page=2 block=-260546991 (x=343 y=475) width=156.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lected in Phase 1 ; and,
+page=2 block=-260546991 (x=344 y=487) width=87.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(c)  Phase 3 comprised the construction of LD 
+page=2 block=-451652902 (x=324 y=505) width=179.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+marker variable reporting forms that were 
+page=2 block=-451652902 (x=344 y=517) width=161.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+field-tested by sending them out to 110 
+page=2 block=-451652902 (x=344 y=529) width=151.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+established LD researchers.
+page=2 block=-451652902 (x=344 y=541) width=105.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+On completion  of  the three phases of the project, a marker 
+page=2 block=665876270 (x=304 y=565) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variable  guide  was  published  along  with  documentation  of 
+page=2 block=665876270 (x=304 y=577) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+data gathered from the project (Keogh et al., 1982).
+page=2 block=665876270 (x=304 y=589) width=195.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Overall, four categories of markers were identified for 
+page=2 block=665876270 (x=324 y=601) width=209.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+use by professionals conducting research in the LD field:
+page=2 block=665876270 (x=304 y=613) width=217.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(a)  Descriptive markers, used primarily to pro­
+page=2 block=-418493786 (x=325 y=637) width=182.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+vide basic demographic and background 
+page=2 block=-418493786 (x=344 y=648) width=156.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+information about participants;
+page=2 block=-418493786 (x=344 y=660) width=118.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 3 left:1 upper:1
+Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.
+page=3 block=30020612 (x=1 y=732) width=458.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+(b)  Substantive markers, used to provide infor­
+page=3 block=779550750 (x=65 y=1) width=183.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mation directly applicable to individuals 
+page=3 block=779550750 (x=85 y=13) width=156.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+with LD;
+page=3 block=779550750 (x=85 y=25) width=35.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(c)  Topical markers, designed to provide more 
+page=3 block=783811820 (x=65 y=42) width=184.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific and complete participant informa­
+page=3 block=783811820 (x=85 y=54) width=162.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion; and,
+page=3 block=783811820 (x=85 y=65) width=36.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(d)  Background markers, used to provide context 
+page=3 block=826411450 (x=65 y=83) width=194.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+or background for the interpretation of find­
+page=3 block=826411450 (x=85 y=95) width=168.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ings and to identify control group data.
+page=3 block=826411450 (x=85 y=107) width=149.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Keogh  et  al.  (1982)  urged  researchers  in  the  field  to 
+page=3 block=747657308 (x=66 y=130) width=227.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+adopt this system. They offered it as one method to deal with 
+page=3 block=747657308 (x=46 y=142) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sample variability problems facing investigators studying LD. 
+page=3 block=747657308 (x=46 y=154) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Unfortunately,  this  marker  variable  system  is  not  currently 
+page=3 block=747657308 (x=46 y=166) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+being used by researchers (Durrant, 1994). One reason forLD 
+page=3 block=747657308 (x=46 y=177) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+researchers’ failure to employ marker variables might be the 
+page=3 block=747657308 (x=46 y=189) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+continued  definitional  confusion. Although they developed a 
+page=3 block=747657308 (x=46 y=201) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+set of marker variables to describe individuals with LD, Keogh 
+page=3 block=747657308 (x=46 y=214) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+et al. (1982) stated that “it is our view that there is no single 
+page=3 block=747657308 (x=46 y=225) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+learning  disability  (emphasis  added],  but  rather  a  set of  at 
+page=3 block=747657308 (x=46 y=238) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+least  partially  independent  conditions  subsumed  under  the 
+page=3 block=747657308 (x=46 y=250) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+broad rubric of learning disabilities” (p. 72). In an attempt to 
+page=3 block=747657308 (x=46 y=262) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+address  this  definitional  confusion,  educators  have  recently 
+page=3 block=747657308 (x=46 y=274) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+begun to propose operational definitions for specific learning 
+page=3 block=747657308 (x=46 y=286) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+disabilities such as dyslexia.
+page=3 block=747657308 (x=46 y=298) width=108.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+DEVELOPING AN UPDATED MARKER 
+page=3 block=952180536 (x=87 y=333) width=167.000000 height=8.000000 fontname=SZDKDB+ArialMT wordint.min=3 wordint.max=5
+VARIABLE SYSTEM
+page=3 block=952180536 (x=126 y=349) width=85.000000 height=8.000000 fontname=SZDKDB+ArialMT wordint.min=3 wordint.max=5
+Echoing the remarks of Keogh et al. (1982), Stanovich (cited 
+page=3 block=750737234 (x=46 y=374) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+in Lyon, 1995) suggested that the LD field’s attempt to define 
+page=3 block=750737234 (x=46 y=386) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+generic LD comprehensively was a large part of the problem: 
+page=3 block=750737234 (x=46 y=398) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+“scientific  investigations  of  some  generically  defined  entity 
+page=3 block=750737234 (x=46 y=410) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+called  ‘learning  disability’  simply  make  little  sense  given 
+page=3 block=750737234 (x=46 y=422) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+what  we  already  know  about  heterogeneity  across  various 
+page=3 block=750737234 (x=46 y=434) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+learning  domains”  (p. 5).  Instead  of  examining LD  in  this 
+page=3 block=750737234 (x=47 y=446) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+fashion and ignoring that heterogeneity exists, future research 
+page=3 block=750737234 (x=46 y=458) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+should “define groups specifically in terms of the domain of 
+page=3 block=750737234 (x=47 y=470) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+deficit  (reading  disability,  arithmetic  disability)”  (Stanovich, 
+page=3 block=750737234 (x=47 y=482) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cited  in Lyon, 1995, p. 5). In other words, different defini­
+page=3 block=750737234 (x=47 y=494) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tions should be formulated for a variety of learning disabili­
+page=3 block=750737234 (x=47 y=506) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ties, each one pertaining to a specific deficit.
+page=3 block=750737234 (x=47 y=518) width=169.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Although  previous  attempts  had  been  made  to  provide 
+page=3 block=750737234 (x=67 y=530) width=228.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+more  refined  global  or  generic  definitions  of  LD  (National 
+page=3 block=750737234 (x=47 y=542) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Joint Committee on Learning Disabilities, 1994; see also Ham­
+page=3 block=750737234 (x=47 y=554) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mill,  Leigh,  McNutt,  &  Larsen,  1981),  the  Orton  Dyslexia 
+page=3 block=750737234 (x=47 y=566) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Society Research Committee (ODSRC) was among  the first 
+page=3 block=750737234 (x=47 y=578) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+organizations  in  the  LD  field  to propose  a  domain-specific 
+page=3 block=750737234 (x=47 y=590) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+definition of one type of learning disability—dyslexia:
+page=3 block=750737234 (x=47 y=602) width=208.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Dyslexia is one of several distinct learning 
+page=3 block=825517706 (x=67 y=625) width=165.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+disabilities. It is a specific language-based 
+page=3 block=825517706 (x=67 y=637) width=163.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+disorder of constitutional origin characterized by 
+page=3 block=825517706 (x=67 y=649) width=188.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+difficulties in single word decoding, usually 
+page=3 block=825517706 (x=67 y=661) width=170.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+reflecting insufficient phonological processing. 
+page=3 block=-219873154 (x=329 y=1) width=182.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+These difficulties in single word decoding are 
+page=3 block=-219873154 (x=329 y=13) width=176.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+often unexpected in relation to age and other 
+page=3 block=-219873154 (x=329 y=25) width=172.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cognitive and academic abilities; they are not the 
+page=3 block=-219873154 (x=329 y=37) width=189.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+result of generalized development disability or 
+page=3 block=-219873154 (x=329 y=49) width=180.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sensory impairment. Dyslexia is manifest by 
+page=3 block=-219873154 (x=330 y=61) width=171.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variable difficulty with different forms of lan­
+page=3 block=-219873154 (x=329 y=73) width=175.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+guage, often including, in addition to problems 
+page=3 block=-219873154 (x=329 y=85) width=181.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+with reading, a conspicuous problem with acquir­
+page=3 block=-219873154 (x=330 y=97) width=188.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing proficiency in writing and spelling, (cited in 
+page=3 block=-219873154 (x=329 y=109) width=185.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Lyon, 1995, p. 9)
+page=3 block=-219873154 (x=329 y=121) width=66.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Using  the ODSRC definition  of  dyslexia  as  a  starting 
+page=3 block=747461246 (x=330 y=143) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+point, Lyon (1995) proposed five criteria to evaluate this and 
+page=3 block=747461246 (x=309 y=155) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+future definitions of domain-specific learning disabilities. The 
+page=3 block=747461246 (x=309 y=167) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+domain-specific  LD definition must  be: (a)  “theory driven”; 
+page=3 block=747461246 (x=309 y=179) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(b) “supported by a substantial body of  convergent  research 
+page=3 block=747461246 (x=310 y=191) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and  clinical information”; (c)  based  on  research  with  “well 
+page=3 block=747461246 (x=309 y=203) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+described samples of subjects”; (d) based on theoretical con­
+page=3 block=747461246 (x=309 y=215) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+structs  that are  “internally  valid, and that  can  be  measured 
+page=3 block=747461246 (x=310 y=227) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+objectively”;  and  (e)  “externally  valid  and  useful”  (Lyon, 
+page=3 block=747461246 (x=309 y=239) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1995, pp. 7-8).
+page=3 block=747461246 (x=311 y=251) width=56.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+To verify that the ODSRC definition satisfied these cri­
+page=3 block=747461246 (x=330 y=263) width=223.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+teria, Lyon (1995) provided a rationale for inclusion of specific 
+page=3 block=747461246 (x=310 y=275) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+definitional  statements  organized  according  to  the  following 
+page=3 block=747461246 (x=310 y=287) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+categories:
+page=3 block=747461246 (x=310 y=299) width=41.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=22
+(a)  Definitional Context, associated with the 
+page=3 block=-142596706 (x=330 y=321) width=175.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+statement “dyslexia is one of several distinct 
+page=3 block=-142596706 (x=350 y=333) width=172.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+learning disabilities”;
+page=3 block=-142596706 (x=350 y=345) width=81.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(b)  Basic Definition, associated with the state­
+page=3 block=-56074629 (x=330 y=361) width=181.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ment “It is a specific language-based disorder 
+page=3 block=-56074629 (x=350 y=373) width=176.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of constitutional origin characterized by dif­
+page=3 block=-56074629 (x=350 y=385) width=168.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ficulties in single word decoding, usually 
+page=3 block=-56074629 (x=350 y=398) width=159.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+reflecting insufficient phonological process­
+page=3 block=-56074629 (x=350 y=409) width=168.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing abilities”;
+page=3 block=-56074629 (x=350 y=422) width=52.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(c)  Unexpected Underachievement, associated 
+page=3 block=-56075164 (x=330 y=438) width=183.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+with the statement “These difficulties in 
+page=3 block=-56075164 (x=350 y=450) width=155.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+single word decoding are often unexpected in 
+page=3 block=-56075164 (x=350 y=462) width=176.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+relation to age and other cognitive and aca­
+page=3 block=-56075164 (x=350 y=474) width=165.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+demic abilities”;
+page=3 block=-56075164 (x=350 y=486) width=63.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(d)  Exclusionary Criteria, associated with the 
+page=3 block=-130001838 (x=331 y=502) width=178.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+statement “They are not the result of general­
+page=3 block=-130001838 (x=351 y=515) width=172.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ized development disability or sensory 
+page=3 block=-130001838 (x=351 y=526) width=149.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+impairment”; and
+page=3 block=-130001838 (x=351 y=539) width=66.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(e)  Functional Impact, associated with the state­
+page=3 block=-108294378 (x=331 y=555) width=187.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ment “Dyslexia is manifest by variable dif­
+page=3 block=-108294378 (x=351 y=567) width=164.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ficulty with different forms of language, 
+page=3 block=-108294378 (x=351 y=579) width=155.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+often including, in addition to problems with 
+page=3 block=-108294378 (x=351 y=591) width=173.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+reading, a conspicuous problem with acquir­
+page=3 block=-108294378 (x=351 y=603) width=169.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing proficiency in writing and spelling.”
+page=3 block=-108294378 (x=351 y=615) width=153.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+These  categories  proved  consistent  with  both  the  federal 
+page=3 block=759712392 (x=311 y=636) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(National  Joint  Committee  on  Learning  Disabilities,  1988, 
+page=3 block=759712392 (x=311 y=648) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+p. 1) and the National Joint Committee on Learning Disabili-
+page=3 block=759712392 (x=311 y=660) width=232.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+REMEDIAL AND SPECIAL EDUCATION 293 
+page=3 block=-1848175955 (x=393 y=683) width=95.000000 height=7.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=2 wordint.max=4
+Volume 19, Number 5. Sepleinher/Oetober 1998 
+page=3 block=-1250882840 (x=397 y=698) width=117.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Page: 4 left:1 upper:1
+ties’ (1994) definitions of LD. They also provided an essen­
+page=4 block=611058994 (x=37 y=2) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tial link between domain-specific definitions of learning dis­
+page=4 block=611058994 (x=37 y=14) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+abilities and marker variable systems.
+page=4 block=611058994 (x=37 y=26) width=144.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Lyon (1995) attempted to justify the  inclusion of  these 
+page=4 block=611058994 (x=57 y=38) width=229.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific statements in the  ODSRC  definition of dyslexia  by 
+page=4 block=611058994 (x=38 y=50) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+citing  current  theoretical  constructs  and  empirical  research. 
+page=4 block=611058994 (x=37 y=62) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+In the Basic Definition category, for example, Lyon cited the 
+page=4 block=611058994 (x=38 y=74) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+work of several researchers (Adams, 1990; Adams & Bruck, 
+page=4 block=611058994 (x=38 y=86) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1995; Brady & Shankweiler, 1991; Goswami & Bryant, 1990; 
+page=4 block=611058994 (x=39 y=98) width=246.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Gough,  Ehri,  &  Treiman,  1992;  Gough  &  Tunmer,  1986; 
+page=4 block=611058994 (x=38 y=110) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Liberman,  Shankweiler,  &  Liberman,  1989;  Perfetti,  1985; 
+page=4 block=611058994 (x=38 y=122) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Share  &  Stanovich, 1995)  that  supported the  statement that 
+page=4 block=611058994 (x=38 y=134) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+“[Dyslexia] is a specific  language-based disorder .. . usually 
+page=4 block=611058994 (x=38 y=146) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+reflecting insufficient phonological processing abilities’’ (Lyon, 
+page=4 block=611058994 (x=38 y=158) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1995, p. 9). Lyon provided similar theoretical and empirical 
+page=4 block=611058994 (x=39 y=170) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+evidence for each of the five categories, thereby satisfying the 
+page=4 block=611058994 (x=38 y=182) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+first two criteria—that  definitions must be theory driven and 
+page=4 block=611058994 (x=38 y=194) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+supported  by convergent research  and clinical information— 
+page=4 block=611058994 (x=38 y=206) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+by  which  he  asserted  that all  domain-specific  definitions  of 
+page=4 block=611058994 (x=38 y=218) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+learning disabilities should be judged.
+page=4 block=611058994 (x=38 y=230) width=145.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Closer inspection of the five criteria  proposed by Lyon 
+page=4 block=611058994 (x=58 y=242) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(1995) shows  that not two but three of his proposed criteria 
+page=4 block=611058994 (x=38 y=254) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were satisfied: (a) the ODSRC definition was certainly theory 
+page=4 block=611058994 (x=38 y=266) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+driven;  (b)  each  component  was  adequately  supported  by 
+page=4 block=611058994 (x=38 y=278) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+existing empirical research; and, given his thorough review of 
+page=4 block=611058994 (x=38 y=290) width=250.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the literature, (c) the definition was definitely based on theo­
+page=4 block=611058994 (x=39 y=302) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+retical  conceptualizations  of  dyslexia.  However,  two  of  the 
+page=4 block=611058994 (x=39 y=314) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+five criteria cited by Lyon have not yet been satisfied; in par­
+page=4 block=611058994 (x=39 y=326) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ticular, without a system of marker variables to address sample 
+page=4 block=611058994 (x=39 y=338) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variability, a definition of dyslexia cannot be based on well- 
+page=4 block=611058994 (x=39 y=349) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+defined subject samples. Without such a marker variable sys­
+page=4 block=611058994 (x=39 y=362) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tem, and without clearly defined subject samples, it would be 
+page=4 block=611058994 (x=39 y=374) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+impossible to ascertain whether or not the proposed definition 
+page=4 block=611058994 (x=39 y=386) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+is externally valid and useful. In other words, a truly opera­
+page=4 block=611058994 (x=39 y=398) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tional  definition of dyslexia  cannot  be  formulated without a 
+page=4 block=611058994 (x=39 y=410) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+set of established criteria or marker variables.
+page=4 block=611058994 (x=40 y=422) width=173.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+To satisfy this definitional criterion, a strategy for devel­
+page=4 block=611058994 (x=59 y=434) width=224.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+oping  a  set  of  dyslexia  marker  variables  is  proposed  here. 
+page=4 block=611058994 (x=40 y=446) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+This marker variable  system  must be derived from domain­
+page=4 block=611058994 (x=39 y=458) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific definitions of LD. Generic conceptualizations of LD 
+page=4 block=611058994 (x=40 y=470) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+have proven more of a hindrance than a help to guide research 
+page=4 block=611058994 (x=40 y=482) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+efforts. The choice of dyslexia as the prototype for domain­
+page=4 block=611058994 (x=40 y=493) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific  definitions  is  a  logical  one,  given  the  multitude  of 
+page=4 block=611058994 (x=40 y=505) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+studies already  conducted nationwide.  Moreover, this marker 
+page=4 block=611058994 (x=40 y=518) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variable system must be developed concurrently with its asso­
+page=4 block=611058994 (x=40 y=530) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ciated domain-specific definition. Furthermore, both the domain­
+page=4 block=611058994 (x=40 y=541) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific definition and the marker variable system must conform 
+page=4 block=611058994 (x=40 y=554) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+to an accepted set of criteria, such as those proposed by Lyon 
+page=4 block=611058994 (x=40 y=566) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(1995): They must be theory driven, supported by convergent 
+page=4 block=611058994 (x=41 y=577) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+research,  grounded  on  internally  valid  theoretical  constructs 
+page=4 block=611058994 (x=40 y=589) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+subject to objective measurement, based on well-defined sub­
+page=4 block=611058994 (x=41 y=601) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ject samples, and ultimately proven to be externally valid. As 
+page=4 block=611058994 (x=40 y=613) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the ODSRC has already proposed a definition of dyslexia, the 
+page=4 block=611058994 (x=41 y=625) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+first step has been taken. The next step involves the develop­
+page=4 block=611058994 (x=41 y=637) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ment of a working dyslexia marker variable system to better 
+page=4 block=611058994 (x=41 y=648) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+define subject samples.
+page=4 block=611058994 (x=41 y=661) width=88.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+294 REMEDIAL AND SPECIAL EDUCATION
+page=4 block=235147956 (x=39 y=684) width=92.000000 height=7.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=3
+Volume 19, Number 5. September/October 1998
+page=4 block=595397352 (x=79 y=698) width=115.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.
+page=4 block=30020598 (x=1 y=730) width=458.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+A WORKING SET OF DYSLEXIA 
+page=4 block=-903872486 (x=352 y=1) width=147.000000 height=10.000000 fontname=SZDKDB+ArialMT wordint.min=3 wordint.max=5
+MARKER VARIABLES
+page=4 block=-903872486 (x=378 y=19) width=93.000000 height=8.000000 fontname=SZDKDB+ArialMT wordint.min=3 wordint.max=5
+Anticipating  that  the  original  set  of  LD  marker  variables 
+page=4 block=656357908 (x=301 y=42) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+would evolve as it was put to use in the field, Keogh et al. 
+page=4 block=656357908 (x=301 y=54) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(1982)  recognized  their  work  as  a  first  attempt  to  guide 
+page=4 block=656357908 (x=302 y=66) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+researchers in the description of individuals with LD. In this 
+page=4 block=656357908 (x=302 y=78) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+same  spirit,  an  updated  working  set  of  marker  variables, 
+page=4 block=656357908 (x=302 y=90) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+targeted to domain-specific definitions of LD, should be devel­
+page=4 block=656357908 (x=302 y=102) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+oped to  allow  for the  field to  improve  its  sample-reporting 
+page=4 block=656357908 (x=302 y=114) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+practices.
+page=4 block=656357908 (x=302 y=126) width=36.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Before describing this new set of dyslexia marker vari­
+page=4 block=656357908 (x=322 y=138) width=224.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ables, I must emphasize that this is a preliminary working set. 
+page=4 block=656357908 (x=302 y=150) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+In other words, this proposal should be viewed as similar to 
+page=4 block=656357908 (x=302 y=162) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Phase 1 of Keogh et al.’s (1982) original project. A prelimi­
+page=4 block=656357908 (x=302 y=173) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nary  set  of  variables  is  developed  based  on  the  ODSRC 
+page=4 block=656357908 (x=302 y=185) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+definition  of dyslexia.  This  preliminary  set  will  need  to be 
+page=4 block=656357908 (x=302 y=197) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+refined and reformulated by experts in the field, and eventu­
+page=4 block=656357908 (x=302 y=209) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ally field-tested by sending a reporting form out to a represen­
+page=4 block=656357908 (x=302 y=221) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tative sample of researchers investigating dyslexia.
+page=4 block=656357908 (x=302 y=233) width=194.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+In this the first phase of the process, each of the marker 
+page=4 block=656357908 (x=323 y=245) width=228.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variable categories  identified in  the UCLA  Marker  Variable 
+page=4 block=656357908 (x=303 y=257) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Project  is  adopted,  after  which  individual markers are  either 
+page=4 block=656357908 (x=303 y=269) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+deleted  or  added  to achieve consistency  with the  ODSRC’s 
+page=4 block=656357908 (x=303 y=281) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+definition and Lyon’s (1995) statement categories (i.e., Defi­
+page=4 block=656357908 (x=303 y=293) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nitional Context, Basic Definition, Unexpected Underachieve­
+page=4 block=656357908 (x=303 y=305) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ment,  Exclusionary  Criteria,  and  Functional  Impact).  A 
+page=4 block=656357908 (x=303 y=317) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+rationale is provided for all deleted and added markers, with 
+page=4 block=656357908 (x=303 y=329) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+added marker variables appearing in italics. The marker vari­
+page=4 block=656357908 (x=303 y=341) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ables presented in Table 1 are refened to as dyslexia marker 
+page=4 block=656357908 (x=303 y=353) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables,  as  the entire  set,  including  old  and new markers, 
+page=4 block=656357908 (x=303 y=365) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+would be used when describing participant samples identified 
+page=4 block=656357908 (x=303 y=377) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+as having dyslexia.
+page=4 block=656357908 (x=303 y=389) width=73.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Dyslexia Descriptive Markers
+page=4 block=-1545598098 (x=304 y=418) width=138.000000 height=7.000000 fontname=WNIGIR+Arial-BoldItalicMT wordint.min=2 wordint.max=4
+These  markers  were  designed  by  Keogh  et  al.  (1982)  to 
+page=4 block=649561661 (x=303 y=435) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+capture  information  relevant  to  all  research  conducted  with 
+page=4 block=649561661 (x=304 y=447) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+human  participants,  including  demographics,  language,  edu­
+page=4 block=649561661 (x=304 y=459) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cation, and health. Because these markers are applicable to all 
+page=4 block=649561661 (x=304 y=471) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+research involving human participants, all eleven of the origi­
+page=4 block=649561661 (x=304 y=483) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+nal UCLA marker variables (see Table 1) have been retained 
+page=4 block=649561661 (x=304 y=495) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+without changes.
+page=4 block=649561661 (x=304 y=507) width=65.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Dyslexia Substantive Markers
+page=4 block=-1476587864 (x=305 y=536) width=141.000000 height=7.000000 fontname=WNIGIR+Arial-BoldItalicMT wordint.min=2 wordint.max=4
+These markers were described by Keogh et al. (1982) as closely 
+page=4 block=685831193 (x=304 y=553) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+associated with definitions of LD. As originally proposed, the 
+page=4 block=685831193 (x=304 y=565) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables  included  data  on  intellectual  ability,  educational 
+page=4 block=685831193 (x=305 y=577) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+achievement,  and  behavioral  and  emotional  adjustment.  As 
+page=4 block=685831193 (x=305 y=588) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the set of dyslexia marker variables is designed to be consis­
+page=4 block=685831193 (x=305 y=600) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tent  with  the  ODSRC  operational  definition  of  dyslexia,  I 
+page=4 block=685831193 (x=305 y=612) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+recommend several substantial changes. The original markers 
+page=4 block=685831193 (x=305 y=624) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+proposed  by  Keogh  et  al.  (1982)  were  derived  from “most 
+page=4 block=685831193 (x=305 y=636) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+definitions of learning disabilities” (p. 84) and included gen­
+page=4 block=685831193 (x=305 y=648) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+eral intellectual ability, reading achievement, arithmetic
+page=4 block=685831193 (x=305 y=660) width=213.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 5 left:1 upper:1
+TABLE 1. Dyslexia Marker Variable Guide
+page=5 block=-1803550714 (x=216 y=1) width=176.000000 height=6.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=2 wordint.max=4
+Marker category
+page=5 block=224788624 (x=49 y=24) width=70.000000 height=6.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=2 wordint.max=4
+Abbreviation
+page=5 block=526254224 (x=146 y=24) width=55.000000 height=6.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=22
+Descriptive markers
+page=5 block=234422554 (x=49 y=47) width=73.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+DDMI
+page=5 block=314578252 (x=160 y=47) width=24.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM2
+page=5 block=314578252 (x=160 y=58) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM3
+page=5 block=314578252 (x=160 y=69) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM4
+page=5 block=314578252 (x=160 y=79) width=25.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM5
+page=5 block=314578252 (x=160 y=91) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM6
+page=5 block=314578252 (x=160 y=102) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM7
+page=5 block=314578252 (x=160 y=113) width=26.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM8
+page=5 block=314578252 (x=160 y=124) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM9
+page=5 block=314578252 (x=160 y=135) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM10
+page=5 block=314578252 (x=160 y=146) width=30.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DDM11
+page=5 block=314578252 (x=160 y=156) width=30.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DSM1
+page=5 block=251663257 (x=160 y=173) width=24.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DSM2
+page=5 block=251663257 (x=160 y=184) width=24.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DSM3
+page=5 block=251663257 (x=160 y=195) width=24.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+Substantive markers
+page=5 block=234423316 (x=49 y=174) width=73.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Topical markers
+page=5 block=189466060 (x=49 y=212) width=59.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+DTM1
+page=5 block=262150148 (x=160 y=212) width=24.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DTM2
+page=5 block=262150148 (x=160 y=223) width=24.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DTM3
+page=5 block=262150148 (x=160 y=234) width=25.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DTM4
+page=5 block=262148352 (x=160 y=256) width=24.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DTM5
+page=5 block=262148352 (x=160 y=267) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+Background markers
+page=5 block=245761704 (x=50 y=284) width=75.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+DBM1
+page=5 block=263793476 (x=161 y=284) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DBM2
+page=5 block=263793476 (x=161 y=295) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DBM3
+page=5 block=263793476 (x=161 y=306) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+DBM4
+page=5 block=263793476 (x=161 y=317) width=25.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+achievement, and behavioral and emotional adjustment. Sev­
+page=5 block=819307665 (x=50 y=353) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+eral  of  this  original  set  of  markers  remain  pertinent  and 
+page=5 block=819307665 (x=50 y=365) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+consistent with the ODSRC operational definition of dyslexia.
+page=5 block=819307665 (x=50 y=377) width=237.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Because I propose a separate system of marker variables 
+page=5 block=819307665 (x=71 y=389) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific  to  dyslexia,  the  category  of  Definitional  Context 
+page=5 block=819307665 (x=50 y=401) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+identified by  Lyon  (1995)  has already  been  addressed.  The 
+page=5 block=819307665 (x=51 y=413) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+second  category,  Basic Definition,  contains  four definitional 
+page=5 block=819307665 (x=50 y=425) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+elements that require  an associated set of substantive marker 
+page=5 block=819307665 (x=50 y=437) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables: (a) dyslexia is a language-based disorder, (b) usu­
+page=5 block=819307665 (x=50 y=449) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ally  reflecting  insufficient  phonological  processing  abilities, 
+page=5 block=819307665 (x=50 y=461) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(c) characterized by difficulties in single-word decoding, and 
+page=5 block=819307665 (x=51 y=473) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(d)  of  constitutional  origin.  As  each  of  these  elements  are 
+page=5 block=819307665 (x=51 y=485) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+contained in the ODSRC definition, they must also be repre­
+page=5 block=819307665 (x=50 y=497) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sented by dyslexia  substantive marker  variables. Information 
+page=5 block=819307665 (x=51 y=509) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+should be gathered that at least measures language function­
+page=5 block=819307665 (x=51 y=521) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing. phonological processing abilities, and single-word decod­
+page=5 block=819307665 (x=51 y=533) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing skills. There is strong empirical  support for inclusion of 
+page=5 block=819307665 (x=51 y=545) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+each  of  these  elements  as  substantive  markers:  language­
+page=5 block=819307665 (x=51 y=557) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+based disorder (Adams, 1990; Adams & Bruck. 1995; Share 
+page=5 block=819307665 (x=51 y=569) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+&  Stanovich,  1995),  insufficient  phonological  processing 
+page=5 block=819307665 (x=51 y=580) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(Brady  &  Shankweiler,  1991;  Goswami  &  Bryant,  1990; 
+page=5 block=819307665 (x=51 y=592) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Stanovich,  1993),  and  difficulties  in  single-word  decoding 
+page=5 block=819307665 (x=51 y=604) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(Beck  &  Juel, 1995; Olson, Forsberg, Wise,  &  Rack, 1994; 
+page=5 block=819307665 (x=51 y=616) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Stanovich,  1993).  The  fourth  element—constitutional  ori­
+page=5 block=819307665 (x=52 y=628) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+gin—although  supported  by  increasing  empirical  evidence 
+page=5 block=819307665 (x=51 y=640) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+for inclusion in the substantive marker variables (Galaburda,
+page=5 block=819307665 (x=52 y=652) width=230.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.
+page=5 block=30020556 (x=1 y=724) width=458.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+Sample size by sex
+page=5 block=-513010356 (x=229 y=47) width=69.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Chronological age
+page=5 block=-513010356 (x=229 y=58) width=66.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Grade level(s)
+page=5 block=-513010356 (x=229 y=69) width=51.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Locale (rural, suburban, urban, etc.)
+page=5 block=-513010356 (x=229 y=80) width=130.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Race/ethnicity
+page=5 block=-513010356 (x=229 y=91) width=52.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+Sample source (public school, private school, residential facility, etc.)
+page=5 block=-513010356 (x=229 y=102) width=252.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Socioeconomic data
+page=5 block=-513010356 (x=229 y=113) width=73.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Language
+page=5 block=-513010356 (x=229 y=124) width=36.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=21
+Educational history
+page=5 block=-513010356 (x=229 y=135) width=71.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Educational placement
+page=5 block=-513010356 (x=229 y=146) width=82.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Physical and health status
+page=5 block=-513010356 (x=229 y=157) width=93.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Language functioning
+page=5 block=1815941896 (x=229 y=174) width=79.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Phonological processing abilities
+page=5 block=1815941896 (x=229 y=185) width=121.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Single-word decoding skills
+page=5 block=1815941896 (x=229 y=196) width=100.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Constitutional origin
+page=5 block=-543018303 (x=230 y=213) width=75.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Cognitive functioning
+page=5 block=-543018303 (x=230 y=224) width=78.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Reading achievement (skills other than phonological processing abilit
+page=5 block=-543018303 (x=229 y=234) width=250.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+decoding)
+page=5 block=-543018303 (x=238 y=245) width=36.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=0
+Proficiency in written language
+page=5 block=-543018303 (x=229 y=257) width=115.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Proficiency in spelling
+page=5 block=-543018303 (x=230 y=268) width=81.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Year of study
+page=5 block=1440754500 (x=229 y=284) width=49.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Geographic location
+page=5 block=1440754500 (x=230 y=295) width=73.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Exclusionary criteria
+page=5 block=1440754500 (x=230 y=306) width=75.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Control/comparison group
+page=5 block=1440754500 (x=229 y=317) width=96.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1991; Hynd, Semrud-Clikeman, & Lyytine
+page=5 block=-868075030 (x=316 y=353) width=163.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+1995; Shaywitz, Fletcher, & Shaywitz, 1
+page=5 block=-868075030 (x=316 y=365) width=161.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+tative  aspect  of  the  ODSRC  definition 
+page=5 block=-868075030 (x=315 y=377) width=166.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+(1995):
+page=5 block=-868075030 (x=315 y=389) width=28.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+For this  reason,  the last  element  of Lyo
+page=5 block=-868018479 (x=315 y=521) width=164.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+statement  category  has  been  excluded 
+page=5 block=-868018479 (x=316 y=533) width=162.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+preliminary list of dyslexia substantive mar
+page=5 block=-868018479 (x=316 y=544) width=164.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+Although  general intellectual  functi
+page=5 block=-868018479 (x=336 y=556) width=142.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+contained in the UCLA Marker Variable 
+page=5 block=-868018479 (x=316 y=568) width=164.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+tive marker, I decided not to include it i
+page=5 block=-868018479 (x=316 y=580) width=165.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+stantive marker section of the dyslexia 
+page=5 block=-868018479 (x=316 y=592) width=157.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+(see Table I ) because the LD field does n
+page=5 block=-868018479 (x=316 y=604) width=165.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+discrepancy-based definitions of dyslexia 
+page=5 block=-868018479 (x=316 y=616) width=164.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+1994). However, because of the  controv
+page=5 block=-868018479 (x=317 y=628) width=164.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+proposal, and because this variable still a
+page=5 block=-868018479 (x=316 y=640) width=162.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+state  definitions  of  learning  disabilities
+page=5 block=-868018479 (x=316 y=651) width=165.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+Marker variable
+page=5 block=1548484776 (x=358 y=24) width=66.000000 height=7.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=2 wordint.max=4
+es and single-word
+page=5 block=-2142501274 (x=483 y=234) width=68.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+, 1991 ; Pennington, 
+page=5 block=-1730991778 (x=484 y=353) width=80.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+95), remains a ten­
+page=5 block=-1730991778 (x=483 y=365) width=76.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+ccording  to  Lyon 
+page=5 block=-1730991778 (x=488 y=377) width=76.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+Due to the tentative nature of the findings derived 
+page=5 block=-79654606 (x=335 y=413) width=192.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+from the genetic and neurobiological studies of 
+page=5 block=-79654606 (x=335 y=425) width=182.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dyslexia, a note of caution is extended to the 
+page=5 block=-79654606 (x=335 y=437) width=172.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+researcher and the clinician. Until the next genera­
+page=5 block=-79654606 (x=335 y=449) width=192.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion of studies addressing the constitutionality of 
+page=5 block=-79654606 (x=335 y=460) width=188.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dyslexia are published, the inclusion of this state­
+page=5 block=-79654606 (x=335 y=473) width=188.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ment within this definition reflects a working 
+page=5 block=-79654606 (x=336 y=485) width=174.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+hypothesis, (p. 14)
+page=5 block=-79654606 (x=335 y=497) width=71.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+’s  Basic  Definition 
+page=5 block=-1699277103 (x=485 y=521) width=79.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+rom  the  suggested 
+page=5 block=-1699277103 (x=485 y=533) width=79.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+ers.
+page=5 block=-1699277103 (x=485 y=544) width=14.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+ning was  originally 
+page=5 block=-1699277103 (x=484 y=556) width=80.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+uide as a substan­
+page=5 block=-1699277103 (x=488 y=568) width=72.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+ the dyslexia sub­
+page=5 block=-1699277103 (x=487 y=580) width=73.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+arker variable guide 
+page=5 block=-1699277103 (x=483 y=592) width=82.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+t support the use of 
+page=5 block=-1699277103 (x=487 y=604) width=78.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+e.g., Fletcher et al., 
+page=5 block=-1699277103 (x=485 y=616) width=79.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+rsial nature  of this 
+page=5 block=-1699277103 (x=486 y=628) width=78.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+pears in federal and 
+page=5 block=-1699277103 (x=484 y=640) width=81.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+(Frankenberger  & 
+page=5 block=-1699277103 (x=489 y=651) width=75.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=0
+REMEDIAL AND SPECIAL EDUCATION
+page=5 block=1930168306 (x=398 y=678) width=74.000000 height=3.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=3
+295
+page=5 block=607195786 (x=545 y=678) width=17.000000 height=7.000000 fontname=WNIGIR+Arial-BoldItalicMT wordint.min=1 wordint.max=24
+Volume 19, Number 5, Seprember/October 1998
+page=5 block=-1220212028 (x=401 y=689) width=117.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Page: 6 left:1 upper:1
+Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.
+page=6 block=30020633 (x=1 y=735) width=458.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+Fronzaglio, 1991),  cognitive  functioning was retained in  the 
+page=6 block=554828010 (x=35 y=1) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dyslexia topical marker category.
+page=6 block=554828010 (x=35 y=13) width=126.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Other substantive markers from the UCLA marker vari­
+page=6 block=554828010 (x=55 y=25) width=223.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+able guide that  were  not retained in this section are reading 
+page=6 block=554828010 (x=35 y=37) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+achievement,  arithmetic  achievement,  and  behavioral  and 
+page=6 block=554828010 (x=35 y=49) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+emotional  adjustment.  Because  the  proposed set  of  dyslexia 
+page=6 block=554828010 (x=35 y=61) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+marker  variables  deals  with  learning  disabilities  specific  to 
+page=6 block=554828010 (x=35 y=73) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  domain  of reading, arithmetic  achievement  need not be 
+page=6 block=554828010 (x=35 y=85) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+represented; instead, a marker variable system specific to the 
+page=6 block=554828010 (x=35 y=97) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+domain  of  mathematics  (i.e.,  dyscalculia  marker  variables) 
+page=6 block=554828010 (x=35 y=109) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+could  be developed in a fashion  similar to the system pro­
+page=6 block=554828010 (x=35 y=121) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+posed here. Behavioral and emotional markers were excluded 
+page=6 block=554828010 (x=35 y=133) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+from this  section because they were  not  consistent with the 
+page=6 block=554828010 (x=35 y=145) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ODSRC definition.
+page=6 block=554828010 (x=35 y=157) width=73.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Thus the following dyslexia substantive markers are pro­
+page=6 block=554828010 (x=55 y=169) width=223.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+posed:  (DSMI)  language  functioning,  (DSM2)  phonological 
+page=6 block=554828010 (x=35 y=181) width=248.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+processing abilities, and  (DSM3) single-word decoding skills 
+page=6 block=554828010 (x=34 y=193) width=249.000000 height=6.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+(see Table 1). Each of these markers is both consistent with 
+page=6 block=554828010 (x=35 y=205) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the ODSRC  operational definition of dyslexia and supported 
+page=6 block=554828010 (x=35 y=217) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+by a substantial body of convergent empirical research.
+page=6 block=554828010 (x=35 y=229) width=210.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Dyslexia Topical Markers
+page=6 block=280758037 (x=36 y=259) width=119.000000 height=7.000000 fontname=WNIGIR+Arial-BoldItalicMT wordint.min=2 wordint.max=4
+As defined by Keogh et al. (1982), topical markers referred to 
+page=6 block=573548030 (x=35 y=277) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+“particular content areas or topics often associated with learn­
+page=6 block=573548030 (x=35 y=289) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ing disabilities” (p. 59). These markers were characterized as 
+page=6 block=573548030 (x=35 y=301) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+identifying specific content areas that,  in some  cases, might 
+page=6 block=573548030 (x=35 y=313) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+be either the central focus of research or a criterion to delin­
+page=6 block=573548030 (x=35 y=325) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+eate  subgroups.  Of  all  of the  marker  categories that  Keogh 
+page=6 block=573548030 (x=35 y=337) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+et al. proposed,  this was  the most tentative.  Compared with 
+page=6 block=573548030 (x=35 y=349) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+substantive  markers,  which  could  be  measured  in  certain 
+page=6 block=573548030 (x=36 y=361) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+instances using standardized instruments, topical markers were 
+page=6 block=573548030 (x=36 y=373) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+not as clearly defined or as easily measured. For example, the 
+page=6 block=573548030 (x=36 y=385) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+topical marker motivation was offered as a variable that might 
+page=6 block=573548030 (x=36 y=397) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+have  different  operational  definitions  depending  upon  the 
+page=6 block=573548030 (x=36 y=409) width=247.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+investigator conducting the research. Keogh et al. character­
+page=6 block=573548030 (x=36 y=421) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ized topical markers as tentative, different from one study to 
+page=6 block=573548030 (x=36 y=433) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  next,  and  dependent  on  the  research  issue  of  interest. 
+page=6 block=573548030 (x=36 y=446) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Moreover, Keogh et al. emphasized that each topical marker 
+page=6 block=573548030 (x=36 y=458) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variable would have to be defined operationally, and researchers 
+page=6 block=573548030 (x=36 y=470) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+were  urged  to  provide  a  description  of  specific  techniques 
+page=6 block=573548030 (x=36 y=482) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+used to measure the variable of interest.
+page=6 block=573548030 (x=36 y=494) width=151.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+In the  original UCLA marker variable guide, a total of 
+page=6 block=573548030 (x=56 y=505) width=229.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+eight topical markers were identified: (a) activity level (hyper- 
+page=6 block=573548030 (x=36 y=518) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+or hypoactivity), (b) attention (selective or sustained), (c) audi­
+page=6 block=573548030 (x=36 y=530) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tory perception, (d) fine  motor coordination, (e) gross motor 
+page=6 block=573548030 (x=36 y=542) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+coordination, (f)  memory, (g)  oral  language,  and (h)  visual 
+page=6 block=573548030 (x=36 y=554) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+perception.
+page=6 block=573548030 (x=36 y=566) width=42.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=22
+Using Lyon’s (1995) definitional components as a guide, 
+page=6 block=573548030 (x=56 y=578) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  Basic  Definition  statement  “dyslexia  is  ...  of  constitu­
+page=6 block=573548030 (x=36 y=590) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tional origin” (p. 9) is included in this section. Although this 
+page=6 block=573548030 (x=36 y=602) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+statement  was  not  associated  with  a  dyslexia  substantive 
+page=6 block=573548030 (x=36 y=614) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+marker due to the “tentative nature of findings” (Lyon, 1995, 
+page=6 block=573548030 (x=36 y=626) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+p.  14),  I  deemed it  appropriate  to  include  it  as  a  dyslexia 
+page=6 block=573548030 (x=36 y=637) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+topical marker. This decision was prompted by the increasing 
+page=6 block=573548030 (x=36 y=649) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+quantity of empirical research investigating the relationship
+page=6 block=573548030 (x=36 y=661) width=227.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+296 REMEDIAL AND SPECIAL EDUCATION
+page=6 block=211030708 (x=35 y=684) width=92.000000 height=7.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=3
+Volume  /9,  Number  5.  Seplember/October  1998 
+page=6 block=611060456 (x=74 y=698) width=126.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+between genotypes  and  inherited  forms  of  dyslexia (Cardon 
+page=6 block=584253951 (x=299 y=1) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+et  al.,  1994;  Pennington,  1995),  neuroanatomical  structures 
+page=6 block=584253951 (x=299 y=13) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and reading disabilities (Galaburda, 1991; Hynd et al., 1991), 
+page=6 block=584253951 (x=299 y=25) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and regional blood flow and difficulties in performing phono­
+page=6 block=584253951 (x=299 y=37) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+logical  awareness  tasks  (Wood, 1990;  Wood, Felton,  Flow­
+page=6 block=584253951 (x=299 y=49) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ers, & Naylor, 1991).
+page=6 block=584253951 (x=299 y=61) width=81.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Lyon’s (1995) definitional statement category of Unex­
+page=6 block=584253951 (x=319 y=73) width=224.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+pected  Underachievement  was  also used  in  the  selection  of 
+page=6 block=584253951 (x=299 y=85) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dyslexia topical markers. Given the  prevalence of  the severe 
+page=6 block=584253951 (x=299 y=97) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+discrepancy criterion in the federal and most state definitions 
+page=6 block=584253951 (x=299 y=109) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of LD (Mercer, Hughes, & Mercer, 1990), this element can­
+page=6 block=584253951 (x=299 y=121) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+not be disregarded. However, due to the controversial nature 
+page=6 block=584253951 (x=299 y=133) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+of this element (e.g., Stanovich, 1991 ), I decided not to include 
+page=6 block=584253951 (x=299 y=145) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+it in the dyslexia substantive markers section. Instead, as with 
+page=6 block=584253951 (x=299 y=157) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  constitutional  origin  element,  information  pertaining  to 
+page=6 block=584253951 (x=299 y=169) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cognitive  functioning  and  reading  achievement  (i.e.,  skills 
+page=6 block=584253951 (x=299 y=181) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+other than  phonological  processing  abilities  and  single-word 
+page=6 block=584253951 (x=299 y=193) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+decoding,  which  were  included  in  the  substantive  marker 
+page=6 block=584253951 (x=299 y=205) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables)  was  designated  for  the  topical  marker  variables 
+page=6 block=584253951 (x=299 y=217) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+section. Although discrepancy-based definitional criteria have 
+page=6 block=584253951 (x=299 y=229) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+been  criticized  as  a  means  of  identifying  individuals  with 
+page=6 block=584253951 (x=299 y=241) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dyslexia  (Fletcher  et al.,  1994; Shaywitz,  Fletcher, Holahan, 
+page=6 block=584253951 (x=299 y=253) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+& Shaywitz, 1992),  some researchers still propose  that dys­
+page=6 block=584253951 (x=299 y=265) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia is best characterized as a localized deficit not necessar­
+page=6 block=584253951 (x=299 y=277) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ily associated with broader deficiencies in cognitive functioning 
+page=6 block=584253951 (x=299 y=289) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(e.g., Stanovich, 1992).
+page=6 block=584253951 (x=299 y=301) width=89.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Finally, the  definitional  statement “dyslexia is  manifest 
+page=6 block=584253951 (x=319 y=313) width=229.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+by variable difficulty with different forms of language, often 
+page=6 block=584253951 (x=299 y=325) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+including, in addition to problems in reading, a conspicuous 
+page=6 block=584253951 (x=299 y=337) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+problem  with  acquiring  proficiency in  writing and  spelling” 
+page=6 block=584253951 (x=299 y=349) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(Lyon,  1995,  p.  9),  subsumed  under  Lyon’s  (1995)  Func­
+page=6 block=584253951 (x=299 y=361) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tional  Impact category, has been used  to  include two  addi­
+page=6 block=584253951 (x=299 y=373) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tional  dyslexia  topical  markers:  (a)  proficiency  in  written 
+page=6 block=584253951 (x=299 y=385) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+language, and (b) proficiency in spelling. A body of research 
+page=6 block=584253951 (x=300 y=397) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+has shown that phonological processing deficits often co-occur 
+page=6 block=584253951 (x=299 y=409) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+with  deficiencies  in  written  language  and  spelling  in  indi­
+page=6 block=584253951 (x=300 y=421) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+viduals with dyslexia (Fowler & Liberman, 1995; Lindamood, 
+page=6 block=584253951 (x=300 y=433) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1994; Moats, 1994).
+page=6 block=584253951 (x=301 y=445) width=77.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Given these  identified  elements directly associated  with 
+page=6 block=584253951 (x=319 y=457) width=229.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the ODSRC definition, I propose the following dyslexia topi­
+page=6 block=584253951 (x=300 y=469) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cal markers: (DTM1) Constitutional Origin, (DTM2) Cogni­
+page=6 block=584253951 (x=300 y=481) width=242.000000 height=7.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+tive  Functioning,  Reading  Achievement,  (DTM4) 
+page=6 block=584253951 (x=300 y=493) width=248.000000 height=7.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+Proficiency in Written Language, and (DTM5) Proficiency in 
+page=6 block=584253951 (x=300 y=505) width=248.000000 height=7.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=2 wordint.max=4
+(DTM3) 
+page=6 block=840043899 (x=377 y=493) width=34.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Spelling.  Each  of  these  proposed  dyslexia  topical  markers 
+page=6 block=620310254 (x=300 y=517) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+is  consistent  with  the  ODSRC  definition  of  dyslexia  and 
+page=6 block=620310254 (x=300 y=529) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+reflects current research investigating the heritability of dys­
+page=6 block=620310254 (x=300 y=541) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia,  unexplained  underachievement  in  individuals  with 
+page=6 block=620310254 (x=300 y=553) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dyslexia, and the co-occurrence of reading deficits with defi­
+page=6 block=620310254 (x=300 y=565) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ciencies in written expression and spelling.
+page=6 block=620310254 (x=300 y=577) width=164.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Because  this  preliminary  set  of  dyslexia  marker  vari­
+page=6 block=620310254 (x=320 y=589) width=224.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ables  includes  only  elements  directly  connected  with  the 
+page=6 block=620310254 (x=300 y=601) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ODSRC  definition  of  dyslexia,  all  the  original  LD  topical 
+page=6 block=620310254 (x=300 y=613) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+marker variables developed by Keogh et al. (1982) have been 
+page=6 block=620310254 (x=300 y=625) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+deleted from this section. This does not imply that, for exam­
+page=6 block=620310254 (x=300 y=637) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ple, the LD marker variable of activity level  is unworthy of 
+page=6 block=620310254 (x=301 y=649) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+further study. It is even possible that certain topical markers 
+page=6 block=620310254 (x=301 y=660) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Page: 7 left:1 upper:1
+might be moved into the substantive marker category' if sup­
+page=7 block=786432804 (x=48 y=2) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ported  by  stronger  empirical  evidence.  Furthermore,  given 
+page=7 block=786432804 (x=48 y=14) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  rapidly  expanding  subtype  database  (Hooper  &  Willis, 
+page=7 block=786432804 (x=48 y=26) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+1989), it is likely that different dyslexia topical markers will 
+page=7 block=786432804 (x=49 y=38) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+be developed by different research teams depending on their 
+page=7 block=786432804 (x=48 y=50) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+area  of  investigation. For  example, Pirozzolo  (1979)  essen­
+page=7 block=786432804 (x=48 y=62) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tially employed a system of topical marker variables when he 
+page=7 block=786432804 (x=48 y=74) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+investigated  performance  differences  between  two  distinct 
+page=7 block=786432804 (x=49 y=86) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dyslexia subtype  groups,  one group  having distinct auditory 
+page=7 block=786432804 (x=49 y=98) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+deficits,  and  the second  group  having  specific visual-spatial 
+page=7 block=786432804 (x=49 y=110) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+deficits.  Members  of the  visual-spatial subtype  were identi­
+page=7 block=786432804 (x=49 y=122) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+fied  using  the  three  proposed  dyslexia  substantive  markers 
+page=7 block=786432804 (x=49 y=134) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(i.e.,  language functioning, phonological  processing  abilities, 
+page=7 block=786432804 (x=49 y=146) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and  single-word  decoding),  one  proposed  dyslexia  topical 
+page=7 block=786432804 (x=49 y=158) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+marker  (cognitive functioning), and six possible but not yet 
+page=7 block=786432804 (x=49 y=170) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+proposed dyslexia topical markers (right-left orientation, fin­
+page=7 block=786432804 (x=49 y=182) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ger  agnosia,  early  evidence  of  mirror  or  inverted  writing, 
+page=7 block=786432804 (x=49 y=194) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+spatial dysgraphia, letter and word reversals in spelling, and 
+page=7 block=786432804 (x=49 y=206) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+faulty eye movements).
+page=7 block=786432804 (x=49 y=218) width=89.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+I must  emphasize  that  dyslexia topical markers  can  be 
+page=7 block=786432804 (x=69 y=230) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+added to or removed from the list presented here depending 
+page=7 block=786432804 (x=49 y=242) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+on  the  research  question  at  hand.  As  Keogh  et  al.  (1982) 
+page=7 block=786432804 (x=49 y=254) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+stated, “it is unlikely that a single investigator will have data 
+page=7 block=786432804 (x=49 y=266) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+on all topical markers” (p. 60). However, no matter which dys­
+page=7 block=786432804 (x=49 y=278) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia topical marker is used, an operational definition must be 
+page=7 block=786432804 (x=49 y=290) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+provided  and measurement  techniques  must  be  described  in 
+page=7 block=786432804 (x=49 y=302) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+detail.
+page=7 block=786432804 (x=49 y=314) width=23.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=22
+Using Pirozzolo’s (1979) subtyping research as an exam­
+page=7 block=786432804 (x=69 y=326) width=223.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ple, each of the possible topical markers listed for identifica­
+page=7 block=786432804 (x=49 y=338) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion of members of the visual-spatial subtype would require a 
+page=7 block=786432804 (x=49 y=350) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific  operational definition  as well as a  detailed descrip­
+page=7 block=786432804 (x=49 y=362) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tion of  how measurement  was achieved. The  finger agnosia 
+page=7 block=786432804 (x=49 y=374) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variable,  for  example,  would  have  to  meet  both  of  these 
+page=7 block=786432804 (x=49 y=386) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+requirements to be properly included as a topical marker.
+page=7 block=786432804 (x=49 y=398) width=218.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Dyslexia Background Markers
+page=7 block=468585396 (x=50 y=428) width=143.000000 height=7.000000 fontname=WNIGIR+Arial-BoldItalicMT wordint.min=2 wordint.max=4
+The  final category of marker  variables developed  by Keogh 
+page=7 block=802915012 (x=49 y=446) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+et al. ( 1982), background marker variables, was used to clarify 
+page=7 block=802915012 (x=49 y=458) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sample  comparability  by  providing  information  on  year  of 
+page=7 block=802915012 (x=50 y=470) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+study  (i.e.,  beginning  and  ending  dates  of  data  collection), 
+page=7 block=802915012 (x=50 y=482) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+geographic  location,  exclusionary  criteria  (i.e.,  characteris­
+page=7 block=802915012 (x=50 y=494) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tics  used to exclude  subjects at  the sample  selection stage), 
+page=7 block=802915012 (x=50 y=506) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+and control/comparison group (i.e.,  whether a control group 
+page=7 block=802915012 (x=50 y=519) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+was  used).  According to  Keogh et al.,  one  of  these  back­
+page=7 block=802915012 (x=50 y=530) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ground marker variables, exclusionary criteria, might contain 
+page=7 block=802915012 (x=50 y=542) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+information  also located in the substantive and topical cate­
+page=7 block=802915012 (x=50 y=554) width=244.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+gories.
+page=7 block=802915012 (x=50 y=566) width=26.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=22
+The  exclusionary  criteria  marker  variable  is  consistent 
+page=7 block=802915012 (x=70 y=578) width=229.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+with  Lyon’s  (1995)  statement  category  of  the  same  name. 
+page=7 block=802915012 (x=50 y=590) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The ODSRC definition of dyslexia states: “They [difficulties 
+page=7 block=802915012 (x=50 y=602) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+in  single-word  decoding]  are  not  the  result  of  generalized 
+page=7 block=802915012 (x=51 y=614) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+development disability or sensory impairment” (Lyon,  1995, 
+page=7 block=802915012 (x=50 y=626) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+p. 9). That is, dyslexia is not caused by mental retardation or 
+page=7 block=802915012 (x=50 y=638) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+hearing or visual impairment. Each of these elements can be 
+page=7 block=802915012 (x=50 y=650) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+considered  exclusionary  criteria.  Exclusionary  criteria  have 
+page=7 block=802915012 (x=50 y=662) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.
+page=7 block=30020668 (x=1 y=740) width=458.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+therefore  been  retained  in  the  proposed  preliminary  set  of 
+page=7 block=796393539 (x=312 y=1) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+dyslexia background marker variables (see Table 1).
+page=7 block=796393539 (x=312 y=14) width=199.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Koegh  et  al.’s  (1982)  other  three  background  marker 
+page=7 block=796393539 (x=333 y=26) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables have been retained  because they represent  standard 
+page=7 block=796393539 (x=313 y=38) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+information reported in empirical research (Campbell & Stan­
+page=7 block=796393539 (x=313 y=50) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ley, 1963).
+page=7 block=796393539 (x=313 y=62) width=40.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+DISCUSSION
+page=7 block=1520370350 (x=407 y=98) width=57.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=1 wordint.max=26
+The domain-specific definition of learning disabilities, repre­
+page=7 block=857801780 (x=312 y=122) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+sented  by the ODSRC definition of dyslexia, as well as the 
+page=7 block=857801780 (x=313 y=134) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+development of a corresponding set of dyslexia marker vari­
+page=7 block=857801780 (x=313 y=146) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ables, contributes to the participant reporting procedures pro­
+page=7 block=857801780 (x=313 y=158) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+posed by the Research Committee of the Council for Learning 
+page=7 block=857801780 (x=313 y=170) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Disabilities  (Rosenberg  et  al.,  1992)  and  directly  addresses 
+page=7 block=857801780 (x=313 y=182) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+the  problem  of  sample  heterogeneity  that  has  been  largely 
+page=7 block=857801780 (x=313 y=194) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ignored by the LD research community (Durrant, 1994).
+page=7 block=857801780 (x=313 y=206) width=214.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The definition of dyslexia proposed by the Orton Dys­
+page=7 block=857801780 (x=333 y=218) width=223.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia Society Research Committee (cited in Lyon, 1995) was 
+page=7 block=857801780 (x=313 y=230) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+used  to  develop  a  preliminary  set  of  23  dyslexia  marker 
+page=7 block=857801780 (x=313 y=242) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables.  This  tentative  set  of  dyslexia  descriptive  markers 
+page=7 block=857801780 (x=313 y=254) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+(DDM),  dyslexia substantive  markers (DSM), dyslexia  topi­
+page=7 block=857801780 (x=313 y=266) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cal markers (DTM), and dyslexia background markers (DBM) 
+page=7 block=857801780 (x=313 y=278) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+is shown in Table 1. These proposed dyslexia marker  vari­
+page=7 block=857801780 (x=313 y=290) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ables  are  consistent  with  the  seminal  work  on  LD  marker 
+page=7 block=857801780 (x=313 y=302) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables  of  Keogh  and  her  colleagues  at  UCLA  (Keogh 
+page=7 block=857801780 (x=313 y=314) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+et al., 1982).
+page=7 block=857801780 (x=313 y=326) width=48.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Because this set of dyslexia marker variables is offered 
+page=7 block=857801780 (x=333 y=338) width=229.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+as a starting point, these markers are only tentative at best. As 
+page=7 block=857801780 (x=313 y=350) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Keogh et al. (1982) emphasized, modifications and improve­
+page=7 block=857801780 (x=313 y=362) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ments  to LD  research  practices must  come from  within  the 
+page=7 block=857801780 (x=313 y=374) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+LD field, not from external sources. I propose this set of dys­
+page=7 block=857801780 (x=313 y=386) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia marker variables in the spirit of improving the way in 
+page=7 block=857801780 (x=313 y=398) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+which professionals describe samples of individuals with LD. 
+page=7 block=857801780 (x=314 y=410) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+It is  not sufficient  to simply describe samples as generically 
+page=7 block=857801780 (x=313 y=422) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+representative  of  individuals  with  LD.  Instead,  domain­
+page=7 block=857801780 (x=313 y=434) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific  types  of  learning  disabilities  need  to  be  defined, 
+page=7 block=857801780 (x=314 y=446) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+followed by the development of preliminary marker variables 
+page=7 block=857801780 (x=314 y=458) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+associated  with  each  domain-specific  definition.  Once  this 
+page=7 block=857801780 (x=314 y=470) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+process is under way, the LD field can refine these domain­
+page=7 block=857801780 (x=314 y=482) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+specific definitions, making them truly operational with agreed- 
+page=7 block=857801780 (x=314 y=494) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+upon criteria.
+page=7 block=857801780 (x=314 y=506) width=51.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+The proposed set of dyslexia marker variables, based on 
+page=7 block=857801780 (x=334 y=518) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+current  theoretical  conceptualizations  of  reading  and  sup­
+page=7 block=857801780 (x=314 y=530) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ported by a substantial body of convergent research and clini­
+page=7 block=857801780 (x=314 y=542) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+cal  observations  of  dyslexia,  must  now  undergo  the  same 
+page=7 block=857801780 (x=314 y=554) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+process used by Keogh et al. (1982) to develop their UCLA 
+page=7 block=857801780 (x=314 y=566) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+marker variable guide: A second phase should be conducted, 
+page=7 block=857801780 (x=314 y=578) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+involving  consultation  with  research  investigators  to  deter­
+page=7 block=857801780 (x=314 y=590) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+mine the feasibility and  utility of the dyslexia  marker vari­
+page=7 block=857801780 (x=314 y=602) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ables, as well as to refine this preliminary set. A third phase 
+page=7 block=857801780 (x=314 y=614) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+would involve  field-testing  a refined  set  of  dyslexia marker 
+page=7 block=857801780 (x=315 y=626) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+variables,  culminating  in  an  updated  and  revised  dyslexia 
+page=7 block=857801780 (x=314 y=638) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+marker variable guide. I predict that such a guide would have 
+page=7 block=857801780 (x=315 y=650) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+considerable value to researchers involved in the investiga-
+page=7 block=857801780 (x=314 y=661) width=226.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+REMEDIAL AND SPECIAL EDUCATION 297
+page=7 block=-1461185868 (x=470 y=684) width=92.000000 height=7.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=3
+Volume 19. Number 5. September/Odoher /998 
+page=7 block=-1280308500 (x=400 y=699) width=115.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Page: 8 left:1 upper:1
+Campbell,  T.,  &  Stanley,  C.  (1963).  Experimental  and  quasi­
+page=8 block=502267914 (x=300 y=2) width=244.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+D.  J. 
+page=8 block=1722679306 (x=337 y=2) width=78.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+experimental designs for research. Boston: Houghton Mifflin.
+page=8 block=-446824388 (x=314 y=12) width=187.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Cardon,  L.  R.,  Smith,  S.  D.,  Fulker.  D.  W.,  Kimberling,  B.  F„  Pennington, 
+page=8 block=580912534 (x=300 y=22) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+B.  F., &  DeFries,  J. C.  (1994). Quantitative  trait  locus  for reading dis­
+page=8 block=580912534 (x=314 y=32) width=230.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ability on chromosome 6. Science, 266, 276—279.
+page=8 block=580912534 (x=314 y=42) width=153.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Durrant, J. E. (1994). A decade of  research on  learning  disabilities:  A  report 
+page=8 block=580912534 (x=301 y=52) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+card  on  the  state  of  the literature.  Journal  of  Learning  Disabilities,  27, 
+page=8 block=580912534 (x=314 y=62) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+25-33.
+page=8 block=580912534 (x=314 y=71) width=20.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=17
+Ellis,  A.  W.  (1985).  The  cognitive  neuropsychology  of  developmental  (and 
+page=8 block=580912534 (x=300 y=82) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+acquired)  dyslexia:  A  critical  survey.  Cognitive  Neuropsychology.  2, 
+page=8 block=499777996 (x=314 y=92) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+169-205.
+page=8 block=557384185 (x=315 y=101) width=27.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=17
+Fletcher, J. ?., Shaywitz,  S. E.,  Shankweiler,  D.,  Katz,  L.,  Liberman, 1.  Y„ 
+page=8 block=580913879 (x=300 y=111) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Steubing, K.  K., Francis, D. J., Fowler, A.  F„ & Shaywitz, B. F. (1994). 
+page=8 block=580913879 (x=314 y=121) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Cognitive  profiles  of  reading  disability:  Comparisons  of  discrepancy 
+page=8 block=580913879 (x=314 y=131) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+and  low  achievement  definitions.  Journal  of  Educational  Psychology, 
+page=8 block=499779666 (x=314 y=142) width=233.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+86(1), 6-23.
+page=8 block=499779666 (x=314 y=152) width=36.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Fowler,  A„  &  Liberman,  I.  Y.  (1995).  The  role  of  phonology  and  orthog­
+page=8 block=518261118 (x=301 y=162) width=244.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+raphy  in  morphological  awareness.  In  L.  Feldman  (Ed  ),  Morpholog­
+page=8 block=518261118 (x=314 y=172) width=229.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ical  aspects  of  language  processing  (pp.  157-188).  Hillsdale,  NJ: 
+page=8 block=520356750 (x=314 y=182) width=234.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Erlbaum.
+page=8 block=577442471 (x=314 y=191) width=28.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=17
+Frankerberger,  W.,  &  Fronzaglio,  K.  (1991).  A  review  of  states’  criteria 
+page=8 block=577442471 (x=301 y=201) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+and  procedures  for  identifying  children  with  learning  disabilities. Jour­
+page=8 block=577442471 (x=314 y=211) width=230.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+nal of Learning Disabilities 24, 495-500.
+page=8 block=-1743256495 (x=314 y=221) width=124.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Galaburda,  A.  M.  (1991).  Anatomy  of  dyslexia:  Argument  against  phrenol­
+page=8 block=577455021 (x=301 y=231) width=244.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ogy.  In  D.  D.  Duane  &  D.  B.  Gray  (Eds.),  The  reading  brain:  The 
+page=8 block=577455021 (x=314 y=241) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+biological basis of dyslexia (pp. 119-131 ). Parkton, MD: York Press.
+page=8 block=577455021 (x=314 y=251) width=209.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Goswami,  U.,  &  Bryant,  P.  E.  (1990).  Phonological  skills  and  learning  to 
+page=8 block=577455021 (x=301 y=261) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+read. Hillsdale, NJ: Erlbaum.
+page=8 block=577455021 (x=315 y=271) width=88.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Gough,  P.  B„  Ehri,  L.  C.,  &  Treiman,  R.  (Eds.).  (1992).  Reading  acquisi­
+page=8 block=577455021 (x=301 y=281) width=243.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+tion. Hillsdale, NJ: Erlbaum.
+page=8 block=577455021 (x=315 y=291) width=86.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Gough,  P.  B.,  &  Tunmer,  W.  E.  (1986).  Decoding,  reading,  and  reading 
+page=8 block=577455021 (x=301 y=301) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+disability. Remedial and Special Education, 7(1), 6-10.
+page=8 block=-878967277 (x=314 y=311) width=166.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Hammill, D. D., Leigh, J. E., McNutt, G., & Larsen, S.C. (1981). A new defi­
+page=8 block=597188107 (x=301 y=321) width=244.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+nition of learning disabilities. Learning Disability Quarterly, 4. 336-342.
+page=8 block=597188107 (x=315 y=331) width=218.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Hammill,  D.  D., Bryant, B.  R.,  Brown,  L.,  Dunn,  C.,  & Marten,  A. (1989). 
+page=8 block=597188107 (x=301 y=341) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+How  replicable  is  current  LD  research?  A  follow-up  to  the  CLD 
+page=8 block=597188107 (x=315 y=351) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Research  Committee’s  recommendations.  Learning  Disability  Quarterly. 
+page=8 block=597188107 (x=315 y=361) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+12, 174-179.
+page=8 block=597188107 (x=315 y=371) width=38.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Hinshelwood, J. (1900). Congenital word-blindness. Lancet, 1, 1506-1508.
+page=8 block=597188107 (x=301 y=381) width=225.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Hooper, S. R., & Willis, W. G. (1989). Learning disability subtyping: Neuro­
+page=8 block=597188107 (x=301 y=391) width=243.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+psychological foundations,  conceptual models,  and issues in clinical dif­
+page=8 block=518272723 (x=314 y=401) width=230.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+ferentiation. New York: Springer Verlag.
+page=8 block=518272723 (x=313 y=411) width=125.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Hynd,  G.  W„  Semrud-Clikeman,  ?.,  &  Lyytinen,  H.  (1991).  Brain  imag­
+page=8 block=518272723 (x=301 y=421) width=244.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ing in learning disabilities. In J. E. Obrz.ut. & G. W. Hynd (Eds.), Neuro­
+page=8 block=518272723 (x=315 y=431) width=229.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+psychological  foundations  of  learning  disabilities  (pp.  475-511  ).  New 
+page=8 block=540936349 (x=314 y=441) width=235.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+York: Academic Press.
+page=8 block=597175758 (x=315 y=451) width=69.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Kavale,  K.  A.  (1995).  Setting  the  record  straight  on  learning  disability  and 
+page=8 block=597175758 (x=301 y=461) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+low  achievement:  The  tortuous  path  of  ideology.  Learning  Disabilities 
+page=8 block=597175758 (x=315 y=472) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Research éi Practice, 10, 145-152.
+page=8 block=-2127361691 (x=315 y=481) width=105.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Kavale,  K.  A.,  Forness,  S. R.,  & Bender, ?.  (1987).  Handbook  of learning 
+page=8 block=597166978 (x=301 y=491) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+disabilities (Volume I). Boston: College-Hill.
+page=8 block=-1508046391 (x=315 y=501) width=135.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Keogh,  B. K.,  Major, S.  ?.,  Reid, H.  P„  Gandara,  P.,  & Omori, H.  (1978). 
+page=8 block=597181917 (x=301 y=511) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Marker  variables:  A  search  for  comparability and  generalizability  in  the 
+page=8 block=597181917 (x=315 y=521) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+field of learning disabilities. Learning Disability Quarterly, 1, 5-11.
+page=8 block=597181917 (x=315 y=531) width=204.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Keogh,  B.  K., Major-Kingsley,  S.,  Omori-Gordon, H., &  Reid, H. P.  (1982). 
+page=8 block=597181917 (x=301 y=541) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+A  system of marker variables  for  the field  of learning disabilities. Syra­
+page=8 block=453118659 (x=315 y=551) width=230.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+cuse, NY: Syracuse University Press.
+page=8 block=518267103 (x=315 y=561) width=112.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Kussmaul,  A.  (1877).  Disturbance  of  speech. Cyclopedia  of Practical  Medi­
+page=8 block=518267103 (x=301 y=571) width=244.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+cine. 14. 581.
+page=8 block=846400345 (x=315 y=581) width=41.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Liberman,  I.  Y„  Shankweiler,  D.,  &  Liberman,  A.  M.  (1989).  The  alpha­
+page=8 block=616922873 (x=301 y=591) width=245.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+betic principle and learning  to  read. In D. Shankweiler  &  I. Y. Liberman 
+page=8 block=616922873 (x=315 y=601) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+(Eds.),  Phonology  and  reading  disability  (pp.  1-33).  Ann  Arbor:  The 
+page=8 block=616922873 (x=316 y=611) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+University of Michigan Press.
+page=8 block=616922873 (x=315 y=621) width=90.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Lindamood,  P.  C.  (1994).  Issues  in  researching  the  link  between  phono­
+page=8 block=616922873 (x=301 y=631) width=245.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+logical awareness, learning  disabilities, and spelling. In G. R. Lyon (Ed.), 
+page=8 block=616922873 (x=316 y=641) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Frames  of  reference  for  the  assessment  of  learning  disabilities:  New 
+page=8 block=551029943 (x=316 y=651) width=234.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+views on measurement issues (pp. 351-373). Baltimore: Brookes.
+page=8 block=-256635676 (x=316 y=660) width=195.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.
+page=8 block=30020689 (x=1 y=743) width=458.000000 height=7.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+tion  of dyslexia. If  this  endeavor  proves  successful,  a  similar 
+page=8 block=587465082 (x=36 y=1) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+process  might  be  used  for  other  domain-specific  learning 
+page=8 block=587465082 (x=36 y=13) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+disabilities such as dysgraphia and dyscalculia.
+page=8 block=587465082 (x=36 y=25) width=179.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Until  this important  work  is  undertaken,  the LD  field 
+page=8 block=587465082 (x=56 y=37) width=228.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+will  continue  to  find  itself  unable  to  rely  on  an  accumulated 
+page=8 block=587465082 (x=36 y=49) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+body of research that is valid and replicable. The LD field must 
+page=8 block=587465082 (x=36 y=61) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+progress from its traditional adherence to a vaguely defined, 
+page=8 block=587465082 (x=36 y=73) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+generic  description  of  LD  to  more  domain-specific  defini­
+page=8 block=587465082 (x=36 y=85) width=244.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+tions such as the ODSRC definition of dyslexia.
+page=8 block=587465082 (x=36 y=97) width=183.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+While  moving  toward  more  domain-specific  definitions 
+page=8 block=587465082 (x=56 y=109) width=228.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+of LD,  however, the  LD field must  avoid the  temptation of 
+page=8 block=587465082 (x=36 y=121) width=249.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+simply  readopting  a  typological  mentality,  describing  dys­
+page=8 block=587465082 (x=37 y=133) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia and other specific learning disabilities as single “disease 
+page=8 block=587465082 (x=37 y=145) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+entit[ies]”  (Ellis,  1985,  p.  172).  Instead,  researchers  should 
+page=8 block=587465082 (x=36 y=157) width=249.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+adopt what Ellis describes as the “notion of degrees of dys­
+page=8 block=587465082 (x=37 y=169) width=243.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia” ( p. 172). The investigation of LD subtypes (Hooper & 
+page=8 block=587465082 (x=37 y=181) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Willis, 1989) has provided the LD field with a framework for 
+page=8 block=587465082 (x=37 y=193) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+delineating  heterogeneous  groups  of  LD  while  maintaining 
+page=8 block=587465082 (x=37 y=205) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+that each of these disorders occurs along a continuum. It is no 
+page=8 block=587465082 (x=37 y=217) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+longer  adequate  to  characterize  individuals  as  simply  having 
+page=8 block=587465082 (x=37 y=229) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+dyslexia;  it is  important  to describe  the  severity  of  reading 
+page=8 block=587465082 (x=37 y=241) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+problems  in  these individuals compared to others with  dys­
+page=8 block=587465082 (x=37 y=253) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+lexia  as  well  as  to  other  poor  readers.  Researchers  should 
+page=8 block=587465082 (x=37 y=265) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+ensure  that  each  type of  learning  disability  be  contextualized 
+page=8 block=587465082 (x=37 y=277) width=248.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+within the parameters of its specific domain.
+page=8 block=587465082 (x=37 y=289) width=169.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+Once the LD field addresses the issue of sample variabil­
+page=8 block=587465082 (x=57 y=301) width=223.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ity  in  a  systematic  fashion—through  the  development  and 
+page=8 block=587465082 (x=37 y=313) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+adoption of domain-specific definitions and sets of associated 
+page=8 block=587465082 (x=37 y=325) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+marker  variables—the  important  work  of  determining  the 
+page=8 block=587465082 (x=37 y=337) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+external  validity  of  these  definitions  and  marker  variables 
+page=8 block=587465082 (x=37 y=349) width=248.000000 height=7.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+with respect to differential treatment and education interven­
+page=8 block=587465082 (x=37 y=361) width=243.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+tions can begin.  ?
+page=8 block=587465082 (x=37 y=373) width=246.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+MICHAEL E.  SPAGNA,  PhD,  is an  associate  professor  of  special  educa­
+page=8 block=601388261 (x=37 y=399) width=244.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+tion  at  the  California  State  University-Northridge.  His  research  interests 
+page=8 block=601388261 (x=37 y=409) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+include  the  diagnosis  and  assessment  of  specific  learning  disabilities;  the 
+page=8 block=601388261 (x=37 y=419) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+development,  implementation,  and  evaluation  of  instructional/intervention 
+page=8 block=601388261 (x=37 y=429) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+techniques  for  students  with  mild/moderate  disabilities;  distance  education 
+page=8 block=601388261 (x=37 y=439) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+models;  and  models  for  inclusive  education.  Address:  Michael  E.  Spagna, 
+page=8 block=601388261 (x=37 y=449) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Department  of  Special  Education,  California  State  University-Northridge, 
+page=8 block=601388261 (x=37 y=459) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+18111 Nordhoff Street, Northridge. CA 91330.
+page=8 block=601388261 (x=38 y=469) width=141.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+NOTE
+page=8 block=48499090 (x=37 y=490) width=20.000000 height=5.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=17
+In  a  study  conducted  by  Hammill  et  al.  (1989),  277  articles  published  in 
+page=8 block=601386111 (x=37 y=505) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+10 major  journals were evaluated using  seven criteria for describing a study's 
+page=8 block=601386111 (x=38 y=515) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+sample  proposed  by  the  Research  Committee  of  the  Council  for  Learning 
+page=8 block=601386111 (x=37 y=525) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Disabilities  (Smith  et  al.,  1984).  Of  these  277  articles,  covering  studies 
+page=8 block=601386111 (x=37 y=535) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+taking place from 1984 to 1987, only 4 met the standard or satisfied all seven 
+page=8 block=601386111 (x=37 y=545) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+criteria.
+page=8 block=601386111 (x=37 y=555) width=23.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=17
+REFERENCES
+page=8 block=119540544 (x=38 y=576) width=48.000000 height=5.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=17
+Adams,  M.  J. (1990). Beginning to read: Thinking and  learning about  print. 
+page=8 block=601373111 (x=37 y=591) width=247.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Cambridge, MA: MIT Press.
+page=8 block=601373111 (x=51 y=601) width=87.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Cambridge, MA: MIT Press.
+page=8 block=601373111 (x=51 y=601) width=87.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Adams,  M.  J.,  &  Bruck,  ?.  (1995).  Resolving  the  great  debate.  American 
+page=8 block=601373111 (x=38 y=611) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Adams,  M.  J.,  &  Bruck,  ?.  (1995).  Resolving  the  great  debate.  American 
+page=8 block=601373111 (x=38 y=611) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Educator, 19(2), 10-20.
+page=8 block=237308961 (x=51 y=621) width=71.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Beck,  I.  L„  &  Juel,  C.  (1995).  The  role  of  decoding  in  learning  to  read. 
+page=8 block=615124051 (x=38 y=631) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+American Educator, 19(2), 21-25.
+page=8 block=340921477 (x=51 y=641) width=102.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Brady, S.  A.,  &  Shankweiler,  D.  (1991).  Phonological  processes in  literacy: 
+page=8 block=615124151 (x=38 y=651) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+A tribute to Isabelle Y. Liberman. Hillsdale, NJ: Erlbaum.
+page=8 block=584912105 (x=51 y=661) width=175.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+REMEDIAL AND SPECIAL EDUCATION
+page=8 block=363726861 (x=75 y=687) width=74.000000 height=3.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=3
+298
+page=8 block=40112848 (x=36 y=688) width=17.000000 height=7.000000 fontname=WNIGIR+Arial-BoldItalicMT wordint.min=1 wordint.max=3
+Volume 19. Number 5. Seplember/Odober ¡998
+page=8 block=560335592 (x=75 y=698) width=114.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Page: 9 left:1 upper:1
+ability:  Results of  the Connecticut  longitudinal study.  Journal of  Learn­
+page=9 block=597557253 (x=326 y=1) width=229.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ing Disabilities, 25, 639-648.
+page=9 block=1880096823 (x=326 y=11) width=88.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Shaywitz,  B.  A.,  Fletcher,  J.  ?.,  &  Shaywitz,  S.  E.  (1995).  Defining  and 
+page=9 block=775946555 (x=312 y=21) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+classifying  learning  disabilities  and  attention-deficit/hyperactivity  dis­
+page=9 block=775946555 (x=326 y=31) width=231.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+order. Journal of Child Neurology, 10Q), 50-57.
+page=9 block=-1197080371 (x=326 y=41) width=145.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Smith,  D.  D.,  Deshler,  D.,  Hallahan,  D.,  Lovitt,  T.,  Robinson.  S.,  Voress, 
+page=9 block=796394747 (x=312 y=51) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+J.,  &  Ysseldyke,  J.  (1984).  Minimum  standards  for  the  description  of 
+page=9 block=796394747 (x=326 y=61) width=235.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+subjects  in  learning  disabilities  research  reports.  Learning  Disability 
+page=9 block=796394747 (x=326 y=71) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Quarterly, 7, 221-225.
+page=9 block=1452802453 (x=326 y=81) width=68.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Stanovich,  K.  E.  (1990).  Explaining  the  differences  between  the  dyslexic 
+page=9 block=775948515 (x=312 y=91) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+and  the  garden-variety  poor  reader:  The  phonological-core  variable­
+page=9 block=775948515 (x=326 y=101) width=231.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+difference  model.  In  J.  K.  Torgesen  (Ed.),  Cognitive  and  behavioral 
+page=9 block=775948515 (x=326 y=111) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+characteristics of  children with  learning  disabilities  (pp. 7—40).  Austin, 
+page=9 block=704381533 (x=326 y=121) width=234.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+TX: PRO-ED.
+page=9 block=918684303 (x=326 y=131) width=43.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Stanovich,  K.  E.  (1991).  Conceptual  and  empirical  problems  with  discrep­
+page=9 block=689636033 (x=313 y=141) width=243.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ancy  definitions  of  reading  disability.  Learning  Disability  Quarterly. 
+page=9 block=792210493 (x=326 y=151) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+14, 269-280.
+page=9 block=792210493 (x=327 y=161) width=38.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Stanovich,  K.  E.  (1992).  Speculations  on  the  causes  and  consequences  of 
+page=9 block=792210493 (x=313 y=171) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+individual differences in early reading  acquisition.  In P. B. Gough,  L. C. 
+page=9 block=792210493 (x=327 y=181) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Ehri, & R.  Treiman (Eds.),  Reading  acquisition (pp.  307-342). Hillsdale, 
+page=9 block=792210493 (x=327 y=191) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+NJ: Erlbaum.
+page=9 block=792210493 (x=326 y=201) width=40.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Stanovich,  K.  E.  (1993).  The  construct  validity  of  discrepancy  definitions 
+page=9 block=792210493 (x=313 y=211) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+of reading disability. In G.  R.  Lyon, D.  Gray,  J.  Kavanagh,  &  N. Kras- 
+page=9 block=792210493 (x=327 y=221) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+negor  (Eds.),  Better  understanding  learning  disabilities:  New  views  on 
+page=9 block=698289545 (x=327 y=231) width=233.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+research  and  their  implications  for  public  policies  (pp.  273-307).  Bal­
+page=9 block=698289545 (x=327 y=241) width=230.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+timore, MD: Brookes.
+page=9 block=771700400 (x=326 y=250) width=67.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Wood,  F.  (1990).  Functional  neuroimaging  in  neurobehavioral  research.  In 
+page=9 block=771700400 (x=313 y=261) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+A.  Boulton,  G.  Baker,  &  M.  Hiscock  (Eds.).  Neuromethods:  Vol.  17. 
+page=9 block=771700400 (x=327 y=271) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Clifton, NJ: Humana Press.
+page=9 block=771700400 (x=327 y=281) width=82.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Wood,  F„  Felton,  R.,  Flowers,  L.,  &  Naylor,  C.  (1991).  Neurobehavioral 
+page=9 block=771700400 (x=313 y=291) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+definition of dyslexia. In D.  D. Duane &  D. B. Gray  (Eds.), The  read­
+page=9 block=771700400 (x=327 y=301) width=229.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ing  brain:  The  biological  basis  of  dyslexia  (pp.  1-25).  Parkton,  MD: 
+page=9 block=698287635 (x=327 y=311) width=233.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+York Press.
+page=9 block=750061125 (x=327 y=321) width=35.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Received October 9, 1996
+page=9 block=-1035980803 (x=481 y=351) width=78.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Revision received February 19, 1997
+page=9 block=-1035980803 (x=448 y=360) width=111.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Initial acceptance March 12, 1997
+page=9 block=-1035980803 (x=456 y=370) width=103.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Final acceptance May 1, 1997
+page=9 block=-1035980803 (x=469 y=381) width=90.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+299
+page=9 block=606081730 (x=544 y=686) width=17.000000 height=7.000000 fontname=WNIGIR+Arial-BoldItalicMT wordint.min=1 wordint.max=24
+REMEDIAL AND SPECIAL EDUCATION
+page=9 block=1925317982 (x=397 y=687) width=74.000000 height=2.000000 fontname=GTLFQR+Arial-BoldMT wordint.min=1 wordint.max=3
+Volunte 19. Number 5. Seplember/Odober I99S
+page=9 block=-1261696284 (x=406 y=697) width=114.000000 height=4.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Reproducedwith permission of the copyright owner. Further reproduction prohibited without permission.
+page=9 block=29888874 (x=1 y=743) width=456.000000 height=6.000000 fontname=SZDKDB+ArialMT wordint.min=2 wordint.max=4
+ability Quarterly, 13, 141-152.
+page=9 block=373817549 (x=62 y=41) width=92.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Moats, L.  C. (1994).  Assessment  of spelling in  learning  disabilities  research. 
+page=9 block=776995122 (x=48 y=51) width=247.000000 height=6.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+In  G.  R.  Lyon  (Ed.),  Frames of  reference  for  the  assessment  of  learn­
+page=9 block=934544275 (x=62 y=61) width=229.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+ing  disabilities:  New  views  on  measurement  issues  (pp.  333-349).  Bal­
+page=9 block=934544275 (x=62 y=71) width=230.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+timore: Brookes.
+page=9 block=764413119 (x=62 y=81) width=51.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Morgan,  W. P.  (1896).  A  case  of  congenital  word-blindness.  British  Medi­
+page=9 block=764413119 (x=48 y=91) width=243.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+cal Journal, 11, 378.
+page=9 block=255984121 (x=62 y=101) width=63.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+National  Advisory  Committee  for  the  Handicapped.  (1968).  Subcommittee 
+page=9 block=793182763 (x=49 y=111) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+on  Education  of  the  Committee  on  Labor  and  Public  Welfare.  First 
+page=9 block=950796893 (x=62 y=121) width=234.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Annual Report. Washington, DC: U.S. Government Printing Office.
+page=9 block=764413869 (x=62 y=131) width=204.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+National  Joint  Committee  on  Learning  Disabilities.  (1988).  Position  state­
+page=9 block=764413869 (x=48 y=141) width=243.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ments on learning disabilities. Austin, TX: Author.
+page=9 block=625738483 (x=62 y=151) width=154.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+National  Joint  Committee  on  Learning  Disabilities.  (1994).  Collective  per­
+page=9 block=764412709 (x=48 y=161) width=243.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+spectives  on  issues  affecting  learning  disabilities:  Position  papers  and 
+page=9 block=950797143 (x=62 y=171) width=234.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+statements. Austin, TX: PRO-ED.
+page=9 block=793186733 (x=62 y=181) width=102.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Olson.  R.,  Forsberg,  H., Wise, B., & Rack, J. (1994).  Measurement  of word 
+page=9 block=793186733 (x=49 y=191) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+recognition,  orthographic,  and  phonological  skills.  In  G.  R.  Lyon  (Ed.), 
+page=9 block=793186733 (x=62 y=201) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Frames  of  reference  for  the  assessment  of  learning  disabilities:  New 
+page=9 block=962003999 (x=63 y=211) width=233.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+views on assessment issues (pp. 243-277). Baltimore, MD: Brookes.
+page=9 block=796414467 (x=63 y=221) width=204.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Pennington, B.  F. (1995). Genetics  and  learning  disabilities. Journal of Child 
+page=9 block=796414467 (x=49 y=231) width=248.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Neurology, /0(1), 69-77.
+page=9 block=796414467 (x=62 y=241) width=74.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Perfetti, C. A. ( 1985). Reading ability. New York: Oxford University Press.
+page=9 block=796414467 (x=49 y=251) width=229.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Pirozzolo,  F.  J.  (1979).  The  neuropsychology of  developmental reading dis­
+page=9 block=796414467 (x=49 y=261) width=243.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Pirozzolo,  F.  J.  (1979).  The  neuropsychology of  developmental reading dis­
+page=9 block=796414467 (x=49 y=261) width=243.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Pirozzolo,  F.  J.  (1979).  The  neuropsychology of  developmental reading dis­
+page=9 block=796414467 (x=49 y=261) width=243.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+orders. New York: Praeger Press.
+page=9 block=796414467 (x=63 y=271) width=101.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+orders. New York: Praeger Press.
+page=9 block=796414467 (x=63 y=271) width=101.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+orders. New York: Praeger Press.
+page=9 block=796414467 (x=63 y=271) width=101.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Rosenberg, M.  S.,  Bott,  D., Majsterek, D., Chiang, B., Gartland, D.,  Wesson, 
+page=9 block=796414467 (x=49 y=281) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Rosenberg, M.  S.,  Bott,  D., Majsterek, D., Chiang, B., Gartland, D.,  Wesson, 
+page=9 block=796414467 (x=49 y=281) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Rosenberg, M.  S.,  Bott,  D., Majsterek, D., Chiang, B., Gartland, D.,  Wesson, 
+page=9 block=796414467 (x=49 y=281) width=247.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+C.,  Graham,  S.,  Smith-Myles,  B.,  Miller,  ?.,  Swanson,  H.  L.,  Bender, 
+page=9 block=796414467 (x=63 y=291) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+C.,  Graham,  S.,  Smith-Myles,  B.,  Miller,  ?.,  Swanson,  H.  L.,  Bender, 
+page=9 block=796414467 (x=63 y=291) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+C.,  Graham,  S.,  Smith-Myles,  B.,  Miller,  ?.,  Swanson,  H.  L.,  Bender, 
+page=9 block=796414467 (x=63 y=291) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+W.,  Rivera.  D.,  &  Wilson,  R.  (1992).  Minimum  standards  for  the 
+page=9 block=796414467 (x=63 y=301) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+W.,  Rivera.  D.,  &  Wilson,  R.  (1992).  Minimum  standards  for  the 
+page=9 block=796414467 (x=63 y=301) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+W.,  Rivera.  D.,  &  Wilson,  R.  (1992).  Minimum  standards  for  the 
+page=9 block=796414467 (x=63 y=301) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+description  of  participants  in  learning  disabilities  research.  Learning 
+page=9 block=796414467 (x=63 y=311) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+description  of  participants  in  learning  disabilities  research.  Learning 
+page=9 block=796414467 (x=63 y=311) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+description  of  participants  in  learning  disabilities  research.  Learning 
+page=9 block=796414467 (x=63 y=311) width=233.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+Disability Quarterly. 15, 65-70.
+page=9 block=392234565 (x=63 y=321) width=95.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+Share,  D. L., & Stanovich,  K.  E. (1995).  Cognitive  processes  in early read­
+page=9 block=796398437 (x=49 y=331) width=244.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+ing  development:  Accommodating  individual  differences  into  a  mode 
+page=9 block=796398437 (x=63 y=341) width=234.000000 height=5.000000 fontname=TTQKXT+TimesNewRomanPSMT wordint.min=1 wordint.max=3
+of acquisition. Issues in  Education: Contributions from Educational Psy­
+page=9 block=945493137 (x=63 y=351) width=229.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3
+chology, 1, 1-57.
+page=9 block=945493137 (x=63 y=361) width=51.000000 height=5.000000 fontname=MMFLGT+TimesNewRomanPS-ItalicMT wordint.min=1 wordint.max=3

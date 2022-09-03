@@ -1,0 +1,364 @@
+Title:
+Prognostic importance of radiologic extranodal extension in
+nasopharyngeal carcinoma treated in a Canadian cohort
+Abstract:
+Purpose: To con?rm the prognosticvalueof radiologic extranodal extension (rENE) and its role inclinical-
+N classi?cation in nasopharyngeal carcinoma (NPC) treated in a western institution.
+Methods and materials: NPC treated between 2010 and 2017 were included. Pre-treatment MRI were
+reviewed for unequivocal rENE and its grade: grade-1: tumour invading through any nodal capsule but
+con?nedto perinodal fat; grade-2: 2 adjacent nodes forming a coalescent nodal mass; grade-3: tumour
+extending beyond perinodal fat to invade/encase adjacent structures. Overall survival (OS) and disease-
+free survival (DFS) were compared between rENE-positive (rENE+) and rENE-negative (rENE) patients.
+Multivariable analysis (MVA) con?rmed the prognostic importance of rENE and its grade. Staging sche-
+mas including rENE in N-classi?cation were proposed and their performance evaluated.
+Results: A total of 274 patients were eligible (43 cN0; 231 cN-positive). rENE was identi?ed in 83/231
+(36%) cN-positive, including grade 1/2/3 rENE in 14/58/11 cases. Compared to rENE, rENE+ patients
+had a lower OS (68% vs 89%, p < 0.001) and DFS (58% vs 80%, p < 0.001). MVA con?rmed the prognostic
+importance of grade-2 [HR: OS: 2.85 (p = 0.005); DFS: 2.89 (p < 0.001)] and grade-3 rENE [HR: OS 5.28
+(p = 0.004); DFS 3.86 (p = 0.005)], with a trend for grade-1 vs rENE [HR: OS 2.63 (p = 0.13); DFS 1.49
+(p = 0.520)]. We evaluated classifying any rENE as cN3 (Proposal-I) or any grade-2/grade-3 rENE as cN3
+(Proposal-II). The stage schema with Proposal-I cN-classi?cation ranked the highest in the performance
+evaluation.
+Conclusions: rENE is an important prognostic factor in this western NPC cohort. We propose classifying
+any unequivocal rENE as cN3.
+ 2021 Elsevier B.V. All rights reserved. Radiotherapy and Oncology 165 (2021) 94–102
+----------------------
+Subtitles:
+
+ Methods
+ Study population
+ Scanning protocol
+ Radiologic nodal features
+ Treatment and follow-up
+ Statistical analysis
+ Results
+ Discussion
+ Conclusion
+ Con?ict of Interest
+ Appendix A. Supplementary data
+
+
+Text:
+----------------------
+Staging at the time of diagnosis is a crucial step in cancer man-
+agement. It facilitates research activities, guides future treatment
+protocol development, and enhances cancer control activities [1].
+The 8th edition TNM classi?cation (TNM-8) uni?ed nasopharyn-
+geal cancer (NPC) staging systems among endemic and non-
+endemic jurisdictions and is used worldwide. Modi?cation of T-
+classi?cation criteria in TNM-8 re?ected improved outcomes with
+contemporary NPC management based on datasets in NPC endemic
+regions [2]. Modi?cation of cN-classi?cation harmonized older ter-
+minology, employing ‘‘supraclavicular fossa” with recent consensus
+nomenclature ‘‘lower neck lymph node” (i.e.,levels IV and VB nodes)
+[3], and merged cN3a and cN3b as cN3.
+TNM classi?cation undergoes periodic updates to re?ect
+improved understanding of tumour biology, and alteration of risk
+strati?cation pro?les due tonewer treatment options and prognos-
+tic factors. Unequivocal radiologic extranodal extension (rENE), an
+imaging representation of tumour invasion through a lymph node
+(LN) capsule, has emerged as a strong prognostic factor in NPC [4–
+7]. Previous studies [5–8] have classi?ed extent of rENE into 3
+grades, which are associated with worsening outcomes: grade-1
+(G1): tumour invading through any LN capsule(s) but con?ned to
+perinodal fat; grade-2 (G2): a coalescent nodal mass involving
+2 adjoining LNs; and grade-3 (G3): tumour extending beyond
+perinodal fat to invade adjacent structures. Given the prognostic
+importance of rENE in NPC, several authors [5–7] have proposed
+the inclusion of varying grades of rENE as a cN modi?er. For exam-
+ple, Lu et al. [6] proposed classifying any G3-rENE as cN3 category,
+TNM-8 cN1 with G2-rENE as cN2, and down-classify TNM-8 cN2
+without rENE (rENE) to cN1 disease. Mao et al. [5] proposed only
+including G3-rENE as a new cN modi?er and classify any G3-rENE
+as cN3 disease. Both cN modi?cation proposals showed improved
+survival distinction between different cN categories based on data
+from endemic regions. Whether this holds true in non-endemic
+populations and whether both aforementioned proposals are opti-
+mal remains uncertain.
+NPC is mostly associated with Epstein-Barr viral (EBV) infection
+in endemic regions including Southeast Asia, East Asia, and North
+Africa [1]. In North America, the prevalence of NPC is relatively
+low, with a mixture of etiological factors including EBV (mostly
+amongst Asian ethnicity), HPV (typically in White European
+descendants), or traditional tobacco/alcohol consumption. Our
+institution is a tertiary referral cancer centre situated in an ethni-
+cally diverse metropolitan city where nearly 25% of the population
+is of Southeast Asian and Chinese descent, and 49% of European
+descent[9]. This provides an opportunity to con?rm the prognostic
+value of rENE and its role in cN classi?cation in an NPC cohort from
+a non-endemic region with diverse ethnicity, etiology, and
+histology.
+Methods
+Study population
+Following institutional ethics board approval, we reviewed all
+newly diagnosed non-metastatic (M0) NPC treated with IMRT from
+January 2010 to December 2017. Cases for which pre-treatment
+gadolinium enhanced MRI was unavailable were excluded. Clinical
+information (demographics, disease, treatment, and outcomes)
+were retrieved from an in-house prospective Anthology of Outcome
+System where outcomes were recorded at point-of-care [10] and
+updated periodically from the provincial Cancer Registry. All
+patients were restaged according to the 8th edition TNM classi?ca-
+tion (TNM-8).
+Scanning protocol
+Our standard head and neck MRI scanning protocol includes the
+following sequences: a localizer sequence, sagittal, axial and coro-
+nal T1 pre-gad non-fat saturated, axial and coronal T2 with and
+without fat saturation, and axial and coronal T1 post-gad fat satu-
+rated sequences. The sequences were performed using a
+20  20 cm ?eld of view and with 3-mm slice thickness without
+slice gap. Gadolinium was administered unless contraindicated
+[11].
+Radiologic nodal features
+TwoNeuroradiologyfellows(AT with1 year and OC with 2 years
+subspeciality experience) reviewed pre-treatment MRIs (within
+10 weeks of IMRT commencement) of all cN-positive (cN+) NPC,
+blinded to clinical information and outcomes. Presence (based on
+unequivocal radiologic evidence) or absence (including negative,
+equivocal, or uncertainty) of the following nodal features were
+recorded: level, size, and side of radiologic overt LNs including
+retropharyngeal LNs (RPLN), lower neck involvement, and rENE.
+A radiologically overt LN was de?ned as nodal size >1.5 cm in lar-
+gest dimension for level IIA, 8 mm for RPLN, and >1.0 cm for all
+other levels, or presenceof suspicious features (e.g., necrosis, irreg-
+ular borders, calci?cation, round shape) [11–14]. Lower neck LN
+referred toany involvedLN with a border extending into or beyond
+level IV or VB per consensus de?nition [3]. rENE grade was also
+recorded based on published literature [5,8,12,15] (Fig. 1):
+To evaluate inter-rater reliability of rENE assessment and grad-
+ing, 100 randomly selected cases were re-reviewed by a very expe-
+rienced neuroradiologist (EY) (15 years of subspecialty
+experience). Kappa coef?cient was calculated for inter-rater
+concordance.
+Treatment and follow-up
+All patients were managed in a multidisciplinary settingfollow-
+ing institutional protocols (based on the 7th edition TNM) as
+described previously [16]. Generally, T1–T2 N0 patients received
+radiotherapy alone while T1–T2N1 were treated with concurrent
+chemoradiotherapy (if ?t). More advanced cases were treated with
+concurrent chemoradiotherapy followed by adjuvant chemother-
+apy. The radiotherapy regimen comprised 70 Gy in 35 fractions
+over 7 weeks using IMRT with daily cone-beam for image guid-
+ance. Concurrent chemotherapy comprised cisplatin 100 mg/m2
+once every 3 weeks or 40 mg/m2 weekly if comorbidities relevant
+to chemotherapy tolerance existed. Adjuvant chemotherapy com-
+prised cisplatin 80 mg/m2 on day 1 combined with 5-?uorouracil
+1000 mg/m2 in 24-hour infusion from day 2–5 every 28 days for
+a total of 3 cycles starting 4–6 weeks following the completion of
+chemo-radiotherapy.
+Patients were followed in a multidisciplinary clinic and disease
+surveillance was conducted according to institutional protocol
+[17]. Dates of local or regional failure were recorded based on
+the date of histologic con?rmation, while time of distant failure
+was recorded according to date of radiologic or indisputable clini-
+cal evidence.
+Statistical analysis
+Clinical characteristics and outcomes were compared between
+rENE-positive (rENE+) and rENE-negative (rENE) cohorts. Chi-
+square tests (Fisher test for frequency <5) were performed for com-
+parison of categorical variables, and Wilcoxon rank-sum tests for
+comparison of continuous variables. Overall survival (OS) (any
+cause of death as an ‘‘event”) and disease-free survival (DFS) (any
+local, regional, or distant failure, or death as an ‘‘event”) were esti-
+mated using the Kaplan–Meier method. Locoregional control (LRC)
+and distant control (DC) were calculated using the competing risk
+method where death without a speci?c failure event was consid-
+ered as a competing-risk. All time-to-event occurrences were cal-
+culated from date of diagnosis. Log-rank tests and Gray’s tests
+were used for outcome comparison. All tests were two-tailed with
+a probability of<0.05 considered statistically signi?cant. Multivari-
+able analyses (MVA) with Cox proportional hazard methods were
+applied to con?rm the prognostic importance of rENE adjusting
+for age, TNM-8 T- and N-categories.
+Finally, we investigated new cN-classi?cation schemas (Supple-
+ment). The concordance indexes (C-index) (the higher the better)
+and the Akaike information criterion (AIC) (the lower the better)
+were calculated for various MVA models with different cN-
+classi?cations to compare predictability of prognosis and
+‘‘goodness-of-?t”, respectively. The performance of OS and DFS pre-
+diction was evaluated in all cases (both cN0 and cN+) in the overall
+TNM staging using our cN classi?cation proposal, as well as those
+proposed by Lu et al [6] and Mao et al [5], and compared with
+the current TNM-8 stage grouping schema based on well-
+established criteria using OS as the primary end-point and DFS as
+a secondary end-point [18–21]: (1). ‘‘Hazard consistency” (homo-
+geneity): similar hazard among different T-N subgroups within
+each stage, (2). ‘‘Hazard discrimination” (distinctiveness): different
+hazard among different stages, and the higher the stage the higher
+the hazard, (3). ‘‘Explained variance”: the percentage of survival
+variation attributable to ‘‘stage” in the MVA, (4). ‘‘Likelihood differ-
+ence”: the difference of ‘goodness-of-?t’ between the MVA models
+with and without the ‘‘stage” variable, and (5). ‘‘Sample size bal-
+ance”: relatively balanced sample sizes across stage groups.
+Results
+A total of 285 consecutive patients were treated during the
+study period. Excluding 13 patients whose MRIs were unavailable,
+the remaining 274 patients (43 cN0 and 231 cN+) were eligible;
+their clinical characteristics are displayed in Table 1.
+The entire cohort included 196 (72%) patients of Asian and 78
+(28%) of non-Asian ethnicity. Etiological factors included 244
+(89%) EBV-positive, 10 (4%) HPV-positive, 8 (3%) non-viral NPC,
+and 12 (4%) unknown aetiology. Histology included 6 (2%) kera-
+tinizing, 56 (20%) nonkeratinizing differentiated and 212 (77%)
+nonkeratinizing undifferentiated subtypes.
+MRI features were reviewed for 231 cN+ NPC patients. Median
+interval from MRI acquisition to IMRT commencement was
+2.1 weeks (0–10.4 weeks). TNM-8 cN categories were: 69 (30%)
+cN1, 125 (54%) cN2, and 37 (16%) cN3. Nodal disease was 146
+(67%) unilateral and 47 (22%) bilateral. RPLN was present in 215
+(93%) cases including 72 (33%) unilateral and 143 (67%) bilateral.
+Lower neck lymphadenopathy was present in 63 (27%) cases. The
+majority of rENE (n = 83, 36%) was either G2-rENE (n = 58, 25%)
+or G3-rENE (n = 11, 5%) while G1-rENE only accounted for 14
+(6%) of the cN+ cohort (Table 1). The frequency of rENE increased
+with higher cN category: 16% (11/69), 32% (40/125), and 86%
+(32/37) for the TNM-8 cN1, cN2, and cN3 subsets, respectively.
+The interrater kappa for 100 randomly selected samples was
+0.79 (95% CI: 0.66–0.91) for overall rENE dichotomized as ‘‘yes”
+vs ‘‘no”. For G1-rENE, G2-rENE, G3-rENE, and combined G2/3-
+rENE, the interrater kappas with 95% con?dence interval (95% CI)
+were: 0.36 (0.04–0.69), 0.60 (0.42–0.77), 0.69 (0.54–0.85), and
+0.69 (0.54–0.85), respectively (Supplement-1).
+Median follow-up for cN+ was 5.7 years (range 0.6–11.3). Com-
+pared to rENE, the rENE+ cohort had a lower 5-year OS [68% (95%
+CI 58–80) vs 89% (84–95) p < 0.001], DFS [58% (48–70) vs 80% (74–
+87) p < 0.001], and DC [67% (55–76) vs 89% (83–93) p < 0.001], but
+similar LRC [86% (76–92) vs 91% (85–95), p = 0.202]. Five-year OS
+declined with higher grade of rENE: 89% (84–95), 83% (64–100),
+68% (56–83), and 55% (32–94) for rENE, G1-rENE, G2-rENE, and
+G3-rENE, respectively. Five-year DFS rates were 80% (74–87), 84%
+(67–100), 54% (43–69), and 45% (24–87) for rENE, G1-rENE, G2-
+rENE, and G3-rENE, respectively (p < 0.001) [Fig. 2].
+MVA for OS, adjusted for age, TNM-8 T-category, and N-
+category, con?rmed the prognostic importance of G2-rENE [HR
+2.85 (1.36–5.95), p = 0.005)] and G3-rENE [HR 5.28 (1.72–16.25),
+p = 0.004)], and was marginally prognostic for G1-rENE [HR 2.63
+(0.74–9.27), p = 0.13]. MVA for DFS con?rmed the prognostic
+importance of G2-rENE [HR 2.89 (1.62–5.14), p < 0.001] and G3-
+rENE [HR 3.86 (1.50–9.92), p = 0.005], but was non-signi?cant for
+G1-rENE [HR 1.49 (0.44–4.98), p = 0.520].
+C-index and AIC for Lu [6] and Mao’s [5] proposal was improved
+slightly versus TNM-8 cN classi?cation (c-index: 0.729 vs 0.706 vs
+0.704; AIC: 535.60 vs 544.94 vs 545.30). To further improve OS
+prediction, we proposed two new cN classi?cations: Proposal-I
+classi?ed any rENE+ as cN3 because HR for G1-rENE in MVA was
+still marginally prognostic despite its low frequency; Proposal-II
+classi?ed only G2-rENE and G3-rENE as N3 because G1-rENE did
+not reach statistical signi?cance in MVA and the inter-rater kappa
+was low. The c-index parameters for OS were further improved to
+0.747and0.737 and AICs werealso improved to 531.37 and 535.09
+for Proposal-I and Proposal-II, respectively. MVA results for various
+cN classi?cation schema are detailed in Table 2. OS and DFS curves
+by cN for TNM-8, Mao, Lu, Proposal-I and Proposal-II are depicted in
+Fig. 3.
+The performance of stage schema for OS and DFS was evaluated
+combining both cN0 and cN+ cases using the TNM-8 stage group-
+ings. Stage schema using Proposal-I cN ranked ?rst for both OS
+and DFS and Proposal-II second for OS and third for DFS (Table 3).
+Discussion
+Our study of NPC in a Western institution comprising 28% non-
+Asian descendants con?rms the prognostic importance of rENE in
+addition to TNM-8 cN classi?cation, and that its inclusion improves
+risk strati?cation. We propose two new cN classi?cations to relo-
+cate either any grades of rENE (Proposal-I) or only G2/G3-rENE
+(Proposal-II) to cN3 due to improved staging performance for OS
+and DFS prediction compared to the current TNM-8 cN-
+classi?cation.
+Similar to other studies [4–7,22,23], our study demonstrates
+that rENE is one of strongest prognostic factors and a good candi-
+date for re?ning the current NPC cN classi?cation. We found that
+rENE mainly increases risk of distant metastasis resulting in infe-
+rior DFS and OS, while LRC is less affected. The smaller impact on
+LRC likely re?ects the radiosensitive nature of NPC: contemporary
+local treatment ablates tumour foci within irradiated volumes.
+However, rENE increasestherisk of tumour cell enteringinto blood
+stream where cannot be physically targeted or eradicated other
+than by potentially novel systemic strategies.
+Besides strong prognostic value, TNM classi?cation parameters
+must be reliably assessed. Our study demonstrates high concor-
+dance between radiologists in determining unequivocal rENE
+when dichotomized as ‘‘yes” vs ‘‘no”, regardless of experience as
+exempli?ed in this study between the observations of two Neuro-
+radiology fellows (AT with 1 year and OC with 2 yearssubspeciality
+experience) and a senior head and neck Radiologist with 15 years
+of subspecialty experience. However, inter-rater concordance is
+low for G1-rENE as shown in our study and others [5,6], which
+may be attributable to its low frequency and the technical chal-
+lenges in ascertainment. rENE encompasses a continuous spectrum
+of nodal disease spread, from early breach of the LN capsule con-
+?ned to the perinodal fat (likely re?ected on imaging as G1-
+rENE) to invasion of adjacent anatomy, including the sternocleido-
+mastoid muscle, parotid gland, neurovascular structures, and skin
+(depicted as G3-rENE on imaging). Radiological diagnosis in subtle
+examples of rENE may be subjective due to technical limitations
+such as motion artifact. Despite this, G1-rENE showed a trend
+towards lower OS after adjusting for TNM-8 T and N categories
+and age, with the HR approaching that of G2-rENE on MVA. This
+suggests that the prognostic value of G1-rENE may still be real in
+unequivocal cases.
+In order to achieve widespread use and acceptance, a staging
+system should besimple and practical while still re?ecting progno-
+sis. rENE may be recorded in either a binary or graded manner.
+However, grading of rENE has not been universally accepted.
+Dichotomization of rENE is more practical for clinical use for
+now. Therefore, two cN classi?cation schemas are proposed, both
+dichotomizing unequivocal rENE into ‘‘yes” vs ‘‘no”, the difference
+being inclusion of G1-rENE as ‘‘yes”. Proposal-I classi?es all
+unequivocal rENE as cN3, which appears to be the simplest
+approach while achieving the top overall ranking for both OS and
+DFS compared to other proposals. However, inclusion of G1-rENE
+leaves potential for the inexperienced radiologist to inadvertently
+‘‘upstage” disease by ‘‘overcalling” equivocal cases as G1-rENE.
+Furthermore, G1-rENE refers to tumour con?ned to the perinodal
+fat, which may be less prognostic if treated at this stage. Therefore,
+we also evaluated the performance of Proposal-II where only G2/
+G3-rENE were considered ‘‘yes” for rENE, but found it ranked lower
+than Proposal-I.
+Others have also proposed incorporation of rENE in cN classi?-
+cation. Mao et al. [5] restricted only G3-rENE to cN3 and excluded
+G2-rENE due tonon-signi?cancefor regional controldespite signif-
+icance for DM, DFS, and OS.However, our study showed that ignor-
+ing G2-rENE could reduce staging performance. Lu et al. [6]
+separated G2-rENE and G3-rENE in their proposal due to differen-
+tial HRs associated with G2-rENE and G3-rENE. Essentially, cN1
+disease with G2-rENE would be classi?ed to cN2 not cN3. However,
+differentiating between grades of rENE in cN classi?cationmay add
+an additional layer of uncertainty and complexity in practice, both
+of which are undesirable when a new staging parameter is intro-
+duced. Our Proposal-I and Proposal-II have the advantage of sim-
+plicity with better OS predictability (as shown in high c-index
+and low AIC). Both proposals outperformed TNM-8 and other stag-
+ing schemas [5,6] that included rENE in cN classi?cation for OS.
+A unique feature of the current study is that the cohort is from a
+non-endemic region in a metropolitan jurisdiction in Canada, and
+as such comprising mixed ethnicity and aetiology. Although the
+majority are of Asian background, many represent ?rst generation
+immigrants and their offspring. EBV is still the dominant etiologic
+factor for our study population, while 4% arecaused by HPV and 2%
+due to non-viral (smoking) etiology. HPV + NPC is emerging as a
+community setting and in endemic regions remains to be
+evaluated.
+Conclusion
+We con?rm that unequivocal rENE has high inter-rater reliabil-
+ity and is prognostically important in NPC in a diverse Western
+cohort, almost a quarter of whom comprised patients of non-
+Asian ethnicity with 2% non-viral, 4% HPVaetiology. We agree with
+other authors’ recommendation to include rENE as a cN modi?er
+for future TNM classi?cations. Considering practicality and sim-
+plicity, we propose dichotomizing rENE as ‘‘yes” vs ‘‘no” and clas-
+sifying any unequivocal rENE, either G1/G2/G3-rENE or G2/G3-
+rENE, as cN3. We report that inclusion of rENE in the cN classi?ca-
+tion can further improve risk strati?cation to facilitate segregation
+of patients into groups that may bene?t from different treatment
+approaches or clinical trial entry in this non-endemic population.
+Validating our ?ndings and proposals in larger independent data-
+sets is warranted.
+Con?ict of Interest
+Drs. Giuliani, Hansen, Hope, Kim, and Sprea?co declared non-
+?nancial support and/or advisory/consulting/research role outside
+the submitted work in their Con?ict-of-Interest Disclosure Form.
+No actual or potential con?icts of interest exist for any other
+authors on this topic.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.radonc.2021.10.018.

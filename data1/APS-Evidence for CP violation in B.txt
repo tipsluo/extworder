@@ -1,0 +1,2236 @@
+Document Infomation ===========>
+Title=untitled
+Author=null
+Subject=null
+Keywords=null
+Creator=Arbortext Advanced Print Publisher 9.1.405/W Unicode
+Producer=Acrobat Distiller 10.0.0 (Windows)
+Creation Date=java.util.GregorianCalendar[time=1506689226000,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=java.util.SimpleTimeZone[id=GMT-04:00,offset=-14400000,dstSavings=3600000,useDaylight=false,startYear=0,startMode=0,startMonth=0,startDay=0,startDayOfWeek=0,startTime=0,startTimeMode=0,endMode=0,endMonth=0,endDay=0,endDayOfWeek=0,endTime=0,endTimeMode=0],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=8,WEEK_OF_YEAR=39,WEEK_OF_MONTH=5,DAY_OF_MONTH=29,DAY_OF_YEAR=272,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=5,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=47,SECOND=6,MILLISECOND=0,ZONE_OFFSET=-14400000,DST_OFFSET=0]
+Modification Date=java.util.GregorianCalendar[time=1506689226000,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=java.util.SimpleTimeZone[id=GMT-04:00,offset=-14400000,dstSavings=3600000,useDaylight=false,startYear=0,startMode=0,startMonth=0,startDay=0,startDayOfWeek=0,startTime=0,startTimeMode=0,endMode=0,endMonth=0,endDay=0,endDayOfWeek=0,endTime=0,endTimeMode=0],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=8,WEEK_OF_YEAR=39,WEEK_OF_MONTH=5,DAY_OF_MONTH=29,DAY_OF_YEAR=272,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=5,AM_PM=0,HOUR=8,HOUR_OF_DAY=8,MINUTE=47,SECOND=6,MILLISECOND=0,ZONE_OFFSET=-14400000,DST_OFFSET=0]
+Trapped=null
+
+Context===========>
+Evidence for CP violation in B + ? Kð892Þ+?0 from a Dalitz plot analysis
+of B + ? K0
+S?
++?0 decays
+J. P. Lees,1 V. Poireau,1 V. Tisserand,1 E. Grauges,2 A. Palano,3a,3b G. Eigen,4 B. Stugu,4 D. N. Brown,5 L. T. Kerth,5
+Yu. G. Kolomensky,5 M. J. Lee,5 G. Lynch,5 H. Koch,6 T. Schroeder,6 C. Hearty,7 T. S. Mattison,7 J. A. McKenna,7
+R. Y. So,7 A. Khan,8 V. E. Blinov,9a,9b,9c A. R. Buzykaev,9a V. P. Druzhinin,9a,9b V. B. Golubev,9a,9b E. A. Kravchenko,9a,9b
+A. P. Onuchin,9a,9b,9c S. I. Serednyakov,9a,9b Yu. I. Skovpen,9a,9b E. P. Solodov,9a,9b K. Yu. Todyshev,9a,9b A. J. Lankford,10
+B. Dey,11 J. W. Gary,11 O. Long,11 M. Franco Sevilla,12 T. M. Hong,12 D. Kovalskyi,12 J. D. Richman,12 C. A. West,12
+A. M. Eisner,13 W. S. Lockman,13 W. Panduro Vazquez,13 B. A. Schumm,13 A. Seiden,13 D. S. Chao,14 C. H. Cheng,14
+B. Echenard,14 K. T. Flood,14 D. G. Hitlin,14 T. S. Miyashita,14 P. Ongmongkolkul,14 F. C. Porter,14 M. Röhrken,14
+R. Andreassen,15 Z. Huard,15 B. T. Meadows,15 B. G. Pushpawela,15 M. D. Sokoloff,15 L. Sun,15 P. C. Bloom,16
+W. T. Ford,16 A. Gaz,16 J. G. Smith,16 S. R. Wagner,16 R. Ayad,17,† W.H. Toki,17 B. Spaan,18 D. Bernard,19 M. Verderi,19
+S. Playfer,20 D. Bettoni,21a C. Bozzi,21a R. Calabrese,21a,21b G. Cibinetto,21a,21b E. Fioravanti,21a,21b I. Garzia,21a,21b
+E. Luppi,21a,21b L. Piemontese,21a V. Santoro,21a A. Calcaterra,22 R. de Sangro,22 G. Finocchiaro,22 S. Martellotti,22
+P. Patteri,22 I. M. Peruzzi,22,‡ M. Piccolo,22 M. Rama,22 A. Zallo,22 R. Contri,23a,23b M. R. Monge,23a,23b S. Passaggio,23a
+C. Patrignani,23a,23b B. Bhuyan,24 V. Prasad,24 A. Adametz,25 U. Uwer,25 H. M. Lacker,26 U. Mallik,27 C. Chen,28
+J. Cochran,28 S. Prell,28 H. Ahmed,29 A. V. Gritsan,30 N. Arnaud,31 M. Davier,31 D. Derkach,31 G. Grosdidier,31
+F. Le Diberder,31 A. M. Lutz,31 B. Malaescu,31,§ P. Roudeau,31 A. Stocchi,31 G. Wormser,31 D. J. Lange,32 D. M. Wright,32
+J. P. Coleman,33 J. R. Fry,33 E. Gabathuler,33 D. E. Hutchcroft,33 D. J. Payne,33 C. Touramanis,33 A. J. Bevan,34
+F. Di Lodovico,34 R. Sacco,34 G. Cowan,35 D. N. Brown,36 C. L. Davis,36 A. G. Denig,37 M. Fritsch,37 W. Gradl,37
+K. Griessinger,37 A. Hafner,37 K. R. Schubert,37 R. J. Barlow,38,? G. D. Lafferty,38 R. Cenci,39 B. Hamilton,39 A. Jawahery,39
+D. A. Roberts,39 R. Cowan,40 R. Cheaib,41 P. M. Patel,41,* S. H. Robertson,41 N. Neri,42a F. Palombo,42a,42b L. Cremaldi,43
+R. Godang,43,¶ D. J. Summers,43 M. Simard,44 P. Taras,44 G. De Nardo,45a,45b G. Onorato,45a,45b C. Sciacca,45a,45b G. Raven,46
+C. P. Jessop,47 J. M. LoSecco,47 K. Honscheid,48 R. Kass,48 M. Margoni,49a,49b M. Morandin,49a M. Posocco,49a
+M. Rotondo,49a G. Simi,49a,49b F. Simonetto,49a,49b R. Stroili,49a,49b S. Akar,50 E. Ben-Haim,50 M. Bomben,50
+G. R. Bonneaud,50 H. Briand,50 G. Calderini,50 J. Chauveau,50 Ph. Leruste,50 G. Marchiori,50 J. Ocariz,50 M. Biasini,51a,51b
+E. Manoni,51a A. Rossi,51a C. Angelini,52a,52b G. Batignani,52a,52b S. Bettarini,52a,52b M. Carpinelli,52a,52b,** G. Casarosa,52a,52b
+M. Chrzaszcz,52a F. Forti,52a,52b M. A. Giorgi,52a,52b A. Lusiani,52a,52c B. Oberhof,52a,52b E. Paoloni,52a,52b G. Rizzo,52a,52b
+J. J. Walsh,52a D. Lopes Pegna,53 J. Olsen,53 A. J. S. Smith,53 F. Anulli,54a R. Faccini,54a,54b F. Ferrarotto,54a F. Ferroni,54a,54b
+M. Gaspero,54a,54b A. Pilloni,54a,54b G. Piredda,54a C. Bünger,55 S. Dittrich,55 O. Grünberg,55 M. Hess,55 T. Leddig,55
+C. Voß,55 R. Waldi,55 T. Adye,56 E. O. Olaiya,56 F. F. Wilson,56 S. Emery,57 G. Vasseur,57 D. Aston,58 D. J. Bard,58
+C. Cartaro,58 M. R. Convery,58 J. Dorfan,58 G. P. Dubois-Felsmann,58 W. Dunwoodie,58 M. Ebert,58 R. C. Field,58
+B. G. Fulsom,58 M. T. Graham,58 C. Hast,58 W. R. Innes,58 P. Kim,58 D.W. G. S. Leith,58 D. Lindemann,58 S. Luitz,58
+V. Luth,58 H. L. Lynch,58 D. B. MacFarlane,58 D. R. Muller,58 H. Neal,58 M. Perl,58,* T. Pulliam,58 B. N. Ratcliff,58
+A. Roodman,58 R. H. Schindler,58 A. Snyder,58 D. Su,58 M. K. Sullivan,58 J. Va’vra,58 W. J. Wisniewski,58 H.W. Wulsin,58
+M. V. Purohit,59 J. R. Wilson,59 A. Randle-Conde,60 S. J. Sekula,60 M. Bellis,61 P. R. Burchat,61 E. M. T. Puccio,61
+M. S. Alam,62 J. A. Ernst,62 R. Gorodeisky,63 N. Guttman,63 D. R. Peimer,63 A. Soffer,63 S. M. Spanier,64 J. L. Ritchie,65
+R. F. Schwitters,65 J. M. Izen,66 X. C. Lou,66 F. Bianchi,67a,67b F. De Mori,67a,67b A. Filippi,67a D. Gamba,67a,67b
+L. Lanceri,68a,68b L. Vitale,68a,68b F. Martinez-Vidal,69 A. Oyanguren,69 P. Villanueva-Perez,69 J. Albert,70 Sw. Banerjee,70
+A. Beaulieu,70 F. U. Bernlochner,70 H. H. F. Choi,70 G. J. King,70 R. Kowalewski,70 M. J. Lewczuk,70 T. Lueck,70
+I. M. Nugent,70 J. M. Roney,70 R. J. Sobie,70 N. Tasneem,70 T. J. Gershon,71 P. F. Harrison,71 T. E. Latham,71 H. R. Band,72
+S. Dasu,72 Y. Pan,72 R. Prepost,72 and S. L. Wu72
+(The BABAR Collaboration)
+1Laboratoire d’Annecy-le-Vieux de Physique des Particules (LAPP), Université de Savoie, CNRS/IN2P3,
+F-74941 Annecy-Le-Vieux, France
+2Universitat de Barcelona, Facultat de Fisica, Departament ECM, E-08028 Barcelona, Spain
+3aINFN Sezione di Bari, I-70126 Bari, Italy
+3bDipartimento di Fisica, Università di Bari, I-70126 Bari, Italy
+4University of Bergen, Institute of Physics, N-5007 Bergen, Norway
+5Lawrence Berkeley National Laboratory and University of California, Berkeley, California 94720, USA
+6Ruhr Universität Bochum, Institut für Experimentalphysik 1, D-44780 Bochum, Germany
+7University of British Columbia, Vancouver, British Columbia, Canada V6T 1Z1
+8Brunel University, Uxbridge, Middlesex UB8 3PH, United Kingdom
+PHYSICAL REVIEW D 96, 072001 (2017)
+2470-0010=2017=96(7)=072001(21) 072001-1 © 2017 American Physical Society
+9aBudker Institute of Nuclear Physics SB RAS, Novosibirsk 630090, Russia
+9bNovosibirsk State University, Novosibirsk 630090, Russia
+9cNovosibirsk State Technical University, Novosibirsk 630092, Russia
+10University of California at Irvine, Irvine, California 92697, USA
+11University of California at Riverside, Riverside, California 92521, USA
+12University of California at Santa Barbara, Santa Barbara, California 93106, USA
+13University of California at Santa Cruz, Institute for Particle Physics, Santa Cruz, California 95064, USA
+14California Institute of Technology, Pasadena, California 91125, USA
+15University of Cincinnati, Cincinnati, Ohio 45221, USA
+16University of Colorado, Boulder, Colorado 80309, USA
+17Colorado State University, Fort Collins, Colorado 80523, USA
+18Technische Universität Dortmund, Fakultät Physik, D-44221 Dortmund, Germany
+19Laboratoire Leprince-Ringuet, Ecole Polytechnique, CNRS/IN2P3, F-91128 Palaiseau, France
+20University of Edinburgh, Edinburgh EH9 3JZ, United Kingdom
+21aINFN Sezione di Ferrara, I-44122 Ferrara, Italy
+21bDipartimento di Fisica e Scienze della Terra, Università di Ferrara, I-44122 Ferrara, Italy
+22INFN Laboratori Nazionali di Frascati, I-00044 Frascati, Italy
+23aINFN Sezione di Genova, I-16146 Genova, Italy
+23bDipartimento di Fisica, Università di Genova, I-16146 Genova, Italy
+24Indian Institute of Technology Guwahati, Guwahati, Assam 781 039, India
+25Universität Heidelberg, Physikalisches Institut, D-69120 Heidelberg, Germany
+26Humboldt-Universität zu Berlin, Institut für Physik, D-12489 Berlin, Germany
+27University of Iowa, Iowa City, Iowa 52242, USA
+28Iowa State University, Ames, Iowa 50011-3160, USA
+29Physics Department, Jazan University, Jazan 22822, Kingdom of Saudia Arabia
+30Johns Hopkins University, Baltimore, Maryland 21218, USA
+31Laboratoire de l’Accélérateur Linéaire, IN2P3/CNRS et Université Paris-Sud 11, Centre Scientifique
+d’Orsay, F-91898 Orsay Cedex, France
+32Lawrence Livermore National Laboratory, Livermore, California 94550, USA
+33University of Liverpool, Liverpool L69 7ZE, United Kingdom
+34Queen Mary, University of London, London E1 4NS, United Kingdom
+35University of London, Royal Holloway and Bedford New College,
+Egham, Surrey TW20 0EX, United Kingdom
+36University of Louisville, Louisville, Kentucky 40292, USA
+37Johannes Gutenberg-Universität Mainz, Institut für Kernphysik, D-55099 Mainz, Germany
+38University of Manchester, Manchester M13 9PL, United Kingdom
+39University of Maryland, College Park, Maryland 20742, USA
+40Massachusetts Institute of Technology, Laboratory for Nuclear Science,
+Cambridge, Massachusetts 02139, USA
+41McGill University, Montréal, Québec, Canada H3A 2T8
+42aINFN Sezione di Milano, I-20133 Milano, Italy
+42bDipartimento di Fisica, Università di Milano, I-20133 Milano, Italy
+43University of Mississippi, University, Mississippi 38677, USA
+44Université de Montréal, Physique des Particules, Montréal, Québec, Canada H3C 3J7
+45aINFN Sezione di Napoli, I-80126 Napoli, Italy
+45bDipartimento di Scienze Fisiche, Università di Napoli Federico II, I-80126 Napoli, Italy
+46NIKHEF, National Institute for Nuclear Physics and High Energy Physics,
+NL-1009 DB Amsterdam, The Netherlands
+47University of Notre Dame, Notre Dame, Indiana 46556, USA
+48Ohio State University, Columbus, Ohio 43210, USA
+49aINFN Sezione di Padova, I-35131 Padova, Italy
+49bDipartimento di Fisica, Università di Padova, I-35131 Padova, Italy
+50Laboratoire de Physique Nucléaire et de Hautes Energies, IN2P3/CNRS,
+Université Pierre et Marie Curie-Paris6, Université Denis Diderot-Paris7, F-75252 Paris, France
+51aINFN Sezione di Perugia, I-06123 Perugia, Italy
+51bDipartimento di Fisica, Università di Perugia, I-06123 Perugia, Italy
+52aINFN Sezione di Pisa, I-56127 Pisa, Italy
+52bDipartimento di Fisica, Università di Pisa, I-56127 Pisa, Italy
+52cScuola Normale Superiore di Pisa, I-56127 Pisa, Italy
+53Princeton University, Princeton, New Jersey 08544, USA
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-2
+54aINFN Sezione di Roma, I-00185 Roma, Italy
+54bDipartimento di Fisica, Università di Roma La Sapienza, I-00185 Roma, Italy
+55Universität Rostock, D-18051 Rostock, Germany
+56Rutherford Appleton Laboratory, Chilton, Didcot, Oxon OX11 0QX, United Kingdom
+57CEA, Irfu, SPP, Centre de Saclay, F-91191 Gif-sur-Yvette, France
+58SLAC National Accelerator Laboratory, Stanford, California 94309 USA
+59University of South Carolina, Columbia, South Carolina 29208, USA
+60Southern Methodist University, Dallas, Texas 75275, USA
+61Stanford University, Stanford, California 94305-4060, USA
+62State University of New York, Albany, New York 12222, USA
+63Tel Aviv University, School of Physics and Astronomy, Tel Aviv 69978, Israel
+64University of Tennessee, Knoxville, Tennessee 37996, USA
+65University of Texas at Austin, Austin, Texas 78712, USA
+66University of Texas at Dallas, Richardson, Texas 75083, USA
+67aINFN Sezione di Torino, I-10125 Torino, Italy
+67bDipartimento di Fisica, Università di Torino, I-10125 Torino, Italy
+68aINFN Sezione di Trieste, I-34127 Trieste, Italy
+68bDipartimento di Fisica, Università di Trieste, I-34127 Trieste, Italy
+69IFIC, Universitat de Valencia-CSIC, E-46071 Valencia, Spain
+70University of Victoria, Victoria, British Columbia, Canada V8W 3P6
+71Department of Physics, University of Warwick, Coventry CV4 7AL, United Kingdom
+72University of Wisconsin, Madison, Wisconsin 53706, USA
+(Received 22 June 2015; published 2 October 2017)
+We report a Dalitz plot analysis of charmless hadronic decays of charged B mesons to the final state
+K0
+S?
+þ?0 using the full BABAR data set of 470.9 2.8 million BB? events collected at the ?ð4SÞ resonance.
+We measure the overall branching fraction and CP asymmetry to be BðBþ ? K0?þ?0Þ ¼
+ð31.8 1.8 2.1þ6.0
+?0.0Þ × 10?6 and ACPðBþ ? K0?þ?0Þ ¼ 0.07 0.05 0.03þ0.02
+?0.03 , where the uncertain-
+ties are statistical, systematic, and due to the signal model, respectively. This is the first measurement of the
+branching fraction for Bþ ? K0?þ?0. We find first evidence of a CP asymmetry in Bþ ? Kð892Þþ?0
+decays: ACPðBþ ? Kð892Þþ?0Þ ¼ ?0.52 0.14 0.04þ0.04
+?0.02 . The significance of this asymmetry,
+including systematic and model uncertainties, is 3.4 standard deviations. We also measure the branching
+fractions and CP asymmetries for three other intermediate decay modes.
+DOI: 10.1103/PhysRevD.96.072001
+I. INTRODUCTION
+The Cabibbo-Kobayashi-Maskawa (CKM) mechanism
+[1,2] for quark mixing describes all weak charged current
+transitions between quarks in terms of a unitarity matrix
+with four parameters: three rotation angles and an
+irreducible phase. The unitarity of the CKM matrix is
+usually expressed as triangle relationships among its
+elements. The interference between tree-level and loop
+(“penguin”) amplitudes can give rise to direct CP
+violation, which is sensitive to the angles of the
+Unitarity Triangle, denoted ?, ?, and ?. Measurements
+of the parameters of the CKM matrix provide an impor-
+tant test of the Standard Model (SM) since any deviation
+from unitarity or discrepancies between measurements of
+the same parameter in different decay processes would
+imply a possible signature of new physics. Tree ampli-
+tudes in B ? K? decays are sensitive to ?, which can be
+extracted from interferences between the intermediate
+states that populate the K?? Dalitz plane. However, these
+amplitudes are Cabibbo-suppressed relative to contribu-
+tions carrying a different phase and involving radiation of
+either a gluon (QCD penguin) or photon (electroweak
+penguin or EWP) from a loop.
+QCD penguin contributions can be eliminated by con-
+structing a linear combination of the weak decay ampli-
+tudes for Bþ ? K? to form a pure isospin I ¼ 3
+2
+state [3]:
+A3
+2
+¼ AðK0?þÞ þ
+ffiffiffi
+2
+p
+AðKþ?0Þ: ð1Þ
+*Deceased.
+†Now at: University of Tabuk, Tabuk 71491, Saudi Arabia.
+‡Also at: Università di Perugia, Dipartimento di Fisica,
+I-06123 Perugia, Italy.
+§Now at: Laboratoire de Physique Nucléaire et de Hautes
+Energies, IN2P3/CNRS, F-75252 Paris, France.?Now at: University of Huddersfield, Huddersfield HD1 3DH,
+UK.
+¶Now at: University of South Alabama, Mobile, Alabama
+36688, USA.
+**Also at: Università di Sassari, I-07100 Sassari, Italy.
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-3
+Since all transitions from I ¼ 1
+2
+to I ¼ 3
+2
+states occur via
+only ?I ¼ 1 operators, A3
+2
+is free from QCD contributions.
+The weak phase of A3
+2
+is often denoted as
+?3
+2
+¼ ?
+1
+2
+ArgðA?3
+2
+=A3
+2
+Þ; ð2Þ
+where A?3
+2
+is the CP conjugate of the amplitude in Eq. (1).
+The phase ?3
+2
+in Eq. (2) is the CKM angle ? in the absence
+of EWP contributions [4].
+Measurements of the rates and CP asymmetries in B ?
+K? have generated considerable interest because of pos-
+sible hints of new-physics contributions [5,6]. Of particular
+interest is the difference, ?ACP, between the CP asymme-
+try in Bþ ? Kþ?0 and the CP asymmetry in B0 ? Kþ??,
+which in the SM is expected to be consistent with zero
+within the theoretical uncertainties assuming U-spin sym-
+metry and in the absence of color-suppressed tree and
+electroweak amplitudes [7,8]. Using the average values of
+ACP of Kþ?0 and Kþ?? decays [9], ?ACPðK?Þ is
+?ACPðK?Þ ¼ ACPðKþ?0Þ ? ACPðKþ??Þ
+¼ 0.122 0.022; ð3Þ
+which differs from zero by 5.5 standard deviations.
+Unfortunately, hadronic uncertainties prevent a clear inter-
+pretation of these results in terms of the new-physics
+implications [3,10]. Additional information can be obtained
+through studies of the related vector-pseudoscalar decays
+B ? K? and B ? K? [11–13], for which the ratios of
+tree-to-penguin amplitudes are expected to be two to three
+times larger than for B ? K? decays. Hence, B ? K? and
+B ? K? decays could have considerably larger CP
+asymmetries.
+In this article, we present the results from an amplitude
+analysis of Bþ ? K0
+S?
+þ?0 decays. The inclusion of charge
+conjugate processes is implied throughout this article,
+except when referring to CP asymmetries. This is the first
+Dalitz plot analysis of this decay by BABAR; the only
+previous BABAR analysis of this decay was restricted to
+measuring the branching fraction and CP asymmetry of
+Bþ ? K0?þ [14]. An upper limit on the branching fraction
+for Bþ ? K0?þ?0 was set by the CLEO Collaboration:
+BðBþ ? K0?þ?0Þ < 66 × 10?6 [15].
+Two contributions to the K0
+S?
+þ?0 final state arise
+from the resonant decays Bþ ? Kð892Þ0?þ and Bþ ?
+Kð892Þþ?0. Although both the rate and CP asymmetries
+for Bþ ? Kð892Þ0?þ have been well measured, with
+K0 ? Kþ??, by both the BABAR [16] and Belle [17]
+Collaborations, the measurements of the rate and CP
+asymmetry for Bþ ? Kð892Þþ?0 [18] have significant
+statistical uncertainties and could benefit from the addi-
+tional information provided by a full amplitude analysis. In
+Table I we review the existing measurements of the rates
+and CP asymmetries in the B ? Kð892Þ? system.
+This article is organized as follows. The isobar model
+used to parametrize the complex amplitudes describing the
+intermediate resonances contributing to the K0
+S?
+þ?0 final
+state is presented in Sec. II. A brief description of the
+BABAR detector and the data set is given in Sec. III. The
+event reconstruction and selection are discussed in detail in
+Sec. IV, the background study in Sec. V, and a description
+of the extended maximum likelihood fit in Sec. VI.
+The results are given in Sec. VII, and a study of the
+systematic uncertainties is presented in Sec. VIII. In
+Sec. IX, we provide a summary and conclusion, discussing
+the results and combining the branching fractions and CP
+asymmetries for the decays Bþ ? Kð892Þ0?þ, Bþ ?
+K
+0ð1430Þ0?þ, and Bþ ? Kð892Þþ?0 with previous
+BABAR results obtained from the final states Bþ ?
+Kþ???þ and Bþ ? Kþ?0?0.
+II. AMPLITUDE ANALYSIS FORMALISM
+A number of intermediate states contribute to the decay
+Bþ ? K0
+S?
+þ?0. Their individual contributions are mea-
+sured by performing a maximum likelihood fit to the
+distribution of events in the Dalitz plot formed from the
+two variables,m2
+K0
+S?
+þ andm2
+?þ?0 . We use the Laura++ [24]
+software to perform this fit.
+The total signal amplitudes for the Bþ and the B? decays
+are given in the isobar formalism by [25,26]
+Aðm2
+K0
+S?
+þ ; m2
+?þ?0Þ ¼
+X
+j
+cjFjðm2
+K0
+S?
+þ ; m2
+?þ?0Þ; ð4Þ
+A?ðm2
+K0
+S?
+? ; m2
+???0
+Þ ¼
+X
+j
+c?jF?jðm2
+K0
+S?
+? ; m2
+???0
+Þ; ð5Þ
+where cj is the complex coefficient for a given resonant
+decay mode j contributing to the Dalitz plot. This complex
+coefficient contains the weak-interaction phase dependence
+that is measured relative to one of the contributing resonant
+channels. In this article we report results for the relative
+phases between each pair of amplitudes.
+The function Fj describes the dynamics of the decay
+amplitudes and is the product of a resonant line shape (Rj),
+TABLE I. Average values of the branching fractions B and CP
+asymmetries ACP for B ? Kð892Þ? decays as determined by the
+Heavy Flavor Averaging Group [9].
+Mode Bð10?6Þ ACP References
+Kþ?? 8.5 0.7 ?0.23 0.06 [19–22]
+Kþ?0 8.2 1.8 ?0.06 0.24 [18]
+K0?þ 9.9þ0.8
+?0.9 ?0.038 0.042 [16,17]
+K0?0 2.5 0.6 ?0.15 0.13 [19,23]
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-4
+two Blatt-Weisskopf barrier factors [27] (XL), and an
+angular-dependent term (Tj;L) [28]:
+Fj¼Rj×XLðjp?j;jp?0jÞ×XLðjq?j;jq?0jÞ×Tj;Lðp?;q?Þ; ð6Þ
+where L is the orbital angular momentum between the
+intermediate resonance and the bachelor particle (the
+bachelor particle is the daughter of the B decay that does
+not arise from the resonance), q? is the momentum of one of
+the daughters of the resonance in the rest frame of the
+resonance, p? is the momentum of the bachelor particle in
+the rest frame of the resonance, and p?0 and q?0 are the
+values of p? and q?, respectively, at the nominal mass
+of the resonance. The Blatt-Weisskopf barrier factors are
+given by
+XL¼0ðju?j; ju?0jÞ ¼ 1; ð7Þ
+XL¼1ðju?j; ju?0jÞ ¼
+ffiffiffiffiffiffiffiffiffiffiffiffi
+1þ z0
+1þ z
+r
+; ð8Þ
+XL¼2ðju?j; ju?0jÞ ¼
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+ðz0 ? 3Þ2 þ 9z0
+ðz ? 3Þ2 þ 9z
+s
+; ð9Þ
+where z ¼ ðju?jrBWÞ2, z0 ¼ ðju?0jrBWÞ2, u? is either q? or p?,
+and rBW ¼ 4.0 ðGeV=cÞ?1 is the meson radius parameter.
+The uncertainty in rBW, used for systematic variations, is
+2 ðGeV=cÞ?1 for the K resonances, and ranges from
+?1.0 toþ2.0 ðGeV=cÞ?1 for the ?ð770Þþ [28]. The angular
+term depends on the spin of the resonance and is given by
+[29,30]
+Tj;L¼0 ¼ 1; ð10Þ
+Tj;L¼1 ¼ ?2p?:q?; ð11Þ
+Tj;L¼2 ¼
+4
+3
+½3ðp?:q?Þ2 ? ðjp?jjq?jÞ2: ð12Þ
+The choice of which resonance daughter is defined to
+carry the momentum q? is a matter of convention. However,
+its definition is important when comparing measurements
+from different experiments. In Fig. 1, we illustrate the
+momentum definitions used for the K0
+S?
+þ, K0
+S?
+0, and ?þ?0
+resonance combinations.
+Table II lists the resonances used to model the signal. We
+determine a nominal model from data by studying changes
+in the log likelihood values for the best fit when omitting or
+adding a resonance to the fit model, as described in Sec. VI.
+For the Kð892Þ0 and Kð892Þþ resonances, we use a
+relativistic Breit-Wigner (RBW) line shape [28]:
+RRBW
+j ðmÞ ¼ 1
+m2
+0 ?m2 ? im0?ðmÞ ; ð13Þ
+where m is the two-body invariant mass and ?ðmÞ is the
+mass-dependent width. In general, for a resonance
+decaying to spin-0 particles, ?ðmÞ can be expressed as
+?ðmÞ ¼ ?0
+ jq?j
+jq?0j
+
+2Lþ1
+
+m0
+m
+
+XLðjq?j; jq?0jÞ2; ð14Þ
+where m0 and ?0 are the nominal mass and width of the
+resonance.
+The Gounaris-Sakurai (GS) parametrization [34] is used
+to describe the line shape of the ? resonance decaying into
+two pions. The parametrization takes the form
+RGS
+j ¼ 1þ ?0 · d=m0
+m2
+0 ?m2 þ fðmÞ ? im0?ðmÞ ; ð15Þ
+0?)+?
+S
+(K
+)p(0?
+)q(+?
+)q(-SK
++?)0?
+S
+(K
+)p(+?
+)q(SK
+)q(-0?
+S
+)K0?+?(
+)p(SK
+)q(+?
+)q(-0?
+FIG. 1. Schematic representation of the definitions of q? and p?
+used in this analysis for the (left) K0
+S?
+þ, (center) K0
+S?
+0, and (right)
+?þ?0 resonances.
+TABLE II. Parameters of the Dalitz plot model for Bþ ?
+K0
+S?
+þ?0 used in the nominal fit. The mass and width of the
+?ð770Þþ and their uncertainties are taken from the analyses by the
+ALEPH [31] and CMD2 [32] Collaborations. All other param-
+eters are taken from Ref. [28]. The resonance shapes are a
+Gounaris-Sakurai (GS) function, a relativistic Breit-Wigner
+(RBW) function, or based on measurements by the LASS
+Collaboration [33], with a the scattering length and r the effective
+range of the LASS parametrization.
+Parameters
+Resonance mass Width
+Resonance Line shape ðMeV=c2Þ (MeV)
+?ð770Þþ GS 775.5 0.6 148.2 0.8
+Kð892Þþ RBW 891.7 0.3 50.8 0.9
+Kð892Þ0 RBW 896.1 0.2 50.7 0.6
+ðK?Þ0=þ0
+LASS 1412 50 294 80
+mcutoff ¼ 1800 MeV=c2 [16]
+a ¼ 2.1 0.1 ðGeV=cÞ?1 [16]
+r ¼ 3.3 0.3 ðGeV=cÞ?1 [16]
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-5
+where ?ðmÞ is given by Eq. (14). Expressions for fðmÞ, in
+terms of ?0 and m, and the constant d can be found in
+Ref. [34]. The parameters specifying the ? line shape are
+taken from Refs. [31,32], which provides line shape
+information derived from fits to eþe? annihilation and ?
+lepton decay data.
+For the JP ¼ 0þ component of theK? spectrum, denoted
+ðK?Þ0=þ0 , we make use of the LASS parametrization [33],
+which consists of a K
+0 resonant term together with an
+effective-range, nonresonant component to describe the
+slowly increasing phase as a function of the K? mass:
+RLASS
+j ¼ e2i?B
+m0?0
+m0
+jq?0j
+ðm2
+0 ?m2Þ ? im0?0
+jq?jm0
+mjq?0j
+þ m
+jq?j cot ?B ? ijq?j ;
+ð16Þ
+where cot ?B ¼ 1
+ajq?j þ 1
+2
+rjq?j. The values used for the scat-
+tering length a and the effective range r are given in
+Table II. The effective-range component has a cutoff
+imposed at 1800 MeV=c2 [16]. Integrating separately the
+resonant term, the effective-range term, and the coherent
+sum, we find that the resonant terms (hereafter referred to
+as the K
+0ð1430Þ0 and the K
+0ð1430Þþ) account for 88%
+of the sum, and the effective range component 49%; the
+37% excess is due to destructive interference between the
+two terms. The LASS parametrization is the least well-
+determined component of the signal model; we discuss the
+impact of these uncertainties in Sec. VIII.
+The complex coefficients cj and c?j in Eqs. (4), (5) can be
+parametrized in different ways; we follow the parametriza-
+tion used in Ref. [16] as it avoids a bias in the measurement
+of amplitudes and phases when the resonant components
+have small magnitudes:
+cj ¼ ðxj þ ?xjÞ þ iðyj þ ?yjÞ;
+c?j ¼ ðxj ? ?xjÞ þ iðyj ? ?yjÞ; ð17Þ
+where xj  ?xj and yj  ?yj are the real and imaginary
+parts of the amplitudes. The quantities ?xj and ?yj
+parametrize the CP violation in the decay. The CP
+asymmetry for a given intermediate state is given by
+ACP;j ¼
+jc?jj2 ? jcjj2
+jc?jj2 þ jcjj2
+ð18Þ
+¼ ?
+2ðxj?xj þ yj?yjÞ
+x2j þ ?x2j þ y2j þ ?y2j
+: ð19Þ
+The results quoted for the resonances in the following
+analysis use fit fractions (FFj) as phase-convention-
+independent quantities representing the fractional rate of
+each contribution in the Dalitz plot. The FF for mode j is
+defined as
+FFj ¼
+RR ðjcjFjj2 þ jc?jF?jj2Þdm2
+K?dm
+2
+??RR ðjAj2 þ jA?j2Þdm2
+K?dm
+2
+??
+: ð20Þ
+The sum of all the fit fractions does not necessarily
+yield unity due to constructive and destructive interference,
+as quantified by the interference fit fractions given
+by [30]
+FFij ¼
+RR
+2Re½cicjFiF
+j dm2
+K?dm
+2
+??RR jPkckFkj2dm2
+K?dm
+2
+??
+: ð21Þ
+The parameters xj, ?xj, yj, and ?yj are determined in
+the fit, except for the reference amplitude. Fit fractions,
+relative phases, and asymmetries are derived from the fit
+parameters and their statistical uncertainties determined
+from pseudo experiments generated from the fit results.
+III. THE BABAR DETECTOR
+AND MC SIMULATION
+The data used in the analysis were collected with the
+BABAR detector at the PEP-II asymmetric-energy eþe?
+collider at SLAC National Accelerator Laboratory. The
+sample consists of 429 fb?1 of integrated luminosity
+recorded at the ?ð4SÞ resonance mass (“on-peak”) and
+45 fb?1 collected 40 MeV below the resonance mass (“off-
+peak”) [35]. The on-peak sample corresponds to the full
+BABAR ?ð4SÞ data set and contains 470.9 2.8 million
+BB? events [30]. A detailed description of the BABAR
+detector is given in Refs. [36,37]. Charged-particle tracks
+are measured by means of a five-layer double-sided silicon
+vertex tracker (SVT) and a 40-layer drift chamber (DCH),
+both positioned within a solenoid that provides a 1.5 T
+magnetic field. Charged-particle identification is achieved
+by combining the information from a ring-imaging
+Cherenkov detector (DIRC) and specific ionization energy
+loss (dE=dx) measurements from the DCH and SVT.
+Photons are detected and their energies measured in a
+CsI(Tl) electromagnetic calorimeter (EMC). Muon candi-
+dates are identified in the instrumented flux return of the
+solenoid.
+We use GEANT4-based software to simulate the detector
+response and account for the varying beam and experi-
+mental conditions [38,39]. The EvtGen [40] and Jetset
+7.4 [41] software packages are used to generate signal and
+background Monte-Carlo (MC) event samples in order to
+determine efficiencies and evaluate background contribu-
+tions for different selection criteria.
+IV. EVENT SELECTION
+We reconstruct Bþ ? K0
+S?
+þ?0 candidates from one ?0
+candidate, one K0
+S candidate reconstructed from a pair of
+oppositely charged pions, and a charged pion candidate.
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-6
+The ?0 candidate is formed from a pair of neutral energy
+clusters in the EMC with laboratory energies above
+0.05 GeV and lateral moments [42] between 0.01 and
+0.6. We require the invariant mass of the reconstructed ?0 to
+lie in the range 0.11 < m?? < 0.16 GeV=c2. The K0
+S
+candidate is required to have a ?þ?? invariant mass within
+15 MeV=c2 of the K0
+S mass [28], and a proper decay time
+greater than 0.5 × 10?11 s. To reduce combinatorial back-
+ground, we also require that the K0
+S candidates have a
+vertex probability greater than 10?6 and that the cosine of
+the angle between the K0
+S momentum direction and the K0
+S
+flight direction (as determined by the interaction point and
+the K0
+S vertex) be greater than 0.995. For the ?þ candidate,
+we use information from the tracking systems, the EMC,
+and the DIRC to select a charged track consistent with
+the pion hypothesis. We constrain the ?þ track and K0
+S
+candidate to originate from a common vertex.
+Signal events that are misreconstructed with the decay
+products of one or more daughters completely or partially
+exchanged with other particles in the rest of the event have
+degraded kinematic resolution. We refer to these as “self-
+cross-feed” (SCF) events. This misreconstruction has a
+strong dependence on the energy of the particles concerned
+and is more frequent for low-energy particles, i.e., for
+decays in the corners of the Dalitz plot. Because of the
+presence of a ?0 in the final state, there is a significant
+probability for signal events to be misreconstructed due to
+low-energy photons from the ?0 decay. Using a classifi-
+cation based on MC information, we find that in simulated
+events the SCF fraction depends strongly on the resonant
+substructure of the signal and ranges from 34% for Bþ ?
+Kð892Þþ?0 to 50% for Bþ ? ?ð770ÞþK0
+S. In events
+simulated uniformly in phase space, hereafter referred to
+as nonresonant MC, the SCF fraction varies from less than
+10% in the center of the Dalitz plot to almost 70% in the
+two corners of the Dalitz plot, where either the ?0 or the ?þ
+has low energy. We describe how the SCF events are
+handled in Sec. VI.
+In order to suppress the dominant background, due to
+continuum eþe? ? qq?ðq ¼ u; d; s; cÞ events, we employ a
+boosted decision tree (BDT) algorithm that combines four
+variables commonly used to discriminate jetlike qq? events
+from the more spherical BB? events in the eþe? center-of-
+mass (CM) frame. The first of these is the ratio of the
+second-to-zeroth order momentum-weighted Legendre pol-
+ynomial moments,
+L2
+L0
+¼
+P
+i?ROE
+1
+2
+ð3 cos2 ?i ? 1ÞpiP
+i?ROEpi
+; ð22Þ
+where the summations are over all tracks and neutral
+clusters in the event, excluding those that form the B
+candidate (the “rest of the event” or ROE); pi is the particle
+momentum, and ?i is the angle between the particle and
+the thrust axis of the B candidate, hereafter also referred
+to as the B. The three other variables entering the BDT
+are the absolute value of the cosine of the angle between
+the B direction and the collision axis, the zeroth-order
+momentum-weighted Legendre polynomial moment, and
+the absolute value of the output of another BDT used for
+“flavor tagging,” i.e., for distinguishing B from B? decays
+using inclusive properties of the decay of the other Bmeson
+in the ?ð4SÞ ? BB? event [43]. Although flavor tagging is
+not needed for charged B decays, the degree of tagging
+certainty provides some discrimination between BB? pairs
+and continuum background. The momentum-weighted
+Legendre polynomial moments and the cosine of the angle
+between the B direction and the beam axis are calculated in
+the eþe? CM frame. The BDT is trained on a sample of
+signal MC events and off-peak data. We apply a loose
+criterion on the BDT output of BDTout > 0.06, which
+retains approximately 70% of the signal while rejecting
+92% of the qq? background.
+In addition to BDTout, we use two kinematic variables to
+distinguish the signal from the background:
+mES ¼
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+E2
+X ? p2
+B
+q
+; ð23Þ
+?E ¼ E?
+B ?
+ffiffi
+s
+p
+=2; ð24Þ
+where
+EX ¼ ðs=2þ peþe? · pBÞ=Eeþe? ; ð25Þ
+and where
+ffiffi
+s
+p
+is the total eþe? CM energy, with
+ðEeþe? ;peþe?Þ and ðEB;pBÞ the four-momenta of the initial
+eþe? system and the B candidate, respectively, both
+measured in the lab frame. The quantity E?
+B is the energy
+of the B candidate measured in the eþe? CM frame. The
+signal mES distribution for correctly reconstructed events is
+approximately independent of their position in the K0
+S?
+þ?0
+Dalitz plot and peaks near the B mass with a resolution of
+about 3.4 MeV=c2.
+We retain all candidates satisfying the following
+selection criteria: 5.23 < mES < 5.29 GeV=c2 and ?0.3 <
+?E < 0.3 GeV. The signal region, where the final fit to
+data is performed, is defined by the tighter criteria 5.260 <
+mES < 5.287 GeV=c2 and ?0.20 < ?E < 0.15 GeV. We
+also use candidates in the sideband region of mES defined
+by 5.23<mES<5.26GeV=c2 and ?0.20<?E<0.15GeV
+and subtract the BB? background contributions, predicted by
+MC simulations, from the distribution for these sideband
+events. We then add these distributions to the off-peak
+data distributions to increase the statistical precision of
+our model of the Dalitz plot distribution for continuum
+background.
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-7
+Each of the B candidates is refit to determine the Dalitz
+plot variables. In these fits the K0
+S?
+þ?0 invariant mass is
+constrained to the world average value of the Bmass [28] to
+improve position resolution within the Dalitz plot.
+We find that 20% of the remaining events in nonresonant
+MC have two or more candidates. We choose the best
+candidate in multiple-candidate events based on the highest
+B-vertex probability. This procedure is found to select a
+correctly reconstructed candidate more than 60% of the
+time and does not bias the fit variables.
+The reconstruction efficiency over the Dalitz plot is
+modeled using a two-dimensional (2D) binned distribution
+based on a generated sample of approximately 2 × 106
+simulated Bþ ? K0
+S?
+þ?0 MC events, where the events
+uniformly populate phase space. All selection criteria are
+applied except for those corresponding to a K? invariant-
+mass veto described below, which is taken into account
+separately. The 2D histogram of reconstructed MC events is
+then divided by the 2D histogram of the generated MC
+events. In order to expand regions of phase space with large
+efficiency variations, the Dalitz plot variables are trans-
+formed into “square Dalitz plot” [44] coordinates. We
+obtain an average efficiency, for nonresonant MC events,
+of approximately 15%. In the likelihood fit we use an
+event-by-event efficiency that depends on the Dalitz plot
+position.
+V. BB? BACKGROUNDS
+In addition to continuum events, background arises
+from nonsignal BB? events. A major source of BB? back-
+ground arises from Bþ ? D?0ð?K0
+S?
+0Þ?þ decays. To sup-
+press this background, we veto events with 1.804<mK0
+S?
+0 <
+1.924GeV=c2.
+The remaining BB? backgrounds are studied using MC
+simulations and classified based on the shape of the mES,
+?E, and Dalitz plot distributions. We identify nine catego-
+ries of BB? backgrounds: categories 1, 2 and 3 include
+different types of three- and four-body B decays involving
+an intermediate D meson; categories 4 and 5 include
+charmless four-body B decays to intermediate resonances
+where a ?0 in the final state is not reconstructed; categories 6
+and 7 include two-body B decays with a radiated photon
+misreconstructed as a ?0 decay product or where the ?0
+arises from the otherB decay; category 8 includes charmless
+three-body B decays where a charged pion is interchanged
+with a ?0 meson from the other B; and finally category 9
+includes all other simulated BB? background contributions.
+Within each category, each of the mES, ?E, BDTout, and
+Dalitz plot distributions are formed by combining the
+contributions of all decay modes in the category. The
+combinations are done by normalizing the distributions
+for each decay mode to the expected number of events in
+the recorded data sample, which is estimated using
+reconstruction efficiencies determined from MC, the
+number of BB? pairs in the recorded data sample, and
+the branching fractions listed in Refs. [9,28]. For each
+category, the histograms ofmES,?E, BDTout, and the Dalitz
+plot variables are used as the probability density functions
+(PDF) in the likelihood fit to data to model the BB?
+background.
+VI. THE MAXIMUM LIKELIHOOD FIT
+The extended likelihood function is given by
+L¼ exp
+
+?
+X
+k
+Nk
+
+×
+YNe
+i¼1
+X
+k
+NkPi
+kðm2
+K0
+S?
+þ ;m2
+?þ?0 ;mES;?E;BDTout;qBÞ
+
+;
+ð26Þ
+where Nk is the number of candidates in each signal or
+background category k, Ne is the total number of events
+in the data sample, and Pi
+k (the PDF for category k and
+event i) is the product of the PDFs describing the Dalitz
+plot,mES,?E, and BDTout distributions, with qB the charge
+of the B candidate.
+To avoid possible biases in the determination of the fit
+parameters [45], we use MC samples to study correlations
+between the fit variables and the Dalitz plot parameters,
+m2
+K0
+S?
+þ and m2
+?þ?0 . We find that for correctly reconstructed
+signal candidates, the?E distribution is strongly dependent
+onmK0
+S?
+þ . This is mostly due to a dependence of the energy
+resolution of the B candidate on the ?0 momentum. For
+SCF signal candidates, both the mES and ?E distributions
+depend on all three two-body invariant masses: mK0
+S?
+þ ,
+mK0
+S?
+0 , and m?þ?0 . The mES, ?E, and BDTout distributions
+for continuum and BB? backgrounds have negligible corre-
+lations with the Dalitz plot parameters.
+For correctly reconstructed signal candidates, the mES
+and ?E PDFs are parameterized by a Cruijff function,
+which is given by (omitting normalization factor)
+fCruijffðxÞ ¼ exp
+
+?ðx ?mÞ2
+2?2L;R þ ?L;Rðx ?mÞ2
+
+; ð27Þ
+where m gives the peak of the distribution and the
+asymmetric width of the distribution is given by ?L for
+x < m and ?R for x > m. The asymmetric modulation is
+similarly given by ?L for x < m and ?R for x > m. The ?E
+PDF parameters are calculated on an event-by-event basis
+in terms of the K0
+S?
+þ invariant mass, as a linear function for
+m2
+K0
+S?
+þ < 20 GeV2=c4 and as a quadratic function for
+m2
+K0
+S?
+þ > 20 GeV2=c4. These functions are determined
+by fitting the ?E distribution in large nonresonant MC
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-8
+samples. For the SCF signal, in order to follow the rapid
+shape variations across the Dalitz plot of the mES and ?E
+distributions, we divide the Dalitz plot into several regions
+as illustrated in Fig. 2. Each letter indicates whether the
+dependence is on m2
+?þ?0 , m
+2
+K0
+S?
+þ , or m2
+K0
+S?
+0. The regions are
+chosen based on the distribution in the Dalitz plot of the
+SCF fraction and the mean difference between the true and
+reconstructed position in the Dalitz plot; we include more
+regions in areas of the Dalitz plot where these quantities are
+largest. As a representative example of the variation in ?E
+distribution in nonresonant signal MC simulation, we show
+in Fig. 3 the ?E distributions for regions C1, C2, C3, and
+C4. We use mES and ?E PDFs specific to each region, as
+listed in Table III. Some of the PDFs used in the para-
+metrization of the SCF include Cruijff functions,
+Chebychev polynomials, Gaussian functions, and two-
+piece Gaussian (BGauss) functions. A two-piece
+Gaussian function is an asymmetric Gaussian described
+by the following functional form (omitting normalization
+factor)
+fBGaussðxÞ ¼ exp
+
+?ðx ?mÞ2
+2?2L;R
+
+: ð28Þ
+For the continuum background, we use an ARGUS
+function [46] to parameterize the mES shape. The ?E
+distribution is described by a linear function, and the
+BDTout distribution by an exponential function. The
+mES, ?E, and BDTout PDFs for BB? backgrounds are
+defined by the sum of the histograms from the MC
+simulations for decay modes in each background category,
+as described in Sec. V.
+The continuum and BB? background Dalitz plot distri-
+butions are included in the likelihood as two-dimensional
+histograms. For BB? backgrounds, we use MC samples. For
+continuum background, we combine events from the off-
+peak data and the mES sideband in on-peak data, after
+subtracting contributions from B decays, as described in
+Sec. IV. For the 2D histograms, we use the square Dalitz
+plot coordinates. A linear interpolation between bin centers
+is applied.
+The free parameters in the fit are the yields for signal,
+continuum background, and BB? background categories 1
+and 9. The yields for the remaining BB? background
+categories are fixed to the estimated values. All the PDF
+parameters for the correctly reconstructed mES and ?E
+TABLE III. List of PDFs used to describe the mES and ?E self
+cross feed signal distributions in each of the regions of the Bþ ?
+K0
+S?
+þ?0 Dalitz plot shown in Fig. 2. The abbreviations corre-
+spond to the following functional forms: Cruijff function
+described in Eq. (27) (Cruijff), Chebychev polynomial (Cheb),
+Gaussian (Gauss), two-piece Gaussian described in Eq. (28)
+(BGauss), and exponential (Exp).
+Dalitz plot region mES PDF ?E PDF
+m2
+?þ?0 (A1) Cruijff Cruijff
+m2
+K0
+S?
+þ (B1) Chebþ Gauss Expþ Sigmoid
+(B2) Chebþ Gauss linear þ BGauss
+(B3) Cruijff Expþ Sigmoid
+m2
+K0
+S?
+0 (C1) Chebþ Gauss Cheb
+(C2) Chebþ Gauss Cheb
+(C3) Cruijff Cheb
+(C4) Cruijff Cruijff
+Central region (D1) Cruijff Cruijff
+2)2 (GeV/c2
++?SKm
+0 5 10 15 20 25
+2 )2
+ (
+G
+eV
+/c
+2
+0 ?+ ?
+m
+0
+5
+10
+15
+20
+25
+C1
+C2C3C4
+D1
+A1
+B1B2B3
+FIG. 2. Diagram illustrating the division of the Dalitz plot into
+different regions for the definition of the PDFs for self cross feed
+signal events. Each letter indicates whether the dependence is on
+m2
+?þ?0 (A), m
+2
+K0
+S?
+þ (B), or m2
+K0
+S?
+0 (C). The remaining region of the
+Dalitz plot (D1) is where we expect to find fewer SCF events, and
+where the shapes for mES and ?E are less dependent on their
+position in the Dalitz plot, further described in Table III.
+ E (GeV)?
+-0.2 -0.15 -0.1 -0.05 0 0.05 0.1 0.15N
+o
+rm
+al
+iz
+ed
+ c
+an
+d
+id
+at
+es
+ /0
+.0
+1 
+G
+eV
+0.01
+0.015
+0.02
+0.025
+0.03
+0.035
+0.04
+0.045
+FIG. 3. Variations of the ?E distribution as seen in nonresonant
+signal MC simulation across the m2
+K0
+S?
+0 regions (bands starting
+with label C in Fig. 2). The dotted (black) histogram shows the
+distribution in region C1, the solid (red) histogram the distribu-
+tion in region C2, the dashed (green) histogram the distribution in
+region C3, and the dash-dotted (blue) histogram the distribution
+in region C4.
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-9
+PDFs, except for the tail parameters, are determined in the
+fit. For each region of the Dalitz plot, the SCF fraction is
+fixed to the value predicted by the nonresonant MC
+simulation. All SCF signal PDF parameters are fixed to
+values obtained from fits to nonresonant MC events. The
+endpoint of the ARGUS function is fixed to 5.289 GeV=c2
+while the shape parameter is determined in the fit. The
+slope for the linear function of the ?E PDF and the
+exponent for the exponential function of the BDTout
+PDF for continuum background are similarly determined
+in the fit. The isobar coefficients, x and y in Eq. (18), for all
+but one of the isobar components are fitted parameters in
+the fit and are measured relative to the fixed isobar
+component. The coefficients for the reference isobar are
+fixed to x ¼ 1 and y ¼ 0. In total, the fit is performed with
+21 free parameters.
+We determine a nominal signal Dalitz plot model based
+on information from previous studies [16,18–20], and on
+the changes in the log likelihood in the fit to data when
+resonances are added to, or removed from, the list shown in
+Table II. In these fits to the combined Bþ and B? data
+samples, the CP coefficients ?x and ?y are fixed to zero.
+Based on the change in log likelihood and accounting
+for the change in the number of degrees of freedom when
+the resonances ?ð1450Þþ, K
+2ð1430Þ0, K
+2ð1430Þþ,
+Kð1680Þ0, or Kð1680Þþ, are added to the default model
+one at a time, we find that the significance of each
+resonance is well below 3 sigma. Therefore we do not
+include any of these additional resonances in the
+nominal fit. We also note that the fit fractions for these
+additional resonances, reported in Table IV, are consistent
+with zero.
+We do not observe an excess of events for invariant
+masses greater than 2 GeV=c2, suggesting that a non-
+resonant component, in addition to that included in the
+LASS parametrization, is not necessary. We observe that
+if we add a nonresonant component to the fit, the change
+in log likelihood for the binned data and the fit
+projections for the K0
+S?
+þ, K0
+S?
+0, and ?þ?0 invariant
+masses are consistent with the expected change due to
+the additional free parameters in the fit, and do not
+indicate any statistically significant nonresonant compo-
+nent. We therefore conclude that, with the current level
+of statistical sensitivity, the base model, which includes
+the ?ð770Þþ, Kð892Þþ, Kð892Þ0, ðK?Þ00 , and ðK?Þþ0
+resonances, provides an adequate description of the data.
+VII. RESULTS
+We apply the fit described in Sec. VI to the 31876
+selected Bþ ? K0
+S?
+þ?0 candidates. A first fit is performed
+on the combined B sample. We obtain yields of 1014
+60 signal events, 24381 200 continuum events, 2745
+70 BB? events in category 1, and 1768 140 BB? events in
+category 9. The results of the fit are shown in Fig. 4. For the
+purpose of this figure, the contributions of signal events are
+enhanced by applying the more restrictive selection criteria
+listed in Table V.
+The branching fraction for Bþ ? K0?þ?0 is determined
+from the number of signal events, the efficiency estimated
+fromMC events, and the total number of BB? events in data.
+We take into account differences between the ?0
+reconstruction efficiency in data andMC events, determined
+from control samples with either ? leptons or initial-state
+radiation, as a function of ?0 momentum (?data?MC
+¼ 97.2%,
+averaged over ?0 momentum).We correct for small biases in
+the branching fraction, as determined from MC pseudo
+experiments generated with the same number of signal
+events and resonance composition as found in the fit to
+data. We divide the partial branching fraction of
+Bþ ? K0
+Sð??þ??Þ?þ?0 by the branching fraction for
+K0
+S ? ?þ??, and multiply the result by a factor of 2 to
+account for K0
+S decay, to obtain the branching fraction
+result BðBþ ? K0?þ?0Þ ¼ ð31.8 1.8 2.1þ6.0
+?0.0Þ × 10?6,
+where the first uncertainty is statistical, the second is
+systematic, and the third is due to assumptions made
+concerning the signal model. The latter two uncertainties
+are described in Sec. VIII and the breakdown of the
+systematic uncertainties is detailed in Table XI.
+We measure amplitudes and phases relative to each of the
+five two-body decays in the signal model to take advantage
+of the smaller uncertainty observed when measuring the
+relative phases of the two pairs of decays with same-charge
+K resonances. Table VI lists the relative phase, ?, between
+each pair of two-body decays in the signal model and its
+uncertainty. The statistical uncertainty in the relative phase
+is smallest ð?10°Þ for the resonances that decay to the
+same-charge K? state. This is due to a larger overlap in the
+Dalitz plot between the same-charge K resonances than
+occurs for other pairs of resonances that only overlap in the
+corners of the Dalitz plot.
+Since the statistical uncertainties of the fit fractions
+do not depend on the reference mode, we quote in
+Table VII only the fit fractions from the fit where the
+Kð892Þ0?þ amplitude is the reference. The fit fractions
+for the K
+0ð1430Þ0?þ and K
+0ð1430Þþ?0 modes are the
+product of the ðK?Þ0 S-wave fit fraction, shown in
+Table VII, and the fraction due to the resonant contribution
+in the LASS parametrization (88%). The off-diagonal fit
+TABLE IV. Fit fractions obtained from the fit to data when each
+additional isobar is added to the fit model one at a time.
+Additional isobar Fit fraction
+?ð1450Þþ 0.042 0.044
+K
+2ð1430Þ0 0.038 0.017
+K
+2ð1430Þþ 0.012 0.020
+Kð1680Þ0 0.032 0.034
+Kð1680Þþ 0.005 0.030
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-10
+fractions are small compared to the diagonal elements.
+We calculate the branching fractions for the resonant
+contributions shown in Table VIII as the product of the
+total branching fraction and the fit fractions returned by
+the fit to data, including appropriate Clebsch-Gordan
+coefficients.
+To determine the overall CP asymmetry as well as the
+CP asymmetries for the contributing isobar components,
+we simultaneously fit the separate Bþ and B? data
+samples. The overall ACP value is calculated from the
+integrals of the positive and negative signal Dalitz plot
+distributions. The ?x and ?y parameters from Eq. (18)
+are allowed to vary in the fit for all components except
+the reference isobar, for which the ?y parameter is fixed
+to zero (the relative phase of the Bþ and B? Dalitz plots
+cannot be determined since they do not interfere). To
+account for possible differences in the reconstruction and
+particle identification efficiencies for Bþ and B?, the
+efficiency map as a function of the Dalitz plot position is
+determined separately for Bþ and B?. The asymmetry for
+the continuum background is allowed to vary in the fit,
+and is found to be consistent with zero. The CP
+asymmetries of the BB? backgrounds are expected to
+be small and so are fixed to zero in the nominal fit. They
+)2 (GeV/cESm
+5.26 5.27 5.28
+)2
+E
+ve
+n
+ts
+ / 
+(0
+.5
+ M
+eV
+/c
+0
+50
+100
+150 (a)
+ E (GeV)?
+-0.2 -0.1 0 0.1
+E
+ve
+n
+ts
+ / 
+(7
+ M
+eV
+)
+0
+200
+400
+(b)
+outBDT
+0.2 0.4 0.6
+E
+ve
+n
+ts
+ / 
+(0
+.0
+14
+)
+1
+10
+210
+310 (c)
+)2 (GeV/c+?SKm
+1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+50
+100
+150 (d)
+)2 (GeV/c0?SKm
+1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+50
+100
+150 (e)
+)2 (GeV/c0?+?m
+0 1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+50
+100
+150
+(f)
+FIG. 4. Combined B fit: Measured distributions and fit projections for B ? K0
+S?
+?0 candidates; (a) mES, (b) ?E, (c) BDTout,
+(d)mK0
+S?
+þ , (e)mK0
+S?
+0 , and (f)m?þ?0 . The points with error bars correspond to data, the solid (blue) curves to the total fit result, the dashed
+(green) curves to the total background contribution, and the dotted (red) curves to the continuum background component. The dash-
+dotted curves represent the signal contribution. The projected distributions are obtained from statistically precise pseudo experiments
+generated using the fit results. For all distributions in each panel, the signal-to-background ratio is increased by applying tighter selection
+requirement on mES, ?E, and/or BDTout, listed Table V.
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-11
+are varied within reasonable ranges based on world
+average experimental results [28] in order to determine
+the associated systematic uncertainty.
+We find an overall CP asymmetry of ACPðBþ ?
+K0?þ?0Þ ¼ 0.07 0.05 0.03þ0.02
+?0.03 , where the first uncer-
+tainty is statistical, the second is systematic, and the third is
+due to the signal model. This is consistent with zero CP
+asymmetry. Invariant mass projections for the fit to data
+allowing for direct CP violation are shown in Fig. 5.
+Table VIII shows the results for the branching fractions
+and CP asymmetries obtained from the fit to data. The first
+uncertainty is statistical, the second is systematic, and the
+third is the uncertainty associated with the signal model.
+We observe a significant asymmetry between the mK0
+S?
+þ
+and mK0
+S?
+? distributions in the region of the Kð892Þþ
+resonance; see Figs. 5(a) and (b). We determine the
+statistical significance, S, of a nonzero CP asymmetry in
+Bþ ? Kð892Þþ?0 from the difference between the best-fit
+value of the likelihood, LACP
+, and the value when the CP
+asymmetry is fixed to zero, L0:
+S ¼
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+?2 ln ðL0=LACP
+Þ
+q
+: ð29Þ
+Using this method, we measure a statistical significance
+of 3.6 standard deviations for a nonzero ACP in
+TABLE V. Selection criteria imposed to enhance the contribu-
+tions of signal events for the results presented in Figs. 4 and 5.
+Projection plot Selections
+mES ?0.05 < ?E < 0.05 GeV
+BDTout > 0.1
+?E mES > 5.27 GeV=c2
+BDTout > 0.1
+BDTout mES > 5.27 GeV=c2
+?0.05 < ?E < 0.05 GeV
+mK0
+S?
+þ , mK0
+S?
+0 , m?þ?0 mES > 5.27 GeV=c2
+?0.05 < ?E < 0.05 GeV
+BDTout > 0.1
+TABLE VI. Combined B fit: Relative phases, ?, for the isobar amplitudes as measured from five fits to data,
+where each of the five isobar amplitudes is in turn taken as the reference. All phases are quoted in degrees. The
+uncertainties are statistical only.
+Resonant contribution Relative phase (degrees)
+Reference amplitude Kð892Þ0?þ Kð892Þþ?0 ðK?Þ00 ?þ ðK?Þþ0 ?0 ?ð770ÞþK0
+S
+Bþ ? Kð892Þ0?þ 0 ?95 43 174 11 ?89 43 ?122 43
+Bþ ? Kð892Þþ?0 – 0 ?90 42 6 10 ?27 26
+Bþ ? ðK?Þ00 ?þ – – 0 96 42 63 37
+Bþ ? ðK?Þþ0 ?0 – – – 0 ?32 25
+Bþ ? ?ð770ÞþK0
+S – – – – 0
+TABLE VII. Combined B fit: Results for the fit fractions FFj (diagonal terms) and interference terms FFij in data
+for each resonant contribution. The uncertainties are statistical only.
+FFj and FFij
+Resonant contribution Kð892Þ0?þ Kð892Þþ?0 ðK?Þ00 ?þ ðK?Þþ0 ?0 ?ð770ÞþK0
+S
+Bþ ? Kð892Þ0?þ 0.10 0.03 0.0004 0.0028 ð17 5Þ × 10?5 0.007 0.005 ?0.008 0.007
+Bþ ? Kð892Þþ?0 – 0.14 0.02 ?0.010 0.007 ð?3 1Þ × 10?6 0.012 0.008
+Bþ ? ðK?Þ00 ?þ – – 0.36 0.05 ð1.5 6.1Þ × 10?5 ?0.04 0.02
+Bþ ? ðK?Þþ0 ?0 – – – 0.27 0.03 ?0.02 0.02
+Bþ ? ?ð770ÞþK0
+S – – – – 0.19 0.04
+TABLE VIII. Measured branching fractions B from a fit to the
+combined B data sample, and CP asymmetries ACP [Eq. (19)].
+The first uncertainty is statistical, the second is systematic, and
+the third is due to the signal model.
+Decay channel Bð10?6Þ ACP
+K0?þ?0 31.8 1.8 2.1þ6.0
+?0.0 0.07 0.05 0.03þ0.02
+?0.03
+Kð892Þ0?þ 10.1 1.7 1.0þ0.2
+?0.3 ?0.12 0.21 0.08þ0.0
+?0.11
+Kð892Þþ?0 6.4 0.9 0.4þ0.2
+?0.3 ?0.52 0.14 0.04þ0.04
+?0.02
+K
+0ð1430Þ0?þ 34.6 3.3 4.2þ1.9
+?1.8 0.14 0.10 0.04þ0.13
+?0.05
+K
+0ð1430Þþ?0 11.9 1.7 1.0þ0.0
+?1.3 0.26 0.12 0.08þ0.12
+?0.0
+?ð770ÞþK0 6.5 1.1 0.8þ0.0
+?1.7 0.21 0.19 0.07þ0.23
+?0.19
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-12
+Bþ ? Kð892Þþ?0. We obtain a consistent result of 3.7
+standard deviations for the statistical significance by
+dividing the central value of the CP asymmetry by the
+statistical uncertainty, indicating that the log-likelihood
+function is close to parabolic. Figure 6 displays the
+contours in the complex plane of the coefficients
+c ¼ ðxþ ?x; yþ ?yÞ, defined in Eq. (4), for Bþ ?
+Kð892Þþ?0 decays, and of c? ¼ ðx ? ?x; y ? ?yÞ, defined
+in Eq. (5), for B? ? Kð892Þ??0 decays. For other
+resonances the CP asymmetry is within 2 standard devia-
+tions of zero.
+We also express the complex isobar coefficients c and c?
+of Eq. (18) in terms of amplitudes and phases,
+c ¼ Aþei?þ ; ð30Þ
+c? ¼ A?e?i?? : ð31Þ
+Table IX presents the results, measured with respect to the
+B ? Kð892Þ0? reference amplitude. The statistical
+uncertainties of the separate Bþ and B? decay amplitudes,
+)2 (GeV/c+?SKm
+1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+20
+40
+60
+80 (a)
+)2 (GeV/c-?SKm
+1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+20
+40
+60
+80 (b)
+)2 (GeV/c0?SKm
+1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+20
+40
+60
+80 (c)
+)2 (GeV/c0?SKm
+1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+20
+40
+60
+80 (d)
+)2 (GeV/c0?+?m
+0 1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+20
+40
+60
+80
+100
+(e)
+)2 (GeV/c0?-?m
+0 1 2 3 4 5
+)2
+E
+ve
+n
+ts
+ / 
+(1
+00
+ M
+eV
+/c
+0
+20
+40
+60
+80
+100
+(f)
+FIG. 5. The CP fit: Measured distributions and fit projections for Bþ ? K0
+S?
+þ?0 (left column) and B? ? K0
+S?
+??0 (right column)
+candidates; (a) mK0
+S?
+þ , (b) mK0
+S?
+? , (c) mK0
+S?
+0 (from Bþ ? K0
+S?
+þ?0), (d) mK0
+S?
+0 (from B? ? K0
+S?
+??0), (e) m?þ?0 , and (f) m???0 . The points
+with error bars correspond to data, the solid (blue) curves to the total fit result, the dashed (green) curves to the total background
+contribution, and the dotted (red) curves to the continuum background component. The dash-dotted curves represent the signal
+contribution. The projected distributions are obtained from statistically precise pseudo experiments generated using the fit results. For all
+distributions in each panel, the signal-to-background ratio is increased by applying the tighter selection requirements onmES,?E, and/or
+BDTout, listed in Table V.
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-13
+Aþ and A?, vary between 0.1 and 0.3. We thus obtain
+significant statistical precision for these terms. With
+respect to the phases, ?þ and ??, only the ðK?Þ00 ?þ
+amplitude yields a statistically precise result. For the
+other amplitudes, the statistical uncertainty ranges
+between 70° and 170°, and only the statistical uncer-
+tainty is quoted. For the more precisely determined
+variables, systematic uncertainties are evaluated as well.
+Because the statistical uncertainties on the phases of the
+ðK?Þ0 ?0 and Kð892Þ?0 amplitudes listed in Table IX
+are highly correlated, we also calculate the phase
+differences, for which the statistical uncertainties are
+smaller. The results, including systematic uncertainties,
+are:
+?þððK?Þþ0 ?0Þ ? ?þðKð892Þþ?0Þ ¼ ð?14 18 9þ4
+?3Þ°;
+??ððK?Þ?0 ?0Þ ? ??ðKð892Þ??0Þ ¼ ð11 19 10þ17
+?9 Þ°:
+ð32Þ
+VIII. SYSTEMATIC UNCERTAINTIES
+We evaluate systematic uncertainties to account for
+effects that could affect the branching fractions, phases,
+and asymmetries, by varying the fixed parameters. The
+systematic uncertainties described in this section are
+summarized in Tables XI through XVI of Appendix A.
+The uncertainties associated with the branching frac-
+tions are listed in Table XI. To estimate the uncertainty
+related to the modeling of the SCF PDFs, we implement a
+simpler model consisting of only four regions in the Dalitz
+plot. The PDFs are defined by the distribution of SCF MC
+events in each of these new regions. We then fit the data
+using the new SCF model and take the uncertainties to be
+the change in the fit parameters compared to those
+obtained from the nominal fit to data. All relative system-
+atic uncertainties due to the SCF mES and ?E PDFs range
+from approximately 1% to 4%, except for the relative
+systematic uncertainty for the Bþ ? ?ð770ÞþK0 decay,
+which is 7.5%. This is consistent with expectations from
+simulation that more than half the Bþ ? ?ð770ÞþK0
+events are due to SCF.
+The uncertainties associated with the number of BB?
+background events are evaluated by varying the estimates
+within their uncertainties, which are primarily due to
+uncertainties in the branching fractions. The uncertainties
+related to the BB? background mES, ?E, and BDTout PDFs
+are accounted for by varying the histogram bin contents
+ x?±x
+-2 -1 0 1 2 3
+ y?±
+y
+-4
+-2
+0
+2
+4
++ y) B? x, y+?(x+
+- y) B? x, y-?(x-
+FIG. 6. CP parameters ðx ?x; y ?yÞ obtained from the fit
+to data for B ? Kð892Þ?0 resonant decay including the 1 and
+2 standard deviation contours (solid and dashed curves). The
+contours are estimated by calculating the uncertainty and corre-
+lation between the two CP parameters. The stars indicate the
+central values of the CP parameters and the cross sign the origin
+of the plot.
+TABLE IX. Results for the relative phases ? obtained from the combined B fit, the CP amplitudes Aþ and A?, and the CP phases ?þ
+and ?? obtained from the CP fit. All parameters are measured relative to the B ? Kð892Þ0? reference amplitude. The first
+uncertainty is statistical, the second is systematic, and the third is due to the signal model. Note that for theCP phases of all contributions
+except for B ? ðK?Þ00 ?, only statistical uncertainties are quoted.
+Isobar ? (°) Aþ A? ?þ (°) ?? (°)
+Kð892Þ?0 ?95 43þ48þ8
+?36?70 1.46 0.22 0.05þ0.05
+?0.03 0.82 0.18 0.05þ0.06
+?0.04 ?10 112 ?98 97
+ðK?Þ00 ? 174 11 11þ0
+?6 1.74 0.21 0.11þ0.07
+?0.12 2.00 0.27 0.13þ0.14
+?0.02 165 19 9þ4
+?3 190 21 11þ1
+?3
+ðK?Þ0 ?0 ?89 43þ53þ5
+?40?17 1.44 0.22 0.13þ0.00
+?0.10 1.88 0.25 0.14þ0.22
+?0.06 4 111 ?109 92
+?ð770ÞK0 ?122 43þ55þ16
+?47?66 1.24 0.01 0.09þ0.00
+?0.21 1.54 0.01 0.09þ0.23
+?0.09 ?50 168 ?120 71
+TABLE X. Combined BABAR measurements of branching
+fractions and CP asymmetries of Bþ ? Kð892Þ0?þ and Bþ ?
+K
+0ð1430Þ0?þ from Bþ ? K0
+S?
+þ?0 (this analysis) and Bþ ?
+Kþ???þ [16], and of Bþ ? Kð892Þþ?0 from Bþ ? K0
+S?
+þ?0
+and Bþ ? Kþ?0?0 [18]. The first uncertainty is statistical and the
+second is systematic.
+Decay channel Bð10?6Þ ACP
+Kð892Þ0?þ 10.5 0.6 0.9 0.025 0.050 0.016
+Kð892Þþ?0 6.8 0.8 0.5 ?0.39 0.12 0.03
+K
+0ð1430Þ0?þ 34.1 1.1 4.3 0.040 0.033 0.033
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-14
+according to their statistical uncertainties. The uncertainty
+is then taken as the RMS of the distribution of the
+difference in the fit parameters. The uncertainties related
+to the limited statistical precision of the MC and data-
+sideband samples are similarly accounted for by varying
+the results in the corresponding histogram bins by their
+uncertainties. The uncertainty due to possible variations of
+the SCF fraction is estimated by varying each bin of the
+PDF distribution by an uncertainty of 2%.
+The uncertainty in the BDTout histogram PDFs for
+correctly reconstructed and SCF signal events is deter-
+mined by varying the bin contents in accordance with the
+observed data/MC difference. For correctly reconstructed
+signal events, the tails of the asymmetric Gaussian PDFs
+for mES and ?E are fixed. To account for an associated
+uncertainty, we allow the relevant parameters to vary in a fit
+to data and use the variation in the fit parameters to define
+the uncertainty.
+To validate the fitting procedure, 500 MC pseudo
+experiments are generated, using the PDFs with parameter
+values found from the fit to data. Small fit biases are found
+for some of the fit parameters and are included in the
+systematic uncertainties.
+We also account for uncertainties in the following
+parameters describing the signal model: the mass and width
+of each resonance and the value of the Blatt-Weisskopf
+barrier radius. The associated uncertainties are determined
+by varying the parameterswithin their uncertainties (someof
+which are given in Table II) and refitting.
+The uncertainties in the branching fractions related
+to particle identification, tracking efficiency, and the
+total number of BB? events are 1.0%, 1.0%, and 0.6%,
+respectively. We estimate systematic uncertainties in
+the branching fractions associated with the ?0 and K0
+S
+reconstruction efficiencies to be 1.0% and 1.1%,
+respectively.
+Uncertainties from all the above sources are added in
+quadrature to yield the total systematic uncertainties, which
+are listed in Table XI.
+We determine changes in the branching fractions,
+?B, when the signal model is varied. The systematic
+uncertainties in the branching fractions due to the
+ðK?Þ0=þ0 parametrization are estimated by replacing
+the LASS model with another phenomenologically
+inspired parametrization [47]. We take the differences
+in branching fractions with respect to the nominal fit as
+the systematic uncertainty. This is the largest contribution
+to the uncertainty due to the model. Another uncertainty
+reflects any changes in the fit parameters for the nominal
+model when including components that are omitted in
+the nominal fit, such as the ?ð1450Þþ, K
+2ð1430Þ0,
+K
+2ð1430Þþ, Kð1680Þ0, and Kð1680Þþ. Positive and
+negative variations are added separately in quadrature to
+obtain the systematic uncertainties due to the signal
+model, listed in Table XI.
+We determine systematic uncertainties in the phases
+averaged over Bþ and B? decays from the same sources as
+considered for the branching fractions. The variations in the
+phases are measured relative to the Kð892Þ0?þ amplitude.
+Since the differences between positive and negative shifts
+in the phases, shown in Table XII, are large in some cases,
+we quote for those phase shifts asymmetric systematic
+uncertainties.
+Reconstruction and particle identification efficiencies
+cancel to first order in the fit to CP asymmetries; therefore
+the only uncertainties that are included for ACP are those
+coming from the fit and signal model. In addition to this, we
+do not evaluate any of the uncertainties that are found to be
+negligible for the branching fractions.
+An additional uncertainty for ACP arises from having
+fixed the CP asymmetries for individual BB? background
+components to zero. We vary the CP asymmetry indi-
+vidually for each B background category, based on the
+world-average experimental results [9], and take as
+the corresponding uncertainty the sum in quadrature of
+the largest of the positive or negative change in ACP.
+The uncertainty related to the efficiency model is
+determined by exchanging the efficiency maps for the
+positive and negative Dalitz plots and refitting the data. We
+then take the difference in CP asymmetry with respect to
+the nominal fit as the uncertainty.
+We list in Table XIII the systematic uncertainties
+associated with the signal CP asymmetries and the varia-
+tions in the asymmetry due to changes in the signal
+composition.
+We evaluate systematic uncertainties for the CP ampli-
+tudes and CP phases from the same sources as for the CP
+asymmetries. We list the variations to the amplitudes Aþ in
+Table XIVand to the amplitudes A? in Table XV, including
+the uncertainties due to changes to the signal model.
+Table XVI lists the systematic variations and model
+uncertainties for ?þð?ÞððK?Þ00 ?þð?Þ ? Kð892Þ0?þð?ÞÞ
+and ?þð?ÞððK?Þþð?Þ
+0 ?0 ? Kð892Þþð?Þ?0Þ.
+IX. SUMMARY AND CONCLUSIONS
+The measured branching fractions and CP asymmetries
+are summarized in Table VIII, and the amplitude and phase
+values in Table IX, including statistical, systematic, and
+model uncertainties. We have measured for the first time
+the branching fraction and CP asymmetry for the decay
+Bþ ? K0?þ?0. We obtain first evidence for direct CP
+violation in the intermediate decay Bþ ? Kð892Þþ?0,
+with a total significance of 3.4 standard deviations deter-
+mined by adding statistical, systematic, and signal-model
+uncertainties in quadrature and dividing the measured ACP
+by the total uncertainty.
+In addition, we have measured the branching fractions,
+CP asymmetries, and relative CP-averaged phase values
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-15
+of the decays Bþ ? Kð892Þ0?þ, Bþ ? Kð892Þþ?0,
+Bþ ? K
+0ð1430Þ0?þ, Bþ ? K
+0ð1430Þþ?0, and Bþ ?
+?ð770ÞþK0. The results for the branching fractions and
+CP asymmetries for Bþ ? Kð892Þ0?þ are consistent with
+the previous measurements from Bþ ? Kþ???þ decays by
+the Belle and BABAR Collaborations and the branching
+fraction for Bþ ? K
+0ð1430Þ0?þ is consistent with the
+previous BABAR measurement and within two standard
+deviations of the Belle measurement [16,17]. The branch-
+ing fraction for Bþ ? Kð892Þþ?0 is consistent with the
+previous measurement from the BABAR Collaboration in
+the Bþ ? Kþ?0?0 decay mode and the result for ACP is
+within two standard deviations of the previous measure-
+ment [18]. The branching fraction and ACP results for
+Bþ ? ?ð770ÞþK0 supersede the previous BABAR mea-
+surements [14]. The CP asymmetries of Bþ ?
+Kð892Þ0?þ, Bþ?K
+0ð1430Þ0?þ, and Bþ ? ?ð770ÞþK0
+are all consistent with zero, as expected. We obtain the first
+measurements of the branching fraction and CP asymmetry
+for Bþ ? K
+0ð1430Þþ?0, with a significance of 5.4 stan-
+dard deviations for the branching fraction.
+We combine our results for the branching fractions
+and CP asymmetries of Bþ ? Kð892Þ0?þ, Bþ ?
+K
+0ð1430Þ0?þ, and Bþ ? Kð892Þþ?0 with the previous
+BABAR measurements. The statistical uncertainties and all
+systematic uncertainties for the CP asymmetries are
+uncorrelated between the measurements. For the branching
+fractions, we account for possible correlations when
+combining the systematic uncertainties. If the systematic
+uncertainties are asymmetric, the average systematic uncer-
+tainty is calculated from the largest limit. The combined
+results from BABAR for these decay modes are presented in
+Table X.
+Using the world average value for direct CP violation in
+B0 ? Kð892Þþ?? [9] and the final BABAR result for direct
+CP violation in Bþ ? Kð892Þþ?0, we calculate ?ACP for
+the K? system to be
+?ACPðK?Þ ¼ ACPðKþ?0Þ ? ACPðKþ??Þ
+¼ ?0.16 0.13: ð33Þ
+Thus the value of ?ACP in K? is found to be consistent
+with zero. The uncertainty in the ?ACPðK?Þ result
+remains large, rendering the comparison to ?ACPðK?Þ,
+given in Eq. (3), inconclusive at present and motivating
+improved determinations in future experiments.
+ACKNOWLEDGMENTS
+We are grateful for the extraordinary contributions of
+our PEP-II colleagues in achieving the excellent luminos-
+ity and machine conditions that have made this work
+possible. The success of this project also relies critically
+on the expertise and dedication of the computing
+organizations that support BABAR. The collaborating
+institutions wish to thank SLAC for its support and the
+kind hospitality extended to them. This work is supported
+by the US Department of Energy and National Science
+Foundation, the Natural Sciences and Engineering
+Research Council (Canada), the Commissariat à
+l’Energie Atomique and Institut National de Physique
+Nucléaire et de Physique des Particules (France), the
+Bundesministerium für Bildung und Forschung and
+Deutsche Forschungsgemeinschaft (Germany), the
+Istituto Nazionale di Fisica Nucleare (Italy), the
+Foundation for Fundamental Research on Matter
+(The Netherlands), the Research Council of Norway,
+the Ministry of Education and Science of the Russian
+Federation, Ministerio de Economía y Competitividad
+(Spain), the Science and Technology Facilities Council
+(United Kingdom), and the Binational Science Foundation
+(U.S.-Israel). Individuals have received support from the
+Marie-Curie IEF program (European Union) and the A. P.
+Sloan Foundation (USA).
+APPENDIX: TABLES OF SYSTEMATIC
+AND MODEL UNCERTAINTIES
+Table XI lists the uncertainties in the branching fractions
+due to systematic effects, efficiency corrections, and
+changes to the signal model. Table XII lists uncertainties
+in the relative phase values (for Bþ and B? decays
+combined) due to systematic effects and changes to the
+signal model. Tables XIII, XIV, XV, and XVI list the
+systematic and signal model uncertainties for the CP
+asymmetries, the amplitudes for the Bþ and B? Dalitz
+plots, Aþ and A?, respectively, and the corresponding
+phases ?þ and ?? for the Bþ ? K
+0ð1430Þ0?þ amplitude
+relative to that for Bþ ? Kð892Þ0?þ, and the phase values
+for the Bþ ? ðK?Þþ0 ?0 amplitude relative to that for
+Bþ ? Kð892Þþ?0.
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-16
+TABLE XI. Combined B fit: Systematic uncertainties for the branching fraction measurements, including uncertainties due to the
+signal model. For each of the four alternative signal models (described in the text), we give the change in the branching fraction; positive
+and negative changes are added separately in quadrature to obtain the total positive ðþÞ and negative ð?Þ uncertainties listed in the last
+two rows.
+Resonant contribution Relative Variations of branching fraction (%)
+Source Inclusive Kð892Þ0 Kð892Þþ K
+0ð1430Þ0 K
+0ð1430Þþ ?ð770Þþ
+Correctly reconstructed mES and ?E
+PDF (fixed parameters)
+0.8 1.1 0.6 1.1 0.7 1.2
+Correctly reconstructed and self cross
+feed signal BDTout PDFs
+3.3 3.3 3.4 3.4 4.2 4.0
+Self cross feed signal mES and ?E
+PDF models
+3.0 4.3 3.1 1.3 1.8 7.5
+Fit bias 0.3 0.9 0.6 0.5 0.7 0.9
+BB? background mES, ?E and BDTout
+PDFs
+0.3 0.4 0.2 0.3 0.5 0.6
+BB? background yields 0.7 1.2 0.6 0.9 2.0 1.8
+Background model in Dalitz plot 1.5 3.7 2.8 2.8 2.7 3.5
+Signal efficiency model 0.3 1.8 1.0 0.4 0.4 0.8
+Self cross feed PDF model 0.3 0.4 0.6 0.3 0.3 0.5
+Kð892Þ mass and width 0.1 0.7 0.3 0.1 0.2 0.1
+K
+0ð1430Þ mass and width 3.2 3.8 2.1 8.1 5.5 4.0
+?ð770Þþ mass and width <0.1 0.2 0.1 0.1 0.2 0.3
+Blatt-Weisskopf radius 2.3 4.4 2.9 7.4 2.9 3.7
+Subtotal 6.3 9.1 6.7 12.0 8.5 11.0
+Neutral pion efficiency 1.0 1.0 1.0 1.0 1.0 1.0
+K0
+S efficiency 1.1 1.1 1.1 1.1 1.1 1.1
+Charged particle identification
+efficiency
+1.0 1.0 1.0 1.0 1.0 1.0
+Tracking efficiency 1.0 1.0 1.0 1.0 1.0 1.0
+NBB? 0.6 0.6 0.6 0.6 0.6 0.6
+Total 6.6 9.4 7.0 12.2 8.7 11.2
+Changes due to signal model ?Bð10?6Þ
+ðK?Þ00 =ðK?Þþ0 parametrization þ5.5 ?0.2 ?0.2 – – ?0.9
+?ð1450Þþ þ1.6 þ0.2 ?0.3 þ1.8 ?0.6 ?1.4
+K
+2ð1430Þ0 and K
+2ð1430Þþ þ1.0 ?0.2 þ0.2 ?1.8 ?0.6 ?0.2
+Kð1680Þ0 and Kð1680Þþ þ1.2 – – þ0.4 ?1.0 ?0.2
+Total ðþÞ þ6.0 þ0.2 þ0.2 þ1.9 þ0.0 þ0.0
+Total ð?Þ ?0.0 ?0.3 ?0.3 ?1.8 ?1.3 ?1.7
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-17
+TABLE XIII. Contributions to the uncertainties in the CP asymmetries for the overall and resonant isobar contributions, including
+uncertainties due to changes to the signal model. For each of the four alternative signal models (described in the text), we give the change
+in the branching fraction; positive and negative changes are added separately in quadrature to obtain the total positive ðþÞ and negative
+ð?Þ uncertainties listed in the last two rows.
+Resonant contribution Systematic Variations of ACP (%)
+Systematic Inclusive Kð892Þ0?þ Kð892Þþ?0 K
+0ð1430Þ0?þ K
+0ð1430Þþ?0 ?ð770ÞþK0
+S
+Self cross feed PDFs and mapping 2.0 6.0 1.0 1.2 0.9 5.0
+Correctly reconstructed and self cross
+feed BDTout PDFs
+0.7 1.7 1.8 1.6 1.1 2.8
+BB? background asymmetries 2.5 1.4 1.7 1.8 7.5 2.3
+Background DP PDF 0.7 2.7 2.1 2.8 2.0 2.5
+BB? background mES, ?E, BDTout PDFs 0.2 0.1 0.2 0.3 0.5 0.4
+Signal efficiency model 0.2 3.9 2.1 0.1 0.9 1.3
+Fit bias 0.3 1.4 0.8 1.9 1.0 1.2
+Kð892Þ mass and width 0.1 0.2 0.4 0.2 0.2 0.2
+K
+0ð1430Þ mass and width 1.1 4.4 0.5 3.0 2.8 2.2
+?ð770Þþ mass and width <0.1 0.1 0.1 0.2 0.1 0.1
+Blatt-Weisskopf radius <0.1 0.9 0.3 0.8 1.1 0.5
+Total 3.4 8.1 4.1 4.3 8.0 6.9
+Changes due to signal model
+ðK?Þ00 =ðK?Þþ0 parametrization ?0.7 þ6.2 þ2.0 – – ?8.1
+?ð1450Þþ þ3.3 þ1.5 ?3.4 ?10.5 ?11.6 ?21.3
+K
+2ð1430Þ ?0.2 þ5.7 ?1.5 ?7.5 ?2.7 þ14.4
+Kð1680Þ ?2.2 þ6.3 þ0.5 þ4.8 ?1.9 þ12.3
+Total ðþÞ þ2.4 þ0.0 þ3.7 þ13.0 þ12.0 þ22.8
+Total ð?Þ ?3.3 ?10.6 ?2.0 ?4.8 ?0.0 ?19.0
+TABLE XII. CombinedB fit: Systematic uncertainties due to the fit model and the fixed shapes in the parametrization (top part of table),
+and changes to the signal model (bottom part of table), for the relative phases (in degrees) measured relative to theKð892Þ0?þ amplitude.
+For each of the four alternative signal models (described in the text), we give the change in the branching fraction; positive and negative
+changes are added separately in quadrature to obtain the total positive ðþÞ and negative ð?Þ uncertainties listed in the last two rows.
+Resonant contribution Systematic Variations (°)
+Systematic Kð892Þþ?0 K
+0ð1430Þ0?þ K
+0ð1430Þþ?0 ?ð770ÞþK0
+S
+Self cross feed PDFs and mapping 7.4 1.4 9.6 6.7
+Correctly reconstructed and self cross
+feed BDTout PDFs
+1.4 0.9 1.3 1.3
+BB? background yields 1.7 0.5 1.8 2.1
+Correctly reconstructed mES and ?E
+PDF
+0.4 0.2 0.9 1.2
+Background DP PDF 5.7 2.2 4.5 5.4
+BB? background mES, ?E, BDTout
+PDFs
+0.3 0.2 0.3 0.3
+Signal efficiency model 0.5 0.4 0.7 0.7
+Fit bias 9.3 7.8 7.3 23.5
+Kð892Þ mass 1.4 0.2 1.2 1.4
+Kð892Þ width 0.3 0.1 0.1 <0.1
+K
+0ð1430Þ mass þ43
+?33
+þ5.2
+?4.7
+þ48
+?37
+þ46
+?36
+K
+0ð1430Þ width 5.2 4.0 5.7 14.6
+?ð770Þþ mass 0.3 0.1 0.4 1.0
+?ð770Þþ width 0.6 0.1 0.6 0.2
+Blatt-Weisskopf radius þ15
+?2
+þ1.0
+?1.4
+þ17
+?3
+þ0.3
+?0.5
+Total þ48
+?36
+þ11
+?11
+þ53
+?40
+þ55
+?47
+Changes due to signal model
+ðK?Þ00 =ðK?Þþ0 parametrization ?67.0 – – ?60.3
+?ð1450Þþ ?18.4 ?2.8 ?11.8 ?27.4
+K
+2ð1430Þ þ7.8 ?3.1 þ5.5 þ11.3
+Kð1680Þ ?7.8 ?4.9 ?12.9 þ11.8
+Total ðþÞ þ7.8 þ0.0 þ5.5 þ16.4
+Total ð?Þ ?69.9 ?6.5 ?17.5 ?66.2
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-18
+TABLE XV. Variations in the CP amplitude, A?, including uncertainties due to changes to the signal model (bottom part of table). In
+the fits, the amplitudes are measured relative to the Kð892Þ0?þ amplitude. For each of the four alternative signal models (described in
+the text), we give the change in the branching fraction; positive and negative changes are added separately in quadrature to obtain the
+total positive ðþÞ and negative ð?Þ uncertainties listed in the last two rows.
+Resonant contribution Variation of A?
+Systematic Kð892Þ??0 ðK?Þ00 ?? ðK?Þ?0 ?0 ?ð770Þ?K0
+S
+Self cross feed PDFs and mapping <0.01 0.05 0.04 0.05
+Correctly reconstructed and self cross
+feed BDTout PDFs
+0.02 0.02 0.02 0.03
+BB? background asymmetries 0.01 0.01 0.06 0.02
+Background DP PDF 0.02 0.05 0.04 0.03
+BB? background mES, ?E, BDTout PDFs <0.01 <0.01 <0.01 <0.01
+Signal efficiency model 0.02 <0.01 0.02 0.02
+Fit bias 0.02 <0.01 0.02 0.02
+Kð892Þ mass <0.01 0.01 0.01 <0.01
+Kð892Þ width <0.01 0.01 0.01 0.01
+ðK?Þ0 mass 0.01 0.08 0.08 0.04
+ðK?Þ0 width 0.01 0.07 0.05 0.03
+?ð770Þþ mass <0.01 <0.01 <0.01 <0.01
+?ð770Þþ width <0.01 <0.01 <0.01 <0.01
+Blatt-Weisskopf radius 0.01 0.01 0.05 0.01
+Total 0.05 0.13 0.14 0.09
+Changes due to signal model
+ðK?Þ00 =ðK?Þþ0 parametrization ?0.04 ?? ?? ?0.09
+?ð1450Þþ 0.04 0.12 0.22 0.22
+K
+2ð1430Þ 0.05 0.07 0.05 0.03
+Kð1680Þ ?0.01 ?0.02 ?0.02 ?0.04
+Total ðþÞ þ0.06 þ0.14 þ0.22 þ0.23
+Total ð?Þ ?0.04 ?0.02 ?0.06 ?0.09
+TABLE XIV. Variations in the CP amplitude, Aþ, including uncertainties due to changes to the signal model (bottom part of table). In
+the fits, the amplitudes are measured relative to the Kð892Þ0?þ amplitude. For each of the four alternative signal models (described in
+the text), we give the change in the branching fraction; positive and negative changes are added separately in quadrature to obtain the
+total positive ðþÞ and negative ð?Þ uncertainties listed in the last two rows.
+Resonant contribution Variation of Aþ
+Systematic Kð892Þþ?0 ðK?Þ00 ?þ ðK?Þþ0 ?0 ?ð770ÞþK0
+S
+Self cross feed PDFs and mapping 0.02 0.02 0.04 0.02
+Correctly reconstructed and self cross
+feed BDTout PDFs
+0.01 0.03 0.02 0.02
+BB? background asymmetries 0.01 0.03 0.07 0.02
+Background DP PDF 0.02 0.06 0.04 0.04
+BB? background mES, ?E, BDTout
+PDFs
+<0.01 0.01 0.01 <0.01
+Signal efficiency model 0.01 0.01 <0.01 0.01
+Fit bias 0.01 0.03 0.02 0.03
+Kð892Þ mass 0.01 0.01 0.01 <0.01
+Kð892Þ width <0.01 0.01 0.01 <0.1
+ðK?Þ0 mass 0.02 0.02 0.09 0.06
+ðK?Þ0 width 0.02 0.06 0.01 0.02
+?ð770Þþ mass <0.01 <0.01 <0.01 <0.01
+?ð770Þþ width <0.01 <0.01 <0.01 <0.01
+Blatt-Weisskopf radius 0.02 0.03 0.02 0.02
+Total 0.05 0.11 0.13 0.09
+Changes due to signal model
+ðK?Þ00 =ðK?Þþ0 parametrization ?0.03 ?? ?? ?0.17
+?ð1450Þþ <0.01 ?0.01 ?0.02 ?0.12
+K
+2ð1430Þ 0.05 ?0.08 ?0.08 ?0.04
+Kð1680Þ ?0.02 0.07 ?0.05 ?0.05
+Total ðþÞ þ0.05 þ0.07 þ0.00 þ0.00
+Total ð?Þ ?0.03 ?0.12 ?0.10 ?0.21
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-19
+[1] N. Cabibbo, Phys. Rev. Lett. 10, 531 (1963).
+[2] M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49, 652
+(1973).
+[3] M. Ciuchini, M. Pierini, and L. Silvestrini, Phys. Rev. D 74,
+051301 (2006).
+[4] M. Gronau, D. Pirjol, A. Soni, and J. Zupan, Phys. Rev. D
+75, 014002 (2007).
+[5] B. Aubert et al. (BABAR Collaboration), Phys. Rev. D 76,
+091102 (2007).
+[6] S. W. Lin et al. (Belle Collaboration), Nature (London) 452,
+332 (2008).
+[7] M. Gronau, Phys. Lett. B 627, 82 (2005).
+[8] A. J. Buras, R. Fleischer, S. Recksiegel, and F. Schwab,
+Phys. Rev. Lett. 92, 101804 (2004).
+[9] Y. Amhis et al. (Heavy Flavor Averaging Group Collabo-
+ration), arXiv:1207.1158.
+[10] M. Gronau and J. L. Rosner, Phys. Lett. B 666, 467
+(2008).
+[11] Q. Chang, X.-Q. Li, and Y.-D. Yang, J. High Energy Phys.
+09 (2008) 038.
+[12] C.-W. Chiang and D. London, Mod. Phys. Lett. A 24, 1983
+(2009).
+[13] M. Gronau, D. Pirjol, and J. Zupan, Phys. Rev. D 81,
+094011 (2010).
+[14] B. Aubert et al. (BABAR Collaboration), Phys. Rev. D 76,
+011103 (2007).
+[15] E. Eckhart et al. (CLEO Collaboration), Phys. Rev. Lett. 89,
+251801 (2002).
+[16] B. Aubert et al. (BABAR Collaboration), Phys. Rev. D 78,
+012004 (2008).
+[17] A. Garmash et al. (Belle Collaboration), Phys. Rev. Lett. 96,
+251803 (2006).
+[18] J. P. Lees et al. (BABAR Collaboration), Phys. Rev. D 84,
+092007 (2011).
+[19] J. P. Lees et al. (BABAR Collaboration), Phys. Rev. D 83,
+112010 (2011).
+[20] B. Aubert et al. (BABAR Collaboration), Phys. Rev. D 80,
+112001 (2009).
+[21] J. Dalseno et al. (Belle Collaboration), Phys. Rev. D 79,
+072004 (2009).
+TABLE XVI. Variations in the CP phase values ? (in degrees) measured for the ðK?Þ00 ? amplitude relative to the Kð892Þ0?
+amplitude, and for the ðK?Þ0 ?0 amplitude relative to the Kð892Þ?0 amplitude. For each of the four alternative signal models
+(described in the text), we give the change in the branching fraction; positive and negative changes are added separately in quadrature to
+obtain the total positive ðþÞ and negative ð?Þ uncertainties listed in the last two rows.
+Absolute variations of CP phase values
+ðK?Þ00 ? ? Kð892Þ0? ðK?Þ0 ?0 ? Kð892Þ?0
+Systematic ?þ ?? ?þ ??
+Self cross feed PDFs and mapping 0.6 4.5 1.6 3.1
+Correctly reconstructed and self cross
+feed BDTout PDFs
+0.9 1.6 1.4 2.6
+BB? background asymmetries 1.4 1.3 0.7 1.0
+Background DP PDF 2.5 3.0 2.0 2.7
+BB? background mES, ?E, BDTout PDFs 0.2 0.2 0.2 0.4
+Signal efficiency model 0.3 1.4 0.8 1.2
+Fit bias 2.4 5.2 1.7 0.9
+Kð892Þ mass 0.2 0.2 0.4 0.6
+Kð892Þ width 0.3 0.3 0.2 0.2
+ðK?Þ0 mass 6.1 5.3 5.9 5.5
+ðK?Þ0 width 4.2 5.0 5.2 4.5
+?ð770Þþ mass 0.2 0.2 <0.1 0.2
+?ð770Þþ width 0.2 0.2 0.1 0.2
+Blatt-Weisskopf radius 1.0 3.3 1.3 3.8
+Total 8.5 11.3 8.7 9.6
+Changes due to signal model
+?ð1450Þþ þ3.7 ?0.9 ?3.2 þ9.4
+K
+2ð1430Þ ?2.6 þ0.5 þ3.6 ?8.8
+Kð1680Þ þ1.9 þ3.3 þ2.2 þ14.6
+Total ðþÞ þ4.2 þ0.5 þ4.2 þ17.4
+Total ð?Þ ?2.6 ?3.4 ?3.2 ?8.8
+J. P. LEES et al. PHYSICAL REVIEW D 96, 072001 (2017)
+072001-20
+[22] A. Garmash et al. (Belle Collaboration), Phys. Rev. D 75,
+012006 (2007).
+[23] P. Chang et al. (Belle Collaboration), Phys. Lett. B 599, 148
+(2004).
+[24] T. Latham, J. Back, and P. Harrison, Laura++, http://laura
+.hepforge.org.
+[25] G. N. Fleming, Phys. Rev. 135, B551 (1964).
+[26] D. Herndon, P. Soding, and R. Cashmore, Phys. Rev. D 11,
+3165 (1975).
+[27] J. Blatt and V. Weisskopf, Theoretical Nuclear Physics
+(J. Wiley and Sons, New York, 1952).
+[28] J. Beringer et al. (Particle Data Group Collaboration), Phys.
+Rev. D 86, 010001 (2012).
+[29] C. Zemach, Phys. Rev. 140, B109 (1965).
+[30] A. Bevan, B. Golob, T. Mannel, S. Prell, and B. Yabsley
+(BABAR Collaboration, Belle Collaboration), Eur. Phys. J. C
+74, 3026 (2014).
+[31] R. Barate et al. (ALEPH Collaboration), Z. Phys. C 76, 15
+(1997).
+[32] R. Akhmetshin et al. (CMD-2 Collaboration), Phys. Lett. B
+527, 161 (2002).
+[33] D. Aston et al. (LASS Collaboration), Nucl. Phys. B296,
+493 (1988).
+[34] G. Gounaris and J. Sakurai, Phys. Rev. Lett. 21, 244 (1968).
+[35] J. P. Lees et al. (BABAR Collaboration), Nucl. Instrum.
+Methods Phys. Res., Sect. A 726, 203 (2013).
+[36] B. Aubert et al. (BABAR Collaboration), Nucl. Instrum.
+Methods Phys. Res., Sect. A 479, 1 (2002).
+[37] B. Aubert et al. (BABAR Collaboration), Nucl. Instrum.
+Methods Phys. Res., Sect. A 729, 615 (2013).
+[38] S. Agostinelli et al. (GEANT4 Collaboration), Nucl. Instrum.
+Methods Phys. Res., Sect. A 506, 250 (2003).
+[39] J. Allison et al., IEEE Trans. Nucl. Sci. 53, 270 (2006).
+[40] A. Ryd et al., Report No. EVTGEN-V00-11-07, 2005.
+[41] T. Sjöstrand, Comput. Phys. Commun. 82, 74 (1994).
+[42] A.Drescher, B.Gräwe,B.Hahn,B. Ingelbach,U.Matthiesen,
+H. Scheck, J. Spengler, and D. Wegener, Nucl. Instrum.
+Methods Phys. Res., Sect. A 237, 464 (1985).
+[43] B. Aubert et al. (BABAR Collaboration), Phys. Rev. D 79,
+072009 (2009).
+[44] B. Aubert et al. (BABAR Collaboration), Phys. Rev. D 76,
+012004 (2007).
+[45] G. Punzi (2004), eConf. C030908:WELT002 (2003).
+[46] H. Albrecht et al. (ARGUS Collaboration), Phys. Lett. B
+241, 278 (1990).
+[47] B. El-Bennich, A. Furman, R. Kami?ski, L. Le?niak, B.
+Loiseau, and B. Moussallam, Phys. Rev. D 79, 094005
+(2009).
+EVIDENCE FOR CP VIOLATION IN … PHYSICAL REVIEW D 96, 072001 (2017)
+072001-21

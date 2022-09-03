@@ -1,0 +1,1418 @@
+Page: 1 left:1 upper:1
+READERS’ ADVISORY
+page=1 block=1574598287 (x=1 y=1) width=114 height=8 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+Laurel Tarulli and Neal Wyatt, Editors
+page=1 block=2056031695 (x=1 y=14) width=161 height=7 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+Past is Prologue
+page=1 block=606508809 (x=1 y=131) width=205 height=18 fontname=HLMJLK+MyriadPro-Semibold wordint.min=3 wordint.max=5
+Science Fiction and 
+page=1 block=718187988 (x=1 y=168) width=223 height=17 fontname=VTNKZI+MyriadPro-LightIt wordint.min=3 wordint.max=5
+Ways of Working
+page=1 block=718187988 (x=1 y=204) width=191 height=17 fontname=VTNKZI+MyriadPro-LightIt wordint.min=5 wordint.max=7
+Gillian Speace
+page=1 block=615438348 (x=1 y=417) width=73 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+Gillian Speace, Readers’ Advisory 
+page=1 block=978508707 (x=1 y=442) width=137 height=6 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+Librarian at NoveList, Durham, NC.
+page=1 block=978508707 (x=1 y=454) width=138 height=6 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+Correspondence to this column should be addressed 
+page=1 block=710708543 (x=1 y=478) width=208 height=6 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+to either Neal Wyatt, Library Journal, contributing 
+page=1 block=710708543 (x=1 y=490) width=201 height=6 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+editor and readers’ advisory columnist; email: nwyatt@
+page=1 block=710708543 (x=1 y=502) width=217 height=6 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+mediasourceinc.com, or Laurel Tarulli, Librarian and 
+page=1 block=710708543 (x=1 y=514) width=208 height=6 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+Information Services Manager, Sacred Heart School 
+page=1 block=710708543 (x=1 y=526) width=206 height=6 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+of Halifax; e-mail: laureltarulli@yahoo.com.
+page=1 block=710708543 (x=1 y=538) width=172 height=6 fontname=PFLATU+MyriadPro-It wordint.min=2 wordint.max=4
+96 
+page=1 block=1965237677 (x=1 y=715) width=12 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+Reference & User Services Quarterly
+page=1 block=664792509 (x=353 y=715) width=143 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+This issue welcomes Neal Wyatt, joining Laurie Tarulli as 
+page=1 block=188523822 (x=256 y=122) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+coeditor of the Readers’ Advisory column. With her arrival 
+page=1 block=188523822 (x=256 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+we introduce an occasional series exploring genre and for-
+page=1 block=188523822 (x=256 y=146) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+mat. For our first foray, Gillian Speace, Readers’ Advisory 
+page=1 block=188523822 (x=256 y=158) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Librarian, NoveList, provides a guided tour of the reoccur-
+page=1 block=188523822 (x=256 y=170) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ring themes of science fiction, suggesting ways advisors can 
+page=1 block=188523822 (x=256 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+use its perennial concerns to connect readers to the genre’s 
+page=1 block=188523822 (x=256 y=194) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+rich backlist as well as keep them immersed in new works—
+page=1 block=188523822 (x=256 y=206) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and worlds. By pairing a classic work to a new title and, con-
+page=1 block=188523822 (x=256 y=218) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+versely, a new work to a backlist staple, advisors can make 
+page=1 block=188523822 (x=256 y=230) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+full use of the collection, expand the range of titles they keep 
+page=1 block=188523822 (x=256 y=242) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+in their proverbial RA back pocket, and help readers access 
+page=1 block=188523822 (x=256 y=254) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the full richness of the genre.—Editor
+page=1 block=188523822 (x=256 y=266) width=152 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+“People like us, who believe in physics, know that the distinc-
+page=1 block=1170727939 (x=271 y=290) width=213 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+tion between past, present and future is only a stubbornly 
+page=1 block=1170727939 (x=271 y=302) width=215 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+persistent illusion.”
+page=1 block=1170727939 (x=271 y=314) width=71 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+—Albert Einstein
+page=1 block=690339675 (x=412 y=326) width=72 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+O ne common assumption about science fiction 
+page=1 block=1896828359 (x=254 y=350) width=245 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+(SF) is that it’s about the future. In fact, science 
+page=1 block=1896828359 (x=254 y=362) width=245 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+fiction is about the present: regardless of setting, 
+page=1 block=1896828359 (x=254 y=374) width=245 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+stories in this genre reflect the concerns of the 
+page=1 block=1896828359 (x=254 y=386) width=245 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+era in which they were written. Some anxieties are ever-
+page=1 block=1896828359 (x=256 y=398) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+green (technological advances, ever-changing social mores), 
+page=1 block=1896828359 (x=256 y=410) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+while others are more cyclical (authoritarian governments, 
+page=1 block=1896828359 (x=256 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+economic instability), but all turn up again and again in dif-
+page=1 block=1896828359 (x=256 y=434) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ferent forms as they respond to current events. 
+page=1 block=1896828359 (x=256 y=446) width=192 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Because of its perennial concerns, readers’ advisory (RA) 
+page=1 block=1896828359 (x=270 y=458) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+librarians can use classic tropes of SF to help balance read-
+page=1 block=1896828359 (x=256 y=470) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ers’ love of the old with their desire for the new, crafting 
+page=1 block=1896828359 (x=256 y=482) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+a richly textured—and richly resourced—SF RA service. 
+page=1 block=1896828359 (x=256 y=494) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Advisors can introduce fans of Arthur C. Clarke to Chinese 
+page=1 block=1896828359 (x=256 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+author Liu Cixin or connect a longtime reader of military 
+page=1 block=1896828359 (x=256 y=518) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+SF to Kameron Hurley’s The Light Brigade. Classic science 
+page=1 block=1896828359 (x=256 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+fiction can also help more recent converts get in touch with 
+page=1 block=1896828359 (x=256 y=542) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the genre’s roots, thereby creating pathways through the 
+page=1 block=1896828359 (x=256 y=554) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+collection. Readers of recent “generation ship” stories, such 
+page=1 block=1896828359 (x=256 y=566) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as Rivers Solomon’s An Unkindness of Ghosts or Kim Stanley 
+page=1 block=1896828359 (x=256 y=578) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Robinson’s Aurora, can be pointed toward Robert Heinlein’s 
+page=1 block=1896828359 (x=256 y=590) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Orphans in the Sky, bridging backward to a classic example 
+page=1 block=1896828359 (x=256 y=602) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of the trope. With this concept in mind, here are a few key 
+page=1 block=1896828359 (x=256 y=614) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+classic SF themes with contemporary relevance along with 
+page=1 block=1896828359 (x=256 y=626) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+suggested titles to pair.
+page=1 block=1896828359 (x=256 y=638) width=93 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Page: 2 left:1 upper:1
+Past is Prologue
+page=2 block=536122141 (x=437 y=1) width=59 height=5 fontname=JWOQNG+MyriadPro-Regular wordint.min=2 wordint.max=4
+volume 59, issue 2  |  Winter 2019 
+page=2 block=1709804316 (x=1 y=715) width=133 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+97
+page=2 block=1630678941 (x=487 y=715) width=10 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=1 wordint.max=21
+LATE CAPITALISM: CYBERPUNK, 
+page=2 block=1792550665 (x=1 y=29) width=170 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+MEGACORPORATIONS, AND MASS 
+page=2 block=1792550665 (x=1 y=41) width=183 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+SURVEILLANCE
+page=2 block=1792550665 (x=1 y=53) width=80 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=1 wordint.max=24
+Suggested Pairings
+page=2 block=1359953204 (x=1 y=72) width=94 height=7 fontname=JWOQNG+MyriadPro-Regular wordint.min=3 wordint.max=5
+Classic to New: Gibson, William. Neuromancer (1984). Sprawl 
+page=2 block=2014838114 (x=1 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+trilogy: Older, Malka. Infomocracy (2016). Centenal trilogy
+page=2 block=2014838114 (x=1 y=110) width=235 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+New to Classic: Hart, Rob. The Warehouse (2019): Orwell, 
+page=2 block=136936250 (x=1 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+George. Nineteen Eighty-Four (1949)
+page=2 block=136936250 (x=1 y=146) width=143 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+The destabilizing effects of the Great Recession have led to 
+page=2 block=593687897 (x=1 y=170) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+an increase in SF that examines wealth concentration and 
+page=2 block=593687897 (x=1 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+widening economic disparities that reinforce existing social 
+page=2 block=593687897 (x=1 y=194) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+inequalities on a global scale, from Karl Schroeder’s Stealing 
+page=2 block=593687897 (x=1 y=206) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Worlds to Chen Quifan’s Waste Tide to the film Sorry to Bother 
+page=2 block=593687897 (x=1 y=218) width=242 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+You. Termed “Late Capitalism,” this group of books focuses 
+page=2 block=593687897 (x=1 y=230) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+on economic dystopias.1
+page=2 block=593687897 (x=1 y=240) width=97 height=7 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+There’s little doubt that the current bull market for eco-
+page=2 block=593687897 (x=15 y=254) width=226 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+nomic dystopias reflects anxieties about the contemporary 
+page=2 block=593687897 (x=1 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+economy: a real world in which children are threatened with 
+page=2 block=593687897 (x=1 y=278) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+family separation over school lunch debt and in which elec-
+page=2 block=593687897 (x=1 y=290) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tronic surveillance systems monitor every movement made 
+page=2 block=593687897 (x=1 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+by warehouse workers (except for their deaths), does not 
+page=2 block=593687897 (x=1 y=314) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+seem so far removed from a fictional one in which individu-
+page=2 block=593687897 (x=1 y=326) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+als are owned by shareholders (as in Dani and Eytan Kollin’s 
+page=2 block=593687897 (x=1 y=338) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+The Unincorporated Man) or assigned a social credit score 
+page=2 block=593687897 (x=1 y=350) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+based on their perceived value to society (as in Yudhanjaya 
+page=2 block=593687897 (x=1 y=362) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Wijeratne’s Numbercaste). However, dystopian fiction built 
+page=2 block=593687897 (x=1 y=374) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+around economic systems is not new. The boom-and-bust 
+page=2 block=593687897 (x=1 y=386) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+economic cycles of the past, as well as the genre’s long-
+page=2 block=593687897 (x=1 y=398) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+standing preoccupation with social inequality, have resulted 
+page=2 block=593687897 (x=1 y=410) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+in numerous works of SF in which powerful conglomerates 
+page=2 block=593687897 (x=1 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+dictate nearly all aspects of people’s everyday lives.
+page=2 block=593687897 (x=1 y=434) width=206 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+A central trope in economic dystopias is the megacorpora-
+page=2 block=593687897 (x=15 y=446) width=226 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tion, which has come to be closely associated with cyberpunk, 
+page=2 block=593687897 (x=1 y=458) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+an SF subgenre that explores the effects of advanced technol-
+page=2 block=593687897 (x=1 y=470) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ogy on a global capitalist society, often from the perspectives 
+page=2 block=593687897 (x=1 y=482) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of economically marginalized characters. Megacorporations 
+page=2 block=593687897 (x=1 y=494) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+in SF frequently represent a merging of government and 
+page=2 block=593687897 (x=1 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+private industry, resulting in interchangeable entities that 
+page=2 block=593687897 (x=1 y=518) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+work hand-in-glove to exploit the general population while 
+page=2 block=593687897 (x=1 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+suppressing dissent. Notable examples of the megacorpora-
+page=2 block=593687897 (x=1 y=542) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tion can be found in William Gibson’s Sprawl trilogy, not to 
+page=2 block=593687897 (x=1 y=554) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+mention post-cyberpunk works such as Neal Stephenson’s 
+page=2 block=593687897 (x=1 y=566) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Snow Crash. 
+page=2 block=187472540 (x=1 y=578) width=50 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+As deregulation and privatization are real-world results 
+page=2 block=1276611190 (x=15 y=590) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of real-life policy decisions made in the 1970s and 1980s, 
+page=2 block=1276611190 (x=1 y=602) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+it makes sense that SF from this period engages with these 
+page=2 block=1276611190 (x=1 y=614) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+issues. However, earlier SF contains numerous examples of 
+page=2 block=1276611190 (x=1 y=626) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+corporations that become de facto rulers of the world, such as 
+page=2 block=1276611190 (x=1 y=638) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the Presteign clan in Alfred Bester’s The Stars My Destination 
+page=2 block=1276611190 (x=1 y=650) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+(1956) or General Technics in John Brunner’s Stand on Zan-
+page=2 block=1276611190 (x=1 y=662) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+zibar (1968), not to mention the monolithic multinationals 
+page=2 block=1276611190 (x=1 y=674) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+found throughout Philip K. Dick’s novels.
+page=2 block=1276611190 (x=1 y=686) width=169 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Governments, and corporations fulfilling the traditional 
+page=2 block=262457445 (x=270 y=26) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+functions of government, require effective messaging to 
+page=2 block=262457445 (x=256 y=38) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+convince people to act against their own best interests. The 
+page=2 block=262457445 (x=256 y=50) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+difference is one of terminology: governments rely on “pro-
+page=2 block=262457445 (x=256 y=62) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+paganda,” megacorporations on “marketing.”
+page=2 block=262457445 (x=256 y=74) width=181 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+The plot of Frederik Pohl and Cyril M. Kornbluth’s 1952 
+page=2 block=262457445 (x=270 y=86) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+satirical novel The Space Merchants revolves around a PR 
+page=2 block=262457445 (x=256 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+campaign—dreamed up by the US government and car-
+page=2 block=262457445 (x=256 y=110) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ried out by an advertising firm—to convince Americans to 
+page=2 block=262457445 (x=256 y=122) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+colonize Venus, a miserable hellscape even by the standards 
+page=2 block=262457445 (x=256 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of a twenty-second-century society struggling with resource 
+page=2 block=262457445 (x=256 y=146) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+scarcity due to overpopulation and environmental depreda-
+page=2 block=262457445 (x=256 y=158) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tion resulting from intensive fossil fuel extraction. And yet, 
+page=2 block=262457445 (x=256 y=170) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the general population, despite an ever-declining standard 
+page=2 block=262457445 (x=256 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of living, appears to be appeased by a plethora of consumer 
+page=2 block=262457445 (x=256 y=194) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+goods. A decade later, J.G. Ballard’s short story “The Sub-
+page=2 block=262457445 (x=256 y=206) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+liminal Man” explores consumerism and its dependence on 
+page=2 block=262457445 (x=256 y=218) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+artificially generated needs reinforced by advertising.
+page=2 block=262457445 (x=256 y=230) width=212 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Advertising, of course, does not exist without mass 
+page=2 block=262457445 (x=270 y=242) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+media. That may be part of the reason that consumer tech-
+page=2 block=262457445 (x=256 y=254) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+nology is an ongoing source of anxiety in SF (consider the 
+page=2 block=262457445 (x=256 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+focus on our relationships with mobile devices and media in 
+page=2 block=262457445 (x=256 y=278) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Netflix’s Black Mirror SF anthology series). From the two-way 
+page=2 block=262457445 (x=256 y=290) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+“telescreens” of George Orwell’s Nineteen Eighty-Four to the 
+page=2 block=262457445 (x=256 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+wearable “SeeChange cameras” of Dave Eggers’s The Circle, 
+page=2 block=262457445 (x=256 y=314) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+dystopian SF frequently depicts communication technologies 
+page=2 block=262457445 (x=256 y=326) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as tools of authoritarian regimes, spreading propaganda and 
+page=2 block=262457445 (x=256 y=338) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+misinformation while conducting mass surveillance. The 
+page=2 block=262457445 (x=256 y=350) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+technologies in question may change (from television to the 
+page=2 block=262457445 (x=256 y=362) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+internet), as might the exact formulation of threat (corporato-
+page=2 block=262457445 (x=256 y=374) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+cracy replaces totalitarianism as the evil regime du jour), but 
+page=2 block=262457445 (x=256 y=386) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the result—violations of basic human rights—is the same.
+page=2 block=262457445 (x=256 y=398) width=237 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+The interplay of technology, government, and media 
+page=2 block=262457445 (x=270 y=410) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+has taken on renewed relevance in the past two decades, 
+page=2 block=262457445 (x=256 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as the twenty-first century has been shaped by events such 
+page=2 block=262457445 (x=256 y=434) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as 9/11, the resulting “War on Terror,” and the surveillance 
+page=2 block=262457445 (x=256 y=446) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+state that has arisen in response, aided and abetted by tech-
+page=2 block=262457445 (x=256 y=458) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+nology companies that remain largely unaccountable. Cory 
+page=2 block=262457445 (x=256 y=470) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Doctorow’s Little Brother, Nick Harkaway’s Gnomon, and Paul 
+page=2 block=262457445 (x=256 y=482) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+J. McAuley’s Whole Wide World are just a handful of books 
+page=2 block=262457445 (x=256 y=494) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+that explore these issues.
+page=2 block=262457445 (x=256 y=506) width=102 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+From Malka Older’s Centenal cycle (beginning with Info-
+page=2 block=262457445 (x=270 y=518) width=226 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+mocracy) to the HBO television series Westworld, today’s SF is 
+page=2 block=262457445 (x=256 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+deeply concerned with the rise of Big Data and its weapon-
+page=2 block=262457445 (x=256 y=542) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ization by megacorporations, which profit from violating the 
+page=2 block=262457445 (x=256 y=554) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+privacy of billions and harvesting their personal information. 
+page=2 block=262457445 (x=256 y=566) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+And what Big Data is to twenty-first-century SF, the early 
+page=2 block=262457445 (x=256 y=578) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+internet was to cyberpunk: these contemporary works build 
+page=2 block=262457445 (x=256 y=590) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+upon the foundations laid by Gibson et al. and expand on the 
+page=2 block=262457445 (x=256 y=602) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+themes of bleeding edge technology, rising social inequality, 
+page=2 block=262457445 (x=256 y=614) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and the corrosive effects of global capitalism.
+page=2 block=262457445 (x=256 y=626) width=182 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Meanwhile, the nascent online culture first depicted in 
+page=2 block=262457445 (x=270 y=638) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+cyberpunk has matured, yet its vision of a free and open soci-
+page=2 block=262457445 (x=256 y=650) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ety made possible by the web has been replaced by a reality in 
+page=2 block=262457445 (x=256 y=662) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+which technology imprisons rather than liberates and in which 
+page=2 block=262457445 (x=256 y=674) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+a handful of wealthy and thus powerful individuals profit at 
+page=2 block=262457445 (x=256 y=686) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Page: 3 left:1 upper:1
+READERS’ ADVISORY
+page=3 block=1004023029 (x=1 y=1) width=114 height=8 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+98 
+page=3 block=1414506856 (x=1 y=715) width=12 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+Reference & User Services Quarterly
+page=3 block=612097453 (x=353 y=715) width=143 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+the expense of everyone else. From Lauren Beukes’s Moxyland 
+page=3 block=221634215 (x=1 y=26) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to Max Barry’s Jennifer Government, numerous contemporary 
+page=3 block=221634215 (x=1 y=38) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+SF novels examine the conflicts that arise from technologies 
+page=3 block=221634215 (x=1 y=50) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+underpinning both systems of social credit and social control. 
+page=3 block=221634215 (x=1 y=62) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ALIENS: FIRST CONTACT AND INVASION
+page=3 block=2003891312 (x=1 y=96) width=209 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+Suggested Pairings
+page=3 block=1583159071 (x=1 y=120) width=94 height=7 fontname=JWOQNG+MyriadPro-Regular wordint.min=3 wordint.max=5
+Classic to New: Heinlein, Robert. The Puppet Masters (1951): 
+page=3 block=607207372 (x=1 y=146) width=243 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+Thompson, Tade. Rosewater (2016). Wormwood trilogy
+page=3 block=607207372 (x=1 y=158) width=222 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+New to Classic: Liu, Cixin. The Three-Body Problem (2008). 
+page=3 block=131206411 (x=1 y=182) width=243 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+Remembrance of Earth’s Past: Clarke, Arthur. C. Childhood’s 
+page=3 block=131206411 (x=1 y=194) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+End (1953)
+page=3 block=131206411 (x=1 y=206) width=43 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Extraterrestrials represent the ultimate “other,” regardless 
+page=3 block=2012330741 (x=1 y=230) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of form (humanoid or nonhumanoid) or intent (benign, 
+page=3 block=2012330741 (x=1 y=242) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+malign, or indifferent to humankind). As such, their pres-
+page=3 block=2012330741 (x=1 y=254) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ence in SF encourages us to examine what we are as well as 
+page=3 block=2012330741 (x=1 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+what we are not. Stories about aliens prompt us to reflect 
+page=3 block=2012330741 (x=1 y=278) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+on human nature and to consider our identity and values, 
+page=3 block=2012330741 (x=1 y=290) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+whether individually or collectively. Less positively, they can 
+page=3 block=2012330741 (x=1 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+also betray our anxieties about outsiders. Just as anxieties 
+page=3 block=2012330741 (x=1 y=314) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+about foreign peoples and nations are cyclical, so, too, can 
+page=3 block=2012330741 (x=1 y=326) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+readers of contemporary alien encounter tales find titles of 
+page=3 block=2012330741 (x=1 y=338) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+interest in classic SF.
+page=3 block=2012330741 (x=1 y=350) width=84 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Stories about aliens fall into two broad categories: alien 
+page=3 block=2012330741 (x=15 y=362) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+invasions and first-contact stories. Although these themes 
+page=3 block=2012330741 (x=1 y=374) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+can overlap, alien invasion stories typically focus on con-
+page=3 block=2012330741 (x=1 y=386) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+flict between humans and aliens, while first-contact sto-
+page=3 block=2012330741 (x=1 y=398) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ries, which take a more anthropological view of encounters 
+page=3 block=2012330741 (x=1 y=410) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+between humans and extraterrestrial civilizations, tend to 
+page=3 block=2012330741 (x=1 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+focus on diplomatic relations.
+page=3 block=2012330741 (x=1 y=434) width=120 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+H. G. Wells’s 1898 novel The War of the Worlds introduced 
+page=3 block=2012330741 (x=15 y=446) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the alien invasion trope to literature. Wells, who also helped 
+page=3 block=2012330741 (x=1 y=458) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to lay the foundations of military SF with “The War in the 
+page=3 block=2012330741 (x=1 y=470) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Air,” drew on so-called “invasion literature” of the period to 
+page=3 block=2012330741 (x=1 y=482) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+explore the concept of invaders from space.2 These narratives 
+page=3 block=2012330741 (x=1 y=492) width=243 height=7 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+rise and fall in popularity and, to some extent, reflect the 
+page=3 block=2012330741 (x=1 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+anxieties of the era in which they were written: Edgar Rice 
+page=3 block=2012330741 (x=1 y=518) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Burroughs’s 1925 novel, The Moon Men, was influenced by the 
+page=3 block=2012330741 (x=1 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Red Scare of the post-World War I period, and the Cold War 
+page=3 block=2012330741 (x=1 y=542) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+would produce a number of alien invasion narratives involv-
+page=3 block=2012330741 (x=1 y=554) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+ing covert infiltration of the human body and mind-control, 
+page=3 block=2012330741 (x=1 y=566) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+notably Robert Heinlein’s 1951 novel The Puppet Masters.
+page=3 block=2012330741 (x=1 y=578) width=227 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+First contact in the modern sense came later. One of the 
+page=3 block=2012330741 (x=15 y=590) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+earliest examples of this theme can be found in Murray Lein-
+page=3 block=2012330741 (x=1 y=602) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ster’s short novel First Contact (1945), which is among the 
+page=3 block=2012330741 (x=1 y=614) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+first to describe a universal translation device (a perennial 
+page=3 block=2012330741 (x=1 y=626) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+interest of SF creators and fans, not to mention technology 
+page=3 block=2012330741 (x=1 y=638) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+companies). First contact stories are often concerned with 
+page=3 block=2012330741 (x=1 y=650) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+communication as a means of building interspecies trust, 
+page=3 block=2012330741 (x=1 y=662) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+although the degree to which this is considered possible or 
+page=3 block=2012330741 (x=1 y=674) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+even desirable varies greatly within the genre.
+page=3 block=2012330741 (x=1 y=686) width=186 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+On one end of the spectrum is the Star Trek franchise 
+page=3 block=1101184763 (x=270 y=26) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+(1966–present), in which peaceful coexistence between dif-
+page=3 block=1101184763 (x=256 y=38) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ferent interstellar cultures is both possible and achievable; 
+page=3 block=1101184763 (x=256 y=50) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+on the other is Stanislaw Lem’s Solaris (1961), which argues 
+page=3 block=1101184763 (x=256 y=62) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+that the limitations of human bodies and minds renders us 
+page=3 block=1101184763 (x=256 y=74) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+incapable of understanding an extraterrestrial intelligence. 
+page=3 block=1101184763 (x=256 y=86) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Somewhere in the middle are stories ranging from China 
+page=3 block=1101184763 (x=256 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Mieville’s Embassytown to James Cambias’s A Darkling Sea to 
+page=3 block=1101184763 (x=256 y=110) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Ted Chiang’s “Story of Your Life,” suggesting that communi-
+page=3 block=1101184763 (x=256 y=122) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+cation is possible, but that differences in values or worldview 
+page=3 block=1101184763 (x=256 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+may preclude true understanding.
+page=3 block=1101184763 (x=256 y=146) width=138 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+One particularly interesting development in recent SF 
+page=3 block=1101184763 (x=270 y=158) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+is Afrofuturist alien invasion tales set in regions grappling 
+page=3 block=1101184763 (x=256 y=170) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+with historical legacies of colonialism. Cadwell Turnbull’s 
+page=3 block=1101184763 (x=256 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+The Lesson unfolds on St. Thomas in the US Virgin Islands, 
+page=3 block=1101184763 (x=256 y=194) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+which the alien Ynaa have chosen as their base of opera-
+page=3 block=1101184763 (x=256 y=206) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tions. Although the Ynaa insist that they mean no harm to 
+page=3 block=1101184763 (x=256 y=218) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the locals, actions speak louder than words as they react to 
+page=3 block=1101184763 (x=256 y=230) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+minor provocations with extreme force. Such incidents echo 
+page=3 block=1101184763 (x=256 y=242) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the many historical examples of imperial powers answering 
+page=3 block=1101184763 (x=256 y=254) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+native resistance, perceived or actual, with brutal reprisals 
+page=3 block=1101184763 (x=256 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+in the name of peacekeeping.
+page=3 block=1101184763 (x=256 y=278) width=119 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Both Nnedi Okorafor’s Lagoon and Tade Thompson’s 
+page=3 block=1101184763 (x=270 y=290) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Wormwood trilogy are set in Nigeria, the former in a vibrant 
+page=3 block=1101184763 (x=256 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+near-future Lagos, the latter in the fictional city of Rosewa-
+page=3 block=1101184763 (x=256 y=314) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ter, which encircles an alien biodome. Despite benevolent 
+page=3 block=1101184763 (x=256 y=326) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+intentions, the aliens of Lagoon—self-described “agents of 
+page=3 block=1101184763 (x=256 y=338) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+change”—arguably do more harm than good by imposing 
+page=3 block=1101184763 (x=256 y=350) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+their values on the human communities they encounter. The 
+page=3 block=1101184763 (x=256 y=362) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+motives of Rosewater’s aliens are murkier, yet their presence 
+page=3 block=1101184763 (x=256 y=374) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+feels familiar to Nigerian onlookers who are “unimpressed, 
+page=3 block=1101184763 (x=256 y=386) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+even in our knowledge that it is the most significant event 
+page=3 block=1101184763 (x=256 y=398) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+in Earth’s history. We’ve seen colonizers before, and they are 
+page=3 block=1101184763 (x=256 y=410) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+similar, whether intercontinental or interplanetary.”
+page=3 block=1101184763 (x=256 y=422) width=210 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Unlike earlier alien invasion narratives, which cast extra-
+page=3 block=1101184763 (x=270 y=434) width=226 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+terrestrials as the ultimate “foreign menace” threatening 
+page=3 block=1101184763 (x=256 y=446) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+(white) Earthlings and their way of life, recent explorations 
+page=3 block=1101184763 (x=256 y=458) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of this theme draw explicit parallels between space invaders 
+page=3 block=1101184763 (x=256 y=470) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and European imperialists, who literally invade the spaces of 
+page=3 block=1101184763 (x=256 y=482) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+people of color and use their “superior” understanding and 
+page=3 block=1101184763 (x=256 y=494) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+“advanced” technologies to reshape these spaces to suit the 
+page=3 block=1101184763 (x=256 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+invaders’ needs.
+page=3 block=1101184763 (x=256 y=518) width=64 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+THE POSTHUMAN FUTURE: UPLIFT, AI, AND 
+page=3 block=1816147548 (x=256 y=552) width=230 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+CYBORGS
+page=3 block=1816147548 (x=256 y=564) width=52 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=3 wordint.max=5
+Suggested Pairings
+page=3 block=2079179914 (x=256 y=588) width=94 height=7 fontname=JWOQNG+MyriadPro-Regular wordint.min=3 wordint.max=5
+Classic to New: Asimov, Isaac. I, Robot (1950): Wilson, Daniel. 
+page=3 block=20049680 (x=256 y=614) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Guardian Angels and Other Monsters (2018)
+page=3 block=20049680 (x=256 y=626) width=169 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+New to Classic: Bodard, Aliette de. “The Shipmaker” and 
+page=3 block=1437654187 (x=256 y=650) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+“The Waiting Stars.” Collected in Of Wars, and Memories, and 
+page=3 block=1437654187 (x=256 y=662) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Starlight (2019): McCaffrey, Anne. The Ship Who Sang (1969)
+page=3 block=1437654187 (x=256 y=674) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Page: 4 left:1 upper:1
+Past is Prologue
+page=4 block=951050903 (x=437 y=1) width=59 height=5 fontname=JWOQNG+MyriadPro-Regular wordint.min=2 wordint.max=4
+volume 59, issue 2  |  Winter 2019 
+page=4 block=770947228 (x=1 y=715) width=133 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+99
+page=4 block=590646109 (x=487 y=715) width=10 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=1 wordint.max=21
+One enduring source of speculation in SF is posthumanism, 
+page=4 block=1882349076 (x=1 y=26) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+which asks not “What becomes of us?” but “What do we 
+page=4 block=1882349076 (x=1 y=38) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+become?” Often (but not always) set in the distant future, 
+page=4 block=1882349076 (x=1 y=50) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+posthuman SF imagines how our species might change over 
+page=4 block=1882349076 (x=1 y=62) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+time, whether through evolution or technological interven-
+page=4 block=1882349076 (x=1 y=74) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tion. Although the methods may differ, the outcome is the 
+page=4 block=1882349076 (x=1 y=86) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+same: at some point, by some means, we become something 
+page=4 block=1882349076 (x=1 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+else.
+page=4 block=1882349076 (x=1 y=110) width=18 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=1 wordint.max=17
+While the theme of posthumanism in SF encompasses 
+page=4 block=1882349076 (x=15 y=122) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+numerous avenues of potential transformation, the major-
+page=4 block=1882349076 (x=1 y=134) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ity of contemporary posthuman SF falls into two categories: 
+page=4 block=1882349076 (x=1 y=146) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+human-like computers and computer-like humans. The 
+page=4 block=1882349076 (x=1 y=158) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+former includes stories about artificial intelligence (AI) and 
+page=4 block=1882349076 (x=1 y=170) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the technological singularity; the latter includes stories about 
+page=4 block=1882349076 (x=1 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+cyborgs and biotechnology. These themes are particularly 
+page=4 block=1882349076 (x=1 y=194) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+relevant today thanks to concurrent advances in medical and 
+page=4 block=1882349076 (x=1 y=206) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+computing technology, which echoes similar advances in the 
+page=4 block=1882349076 (x=1 y=218) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+postwar era of the mid-twentieth century. Once again, this 
+page=4 block=1882349076 (x=1 y=230) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+presents an opportunity for the RA librarian to draw con-
+page=4 block=1882349076 (x=1 y=242) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+nections between classic and contemporary works touching 
+page=4 block=1882349076 (x=1 y=254) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+on these themes.
+page=4 block=1882349076 (x=1 y=266) width=68 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Human-like computers appear in the genre first. While 
+page=4 block=1882349076 (x=15 y=278) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+mechanical beings can be found in the literature of classical 
+page=4 block=1882349076 (x=1 y=290) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+antiquity, our familiar word robot (derived from the Czech 
+page=4 block=1882349076 (x=1 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+word robota, or “serf labor”) makes its first appearance in 
+page=4 block=1882349076 (x=1 y=314) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+playwright Karel ?apek’s 1920 drama, R.U.R., in which 
+page=4 block=1882349076 (x=1 y=324) width=243 height=7 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+manufactured people revolt against their human enslavers, 
+page=4 block=1882349076 (x=1 y=338) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+resulting in the near-extermination of the human species. 
+page=4 block=1882349076 (x=1 y=350) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Although ?apek introduced the ever-popular theme of robot 
+page=4 block=1882349076 (x=1 y=360) width=243 height=7 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+uprisings to SF, Russian-American SF author Isaac Asimov 
+page=4 block=1882349076 (x=1 y=374) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+made equally important contributions to AI-themed SF 
+page=4 block=1882349076 (x=1 y=386) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+through his short story collection I, Robot.3 Asimov’s robot 
+page=4 block=1882349076 (x=1 y=396) width=243 height=7 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+stories take the basic premise of the mechanical servant 
+page=4 block=1882349076 (x=1 y=410) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and use it to explore philosophical issues such as morality 
+page=4 block=1882349076 (x=1 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+or free will, or social ones such as bigotry and discrimina-
+page=4 block=1882349076 (x=1 y=434) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tion. Artificial beings as diverse as Star Wars’s R2-D2, Data 
+page=4 block=1882349076 (x=1 y=446) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+from Star Trek: The Next Generation, and even Futurama’s 
+page=4 block=1882349076 (x=1 y=458) width=243 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+cigar-chomping robot Bender owe their existence to Asimov. 
+page=4 block=1882349076 (x=1 y=470) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Of course, AI is not necessarily benign. SF author Vernor 
+page=4 block=1882349076 (x=15 y=482) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Vinge introduced the idea of the technological singularity in 
+page=4 block=1882349076 (x=1 y=494) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+his essay, “The Coming Technological Singularity: How to 
+page=4 block=1882349076 (x=1 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Survive in the Post-Human Era.”4 Drawing on British math-
+page=4 block=1882349076 (x=1 y=516) width=240 height=7 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ematician I.J. Good’s concept of an “intelligence explosion,” 
+page=4 block=1882349076 (x=1 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Vinge describes the hypothetical point at which accelerating 
+page=4 block=1882349076 (x=1 y=542) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+technological progress leads to the creation of “entities with 
+page=4 block=1882349076 (x=1 y=554) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+greater than human intelligence.” At which point, Vinge 
+page=4 block=1882349076 (x=1 y=566) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+suggests, humans will become obsolete. Is obsolescence 
+page=4 block=1882349076 (x=1 y=578) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the same as extinction? Will machines destroy humans or 
+page=4 block=1882349076 (x=1 y=590) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+enslave them? Or is there even a role for humans in a posthu-
+page=4 block=1882349076 (x=1 y=602) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+man world? These are just some of the questions AI-themed 
+page=4 block=1882349076 (x=1 y=614) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+SF explores.
+page=4 block=1882349076 (x=1 y=626) width=49 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Today, advances in AI, anxiety about automation, and 
+page=4 block=1882349076 (x=15 y=638) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+expanding conceptions of identity have contributed to a 
+page=4 block=1882349076 (x=1 y=650) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+resurgence of SF involving robots. Such stories explore 
+page=4 block=1882349076 (x=1 y=662) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+what it means to be human on both a personal level (What 
+page=4 block=1882349076 (x=1 y=674) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+is gender? How do our physical bodies, their abilities and 
+page=4 block=1882349076 (x=1 y=686) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+limitations, shape our lived experiences?) and a political one 
+page=4 block=936292831 (x=256 y=26) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+(What basic rights are individuals or certain groups entitled 
+page=4 block=936292831 (x=256 y=38) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to? Who decides?) 
+page=4 block=936292831 (x=256 y=50) width=75 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Similar concerns about  advances  in  computing  are 
+page=4 block=936292831 (x=270 y=62) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+reflected in fiction from the dawn of the computer age. In 
+page=4 block=936292831 (x=256 y=74) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+both the film and novel versions of 2001: A Space Odyssey, the 
+page=4 block=936292831 (x=256 y=86) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+supercomputer HAL 9000 malfunctions and attempts to kill 
+page=4 block=936292831 (x=256 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+an entire spaceship crew. The Allied Mastercomputer (“AM”) 
+page=4 block=936292831 (x=256 y=110) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of Harlan Ellison’s “I Have No Mouth, and I Must Scream” 
+page=4 block=936292831 (x=256 y=122) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+(1966) is an AI with an unquenchable thirst for revenge; 
+page=4 block=936292831 (x=256 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+having brought about humanity’s near-extinction, it keeps 
+page=4 block=936292831 (x=256 y=146) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+five humans captive to torture them. 
+page=4 block=936292831 (x=256 y=158) width=151 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+However, for every chilling “rise of the machines” tale, 
+page=4 block=936292831 (x=270 y=170) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+such as Daniel Wilson’s Robopocalypse or Todd McAulty’s The 
+page=4 block=936292831 (x=256 y=182) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Robots of Gotham, there are thought-provoking novels featur-
+page=4 block=936292831 (x=256 y=194) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ing sympathetic synthetic lifeforms navigating an unsympa-
+page=4 block=936292831 (x=256 y=206) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+thetic world, such as Becky Chambers’s A Close and Common 
+page=4 block=936292831 (x=256 y=218) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Orbit or Martha Wells’s All Systems Red.
+page=4 block=936292831 (x=256 y=230) width=158 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+By contrast, stories about computer-like humans focus 
+page=4 block=936292831 (x=270 y=242) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+on human evolution as opposed to human obsolescence. 
+page=4 block=936292831 (x=256 y=254) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Charles Stross’s 2005 novel Accelerando traces the shift 
+page=4 block=936292831 (x=256 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+from human to posthuman by following three successive 
+page=4 block=936292831 (x=256 y=278) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+generations of the same family before, during, and after the 
+page=4 block=936292831 (x=256 y=290) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Singularity, while Greg Egan’s Diaspora shows a trifurcated 
+page=4 block=936292831 (x=256 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+thirtieth-century posthuman humanity comprised of “flesh-
+page=4 block=936292831 (x=256 y=314) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ers” (i.e., normal humans), Gleisner robots (human brains 
+page=4 block=936292831 (x=256 y=326) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+embodied in machines), and “polises” (supercomputers con-
+page=4 block=936292831 (x=256 y=338) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+taining digital copies of billions of humans).
+page=4 block=936292831 (x=256 y=350) width=179 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Although there is no shortage of depictions of societ-
+page=4 block=936292831 (x=270 y=362) width=226 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ies transformed by cybernetic technology, many SF stories 
+page=4 block=936292831 (x=256 y=374) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+about computer-like humans focus on individual cyborgs, 
+page=4 block=936292831 (x=256 y=386) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+or augmented humans whose capabilities are enhanced or 
+page=4 block=936292831 (x=256 y=398) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+extended by technology. Early cyborgs represented medical 
+page=4 block=936292831 (x=256 y=410) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+interventions designed to restore lost function. C.L. Moore’s 
+page=4 block=936292831 (x=256 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+“No Woman Born” (1941) introduces Deirdre, a popular 
+page=4 block=936292831 (x=256 y=434) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+entertainer whose brain is implanted in a faceless mechanical 
+page=4 block=936292831 (x=256 y=446) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+body following a tragic accident. Similarly, the plot of Anne 
+page=4 block=936292831 (x=256 y=458) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+McCaffrey’s 1969 novel The Ship Who Sang centers around 
+page=4 block=936292831 (x=256 y=470) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+humans with severe birth defects whose disembodied brains 
+page=4 block=936292831 (x=256 y=482) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+are harnessed to power starships. Although the novel will 
+page=4 block=936292831 (x=256 y=494) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+strike contemporary readers as highly problematic in its 
+page=4 block=936292831 (x=256 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+depiction of disabled people, it represents an influential 
+page=4 block=936292831 (x=256 y=518) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+treatment of the cyborg theme. The mind-ships of Aliette 
+page=4 block=936292831 (x=256 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+de Bodard’s Xuya Universe can be read as a direct response 
+page=4 block=936292831 (x=256 y=542) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to McCaffrey’s brainships, employing a now-familiar trope 
+page=4 block=936292831 (x=256 y=554) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to examine issues such as consent and cultural relativism.
+page=4 block=936292831 (x=256 y=566) width=236 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+The cyborg theme in SF encompasses everything from 
+page=4 block=936292831 (x=270 y=578) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+adaptive technologies (to facilitate bodily autonomy) to tech-
+page=4 block=936292831 (x=256 y=590) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+nological enhancements (to extend physical capabilities) 
+page=4 block=936292831 (x=256 y=602) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to technological immortality (to cheat death). However, as 
+page=4 block=936292831 (x=256 y=614) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+advances in technology transform science fiction into science 
+page=4 block=936292831 (x=256 y=626) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+fact, the focus of these stories shift towards achievements 
+page=4 block=936292831 (x=256 y=638) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+still beyond our grasp: namely, immortality. Neal Stephen-
+page=4 block=936292831 (x=256 y=650) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+son’s Fall: Or, Dodge in Hell chronicles the digital afterlife of a 
+page=4 block=936292831 (x=256 y=662) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+deceased tech mogul whose brain is scanned and uploaded 
+page=4 block=936292831 (x=256 y=674) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to the cloud, while in Richard K. Morgan’s Altered Carbon 
+page=4 block=936292831 (x=256 y=686) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Page: 5 left:1 upper:1
+READERS’ ADVISORY
+page=5 block=130668770 (x=1 y=1) width=114 height=8 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+100 
+page=5 block=2151717 (x=1 y=715) width=17 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+Reference & User Services Quarterly
+page=5 block=1644231115 (x=353 y=715) width=143 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+every person has a “cortical stack” (digital copy of them-
+page=5 block=537066525 (x=1 y=26) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+selves) that can be “resleeved” in a new body. Both works 
+page=5 block=537066525 (x=1 y=38) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+owe a great debt to Robert Sheckley’s 1958 novel Immortality, 
+page=5 block=537066525 (x=1 y=50) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Inc., which follows the misadventures of a wealthy deceased 
+page=5 block=537066525 (x=1 y=62) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+man who is revived in a future society where death is incon-
+page=5 block=537066525 (x=1 y=74) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+sequential, due to the ability to download one’s conscious-
+page=5 block=537066525 (x=1 y=86) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ness into a new body. Although this novel is not the first to 
+page=5 block=537066525 (x=1 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+explore mind uploads as a means of cheating death, it does 
+page=5 block=537066525 (x=1 y=110) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+introduce a notable feature of technological immortality in 
+page=5 block=537066525 (x=1 y=122) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+SF, namely, that it depends on one’s resources: wealthy indi-
+page=5 block=537066525 (x=1 y=134) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+viduals can pay to extend their lifespan indefinitely, while 
+page=5 block=537066525 (x=1 y=146) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+others cannot. 
+page=5 block=537066525 (x=1 y=158) width=61 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Sheckley’s observation that wealth buys health has strong 
+page=5 block=537066525 (x=15 y=170) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+echoes in contemporary SF, which expresses ambivalence 
+page=5 block=537066525 (x=1 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+about scientific breakthroughs, particularly in biotechnology 
+page=5 block=537066525 (x=1 y=194) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and biomedical engineering, stemming from awareness that 
+page=5 block=537066525 (x=1 y=206) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+not everyone’s life will be improved by such advances. Books 
+page=5 block=537066525 (x=1 y=218) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+such as Annalee Newitz’s Autonomous and Laura Lam’s False 
+page=5 block=537066525 (x=1 y=230) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Hearts explore scenarios in which the direct benefits of sci-
+page=5 block=537066525 (x=1 y=242) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+entific progress are neither equitably distributed nor acces-
+page=5 block=537066525 (x=1 y=254) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+sible to all who need them. In biopunk novels such as Paul 
+page=5 block=537066525 (x=1 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+J. McAuley’s Fairyland (1995), Paolo Bacigalupi’s The Windup 
+page=5 block=537066525 (x=1 y=278) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Girl (2008), and Jeff VanderMeer’s Borne (2017), biotechnol-
+page=5 block=537066525 (x=1 y=290) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ogy even contributes to the creation of sentient beings that 
+page=5 block=537066525 (x=1 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+lack the rights and protections afforded to humans. 
+page=5 block=537066525 (x=1 y=314) width=211 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+THE END TIMES: CLIMATE CHANGE AND THE 
+page=5 block=1766145591 (x=1 y=348) width=236 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=3 wordint.max=5
+DYING EARTH
+page=5 block=1766145591 (x=1 y=360) width=73 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+Suggested Pairings
+page=5 block=1867139015 (x=1 y=384) width=94 height=7 fontname=JWOQNG+MyriadPro-Regular wordint.min=3 wordint.max=5
+Classic to New: Ballard, J.G. The Drowned World (1962): Rob-
+page=5 block=182531396 (x=1 y=410) width=240 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+inson, Kim Stanley. New York 2140 (2017)
+page=5 block=182531396 (x=1 y=422) width=168 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+New to Classic: Atwood, Margaret. The Year of the Flood 
+page=5 block=1026871825 (x=1 y=446) width=243 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+(2009). MaddAddam trilogy: Butler, Octavia. Parable of the 
+page=5 block=1026871825 (x=1 y=458) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Talents (1998). Earthseed series
+page=5 block=1026871825 (x=1 y=470) width=127 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+The existential threat posed by climate change is ever-pres-
+page=5 block=2109798150 (x=1 y=494) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ent in SF, whether as a driver of events or, increasingly, as a 
+page=5 block=2109798150 (x=1 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+background element. Author Annalee Newitz has observed 
+page=5 block=2109798150 (x=1 y=518) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+that “any story about the future that’s at least a century out 
+page=5 block=2109798150 (x=1 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+has to include a dramatic picture of climate change.”5 Cli-
+page=5 block=2109798150 (x=1 y=540) width=240 height=7 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+mate change, in other words, is the new normal. Climate 
+page=5 block=2109798150 (x=1 y=554) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+fiction, sometimes called “cli-fi,” imagines the not-so-distant 
+page=5 block=2109798150 (x=1 y=566) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+future of Earth and its endangered inhabitants as they strug-
+page=5 block=2109798150 (x=1 y=578) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+gle to survive and adapt to dramatic environmental changes, 
+page=5 block=2109798150 (x=1 y=590) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as in Paolo Bacigalupi’s The Water Knife, Chang-rae Lee’s On 
+page=5 block=2109798150 (x=1 y=602) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+a Full Sea, or Omar El Akkad’s American War. Accompany-
+page=5 block=2109798150 (x=1 y=614) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ing this trend is a rise in dystopian fiction in which current 
+page=5 block=2109798150 (x=1 y=626) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+problems lead to unrest and societal breakdown, or even 
+page=5 block=2109798150 (x=1 y=638) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+human extinction.
+page=5 block=2109798150 (x=1 y=650) width=75 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Published in 1962, J.G. Ballard’s The Drowned World (and 
+page=5 block=2109798150 (x=15 y=662) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+its companion novel, The Drought) offers one of the earliest 
+page=5 block=2109798150 (x=1 y=674) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+realistic fictional explorations of a world ravaged by climate 
+page=5 block=2109798150 (x=1 y=686) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+change. Although it explicitly cites the greenhouse effect 
+page=5 block=1074389766 (x=256 y=26) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and the melting of the polar ice caps as catalysts for wide-
+page=5 block=1074389766 (x=256 y=38) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+spread environmental devastation, the novel attributes the 
+page=5 block=1074389766 (x=256 y=50) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+destruction to natural disaster rather than human activity. 
+page=5 block=1074389766 (x=256 y=62) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Although less common than cataclysmic climate change, 
+page=5 block=1074389766 (x=256 y=74) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+human-induced climate change is not exactly rare in SF. 
+page=5 block=1074389766 (x=256 y=86) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Writers tended to depict it as the result of nuclear war 
+page=5 block=1074389766 (x=256 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+until the 1970s, a period of heightened environmental con-
+page=5 block=1074389766 (x=256 y=110) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+sciousness that saw the publication of novels such as John 
+page=5 block=1074389766 (x=256 y=122) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Brunner’s The Sheep Look Up (1972), which sees a character 
+page=5 block=1074389766 (x=256 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+arrested for trying to obtain air-pollution data; Kate Wil-
+page=5 block=1074389766 (x=256 y=146) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+helm’s Where the Sweet Birds Sing (“As soon as man stopped 
+page=5 block=1074389766 (x=256 y=158) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+adding his megatons of filth into the atmosphere . . . [it] had 
+page=5 block=1074389766 (x=256 y=170) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+reverted to what it must have been long ago”); and Arthur 
+page=5 block=1074389766 (x=256 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Herzog’s Heat (1977).
+page=5 block=1074389766 (x=256 y=194) width=87 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Arguably more important than scientifically accurate 
+page=5 block=1074389766 (x=270 y=206) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+fictional depictions of anthropogenic climate change are 
+page=5 block=1074389766 (x=256 y=218) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+culturally and politically accurate fictional depictions, such 
+page=5 block=1074389766 (x=256 y=230) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as Octavia Butler’s Parable of the Sower (1993), in which 
+page=5 block=1074389766 (x=256 y=242) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+global warming exacerbates widespread societal break-
+page=5 block=1074389766 (x=256 y=254) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+down, and Kim Stanley Robinson’s Science in the Capitol 
+page=5 block=1074389766 (x=256 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+trilogy (2004–07), which focuses on scientists’ efforts to 
+page=5 block=1074389766 (x=256 y=278) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+avert a slow-motion climate catastrophe stalling in the face 
+page=5 block=1074389766 (x=256 y=290) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of human complacency and a lack of political will.
+page=5 block=1074389766 (x=256 y=302) width=204 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+A clear forerunner of climate fiction is the “dying Earth” 
+page=5 block=1074389766 (x=270 y=314) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+novel, which takes its name from Jack Vance’s 1950 short 
+page=5 block=1074389766 (x=256 y=326) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+story collection The Dying Earth about a far-future world in 
+page=5 block=1074389766 (x=256 y=338) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+which the sun has reached the end of its lifespan. Blending 
+page=5 block=1074389766 (x=256 y=350) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+SF and fantasy, Vance’s book spawned an entire subgenre, 
+page=5 block=1074389766 (x=256 y=362) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+reaching its apotheosis with the publication of Gene Wolfe’s 
+page=5 block=1074389766 (x=256 y=374) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+science fantasy epic series Book of the New Sun. Unlike the 
+page=5 block=1074389766 (x=256 y=386) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+swift catastrophes of most apocalyptic and post-apocalyptic 
+page=5 block=1074389766 (x=256 y=398) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+fiction, where a single asteroid or nuclear bomb ends human 
+page=5 block=1074389766 (x=256 y=410) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+civilization in a flash, dying Earth stories resemble the 
+page=5 block=1074389766 (x=256 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+“slow-pocalypses” of climate fiction, in which a dwindling 
+page=5 block=1074389766 (x=256 y=434) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+human population survives in the ruins of civilization. Tone 
+page=5 block=1074389766 (x=256 y=446) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+is arguably more important than setting: the lyrical, elegiac 
+page=5 block=1074389766 (x=256 y=458) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tone that permeates dying earth novels can be seen in non-
+page=5 block=1074389766 (x=256 y=470) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+climate apocalyptic fiction such as Emily St. John Mandel’s 
+page=5 block=1074389766 (x=256 y=482) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Station Eleven. Novels that take a dying Earth approach to 
+page=5 block=1074389766 (x=256 y=494) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+climate change include Margaret Atwood’s MaddAddam tril-
+page=5 block=1074389766 (x=256 y=506) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ogy (beginning with Oryx and Crake), Claire Vaye Watkins’s 
+page=5 block=1074389766 (x=256 y=518) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Gold Fame Citrus, and Edan Lepucki’s California.
+page=5 block=1136768342 (x=256 y=530) width=195 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+One notable difference is that in the dying Earth sub-
+page=5 block=1484673893 (x=270 y=542) width=226 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+genre, survivors are more likely to respond to their situa-
+page=5 block=1484673893 (x=256 y=554) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tion with resignation, whereas in modern climate fiction 
+page=5 block=1484673893 (x=256 y=566) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the emphasis is on surviving, adapting, and (where possible) 
+page=5 block=1484673893 (x=256 y=578) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+rebuilding. Both Kim Stanley Robinson’s New York 2140 
+page=5 block=1484673893 (x=256 y=590) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and Alex di Francesco’s All City take place in a submerged 
+page=5 block=1484673893 (x=256 y=602) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+twenty-first-century New York City and feature a diverse cast 
+page=5 block=1484673893 (x=256 y=614) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of characters refashioning society to reflect the new world 
+page=5 block=1484673893 (x=256 y=626) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+order. L.X. Beckett’s Gamechanger envisions a future in which 
+page=5 block=1484673893 (x=256 y=638) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+global cooperation leads to an eventual reversal of the effects 
+page=5 block=1484673893 (x=256 y=650) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of climate change and a more sustainable society. 
+page=5 block=1484673893 (x=256 y=662) width=202 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Page: 6 left:1 upper:1
+Past is Prologue
+page=6 block=587003819 (x=437 y=1) width=59 height=5 fontname=JWOQNG+MyriadPro-Regular wordint.min=2 wordint.max=4
+technologically advanced future and a more pastoral one. 
+page=6 block=769798433 (x=256 y=26) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Unusually for books of this type, the novel advocates love 
+page=6 block=769798433 (x=256 y=38) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+over war, emphasizing the protagonists’ creative attempts to 
+page=6 block=769798433 (x=256 y=50) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+break down ideological barriers and reach across a divide 
+page=6 block=769798433 (x=256 y=62) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+that seems impossible to bridge.
+page=6 block=769798433 (x=256 y=74) width=130 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+A related time-travel theme concerns whose stories are 
+page=6 block=769798433 (x=270 y=86) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+heard and whose are believed. In a world of “fake news” 
+page=6 block=769798433 (x=256 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and “alternative facts,” reality can be difficult to discern 
+page=6 block=769798433 (x=256 y=110) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+(especially with time travel in the mix). Driving the plot of 
+page=6 block=769798433 (x=256 y=122) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Dexter Palmer’s Version Control is one woman’s nagging sense 
+page=6 block=769798433 (x=256 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+that something is amiss in her world—the result of scien-
+page=6 block=769798433 (x=256 y=146) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tists testing a time machine, which causes subtle changes 
+page=6 block=769798433 (x=256 y=158) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to reality. The main character experiences this as “a subtle 
+page=6 block=769798433 (x=256 y=170) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+wrongness—not within herself, but in the world.” Despite 
+page=6 block=769798433 (x=256 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the correctness of her perception, her concerns are dismissed 
+page=6 block=769798433 (x=256 y=194) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+because she herself is not a scientist and because of her past 
+page=6 block=769798433 (x=256 y=206) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+struggles with alcohol abuse.
+page=6 block=769798433 (x=256 y=218) width=117 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Similarly, Blake Crouch’s  Recursion introduces False 
+page=6 block=769798433 (x=270 y=230) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Memory  Syndrome (FMS), a psychiatric condition that 
+page=6 block=769798433 (x=256 y=242) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+results in people having “two sets of memories. One true, 
+page=6 block=769798433 (x=256 y=254) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+one false.” Those living with FMS have vivid memories of 
+page=6 block=769798433 (x=256 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+lives they have not lived, full of loved ones who may or may 
+page=6 block=769798433 (x=256 y=278) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+not exist. In fact, this condition turns out to be a side effect 
+page=6 block=769798433 (x=256 y=290) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of other people recklessly changing the past without con-
+page=6 block=769798433 (x=256 y=302) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+sidering the repercussions. The result is a sort of temporal 
+page=6 block=769798433 (x=256 y=314) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+gaslighting, where one’s sanity—or entire existence—may be 
+page=6 block=769798433 (x=256 y=326) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+collateral damage to another person’s tinkering with history.
+page=6 block=769798433 (x=256 y=338) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+TIME TRAVEL: THE DARKEST TIMELINE
+page=6 block=1665620686 (x=1 y=29) width=201 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+volume 59, issue 2  |  Winter 2019 
+page=6 block=1233705144 (x=1 y=715) width=133 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+101
+page=6 block=202125197 (x=482 y=715) width=15 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=1 wordint.max=21
+Suggested Pairings
+page=6 block=811301908 (x=1 y=48) width=94 height=7 fontname=JWOQNG+MyriadPro-Regular wordint.min=3 wordint.max=5
+Classic to New: Williamson, Jack. The Legion of Time (1952): 
+page=6 block=1762902523 (x=1 y=74) width=243 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+Newitz, Annalee. The Future of Another Timeline (2019)
+page=6 block=1762902523 (x=1 y=86) width=219 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+New to Classic: Crouch, Blake. Recursion (2019): Bradbury, 
+page=6 block=1725008249 (x=1 y=110) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Ray “A Sound of Thunder” (1952)
+page=6 block=1725008249 (x=1 y=122) width=135 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Science fiction excels in extrapolating the effects of small 
+page=6 block=197964393 (x=1 y=146) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+changes in society, so it’s no wonder the theme of time travel 
+page=6 block=197964393 (x=1 y=158) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+is a perennial favorite in the genre. Most of the major time 
+page=6 block=197964393 (x=1 y=170) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+travel tropes were laid down during the so-called Golden 
+page=6 block=197964393 (x=1 y=182) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Age of SF. Ray Bradbury’s “A Sound of Thunder” (1952) was 
+page=6 block=197964393 (x=1 y=194) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+among the first to explore the unintended consequences (the 
+page=6 block=197964393 (x=1 y=206) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+“ripple effects”) of time travel to the past, while novels such 
+page=6 block=197964393 (x=1 y=218) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as Poul Anderson’s Time Patrol series (1955–95) and Isaac 
+page=6 block=197964393 (x=1 y=230) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Asimov’s The End of Eternity (1955) introduce the concept 
+page=6 block=197964393 (x=1 y=242) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of time police, entities tasked with enforcing the rules of 
+page=6 block=197964393 (x=1 y=254) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+causality to ensure the continued existence of the “correct” 
+page=6 block=197964393 (x=1 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+timeline. 
+page=6 block=197964393 (x=1 y=278) width=38 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Of course, the notion of a correct timeline reflects a desire 
+page=6 block=197964393 (x=15 y=290) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to maintain the status quo by safeguarding the systems 
+page=6 block=197964393 (x=1 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+that are the source of a dominant group’s power. Recently, 
+page=6 block=197964393 (x=1 y=314) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the adage “history is written by the victors” seems apropos 
+page=6 block=197964393 (x=1 y=326) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as “change wars” make their way back into SF for the first 
+page=6 block=197964393 (x=1 y=338) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+time in decades. Fought across time, change wars weapon-
+page=6 block=197964393 (x=1 y=350) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ize time travel to ensure the existence of one timeline over 
+page=6 block=197964393 (x=1 y=362) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+another; typical tactics include manipulating causality or 
+page=6 block=197964393 (x=1 y=374) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+laying paradoxes like landmines. Fans of Doctor Who will 
+page=6 block=197964393 (x=1 y=386) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+recognize this trope.
+page=6 block=197964393 (x=1 y=398) width=84 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+The term is derived from Fritz Leiber’s Change Wars 
+page=6 block=197964393 (x=15 y=410) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+series, which unfolds against the backdrop of a temporal war 
+page=6 block=197964393 (x=1 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+called “The Big Time” in which two factions battle for control 
+page=6 block=197964393 (x=1 y=434) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+of the timeline. However, the groundwork for this concept 
+page=6 block=197964393 (x=1 y=446) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+was laid by Jack Williamson’s earlier Legion of Time books, 
+page=6 block=197964393 (x=1 y=458) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+about a squad of time traveling warriors deployed to win a 
+page=6 block=197964393 (x=1 y=470) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+key battle in a time war.
+page=6 block=197964393 (x=1 y=482) width=97 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+As this theme evolves, the reasons for change wars soon 
+page=6 block=197964393 (x=15 y=494) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+shift from pragmatic goals of self-preservation to ideological 
+page=6 block=197964393 (x=1 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+aims: in Poul Anderson’s Corridors of Time (1966), opponents 
+page=6 block=197964393 (x=1 y=518) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+represent “two ways of thought and life—of being,” Stories 
+page=6 block=197964393 (x=1 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+that revolve around competing versions of reality resonate 
+page=6 block=197964393 (x=1 y=542) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+deeply with contemporary readers living in a polarized soci-
+page=6 block=197964393 (x=1 y=554) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ety where it often seems like each side is battling not only for 
+page=6 block=197964393 (x=1 y=566) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+victory but for the extermination of their opponents. Annalee 
+page=6 block=197964393 (x=1 y=578) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Newitz’s The Future of Another Timeline casts human history 
+page=6 block=197964393 (x=1 y=590) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as a kind of Wikipedia page that can be edited by time travel-
+page=6 block=197964393 (x=1 y=602) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ers and pits a coalition of feminist activists against a regres-
+page=6 block=197964393 (x=1 y=614) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+sive group of male chauvinists in an ongoing campaign to 
+page=6 block=197964393 (x=1 y=626) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+reshape societal rules and norms.
+page=6 block=197964393 (x=1 y=638) width=136 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Amal El-Mohtar and Max Gladstone’s lyrical epistolary 
+page=6 block=197964393 (x=15 y=650) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+novel This is How You Lose the Time War introduces covert 
+page=6 block=197964393 (x=1 y=662) width=243 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+operatives representing rival timelines, framing it (à la Cor-
+page=6 block=197964393 (x=1 y=674) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ridors of Time, above) as a winner-take-all battle between a 
+page=6 block=197964393 (x=1 y=686) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+A BRIGHTER FUTURE?
+page=6 block=1620890840 (x=256 y=372) width=114 height=7 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+Suggested Pairings
+page=6 block=402115881 (x=256 y=396) width=94 height=7 fontname=JWOQNG+MyriadPro-Regular wordint.min=3 wordint.max=5
+Classic to New: Ellison, Harlan (ed.) Dangerous Visions (1967): 
+page=6 block=2106000623 (x=256 y=422) width=243 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+Imarisha, Walidah and adrienne marie brown (eds.) Octavia’s 
+page=6 block=2106000623 (x=256 y=434) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Brood: Science Fiction from Social Justice Movements (2015) 
+page=6 block=2106000623 (x=256 y=446) width=230 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=3 wordint.max=5
+New to Classic: Chambers, Becky. Record of a Spaceborn Few 
+page=6 block=330739404 (x=256 y=470) width=242 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+(2018). Wayfarer series: White, James. Hospital Station (1962). 
+page=6 block=361398902 (x=256 y=482) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Sector General series
+page=6 block=361398902 (x=256 y=494) width=85 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+And yet, not everything is doom and gloom. A welcome 
+page=6 block=1010670443 (x=256 y=518) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+recent trend in the genre is a more hopeful SF that looks 
+page=6 block=1010670443 (x=256 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+both outward, with the goal of imagining our future among 
+page=6 block=1010670443 (x=256 y=542) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the stars, and inward, with the goal of creating a more just 
+page=6 block=1010670443 (x=256 y=554) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and inclusive human society here on Earth.
+page=6 block=1010670443 (x=256 y=566) width=176 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+For every SF novel that contemplates humanity’s prob-
+page=6 block=1010670443 (x=270 y=578) width=226 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+able extinction, another looks beyond the bounds of Earth 
+page=6 block=1010670443 (x=256 y=590) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to imagine humanity’s future among the stars. Stories of 
+page=6 block=1010670443 (x=256 y=602) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+space exploration and planetary colonization have under-
+page=6 block=1010670443 (x=256 y=614) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+gone something of a resurgence of late, as authors use outer 
+page=6 block=1010670443 (x=256 y=626) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+space as the setting for a wide variety of galaxy-spanning 
+page=6 block=1010670443 (x=256 y=638) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+societies, from Karen Lord’s The Best of All Possible Worlds to 
+page=6 block=1010670443 (x=256 y=650) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Becky Chambers’s Wayfarer series (beginning with The Long 
+page=6 block=1010670443 (x=256 y=662) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Way to a Small Angry Planet) to Nathan Lowell’s Golden Age 
+page=6 block=1010670443 (x=256 y=674) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of the Solar Clipper books. The spacefaring societies depicted 
+page=6 block=1010670443 (x=256 y=686) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Page: 7 left:1 upper:1
+READERS’ ADVISORY
+page=7 block=2044215423 (x=1 y=1) width=114 height=8 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+102 
+page=7 block=1606304070 (x=1 y=715) width=17 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+Reference & User Services Quarterly
+page=7 block=510063093 (x=353 y=715) width=143 height=6 fontname=MIBNDA+MyriadPro-Bold wordint.min=2 wordint.max=4
+in these books are not perfect, but they are largely peaceful 
+page=7 block=1313916817 (x=1 y=26) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ones full of moral characters trying to do the right thing.
+page=7 block=1313916817 (x=1 y=38) width=230 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Hopeful SF has a long and storied history. Television’s 
+page=7 block=1313916817 (x=15 y=50) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Star Trek: The Original Series is well known for its idealism, 
+page=7 block=1313916817 (x=1 y=62) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+but it’s by no means the only work of SF that presents an 
+page=7 block=1313916817 (x=1 y=74) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+optimistic view of the future. James White’s Sector General 
+page=7 block=1313916817 (x=1 y=86) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+novels (1962–99), about a hospital space station staffed by 
+page=7 block=1313916817 (x=1 y=98) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+medical personnel both human and alien, offers uplifting 
+page=7 block=1313916817 (x=1 y=110) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+accounts of interspecies cooperation; its diverse (at least, on 
+page=7 block=1313916817 (x=1 y=122) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+the alien side; humans are mostly male and entirely white) 
+page=7 block=1313916817 (x=1 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+cast works together to save lives, not destroy them. Although 
+page=7 block=1313916817 (x=1 y=146) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+it lacks Sector General’s pacifist worldview, Lois McMaster 
+page=7 block=1313916817 (x=1 y=158) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Bujold’s Vorkosigan saga also features characters whose 
+page=7 block=1313916817 (x=1 y=170) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+moral integrity drives their actions.
+page=7 block=1313916817 (x=1 y=182) width=143 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Science fiction has an unfortunate reputation for being 
+page=7 block=1313916817 (x=15 y=194) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+a genre written for and by white men. While this percep-
+page=7 block=1313916817 (x=1 y=206) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+tion is not totally inaccurate, SF has also historically been 
+page=7 block=1313916817 (x=1 y=218) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+more diverse than people give it credit for. Perhaps the most 
+page=7 block=1313916817 (x=1 y=230) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+enduring legacy of New Wave SF of the 1960s and 70s is 
+page=7 block=1313916817 (x=1 y=242) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+its success in introducing greater diversity to SF. Although 
+page=7 block=1313916817 (x=1 y=254) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+women had been making substantial contributions to SF 
+page=7 block=1313916817 (x=1 y=266) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+since the genre’s earliest days, writers and editors including 
+page=7 block=1313916817 (x=1 y=278) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Ursula K. Le Guin, Joanna Russ, and Judith Merril pioneered 
+page=7 block=1313916817 (x=1 y=290) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+an explicitly feminist SF that explored contemporary social 
+page=7 block=1313916817 (x=1 y=302) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+issues through a speculative lens. Other forms of diversity 
+page=7 block=1313916817 (x=1 y=314) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+are still a work in progress. While there is a rich tradition of 
+page=7 block=1313916817 (x=1 y=326) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+African American speculative fiction dating back (at least) 
+page=7 block=1313916817 (x=1 y=338) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to W.E.B. Du Bois’s “The Comet,” there is less evidence for a 
+page=7 block=1313916817 (x=1 y=350) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+community of black writers in the genre during this period.6 
+page=7 block=1313916817 (x=1 y=360) width=243 height=7 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Similarly, there have always been LGBTQIA individuals 
+page=7 block=1313916817 (x=1 y=374) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+within the ranks of SF writers, such as Arthur C. Clarke, 
+page=7 block=1313916817 (x=1 y=386) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+but in the pre-Stonewall era there was no real community 
+page=7 block=1313916817 (x=1 y=398) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+to speak of. As a black, gay writer of speculative fiction, 
+page=7 block=1313916817 (x=1 y=410) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Samuel R. Delany occupied a singular position in the field, 
+page=7 block=1313916817 (x=1 y=422) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+producing groundbreaking SF in which he drew on personal 
+page=7 block=1313916817 (x=1 y=434) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+experience to explore issues of race, gender, and sexuality 
+page=7 block=1313916817 (x=1 y=446) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+(among others) at a time when this was not familiar terri-
+page=7 block=1313916817 (x=1 y=458) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tory for the genre.
+page=7 block=1313916817 (x=1 y=470) width=73 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Nevertheless, the project of creating an inclusive body 
+page=7 block=1313916817 (x=15 y=482) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+of SF continues, with recent anthologies such as A People’s 
+page=7 block=1313916817 (x=1 y=494) width=242 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Future of the United States, edited by Victor LaValle and John 
+page=7 block=1313916817 (x=1 y=506) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Joseph Adams, and Octavia’s Brood: Science Fiction from Social 
+page=7 block=1313916817 (x=1 y=518) width=242 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+Justice Movements, edited by Walidah Imarisha and adrienne 
+page=7 block=1313916817 (x=1 y=530) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+marie brown) collecting SF stories from diverse groups of 
+page=7 block=1313916817 (x=1 y=542) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+contributors that approach speculative fiction as a form of 
+page=7 block=1313916817 (x=1 y=554) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+activism. Meanwhile, SF attracts increasing numbers of tal-
+page=7 block=1313916817 (x=1 y=566) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ented writers from traditionally underrepresented groups, 
+page=7 block=1313916817 (x=1 y=578) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+including women writers, writers of color, LGBTQIA writers, 
+page=7 block=1313916817 (x=1 y=590) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and international writers whose works are translated and 
+page=7 block=1966124444 (x=256 y=26) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+read by an increasingly global audience. Better yet, the call 
+page=7 block=1966124444 (x=256 y=38) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+for greater inclusivity and diversity of viewpoints in SF has 
+page=7 block=1966124444 (x=256 y=50) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+largely come from fans, who perhaps recognize that big exis-
+page=7 block=1966124444 (x=256 y=62) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+tential problems require the bright ideas of as many minds 
+page=7 block=1966124444 (x=256 y=74) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+as possible. 
+page=7 block=1966124444 (x=256 y=86) width=49 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+Ultimately, in SF, everything old is new again (and again 
+page=7 block=1966124444 (x=270 y=98) width=229 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+and again). For this reason, it’s crucial to look both to the 
+page=7 block=1966124444 (x=256 y=110) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+past and the present to understand the genre’s appeal and 
+page=7 block=1966124444 (x=256 y=122) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+to help fans navigate the universe of SF. Hopefully, these 
+page=7 block=1966124444 (x=256 y=134) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+recommendations will offer useful starting points for intro-
+page=7 block=1966124444 (x=256 y=146) width=240 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+ducing new and classic titles to SF readers seeking to expand 
+page=7 block=1966124444 (x=256 y=158) width=243 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+their horizons.
+page=7 block=1966124444 (x=256 y=170) width=60 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=3 wordint.max=5
+References and Notes
+page=7 block=1487500813 (x=256 y=201) width=93 height=6 fontname=HLMJLK+MyriadPro-Semibold wordint.min=2 wordint.max=4
+1.  Unlike most of the Frankfurt School’s contributions to intellec-
+page=7 block=1911152052 (x=262 y=218) width=234 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+tual discourse, the phrase “late capitalism” has achieved some-
+page=7 block=1911152052 (x=273 y=228) width=223 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+thing like “meme” status. Popularized by Fredric Jameson in 
+page=7 block=1911152052 (x=273 y=238) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+his influential book Postmodernism, or The Cultural Logic of Late 
+page=7 block=1911152052 (x=273 y=248) width=225 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+Capitalism, the term’s meaning has shifted since its introduction, 
+page=7 block=1911152052 (x=273 y=258) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+from describing the transformation of culture into commod-
+page=7 block=1911152052 (x=273 y=268) width=223 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+ity to what Annie Lowrey, writing for the Atlantic, describes 
+page=7 block=1911152052 (x=273 y=278) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+as a “catchall phrase for the indignities and absurdities of our 
+page=7 block=1911152052 (x=273 y=288) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+contemporary economy, with its yawning inequality and super-
+page=7 block=1911152052 (x=273 y=298) width=223 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+powered corporations and shrinking middle class.” See Annie 
+page=7 block=1911152052 (x=273 y=308) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Lowrey, “Why The Phrase ‘Late Capitalism’ Is Suddenly Every-
+page=7 block=1911152052 (x=273 y=318) width=223 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+where,” The Atlantic, May 1, 2017, https://www.theatlantic.com 
+page=7 block=1911152052 (x=273 y=328) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+/business/archive/2017/05/late-capitalism/524943/.
+page=7 block=1911152052 (x=273 y=338) width=178 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=1 wordint.max=17
+2.  Such as “The Battle of Dorking,” a rather prescient 1871 short 
+page=7 block=1911152052 (x=261 y=348) width=237 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+story that imagined an invasion of Britain by a technologically 
+page=7 block=1911152052 (x=273 y=358) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+advanced Germany. See Tom Reiss, “Imagining the Worst,” The 
+page=7 block=1911152052 (x=273 y=368) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+New Yorker, Nov. 20, 2005, https://www.newyorker.com/maga 
+page=7 block=1911152052 (x=273 y=378) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+zine/2005/11/28/imagining-the-worst
+page=7 block=1911152052 (x=273 y=388) width=133 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=1 wordint.max=17
+3.  The rules, first laid out in Asimov’s 1942 short story “Run-
+page=7 block=1911152052 (x=261 y=398) width=235 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+around,” are as follows: First Law: A robot may not injure a human 
+page=7 block=1911152052 (x=273 y=408) width=225 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+being or, through inaction, allow a human being to come to harm. 
+page=7 block=1911152052 (x=273 y=418) width=225 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+Second Law: A robot must obey the orders given it by human beings 
+page=7 block=1911152052 (x=273 y=428) width=225 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+except where such orders would conflict with the First Law. Third 
+page=7 block=1911152052 (x=273 y=438) width=225 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+Law: A robot must protect its own existence as long as such protection 
+page=7 block=1911152052 (x=273 y=448) width=225 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+does not conflict with the First or Second Laws. Later, Asimov would 
+page=7 block=1911152052 (x=273 y=458) width=225 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+append a zeroth law: “Zeroth” Law: A robot may not harm human-
+page=7 block=1911152052 (x=273 y=468) width=223 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+ity, or, by inaction, allow humanity to come to harm.
+page=7 block=1911152052 (x=273 y=478) width=171 height=5 fontname=TDQDXM+Berkeley-BookItalic wordint.min=2 wordint.max=4
+4.  Vernor Vinge, “The Coming Technological Singularity: How to 
+page=7 block=961409111 (x=262 y=488) width=236 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Survive in the Post-Human Era,” VISION-21 Symposium, March 
+page=7 block=961409111 (x=273 y=498) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+30–31,  1993,  https://edoras.sdsu.edu/~vinge/misc/singularity 
+page=7 block=961409111 (x=273 y=508) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+.html.
+page=7 block=961409111 (x=273 y=518) width=21 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=1 wordint.max=17
+5.  Amy Brady, “In ‘Autonomous,’ Climate Change is a Disease Vec-
+page=7 block=961409111 (x=262 y=528) width=234 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+tor,” Chicago Review of Books, Sept. 28, 2019, https://chireviewof 
+page=7 block=961409111 (x=273 y=538) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+books.com/2017/09/28/autonomous-annalee-newitz-interview/.
+page=7 block=961409111 (x=273 y=548) width=222 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=1 wordint.max=17
+6.  See Nisi Shawl’s superb essay “A Crash Course in the History of 
+page=7 block=961409111 (x=261 y=558) width=237 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+Black Science Fiction,” Nisi Shawl, 2018, http://www.nisishawl 
+page=7 block=961409111 (x=273 y=568) width=225 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=2 wordint.max=4
+.com/CCHBSF.html.
+page=7 block=961409111 (x=273 y=578) width=71 height=5 fontname=GZZDXM+Berkeley-Book wordint.min=1 wordint.max=17
+Page: 8 left:1 upper:1
+Copyright of Reference & User Services Quarterly is the property of American Library
+page=8 block=1231156911 (x=1 y=1) width=418 height=8 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+Association and its content may not be copied or emailed to multiple sites or posted to a
+page=8 block=1231156911 (x=1 y=15) width=422 height=8 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+listserv without the copyright holder's express written permission. However, users may print,
+page=8 block=1231156911 (x=1 y=29) width=446 height=8 fontname=TimesNewRoman wordint.min=1 wordint.max=5
+download, or email articles for individual use.
+page=8 block=1231156911 (x=1 y=43) width=221 height=7 fontname=TimesNewRoman wordint.min=1 wordint.max=5

@@ -1,0 +1,1611 @@
+Page: 1 left:1 upper:1
+Asian American Journal of Psychology
+page=1 block=30474320 (x=1 y=1) width=383.000000 height=14.000000 fontname=DejaVuSans-Bold wordint.min=6 wordint.max=8
+Racial Discrimination, Distress, Coping Motives, and Alcohol-Related
+page=1 block=30474320 (x=1 y=31) width=465.000000 height=9.000000 fontname=DejaVuSans-Bold wordint.min=4 wordint.max=6
+Problems Among U.S.-Born Asian American Young Adults
+page=1 block=30474320 (x=1 y=45) width=387.000000 height=9.000000 fontname=DejaVuSans-Bold wordint.min=4 wordint.max=6
+Derek Kenji Iwamoto, Jeremy C. Kane, Nalini Junko Negi, Anahi Collado, and Davood Tofighi
+page=1 block=30474320 (x=1 y=62) width=384.000000 height=6.000000 fontname=DejaVuSans wordint.min=2 wordint.max=4
+Online First Publication, January 10, 2022. http://dx.doi.org/10.1037/aap0000238
+page=1 block=30474320 (x=1 y=74) width=341.000000 height=7.000000 fontname=DejaVuSans wordint.min=2 wordint.max=4
+CITATION
+page=1 block=2622189 (x=1 y=107) width=40.000000 height=7.000000 fontname=DejaVuSans wordint.min=1 wordint.max=23
+Iwamoto, D. K., Kane, J. C., Negi, N. J., Collado, A., & Tofighi, D. (2022, January 10). Racial Discrimination, Distress, Coping
+page=1 block=33623088 (x=1 y=120) width=513.000000 height=6.000000 fontname=DejaVuSans wordint.min=2 wordint.max=4
+Motives, and Alcohol-Related Problems Among U.S.-Born Asian American Young Adults. Asian American Journal of
+page=1 block=33623088 (x=1 y=129) width=478.000000 height=7.000000 fontname=DejaVuSans wordint.min=2 wordint.max=4
+Psychology. Advance online publication. http://dx.doi.org/10.1037/aap0000238
+page=1 block=33623088 (x=1 y=139) width=333.000000 height=7.000000 fontname=DejaVuSans wordint.min=2 wordint.max=4
+Page: 2 left:1 upper:1
+Racial Discrimination, Distress, Coping Motives, and Alcohol-Related
+page=2 block=657458772 (x=22 y=60) width=456.000000 height=9.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Problems Among U.S.-Born Asian American Young Adults
+page=2 block=657458772 (x=55 y=78) width=390.000000 height=9.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Derek Kenji Iwamoto1, Jeremy C. Kane2, Nalini Junko Negi3, Anahi Collado4, and Davood To?ghi5
+page=2 block=710935464 (x=24 y=104) width=452.000000 height=9.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+1 Department of Psychology, University of Maryland College Park
+page=2 block=1990203048 (x=128 y=116) width=244.000000 height=8.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+2 Johns Hopkins Bloomberg School of Public Health, New York, United States
+page=2 block=1990203048 (x=105 y=127) width=290.000000 height=7.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+3 School of Social Work, University of Maryland Baltimore
+page=2 block=1990203048 (x=141 y=137) width=218.000000 height=8.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+4 Cofrin Logan Center for Addiction Research and Treatment, Kansas Univerity
+page=2 block=1990203048 (x=104 y=148) width=292.000000 height=7.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+5 Department of Psychology, University of New Mexico
+page=2 block=1990203048 (x=147 y=158) width=206.000000 height=8.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+There is evidence that alcoholuse and problem drinking are increasing among AsianAmericans. This trend
+page=2 block=1805678397 (x=82 y=185) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+appearstobesalientfor U.S.-bornAsianAmericans in particular. Somestudies suggest thatU.S.-born Asian
+page=2 block=1805678397 (x=82 y=195) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Americans engage in similar ratesof alcohol use compared to other racial groups. Therefore, it iscritical to
+page=2 block=1805678397 (x=82 y=205) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+identify the mechanisms of risk and factors associated with alcohol-related problems among this health
+page=2 block=1805678397 (x=82 y=215) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+disparities group. Racial discrimination is considered to be a highly stressful life experience and is
+page=2 block=1805678397 (x=82 y=225) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+signi?cantly associated with alcohol use among ethnic minorities in general. We investigated the role of
+page=2 block=1805678397 (x=82 y=235) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+psychologicaldistress and the drinking tocope motiveasunderlyingmediators betweenracialdiscrimination
+page=2 block=1805678397 (x=82 y=245) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+and alcohol-related problems among 1,432 U.S.-born Asian American young adult college students from
+page=2 block=1805678397 (x=82 y=255) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Southern California. Asian American students reported high rates of psychologicaldistress and instancesof
+page=2 block=1805678397 (x=82 y=265) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+racial discrimination. The ?nal structural equation modelprovided strong ?t to thedata, andthe variables in
+page=2 block=1805678397 (x=82 y=275) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+themodel accounted for 44% ofthevariance inalcohol-related problems.Controllingfor alcohol use, Greek
+page=2 block=1805678397 (x=82 y=285) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+fraternity and sorority status, and gender, racial discrimination was signi?cantly associated with alcohol-
+page=2 block=1805678397 (x=82 y=295) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+related problems. Drinking to cope and psychological distress partially mediated the discrimination and
+page=2 block=1805678397 (x=82 y=305) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+alcohol-relatedproblems association. Racialdiscrimination appearsto beanimportantriskfactor foralcohol-
+page=2 block=1805678397 (x=82 y=315) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+related problems among Asian American young adults. This study was a novel investigation into how
+page=2 block=1805678397 (x=82 y=325) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+psychological distress and drinking to cope mechanisms help explain and provide speci?city to the racial
+page=2 block=1805678397 (x=82 y=335) width=336.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+discrimination and alcohol-related problems association among Asian Americans.
+page=2 block=1805678397 (x=82 y=345) width=261.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+U.S.-born Asian American young adults reported frequent incidences of racial discrimination, and
+page=2 block=1805667122 (x=88 y=385) width=324.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+signi?cant psychological distress. Racial discrimination and distress increased the risk of reporting
+page=2 block=1805667122 (x=88 y=395) width=324.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+alcohol-related problems.
+page=2 block=1805667122 (x=88 y=405) width=81.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Keywords: Asian Americans, discrimination, alcohol-related problems, drinking to cope, college students
+page=2 block=1805667122 (x=82 y=431) width=336.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+1
+page=2 block=65014476 (x=248 y=691) width=4.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=15 wordint.max=15
+© 2021 American Psychological Association
+page=2 block=7143613 (x=1 y=21) width=109.000000 height=3.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ISSN: 1948-1985
+page=2 block=7143613 (x=1 y=27) width=42.000000 height=3.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+What is the public signi?cance of this article?
+page=2 block=888145372 (x=88 y=375) width=154.000000 height=4.000000 fontname=LJLNHN+AdvOT564e738a.BI wordint.min=1 wordint.max=5
+College students have the highest prevalence of alcohol use
+page=2 block=15761442 (x=10 y=462) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+disorders relative to any other age group (Grucza et al., 2009).
+page=2 block=15761442 (x=1 y=473) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+National epidemiological studies suggest that over 40% of college
+page=2 block=15761442 (x=1 y=484) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+students who consume alcohol can be categorized as moderate
+page=2 block=15761442 (x=1 y=495) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+to heavy drinkers (Johnston et al., 2012). Given the numerous
+page=2 block=15761442 (x=1 y=506) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+alcohol-related problems associated with heavy alcohol use includ-
+page=2 block=15761442 (x=1 y=517) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ing relationship problems, drinking and driving, and violence
+page=2 block=15761442 (x=1 y=528) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Derek Kenji Iwamoto https://orcid.org/0000-0002-8587-9389
+page=2 block=15785382 (x=9 y=579) width=208.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Jeremy C. Kane https://orcid.org/0000-0002-6598-3840
+page=2 block=15785382 (x=9 y=590) width=190.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Nalini Junko Negi https://orcid.org/0000-0002-9016-9170
+page=2 block=15785382 (x=9 y=602) width=197.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Davood To?ghi https://orcid.org/0000-0001-8523-7776
+page=2 block=15785382 (x=9 y=613) width=189.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+JeremyC.Kaneisnowat ColumbiaUniversity,MailmanSchool of Public
+page=2 block=15785382 (x=9 y=623) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Health.
+page=2 block=15785382 (x=1 y=633) width=23.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Correspondence concerning this article should be addressed to Derek
+page=2 block=15785382 (x=9 y=643) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Kenji Iwamoto, Department of Psychology, University of Maryland
+page=2 block=15785382 (x=1 y=653) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+College Park, 2147A Biology-Psychology Building, College Park, MD
+page=2 block=15785382 (x=1 y=663) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+20742, United States. Email: diwamoto@umd.edu
+page=2 block=15785382 (x=1 y=673) width=167.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Asian American Journal of Psychology
+page=2 block=-439615482 (x=308 y=1) width=191.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+https://doi.org/10.1037/aap0000238
+page=2 block=-1967259567 (x=413 y=27) width=86.000000 height=3.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=2
+(Hingson et al., 2017), it is essential to identify the determinants
+page=2 block=-221150206 (x=259 y=462) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and mechanisms that heighten alcohol-related problems among this
+page=2 block=-221150206 (x=259 y=473) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+highest risk group. While the vast majority of studies have focused
+page=2 block=-221150206 (x=259 y=484) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+on high-risk drinking among white American college students,
+page=2 block=-221150206 (x=259 y=495) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+much less is known about the socially derived stressors and psy-
+page=2 block=-221150206 (x=259 y=507) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+chosocial factors of drinking among ethnic/racial minority college
+page=2 block=-221150206 (x=259 y=518) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+students, including Asian Americans.
+page=2 block=-221150206 (x=259 y=529) width=136.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Asian Americans represent the fastest-growing group in the
+page=2 block=-221150206 (x=268 y=540) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+United States, yet this group is often overlooked in the alcohol
+page=2 block=-221150206 (x=259 y=551) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+literature (Hahm et al., 2004; Kim et al., 2014). The “model minor-
+page=2 block=-221150206 (x=259 y=562) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ity” stereotype, or the notion that Asian Americans are ?nancially
+page=2 block=-221150206 (x=259 y=573) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+well-off, highly educated, and psychologically well-adjusted, is
+page=2 block=-221150206 (x=259 y=584) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+hypothesized tobe one reason whyAsian Americancollege students
+page=2 block=-221150206 (x=259 y=595) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+remain underrepresented in studies investigating alcohol use among
+page=2 block=-221150206 (x=259 y=606) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+this population. In addition, research studies that aggregate Asian
+page=2 block=-221150206 (x=259 y=617) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Americans as a whole often obscure signi?cant within-group differ-
+page=2 block=-221150206 (x=259 y=628) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+encesin alcohol use among thisgroup (Iwamoto,Kaya,etal., 2016).
+page=2 block=-221150206 (x=259 y=639) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+While national rates of alcohol use among Asian Americans as a
+page=2 block=-221150206 (x=259 y=650) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+group are low, recent studies suggest that drinking patterns vary
+page=2 block=-221150206 (x=259 y=661) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+signi?cantly among Asian Americans. High-risk drinking and
+page=2 block=-221150206 (x=259 y=672) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Page: 3 left:1 upper:1
+2
+page=3 block=327685 (x=1 y=1) width=5.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=19 wordint.max=19
+IWAMOTO, KANE, NEGI, COLLADO, AND TOFIGHI
+page=3 block=1922039816 (x=156 y=2) width=188.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+alcohol use disorders have signi?cantly increased among young
+page=3 block=15745358 (x=1 y=26) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+adult Asian Americans between 2001–2002 and 2012–2013 (Grant
+page=3 block=15745358 (x=1 y=37) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+et al., 2017). Other studies have identi?ed subgroups of Asian
+page=3 block=15745358 (x=1 y=48) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+American young adults who have comparable rates of heavy
+page=3 block=15745358 (x=1 y=59) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+drinking and alcohol-related problems compared to other racial
+page=3 block=15745358 (x=1 y=70) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+groups such as white Americans (Cook et al., 2013; Iwamoto
+page=3 block=15745358 (x=1 y=81) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+et al., 2010). Nativity or whether an individual was born in or
+page=3 block=15745358 (x=1 y=92) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+outside of the U.S., appears to be one important driver of within-
+page=3 block=15745358 (x=1 y=103) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+group differences in drinking patterns among this population (Cook
+page=3 block=15745358 (x=1 y=114) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+et al., 2015; Iwamoto et al., 2010). Asian Americans born in the
+page=3 block=15745358 (x=1 y=125) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+U.S. report higher alcohol consumption compared to foreign-born
+page=3 block=15745358 (x=1 y=136) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Asians (Cook et al., 2013; Iwamoto, Grivel, et al., 2016 ; Lum et al.,
+page=3 block=15745358 (x=1 y=147) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+2009). Such differences in drinking behaviors across nativity can be
+page=3 block=15745358 (x=1 y=158) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+attributed to a complex process of acculturation that may in?uence
+page=3 block=15745358 (x=1 y=169) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+drinking behaviors (Lui & Zamboanga, 2018). Regardless, the
+page=3 block=15745358 (x=1 y=180) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+research is clear that the sociocultural experiences of those who
+page=3 block=15745358 (x=1 y=191) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+are U.S.- born are distinct from immigrants and aggregate data is
+page=3 block=15745358 (x=1 y=202) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+likely to mask not only prevalence but also obfuscate unique health
+page=3 block=15745358 (x=1 y=213) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+risk factors associated with nativity (Miller, 2010).
+page=3 block=15745358 (x=1 y=224) width=185.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Racial discrimination is a frequent stressor experienced by Asian
+page=3 block=15745358 (x=10 y=235) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+American college students and may have especially damaging
+page=3 block=15745358 (x=1 y=246) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+consequences during this development period (Hall et al., 2015;
+page=3 block=15745358 (x=1 y=257) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Tran & Sangalang, 2016). Comprehensive reviews highlight the
+page=3 block=15745358 (x=1 y=268) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+deleterious effects of racial discrimination on a wide range of health
+page=3 block=15745358 (x=1 y=279) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+outcomes,including alcohol misuse, psychological distress, depres-
+page=3 block=15745358 (x=1 y=290) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+sion, andphysical health problems (Pascoe & SmartRichman, 2009;
+page=3 block=15745358 (x=1 y=301) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Williams & Mohammed, 2009). Yet, Asian Americans have been
+page=3 block=15745358 (x=1 y=312) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+underrepresented in empirical research on discrimination (Tran &
+page=3 block=15745358 (x=1 y=323) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Sangalang, 2016) and even fewer studies have examined the
+page=3 block=15745358 (x=1 y=334) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+discrimination and drinking relationship among this group
+page=3 block=15745358 (x=1 y=345) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=9
+(Gilbert & Zemore,2016). The paucityof studies that have included
+page=3 block=15745358 (x=1 y=356) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+racial discrimination has found a direct association between dis-
+page=3 block=15745358 (x=1 y=367) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+crimination and alcohol use and related problems among commu-
+page=3 block=15745358 (x=1 y=378) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+nity samples of Asian Americans (Chae et al., 2008; Gee et al.,
+page=3 block=15745358 (x=1 y=389) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+2007; Yoo et al., 2010). However, the relationship between racial
+page=3 block=15745358 (x=1 y=400) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+discrimination and alcohol use has been relatively untested among
+page=3 block=15745358 (x=1 y=411) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+U.S.-born Asian American college students despite reports of rising
+page=3 block=15745358 (x=1 y=422) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+discrimination against Asian Americans (Tessler et al., 2020). This
+page=3 block=15745358 (x=1 y=433) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+is a signi?cant gap in the literature as discrimination “gets under the
+page=3 block=15745358 (x=1 y=444) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+skin” heightening risk for alcohol-related problems (Hatzenbuehler,
+page=3 block=15745358 (x=1 y=455) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+2009; Hatzenbuehler et al., 2011).
+page=3 block=15745358 (x=1 y=466) width=125.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Alcohol use may be driven by an individuals’ motivation and
+page=3 block=15745358 (x=10 y=477) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+efforts to escape or avoid feelings of distress (Baker et al., 2004;
+page=3 block=15745358 (x=1 y=488) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Kenney et al, 2015). Negative reinforcement models suggest that if
+page=3 block=15745358 (x=1 y=499) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+individuals are overwhelmed by the distress they are experiencing,
+page=3 block=15745358 (x=1 y=510) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+these individuals may consume alcohol to alleviate this distress
+page=3 block=15745358 (x=1 y=521) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+(Solomon & Corbit, 1974). While, the positive relationship
+page=3 block=15745358 (x=1 y=532) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+between psychological distress and alcohol-related problems is
+page=3 block=15745358 (x=1 y=543) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+well-established (Merrill et al., 2014), the motive of drinking to
+page=3 block=15745358 (x=1 y=554) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+cope may be a more proximal predictor of alcohol-related problems
+page=3 block=15745358 (x=1 y=565) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+(Cooper et al., 2016; Rice & Van Arsdale, 2010). Speci?cally,
+page=3 block=15745358 (x=1 y=576) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+motivational models, suggest that distress is strongly associated
+page=3 block=15745358 (x=1 y=587) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+with drinking motives (Kenney et al., 2015). College students who
+page=3 block=15745358 (x=1 y=598) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+drink tocope with distress have beenfound to be at anincreased risk
+page=3 block=15745358 (x=1 y=609) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of experiencing alcohol-related problems in comparison to those
+page=3 block=15745358 (x=1 y=620) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+who drink for reasons consistent with positive reinforcement
+page=3 block=15745358 (x=1 y=631) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+(e.g., social purposes or enhancement motives) even after controlling
+page=3 block=15745358 (x=1 y=642) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+for alcohol consumption (Cox et al.,2006).While several studies have
+page=3 block=15745358 (x=1 y=653) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+reported signi?cant associations between psychological distress and
+page=3 block=15745358 (x=1 y=664) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+alcohol use among Asian Americans (Cheng et al., 2012; Kim et al.,
+page=3 block=-221235964 (x=259 y=26) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+2014), fewer have investigated the role of severe, unavoidable, and
+page=3 block=-221235964 (x=259 y=37) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+uncontrollable stressors (such as, racism) that may confer risk for
+page=3 block=-221235964 (x=259 y=48) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+elevated levels of alcohol-related problems (Chae et al., 2008).
+page=3 block=-221235964 (x=259 y=59) width=220.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+The theoretical mechanisms of risk (i.e., drinking to cope)
+page=3 block=-221235964 (x=268 y=70) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+between racial discrimination and alcohol-related problems among
+page=3 block=-221235964 (x=259 y=81) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+white and ethnic/racial minority college students were ?rst tested by
+page=3 block=-221235964 (x=259 y=92) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Hatzenbuehler et al. (2011). Coping motives mediated the associa-
+page=3 block=-221235964 (x=259 y=103) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+tion between discrimination and alcohol-related problems. The
+page=3 block=-221235964 (x=259 y=114) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+study suggested that college students’ discrimination was indirectly
+page=3 block=-221235964 (x=259 y=125) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+linked to alcohol-related problems through negative affect and
+page=3 block=-221235964 (x=259 y=136) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+drinking to cope for both white and ethnic/racial minority students;
+page=3 block=-221235964 (x=259 y=147) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+however, this study did not disaggregate ethnic/racial minority
+page=3 block=-221235964 (x=259 y=158) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+groups. To our knowledge, there have been no studies that have
+page=3 block=-221235964 (x=259 y=169) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+examined the degree to which racial discrimination has an indirect
+page=3 block=-221235964 (x=259 y=180) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+effect on alcohol-related problems through multiple mechanisms of
+page=3 block=-221235964 (x=259 y=191) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+risk including, psychological distress and drinking to cope, among
+page=3 block=-221235964 (x=259 y=202) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+U.S.-born Asian Americans. One study examined how discrimina-
+page=3 block=-221235964 (x=259 y=213) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+tion was indirectly associated withalcohol-relatedproblemsthrough
+page=3 block=-221235964 (x=259 y=224) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+drinking to cope among underage (under the legal drinking age;
+page=3 block=-221235964 (x=259 y=235) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+18-year olds) Asian American college students (Le & Iwamoto,
+page=3 block=-221235964 (x=259 y=246) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+2019). While this study has been formative in advancing under-
+page=3 block=-221235964 (x=259 y=257) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+standing regarding the important role of racial discrimination in
+page=3 block=-221235964 (x=259 y=268) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+alcohol use, this study did not include psychological distress and
+page=3 block=-221235964 (x=259 y=279) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+was conducted with a relatively small sample (i.e., N = 311) of
+page=3 block=-221235964 (x=259 y=290) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+underage U.S.-born Asian American college students. To this end,
+page=3 block=-221235964 (x=259 y=301) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+the degree to which racial discrimination may indirectly operate
+page=3 block=-221235964 (x=259 y=312) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+through psychological distress which, in turn, may be associated
+page=3 block=-221235964 (x=259 y=323) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+with drinking to cope and alcohol-related problems, is still
+page=3 block=-221235964 (x=259 y=334) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+unknown. This gap is signi?cant as there is evidence to believe
+page=3 block=-221235964 (x=259 y=345) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+that the indirect effect of racial discrimination on alcohol-related
+page=3 block=-221235964 (x=259 y=356) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+problems may be stronger through psychological distress (Huynh
+page=3 block=-221235964 (x=259 y=367) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+et al., 2014; Syed & Juan, 2012). Studying these distinct relation-
+page=3 block=-221235964 (x=259 y=378) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+ships with a large sample of underage and legal-drinking age Asian
+page=3 block=-221235964 (x=259 y=389) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+American young adults provides us with a broader understanding of
+page=3 block=-221235964 (x=259 y=400) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+underlining mechanisms of risk with implications for informing
+page=3 block=-221235964 (x=259 y=411) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+targeted interventions and programming with this group.
+page=3 block=-221235964 (x=259 y=422) width=206.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Based on the negative reinforcement and motivational theoretical
+page=3 block=-221235964 (x=268 y=433) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+models and related empirical ?ndings (Cooper et al., 2016; Kenney
+page=3 block=-221235964 (x=259 y=444) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+et al., 2015; Solomon & Corbit, 1974), we hypothesize that higher
+page=3 block=-221235964 (x=259 y=455) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+reported levels of racial discrimination, distress, and drinking to
+page=3 block=-221235964 (x=259 y=466) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+cope will be signi?cantly associated with alcohol-related problems.
+page=3 block=-221235964 (x=259 y=477) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Second, we test the degree to which discrimination may have an
+page=3 block=-221235964 (x=259 y=488) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+indirect effect onalcohol-relatedproblemsthrough two mechanisms
+page=3 block=-221235964 (x=259 y=499) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of risk: Psychologicaldistress and drinking tocope.Wehypothesize
+page=3 block=-221235964 (x=259 y=510) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+that discrimination will heighten distress, which will inturn relate to
+page=3 block=-221235964 (x=259 y=521) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+drinking to cope with motives, which will result in more alcohol-
+page=3 block=-221235964 (x=259 y=532) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+related problems.
+page=3 block=-221235964 (x=259 y=543) width=62.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Method
+page=3 block=-1986514582 (x=362 y=575) width=33.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=19
+Participants and Procedures
+page=3 block=-1986514582 (x=259 y=591) width=122.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=5
+The current study draws upon unique secondary data that has not
+page=3 block=-221212996 (x=268 y=609) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+been published from the larger study (author). Participants in the
+page=3 block=-221212996 (x=259 y=620) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+current study were 1,432 Asian American undergraduates from a
+page=3 block=-221212996 (x=259 y=631) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+large public university located in southern California. Chinese
+page=3 block=-221212996 (x=259 y=642) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Americans consisted of the largest ethnic group (32.1%), followed
+page=3 block=-221212996 (x=259 y=653) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+by Vietnamese Americans (17.5%), Filipino Americans (14.6%),
+page=3 block=-221212996 (x=259 y=664) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Page: 4 left:1 upper:1
+DISCRIMINATION AND ALCOHOL PROBLEMS
+page=4 block=1838284808 (x=165 y=2) width=170.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Korean Americans (11.5%),Other Asian ethnicity (e.g., Taiwanese,
+page=4 block=15732774 (x=1 y=26) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Hmong, Cambodian; 9.1%), Indian American (8.1%), and Japanese
+page=4 block=15732774 (x=1 y=37) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+American (7.1%). The average age of the participants was
+page=4 block=15732774 (x=1 y=48) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+19.81 years (SD = 1.36; age range 18–24), and 29.2% identi?ed
+page=4 block=15732774 (x=1 y=59) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+as seniors, 27.1% as juniors, 21.7% as sophomores, and 22% as
+page=4 block=15732774 (x=1 y=70) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+freshmen. The sample was predominantly women (73.2%), and
+page=4 block=15732774 (x=1 y=81) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+23.3% were involved in a Greek sorority/fraternity. The percentage
+page=4 block=15732774 (x=1 y=92) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of ethnic groups represented in the current sample was re?ective
+page=4 block=15732774 (x=1 y=103) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+of the university’s Asian ethnic group demographic makeup. The
+page=4 block=15732774 (x=1 y=114) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+institutional review board approved all procedures in the study.
+page=4 block=15732774 (x=1 y=125) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Participants were recruited using an online forum through which
+page=4 block=15732774 (x=1 y=136) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+students from all majors (e.g., psychology, engineering, chemistry,
+page=4 block=15732774 (x=1 y=147) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+social ecology, and humanities) can participate in experiments for
+page=4 block=15732774 (x=1 y=158) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+extra credit. In order to participate in the study, participants had to
+page=4 block=15732774 (x=1 y=169) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+identify as Asian American and born in the U.S.
+page=4 block=15732774 (x=1 y=180) width=178.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Measures
+page=4 block=2688016 (x=1 y=208) width=41.000000 height=5.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=19
+Demographics
+page=4 block=3933510 (x=1 y=225) width=60.000000 height=6.000000 fontname=LJLNHN+AdvOT564e738a.BI wordint.min=1 wordint.max=19
+The demographics section assessed age, ethnicity, nativity
+page=4 block=15735201 (x=10 y=243) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+(e.g., yourself or your sibling were the ?rst born in the United
+page=4 block=15735201 (x=1 y=254) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+States), and Greek af?liation (e.g., fraternity or sorority).
+page=4 block=15735201 (x=1 y=265) width=207.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Everyday Racial Discrimination (Williams et al., 1997)
+page=4 block=15468254 (x=1 y=293) width=236.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=6
+The Everyday Racial Discrimination (ERD) measure is widely
+page=4 block=15754142 (x=10 y=311) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+used and assessesthe frequencyofunfair treatmentin theday-to-day
+page=4 block=15754142 (x=1 y=322) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+lives of participants due to race/ethnicity. The stem of the items
+page=4 block=15754142 (x=1 y=333) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+includes, “Based on your race”: Being treated with less courtesy
+page=4 block=15754142 (x=1 y=344) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+than others; being treated with less respect than others; receiving
+page=4 block=15754142 (x=1 y=355) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+poorer service than others in restaurants or stores; and people acting
+page=4 block=15754142 (x=1 y=366) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+as if you are not smart. The scale has a total of nine items that
+page=4 block=15754142 (x=1 y=377) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+measure the frequency of such experiences. Each item is rated on a
+page=4 block=15754142 (x=1 y=388) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+6-point scale ranging from: never, less than once ayear, a few times
+page=4 block=15735024 (x=1 y=399) width=240.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+a year, a few times a month, at least once a week, and almost every
+page=4 block=15735024 (x=1 y=410) width=240.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+day. The scale has been validated and used in epidemiological
+page=4 block=15753900 (x=1 y=421) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+studies with Asian American community samples (Gee et al., 2007,
+page=4 block=15753900 (x=1 y=432) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+2009). An overall composite score for the racial discrimination
+page=4 block=15753900 (x=1 y=443) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+measures was calculated by summing participants’ responses on the
+page=4 block=15753900 (x=1 y=454) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+nine items. The reliability estimate for the racial discrimination
+page=4 block=15753900 (x=1 y=465) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+measure in the current study was ? = .90.
+page=4 block=15753900 (x=1 y=475) width=154.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Kessler Psychological Distress Scale (Kessler et al., 2002)
+page=4 block=15666122 (x=1 y=503) width=239.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=4
+The Kessler Psychological Distress Scale (K-10) is a widely used
+page=4 block=15805748 (x=10 y=521) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+and well-validated measure of distress caused by anxiety and
+page=4 block=15805748 (x=1 y=532) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+depressive feelings. All items are answered in the context of
+page=4 block=15805748 (x=1 y=543) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+how a participant felt in the past 30 days. Sample items include,
+page=4 block=15805748 (x=1 y=554) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+“ ::: about how often did you feel tired for no good reason?” or
+page=4 block=15805748 (x=1 y=565) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+“ : : : how often did you feel nervous?” Responses options are on a
+page=4 block=15805748 (x=1 y=576) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+5-point Likert-type scale, ranging from 1 (none of the time) to 5 (all
+page=4 block=15805748 (x=1 y=587) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of the time). Scores for the K-10 were assessed by summing the
+page=4 block=15805748 (x=1 y=598) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+responses for each individual, with a possible score range 10–50.
+page=4 block=15805748 (x=1 y=609) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Scores falling between 20 and 24 indicate “mild mental disorder,”
+page=4 block=15805748 (x=1 y=620) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+scores between 25 and 29 indicate potential for “moderate mental
+page=4 block=15805748 (x=1 y=631) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+disorder,” and scores above 30 suggest the likelihood of a “severe
+page=4 block=15805748 (x=1 y=642) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+mental disorder” (Kessler et al., 2002). Convergent validity evi-
+page=4 block=15805748 (x=1 y=653) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+dence for the K10 clinical cut-off scores was demonstrated through
+page=4 block=15805748 (x=1 y=664) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+3
+page=4 block=161873925 (x=494 y=1) width=5.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=19 wordint.max=19
+signi?cant correlations with serious mental illness and Diagnostic
+page=4 block=-221248548 (x=259 y=26) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Statistic Manual disorders (Kessler et al., 2002, 2003, 2010;
+page=4 block=-221248548 (x=259 y=37) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+Spies et al., 2009). The present study’s reliability estimate for the
+page=4 block=-221248548 (x=259 y=48) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+K-10 was ? = .91.
+page=4 block=-221248548 (x=259 y=58) width=69.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Drinking to Cope
+page=4 block=1239089662 (x=259 y=85) width=73.000000 height=6.000000 fontname=LJLNHN+AdvOT564e738a.BI wordint.min=1 wordint.max=5
+The ?ve-item drinking to cope motives scale is from the Coping
+page=4 block=-221236558 (x=268 y=103) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+and Enhancement Motives scale developed byCooper (1994) and is
+page=4 block=-221236558 (x=259 y=114) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+the most widely used coping motives measure (Kuntsche et al.,
+page=4 block=-221236558 (x=259 y=125) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+2005). This scale assesses the degree to which an individual uses
+page=4 block=-221236558 (x=259 y=136) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+alcohol to “escape, avoid, or otherwise regulate negative emotions”
+page=4 block=-221236558 (x=259 y=147) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+(Cooper et al., 1995,p.991). A sample item includes “How often do
+page=4 block=-221236558 (x=259 y=158) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+you drink to forget your worries?” It has a total of four items and is
+page=4 block=-221236558 (x=259 y=169) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+scored on a 6-point Likert scale that ranges from 1 (almost never/
+page=4 block=-221236558 (x=259 y=180) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+never) to 5 (almost always/always). All ?ve items are summed up
+page=4 block=-221236558 (x=259 y=191) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+to provide an overall composite score of drinking to cope. Internal
+page=4 block=-221236558 (x=259 y=202) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+consistency for the drinking to cope measure in this current study
+page=4 block=-221236558 (x=259 y=213) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+was ? = .92.
+page=4 block=-221236558 (x=259 y=223) width=47.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Quantity of Alcohol
+page=4 block=1408828892 (x=259 y=250) width=83.000000 height=6.000000 fontname=LJLNHN+AdvOT564e738a.BI wordint.min=1 wordint.max=5
+Quantity was assessed by summing the number of drinks con-
+page=4 block=-221236404 (x=268 y=268) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+sumed on an average week in the past 3 months. Participants were
+page=4 block=-221236404 (x=259 y=279) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+asked to approximate their typical alcohol consumption for each day
+page=4 block=-221236404 (x=259 y=290) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of the week over the past 90 days, similar to the gold-standard
+page=4 block=-221236404 (x=259 y=301) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Timeline Followback interview assessment (Sobell & Sobell, 1992).
+page=4 block=-221236404 (x=259 y=312) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Rutgers Alcohol Problems Index (White & Labouvie, 1989)
+page=4 block=-221247508 (x=259 y=338) width=240.000000 height=6.000000 fontname=LJLNHN+AdvOT564e738a.BI wordint.min=1 wordint.max=4
+The Rutgers Alcohol Problems Index (RAPI) examines the
+page=4 block=-221181184 (x=268 y=356) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+frequency at which an individual experienced alcohol-related pro-
+page=4 block=-221181184 (x=259 y=367) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+blems or negative consequences while or because of drinking over
+page=4 block=-221181184 (x=259 y=378) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+the past year. Thiswell-validated instrument assessesthe occurrence
+page=4 block=-221181184 (x=259 y=389) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of a total of 23 negative consequences and response optionsare on a
+page=4 block=-221181184 (x=259 y=400) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+5-point Likert scale: 0 (never) to 4(10 or more times). Sample items
+page=4 block=-221181184 (x=259 y=411) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+include “Not able to work or study for a test” and “Missed out on
+page=4 block=-221181184 (x=259 y=422) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+other things because you spend too much money on alcohol.” The
+page=4 block=-221181184 (x=259 y=433) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+current study used the three distinct subscales on the RAPI derived
+page=4 block=-221181184 (x=259 y=444) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+by Martens and colleagues (Martens et al., 2007, 2008) which were
+page=4 block=-221181184 (x=259 y=455) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+labeled Abuse/Dependence (12 items), Individual Consequences
+page=4 block=-221181184 (x=259 y=466) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+(seven items), and Social Consequences (four items). Scores for the
+page=4 block=-221181184 (x=259 y=477) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+RAPI subscales were derived by summing the responses for each
+page=4 block=-221181184 (x=259 y=488) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+individual based on the subscale. The subscales were used as
+page=4 block=-221181184 (x=259 y=499) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+indicators/parcels of the latent factor of alcohol-related problems.
+page=4 block=-221181184 (x=259 y=510) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+The internal consistency estimate of the three subscales was
+page=4 block=-221181184 (x=259 y=521) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+? = .87, .84, .82 for Abuse/Dependence, Individual Consequences,
+page=4 block=-221181184 (x=259 y=531) width=240.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+and Social Consequences, respectively.
+page=4 block=-221181184 (x=259 y=543) width=143.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Data Analytic Plan
+page=4 block=1391856982 (x=259 y=569) width=82.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=6
+Structural equation modeling (SEM) was the primary data
+page=4 block=-221201402 (x=268 y=587) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+analytic approach used in the current study. SEM was performed
+page=4 block=-221201402 (x=259 y=598) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+using Mplus 7 (Muthen & Muthen, 2012). SEM can test and model
+page=4 block=-221201402 (x=259 y=609) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+complex patterns of relationships between latent factors, while
+page=4 block=-221201402 (x=259 y=620) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+simultaneously test multiple mediators and outcome variables.Based
+page=4 block=-221201402 (x=259 y=631) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+on the procedures outlined by Matsunaga (2008), we created item
+page=4 block=-221201402 (x=259 y=642) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+parcels as indicators of latent variables (racial discrimination and
+page=4 block=-221201402 (x=259 y=653) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+psychological distress). Individual items from the discrimination and
+page=4 block=-221201402 (x=259 y=664) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Page: 5 left:1 upper:1
+4
+page=5 block=327685 (x=1 y=1) width=5.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=19 wordint.max=19
+IWAMOTO, KANE, NEGI, COLLADO, AND TOFIGHI
+page=5 block=1922039816 (x=156 y=2) width=188.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+K10 measures were ranked ordered by factor loadings, and three
+page=5 block=15736492 (x=1 y=26) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+parcels were created for each factor. There are several advantages of
+page=5 block=15736492 (x=1 y=37) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+creating item parcels. Item parcels generally have higher reliability
+page=5 block=15736492 (x=1 y=48) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+estimates than single items thus reducing measurement error and
+page=5 block=15736492 (x=1 y=59) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+result in better ?tting models (Coffman & MacCallum, 2005).
+page=5 block=15736492 (x=1 y=70) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Findings from simulation studies suggest that item parcels reduce
+page=5 block=15736492 (x=1 y=81) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+the number of parameters in the model thus signi?cantly reducing
+page=5 block=15736492 (x=1 y=92) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+parameter bias (Bandalos, 2002; Rhemtulla, 2016). Item parceling
+page=5 block=15736492 (x=1 y=103) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+also increases the power to detect model misspeci?cation and
+page=5 block=15736492 (x=1 y=114) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+provides more accurate parameter estimates. Since the con?rmatory
+page=5 block=15736492 (x=1 y=125) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+factor analyses (CFA) measurement model of the drinking to cope
+page=5 block=15736492 (x=1 y=136) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+motive is well-documented (Gilson et al., 2013; Nehlin & Öster,
+page=5 block=15736492 (x=1 y=147) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+2019), we used all the observed indicators for the drinking to cope
+page=5 block=15736492 (x=1 y=158) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+measure. Following Martens et al. (2007) recommendations, the
+page=5 block=15736492 (x=1 y=169) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+alcohol-related problems latent factor was created using alcohol
+page=5 block=15736492 (x=1 y=180) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+abuse, personal problems, and social problems subscales. The com-
+page=5 block=15736492 (x=1 y=191) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+parative ?t index (CFI), Tucker-Lewis index (TLI), and root mean
+page=5 block=15736492 (x=1 y=202) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+square errorofapproximation(RMSEA) were used toassessthe ?t of
+page=5 block=15736492 (x=1 y=213) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+the measurement and structural models. Conventional standards
+page=5 block=15736492 (x=1 y=224) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+suggest that CFI and TLIvalues greater than .95 and RMSEAvalues
+page=5 block=15736492 (x=1 y=235) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of .05 indicate near model-to-data ?t (Hu & Bentler, 1999), with
+page=5 block=15736492 (x=1 y=246) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+RMSEA values of .08 suggesting fair ?t (Brown & Cudeck, 1993).
+page=5 block=15736492 (x=1 y=257) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Full information maximum likelihood (FIML) procedures were used
+page=5 block=15736492 (x=1 y=268) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+to handle missing data. FIML procedures do not input databut rather
+page=5 block=15736492 (x=1 y=279) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+through Expectation-maximization (EM) procedure, estimates the
+page=5 block=15736492 (x=1 y=290) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+standards and parameters in the model (Enders, 2001). To test for
+page=5 block=15736492 (x=1 y=301) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+mediation, the bootstrap bias-corrected standard errors were per-
+page=5 block=15736492 (x=1 y=312) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+formed using 1,000 bootstraps (Mallinckrodt et al., 2006).
+page=5 block=15736492 (x=1 y=323) width=210.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Results
+page=5 block=208406598 (x=106 y=353) width=30.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=19
+Descriptive Data
+page=5 block=4655270 (x=1 y=369) width=71.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=5
+Descriptive statistics were conducted and the average distress
+page=5 block=15802944 (x=10 y=387) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+score was 21.96 (SD = 7.25), which indicates that, on average,
+page=5 block=15802944 (x=1 y=398) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+the scores fall within the clinical range (e.g., scores between 20 and
+page=5 block=15802944 (x=1 y=409) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+24 indicate a mild disorder; Kessler et al., 2002, 2003, 2010).
+page=5 block=15802944 (x=1 y=420) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Thirty-percent of the sample scored 25 or higher, indicating high
+page=5 block=15802944 (x=1 y=431) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+probability of detecting a moderate to severe mental illness. All the
+page=5 block=15802944 (x=1 y=442) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+participants reported at least one incident of racial discrimination
+page=5 block=15802944 (x=1 y=453) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+(e.g., participants reported on at least one item of the measure that
+page=5 block=15802944 (x=1 y=464) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+they experienced racial discrimination), and 59% reported at least
+page=5 block=15802944 (x=1 y=475) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+two incidents of racial discrimination (e.g., participants endorsed
+page=5 block=15802944 (x=1 y=486) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+at least two items on the measure). The correlation analysis revealed
+page=5 block=15802944 (x=1 y=497) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+that racial discrimination was positively associated with psycho-
+page=5 block=15802944 (x=1 y=508) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+logical distress (r = .41, p < .001), drinking to cope (r = .20,
+page=5 block=15802944 (x=1 y=519) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+p < .001), and alcohol-related problems (r = .22, p < .001).
+page=5 block=15802944 (x=1 y=530) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Psychological distress was positively related to drinking to cope
+page=5 block=15802944 (x=1 y=541) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+(r = .29, p < .001) and alcohol-related problems (r = .25,
+page=5 block=15802944 (x=1 y=552) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+p < .001), and drinking to cope was related to alcohol-related
+page=5 block=15802944 (x=1 y=563) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+problems (r = .62, p < .001).
+page=5 block=15802944 (x=1 y=574) width=109.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Measurement Model
+page=5 block=5836316 (x=1 y=602) width=89.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=6
+The latent constructs in the measurement model, included
+page=5 block=15759020 (x=10 y=620) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+discrimination, psychological distress, drinking to cope, and
+page=5 block=15759020 (x=1 y=631) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+alcohol-related problems, were allowed to covary and provided
+page=5 block=15759020 (x=1 y=642) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+adequate ?t to the data ?2(71) = 281.69, p < .001, CFI = .99,
+page=5 block=15759020 (x=1 y=651) width=240.000000 height=7.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+TLI = .98, and RMSEA = .046.
+page=5 block=15759020 (x=1 y=664) width=119.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Structural Model
+page=5 block=1256063126 (x=259 y=25) width=74.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=5
+We tested the structural model with all the observed variables
+page=5 block=-221238442 (x=268 y=43) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+(the covariates, alcohol consumption, and Greek status) included in
+page=5 block=-221238442 (x=259 y=54) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+the model, which resulted in the structural model offering a good ?t
+page=5 block=-221238442 (x=259 y=65) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+to the data, ?2(133) = 15,375, p < .001, CFI = .96, TLI = .95 and
+page=5 block=-221238442 (x=259 y=74) width=240.000000 height=7.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+RMSEA = .062 (CI = .057–.066). The signi?cant pathways
+page=5 block=-221238442 (x=259 y=87) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+between factors and the R-square for psychological distress,
+page=5 block=-221238442 (x=259 y=98) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+drinking to cope, and alcohol-related problems latent factors are
+page=5 block=-221238442 (x=259 y=109) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+reported in Figure 1. Racial discrimination was signi?cantly
+page=5 block=-221238442 (x=259 y=120) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+associated with higher psychological distress (? = .45, p < .001)
+page=5 block=-221238442 (x=259 y=130) width=240.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and psychological distress was positively related to drinking to
+page=5 block=-221238442 (x=259 y=142) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+cope (? = .32, p < .001). Controlling for alcohol consumption
+page=5 block=-221238442 (x=259 y=152) width=240.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+(? = .32, p < .001), Greek status (? = .08, p < .001), and gender
+page=5 block=-221238442 (x=259 y=163) width=240.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+(? = .05, p = .07), higher reports of racial discrimination (? = .08,
+page=5 block=-221238442 (x=259 y=174) width=240.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+p < .001), psychological distress (? = .06, p < .05), and drinking
+page=5 block=-221238442 (x=259 y=185) width=240.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+to cope (? = .51, p < .001), were positively associated with more
+page=5 block=-221238442 (x=259 y=196) width=240.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+alcohol-related problems (results are displayed in Figure 1). The
+page=5 block=-221238442 (x=259 y=208) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+bootstrap bias-corrected standard errors, which included 1,000
+page=5 block=-221238442 (x=259 y=219) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+bootstrapped samples tests of indirect effects, detected two indirect
+page=5 block=-221238442 (x=259 y=230) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+effects: (a) racial discrimination (.073, p < .001, 95% CI [.054,
+page=5 block=-221238442 (x=259 y=241) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+.093]) had an indirect effect on alcohol-related problems through
+page=5 block=-221238442 (x=259 y=252) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+psychological distress and drinking to cope, and (b) racial discrimi-
+page=5 block=-221238442 (x=259 y=263) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+nation had an indirect effect on alcohol-related problems through
+page=5 block=-221238442 (x=259 y=274) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+psychological distress (.03, p < .05, 95% CI [.0005, .053]). See
+page=5 block=-221238442 (x=259 y=285) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Table 1.
+page=5 block=-221238442 (x=259 y=296) width=30.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Discussion
+page=5 block=1029441450 (x=357 y=327) width=44.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=19
+Asian Americans experience frequent racial discrimination yet
+page=5 block=-221137756 (x=268 y=345) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+there has been limited research that has investigated its relationship
+page=5 block=-221137756 (x=259 y=356) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+to alcohol-related problems. This gap in the literature has persisted
+page=5 block=-221137756 (x=259 y=367) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+despite advances in our knowledge about the mediated associations
+page=5 block=-221137756 (x=259 y=378) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+between racial discrimination and alcohol outcomes (Gilbert &
+page=5 block=-221137756 (x=259 y=389) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Zemore, 2016). The present study signi?cantly advances the scant
+page=5 block=-221137756 (x=259 y=400) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+literature in this area by ?rst, highlighting the direct and indirect
+page=5 block=-221137756 (x=259 y=411) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+associations between racial discrimination and alcohol-related
+page=5 block=-221137756 (x=259 y=422) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+problems, andsecond,identifying psychological distressand drink-
+page=5 block=-221137756 (x=259 y=433) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ing to cope as potential mechanisms of risk. Meaningfully, results
+page=5 block=-221137756 (x=259 y=444) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+reveal that all participants reported experiencing racial discrimina-
+page=5 block=-221137756 (x=259 y=455) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+tion and over 30% scored in the clinical range on the K10 (Kessler
+page=5 block=-221137756 (x=259 y=466) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+et al., 2003).
+page=5 block=-221137756 (x=259 y=477) width=47.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Controlling for well-established covariates of problematic alcohol
+page=5 block=-221137756 (x=268 y=488) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+use among college students including, Greek status (Borsari et al.,
+page=5 block=-221137756 (x=259 y=499) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+2007), quantity of alcohol consumption and gender, racial discrimi-
+page=5 block=-221137756 (x=259 y=510) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+nation was found to be directly associated with alcohol-related
+page=5 block=-221137756 (x=259 y=521) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+problems. The direct effects of discrimination on alcohol use and
+page=5 block=-221137756 (x=259 y=532) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+alcohol-related problems are consistent with previous studies
+page=5 block=-221137756 (x=259 y=543) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+with community samples of Asian Americans (Chae et al., 2008;
+page=5 block=-221137756 (x=259 y=554) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Gee et al., 2007; Yoo et al., 2010). The second hypothesis was
+page=5 block=-221137756 (x=259 y=565) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+supported as well, wherein racial discrimination had an indirect
+page=5 block=-221137756 (x=259 y=576) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+relationship on alcohol-related problems through psychological
+page=5 block=-221137756 (x=259 y=587) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+distress and the drinking to cope motive. Current results are
+page=5 block=-221137756 (x=259 y=598) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+consistent with Hatzenbuehler et al.’s (2011) ?ndings with white
+page=5 block=-221137756 (x=259 y=609) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and ethnic minority college students.
+page=5 block=-221137756 (x=259 y=620) width=134.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Racial discrimination is one particularly distinct source of stress
+page=5 block=-221137756 (x=268 y=631) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+that has been posited to be associated with psychological distress,
+page=5 block=-221137756 (x=259 y=642) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and distress has been found to mediate the association between
+page=5 block=-221137756 (x=259 y=653) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+stress and alcohol use (Bujarski & Ray, 2014). Asian American
+page=5 block=-221137756 (x=259 y=664) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Page: 6 left:1 upper:1
+DISCRIMINATION AND ALCOHOL PROBLEMS
+page=6 block=1838284808 (x=165 y=2) width=170.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Structural Equation Model of Racial Discrimination, Distress, Drinking to Cope, Alcohol Consumption, and Alcohol-Related Problems
+page=6 block=160563385 (x=5 y=37) width=490.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+Indirect Effects of Racial Discrimination on Alcohol-Related Problems Through Psychological Distress, Drinking to Cope Motive
+page=6 block=31067079 (x=1 y=603) width=474.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+Indirect effect
+page=6 block=725486008 (x=246 y=622) width=45.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Note. Bootstrap bias-corrected standard error using 1,000 bootrapped samples.
+page=6 block=16977139 (x=1 y=663) width=259.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Figure 1
+page=6 block=10813570 (x=5 y=26) width=33.000000 height=5.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=5
+college students in our study who experienced relatively higher
+page=6 block=15805813 (x=1 y=337) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+frequencies of racial discrimination were more likely to report
+page=6 block=15805813 (x=1 y=349) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+more distress and experience greater alcohol-related problems.
+page=6 block=15805813 (x=1 y=360) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Based on motivational models (Cooper et al., 2016), it is plausi-
+page=6 block=15805813 (x=1 y=371) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ble that racial discrimination heightens psychological distress,
+page=6 block=15805813 (x=1 y=382) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+thus, these individuals may engage in problematic alcohol use to
+page=6 block=15805813 (x=1 y=393) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+cope with and regulate their distress due to discrimination.
+page=6 block=15805813 (x=1 y=405) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Findings add to growing evidence regarding the distinct and
+page=6 block=15805813 (x=1 y=416) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+toxic role of racial discrimination on psychological distress and
+page=6 block=15805813 (x=1 y=427) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+alcohol-related problems
+page=6 block=15805813 (x=1 y=438) width=93.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Due to limitations attributable tothe cross-sectional design of this
+page=6 block=15805813 (x=10 y=449) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+study, it is dif?cult to de?nitively conclude the temporal direction
+page=6 block=15805813 (x=1 y=460) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and in?uence among the variables in the model (Maxwell & Cole,
+page=6 block=15805813 (x=1 y=472) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+2007). Alongitudinal design would be better suited to prospectively
+page=6 block=15805813 (x=1 y=483) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+investigate the prognosis of alcohol-related problems and more
+page=6 block=15805813 (x=1 y=494) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+accurately approximate the indirect effects of racial discrimination.
+page=6 block=15805813 (x=1 y=505) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+While previous studies have suggested differences in drinking rate
+page=6 block=15805813 (x=1 y=516) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+between Asian ethnic groups, we were unable to examine ethnic
+page=6 block=15805813 (x=1 y=528) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+group differences due to unequal sizes of Asian American ethnic
+page=6 block=15805813 (x=1 y=539) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+subgroups in our sample. In addition, although we controlled for
+page=6 block=15805813 (x=1 y=550) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+gender, this sample has a disproportionate ratio of women to men
+page=6 block=15805813 (x=1 y=561) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Table 1
+page=6 block=1904090 (x=1 y=591) width=29.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=5
+Variable
+page=6 block=169871800 (x=96 y=622) width=27.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Racial discrimination ? Distress ? Problems
+page=6 block=14164708 (x=1 y=638) width=149.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Racial discrimination ? Distress ? Drinking to cope ? Problems
+page=6 block=14164708 (x=1 y=647) width=216.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+5
+page=6 block=161873925 (x=494 y=1) width=5.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=19 wordint.max=19
+which isa common phenomenon in research conducted withcollege
+page=6 block=-221172363 (x=259 y=337) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+students (Lui & Zamboanga, 2018). To this end, future studies
+page=6 block=-221172363 (x=259 y=348) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+should consider having a more balanced sample, including larger
+page=6 block=-221172363 (x=259 y=360) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and more Asian American ethnic groups (e.g., Filipino, Korean,
+page=6 block=-221172363 (x=259 y=371) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+South Asian Americans), and examine gender-relevant factors and
+page=6 block=-221172363 (x=259 y=382) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+differences across ethnic groups in relation to alcohol outcomes.
+page=6 block=-221172363 (x=259 y=393) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Cultural orientation and alcohol beliefs may also be other salient
+page=6 block=-221172363 (x=259 y=405) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+factors to examine across Asian ethnic groups and alcohol use (Lui
+page=6 block=-221172363 (x=259 y=416) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+et al., 2020). Although there is strong evidence for the use of the
+page=6 block=-221172363 (x=259 y=427) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Everyday Discrimination Scale with Asian Americans, a culturally
+page=6 block=-221172363 (x=259 y=438) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+speci?c measure such as the Subtle and Blatant Racism Scale might
+page=6 block=-221172363 (x=259 y=449) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+provide a more nuanced understanding of the speci?c types racism
+page=6 block=-221172363 (x=259 y=461) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+experienced by Asian Americans (Yoo, Steger, & Lee, 2010).
+page=6 block=-221172363 (x=259 y=472) width=226.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Despite these limitations, there are a few notable strengths of the
+page=6 block=-221172363 (x=268 y=483) width=231.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+present study. First, the large sample size of U.S.-born Asian
+page=6 block=-221172363 (x=259 y=494) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+American college students provided the opportunity to examine
+page=6 block=-221172363 (x=259 y=505) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+the associations of interest in this underrepresented population.
+page=6 block=-221172363 (x=259 y=516) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Additionally, this study builds upon previous investigations
+page=6 block=-221172363 (x=259 y=528) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=9
+into the discrimination-alcohol problem relationship by testing
+page=6 block=-221172363 (x=259 y=539) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+the in?uence of two theoretically important mechanisms of risk,
+page=6 block=-221172363 (x=259 y=550) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+includingdrinkingmotive anddistress. Despitetheselimitations,the
+page=6 block=-221172363 (x=259 y=561) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+SE
+page=6 block=189925816 (x=322 y=622) width=9.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=15
+Bootstrap 95% CI for mean indirect effect
+page=6 block=-1044772424 (x=362 y=622) width=137.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+.03
+page=6 block=171052150 (x=261 y=638) width=10.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+.015
+page=6 block=292692708 (x=319 y=638) width=14.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+.035
+page=6 block=292692708 (x=319 y=647) width=14.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+[.0005, .053]
+page=6 block=1101669092 (x=410 y=638) width=41.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+[.054, .093]
+page=6 block=1101669092 (x=410 y=647) width=37.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+.073
+page=6 block=239471779 (x=261 y=647) width=14.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Page: 7 left:1 upper:1
+6
+page=7 block=327685 (x=1 y=1) width=5.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=19 wordint.max=19
+IWAMOTO, KANE, NEGI, COLLADO, AND TOFIGHI
+page=7 block=1922039816 (x=156 y=2) width=188.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+current study provides greater speci?city regarding the distinct
+page=7 block=15738780 (x=1 y=26) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+pathways through which discrimination “gets under the skin”
+page=7 block=15738780 (x=1 y=37) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+(Hatzenbuehler, 2009) and confers risk for the development of
+page=7 block=15738780 (x=1 y=48) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+alcohol-related problems for an underrepresented and overlooked
+page=7 block=15738780 (x=1 y=59) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+group in the alcohol literature, U.S.-born Asian Americans. These
+page=7 block=15738780 (x=1 y=70) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+?ndings bear signi?cant clinical implications, particularly in con-
+page=7 block=15738780 (x=1 y=81) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+sideration of the high prevalence of psychological distress and
+page=7 block=15738780 (x=1 y=92) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+racial discrimination among our sample. Counter to assumptions
+page=7 block=15738780 (x=1 y=103) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+based on the model minority stereotype, 30% of Asian Americans
+page=7 block=15738780 (x=1 y=114) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+sampled scored within the “moderate to severe mental disorder”
+page=7 block=15738780 (x=1 y=125) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+range on the psychological distress measure (Kessler et al., 2003,
+page=7 block=15738780 (x=1 y=136) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+2010). This ?nding highlights the high clinical levels of severe
+page=7 block=15738780 (x=1 y=147) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+distress often overlooked among Asian Americans. All of the Asian
+page=7 block=15738780 (x=1 y=158) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Americans in the sample reported experiencing racism and 59%
+page=7 block=15738780 (x=1 y=169) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+reported experiencing two incidents of racism. These ?ndings
+page=7 block=15738780 (x=1 y=180) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+highlight that, counter to the “model minority” myth, this group
+page=7 block=15738780 (x=1 y=191) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+is not protected from experiences of racial discrimination. Consid-
+page=7 block=15738780 (x=1 y=202) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ering that racial discrimination seems pertinent to problematic
+page=7 block=15738780 (x=1 y=213) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+drinking among this sample, it is important to assess, address,
+page=7 block=15738780 (x=1 y=224) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+and validate the client’s racial discrimination experiences in clini-
+page=7 block=15738780 (x=1 y=235) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+cal practice. In addition, as Asian Americans are often clinically
+page=7 block=15738780 (x=1 y=246) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+overlooked with respect to alcohol use disorders (Cheng et al.,
+page=7 block=15738780 (x=1 y=257) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+2018), efforts to increase assessment are critical to ensure appro-
+page=7 block=15738780 (x=1 y=268) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+priate intervention and treatment. Clinically targeting the relevant
+page=7 block=15738780 (x=1 y=279) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+mechanismsof risk (e.g., psychological distress and the drinking to
+page=7 block=15738780 (x=1 y=290) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+cope motive) and providing alternative active coping strategies
+page=7 block=15738780 (x=1 y=301) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+might also be facilitative in the reduction of alcohol-related pro-
+page=7 block=15738780 (x=1 y=312) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+blems. Finally, the toxic impact of racial discrimination on the
+page=7 block=15738780 (x=1 y=323) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+health of Asian Americans must be addressed. Public health
+page=7 block=15738780 (x=1 y=334) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+campaignsthat help change public perceptionregarding the “model
+page=7 block=15738780 (x=1 y=345) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+minority” myth could be one critical way to move past its deleteri-
+page=7 block=15738780 (x=1 y=356) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ous impact. Psychologists should also work with Asian American
+page=7 block=15738780 (x=1 y=367) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+antiracist activists to think through and develop antiracism college
+page=7 block=15738780 (x=1 y=378) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+programming for Asian American students with the goal of mini-
+page=7 block=15738780 (x=1 y=389) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+mizing the corrosive impact of racism on distress and alcohol-
+page=7 block=15738780 (x=1 y=400) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+related problems.
+page=7 block=15738780 (x=1 y=411) width=63.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Highlights
+page=7 block=2886218 (x=1 y=439) width=44.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=19
+Alcohol use and alcohol-related problems appears to be
+page=7 block=426646640 (x=31 y=455) width=210.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+increasing among Asian Americans.
+page=7 block=426646640 (x=31 y=466) width=132.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+•
+page=7 block=3737376 (x=19 y=456) width=3.000000 height=4.000000 fontname=LJLNIA+AdvOTf9433e2d+20 wordint.min=15 wordint.max=15
+U.S.-born Asian Americans are more likely to report
+page=7 block=426647136 (x=31 y=486) width=210.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+drinking at similar rates as other groups.
+page=7 block=426647136 (x=31 y=497) width=148.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+•
+page=7 block=3737500 (x=19 y=487) width=3.000000 height=4.000000 fontname=LJLNIA+AdvOTf9433e2d+20 wordint.min=15 wordint.max=15
+Racial discrimination appears to be directly and indirectly
+page=7 block=426647600 (x=31 y=515) width=210.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+associated to alcohol-related problems.
+page=7 block=426647600 (x=31 y=526) width=141.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+•
+page=7 block=3737616 (x=19 y=516) width=3.000000 height=4.000000 fontname=LJLNIA+AdvOTf9433e2d+20 wordint.min=15 wordint.max=15
+Majority of the Asian American in the current study
+page=7 block=426654048 (x=31 y=544) width=210.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+reported experiencing racial discrimination and elevated
+page=7 block=426654048 (x=31 y=555) width=210.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+levels of psychological distress.
+page=7 block=426654048 (x=31 y=566) width=116.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+•
+page=7 block=3737732 (x=19 y=545) width=3.000000 height=4.000000 fontname=LJLNIA+AdvOTf9433e2d+20 wordint.min=15 wordint.max=15
+References
+page=7 block=295439870 (x=98 y=597) width=46.000000 height=6.000000 fontname=LJLOCO+AdvOT9d60b855.B wordint.min=1 wordint.max=19
+Baker, T. B., Piper,M. E., McCarthy,D. E.,Majeskie, M. R., & Fiore, M. C.
+page=7 block=15761850 (x=1 y=615) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+(2004). Addiction motivation reformulated: An affective processing
+page=7 block=15761850 (x=9 y=625) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+model of negative reinforcement. Psychological Review, 111(1), 33–51.
+page=7 block=15761850 (x=9 y=635) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+https://doi.org/10.1037/0033-295X.111.1.33
+page=7 block=15761850 (x=9 y=645) width=141.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Bandalos, D. L. (2002). The effects of item parceling on goodness-of-?t
+page=7 block=15761850 (x=1 y=655) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and parameter estimate bias in structural equation modeling. Structural
+page=7 block=15761850 (x=9 y=665) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Equation Modeling, 9, 78–102. https://doi.org/10.1207/S15328007SE
+page=7 block=-221248078 (x=267 y=27) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+M0901_5
+page=7 block=-221248078 (x=267 y=37) width=31.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Borsari, B., Murphy,J. G.,&Barnett,N. P. (2007). Predictorsofalcoholuse
+page=7 block=-221248078 (x=259 y=47) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+during the ?rst year of college: Implications for prevention. Addictive
+page=7 block=-221248078 (x=267 y=57) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Behaviors, 32, 2062–2086. https://doi.org/10.1016/j.addbeh.2007.01.017
+page=7 block=-221248078 (x=267 y=67) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Brown, M. W., & Cudeck, R. (1993). Alternative ways of assessing model
+page=7 block=-221248078 (x=259 y=77) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+?t. In K.A. Bollen& J. S. Long (Eds.), Testingstructuralequation models
+page=7 block=-235404877 (x=267 y=87) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+(pp. 136–162). Sage Publications.
+page=7 block=-221242164 (x=267 y=97) width=109.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Bujarski, S., & Ray, L. A. (2014). Negativeaffect is associated with alcohol,
+page=7 block=-221242164 (x=259 y=107) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+but not cigarette use in heavy drinking smokers. Addictive Behaviors,
+page=7 block=-221242164 (x=267 y=117) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+39(12), 1723–1729. https://doi.org/10.1016/j.addbeh.2014.07.019
+page=7 block=-221242164 (x=267 y=128) width=210.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Chae, D.H., Takeuchi, D. T., Barbeau, E. M.,Bennett, G. G., Lindsey, J. C.,
+page=7 block=-221242164 (x=259 y=138) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Stoddard, A. M., & Krieger, N. (2008). Alcohol disorders among Asian
+page=7 block=-221242164 (x=267 y=148) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Americans: Associations with unfair treatment, racial/ethnic discrimina-
+page=7 block=-221242164 (x=267 y=158) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+tion, and ethnic identi?cation (the national Latino and Asian Americans
+page=7 block=-221242164 (x=267 y=168) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+study, 2002–2003). Journal of Epidemiology and Community Health, 62,
+page=7 block=-235404422 (x=267 y=178) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+973–979. https://doi.org/10.1136/jech.2007.066811
+page=7 block=-221235248 (x=267 y=188) width=164.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Cheng, A. W., Iwamoto, D. K., & McMullen, D. (2018). Model minority
+page=7 block=-221235248 (x=259 y=198) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+stereotype and the diagnosis of alcohol use disorders: Implications for
+page=7 block=-221235248 (x=267 y=209) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+practitioners working with Asian Americans. Journal of Ethnicity in
+page=7 block=-221235248 (x=267 y=219) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Substance Abuse, 17, 255–272. https://doi.org/10.1080/15332640.2016
+page=7 block=-221235248 (x=267 y=229) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+.1175990
+page=7 block=-221235248 (x=267 y=239) width=30.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Cheng, A. W., Lee, C. S., & Iwamoto, D. K. (2012). Heavy drinking, poor
+page=7 block=-221235248 (x=259 y=249) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+mental health, and substance useamong Asian Americans in theNLAAS:
+page=7 block=-221235248 (x=267 y=259) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+A gender-based comparison. Asian American Journal of Psychology, 3,
+page=7 block=-235403967 (x=267 y=269) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+160–167. https://doi.org/10.1037/a0028306
+page=7 block=-221197363 (x=267 y=279) width=138.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Coffman, D. L., & MacCallum, R. C. (2005). Using parcels to convert
+page=7 block=-221197363 (x=259 y=289) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+path analysis models into latent variable models. Multivariate Behav-
+page=7 block=-221197363 (x=267 y=300) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+ioral Research, 40, 235–259. https://doi.org/10.1207/s15327906mbr
+page=7 block=-221197363 (x=267 y=310) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+4002_4
+page=7 block=-221197363 (x=267 y=320) width=24.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Cook, W. K., Bond, J., Karriker-Jaffe, K., & Zemore, S. (2013). Who’s at
+page=7 block=-221197363 (x=259 y=330) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+risk? Ethnic drinking cultures, foreign nativity, and problem drinking
+page=7 block=-221197363 (x=267 y=340) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+among Asian American young adults. Journal of Studies on Alcohol and
+page=7 block=-221197363 (x=267 y=350) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Drugs, 74, 532–541. https://doi.org/10.15288/jsad.2013.74.532
+page=7 block=-221197363 (x=267 y=360) width=203.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Cook, W. K., Karriker-Jaffe, K. J., Bond, J., & Lui, C. (2015). Asian
+page=7 block=-221197363 (x=259 y=370) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Americanproblemdrinking trajectoriesduring the transitionto adulthood:
+page=7 block=-221197363 (x=267 y=380) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Ethnic drinking culturesand neighborhood contexts. AmericanJournal of
+page=7 block=-221197363 (x=267 y=391) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Public Health, 105(5), 1020–1027. https://doi.org/10.2105/AJPH.2014
+page=7 block=-221197363 (x=267 y=401) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+.302196
+page=7 block=-221197363 (x=267 y=411) width=26.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Cooper, M. L. (1994). Motivations for alcohol use among adolescents:
+page=7 block=-221197363 (x=259 y=421) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Development and validationofafour-factor model.Psychological Assess-
+page=7 block=-221197363 (x=267 y=431) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ment, 6, 117–128. https://doi.org/10.1037/1040-3590.6.2.117
+page=7 block=-221197363 (x=267 y=441) width=196.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Cooper, M. L., Frone, M. R., Russell, M., & Mudar, P. (1995). Drinking to
+page=7 block=-221197363 (x=259 y=451) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+regulate positive and negative emotions: A motivational model of alcohol
+page=7 block=-221197363 (x=267 y=461) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+use. Journal of Personality and SocialPsychology, 69,990–1005. https://
+page=7 block=-235403424 (x=267 y=472) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+doi.org/10.1037/0022-3514.69.5.990
+page=7 block=-221233148 (x=267 y=482) width=117.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Cooper, M. L., Kuntsche, E., Levitt, A., Barber, L. L., & Wolf, S. (2016).
+page=7 block=-221233148 (x=259 y=492) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Motivationalmodels of substance use: A review of theory and research on
+page=7 block=-221233148 (x=267 y=502) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+motivesforusing alcohol, marijuana,andtobacco. In K. J.Sher(Ed.), The
+page=7 block=-221233148 (x=267 y=512) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+oxford handbook of substance use and substance use disorders (Vol. 1,
+page=7 block=-235402702 (x=267 y=522) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+pp. 375–421). Oxford University Press.
+page=7 block=-221177184 (x=267 y=532) width=127.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Cox, W. M.,Hosier, S.G., Crossley, S., Kendall,B., &Roberts,K. L. (2006).
+page=7 block=-221177184 (x=259 y=542) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Motives for drinking, alcohol consumption, and alcohol-related problems
+page=7 block=-221177184 (x=267 y=552) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+among British secondary-school and university students. Addictive
+page=7 block=-221177184 (x=267 y=563) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+Behaviors, 31(12), 2147–2157. https://doi.org/10.1016/j.addbeh.2006.02.
+page=7 block=-221177184 (x=267 y=573) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+023
+page=7 block=-221177184 (x=267 y=583) width=11.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Enders, C. K. (2001). The performance of the full maximum likelihood
+page=7 block=-221177184 (x=259 y=593) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+estimator in multiple regression models with missing data. Educational
+page=7 block=-221177184 (x=267 y=603) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and Psychological Measurement, 61(5), 713–740. https://doi.org/10
+page=7 block=-221177184 (x=267 y=613) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+.1177/0013164401615001
+page=7 block=-221177184 (x=267 y=623) width=84.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Gee, G. C., Ro, A., Shariff-Marco, S., & Chae, D. (2009). Racial discrimi-
+page=7 block=-221177184 (x=259 y=633) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+nation and health among Asian Americans: Evidence, assessment, and
+page=7 block=-221177184 (x=267 y=643) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+directions for future research. Epidemiologic Reviews, 31, 130–151.
+page=7 block=-221177184 (x=267 y=654) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+https://doi.org/10.1093/epirev/mxp009
+page=7 block=-221177184 (x=267 y=664) width=122.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Page: 8 left:1 upper:1
+DISCRIMINATION AND ALCOHOL PROBLEMS
+page=8 block=1838284808 (x=165 y=2) width=170.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Gee, G. C., Spencer, M., Chen, J., Yip, T., & Takeuchi, D. T. (2007). The
+page=8 block=15734256 (x=1 y=27) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+association between self-reported racial discrimination and 12-month
+page=8 block=15734256 (x=9 y=37) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+DSM-IV mental disorders among Asian Americans nationwide. Social
+page=8 block=15734256 (x=9 y=47) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Science & Medicine, 64(10), 1984–1996. https://doi.org/10.1016/j.socsci
+page=8 block=15734256 (x=9 y=57) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+med.2007.02.013
+page=8 block=15734256 (x=9 y=67) width=55.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Gilbert, P. A., & Zemore, S. E. (2016). Discrimination and drinking:
+page=8 block=15734256 (x=1 y=77) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+A systematic review of the evidence. Social Science & Medicine, 161,
+page=8 block=15734256 (x=9 y=87) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+178–194. https://doi.org/10.1016/j.socscimed.2016.06.009
+page=8 block=15734256 (x=9 y=98) width=186.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Gilson, K. M., Bryant, C., Bei, B., Komiti, A., Jackson, H., & Judd, F.
+page=8 block=15734256 (x=1 y=107) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+(2013).Validationof the Drinking Motives Questionnaire (DMQ) in older
+page=8 block=15734256 (x=9 y=118) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+adults. Addictive Behaviors, 38, 2196–2202. https://doi.org/10.1016/j
+page=8 block=15734256 (x=9 y=128) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+.addbeh.2013.01.021
+page=8 block=15734256 (x=9 y=139) width=67.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Grant, B.F.,Chou,S.P.,Saha,T.D., Pickering, R.P.,Kerridge, B. T.,Ruan,
+page=8 block=15734256 (x=1 y=149) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+W. J., Huang, B., Jung, J., Zhang, H., Fan, A., & Hasin, D. S. (2017).
+page=8 block=15734256 (x=9 y=159) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Prevalence of 12-month alcohol use, high-risk drinking, and DSM-IV
+page=8 block=15734256 (x=9 y=169) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+alcohol use disorder in the United States, 2001–2002 to 2012–2013:
+page=8 block=15734256 (x=9 y=179) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Results from the National Epidemiologic Survey on Alcohol and Related
+page=8 block=15734256 (x=9 y=190) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Conditions. JAMA Psychiatry, 74, 911–923. https://doi.org/10.1001/jama
+page=8 block=15734256 (x=9 y=200) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+psychiatry.2017.2161
+page=8 block=15734256 (x=9 y=210) width=69.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Grucza, R. A., Norberg,K. E.,&Bierut, L.J. (2009). Binge drinkingamong
+page=8 block=15734256 (x=1 y=220) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+youths and young adults in the United States: 1979–2006. Journal of the
+page=8 block=15734256 (x=9 y=230) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+American Academy of Child & Adolescent Psychiatry, 48(7), 692–702.
+page=8 block=136840368 (x=9 y=240) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+https://doi.org/10.1097/CHI.0b013e3181a2b32f
+page=8 block=15744890 (x=9 y=250) width=151.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Hahm, H. C., Lahiff, M., & Guterman, N. B. (2004). Asian Americans
+page=8 block=15744890 (x=1 y=260) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+adolescents’ acculturation, binge drinking and alcohol and tobacco-using
+page=8 block=15744890 (x=9 y=271) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+peers. Journal of Community Psychology, 32, 295–308. https://doi.org/10
+page=8 block=15744890 (x=9 y=281) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+.1002/jcop.20002
+page=8 block=15744890 (x=9 y=291) width=55.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Hall, M. E., Williams, R. D., Jr., Penhollow, T. M., Rhoads, K. E., & Hunt,
+page=8 block=15744890 (x=1 y=301) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+B. P. (2015). Factors associated with discrimination among minority
+page=8 block=15744890 (x=9 y=311) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+college students. American Journal of Health Behavior, 39(3), 318–329.
+page=8 block=136840773 (x=9 y=321) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+https://doi.org/10.5993/AJHB.39.3.4
+page=8 block=15793847 (x=9 y=331) width=116.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Hatzenbuehler, M. L. (2009). How does sexual minority stigma “get under
+page=8 block=15793847 (x=1 y=341) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+the skin”? A psychological mediation framework.Psychological Bulletin,
+page=8 block=15793847 (x=9 y=351) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+135(5), 707–730. https://doi.org/10.1037/a0016441
+page=8 block=15793847 (x=9 y=362) width=164.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Hatzenbuehler, M. L.,Corbin, W. R., & Fromme, K. (2011). Discrimination
+page=8 block=15793847 (x=1 y=372) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+and alcohol-related problems among college students: A prospective
+page=8 block=15793847 (x=9 y=382) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+examination of mediating effects. Drug and Alcohol Dependence,
+page=8 block=15793847 (x=9 y=392) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+115(3), 213–220. https://doi.org/10.1016/j.drugalcdep.2010.11.002
+page=8 block=15793847 (x=9 y=402) width=214.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Hingson, R., Zha, W., & Smyth, D. (2017). Magnitude and trends in heavy
+page=8 block=15793847 (x=1 y=412) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+episodic drinking, alcohol-impaired driving, and alcohol-related mortality
+page=8 block=15793847 (x=9 y=422) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+and overdose hospitalizations among emerging adults of college ages
+page=8 block=15793847 (x=9 y=432) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+18–24 in theUnitedStates, 1998–2014. Journalof Studieson Alcoholand
+page=8 block=15793847 (x=9 y=443) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Drugs, 78, 540–548. https://doi.org/10.15288/jsad.2017.78.540
+page=8 block=15793847 (x=9 y=453) width=203.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Hu, L. T., & Bentler, P. M. (1999). Cutoff criteria for ?t indexes
+page=8 block=15793847 (x=1 y=463) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+in covariance structure analysis: Conventional criteria versus new
+page=8 block=15793847 (x=9 y=473) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+alternatives. Structural Equation Modeling, 6, 1–55. https://doi.org/10
+page=8 block=15793847 (x=9 y=483) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+.1080/10705519909540118
+page=8 block=15793847 (x=9 y=493) width=88.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Huynh, Q. L., Devos, T., & Goldberg, R. (2014). The role of ethnic and
+page=8 block=15793847 (x=1 y=503) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+national identi?cations in perceived discrimination for Asian Americans:
+page=8 block=15793847 (x=9 y=513) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Toward a better understanding of the buffering effect of group identi?ca-
+page=8 block=15793847 (x=9 y=523) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+tions onpsychological distress.Asian American Journal of Psychology, 5,
+page=8 block=136841304 (x=9 y=534) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+161–171. https://doi.org/10.1037/a0031601
+page=8 block=15780320 (x=9 y=544) width=138.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Iwamoto, D. K., Corbin, W., & Fromme, K. (2010). Trajectory classes of
+page=8 block=15780320 (x=1 y=554) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+heavy episodic drinking among Asian American college students. Addic-
+page=8 block=15780320 (x=9 y=564) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+tion, 105, 1912–1920. https://doi.org/10.1111/j.1360-0443.2010.03019.x
+page=8 block=15780320 (x=9 y=574) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Iwamoto, D. K., Grivel,M. M., Cheng, A. W., & Zamboanga, B. L. (2016).
+page=8 block=15780320 (x=1 y=584) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Asian American and white college students’ heavy episodic drinking
+page=8 block=15780320 (x=9 y=594) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+behaviors and alcohol-related problems. Substance Use & Misuse, 51,
+page=8 block=15780320 (x=9 y=604) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+1384–1392. https://doi.org/10.3109/10826084.2016.1170142
+page=8 block=15780320 (x=9 y=614) width=195.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Iwamoto, D. K., Kaya, A., Grivel, M., & Clinton, L. (2016). Under-
+page=8 block=15780320 (x=1 y=624) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+researched demographics: Heavy episodic drinking and alcohol-related
+page=8 block=15780320 (x=9 y=635) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+problems among Asian Americans. Alcohol Research: Current Reviews,
+page=8 block=136848198 (x=9 y=645) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+38(1), 17–25.
+page=8 block=136848198 (x=9 y=655) width=43.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+7
+page=8 block=161873925 (x=494 y=1) width=5.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=19 wordint.max=19
+Johnston, L. D., O’Malley, P. M., Bachman, J. G., & Schulenberg, J. E.
+page=8 block=-221249428 (x=259 y=27) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+(2012). Monitoring the future national survey results on drug use,
+page=8 block=-235405164 (x=267 y=37) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=7
+1975–2011 (Vol. 2). Institute for Social Research, University of Michigan.
+page=8 block=-221239337 (x=267 y=47) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Kenney, S., Jones, R. N., & Barnett, N. P. (2015). Gender differences in the
+page=8 block=-221239337 (x=259 y=57) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+effect of depressive symptoms on prospective alcohol expectancies,
+page=8 block=-221239337 (x=267 y=67) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+coping motives, and alcohol outcomes in the ?rst year of college. Journal
+page=8 block=-221239337 (x=267 y=77) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of Youth and Adolescence, 44, 1884–1897. https://doi.org/10.1007/
+page=8 block=-221239337 (x=267 y=87) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+s10964-015-0311-3
+page=8 block=-221239337 (x=267 y=98) width=62.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Kessler, R. C., Andrews, G., Colpe, L. J., Hiripi, E., Mroczek, D. K.,
+page=8 block=-221239337 (x=259 y=107) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Normand, S-L. T., Walters, E. E., & Zaslavsky, A. M. (2002). Short
+page=8 block=-221239337 (x=267 y=118) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+screening scales to monitor population prevalences and trends in non-
+page=8 block=-221239337 (x=267 y=128) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+speci?c psychological distress. Psychological Medicine, 32(6), 959–976.
+page=8 block=-221239337 (x=267 y=138) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+https://doi.org/10.1017/S0033291702006074
+page=8 block=-221239337 (x=267 y=148) width=143.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Kessler, R. C., Barker, P. R., Colpe, L. J., Epstein, J. F., Gfroerer, J. C.,
+page=8 block=-221239337 (x=259 y=158) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Hiripi, E., Howes, M. J., Normand, S. L. T., Manderscheid, R. W.,
+page=8 block=-221239337 (x=267 y=168) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Walters, E. E., & Zaslavsky, A. M. (2003). Screening for serious mental
+page=8 block=-221239337 (x=267 y=178) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+illness in the general population. Archives of General Psychiatry, 60(2),
+page=8 block=-221239337 (x=267 y=189) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+184–189. https://doi.org/10.1001/archpsyc.60.2.184
+page=8 block=-221239337 (x=267 y=199) width=165.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Kessler, R. C., Green, J. G., Gruber, M. J., Sampson, N. A., Bromet, E.,
+page=8 block=-221239337 (x=259 y=209) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Cuitan, M., Furukawa, T. A., Gureje, O., Hinkov, H., Hu, C. Y.,Lara, C.,
+page=8 block=-221239337 (x=267 y=219) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Lee, S., Mneimneh, Z., Myer, L., Oakley-Browne, M., Posada-Villa, J.,
+page=8 block=-221239337 (x=267 y=229) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Sagar,R.,Viana, M. C., & Zaslavsky,A. M. (2010). Screening for serious
+page=8 block=-221239337 (x=267 y=239) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+mental illness in the general population with the K6 screening scale:
+page=8 block=-221239337 (x=267 y=249) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Results from the WHO World Mental Health (WMH) survey initiative.
+page=8 block=-221239337 (x=267 y=259) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+International Journal of Methods in Psychiatric Research, 19(Suppl 1),
+page=8 block=-235404232 (x=267 y=270) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+4–22. https://doi.org/10.1002/mpr.310
+page=8 block=-221208656 (x=267 y=280) width=122.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Kim,S.S.,Lee,H., Kiang,P.,Kalman, D., &Ziedonis, D. M.(2014). Factors
+page=8 block=-221208656 (x=259 y=290) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+associated with alcohol problems among Asian American college
+page=8 block=-221208656 (x=267 y=300) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+students: Gender, ethnicity, smoking and depressed mood. Journal of
+page=8 block=-221208656 (x=267 y=310) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Substance Use, 19, 12–17. https://doi.org/10.3109/14659891.2012
+page=8 block=-221208656 (x=267 y=320) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+.709912
+page=8 block=-221208656 (x=267 y=330) width=27.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Kuntsche, E., Knibbe, R., Gmel, G., & Engels, R. (2005). Why do young
+page=8 block=-221208656 (x=259 y=340) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+people drink? A review of drinking motives. Clinical Psychology Review,
+page=8 block=-221208656 (x=267 y=350) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+25, 841–861. https://doi.org/10.1016/j.cpr.2005.06.002
+page=8 block=-221208656 (x=267 y=361) width=176.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Le, T. P., & Iwamoto, D. K. (2019). A longitudinal investigation of racial
+page=8 block=-221208656 (x=259 y=371) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+discrimination, drinking to cope, and alcohol-related problems among
+page=8 block=-221208656 (x=267 y=381) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+underage Asian American college students. Psychology of Addictive
+page=8 block=-221208656 (x=267 y=391) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Behaviors, 33(6), 520–528. https://doi.org/10.1037/adb0000501
+page=8 block=-221208656 (x=267 y=401) width=205.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Lui, P. P., Berkley,S.R.,& Zamboanga, B. L.(2020).Collegealcoholbelief
+page=8 block=-221208656 (x=259 y=411) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+and alcohol use: Testing moderations by cultural orientations and ethnic-
+page=8 block=-221208656 (x=267 y=421) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+ity. Journal of Counseling Psychology, 67, 184–194. https://doi.org/10
+page=8 block=-235403157 (x=267 y=431) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+.1037/cou0000374
+page=8 block=-221225668 (x=267 y=442) width=59.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Lui, P. P., &Zamboanga,B.L. (2018).Acculturationandalcoholuseamong
+page=8 block=-221225668 (x=259 y=452) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Asian Americans: A meta-analytic review. Psychology of Addictive
+page=8 block=-221225668 (x=267 y=462) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Behaviors, 32, 173–186. https://doi.org/10.1037/adb0000340
+page=8 block=-221225668 (x=267 y=472) width=196.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Lum, C., Corliss, H. L., Mays, V. M., Cochran, S. D., & Lui, C. K. (2009).
+page=8 block=-221225668 (x=259 y=482) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Differences in the drinking behaviors of Chinese, Filipino, Korean, and
+page=8 block=-221225668 (x=267 y=492) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Vietnamesecollegestudents. Journalof StudiesonAlcoholand Drugs,70,
+page=8 block=-235402802 (x=267 y=502) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+568–574. https://doi.org/10.15288/jsad.2009.70.568
+page=8 block=-221236736 (x=267 y=512) width=166.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Mallinckrodt, B., Abraham, W. T., Wei, M., & Russell, D. W. (2006).
+page=8 block=-221236736 (x=259 y=522) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Advances in testing the statistical signi?cance of mediation effects.
+page=8 block=-221236736 (x=267 y=532) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Journal of Counseling Psychology, 53, 372–378. https://doi.org/10
+page=8 block=-235403140 (x=267 y=543) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=7
+.1037/0022-0167.53.3.372
+page=8 block=1469843620 (x=267 y=553) width=84.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Martens, M.P.,Martin,J.L., Hatchett, E. S., Fowler, R. M.,Fleming, K. M.,
+page=8 block=-221207311 (x=259 y=563) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Karakashian, M. A., & Cimini, M. D. (2008). Protective behavioral
+page=8 block=-221207311 (x=267 y=573) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+strategies and the relationship between depressive symptoms and
+page=8 block=-221207311 (x=267 y=583) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=8
+alcohol-related negative consequences among college students. Journal
+page=8 block=-221207311 (x=267 y=593) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+of Counseling Psychology, 55, 535–541. https://doi.org/10.1037/a001
+page=8 block=-221207311 (x=267 y=603) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+3588
+page=8 block=-221207311 (x=267 y=613) width=16.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Martens, M. P., Neighbors, C., Dams-O’Connor, K., Lee, C. M., & Larimer,
+page=8 block=-221207311 (x=259 y=624) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+M. E. (2007). The factor structure of a dichotomously scored Rutgers
+page=8 block=-221207311 (x=267 y=634) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Alcohol Problem Index. Journal of Studies on Alcohol and Drugs, 68,
+page=8 block=-235402736 (x=267 y=644) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+597–606. https://doi.org/10.15288/jsad.2007.68.597
+page=8 block=-1390278088 (x=267 y=654) width=166.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Page: 9 left:1 upper:1
+8
+page=9 block=327685 (x=1 y=1) width=5.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=19 wordint.max=19
+IWAMOTO, KANE, NEGI, COLLADO, AND TOFIGHI
+page=9 block=1922039816 (x=156 y=2) width=188.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Matsunaga, M. (2008). Item parceling in structural equation modeling:
+page=9 block=15728748 (x=1 y=27) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+A primer. Communication Methods and Measures, 2, 260–293. https://
+page=9 block=136839316 (x=9 y=37) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+doi.org/10.1080/19312450802458935
+page=9 block=15731225 (x=9 y=47) width=120.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Maxwell, S. E., & Cole, D. A. (2007). Bias in cross-sectional analyses of
+page=9 block=15731225 (x=1 y=57) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+longitudinal mediation. Psychological Methods, 12, 23–44. https://
+page=9 block=15731225 (x=9 y=67) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+doi.org/10.1037/1082-989X.12.1.23
+page=9 block=15731225 (x=9 y=77) width=115.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Merrill, J. E., Wardell, J. D., & Read, J. P. (2014). Drinking motives in the
+page=9 block=15731225 (x=1 y=87) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+prospective prediction of unique alcohol-related consequences in college
+page=9 block=15731225 (x=9 y=97) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+students. Journal of Studies on Alcohol and Drugs, 75, 93–102. https://
+page=9 block=136839703 (x=9 y=107) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=5
+doi.org/10.15288/jsad.2014.75.93
+page=9 block=15737490 (x=9 y=118) width=107.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Miller, M. J. (2010). Testing a bilinear domain-speci?c model of accultura-
+page=9 block=15737490 (x=1 y=128) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+tion and enculturation across generational status. Journal of Counseling
+page=9 block=15737490 (x=9 y=138) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Psychology, 57, 179–186. https://doi.org/10.1037/a0019089
+page=9 block=15737490 (x=9 y=148) width=192.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Muthen, L. K., & Muthen, B. O. (2012). Mplus user’s guide (6th ed.).
+page=9 block=15737490 (x=1 y=158) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+Muthen & Muthen.
+page=9 block=15737490 (x=9 y=168) width=62.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Nehlin, C., & Öster, C. (2019). Measuring drinking motives in under-
+page=9 block=15737490 (x=1 y=178) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+graduates: An exploration of the DrinkingMotives Questionnaire-Revised
+page=9 block=15737490 (x=9 y=188) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+in Swedishstudents. Substance Abuse Treatment, Prevention, and Policy,
+page=9 block=136840158 (x=9 y=198) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+14, Article 49. https://doi.org/10.1186/s13011-019-0239-9
+page=9 block=15746405 (x=9 y=209) width=187.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Pascoe, E. A., & Smart Richman, L. (2009). Perceived discrimination and
+page=9 block=15746405 (x=1 y=219) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+health: A meta-analytic review. Psychological Bulletin, 135, 531–554.
+page=9 block=15746405 (x=9 y=229) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+https://doi.org/10.1037/a0016059
+page=9 block=15746405 (x=9 y=239) width=106.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Rhemtulla, M. (2016). Population performance of SEM parceling strategies
+page=9 block=15746405 (x=1 y=249) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+under measurement and structural model misspeci?cation. Psychological
+page=9 block=15746405 (x=9 y=259) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Methods, 21, 348–368. https://doi.org/10.1037/met0000072
+page=9 block=15746405 (x=9 y=269) width=191.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Rice, K. G., & Van Arsdale, A. C. (2010). Perfectionism, perceived stress,
+page=9 block=15746405 (x=1 y=279) width=240.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+drinking to cope, and alcohol-related problems among college students.
+page=9 block=15746405 (x=9 y=289) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Journal of Counseling Psychology, 57(4), 439–450. https://doi.org/10
+page=9 block=136840663 (x=9 y=299) width=232.000000 height=5.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=6
+.1037/a0020221
+page=9 block=15736080 (x=9 y=310) width=51.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Sobell, L. C., & Sobell, M. B. (1992). Timeline followback: A technique for
+page=9 block=15736080 (x=1 y=320) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+assessingself-reported ethanol consumption.InJ. Allen& R.Z.Litten (Eds.),
+page=9 block=15736080 (x=9 y=330) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Measuring alcohol consumption: Psychosocial and biological methods
+page=9 block=136840528 (x=9 y=340) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=6
+(pp. 41–72). Humana Press. https://doi.org/10.1007/978-1-4612-0357-5_3
+page=9 block=15740890 (x=9 y=350) width=227.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Solomon, R. L., & Corbit, J. D. (1974). An opponent-process theory of
+page=9 block=15740890 (x=1 y=360) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+motivation. I. Temporal dynamics of affect. Psychological Review, 81,
+page=9 block=15740890 (x=9 y=370) width=232.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+119–145. https://doi.org/10.1037/h0036128
+page=9 block=15740890 (x=9 y=380) width=139.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Spies, G., Stein, D. J., Roos, A., Faure, S. C., Mostert, J., Seedat, S., &
+page=9 block=-221246728 (x=259 y=27) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Vythilingum, B. (2009). Validity of the Kessler 10 (K-10) in detecting
+page=9 block=-221246728 (x=267 y=37) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+DSM-IV de?ned mood and anxiety disorders among pregnant women.
+page=9 block=-221246728 (x=267 y=47) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Archives of Women’s Mental Health, 12, 69–74. https://doi.org/10.1007/
+page=9 block=-221246728 (x=267 y=57) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+s00737-009-0050-0
+page=9 block=-221246728 (x=267 y=67) width=62.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Syed, M., & Juan, M. J. D. (2012). Discrimination and psychological
+page=9 block=-221246728 (x=259 y=77) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+distress: Examining the moderating role of social context in a nationally
+page=9 block=-221246728 (x=267 y=87) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+representative sample ofAsian American adults. Asian American Journal
+page=9 block=-221246728 (x=267 y=97) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+of Psychology, 3, 104–120. https://doi.org/10.1037/a0025275
+page=9 block=-221246728 (x=267 y=107) width=197.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Tessler, H., Choi, M., & Kao, G. (2020). The anxiety of being Asian
+page=9 block=-221246728 (x=259 y=117) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+American: Hate crimes and negative biases during the COVID-19 pan-
+page=9 block=-221246728 (x=267 y=127) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+demic. American Journal of Criminal Justice, 45, 1–11.https://doi.org/10
+page=9 block=-235404764 (x=267 y=137) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+.1007/s12103-020-09541-5
+page=9 block=-221244538 (x=267 y=147) width=86.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Tran, A. G., & Sangalang, C. C. (2016). Personal discrimination and
+page=9 block=-221244538 (x=259 y=157) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+satisfaction with life: Exploring perceived functional effects of
+page=9 block=-221244538 (x=267 y=167) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+Asian American race/ethnicity as a moderator. Cultural Diversity
+page=9 block=-221244538 (x=267 y=177) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+and Ethnic Minority Psychology, 22, 83–92. https://doi.org/10
+page=9 block=-235404564 (x=267 y=187) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=8
+.1037/cdp0000052
+page=9 block=-221225108 (x=267 y=197) width=62.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+White, H. R., & Labouvie, E. W. (1989). Towards the assessment
+page=9 block=-221225108 (x=259 y=207) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=7
+of adolescent problem drinking. Journal of Studies on Alcohol, 50,
+page=9 block=-221225108 (x=267 y=217) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=6
+30–37. https://doi.org/10.15288/jsa.1989.50.30
+page=9 block=-221225108 (x=267 y=227) width=150.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Williams, D. R., & Mohammed, S. A. (2009). Discrimination and racial
+page=9 block=-221225108 (x=259 y=237) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+disparities inhealth: Evidence and needed research. Journal of Behavioral
+page=9 block=-221225108 (x=267 y=247) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+Medicine, 32, 20–47. https://doi.org/10.1007/s10865-008-9185-0
+page=9 block=-221225108 (x=267 y=257) width=208.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Williams, D. R., Yu, Y., Jackson, J. S., & Anderson, N. B. (1997). Racial
+page=9 block=-221225108 (x=259 y=267) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+differences in physical and mental health: Socio-economic status, stress
+page=9 block=-221225108 (x=267 y=277) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+and discrimination. Journal of Health Psychology, 2, 335–351. https://
+page=9 block=-221225108 (x=267 y=287) width=232.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+doi.org/10.1177/135910539700200305
+page=9 block=-221225108 (x=267 y=297) width=124.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Yoo, H. C.,Steger,M.F., & Lee,R. M. (2010). Validation of the subtle and
+page=9 block=-221225108 (x=259 y=307) width=240.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=4
+blatant racism scale for Asian American college students (SABR-A2).
+page=9 block=-221225108 (x=267 y=315) width=232.000000 height=6.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Cultural Diversity and Ethnic Minority Psychology, 16, 323–334. https://
+page=9 block=-235404004 (x=267 y=327) width=232.000000 height=4.000000 fontname=LJLNHP+AdvOTb4af3d5d.I wordint.min=1 wordint.max=4
+doi.org/10.1037/a0018674
+page=9 block=1469842756 (x=267 y=337) width=84.000000 height=4.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=15
+Received March 9, 2020
+page=9 block=-1162992190 (x=399 y=358) width=90.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Revision received February 14, 2021
+page=9 block=-1162992190 (x=354 y=369) width=135.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+Accepted February 25, 2021
+page=9 block=-1162992190 (x=385 y=380) width=104.000000 height=5.000000 fontname=LJLNGL+AdvOTf9433e2d wordint.min=1 wordint.max=5
+?
+page=9 block=129762046 (x=495 y=383) width=4.000000 height=2.000000 fontname=LJMBBB+AdvOT8608a8d1+25 wordint.min=6 wordint.max=6

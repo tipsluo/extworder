@@ -1,0 +1,1583 @@
+Content:
+ColumnWidth 241 ColumnNumber 2
+ContentWidth 495 ContentLeft 1 ContentRight 495
+==============================
+Page 1
+ Left 1 Right 339 Top 1 Bottom 350
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: undefined
+typeindex=10 left=1 right=291 upper=1 lower=10
+====>
+charfont height=9.000000, charfont bold=2, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Magnetic fields for modulating the nervous system
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=1 right=204 upper=20 lower=27
+====>
+charfont height=7.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Michael G. Christiansen, and Polina Anikeeva
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=1 right=308 upper=56 lower=111
+====>
+charfont height=7.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Citation: Physics Today 74, 2, 28 (2021); doi: 10.1063/PT.3.4677
+View online: https://doi.org/10.1063/PT.3.4677
+View Table of Contents: https://physicstoday.scitation.org/toc/pto/74/2
+Published by the American Institute of Physics
+
+==============================
+
+==============================
+type: undefined
+typeindex=8 left=1 right=195 upper=141 lower=148
+====>
+charfont height=7.000000, charfont bold=2, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+ARTICLES YOU MAY BE INTERESTED IN
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=1 right=339 upper=164 lower=350
+====>
+charfont height=7.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+US government acts to reduce dependence on China for rare-earth magnets
+Physics Today 74, 20 (2021); https://doi.org/10.1063/PT.3.4675
+Quantum firmware and the quantum computing stack
+Physics Today 74, 28 (2021); https://doi.org/10.1063/PT.3.4698
+The three physicists
+Physics Today 74, 42 (2021); https://doi.org/10.1063/PT.3.4700
+Liquid metals at room temperature
+Physics Today 74, 30 (2021); https://doi.org/10.1063/PT.3.4723
+Does new physics lurk inside living matter?
+Physics Today 73, 34 (2020); https://doi.org/10.1063/PT.3.4546
+Overlooked mechanisms behind seismic damage
+Physics Today 74, 34 (2021); https://doi.org/10.1063/PT.3.4655
+
+==============================
+
+==============================
+Page 2
+ Left 1 Right 471 Top 1 Bottom 483
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: title
+typeindex=11 left=213 right=471 upper=1 lower=243
+====>
+charfont height=38.000000, charfont bold=2, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Magnetic 
+fields for
+modulating 
+the nervous 
+system
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=7 left=1 right=142 upper=478 lower=483
+====>
+charfont height=5.000000, charfont bold=2, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+28 PHYSICS TODAY|FEBRUARY 2021
+
+==============================
+
+==============================
+Page 3
+ Left 1 Right 495 Top 1 Bottom 690
+
+
+Column meta:
+Column left:3 upper:137 right:243 lower 670
+Column left:255 upper:291 right:495 lower 690
+
+
+Blocks:
+----------------------
+==============================
+type: undefined
+typeindex=-2 left=193 right=386 upper=1 lower=46
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Michael Christiansenis a postdoctoral scientist at the
+Institute of Translational Medicine at ETH Zürich in
+Switzerland. Polina Anikeevais an associate professor
+of materials science and engineering and of brain and
+cognitive sciences at MIT in Cambridge, Massachusetts.
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=3 right=279 upper=177 lower=241
+====>
+charfont height=7.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Although targeted actuation of neurons via
+magnetic fields may benefit neuroscience
+research and medicine, some approaches
+have sparked controversy.
+
+==============================
+
+==============================
+type: abstract
+typeindex=1 left=1 right=340 upper=281 lower=468
+====>
+charfont height=7.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Neuroscience research has grown rapidly in recent
+years, driven at least in part by the emergence of
+tools and techniques that enable scientists to pose 
+experimental questions that not long ago would have
+been unanswerable. Methods for triggering activity
+in the nervous systems of living animal models have proven particularly
+useful for mapping networks, probing structure– unction relationships,
+and connecting physiology to behavior. In addition, therapeutically
+controlling the activity of neurons in patients can offer relief from
+some diseases. For example, an approach that clinicians use to stimulate
+neurons  deep in  the  brain to  treat  Parkinson’s  disease  has  also
+shown promise for addressing persistent psychiatric disorders such
+as depression.
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=17 right=230 upper=137 lower=144
+====>
+charfont height=7.000000, charfont bold=0, alignment=0, allupper=-1, column left=3, likeBody=-100
+
+Michael G. Christiansen and Polina Anikeeva
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=243 upper=488 lower=670
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=3, likeBody=100
+
+Technologies for stimulating neurons are poised to become
+increasingly signi?cant, yet the presently employed methods
+have serious drawbacks. As is so often the case for biomedical
+technology, today’s innovations will appear primitive in the
+not- oo-distant future. Currently, clinical deep-brain stimula-
+tion is  conducted  primarily  by inserting millimeter-sized
+electrodes that are powered by devices implanted in the body.
+Although e?ective at o?ering relief for patients, such drastic
+measures are justi?able in only extreme cases. Technology for
+more commonplace neuron stimulation, whether for experi-
+ments in model organisms or clinical therapy in humans, should
+be noninvasive or minimally invasive, wireless, able to access
+regions deep in the brain, spatially targeted, and selective to
+particular cell types.
+That vision has attracted numerous engineers and scientists
+to independently focus on developing devices and methods
+for coupling noninvasive stimuli—including ultrasound, near-
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=255 right=495 upper=291 lower=593
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=255, likeBody=-100
+
+IR  light, and  time-varying electric
+?elds—to  the activity  of neurons.
+Magnetic stimuli are especially ap-
+pealing because oftissue’s weak mag-
+netic properties and low conductivity,
+both of which ensure that magnetic
+?elds  can  reach deep physiological
+targets undiminished.
+Additionally, magnetic stimuli form
+a vast possibility space, as indicated in
+figure 1. Quasi-magnetostatic ?elds at
+the human scale can rotate, pulse, or
+oscillate with characteristic frequen-
+cies ranging from millihertz to mega-
+hertz. Spatially, the ?elds can be uni-
+form, possess  gradients,  or  exhibit
+points of vanishing magnitude. Any
+of those features or some combination
+of them facilitates strikingly di?erent approaches for actuation.
+The practical  considerations for generating magnetic ?elds
+with those properties and the limits of feasible scalability can
+also vary profoundly.
+Researchers have pursued the facile control of neurons via
+magnetic ?elds with such eagerness that soon afterward some
+of their claims have faced criticism, much of it framed in terms
+of  the  physical plausibility  of  the  proposed  mechanisms.
+Rather than avoid topics that have produced controversy, here
+we will consider their most discerning critiques.
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=255 right=402 upper=604 lower=614
+====>
+charfont height=10.000000, charfont bold=0, alignment=-1, allupper=-1, column left=255, likeBody=-100
+
+The dream of magnetogenetics
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=255 right=495 upper=621 lower=670
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=255, likeBody=100
+
+Neurons propagate electrochemical signals by using voltage-
+gated biochemical machinery in their membranes. At the level
+of a single cell, a stimulus that depolarizes a small part of the
+membrane can cause an action potential that spreads through-
+out the cell. Some channel proteins function by locally increasing
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=354 right=495 upper=685 lower=690
+====>
+charfont height=5.000000, charfont bold=2, alignment=1, allupper=1, column left=255, likeBody=-100
+
+FEBRUARY 2021 |PHYSICS TODAY 29
+
+==============================
+
+==============================
+Page 4
+ Left 1 Right 493 Top 1 Bottom 712
+
+
+Column meta:
+Column left:253 upper:37 right:493 lower 695
+Column left:253 upper:37 right:493 lower 695
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=9 left=1 right=129 upper=1 lower=9
+====>
+charfont height=8.000000, charfont bold=2, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+NEURON ACTUATION
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=185 right=217 upper=37 lower=41
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Constant
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=165 right=169 upper=38 lower=42
+====>
+charfont height=3.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+a
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=243 upper=40 lower=695
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+or decreasing the membrane’s polar-
+ization in response to a particular phys-
+ical stimulus. Introducing genes that
+code for those channel proteins thus
+o?ers a way to program neurons to be
+inhibited or excitedon demand.
+In neuroscience, a broadly success-
+ful technique termed optogenetics has
+taken precisely that approach with vis-
+ible light.1Typically, the necessary genes
+are introduced to neurons in a selected
+site or cell type of interest in an exper-
+imental organism, and optical ?bers or
+ ight-emitting devices deliver light for
+stimulation. Could a similar magneto-
+genetic approach—one that employs
+biogenic magnetic materials and exter-
+nally applied magnetic ?elds—be pos-
+sible? If it were, the technique would
+eliminate the need for setups with teth-
+ers and visibly detectable stimuli, but it would leverage many
+of the same proli?c methodologies that have made optogenet-
+ics so successful.
+Although  a magnetic variant of optogenetics appeals to
+many researchersin the ?eld, a direct analogy fails to acknowl-
+edge some underlying physical restrictions. The key di?erence,
+illustrated in ?gure 2, is the energy scales expected for the dif-
+ferent stimuli (see the article by Rob Phillips and Steve Quake,
+PHYSICS TODAY, May 2006, page 38). A photon of visible light
+carries enough energy to change the con?guration or electronic
+state of a protein, as illuminated by examples ranging from 
+?uorescent proteins to the opsins in our retinas that enable us
+to see. In contrast, realistic magnetic ?elds interacting with bio-
+molecules or small biomineralized particles generate predicted
+energies of interaction that are far below the scale of back-
+ground thermal ?uctuations. That outcome is perhaps unsur-
+prising when one recalls that the underlying motivation for
+using magnetic ?elds as stimuli is their ability to access deep
+physiological targets without appreciably interacting with tissue.
+Reports of magnetogenetic techniques for neurons ?rst ap-
+peared in prominent journals2in 2016. A common theme of the
+initial approaches was to modify the genetic blueprints for
+known channel proteins so that they also incorporated ferritin,
+an iron-storage protein. The authors then suggested, on the
+basis of known mechanical and temperature sensitivities of the
+unmodi?ed channel proteins, that either heat ?ow in response
+to time-varying ?elds or magnetically mediated mechanical
+stimuli could trigger the channel to open and locally depolarize
+the neuronal membrane. Regardless of the suggested mecha-
+nisms, the studies presented numerous careful experimental
+controls that seemed to consistently suggest the existence of a
+real and reproducible e?ect.
+However, those early studies of magnetogenetics soon drew
+criticism because they focused almost exclusively on demon-
+stration and only loosely explained the possible basis for the
+observed e?ects.3The core argument was that simpli?ed phys-
+ical models of ferritin ought to place realistic bounds on the ex-
+pected energy of interaction with attainable magnetic ?elds.
+Without any need for heroic mathematics, the scale of those en-
+ergies can be compellingly shown to be orders of magnitude
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=195 right=198 upper=47 lower=51
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+z
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=225 right=229 upper=73 lower=77
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+y
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=236 right=240 upper=92 lower=96
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+x
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=209 right=214 upper=108 lower=112
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+B
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=242 right=245 upper=108 lower=112
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+t
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=214 right=238 upper=124 lower=132
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+B x B y
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=164 right=170 upper=151 lower=154
+====>
+charfont height=3.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+b
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=190 right=221 upper=158 lower=162
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Uniform
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=7 left=1 right=142 upper=707 lower=712
+====>
+charfont height=5.000000, charfont bold=2, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+30 PHYSICS TODAY|FEBRUARY 2021
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=262 right=293 upper=37 lower=41
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Rotating
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=340 right=381 upper=37 lower=41
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Alternating
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=432 right=456 upper=37 lower=41
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Pulsed
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=272 right=275 upper=47 lower=51
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+z
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=355 right=358 upper=47 lower=51
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+z
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=439 right=442 upper=47 lower=51
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+z
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=301 right=305 upper=73 lower=77
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+y
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=384 right=388 upper=73 lower=77
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+y
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=468 right=472 upper=73 lower=77
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+y
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=313 right=317 upper=92 lower=96
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+x
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=396 right=400 upper=92 lower=96
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+x
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=480 right=484 upper=92 lower=96
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+x
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=285 right=290 upper=108 lower=112
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+B
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=317 right=320 upper=108 lower=112
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+t
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=368 right=373 upper=108 lower=112
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=-100
+
+B
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=400 right=403 upper=108 lower=112
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+t
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=451 right=456 upper=108 lower=112
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+B
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=484 right=486 upper=108 lower=112
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+t
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=290 right=314 upper=124 lower=132
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+B x B y
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=373 right=397 upper=124 lower=132
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+B x B y
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=456 right=480 upper=124 lower=132
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+B x B y
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=449 right=488 upper=149 lower=162
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Field
+magnitude
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=278 right=328 upper=158 lower=162
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+High gradient
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=375 right=431 upper=158 lower=162
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Vanishing point
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=460 right=478 upper=170 lower=173
+====>
+charfont height=3.000000, charfont bold=2, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Max.
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=467 right=471 upper=243 lower=246
+====>
+charfont height=3.000000, charfont bold=2, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=253 right=491 upper=261 lower=361
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=-100
+
+FIGURE 1. MAGNETIC FIELDSoffer a large and diverse parameter
+space for engineering magnetic stimuli. (a)In addition to familiar
+temporally constant fields, quasi-magnetostatic fields can rotate, 
+alternate, and pulse. (b)Distributions of field strength, such as 
+uniformity, high gradients, and vanishing points, also offer various
+functionalities. The relative magnetic field magnitude is plotted for
+radial cross sections of several geometries with cylindrical symmetry:
+(from left) a Lee–Whiting coil, a conical permanent magnet, and
+two disk magnets with opposing magnetization. (Figure by Michael
+G. Christiansen; field plots created using FEMM software.)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=253 right=493 upper=381 lower=695
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=100
+
+too weak to actuate membrane proteins in the manner envi-
+sioned. Several independent research groups subsequently re-
+ported an inability to demonstrate similar magnetogenetic ef-
+fects in their own laboratories, although a failure to replicate is
+not necessarily conclusive. The authors of the original works
+have since pointed out ways in which the replication attempts
+may have di?ered from their original experiments.
+A conceptual rebuttal to the biophysical argument against
+ erritin-mediated magnetogenetics has been that the magnetic
+moment of ferritin may be about 75 times larger than expected,
+which would allow for an assortment of hypothetical actuation
+mechanisms.4 Such a large magnetic moment would be sur-
+prising given the extensive body of literature characterizing
+ferritin, although a fresh investigation may be warranted. Even
+if anomalously enhanced magnetic properties could be de?ni-
+tively ruled out by experiment, asserting the impossibility of
+magnetogenetics may be overly reductionist.
+A feeble magnetic moment for ferritin at most precludes the
+possibility of direct actuation. Some of the relevant magnetic
+stimuli produce o?- arget e?ects, including induced voltages
+and mild nonselective heating. In principle, a modi?ed channel
+protein that lowers the threshold of response to those in?u-
+ences by any means, magnetic or otherwise, might lead to se-
+lective actuation e?ects. An indirect mechanism of that sort
+might help explain experimental observations, although a strat-
+egythat depends on many external factors is likely to face di?-
+culties in replication or routine use.
+Recent experimental work has indicated a possible chemical
+pathway for actuation that involves iron released from ferritin.5
+
+==============================
+
+==============================
+Page 5
+ Left 1 Right 495 Top 1 Bottom 673
+
+
+Column meta:
+Column left:1 upper:1 right:241 lower 656
+Column left:253 upper:1 right:495 lower 645
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=353 right=493 upper=668 lower=673
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=1, column left=-1, likeBody=-100
+
+FEBRUARY 2021 | PHYSICS TODAY 31
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=241 upper=1 lower=337
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+However, the way that magnetic ?elds alternating at kilohertz
+or megahertz frequencies might trigger ion release remains
+unanswered. Other experiments that used modi?ed channel
+proteins suggest that extinguishing temperature sensitivity elim-
+inates magnetic response and that having a magnetocaloric
+cooling e?ect may trigger a related channel sensitivity to cold
+rather than heat.6
+An encouraging feature of recent e?orts is a renewed focus
+on probing and explaining mechanisms. Nevertheless, one of
+the signi?cant di?culties in making comparisons and drawing
+conclusions in the magnetogenetics literature is the sheer vari-
+ety of magnetic stimuli, which allows every group to adopt its
+own seemingly unique stimulation paradigm. The situation is
+especially evident in the remarkable contrast between the mag-
+netic conditions employed in  the most recent experiments,
+ranging from 12 ?T ?elds varying at 180 MHz to 250 mT ?elds
+varying at 800 mHz.
+Yet another route to magnetogenetics that researchers have
+suggested draws inspiration from nature. Numerous organ-
+isms exhibit what’s known as magnetoreception— he ability
+to sense Earth’s comparatively weak 50 ?T magnetic field,
+usually as a cue for migratory navigation (see the article by
+Sönke Johnsen and Ken Lohmann, PHYSICSTODAY, March 2008,
+page 29). Specialized magnetic receptor cells, similar to sensory
+systems that detect light or sound, have been hypothesized to
+exist. If such cells were unambiguously identi?ed and thor-
+oughly studied, perhaps their mechanism of sensation could
+be replicated through genetic modi?cation. But that remains a
+remote possibility considering that decades of vigorous research
+and debate have yet to produce satisfactory explanations for
+natural magnetoreception.7
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=1 right=157 upper=348 lower=358
+====>
+charfont height=10.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Mediation by magnetic materials
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=241 upper=364 lower=656
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Another widespread category of techniques for magnetic stim-
+ulation of neurons employs synthetic nanomaterials. Usually
+introduced by direct injection, the materials o?er an energetically
+plausible means of coupling an externally applied magnetic ?eld
+to well-understood forms of stimulation. Whereas clusters of
+noninteracting atoms are expected to exhibit modest magnetic
+moments at best, collective ferro- or ferrimagnetic ordering me-
+diated by exchange or superexchange interactions can lead to
+magnetic moments that are many orders of magnitude larger.
+For magnetized particles smaller than a critical size range
+that depends on composition and geometry, opposing mag-
+netic domains do not form, and the structures are approxi-
+mately uniformly magnetized. The presence of magnetic order
+does not necessarily imply that the orientation of the magneti-
+zation remains constant. Rather, the magnetization orientation
+can rapidly precess and jump stochastically among certain pre-
+ferred directions. Under conditions at which the rate of the sto-
+chastic jumps is much faster than the time scale of measure-
+ment, magnetic particles are said to be superparamagnetic.
+Examples of magnetic nanoparticles do occur in nature, most
+famously in bacteria that employ chains of magnetite or greig-
+ite particles for coordinating their movement along magnetic
+?eld lines (see the article by David Dunlop, PHYSICSTODAY, June
+2012, page 31). However, for neurostimulation methods based
+on magnetic nanoparticles, researchers typically prefer synthetic
+materials that can be produced in large quantities with tai-
+lorable surface chemistries. Because of their biocompatibility,
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=253 right=495 upper=1 lower=271
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=100
+
+ferrites are common, especially maghemite, magnetite, and
+similar compounds doped with neighboring transition metal
+elements, such as manganese, cobalt, and nickel. Many ap-
+proaches have been reported, so researchers ?nd it helpful to
+classify them by the waysthey transduce magnetic ?elds to de-
+tectable stimuli. Those categories, which are summarized in
+?gure 3, include the production of forces or torques, magneto-
+electric coupling, actuation via dissipated heat, and triggered
+release of chemical agonists.
+Sensory neurons in the peripheral nervous system contain
+channel proteins that respond to membrane tension or other
+mechanical cues to produce the sensation of touch. Combining
+magnetic and mechanical actuation is therefore a natural and
+intuitive idea. An extensive body of literature exists that ad-
+dresses biological e?ects produced in vitrowith magnetically
+applied forces, including examples of neural stimulation. But
+those methods typically require high ?eld gradients, on the
+order of 10–103 T/m, which prohibits scaling them to most in
+vivo contexts.
+In contrast, mechanotransduction via torques generated by
+rotating or alternating uniform ?elds is a comparably scalable
+strategy. Particles suitable for applying torques must possess
+su?ciently  large  moments  and anisotropy  that links  their
+physical orientation to their magnetization. For single-domain
+nanoparticles, large  moments and high anisotropy tend to 
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=253 right=495 upper=535 lower=645
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=-100
+
+FIGURE 2.VARIOUS STIMULIcan be used by researchers to affect
+the activity of neurons. Comparing the energy scalesof the stimuli
+helps illustrate the fundamental challenge of using the genetically 
+expressed protein ferritin and magnetic fields to stimulate neurons.
+Proteins such as ChR2 that respond to visible light (left) interact with
+photons that have an energy much higher than background thermal
+fluctuations kBT, whereas the magnetic core of ferritin, attached to the
+channel protein TRPV (center), interacts only very weakly with magnetic
+fields. In contrast,  ingle-domain synthetic magnetic particles made
+of magnetite (right), for example, have higher energies of interaction
+that also increase with particle size. (Figure by Michael G. Christiansen.)
+
+==============================
+
+==============================
+Page 6
+ Left 1 Right 494 Top 1 Bottom 712
+
+
+Column meta:
+Column left:253 upper:61 right:494 lower 695
+Column left:253 upper:61 right:494 lower 695
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=9 left=1 right=129 upper=1 lower=9
+====>
+charfont height=8.000000, charfont bold=2, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+NEURON ACTUATION
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=243 upper=40 lower=695
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+increase the likelihood of aggregation and settling, but one 
+potential work-around employs pseudo-single-domain nano-
+structures such as nanoscale disks. They exhibit intermedi-
+ate vortex states between uniform  magnetization and
+multiple domains, which, in the absence of an applied
+field, reduces the net magnetic moment and particle
+interactions.
+Whereas mechanotransduction requires genes for
+introducing mechanically sensitive channel proteins
+into neurons that don’t intrinsically express them,
+all neurons that propagate action potentials pos-
+sess voltage-gated ion channels and respond to
+electric ?elds. Accordingly, researchers have sug-
+gested using nanoparticles with magnetoelectric
+properties to enable magnetic stimulation without
+requiring  genetic manipulation.  Magnetoelectric
+materials change their electric polarization in re-
+sponse to an applied magnetic ?eld, and the strongest
+e?ects are seen in composite structures. They func-
+tion by using strain fields to go between magnetic
+and electric properties: A magnetostrictive material, 
+in which magnetization in?uences strain, is joined to 
+a piezoelectric material, in which strain a?ects electrical 
+polarization.
+One reported use of magnetoelectric core–shell structures
+for stimulating brain activity in mice employed barium titanate
+as the piezoelectric shell and CoFe2O4 as the magnetostrictive
+core.8Given that appreciable magnetostrictive properties typ-
+ically require materials with high anisotropy, as is the case for
+CoFe2O4, the  ow- requency (0–20 Hz) magnetic stimulation in
+that work seems more likely to produce physical rotation rather
+than truly magnetoelectric e?ects. Additional study of nanoscale
+magnetoelectric composite materials with other magnetic stim-
+ulation paradigms may be warranted. Alternatively, researchers
+have recently investigated the use of magnetoelectric compos-
+ites on a larger scale and saw promising results.9
+In addition  to  containing voltage-sensitive  channel pro-
+teins, many neurons have heat-sensitive ones. Magnetically,
+heat can originate from a hysteresis e?ect as the nanoparticles
+respond to alternating magnetic ?elds with frequencies rang-
+ing from kilohertz to low megahertz and amplitudes typically
+not exceeding 100 mT. The maximum permissible amplitude
+varies with frequency and is constrained by the need to limit
+o?- arget heating of tissue via weak eddy currents. Heat dissi-
+pation by magnetic nanomaterials is most familiar in the con-
+text of magnetic hyperthermia as a potential therapy for cancer,
+but the neuron-stimulation strategies discussed above avoid
+triggering cell death and have shifted the research focus to-
+ward wireless actuation of cellular activity. Wireless actuation
+is conceivable if a local temperature increase is su?cient to trig-
+ger a targeted, possibly genetically introduced, thermally re-
+sponsive channel protein. But that temperature increase can’t
+be high enough to cause cell damage.
+In 2010 the ?rst scheme for stimulating neurons with heat
+used low concentrations of magnetic nanoparticles bound to
+cellular membranes.10The researchers employed a ?uorescent
+dye as a thermal probe to show a change in temperature of sev-
+eral degrees Celsius at the surface of the nanoparticles. Since
+then, others have debated whether a localized temperature in-
+crease at the membrane is possible without surrounding bulk
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=7 left=1 right=141 upper=707 lower=712
+====>
+charfont height=5.000000, charfont bold=2, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+32 PHYSICS TODAY|FEBRUARY 2021
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=261 right=276 upper=61 lower=75
+====>
+charfont height=4.000000, charfont bold=2, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+es
+cu
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=472 right=476 upper=66 lower=69
+====>
+charfont height=4.000000, charfont bold=2, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+T
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=441 right=478 upper=106 lower=119
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Nanoscale
+heating
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=303 right=328 upper=134 lower=138
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Torque
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=354 right=383 upper=145 lower=157
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=-100
+
+Channel
+proteins
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=268 right=287 upper=218 lower=222
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Force
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=443 right=488 upper=218 lower=222
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Bulk heating
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=382 right=439 upper=299 lower=312
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Magnetoelectric
+composites
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=311 right=338 upper=300 lower=304
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Release
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=253 right=490 upper=345 lower=351
+====>
+charfont height=5.000000, charfont bold=2, alignment=0, allupper=-1, column left=253, likeBody=-100
+
+FIGURE 3. SYNTHETIC MAGNETIC NANOMATERIALScan couple
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=253 right=494 upper=356 lower=403
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=-100
+
+tochannel proteins, which respond to many types of stimuli, including
+heat, mechanical strain, electric fields, and chemical interactions. In 
+response, the channels often open and allow the passage of ions, such
+as Ca2+or Na+. That ion movement then triggers action potentials in
+neurons. (Adapted from ref. 18 by Michael G. Christiansen.)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=253 right=493 upper=425 lower=695
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=100
+
+heating. The standard heat-transfer equations suggest that the
+temperature di?erence between the surface of the nanoparticles
+and the solution should be more than a million times smaller
+than some experiments have suggested.
+An intriguing clue to explain the discrepancy came nearly
+a decade later from a study that replicated a comparable method-
+ology.11 Rather than interpreting similar observations as an in-
+crease in surface temperature, the researchers suggested two
+types of experimental artifacts that may account for the original
+observation. Their ?ndings and other recent negative results
+raise questions about the existence of nanoscale heating in sim-
+ilar systems. Nevertheless, heat-transfer e?ects peculiar to the
+nanoscale are studied extensively in solid systems and consid-
+ered in terms of the transport of quantized phonon modes
+rather than classical heat ?ow. Moreover, various nanoparticle
+systems suspended in solution compellingly demonstrate care-
+fully controlled heating e?ects and o?er researchers an oppor-
+tunity to reexamine physical models of nanoscale heat trans-
+port at crystalline-disordered interfaces.
+Even without relying on nanoscale heating e?ects, heat can
+still stimulate targeted neurons. The classical heat- ransport
+equations allow for bulk heating of concentrated ferro?uid
+droplets to stimulate neurons sensitized to increased tempera-
+ture, an e?ect that has been demonstrated experimentally.12
+One recent paper suggested an extension of those methods
+
+==============================
+
+==============================
+Page 7
+ Left 1 Right 493 Top 1 Bottom 673
+
+
+Column meta:
+Column left:1 upper:1 right:241 lower 435
+Column left:253 upper:1 right:493 lower 435
+
+
+Blocks:
+----------------------
+==============================
+type: undefined
+typeindex=-3 left=176 right=265 upper=431 lower=435
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+b Pulsed magnetic field
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=1 right=483 upper=609 lower=614
+====>
+charfont height=5.000000, charfont bold=2, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+FIGURE 4. TECHNIQUES SUCH AS TRANSCRANIAL MAGNETIC STIMULATION, or TMS, use rapidly varying magnetic fields to induce
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=489 upper=620 lower=646
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+voltages that trigger the voltage-sensitive channel proteins in neurons. In the representative scheme depicted here, (a)a current pulse is 
+delivered to a coil that (b)generates a pulsed magnetic field. (c)Weaker currents opposing the change in magnetic flux are then induced in
+the brain tissue and produce neuronal stimulation. (Adapted from ref. 18 by Michael G. Christiansen.)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=353 right=493 upper=668 lower=673
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=1, column left=-1, likeBody=-100
+
+FEBRUARY 2021 | PHYSICS TODAY 33
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=241 upper=1 lower=282
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+based on bulk-heating  e?ects:  Known as magnetothermal
+multiplexing, the approach heats adjacent ferro?uid droplets
+independently by pairing di?erent types of magnetic nano-
+materials with alternating magnetic ?eld conditions that ensure
+selective heating.13
+Another method readily extendable to chemical stimuli tar-
+geted at particular channel proteins is the magnetically trig-
+gered release of chemical payloads from nanoscale carriers.
+The concept was originally explored primarily for drug deliv-
+ery and diagnostics. Available carriers include nanoparticle
+surfaces, thermally sensitive liposomes, and degradable poly-
+mer composites. In one instance, researchers controlled neural
+activity in freely behaving mice by triggering the release of
+neurochemicals from thermally sensitive liposomes.14In the fu-
+ture, chemomagnetic methods could be coupled with super-
+imposed magnetostatic selection ?elds, which o?er spatial con-
+trol in drug release.
+Chemomagnetic methods are a relatively recent develop-
+ment compared with the other approaches highlighted in this
+section. Such chemomagnetic studies are a?ected by the uncer-
+tainty surrounding nanoscale heating because they are often
+performed at concentrations of magnetic nanoparticles that are
+far below that required for bulk heating. Whether the phenom-
+enon triggered by an alternating ?eld and leading to release
+can be exclusively attributed to heat is a question worth further
+consideration.
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=1 right=171 upper=293 lower=303
+====>
+charfont height=10.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Electromagnetic induction methods
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=241 upper=309 lower=414
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+As described by Faraday’s law, time-varying magnetic ?uxes
+induce electric ?elds in conductive media, which generate cur-
+rents that oppose the change in ?ux. The e?ect, already put to
+wide and varied technological use, o?ers a basis for neuronal
+stimulation through e?ects experienced at the tissue scale or
+via wirelessly powered devices.
+Researchers have demonstrated that neurons in humans
+can be stimulated using magnetic ?elds pulsed at millisecond
+time scales—on the order of 104T/s with a peak amplitude of
+up to 1 T—to produce rapid variations of the ?eld strength.15
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=3 right=7 upper=430 lower=433
+====>
+charfont height=3.000000, charfont bold=2, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+a
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=15 right=91 upper=431 lower=435
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Pulsed current in coil
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=253 right=493 upper=1 lower=414
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=100
+
+Figure 4 depicts how placing current-carrying coils close to the
+scalp stimulates neurons within the ?rst few centimeters of the
+brain. The technique, called transcranial magnetic stimulation,
+or TMS, has shown promise for treating depression, neuro-
+pathic pain, and other disorders. 
+But researchers face several challenges when highly tar-
+geted stimulation is required. For example, changes in pulse
+duration and the physical orientation of the neurons can sup-
+press neuronal activity rather  than stimulate it.  Super?cial
+brain structures receive a stronger stimulus than deeper ones
+because magnetic ?eld magnitude decreases with the distance
+from the coils. To improve spatial selectivity in their e?ects, re-
+searchers commonly use ?gure-eight or butter?y-coil geome-
+tries, both of which have two coils wound in opposite direc-
+tions to focus stimulation e?ects near the point of overlap.
+Others in the research community have suggested employ-
+ing a similar e?ect in implanted devices as an alternative to the
+conventional electrodes used for deep-brain stimulation that
+apply potentials to inject small currents into their surroundings.
+The alternative electrodes remain tethered to an external power
+source and stimulate neurons in surrounding tissue through
+inductive e?ects generated by an approximately 1-mm-diameter
+solenoid.16 Although still invasive, the approach avoids scar-
+ring, in which brain cells called glia accumulate around an elec-
+trode and insulate it from its intended neuronal targets.
+Inductively powered,  untethered miniature  devices  im-
+planted in the brain take the technology one step further and
+have been demonstrated for neural stimulation in animal mod-
+els.17 Miniaturization is constrained fundamentally by both a
+device’s requirement to reach induced voltages that are phys-
+iologically relevant and its reduced cross-sectional area. The
+most successful of those neural-stimulation devices have a
+highly permeable miniaturized ferrite core and a tightly wound
+solenoid. They use a simple circuit that resonantly couples to
+an alternating magnetic ?eld with a frequency in the low mega-
+hertz range and that recti?es the resulting voltages for direct-
+current stimulation.
+The excitation coils can be thought of as the primary windings
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=350 right=354 upper=430 lower=433
+====>
+charfont height=3.000000, charfont bold=2, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+c
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=362 right=449 upper=431 lower=435
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Induced current in brain
+
+==============================
+
+==============================
+Page 8
+ Left 1 Right 493 Top 1 Bottom 356
+
+
+Column meta:
+Column left:1 upper:31 right:241 lower 356
+Column left:253 upper:31 right:493 lower 356
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=9 left=1 right=129 upper=1 lower=9
+====>
+charfont height=8.000000, charfont bold=2, alignment=-1, allupper=1, column left=-1, likeBody=-100
+
+NEURON ACTUATION
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=241 upper=31 lower=169
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+of a transformer, and the device’s inductive pickup acts as the
+secondary windings. A simple and compact resonant circuit
+recti?es the induced voltage, which allows the device to inject
+current into its surroundings and stimulate neurons. The de-
+gree of the transformer’s inductive coupling is small compared
+with more familiar transformers optimized for power transfer.
+But the design of the device enables noninvasive stimulation
+over a reasonable area in which an animal can freely move.
+Other technical advantages of the approach include low power
+requirements for alternating magnetic field generation and
+the tunable resonance of the secondary coil. With multiple in-
+dependently addressable devices, researchers may be able to
+stimulatedi?erent sites in the brain.
+
+==============================
+
+==============================
+type: undefined
+typeindex=2 left=1 right=104 upper=180 lower=190
+====>
+charfont height=10.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Accelerating progress
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=241 upper=196 lower=356
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The present e?orts to stimulate neurons with magnetic ?elds
+serve as a reminder that progress in science is rarely linear.
+Spurred by the unmet need for a tool useful to neuroscientists
+and clinicians alike, independent researchers have produced
+intriguing ideas and strategies to tackle the same underlying
+problem. Work that garners the greatest attention is the kind
+that seeks to shift existing paradigms, so perhaps it should be
+unsurprising when controversy follows closely behind some of
+the most prominent claims.
+In those cases, a noticeable pattern emerges: Objections often
+center on foreseeable, fundamental explanatory shortcomings.
+Even when researchers have sought to defend the reproducibil-
+ity of their results, they have frequently retreated from their
+initial statements about mechanisms. Arguably, that outcome
+is more a consequence of mindset than of expertise.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=253 right=493 upper=31 lower=114
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=100
+
+The fundamental orientation toward problem-solving often
+fostered in the physical sciences allows one to break di?cult
+problems into solvable pieces and to test plausibility with sim-
+pli?ed arguments rather than perfectly recapitulate reality.
+Thatway of thinking has already led independent researchers
+to make valuable contributions toward magnetic control over
+neurons, and additional engagement and dialog with physical
+scientists could help accelerate progress in neuroscience.
+
+==============================
+
+==============================
+type: undefined
+typeindex=3 left=253 right=306 upper=138 lower=147
+====>
+charfont height=10.000000, charfont bold=0, alignment=-1, allupper=1, column left=253, likeBody=-100
+
+REFERENCES
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=257 right=493 upper=153 lower=167
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=-100
+
+1.?K. Deisseroth, Nat. Neurosci.18, 1213 (2015).
+2.?S. A. Stanley et al., Nature531, 647 (2016); M. A. Wheeler et al.,
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=267 right=366 upper=171 lower=176
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+Nat. Neurosci.19, 756 (2016).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=253 right=493 upper=180 lower=356
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=253, likeBody=-100
+
+3.?M. Meister, eLife 5, e17210 (2016).
+4.?M. Barbic, eLife 8, e45807 (2019).
+5.?M. Hernández-Morales et al., Cell Rep.30, 3250 (2020); M. I. Brier
+et al., Sci. Rep.10, 13096 (2020).
+6.?G. Duret et al., Biophys. J.116, 454 (2019).
+7.?P. J. Hore, H. Mouritsen, Annu. Rev. Biophys.45, 299 (2016).
+8.?K. Yue et al., PLOS One7, e44040 (2012).
+9.?A. Singer et al., Neuron107, 631 (2020).
+10.?H. Huang et al., Nat. Nanotechnol. 5, 602 (2010).
+11.?H. C. Davis et al., Biophys. J.118, 1502 (2020).
+12.?R. Chen et al., Science 347, 1477 (2015); R. Munshi et al., eLife 6,
+e27069 (2017).
+13.?J. Moon et al., Adv. Funct. Mater.30, 2000577 (2020).
+14.?S. Rao et al., Nat. Nanotechnol.14, 967 (2019).
+15.?T. Wagner, A. Valero-Cabre, A. Pascual-Leone, Annu. Rev. Biomed.
+Eng. 9, 527 (2007).
+16.?G. Bonmassar et al., Nat. Commun. 3, 921 (2012).
+17.?D. K. Freeman et al., Front. Neurosci.11, 659 (2017).
+18.?M. G. Christiansen, A. W. Senko, P. Anikeeva, Annu. Rev. Neu-
+rosci.42, 271 (2019).
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=485 right=492 upper=352 lower=355
+====>
+charfont height=4.000000, charfont bold=2, alignment=-99, allupper=-1, column left=253, likeBody=-100
+
+PT
+
+==============================
+

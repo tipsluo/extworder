@@ -1,0 +1,4190 @@
+Content:
+ColumnWidth 411 ColumnNumber 1
+ContentWidth 460 ContentLeft 1 ContentRight 460
+Subtitles:  0 1 4
+
+==============================
+Page 1
+ Left 1 Right 460 Top 1 Bottom 704
+
+
+Column meta:
+Column left:2 upper:35 right:414 lower 704
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-11 left=141 right=222 upper=13 lower=19
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOII::  100..3333559944/0/000002022121
+==============================
+
+==============================
+
+typeindex=-14 left=255 right=405 upper=13 lower=42
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Autho©r( s20. P20ub Thiseh eAdu tbhyo r(s)
+Cell Physiol BiochePmub Plirsehsed G bmyb CHe&ll CPoh.y KsiGol Biochem 
+Press GmbH&Co. KG, Duesseldorf
+www.cellphysiolbiochem.com
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+303
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=141 right=233 upper=21 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Publliisshheed o onnlilnine: 8: 8 A Aprpil i2l 0220020
+==============================
+
+==============================
+
+typeindex=-12 left=141 right=281 upper=35 lower=43
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=16, allupper=0, column left=2, likeBody=-100
+
+JAecmceapàt eedt : a22.:  PMLaKr1ch I n2h0i2b0ition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=-16 left=142 right=413 upper=51 lower=61
+====>
+charfont name=VERTKY+SegoeUI charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=2, likeBody=-100
+
+This article is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Interna-
+tional License (CC BY-NC-ND). Usage and distribution for commercial purposes as well as any distribution of
+==============================
+
+==============================
+
+typeindex=-15 left=142 right=255 upper=63 lower=67
+====>
+charfont name=OKTPRM+SegoeUI charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=2, likeBody=-100
+
+modified material requires written permission.
+==============================
+
+==============================
+
+typeindex=5 left=3 right=70 upper=77 lower=84
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=8, allupper=0, column left=2, likeBody=-100
+
+Original Paper
+==============================
+
+==============================
+type: title
+typeindex=7 left=3 right=370 upper=138 lower=200
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=14.000000, charfont bold=2, alignment=8, allupper=0, column left=2, likeBody=-100
+
+Preferential Killing of Tetraploid Colon 
+Cancer Cells by Targeting the Mitotic 
+Kinase PLK1
+==============================
+
+==============================
+
+typeindex=3 left=3 right=317 upper=220 lower=242
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.700000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=-100
+
+Mohamed Jemaàa    Chamseddine Kifagib    Sonia Simon Serranoa
+Ramin Massoumia
+==============================
+
+==============================
+
+typeindex=-2 left=3 right=406 upper=259 lower=290
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=8, allupper=0, column left=2, likeBody=-100
+
+aDepartment of Laboratory Medicine, Translational Cancer Research, Faculty of Medicine, Lund 
+University, Lund, Sweden, bDivision of Immunology and Vaccinology, Technical University of Denmark, 
+Copenhagen, Denmark
+==============================
+
+==============================
+
+typeindex=5 left=3 right=53 upper=343 lower=350
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=8, allupper=0, column left=2, likeBody=-100
+
+Key Words
+==============================
+
+==============================
+
+typeindex=2 left=3 right=390 upper=355 lower=362
+====>
+charfont name=OKTPRM+SegoeUI charfont height=7.000000, charfont bold=0, alignment=8, allupper=0, column left=2, likeBody=-100
+
+Colon Cancer • Tetraploidy • PLK1 • Mitosis • Apoptosis • Synergy • Microtubules agents
+==============================
+
+==============================
+
+typeindex=5 left=3 right=42 upper=379 lower=386
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=8, allupper=0, column left=2, likeBody=-100
+
+Abstract
+==============================
+
+==============================
+type: abstract
+typeindex=0 left=3 right=414 upper=391 lower=602
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=100
+
+Background/Aims: Chromosomal instability is a well-known factor in the progression of 
+different types of cancer, including colorectal cancer. Chromosomal instability  results  in 
+severely  rearranged  karyotypes  and aneuploidy.  Tetraploidy  constitutes  an  intermediate 
+phase during the polyploidy/aneuploidy cascade  in oncogenesis, and tetraploid cells are 
+particularly resistant to chemotherapy. Whether inhibition of the mitotic protein polo-like 
+kinase 1 (PLK1) prevents the survival of tetraploid colon cancer cells is unknown. Methods: 
+Diploid and tetraploid cells were transfected with siPLK1 or treated with PLK1 inhibitor Bi2536 
+in combination with spindle poison. Cell toxicity was assessed via crystal violet staining and 
+clonogenic assay. Flow cytometry assessment analyzed numerous cell apoptotic parameters 
+and  cell  cycle  phases.  Synergistic  activity  between  Bi2536  and  paclitaxel,  vincristine  or 
+colchicine was calculated using the CompuSyn software. Results: Inhibition or abrogation of 
+PLK1 prevented the survival of colon cancer cells, specifically tetraploid cells. The cell death 
+induced by PLK inhibition was due to mitotic slippage, followed by the activation of the intrinsic 
+pathway of apoptosis. We further demonstrated that co-treatment of the tetraploid colon 
+cancer cells with a PLK1 inhibitor and the microtubule polymerisation inhibitor vincristine or 
+colchicine, but not the microtubule depolymerisation inhibitor paclitaxel, provoked a lethal 
+synergistic effect. Conclusion: PLK1 inhibition together with microtubule-targeting chemicals, 
+serve as a potent therapeutic strategy for targeting tetraploid cancer cells.
+==============================
+
+==============================
+
+typeindex=-14 left=280 right=410 upper=610 lower=621
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=2, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+
+typeindex=-2 left=3 right=220 upper=666 lower=673
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=8, allupper=0, column left=2, likeBody=-100
+
+M. Jemaà and R. Massoumi share senior co-authorship.
+==============================
+
+==============================
+
+typeindex=-13 left=2 right=80 upper=683 lower=696
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=-100
+
+Dr. Mohamed Jemaà
+and Dr. Ramin Massoumi
+==============================
+
+==============================
+
+typeindex=-14 left=142 right=409 upper=683 lower=704
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=2, likeBody=-100
+
+Department of Laboratory Medicine, Translational Cancer Research,
+Lund University, Lund 22381 (Sweden)
+Tel. +46 46 222 64 30, E-Mail mohamed.jemaa@med.lu.se, ramin.massoumi@med.lu.se
+==============================
+
+==============================
+Page 2
+ Left 1 Right 460 Top 1 Bottom 623
+
+
+Column meta:
+Column left:3 upper:64 right:413 lower 623
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+304
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: SUBTITLE_4
+typeindex=4 left=23 right=82 upper=64 lower=71
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Introduction
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=88 lower=623
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+Colorectal cancer (CRC) is one of the most commonly diagnosed cancers and a leading 
+cause of death worldwide. CRC represents 10% of all diagnosed tumours in men and 9.2% in 
+women, and its global incidence is estimated at 1.4 million cases annually, with 700,000 deaths 
+in 2012. Moreover, the CRC incidence is expected to increase 60% by 2030, to more than 2.2 
+million new cases and 1.1 million cancer deaths [1, 2]. Identifying an efficient treatment 
+is thus crucial to reduce the CRC morbidity rates. One of the cancer hallmarks in general, 
+and CRC in particular, is genomic instability. This phenomenon increases the probability of 
+oncogenic events and creates a heterogeneous cell population with extensive abilities to 
+adapt and evolve [3]. Tetraploidy is a state that can lead to aneuploidy and genomic instability 
+[4-6]. Tetraploidy represents the condition of having twice as many chromosomes compared 
+to their normal, diploid counterparts [7, 8]. Tetraploidy can arise from endoreplication (DNA 
+replication without mitosis) [9], endomitosis (karyokinesis without cytokinesis) [10, 11] or 
+aberrant cell fusion [12]. Tetraploid cells are frequently found in pre-neoplastic lesions of 
+intestinal cancers [13-15].
+The persistence of a tetraploid population is often correlated with the inactivation of 
+tumour suppressors retinoblastoma 1 (RB1) and tumour protein p53 [5]. Inactivation of 
+p53 facilitates the tetraploidisation of cell lines [16, 17]. Similarly, mutations that inactivate 
+the  adenomatous  polyposis  coli  (APC)  tumour  suppressor  gene  initiate  a  majority  of 
+colorectal cancers and result in tetraploidisation in vitro and in vivo [18]. Tetraploid cells 
+are intrinsically resistant to genotoxic stress mediated by ionising irradiation or anti-cancer 
+chemotherapeutic agents, including platinum compounds and topoisomerase inhibitors [19, 
+20]. Thus, tetraploid cells might contribute to chemotherapeutic failure. The development 
+of novel strategies to target tetraploid tumour cells can improve the treatment outcome for 
+CRC patients.
+PLK1 is  a  member of  the polo-like  kinase (PLK) family and  mediates several key 
+functions  throughout  mitosis,  including  bipolar  arrangement  of  the  centrosomes,  the 
+spindle assembly checkpoint and cytokinesis [21-23]. PLK1 is located in different subcellular 
+compartments depending on its function. PLK1 is mostly cytoplasmic during the interphase. 
+During early mitosis, PLK1 is accumulated at the spindle poles, then in the kinetochores for 
+chromosomal alignment in the metaphase plate and concentrated in the cytokinetic bridge 
+during cytokinesis [24, 25]. PLK1 expression levels are elevated in a range of different tumor 
+types, including invasive breast carcinoma, hepatocellular carcinoma and CRC [26]. PLK1 
+can promote tumorigenesis in a myriad of ways. First, PLK1 can phosphorylate MDM2 or 
+p53 and abrogate the p53 function. Second, PLK1 can increase the levels of the oncogenic 
+transcription factor MYC in a positive feedback loop. Third, PLK1 overexpression leads to 
+degradation of the tumour suppressor repressor element-1 (RE-1) silencing transcription 
+(REST) in triple negative breast cancer. Fourth, mainly in hepatocellular carcinoma, hepatitis 
+B can stimulate PLK1 activation, an action that leads to the repression of several transcription 
+factors, including SUZ12 and ZNF198. Finally, PLK1 can also inhibit the tumour suppressor 
+phosphatase  and  tensin  homolog  (PTEN)  and  thus  indirectly  activate  the  oncogenic 
+phosphoinositide 3-kinase (PI3K) pathway [27].
+Here, we report that PLK1 inhibition leads to the selective destruction of tetraploid 
+cancer cells. In addition, we provide a complete characterisation of the pro-apoptotic signal 
+transduction pathway provoked by PLK1 inhibition and the benefit of using a combination 
+treatment with anti-microtubule polymerisation agents.
+==============================
+
+==============================
+Page 3
+ Left 1 Right 460 Top 1 Bottom 683
+
+
+Column meta:
+Column left:3 upper:64 right:413 lower 683
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+305
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=4 left=23 right=131 upper=64 lower=71
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Materials and Methods
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=177 upper=89 lower=95
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Cell lines, culture conditions and reagents
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=101 lower=182
+====>
+charfont name=YXNSBS+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Diploid and tetraploid clones derived from human colon carcinoma RKO and HCT116 cells were 
+routinely maintained in McCoy’s 5A medium supplemented with 10% fetal calf serum (FCS), 10mM HEPES 
+buffer, 100units/mL penicillin G sodium and 100?g/mL streptomycin sulfate (all provided from Thermo 
+Fisher Scientific-Gibco, Waltham, MA).  Diploid  and tetraploid  clones  derived from  MFH152 sarcoma 
+cells line were grown in Dulbecco’s modified Eagle’s medium (DMEM) supplemented with 10% FCS and 
+antibiotics. Both RKO and HCT116 clones are p53 WT, while MFH152 clones are p53 mutated. Cells were 
+routinely maintained at 37°C under 5% CO2.
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=60 upper=197 lower=203
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Chemicals
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=209 lower=251
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Bi2536 (Sigma-Aldrich) was stocked at 20 mM. Pifithrin-? (Sigma-Aldrich) was stocked at 20 mg/ml. 
+The pan-caspase inhibitor z-VAD-fmk (Sigma-Aldrich, Germany) was stocked at 50 mM. The necroptosis 
+inhibitor Necrostatine-1 (Sigma-Aldrich, Germany) was stocked at 100 mM. The appropriate amount of 
+DMSO was always employed for negative control conditions.
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=118 upper=269 lower=275
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Clonogenic survival assay
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=281 lower=347
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Cells were seeded at low concentrations (1000 cells/well of 6-well plate) and were left untreated 
+or treated with increasing doses of the PLK1 inhibitor Bi2536. 2 assays were performed. First using a 
+continuous treatment for 2 weeks, or with a washout at 24h followed by culture in standard conditions for 
+up to 15 days. Colonies were then fixed/stained with aqueous crystal violet and counted.
+For each treatment, the surviving fraction (SF) was estimated according to the formula: SF = (number 
+of colonies formed in control condition/number of colonies formed in treatment condition).
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=86 upper=365 lower=371
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+RNA interference
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=377 lower=443
+====>
+charfont name=YXNSBS+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Cells were seeded at low density in 6-well plates and after 24 h transfected with a non-targeting siRNA 
+(siUNR) with a sequence unrelated to the human genome (UNR, sense 5’-GCCGGUAUGCCGGUUAAGUdTdT-3’), 
+with siRNAs directed against PLK1 mRNA (siPLK1a, ON-TARGETplus SMARTpool, L-003290–00-0005; GE 
+Dharmacon, Lafayette, CO, siPLK1b, #ID AM51331 and siPLK1c, ID AM16708, Thermo Fisher Scientific) by 
+means of oligofectamine RNAiMAX transfection reagent (Thermo Fisher Scientific-Invitrogen), according to 
+the manufacturer’s instructions. Transfection efficiency was determined by western blot and real time PCR.
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=87 upper=461 lower=467
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Quantitative PCR
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=473 lower=599
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+The cells were rinsed in cold PBS and total RNA extracted using RNeasy Mini kit (Qiagen, #74106) 
+and performed according to manufacturer’s instruction. The purity of RNA was analyzed and quantified 
+by a NanoDrop 2000 spectrophotometer (Thermo Fisher) and used for cDNA synthesis according to the 
+manufacturer’s instruction (High Capacity cDNA Reverse transcription kit #4368814, Applied Biosystems). 
+PCR runs were performed in the QuantStudioTM 7 Flex System using SYBR®Green Reagent (Applied 
+Biosystems), with the following program; 2?min 50?°C, 10?min in 95?°C followed by 40 three-step cycles 
+consisting of 95?°C for 20?s and 60?°C for 30?s and 72?°C for 1?min. The PLK1 relative expression was 
+quantified using the following primers: Forward primer: TCAAGGAACCTCTGGTGTCA and Reverse primer: 
+GGTTACTCTCTGGAACCTCTGGT. GAPDH (Forward primer: TGCACCACCAACTGCTTAGC and Reverse primer: 
+GGCATGGACTGTGGTCATGAG) and actin (Forward primer: AGAGCTACGAGCTGCCTGAC and Reverse primer: 
+AGTACTTGCGCTCAGGAGGA) were used as housekeeping genes.
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=85 upper=617 lower=623
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Western blotting
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=629 lower=683
+====>
+charfont name=YXNSBS+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Cells were lysed in 8M urea denaturing lysis buffer (8M Urea, 100 mM Na2HPO4, 100 mM NaH2PO4, 
+10 mM Tris/HCl pH 8 and 5 mM DTT). 15 ?g of each sample was subjected to PLK1 western blotting 
+(Thermo Fisher Scientific, # # 33-1700) using HRP-conjugated goat anti-mousse as a secondary antibody 
+(Life Technologies, A16054). After ECL development the blot was re-probed with anti ?-tubulin (Sigma-
+Aldrich, SAB4500087) followed by rabbit anti-mouse-HRP (abcam, #ab6728).
+==============================
+
+==============================
+Page 4
+ Left 1 Right 460 Top 1 Bottom 671
+
+
+Column meta:
+Column left:3 upper:65 right:413 lower 671
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+306
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=143 upper=65 lower=71
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Cristal Violet proliferation assay
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=77 lower=155
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Cells were seeded in 96-well plates with a 5000-cells/well density. 24 hours later, cells were treated 
+or not with Bi2536 or DMSO, or transfected with siUNR or siPLK1 for up to 3 days. Cells were fixed with 4% 
+paraformaldehyde (PFA) for 30 min. Then after, PFA was removed and cells were stained for 30 min at room 
+temperature with aqueous solution containing 0.1% (w/v) crystal violet. Cells were washed three times with 
+distilled water before the administration of 200 µl/well of 10% acetic acid and shaking with micropipettes. 
+The absorbance of each sample was measured using a scanning microplate spectrophotometer (Synergy 2, 
+Biotek, Germany) reader by absorbance detection at 595 nm.
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=114 upper=173 lower=179
+====>
+charfont name=JBUWZW+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Cytofluorometric studies
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=185 lower=671
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Cytofluorometric  acquisitions  were  performed  by  means  of  a  FACSVerse  cytofluorometer  (BD 
+Biosciences). Data were statistically evaluated using the FCS Express 6 Flow (De Novo Software, CA, USA) 
+software.
+1/ Cell cycle analysis and subG1 quantification. For the quantification of cells cycle profiling (DNA 
+content), cells were fixed with 75% (v/v) ethanol in PBS, DNA was stained with propidium iodide and 
+analyzed with the cytometer. To quantity the apoptotic and DNA fragmented fraction we measured the 
+subG1 population in the cell cycle. The PI is measured with an excitation wavelength of 488 nm (blue laser) 
+and an emission wavelength of 695 nm on the PerCP-Cy5.5 channel.
+2/ Measurement of cell permeabilization. For the quantification of plasma membrane integrity, cells 
+were harvested and collected with the culture medium and stained with 0.5 to 1 ?g/mL Propidium Iodide 
+(PI), which only incorporates into dead cells, from ThermoFisher) for 30 min at 37°C before FACS assessment. 
+The PI is measured with an excitation wavelength of 488 nm (blue laser) and an emission wavelength of 695 
+nm on the PerCP-Cy5.5 channel.
+3/ Measurement of mitochondrial membrane potential. For the simultaneous quantification of plasma 
+membrane integrity and mitochondrial transmembrane potential (??m), cells were harvested and collected 
+with the culture medium and stained with 1 ?g/mL propidium iodide and 40 nM 3, 3’-dihexyloxacarbocyanine 
+iodide (DiOC6(3), a ??m-sensitive dye) (Molecular Probes-Invitrogen, Eugene, OR, USA) for 30 min at 37 °C 
+before FACS assessment. The DiOC6(3) is measured with an excitation wavelength of 488 nm (blue laser) 
+and an emission wavelength of 530 nm.
+4/  Measurement  of  cell  scrambling  and  phosphatidylserine  exposure.  For  the  quantification  of 
+phosphatidylserine exposure, cells were harvested and collected with the culture medium and stained 
+with Annexin-V-FITC (1:200 dilutions; ImmunoTools, Friesoythe, Germany) for 30 min at 37 °C before FACS 
+assessment. The FITC is measured with an excitation wavelength of 488 nm (blue laser) and an emission 
+wavelength of 530 nm.
+5/  Measurement of intracellular  Calcium concentration.  For the evaluation  of  the cytosolic  Ca2+, 
+cells were collected and suspended in growth medium loaded with 5 ? M of the calcium tracker Fluo-3/
+AM (Biotium, Hayward, CA, USA). The cells were incubated at 37 °C for 30 min before Ca2+-dependent 
+fluorescence intensity measurement. The Fluo-3 AM is measured with an excitation wavelength of 488 nm 
+(blue laser) and an emission wavelength of 530 nm. The signal shift was measured comparatively to non-
+treated cells.
+6/ Measurement of caspase 3 activation. To measure the level of cleaved caspase 3, cells were fixed with 
+75% (v/v) ethanol in PBS, permeabilized with 0.25% (v/v) Tween 20 in PBS and stained overnight with a 
+rabbit antiserum specific for active Caspase-3 coupled with the fluorochrome FITC (FITC Rabbit Anti-Active 
+Caspase-3, Clone C92-605 #559341, BD Biosciences). The FITC is measured with an excitation wavelength 
+of 488 nm (blue laser) and an emission wavelength of 530 nm.
+7/ Measurement of cleaved PARP. To measure the level of cleaved PARP, cells were fixed with 75% 
+(v/v) ethanol in PBS, permeabilized with 0.25% (v/v) Tween 20 in PBS and stained overnight with a rabbit 
+antiserum specific for cleaved PARP (Rabbit anti PARP cleaved (Y34), #ab32561, Abcam). Alexa Fluor® 
+Plus 488 conjugated goat anti-rabbit was used as secondary antibody (Thermo fisher #A32731). The 
+fluorescence is measured with an excitation wavelength of 488 nm (blue laser) and an emission wavelength 
+of 530 nm.
+==============================
+
+==============================
+Page 5
+ Left 1 Right 460 Top 1 Bottom 707
+
+
+Column meta:
+Column left:3 upper:65 right:413 lower 707
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+307
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=267 upper=65 lower=71
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Quantitative network mapping of the human kinome interactome
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=77 lower=95
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+To perform the quantitative network mapping of the human kinome interactome we used STRING 
+plugin related to the Cytoscape software. IC50 values were collected form STITCH database [28].
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=347 upper=113 lower=131
+====>
+charfont name=JBUWZW+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Heatmap of drugs efficiency
+Heatmap of drugs efficiency on kinases panel was performed by gplots package on R.
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=149 upper=149 lower=155
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Synergistic activity determination
+==============================
+
+==============================
+
+typeindex=-4 left=3 right=413 upper=161 lower=191
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+CompuSyn version 1.0 software  was used to evaluate  the potential synergistic effect of Bi2536 
+in combination with paclitaxel, vincristine or colchicine where a combination index (CI) <1 indicated 
+synergism, CI=1 additive effect and CI>1 antagonism.
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=94 upper=209 lower=215
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Statistical analyses
+==============================
+
+==============================
+
+typeindex=-3 left=23 right=413 upper=221 lower=227
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Statistical analyses were performed using the GraphPad Software and assessed by non-parametric
+==============================
+
+==============================
+
+typeindex=-2 left=3 right=336 upper=233 lower=239
+====>
+charfont name=YXNSBS+Cambria charfont height=6.000000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+ANOVA (Mann-Whitney-test). The results are expressed as means ± standard deviation.
+==============================
+
+==============================
+type: SUBTITLE_4
+typeindex=4 left=23 right=56 upper=268 lower=275
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Results
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=23 right=276 upper=292 lower=299
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=7.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Preferential killing of tetraploid cells after PLK1 inhibition
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=304 lower=707
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+To evaluate the differential impact of PLK1 knockdown on the survival of tetraploid and 
+diploid colon cancer cells, we utilised previously generated 2n and 4n clones derived from 
+parental human colon carcinoma RKO cells [29]. The diploid and tetraploid clones were 
+transfected with an unrelated small interfering RNA (siUNR) as a control and a SMARTpool 
+siPLK1 (siPLK1a), to knockdown PLK1, for up to 72 h (Fig. 1A). The cells were fixed and 
+stained with propidium iodide (PI) to assess with flow cytometry the cell cycle distribution 
+and the proportion of the hypodiploid (subG1) fraction, a hallmark of cell death (Fig. 1B). 
+Compared to their diploid counterparts, tetraploid clones were particularly sensitive to 
+PLK1 knockdown. In order to avoid any off-target activity of the siPLK1a, we used two 
+additional siRNA: siPLK1b and siPLK1c. The knockdown efficiency for the three siRNAs 
+was  evaluated  using real-time polymerase chain  reaction (PCR), 48  h post-transfection 
+(Fig. 1C). We performed a proliferation assay using crystal violet and found that tetraploid 
+cells were more sensitive to PLK1 knockdown compared to their diploid counterpart (Fig. 
+1D-F). To further confirm our finding, the cells were transfected with siPLK1a, b or c and 
+evaluated cell death after 72 h by co-staining with the vital dye propidium iodide (PI) and the 
+mitochondrial transmembrane potential (? ? m) sensor DiOC6(3). The PI cell incorporation 
+shows loss of cell membrane integrity and in consequence cell death ((DiOC6(3) low PI 
+high), while loss of mitochondrial transmembrane potential (DiOC6(3)low PI low) is a sign 
+of early stage apoptosis. The frequency of (DiOC6(3) low PI low) and (DiOC6(3)low PI high) 
+cells analyzed by flow cytometry was indeed higher in tetraploid comparatively to diploid 
+cells (Fig. 1G-H). The cell death mediated by PLK1 knockdown in tetraploid cells was also 
+confirmed using human colon carcinoma HCT116 (Supplementary Fig. S1A-B) and sarcoma 
+cells (Supplementary Fig. S2A – for all supplemental material see www.cellphysiolbiochem.
+com).
+Next, we focused on small molecule PLK1inhibitors to assess a potentially alternative 
+treatment option to target PLK1 for cancer therapy. We decided to focus on drugs that are 
+already in clinical trials (Table 1). We performed a kinase-drug interaction network using 
+the STRING  plugin,  which is related to the Cytoscape software  [30], to extract the half 
+maximal inhibitory concentration (IC50) sensitivity of PLK1 of the listed drugs in Table 1 
+(Supplementary Fig. S3A-B). Among all the enumerated molecules, Bi2536 and GSK461364 
+showed the highest potency to inhibit PLK1 based on the IC50 values (Supplementary Fig. 
+S3B). We utilised the KINOMEscan library, an online biochemical kinase profiling assay that 
+measures drug binding using a panel of 309 purified kinases (https://lincs.hms.harvard.
+edu/kinomescan/).  Based  on  the  values  obtained  from  the  KINOMEscan  library using
+==============================
+
+==============================
+Page 6
+ Left 1 Right 460 Top 1 Bottom 659
+
+
+Column meta:
+Column left:3 upper:461 right:413 lower 659
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+308
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=3 right=413 upper=461 lower=659
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Fig. 1. Preferential killing of tetraploid cells after PLK1 knockdown. A. Diploid (labelled in green) and 
+tetraploid (labelled in orange) human colorectal carcinoma cells were transfected with an unrelated small 
+interfering RNA (siUNR) or a SMARTpool siPLK1 (siPLKa). After 24, 48 or 72 h, the cells were collected 
+and lysed before a western blot analysis using antibodies directed against PLK1 and ?-tubulin as a loading 
+control. B. Alternatively, cells were subjected to the determination of DNA degradation following the cell 
+cycle subG1 population as a hallmark of cell death by flow cytometry upon cell fixation and propidium iodide 
+(PI) staining. C. The knockdown efficiency of PLK using real-time polymerase chain reaction (PCR) in diploid 
+and tetraploid RKO cells transfected with siUNR or three different siPLK1 (siPLK1a, siPLK1b and siPLK1c) 
+for 48 h. D-F. Cell proliferation and death in cells transfected with siUNR or three different siPLK1 (siPLK1a, 
+siPLK1b and siPLK1c) was examined after 72 h using a crystal violet assay. G-H. The cells were transfected 
+with siUNR orthree different siPLK1 and co-stained with the vital dye PI and the mitochondrial membrane 
+potential (??m)-sensing dye DiOC6(3) to evaluate cell-death-associated parameters by cytofluorometry. A 
+representative histogram of RKO diploid and tetraploid cells transfected with siUNR vs siPLK1a is shown 
+in (G), while quantitative data are represented in (H). The white and black columns depict the percentage 
+of dying (PI?DiOC6(3)low) and dead (PI+) cells, respectively.  Data are reported as means ± SD (n ? 3). 
+***p<0.001, **p<0.01, *p<0.05 (Mann–Whitney test), as compared to the control. ###p<0.001, ##p<0.01, 
+#p<0.05  (Mann–Whitney test), as compared to diploid subjected to the same treatment condition.
+==============================
+
+==============================
+Page 7
+ Left 1 Right 460 Top 1 Bottom 708
+
+
+Column meta:
+Column left:3 upper:64 right:413 lower 708
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+309
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=3 right=413 upper=64 lower=88
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Table 1. List of PLK1 inhibitors in clinical trial studies. * Lipid nanoparticle formulation of siRNA directed 
+agains t Plk1. ** Prodrug of HMN-176 with improved oral absorption
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=5 right=53 upper=94 lower=100
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+PLK inhibitors
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=66 right=125 upper=94 lower=100
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Commercial name
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=144 right=167 upper=94 lower=100
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Target
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=200 right=231 upper=94 lower=100
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+Company
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=254 right=410 upper=94 lower=100
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Clinical trial phase  Tumor type  Reference
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=135 right=177 upper=110 lower=124
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+ATP-binding 
+domain
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=195 right=234 upper=110 lower=124
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+Boehringer-
+Ingelheim
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=325 right=367 upper=110 lower=124
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Solid tumors 
+& Leukemia
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=31 upper=114 lower=120
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+BI6727
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=78 right=112 upper=114 lower=120
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Volasertib
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=114 lower=120
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 3
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=114 lower=120
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+68
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=136 right=176 upper=135 lower=149
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Plk1 non-
+competitive
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=194 right=237 upper=135 lower=149
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+Onconova 
+Therapeutics
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=325 right=367 upper=135 lower=149
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Solid tumors 
+& Leukemia
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=40 upper=139 lower=145
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+ON-01910
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=78 right=112 upper=139 lower=145
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Rigosertib
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=139 lower=145
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 3
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=139 lower=145
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+69
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=135 right=177 upper=159 lower=173
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+ATP-binding 
+domain
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=195 right=234 upper=159 lower=173
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+Boehringer-
+Ingelheim
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=31 upper=163 lower=169
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+BI2536
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=94 right=96 upper=163 lower=169
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=163 lower=169
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=325 right=367 upper=163 lower=169
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Solid tumors
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=163 lower=169
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+70
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=188 right=243 upper=180 lower=204
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+Tekmira 
+Pharmaceuticals 
+Corporation
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=136 right=176 upper=185 lower=199
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Plk1 non-
+competitive
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=54 upper=189 lower=195
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+TKM-080301 *
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=94 right=96 upper=189 lower=195
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=189 lower=195
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=325 right=367 upper=189 lower=195
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Solid tumors
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=189 lower=195
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+71
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=135 right=177 upper=211 lower=226
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+ATP-binding 
+domain
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=45 upper=216 lower=221
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+GSK461364
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=73 right=117 upper=216 lower=221
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=1, column left=3, likeBody=-100
+
+GSK461364A
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=188 right=243 upper=216 lower=221
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+GlaxoSmithKline
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=216 lower=221
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=325 right=367 upper=216 lower=221
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Solid tumors
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=216 lower=221
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+72
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=135 right=244 upper=235 lower=250
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+ATP-binding  Nerviano Medical 
+Science
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=325 right=367 upper=235 lower=250
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Solid tumors 
+& Leukemia
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=41 upper=240 lower=245
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+NMS-P937
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=75 right=116 upper=240 lower=245
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Onvansertib
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=240 lower=245
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=240 lower=245
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+73
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=135 right=177 upper=244 lower=273
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+domain 
+ATP-binding 
+domain
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=188 right=243 upper=259 lower=273
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+Takeda 
+Pharmaceuticals
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=36 upper=263 lower=269
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+TAK-960
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=94 right=96 upper=263 lower=269
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=263 lower=269
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=330 right=363 upper=263 lower=269
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Leukemia
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=263 lower=269
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+74
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=135 right=177 upper=282 lower=297
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+ATP-binding 
+domain
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=46 upper=287 lower=293
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+HMN-214 **
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=94 right=96 upper=287 lower=293
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=187 right=244 upper=287 lower=293
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+Nippon Shinyako
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=287 lower=293
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=325 right=367 upper=287 lower=293
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Solid tumors
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=287 lower=293
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+75
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=135 right=177 upper=306 lower=321
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+ATP-binding 
+domain
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=188 right=243 upper=306 lower=321
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+Cyclacel 
+Pharmaceuticals
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=5 right=32 upper=310 lower=316
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=8, allupper=1, column left=3, likeBody=-100
+
+CYC140
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=94 right=96 upper=310 lower=316
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=271 right=298 upper=310 lower=316
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Phase 1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=330 right=363 upper=310 lower=316
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Leukemia
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-10 left=389 right=398 upper=310 lower=316
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+76
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=201 right=203 upper=327 lower=350
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=353 lower=396
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+Bi2536 and GSK461364 at 10 ?M, we generated a heatmap of the drugs’ specificity. The 
+results for each inhibitor are reported as “pe rcent of control”, where the control is dimethyl 
+sulphoxide (DMSO). A value of 100% indicate  d no inhibition of kinase binding to the ligand 
+in the presence of Bi2536 or GSK461364, while a low percent indicated strong inhibition.
+==============================
+
+==============================
+
+typeindex=-6 left=201 right=203 upper=388 lower=400
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=401 lower=482
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+Since Bi2536  was more  specific  for  PLK1  c ompared  to  GSK461364  (Supplementary  Fig. 
+S3C), we decided to continue our investigatio n on tetraploid cells using Bi2536.
+We initially performed a concentration  dependent  proliferation assay using  crystal 
+violet.  The  tetraploid  cells  showed  a  highe  r  sensitivity  against  Bi2536-treatment  after 
+24–72 h compared to diploid cells (Fig. 2A-C). The major differences in the Bi2536 was 
+observed after 72 h (Fig. 2C). Tetraploid RKO  cells treated with Bi2536 were more cytotoxic 
+measuring the subG1 cell population compa red to diploid cells (Fig. 2D). Moreover, using
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=201 right=202 upper=458 lower=460
+====>
+charfont name=HGTKXA+Cambria charfont height=5.800000, charfont bold=0, alignment=16, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=485 lower=564
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+flow cytometry-mediated measurement of PI and DiOC6(3), tetraploid cells showed a higher 
+sensitivity when  treated with 5, 10 or 50  nM   Bi2536  compared to  diploid cells (Fig. 2E). 
+Consistently, Bi2536 significantly reduced th e clonogenic potential of tetraploid compared 
+to diploid cells, either with continuous 5 nM Bi2536 treatment (75.3 +/- 25 diploid vs 4.3 +/- 
+3 tetraploid) or after 24 h drug washout (21  7 +/- 37 diploid vs 148 +/- 35 tetraploid) (Fig. 
+2F-G). The preferential toxicity of the Bi2536 to tetraploid cells was also confirmed using the 
+human colon carcinoma HCT116 (Supplementary Fig. S1C-D) and sarcoma (Supplementary
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=201 right=203 upper=565 lower=568
+====>
+charfont name=HGTKXA+SegoeUI-Bold charfont height=5.400000, charfont bold=2, alignment=16, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=569 lower=590
+====>
+charfont name=YXNSBS+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+Fig. S2B)  cells  lines. Taken together,  these   findings  demonstrated  that  targeting  PLK1 
+represents an efficient strategy to preferentia lly kill tetraploid colon cancer cells.
+==============================
+
+==============================
+
+typeindex=-6 left=201 right=203 upper=595 lower=600
+====>
+charfont name=HGTKXA+SegoeUI-Bold charfont height=5.400000, charfont bold=2, alignment=16, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=23 right=413 upper=605 lower=624
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=7.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+The PLK1 inhibition triggered the mitochondrial apoptotic pathway in tetraploid colon 
+cancer cells
+==============================
+
+==============================
+
+typeindex=-6 left=201 right=203 upper=615 lower=620
+====>
+charfont name=HGTKXA+SegoeUI-Bold charfont height=5.400000, charfont bold=2, alignment=16, allupper=0, column left=3, likeBody=-100
+
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=625 lower=708
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+To  characterise  the  cell  death  pathwa  y  engaged  after  PLK1  inhibition,  tetraploid 
+RKO colon cancer cells were treated for 72  h with DMSO (as a control) or 10 nM Bi2536. 
+Cell death was evaluated  by flow-cytometr y-mediated measurement of well-recognised 
+apoptotic  parameters  [31],  including  phosphatidylserine  (PS)  surface  exposure  using 
+Annexin V staining (Fig. 3A), dissipation of the mitochondrial inner transmembrane potential 
+(??m) with the sensitive dye DiOC6(3) (Fig. 3B), examining the intracellular calcium (Ca2+) 
+concentration with the Fluo-3/AM dye (Fig. 3C) and caspase-3 cleavage with an appropriate
+==============================
+
+==============================
+Page 8
+ Left 1 Right 460 Top 1 Bottom 730
+
+
+Column meta:
+Column left:3 upper:556 right:413 lower 730
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+310
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=3 right=413 upper=556 lower=730
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Fig. 2. Preferential killing of tetraploid cells after PLK1 chemical inhibition. A-C. Diploid and tetraploid 
+RKO cells were exposed to DMSO control or increasing doses of the PLK1 inhibitor Bi2536 for 24 h (A), 48 
+h (B), or 72 h (C) before analysis with a crystal violet assay. D. Diploid and tetraploid RKO cells were treated 
+with DMSO or 10 nM Bi2536. The subG1 cell population was detected by flow cytometry upon fixation 
+and propidium iodide (PI) staining after 72 h treatment. E. Diploid and tetraploid RKO cells were treated 
+with DMSO or 5, 10 or 50 nM Bi2536 for 72 h before co-staining with PI and the mitochondrial membrane 
+potential (??m)-sensing dye DiOC6(3) for the evaluation of cell death by cytofluorometry. The white and 
+black columns depict the percentage of dying (PI?DiOC6(3)low) and dead (PI+) cells, respectively. F-G. 
+Diploid and tetraploid RKO cells were seeded at low concentration for a clonogenic assay. The cells were 
+treated with DMSO as a control or 1, 5, 10, 50 or 100 nM Bi2536 and cultivated for 15 days, without (F) or 
+with a 24 h drug washout (G) before crystal violet staining and colony counting. Representative images for 
+each condition are showed in panel and quantitative data of clonogenic survival comparatively to control 
+are represented. Data are reported as means ± SD (n ? 3). ***p<0.001,  **p<0.01, *p<0.05    (Mann–Whitney 
+test), as compared to the control. ###p<0.001,  ##p<0.01, #p<0.05  (Mann–Whitney test), as compared to 
+diploid subjected to the same treatment condition.
+==============================
+
+==============================
+Page 9
+ Left 1 Right 460 Top 1 Bottom 740
+
+
+Column meta:
+Column left:2 upper:389 right:413 lower 740
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+311
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=2 right=413 upper=389 lower=740
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=-100
+
+Fig.  3.  PLK1  inhibition  killed  tetraploid  colon  cancer  cells  via  the  intrinsic  apoptotic  pathway.  A. 
+Tetraploid RKO cells were seeded before treating with DMSO or 10 nM Bi2536. After 72 h, the cells were 
+collected and stained with FITC-conjugated Annexin V and analysed by flow cytometry for the detection 
+of phosphatidylserine exposure. Representative dot plots are presented in the left panel, and quantitative 
+data are presented in the right panel. B. The cells were stained with the mitochondrial membrane potential 
+(??m)-sensing dye DiOC6(3). Representative dot plots (left panel) and quantitative data (right panel) of the 
+signal shift of DMSO and Bi2536 treated cells are represented. C. The cells were stained with the calcium 
+dye Fluo-3 to quantify the cytosolic Ca2+ concentration by flow cytometry. Representative dot plots of DMSO 
+and Bi2536 treated cells are showed and quantitative data of the signal shift are represented. D. The cells 
+were fixed with cold 75% ethanol and labelled with the FITC-conjugated Casp3 c to detect cleaved caspase-3 
+by flow cytometry. Representative dot plots of DMSO and Bi2536 treated cells are shown, and quantitative 
+data of the signal shift are represented. E. The effects of the pan caspase inhibitor Z-VAD-fmk on PLK1-
+inhibitor-induced cell death. Tetraploid RKO cells were treated for 72 h with the PLK1 inhibitor alone or 
+in combination with 50 ?M Z-VAD-fmk, followed by DiOC6(3)/PI co-staining. The white and black columns 
+depict the percentage of dying (PI?DiOC6(3) low) and dead (PI+) cells, respectively. F. The cells were fixed 
+with cold 75% ethanol and labelled with a cleaved PARP antibody to detect cleaved PARP by flow cytometry. 
+Representative dot plots of DMSO- and Bi2536-treated cells are shown, and quantitative data of the signal 
+shift are represented. G. The effects of the p53 antagonist pifithrin-? (PFT-?) on PLK-knockdown-induced 
+cell death. Tetraploid RKO cells were transfected with siUNR or siPLK1 for 72 h alone or in combination with 
+20 ng/ml PFT-? followed by DiOC6(3)/PI co-staining. Quantitative data are represented. The white and black 
+columns depict the percentage of dying (PI?DiOC6(3) low) and dead (PI+) cells, respectively. H. The effects 
+of the p53 antagonist PFT-? on Bi2536-induced cell death. Tetraploid RKO cells were treated for 72 h with 
+Bi2536 alone or in combination with 20 ng/ml PFT-? followed by DiOC6(3)/PI co-staining. Quantitative data 
+are represented. The white and black columns depict the percentage of dying (PI?DiOC6(3) low) and dead 
+(PI+) cells, respectively. I. The effects of the necroptosis inhibitor necrostatin-1 on PLK1-inhibitor-induced 
+cell death. Tetraploid RKO cells were treated for 72 h with the PLK1 inhibitor alone or in combination with 
+100 ?M necrostatin-1, followed by DiOC6(3)/PI co-staining. Quantitative data are represented. The white 
+and black columns depict the percentage of dying (PI?DiOC6(3) low) and dead (PI+) cells, respectively. Data 
+are reported as means ± SD (n ? 3). ***p<0.001,  **p<0.01 (Mann–Whitney test), as compared to the control. 
+###p<0.001,  ##p<0.01 (Mann–Whitney test), as compared to diploid subjected to the same treatment 
+condition.
+==============================
+
+==============================
+Page 10
+ Left 1 Right 460 Top 1 Bottom 709
+
+
+Column meta:
+Column left:3 upper:65 right:413 lower 709
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+312
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=65 lower=300
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+antibody (Fig. 3D). Moreover, the co-treatment of the cells with the broad-spectrum caspase 
+inhibitor Z-Val-Ala-Asp-fluoromethylketone (Z-VAD-fmk) significantly reduced the death of 
+tetraploid cells that responded to PLK1 inhibition (Fig. 3E). Further confirming the role of 
+caspases in the execution of apoptosis, tetraploid cells that responded to Bi2536 manifested 
+the apoptosis-associated cleavage of poly (ADP-ribose) polymerase (PARP) (Fig. 3F). These 
+results indicated that PLK1 inhibition triggers the intrinsic pathway of apoptosis in tetraploid 
+colon cancer cells.
+P53 is the most frequently mutated gene in human cancers [32]. Moreover, p53 is the 
+major mediator of the cellular response to stress, and it stimulates the execution of apoptosis 
+via the transactivation of several proapoptotic genes [33]. Thus, we investigated the effect 
+of p53 inhibition when PLK1 was knocked down or inhibited by treating the tetraploid RKO 
+cells with cyclic pifithrin-? (PFT-?), a pharmacological antagonist of p53 [34], in the presence 
+of siPLK1 (Fig. 3G) and with Bi2536 co-treatment (Fig. 3H). Cell death was assessed by flow 
+cytometry by co-staining with the mitochondrial inner transmembrane potential (??m) 
+sensitive dye DiOC6(3) and the vital dye PI. This procedure identifies dying cells (DiOC6(3)
+low PI?) and dead (PI+) cells. The loss of p53 function conferred a death resistance to the 
+treatment (Fig. 3G-H). To investigate the effect of PLK1 inhibition on necroptosis induction, 
+the cells were co-treated with 10 nM Bi2536 and  100  ?M of  the  necroptosis inhibitor 
+necrostatin-1. There was no protective effect after co-staining with DiOC6(3) and PI, a finding 
+that excluded any role of PLK1 inhibition to induce regulated necrosis (Fig. 3I).
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=23 right=264 upper=317 lower=324
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=7.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Targeting PLK1 perturbed tetraploid cell cycle divisions
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=329 lower=348
+====>
+charfont name=YXNSBS+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+When analysing cell cycle profiles using flow cytometry after staining fixed cells with 
+the DNA dye PI, we observed that inhibition or depletion of PLK1 perturbed the diploid
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=3 right=413 upper=667 lower=709
+====>
+charfont name=YXNSBS+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-100
+
+Fig. 4. PLK1 inhibition perturbed the cell cycle. A-B. Diploid and tetraploid human colorectal carcinoma 
+RKO cells were treated with DMSO or 10 nM Bi2536. After 24, 48 or 72 h, the cells were collected and fixed 
+with cold 75% ethanol. The fixed cells were further labelled with propidium iodide (PI), followed by the 
+assessment of cell cycle distribution. A representative histogram and quantitative data are represented.
+==============================
+
+==============================
+Page 11
+ Left 1 Right 460 Top 1 Bottom 710
+
+
+Column meta:
+Column left:2 upper:65 right:413 lower 710
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+313
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=65 lower=228
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=100
+
+and tetraploid cell cycle progression. We excluded the subG1 population to focus on the 
+proliferative cells (Fig. 4A). Compared to the control conditions, the cells were blocked 
+in G2/M phase after 24 h treatment. Some cells underwent mitotic slippage and became 
+hyper-diploid and hyper-tetraploid, respectively. (Hyperploidy is shown in the figure as DNA 
+content > 4n and > 8n for diploid and tetraploid clones, respectively). Notably, the fraction of 
+hyperploidisation induced by PLK1 inhibition was higher in tetraploid compared to diploid 
+cells (Fig. 4B). Indeed, the diploid cells stayed in the G2/M phase longer than tetraploid cells, 
+and approximately 15% of the cells became hyper-diploid after 72 h. However, tetraploid 
+cells executed mitotic slippage earlier; the hyperploid fraction was approximately 16% at 
+24 h and reached 32% at 72 h. These findings suggest that the anti-tetraploid effect of PLK1 
+inhibition came from the relative inability of tetraploid (as compared to diploid) cells to 
+tolerate any further increase in ploidy. Targeting PLK1 preferentially kills tetraploid colon 
+cancer cells by triggering an uncontrolled and lethal hyperploidisation programme, followed 
+by a mitotic catastrophe executed by the intrinsic apoptotic pathway.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=245 lower=360
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=100
+
+PLK1 and tubulin polymerisation inhibitors synergistically induced apoptosis in tetraploid 
+colon cancer cells
+Given that PLK1 inhibition induced mitotic catastrophe and polyploidy after a long 
+arrest in the mitotic phase, we asked whether the combination of PLK1 inhibition with a 
+microtubule poison could promote any synergistic effects concerning cells death in tetraploid 
+colon  cancer cells.  To address this question, we used  different classes of microtubules 
+poisons, including  paclitaxel as a tubulin depolymerisation  inhibitor and vincristine or 
+colchicine as tubulin polymerisation inhibitors. We found a concentration dependent cell 
+survival in tetraploid cells. (Fig. 5A, 5C and Supplementary Fig. S4A). The combination of 
+Bi2536 and paclitaxel did not result in any synergistic activity (Supplementary Fig. S4B-C
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=2 right=413 upper=620 lower=710
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=-100
+
+Fig. 5. Synergistic lethality of low-dose PLK1 inhibitor and microtubule polymerisation inhibitors. A. 
+Tetraploid RKO cells were exposed to different doses of vincristine and cell survival was calculated after 72 
+h using a crystal violet assay. B. Tetraploid RKO cells were treated with different concentrations of Bi2536 
+and vincristine to evaluate the synergetic effect of the combination treatment. The red stars indicate the 
+synergetic effect of the treatment condition. C. Tetraploid RKO cells were exposed to increased dose of 
+colchicine and cell survival was calculated at 72 h using crystal violet assay. D. Combination treatment with 
+Bi2536 and colchicine was performed to evaluate the synergetic effect of the combination treatment. The 
+red stars indicate a synergetic effect for the treatment condition.
+==============================
+
+==============================
+Page 12
+ Left 1 Right 460 Top 1 Bottom 696
+
+
+Column meta:
+Column left:3 upper:64 right:413 lower 696
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+314
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=189 right=404 upper=64 lower=71
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=0, allupper=0, column left=3, likeBody=-100
+
+Table 2. Synergistic measurement of drugs combination
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=2 left=3 right=177 upper=65 lower=180
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+and Table 2), whereas the combination 
+of Bi2536 and vincristine or colchicine 
+provoked  significant  synergy  in  the 
+cell survival (Fig. 5B, 5D and Table 2). 
+Taken together, these data underscore 
+the possibility of combining PLK1 and 
+microtubule polymerisation inhibition 
+but not microtubule depolymerisation 
+agent for the treatment for colorectal 
+cancer.
+==============================
+
+==============================
+type: SUBTITLE_4
+typeindex=4 left=23 right=72 upper=209 lower=216
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Discussion
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=233 lower=696
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+In this study, we proposed a novel 
+strategy for targeting tetraploid colon 
+cancer cells based on the abrogation 
+of the mitotic kinase PLK1. By using 
+tumour cells that display distinct levels 
+of ploidy (diploid and tetraploid), we 
+showed that the depletion or inhibition 
+of PLK1 effectively and preferentially 
+killed tetraploid colon cancer cells via 
+mitotic catastrophe and the activation 
+of  a  mitochondrial-  and  caspase-
+dependent  apoptosis. The  cell  death 
+mechanism  occurred  after  a  G2/M 
+block, followed by mitotic slippage and 
+polyploidy. In  addition,  we  provided 
+evidence  that  the  combination  of 
+PLK1  inhibition  with  microtubule 
+polymerisation inhibitors (vincristine 
+or  colchicine)  induced  significant 
+synergetic cell death (Fig. 6).
+PLK1 is the most investigated member of the PLK serine/threonine protein kinases 
+family [24, 27]. During the cell cycle, PLK1 controls, among others, mitotic entry and the 
+G2/M checkpoint, coordinates the centrosome cycle, regulates the chromosome segregation, 
+plays multiple functions at the spindle midzone, participates in abscission and is involved 
+in cytokinesis [24, 25, 35, 36]. In the Cancer Genome Atlas (TCGA) database (https://tcga-
+data.nci.nih.gov/tcga/), PLK1 messenger RNA (mRNA) expression is significantly higher in 
+tumour compared to normal tissue (across 24 different types of cancers). In comparison 
+to other cancer types, colorectal cancer exhibits high PLK1 expression [26]. Moreover, a 
+previous study showed that upregulated PLK1 expression correlates with inferior survival 
+outcomes in patients with rectal cancer [37]. PLK1 overexpression induces chromosomal 
+instability [38], a finding that places this kinase as a promising antineoplastic target for 
+cancers with a high level of genomic instability, especially colorectal tumours.
+The Bi2536 inhibitor is the most commonly molecule used in the characterisation of 
+PLK1 function and anticancer activity [39]. Bi2536 is a well-tolerated inhibitor with potent 
+efficacy in vivo, in several well-established xenograft models [40]. Moreover, Bi2536 was 
+included in a completed phase II clinical trial for patients with solid tumours, including 
+non-small cell lung, pancreatic or hormone-refractory prostate cancer (clinicaltrials.gov, 
+NCT00376623, NCT00706498, NCT00412880 and NCT00710710). However, we have not 
+identified any PLK1 inhibitor that has entered the chemotherapeutic market.
+==============================
+
+==============================
+Page 13
+ Left 1 Right 460 Top 1 Bottom 702
+
+
+Column meta:
+Column left:2 upper:393 right:413 lower 702
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+315
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=-4 left=2 right=413 upper=393 lower=412
+====>
+charfont name=QGNRTI+Cambria charfont height=6.000000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=-100
+
+Fig. 6. Schematic summary. A schematic summary of PLK1 inhibition that shows a preferential fate in 
+diploid versus tetraploid cells.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=431 lower=702
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=2, likeBody=100
+
+In our experimental model, either depletion or chemical inhibition of PLK1 provoked 
+apoptosis  in  both diploid  and  tetraploid colon  cells.  However,  tetraploid  cells  showed 
+higher sensitivity when PLK1 was targeted. Tetraploid cell death was executed via the 
+intrinsic apoptotic pathway, as demonstrated by the loss of mitochondrial transmembrane 
+potential (??m), accumulation of intracellular calcium, activation of caspase-3 and PARP, 
+DNA degradation, cell scrambling, phosphatidylserine (PS) exposure and, ultimately, the 
+loss of plasma membrane integrity. The mitochondrial dysfunction, measured by the loss 
+of the  mitochondrial  membrane  potential, provokes  a  mitochondrial  Ca2+  homeostasis 
+perturbation. This leads to elevated cytosolic Ca2  concentration ([Ca2+]c), which is followed 
+by  the  release  of  mitochondrial  apoptotic  factors,  including  cytochrome  c,  apoptosis 
+inducing factor (AIF) and procaspase-9, into the cytosol [41]. The PLK1 inhibition perturbed 
+cell mitosis and provoked instead mitotic catastrophe. This in turn facilitated a bona fide 
+intrinsic oncosuppressive mechanism that by sensing mitotic failure, executed cell death via 
+the mitochondrial pathway of apoptosis.
+What is the mechanism through which PLK1 inhibition is particularly lethal for tetraploid 
+cells? To answer this question, we monitored the cell cycle status upon PLK1 inhibition. This 
+inhibition prolonged G2/M arrest in diploid cells for up to 72 h, followed by mitotic slippage 
+for approximately 15% of the cell population. The tetraploid cells responded similarly, but 
+with completely different kinetics. The length of the G2/M arrest was significantly shorter, 
+and the polyploid population reached almost 30% 48 h post-PLK1 inhibition. It appeared that 
+tetraploid cells death upon PLK1 inhibition was caused by excessive genome reduplication 
+and consequent hyperploidy as well as their incapacity to support accumulation of additional 
+DNA content.
+==============================
+
+==============================
+Page 14
+ Left 1 Right 460 Top 1 Bottom 648
+
+
+Column meta:
+Column left:3 upper:65 right:413 lower 648
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+316
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=65 lower=576
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+Our findings are consistent with previous studies showing that the high sensitivity 
+of tetraploid cells to the inhibition of mitotic key effectors, especially those with a direct 
+interaction  with  microtubules. Inhibition  of the  protein  kinase Aurora  B  preferentially 
+kills  tetraploid compared to diploid hepatocellular carcinoma cells, but it also shows a 
+similar effect on untransformed tetraploid vs diploid mouse fibroblasts. This effect is due 
+to a cytokinesis failure, consequent massive polyploidy and subsequent mitotic catastrophe 
+[42]. Aurora B interacts with a key kinase of the SAC, namely MPS1 [43-45]. MPS1 inhibition 
+sensitises the tetraploid colon cancer cells also via the activation of the mitotic catastrophe 
+following a polyploid/aneuploid cascade [46, 47]. It is important to note that PLK1 and MPS1 
+cooperatively regulate the SAC [48]. The protein kinase CHK1 is an important component of 
+DNA damage pathway; however, it also plays an essential role in the SAC function via the 
+activation of Aurora B and MAD2 [49]. CHK1 loss leads to chromosome misalignment and 
+lagging chromosomes and thus preferential killing of tetraploid colon cancer cells [50]. Other 
+players involved in microtubule dynamics and essentially centrosome separation and pole 
+formation are kinesin Eg5 and the protein motor HSET. The inhibition/depletion of these 
+proteins also sensitises and preferentially kills tetraploid compared to diploid colon cancer 
+cells after mitotic catastrophe activation [51, 52]. We must emphasise that not all the SAC 
+components or important players of the microtubule dynamics can preferentially sensitise 
+the tetraploid cancer cells. The inhibition of Aurora A, an important kinase for centrosome 
+maturation, mitotic spindle formation and cytokinesis, does not kill tetraploid hepatocellular 
+carcinoma [42, 53].
+Drug combinations are particularly important in the modern era of chemotherapy; 
+they offer the advantage of synergistic antitumor activity at relatively low concentrations 
+of each drug and reduce side effects and additive toxicity. Moreover, compound synergy 
+might overcome the drug resistance of certain tumours, including cancers that harbour 
+chromosomal instability and particularly tetraploidy, which is highly correlated with drug 
+resistance and a poor patient prognosis [20, 54-56]. Due to the key role of PLK1 in several 
+cell  cycle  processes,  including  centrosome  maturation,  bipolar  spindle  formation  and 
+kinetochore-microtubule attachment, we asked whether there is a lethal interaction between 
+PLK1 inhibition and microtubule-destabilising drugs to induce apoptosis. There are two 
+types of microtubule poisons widely used in chemotherapy: microtubule depolymerisation 
+and polymerisation inhibitors [57, 58]. Paclitaxel (commonly named Taxol) is  the most 
+utilised  microtubule  depolymerisation inhibitor  in preclinical  and  clinical models  [59]. 
+Microtubule polymerisation inhibitors, including vincristine from the Vinca alkaloid group 
+[60] and the colchicine from the Colchicine group, are more diverse [61].
+We found that co-treatment with a low dose of the PLK1 inhibitor Bi2536 and paclitaxel 
+did not induce any synergistic lethality in tetraploid colon cancer cells. On the other hand, 
+co-treatment of a low dose of the PLK1 inhibitor Bi2536 and a low dose of either vincristine 
+or colchicine  induced strong synergistic  toxicity  in tetraploid colon cancer cells. These 
+findings are consistent with previous studies that employed vincristine in combination with 
+PLK1 inhibitors for the treatment of various solid tumours and haematological malignancies 
+[62-67]. Our study is the first report to use colchicine as an effective treatment strategy in 
+combination with PLK1 inhibition.
+==============================
+
+==============================
+type: SUBTITLE_4
+typeindex=4 left=23 right=74 upper=605 lower=612
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Conclusion
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=629 lower=648
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+In conclusion, this novel approach to exploit PLK1 inhibitors and microtubule poisons 
+constitutes a promising therapeutic strategy based on mitotic catastrophe for colon cancer.
+==============================
+
+==============================
+Page 15
+ Left 1 Right 460 Top 1 Bottom 695
+
+
+Column meta:
+Column left:3 upper:64 right:413 lower 695
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+317
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=4 left=23 right=115 upper=64 lower=71
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Acknowledgements
+==============================
+
+==============================
+
+typeindex=0 left=3 right=413 upper=88 lower=143
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=-102
+
+This  work  was  supported  by  the  Wenner-Gren  Foundation  (UPD2018-0055)  and 
+by  funding  from  Per-Eric  and  Ulla  Schyberg’s  Foundation  (39178),  Gunnar  Nilssons 
+Cancerstiftelse (GN-2019-2-137),  The  Crafoord  Foundation  (20190584), the Sigurd  och 
+Elsa Goljes Minne Foundation (LA2018-0168) and the Royal Physiographic Society of Lund 
+(39448).
+==============================
+
+==============================
+type: SUBTITLE_1
+typeindex=1 left=23 right=164 upper=160 lower=167
+====>
+charfont name=XJVCNU+Cambria-Italic charfont height=7.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Author contributions statements
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=3 right=413 upper=172 lower=203
+====>
+charfont name=QGNRTI+Cambria charfont height=7.000000, charfont bold=0, alignment=2, allupper=0, column left=3, likeBody=100
+
+MJ  developed  the  concepts  and  performed  experiments.  CK  performed  the  bio-
+informatics work and statistical analysis. SSS performed experiments. MJ and RM analyzed 
+data and wrote the manuscript. All authors reviewed the manuscript.
+==============================
+
+==============================
+
+typeindex=4 left=23 right=122 upper=232 lower=239
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Disclosure Statement
+==============================
+
+==============================
+
+typeindex=1 left=23 right=216 upper=256 lower=263
+====>
+charfont name=YXNSBS+Cambria charfont height=7.000000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+The authors declare no conflict of interests.
+==============================
+
+==============================
+
+typeindex=4 left=23 right=73 upper=292 lower=299
+====>
+charfont name=EYRCHG+SegoeUI-Bold charfont height=7.000000, charfont bold=2, alignment=4, allupper=0, column left=3, likeBody=-100
+
+References
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=317 lower=671
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+1 
+2 
+3 
+4 
+6 
+7 
+16
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=317 lower=575
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Kolligs FT: Diagnostics and Epidemiology of Colorectal Cancer. Visc Med 2016;32:158-164.
+Arnold M, Sierra MS, Laversanne M, Soerjomataram I, Jemal A, Bray F: Global patterns and trends in 
+colorectal cancer incidence and mortality. Gut 2017;66:683-691.
+Swanton C: Intratumor heterogeneity: evolution through space and time. Cancer Res 2012;72:4875-4882.
+Potapova TA, Zhu J, Li R: Aneuploidy and chromosomal instability: a vicious cycle driving cellular evolution 
+and cancer genome chaos. Cancer Metastasis Rev 2013;32:377-389.
+Vitale I, Galluzzi L, Senovilla L, Criollo A, Jemaa M, Castedo M, Kroemer G: Illicit survival of cancer cells 
+during polyploidization and depolyploidization. Cell Death Differ 2011;18:1403-1413.
+Storchova Z, Kuffer C: The consequences of tetraploidy and aneuploidy. J Cell Sci 2008;121:3859-3866.
+Ganem NJ, Storchova Z, Pellman D: Tetraploidy, aneuploidy and cancer. Curr Opin Genet Dev 2007;17:157-
+162.
+Davoli T, de Lange T: The causes and consequences of polyploidy in normal development and cancer. Annu 
+Rev Cell Dev Biol 2011;27:585-610.
+Davoli T, Denchi EL, de Lange T: Persistent telomere damage induces bypass of mitosis and tetraploidy. Cell 
+2010;141:81-93.
+Fujiwara T, Bandi M, Nitta M, Ivanova EV, Bronson RT, Pellman D: Cytokinesis failure generating tetraploids 
+promotes tumorigenesis in p53-null cells. Nature 2005;437:1043-1047.
+Ganem NJ, Cornils H, Chiu SY, O’Rourke KP, Arnaud J, Yimlamai D, Thery M, Camargo FD, Pellman D: 
+Cytokinesis failure triggers hippo tumor suppressor pathway activation. Cell 2014;158:833-848.
+Duelli DM, Padilla-Nash HM, Berman D, Murphy KM, Ried T, Lazebnik Y: A virus causes cancer by inducing 
+massive chromosomal instability through cell fusion. Curr Biol 2007;17:431-437.
+Svendsen LB, Thorup J, Larsen JK, Bulow S, Horn T: Correlation between in vitro tetraploidy in skin
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=9 upper=389 lower=395
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+5
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=9 upper=449 lower=455
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+8
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=9 upper=473 lower=479
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+9
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=497 lower=503
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+10
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=521 lower=527
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+11
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=545 lower=551
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+12
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=569 lower=575
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+13
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=407 upper=581 lower=587
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+fibroblasts and development of sporadic colorectal carcinomas. Cancer Genet Cytogenet 1990;50:139-148.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=593 lower=599
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+14
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=407 upper=593 lower=695
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=3, likeBody=-100
+
+Boileve A, Senovilla L, Vitale I, Lissa D, Martins I, Metivier D, van den Brink S, Clevers H, Galluzzi L, Castedo 
+M, Kroemer G: Immunosurveillance against tetraploidization-induced colon tumorigenesis. Cell Cycle 
+2013;12:473-479.
+Lissa D, Senovilla L, Rello-Varona S, Vitale I, Michaud M, Pietrocola F, Boileve A, Obrist F, Bordenave C, 
+Garcia P, Michels J, Jemàa M, Kepp O, Castedo M: Resveratrol and aspirin eliminate tetraploid cells for 
+anticancer chemoprevention. Proc Natl Acad Sci U S A 2014;111:3020-3025.
+Senovilla L, Vitale I, Galluzzi L, Vivet S, Joza N, Younes AB, Rello-Varona S, Castedo M, Kroemer G: p53 
+represses the polyploidization of primary mammary epithelial cells by activating apoptosis. Cell Cycle 
+2009;8:1380-1385.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=629 lower=635
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=3, likeBody=-100
+
+15
+==============================
+
+==============================
+Page 16
+ Left 1 Right 460 Top 1 Bottom 694
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+318
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=65 lower=70
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+17
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=385 upper=65 lower=94
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Aylon Y, Oren M: p53: guardian of ploidy. Mol Oncol 2011;5:315-323.
+Caldwell CM, Green RA, Kaplan KB: APC mutations lead to cytokinetic failures in vitro and tetraploid 
+genotypes in Min mice. J Cell Biol 2007;178:1109-1120.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=77 lower=82
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+18
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=101 lower=106
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+19
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=409 upper=101 lower=178
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Lee AJ, Endesfelder D, Rowan AJ, Walther A, Birkbak NJ, Futreal PA, Downward J, Szallasi Z, Tomlinson IP, 
+Howell M, Kschischo M, Swanton C: Chromosomal instability confers intrinsic multidrug resistance. Cancer 
+Res 2011;71:1858-1870.
+Castedo M, Coquelle A, Vitale I, Vivet S, Mouhamad S, Viaud S, Zitvogel L, Kroemer G: Selective resistance of 
+tetraploid cancer cells against DNA damage-induced apoptosis. Ann N Y Acad Sci 2006;1090:35-49.
+Petronczki M, Lenart P, Peters JM: Polo on the Rise-from Mitotic Entry to Cytokinesis with Plk1. Dev Cell 
+2008;14:646-659.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=137 lower=142
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+20
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=161 lower=166
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+21
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=185 lower=190
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+22
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=185 lower=358
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Wang G, Jiang Q, Zhang C: The role of mitotic kinases in coupling the centrosome cycle with the assembly of 
+the mitotic spindle. J Cell Sci 2014;127:4111-4122.
+Zitouni S, Nabais C, Jana SC, Guerrero A, Bettencourt-Dias M: Polo-like kinases: structural variations lead to 
+multiple functions. Nat Rev Mol Cell Biol 2014;15:433-452.
+Colicino EG, Hehnly H: Regulating a key mitotic regulator, polo-like kinase 1 (PLK1). Cytoskeleton 
+(Hoboken) 2018;75:481-494.
+Combes G, Alharbi I, Braga LG, Elowe S: Playing polo during mitosis: PLK1 takes the lead. Oncogene 
+2017;36:4819-4827.
+Cunningham CE, Li S, Vizeacoumar FS, Bhanumathy KK, Lee JS, Parameswaran S, Furber L, Abuhussein O, 
+Paul JM, McDonald M, Templeton SD, Shukla H, El Zawily AM, Boyd F, Alli N, Mosseau DD, Geyer R, Bonham 
+K, Anderson DH, Yan J, et al.: Therapeutic relevance of the protein phosphatase 2A in cancer. Oncotarget 
+2016;7:61544-61561.
+de Carcer G: The Mitotic Cancer Target Polo-Like Kinase 1: Oncogene or Tumor Suppressor? Genes (Basel) 
+2019;10:pii:E208.
+Szklarczyk D, Santos A, von Mering C, Jensen LJ, Bork P, Kuhn M: STITCH 5: augmenting protein-chemical
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=209 lower=214
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+23
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=233 lower=238
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+24
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=257 lower=262
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+25
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=281 lower=286
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+26
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=329 lower=334
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+27
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=353 lower=358
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+28
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=341 upper=365 lower=370
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+interaction networks with tissue and affinity data. Nucleic Acids Res 2016;44:D380-384.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=377 lower=382
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+29
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=393 upper=377 lower=394
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Castedo M, Galluzzi L, Vitale I, Senovilla L, Metivier D, Jemaa M, Rello-Varona S, Kroemer G: 
+Cytofluorometric purification of diploid and tetraploid cancer cells. Methods Mol Biol 2011;761:47-63.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=401 lower=406
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+30
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=401 lower=430
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Doncheva NT, Morris JH, Gorodkin J, Jensen LJ: Cytoscape StringApp: Network Analysis and Visualization of 
+Proteomics Data. J Proteome Res 2019;18:623-632.
+Galluzzi L, Vitale I, Aaronson SA, Abrams JM, Adam D, Agostinis P, Alnemri ES, Altucci L, Amelio I, Andrews
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=425 lower=430
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+31
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=412 upper=437 lower=490
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+DW, Annicchiarico-Petruzzelli M, Antonov AV, Aram E, Baehrecke EH, Barlev NA, Bazan NG, Bernassola F, 
+Bertrand MJM, Bianchi K, Blagosklonny MV, et al.: Molecular mechanisms of cell death: recommendations of 
+the Nomenclature Committee on Cell Death 2018. Cell Death Differ 2018;25:486-541.
+Hollstein M, Sidransky D, Vogelstein B, Harris CC: p53 mutations in human cancers. Science 1991;253:49-
+53.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=473 lower=478
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+32
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=497 lower=502
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+33
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=382 upper=497 lower=502
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Roos WP, Kaina B: DNA damage-induced cell death by apoptosis. Trends Mol Med 2006;12:440-450.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=509 lower=514
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+34
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=509 lower=562
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Komarov PG, Komarova EA, Kondratov RV, Christov-Tselkov K, Coon JS, Chernov MV, Gudkov AV: A chemical 
+inhibitor of p53 that protects mice from the side effects of cancer therapy. Science 1999;285:1733-1737.
+Joukov V, De Nicolo A: Aurora-PLK1 cascades as key signaling modules in the regulation of mitosis. Sci 
+Signal 2018;11:pii:eaar4195.
+Saurin AT: Kinase and Phosphatase Cross-Talk at the Kinetochore. Front Cell Dev Biol 2018;6:62.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=533 lower=538
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+35
+==============================
+
+==============================
+
+typeindex=-9 left=3 right=14 upper=557 lower=574
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+36 
+37
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=406 upper=569 lower=670
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Tut TG, Lim SH, Dissanayake IU, Descallar J, Chua W, Ng W, de Souza P, Shin JS, Lee CS: Upregulated 
+Polo-Like Kinase 1 Expression Correlates with Inferior Survival Outcomes in Rectal Cancer. PLoS One 
+2015;10:e0129313.
+de Carcer G, Venkateswaran SV, Salgueiro L, El Bakkali A, Somogyi K, Rowald K, Montanes P, Sanclemente 
+M, Escobar B, de Martino A, McGranahan N, Malumbres M, Sotillo R: Plk1 overexpression induces 
+chromosomal instability and suppresses tumor development. Nat Commun 2018;9:3012.
+Gutteridge RE, Ndiaye MA, Liu X, Ahmad N: Plk1 Inhibitors in Cancer Therapy: From Laboratory to Clinics. 
+Mol Cancer Ther 2016;15:1427-1435.
+Steegmaier M, Hoffmann M, Baum A, Lenart P, Petronczki M, Krssak M, Gurtler U, Garin-Chesa P, Lieb S,
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=605 lower=610
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+38
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=641 lower=646
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+39
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=665 lower=670
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+40
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=677 lower=694
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Quant J, Grauert M, Adolf GR, Kraut N, Peters JM, Rettig WJ: BI 2536, a potent and selective inhibitor of polo-
+like kinase 1, inhibits tumor growth in vivo. Curr Biol 2007;17:316-322.
+==============================
+
+==============================
+Page 17
+ Left 1 Right 460 Top 1 Bottom 694
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+319
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=65 lower=70
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+41
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=411 upper=65 lower=94
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Giorgi C, Baldassari F, Bononi A, Bonora M, De Marchi E, Marchi S, Missiroli S, Patergnani S, Rimessi A, Suski 
+JM, Wieckowski MR, Pinton P: Ca(2+) and apoptosis. Cell Calcium 2012;52:36-43.
+Marxer M, Foucar CE, Man WY, Chen Y, Ma HT, Poon RY: Tetraploidization increases sensitivity to Aurora B
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=89 lower=94
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+42
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=199 upper=101 lower=106
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+kinase inhibition. Cell Cycle 2012;11:2567-2577.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=113 lower=118
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+43
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=113 lower=130
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Saurin AT, van der Waal MS, Medema RH, Lens SM, Kops GJ: Aurora B potentiates Mps1 activation to ensure 
+rapid checkpoint establishment at the onset of mitosis. Nat Commun 2011;2:316.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=137 lower=142
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+44
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=397 upper=137 lower=154
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+van der Waal MS, Saurin AT, Vromans MJ, Vleugel M, Wurzenberger C, Gerlich DW, Medema RH, Kops GJ, 
+Lens SM: Mps1 promotes rapid centromere accumulation of Aurora B. EMBO Rep 2012;13:847-854.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=161 lower=166
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+45
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=161 lower=202
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Jelluma N, Brenkman AB, van den Broek NJ, Cruijsen CW, van Osch MH, Lens SM, Medema RH, Kops GJ: 
+Mps1 phosphorylates Borealin to control Aurora B activity and chromosome alignment. Cell 2008;132:233-
+246.
+Jemaa M, Manic G, Lledo G, Lissa D, Reynes C, Morin N, Chibon F, Sistigu A, Castedo M, Vitale , Kroemer
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=197 lower=202
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+46
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=395 upper=209 lower=226
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+G, Abrieu A: Whole-genome duplication increases tumor cell sensitivity to MPS1 inhibition. Oncotarget 
+2016;7:885-901.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=233 lower=238
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+47
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=408 upper=233 lower=262
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Jemaa M, Galluzzi L, Kepp O, Castedo M, Rello-Varona S, Vitale I, Kroemer G: Transgenerational cell fate 
+profiling: a method for the graphical presentation of complex cell cycle alterations. Cell Cycle 2013;12:183-
+190.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=269 lower=274
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+48
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=269 lower=394
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+von Schubert C, Cubizolles F, Bracher JM, Sliedrecht T, Kops G, Nigg EA: Plk1 and Mps1 Cooperatively 
+Regulate the Spindle Assembly Checkpoint in Human Cells. Cell Rep 2015;12:66-78.
+Lawrence KS, Engebrecht J: The spindle assembly checkpoint: More than just keeping track of the spindle. 
+Trends Cell Mol Biol 2015;10:141-150.
+Vitale I, Galluzzi L, Vivet S, Nanty L, Dessen P, Senovilla L, Olaussen KA, Lazar V, Prudhomme M, Golsteyn 
+RM, Castedo M, Kroemer G: Inhibition of Chk1 kills tetraploid tumor cells through a p53-dependent 
+pathway. PLoS One 2007;2:e1337.
+Rello-Varona S, Vitale I, Kepp O, Senovilla L, Jemaa M, Metivier D, Castedo M, Kroemer G: Preferential killing 
+of tetraploid tumor cells by targeting the mitotic kinesin Eg5. Cell Cycle 2009;8:1030-1035.
+Kwon M, Godinho SA, Chandhok NS, Ganem NJ, Azioune A, Thery M, Pellman D: Mechanisms to suppress 
+multipolar divisions in cancer cells with extra centrosomes. Genes Dev 2008;22:2189-2203.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=293 lower=298
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+49
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=317 lower=322
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+50
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=353 lower=358
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+51
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=377 lower=382
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+52
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=401 lower=406
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+53
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=401 lower=430
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Yan M, Wang C, He B, Yang M, Tong M, Long Z, Liu B, Peng F, Xu L, Zhang Y, Liang D, Lei H, Substrata S, Kelley 
+KW, Lam EW, Jin B, Liu Q: Aurora-A Kinase: A Potent Oncogene and Target for Cancer Therapy. Med Res Rev 
+2016;36:1036-1079.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=437 lower=442
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+54
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=411 upper=437 lower=466
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Mosieniak G, Sliwinska MA, Alster O, Strzeszewska A, Sunderland P, Piechota M, Was H, Sikora E: Polyploidy 
+Formation in Doxorubicin-Treated Cancer Cells Can Favor Escape from Senescence. Neoplasia 2015;17:882-
+893.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=473 lower=478
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+55
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=405 upper=473 lower=502
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Coward J, Harding A: Size Does Matter: Why Polyploid Tumor Cells are Critical Drug Targets in the War on 
+Cancer. Front Oncol 2014;4:123.
+Castedo M, Coquelle A, Vivet S, Vitale I, Kauffmann A, Dessen P, Pequignot MO, Casares N, Valent A,
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=497 lower=502
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+56
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=411 upper=509 lower=562
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Mouhamad S, Schmitt E, Modjtahedi N, Vainchenker W, Zitvogel L, Lazar V, Garrido C, Kroemer G: Apoptosis 
+regulation in tetraploid cancer cells. EMBO J 2006;25:2584-2595.
+Long HJ: Paclitaxel (Taxol): a novel anticancer chemotherapeutic drug. Mayo Clin Proc 1994;69:341-345.
+Kaur R, Kaur G, Gill RK, Soni R, Bariwal J: Recent developments in tubulin polymerization inhibitors: An 
+overview. Eur J Med Chem 2014;87:89-124.
+==============================
+
+==============================
+
+typeindex=-9 left=3 right=14 upper=533 lower=550
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+57 
+58
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=569 lower=574
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+59
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=395 upper=569 lower=634
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+de Weger VA, Beijnen JH, Schellens JH: Cellular and clinical pharmacology of the taxanes docetaxel and 
+paclitaxel--a review. Anticancer Drugs 2014;25:488-494.
+Stanton RA, Gernert KM, Nettles JH, Aneja R: Drugs that target dynamic microtubules: a new molecular 
+perspective. Med Res Rev 2011;31:443-481.
+Mukhtar E, Adhami VM, Mukhtar H: Targeting microtubules by natural agents for cancer therapy. Mol 
+Cancer Ther 2014;13:275-284.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=593 lower=598
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+60
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=617 lower=622
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+61
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=641 lower=646
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+62
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=399 upper=641 lower=670
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Ikezoe T, Yang J, Nishioka C, Takezaki Y, Tasaka T, Togitani K, Koeffler HP, Yokoyama A: A novel treatment 
+strategy targeting polo-like kinase 1 in hematological malignancies. Leukemia 2009;23:1564-1576.
+Bucur O, Stancu AL, Goganau I, Petrescu SM, Pennarun B, Bertomeu T, Dewar R, Khosravi-Far R:
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=665 lower=670
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+63
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=406 upper=677 lower=694
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Combination of bortezomib and mitotic inhibitors down-modulate Bcr-Abl and efficiently eliminates 
+tyrosine-kinase inhibitor sensitive and resistant Bcr-Abl-positive leukemic cells. PLoS One 2013;8:e77390.
+==============================
+
+==============================
+Page 18
+ Left 1 Right 460 Top 1 Bottom 562
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=6 left=1 right=137 upper=1 lower=30
+====>
+charfont name=ZFLMOQ+MyriadPro-Regular charfont height=9.600000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Cellular Physiology 
+and Biochemistry
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=141 right=291 upper=1 lower=7
+====>
+charfont name=VERTKY+SegoeUI charfont height=6.300000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Cell Physiol Biochem 2020;54:303-320
+==============================
+
+==============================
+
+typeindex=-11 left=141 right=222 upper=13 lower=18
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+DOI: 10.33594/000000221
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-14 left=255 right=375 upper=13 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.500000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+© 2020 The Author(s). Published by 
+Cell Physiol Biochem Press GmbH&Co. KG
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-1 left=444 right=460 upper=20 lower=27
+====>
+charfont name=VERTKY+SegoeUI charfont height=7.000000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+320
+==============================
+
+==============================
+
+typeindex=-14 left=141 right=281 upper=21 lower=40
+====>
+charfont name=VERTKY+SegoeUI charfont height=4.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Published online: 8 April 2020
+Jemaà et al.: PLK1 Inhibition Kills Cancer Cells
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=65 lower=70
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+64
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=392 upper=65 lower=106
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Hugle M, Belz K, Fulda S: Identification of synthetic lethality of PLK1 inhibition and microtubule-
+destabilizing drugs. Cell Death Differ 2015;22:1946-1956.
+Czaplinski S, Hugle M, Stiehl V, Fulda S: Polo-like kinase 1 inhibition sensitizes neuroblastoma cells for 
+vinca alkaloid-induced apoptosis. Oncotarget 2016;7:8700-8711.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=89 lower=94
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+65
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=113 lower=118
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+66
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=411 upper=113 lower=178
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Weiss LM, Hugle M, Romero S, Fulda S: Synergistic induction of apoptosis by a polo-like kinase 1 inhibitor 
+and microtubule-interfering drugs in Ewing sarcoma cells. Int J Cancer 2016;138:497-506.
+Abbou S, Lanvers-Kaminsky C, Daudigeos-Dubus E, LE Dret L, Laplace-Builhe C, Molenaar J, Vassal G, 
+Geoerger B, within the IB, Preclinical Evaluation C: Polo-like Kinase Inhibitor Volasertib Exhibits Antitumor 
+Activity and Synergy with Vincristine in Pediatric Malignancies. Anticancer Res 2016;36:599-609.
+Van den Bossche J, Lardon F, Deschoolmeester V, De Pauw I, Vermorken JB, Specenier P, Pauwels P, Peeters
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=137 lower=142
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+67
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=173 lower=178
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+68
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=411 upper=185 lower=226
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+M, Wouters A: Spotlight on Volasertib: Preclinical and Clinical Evaluation of a Promising Plk1 Inhibitor. Med 
+Res Rev 2016;36:749-786.
+Garcia-Manero G, Fenaux P, Al-Kali A, Baer MR, Sekeres MA, Roboz GJ, Gaidano G, Scott BL, Greenberg P, 
+Platzbecker U, Steensma DP, Kambhampati S, Kreuzer KA; Godley LA, Atallah E, Collins R Jr, Kantarjian H,
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=209 lower=214
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+69
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=407 upper=233 lower=286
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Jabbour E, Wilhelm FE, Azarnia N, et al.:  Rigosertib versus best supportive care for patients with high-risk 
+myelodysplastic syndromes after failure of hypomethylating drugs (ONTIME): a randomised, controlled, 
+phase 3 trial. Lancet Oncol 2016;17:496-508.
+Yim H: Current clinical trials with polo-like kinase 1 inhibitors in solid tumors. Anticancer Drugs 
+2013;24:999-1006.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=269 lower=274
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+70
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=293 lower=298
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+71
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=400 upper=293 lower=358
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+El Dika I, Lim HY, Yong WP, Lin CC, Yoon JH, Modiano M, Freilich B, Choi HJ, CHao TY, Kelley RK, Brown 
+J, Knox J, Ryoo BY, Yau T, Abou-Alfa GK:: An Open-Label, Multicenter, Phase I, Dose Escalation Study 
+with Phase II Expansion Cohort to Determine the Safety, Pharmacokinetics, and Preliminary Antitumor 
+Activity of Intravenous TKM-080301 in Subjects with Advanced Hepatocellular Carcinoma. Oncologist 
+2019;24:747-e218.
+Olmos D, Barker D, Sharma R, Brunetto AT, Yap TA, Taegtmeyer AB, Barriuso J, Medani H, Degenhardt YY,
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=353 lower=358
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+72
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=389 upper=365 lower=394
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Allred AJ, Smith DA, Murray SC, Lampkin TA, Dar MM, Wilson R, de Bono JS, Blagden SP: Phase I study 
+of GSK461364, a specific and competitive Polo-like kinase 1 inhibitor, in patients with advanced solid 
+malignancies. Clin Cancer Res 2011;17:3420-3430.
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=401 lower=406
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+73
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=410 upper=401 lower=538
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+Weiss GJ, Jameson G, Von Hoff DD, Valsasina B, Davite C, Di Giulio C, Fiorentini F, Alzani R, Carpinelli P, Di 
+Sanzo A, Galvani A, Isacchi A, Ramanathan RK: Phase I dose escalation study of NMS-1286937, an orally 
+available Polo-Like Kinase 1 inhibitor, in patients with advanced or metastatic solid tumors. Invest New 
+Drugs 2018;36:85-95.
+Hikichi Y, Honda K, Hikami K, Miyashita H, Kaieda I, Murai S, Uchiyama N, Hasegawa M, Kawamoto T, Sato T, 
+Ichikawa T, Cao S, Nie Z, Zhang L, Yang J, Kuida K, Kupperman E: TAK-960, a novel, orally available, selective 
+inhibitor of polo-like kinase 1, shows broad-spectrum preclinical antitumor activity in multiple dosing 
+regimens. Mol Cancer Ther 2012;11:700-709.
+Garland LL, Taylor C, Pilkington DL, Cohen JL, Von Hoff DD: A phase I pharmacokinetic study of HMN-214, 
+a novel oral stilbene derivative with polo-like kinase-1-interacting properties, in patients with advanced 
+solid tumors. Clin Cancer Res 2006;12:5182-5189.
+Moureau S, MacKay C, Saladino C, Pohler E, Kroboth K, Hollick J, Zheleva D, Frame S, Blake D: The novel
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=449 lower=454
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+74
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=497 lower=502
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+75
+==============================
+
+==============================
+
+typeindex=-7 left=3 right=14 upper=533 lower=538
+====>
+charfont name=QGNRTI+Cambria charfont height=5.700000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+76
+==============================
+
+==============================
+
+typeindex=-8 left=23 right=389 upper=545 lower=562
+====>
+charfont name=YXNSBS+Cambria charfont height=5.700000, charfont bold=0, alignment=4, allupper=0, column left=-1, likeBody=-100
+
+PLK1 inhibitor, CYC140: Identification of pharmacodynamic markers, sensitive target indications and 
+potential combinations [abstract]. Cancer Res 2017;77:Abstract nr 4178.
+==============================
+
+==============================
+Page 19
+ Left 1 Right 450 Top 1 Bottom 64
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=3 left=1 right=450 upper=1 lower=64
+====>
+charfont name=TimesNewRoman charfont height=7.900000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Copyright of Cellular Physiology & Biochemistry (Cell Physiol Biochem Press GmbH & Co.
+KG) is the property of Cell Physiol Biochem Press GmbH & Co. KG and its content may not
+be copied or emailed to multiple sites or posted to a listserv without the copyright holder's
+express written permission. However, users may print, download, or email articles for
+individual use.
+==============================
+
+==============================
+Page 20
+ Left 1 Right 450 Top 1 Bottom 64
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=3 left=1 right=450 upper=1 lower=64
+====>
+charfont name=TimesNewRoman charfont height=7.900000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Copyright of Cellular Physiology & Biochemistry (Cell Physiol Biochem Press GmbH & Co.
+KG) is the property of Cell Physiol Biochem Press GmbH & Co. KG and its content may not
+be copied or emailed to multiple sites or posted to a listserv without the copyright holder's
+express written permission. However, users may print, download, or email articles for
+individual use.
+==============================
+

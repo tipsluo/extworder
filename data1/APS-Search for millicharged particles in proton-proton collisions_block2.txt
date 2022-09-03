@@ -1,0 +1,5011 @@
+Content:
+ColumnWidth 246 ColumnNumber 2
+ContentWidth 509 ContentLeft 1 ContentRight 509
+==============================
+Page 1
+ Left 1 Right 509 Top 1 Bottom 740
+
+
+Column meta:
+Column left:1 upper:385 right:246 lower 697
+Column left:264 upper:42 right:509 lower 697
+
+
+Blocks:
+----------------------
+==============================
+type: undefined
+typeindex=3 left=144 right=366 upper=1 lower=8
+====>
+charfont height=7.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+PHYSICAL REVIEW D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: title
+typeindex=8 left=55 right=454 upper=55 lower=62
+====>
+charfont height=7.000000, charfont bold=2, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Search for millicharged particles in proton-proton collisions at s = 13 TeV
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=509 upper=77 lower=134
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-102
+
+A. Ball,1 G. Beauregard,2 J. Brooke,3 C. Campagnari,4 M. Carrigan,5 M. Citron,4 J. De La Haye,1 A. De Roeck,1
+Y. Elskens,6 R. Escobar Franco,4 M. Ezeldine,7 B. Francis,5 M. Gastal,1 M. Ghimire,2 J. Goldstein,3 F. Golf,8 J. Guiang,4,*
+A. Haas,2 R. Heller,4,† C. S. Hill ,5 L. Lavezzo,5 R. Loos,1 S. Lowette,6 G. Magill,9,10 B. Manley,5 B. Marsh,4
+D. W. Miller,11 B. Odegard,4 F. R. Saab,7 J. Sahili,7 R. Schmitz,4 F. Setti,4 H. Shakeshaft,1 D. Stuart,4 M. Swiatlowski,11,‡
+J. Yoo,4,§ H. Zaraket,7 and H. Zheng11
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=112 right=398 upper=139 lower=257
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+1CERN, Geneva 1211, Switzerland
+2New York University, New York, New York 10012, USA
+3University of Bristol, Bristol BS8 1TH, United Kingdom
+4University of California, Santa Barbara, California 93106, USA
+5The Ohio State University, Columbus, Ohio 43218, USA
+6Vrije Universiteit Brussel, Brussel 1050, Belgium
+7Lebanese University, Hadeth-Beirut, Lebanon
+8University of Nebraska, Lincoln, Nebraska 68588, USA
+9McMaster University, Hamilton L8S 4L8, Canada
+10Perimeter Institute for Theoretical Physics, Waterloo N2L 2Y5, Canada
+11University of Chicago, Chicago, Illinois 60637, USA
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=111 right=412 upper=272 lower=278
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+  (Received 13 May 2020; accepted 17 July 2020; published 6 August 2020)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=55 right=455 upper=292 lower=369
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+We report on a search for elementary particles with charges much smaller than the electron charge using
+a data sample of proton-proton collisions provided by the CERN Large Hadron Collider in 2018,
+corresponding to an integrated luminosity of 37.5 fb?1 at a center-of-mass energy of 13 TeV. A prototype
+scintillator-based detector is deployed to conduct the first search at a hadron collider sensitive to particles
+with charges ? 0.1e. The existence of new particles with masses between 20 and 4700 MeVis excluded at
+95% confidence level for charges between 0.006e and 0.3e, depending on their mass. New sensitivity is
+achieved for masses larger than 700 MeV.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=1 right=137 upper=735 lower=740
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=0, column left=-1, likeBody=-100
+
+2470-0010=2020=102(3)=032002(12)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=735 lower=740
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-1
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=346 right=509 upper=735 lower=740
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Published by the American Physical Society
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=55 right=184 upper=385 lower=389
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+DOI: 10.1103/PhysRevD.102.032002
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=77 right=170 upper=425 lower=431
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=1, likeBody=-100
+
+I. INTRODUCTION
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=443 lower=559
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Over a quarter of the mass energy of the Universe is
+widely thought to be some kind of nonluminous “dark”
+matter (DM), however, all experiments to date have failed
+to confirm its existence as a particle, much less its
+properties. The possibility that DM is not a single particle,
+but rather a diverse set of particles with as complex a
+structure in their sector as normal matter, has grown in
+prominence in the past decade, beginning with attempts
+to explain observations in high-energy astrophysics
+experiments [1,2].
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=579 lower=637
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+*Present address: University of California, San Diego,
+California 92093, USA.
+†Present address: Fermi National Accelerator Laboratory,
+Batavia, Illinois 60510, USA.
+‡Present address: TRIUMF, Vancouver V6T 2A3, Canada.
+§Present address: Korea University, Seoul 02841, South Korea.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=652 lower=697
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+Published by the American Physical Society under the terms of
+the Creative Commons Attribution 4.0 International license.
+Further distribution of this work must maintain attribution to
+the author(s) and the published article’s title, journal citation,
+and DOI. Funded by SCOAP3.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-8 left=388 right=403 upper=42 lower=53
+====>
+charfont height=0.000000, charfont bold=0, alignment=-99, allupper=-1, column left=264, likeBody=-100
+
+p??
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=427 lower=697
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+Many experimental efforts have been launched to look
+for signs of a dark sector, including searches at high-
+energy colliders, explorations at low-energy colliders,
+precision tests, and effects in DM direct detection
+experiments (for recent reviews see Refs. [3–5]). Most
+of these experiments target the dark sector via a massive
+dark photon, in what we refer to as the “Okun phase”
+[6,7]. An alternative assumption, which we call the
+“Holdom phase” [7,8], results in massless dark photons.
+In these models the principal physical effect is that new
+dark sector particles that couple to the dark photon will
+have a small effective electric charge. These are generi-
+cally called millicharged particles since a natural value
+for their electric charge of Q ? ?e=? arises from one-
+loop effects [9]. In this paper we use the symbol ? to
+denote a millicharged particle. For a given mass and
+charge, the pair production of millicharged particles at
+the CERN Large Hadron Collider (LHC) is almost
+model independent. Every standard model (SM) process
+that results in dilepton pairs through a virtual photon
+would, if kinematically allowed, also produce ?þ?? pairs
+with a cross section reduced by a factor of ðQ=eÞ2 and
+by mass-dependent factors that are well understood.
+
+==============================
+
+==============================
+Page 2
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:52 right:246 lower 691
+Column left:264 upper:193 right:509 lower 691
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=67 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+A. BALL et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=509 upper=236 lower=252
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+FIG. 1. The position of the detector, shown as a blue rectangular volume, in an elevation view (left) and plan view (right). The dashed
+lines represent the projection of the center of the detector to the CMS IP.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-2
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=19 right=44 upper=52 lower=58
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Rock
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=173 right=208 upper=166 lower=184
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+To 
+surface
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=272 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Millicharged particles can also be produced through Z
+boson couplings that depend on their hypercharge [7].
+Previous experiments have searched for millicharged
+particles [10–17]. The parameter space spanned by the
+mass and charge of ? is also constrained by indirect
+observations from astrophysical systems [9,15,18–24],
+terrestrial matter [25], the cosmic microwave background
+(CMB) [26], big-bang nucleosynthesis [27], and universe
+overclosure bounds [18]. While direct searches robustly
+constrain the parameter space of millicharged particles,
+indirect observations can be evaded by adding extra degrees
+of freedom, which can readily occur in minimally extended
+dark sector models [7]. In particular, the parameter space
+1 < m? < 100 GeV, an ideal mass range for production at
+the LHC, is largely unexplored by direct (or indirect)
+searches. Such a signature would not be detectable by the
+CMS and ATLAS experiments at the LHC [28,29], as all
+detector elements rely on the electromagnetic (EM) inter-
+action of the millicharged particle with ordinary matter. For
+a millicharged particle the interaction strength is reduced by
+a factor of ðQ=eÞ2 with respect to that of a particle of the
+same mass that has charge e. The detector signal is also
+reduced by the same factor, and is typically too small to be
+recorded by detectors designed for particles of charge e.
+The production of millicharged particles in collider experi-
+ments would result in events with missing transverse
+momentum, however, SM processes with neutrinos as well
+as instrumental effects tend to overwhelm their signatures.
+No searches for particles with Q ? 0.1e have been per-
+formed at hadron colliders.
+It is then clear that dedicated detectors are needed to
+search for millicharged particles at a hadron collider. In
+2016, we discussed the possibility to build such a detector
+at the LHC, which we called milliQan [30], at the CMS
+experimental site and aligned with the CMS interaction
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=391 right=414 upper=193 lower=200
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=264, likeBody=-100
+
+CMS
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=272 lower=425
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+point (IP). Since then we have installed and operated a
+small fraction of such a detector (“milliQan demonstrator”)
+to measure backgrounds and provide a proof of principle
+and feedback for the full detector design. In 2018, the
+demonstrator collected a dataset of proton-proton (pp)
+interactions corresponding to an integrated luminosity
+of 37.5 fb?1, at a center-of-mass energy of 13 TeV.
+This corresponds to 86% of the total luminosity delivered
+by the LHC in the period the demonstrator was opera-
+tional. While the demonstrator is only ?1% of the full
+milliQan, the data collected already provides competitive
+constraints on the existence of millicharged particles of
+mass 20–4700 MeV=c2 and Q=e ? 0.01–0.3.
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=350 right=423 upper=449 lower=455
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=264, likeBody=-100
+
+II. DETECTOR
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=467 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+A thick sensitive volume is required to be capable of
+observing the small energy deposition of a particle with
+Q ? 0.1e. The milliQan demonstrator is, therefore, com-
+posed of three layers of 80 × 5 × 5 cm scintillator bar
+arrays pointing to the CMS IP, with each array consisting of
+three pairs of bars, stacked on a 3.6 m long rectangular
+aluminum tube, for a total of 18 bars. We label the closest,
+middle and furthest layer from the CMS IP as layer 1,
+layer 2 and layer 3, respectively.
+The milliQan demonstrator is located in an underground
+tunnel at a distance of 33 m from the CMS IP, with 17 m of
+rock between the CMS IP and the demonstrator that
+provides shielding from most particles produced in LHC
+collisions. In the CMS coordinate system [29], the detector
+is positioned at an azimuthal angle (?) of 43° and
+pseudorapidity (?) of 0.1. Diagrams of the detector’s
+position are shown in Fig. 1. Located 70 m underground,
+the muon flux from cosmic rays is reduced by a factor of
+?100 compared to the surface. The detector is aligned
+
+==============================
+
+==============================
+Page 3
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:291 right:246 lower 691
+Column left:264 upper:393 right:509 lower 691
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=3 right=285 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=1, column left=-1, likeBody=-100
+
+SEARCH FOR MILLICHARGED PARTICLES IN PROTON- …
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-3
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=291 lower=318
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+FIG. 2. A diagram of the detector components. The PMTs are
+not shown for the slabs or panels. All components are installed on
+an aluminum tube.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=346 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+using standard laser-based survey techniques such that the
+center of the scintillator array projects a line to within 1 cm
+of the CMS IP. This alignment is validated using muons
+produced at the CMS IP, as discussed in Sec. IV C.
+In addition to the scintillator bars, additional components
+were installed to reduce or characterize certain types of
+backgrounds. Lead bricks are placed between the layers to
+prevent low-energy secondary particles from one layer
+from entering another layer. Four scintillator slabs are
+located along the length of the detector to tag throughgoing
+particles, provide time information, and shield the bars
+from neutron radiation. Thin scintillator panels cover the
+top and sides, providing the ability to reject cosmic muons.
+Lastly, hodoscopes consisting of 2 × 2 × 45 cm scintillator
+volumes are used to identify the tracks of beam and cosmic
+muons. A diagram of the detector components is shown
+in Fig. 2, and a photograph of the installed detector is
+shown in Fig. 3. All scintillator volumes are comprised of
+Eljen EJ-200 [31].
+Scintillator light in the bars, panels, and slabs is detected
+by photomultiplier tubes (PMTs) coupled to the scintillator
+volumes. Three types of PMTs are used in order to test
+different manufacturers and gains: the Hamamatsu R878,
+Hamamatsu R7725 [32], and Electron Tube 9814B [33].
+Analog signals from each PMT are sent to two 16-channel
+samples per second with 12-bit resolution, providing
+1024 samples within a 640 ns acquisition window. Each
+scintillator volume with a PMT attached is referred to as a
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=648 lower=655
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+CAEN V1743 digitizers [34], operating at 1.6 × 109
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=393 lower=409
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+FIG. 3. A photograph of the detector, with the panels removed
+from layer 1 so that the bars may be seen.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=443 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+“channel.” Since millicharged particles produced at the
+CMS IP would traverse the full length of the detector in
+Oð10Þ ns, tight timing requirements allow for a significant
+reduction in combinatoric backgrounds by requiring the
+coincidence of in time signals in all layers, as described in
+Sec. V. The PMTs are powered by a CAEN SY5527 power
+supply system [35]. The hodoscopes are readout with
+silicon photomultipliers. Their data are triggered and stored
+independently from the main data stream.
+The dataset analyzed for this search was collected during
+2018, including periods with the LHC beam providing pp
+collisions (the “beam-on” dataset) and periods with no
+collisions (the “beam-off” dataset). The beam-off dataset
+provides a statistically independent sample to study back-
+ground processes. The detector is located in an area in the
+far fringe field of the CMS superconducting magnet, and
+both beam-on and beam-off datasets were recorded with the
+magnet at its nominal strength of 3.8 T. The actual magnetic
+field in the milliQan cavern is measured by magnetic field
+sensors installed in various positions around the detector.
+We find this magnetic field to be under 2 mT when the CMS
+
+==============================
+
+==============================
+Page 4
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:28 right:246 lower 691
+Column left:264 upper:28 right:509 lower 691
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=67 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+A. BALL et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-4
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=28 lower=227
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+magnet is at 3.8 T. Additional data samples were recorded
+with the field at 0 T for PMT calibration.
+Data is collected by triggering on the coincidence of at
+least three channels (triple coincidence) within a window of
+100 ns. A bar contributes to this coincidence if it has a
+rising edge consistent with a single photoelectron thresh-
+old, and the panels and slabs contribute to the coincidence
+with more stringent thresholds appropriate for identification
+of muons from cosmic rays (“cosmic muons”) and muons
+from pp interactions (“beam muons”). The total trigger
+live times were 1106 and 1042 hours for the beam-on and
+beam-off datasets, respectively. The average trigger rate
+was 14.4 Hz. Outside of the beam time, additional special-
+ized runs were taken using single-channel and double-
+coincidencetriggers,with different thresholds and operating
+voltage settings, in order to collect data samples for
+calibrations and validation studies.
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=77 right=170 upper=246 lower=252
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=1, likeBody=-100
+
+III. CALIBRATION
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=264 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+We first calibrate the size of the generated pulses in each
+channel, which requires a measurement of the average
+size of a pulse from a single photoelectron (SPE) in each
+PMT, as well as the mean number of photoelectrons hNPEi
+generated in each channel by a throughgoing muon. The
+former is strictly a property of each PMT, while the latter
+depends on each scintillator, its wrapping, its coupling to
+the PMT, and the PMT quantum efficiency.
+The SPE calibration is performed in situ by isolating
+pulses from late-arriving scintillation photons, which
+largely produce SPEs in the PMTs. The mean SPE area
+is then found by locating the peak of the resulting pulse area
+distribution. These measurements are cross-checked by
+bench measurements of SPE waveforms generated by a
+flashing LED, following the method outlined in Ref. [36].
+In the following, the npe of a given pulse is defined as the
+pulse area divided by this per-channel SPE calibration, and
+represents an estimate of the true number of photoelectrons
+that generated the pulse.
+For panels and slabs, the hNPEi calibration is performed
+directly based on throughgoing beam muons (slabs) and
+cosmic muons (panels). The measured average pulse area is
+scaled by the per-channel SPE measurement to calculate
+the mean number of photoelectrons generated by a beam or
+cosmic muon.
+For the bars, we use cosmic ray muons for calibration.
+Direct calibration with radioactive sources was not possible
+because the detector could not be accessed during LHC
+running. Since cosmic ray muons saturate the readout, we
+take an indirect approach, using the fact that the PMT
+response scales as a power law over a wide range of
+operating voltages. First, the mean areas of cosmic muon
+pulses are measured at 5–6 operating voltages, which are
+low enough to ensure that the PMT signals do not saturate.
+A power law function is then fit to these points, and
+extrapolated to the nominal operating voltage. Finally, this
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=28 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+number is scaled by the per-channel SPE measurement to
+arrive at an estimate of the number of photoelectrons
+generated by a cosmic muon. The validity of the power
+law assumption is confirmed by separately fitting a power
+law function to the mean areas of SPE pulses over a range
+of voltages near the nominal operating voltage. The fitted
+exponent is found to be consistent with that from the fit to
+the cosmic muon pulse areas for all bars. The calibrated
+value of hNPEi for a beam muon traversing the full 80 cm
+length of a bar varies from 22 000 to 82 000; this means
+that hNPEi ¼ 1 is expected in the bars for particles of
+charge Q=e ? 0.004–0.007.
+The dominant source of uncertainty in each bar’s hNPEi
+measurement is the statistical uncertainty from the power
+law fit and extrapolation, which is 10%–20% depending on
+the channel, and is uncorrelated between channels. Smaller
+uncertainties, generally on the order of a few percent, come
+from differences in the residual magnetic field between
+calibration runs and data-taking runs; the effect of a
+low-pass filter applied to the waveforms; and differences
+between the in situ and lab-based SPE measurements.
+These are correlated between bars with PMTs of the same
+type. Time dependent drifts in the response, inferred from
+variations in the dark count rate, are subdominant.
+The timing of the PMTs must also be calibrated. The
+calibration procedure is designed such that a particle
+traveling near the speed of light through the detector from
+the CMS IP should have the same time value in every bar,
+panel and slab. This calibration is performed using both
+beam and cosmic muons. Figure 4 shows the time differ-
+ence between a muon pulse in layer 3 compared to a muon
+pulse in layer 1, where the events have been categorized as
+either beam or cosmic muons based on the timing of the
+pulses in the slabs. The resolution in the time difference
+between layers is approximately 4 ns for beam muons
+which travel through the detector from the CMS IP. An
+additional correction is applied to account for the depend-
+ence of the timing of the pulses on their size. This
+correction is derived using secondary particles that result
+from the interactions of beam muons with the detector as
+they traverse it. The timing resolution degrades as the
+size of the pulses gets smaller; the resolution of the lowest
+npe pulses passing the selection outlined in Sec. V is
+?15 ns. The modeling of the timing of these secondaries is
+used to derive a systematic uncertainty in the timing in
+simulation.
+The trigger efficiency is measured as a function of npe for
+each channel by comparing the rate between dedicated
+triple-coincidence runs and double-coincidence runs. For
+the triple-coincidence runs, the trigger decision is based on
+coincident signals in two “tag-channels” and one “probe
+channel,” whose trigger efficiency is to be measured. For
+the double coincidence runs, the trigger decision involves
+only the two tag channels. The trigger efficiency for each
+channel is given by the ratio of the pulse rate when the
+
+==============================
+
+==============================
+Page 5
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:23 right:246 lower 693
+Column left:264 upper:28 right:509 lower 691
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=3 right=285 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=1, column left=-1, likeBody=-100
+
+SEARCH FOR MILLICHARGED PARTICLES IN PROTON- …
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-5
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=209 right=235 upper=23 lower=29
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+37.5 fb-1
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=14 right=72 upper=37 lower=46
+====>
+charfont height=5.000000, charfont bold=2, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+180 milliQan
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=14 right=25 upper=52 lower=56
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+160
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=63 right=110 upper=64 lower=79
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Beam muons
+Cosmic muons
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=14 right=25 upper=67 lower=71
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+140
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=14 right=25 upper=82 lower=86
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+120
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=14 right=25 upper=97 lower=101
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+100
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=18 right=25 upper=112 lower=116
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+80
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=18 right=25 upper=128 lower=131
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+60
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=18 right=25 upper=143 lower=147
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+40
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=18 right=25 upper=158 lower=162
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+20
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=22 right=25 upper=173 lower=177
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=21 right=33 upper=177 lower=181
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+?40
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=57 right=68 upper=177 lower=181
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+?30
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=92 right=103 upper=177 lower=181
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+?20
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=127 right=138 upper=177 lower=181
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+?10
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=167 right=170 upper=178 lower=181
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=200 right=207 upper=178 lower=181
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+10
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=235 right=243 upper=178 lower=181
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+20
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=117 right=148 upper=186 lower=194
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+?tL3,L1 [ns]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=209 lower=247
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+FIG. 4. Time difference, measured in a combination of the
+beam-on and beam-off datasets, between layer 3 and layer 1 for
+beam (red) and cosmic (blue) muons that travel through the
+detector.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=282 lower=287
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+probe channel is required in the trigger over the pulse rate
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=294 lower=300
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+when the probe channel is not required in the trigger. This
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=306 lower=312
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+efficiency is used to reweight the simulated samples of
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=318 lower=324
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+signals from millicharged particles described in Sec. IV B.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=330 lower=350
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The trigger efficiency is measured to reach 100% for
+npe ? 2 for all channels.
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=80 right=167 upper=371 lower=377
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=1, likeBody=-100
+
+IV. SIMULATION
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=78 right=169 upper=389 lower=395
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+A. Event generation
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=12 right=246 upper=405 lower=411
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+We generate pair production of millicharged particles in
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=418 lower=423
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+13 TeV pp collisions through the Drell-Yan process, as well
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=426 lower=436
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+as from ?, J=?, ?ð2SÞ, ?, ?, and ? decays into ?þ??, and
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=167 upper=438 lower=448
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=100
+
+from Dalitz decays of ?0, ?, ?0, and ?.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=12 right=246 upper=455 lower=460
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Drell-Yan events are generated assuming that ?s are
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=467 lower=472
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+isospin singlet fermions, using the Lagrangian of Ref. [37]
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=479 lower=485
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+implemented in the MADGRAPH5_aMC@NLO [38] event
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=491 lower=497
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+generator, with a minimum invariant mass requirement
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=502 lower=509
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+on the millicharged pair of 2 GeV=c2. Because of the
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=516 lower=522
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+limited integrated luminosity and the small size of the
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=528 lower=534
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+demonstrator, there is essentially no sensitivity to Drell-Yan
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=540 lower=546
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+production of millicharged particles in the dataset discussed
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=57 upper=552 lower=558
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=100
+
+in this paper.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=12 right=246 upper=564 lower=570
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The production cross section and transverse momentum
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=17 right=246 upper=573 lower=582
+====>
+charfont height=6.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=100
+
+distribution of J=? and ?ð2SÞ in the central rapidity
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=12 upper=576 lower=584
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+pT
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=588 lower=594
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+y region is taken from calculations of charmonium
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=218 upper=599 lower=606
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+production from direct processes [39–41] and
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=246 upper=600 lower=618
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+from
+bottom hadron decays [42–44], including theoretical uncer-
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=625 lower=630
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+tainties. Theoretical calculations of bottomonium produc-
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=637 lower=693
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+tion [45] are not reliable at low transverse momentum
+(pT < 15 GeV) [46], where most of the cross section lies.
+As a result, for pT > 20 GeV we use the cross sections and
+pT spectra measured at a center-of-mass energy of 13 TeV
+[47]; at lower pT we use measurements from 7 TeV data
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=28 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+[48,49], rescaled using the measured ratio of 13 to 7 TeV
+cross sections at slightly higher rapidity (2 < y < 2.5) [50].
+All relevant light flavor mesons except ? mesons are
+generated with the minimum bias PYTHIA8 generator [51]
+with the Monash 2013 tune [52]. This is the tune that gives
+the best agreement with several measurements of light
+meson rates and pT spectra at the LHC, albeit in most cases
+at center-of-mass energies lower than 13 TeV [53–56]. The
+Monte Carlo spectra for ?ð?;?Þ with pT < 3 (1) GeV are
+scaled down by factors as large as 2, based on the
+experimental results cited above. On the other hand, the
+production of ? mesons is modeled with the minimum bias
+PYTHIA6 generator [57] with the DW tune [58], since this
+Monte Carlo setup best reproduces ? meson data [59]. All
+PYTHIA Monte Carlo generations are normalized to a
+minimum bias cross section of 80  10 mb based on a
+measurement by ATLAS [60], with an uncertainty taken to
+cover the difference with respect to a similar CMS
+measurement [61]. We assess an additional 30% uncer-
+tainty in the overall rate of each process to account for
+remaining differences between experimental measurements
+and PYTHIA predictions of the rates of light mesons per
+minimum bias event, based on the references cited above.
+The branching fractions for all vector meson decays,
+V ? ?þ??, as a function of the ? mass are calculated using
+the Van Royen-Weisskopf formula [62], normalized to the
+PDG value of the branching fraction for V ? eþe? [63],
+and rescaled appropriately for the assumed charge of the ?.
+The branching fractions for meson Dalitz decays, e.g., ?0 ?
+?þ??? or ? ? ?þ???0, as well as the ?þ?? invariant mass
+distributions in these decays are modeled as a function of
+the ? mass and charge using the partial width for decays
+into photons, e.g., ?0 ? ?? or ? ? ?0? [64], assuming a
+vector dominance model for the form factors.
+Production cross sections of millicharged particles
+from different processes are summarized in Fig. 5. The
+possible contribution from millicharged particle produc-
+tion in EM showers in the CMS calorimeters generated
+by particles from pp collisions is not considered in this
+analysis.
+We also generate inclusive muon events (pp ? X ? ?)
+that are used for calibration and background studies. The
+same theoretical calculation used to obtain the differential
+cross sections of J=? and ?ð2SÞ from bottom hadron
+decays is also used to generate muons from bottom and
+charm hadron decays, while muons from decays in flight of
+pions and kaons are generated with PYTHIA8 using the
+Monash 2013 tune. Muons from W and Z decays are taken
+from MADGRAPH5, though these electroweak processes
+contribute only ?3% of the total muon flux. Finally, muons
+are generated using an appropriate angular distribution to
+simulate cosmic ray events. This angular distribution is
+derived by assuming a cos2ð?zenithÞ distribution at the
+surface and propagating the muons to the demonstrator
+using the method described in Sec. IV B.
+
+==============================
+
+==============================
+Page 6
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:26 right:246 lower 691
+Column left:264 upper:219 right:509 lower 691
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=67 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+A. BALL et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-6
+
+==============================
+
+==============================
+type: undefined
+typeindex=-6 left=94 right=179 upper=26 lower=30
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Total?+?? cross section (±1 st. dev.)
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=16 right=71 upper=27 lower=35
+====>
+charfont height=5.000000, charfont bold=2, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1010 milliQan
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=90 right=169 upper=35 lower=39
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+?0???? ???? J/????
+
+==============================
+
+==============================
+type: undefined
+typeindex=-7 left=208 right=230 upper=36 lower=39
+====>
+charfont height=2.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+?(1S)???
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=90 right=138 upper=44 lower=48
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+????? ?'????
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=148 right=193 upper=44 lower=48
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+B?J/?X, J/????
+
+==============================
+
+==============================
+type: undefined
+typeindex=-7 left=208 right=230 upper=44 lower=48
+====>
+charfont height=2.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+?(2S)???
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=19 right=28 upper=47 lower=52
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+109
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=90 right=135 upper=52 lower=56
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+?????0 ????
+
+==============================
+
+==============================
+type: undefined
+typeindex=-7 left=148 right=171 upper=53 lower=56
+====>
+charfont height=2.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+?(2S)???
+
+==============================
+
+==============================
+type: undefined
+typeindex=-7 left=208 right=230 upper=53 lower=56
+====>
+charfont height=2.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+?(3S)???
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=90 right=140 upper=61 lower=65
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+???? ?'????
+
+==============================
+
+==============================
+type: undefined
+typeindex=-7 left=148 right=198 upper=61 lower=65
+====>
+charfont height=2.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+B??(2S)X,?(2S)???
+
+==============================
+
+==============================
+type: undefined
+typeindex=-6 left=208 right=233 upper=62 lower=65
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Drell-Yan*
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=19 right=28 upper=65 lower=70
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+108
+
+==============================
+
+==============================
+type: undefined
+typeindex=-6 left=201 right=230 upper=74 lower=77
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+pp (13 TeV)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=19 right=28 upper=83 lower=88
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+107
+
+==============================
+
+==============================
+type: undefined
+typeindex=-6 left=189 right=229 upper=83 lower=86
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+?(parent) ? [-2, 2]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=19 right=28 upper=100 lower=106
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+106
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=19 right=28 upper=118 lower=124
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+105
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=19 right=28 upper=136 lower=142
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+104
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=19 right=28 upper=154 lower=160
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+103
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=24 right=36 upper=171 lower=176
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+10?2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=89 right=100 upper=171 lower=176
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+10?1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=157 right=161 upper=173 lower=176
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=218 right=225 upper=173 lower=176
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+10
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=127 right=155 upper=181 lower=187
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+m? [GeV]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=203 lower=241
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+FIG. 5. Cross section times branching ratios for production of
+different particles with j?j < 2 decaying into ?þ?? pairs, as a
+function of ? mass. For Drell-Yan the plotted cross section
+requires at least one of the ?s to have j?j < 1.
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=77 right=170 upper=271 lower=277
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+B. Detector response
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=287 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Generated particles are propagated through a simplified
+model of the material in the CMS detector, including the
+magnetic field, and the 17 m of rock between the CMS
+cavern and the demonstrator.
+Propagation is performed with fourth-order Runge-Kutta
+integration, incorporating the effects of the magnetic field,
+multiple scattering, and energy loss. Particles are propa-
+gated until 2 m before the face of the demonstrator, after
+which they are fed into a full GEANT4 [65] simulation of the
+remaining rock, the drainage gallery where the demon-
+strator is located, and the demonstrator itself. Similarly,
+muons from cosmic ray showers are propagated from the
+surface of the earth to a plane 1 m above the top of the
+cavern. Muon interactions in the cavern walls generate
+showers of gamma rays and electrons that significantly
+contribute to the cosmic ray background. A simulated
+cosmic ray shower event is shown in Fig. 6.
+The simulation parameters are nominally configured to
+be consistent with EJ-200 scintillator and existing mea-
+surements for Tyvek reflectivity and each PMT species’
+quantum efficiency [66]. Overall photon propagation is
+handled using GEANT4’s UNIFIED optical model [67].
+Photon propagation is further calibrated by measuring
+the effects of scintillator roughness and wrapping quality
+on light attenuation in the scintillator bars and matching the
+effect in simulation. These measurements indicated a
+wrapping reflectivity R ¼ 0.97 and scintillator roughness
+? ¼ 1%, typical values for Tyvek and EJ-200 [68]. A per-
+channel calibration is applied to each PMT quantum
+efficiency so that the measured hNPEi values agree between
+data and simulation.
+The electronic response is simulated using SPE wave-
+form templates measured on a test bench with an LED.
+SPE templates for each GEANT4 photoelectron are added
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=219 lower=290
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+FIG. 6. Simulation of the milliQan demonstrator response to a
+simulated cosmic ray shower event. The incident muon (red)
+interacts with the cavern walls to produce a shower. Electrons
+(black) and gamma rays (green) generated in the rock are a
+significant background source. The interactions of muons and
+shower particles with detector material produce scintillation
+photons (cyan).
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=315 lower=369
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+together, with appropriate arrival times, and including
+the individual PMT calibration described in Sec. III. The
+resulting waveform is then added to a randomly selected
+zero-bias data waveform to properly account for elec-
+tronic noise.
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=356 right=417 upper=390 lower=396
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+C. Validation
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=406 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+The simulation is validated by studying beam muons as
+well as cosmic ray events. The absolute rate of beam muons
+passing through all four slabs is compared with the rate
+predicted from a simulated sample of muon production
+from heavy-flavor and electroweak decays, as well as
+meson decays in flight, as described in Sec. IV B. We
+measure a rate of 0.20  0.01 muons=pb?1, based on a
+sample of 7363 muons, in agreement with the prediction of
+0.25  0.08 muons=pb?1. The dominant uncertainties in
+this prediction arise from the uncertainty in the bb? cross
+section (21%) and from the modeling of the material
+between the CMS IP and milliQan (25%). This last
+uncertainty is derived from a 7% variation in the total
+amount of intervening material, which is in turn due
+primarily to uncertainties in both the thickness and density
+of the rock layer. This 7% variation corresponds to a 25%
+uncertainty in the muon rate because of the steeply falling
+muon momentum distribution. This same variation is used
+to derive a systematic uncertainty in the predicted signal
+yields, though in that case the effect is much smaller
+because of the smaller charge of the ?.
+We additionally perform a comparison of the angular
+distribution of beam muon trajectories, in order to probe the
+scattering and magnetic field modeling in simulation and
+
+==============================
+
+==============================
+Page 7
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:23 right:246 lower 691
+Column left:264 upper:28 right:509 lower 691
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=3 right=285 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=1, column left=-1, likeBody=-100
+
+SEARCH FOR MILLICHARGED PARTICLES IN PROTON- …
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-7
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=210 right=240 upper=23 lower=30
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+37.5 fb?1
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=43 right=80 upper=39 lower=44
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+milliQan
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=163 right=197 upper=43 lower=106
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Data
+Scintillator
+Rock
+Lead
+Aluminum
+Other
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=18 right=29 upper=55 lower=62
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+103
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=18 right=29 upper=91 lower=97
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+102
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=20 right=28 upper=128 lower=132
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+10
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=25 right=29 upper=164 lower=168
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=30 right=34 upper=197 lower=202
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=54 right=66 upper=197 lower=202
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+100
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=82 right=94 upper=197 lower=202
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+200
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=110 right=123 upper=197 lower=202
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+300
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=139 right=151 upper=197 lower=202
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+400
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=167 right=180 upper=197 lower=202
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+500
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=195 right=208 upper=197 lower=202
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+600
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=224 right=236 upper=197 lower=202
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+700
+
+==============================
+
+==============================
+type: undefined
+typeindex=-6 left=135 right=145 upper=205 lower=212
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+npe
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=228 lower=299
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+FIG. 7. Comparison of data and simulation npe distributions in
+events with a tagged throughgoing beam muon, for bars that do
+not contain a pulse consistent with originating from a muon, and
+are not neighboring any such bars. Note that only 783 out of 7363
+tagged muons produced detectable showers entering this figure.
+Simulation events are categorized based on the material in which
+the particle(s) that produced the pulse originated.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=323 lower=329
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+validate the alignment of the detector. We compare rates of
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=335 lower=341
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+muons passing through various subsets of bars that trace a
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=348 lower=353
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+range of angles through the detector. The rates of these
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=360 lower=365
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+paths in both the horizontal and vertical directions are
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=372 lower=378
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+measured to be consistent within statistical uncertainties
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=125 upper=384 lower=390
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=100
+
+between data and simulation.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=12 right=246 upper=396 lower=402
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+Finally, the GEANT4 modeling is validated by compar-
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=408 lower=414
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+ing distributions of photoelectron counts in bars near
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=420 lower=426
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+either beam or cosmic muon trajectories. Hits are
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=432 lower=562
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+expected from electrons and gamma rays produced as
+the muon travels through the rock or nearby detector
+material. An example comparison is shown in Fig. 7.
+Here we show npe distributions in data and simulation in
+events with a tagged beam muon, for bars that do not
+contain a pulse consistent with originating from a muon
+(npe < 750), and are not neighboring any such bars.
+Contributions come primarily from electrons and gamma
+rays produced in scintillator material, rock, or the lead
+bricks. Good agreement is seen across a wide range of
+npe levels.
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=6 right=241 upper=583 lower=589
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=1, likeBody=-100
+
+V. SEARCH FOR MILLICHARGED PARTICLES
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=601 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The search for millicharged particles looks for a signal
+with the signature of a pulse in each of the three layers of
+the demonstrator. A number of sources can produce such a
+signature:
+(i) Each PMT has a dark current arising from effects
+such as the thermal emission of electrons from the
+cathode. The simplest background source comes
+from random overlap of three such dark rate pulses.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=28 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+In addition, dark rate counts may overlap with two
+correlated pulses from another source.
+Cosmic muon showers may generate a large number
+of gamma rays and electrons from an interaction of
+one or more cosmic ray muons with the rock in the
+milliQan cavern. This may cause a pulse in each
+layer of the demonstrator. Such a background could
+also be expected from a beam muon that travels
+close to the demonstrator.
+Radiation in the cavern, scintillator bars or surround-
+ing material can cause correlated deposits in several
+bars. The lead blocks placed between layers should
+reduce the probability of deposit in multiple layers
+arising from photons or electrons while the slabs
+provide shielding of neutrons.
+(iv) Afterpulses, which are small pulses caused by
+positive ions generated by the ionization of residual
+gases in the PMT, can appear several hundred
+nanoseconds to over a few microseconds after the
+initial pulse. The afterpulses from correlated depos-
+its in several PMTs may overlap and produce a
+signal-like signature in the demonstrator. For this to
+occur, the interaction event that gives rise to the
+afterpulses must not be triggered because, in this
+case, the afterpulses will fall in the 125 ?s readout
+deadtime that follows each triggered event, and will
+not be recorded.
+Selections are applied in order to reject contributions
+from these background sources. If there is a pulse within
+the acquisition time window in any panel, or in more than
+one bar in each layer, the event is rejected. These require-
+ments reject backgrounds due to cosmic muon showers,
+which are expected to cause deposits across the detector. In
+addition, if there is a pulse in any slab within the acquisition
+time window consistent with originating from a muon
+(npe > 250) the event is vetoed. This requirement rejects
+deposits due to beam and cosmic muons passing close to
+the bars. The bars with reconstructed pulses are required to
+be pointing to the CMS IP. This reduces the backgrounds
+from neutrons, cosmic muon showers and random overlap,
+while being efficient for signal, which typically has a small
+angular spread. To mitigate backgrounds from afterpulses,
+in each channel a requirement is made to reject the event if
+a pulse occurs before the window in which the pulse may be
+involved in the trigger decision. In addition, the first pulse
+in each channel must have the largest npe value. Events that
+contain initial pulses in the bars with a large spread in npe
+(maximum npe/minimum npe > 10) are vetoed to reject
+events containing contributions from different sources,
+such as dark rate overlap with shower deposits or deposits
+from two or more shower particles traveling through the
+demonstrator. Finally, the maximum calibrated time differ-
+ence between the first bar pulse in each layer (?tmax) is
+required to be less than 15 ns, which is efficient for signals
+traveling through the detector from the CMS IP and forms a
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=274 right=286 upper=52 lower=58
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=264, likeBody=-100
+
+(ii)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=271 right=286 upper=136 lower=142
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=264, likeBody=-100
+
+(iii)
+
+==============================
+
+==============================
+Page 8
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:48 right:246 lower 691
+Column left:259 upper:48 right:509 lower 687
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=67 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+A. BALL et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=411 upper=29 lower=34
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+TABLE I. Sequential impact of each requirement on the number of events passing the selection criteria.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=233 right=267 upper=48 lower=64
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Data
+beam-off
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=229 right=272 upper=67 lower=75
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+t ¼ 1042 h
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=232 right=269 upper=87 lower=92
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+1939 900
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=238 right=269 upper=98 lower=103
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+698 349
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=238 right=269 upper=109 lower=114
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+632 494
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=238 right=269 upper=120 lower=125
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+409 296
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=238 right=269 upper=131 lower=136
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+295 040
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=238 right=269 upper=142 lower=147
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+150 949
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=248 right=269 upper=154 lower=159
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+5 161
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=248 right=269 upper=165 lower=170
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+5 153
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=255 right=269 upper=176 lower=181
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+361
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=255 right=269 upper=187 lower=192
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+339
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=259 right=269 upper=198 lower=203
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+22
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=255 right=269 upper=215 lower=220
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+131
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=172 right=205 upper=48 lower=64
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Data
+beam-on
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=167 right=209 upper=67 lower=75
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+t ¼ 1106 h
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=54 right=89 upper=70 lower=75
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Selection
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=54 right=150 upper=86 lower=149
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+? 1 hit per layer
+Exactly one hit per layer
+Panel veto
+First pulse is max
+Veto early pulses
+max npe= min npe < 10
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=40 upper=87 lower=103
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Common
+Selections
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=170 right=207 upper=87 lower=92
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+2 003 170
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=176 right=207 upper=98 lower=103
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+714 991
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=176 right=207 upper=109 lower=114
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+647 936
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=176 right=207 upper=120 lower=125
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+418 711
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=176 right=207 upper=131 lower=136
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+301 979
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=176 right=207 upper=142 lower=147
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+154 203
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=54 right=109 upper=153 lower=161
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+?tmax < 15 ns
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=186 right=207 upper=154 lower=159
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+5 284
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=54 right=115 upper=165 lower=181
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Slab muon veto
+Straight path
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=186 right=207 upper=165 lower=170
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+5224
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=192 right=207 upper=176 lower=181
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+350
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=54 right=106 upper=184 lower=291
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Nslab ¼ 0
+Nslab ? 1
+Nslab ¼ 0 and
+Nslab ¼ 0 and
+Nslab ¼ 1 and
+Nslab ¼ 1 and
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=192 right=207 upper=187 lower=192
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+332
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=197 right=207 upper=198 lower=203
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+18
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=21 upper=215 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=0, column left=1, likeBody=-100
+
+SR 1
+SR 2
+SR 3
+SR 4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=192 right=207 upper=215 lower=220
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+129
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=63 right=128 upper=223 lower=233
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+min npe ? ½2; 20
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=197 right=207 upper=238 lower=243
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+52
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=63 right=115 upper=249 lower=256
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+min npe > 20
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=202 right=207 upper=261 lower=266
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=63 right=128 upper=269 lower=279
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+min npe ? ½5; 30
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=202 right=207 upper=284 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=63 right=115 upper=295 lower=302
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+min npe > 30
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=21 upper=306 lower=312
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=0, column left=1, likeBody=-100
+
+SR 5
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=54 right=88 upper=306 lower=314
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Nslab ? 2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=202 right=207 upper=306 lower=312
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=335 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+powerful rejection of backgrounds that have different paths
+through the detector, such as cosmic muon showers, or that
+have deposits in each layer that are uncorrelated in their
+timing, such as dark rate overlap.
+Selected events are subsequently categorized into five
+signal regions (SRs) through requirements on both the
+number of slabs that contain a pulse and the minimum npe
+of the pulses in the three bars. This categorization allows
+for sensitivity to a wide range of charge values in the signal
+parameter space. The definitions of the five SRs are
+summarized in Table I. For events with a pulse in each
+of the three layers the selection criteria provide high
+efficiency for the targeted models while rejecting the
+background by more than 5 orders of magnitude.
+Residual background passing selection is estimated for
+each signal region by measuring the pass/fail ratio of the
+timing requirement in events with a hit in each layer,
+consistent with signal requirements except that the bars do
+not form a pointing path towards the CMS IP, and then
+multiplying it by the number of events failing the timing
+selection that form a pointing path towards the CMS IP.
+This prediction method relies on the independence of the
+dominant backgrounds on the pointing path requirement.
+This method is used rather than taking the prediction from
+the beam-off dataset as it is robust against time dependent
+drifts in the background rate. However, the beam-off
+dataset provides a statistically independent sample to
+validate the prediction without contamination from signal.
+The results of the beam-off prediction for the SR are
+summarized in Table II. The uncertainty in the prediction
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=294 right=355 upper=48 lower=66
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+Signal
+m? ¼ 0.05 GeV
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=376 right=433 upper=48 lower=66
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+Signal
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=376 right=507 upper=48 lower=66
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+Signal
+m? ¼ 1.0 GeV m? ¼ 3.0 GeV
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=299 right=350 upper=68 lower=76
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+Q=e ¼ 0.007
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=382 right=428 upper=68 lower=76
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+Q=e ¼ 0.02
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=458 right=500 upper=68 lower=76
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+Q=e ¼ 0.1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=314 right=335 upper=87 lower=92
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+136.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=87 lower=92
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+34.2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=87 lower=92
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+5.7
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=314 right=335 upper=98 lower=103
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+123.1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=98 lower=103
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+31.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=98 lower=103
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+5.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=314 right=335 upper=109 lower=114
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+122.5
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=109 lower=114
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+30.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=109 lower=114
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=314 right=335 upper=120 lower=125
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+114.3
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=120 lower=125
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+30.6
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=120 lower=125
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=314 right=335 upper=131 lower=136
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+113.9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=131 lower=136
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+30.6
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=131 lower=136
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=314 right=335 upper=142 lower=147
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+104.2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=142 lower=147
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+29.6
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=142 lower=147
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.7
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=319 right=335 upper=154 lower=159
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+72.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=154 lower=159
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+28.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=154 lower=159
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=319 right=335 upper=165 lower=170
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+72.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=165 lower=170
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+28.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=165 lower=170
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=319 right=335 upper=176 lower=181
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+68.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=176 lower=181
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+28.1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=176 lower=181
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=319 right=335 upper=187 lower=192
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+64.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=187 lower=192
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+16.9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=187 lower=192
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=323 right=335 upper=198 lower=203
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+3.6
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=198 lower=203
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+11.2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=198 lower=203
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=319 right=335 upper=215 lower=220
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+47.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=401 right=413 upper=215 lower=220
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=215 lower=220
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=259 right=269 upper=238 lower=243
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=259, likeBody=-100
+
+45
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=323 right=335 upper=238 lower=243
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=396 right=413 upper=238 lower=243
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+16.5
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=238 lower=243
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=269 upper=261 lower=266
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=323 right=335 upper=261 lower=266
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+1.1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=401 right=413 upper=261 lower=266
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.5
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=261 lower=266
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=269 upper=284 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=323 right=335 upper=284 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=401 right=413 upper=284 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+8.7
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=284 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=269 upper=306 lower=312
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=323 right=335 upper=306 lower=312
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=401 right=413 upper=306 lower=312
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+2.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=473 right=485 upper=306 lower=312
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4.2
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=335 lower=535
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=259, likeBody=100
+
+reflects the limited statistics in the regions used to make the
+prediction. The prediction is shown to be in agreement with
+the observation for all validation regions. The level of
+agreement between prediction and observation in each
+validation region is used to derive a systematic uncertainty
+in the prediction.
+Given the validation of the background prediction
+method with the beam-off dataset, the SR prediction is
+made using the beam-on dataset. The background contri-
+bution from beam processes is estimated from simulation to
+be less than 2% for all regions. Results are given in
+Table III. The predictions are seen to be consistent with
+those from the beam-off dataset (taking the 6% difference
+in collection time into account), which provides additional
+confidence that the beam-based backgrounds are negli-
+gible. The uncertainty in the prediction reflects both the
+limited statistical power of the regions used for the
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=569 lower=597
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=259, likeBody=-100
+
+TABLE II. Summary of the results of the validation using the
+beam-off dataset.The systematic values are derived from the level
+of agreement between the prediction and observation.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=611 lower=618
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=259, likeBody=-100
+
+Region Nslab min npe Prediction Observation Systematic
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=389 right=402 upper=625 lower=630
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+þ6.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=269 upper=628 lower=633
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=307 right=311 upper=628 lower=633
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=330 right=401 upper=628 lower=637
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+[2,20] 121.2?5.9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=429 right=443 upper=628 lower=633
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+131
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=485 right=497 upper=628 lower=633
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+8%
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=386 right=400 upper=637 lower=643
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+þ 5. 2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=269 upper=640 lower=646
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=307 right=311 upper=640 lower=646
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=333 right=350 upper=640 lower=646
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+>20
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=434 right=443 upper=640 lower=646
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+45
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=485 right=497 upper=640 lower=646
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+5%
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=370 right=399 upper=642 lower=650
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=0, column left=259, likeBody=-100
+
+47.4?4.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=384 right=397 upper=650 lower=656
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+þ 2.5
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=269 upper=653 lower=658
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+3
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=307 right=311 upper=653 lower=658
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=330 right=353 upper=653 lower=658
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+[5,30]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=438 right=443 upper=653 lower=658
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=480 right=497 upper=653 lower=658
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+15%
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=372 right=383 upper=654 lower=660
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+7.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=388 right=397 upper=658 lower=662
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+1. 8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=384 right=397 upper=662 lower=668
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+þ 2.1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=269 upper=666 lower=671
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=307 right=311 upper=666 lower=671
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=333 right=350 upper=666 lower=671
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+>30
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=438 right=443 upper=666 lower=671
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=480 right=497 upper=666 lower=671
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+48%
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=372 right=383 upper=667 lower=672
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+2.7
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=388 right=397 upper=671 lower=675
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+1. 1
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=336 right=347 upper=675 lower=683
+====>
+charfont height=8.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=384 right=397 upper=675 lower=681
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+þ 1.4
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=304 right=315 upper=677 lower=683
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+?2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=269 upper=678 lower=683
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+5
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=438 right=443 upper=678 lower=683
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=480 right=497 upper=678 lower=683
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+25%
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=372 right=383 upper=679 lower=684
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=259, likeBody=-100
+
+0.8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=384 right=397 upper=683 lower=687
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=259, likeBody=-100
+
+?0.4
+
+==============================
+
+==============================
+Page 9
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:29 right:246 lower 691
+Column left:264 upper:224 right:509 lower 691
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=3 right=285 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=1, column left=-1, likeBody=-100
+
+SEARCH FOR MILLICHARGED PARTICLES IN PROTON- …
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=238 right=272 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=48 upper=29 lower=45
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+prediction.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=29 lower=34
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+TABLE III. Summary of the results of the signal region
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=28 upper=59 lower=64
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+Region
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=50 right=67 upper=59 lower=66
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Nslab
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=89 right=118 upper=59 lower=66
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+min npe
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=140 right=179 upper=59 lower=64
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+Prediction
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=200 right=246 upper=59 lower=64
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+Observation
+
+==============================
+
+==============================
+type: undefined
+typeindex=-6 left=160 right=172 upper=73 lower=79
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+þ11
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=6 upper=76 lower=81
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=56 right=61 upper=76 lower=81
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=92 right=115 upper=76 lower=81
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+[2,20]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=216 right=230 upper=76 lower=81
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+129
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=146 right=159 upper=78 lower=82
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+124
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=160 right=172 upper=81 lower=85
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+? 11
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=161 right=174 upper=85 lower=91
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+þ 6.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=6 upper=88 lower=94
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=56 right=61 upper=88 lower=94
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=94 right=113 upper=88 lower=94
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+> 20
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=221 right=230 upper=88 lower=94
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+52
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=144 right=160 upper=90 lower=95
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+49.9
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=165 right=174 upper=94 lower=98
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+5. 4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=161 right=174 upper=98 lower=104
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+þ 3.6
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=6 upper=101 lower=106
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+3
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=56 right=61 upper=101 lower=106
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=92 right=115 upper=101 lower=106
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+[5,30]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=225 right=230 upper=101 lower=106
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+8
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=144 right=160 upper=102 lower=107
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+10.7
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=161 right=174 upper=106 lower=110
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+?2.6
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=158 right=172 upper=110 lower=116
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+þ2.1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=6 upper=114 lower=119
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=56 right=61 upper=114 lower=119
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=96 right=112 upper=114 lower=119
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+>30
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=225 right=230 upper=114 lower=119
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=147 right=157 upper=115 lower=120
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+2.4
+
+==============================
+
+==============================
+type: undefined
+typeindex=-6 left=163 right=171 upper=119 lower=123
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1.1
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=98 right=109 upper=123 lower=131
+====>
+charfont height=8.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=158 right=172 upper=123 lower=129
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+þ 0.9
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=53 right=64 upper=125 lower=131
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+?2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=6 upper=126 lower=131
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=1, likeBody=-100
+
+5
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=225 right=230 upper=126 lower=131
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=147 right=157 upper=127 lower=132
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+0.0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-5 left=158 right=171 upper=131 lower=135
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=1, likeBody=-100
+
+?0.0
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=163 lower=205
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+prediction as well as the systematic uncertainty derived
+from the validation using the beam-off dataset. The
+predictions are found to be consistent with the observations
+in all SRs.
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=67 right=180 upper=226 lower=232
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=1, likeBody=-100
+
+VI. INTERPRETATION
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=244 lower=599
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+The search is interpreted using the signal model
+described in Sec. IV. The full set of selection criteria
+described in Sec. V is applied to each event. The efficiency
+to pass these criteria for three benchmark ? masses and
+charges is shown in Table I.
+There are several sources of systematic uncertainty in
+the number of signal events entering the SRs. These are
+evaluated independently for each model point and are
+summarized below:
+(i) Signal cross section (described in Sec. IVA):
+typically 15%–30% depending on the mass of the ?.
+(ii) Material interactions (described in Sec. IV C):
+typically 1%–5% depending on the charge and mass
+of the ?.
+Pulse timing (described in Sec. III): typically
+1%–40% depending on the charge of the ?.
+(iv) hNPEi calibration (described in Sec. III): 1%–50%
+depending on the SR populated by the ?.
+(v) Limited simulated sample size: up to 30%.
+Under the signal plus background hypothesis, a modified
+frequentist approach is used to determine observed upper
+limits at 95% confidence level on the cross section (?) to
+produce a pair of ?s, as a function of mass and charge. The
+approach uses the LHC-style profile likelihood ratio as the
+test statistic [69] and the criterion of the C.L. [70,71].
+The observed upper limits are evaluated through the use of
+asymptotic formulas [72]. Figure 8 shows the exclusion at
+95% confidence level in mass and charge of the ?. The
+exclusion is compared to existing constraints, showing new
+sensitivity for ? masses above 700 MeV.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=8 right=23 upper=412 lower=418
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1, likeBody=-100
+
+(iii)
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=72 right=175 upper=619 lower=625
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=1, likeBody=-100
+
+VII. FUTURE PLANS
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=637 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+In Refs. [30,37] we assumed the largest irreducible
+background to the signal would come from dark-current
+pulses in the PMTs. From experience gained by operating
+the demonstrator, we now know that an equally important
+background comes from correlated effects caused by
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=224 lower=263
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+FIG. 8. Exclusion at 95% confidence level compared to existing
+constraints from colliders, CMS, ArgoNeuT and SLAC MilliQ
+[10–16,27] as well as the indirect constraint from the CMB
+relativistic degrees of freedom [26].
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=287 lower=547
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+activity in the scintillator (from effects such as environ-
+mental radiation or cosmic muon showers). This realization
+prompted us to revisit the milliQan design, adding a fourth
+layer in order to mitigate the contribution from these
+correlated backgrounds.
+We have studied the effect of adding a fourth layer with
+the demonstrator. The demonstrator has three rather than
+four layers so backgrounds are determined for threefold
+coincidence and then extended to fourfold using an addi-
+tional pulse in a slab. The results of this study indicate that
+the contribution from pure dark-current overlap drops to a
+negligible level for the case of fourfold coincidence, even
+with the somewhat high-noise PMTs that are used in the
+demonstrator. The calculations presented in Refs. [30,37]
+remain a conservative estimate of the milliQan discovery
+potential since the background with four layers as measured
+with the demonstrator is significantly smaller than the
+estimate used in those simulations.
+Given the experience obtained from the demonstrator,
+we are confident that the proposed full-scale detector will
+perform as expected provided sufficient funding becomes
+available.
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=335 right=438 upper=569 lower=575
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=264, likeBody=-100
+
+VIII. CONCLUSIONS
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=588 lower=691
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+We have deployed a prototype dedicated detector at the
+LHC to conduct the first search for elementary particles
+with charges much smaller than the electron charge at a
+hadron collider. We analyzedpa? data sample of proton-proton collisions collected at s? ¼ 13 TeV provided by
+the LHC, corresponding to an integrated luminosity of
+37.5 fb?1. The existence of new particles with masses
+between 20 and 4700 MeV is excluded at 95% confidence
+level for charges varying between 0.006e and 0.3e,
+
+==============================
+
+==============================
+Page 10
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:28 right:246 lower 557
+Column left:264 upper:28 right:509 lower 691
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=67 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+A. BALL et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=509 upper=563 lower=691
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Batavia, 2013), Vol. 10.
+[12] S. Chatrchyan (CMS Collaboration), Sepr?ch for fractionally [25] D. C. Moore, A. D. Rider, and G. Gratta, Search for Milli-charged particles in pp collisions at s? ¼ 7 TeV, Phys.
+Rev. D 87, 092008 (2013).
+[13] S. Chatrchyan (CMS Collaboration), Spea? rches for long- [26] C. Brust, D. E. Kaplan, and M. T. Walters, New light specieslived charged particles in pp collisions at s? ¼ 7 and 8 TeV,
+J. High Energy Phys. 07 (2013) 122.
+[14] R. Acciarri, C. Adams, J. Asaadi et al., Improved Limits on
+Millicharged Particles Using the ArgoNeuT Experiment at
+Fermilab, Phys. Rev. Lett. 124, 131801 (2020).
+[15] S. Davidson,S.Hannestad, and G.Raffelt,Updatedbounds on
+millicharged particles, J. High Energy Phys. 05 (2000) 003.
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=236 right=274 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-10
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=28 lower=34
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+depending on mass. New sensitivity is achieved for masses
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=40 lower=46
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+larger than 700 MeV. The successful operation of the
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=52 lower=58
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+milliQan demonstrator and search carried out have shown
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=64 lower=94
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+the feasibility of a dedicated detector for millicharged
+particles at the LHC and provided important lessons for
+the design of the full detector.
+
+==============================
+
+==============================
+type: undefined
+typeindex=7 left=66 right=182 upper=112 lower=118
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=1, column left=1, likeBody=-100
+
+ACKNOWLEDGMENTS
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=246 upper=130 lower=160
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=100
+
+We congratulate our colleagues in the CERN accelerator
+departments for the excellent performance of the LHC and
+thank the technical and administrative staffs at CERN.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=6 right=246 upper=239 lower=311
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+[1] N. Arkani-Hamed, D. P. Finkbeiner, T. R. Slatyer, and
+N. Weiner, A theory of dark matter, Phys. Rev. D 79,
+015014 (2009).
+[2] M. Pospelov and A. Ritz, Astrophysical signatures of
+secluded dark matter, Phys. Lett. B 671, 391 (2009).
+[3] M. Battaglieri, A. Belloni, A. Chou et al., U.S. cosmic
+visions: New ideas in dark matter 2017: Community report,
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=21 right=246 upper=317 lower=323
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+in U.S. Cosmic Visions: New Ideas in Dark Matter
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=329 lower=546
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+(Fermilab, Batavia, 2017), Vol. 7.
+[4] J. Beacham, C. Burrage, D. Curtin et al., Physics beyond
+colliders at CERN: Beyond the standard model working
+group report, J. Phys. G 47, 010501 (2020).
+[5] European Strategy for Particle Physics Preparatory Group,
+Physics Briefing Book (CERN, Geneva, 2019).
+[6] L. B. Okun, Limits of electrodynamics: Paraphotons?, Zh.
+Eksp. Teor. Fiz. 83, 892 (1982) [Sov. Phys. JETP 56, 502
+(1982)], https://inspirehep.net/literature/177918.
+[7] E. Izaguirre and I. Yavin, New window to millicharged
+particles at the LHC, Phys. Rev. D 92, 035014 (2015).
+[8] B. Holdom, Two U(1)’s and epsilon charge shifts, Phys.
+Lett. B 166, 196 (1986).
+[9] S. Davidson and M. E. Peskin, Astrophysical bounds on
+millicharged particles in models with a paraphoton, Phys.
+Rev. D 49, 2114 (1994).
+[10] A. Prinz, R. Baggs, J. Ballam et al., Search for Millicharged
+Particles at SLAC, Phys. Rev. Lett. 81, 1175 (1998).
+[11] R. Essig, J. A. Jaros, W. Wester et al., Working group report:
+New light weakly coupled particles, in Community Summer
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=21 right=246 upper=552 lower=557
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+Study 2013: Snowmass on the Mississippi (Fermilab,
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=264 right=509 upper=28 lower=156
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=100
+
+In addition, we gratefully acknowledge the CMS collabo-
+ration for supporting this endeavor by providing invaluable
+logistical and technical assistance. We also thank Eder
+Izaguirre and Itay Yavin for their enduring contributions to
+this idea. Finally, we acknowledge the following funding
+agencies who support the investigators that carried out this
+research in various capacities: FWO (Belgium) under the
+Excellence of Science EOS be.h Project No. 30820817;
+DFG and HGF (Germany); Swiss Funding Agencies
+(Switzerland); STFC (United Kingdom); DOE and NSF
+(USA); Lebanese University (Lebanon).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=239 lower=691
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+[16] A. Badertscher, P. Crivelli, W. Fetscher, U. Gendotti, S. N.
+Gninenko, V. Postoev, A. Rubbia, V. Samoylenko, and D.
+Sillou, An improved limit on invisible decays of positro-
+nium, Phys. Rev. D 75, 032004 (2007).
+[17] G. Magill, R. Plestid, M. Pospelov, and Y.-D. Tsai, Milli-
+charged Particles in Neutrino Experiments, Phys. Rev. Lett.
+122, 071801 (2019).
+[18] S. Davidson, B. Campbell, and D. C. Bailey, Limits on
+particles of small electric charge, Phys. Rev. D 43, 2314
+(1991).
+[19] R. Mohapatra and I. Rothstein, Astrophysical constraints on
+minicharged particles, Phys. Lett. B 247, 593 (1990).
+[20] R. Agnese, A. Anderson, D. Balakishiyeva et al., First
+Direct Limits on Lightly Ionizing Particles with Electric
+Charge Less than e=6, Phys. Rev. Lett. 114, 111302 (2015).
+[21] T. Emken, R. Essig, C. Kouvaris, and M. Sholapurkar,
+Direct detection of strongly interacting sub-gev dark
+matter via electron recoils, J. Cosmol. Astropart. Phys.
+09 (2019) 070.
+[22] L. Singh (TEXONO Collaboration), Constraints on milli-
+charged particles with low-threshold germaniumdetectors at
+Kuo-Sheng Reactor Neutrino Laboratory, Phys. Rev. D 99,
+032009 (2019).
+[23] S. I. Alvis (Majorana Collaboration), First Limit on the
+Direct Detection of Lightly Ionizing Particles for Electric
+Charge as Low as e=1000 with the Majorana Demonstrator,
+Phys. Rev. Lett. 120, 211804 (2018).
+[24] P. C. Kim, E. R. Lee, I. T. Lee, M. L. Perl, V. Halyo, and D.
+Loomba, Search for Fractional-Charge Particles in Meteor-
+itic Material, Phys. Rev. Lett. 99, 161804 (2007).
+charged Particles Using Optically Levitated Microspheres,
+Phys. Rev. Lett. 113, 251801 (2014).
+and the CMB, J. High Energy Phys. 12 (2013) 058.
+[27] H. Vogel and J. Redondo, Dark radiation constraints on
+minicharged particles in models with a hidden photon, J.
+Cosmol. Astropart. Phys. 02 (2014) 029.
+[28] G. Aad (ATLAS Collaboration), The ATLAS experiment at
+the CERN large hadron collider, J. Instrum. 3, S08003
+(2008).
+
+==============================
+
+==============================
+Page 11
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:28 right:246 lower 649
+Column left:264 upper:161 right:509 lower 650
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=2 left=3 right=285 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=1, column left=-1, likeBody=-100
+
+SEARCH FOR MILLICHARGED PARTICLES IN PROTON- …
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=21 right=509 upper=28 lower=157
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+[49] G Aad (ATLAS Collaboration), Measurement of Upsilon
+production in 7 TeV pp collisions at ATLAS, Phys. Rev. D
+87, 052004 (2013).
+install a millicharged particle detector at LHC P5, arXiv: [50] R. Aaij (LHCb Collaboratipo?n), Measurement of ? pro-duction in pp collisions at s? ¼ 13 TeV, J. High Energy
+Phys. 07 (2018) 134; Erratum, J. High Energy Phys. 05
+(2019) 076.
+[51] T. Sjöstrand, S. Mrenna, and P. Skands, A brief introduc-
+tion to PYTHIA8.1, Comput. Phys. Commun. 178, 852
+(2008).
+[52] P. Skands, S. Carrazza, and J. Rojo, Tuning PYTHIA8.1: The
+Monash 2013 Tune, Eur. Phys. J. C 74, 3024 (2014).
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=236 right=274 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-11
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=28 lower=615
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+[29] S. Chatrchyan (CMS Collaboration), The CMS experiment
+at the CERN LHC, J. Instrum. 3, S08004 (2008).
+[30] A. Ball, J. Brooke, C. Campagnari et al., A letter of intent to
+1607.04669.
+[31] Eljen Technology, https://eljentechnology.com/products/
+plastic-scintillators/ej-200-ej-204-ej-208-ej-212.
+[32] Hamamatsu Photonics K. K., https://www.hamamatsu
+.com/.
+[33] ET Enterprises, Ltd., http://et-enterprises.com/.
+[34] CAEN S.p.A, https://www.caen.it/products/v1743/.
+[35] CAEN S.p.A, https://www.caen.it/products/sy5527/.
+[36] R. Saldanha, L. Grandi, Y. Guardincerri, and T. Wester,
+Model independent approach to the single photoelectron
+calibration of photomultiplier tubes, Nucl. Instrum. Meth-
+ods Phys. Res., Sect. A 863, 35 (2017).
+[37] A. Haas, C.S. Hill, E. Izaguirre, and I. Yavin, Looking for
+millicharged particles with a new experiment at the LHC,
+Phys. Lett. B 746, 117 (2015).
+[38] J. Alwall, R. Frederix, S. Frixione, V. Hirschi, F. Maltoni,
+O. Mattelaer, H.-S. Shao, T. Stelzer, P. Torrielli, and M.
+Zaro, The automated computation of tree-level and next-to-
+leading order differential cross sections, and their matching
+to parton shower simulations, J. High Energy Phys. 07
+(2014) 079.
+[39] Y.-Q. Ma, K. Wang, and K.-T. Chao, A complete NLO
+calculation of the J=? and ?0 production at hadron colliders,
+Phys. Rev. D 84, 114001 (2011).
+[40] Y.-Q. Ma, K. Wang, and K.-T. Chao, J=?ð?0Þ Production at
+the Tevatron and LHC at Oð?4sv4Þ in Nonrelativistic QCD,
+Phys. Rev. Lett. 106, 042002 (2011).
+[41] Y.-Q. Ma and R. Venugopalan, Comprehensive Description
+of J=? Production in Proton-Proton Collisions at Collider
+Energies, Phys. Rev. Lett. 113, 192301 (2014).
+[42] M. Cacciari, M. L. Mangano, and P. Nason, Gluon PDF
+constraints from thpr? atio of forward heavy-quark produc-tion at the LHC at s? ¼ 7 and 13 TeV, Eur. Phys. J. C 75,
+610 (2015).
+[43] M. Cacciari, S. Frixione, N. Houdeau, M. L. Mangano, P.
+Nason, and G. Ridolfi, Theoretical predictions for charm
+and bottom production at the LHC, J. High Energy Phys. 10
+(2012) 137.
+[44] M. Cacciari, S. Frixione, and P. Nason, The pT spectrum in
+heavy flavor photoproduction, J. High Energy Phys. 03
+(2001) 006.
+[45] H. Han, Y.-Q. Ma, C. Meng, H.-S. Shao, Y.-J. Zhang, and
+K.-T. Chao, ?ðnSÞ and ?bðnPÞ production at hadron
+colliders in nonrelativistic QCD, Phys. Rev. D 94,
+014028 (2016).
+[46] Y.-Q. Ma (private communication).
+[47] S. Chatrchyan (CMS Collaboration), Measurement of quar-
+kpon? ium production cross sections in pp collisions at?s ¼ 13 TeV, Phys. Lett. B 780, 251 (2018).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=617 lower=649
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+[48] G. Aad (ATLAS Collaboration), Measuremepnt? of the ?ð1SÞproduction cross section in pp collisions at s? ¼ 7 TeV in
+ATLAS, Phys. Lett. B 705, 9 (2011).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=438 right=446 upper=161 lower=168
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=264, likeBody=-100
+
+?0
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=162 lower=213
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+[53] S. Acharya (ALICE Collaboration), apd? ? mesonproduction in proton-proton collisions at s? ¼ 8 TeV,
+Eur. Phys. J. C 78, 263 (2018).
+[54] S. Acharya (ALICE Collaboration), Productionpo?f? the
+
+==============================
+
+==============================
+type: undefined
+typeindex=-8 left=284 right=509 upper=205 lower=215
+====>
+charfont height=0.000000, charfont bold=0, alignment=1, allupper=-1, column left=264, likeBody=-100
+
+?ð770Þ0 meson in pp and Pb-Pb collisions at ?sN??N?? ¼
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=220 lower=472
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+2.76 TeV, Phys. Rev. C 99, 064901 (2019).
+[55] S. Acharya (ALICEpC? ollaboration), Production of ?ð782Þin pp collisions at s? ¼ 7 TeV, CERN Technical Report
+No. ALICE-PUBLIC-2018-004, 2018.
+[56] S. Chatrchyan (CMS Collaboration), Measurement of
+charged pion, kaon, pn?d proton production in proton-proton collisions at s? ¼ 13 TeV, Phys. Rev. D 96,
+112003 (2017).
+[57] T. Sjöstrand, S. Mrenna, and P. Skands, PYTHIA6.4 physics
+and manual, J. High Energy Phys. 05 (2006) 026.
+[58] M. G. Albrow, M. Begel, D. Bourilkov et al., Tevatron-
+for-LHC report of the QCD working group, arXiv:hep-ph/
+0610012.
+[59] G. Aad (ATLAS Collaboration), The differepnt?ial productioncross section of the ? (1020) meson in s? ¼ 7 TeV pp
+collisions measured with the ATLAS detector, Eur. Phys. J.
+C 74, 2895 (2014).
+[60] G. Aad (ATLAS Collaboration), Measurepm?ent of theInelastic Proton-Proton Cross Section at s? ¼ 13 TeV
+with the ATLAS Detector at the LHC, Phys. Rev. Lett. 117,
+182002 (2016).
+[61] S. Chatrchyan (CMS Collaboration), Measupre?ment of theinelastic proton-proton cross section at ?s ¼ 13 TeV,
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=466 lower=650
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+CERN Technical Report No. CMS-PAS-FSQ-15-005, 2016.
+[62] R. Van Royen and V. F. Weisskopf, Hadron decay processes
+and the quark model, Nuovo Cimento A 50, 617 (1967);
+Erratum, Nuovo Cimento A 51, 583 (1967).
+[63] M. Tanabashi et al. (Particle Data Group), Review of
+particle physics, Phys. Rev. D 98, 030001 (2018).
+[64] L. G. Landsberg, Electromagnetic decays of light mesons,
+Phys. Rep. 128, 301 (1985).
+[65] S. Agostinelli, J. Allison, K. Amako et al., GEANT4A
+simulation toolkit, Nucl. Instrum. Methods Phys. Res.,
+Sect. A 506, 250 (2003).
+[66] M. Janecek and W. W. Moses, Optical reflectance measure-
+ments for commonly used reflectors, IEEE Trans. Nucl. Sci.
+55, 2432 (2008).
+[67] A. Levin and C. Moisan, A more physical approach to
+model the surface treatment of scintillation counters and
+
+==============================
+
+==============================
+Page 12
+ Left 1 Right 509 Top 1 Bottom 733
+
+
+Column meta:
+Column left:1 upper:28 right:246 lower 132
+Column left:264 upper:28 right:509 lower 121
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=0 left=1 right=67 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+A. BALL et al.
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=1 left=352 right=507 upper=1 lower=7
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+PHYS. REV. D 102, 032002 (2020)
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-1 left=236 right=274 upper=728 lower=733
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+032002-12
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=21 right=246 upper=28 lower=33
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+its implementation into DETECT, in 1996 IEEE Nuclear
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=21 right=246 upper=39 lower=44
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=1, likeBody=-100
+
+Science Symposium. Conference Record (IEEE, Anaheim,
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=246 upper=50 lower=132
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=1, likeBody=-100
+
+CA, 1996), Vol. 2, p. 702.
+[68] P. Papacz, Optimization of the particle detection efficiency
+for scintillation detectors with SiPM readout, Master’s
+thesis, RWTH Aachen University, 2010.
+[69] G. Aad (ATLAS and CMS Collaborations), Procedure for
+the LHC Higgs boson search combination in Summer 2011,
+CERN Technical Reports No. CMS-NOTE-2011-005 and
+No. ATL-PHYS-PUB-2011-11, 2011.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=264 right=509 upper=28 lower=121
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=264, likeBody=-100
+
+[70] T. Junk, Confidence level computation for combining
+searches with small statistics, Nucl. Instrum. Methods Phys.
+Res., Sect. A 434, 435 (1999).
+[71] A. L. Read, Presentation of search results: The CLs tech-
+nique, J. Phys. G 28, 2693 (2002).
+[72] G. Cowan, K. Cranmer, E. Gross, and O. Vitells, Asymp-
+totic formulas for likelihood-based tests ofnew physics, Eur.
+Phys. J. C 71, 1554 (2011); Erratum, Eur. Phys. J. C 73,
+2501 (2013).
+
+==============================
+

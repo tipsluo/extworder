@@ -1,0 +1,1759 @@
+Title:
+1. Introduction
+
+Abstract:
+ In the 1980s Branner and Douady discovered a surgery relating various limbs of the Mandelbrot set. We put this surgery in the framework of “Pacman Renormalization Theory” that combines features of quadratic-like and Siegel renormalizations. We show that Siegel renormalization periodic points (constructed by McMullen in the 1990s) can be promoted to pacman renormalization periodic points. Then we prove that these periodic points are hyperbolic with one-dimensional unstable manifold resolving a long stand- ing problem. As a consequence, we obtain the scaling laws for the centers of satellite components of the Mandelbrot set near the corresponding Siegel parameters. 
+----------------------
+
+
+Text:
+----------------------
+Renormalization was introduced into Dynamics in the mid 1970s by Feigenbaum,
+Coullet and Tresser and since then has established itself as a powerful tool of pen-
+etrating into the small-scale structure of phase portraits and bifurcation loci. It
+turned out to be challenging to develop a rigorous mathematical theory of renor-
+malization (for example, to prove hyperbolicity of the renormalization operator),
+but every time when this is achieved, plentiful deep consequences reward the e?ort.
+The complex quadratic family provided us with several important renormaliza-
+tion schemes: quadratic-like, near-parabolic, and Siegel. All three are intimately
+related to the observed self-similarity of the Mandelbrot set M and to the celebrated
+Figure 1. A (full) pacman is a 2 : 1 map f : U ? V such that
+the critical arc ?1 has 3 preimages: ?0, ?+ and ??.
+MLC Conjecture on the local connectivity of M. The conjecture comes in two ?a-
+vors, “primitive” and “satellite”. Development of the quadratic-like renormaliza-
+tion has led to a substantial progress in the primitive case, while the near-parabolic
+renormalization has given an insight into the satellite situation.
+In this paper we design a new “pacman” renormalization and prove the hyper-
+bolicity of the corresponding renormalization operator. It implies the hyperbolicity
+of the Siegel renormalization for arbitrary periodic combinatorics (resolving a prob-
+lem going back to the early 1980s) and gives an insight into the self-similarity of
+the Mandelbrot set near the main cardioid. In the 2nd part of this project [DL] we
+will give further applications by proving local connectivity of the Mandelbrot set at
+some satellite parameters of bounded type (that had been previously out of reach)
+and showing that the corresponding Julia sets have positive area.
+1.1. Statements of the results. Though the Mandelbrot set M is highly non-
+homogeneous, it possesses some remarkable self-similarity features. Most notable is
+the presence of baby Mandelbrot sets inside M which are almost indistinguishable
+from M itself. The explanation of this phenomenon is provided by the Renormaliza-
+tion Theory for quadratic-like maps, which has been a central theme in Holomorphic
+Dynamics since the mid-1980s (see [DH2,S,McM1, L1] and references therein).
+By exploring the pictures, one can also observe that the Mandelbrot set has self-
+similarity features near its main cardioid. For instance, as Figure 2 indicates, near
+the (anti-)golde?mean point, the (pn/pn+2)-limbs of M scale down at rate ??2n,
+where ? = (1 + 5)/2 and pn are the Fibonacci numbers. The goal of this paper is
+to develop a renormalization theory responsible for this phenomenon.
+Our renormalization operator acts on the space of “pacmen”, which are holomor-
+phic maps f : (U,?) ? (V, ?) between two nested domains, see Figure 1, such that
+f : U \?0 ? V r ?1 is a double branched covering, where ?1 is an arc connecting ?
+to ?V . The pacman renormalization Rf of f (see Figure 5) is de?ned by removing
+the sector S1 bounded by ?1 and its image ?2,and taking the ?rst return map to
+the remaining space; see §2 for precise de?nitions. Note that it acts on the rotation
+numbers as
+the graph of (1.1) is shown on Figure 3, see Appendix A, in particular, (A.2).
+Let us denote by ?per the set of combinatorially periodic rotation numbers; i.e.,
+rotation numbers periodic under (1.1). Numbers in ?per belong to the cycles of
+numbers with periodic continued fraction expansion.
+A pacman is called Siegel with rotation number ? if ? is a Siegel ?xed point with
+rotation number ? whose closed Siegel disk is a quasidisk compactly contained in
+U (subject of extra technical assumption, see De?nition 3.1).
+Theorem 1.1 (Hyperbolicity of the Renormalization). For any rotation number
+The problem of hyperbolicity goes back to the work of physicists [Wi, MN, MP],
+see §1.3 for the description of the previous progress in the area.
+In fact, the stability of Siegel disks on the unstable manifold is one of the main
+steps in the proof of Theorem 1.1.
+Let c(?), ? ? R/Z, be the parameterization of the main cardioid C by the rotation
+number ?. At any parabolic point c(p/q), there is a satellite hyperbolic component
+?p/q of M attached to c(p/q). Let ap/q be the center of this component, i.e., the
+unique superattracting parameter inside ?p/q.
+In this paper, notation ?n ? ?n will mean that ?n/?n ? const = 0.
+See Theorem 8.2 for a more precise version of the Scaling Theorem. In particular,
+Theorem 8.2 is stated for any one-parameter space witnessing the bifurcation of a
+Siegel map.
+Self-similarity of the Mandelbrot set near the (anti-)golden parameter is illus-
+trated on Figure 2. Theorem 8.2 says that the centers of satellite hyperbolic com-
+ponents indeed scale as the picture predicts. In [DL] we combine methods of Theo-
+rem 1.3 with methods and ideas from transcendental dynamics to obtain a scaling
+law for a much larger class of parameters. The self-similarity of the whole limbs is
+still an open question. This problem is closely related to the problem of the real-
+ization of parameter rays for the transcendental family on the unstable manifold.
+We believe that our methods allow to prove Theorems 1.1 and 1.3 in the case of
+rotation numbers of bounded type, the details will appear elsewhere. We conjecture
+that an analogous statement is true for arbitrary combinatorics, which would pro-
+vide us with a good geometric control of the molecule of the Mandelbrot set (see
+Appendix C).
+– e(z) = e2?iz;
+– p? : z ? e(?)z + z2;
+– P? be the set of pacmen with rotation number ? ? R/Z;
+– ?bnd be the set of combinatorially bounded rotation numbers (i.e., rotation num-
+bers with continued fraction expansion where all its coe?cients are bounded).
+Let us ?rst review Siegel Renormalization theory which is the most relevant to
+our results; for extra historical comments for the progress in this program see §1.3.
+Any holomorphic map f : (Uf,?) ? (C, ?) whose ?xed point ? is neutral with
+rotation number ? ? ?per is locally linearizable near ?. Its maximal completely
+invariant linearization domain Zf is called the Siegel disk of f. If Zf is a quasidisk
+compactly contained in Uf whose boundary contains exactly one critical point,
+then f is called a (unicritical) Siegel map. For any ? ? ?per, the quadratic polyno-
+mial p? and any Siegel pacman give examples of Siegel maps (see §3, in particular
+Theorem 3.2).
+There are two versions of the Siegel Renormalization theory: holomorphic com-
+muting pairs renormalization and the cylinder renormalization. The former was
+developed by McMullen [McM2] (see also an earlier work by Stirnemann [St]) who
+proved, for any rotation number ? ? ?per, the existence of a renormalization peri-
+odic point f? and the exponential convergence of the renormalizations Rncp(p?) to
+the orbit of f?. McMullen has also studied the maximal domain of analyticity for
+The cylinder renormalization Rcyl was introduced by Yampolsky who showed
+that f? can be transformed into a periodic point for Rcyl with a ?nite codimension
+stable manifold Ws(f?) and at least one-dimensional unstable manifold Wu(f?)
+[Ya]. Inou and Shishikura [IS] established hyperbolicity of cylinder renormalization
+for high type Siegel parameters and Gaidashev and Yampolsky [GY] proved it for
+the golden rotation number (see §1.3). However, the general conjecture that f? is
+hyperbolic with dimWu(f?) = 1 remained open.
+Let us now select our favorite ? ? ?per; it is ?xed under some iterate of (1.1).
+Then the corresponding iterate of the Siegel renormalization ?xes f?, so below we
+will refer to the f? as “renormalization ?xed points”.
+We start our paper (§2) by discussing an interplay between a “pacman” and
+a “prepacman”. The latter (see Figure 6) is a piecewise holomorphic map with
+two branches f± : U± ? S, one of which is univalent while the other has “degree
+1.5”, with a single critical point. Such an object can be obtained from a pacman by
+cutting along the critical arc ?1. For a technical reason, we “truncate” both pacmen
+and prepacmen by removing a small disk around the co-? point, see Figure 4.
+Then we de?ne, in three steps, the pacman renormalization. First we de?ne a
+“pre-renormalization” (De?nition 2.3) as a prepacman obtained as the ?rst return
+map to an appropriate sector S. Then, by gluing the boundary arcs of S, we obtain
+an “abstract” pacman. Finally, we embed this pacman back to the complex plane.
+There are some choices involved in this de?nition. We proceed to show that
+near any renormalizable pacman f, the choices can be made so that we obtain a
+holomorphic operator R in a Banach ball (Theorem 2.7).
+In Section 3 we analyze the structure of Siegel pacmen f. The key result is
+that any Siegel map can be renormalized (in an appropriate sense) to a Siegel
+pacman (Corollary 3.7), where the rotation number changes as an iterate of (1.1),
+see Lemma 3.18.
+In case when f = f? is the Siegel renormalization ?xed point, this provides us
+with the pacman renormalization ?xed point (§3.7). Moreover, the pacman renor-
+malization R becomes a compact holomorphic operator in a Banach neighborhood
+of f?, with at least one-dimensional unstable manifolds Wu(f?), see Theorem 3.16.
+Along the lines, we introduce and discuss the associated geometric objects (§3.1):
+the pacman “Julia sets” K(f) and J(f), “bubble chains”, and “external rays”. We
+also use them to show, via the Pullback Argument, that any two combinatorially
+equivalent Siegel pacmen are hybrid equivalent (Theorem 3.11), i.e. there is a qc
+conjugacy between them which is conformal on the Siegel disk.
+For a Siegel pacman f?, any renormalization prepacman can be “spread around”
+to provide us with a dynamical tiling of a neighborhood of the Siegel disk, see §4.2
+and Figures 7 and 15. Moreover, this tiling is robust under perturbations of f?,
+even when the rotation number gets changed, see Theorem 4.6. In this case, the
+domain ?lled with the tiles can be used as the central “bubble” for the perturbed
+map f, replacing for many purposes the original Siegel disk Z? of f?. In particular,
+it allows us to control long-term fn-pullbacks of small disks D centered at ?Z?
+(making sure that these pullbacks are not “bitten” by the pacman mouth). This is
+the crucial technical result of this paper (Key Lemma 4.8).
+When f? is the renormalization ?xed point and the perturbed map f belongs
+to its unstable manifold Wu(f?) then we can apply this construction to the anti-
+renormalizations R?nf . This allows us to show that the maximal holomorphic
+extension of the associated prepacman is a ?-proper map F = (f± : X± ? C),
+where X± are plane domains (Theorem 5.1).
+Applying this result to a parabolic map f ? Wu(f?), we conclude that its attract-
+ing Leau-Fatou ?ower contains the critical point, so the critical point is non-escaping
+under the dynamics (Corollary 6.4).
+After this preparation, we are ready for proving Theorem 1.1, see §7. Assum-
+ing for the sake of contradiction that dim Wu(f?) > 1, we can ?nd a holomorphic
+curve ?? ? Wu(f?) through f? consisting of Siegel pacmen with the same rotation
+number. Approximating this curve with parabolic curves ?n ? Wu(f?), we con-
+clude that the critical point is non-escaping for f ? ??. This allows us to apply
+Yampolsky’s holomorphic motions argument [Ya] to show that dim Wu(f?) = 1.
+Finally, using the Small Orbits argument of [L1], we prove that f? is hyperbolic
+under the pacman renormalization, completing the proof.
+Along the lines we prove the stability of Siegel maps (see Corollary 7.9): if a
+small perturbation of a Siegel map f ?xes the multiplier of the ?-?xed point, then
+the new map g is again a Siegel map. Moreover, the Siegel quasidisk Zg is in a
+small neighborhood of Zf.
+To derive Theorem 1.3 from Theorem 1.1, we need to show that the centers of
+the hyperbolic components in question are represented on the unstable manifold
+Wu(f?). We ?rst show that the roots of these components are represented on
+Wu(f?) which requires good control of the corresponding pacmen Julia sets (see
+§6.5), and robustness of the renormalization with respect to a particular choice of
+cutting arcs, see Appendix B. Then we use quasiconformal deformation techniques
+to reach the desired centers from the parabolic points, see §8.
+Throughout the paper we use Appendix B containing a topological preparation
+justifying robustness of the anti-renormalizations with respect to the choice of cut-
+ting arcs.
+In Appendix C we formulate the Molecule Conjecture on existence of a pacman
+hyperbolic operator with the one-dimension unstable foliation whose horseshoe is
+parametrized by the boundary of the main molecule of the Mandelbrot set. This
+conjecture would imply the MLC for all in?nitely renormalizable parameters of
+satellite type.
+1.3. More historical comments. Renormalization of Siegel maps appeared ?rst
+in the work by physicists (see [Wi,MN,MP]) as a mechanism for self-similarity of
+the golden mean Siegel disk near the critical point. A few years later, Douady and
+Ghys discovered a surgery that reduces previously unaccessible geometric problems
+for Siegel disks1 of bounded type to much better understood problems for critical
+circle maps. This led, in particular, to the local connectivity result for Siegel Julia
+sets of bounded type (Petersen [Pe]) and also became a key to the mathematical
+study of the Siegel renormalization. In particular, McMullen-Yampolsky theory
+mentioned above (see §1.2) is based upon this machinery.
+Holomorphic commuting pairs (as well as almost commuting holomorphic pairs)
+were studied by Stirnemann. In [St], he gave a computer-assisted proof of the exis-
+tence of a renormalization ?xed point with a golden-mean Siegel disk and showed
+that the quadratic polynomial with a golden-mean Siegel disk converges to that
+?xed point. Recently, Gaidashev and Yampolsky gave a computer-assisted proof of
+the hyperbolicity of the renormalization for the golden mean rotation number [GY].
+On the other hand, in the mid 2000’s, Inou and Shishikura proved the exis-
+tence and hyperbolicity of Siegel renormalization ?xed points of su?ciently high
+combinatorial type using a completely di?erent approach, based upon the parabolic
+perturbation theory [IS]. For a di?erent viewpoint on this result see [Ya].
+The proof in [IS] involves certain computer estimates. A computer-free proof of
+hyperbolicity in high type was presented by Cheritat [Che]. His approach also gives
+a proof of hyperbolicity for high type in the unicritical case zd + c.
+The Siegel renormalization theory achieved further prominence when it was used
+for constructing examples of Julia sets of positive area (see Bu?-Cheritat [BC] and
+Avila-Lyubich [AL2]).
+A di?erent line of research emerged in the 1980s in the work of Branner and
+Douady who discovered a surgery that embeds the 1/2-limb of the Mandelbrot set
+into the 1/3-limb [BD]. This surgery is the prototype for the pacman renormaliza-
+tion that we are developing in this paper.
+Note also that according to the Yoccoz inequality, the p/q-limb of the Mandelbrot
+set has size O(1/q). It is believed, though, that 1/q2 is the right scaling. The
+pacman renormalization can eventually provide an insight into this problem.
+1.4. Notation. We often write a partial map as f : W 99K W ; this means that
+Domf ? Im f ? W .
+A simple arc is an embedding a closed interval. We often say that a simple arc
+p/q is also the combinatorial rotation number: there are exactly q local attracting
+petals at ? and f maps the i-th petal to i + p counting counterclockwise.
+Consider a continuous map f : U ? C and let S ? C be a connected set. An
+f-lift is a connected component of f?1(S). Let
+be an f orbit with xn ? S. The connected component of f ?n(S) containing x0 is
+called the pullback of S along the orbit x0,. .. , xn.
+To keep notations simple, we will often suppress indices. For example, we denote
+a pacman by f : Uf ? V , however a pacman indexed by i is denoted as fi : Ui ? V
+instead of fi : Ufi ? V .
+Consider two partial maps f : X 99K X and g: Y 99K Y . A homeomorphism
+for all x with x ? Dom f and h(x) ? Dom g. If (1.3) holds for all x ? T , then we
+say that h is equivariant on T .
+We will usually denote an analytic renormalization operator as “R”, i.e. Rf is
+a renormalization of f obtained by an analytic change of variables. A renormal-
+ization postcomposed with a straightening will be denoted by “R”; for example,
+Rs : Ms ? M is the Douady-Hubbard straightening map from a small copy Ms
+of M to the Mandelbrot set. The action of the renormalization operator on the
+rotation numbers will be denoted by “R”.
+Slightly abusing notations, we will often identify a triangulation (or a lamination)
+with its support.
+Acknowledgments. The ?rst author was partially supported by Simons Founda-
+tion grant at the IMS, DFG grant BA4197/6-1, and ERC grant “HOLOGRAM”.
+The second author thanks the NSF for their continuing support.
+The results of this paper were ?rst announced at the North-American Workshop
+in Holomorphic Dynamics, May 27–June 4, 2016, Cancu?n, Me?xico.
+Figures 2, 8, 26, 36 are made with W. Jung’s program Mandel.
+De?nition 2.1 (Full pacman). Consider a closed topological disk V with a simple
+arc ?1 connecting a boundary point of V to a point ? in the interior. We will call
+?1 the critical arc of the pacman.
+Figure 4. A pacman is a truncated version of a full pacman, see
+Figure 1; it is an almost 2 : 1 map f : (U,O0) ? (V, O) with
+Since f : U \ ?0 ? V \ ?1 is a two-to-one branched cover, f has a unique critical
+point, called c0(f), in U \ ?0. We denote by c1(f) the image of c0.
+We will mostly consider truncated pacmen or simply pacmen de?ned as follows.
+Consider ?rst a full pacman f : U ? V and let O be a small closed topological disk
+around ? ? int O 3 c1(f) and assume that ?1 cross-intersects ?O at single point.
+Then f?1(O) consists of two connected components, call them O0 3 ? and O?0 3 ??.
+We obtain a truncated pacman
+A pacman is an analytic map as in (2.1) admitting a locally conformal extension
+through ?U such that f can be topologically extended to a full pacman, see Figure 4.
+In particular, every point in V \ O has two preimages while every point in O has a
+single preimage.
+We recognize the following two subsets of the boundary of U: the external bound-
+ary ?extU := f?1(?V ) and the forbidden part of the boundary ?frbU := ?U \ ?extU .
+Suppose `0 : [0, 1] ? V is an arc connecting a point in Kf to ?V . We de?ne
+inductively images `m : [0, 1] ? V for m ? M ? {1, 2, .. ., ?} as follows. Suppose
+tm ? 1 be the maximal such that the image of [0, tm] under `m is within U. If
+`m(tm) ? ?extU, then we say `m+1 is de?ned and we set `m+1(t) := f(`m(t/tm))
+for t ? 1. Abusing notation, we write
+We de?ne external rays of a pacman in the following way. Let us embed a
+rectangle R in V \ U so that bottom horizontal side B is equal to ?extU and the
+top horizontal side T is a subset of ?V . The images of the vertical lines within R
+form a lamination of V \ U. We pull back this lamination to all iterated preimages
+f?n(R). Leaves of this lamination that start at ?V are called external ray segments
+of f; in?nite external ray segments are called external rays of f. Note that if ? is
+an external ray, then f(?), as de?ned in the previous paragraph, is also an external
+ray.
+We have two maps from B to T: one is the natural identi?cation ? along the
+vertical lines, the other is the map f : B 99K T which is de?ned only on f?1(T ).
+Composition thereof, ? = ??1 ? f : B 99K B is a partially de?ned two-to-one map.
+We consider the set A ? B of all the points with whole forward orbits are well
+de?ned. Then A is completely invariant and there is a unique orientation preserving
+map ?: A ? S1 which semi-conjugates ?: A ? A to the doubling map of the circle.
+We say that ?(a) is the angle of the external ray segment passing through the point
+An external ray segment passing through a point a ? A is in?nite (i.e. it is
+an external ray) if and only if it hits neither an iterated precritical point nor an
+iterated lift of ?frbU. The latter possibility is a major technical issue we have to
+deal with.
+2.2. Prime pacman renormalization. Let us ?rst give an example of a prime
+renormalization of full pacmen where we cut out the sector bounded by ?1 and
+?2, see Figure 5. This renormalization is motivated by the surgery procedure that
+Branner and Douady [BD] used to construct a map between the Rabbit L1/3 and
+the Basilica L1/2 limbs of the Mandelbrot set, see Appendix C.1. Pacman renor-
+malization will be de?ned in §2.3.
+Recall that a sector S is a closed topological disk with two distinguished arcs in
+?S meeting at single point, called the vertex of S. Suppose f : U ? V is a full
+pacman and
+(A) ?0, ?1, and ?2 := f(?1) are mutually disjoint except for the ?xed point ?.
+Denote by S1 the closed sector of V bounded by ?1 ??2 and not containing ?0. Let
+us further assume that
+Let V? be the Riemann surface with boundary obtained from V \int S1 by gluing
+??1 := f?1(?2) ? ?1 and ?2 along f. This means that there is a quotient map
+? : V \ int S1 ? V?
+such that ? is conformal in V \ S1 while ?(z) = ?(f(z)) ? V? for all z ? ?1? . Let us
+select an embedding V? ?? C.
+Figure 5. Prime renormalization of a pacman: delete the sector
+S1, forget in U the sector S0? attached to ??, and iterate f twice
+on S0. By gluing ?1 and ?2 along f : ?1 ? ?2 we obtain a new
+pacman f? : U? ? V? .
+The sector S1 has two f-lifts; let S0 be the lift of S1 attached to ? and let S?0 be
+the lift of S1 attached to ??{Condition (B) implies that ?? ? ?+ ? V \ S0. De?ne
+Then the map f? descends via ? into a full pacman f? : U? ? V? with the critical ray
+2.3. Pacman renormalization. Let us start with de?ning an analogue of com-
+muting pairs for pacmen.
+A map ? : S ? V from a closed sector (S,?? , ?+) onto a closed topological disk
+V ? C is called a gluing if ? is conformal in the interior of S, ?(??) = ?(?+), and
+? can be conformally extended to a neighborhood of any point in ?? ? ?+ except
+the vertex of S.
+De?nition 2.2 (Prepacmen, Figure 6). Consider a sector S with boundary rays
+?? , ?+ and with an interior ray ?0 that divides S into two subsectors T? , T+.
+gluing ? of S which projects (f? , f+) onto a pacman f : U ? V where ?? , ?+ are
+mapped to the critical arc ?1 and ?0 is mapped to ?0.
+The de?nition implies that f? and f+ commute in a neighborhood of ?0. Note
+that every pacman f : U ? V has a prepacman obtained by cutting V along the
+critical arc ?1.
+Dynamical objects (such as the non-escaping set) of a prepacman F are preim-
+ages of the corresponding dynamical objects of f under ?.
+Similarly, a pacman renormalization is de?ned for any map f : U ? V with a
+distinguished ?xed point which will be called ?. For example, we will show in
+Corollary 3.7 that any Siegel map is pacman renormalizable.
+Combinatorially, a general pacman renormalization is an iteration of the prime
+renormalization – see details in Appendix A, in particular Lemma A.2.
+We de?ne  = G to be the union of points in the f-orbits of U ? ,U+ before
+they return to S. Naturally,  is a triangulated neighborhood of ?, see Figure 7.
+We call  a renormalization triangulation and we will often say that  is obtained
+by spreading around U? , U+.
+De?nition 2.4 (Conjugacy respecting prepacmen). Let f and g be any two maps
+with distinguished ?-?xed points and let R and Q be two prepacmen in the dy-
+namical plane of f and g de?ning some pacman renormalizations. Let h be a local
+conjugacy between f and g restricted to neighborhoods of their ?-?xed points.
+Then h respects R and Q if h maps the triangulation R to Q so that the image
+of (SR, UR,±) is (SQ,UQ,±).
+2.4. Banach neighborhoods. Consider a pacman f : Uf ? V with a non-empty
+truncation disk O. We assume that there is a topological disk U? c Uf with a
+piecewise smooth boundary such that f extends analytically to U? and continuously
+to its closure. Choose a small ? > 0 and de?ne NU?(f, ?) to be the set of analytic
+maps g : U? ? C with continuous extensions to ?U? such that
+Then NU?(f, ?) is a Banach ball.
+We say a curve ? lands at ? at a well-de?ned angle if there exists a tangent line
+to ? at ?.
+Figure 6. A (full) prepacman (f? : U? ? S, f+ : U+ ? S). We
+have U? = ?? ? ?+ and f? maps ?? two-to-one to S? and ?+
+to S+. The map f+ maps U+ univalently onto S+. After gluing
+dynamically ?? and ?+ we obtain a full pacman: the arcs ?? and
+?+ project to ?1, the arc ?0 projects to ?0, and the arc ? projects
+to ?2.
+and set ?0(g) to be the lift of ?1(g) landing at ?. Since ?0(f), ?1 land at distinct
+well-de?ned angles, so are ?0(g), ?1 if ? is small; i.e. ?0(g), ?1 are disjoint.
+Set g? = f + ?(g ? f) and T?(z) := z + (?(g?) ? ?(f)), where ? ? [0,1]. De?ne
+??(z) = g??1 ?T? ?f(z) on ?Uf where the inverse branch is chosen so that ?0(z) = z
+and ??(z) is continuous with respect to ?. We claim that ?? is well de?ned and that
+??(?Uf) is a simple closed curve for all ? ? [0,1]. Indeed, let A b U? be a closed
+annular neighborhood of ?Uf that contains no critical points of f. For ? small
+enough, the derivative of any g ? NU? (f,?) is uniformly bounded and non-vanishing
+on a slightly shrunk A; in particular g has no critical points in A.
+It follows that ?? | A has uniformly bounded derivative and (choosing yet smaller
+?, if necessary) is close to the identity map, hence ??(?Uf) ? A is well-de?ned for
+all ?. Since f has no critical values in A, it is locally injective, which implies that
+??(x) = ??(y) when x is su?ciently close to y. We conclude that ?? is injective
+on ?Uf. Therefore ?1(?Uf ) is a simple closed curve; let Ug be the disk enclosed by
+?1(?Uf). It is straightforward to check that g : Ug ? V is a pacman with critical
+arc ?1 and truncation disk O.
+Consider a pacman f : Uf ? V . Applying the ?-lemma, we can endow all
+g : Ug ? V from a small neighborhood of f with a foliated rectangle Rg as in §2.1
+such that Rg moves holomorphically and the holomorphic motion of Rg is equi-
+variant. As a consequence, an external ray R(g) with a given angle depends holo-
+morphically on g unless R(g) hits an iterated lift of ?frbUg or an iterated precritical
+point.
+Proof. Since x is repelling periodic, it is stable by the implicit function theorem.
+Present R(g) as a concatenation of arcs R1R2R3 . . . such that Ri+1(g) is an iterated
+lift of Ri(g). By continuity, Ri(g) is stable for i ? n, where n is big if g is su?ciently
+close to f. If n is su?ciently big and g is su?ciently close to f, then Rn(g) is in
+a small neighborhood of x(g) and, since x(g) is repelling, Rn+1(g) is in an even
+smaller neighborhood of x(g). Proceeding by induction, we obtain that Rn+j(g)
+shrinks to x(g); i.e. R(g) lands at x(g). It also follows that R(g) is in a small
+2.5. Pacman analytic operator. Suppose that f? : U? ? V? is a renormalization
+of f : Uf ? V via a quotient map ?f : Sf ? V? that extends analytically through
+?Sf\{?} (this actually follows from the de?nition of renormalization) where Sf ? V
+is the domain of a prepacman F? such that curves ?0,?+, ?? all land at ? at pairwise
+distinct well-de?ned angles. We claim that there exists an analytic renormalization
+operator de?ned on a neighborhood of f.
+We note that ?± = fk±(?0) for some integers k+,k?. For a map g that is
+su?ciently close to f, the fact that the three curves land at di?erent angles implies
+that ?0, gk+(?0), gk?(?0) are disjoint. De?ne ?g: ?0 ? ?? ? ?+ ? C by
+Then ?g is an equivariant holomorphic motion of ?0 ? ?? ? ?+ over a neighborhood
+of f. By the ?-lemma [BR, ST] ?g extends to a holomorphic motion of Sf over a
+possibly smaller neighborhood of f. Denote by µg the Beltrami di?erential of ?g.
+De?ne a Beltrami di?erential ?g on C as ?g = (?f )?µg on V? and ?g = 0 outside of
+that ?xes ?, ?, and the critical value. We see that ?g := ?g ??f ? ?g?1 is conformal
+on Sg := ?g(S). It follows, that ?g depends analytically on g (see Remark on page
+345 of [L1]).
+We claim now that G? = (Sg,gk?,gk+) is a prepacman. Indeed, by de?nition of
+?g, we have gk±(?g(?0)) = ?± and ?g glues G? to a map g? which is close to f?. By
+Lemma 2.5, g? restricts to a pacman with the same range as f? . We have:
+Theorem 2.7 (Analytic renormalization operator). Suppose that f? : U? ? V? is
+a renormalization of f : Uf ? V via a quotient map ?f : Sf ? V? . Assume
+that the curves ?0,??, ?+ (see De?nition 2.2) land at ? at pairwise distinct well-
+de?ned angles. Then for every su?ciently small neighborhood NU?(f, ?), there exists
+a compact analytic pacman renormalization operator R: g ? g? de?ned on NU?(f, ?)
+Figure 7. Pacman renormalization of f: the ?rst return map
+from U? ? U+ back to S = S? ? S+ is a prepacman. Spreading
+around U±: the orbits of U? and U+ before returning back to S
+triangulate a neighborhood  of ?; we obtain f :  ?  ? S, and
+we require that  ? S is compactly contained in Dom f.
+Proof. We have already shown that g? depends analytically on g ? NU?(f, ?). Choose
+an intermediate domain U?? b U? with Uf b U?? b U? so that the operator R is
+the composition of the restriction operator NU?(f, ?) ? NU??(f,?) and the pacman
+renormalization operator de?ned on NU??(f, ?). Since the former is compact, we
+conclude that R is compact. 
+We say a holomorphic map f : U ? V is Siegel if it has a ?xed point ?, a Siegel
+quasidisk Zf 3 ? compactly contained in U, and a unique critical point c0 ? U that
+is on the boundary of Zf. Note that in [AL2] a Siegel map is assumed to satisfy
+additional technical requirements; these requirements are satis?ed by restricting f
+to an appropriate small neighborhood of Zf.
+Let us foliate Siegel disk Zf of f by equipotentials parametrized by their heights
+ranging from 0 (the height of ?) to 1 (the height of ?Zf). Namely, if h: Zf ? D1 is
+a linearizing map conjugating f | Zf and the rotation z ? e(?)z, then the preimage
+under h of the circle with radius ? is the equipotential of Zf at height ?.
+• f is a Siegel map with Siegel disk Zf centered at ?;
+• the critical arc ?1 is the concatenation of an external ray R1 followed by an
+inner ray I1 of Zf such that the unique point in the intersection ?1 ? ?Zf
+is not precritical; and
+• writing f : (U \ O0? ,O0) ? (V, O) as in (2.1), the disk O is a subset of Zf
+bounded by its equipotential.
+The rotation number of a Siegel pacman (or a Siegel map) is ? ? R/Z so that
+e(?) is the multiplier at ?. It follows (see Theorem 3.2) that the rotation number
+of Siegel map is in ?bnd. The level of truncation of f is the height of ?O.
+Since ?1 is a concatenation of an external ray R1 and an internal ray I1, so
+is ?0: it is a concatenation of an external ray R0 and an internal ray I0 with
+A limb of a bubble Zk is the closure of a connected component of Kp \ Zk not
+containing the ?-?xed point. A limb of Z0 = Zp is called primary.
+In particular the diameter of bubbles in Kp tends to 0: for every ? > 0 there are
+at most ?nitely many bubbles with diameter greater than ?. Similarly, the diameter
+of limbs of any bubble tends to 0.
+An (in?nite) bubble chain of Kp is an in?nite sequence of bubbles B = (Z1,Z2, .. .)
+such that Z1 is attached to Zp and Zn+1 is attached to Zn, see Figure 8.
+theAres ias acon?seqquueenxc?e oKfpTsuhcehortehmat3f.o3r, eevveerryynbeuigbhbbleorchhoaoind BU o=f x(Zt1h,eZre2,i.s.a.n) mlan?ds0:
+such that Zi is within U. Conversely, if x ? Kp does not belong to any bubble,
+then there is a bubble chain B = (Z1,Z2, . . .) landing at x. A point x is periodic
+if and only if B is periodic: there is an m > 1 and q ? 1 such that pq maps
+(Zm,Zm+1,. . . ) to (Z1,Z2, . . .).
+particular, a bubble of f is either Zf, or Zf = f?1(Zf) \ Zf, or an fn?1-lift of Zf ,
+where n is the generation of the bubble. Since Zf is the only bubble intersecting
+{c1} ? ?1, all bubbles of positive generation are conformal lifts of Z?f.
+We will show in Theorem 3.12 that Theorem 3.3 holds for standard Siegel pacmen
+and that Jf is the closure of repelling periodic points.
+3.2. Siegel prepacmen. A prepacman Q of a Siegel pacman q is also called Siegel;
+the rotation number and level of truncation of Q are those of q. Recall that Q
+consists of two commuting maps q? : U? ? SQ, q+ : U+ ? SQ such that U? and
+U+ are separated by ?0. Given a Siegel map f we say that f has a prepacman Q
+around x ? ?Zf if q? ,q+ are iterates of f, the vertex of SQ is at ?(f), and ?0(Q)
+intersects ?Zf at x.
+Before proceeding with the proof let us de?ne a sector renormalization of p |
+Zp. Consider the rotation of L? : z ? e(z) of the unit disk D1. Let h: Zp ?
+D1 be the unique conformal conjugacy between p | Zg and L? | D1 normalized
+such that h(x) = 1. A sector pre-renormalization of L? is a commuting pair
+(La | X? , Lb | X+) realizing the ?rst return map to X? ? X+ (see Figure 27),
+where X?, X+ are closed sectors of D1 such that X? ? X+ is the internal ray to-
+wards 1; see details in §A.2. Denote by ? the angle of X = X??X+ at 0. The gluing
+map z ? z1/? projects (La | X? , Lb | X+) to a new rotation.
+with ?x(X) = Zf .
+from De?nition 3.5 and assume that the angle ? of X is small. We will now extend
+Then the sector X? is bounded by I?, I0 and X+ is bounded by I0, I+.
+Figure 9. A full Siegel prepacman, compare with Figure 6. In
+the dynamical plane of a quadratic polynomial p, the sector
+SQ = S? ? S+ is bounded by R? ? I? ? I+ ? R+ and truncated
+by an equipotential at small height. Pulling back S? ,S+ along
+appropriate branches of pa,pb we obtain U? = ?? ? ?+ and U+
+so that (pa | U? , pb | U+) is a full prepacman(3.3). Truncating
+(pa | U? , pb | U+) at ? and at the vertex where R+ meets E (see
+Figure 11) we obtain a required prepacman (3.2).
+Since x is not precritical, there are unique external rays R? , R+ , R extending
+I? ,I+ , I beyond Zp. Let SQ be the closed sector bounded by R? ? I? ? I+ ? R+
+and truncated by an external equipotential E at a small height ? > 0. The curve
+R ? I divides S into two closed sectors S+ and S? such that S+ is between R? ?I?
+and R ?I while S? is between R ?I and R+ ? I+. We note that pa(X?) ? S? and
+is a full prepacman. Since the p-orbits of X? , X+ cover Z? before they return
+back to X, we see that ?X ? ?Zp has a unique precritical point, call it c?0, that
+travels though the critical point of p before it returns to X. Below we assume that
+c?0 ? X?; the case c?0 ? X+ is analogous. Then S+ has a conformal pullback U+
+along pb: X+ ? S+. We have U+ ? SQ because rays and equipotentials bounding
+SQ enclose U+.
+The sector S? has a degree two pullback ?? along pa: X? ? S?. Under
+pa: ?? ? S? the ?xed point ? has two preimages, one of them is ?, we denote
+Figure 10. Since W? is truncated by an equipotential of Zp? at
+small height, the point pj(z) ? W ? \ Zp is in a small neighborhood
+of c0.
+the other preimage by ?. Let ?+ be the conformal pullback of S+ along the orbit
+pa: {?} ? {?}. We de?ne U? := ?? ??+ ? SQ and we observe that Q in (3.3) is
+a full prepacman.
+By Theorem 3.3, primary limbs of Kp intersecting a small neighborhood of x
+have small diameters. By choosing ? and ? su?ciently small we can guarantee that
+SQ \ Zp is in a small neighborhood of x.
+Let us now truncate Q at level r and let us show that the orbit
+of any z ? U± is in a small neighborhood of Zp. The truncation of Q at level r
+removes points in U? = ?? ? ?+ with pa- images in the subdisk of Zp bounded by
+the equipotential at height t := r?. Since ? is small, we obtain that t is close to 1.
+Since Kp is locally connected (Theorem 3.3), all the external rays of p land. For
+z ? U± \ Kf, de?ne ?(z) ? Kp to be the landing point of the external ray passing
+through z. Since SQ is truncated by an equipotential at a small height, the orbit
+of z stays close to that of ?(z). This reduces the claim to the case z ? Kp ? U±.
+By Theorem 3.2, there is an ` ? 0 such that all of the big (with diameter at least
+?) primary limbs of p are attached to one of c0,c?1, .. . , c?`, where c0 is the critical
+point of p and c?i is the unique preimage of c0 under pi | Zp. Since ? is assumed
+to be small, the orbit of c?0 travels through all c?`,. .. , c0 before it returns to SQ.
+Let us denote by L the primary limb of p containing z (the case z ? Zp is trivial).
+If L is not attached to c?0, then by the above discussion all L,p(L),. . . , pk(L) =
+q±(L) are small and the claim follows.
+Suppose that L is attached to c?0. Denote by L?i the connected component of
+Kp \Zp attached to c?i. Since c?0 travels through a critical point, we have L = L?j
+for some j < k.
+Let W be the pullback of SQ along
+and let W? be W truncated by the equipotential of Zp? at height t, see Figure 10.
+Since t = r? is close to 1, we obtain that W ? ? L?0 is in a small neighborhood of c0
+Figure 11. By truncating the prepacman from Figure 9 and em-
+bedding rectangles R±, we endow the prepacman with external
+rays.
+because the angle of W at ?? (the non-?xed preimage of ?) is small – it is equal to ?.
+Therefore, pj(z) is close to c0, and by continuity all pj?1(z), pj?2(z),. . . , pj?`(z) are
+close to c0, c?1,. .. , c?`. Recall that pj?i(z) ? L?i. Since L0, L?1, .. ., L?` are the
+only big limbs, we obtain that the orbit z,p(z), . .. ,pk(z) is in a small neighborhood
+of Zp.
+It remains to specify external rays for Q. As it shown on the Figure 11 we
+slightly truncate SQ at the vertex where R+ meets the equipotential E and we
+slightly truncate U± such the truncations are respected dynamically and such that
+the preimage of the ?SQ \ (R? ? R+) under Q consists of exactly two curves that
+project to ?extUq, where q: Uq ? Vq is the pacman of Q. We now can embed
+in SQ \ (U? ? U+) two rectangles R? and R+ that de?ne external rays of Q as
+in §2.1. 
+Proof. By [AL2, Proposition 4.3] any Siegel maps f,g can be obtained by perform-
+ing the Douady-Ghys surgery on quasicritical circle maps f?, g?. By [AL2, Theorem
+3.19], there is a qc map h? conjugating f? and g? in a small neighborhood of the unit
+circle. Then h? descents into a qc map h conjugating f and g in small neighbor-
+hoods of the boundaries of their Siegel disks. A hybrid conjugacy between f and
+g is obtained by setting h | Zf to be the canonical conformal conjugacy between
+f | Zf and g | Zg and running the pullback argument. 
+As a corollary Theorem 3.6 and Lemma 3.4 we obtain.
+Proof. Choose a small ? > 0 such that the ?-neighborhood of Zf is in the domain
+of h. Then h pullbacks a prepacman Q from Lemma 3.4 to a prepacman R in the
+Proof. Follows from Theorem 3.3. Suppose that f is obtained from a quadratic
+polynomial p. Then every bubble Z? of f is obtained from a bubble Z?? of p by
+removing an open sector. All of the limbs of Z?? attached to the removed sector are
+also removed. It follows from Theorem 3.3 that for ? > 0 there is an n ? 0 such
+that every connected component of Kf minus all of the bubbles with generation
+at most n is less than ?. Since bubbles of f are locally connected, so is Kf . The
+TSihmisiliasrtlyhewseetdeo?fnpeoint that do not escap?R under f : R ? R?SR, see Figure 7.
+is the closure of repelling periodic points because so is Jlpoc. (Indeed, every y ? Jlpoc
+is the landing point of an external ray Ry because Jp is locally connected. Since
+external rays in a pacman are parametrized by angles in S1 (see §2.1), p has a
+periodic external ray Rx landing at x ? Jlpoc.) Moreover, for every periodic point
+y ? Klfoc there is a unique periodic bubble chain By of Klfoc landing at y.
+Figure 12. Illustration to the proof of Lemma 3.9. The ray R1
+has preimages R` and R? that land at Z1 such that R`?R? together
+with together with appropriate arcs in ?V ? Z1 bound a disk D
+containing y. The disk D has a univalent lift Dp b D. By Schwarz
+lemma, fp: Dp ? D is expanding, which implies that there is an
+external ray landing at y.
+Proof. Let By = (Z1,Z2, .. .) be the bubble chain in Klfoc landing at y. Denote by
+x the unique point in the intersection of ?1 ? ?Z?. By De?nition 3.1, the external
+ray R1 lands at x. There are two iterated preimages x`, x? ? ?Z1 of x (by density
+of those) such that the rays R`, R? (iterated lifts of R1) landing at x`, x? together
+with Z1 separate y from Zf, see Figure 12. We denote by D the open subdisk of
+V bounded by R`, R?, Z1 and containing y. Let Dp be the (univalent) pullback
+of D along f p: {y} ? {y}. Then Dp b D. By the Schwarz lemma, fp : Dp ? D
+expands the hyperbolic metric of D.
+There is a unique periodic external ray Ry in D with period p. We claim that
+Ry lands at y. Indeed, parametrize R as R: R>0 ? V with fp(Ry(t + p)) = Ry(t).
+Since all the points in D away from y escape in ?nite time under fp : Dp ? D, the
+Euclidean distance between R(t) and y goes to 0 as t ? +?. 
+The next lemma is a preparation for a Pullback Argument.
+Proof. Consider a ?nite set of periodic points y1,y2,. . . , yp ? Jlfoc. By Lemma 3.9
+each yi is the landing point of an external periodic ray, call it Ry,i, and the landing
+pcooninntecotfeda cpoemriopdoincebntusbobfle chain, call?it By,i. Let {W1, W2,. .. , Wp} be the set of
+we assume that ?Wp contains ?frbUf . By adding more periodic points we can also
+assume that c0 ? ?Wp. Set
+By Schwarz lemma, f | W is expanding with respect to the hyperbolic metric of
+W. Since c0 ? ?Wp, there is a sequence of periodic points x`,j ? Jlfoc such that the
+orbit of x` is in W and such that x`,j converges from the left to the unique point
+We claim that the external rays R`,j landing at x`,j converge to the external ray
+landing at x1. Indeed, since x`,j ? x1, the external angle of R`,j (see §2.1) converges
+to the external angle of R1. By continuity, R`,j([0, T]) converges to R1([0, T]) for
+any T ? R>0. Since f | W is expanding, R`,j([T, +?)) is in a small neighborhood
+of x`,j which converges to x1.
+The bubble chains B`,j of Klfoc landing at x`,j shrink because there are no big
+limbs in a neighborhood of x1. De?ne I`,j to be the internal ray of Zf landing at
+the point where B`,j is attached. Then R`,j ?B`,j ?I`,j is a required approximation
+for su?ciently big j. Similarly, R? ? B? ? I? is constructed. 
+3.5. Hybrid equivalence. Recall §2 that a pacman f : Uf ? Vf is required to
+have a locally analytic extension through ?Uf. By means of the Pullback Argument,
+we will now show the following.
+Proof. Let p be the unique quadratic polynomial with the same rotation number
+as f and g. Let hf and hg be hybrid conjugacies from neighborhoods of Zf and
+Zg to a neighborhood of Zp respectively. As in Corollary 3.7, there are prepacmen
+Q, R, S in the dynamical planes of p, f, and g respectively such that hf and hg
+are conjugacies respecting prepacmen R, Q and S, Q respectively, see De?nition 2.4.
+The composition h := h?g 1 ? hf is a conjugacy respecting R,S.
+As in (3.4) we de?ne Klfoc, similarly Klgoc and Klpoc are de?ned. Then h conjugates
+f | Klfoc and g | Klgoc.
+As in Lemma 3.10 let R`(f) ? B`(f) ? I`(f) and R?(f) ? B?(f) ? I?(f) be ap-
+proximations of ?1(f) from the left and from the right respectively. Similarly, let
+R`(g) ? B`(g) ? I`(g) and R?(g) ? B?(g) ? I?(g) be approximations of ?1(g). We
+choose the approximations in the compatible ways:
+• R`(g), R?(g) have the same external angles as R`(f), R?(f).
+Then Tf and Tg are forward invariant sets such that Vf \ Tf and Vg \ Tg consist
+of ?nitely many connected components. Since R`(g),R?(g) have the same external
+angles, we can extend h to a qc map h: Vf ? Vg such that h is equivariant on
+We now slightly increase Uf by moving ?frbUf so that the new disk Uf satis?es
+(Indeed, we can slightly move ?? ? ?frbUf so that its image is within R` ? B` ?Zf
+and we can slightly move ?+ ? ?frbUf so that its image is within R` ? B` ? Zf .)
+Similarly, we slightly increase Ug by moving ?frbUg so that the new disk Ug satis?es
+and such that h | Tf lifts to a conjugacy between f | ?Uf and g | ?Ug. This allows
+us to apply the Pullback Argument: we{set h0 := h and we construct qc maps
+We can choose h such that h0 and h1 are connected by an isotopy h? : [0, 1]×Vf ? Vg
+that is constant on Tf and uniformly continuous in the hyperbolic metrics of Vf \Tf ,
+Vg \ Tg. This implies that the Euclidean distance between hn and hn+1 tends to 0.
+Since the space of qc maps with uniformly bounded dilatation is compact, we may
+3.6. Standard Siegel pacmen. We say a Siegel pacman is standard if ?0 passes
+through the critical value; equivalently if ?1 passes through the image of the critical
+value.
+A standard prepacman R in the dynamical plane of a Siegel map g is a prepacman
+around (see §3.2) the critical value of g. Then the pacman r obtained from R is a
+standard and the renormalization change of variables ?R respects the internal ray
+towards the critical value:
+The pacman renormalization associated with R is called a standard pacman renor-
+malization of g.
+By Theorem 3.11, two standard Siegel pacmen are hybrid equivalent if and only
+if they have the same rotation number.
+As a consequence, every periodic point of Jf is the landing point of a bubble chain.
+Proof. For every ? ? ?bnd, there is a Standard pacman g with rotation number ?
+such that is g is a renormalization of a quadratic polynomial. The statement now
+tation number ? ? ?per and consider x ? ?Zf such that x is neither the critical
+renormalization of f | Zf as in De?nition 3.5. Since ? ? ?per, we can assume
+(see §A.4) that the renormalization ?xes f | Zf : the gluing map ?x : Xx ? Zf
+projects (fa | X?,x , fb | X+,x) back to f | Zf. For x ? {c0, c1} we write
+We note that the improvement of the domain follows from complex a priori bounds
+for quasicritical circle maps [AL2, §3.3] after applying the inverse Douady-Ghys
+surjery; see also [Ya, Proposition 3.2]. Up to conformal conjugacy, g? is unique in a
+neighborhood of Zg?. The improvement of the domain will allow us in Theorem 3.16
+to construct a pacman analytic self-operator R: B 99K B.
+Proof. We need to check that ?1 := g? ? ?0 ? g?? 1 is well de?ned. Since ?0 projects
+(g?a, gb?) to g? and since the maps ga?, gb? are two-to-one in a neighborhood of c0, we
+obtain that for z close to c1 the gluing map ?0 maps g?? 1(z) to a pair of points
+that have the same g?-image. This shows that ?1 is well de?ned. Up to replacing
+?1 with its iterate we can guarantee that the improvement of the domain holds for
+(See §2.3 for the de?nition of F?.)
+The pacman f? is conformally conjugate to g? in a neighborhood of Z? := Zf?.
+gluing map, call it ??, projecting F? back to f?.
+If t is su?ciently big, then F? is compactly contained in f??1(U?). 
+Theorem 3.16 (Analytic operator R: B 99K B). Let f? : U? ? V? be a pacman
+and F? be a prepacman from Lemma 3.15. Then there are small neighborhoods
+Proof. Let f? : U? ? V ? be a pacman obtained form f? : U? ? V? by slightly
+decreasing U? so that U? b U? and F? b f??1(U ?). Since the renormalization is
+To simplify notations, we will often write an operator in Theorem 3.16 as R: B 99K
+B with B = NU? (f?,?). We can assume (by Lemma 3.4) that f? has any given trun-
+cation level between 0 and 1.
+We will show in Theorem 7.7 that Wu has dimension 1.
+Proof. Since R is compact, it has a ?nite-dimensional unstable direction.
+[HPS, Corollary (5.4)] asserts that Wu exists as a C?-smooth submanifold.
+The corollary is proven by showing that the graph transform on the space of sub-
+manifolds in a su?ciently small cone-neighborhood of the unstable direction of R
+(i.e. “candidates” to Wu) has the unique ?xed point Wu. In our analytic setup, the
+graph transform iteratively applied to an analytic submanifold gives a sequence of
+analytic submanifolds converging exponentially fast and uniformly to Wu (see the
+estimate on page 55 of [HPS]). Therefore, Wu is an analytic submanifold. 
+An indi?erent pacman is a pacman with indi?erent ?-?xed point. The rotation
+number of an indi?erent pacman f is ? ? R/Z so that e(?) is the multiplier at ?(f).
+If, moreover, ? ? Q, then f is parabolic.
+We denote by ?? the multiplier of f?.
+In particular, Rpkrm(??) = ??.
+Proof. Recall that the renormalization R of f? is an extension of a sector renor-
+malization of f | Z?, see De?nition 3.5 and Appendix A. By Lemma A.2, a sector
+renormalization is an iteration of the prime renormalization. Therefore, R is an
+iteration of the prime pacman renormalization Rprm, see De?nition 2.3. We need
+to check that if f is an indi?erent pacman with rotation number ?, then Rprmf
+is again an indi?erent pacman with rotation number Rprm(?). By continuity, it is
+su?cient to assume that f is a parabolic pacman with rotation number p/q. Then
+f has q local attracting petals in a small neighborhood of ?. If p ? q/2, then
+Rprm deletes p local attracting petals; otherwise Rprm deletes q?p local attracting
+petals. We see that Rprmf has rotation number Rprm(p/q). 
+from Theorem 3.16 around a ?xed Siegel pacman f?. By Corollary 3.17 R has an
+unstable manifold Wu at f?.
+4.1. Renormalization triangulations. Suppose that f0 ? B is renormalizable
+n ? 0 times (this is always the case if f0 is su?ciently close to f?) and anti-
+) renormalization of f0, where m ? k ? n. We denote by ?k : Sk ? V the
+renormalization change of variables realizing the renormalization of fk?1 (compare
+with the left side of Figure 21). We write
+Let us cut the dynamical plane of fk: Uk ? V , with k ? {m, .. ., n}, along ?1;
+we denote the resulting prepacman by
+4.1.1. Combinatorics of triangles. Before giving the proof of Lemma 4.1, let us
+introduce additional notations. For consistency, we set ?0 := id; then 0 = U0 is
+a triangulation consisting of two closed triangles – the closures of the connected
+components of U0 \ (?0 ? ?1). We denote these triangles by ?0(0) and ?0(1)
+so that int(?0(0)), ?0, int(?0(1)) have counterclockwise orientation around ?, see
+Figure 14. The triangulation 0(fn) is de?ned similarly.
+Let ?n(0,f0), ?n(1, f0) be the images of ?0(0,fn), ?0(1, fn) via the map ?n
+from Lemma 4.1. By de?nition, n is a triangulated neighborhood of ? obtained
+by spreading around ?n(0,f0), ?n(1, f0). We enumerate in counterclockwise order
+these triangles as ?n(i) with i ? {0,1, .. ., qn?1}. By construction, ?n(0)??n(1) 3
+c1(fn).
+We remark that f0 | n is an anti-renormalization of fn : Un ? V in the sense
+of Appendix A. Moreover, there is a pn such that
+is conformal for all i ? {?pn,?pn + 1} with the index taken modulo qn. For the
+exceptional triangles, we have an almost two-to-one map
+(4.3) f0 : ?n(?pn) ? ?n(?pn + 1) ? S(0n) ? ?n(0) ? ?n?).
+We will show in Theorem 4.6 that if f0 is close to f?, then n = ?n(i) approxi-
+mates Z? dynamically and geometrically.
+By construction, for every triangle ?n(i,f0) there is a t ? 0 and j ? {0, 1} such
+that a certain branch of f0?t maps conformally ?n(i, f0) to ?n(j, f0). We de?ne
+?n,i on ?n(i, f0) by
+4.1.2. Walls. Let A be a closed annulus, and let O be the bounded component of
+C \ A. We say that A is a univalent N-wall if the restriction f0 | O ?A is univalent
+and for all z ? O and all j with |j| ? N we have
+More generally, we say that A is an N -wall if A contains a univalent N-wall A?
+such that O is in the bounded component of C \ A?.
+Fix a small r > 0 and denote by Z?r the open subdisk of Z? bounded by the
+equipotential at height r. Set 0 := U0 \Z?r. It is a closed annulus enclosing ?. We
+decompose 0 into two closed rectangles ?0(0) = 0??0(0) and ?0(1) = 0??0(1);
+they are the closures of the connected components of 0 \ (?0 ? ?1). The following
+lemma proves that the wall of n exists.
+As with renormalization triangulation, we say that n(f0) is the full lift of n?1(f1).
+Proof. The proof follows from the robustness of the renormalization change of vari-
+ables in a neighborhood of ?Z?. Such change of variables is eventually expanding.
+Consider ?rst the case f0 = f1 = ·· · = fn = f?. It follows from the improvement
+of the domain that the wall n(f?) is well de?ned and, moreover, the diameters
+of the rectangles in n(f?) tend to 0 as n increases. Choosing a su?ciently big k
+and applying the Schwarz lemma (after a slight enlargement of the rectangles), we
+obtain that all the ?k,i: ?k(i,f?) ? ?0(j, f?) expand the Euclidean metric.
+By continuity and the assumption that f0, f1,. .. , fn are su?ciently close to f?,
+the maps ?k,i : ?k(i,fs) ? ?0(j, fs+k) also expand the Euclidean metric. De-
+composing ?n,i : ?n(i, f0) ? ?0(j, fn) into a composition of bnc maps of the
+form ?k,t and one remaining map, we see that ?n,i : ?n(i, f0) ? ?0(j, fn) is a
+required expanding map. This implies Claim (4); other claims are consequences of
+4.1.3. Proof of Lemma 4.1. We will now apply Theorem B.8 to show that the full
+lift n(f0) of 0(fn) exists.
+Let Q0 ? Z? be the closed annulus bounded by the equipotentials at heights r
+and 2r. Then Q0 ? 0 and we decompose Q0 into two rectangles Q0(0) = ?0(0)?Q0
+and Q0(1) = ?0(1)?Q0. Let Qn(0, f0) and Qn(1, f0) be the images of Q0(0, fn) and
+Q0(1,fn) under ?n. By spreading around Qn(0, f0) and Qn(1, f0), we obtain (by
+Lemma 4.2) an annulus Qn enclosing ?. We enumerate counterclockwise rectangles
+in Qn as Qn(i) with i ? {0, 1, .. ., qn ? 1}. We have Qn(i) ? ?n(i).
+Denote by ?n the open topological disk enclosed by Qn. Then f0 | ?n?Qn is an
+anti-renormalization of f1 | ?n?1 ? Qn?1 (in the sense of Appendix B) with respect
+to the dividing pair of curves ?0, ?1.
+4.1.4. Changing ?1. In fact, the exact behavior of ?1 in a small neighborhood of ?
+is irrelevant in the proof of Lemma 4.1. We have
+Note that nnew and n triangulate the same neighborhood of ?.
+Proof. Since ?1new, ?n0ew coincide with ?1, ?0 outside Zr, the wall n is una?ected;
+thus we can repeat the proof of Lemma 4.1 for ?n1ew. 
+The nth renormalization triangulation is an example of a Siegel triangulation.
+Similar to Lemma 4.2, Part (5), we say that  approximates ?Z? if ?Z? is a
+concatenation of arcs J0J1 .. . Jq?1 such that ?(i) and Ji are close in the Hausdor?
+topology.
+Proof. It is similar to the proof of Lemma 4.1. Suppose ?rst n = 1. Since all
+?(i, Rf) are small, the arc ?0 can be slightly adjusted2 in a neighborhood of  so
+that ?0 crosses  along ?(i, Rf) ? ?(i + 1,Rf) with i ? {?p, ?p + 1}. This allows
+us to construct a full lift (f) of (Rf). By Corollary B.13, the annuli (f) and
+Q(f) are again 2-walls. Applying Theorem B.8 from Appendix B we construct a
+?(f)
+Figure 14. Renormalization tiling. Right: triangles ?0(0), ?0(1)
+are the closures of the connected components of Uf \ (?0 ? ?1).
+They form a renormalization tiling of level 0. Left: the trian-
+gles labeled by 0 and 1, i.e. ?1(0, f) and ?1(1,f) respectively, are
+anti-renormalization embeddings of ?0(0,f1), ?0(1, f1); the for-
+ward orbit of ?1(0,f), ?1(1, f ) triangulates a neighborhood of ?.
+Together with A0(0) ? A0(1), this gives a tiling of Uf of level 1.
+full lift (f) of (Rf). Lemma 4.2 Part (4) allows to apply induction on n: for big
+n, the wall (f) approximates ?Z? better than (Rnf) approximates ?Z?. 
+4.2. Renormalization tilings. In this subsection we will show the robustness of
+renormalization triangulations. Along the lines we will also extend n(f) to a tiling
+of Uf.
+Let ?0? be the preimage of ?1 \ Uf under f : ??0 ? ??1, see Figure 14. In other
+words, ?0? is the subcurve of ??0 consisting of points that escape Uf after one itera-
+tion. Set ?(f) := ?Uf ? ??0(f).
+(1) f0 : ?0(f0) ? ?1(f0);
+(2) f0 : ?1(i,f0) ? ?1(i + p1,f0) for i ? {?p1, ?p1 + 1};
+(3) ?1,i : ?1(f0) ? ?1(i, f0) ? ?(f1).
+Proof. Each triangle ?1(i) has three distinguished closed sides; we denote them by
+?(i), ?(i), and `(i) such that ?(i) and ?(i) are the left and right sides meeting at
+where ?(i)4?(i + 1) is the symmetri?di?erence between ?(i) and ?(i + 1). Note
+that ?1,i(`(i)) ? ?0 and, moreover, ?1,i(`(i)) = ?0.
+Let us analyze ?(i)4?(i + 1). We assume that ?(i) = ?(i + 1). Then one of the
+c?u1(rfv1es).inW{e?h(ia)v,e?:(i + 1)} is a ?-p(reimage of ?0()f1) while the other is a preimage of
+It is clear (see Appendix A) that ?(i) = ?(i + 1) for at least one i.
+The property ?(f) ? ?1(f) = ? follows from ?0 ? f(1) = ?, see Lemma 4.1.
+Since ?(f)??1(f) = ?, we can ?nd ?0 such that ?0???0 is in a small neighborhood
+of ?0 and ?0???0 connects ?0 to ?(1 \(?1(?p1)??1(?p1 ?1))). Then ?1 = f(?0)
+is disjoint from ??0 ? ?0 and ?1 connects ?0 to ?1.
+In a small neighborhood of f? we have a holomorphic motion of ?0(f0). Ap-
+plying the ?-lemma, we obtain a holomorphic motion of the triangulation 0 that
+is equivariant with f0 | ?0. Lifting this motion via ?1,i, we obtain a holomorphic
+motion of 1 ? ? equivariant with (2) and (3). Applying again the ?-lemma, we
+Let A0 be the closed annulus between ?0 and ?1. The arcs ?0? ? ?0, ?1 split
+A0 into two closed rectangles A0(0),A0(1) (see Figure 14) enumerated such that
+int(A0(0)),??0 ? ?0,int(A0(1)), ?1 have counterclockwise orientation.
+Let An be the closed annulus between ?n and ?n+1. De?ne
+and spread dynamically An(0, f0), An(1, f0) (compare with the de?nition of ?n(i)
+in §4.1); we obtain the partition of An(f0) by rectangles {An(i,f0)}0?i<qn enu-
+merated counterclockwise. Similar to (4.5) we de?ne the map ?n,i : An(i, f0) ?
+A0(j, fn) with j ? {0,1}.
+The nth renormalization tiling is the union of all the triangles of n and the
+union of all the rectangles of all Am for all m < n. The nth renormalization tiling
+is de?ned as long as f0, .. . , fn are in a small neighborhood of f?.
+Theorem 4.6 (Combinatorial pseudo-conjugacy). Consider an nth renormalizable
+pacman f and set
+levels are depicted on Figure 14. There are q2 = 12 triangles in 2
+with rotation number p2/q2 = 5/12. Geometry of triangles in 2
+is simpli?ed. The image of ?2(8) ??2(9) is a sector slightly bigger
+than ?2(0) ? ?2(1) – compare with Figure 7.
+Proof. By Lemma 4.5, the set (4.6) moves holomorphically with f in a small neigh-
+borhood of f?. Applying the ?-lemma, we obtain a holomorphic motion ? of the
+?rst renormalization tiling with f in a small neighborhood U of f?.
+Suppose now that d is so small that all fi := Rif are in U. For every ?n(i)
+of f0 or of f? consider the map ?n,i : ?n(i) ? ?0(j), where ?0(j) is the corre-
+sponding triangle of fn or of f?. Then h on ?n(i,f0) is de?ned by applying ?rst
+?n,i: ?n(i, f0) ? ?0(j, fn) (see (4.4)), then applying the motion ? from ?0(j, fn)
+to ?0(j, f?), and then applying ??n,1i : ?0(j, f?) ? ?n(i,f?).
+Similarly, for every Am(i) of f0 or of f? consider the map ?m,i: Am(i) ? A0(j),
+where A0(j) is the corresponding rectangle of fm or of f?. Then h on Am(i, f0) is
+de?ned by applying ?rst ?m,i: Am(i,f0) ? A0(j,fm), then applying the motion ?
+from Am(j, f0) to Am(j, f?), and then applying ??m1,i : A0(j, f?) ? Am(i, f?).
+Observe now that h is well de?ned for all the points on the boundaries of all
+the rectangles and all the triangles because ? is equivariant with (1), (2), (3) – see
+Lemma 4.5. Therefore, all points have well de?ned images under h.
+The qc dilatation of h is bounded by the qc dilatation of ? at fi with i ?
+{0, 1,. .. ,n}. This bounds the qc dilatation of h by K(d) as above with K(d) ? 1
+as d ? 0.
+If n = 1, then since ? is continuous, the distance between h | 1(f0) and the
+identity on 1(f0) is bounded by M(d) as required. If n > 1, then n(f0) b U0 and
+Proof. If ? is su?ciently small, then by Theorem 4.6, for every n ? 0 there exists
+qc combinatorial pseudo-conjugacy hn of level n between f and f? such that the
+dilation of hn is uniformly bounded for all n. By compactness of qc maps, we may
+pass to the limit and construct a qc map h: Uf ? U? such that h?1 is a conjugacy
+on Z? and c0(f) ? h?1(Z?). It follows, in particular, that f is a Siegel map. By
+Theorem 3.6, the maps f, f? are hybrid conjugate on neighborhoods of their Siegel
+4.3. Control of pullbacks. Recall from Lemma 4.1 that an,bn denote the closest
+renormalization return times computed by (A.4). By de?nition, an + bn = qn. We
+now restrict out attention to f ? Wu.
+Proof. The main idea of the proof is to block the forbidden part of the boundary
+?frbUf from the backward orbit of D. The proof is split into short subsections. We
+start the proof by introducing conventions and additional terminology. The central
+argument will be presented in Claim 10, Part (4).
+say that a certain object is small if it has small size independently of n. Choose a
+big s  0 and choose a small neighborhood U of f? such that every f ? R?n(U)
+is at least m := n + s renormalizable and each fi := Rif with i ? {0,1, . .. ,m} is
+close to f?.
+Consider the m-th renormalization triangulation ?m(i) of f. Let h be a qc com-
+binatorial pseudo-conjugacy of level m as in Theorem 4.6. To keep notation simple,
+we sometimes drop the subindex m and write ?(i), ,q, p for ?m(i), m, qm, pm.
+Since fi with i ? {0, 1, . . ., m} are close to f?, the map h |  is close to the identity
+(by Theorem 4.6). In particular, (f) = h?1((f?)) approximates Z?. Since s is
+big and since ai, bi have exponential growth with the same exponent (A.4), we have
+Figure 16. If Dj intersects S = ?(0)??(1) and S is disjoint from
+?(I), then Dj?1 may intersect \?(f?1(I)) because f() = ?S.
+4.3.2. Disks Dk 3 fk(c1). For convenience, we will write c?0 = c0(f?) and c?1 =
+Since n is big, we see that f?an(c?1),f?bn(c?1) are arbitrary close to c?1; i.e. D 3 f?t(c1).
+It follows from (4.7) that
+(4.8) min{am, bm} ? 1 > max{an, bn} ? t.
+This shows that c?1, . . . ,f?t(c?1) do not visit triangles ?(?pm, f?) ? ?(?pm + 1, f?)
+as it takes either am ? 1 or bm ? 1 iterations for a point in ?(0, f?) ? ?(1,f?) to
+visit them. Since h is a conjugacy away from ?(?p) ? ?(?p + 1), we obtain that
+close to f?t(c?1); thus ft(c1) ? D.
+Let D0,D1,. .. Dt = D be the pullbacks of D along the orbit c1, .. ., ft(c1) ? D;
+i.e. Dt := D 3 ft(c1) and Di is the connected component of f?1(Di+1) containing
+fi(c1). Our main objective is to show that the Di do not intersect ?frbUf ; this will
+imply that the maps f : Di ? Di+1 are branched coverings for all i ? {0,. .. , t ? 1}.
+In other words, we require that if I ? p contains one of ?p, ?p + 1, then it also
+contains the other number; and similarly with pair 0, 1. By (4.2) and (4.3)
+Figure 17. Right: ?0(0, fm) and ?0(1,fm) are shrunk versions
+of ?0(0, fm) and ?0(1, fm). Left: by transferring ?0(0, fm) and
+?0(1,fm) to ?m(0, f0) and ?m(1,f0) by ?m,0, and spreading these
+triangles dynamically, we obtain the triangulated neighborhood m
+of ? such that m is a slightly shrunk version of m; compare with
+Figures 14 and 15.
+for all i ? {0, 1,. . ., min{am,bm}}.
+Consider the dynamical plane of fm = Rmf and let ?0(0,fm) and ?0(1, fm)
+be the closures of the connected components of fm?1(Um) \ (?1 ? ?0) attached to ?
+such that ?0(0, fm) ? ?0(0, fm) and ?0(1, fm) ? ?0(1,fm), see Figure 17. Writing
+0(fm) = ?0(0,fm)??1(1, fm) we obtain a shrunk version of 0(fm). The map ?m
+embeds ?0(0, fm) and ?1(1,fm) to the dynamical plane of f0; spreading around the
+embedded triangles, we obtain a triangulated neighborhood  of ? such that (4.10)
+holds.
+Let us also give a slightly di?erent description of . Recall (4.4) that ?0,m maps
+each ?m(i, f0) conformally to some ?0(j,fm). Then ?(i) = ?m(i, f0) ? ?m(i, f0)
+For the same reason as for (f?), the triangulation (f?) approximates Z?. And
+since h |  is close to the identity, (f) also approximates Z? in the sense of
+Theorem 4.6. For the same reason as for Claim 1, we have:
+The following claim is a re?nement of (4.10). This will help us to control the
+intersections of Dk with .
+Figure 18. The rectangle Sk is an appropriate truncation of ?(Ik)
+such that Sk ? Dk ?  and Sk ? (f | )?1(Sk+1).
+Proof. Since fi(z) ? ?(I), every preimage of fi(z) under the i-th iterate of f | 
+is within ?(f?1(I)) by Claim 1. By Claim 2, z ? ?(f?i(I)) ?  ? ?(f?i(I)).
+The second statement follows from the ?rst because points in  do not escape 
+under fi for all i < min{a,b}, see (4.10). 
+Recall that the intersection of each ?(i,f?) with Z? is a closed sector of Z?
+bounded by two closed internal rays of Z?. Let us ?x p > 1 which will be speci?ed
+in §4.3.5 as a certain period. Since D0 is small, we obtain:
+(2)
+(3)
+by their heights ranging from 0 (the height of ?) to 1 (the height of ?Z?). We denote
+for all k ? {0, 1, . .. ,t ? 1}, see Figure 18. Assume that r < 1 is close to 1 and
+Proof. By Claim 2 we only need to check that the truncation is respected by back-
+ward dynamics. The proof is based on the fact that points in Sk pass at most once
+through the critical sector (?p) ? (?p +1) under the iteration of f, f2, .. . , f t?k.
+The sector Sk consists of subsectors Sk(i), where i ? Ik. If i ? {?p, ?p + 1},
+then
+is a homeomorphism. Suppose i ? {?p, ?p+1}. Then Sk+1(i+p) = ?(i)\h?1(Z?r)
+because i+ p, .. ., i +p(t ?k) are disjoint from {?p, ?p +1} by (4.8). On the other
+hand, by de?nitioSnkof?Shk?,1 ((?(?p, f?) ? ?(?p + 1,f?)) \ Z?r??) .
+Since h is close to identity (see §4.3.1), the preimage of Sk+1(i + p) under f |  is
+within Sk(i) ? Sk. 
+and de?ne D?k to be the connected component of f ?1(Dk+1) containing Dk. We
+de?ne Dk to be the ?lled-in D?k ?int Sk; i.e. Dk is D?k ?int Sk plus all of the bounded
+components of C \ (D?k ? int Sk).
+Proof. Follows from Dk ?  ? Sk, Claim 6, and the de?nition of Dk. 
+4.3.5. Bubble chains. Below we will separate the forbidden part of the boundary
+?frbUf from all Dj by external rays and bubble chains (see Figure 19). Recall
+from §3.1 that for f? a bubble chain is a sequence of iterated lifts of Z?; for f the
+role of Z? will be played by .
+Consider ?rst the dynamical plane of f?. Recall from Theorem 3.12 that the
+non-escaping set K? of f? is locally connected and that K? has at most ?nitely
+many limbs (and bubbles) with diameter at least ? for every ? > 0. Let Za and
+Zb be two bubbles attached to Z?? such that Za and Zb are close to ?? and ?+
+respectively. Let f?pa be the iterate of f? such that f?pa(Za) = Z??. Recall from
+Bx and By landing at periodic points x and y. Together with ex-
+ternal rays Rx, Ry the bubble chains Bx,By separate ?frbUf from
+the critical value. The con?guration is stable because of the sta-
+bility of local dynamics at x and y. Disks Dk may intersect ? but,
+by Claim 10, they do not intersect Bx ? By \ ?.
+De?nition 3.1 that ?1, as well as ?0, is a concatenation of an external ray and an
+internal ray. We also recall from §3.6 that we normalized ?0 to pass through the
+critical value. Therefore, the critical point c?0 is the landing point of two external
+rays R?,R+; we denote by W? the open wake of Z??: the connected component
+of V \ (R? ? R+) containing Z??. Let Wa be the univalent pullback of W ? under
+f?pa : int(Za) ? Z?? . Then Wa is the wake of Za and we have Wa b W?. By the
+Schwarz lemma, the map fpa : Wa ? W? has a unique ?xed point; we call it x.
+Set Z2 := Za and for i ? 2 de?ne Zi+1 to be the unique preimage of Zi under
+fpa : Wa ? W ?. By the expansion of f?pa : Wa ? W?, the Zi shrink to x. We have
+constructed the bubble chain Bx
+landing at x. Write px := pa and denote by B?x ? Bx the subchain obtained by
+removing Z? in Bx. Then px is the minimal period of Bx because fpx(B?x) = Bx.
+Similarly, we de?ne y to be the unique ?xed point of f?pb : Wb ? W ? c Wb and
+By to be the bubble chain landing at y. The minimal period of By is py. We have
+We say that ? is attached to , or more speci?cally that ? is attached to ?(?p) ?
+?(?p + 1).
+Observe also that ? approximates Z? because  is close to Z? and f is close to
+A bubble of generation e + 1 ? 1 for f is an fe-lift of ?. Fix a big M  1.
+We assume that the neighborhood U ? Wu in the statement of Key Lemma 4.8 is
+selected su?ciently small, depending in particular on M. Since ? is close to Z?,
+the map f is close to f?, and ? ? (?(0) ? ?(1)) is small, we obtain:
+Using Claim 8, we approximate the bubbles Zk in Bx (see (4.11)) with k ? M by
+the corresponding bubbles k. We can assume that the remaining ZM+j are within
+the linearization domain of x. Taking pullbacks within the linearization domain of
+x, we construct the bubble chain Bx(f) landing at x as a sequence ? = 1, 2, .. .
+Similarly, By(f) is constructed. The chains Bx ?By(f ) are close to Bx ?By(f?) in
+the following sense: there are continuous maps
+close to the identities. Equation (4.12) holds in the dynamical planes of f. Thus we
+have constructed (Rx ? Bx ? By ? Ry) (f ) that is close to (Rx ? Bx ? By ? Ry)(f?).
+Assume that D is so small that it is disjoint from the forward orbit of Rx ? Ry.
+As a consequence, we obtain:
+Proof. We proceed by induction on k ? {t, t?1,. .. , 0}. Since Dk+1 is disjoint from
+the forward orbit of Rx ? Ry, so is D?k ? int(Sk); the latter surrounds Dk. 
+Proof. We proceed by induction. Suppose that all of the statements are proven for
+moments {t, .. . , k + 2, k + 1}; let us prove them for k.
+= f3(2)
+= f3(?2)
+Figure 20. Illustration to the proof of Claim 10, Part (4) in case
+px = 3. Suppose that f3 maps the bubble 2 (in Bx) to ? and
+suppose that Dk?2 = ?. Let ?2 be the lift of f(2) attached to .
+Since f(2) is attached to Sk+1 = Dk+1 ?  and since Dk+1?Sk+1
+does not surround the critical value, we obtain that the pullback
+of f(2) along f : D?k ? Dk+1 is attached to Sk contradicting
+If Ik ? {?p,?p + 1}, then Dk+1 ? Sk+1(0) ? Sk+1(1) 3 c1 (see §4.3.4). Since
+Dk+1 contains either Sk+1(?1) or Sk+1(2), we see that D?k = f?1(Dk+1) intersects
+Suppose Ik?{?p, ?p+1} = ?. Then Dk+1 does not contain c1. Hence every point
+in Dk+1 has at most one preimage under f | D?k. Since Dk+1 ? is connected, every
+preimage of Dk+1 ?  under f | D?k is in . By (4.13), D?k has empty intersection
+with ?. Since D?k ? Sk does not surround ?, we also obtain Dk ? ? = ?. This
+proves Part (1).
+Part (2) follows from Dk+1 ?  ? Sk+1 (see Claim 7), the de?nition of Dk, and
+the fact that Sk+1 is a small neighborhood of c1, see Claim 5.
+Part (3) follows from Part (1) combined with Claim 4 (Part (2)).
+Let us now prove Part (4), see Figure 20 for illustration. By continuity, Part (4)
+holds for k ? {t, .. ., t ? p}. Below we assume that k < t ? p. Assume that Part (4)
+does not hold; let Dk ? (Bx \ ??) = ?; the case Dk ? (By \ ??) = ? is similar. Write
+where i is a bubble attached to i?1. Then there is a i with i ? 2 such that
+We assume that i ? 2 is minimal and we claim that i = 2. Recall from §4.3.5 that
+fpx maps ?k+1 to ?k, where px ? p is the minimal period of x. Suppose i > 2 and
+from Claim 9), we obtain that D?k ? B(xi) = ?; hence Dk+1 ? f(Bx(i)) = ?. Applying
+induction we obtain Dk+px ? Bx(i?1) = Dk+px ? fpx(Bx(i)) = ? contradicting the
+induction assumption that Part (4) holds for k + px.
+Consider the bubbles
+BinyteCrsla?ims 8?P. aIrntd(e3e)dt,hseiyncaereDa?ktt?acShkedistodisjo\in(?t (f0ro)m? ?R(x1,))t.heObdsisekrveD?kthaintteDrske+cptxs
+Dk+px ? f px(Bx? ) = ?. Therefore, Dk+px ? ? = ? because Dk+px is disjoint from
+Bx? by the induction assumption that Part (4) holds for k + px.
+Since Dk+px intersects ? we have Ik+px ? {?p, ?p + 1}. Therefore, each
+fj(2) with j ? {1, . .. ,px} is attached to Sk+j ? Dk+j. Moreover, every point
+in Dk+j has at most one preimage under f | D?k+j?1 for j ? {1, . . ., px} because
+Dk+j ?  ? Sk+j does not contain c1.
+Let ?2 be the lift of f(2) attached to Sk. We note that ?2 = 2 and f(2) = ?
+(by (4.12)). Recall that every point in Dk+1 has at most one preimage under
+f | D?k. We claim that the lift of f(Dk ? 2) under f | D?k is in ?2 and not in 2.
+Indeed, since Dk+1 ? f(2) neither contains nor surrounds the critical value, the
+lift of f(Dk ? 2) under f | D?k agrees with the lift of f(Dk ? 2) under f | ?2. This
+proves Part (4).
+By Part (2) Dk+1 is disjoint from ?frbUf because Dk+1 can intersect Bx ? By
+only in a small neighborhood of c0. Therefore, f : D?k ? Dk+1 is a branched
+This shows ft : D0 ? Dt is a branched covering. Observe next that D0 ? ? S0
+is a small neighborhood of c1 that is disjoint from ?1. We can easily separate D0 \
+from ?1 \  using  and ?nitely many backward iterated lifts of Bx ?By ? Rx ?Ry.
+Let g : X ? Y be a holomorphic map between Riemann surfaces. Recall that g
+is:
+Theorem 5.1 (Existence of maximal prepacmen). Every f ? Wu su?ciently close
+to f? has a maximal prepacman F that depends analytically on f.
+A re?ned statement will be proven as Theorem 5.5. The analytic dependence means
+that the restriction of a map to a disk compactly contained in the domain depends
+analytically in the associated Banach space. In the proof, we will show that F is
+obtained from f by an analytic change of variables. Note that analytic dependence
+is su?cient to check for one-parameter families.
+Each fk embeds to the dynamical pane of fk?1 as a prepacman Fk(k?1) such that
+(k?1) are iterates of fk?1.
+Let us specify the following translation
+Let us now translate each fk so that c1(fk) = 0. We mark the translated objects
+with “•.” For k ? 0, set
+so that ?•k(0) = 0. Similarly, de?ne Uk• := Tk(Uk) and Vk• := Tk(V ); and conjugate
+all fk and all Fk = Fk(k) by Tk; the resulting maps are denoted by fk• : Uk• ? Vk•
+and by
+We also write ?1•(fk) := Tk(?1). The tower (Fk•)k?0 is illustrated on Figure 21.
+Denote by
+We remark that the linearization is normalized in such a way that (h•0)?(0) = 1 if
+since ?i tends exponentially fast to ?? we see that µi tends exponentially fast to
+µ? and that the constant in the error term does not depend on i. For z in a small
+tends exponentially fast to 1 in some neighborhood of 0. This implies that h(i)(z)
+linearization equation (see Figure 21)
+Proof. By Lemma 4.1 the map ?•i?1 ? ·· · ? ?•0 extends to a conformal map de?ned
+on int(V0• \ ?1•). Since ?•i?1 ? · · · ??•0 is contracting, for every z ? int(V0• \ ?1•) there
+is an i < 0 such that ?•i?1 ? · ·· ? ?•0(z) is within a neighborhood of 0 where h•i is
+de?ned (this is easily true if f0• = f?•; applying Theorem 4.6 we obtain this property
+for all f0•). Therefore, (5.4) extends dynamically h•0 to int(V0• \ ?1•).
+and similarly other objects marked by “#” are de?ned.
+It follows from (A.4) that
+Theorem 5.5 (Existence of a m(xim ) prepacman). If f0 ? Wu is su?ciently
+Note that the case f0 = f? follows from [McM2, Theorem 8.1].
+be a commuting pair obtained from F0 = (f0,± : U0,± ? V \ ?1) by removing a
+Lemma 4.1 the map ?k?1 ? · ·· ? ?0 embeds F0 to the dynamical plane of fk as
+Since ?k is contracting at the critical value the diameter of U0(k,?) ? U0(,k+) ? S(0k) 3
+c1(fn) tends to 0. By Key Lemma 4.8, for a su?ciently big k < 0 there is a small
+open topological disk D around the critical value of fk such that the pair (5.8)
+Since for a su?ciently big t and all m ? 0 the?odulus of the annulus D(tm?t) \
+we obtain ?-proper maps f0,± : X0,± ? C, where X0,± are connected. Similarly,
+(fk#,±) extends to a pair of ?-proper maps. 
+Since the multiplier of the ?-?xed point is in the unstable direction of R at f?
+(by Lemma 3.18), we can consider a parabolic pacman f0 ? Wu close to f? such
+that Theorem 5.5 applies for f0. As in §5 we denote by Fn = (fn,±) the maximal
+prepacmen of fn = Rnf0 with n ? 0 and by F#n the rescaled version of Fn so that
+F0 is an iteration of F#n , see Lemma 5.4.
+beds as a prepacman into the dynamical plane of a parabolic pac-
+man f?1 with rotation number 3/8. We have f0,? = f?31 and
+Similarly, orbz(F#n ) and orb?z q(F#n ) are de?ned. Since F0 is an iteration of F#n ,
+for all n ? 0 and z ? C.
+An orbit path of Fm is a sequence x0, x1,. .. , xn such that either xi+1 = fm,?(xi)
+or xi+1 = fm,+(xi). Since F0 is an iteration of F#n , an orbit path of F0 is a “sub-
+orbit” path of F#n .
+Let us denote by
+Recall that 0 is a critical value of F#n for all n ? 0; we denote by o#n the
+critical point of F#n such that o#n is identi?ed with the critical point c0(fn) under
+intS#n ' V \ ?1, see (5.6).
+Lemma 6.1 (Every critical orbit “passes” through 0). For any critical point x0 of
+Pfrroomof.thCeleparrolyo,f tohf?Tsheecoonredmst5a.t5e.mSeuntppfoolsleowfosrfrdoem?ntihteen?erssst.? =We“?wi??l.l uRseecnaollta(t5i.o1n0s)
+that Dom f0,? = W?(n); thus x0 ? W(?n) for some n < 0. The map f0,? | W(?n)
+is conformally conjugate to fnan | W?(n) ? D (see (5.9)) after identifying W(?n) with
+W?(n). This shows that x0, f0,?(x0) us within an actual orbit x0, x1, . . . ,xk of
+which is a prepacman of fn. We deduce that one of xi is o#n and xi+1 = 0. 
+Note that for every q ? 1 we have f0q = id in any small neighborhood of ?(f0)
+because, otherwise, considering a lift f0r,? ?f0s,+ of f0q we would obtain f0r,? ?f0s,+ = id
+in C which is impossible. Therefore, there is a small open attracting parabolic ?ower
+H0 around the ?-?xed point of f0. Each petal of H0 lands at ? at a well-de?ned
+angle. Assume H0 is small enough so that H0 ? V \ ?1, possibly up to a slight
+rotation of ?1. By Lemma 4.3 the ?ower H0 lifts to the dynamical plane of F0 via
+the identi?cation V \ ?1 ' int S0; we denote by H0 the lift.
+Let e(p0/q0) = 1 be the multiplier of the ?-?xed point of f0. Since f0 is close to
+f?, we have q0 > 1. By replacing H0 with its sub-?ower we can assume that there
+are exactly q0 connected components of H0 with combinatorial rotation number
+p0/q0. We enumerate them counterclockwise as H00, H01, . . . ,H0q0?1. Then f0 maps
+H0i to H0i+p0. We will show in Corollary 6.4 that H0 is in fact unique; i.e. f0 has
+exactly q0 attracting directions at ?. Denote by Hi0 the lift of H0i to the dynamical
+plane of F0.
+It will follow from Proposition 6.5 that f0r,??f0s,+ : Hi0 ? Hi0 is the ?rst return map.
+Proof. We have f0q0(H0i) ? Hi0. Cutting the prepacman f0 along ?1 we see that
+there are r,s ? 1 with r + s = q0 such that f0r,? ? f0s,+(H0i) ? H0i. This implies the
+?rst claim. As a consequence, H0 is in Dom(f0r,j? ? f0s,j+) for all j ? 0. Combined
+to be the full orbit of H0. Since f0,?, f0,+ commute and H0 is forward invari-
+ant under f0r,? ? f0s,+, the set H is an open fully invariant subset of C within
+Domf0,? ? Domf0,+. We call H the global attracting basin of the ?-?xed point.
+A connected component H? of H is periodic if there are s,r ? N>0 such that
+Corollary 6.6 that there is no component H? of H such that f0r,?(H?) = H? or
+f0r,+(H?) = H? for some r > 0.
+By Lemma 6.2, the components of H intersecting H0 are (r, s)-periodic. Observe
+next that for any periodic component H? and any component H?? of H there are
+a,b ? 1 with f0a,? ? f0b,+(H??) = H?; i.e. H? and H?? are dynamically related. Indeed,
+by de?nition there are a?, b? ? Z such that a certain branch of f0a,?? ? f0b,?+ maps
+6.3. Attracting Fatou coordinates. It is classical that f0qi : H00 ? H00 admits
+• h ? f0q0(z) = h(z) + 1; and
+• there is an L > 1 such that
+Lifting h to the dynamical plane of F0 we obtain h: H0 ? C.
+(6.5) h ? f0,±(z) = h(z) + 1/q0.
+Proof. On H0 Equation (6.5) is just a lift of(6.4). Applying f0,± and using com-
+mutativity of f0,?,f0,+, we obtain a unique extension of h to H such that (6.5)
+holds.
+compact because f0r,i? ? f0s,i+ is ?-proper. This also shows that singular values of h
+are the h-images of either critical points of F0 or their iterated preimages. (We
+recall a ?-proper map has no asymptotic values.)
+Let Hx0 and Hy0 be two di?erent components of H0 and let Hx and Hy be the
+periodic components of H containing Hx0 and Hy0. Since all points in Hx and Hy,
+escape eventually to Hx0 and Hy0 under the iteration of f0r,??f0s,+ we have Hx = Hy.
+periodic components of H.
+Proof. Since h: Hper ? C is not a covering map, Hper contains at least one critical
+point of F0. Since Hper is forward invariant, Hper contains o#n for all su?ciently
+big n < 0, see Lemma 6.1. Therefore, Hper contains all of the critical values of F0.
+Since H is fully invariant, it contains all of the critical points. As a consequence, H0
+is unique because the global attracting basin of another ?ower would also contain
+for all n ? 0. It is also clear that Hper is the union of F#n -periodic components.
+Let Hn be a small parabolic attracting ?ower of fn admitting a lift to the dy-
+namical plane of F#n ; we denote this lift by H#n ? Hn. We denote by pn/qn the
+combinatorial rotation number of fn.
+Let In be an index set enumerating clockwise the connected components of Hn
+starting with the component closest to ?1. Since Hn embeds naturally to the
+dynamical plane of fn?1 (see Figure 22), we have a natural embedding of In to
+with a0, b0 > 0 and a0 + b0 + 1 = q0. The component of H0 indexed by i + 1
+follows in the clockwise order the component of H0 indexed by i. Then f0 maps
+the component of H0 indexed by i to the component of H0 indexed by either i ? p0
+or i + q0 ? p0 depending on whether i ? p0 ? ?a0.
+Figure 23. The maximal prepacman F0 = (f0,±) of a parabolic
+pacman f0 with rotation number 1/3, see Figure 22. The map f0,?
+shifts periodic components of H to the left while f0,+ shifts the
+periodic components of H to the right. We have fn,? = fn2?1,? ?
+fn?1,+ and fn,+ = fn?1,??fn?1,+ for all n (obtained from f0,? = f13
+and f0,+ = f12 in Figure 22).
+?Fthoratevthereynnat<ura0l, echmoboesdedainpgaoraf mInetteorizIant?i1onisIvniewed as In ? In?1. Set I?? :=
+In = Z.
+Recall (see §6.2) that a connected component H? of H is periodic if f0s,? ?
+f0r,+(H?) = H? for some s,r ? N>0.
+Proof. By c ?truction, I?? ' Z enumerates all of the ?riodic components of H
+intersecting H#n with actions given by (6.7). Since Hi is forward invariant
+and sin?every periodic component is in the forward orbit of H0 (see §6.2), we
+obtain Hi = Hper. We can re-enumerate (Hi)i?Z in a unique way so that
+Proof. Suppose converse and consider such H?, say f0r,?(H?) = H?. Choose a,b ? Z
+such that a certain branch of f0a,??f0b,+ maps H? to H0. Recall that (r, s) is a period
+of H0. By postcomposing f0a,? ? f0b,+ with an iterate of f0r,? ? f0s,+ we can assume
+that a, b ? 0. It now follows from Proposition 6.5 that applying ?rst f0r,? | H? and
+then f0a,? ? f0b,+ is di?erent from applying f0a,? ? f0b,+ | H? and then f0r,?. This is a
+Proof. It is su?cient to prove it for n = 0. Suppose f0a,? ?f0b,+(0) = f0c,?? f0d,+(0). It
+follows from (6.5) that a+b = c+d. If (a, b) is not equal to (c, d), then f0a,? ?f0b,+(0),
+f0c,? ? f0d,+(0) are in di?erent connected components of Hper, see (6.7). Therefore,
+We remark that a local ?ower (see §6.2) satis?es (A)–(D).
+We say a Siegel triangulation (see §4.1.5)  respects a ?ower H if every petal of
+H is within a triangle of .
+Theorem 6.9 (Parabolic valuable ?owers). Let f0 ? Wu be a parabolic pacman.
+Then for all su?ciently big n  0 the pacman fn = Rnf0 has a valuable ?ower Hn
+and a Siegel triangulation (fn) respecting Hn such that
+• (fn) has a wall (fn) approximating ?Z?;
+• (fn?1) and Hn?1 are full lifts of (fn) an d Hn.Moreover, for a given closed disk D ? H0 the( ?o )er Hn with n  0 can be
+constructed in such a way that D projects via int S ' V \ ?1 (see (5.6)) to a
+Proof. Let us recall (see §6.2) that a local ?ower H0 was chosen su?ciently small
+such that H0 ? V \ ?1, possibly up to a slight rotation of ?1 in a small neighbor-
+hood of ?. We denote by n0ew the triangulation obtained from 0 by this slight
+adjustment of ?1. By Lemma 4.3, the triangulation n0ew admits a full lift n?enw to
+the dynamical plane of fn for all n ? 0. Since H0 is respected by n0ew, the ?ower
+H0 also admits a full lift Hn to the dynamical plane of fn such that Hn is respected
+• fnqn extends analytically from a neighborhood of ? to fnqn : Hjn ? Hjn; (in
+particular, Hjn is fnqn-invariant)
+• fnqn : Hjn ? Hjn has a critical point; and
+• all points in Hjn are attracted to ? under fnqn.
+Proof. In the dynamical plane of F0 consider the petal H0 3 0. Recall from §6.4
+that H#n denotes the lift of Hn to the dynamical plane of F#n . If n  0 is su?ciently
+big, then H0 contains a unique connected component of H#n , call it (H#n )0. Note
+also that (H#n )0 = (H#m)0 for all su?ciently big n, m  0, see Proposition 6.5.
+Enlarge D to a bigger closed disk D ? H0 such that
+• (LHem#nm)0a?6D.(;isanfdorward)invariant under the ?rst return map f0r,? ? f0s,+, see
+Since D is compact, we have D ? S#n for all su?ciently big n  0. For such
+n we can project D to the dynamical plane of fn; we denote this projection by
+D 3 c1. By construction, D ? Hn0 is fnqn-invariant: fnqn : Hn0 ? Hn0 has an analytic
+extension to fnqn : D?Hn0 ? D?Hn0. For n  0, the disk D is a small neighborhood
+of c1.
+For n  0, we enumerate petals of Hn counterclockwise so that H0n ? H0n.
+Choose a big K (we will specify K in §6.5.3). For k ? {0, 1,. .. , K} we de?ne Dk to
+be the image of D0 = D under fnqnk, and for k ? {?K, ?K + 1,. .. , ?1} we de?ne
+Dk to be the lift of D0 along the orbit of fn?qnk : Hnqnk ? H0n. Then
+is a valuable petal extending Hnqnk for all k ? {?K, . .. ,K}. For n  0, all Hqnnk
+are in a small neighborhood of Z?.
+Nqn-wall (see Lemma B.12) enclosing an open topological disk On 3 ? such that
+An respects Hn as above (see (a)–(c)). Naturally, An consists of closed topological
+rectangles: each rectangle is in a certain triangle of nnew.
+Proof. By Theorem 4.6, it is su?cient to prove such statement in the dynamical
+plane of f?: if A0 is an annulus bounded by two equipotentials of Z?, then a full
+lift An approximates ?Z? for a big n. Since the anti-renormalization change of
+variables for f? is conjugate to z ? zt with t < 1, the claim follows. 
+Consider now the dynamical plane of fn. For k ? {?K, ?K + 1, . .. ,K}, we de?ne
+ck(fn) ? fnk{c0} to be the closest point to ck(f?). The point ck(fn) is well de?ned
+as long as fn is in a small neighborhood of f?.
+Proof. The ?rst statement follows from ck?1(fn) ? Dk ? Hqnnk, see (6.8). The
+Proof. The ?rst claim follows from the assertion that An is an Nqn-wall. The
+6.5.3. Julia rays in ?J?. Consider the dynamical plane of f? : U? ? V . By Theo-
+rem 3.12, we can choose (see Figure 24) two periodic points x, y ? J? together with
+two periodic external rays Rx, Ry landing at x, y and two periodic bubble chains
+Bx, By landing at x, y so that x and y are close to ?frbU? and Rx ? Bx ? By ? Ry
+separates ?frbU? from c1 as well as from all the remaining points in the forward
+orbits of x,y. Let p be a common period of x,y. Set K := 4p.
+A Julia ray J of J? is a simple arc in J? starting at a point in ?Z?.
+Proof. Write Bx = (Z1, Z2, .. . ); since x is close to ?frbU? we see that Z1 = Z?.
+Since x is periodic with period p, there is an a > 0 such that fp maps Za+i to Zi
+for all i.
+Let Jx1 ? J? be a simple arc in ?Z1 ??Z2 ?· ··??Za connecting the critical point
+c0 to the point where ?Za+1 is attached to ?Za. We inductively de?ne Jxj to be
+Figure 24. Separation of ?frbU?. Co-Siegel disk Z?? together with
+its iterated lifts form two periodic bubble chains landing at periodic
+points x and y. The bubble chains together with external rays Rx
+and Ry separate ?frbU? from ?.
+the iterated lift of Jxj?1 such that Jxj starts where Jxj?1 terminates. This constructs
+6.5.4. Julia rays for fn. Recall that in Claim 5 we speci?ed Julia rays Jx(f?) and
+dynamical plane of f0 and are close to those of f?. For n  0 let us now construct
+(1) fnp maps Jxk to Jxk?1 and Jyk to Jyk?1 (compare with Claim 5);
+(2) Jxk(fn) and Jyk(fn) are in small neighborhoods of Jxk(f?) and Jyk(f?) respec-
+(3) for z ? Jx1?? Jx2 ? Jy1 ? Jy2 there is a q ? 2p such that either fnq(z) ? On or
+Construction of Jx and Jy. We will use notations from the proof of Claim 5. By
+stability of periodic points, x, y exist for fn and are close to x(f?), y(f?). The curve
+Jx1 is a simple arc in ?Z1 ? ?Z2 ? ·· · ? ?Za. We split J1 as the concatenation
+`1 ? `2 · · · ? `a with `j = Jx1 ? ?Zj. Let f?d(j) be the smallest iterate mapping Zj to
+n ? H0n j(fn) along the branch of fnd(j) that is close to f?d(j) | `j(f?),
+we construct `j(fn) that is close to `j(f?). Assembling all `j, we construct Jx1(fn).
+By continuity, pulling back J1x(fn) we construct ?nitely many Jxk(fn) approximating
+Jxk(f?) such that the remaining curves Jxk(f?) are within the linearization domain of
+Figure 25. Illustraction to the proof of Claim 6. If Y intersects
+O?n, then applying fn we obtain that P ? fn(Y ) encloses H0n. Since
+P is surrounded by the wall An, the set fnqnM (P ? fn(Y )) also
+encloses H0n. Then fnqn | fnqnM (P ? fn(Y )) has degree one while
+fnqn | H0n has degree 2; this is a contradiction.
+x. Taking pullbacks within the linearization domain of x, we construct a ray Jx(fn)
+landing at x. Similarly, Jy is constructed. Property (3) follows from |t(j)| ? p. 
+6.5.5. Blocking ?frbUn. Recall from Claim (1) that fnqnM(H0n) ? Hn0. For t ?
+{M,M ? 1, M ? 2, .. ., 0} we set Hn(t) to be the forward fn-orbit of fnqnk(H0n).
+As a consequence, Hn extends to a required Hn := Hn(0) for n  0.
+PSerotof. Recall that valuable petals Hknpn ? Un?with |k| ? K are already constructed.
+Let us show that Hn?(t) does not hit Rx ? Jx ? Jy ? Ry; this would imply that Hn(t)
+does not intersect ?frbUn. Suppose converse; since Hn?(t) does not intersect Rx?Ry,
+we can consider the ?rst moment t (i.e. t is the closest to M) when Hn?(t) hits Jx?Jy.
+Denote by X a petal of Hn?(t) intersecting Jx ? Jy. Choose z ? X ? (Jx ? Jy); we
+can assume that z ? Jx1 ? J 2 ? Jy1 ? Jy2, otherwise t is not the ?rst moment whenHn?(t) hits Jx ? Jy. By Pr ?xerty (3) from §6.5.4, there is a q ? 2p such that either
+fnq?(z) ? On or fnq(z) ? |k|?2p Hknqn. The latter would imply that X is a petal in
+critical point of fnqn. On the other hand, fnqnM+1(Y ) does not contain a critical
+This is a contradiction: fnqn | fnqnM (P ? fn(Y )) has degree one while fnqn | H0n has
+6.5.6. Siegel triangulation. It remains to construct a Siegel triangulation (fn) re-
+specting Hn for n  0. In the dynamical plane of fn, let us choose a curve `1 ? V
+connecting ?V to ? such that `1 enters Un in O?n, then reaches ?H?npn, then travels
+to ? within ?H?npn. We can assume that `1 \ On is disjoint from ?1 \ On. Observe
+that `1 is liftable to the dynamical planes fm for all m ? n. Indeed, `1 ? ?H?n pn is
+liftable because so is ?H?npn, while `1 \ ?H?npn is liftable because it is disjoint from
+Let us slightly perturb `1 so that the new `1 is disjoint from Hn. De?ne `0 to
+the preimage of `1 connecting ?Un to ?. Then `1 ? `0 splits Un into two closed
+sectors; they form the triangulation denoted by (fn). We can assume that `1 was
+chosen so that `1 \ On and `0 \ On are connected. We de?ne the wall (fn) to be
+the closures of two connected components of Un \ (On ? `0 ? `1).
+For m ? n we de?ne (fm) and (fm) to be the full lifts of (fn) and (fn).
+Then (fm) is a required triangulation for m  n. 
+Recall that by ?? we denote the multiplier of the ?-?xed point of f?. For ? close
+to ?? set
+Recall from Lemma 6.1 that P (F0) ? orb0(F#n ) thus P (F0) also moves holo-
+morphically with f0 ? F(e(p/q)) ? U.
+Proof. By Corollary 6.7, points in orb0(F#n ) do not collide with each other when
+f0 ? F(e(p/q)) ? U is deformed. This gives a holomorphic motion of orb0(F0) ?
+orb0(F#1 ) ? orb0(F#2 ) ? .. . and we can take the union. 
+Let U? ? U be a neighborhood of f? such that every non-empty F(?) ? U? has
+radius at least three times less than those of F(?) ? U.
+Corollary 7.2 (Extended holomorphic motions). For f0 ? F(e(p/q)) ?U? there is
+aofh(oFlo#nm)nor)pohnic motion ?(f0) of C? su?ch that ?(f0) is equivariant (with the dynamics
+Corollary 7.3 (Passing to the limit of holomorphic motions). For f0 ? F(??)?U?
+Proof. Choose a sequence pn/qn such that e(pn/qn) ? e(??). By passing to the
+Proof. Suppose the dimension of F(??) is g?ater than 0. Consider the space
+F(??)?U?. By Corollary 7.3 the set P(F0) ? orb0(F#n ) moves holomorphically
+with f0 ? F(??) ? U?. Projecting this holomorphic motion to the dynamical plane
+of f0, we obtain a holomorphic motion of the post-critical set of f0 ? F(??) ? U?.
+Therefore, there is a small neighborhood of f? in F(??) ? U? consisting of Siegel
+maps. But all such maps must be in the stable manifold of f? by Theorem 7.5.
+7.2. The exponential convergence. The following theorem follows from [McM2,
+Theorem 8.1].
+show that Ws has codimension one. Denote by B? the submanifold of B consisting of
+all the pacmen with the same multiplier at the ?-?xed point as f?. Then R naturally
+restricts to R: B? ? B?. Consider the derivative Di?(R | B?); by Corollary 7.4
+the spectrum of Di?(R | B?) is within the closed unit disk. Suppose that the
+spectrum of Di?(B?) intersects the unit circle. By [L1, Small orbits theorem] R | B?
+has a small slow orbit: there is an f ? B? such that f is in?nitely many times
+Figure 26. A satellite valuable ?ower (red) of the 5/13 Rabbit
+approximates the golden Siegel disk (also red).
+7.4. Control of Siegel disks. The following lemma follows from [McM2, Theorem
+8.1] combined with Theorem 3.6 and Lemma 3.4.
+We say a holomorphic map f : U ? V is locally Siegel if it has a distinguished
+Siegel ?xed point. The following corollary follows from Theorem 7.7 combined with
+Lemma 7.8
+In this section we prove a re?ned version of Theorem 1.3. Consider ?? ? ?per
+and let f be a Siegel map with rotation number ??. Let U 3 f be a small Banach
+neighborhood of f and let W ? U be a one-dimensional slice containing f such that
+W is transverse to the hybrid class of f; i.e. in a small neighborhood of f ? W all
+maps have di?erent multipliers at their ?-?xed points.
+We say a map g ? U is satellite if it has a satellite valuable ?ower:
+De?nition 8.1 (Satellite valuable ?owers). A satellite valuable ?ower of g is an
+open forward invariant set H such that (see Figure 26)
+(A) H ? {?(g)} is connected;
+(B) H has q connected components H0,H1 . .. ,Hq?1, called petals, enumerated
+counterclockwise at ?; every Hi is an open topological disk with a single
+access to ?;
+(C) g(Hi) ? Hi+p, where p is coprime to q;
+(D) there is an attracting periodic cycle ? = (?0, ?1, .. ., ?q?1) with ?i ? Hi
+attracting all points in H;
+(E) H?p contains the critical point of g.
+of H is the multiplier of ?.
+For convenience, let us say that a parabolic valuable ?ower (see De?nition 6.8)
+with rotation number p/q is a satellite valuable ?ower with rotation number p/q
+and multiplier 1.
+By Lemma 3.18, R acts on the rotation numbers of indi?erent pacmen as Rkprm
+for a certain k ? 1; see also Remark 3.19.
+Note that the path gn,t starts at a unique parabolic map in W with rotation number
+8.1. Proof of Theorem 8.2. The proof is split into short subsections. Consider
+a pacman hyperbolic renormalization operator R: B 99K B around a ?xed point
+f? = R(f?) with rotation number ??. As before, Wu denotes the unstable manifold
+of R at f?.
+As before, we denote by Fn and Gn the maximal prepacmen of fn and gn and
+we denote G#n the the rescaled version of Gn such that G0 = G#0 is an iteration of
+G#n . Recall from §6.2 that H(f0) admits a global extension H(F0) in the dynamical
+plane of F0. Similarly, we now de?ne the maximal extension H(Gn) of H(gn).
+Each H(gn) lifts to the dynamical plane of G#n ; denote by H(g0) the lift of H(g0).
+to be the full orbit of H(g0). The same argument as in the proof of Lemma 6.2
+shows that H(G0) is fully invariant and is within Dom G0,? ? Dom G0,+.
+Denote by Hper(G0) the union of periodic components of H(G0). The same
+argument as in the proof of Proposition 6.5 shows:
+8.1.2. QC-deformation of gn. Suppose ?rst that ?1 = 0. Denote by ?0 the multi-
+plier of ?(g0). Let gr0,? ?gs0,+: H0(G0) ? H0(G0) be the ?rst return map (compare
+with Lemma 6.2). There is a semiconjugacy h: H0(G0) ? C from gr0,? ? gs0,+ to
+the linear map z ? ?0z. Choose a continuous path of qc maps ?t: C ? C with
+t ? [0, 1] such that ?0 = id and ?t conjugates z ? ?0z to z ? ?tz.
+Lifting ?t under h and spreading dynamically the associated Beltrami form, we
+obtain a qc map ?t : C ? C conjugating G0 to a maximal prepacman G0,t; similarly
+?t conjugates G#n,t to a maximal prepacman G#n,t for n ? 0.
+De?ne now ?n,t to be the projection of ? t to the dynamical plane of gn via
+intS#k ' V \ ?1 (see (5.6)); we normalize ?n,t to preserve ?(gn) and c1(gn). By
+compactness of qc-maps, there is a small T > 0 such that all gn,t are in B for t ? T .
+For m ? 0 consider the sequence R?n+m(gn,t). All pacmen in this sequence are qc-
+conjugate with uniform dilatation. Moreover, the conjugacies preserve the critical
+value and the ?-?xed point because of the normalization for renormalization change
+of variables, see §2.5. By compactness of qc-maps, R?n+m(gn,t) has an accumulated
+point qm,t ? B, and moreover, we can assume that Rqm,t = qm+1,t; i.e. qm,t ? Wu
+and qm,t tends to f? as m tends to ??. We de?ne (qn,t), (qn,t),H(qn,t) to be
+the images of (gn,t), (gn,t), H(gn,t) via the qc-conjugacy from gn,t to qn,t. By
+improvement of the domain, (qn,t) is in a small neighborhood of Z? and (qn,t)
+approximates ?Z? for n  0. By shifting the sequence (pn/qn)n we can assume
+that this already occurs for n = 0. We can now repeat the above argument and
+construct qn,t for t ? [T,2T ]. After ?nitely many repetitions, we construct qn,t for
+all t in [0,1].
+8.1.3. QC-surgery towards the center. Suppose now ?1 = 0. In this case we apply
+a qc-surgery. As in §8.1.2 we denote by ?0 the multiplier of ?(g0).
+Consider the ?rst return map
+It has a unique attracting ?xed point ?0 and a unique critical value at 0. Thus w0
+has also a unique critical point. We can choose a small disk D around ?0 such that
+• 0 ? w0(D) b D;
+• w0: H0(G0) \ D ? H0(G0) \ w0(D) is a 2-to-1 covering map.
+By Theorem 6.9, we can project D to a disk within H(g0). We claim that there
+is a continuous path of qc maps ? ?t: H0(G0) ? H0(G0) and a continuous path
+wt : H0(G0) ? H0(G0) such that
+• ??t is equivariant on H0(G0) \ D;
+• wt has a unique critical value at 0 and a unique attracting ?xed point at
+• ?0,1 = 0; i.e. 0 is supperattracting ?xed point of w1.
+Indeed, it is su?cient to construct wt | D and ??t | D equivariant on ?D; pulling
+back the Beltrami di?erential of ? ?t | D via the covering map w0 | H0(G0)\ D gives
+the Beltrami di?erential for ??t | H0(G0).
+Applying G0, we spread dynamically the Beltrami form of ?? to obtain a global
+qc map ?t : C ? C which is unique up to a?ne rescaling. Spreading dynamically
+the surgery, we obtain a continuous path of maximal prepacmen G#n,t. De?ne now
+?n,t to be the projection of ? t to the dynamical plane of gn via intS#n ' V \ ?1;
+similarly, gn,t is the projection of G#n,t. The argument now continues in the same
+way as in §8.1.2.
+8.1.4. Lamination around f?. In §8.1.1, §8.1.2, §8.1.3 we constructed continuous
+paths qn,t ? Wu, n  0 with R(qn,t) = qn+1,t so that each qn,t has a valuable
+?ower H(qn,t) with multiplier ?t, where ?0 = 1. Moreover, H(qn,t) is within a
+triangulation (qn) respecting H(qn,t) such that the wall (fn) approximate ?Z?.
+For a big m  0, we de?ne Fm,t to be the set of all pacmen close to qm,t such
+that the multiplier of ?(qm,t) is ?t. Locally (Fm,t)t is a codimension-one lamination
+of B. Since Fm,t is in a small neighborhood of qm,t, every pacman g ? Fm,t has a
+valuable ?ower H(g) and a triangulation (g) respecting H(g) such that (g) and
+H(g) depend continuously on g. The wall (g) approximates ?Z?.
+For n ? m, we de?ne
+Since R is hyperbolic,
+forms a codimension-one lamination in a neighborhood of f?. A pacman g ? Fn,t
+has H(g) and (g) satisfying the same conditions as above. In particular, all the
+pacmen in Fn,t are hybrid conjugate in neighborhoods of their valuable ?owers.
+8.1.5. Scaling. By Corollary 3.7, the Siegel map f can be renormalized to a pacman.
+By Lemma 7.8 we can assume that the renormalization of f is within a small
+neighborhood of f?. This allows us to de?ne an analytic renormalization operator
+R2 : U 99K B from a small neighborhood of f to a small neighborhood of f?. Since
+maps in W have di?erent multipliers, the image of W under R2 is transverse to the
+lamination F, see (8.2).
+We de?ne fn,t to be the unique intersection of Fn,t with the image of W under
+R2, and we de?ne gn,t ? W to be the preimage of fn,t via R2. Since (fn,t) ap-
+proximates ?Z?, the triangulation (fn,t) and the valuable ?ower H(fn,t) have full
+lifts (gn,t) and H(gn,t), see Lemma 4.4. Since the holonomy along F is asymptot-
+ically conformal [L1, Appendix 2, The ?-lemma (quasi- conformality)], we obtain
+the scaling result for gn,t.
+W with rotation numbers pn/qn are unique; thus the paths gn,t are unique.
+be the corresponding rotation of the closed unit disk by angle ?.
+A fundamental sector is de?ned uniquely up to rotation; let us ?rst rotate it such
+that 1 ? D1 \ Y. Set Y? := L?? 1(Y) and set Y+ to be the closure of D1 \ (Y ? Y?),
+see Figure 27. Then
+is the ?rst return of points in Y? ?Y+ back to Y? ?Y+. The prime renormalization
+of L? is the rotation LRprm(?) : D1 ? D1 obtained from (A.1) by applying the gluing
+map
+As a consequence, ? is periodic under Rprm if and only if there is a ?? with periodic
+continued fraction expansion such that ? = Rnprm(??) for some n ? 0.
+Proof. Follows by routine calculations. If ? ? [0,1/2], then projecting z ? e(?)z
+If ? ? [1/2, 1], then projectin(g z ? e(? ? 1)z by(?prm ) obtain
+z ? e(? ? 1)z? = e z.
+Observe that ? ? 1 ? [?1, 0]; adding +1 we obtain 2? ? 1.
+and observe that ? ? [0,1/2] if and only if a1 > 1. (With the exception ? = [0; 1, 1].)
+If a1 > 1, then
+Similarly Rprm(1 ? [0;b1, b2, . . . ]) is veri?ed. 
+• a renormalization sector X presented as a union of two subsectors X? ? X+
+Proof. Suppose R is a sector renormalization with renormalization return times
+a and b as above. Proceed by induction on a + b. If a + b = 3, then R is the
+prime renormalization. Otherwise, we project the pre-renormalization of R to the
+dynamical plane of Rprm(L?) and obtain the new sector renormalization R? of
+Rprm(L?) so that
+Consider again the fundamental sector Y bounded by I and L?(I). There is a
+unique a > 0 such that L?a(I) ? Y. Up to rotation, we can assume that L?a(I)
+lands at 1. We de?ne X+ to be the subsector of Y bounded I and L?a(I) and we
+de?ne X? to be the subsector(of Y bounded L(I) and) L?a(I). Then
+is a sector pre-renormalization, called the ?rst return to the fundamental sector, see
+Figure 27. We denote by Rfast the associated sector renormalization and we write
+µ = Rfast(?) if Rfast(L?) = Lµ.
+By Lemma A.2, for every ? = 0 there is a unique n(?) such that Rfast(?) =
+Rnp(r?m)(?). We note that if ? ? {1/m, 1 ? 1/m} with m > 1, then n(?) = m ? 1. (In
+this case the sector X? is degenerate.)
+A.3. Renormalization triangulation. Given a sector pre-renormalization (A.3),
+is called a renormalization triangulation of D1. Alternatively, consider the asso-
+ciated renormalization Lµ = R(L?). The internal rays towards 1 and Lµ(1) split
+D1 into two closed sectors T0 and T1. We call {T?,T+} the basic triangulation of
+Lµ. Lifting the sectors T?, T+ via the gluing map, and spreading them dynamically
+we obtain the renormalization triangulation. We also say that the renormalization
+triangulation is the full lift of the basic triangulation.
+Let ?N be the set of angles ? such that ? = [0; a1, a2, .. . ] with |ai| ? N or
+? = 1 ? [0; a1, a2, .. .] with |ai| ? N. By Lemmas A.1 and A.2, the set ?N is
+invariant under any sector renormalization.
+Proof. There is a neighborhood U of 1 such that for all ? ? ?N we have L?(1) ? U .
+Therefore, both sectors in the basic triangulation have comparable angles at 0
+uniformly on ? ? ?N . Since a renormalization triangulation is the full lift of a
+A.4. Periodic case. It follows from Lemmas A.1 and A.2 that L? is a ?xed point
+of some sector renormalization if and only if ? ? ?per. Suppose ? ? ?per and choose
+a sector renormalization R1 such that R1(L?) = L?. Write Rn := Rn1 and denote
+by an, bn and ?n the renormalization return times and the gluing map of Rn. Then
+?n = ?1n and there is a matrix(M )th positi ( e )ries such that
+As a consequence, an, bn have exponentially growth with the same exponent.
+We also note that
+because R1 = Rtprm with t > 1.
+In this appendix we give a su?cient condition for liftability of arcs under a
+robust with respect to a particular choice of cutting arcs, see Theorem B.8.
+B.1. Robustness of anti-renormalization. Consider a closed pointed topolog-
+ical disk (W,0) and let U, V be two closed topological subdisks of W such that
+0 ? int(U ? V ). A homeomorphism f : U ? V ?xing 0 is called a partial home-
+U = V = W, then f is an actual self-homeomorphism of (W, 0).
+B.1.1. Leaves over f : (W, 0) 99K (W, 0). Let ?0, ?1 be two simple arcs connecting
+0 to points in ?W such that ?0 and ?1 are disjoint except for 0 and such that
+are simple closed curves such that f maps ??0 to ??1. Such pair ?0, ?1 is called
+dividing. Then ?0 ? ?1 splits W into two closed sectors A and B denoted so that
+intA,?1,int B, ?0 are clockwise oriented around 0, see the left-hand of Figure 28.
+We say that ?0 = `(A) = ?(B) is the left boundary of A and the right boundary
+of B and we say that ?1 = ?(A) = `(B) is the right boundary of A and the left
+boundary of B.
+Let X, Y be topological spaces and let g: X 99K Y be a partially de?ned contin-
+uous map. We de?ne
+The jump ?(k) from Sk to Sk+1 is set to be 0,0, ?1, 1 if (Sk, Sk+1) is a copy of
+(A, B), (B,A), (A, A), (B, B) respectively.
+For a sequence s = (ai)i?I we denote by s[i] the i-th element in s; i.e. s[i] = ai.
+De?nition B.1 (Leaves of f : W 99K W). Suppose s ? {A,B}Z. Set Ws[i] to be a
+copy of the closed sector s[i]. The leaf Ws is the surface obtained by the dynamical
+gluing of (Ws[i])i?Z.
+The projection ?: Ws ? W maps each intWs[i] ? ?(Ws[i]) to int s[i] ? ?(s[i]).
+By ??s,i1 : int s[i]??(s[i]) ? intWs[i]??(Ws[i]) we denote the corresponding inverse
+branch.
+Note that if s[i] = s[i + 1], then ? is discontinuous at Ws[i] ? Ws[i + 1]. As z
+approaches Ws[i]?Ws[i+1] from int Ws[i], respectively int Ws[i+1], its image ?(z)
+approaches ?(s[i]), respectively `(s[i + 1]) = ?(s[i]).
+Ws[? i] = Ws[{k | k ? i}] and similar for “>”,“?”, “<”.
+?? of ? lands at 0? if ?(??(t)) ? 0 as t ? 1.
+pair ?0, ?1. Right: the 1/3 anti-renormalization of f (with respect
+to the clockwise orientation).
+B.1.3. Anti-renormalizations. We will now show that for every p/q there is a unique
+anti-renormalization with rotation number p/q.
+• s[0] = A and s[?1] = B;
+• s[?p ? 1] = A and s[?p] = B.
+Proof. Since p and q are coprime, there are unique a, b ? {1,2, . . . ,q ?1} such that
+Note that a + b = q. We have:
+• s[ip + jq] = A for all i ? {0, 1,. . . , a ? 1} and all j ? Z; and
+• s[?1 + ip + jq] = B for all i ? {0,. . . , b ? 1} and all j ? Z.
+The numbers a,b appearing in the proof of Lemma B.2 are called the renormal-
+ization return times.
+back to Ws/q[?1, 0]. After appropriate gluing of arcs in ? Ws/q[?1, 0] , the map
+(f?a1 | Ws/q[0], f?b1 | Ws/q[?1]) is f : W 99K W.
+Denote by
+the left boundaries of Ws/q[0] and Ws/q[p] respectively. Then ?s0/q, ?ps/q is a dividing
+pair for f?1 : Ws/q 99K Ws/q and the anti-renormalization procedure can be iterated.
+Let ? be a curve in W and let ?? be a lift of ? to Ws. The image of ?? in
+Ws/q ' Ws/ ? is called a lift of ? to Ws/q. For example, ?0s/q is a lift of ?0.
+prime. It is easy to check that
+• if p/q = 1/3, then s/q = (A, A, B);
+• if p/q = 2/3, then s/q = (A, B,B).
+(see (A.2)), and observe that q? < q.
+Denote by s• := (A, B)Z the sequence in {A,B}Z with even entries equal to A
+and odd entries equal to B. Simplifying notations, we write Ws• = W•.
+Suppose that f : W ? W is a homeomorphism. In this case anti-renormalizations
+of f can be de?ned canonically (i.e. independent of the choice of ?0,?1) as follows.
+Observe ?rst that
+is a universal cover. Let (??•i ? W•)i?Z be all the lifts of ?0 and ?1 enumerated from
+left to right such that W•[i] is between ??•i and ??i•+1; in particular, ??i• is a lift of
+We also write W ' W•/???.
+and f?1,+ : W•[0,1] W•[1,2] become the 1/3-anti-
+renormalization of f after gluing ??0• and ??3•; see also Figure 28.
+Proof. Every Qs/q ? Ws/q[i] is an arc connecting a point on the left boundary of
+Ws/q[i] to a point on the right boundary of Ws/q[i]. Moreover, Qs/q ?Ws/q[i] meets
+Qs/q ?Ws/q[i+1] because gk : ?(Si) 99K `(Si+1) (see (B.1)) respects the intersection
+of Q with ?0, ?1. 
+Proof. Since the pair ?n0ew \ ?, ?n1ew \ ? coincides with ?0 \ ?,?1 \?, Condition (1)
+uniquely speci?es h | W?1 \ ??1.
+Let us now extend f : W 99K W to a homeomorphism f : W ? W mapping ?0
+to ?1. The extension changes f?1 | W?1 \ ??1 and f?1,new | W?1,new \??1,new but
+does not a?ect f?1 | ??1 and f?1,new | ??1,new. Therefore, it is su?cient to prove
+the theorem under the assumption that f : W ? W is a homeomorphism.
+Since every anti-renormalization is an iteration of prime anti-renormalizations
+(see Lemma B.3), we can further assume that f?1 and f?1,new are prime anti-
+renormalizations. By Lemmas B.4 and B.6 both f?1 and f?1,new are naturally
+conjugate to
+which is independent on the choice of ?0,?1. It remains to observe that the conju-
+gacy between f?1 and f?1,new satis?es Condition 2 – see Remark B.5.
+B.2. Lifting theorem. In this subsection we give a su?cient condition for lifta-
+bility of arcs to leaves. This gives an alternative “manual” proof of Theorem B.8.
+Theorem B.15 is not used directly elsewhere in the paper.
+As before, we consider a partial homeomorphism f : (W,0) 99K (W, 0) and we
+assume that ?0, ?1 is a dividing pair of curves. We also view W as a subset of C.
+A wall around 0 respecting ?0,?1 is either a closed annulus or a simple closed
+curve Q ? U ? V such that
+(1) C\Q has two connected components. Moreover, denoting by ? the bounded
+component of C \ Q, we have 0 ? ?.
+(2) ?0 ? Q and ?1 ? Q are connected.
+(3) if x ? ?, then f±1(x) ? Q ? ?.
+In other words, points in W do not jump over Q under the iteration of f . If Q is a
+simple closed curve, then f restricts to an actual homeomorphism f : ? ? ?.
+For a sequence s ? {A, B}Z we denote by Qs and ?s the closures of the preimages
+of Q and ? under ? : Ws ? W . We denote by Qs[i] and ?s[i] the intersections of
+Qs and ?s with Ws[i].
+Proof. Follows from the de?nition: since points in ? do not jump over Q every
+Qs[i] intersects Qs[i + 1], therefore Qs is connected and the claim follows.
+Suppose f?1: Ws/q ? Ws/q is an anti-renormalization of f and suppose W has
+a wall Q (respected by ?0, ?1, f) enclosing ?. The image of Qs in Ws/q is called the
+full lift Qs/q of Q. Similarly, we denote by ?s/q the image of ?s in Ws/q. We say
+that Q is an N-wall if it take at least N iterates of f±1 for points in ? to cross Q.
+It follows by de?nition that:
+Since for a periodic combinatorics min{a, b} ? 2 (see (A.5)), we have:
+We say that a sequence s is mixed if (A, B) or (B, A) appears in?nitely many
+times in both s[? 0] and s[? 0].
+Proof. We split the proof into short subsections.
+B.2.2. Example: clockwise spiraling. Let us illustrate the idea of the proof in the
+case when ?0 and ?1 spiral clockwise around 0, see the left-hand of Figure 30. Take
+the following 5-periodic sequence:
+Figure 30. Left: ?0 and ?1 spiral clockwise around 0. Right: the
+curve ??(k+1) is f±?1(??(k)) truncated by an appropriate ??•` .
+Trighhist sahnodwsthtehyatar??e0ailsl abecloowmp??le•t,ethlieftcoufrv?e0s\˜?j{0t}e.ndSitnoce0?.thTehceurrevfoerse˜?,j`itetnedndtototh0e;
+i.e. ??0 lands at 0?.
+B.2.3. Example: no mixing condition. Let us illustrate that Theorem B.15 fails if
+s is not mixing. Suppose s = (.. . ,A, A, A, . . . ). Choose f : W 99K W as it shown
+on Figure 32: the curves ?i = f i(?0) accumulate at ?? and the sector between ?0
+and ?? (counting clockwise) is the concatenation
+Then only ?0 ? X is liftable to Ws.
+B.2.4. Combinatorics of jumps. We now adapt the argument form §B.2.2 to a pos-
+sibility that ??0 oscillates at 0?. We start by introducing additional notations.
+We de?ne the following quantities. Recall ?rst that for j ? Z the jump is de?ned
+In particular, µ(j) + ?(j) + ?(j) = j for all j = 0. We also write µ(0) = ?(0) =
+?(0) = 0.
+For i < j we de?ne the jump from Ws[i] to Ws[j] to be the sum of jumps from
+Ws[i + k] to Ws[i + k + 1] with k ranging from 0 to j ? i? 1. The jump from Ws[j]
+to Ws[i] is de?ned to be the negative of the jump from Ws[i] to Ws[j]. It follows
+from de?nitions:
+Proof. If ??0(t) ? intWs[k] ? ?(Ws[k]), then by de?nition of the lift of a curve and
+by Claim 1 we have ?(??0(t)) = f ?(k)?µ(k)(?0(t)). This is the ?rst equality in (B.7).
+The second equality holds because f??(k) ? f+?µ(k) is a lift of f?(k)?µ(k). 
+Since s is of mixed type, we obviously have:
+Proof. Follows from ?0 ? ?1 = {0} = ?0 ? ?1 and the assumption that f is a partial
+(1)
+(2)
+(3)
+(4) f??1 (??•0 ? ?•) ? W•[0, 1] ? ?•[0, 1].
+Proof. Recall that the lifts f+ and f? are speci?ed so that f+?1 and f? move points
+• (1) follows from f?1(?1) ? ?0;
+• (2) follows from f?1(?0) ? ?0 = {0}, see Claim 4.
+• (3) follows from f(?0) ? ?1;
+• (4) follows from f(?1) ? ?1 = {0}, see Claim 4.
+B.2.6. Gulfs D>0 and D<0. Let us de?ne the gulf D>0 to be the closed region in
+?•[> 0] located on the right of ??1• = ?(W•[0]) and on the left of ??0•. We recall that
+both ??1• (and similarly ??0•) decomposes ?• into two connected components; thus
+D>0 is well de?ned. Similarly, the gulf D<0 is the closed region in ?•[< 0] located
+on the left of ??•0 and on the right of ??•0 .
+(1) f+?1 (D>0) ? D>0 ? ?•[0] ? Q•[0],
+(2) f? (D>0) ? D>0 ? ?•[?1,0] ? Q•[?1,0],
+(3) f+ (D<0) ? D<0 ? ?•[0] ? Q•[0],
+?1 (D>0) ? D<0 ? ?•[0, 1] ? Q•[0, 1].(4) f?
+Proof. The ?rst claim follows from D>0 ? D<0 ? ?•. Statements (1)–(4) follow
+from Statements (1)–(4) of Claim 5 respectively. Indeed, by de?nition, f+?1(D>0)
+is bounded by f+?1(??•1 ? D>0) ? ??0• and by f+?1(??•0 ? D>0); this implies (1). Other
+B.2.7. Channels Dk, D?k, Tk, T?k. Let us now apply inductively f+?µ(k) ? f??(k) to
+D>0; on each step we de?ne Dk as the set of points that escape to W•[?(k)], see
+Figure 33 and its caption.
+?(1) = 0. In this case (see Figure 33) we de?ne
+Figure 34. The region Dk is the set of points in D>0 that escape
+to ?•[?(k)] under f+?µ(k) ? f??(k). The region D>k is the set of
+points in D>0 on the right of Dk.
+Twheesacyastehast[?T1k,,0D, 1k] a=re(Ach,aAnn,Aels). isThine Fchigaunrneel3s3T. kWpelaycatlhl eDr>okle,Dof<?thkegcuulfrsv,esan˜?dk
+from §B.2.2.
+By an easy induction f+?µ(k) ? f??(k)(D>k) ? D>0 for k > 0; thus by Claim 6 the
+gulf D>k is in the domain of f+?µ(k+1) ? f??(k+1). Similarly, D<?k is in the domain
+For k = 0 write `(Tk) := `(W•[?(k)]) ? Tk and ?(Tk) := ?(W•[?(k)]) ? Tk.
+Proof. We will verify the claim for D>0; the case of D<0 is similar.
+By induction, if for z ? D>0 the point f+?µ(k) ? f??(k)(z) is on the right of
+W•[?(k)], then f+?µ(k+1) ? f??(k+1)(z) is ether on the right of W•[?(k + 1)] or
+f+?µ(k+1) ? f??(k+1)(z) ? W•[?(k + 1)]. Thus points in D>k do not jump over Tk+1
+under one iteration. Recall that f+?1 and f? move points to the left. By Claim 3,
+?(k) ? +?. Therefore, every point in D>0 eventually escapes to some Tk ?
+W•[?(k)]. Let us now show that a point in D>0 escapes to at most two (neighbor-
+ing) Tkth.
+For k > 0 the channel Tk = f+?µ(k)? f??(k)(Dk) is on the left of f+?µ(k)? f??(k)(??•0),
+on the left of ???•(k)+1, and on the right of ??•?(k). On the other hand, f+?µ(k) ?
+This proves that a point in D>0 escapes to at most two Tkth; it also veri?es the
+us extend by continuity the map ??s,1i : ints[i] ? ?(s[i]) ? int Ws[i] ? ?(Ws[i]) to
+?s?,i1 : s[i] ? Ws[i].
+We de?ne the map ?0: ?•[0] ? Q•[0] ? ?s[0] ? Qs[0] to be ?s?,01 ? ?. For k =
+0 we de?ne the map ?k: Dk ? Ws[k] as f+?µ(k) ? f??(k) : Dk ? Tk, followed by
+? : Tk ? s[k] ? W , and followed by ??s,1k : s[k] ? Ws[k]. Combining ?k and ?0 we
+Proof. By Claim 8, ??0 = ?(??•0) exists. By a similar argument all ??m exist; let us
+give a brief sketch. For every ??m• de?ne D?>m to be the closed region on the left of
+??m• and on the right of ??•m+1, de?ne D?<m to be the closed region on the right of
+??m• and on the left of ??m• . As in §B.2.4 specify the quantities ?(k), µ(k), ?(k) with
+the only di?erence is that the count in (B.5) starts from m + 1 instead of 1 (and
+similar in (B.6)). By the same argument as for ??0 we construct
+Proof. Let us show that ??0 lands at 0?; other cases are completely analogous. By
+Claim 8 we have ??0 = ?(??•0). Parametrize ?0 as ?0 : [0, 1] ? W with ?0(1) = 0.
+Choose a big M > 0. Since ? | Dom? ? W•[?M, ?M + 1, .. ., M] is continuous
+• if ??•0(tn) ? W•[?M, ?M +1, . . . ,M] and tn ? 1?0, then ?(?(??0•(tn)) ? 0.
+Proof. By Claim 10 all ??i land at 0?; therefore, every ??i disconnects ?s into two
+connected components. It follows from Claims 2 and 4 that ??i,??i+1 are disjoint.
+Since ??i?1 is on the left from ??i while ??i+1 is on the right from ??i, we obtain that
+??i?1 and ??i+1 are also disjoint. Repeating the argument, we obtain that all ??i are
+B.2.9. Proof of Theorem B.8. Let D ? W \ {0} be a topological disk. A lift of D
+to Ws is de?ned in the same way as a lift of a curve, see §B.1.2. Alternatively, a
+lift ?: D ? Ws of D is characterized by the property that if ? ? D is a curve, then
+?(?) is the lift of ? ? D starting in D. A lift of D to Ws/q is the projection of a
+lift of D to Ws.
+Since ?0new \ ?,?1new \ ? coincide with ?0 \ ?, ?1 \ ?, Condition (1) uniquely
+speci?es h | Ws/q \ ?s/q.
+Since the pair ?n0ew, ?1new is dividing, it splits W into two closed sectors, call
+them Anew and Bnew speci?ed so that Anew \? = A\ ? and Bnew \? = B\?. We
+need to show that all lifts of Anew and Bnew to Ws/q exist. By Theorem B.15 (see
+also Remark B.14), all lifts of ?0new, ?n1ew to Ws exist, pairwise disjoint, and land at
+0?. Projecting to Ws/q, we obtain that all lifts of ?0new,?1new to Ws/q exist, pairwise
+disjoint, and land at 0. The lifts of ?0new,?n1ew split Ws/q into q closed sectors; each
+of them is a lift of either Anew or Bnew. Mapping this lifts of Anew or Bnew to the
+corresponding sectors of Ws/q,new, we obtain a required h.
+Since a lift of a curve (if it exists) is uniquely speci?ed by a starting point, the
+Let us denote by Mol the main molecule of the Mandelbrot set; i.e. Mol is
+the smallest closed subset of M containing the main hyperbolic component as well
+as all hyperbolic components obtained from the main component via parabolic
+bifurcations; see [DH1, L2] for the background on the Mandelbrot set. In this
+appendix we write fc(z) = z2 + c.
+as follows. Recall that c ? Lp/q if and only if in the dynamical plane of fc there
+are exactly q external rays landing at the ?-?xed point and the rotation number of
+these rays is p/q; i.e. if ? is a ray landing at ?, then there are p ? 1 rays landing at
+? between ? and fc(?) counting counterclockwise.
+Choose an external ray ?0 landing at ? in the dynamical plane of fc with c ? Lp/q.
+De?ne ?1 = fc(?0) and ?2 = fc(?1). Denote by S0 the open sector between ?0 and
+?1 not containing ?2, see Figure 35. Similarly, let S1 be the open sector between
+?1 and ?2 not containing ?0. We assume that ?0 is chosen such that S1 does not
+contain the critical value, thus S1 has two conformal lifts, one of them is S0, we
+denote by S?0 the other. If S1 ? S?0, then replace S?0 by its unique lift in C \ S1.
+Let us delete S1, glue ?1 and ?2 dynamically ?1 3 x ? f(x) ? ?2, and iterate
+fc twice on S0. We obtain a new map denoted by f?c : C \ S0? ? C. The ?lled-in
+is hybrid equivalent to a quadratic polynomial fRprm(c) with c ? LRprm(p/q). This
+de?nes the map Rprm : Lp/q 99K LRprm(p/q).
+In general, Rprm : Lp/q 99K LRprm(p/q) depends on the choice of ?0. However, if
+c ? Mp/q, then Rprm(c) ? MRprm(p/q) and Rprm : Mp/q ? MRprm(p/q) coincides
+with the canonical homeomorphism between small copies of the Mandelbrot set.
+Siegel parameters of periodic type are exactly periodic points of Rprm | ??
+(Lemma A.2). Furthermore, for a satellite copy of the Mandelbrot set Ms, there
+is an n ? 1 such that Rnprm: Ms ? M is the Douady-Hubbard straightening map.
+The map Rprm: M 99K M is combinatorially modeled by Q(z) := z(z +1)2, see
+Figure 36. The latter map has a unique parabolic ?xed point as 0. The attracting
+basin of 0 contains exactly one critical point of Q. The second critical point is
+a preimage of 0. Denote by F the invariant Fatou component of Q. We can
+extend Rprm to ? so that Rprm | ? is conjugate, say by ?, to Q | F . Then ?
+extends uniquely to a monotone continuous map ? : Mol ? KQ semi-conjugating
+Rprm | Mol and Q | KQ, where KQ is the ?lled-in Julia set of Q:
+If the MLC-conjecture holds, then ? is a homeomorphism.
+For every c ? ?? \ {cusp} de?ne n(c) := n(?c), where ?c is the rotation number
+of fc and n(?) is speci?ed by Rfast(?) = Rnp(r?m)(?), see §A.2. For every c ? Lp/q
+de?ne n(c) := n(cp/q), where cp/q is the root of Lp/q. The fast Molecule map is a
+partial map on M de?ned by
+The restriction Rfast | ?Mol \ {cusp} is continuous but it does not extend contin-
+uously to the cusp: Rfast(?M1/n) = ?M.
+C.3. The Molecule Conjecture. Given a renormalization operator R: B 99K
+B, its renormalization horseshoe is the set of points in B with bi-in?nite pre-
+compact orbits. We conjecture that there is a pacman renormalization operator
+Rfast: BMol ? BMol with the following properties. The operator Rfast is hyper-
+bolic and piecewise analytic with one-dimensional unstable direction such that its
+renormalization horseshoe Rfast : HMol ? HMol is compact and combinatorially
+associated with Rfast | Mol \ {cusp} as follows.
+There is a continuous surjective map ?: HMol ? Mol that is a semi-conjugacy
+away from the cusp:
+Denote by ?irrMol the set of non-parabolic parameters in ?Mol. Conjecturally,
+Rfast | HMol is the natural extension of Rfast | ?Mol \ {cusp} compacti?ed by
+adding limits to parabolic parameters at all possible directions. Such construction
+is known as a parabolic enrichment, see [La, D2].
+The space BMol has a codimension-one stable lamination (Fcs)c?Mol such that
+all pacmen in Fcs are hybrid conjugate to fc in neighborhoods of their “mother
+hedgehogs”, see §C.4. For every f ? HMol, the leaf F?s(f) is a stable manifold
+of Rfast at f. The unstable manifold of Rfast at f is parametrized by a parabolic
+enrichment of a neighborhood of ?(f). Locally, Rfast can be factorize as an iterate
+of Rprm : BMol ? BMol; however the latter operator has parabolic behavior at
+??1(cusp).
+The Molecule Conjecture contains both Theorem 7.7 (for periodic type parame-
+ters from ??) and the Inou-Shishikura theory [IS] (for high type parameters from
+??). It also implies the local connectivity of the Mandelbrot set for all parameters
+on the main (and thus any) molecule.
+Conjecture C.2. The mother hedgehog Hc depends upper semicontinuously on c.
+For bounded type parameters (i.e. when Hc is a Siegel quasidisk) Conjecture C.2
+follows from the continuity of the Douady-Ghys surgery.
+Conjecture C.2 can be adjusted for parabolic parameters c ? ? as follows. Let
+Ac be the immediate attracting basin of the parabolic ?xed point ?. Then there is
+a choice of a valuable ?ower Hc with Hc ? Ac ? {?} such that Hc depends upper
+semicontinuously on c ? ??. For example, Hc is the union of all limiting mother
+hedgehogs for perturbations of fc.
+Similarly, Conjecture C.2 can be adjusted for all parameters in ?Mol. Our
+result on the control of the valuable ?ower (see Theorem 8.2) can be thought as a
+partial case of this general conjecture.
+Conjecture C.2 and its generalizations describe in a convenient way how an
+attracting ?xed point bifurcates into repelling. An important consequence is control
+of the post-critical set: if a perturbation of fc is within Mol, then the new post-
+critical set is within a small neighborhood of Hc. A statement of this sort (for
+parabolic parameters approximating a Siegel polynomial) was proven by Bu? and
+Che?ritat, see [BC, Corollary 4]. This was a necessary ingredient in constructing a
+Julia set with positive measure.

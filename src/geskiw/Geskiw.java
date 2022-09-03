@@ -58,8 +58,8 @@ public class Geskiw {
 		//String pdfName="FootNote&Small#-BetweenNegativeStigmaCulturalD";
 		//String pdfName="Peace-Development and Peace Through";
 		//String pdfName="FootNote&Small#-BetweenNegativeStigmaCulturalD";
-		String pdfName="ILL article-Urban Myths and Rural Legends";
-		//String pdfName="Jstor-2020-Escape from Rome";
+		//String pdfName="ILL article-Urban Myths and Rural Legends";
+		String pdfName="Jstor-2020-Escape from Rome";
 		//String pdfName="Jstor-2018-Indoor Air Pollution and Infant Mortality";
 		//String pdfName="NotWork- Project_muse_2016-Chinese Glass Paintings in Bangkok Monasteries";
 		//String pdfName="IEEE-2020-Adaptive Fuzzy Finite-Time Tracking";   // the subtitle is not correct because there are many fomulars.

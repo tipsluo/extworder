@@ -1,0 +1,591 @@
+Title:
+Mechanisms of radiation-induced endothelium damage: Emerging
+models and technologies
+Abstract:
+
+----------------------
+Subtitles:
+
+ Endothelial dysfunction in irradiated tissue
+ Normal endothelial cell function
+ Endothelial cell dysfunction in early and late radiation damage
+Ionizing radiation upregulates endothelial cell mediated in?ammatory
+response
+ IR-induced endothelium activation increases barrier dysfunction
+ Radiation exposure leads to mitochondrial dysfunction
+ IR increases apoptotic cell death
+ Emerging models used for studying the effects of IR on
+endothelium
+ In vivo animal models
+ In vitro cell culture systems
+ Microphysiological systems
+ Organoids, spheroids, and scaffolds
+ Micro?uidic systems
+ Therapeutics
+Lack of selective anti-in?ammatory therapeutics complicates
+radioprotection
+ Radioprotectors
+ Radiomitigators/radiotherapeutics
+ Endothelial speci?c radiomitigators/radiotherapeutics
+ Emerging endothelium-based radiotherapeutics
+ Con?ict of interest statements
+ Appendix A. Supplementary data
+
+
+Text:
+----------------------
+Healthy tissue may be exposed to ionizing radiation (IR) during
+radiotherapy [1], nuclear accidents, or by weapons of mass
+destruction (WMD) [2]. IR produces oxidative stress resulting in
+acute and chronic cellular damage. The vascular endothelium,
+which plays an important role in organ homeostasis, is a key target
+of radiation damage.Microvascular endothelial cells (EC), in partic-
+ular, are sensitive to radiation and radiation-induced alterations in
+EC structureand function. Damageto the endotheliumis animpor-
+tant regulator of radiation damage in both targeted radiotherapy
+and whole-body irradiation resulting from exposure to WMD [3].
+However, the signaling pattern in these two cases may be different
+due to, for example, the differential upregulation of cytokines in
+local vs. whole body irradiation. IR-induced activation of EC leads
+to enhanced leukocyte-EC interactions, increased permeability,
+and initiation of apoptotic pathways [4,5]. Radiation-induced
+endothelial damage and its associated vascular changes often lead
+to chronic lesions when organs at risk (e.g. lung, kidney, heart and
+brain) are exposed to suf?ciently high doses [3], and patients with
+IR-induced tissue damage may die of organ failure.
+Moreover, exposure to IR can accelerate atherosclerosis
+adversely affecting normal tissues resulting in coronary artery dis-
+ease, peripheral vascular disease, radiation pneumonitis and ?bro-
+sis, and cerebrovascular disease. This effect can be increased with
+higher doses per fraction [6,7]. This is clinically relevant as con-
+temporary treatments move increasingly towards hypofractiona-
+tion [8,9] in treatments such as stereotactic brain and body
+radiosurgery (single fraction) and radiotherapy (typically 3–5 frac-
+tions) for primary and metastatic brain tumors, early-stage non-
+small cell carcinoma of the lung and breast conservation irradia-
+tion. The radiation target volumes for these treatments must
+include the planning target volume plus a margin which includes
+some surrounding normal tissue as de?ned in the ICRU reports
+50 [10], 62 [11] and 83 [12]. This normal tissue can be dose limit-
+ing potentially compromising the target volume or resulting in
+increased short- and long-term secondary effects from EC damage.
+Monitoring these vascular damages have become greatly help-
+ful for diagnosis purposes. Recently, many novel methodologies
+have been developed to monitor the vascular damages. Angiogra-
+phy, magnetic resonance angiography (MRA), computed tomogra-
+phy angiography (CTA) and ultrasound are used clinically for
+imaging diseases that involve endothelial dysfunction resulting
+from an in?ammatory response [13]. Compared to other tech-
+niques,MRA has the advantage of providing high resolution images
+of the vessel wall. In addition, the recent development of targeted
+micro-sized particles of iron oxide (MPIO) targeting intercellular
+adhesion molecules like ICAM-1, VCAM-1, P-selectin and E-
+selectin have signi?cantly improved the sensitivity and speci?city
+of molecular MRA for imaging endothelial activation compared to
+other techniques such as plasma biomarkers [14].
+Protecting the endothelium protects tissue from radiation dam-
+age [15] and therapeutics that speci?cally prevent EC dysfunction
+ultimately protecttissuefromradiationinjury [4] thereby reducing
+side effects of radiation therapy. Given the central role of the
+endothelium in normal vascular function, a better understanding
+of mechanisms of radiation-induced dysfunction is vital in devel-
+oping therapeutics for radiation-induced endothelium damage [3].
+Endothelial dysfunction in irradiated tissue
+Normal endothelial cell function
+The vascular endothelium is composed of a single layer of cells
+lining all blood vessels, which acts as a semipermeable barrier reg-
+ulating the delivery of nutrients, oxygen and cellular components
+to local tissues and the removal of carbon dioxide and waste prod-
+ucts (Fig. 1). The EC barrier regulates the transport of molecules
+between vascular and tissue compartments through cell–cell junc-
+tions and vesicular transport [16]. The endothelium produces sev-
+eral vasoactive substances such as nitric oxide that are vital in
+regulation of vascular control and growth [17]. With its secretory,
+synthetic, metabolic, immunologic and surface expression func-
+tions, the endothelium plays a critical role in many physiological
+processes, including control of vascular tone, traf?cking of the
+blood cells between vasculature and underlying tissue, regulation
+of immune responses, permeability, and angiogenesis [18]. EC
+show signi?cant heterogeneity in structure, function, cell morphol-
+ogy, gene expression and antigen composition across organs and
+species [18,19]. This heterogeneity is in part dictated by intrinsic
+signals as well as the organ-speci?c microenvironment leading to
+distinct differences in barrier properties and interactions with cir-
+culating immune cells that result in differential sensitivities and
+responses to radiation.
+Endothelial cell dysfunction in early and late radiation damage
+Radiation-induced endothelium injury can manifest acutely/
+early or late after IR exposure. Acute/early radiation syndrome
+(ARS) encompasses three types of ‘radiation sicknesses’ in bone
+marrow, gastrointestinal (GI), and cardiovascular/central nervous
+system (CNS) [20]. GI-ARS is attributed to the radiation sensitivity
+of the microvascular EC [21] and endothelial dysfunction and
+increasedin?ammatory mediators inhibit the recovery of the villus
+epithelium leading to the breakdown of the epithelial barrier [3].
+Moreover, ?uid and nutrient absorption across EC is reduced, and
+mucosal ulcerations develop, resulting in diarrhea, nausea, abdom-
+inal pain, and mucous discharge. If ulceration continues, it can lead
+to bacterial translocation and systemic in?ammation [22].
+Late vascular effects such as capillary collapse, thickening of
+basement membrane, scarring and ?brosis may occur weeks to
+months post-irradiation. Depending on the radiation dose, late
+pathological syndromes may be delayed in expression, chronic in
+nature, and associated with evolving pathologies within multiple
+organ systems, including the bone marrow, GI tract, lung, heart,
+kidney and the CNS. In the brain, up to 3 weeks after single dose
+of 15–30 Gy, leukocyte–EC interactions were upregulated [23].
+Although hyperpermeability to albumin was observed in the
+mesentery up to 6 hours after radiation exposure [24] and inhibi-
+tion of intercellular adhesion molecule (ICAM-1) blocked the
+hyperpermeability response to radiotherapy, the increase in leuko-
+cyte–EC interaction and hyperpermeability can persist for days to
+weeks after radiotherapy [25]. The hyperpermeability of injured
+vessels facilitates extravasation of ?brinogen into the extravascu-
+lar space and ?brinogen undergoes ?brinopeptide cleavage by
+thrombin, which then results in crosslinking of ?brin by enzymes
+such as tissue transglutaminase [26,27]. Crosslinking of tissue
+transglutaminase activates latent TGFb, which further induces tis-
+sue ?brosis by promoting deposition of collagen [28].
+Ionizing radiation upregulates endothelial cell mediated in?ammatory
+response
+IR-induced cellular damage triggers apoptosis and cell death
+leading to the release of damage-associated molecular patterns
+(DAMP) and activation of the systemic in?ammatory response pro-
+ducing signi?cant changes in the microvascular network structure
+and function [29–32]. EC acquire a pro-in?ammatory phenotype
+leading to increased cytokine release (Table 1), ROS production,
+and enhanced EC adhesion molecule expression resulting in
+increased recruitment of immune cells of myeloid and lymphoid
+origin [6,24,33–35] (Fig. 1). Increased recruitment of neutrophils,
+monocytes, and macrophages, as well as Th1 and Th17 lympho-
+cytes, contribute to IR-induced in?ammation [6,33,36,37]. This
+inappropriate in?ux of immune cells across the vascular endothe-
+lium, initiation of vascular EC damage and loss of barrier function
+have been implicated in the pathogenesis of radiation injury and
+organ dysfunction [38].
+A key step in IR-induced organ damage is excessive adhesion to
+and migration of activated leukocytes across vasculature (Supple-
+mentary Data Video 1 and Video 2) and a reduction in neutrophil
+in?ltration is associated with better outcomes following skin irra-
+diation [4]. Neutrophil recruitment is a multi-step process, which
+requires crosstalk between neutrophils and EC and includes ?ve
+discrete steps: capture/attachment, rolling, ?rm arrest, spreading
+and extravasation/migration and each step requires crosstalk
+between leukocytes and EC [39] (Figure 2). Ultimately, arrested
+neutrophils extravasate to in?amed tissues across EC regulated
+by concurrent chemoattractant-dependent signals, adhesive
+events and hemodynamic shear forces [39].
+A number of molecules involved in the leukocyte adhesion cas-
+cade are also involved in radiation-induced tissue damage. For
+example, we demonstrated by intravital microscopy that adhesion
+molecules (ICAM-1, E-selectin) were upregulated in irradiated tis-
+sue in vivo and the resulting increased leukocyte adhesion was
+modulated with administration of an anti-ICAM-1 antibody
+[34,35,40]. We and others have shown that irradiation of EC
+in vitro signi?cantly increased the expression of the adhesion
+molecules VCAM-1 and ICAM-1 [41,42].
+EC also synthesize the neutrophil agonist, platelet activating
+factor (PAF) [43], which is co-expressed with P-selectin within
+minutes, while it takes a few hours to co-express E-selectin with
+IL-8. These co-expression pairs, in turn, upregulate integrinexpres-
+sion on leukocytes. Administration of a PAF antagonist, BN52021,
+blocked the upregulation of leukocyte adhesion [43].
+Neutrophils activated in response to IR-induced systemic
+in?ammation can release neutrophil extracellular traps (NETs)
+[53]. NETs are composed of nuclear chromatin ?laments studded
+with histones and granular proteins, such as neutrophil elastase
+and myeloperoxidase. While important for bactericidal activities,
+NETs can also damage EC and further upregulate the in?ammatory
+response [54,55]. Ability of peripheral blood neutrophils from cer-
+vical cancer patients to form NETs increased from 53.6% before
+radiation therapy to 66.7% after radiation therapy [56] but the
+mechanisms by which IR activates NETs and the interconnection
+between NETs and radiation-induced EC damage have not been
+fully delineated.
+IR-induced endothelium activation increases barrier dysfunction
+Damage to and/or the denudation of EC after radiation exposure
+produces changes in permeability of EC. The vasculature becomes
+leaky within hours post-IR but the degree to which EC of vari-
+ous vessel types become permeable varies in vitro [57]. IR also
+increases the permeability of the blood–brain-barrier allowing
+for ionic movement, excess extravasation of in?ammatory cells,
+proteins and biologic response molecules (e.g. growth factors,
+cytokines) into the brain parenchyma causing brain damage
+[58,59]. IR alters endothelial permeability by acting on tight and
+adherens junctions [60]. Tight junctions adhesion is mediated by
+the claudins family of proteins, which are connected to the
+cytoskeleton by tight junctions proteins while adherens junctions
+are formed by classical cadherins that are linked to the cytoskele-
+ton by proteins belonging to the catenin family [61,62]. Among
+these, vascular endothelial-cadherin (VE-cadherin, a substrate of
+ADAM10), an important regulator of vascular integrity, which
+when activated, increases EC permeability [63]. In vitro, IR acti-
+vates ADAM10 and cleavage of VE-cadherin, leading to increased
+human endothelial permeability to macromolecules of various
+sizes in a radiation dose dependent manner [60]. Consistent with
+other studies [63], we demonstrated that exposure of human EC
+under shear ?ow to IR in a novel microphysiological system signif-
+icantly increases permeability and decreases transendothelial elec-
+trical resistance (TEER) across the endothelial barrier [41].
+Radiation exposure leads to mitochondrial dysfunction
+In many mammalian cells, mitochondria produce cellular
+energy but mitochondrial content in EC is limited and EC ATP pro-
+duction is primarily via aerobic glycolysis [64]. When HUVECs
+were exposed to 5–20 Gy of IR, the mitochondrial membrane
+potential decreased and mitochondrial ROS production increased
+[65]. Furthermore, murine cardiac microvascular EC acquired pro-
+tein expression pro?les related to mitochondrial dysfunction when
+they were irradiated with 8 and 16 Gy X-rays [66]. It is hypothe-
+sized that EC mitochondria functions more as important signaling
+organelles [67] and the three main mitochondrial functions, Ca2+
+regulation, control of cell death, and oxidative stress signaling
+are disturbed following IR exposure [68]. Mitochondrial Ca2+ sig-
+naling is altered by IR [69], and at IR doses high enough to over-
+come cellular antioxidant responses, oxidative stress can lead to
+mitochondrial dysfunction [70].
+IR increases apoptotic cell death
+Apoptotic cell death due to radiation exposure can be primarily
+mediated by either p53 or the sphingomyelin/ceramide pathways
+[6]. It’s shown that p53 is important in response to DNA damage,
+which activates mitochondrial-mediated cell apoptosis [71].
+Endothelialcell apoptosis at doses > 5 Gy can be induced by persis-
+tent DNA damage, resulting in leading to p53 accumulation and
+resulting in activation of the caspase pathway, [72] but mecha-
+nisms of endothelial cytotoxicity at lower radiation doses are less
+known [73]. It has been proposed that EC apoptosis after high-
+dose single-fraction IR is primarily modulated by the sphin-
+gomyelin ceramide pathway [74]. Sphingomyelin is a phospholipid
+present in the cell membrane which is hydrolyzed by TNF activa-
+tion after IR exposure. Extracellular acidic sphingomyelinase then
+leads to radiation-induced, ceramide-mediated EC apoptosis [75].
+A classical study has shown the requirement of the sphingomyeli-
+nase encoding gene, ASMase, for mediating ceramide generation in
+induction of microvascular endothelial apoptosis [21] and high
+dose IR triggering of ASMase/ceramide signaling in EC has been
+shown to play a major role in membrane signaling after radiation
+exposure [76]. However, the precise relationship between IR dose
+and EC apoptosis has not been clearly established [77].
+IR also induces differential effects on microRNA (miRNA) levels
+in EC. In vitro studies demonstrated that miRNAs have a role in EC
+clonogenic survival and cell growth, as well as impacting EC radio-
+sensitivity indicating an important role of miRNAs in the EC
+response to radiation [78].
+Emerging models used for studying the effects of IR on
+endothelium
+In vivo animal models
+Although no single animal model can completely represent the
+human condition, in vivo models including mouse, rat, rabbits, and
+pigs have been widely used to study radiation-induced endothe-
+lium damage [68]. The choice of an appropriate animal model for
+a speci?c study is generally dictated by factors such as anatomy,
+physiology, genetics, and immune response of the animal model
+being considered. Mice show similarities to human physiological
+and genome (>95%) [79] and have been used widely to study radi-
+ation induced upregulation of cell adhesion molecules, leukocyte-
+endothelial interaction and EC damage [34,80]. However, the
+mouse may not be the optimum animal model for studying radia-
+tion induced damage for multiple reasons. A major disadvantage is
+their small body thickness, which does not account for the hetero-
+geneity of radiation dose distribution characteristic to human
+exposure [79]. Additionally, despite the phylogenic relatedness,
+translating studies from mouse immune system to human disease
+is complicated by many factors including size, metabolic rate,
+WBCs composition, and differences in pathophysiology and drug
+LD50 values that are signi?cantly different from humans [3,81].
+Given the complexities inherent in the use of animal models,
+several in vitro systems have been developed that use human
+cell-based assays to provide a better understanding of radiation-
+induced cell damage in humans.
+In vitro cell culture systems
+EC grown as a homogeneous 2D monolayer are traditionally
+used to complement animal models. A number of these in vitro
+EC models have been used to study effects of IR on activation of
+the NFjB pathway [82], alterations in mitochondrial membrane
+potential [65] and the effect on vascular tone [83]. The effect of
+IR on EC permeability and barrier function can also be monitored
+in 2D models through measurement of TEER, EC adherens junc-
+tional integrity, and EC monolayer permeability [84]. Although
+using primary EC can provide important insight into various phys-
+iological and pathological processes, cell culture presents signi?-
+cant challenges. For example, almost all primary EC have an
+average life span of 5–10 serial passages in vitro, after which these
+cells often stop proliferating when they form multinucleated cells
+andeventually die[85]. Another drawback is the phenotypic differ-
+ences between large vessel-derived EC (e.g. HUVEC) vs. EC of
+microvascular origin (e.g., human dermal microvascular cells) but
+also between EC derived from different organs. These mostly static
+cell culture systems fail to reproduce many of the complexities of
+the in vivo conditions including three-dimensional EC morphology,
+cell–cell and cell-matrix interactions, and shear ?ow conditions
+[86]. Nevertheless, these low cost, easy to use, and high-
+throughput systems are considered standard for analysisof cellular
+responses [86]. Flow-based 2D cultures offer advantages as they
+have more precise spatial/temporal dynamics, sensor integration
+and continuous monitoring [35,86].
+Microphysiological systems
+The inability of 2D monolayer cultures to recreate the appropri-
+ate microenvironmentfor cell-matrix, cell–cell, cell-tissueand cell-
+organism interactions has led to the development of an emerging
+new class of in vitro models that better mimic the in vivo condi-
+tions. These new models not only provide novel approaches for
+studying radiation damage to EC but also offer a new tool for the
+rapid development and screening of therapeutics. Microphysiolog-
+ical systems, often synonymous with ‘‘organ-on-chip”, commonly
+consist of an interconnected set of 2D and 3D cell cultures in
+micro?uidic devices. These emerging organ-on-a-chip systems
+can increasingly recapitulate the complex microenvironment of
+different human tissues by recreating organ-speci?c geometries
+and co-culturing of multiple cell types, mimicking the physiologi-
+cal and pathological conditions and responses to therapeutics.
+Microphysiological systems can serve as in vitro models of brain,
+GI tract, lung, liver, vasculature, and skin microvasculature [87]
+and are rapidly becoming the new standard tool for better under-
+standing vascular biology, pharmacology and toxicology [87]. Sev-
+eral microphysiological systems have been used to study the
+effects of radiation on different organs and screen various thera-
+peutics [41,88]. Employing both human and mouse cells, together
+with omic and in silico modeling approaches, will help better pre-
+dict how therapeutics developed in animal models may work in
+clinical settings as well as screen potential therapeutics on patient
+cells for personalized medicine [89].
+Organoids, spheroids, and scaffolds
+Recent advances in tissue engineering have facilitated the
+development of novel 3D models for radiobiological research
+including organoids, spheroids and scaffolds. Organoids consist of
+a collection of organ-speci?c cell types that spatially organize to
+restrict lineage commitment similar to in vivo [90]. Spheroids are
+aggregated, mutually adherent population of cells with spherical
+shapes [91]. Although organoids have in vivo like cellular architec-
+ture and spheroids have advantages of high reproducibility [92],
+they are still not widely used in studying radiation-induced EC
+damage in part due to the major challenges associated with devel-
+oping organoids and spheroids. A key limitation in using organoid
+and/or spheroid based approaches to generate functional tissue is
+that upon reaching a certain size, organoids switch from a prolifer-
+ative, stem-like state to a non-proliferative, terminally differenti-
+ated one and develop a necrotic core [93]. With the exception of
+a few avascular tissues, any efforts at producing tissues would be
+limited to a length scale of approximately 150 lm, the natural dif-
+fusion limit of oxygen in tissue. However, scalable 3D microfabri-
+cation technologies like layer-by-layer deposition of materials
+and selective removal of materials to form tubular voids, as well
+as a range of hybrid approaches utilizing sacri?cial materials
+[93], allow for generation of free-form vascular structures in orga-
+noids [94,95].
+Scaffold/matrix-based 3D cultures (Fig. 3A) are formed by seed-
+ing cells on a 3D synthetic-based matrix or by dispersing cells in a
+liquid matrix followed by polymerization to mimic the tissue
+microenvironment [92]. Scaffolds have high reproducibility and
+allow for cocultureof other cell types but frequently have a simpli-
+?ed architecture [92]. While 3D cultures are considered more
+informative for studying radiation damage, they are not as easy
+to propagate and standardize as monolayer cultures. These 3D
+in vitro models must incorporate both the spatial organization
+and differentiated function of the tissue in vivo to allow reproduc-
+tion of cell–cell interactions and create the appropriate microenvi-
+ronment for cellular proliferation and gene expression [96]. For
+example, a 3D capillary model using human umbilical vein EC
+(HUVEC) grown in a collagen gels showed more complex and per-
+sistent 53BP1 DNA damage foci when exposed to high LET (linear
+energy transfer) as compared to low LET [97]. However, due in part
+to the complexity and lack of reproducibility of some 3D models,
+more realistic in vitro assays using human cells are needed to bet-
+ter mimic the in vivo microenvironment.
+Micro?uidic systems
+Micro?uidic systems (Fig. 3B) permit the study of complex vas-
+cular and microvascular processes, such as neutrophil-EC interac-
+tions and the in?ammatory response, using in vitro 3D models
+that more realistically reproduce the tissue microenvironment.
+For example, Gut-on-a-chip models have been used to study the
+effects of gamma (c)-radiation on villus intestinal epithelium
+[88]. Exposure to c-radiation increased the generation of ROS, cell
+cytotoxicity, apoptosis, and led to compromised intestinal barrier
+integrity. A microvasculature-on-a-chip was used to investigate
+the effects of IR on HUVEC forming 3D perfusable networks mim-
+icking the human microvasculature [98]. Importantly, a systematic
+comparison between HUVEC cultured in this system with a tradi-
+tional 2D monolayer model showed signi?cant differences upon
+IR exposure, particularly at high doses that are typically used in
+stereotactic body radiation therapy (SBRT) and stereotactic radio-
+surgery (SRS). At high IR doses up to 25 Gy, VE-cadherin cell–cell
+adherens junctions did not change signi?cantly in the 3D ?uidic
+model but were signi?cantly damaged in the 2D monolayer model.
+Similarly, increased apoptosis was observed in the 2D monolayer
+model as compared to the 3D ?uidic model. An advantage of the
+3D models is that ECs form 3D tube-like structures in these model
+systems mimicking a more realistic in vivo environment and
+behave quite differently than those cultured in a 2D environment
+[98]. The fact that many of the in vitro studies of effects of IR has
+traditionally resulted from studies conducted with clonogenic
+assays in a 2D environment should give impetus to validate these
+?ndings in micro?uidic systems mimicking the 3D in vivo
+microenvironment.
+Our group has developed a novel biomimetic micro?uidic assay
+(bMFA) that facilitates real-time assessment of neutrophil rolling,
+?rm arrest, spreading and migration to the extravascular tissue
+in a realistic microvasculature geometry under physiologic shear
+conditions in a single assay (Fig. 3 C–F). This is one of the few
+in vitro systems that realistically model in vivo geometrical fea-
+tures, including vascular morphology and ?ow conditions such as
+converging or diverging ?ow at bifurcations of the vasculature
+[41,99–101]. This integrated micro?uidic assay provides a novel
+platform for investigating the EC in?ammatory response,
+neutrophil-EC interaction, and EC damage in response to various
+stimuli including IR (Supplementary Data, Video 3). We have used
+bMFA to demonstrate that IR exposure upregulated human
+neutrophil-EC interaction, increased ICAM-1 and VCAM-1 (but
+not E-selectin) expression, and increased permeability under shear
+?ow conditions [41].
+Therapeutics
+Radioprotective agents are classi?ed into three broad cate-
+gories: radioprotectors, radiomitigators and radiotherapeutics.
+Radioprotectors are administered prior to radiation exposure to
+protect downstream injury and include molecules with thiol func-
+tionalities and antioxidant properties. Radiomitigators are given
+during or quickly after radiation exposure, primarily to mitigate
+normal tissue toxicity, stop/alleviate the consequences of tissue
+exposure to radiation and to hasten repair (Table 2). Radiothera-
+peutics are given after the clinical appearance of normal tissue tox-
+icity to ameliorate radiation damage and to initiate tissue
+regeneration or repair [102]. Radiomitigators and radiotherapeu-
+tics can also serve as radiation countermeasures during mass casu-
+alty events resulting from radiation exposure.
+Lack of selective anti-in?ammatory therapeutics complicates
+radioprotection
+While the use of Neupogen and Neulasta to treat hematopoietic
+acute radiation syndrome (H-ARS) was recently approved by the
+FDA, therapeutic approaches to the treatment of radiation-
+induced vascular/ endothelial injury are largely supportive and
+there are nospeci?cpharmacologic therapies availablethat protect
+from radiation-mediated tissue damage [3]. Given the fact that
+radiation damage to EC initiates and is mediated by the immune
+response, radioprotection is also hampered by a lack of effective
+anti-in?ammatory therapeutics. Most anti-in?ammatory thera-
+peutics work primarily through immunosuppression, rather than
+selective immune modulation. This lack of effective anti-
+in?ammatory agents continues to complicate the treatment of
+in?ammatory pathologies ranging from sepsis and COVID-19 to
+radiation-induced in?ammatory response. Radiotherapies for
+treatment of IR-induced endothelial damage have been primarily
+focused in 3 areas, targeting EC pathways activated in response
+to radiation, reconstitution of bone marrow and reduction in vas-
+cular barrier permeability and vascular leak [3].
+Radioprotectors
+Potential radioprotectors include BAY 11-7085, an inhibitor of
+NF-jB activation, has been shown to partially inhibit the effects
+of c-radiation on permeability and TEER in HUVECS [103]. Geranyl-
+geranylacetone (GGA), a drug used to treatpeptic ulcers and gastri-
+tis, has been shown to moderate IR-induced intestinal injury and
+EC dysfunction [104]. Intestinal microvessels were preserved in
+GGA-treated mice thereby reducing intestinal injury. GGA plays
+an important role in the promotion of angiogenic activity in dam-
+aged EC via inducing VEGF/eNOS signaling and suppressing in?am-
+matory cytokine expression [104].
+Radiomitigators/radiotherapeutics
+Pentoxifylline is a radiomitigator/radiotherapeutic used to treat
+vascular disease by inhibiting platelet coagulation, enhancing red
+blood cell deformability and promoting vessel blood ?ow. Pentox-
+ifylline also inhibits neutrophil adhesion to EC by decreasing plate-
+let coagulation via platelet activating factor (PAF). Administering
+pentoxifylline and another alpha tocopherol/vitamin E to patients
+undergoing radiotherapy lowered their pulmonary toxicity com-
+pared to controls after six weeks [105].
+Endothelial speci?c radiomitigators/radiotherapeutics
+Several potential therapeutics that target IR-induced damage to
+EC are currently being evaluated in in vitro cell cultures and animal
+models. A novel tetrapeptide N-acetyl-Ser-Asp-Lys-Pro (Ac-SDKP)
+has beenshown to localize to EC and inhibit IR-induced endothelial
+ROS generation [106]. In vivo studies demonstrated that Ac-SDKP
+administration was able to restore IR-induced endothelial barrier
+damage by preventing EC cell loss and increasing expression of
+tight junction proteins. Ac-SDKP also showed strong anti?brotic
+effects that inhibited IR-induced coronary vascular ?brosis thus
+preserving myocardial blood ?ow [106]. The statin, Pravastatin,
+has also been shown to exert persistent anti-in?ammatory and
+anti-thrombotic effects on irradiated EC and to inhibit leukocyte-
+EC interaction [107]. Pravastatin also regulates thrombomodulin
+(TM) expression which inhibits the leukocyte adhesion to the irra-
+diated EC. Although the mechanisms of TM transcription activation
+by this drug is unclear, suppression of IR-induced endothelial
+interaction with leukocyte may prevent intestinal in?ammation
+post-irradiation [107]. Angiotensin II (Ang II) is produced by the
+endothelium in response to IR and induces the generation of the
+pro?brotic cytokine TGF-b. In vitro treatment of EC with the ACE
+inhibitor, Captopril, following IR was shown to reduce Ang II
+expression, inhibit the NF-jB pathway, and reduce TGF-b1 expres-
+sion [108].
+Genetic approaches employing knockout mice have identi?ed
+other EC targets to mitigate IR-induced cell damage. For example,
+endothelial expression of the plasminogen activator inhibitor type
+1 (PAI-1) following IR increases and plays a role in activating
+endothelial apoptosis. In response to IR, PAI-1/ mice had
+increased EC survival, preserved vascular density and mucosal
+integrity as compared to wild type mice [109]. Mice with key
+proapoptotic proteins Bak and Bax deletions in both bone marrow
+EC and bone marrow hematopoietic stem cells (HSCs) exhibited
+protection of the BM vasculature and increased survival post IR
+exposure [110].
+Emerging endothelium-based radiotherapeutics
+To respond to the urgent need for new therapies, new classes of
+novel therapeutics are being developed to speci?cally treat
+endothelial dysfunction resulting from radiation exposure. For
+example, the peroxisome agonist, Rosiglitazone, which is used clin-
+ically to treat diabetes [111], was recently shown to preserve mito-
+chondrial function after radiation exposure and to stimulate
+mitochondria biogenesis in EC. When coronary EC were treated
+with Rosiglitazone before IR exposure, the cells exhibited
+enhanced respiratory function used for ATP production and apop-
+tosis was reduced [112]. The effects of treating EC with Rosiglita-
+zone after radiation exposure have not been reported, so the
+ef?cacy of this therapeutic for treating victims of mass/accidental
+radiation exposure remains unclear.
+We identi?ed Protein Kinase C-delta (PKCd) as a critical regula-
+tor of the in?ammatory response controlling leukocyte in?ltration
+across endothelium and loss of barrier function. PKCd is activated
+in multiple cell types in response to radiation exposure and is
+involved in radiation-induced apoptosis [113]. Moreover, PKCd
+overexpression enhanced radiation-induced apoptosis indicating
+a critical signaling role [114]. PKCd/ mice were protected from
+radiation-induced damage to the salivary gland and thymus [115].
+We have shown that delivery of a speci?c PKCd-TAT peptide
+inhibitor to the lung had a dramatic anti-in?ammatory and lung
+protective effect in a rodent model of sepsis [116]. Similarly, we
+have used our novel micro?uidic assay (bMFA) to show that PKCd
+inhibition dramatically attenuates radiation-induced human EC
+damage, leukocyte migration (Fig. 4A) as well as vascular EC per-
+meability (Fig. 4B) and preserved integrity of irradiated EC
+(Fig. 4C–E) even when administered 24 hrs post-IR [41]. Moreover,
+neutrophil adhesion to irradiated EC was signi?cantly decreased
+after PKCd inhibition in a shear-dependent manner. PKCd inhibi-
+tion downregulated radiation-induced P-selectin, ICAM-1 and
+VCAM-1overexpression [41].
+In preliminary studies, treatment of whole body 7 Gy irradiated
+C57BL/6J mice with the PKCd inhibitor signi?cantly delayed and
+reduced mortality (Fig. 4F), supporting the hypothesis that PKCd
+is activated in response to radiation and PKCd inhibition provides
+a protective effect. Furthermore, administration of the PKCd-TAT
+peptide inhibitor used in our study has already been shown to be
+safely tolerated in Phase I/II clinical trials for treating acute
+myocardial infarction [117,118].
+In summary, radiation-induced EC injury in large part mediates
+and regulates wider tissue damage. Ionizing radiation directly acti-
+vates and damages the endothelium via increased adhesion mole-
+cule expression, leukocyte-EC interactions, mitochondrial damage,
+barrier permeability and apoptosis. Emerging in vivo and in vitro
+models of vascular in?ammatory response are providing not only
+a better understanding of mechanisms underlying the progression
+of radiation-induced EC damage but also a roadmap for developing
+highly speci?c radiotherapeutics for preventing and treating side
+effects of radiotherapy and/or accidental radiation exposure. Novel
+therapeutics that speci?cally focus on common key control points
+or signaling hubs can more effectively regulate the multiple over-
+lapping and redundant mechanisms that modulate the signaling
+pathways regulating the vascular endothelial response to
+radiation-induced damage.
+Con?ict of interest statements
+All authors con?rm that they have read and approved the ?nal
+version of the manuscript being submitted. They also certify that
+the article is not under consideration for publication elsewhere.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.radonc.2021.02.007.

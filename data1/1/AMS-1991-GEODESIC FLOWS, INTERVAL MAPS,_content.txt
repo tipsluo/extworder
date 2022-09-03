@@ -1,0 +1,37 @@
+Title:
+
+Abstract:
+
+----------------------
+
+
+Text:
+----------------------
+
+FIGURE 1.4. Cross section of geodesic flow. 
+Cross section. With the above reductions in mind, we have found 
+it suitable to make a special choice for C. Its description relies on 
+some geometrical facts about S. S is assumed to be a compact 
+surface of constant negative curvature. It is known that such a 
+surface is orientable of genus g > 2, hence realizable as a sphere 
+with g handles. On S there exists a system of 2g simple closed 
+geodesies yx, ... , y2g as exhibited in Figure 1.7 on p. 238 (we 
+illustrate here and later with the typically sufficient case g = 2). 
+Speaking loosely yx, y3, ... , y2g-\ go around the "holes" and 
+y2, ... , y2g around the "waists" of S. Distinct curves yt, y-
+intersect if and only if |/ - j\ = 1, in which case they intersect 
+in precisely one point. The existence of such a system of curves 
+is intuitive. Less obvious and not so well known is that the yt 's 
+can be chosen as geodesies. This fact is a consequence of the 
+Comments. To reiterate, the basic ideas of our paper are: we graph 
+the curvilinear cross section map, straighten out boundaries in this 
+0(i) = <7(i) + 1, 
+a(i) = a(i) + 2, 
+... , a (/), a(i), i, a(i), a (/), ... = ... , i, a(i'), I, a(i), I, ... . 
+Formulas (8.2) show that the intervals on the right side of (8.3) 
+are disjoint and written in the order in which they are encountered 
+when g(L. ) is traversed counter-clockwise. In Figure 8.2, we 
+sketch, for fixed t, the intersections Rt n R!s which are labeled by 
+The proof of Theorem 9.3 is made evident by Figures 5.4 and 
+9.2 (see p. 292), the latter exhibiting the intersection of the sets 
+arbitrarily large, Theorem C6 implies that Qa(TR) is not a SFT. 

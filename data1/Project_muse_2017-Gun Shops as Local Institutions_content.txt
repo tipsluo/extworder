@@ -1,0 +1,756 @@
+Title:
+Gun Shops as Local Institutions: Federal Firearms Licensees, 
+Social Disorganization, and Neighborhood Violent Crime
+Abstract:
+acknowledge (Braman and Kahan 2003). A rural farmer who uses a ?rearm to
+hunt will view ?rearm retailers differently than an urbanite who fears gun vio-
+lence and supports gun control (Kleck, Gertz, and Bratton 2009). Our theoreti-
+cal argument is based on the latter context.
+Second, although we argue that gun shops directly in?uence crime by providing
+suitable targets and indirectly in?uence crime by signaling disorder and discourag-
+ing informal social control efforts, we cannot directly test our proposed mechan-
+isms. This is particularly the case with the indirect effects, which we cannot test
+because we do not have measures of social control or neighborhood trust. This is a
+common issue confronted by researchers studying social disorganization. A poten-
+tial avenue for future research, then, would be to gather social control or organiza-
+tional measures in a few cities and then test the relationship again.
+To conclude, we offer a few policy considerations that stem from our ?ndings.
+Given that ?rearm ownership is a constitutional right in the United States, policy
+efforts seeking to limit the potential negative effects of gun shops must not hin-
+der gun rights. FFLs are a crucial component of ?rearm regulation and com-
+merce in the United States (Braga et al. 2002) and must be allowed to operate so
+that legal gun ownership may exist. Any policies to limit crime associated with
+FFLs must acknowledge this reality.
+With this context in mind, our ?rst policy consideration considers the indirect
+effects of gun shops on crime, where perceptions of disorder stymie local social
+control efforts. If crime rates are increasing because residents hold negative
+views of the gun shop and its effect on the neighborhood, efforts to manage resi-
+dents’ awareness of these shops could reduce fear and its associated effects.
+Some municipalities already regulate gun shop appearance. For example, munic-
+ipal codes in Washington, DC, and Chicago make it illegal to display ?rearms in
+the windows of a gun shop. While this could reduce awareness of the shop, it
+could also create unintended consequences. For instance, if businesses opt to
+comply by blacking out windows, it could contribute to disorder and crime by
+making the shop appear boarded up or neglected. However, while we do not
+know whether such ordinances improve the community or stigmatize gun shops
+in ways that make their presence more evident, municipality ordinances on gun
+dealers in general may be a viable policy instrument for improving neighbor-
+hood crime rates. Future research needs to assess what dealer regulations exist
+and how their enforcement and implementation in?uences the effects of such
+policies on neighborhood crime.
+Another policy consideration is for cities and states to withhold licenses for
+new gun shops seeking to open in fragile neighborhoods with a greater risk of
+increased crime. Gun shops are not uniformly dispersed across the metro area.
+In the cities in our analysis, there were very few gun shops in the richest or the
+poorest neighborhoods. Exposure to gun shops was highest in tracts with aver-
+age levels of disadvantage, and on average, the tracts with no gun shops did not
+have higher levels of residential instability than neighborhoods with gun shops
+(table 1). Because of this, many of the poorest neighborhoods, which are the
+most susceptible to crime, were not affected by gun shops. However, other disor-
+ganized neighborhoods, which are also vulnerable to decline and crime
+----------------------
+Subtitles:
+
+ Direct Effects of Local Institutions on Crime
+ Indirect Effects of Institutions on Crime
+ Firearms Dealers and Crime
+ Expectations
+ Data and Methods
+ Findings
+ Discussion and Conclusion
+ Supplementary Material
+ About the Authors
+
+
+Text:
+----------------------
+Recent research on the relationship between local institutions and violent crime
+has drawn on both routine activities theory and social disorganization theory to
+argue that local institutions likely have both direct and indirect effects on crime
+rates (Kubrin et al. 2011; Kubrin and Hipp 2014). Institutions can directly in?u-
+ence crime by providing opportunities and potential victims for criminal behav-
+ior (Cohen and Felson 1979; Roncek and Maier 1991; Wilcox and Eck 2011).
+They can indirectly affect crime rates by sending signals of social (dis)organiza-
+tion, which can affect social tie formation and social control efforts (Peterson,
+Krivo, and Harris 2000; Kubrin et al. 2011; Kubrin and Hipp 2014).
+Such research has focused primarily on institutions that provide ample suit-
+able targets and crime victims, such as bars, pawn shops, and payday lenders
+(e.g., Roncek and Maier 1991; Kubrin and Hipp 2014). We explore a different
+institution that likely affects crime rates: the gun shop.1 Routine activities theory
+suggests that by being a business with desirable goods, gun shops could directly
+affect crime by providing targets and victims. Social disorganization theory sug-
+gests that gun shops could also have a signi?cant indirect effect on neighbor-
+hood crime by negatively in?uencing perceptions of the neighborhood, sending
+signals of disorganization that discourage residents from engaging in social con-
+trol efforts. Speci?cally, because gun dealers can be viewed as undesirable busi-
+nesses that are frequently the target of NIMBY (Not in My Backyard) efforts,
+the presence of gun shops could suggest that residents do not care enough about
+the neighborhood to block the shop’s establishment, or that residents were
+unable to do so. This could discourage future social control efforts, as such ef-
+forts may seem futile or unappreciated. Additionally, gun shops signal that guns
+are present in a neighborhood, which could raise fear among those uncomfort-
+able around ?rearms, thus discouraging them from intervening when disorder
+occurs. It could also suggest that the area is dangerous—guns are available
+because they are needed for protection—which could further discourage infor-
+mal social control efforts. Subsequently, we would expect to ?nd higher crime
+rates in neighborhoods with gun shops, as the associated fear and negative per-
+ceptions might keep residents from engaging in social control efforts, while the
+shops themselves might attract crime by providing suitable targets. It is not that
+the guns sold generate crime, but that the shops trigger processes that lead to
+more crime.
+To test the relationship between gun shops and crime, we employ multilevel
+Poisson models and three unique datasets—the National Neighborhood Crime
+Study (NNCS), the Bureau of Alcohol, Tobacco, Firearms, and Explosives’
+Federal Firearms Licensees Database (FFLD), and the National Establishment
+Time-Series Longitudinal Business Database (NETS)—to examine the effects of
+gun shop presence on neighborhood crime rates. The NNCS provides tract-level
+crime data for eighty-nine US cities in 2000. The FFLD is a complete list of all
+federally licensed ?rearms dealers in the United States, while NETS provides
+data on business locations. These datasets allow us to test whether gun shops
+are associated with elevated crime rates at the neighborhood level, while also
+accounting for neighborhood and gun shop characteristics.
+This study is a potentially signi?cant extension. Most empirical research on the
+relationship between gun shops and violent crime has examined larger geographic
+units, such as cities and counties (Wiebe et al. 2009), which are too big to accu-
+rately measure neighborhood effects, or gun shows (Duggan, Hjalmarsson, and
+Jacob 2010), which are a short-term phenomenon unlikely to have lasting effects.
+To our knowledge, this is the ?rst study to examine this relationship at the neigh-
+borhood level. Additionally, this research expands our understanding of the role
+of local institutions on crime outcomes, not only by examining a different institu-
+tion—gun shops—but also by examining the relationship nationwide. Existing
+research has focused on institutions in a single city. Finally, given that political dis-
+cussions around ?rearms have grown increasingly heated, studies exploring poten-
+tial associations between ?rearms commerce and crime are useful contributions
+for policymakers. This is especially true given the paucity of studies on ?rearms
+dealers.
+Direct Effects of Local Institutions on Crime
+Research has established a connection between local institutions and crime rates.
+These studies have primarily focused on institutions associated with increased
+crime. Such institutions likely raise crime both directly and indirectly (Kubrin
+et al. 2011; Kubrin and Hipp 2014). Studies that focus on the direct effects of
+crime often draw on routine activities theory. This theory posits that some insti-
+tutions can facilitate crime by routinely providing potential targets and by
+encouraging behaviors that might lead to crime (Cohen and Felson 1979;
+Roncek and Maier 1991; Groff and Lockwood 2014).
+While routine activities theory has been used to explain the association
+between numerous institutions and crime, bars probably provide the most illus-
+trative example of how an institution can directly in?uence crime rates. First,
+bars could lead to increased crime by attracting outsiders to the neighborhood,
+which can make local social control more dif?cult. Residents are less likely to
+successfully intervene when complete strangers cause disorder than when their
+neighbors are disorderly (Jacobs 1961; Roncek 1981; Roncek and Maier 1991).
+Bars can also attract potential criminals (Frisbie et al. 1977), or cause people to
+break norms they normally follow when sober (Felson 1986). Finally, bars pro-
+vide an attractive target for crime, as both the customers and the establishment
+are likely ?ush with cash (Cohen and Felson 1979; Roncek and Maier 1991),
+and because the customers are more likely to be impaired and thus less capable
+of defending themselves (Roncek and Maier 1991).
+Of the direct effects of bars on crime, the presence of suitable targets is proba-
+bly the most essential. Researchers repeatedly have found that institutions asso-
+ciated with increased crime have cash-based transactions, which attract robbers
+(Wright and Decker 1997; Bernasco and Block 2011; Bernasco, Block, and
+Ruiter 2013; Kubrin and Hipp 2014). Another key characteristic is the number
+of suitable targets an institution attracts. Institutions can contribute to crime
+simply by concentrating larger numbers of potential targets in a small area. This
+mechanism has been used to partially explain the crime increases associated
+with Wal-Mart stores (Wolfe and Pyrooz 2014).
+Indirect Effects of Institutions on Crime
+These characteristics of institutions directly in?uence crime rates, but institutions
+have other qualities that could indirectly affect crime rates as well. Research con-
+sidering the indirect effects of institutions on crime draws on social
+disorganization theory to argue that institutions can signi?cantly affect crime
+rates by shaping perceptions of disorganization in the neighborhood (Peterson,
+Krivo, and Harris 2000; Kubrin et al. 2011; Kubrin and Hipp 2014). According
+to this theory, residents are less likely to engage in social control efforts—which
+help limit crime in an area—when they believe that their neighborhood is disor-
+ganized. Thus, if an institution sends signals of disorder, it could negatively
+impact social control efforts, which could lead to elevated crime rates.
+Conversely, if an institution signals organization, it could encourage participa-
+tion in social control efforts and lead to a reduction in crime. Subsequently, if re-
+sidents think that an institution brings or signals trouble and disorder, it will be
+associated with decreases in social control and increases in crime rates, while in-
+stitutions that send positive signals about the community will be associated with
+reductions in crime.
+This application of social disorganization theory stems from modern interpreta-
+tions of Shaw and McKay’s (1942) work on juvenile delinquency. Modern social
+disorganization theory argues that crime results when residents lack the capacity
+to engage in social control, or to address problems and disorder within their
+neighborhoods (Kubrin and Weitzer 2003). A neighborhood’s capacity for social
+control is shaped by social ties and local organizational presence, which allow re-
+sidents to develop shared norms and expectations of acceptable behavior. Once
+these expectations have been established, residents use their social ties and organi-
+zations to keep undesirable behavior in check. Their unwillingness to engage in
+such social control efforts, however, is shaped by their perceptions of the neigh-
+borhood and other residents’ willingness to maintain it. If residents believe that
+their neighbors care about the neighborhood and will work to maintain shared ex-
+pectations, they will be more likely to intervene when things are awry. If they
+believe that the neighborhood is disorganized—that no one cares and that no one
+will try to ?x problems—the residents will be less likely to participate in social
+control efforts (Sampson, Raudenbush, and Earls 1997; Sampson 2012). These
+perceptions of disorder can be shaped by the physical characteristics of the neigh-
+borhood; dilapidated housing, for example, often sends the signal that the neigh-
+borhood is in decline, which can then lead to disinvestment (Massey and Denton
+1993). Institutions could send a similar message. If a business is undesirable, it can
+signal that the neighborhood is in decline, or that no one cares enough to keep
+such undesirable businesses out of the neighborhood or at least somewhat in order
+(Kubrin et al. 2011; Kubrin and Hipp 2014). This could then discourage residents
+from engaging in social control efforts.
+The social and demographic characteristics of a neighborhood can also dis-
+courage residents from engaging in social control. Shaw and McKay (1942)
+argued that social tie formation is in?uenced by neighborhood disadvantage and
+heterogeneity. Poverty limits bonding through its association with high rates of
+housing turnover (Bursik 1988). People are more likely to know their neighbors
+in stable neighborhoods with low population turnover (Guest et al. 2006).
+Social ties are weaker in ethnically and racially homogeneous neighborhoods
+and neighborhoods with large immigrant populations, because communication
+and bonding are more dif?cult when there are language and cultural differences
+(Shaw and McKay 1942). These factors also in?uence the ef?cacy of local orga-
+nizations that might encourage social bonding. People are more likely to partici-
+pate in organizations when they have lived or intend to live in an area for an
+extended period of time (Wandersman et al. 1987), while organizations tend to
+be weak when neighborhoods have high housing turnover, experience elevated
+poverty, or are racially or ethnically heterogeneous (Triplett, Gainey, and Sun
+2003). All of these characteristics can contribute to a neighborhood’s level of
+disorganization.
+The existing level of (dis)organization in a neighborhood could affect how the
+neighborhood responds to undesirable institutions. In a study of alcohol outlets,
+like bars and lounges, Pridemore and Grubesic (2012) found that the effect of
+alcohol outlet density on assault rates was weaker in areas characterized by
+social organization. They argued that organized areas were better able to exer-
+cise informal social control over both the patrons and management of alcohol
+outlets, and that they were better able to marshal government resources to main-
+tain order. This suggests that levels of (dis)organization—which can be affected
+by the institutions themselves—can also moderate the relationship between
+unappealing institutions and crime.
+In sum, institutions can directly contribute to crime by providing suitable tar-
+gets and attracting strangers to an area, and can indirectly contribute to crime by
+sending signals that an area is disorganized, which can discourage residents from
+engaging in social control efforts. Neighborhoods with low levels of disadvantage
+and turnover may be able to draw on economic resources and existing social ties
+to limit the direct effects of the institution on crime rates. However, disadvantaged
+neighborhoods or those that have high levels of residential instability may fare
+poorly when an undesirable institution is present, weakening local social control
+efforts.
+Firearms Dealers and Crime
+Although existing research has focused on institutions like bars and payday len-
+ders, there are other institutions that could be associated with increased crime.
+Gun dealers provide an interesting case. As businesses, routine activities theory
+would predict that gun shops would be associated with elevated crime rates
+because they provide suitable targets and desirable goods. This makes them simi-
+lar to bars and payday lenders. Gun dealers are also like payday lenders in that
+they are often seen as undesirable. Social disorganization theory suggests that
+undesirable institutions lead to crime by disrupting social control efforts.
+Despite these similarities, ?rearms dealers are a unique case. Firearms dealers
+have to locate somewhere, despite often being seen as undesirable and a detri-
+ment to tourism and other businesses (Lewis 2010). This is due to the fact that
+?rearms dealers are fundamental to the constitutional right of ?rearm owner-
+ship, as the 1968 Gun Control Act mandates that all newly manufactured ?re-
+arms be sold from businesses with a Federal Firearms License (FFL) (Cook,
+Molliconi, and Cole 1995; Braga et al. 2002). Because the Constitution protects
+gun ownership, and gun owners are required to purchase new ?rearms from
+businesses with FFLs, dealers are a necessity in the marketplace, unlike other
+undesirable places (e.g., payday lenders) (Winkler 2013).
+In spite of this, gun shops often face NIMBY efforts and have been the target
+of local ordinances that limit the number and location of gun dealerships within
+a city (Calhoun 2014). This negative reaction is likely tied to people’s response
+to guns. Although recent national public opinion surveys suggest that a majority
+of Americans think that owning a ?rearm will protect against criminal victimiza-
+tion (Doherty, Kiley, and Weisel 2014), these ?ndings do not hold in urban
+areas. Surveys of urban residents consistently ?nd that urbanites feel that guns
+make urban environments less safe, and that urbanites are more likely to support
+policies that restrict private access to ?rearms than rural residents (Blocher
+2013). Thus, in urban areas (the focus of this paper), gun shops are likely to be
+unwelcome.
+Regardless of the area, however, feelings toward guns are strongly shaped by
+fear and concerns over safety. In some cases, the fear comes from the presence of
+guns—studies have demonstrated that increased ?rearm prevalence can reduce
+feelings of safety (Hemenway, Solnick, and Azrael 1995; Miller, Azrael, and
+Hemenway 2000). In other cases, acquiring a gun stems from external fears.
+Individuals are more likely to carry guns when they feel law enforcement and
+the criminal justice system are insuf?cient to protect them from crime
+(McDowall and Loftin 1983; Young, McDowall, and Loftin 1987). People are
+also more likely to consider purchasing a ?rearm for protection (Kleck et al.
+2011) and to actually carry a ?rearm when they fear victimization in their com-
+munity (Lizotte et al. 2000; Molnar et al. 2004; Watkins, Huebner, and Decker
+2008; Felson and Pare 2010). Thus, fear likely plays a signi?cant role in percep-
+tions of guns, either as a direct result of the presence of guns in an area, or
+because guns are sought as protection.
+Such fears could shape residents’ perceptions when they see gun shops in their
+community. Seeing a gun shop in the neighborhood signals that “guns are pres-
+ent here,” which could increase fear among those who feel less safe when guns
+are prevalent. The presence of a gun shop could also increase fear among those
+who turn to guns for protection, if those individuals see the presence of a gun
+shop as a signal that other residents feel the need to carry guns, or that guns are
+necessary in the area. These fears could discourage people from engaging in
+social control efforts. Finally, if many urban residents see gun shops as undesir-
+able, seeing a gun shop in a neighborhood could send the signal that no one in
+the neighborhood cared enough to stop (or was incapable of stopping) the gun
+shop from locating there. This can also depress social control efforts by making
+it seem that such efforts will be unsuccessful or unappreciated. All of these fac-
+tors could ultimately lead to higher crime rates. Thus, gun dealers likely lead to
+increased crime in an area directly, through mechanisms predicted by routine
+activities theory—providing suitable targets—and indirectly, through disrup-
+tions to social control efforts, as predicted by social disorganization theory.
+Of course, not all gun dealers are the same. Many people purchase guns at
+sporting goods and department stores, which do not necessarily send the same
+signals to the community as a gun-speci?c store might. Some places may even
+recruit outlets that sell guns, like Wal-Mart or Bass Pro Shops, into the commu-
+nity, believing they may bring jobs and tax revenue. In such cases, the social dis-
+organization processes likely play a smaller role than processes relating to
+routine activities. Likewise, pawn shops, which have been associated with in-
+creases in crime rates (Kubrin and Hipp 2014), are also qualitatively different
+than dealers that focus solely on guns. When we discuss gun shops, we are refer-
+ring to all Type 1 (dealers) and Type 2 (pawn shop) Federal Firearms Licensees
+collectively, which includes everything from a gun-speci?c store (hereafter “tra-
+ditional dealers” or “dealers”) to pawnshops and Wal-Marts. We account for
+these differences in our analysis, but think that the processes we discuss play a
+role in the gun shop–crime relationship to some degree, regardless of shop type.
+Expectations
+Following our argument—that gun shops in urban areas provide suitable targets
+for crime and can signal disorder in a way that affects social control efforts—we
+have three hypotheses. First, we expect that higher gun shop prevalence will be
+associated with higher crime rates in urban neighborhoods. Second, we expect
+that higher gun shop prevalence in urban areas will be associated with higher
+crime rates regardless of gun shop type. Third, given research that indicates that
+neighborhood organization limits the effects of bars on local crime rates
+(Pridemore and Grubesic 2012), we expect that this effect will be more pro-
+nounced in unstable neighborhoods and neighborhoods characterized by
+disadvantage.
+Data and Methods
+To examine the association between gun shops and crime, we rely on data from the
+National Neighborhood Crime Study (NNCS), the Federal Firearms Licensees
+Database (FFLD), and the National Establishment Time-Series Longitudinal
+Business Database (NETS). The NNCS contains Uniform Crime Report (UCR)
+data for violent and property crime at the census-tract level in a representative sam-
+ple of ninety-one cities with a population over 100,000 in 1999 (Peterson and
+Krivo 2010b). It also includes demographic and socioeconomic data at the tract,
+city, and metro level. Although there are 9,563 census tracts in ninety-one cities in
+the full NNCS, we restrict our data to the eighty-nine NNCS cities that provided
+tract-level homicide data, leaving 8,994 tracts in our analysis. We use tracts as a
+proxy for neighborhoods.
+The FFLD is a complete listing of federally licensed ?rearms dealers (FFLs) in
+the United States. Maintained by the Bureau of Alcohol, Tobacco, Firearms, and
+Explosives (ATF), the FFLD contains information on all companies or indivi-
+duals with licenses to manufacture or sell ?rearms and ammunition in the
+United States. The FFLD includes address information, which we geocoded and
+tracted to get shop locations. The full FFLD contains information on nine classes
+of FFL licenses, which include everything from ?rearms dealers to manufacturers
+and importers. We only include data on Type 1 and Type 2 Federal Firearms
+Licensees—dealers and pawn shops, respectively—as these are the only catego-
+ries that pertain to local ?rearm sales.
+The NETS Database provides “annual snapshots” of Dun and Bradstreet’s
+archival establishment data (taken every January). This dataset indicates which
+establishments were open for business each year. These establishment-level data
+provide information on business name, address, and industry classi?cation
+(Walls and Associates 2012). We use this information to identify the number of
+retail establishments (grocery stores, pharmacies, gas stations, etc.) in each tract.
+The dependent variables are three-year (1999–2001) average counts of tract-
+level homicides and robberies. Criminologists commonly use multiyear counts of
+crime to minimize the impact of annual ?uctuations in rare events at small levels
+of aggregation (Krivo, Peterson, and Kuhl 2009). While the NNCS includes
+tract-level counts of property crime, aggravated assaults, and forcible rapes, we
+focus on homicides and robberies. This is mostly due to data availability. Some
+police departments do not report rape data due to local reporting laws and poli-
+cies, while others exclude aggravated assault due to data quality concerns
+(Peterson and Krivo 2010a, p. 130). As a result, including aggravated assault,
+rape, and property crimes would substantially reduce the sample size.
+Following Wiebe et al. (2009), the central tract-level independent variable is a
+count of licensed ?rearms dealers per 10,000 people within a given census tract.
+We take the natural log of this rate (after adding a small constant of 1.0 to all
+tracts) to account for both skewness and possible nonlinearity in the relationship
+between dealers and violence at the local level.
+To account for the qualitative differences between gun shops, we consider dif-
+ferent types of FFL holders, differentiating between dealers, pawn shops, and big
+box stores, using a count of each type of dealer per 10,000 residents in each
+tract. The dealer (FFL Type 1) and pawn shop (FFL Type 2) indicators are avail-
+able in the FFLD. To account for sporting goods and department stores, we
+identi?ed all of the FFL Type 1 licensees that were licensed to operate more than
+one place of business, and then identi?ed the FFL licenses issued to corporate
+entities rather than an individual person. We identi?ed such businesses as “big
+box” stores.2
+In line with previous social disorganization research, we include measures of
+neighborhood disadvantage and residential instability. The neighborhood disad-
+vantage variable is an index composed of the average of summed z-scores for six
+variables that measure the percent of the tract population that is employed in
+low-wage jobs in the secondary sector; is employed in professional or manage-
+ment careers (reverse-coded); is jobless and in the working age population
+(16–64 years old); is living in female-headed households; is living in poverty;
+and has at least a high school diploma (for the population over 25 years old;
+reverse-coded) (? = .92). Residential instability is measured using an index of
+the average of summed z-scores for the percentage of housing units that are
+renter-occupied and the percentage of the tract population that lived in a differ-
+ent residence in 1995 (? = .63). Both indices have been used in prior neighbor-
+hood analyses of crime using the NNCS (Krivo, Peterson, and Kuhl 2009;
+Peterson and Krivo 2010a; Ramey 2013).
+To control for other demographic factors that are theoretically related to neigh-
+borhood crime rates, we include measures of percent non-Hispanic black, per-
+cent Hispanic (any race), percent young male, and an index of immigrant
+concentration. The percent young male variable indicates the percent of the tract
+that is male and between 15 and 34 years old, as this population is believed to
+be particularly disposed to crime. The immigrant concentration variable is an
+index of the average of summed z-scores for three variables that measure the per-
+cent of the tract population that is foreign born, arrived in the United States
+between 1995 and 2000, and does not speak English (? = .95). To account for
+the potential spatial clustering of violent crime, we include a spatial lag of the
+violent crime rates in surrounding tracts. The spatial lags were calculated in
+Geoda using a ?rst-order queen criterion.
+Finally, because gun shops are often located near other institutions that could
+lead to increased crime rates, such as other commercial establishments, we con-
+trol for the number of total retail establishments per 10,000 residents in each
+tract. Other researchers have used this data to examine the relationship between
+retail institutions and local crime rates (Stacy, Ho, and Pendall 2016).
+Although the NNCS is a nationally representative sample of large US cities, our
+level-2 independent and control variables are measured at the metropolitan level.
+We use metros instead of cities because we need to control for the larger context
+of gun shop presence, and controlling for the concentration of gun shops at the
+metro level provides a more accurate measure of how many gun shops are in the
+area. While many large cities have enacted local ordinances limiting the number
+of licensed gun dealers within city limits, these laws do not extend to the suburbs
+or townships in the rest of the metropolitan area. Just accounting for the city,
+then, could result in a severe underestimation of gun shop presence. For example,
+while the city of Chicago only had three licensed ?rearms dealers in 2000, the
+Chicago metropolitan area had 854 shops. To appropriately account for the
+larger context of gun shops, we include a measure of metro-level FFLs, which is
+analogous to the tract-level variable. Results of all models with all level-2 variables
+measured at the city level yielded similar ?ndings and are available by request.
+We also include controls for several other metro-level variables that are asso-
+ciated with crime outcomes. We include measures of metro disadvantage, metro
+residential instability, (? = .52), metro immigrant concentration (? = .96), metro
+percent non-Hispanic Black, metro percent Hispanic (any race), and metro per-
+cent young males, which all use the same calculations as their tract-level counter-
+parts. A measure of metro manufacturing, de?ned as the percent of the
+employed civilian population age 16 and over employed in manufacturing indus-
+tries, controls for labor market activity in the metro. We control for the higher
+crime rates found in larger cities by including a measure of metropolitan popula-
+tion (logged). We control for regional variation in both violent crime rates and
+?rearm usage by including measures of census region (South and West, with the
+rest of the country as the reference category).
+Finally, we include a measure of black-white segregation to account for the
+higher rates of neighborhood violence found in segregated cities. It is calculated
+using the index of dissimilarity (D), which measures the relative evenness of two
+groups within smaller units (like tracts). It indicates the percentage of one group
+that would have to move to a new tract for there to be an even distribution of
+members from both groups in each tract in the metro. It is calculated using the
+following formula:
+where aj and bj represent the number of members of the two respective groups
+residing in tract j, and where A and B are the total number of each group in the
+metro.
+To examine rates of neighborhood violence, this paper employs separate multi-
+level models for homicide and robbery using HLM 7.01 with tracts at level 1
+and metropolitan areas at level 2. Because homicides and robberies are rare
+events within small units, we use nonlinear Poisson models, specifying these
+counts with variable exposure by tract population. This strategy is the empirical
+equivalent of analyzing rates of neighborhood homicide and robbery (Osgood
+2000).3 Additionally, the variances of our dependent variables are considerably
+larger than their means, violating a common assumption of the Poisson model.
+Controlling for this overdispersion at level 1 in HLM is analogous to a negative
+binomial model. All continuous control variables are grand-mean centered in
+the analysis.
+Findings
+Table 1 presents descriptive statistics for all variables included in the study, as
+well as tracts with or without FFLs. As discussed earlier, most neighborhoods in
+large US cities do not have gun shops. As a result, the average number of shops
+per 10,000 population is relatively small (1.59 per 10,000). However, in neigh-
+borhoods with at least one gun shop, there are 5.7 FFLs per 10,000 residents, on
+average. Most gun shops (1.8 per 10,000) in the sample are traditional ?rearms
+dealers, but there is variation in the number of dealers, pawn shops, and big box
+stores across US neighborhoods.
+On average, neighborhoods in large US cities had homicide rates of 2.19 and
+robbery rates of about 47 per 10,000 residents. Notably, measures of residential
+instability are slightly higher in neighborhoods with FFLs than in the total sam-
+ple, but such neighborhoods have relatively low disadvantage scores compared
+to the national average. Neighborhoods without FFLs are slightly more disad-
+vantaged than the national average. Neighborhoods without FFLs are also more
+racially and ethnically diverse than neighborhoods with FFLs. For example,
+neighborhoods without FFLs have residential populations that are almost half
+racial-ethnic minority (29 percent African-American and 20 percent Hispanic)
+and 17 percent foreign born, compared to average FFL neighborhoods, which
+are Whiter (15 percent African American and 19 percent Hispanic) and have rel-
+atively fewer foreign-born residents (14 percent). Finally, there are more retail
+establishments per 10,000 residents in neighborhoods with FFLs than in neigh-
+borhoods without FFLs.
+Turning to the metro-level variables, the average large US metro has around
+3.4 licensed ?rearms dealers per 10,000 residents. Although neighborhoods with
+FFLs are located in metro areas with relatively more FFLs, tracts without FFLs
+remain located in metro areas with at least 2.5 shops per 10,000 residents.
+Unlike at the tract level, levels of metro disadvantage, residential instability, and
+racial and ethnic diversity are similar across neighborhoods with and without
+FFLs. Notably, compared to neighborhoods without FFLs, neighborhoods with
+FFLs are located in smaller metro areas (2.6 million versus 4 million) and are
+more likely to be located in the South or in the West.
+The descriptive results presented in table 1 support further consideration of
+the relationship between FFLs and neighborhood violence. Speci?cally, while
+the higher rates of homicide and robbery in neighborhoods without FFLs suggest
+that gun dealers are not opening stores in high-crime neighborhoods, the true
+relationship between FFLs and local crime rates may be concealed by structural
+factors. To assess whether these factors mediate or moderate the relationship
+between FFLs and crime, we now turn to a discussion of ?ndings from multilevel
+models of homicide and robbery.4
+Table 2 presents the coef?cients and standard errors for separate multilevel
+Poisson (with variable exposure) models of homicide and robbery, using the
+neighborhood concentration of all FFLs as our key predictor variable. For both
+dependent variables, model 1 presents the results of our fully conditional models
+with all predictor variables and models 2 and 3 include interactions between our
+logged FFL variable and neighborhood residential instability and disadvantage,
+respectively. Looking ?rst at model 1 in table 2, there is a signi?cant positive
+association between the concentration of FFLs in a tract and levels of both homi-
+cide and robbery. Speci?cally, controlling for other relevant population factors,
+a 100 percent difference in the number of licensed ?rearms dealers per 10,000 is
+associated with 8.5 percent [(e[.082] ? 1) * 100] higher homicide rates and 14
+percent [(e[.131] ? 1) * 100] higher robbery rates.
+Turning to model 2, we observe a signi?cant positive main effect coef?cient for
+the relationship between FFLs and violent crime. Furthermore, there are signi?cant
+positive coef?cients for the interaction between FFLs and residential instability.
+These results indicate that the positive relationship between FFLs and violence is
+stronger in neighborhoods with higher levels of residential instability. At one stan-
+dard deviation below mean residential instability, tracts with twice as many tradi-
+tional ?rearms dealers per 10,000 have 1.01 percent [(e[.068+(?1*.057)] ? 1) * 100]
+higher homicide rates and 6.47 percent [(e[.112+(?1*.050)] ? 1) * 100] higher robbery
+rates than similarly stable tracts. Conversely, at one standard deviation above
+mean residential instability, tracts with twice the number of ?rearms dealers per
+10,000 have 13.36 percent [(e[.068+(1*.057)] ? 1) * 100] higher homicide rates and
+27.4 percent [(e[.112+(1*.050)] ? 1) * 100] higher robbery rates than similarly unsta-
+ble tracts. In model 3, we observe a positive and signi?cant main effect coef?cient
+between FFLs and homicides or robberies, yet interactions between FFLs and
+neighborhood disadvantage are insigni?cant.
+The coef?cients for several control variables are signi?cant and merit discus-
+sion. Notably, variables for neighborhood disadvantage and residential instabil-
+ity are signi?cantly and positively associated with neighborhood violence.
+Furthermore, the number of retail establishments per 10,000 residents is signi?-
+cantly and positively associated with homicides and robberies. Tracts with high-
+er proportions of non-Hispanic black and Hispanic populations have higher
+rates of homicide than tracts with lower proportions of non-Hispanic blacks or
+Hispanics, but only percent non-Hispanic Black is positively associated with
+robbery rates. Tracts with higher levels of immigrant concentration have signi?-
+cantly lower levels of homicide than tracts with relatively lower levels of immi-
+grant concentration. At the metro level, MSAs with larger populations had
+higher robbery rates, but tracts in MSAs with greater percentages of males
+between 15 and 34 had lower robbery rates. Tracts in Western MSAs had lower
+levels of robbery than tracts in other regions.
+Table 3 presents the coef?cients and standard errors for models similar to those
+found in table 2, but adds the concentrations of traditional ?rearms dealers, pawn
+shops, and big box retailers as predictor variables.5 Looking ?rst at model 1, the
+association between FFLs and violent crime rates varies slightly across store type.
+Speci?cally, the concentration of traditional dealers and pawn shops is signi?cantly
+and positively associated with homicide rates. Tracts with twice the number of tra-
+ditional ?rearms dealers per 10,000 residents have 7.94 percent [(e[.076] ? 1) * 100]
+higher homicide rates, while tracts with twice the number of pawn shops per
+10,000 residents have 9.9 percent [(e[.094] ? 1) * 100] higher homicide rates. Unlike
+traditional dealers and pawn shops, the relationship between the presence of big
+box stores that sell ?rearms and rates of neighborhood homicide is negative,
+although this relationship is only marginally signi?cant. Tracts with twice the
+number of big box stores that sell ?rearms per 10,000 residents have 10 percent
+[(e[-.105] ? 1) * 100] lower homicide rates. Unlike homicides, there is a signi?cant
+and positive association between all three store types and robbery. Tracts with twice
+the number of traditional ?rearms dealers per 10,000 have 7.8 percent
+[(e[.075] ? 1) * 100] higher robbery rates than other tracts, while similarly situated
+pawn shops and big box stores have 18 percent [(e[.166] ? 1) * 100] and 21.2 per-
+cent [(e[.193] ? 1) * 100] higher robbery rates, respectively.
+We examined whether the effects of traditional dealers, pawn shops, and big
+box retailers were different from one another using Wald tests. For neighborhood
+homicide rates, the effects of traditional dealers and pawn shops are similar
+(?2 = .094, p > .10), and both types of stores have signi?cantly stronger effects
+than the concentration of big box retailers (?2 = 22.610, p < .05, and ?2 = 6.077,
+p < .05, respectively). Pawn shops and big box retailers have stronger effects on
+robbery rates than traditional dealers (?2 = 3.376, p < .05, and ?2 = 3.218,
+p < .05, respectively), but there are no signi?cant differences between the effects
+of pawn shops or big box stores (?2 = .090, p > .10) on robbery.
+The association between neighborhood violent crime and the three types of
+stores vary by social disorganization and residential instability. Turning to
+model 2 in table 3, we observe a signi?cant and positive interaction between resi-
+dential instability and traditional gun shops, but not pawn shops or big box
+stores. At one standard deviation below mean residential instability, a 100 per-
+cent difference in the number of traditional ?rearms dealers per 10,000 residents
+is associated with less than half a percent [(e[.061+(?1*.064)] ? 1) * 100] difference
+in homicide rates and a 5.6 percent [(e[.061+(?1*.035)] ? 1) * 100] difference in
+robbery rates. However, a similar difference between two neighborhoods at one
+standard deviation above mean residential instability is associated with a 13.26
+percent [(e[.061+(1*.064)] ? 1) * 100] increase in expected homicide rates and a
+10.1 percent [(e[.061+(1*.035)] ? 1) * 100] increase in expected robbery rates.
+Results from model 3 in table 3 also suggest that different types of FFLs in?u-
+ence homicides and robberies differently at varying levels of neighborhood dis-
+advantage. Notably, the relationship between the concentration of pawn shops
+with FFLs and violence is less pronounced in more disadvantaged neighbor-
+hoods than in less disadvantaged neighborhoods. At one standard deviation
+below mean neighborhood disadvantage, tracts with twice as many pawn shops
+per 10,000 residents have 24.84 percent [(e[.132+(?1*?.090)] ? 1) * 100] higher
+homicide rates and 29.94 [(e[.190+(?1*?.072)] ? 1) * 100] higher robbery rates
+than other tracts. At one standard deviation above mean neighborhood disad-
+vantage, a similar difference in the concentration of pawn shops is associated
+with just 4.38 percent [(e[.132+(1*?.090)] ? 1) * 100] higher homicide rates and
+12.57 [(e[.190+(1*?.072)] ? 1) * 100] higher robbery rates than other tracts.
+Conversely, the association between traditional dealers and robberies is more
+pronounced in highly disadvantaged areas. At one standard deviation below
+mean neighborhood disadvantage, tracts with twice the number of traditional
+?rearms dealers per 10,000 have 13.36 percent [(e[.068+(1*.057)] ? 1) * 100]
+greater homicide rates and 27.4 percent [(e[.112+(1*.050)] ? 1) * 100] greater rob-
+bery rates than similarly unstable tracts.
+To summarize, the presence of gun shops in a neighborhood is associated
+with higher rates of homicide and robbery. Moreover, we observe this positive
+relationship whether considering all gun shops or different types of licensed ?re-
+arms dealers. Finally, the relationship between FFLs and violence varies across
+different neighborhood organizational contexts, particularly by levels of residen-
+tial instability. To demonstrate this, ?gures 1 and 2 present predicted homicide
+and robbery rates6 per 10,000 population, respectively, for stable neighbor-
+hoods (?1 S.D. residential instability), average neighborhoods (mean residential
+instability), and unstable neighborhoods (+1 S.D. residential instability).7
+As ?gure 1 demonstrates, there is no relationship between the presence of
+FFLs and homicide rates in relatively stable neighborhoods. For example, stable
+neighborhoods without FFLs and those with 7 FFLs per 10,000 residents have
+approximately 1.3 homicides per 10,000 residents. Unstable neighborhoods
+with one gun shop per 10,000 residents have, on average, 1.33 homicides per
+10,000 residents. Meanwhile, unstable neighborhoods with just two FFLs per
+10,000 residents have, on average, 1.53 homicides per 10,000 residents, a signif-
+icant difference of almost 15 percent.
+Figure 2 shows that similar to homicides, the relationship between the pres-
+ence of FFLs and robbery rates in relatively stable neighborhoods is small and
+insigni?cant. However, unstable neighborhoods with just two FFLs per 10,000
+residents have robbery rates (40.05 per 10,000 residents) that are, on average,
+19.45 percent higher than unstable neighborhoods with no FFLs (34.28 per
+10,000 residents).
+In general, the patterns revealed by the models suggest that the presence of gun
+shops is associated with higher rates of homicide and robbery in neighborhoods.
+Furthermore, this relationship is more pronounced in neighborhoods character-
+ized by high levels of residential instability, particularly for traditional ?rearms
+dealers. In order to bolster these arguments, we run a series of supplemental
+models to address two important concerns: the age of our data and potential
+reverse causality.8 Our results and ?gures from these models are provided as
+supplementary material on the Social Forces website.
+Shifting opinions on ?rearms raise questions about the age of this data and its
+current relevance. In 2000, when the NNCS was collected, Gallup polls indi-
+cated that the majority of Americans (51 percent) felt that having guns in their
+homes would make them less safe, but opinions have shifted, so that now 63
+percent feel that having a gun in the home would make it safer (McCarthy
+2014). Additionally, the majority of Americans (56 percent) now think that the
+United States would be safer if more people carried concealed weapons
+(Newport 2015). Although urban residents remain more skeptical of gun rights
+than suburban or rural residents (Blocher 2013), temporal shifts in opinions on
+?rearms could change the relationship between gun shops and crime, especially
+given the role of perceptions in our theory.
+To address this concern, we have added a more recent time point.
+Unfortunately, there are no recent neighborhood crime datasets as large as the
+NNCS. To our knowledge, the most recent large-scale data collection effort is
+from a multi-city study on robberies and burglaries for the years 2006–20099
+(Baumer et al. 2014). We replicate our models on a subsample of this more
+recent data using tracts from metropolitan areas included in the NNCS, 2005
+data from the FFLD, and the 2005–2009 American Community Survey to cap-
+ture our social disorganization and control variables. We present results of these
+models in tables S1 and S2. Notably, the coef?cients for total FFLs and by store
+types are similar to those presented in table 3 from the NNCS and remain statis-
+tically signi?cant. However, unlike models using NNCS data, the coef?cients for
+interactions between FFLs and social disorganization variables are insigni?cant
+in more recent data. While these results provide some evidence that attitudes
+about ?rearms may be shifting somewhat, at least in neighborhoods with high
+levels of residential instability, there is little to suggest that ?ndings using the
+NNCS cannot be generalized to contemporary urban neighborhoods. Notably,
+the “main effect” coef?cients remain sizeable and signi?cant in all models.
+Additionally, as we discuss further in the conclusion, attitudes regarding ?re-
+arms in urban areas—the focus of this study—remain negative. Finally, it is pos-
+sible that the insigni?cant coef?cients observed for interaction terms in tables S1
+and S2 could be a function of the smaller sample size or characteristics of the
+more recent sample compared to the NNCS.
+Another concern with cross-sectional analysis is reverse causality. Speci?cally,
+the relationship between gun shops and violent crime could operate in the oppo-
+site direction from what we hypothesize. In this case, gun shops could be viewed
+as a reaction to homicides and/or robberies in a local area. Seeking self-
+protection, residents of high-crime neighborhoods may demand or provide a
+market for gun dealers. While it is impossible to rule this out of any cross-
+sectional analysis, we provide conceptual and empirical evidence supporting our
+argument that FFLs in?uence neighborhood violent crime, rather than crime
+in?uencing the location of FFLs. Retail development often follows reductions in
+crime (Stacy, Ho, and Pendall 2016), and high crime can stymie development in
+urban areas, regardless of any stimulus programs that local governments may
+put in place (Bowes 2007). It seems highly unlikely that FFLs would operate in a
+different manner. Indeed, descriptive results presented in table 1 suggest that
+crime rates are actually higher in neighborhoods without gun shops. To empiri-
+cally address the possibility of reverse causality, we rerun models on a subset of
+recent data from the multi-city study of neighborhood crime (Baumer et al.
+2014) and include a lagged indicator of robbery from the NNCS and present the
+results in table S3. If FFLs were opening as a result of neighborhood crime rates,
+then robberies in 2000 should completely explain the relationship between FFLs
+and robberies in 2006–2009. Although the coef?cient for our FFL variable is
+noticeably smaller in table S3, it remains signi?cant and positive.
+Discussion and Conclusion
+Existing research has suggested that local institutions can directly and indirectly
+in?uence crime rates. Routine activities theory suggests that institutions can
+directly in?uence crime by providing suitable targets and by concentrating
+potential victims, while social disorganization theory suggests that they can indi-
+rectly in?uence crime by signaling disorganization in a neighborhood, which can
+discourage social control efforts (Kubrin et al. 2011; Kubrin and Hipp 2014).
+Our research adds to this discussion by considering federally licensed gun shops
+as neighborhood institutions. We argue that along with providing opportunities
+for crime, gun shops could signal disorder and indirectly contribute to crime
+rates. To test this relationship, we employ multilevel Poisson models using data
+from the NNCS, FFLD, and NETS. Results from these models suggest that there
+is a relationship between gun shop presence and local crime rates in urban areas.
+Speci?cally, our results indicate that homicide and robbery rates increase as
+the number of gun shops in a neighborhood increases (weighted by the tract
+population). This relationship remains even after accounting for other factors
+associated with elevated crime rates at both the tract and metropolitan level. It
+also holds regardless of shop type, with one exception. Big box stores with gun
+licenses are not associated with higher homicide rates, though they are associ-
+ated with higher robbery rates. A possible explanation for this is that big box
+stores have differential effects on homicides and robberies. In short, the presence
+of a department store or sporting goods store could provide suitable targets for
+robbers, but not instill the same concerns about ?rearm presence that a tradi-
+tional dealer or pawn shop might. Further research is needed on this issue. The
+relationship between gun shops and crime appears to be entirely local. The effect
+of metropolitan-level gun shop presence on local crime rates is insigni?cant. This
+is consistent with our theory. We argue that gun shops foster crime directly by
+providing opportunities for crime and indirectly most likely by changing percep-
+tions of the neighborhood and instilling fear in residents that weakens social
+control efforts. The direct effect should be highly localized—if institutions are at-
+tracting crime because they provide a suitable target, the effect should not spread
+far beyond those targets. Likewise, one would not expect the effect of changed
+perceptions to spread far beyond the shop; a far-?ung dealer should not change
+people’s perceptions of the local neighborhood. Additionally, residents are
+unlikely to know how many shops exist in the metro, so metro-level shops
+should not affect their perceptions of gun presence. This ?nding also provides
+additional support for our theoretical claims. Existing research has shown that
+gun shop presence is a viable indicator of ?rearm prevalence at higher levels of
+aggregation, like urban counties (Wiebe et al. 2009). Given these ?ndings, me-
+tros with more gun shops should have higher levels of ?rearm prevalence than
+metros with fewer dealers. If crime results from increased gun presence, there
+should be higher crime rates in tracts in cities with more gun shops. The fact that
+we did not ?nd an association between local crime and metropolitan dealers sug-
+gests that crime is not resulting from guns themselves, but from a process speci?c
+to the shop, like the direct and indirect effects proposed above.
+Despite our strong, signi?cant ?ndings, there are some limitations to this anal-
+ysis. First, we focus solely on urban areas, which limits, to a certain extent, how
+broadly these ?ndings can be applied. This is not necessarily a shortcoming. Our
+hypothesized effects are most likely to occur in urban areas, given location-
+speci?c differences in opinions about ?rearms. Urban residents are not only less
+likely to own guns than suburban and rural residents, but are also more likely to
+support gun control and to hold negative views about ?rearms in general
+(Blocher 2013). Residents with such views are likely to be negatively in?uenced
+by gun shop presence. In this case, context matters. Individuals assess their risk
+of ?rearm violence based on culture and the everyday risks that they choose to
+increases, were. Adding gun shops to these neighborhoods could interrupt social
+control efforts and potentially trigger decline. It is plausible that selectively issu-
+ing local licenses to gun shops could help stymie decline and increases in crime
+in these fragile neighborhoods.
+We close with this ?nal comment. Leaving gun shop interventions to the
+neighborhood risks perpetuating inequality that already strati?es neighbor-
+hoods, making it more likely that already-organized (and thus likely lower-
+crime) neighborhoods will be successful, while disorganized neighborhoods will
+fail and become even more disorganized. So, regardless of the policy strategy
+pursued, efforts at limiting the effects of gun shop presence on neighborhood
+crime that come from outside the neighborhood (i.e., government action) are
+those with the greatest potential effect. Further research is needed to determine
+policy interventions that are both feasible and effective.
+Supplementary Material
+Supplementary material is available at Social Forces online, http://sf.
+oxfordjournals.org/.
+About the Authors
+Trent Steidley is an Assistant Professor in the Department of Sociology and
+Criminology at the University of Denver. His research explores how social
+movements, politics, and the criminal justice system interact to affect criminal
+justice outcomes and policy, particularly with regard to ?rearms. His work has
+David M. Ramey is an Assistant Professor of Sociology and Criminology at
+the Pennsylvania State University. His research and teaching interests include
+crime, deviance, and social control; community organization; and behavioral
+health across the life-course.
+Emily A. Shrider is a PhD candidate at Ohio State University. Her research
+focuses on neighborhood and metropolitan decline, immigration in the Rust
+Belt, the relationship between neighborhood structure and crime, and the effects
+of segregation on health outcomes. She recently coauthored an article in the

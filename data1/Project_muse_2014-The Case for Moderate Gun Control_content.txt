@@ -1,0 +1,738 @@
+Title:
+The Case for Moderate Gun Control
+Abstract:
+ABSTRACT. In addressing the shape of appropriate gun policy, this essay as-
+sumes for the sake of discussion that there is a legal and moral right to private 
+gun ownership. My thesis is that, against the background of this right, the most 
+defensible policy approach in the United States would feature moderate gun 
+control. The first section summarizes the American gun control status quo and 
+characterizes what I call “moderate gun control.” The next section states and 
+rebuts six leading arguments against this general approach to gun policy. The sec-
+tion that follows presents a positive case for moderate gun control that emphasizes 
+safety in the home and society as well as rights whose enforcement entails some 
+limits or qualifications on the right to bear arms. A final section shows how the 
+recommended gun regulations address legitimate purposes, rather than imposing 
+arbitrary restrictions on gun rights, and offers concluding reflections.
+----------------------
+Subtitles:
+
+ The Consequentialist Argument
+ The Rights-based Argument
+
+
+Text:
+----------------------
+2012 was yet another bad year for gun violence in the United States. 
+There were over a dozen mass shooting incidents with two standing 
+out as especially tragic. On July 20, James Holmes entered an Au-
+rora, Colorado, premiere of a Batman movie and, using an AR-15 assault 
+rifle supported by a 100-round ammunition clip, killed twelve people while 
+wounding 58 more before his gun jammed. On December 14, Adam Lanza 
+worked a Bushmaster assault rifle in killing his mother, twenty elementary 
+schoolchildren, six staff members, and himself in Newtown, Connecticut. 
+The latter rampage, especially the slaughter of young children at school, 
+prompted a national discussion of gun violence not seen in the US since 
+the attempted assassination of President Reagan. Whether any new gun 
+control measures will become federal law is uncertain, however; the US 
+Senate recently failed to muster enough support to bring a bill mandating 
+universal background checks to a vote.
+What is the shape of appropriate gun control in this country? In ad-
+dressing this question, the present essay will assume that there is a right,
+both legal and moral, to private gun ownership. More precisely, competent, 
+law-abiding adults in the United States have a right to own such ordinary 
+weaponry as handguns and long guns (shotguns and hunting rifles). Ac-
+cording to the US Supreme Court—whose judgment this essay accepts 
+for the sake of discussion—a legal right to bear arms is grounded in the 
+Second Amendment of the Constitution.1,2 A moral right to private gun 
+ownership, meanwhile, is most plausibly thought to be supported by a 
+more general right to self-defense, which itself may be understood to derive 
+from a basic right to physical security.3 Arguably, the prerogative to own 
+hunting rifles rests on one or more liberty rights. Although I believe that 
+the case for a moral right to bear arms is quite debatable, in this article I 
+simply grant its existence alongside the legal right.4 I do so because most 
+Americans believe in gun rights (CNN/Opinion Research Corporation 
+2008, 2009; Pew Research Center 2010; ABC News/Washington Post 
+2011), because the legal right has been asserted by the Supreme Court, 
+and because it is important to consider what sorts of gun control are 
+justifiable against this background of established law and broad public 
+conviction. This background is unlikely to change anytime soon, and we 
+need to determine how to proceed in addressing gun violence in America.
+My thesis is that, assuming there is a right to bear arms, the most de-
+fensible policy approach in the United States would feature moderate gun 
+control.5 The discussion proceeds as follows. The first section summarizes 
+the American gun control status quo and identifies several measures I will 
+have in mind in defending what I call “moderate gun control.” The next 
+section states and rebuts five leading arguments against gun control. The 
+section that follows presents a positive case for gun control that empha-
+sizes safety in the home and society as well as rights whose enforcement 
+entails some limits or qualifications on the right to bear arms. A final 
+section shows how the recommended gun regulations address legitimate 
+purposes, rather than imposing arbitrary restrictions on gun rights, and 
+offers concluding reflections.
+Currently, federal gun regulations in this country are extremely minimal. 
+Adults who lack any specific disqualifying criminal or psychiatric history 
+can easily purchase firearms. The Brady Handgun Violence Prevention 
+Act6 mandates background checks of gun buyers, but only if the seller is 
+a licensed dealer; private sales, including those at gun shows and those 
+conducted online, are exempt. Remarkably, records of background checks
+cannot be preserved because the Firearm Owners Protection Act7 prohib-
+its the creation of a national registry of gun ownership. This legislation 
+also limited the Bureau of Alcohol, Tobacco, and Firearms (ATF) from 
+inspecting gun dealers more than once a year and raised the standard of 
+proof needed to revoke their licenses. An amendment to a 2003 spend-
+ing bill prohibits law enforcement from publicly releasing data showing 
+where criminals purchased their firearms. As for the carrying of guns in 
+public, the only federal legislation is the Gun-Free School Zones Act8. 
+Meanwhile, 49 states permit the carrying of firearms and over 30 permit 
+carrying without a license. And since the expiration of the Federal As-
+sault Weapons Ban9 in 2004, guns that are legally available to the public 
+include not only long guns and handguns but assault weapons as well;10 
+also available, in addition to ordinary ammunition, are high-capacity clips. 
+It is worth recalling that the two deadliest rampages of 2012 featured as-
+sault weapons and high-capacity ammunition.
+I will defend considerably more gun control than currently exists. The 
+term “gun control,” as I understand it, refers to laws and policies designed 
+to restrict the manufacture, sale, purchase, possession, storage, transfer, 
+or use of firearms and/or associated ammunition. For convenience, I 
+will consider various gun control measures, defined in this way, along 
+with related political measures. In particular, I will defend the following 
+as additions to the minimal regulations that constitute the legal status 
+quo: (1) universal background checks; (2) a ban on assault weapons and 
+high-capacity magazine clips; (3) the requirement of a license for all new 
+gun owners, contingent upon passing a rigorous safety course; (4) safe 
+storage requirements and required safety features on all guns; (5) tracing 
+mechanisms on all guns and a national database of gun sales and gun own-
+ers; (6) “de-crippling” of the Bureau of Alcohol, Tobacco, and Firearms 
+(ATF); and (7) restoration of funding to the Centers for Disease Control 
+and Prevention (CDC) to study the relationships among gun ownership, 
+specific gun regulations, and gun violence. Although it will clearly stretch 
+the meaning of “gun control” to include (6) and (7) under the rubric of 
+this term, for the purposes of this paper it will be convenient to do so.
+I characterize these proposed regulations—considered together on top 
+of existing regulations—as moderate gun control. What, then, would 
+count as extensive gun control? The limiting case, of course, would be 
+an outright ban on private gun ownership. Short of that, extensive gun 
+control might include—in addition to measures collectively deemed “mod-
+erate”—severe limits on the number of guns one may purchase and own
+and/or a mandatory buy-back of previously purchased assault weapons. 
+It might also include a requirement that prospective gun buyers demon-
+strate a special need for owning a gun (e.g., inadequate police protection 
+in one’s neighborhood, a dangerous security job).
+Naturally, such terms as “moderate gun control” and “extensive gun 
+control” have no settled, precise meaning. Here I am just explaining 
+roughly what I will mean by these terms. Moreover, I do not intend to sug-
+gest that my arguments support precisely and only the measures I defend; 
+someone who accepts my arguments might propose a different—indeed, 
+a better—specification of the sorts of gun regulations that are justified 
+along the lines I intend. Later I will say more about what the measures I 
+defend have in common in terms of promoting safety and accountability 
+while respecting gun rights. This should help to establish these measures 
+as reasonable suggestions within the spirit of moderate gun control. 
+Why defend moderate rather than extensive gun control? Given the 
+background assumption of a right to gun ownership, extensive gun con-
+trol is considerably harder to defend. At the same time, I do not preclude 
+extensive gun control as the best approach.11 What this paper defends is 
+(at least) moderate gun control.
+Arguments against gun control are sometimes unclear regarding the ex-
+tent of regulation they oppose. It will be helpful, therefore, to reconstruct 
+existing arguments—the leading arguments against gun control of which I 
+am aware—such that they oppose moderate gun control as I have charac-
+terized it. I will state each argument in italics before advancing a rebuttal.
+1. Moderate gun control violates the Second Amendment of the American 
+Constitution: “A well regulated Militia, being necessary to the security of 
+a free State, the right of the people to keep and bear Arms, shall not be 
+infringed.” This statement establishes the right of private citizens to own 
+firearms, notwithstanding the distracting phrase about a militia. But the 
+sorts of regulation under consideration violate this right.
+This argument is unsound. As the Supreme Court clarified in its land-
+mark Heller case,12 the right to bear arms does not preclude significant 
+gun controls. In its 5-4 decision, the court’s majority deemphasized the 
+reference to a militia—as the above argument does—and explicitly stated 
+that a right to own guns is constitutionally protected for lawful activities
+such as self-defense in the home. But the court also explicitly allowed for 
+the constitutionality of significant gun regulations:
+In this passage the court is explicit that the assertion of a right to bear 
+arms does not imply the assertion of an absolute or unlimited right. In 
+fact, the court suggests several limits on gun rights that would pass con-
+stitutional muster. The last sentence, for example, clears legal space for a 
+ban on assault weapons.
+In thinking about gun rights, it is important to recognize that all rights 
+are limited in scope and at least most rights are subject to overriding. Even 
+gun enthusiasts do not claim that young children, the severely mentally ill, 
+or persons convicted of violent felonies have the right to bear arms. Gun 
+rights are limited, at a first approximation, to competent, law-abiding 
+adults. Moreover, few gun advocates would favor the legalization of ma-
+chine guns. Both of these limits—who is eligible to buy guns and what sorts 
+of guns are available—are limits in the scope of the right to gun ownership. 
+But rights can also be overridden by considerations of the public welfare 
+or by competing rights. This point is easily seen when we consider another 
+constitutional right: the right to free speech. As everyone accepts, while 
+this broad right protects nearly all public speech, it has limits. To cite the 
+classic example, one may not shout “Fire!” (falsely) in a crowded movie 
+house. One’s right to free speech is here overridden, and thereby limited, 
+by consideration of other movie-goers’ welfare.
+While the present rebuttal helps to show that the Second Amendment 
+is compatible with certain gun regulations, it does not show that every 
+measure I include under “moderate gun control” is constitutional. But I 
+see no good reason to doubt that the regulations I have in mind are con-
+sistent with a right to gun ownership. They serve the interests of safety 
+and accountability without substantially interfering with competent adults’ 
+ability to purchase and own guns for legitimate purposes. The claim that
+these regulations are consistent with the constitutional right will receive 
+further support from the discussions in the last two sections of this paper.
+2. Introducing moderate gun regulations would place us on a slippery 
+slope leading to a government ban on private gun ownership. Such a ban 
+would be unacceptable. Thus, any step that makes a ban inevitable—or 
+even much more likely—is intolerable. Since moderate gun control mea-
+sures would constitute such a step, they should be rejected.
+In rebutting this argument, we can grant the assumption that banning 
+guns would be unacceptable because we assume the existence of a right 
+to gun ownership. The problem with the slippery slope argument is its 
+claim that the introduction of moderate gun control measures would likely 
+lead to a ban on guns. Why should anyone believe this? Many countries 
+allow gun ownership with gun control far more restrictive than our own, 
+and it is hardly the case that they are also marching inexorably toward 
+gun bans. Indeed, some of these countries—such as Canada, Australia, 
+and several in Western Europe—have policies that amount to what we 
+have termed extensive gun control (see, e.g., Vernick, Hodge, and Webster 
+2007). At least as important is the Supreme Court’s finding that there is 
+a constitutional right to bear arms. In view of this decision by the highest 
+court, it is completely implausible that there could be a gun ban in this 
+country even if we enacted moderate gun control: such a ban would be 
+considered straightforwardly unconstitutional. Although slippery-slope 
+arguments against gun control are a favorite political tactic of the National 
+Rifle Association (NRA), they simply are not credible.
+Any readers who are nevertheless inclined to take slippery-slope argu-
+ments seriously may be reassured by the explicit pairing, in the final section, 
+of specific gun controls with particular purposes. The clear acceptability 
+of those purposes enables us to be confident that they justify only certain 
+types of gun control, not a ban, and that there is no reason to assume that 
+the regulations’ true motivation is to move toward one.
+3. The right to bear arms is a basic (or fundamental) moral right that 
+would be violated by moderate gun control. As a basic moral right, it 
+exists independently of the Constitution. Any legal regime that did not 
+protect the right to bear arms would represent a failure, for all basic moral 
+rights should be protected by law. The right’s status as basic implies that 
+it may be subject only to minor restrictions such as limiting eligibility to 
+competent, law-abiding adults. Such moderate restrictions as requiring a 
+safety course constitute excessive interference with the exercise of this right.
+This reasoning errs both in asserting that the right to gun ownership is 
+a basic moral right and, more importantly, in asserting that this right is 
+violated by moderate regulations. First, the moral right to gun ownership 
+is not basic. The concept of a basic right has been analyzed in various ways 
+(see, e.g., Gewirth 1978, Shue 1996, and Griffin 2008), so it is difficult to 
+avoid begging some questions in advancing a definition. Nevertheless, we 
+may understand basic moral rights as moral rights that (1) protect highly 
+general interests that are vital to the prospects for living a decent life and 
+(2) are not specifications or instances of more general rights. An example 
+of a basic right, which will be important to our discussion, is the right to 
+physical security. A derived right, by contrast, is a right that is derived—
+conceptually, empirically, or both—from one or more basic rights. The 
+right not to be assaulted can be derived from the right to physical security; 
+the former is one aspect of the latter. The moral right to gun ownership is 
+not basic because it is false that owning guns, in and of itself, is necessary 
+for the prospect of a decent life. For one thing, many people who have 
+decent lives do not have guns (or family members who do). In addition, 
+whatever value guns have must primarily concern their function—what 
+they can do (LaFollette 2000, 265–66). If guns didn’t protect anyone 
+from assault and didn’t work for hunting, they wouldn’t have their pres-
+ent value. This suggests that gun rights must be (1) derivative from more 
+general rights and (2) contingent upon their serving certain purposes. In 
+societies in which guns do not serve such purposes related to any basic 
+rights, there is no moral right to gun ownership. But, once again, we have 
+assumed that there is such a right in the US today.
+Suppose we granted (incorrectly) that this assumed right is a basic 
+moral right. It would not follow that it must be free of moderate limits or 
+regulations. The right to freedom of movement—a plausible candidate for 
+a basic moral right—does not permit me to walk onto private property or 
+into another person’s body without her permission. These are significant 
+limits on my right to free movement. Even basic rights may be subject to 
+significant restrictions.
+4. In the United States today, moderate gun control would threaten effec-
+tive self-defense (cf. Wheeler 1997 and Huemer 2003).14 The moral right 
+to gun ownership receives its strongest support from a broader right to 
+self-defense. (Let us use the term “self-defense” broadly, if slightly inac-
+curately, to refer to defense of oneself and others in the household.)15 Even 
+the legal right may be understood this way; the Supreme Court interpreted
+the Second Amendment as protecting a right to own guns in pursuit of 
+lawful objectives such as self-defense in the home. But surely the right to 
+self-defense includes a right to reasonably effective means of self-defense. 
+In this country today, many people cannot effectively defend themselves 
+without guns. Moderate gun control measures would substantially dimin-
+ish people’s ability to deploy guns in self-defense and are, for this reason, 
+unacceptable.
+Much of this reasoning is cogent. The argument plausibly grounds the 
+right to gun ownership in self-defense while insisting that what merits pro-
+tection is the means of effective self-defense. But the argument stumbles in 
+asserting that effective self-defense would (necessarily or even presumably) 
+be undermined by moderate gun control. After all, child-proof locks—
+one type of gun safety feature—can be quickly disabled if necessary to 
+confront an intruder. And it is hardly realistic that one needs an assault 
+rifle and high-capacity ammo to keep one’s family reasonably safe. Nor 
+does having to take a rigorous safety course before becoming a gun-owner 
+substantially interfere with one’s ability to defend oneself. Although this 
+requirement would cause some delay in being able to own and use guns 
+in self-defense, effective self-defense requires a skill set that a safety course 
+makes one far more likely to possess. Also, to anticipate a point that will 
+be developed in the following section, self-defense is not effective if one’s 
+storage and use of guns are unsafe and constitute a major threat against 
+the well-being of oneself and other individuals in the household.
+5. Moderate gun control is unacceptable because it would violate our right 
+to liberty. This violation would occur in several ways. First, by limiting 
+the weapons one may use and the circumstances under which one may 
+obtain them, moderate gun control would violate one’s liberty to defend 
+oneself as one sees fit. Second, by imposing these limitations, moderate 
+gun control would violate one’s liberty to recreate as one wants. Third, 
+with the sorts of interferences just described, moderate gun control would 
+violate one’s liberty to adopt a particular lifestyle.16
+Although this argument may resonate with many NRA members, it 
+is significantly wrong-headed and provides no good reason to oppose 
+moderate gun control.
+First, it is misleading at best to speak of a general “right to liberty”—to 
+do as one pleases—which is violated or overridden in every instance in 
+which one’s liberty is curtailed (Griffin 2008, chap. 9; Waldron 1993, chap. 
+2). It is not as if people have a right to enter my home without permission,
+but this right is overridden by my rights to property and physical security 
+and laws prohibiting trespass. Rather, whatever our morally protected 
+liberty includes, it does not include a prerogative to enter people’s homes 
+without permission. Instead of asserting a general right to liberty, it is more 
+perspicacious to assert specific liberty rights such as rights to freedom of 
+worship and freedom of expression. After the inapt reference to a “right 
+to liberty,” the present argument does refer to specific liberty rights, which 
+we may consider in turn.
+The argument asserts that gun control would violate a right to defend 
+oneself as one sees fit. Is there such a right? There is a right to self-defense. 
+And it makes sense that one should enjoy considerable discretion, in exer-
+cising this right, as to how one might defend oneself. But, surely, legitimate 
+discretion has limits. As the Supreme Court stated, the right to bear arms 
+“is not a right to keep and carry any weapon whatsoever in any manner 
+whatsoever and for whatever purpose.” From any reasonable perspective, 
+one may not defend oneself with a grenade launcher, bazooka, or nuclear 
+weapon, because those weapons are excessively dangerous and unneces-
+sary for the sorts of threats that homeowners may reasonably anticipate. 
+As will become clear in the next section, guns are also very dangerous in 
+the sense of posing significant risks not only to burglars and assailants, 
+but also to gun owners and others in their household. For this reason, 
+gun controls that are reasonably (but not excessively) responsive to these 
+risks do not violate one’s right to self-defense or one’s moral prerogative 
+to do so as one wishes, because the limits of that right and prerogative 
+are appropriately set by reasonable considerations of safety. I will argue 
+that moderate gun controls are justified in exactly this way.
+Consider now the assertion that moderate gun control would violate 
+one’s liberty right to recreate as one wants. Here the focus is on hunting, 
+which many people value as a means of recreation. In this paper, I set 
+aside the ethical issues associated with hunting and assume that Americans 
+today have a right to own hunting rifles and to hunt with them. The first 
+point to notice is that moderate gun control as envisioned in this paper 
+will pose no significant obstacle to hunting. Having to take a safety course 
+before buying one’s first gun, for example, is not a significant obstacle. 
+Second, as with the alleged right to defend oneself as one sees fit, there 
+is no unlimited right to recreate as one pleases. Obviously, one may not 
+shoot children for sport or own and use machine guns in hunting deer. 
+Is there, more plausibly, a right to recreate as one pleases so long as one 
+doesn’t harm others (or other human beings)? Not, I think, if one’s pleasure
+involves use of a weapon that it is excessively dangerous to allow private 
+citizens to obtain. Thus, an Old Chicago Mob Reenactors Club may be 
+prevented from buying machine guns.
+The third asserted liberty—to adopt a particular lifestyle—is much 
+broader than the first two. In fact, because the spirit of this appeal refers 
+to a lifestyle in which one celebrates gun ownership, the liberty in ques-
+tion really incorporates the two more specific liberties we have discussed. 
+Accordingly, the liberty to adopt a particular lifestyle is similarly bounded 
+by reasonable efforts to limit risks. Thus, this liberty right, properly un-
+derstood, is compatible with moderate gun control.17
+Having rebutted leading objections to moderate gun control, we turn 
+now to a positive case for this approach to gun policy.
+The Consequentialist Argument
+The consequentialist component of the case for moderate gun control 
+(which will be followed by a rights-based component) focuses on the 
+dangerousness of guns. This focus, to be sure, could support an argument 
+for extensive gun control, even a ban on firearms or some large category 
+of firearms such as handguns. But, as discussed earlier, the present dis-
+cussion takes the right to bear arms as a point of departure. Given that 
+starting point, the case for (at least) moderate gun control will appeal 
+to guns’ dangerousness and to the possibility of mitigating the relevant 
+dangers in justifying particular gun control measures. After all, danger-
+ousness comes in degrees. If a society has to accept certain things that are 
+inherently dangerous—whether guns, automobiles, or tackle football—it 
+makes sense to try to make them less dangerous within the constraints of 
+respecting people’s rights.
+The consequentialist argument begins with a thesis that addresses soci-
+ety’s interest in household safety while turning the most powerful argument 
+for gun ownership rights into an argument for gun control. The thesis 
+is that, in the United States today (in which gun control is minimal), the 
+presence of one or more guns in a house makes household members—on 
+average—less safe than they would be in a gun-free household. Available 
+evidence strongly supports the following more specific claims. First, having 
+a gun at home makes household members more likely to die by suicide 
+(Brent et al. 1991; Kellermann et al. 1992; Chapdelaine and Maurice 1996; 
+Conwell, Connor, and Cox 2002; Miller, Azrael, and Hemenway 2002; 
+Miller and Hemenway 2008). Second, the risk of death by homicide is
+much greater in homes with guns than in gun-free homes (Kellermann et 
+al. 1993; Wiebe 2003a). Third, domestic violence is much more likely to 
+prove lethal if guns are present in the home (Saltzman et al. 1992; Camp-
+bell et al. 2003). Fourth, the risk of accidental death increases markedly 
+in households with guns (Miller and Hemenway 2001; Wiebe 2003b). 
+Overall, having guns at home increases the risk of household members’ 
+suffering a violent death. Another study—which is only partly relevant 
+to our discussion because it considered assaults both in and outside the 
+home—concluded that assault victims who possessed a gun were far more 
+likely to be shot than assault victims who did not possess a gun (Branas 
+et al. 2009).
+Thus, available evidence strongly supports the thesis that owning guns 
+for the purpose of self-defense—at least in the United States today (in 
+which gun control is minimal)—tends to be self-defeating: household 
+members, on average, face a greater chance of suffering a violent death 
+if the house contains one or more guns than if the house is free of fire-
+arms. The qualification “on average” should not be overlooked. For the 
+thesis is not that gun ownership is necessarily self-defeating for every 
+individual who owns guns; gun ownership might, on balance, be neutral 
+or even safety-enhancing for some individuals and households depending 
+on their circumstances, their knowledge of gun safety, particular features 
+(e.g., safety features) of the guns they own, and other details. As things 
+stand, however, gun ownership in the United States today tends to be 
+self-defeating from a safety standpoint.
+Proponents of a right to commit suicide might respond that we should 
+ignore the many cases in which guns kept at home are used for this pur-
+pose. After all, we do not normally think of self-defense as being necessary 
+against oneself. But this response to the present argument does not cast 
+significant doubt upon it, for several reasons.
+First, even if we acknowledge a right to commit suicide, from any 
+reasonable perspective the vast majority of suicides must be regarded as 
+tragic. It is not very often that we carefully reflect upon the circumstances 
+of someone who committed a suicide and think, “Yes, suicide was the 
+very best option for that individual.” Sometimes we may, but not very 
+often—especially when the victim of suicide is a child, a mentally ill person, 
+or someone who acts impulsively. Often those who commit suicide are 
+unaware of, or are momentarily unable to appreciate, the prospects for 
+their lives going better. In a very real sense, then, many people who feel a 
+desire to commit suicide do need protection against themselves.
+Relatedly, if there is a right to commit suicide, it is plausibly limited 
+to suicidal choices that are genuinely autonomous—choices, that is, that 
+are carried out voluntarily (not primarily driven by external pressures or 
+internal compulsions) with an adequate understanding of one’s realistic 
+options (including those involving available forms of help), and with the 
+psychological capacity to appreciate those options (as opposed to devaluing 
+them due to the distorting effects of depression). An autonomous choice 
+will accord with one’s values and stable preferences. Some suicides commit-
+ted with the help of a physician meet these criteria; no doubt some suicides 
+committed without such help do as well. But, of course, one doesn’t need 
+a gun to commit suicide autonomously. And the presence of guns makes it 
+more likely that one will kill oneself impulsively and non-autonomously. 
+Thus, a right to commit suicide, plausibly construed, will not undermine 
+the thesis that gun ownership for the purpose of self-defense is, on aver-
+age, self-defeating.
+While the first thesis in the consequentialist argument for moderate 
+gun control concerns safety in the home, the second concerns safety in 
+the broader society. The second thesis is that widespread availability of 
+guns makes a society less safe—as indicated by the fact that gun owner-
+ship rates within a population correlate significantly with murder rates 
+in that population. This point has been amply demonstrated both within 
+the United States and internationally.
+As for domestic comparisons, a literature review found that in American 
+cities, states, and regions (as well as across high-income nations), where 
+there are more guns, people are at higher risk for homicide (Hepburn 
+and Hemenway 2004). Another study, comparing state firearm levels and 
+controlling for poverty, urbanization, and region, found that children and 
+adults, men and women, and members of all racial groups are significantly 
+more likely to die from unintentional gun deaths if they live in states with 
+higher levels of gun ownership (Miller, Azrael, and Hemenway 2001). 
+Focusing on children, a third study concluded that a disproportionately 
+large number of five- to fourteen-year-olds died from homicides, uninten-
+tional firearm deaths, and suicides in regions and states where guns were 
+more prevalent (Miller, Azrael, and Hemenway 2002a). The basic picture 
+of more guns in a part of the US correlate with more homicides has been 
+confirmed in many studies (Miller, Azrael, and Hemenway 2002b, 2007; 
+Violence Policy Center 2013).
+A similar pattern emerges in international comparisons. Higher rates of 
+gun ownership correlate significantly with higher rates of homicides and
+suicides (Lester 1991; Killias 1993a, 1993b; CDC 1997; Hemenway and 
+Miller 2000). It bears emphasis that we are talking about rates within a 
+given population size, not total numbers, making comparisons between 
+the United States and smaller countries more meaningful. A 2007 study, 
+which estimated gun ownership rates among a large number of countries, 
+found that the US leads the world with 89 guns per 100 people, with 
+Yemen a distant second at 55 guns per 100 people (Geneva Graduate 
+Institute of International Studies 2007). Meanwhile, the US gun homi-
+cide rate is 30 times that of Australia or France, and twelve times as high 
+as the average for other developed countries (United Nations Office on 
+Drugs and Crime 2011). Moreover, a disproportionate number of victims 
+are children. A major Centers for Disease Control and Prevention (CDC) 
+study found that the firearm death rate among American children was 
+almost twelve times higher than the average rates of 25 other developed 
+countries (1997). The inescapable fact is that the US has enormously high 
+rates of gun violence and gun ownership—and it is obvious that easy ac-
+cess to guns has a great deal to do, causally, with the frequent occurrence 
+of American gun tragedies.
+One reporter who studied the international data appealed both to the 
+data and to common sense:
+It is true that “correlation does not entail causation.” It is logically pos-
+sible that the correlations under consideration do not reflect a causal 
+relationship between gun ownership rates and death rates. But to deny 
+the causal relationship is enormously implausible. Other factors, such as 
+incidence of mental illness and willingness to kill, cannot account for such 
+huge differences in rates.
+John Lott, a prominent opponent of gun control, dismisses international 
+comparisons, stating that “it is difficult to obtain gun ownership data both 
+over time and across countries, and to control for all the other differences 
+across the legal systems and cultures across countries” (2010, 116). Lott
+is right about the methodological challenges posed by international com-
+parisons, but to disregard international data seems irresponsible (as well 
+as convenient for one who opposes gun control). Moreover, if we dig a 
+bit deeper into the data, the picture becomes clearer. For example, in a 
+comparison of homicides of children from ages five to fourteen among 26 
+wealthy nations, the US rate was 17 times the average of the other coun-
+tries in homicides involving guns but only twice as high in homicides not 
+involving guns (and six times as high overall); meanwhile, in the same age 
+group, the US suicide rate was 10 times the average of the other countries 
+where guns were used but approximately the same where guns were not 
+used (and twice as high overall) (Hemenway and Miller 2000). These data 
+cannot be satisfactorily explained without recognizing gun availability as 
+a significant causal factor (LaFollette 2001, 36–37).
+Other things being equal, the more guns are available for a popula-
+tion of a given size, the more murders, suicides, and accidental killings 
+there will be. This fact recommends moderate gun control in the interest 
+of promoting public safety. There are two basic ways to understand this 
+point. First, if we think of gun control (as opposed to a gun ban) as not 
+affecting the quantity of guns in a society, we may reasonably judge that we 
+should make these dangerous weapons less dangerous through appropri-
+ate gun regulations. Alternatively, if we think of gun control as affecting 
+the quantity of guns—for example, by restricting who can purchase guns 
+and instituting universal background checks—we may reasonably judge 
+that reducing gun ownership rates is a way of decreasing the harm likely 
+to be caused by these weapons. Both of these judgments make good sense.
+Thus, society’s interests in both household safety and public safety serve 
+as the basis for a commonsensical, consequentialist argument in favor of 
+moderate gun regulations that are designed to promote safety without 
+violating, or unduly restricting, the right to bear arms.
+The Rights-based Argument
+Careful reflection on our moral rights strengthens the case for moderate 
+gun control. This is very important because some gun advocates believe 
+that duly accounting for gun rights defeats the case for gun control by 
+trumping consequentialist arguments in its favor. Let’s see why they are 
+mistaken.
+People have a basic right to physical security. Although some of the 
+details of what this right comes to—some of its implications—are contro-
+versial, some of its implications are not particularly controversial. For ex-
+ample, there are rights not to be assaulted, raped, murdered, and tortured. 
+There is also, again, a right to self-defense, which permits one to try to 
+prevent others from violating one’s rights not to be assaulted, etc. These 
+rights all derive from a basic right to physical security. As we have seen, 
+if there is a right to gun ownership—as we have assumed there is—this 
+right is most plausibly thought to derive from the right to self-defense, 
+which in turn is supported by one’s basic right to physical security. But 
+this same basic right also supports moderate gun control.
+The crucial point is that one’s rights not be assaulted, etc. need to be 
+enforced if they are to be meaningfully honored.18 Enforcement, of course, 
+has costs. For example, your right to walk around in public free of assault 
+requires a reasonably effective police force and court system to punish 
+violators and deter prospective violators. Maintaining a police force and 
+a court system is costly, but the costs—which are imposed on taxpay-
+ers—are justified as a price to pay for the meaningful protection of one’s 
+rights not to be assaulted, etc. This, so far, is just common sense. After 
+all, nonenforcement also has costs including a lot more assaults, rapes, 
+and murders. These costs are unreasonably high, so they help to justify 
+the costs of enforcement.
+Now consider guns and household safety. Assume, as we have through-
+out the essay, that competent adults have a right to own guns. This right 
+encompasses many prerogatives or specific freedoms, such as the option to 
+brandish a gun if an intruder intrudes, while presumably excluding some 
+others, such as shooting up one’s guests without provocation. Consider 
+now the specific freedom to leave a gun lying around the house unsecured. 
+Suppose we propose that gun-owners have no right to do that; their gun 
+rights do not encompass this prerogative but instead are limited by a 
+requirement to store guns safely. This limit on gun-owners’ rights would 
+entail a cost involving some inconvenience. But consider the costs of not 
+imposing this limit: household members are more likely to be killed or 
+seriously injured through accidental, reckless, or homicidal gunfire. The 
+point is especially clear in the case of child victims. They have a right not 
+to be seriously injured or killed by gunfire. The costs to children (and 
+other potential shooting victims in the household) of not requiring safe 
+storage of weapons are very high. The costs to gun-owners of having to 
+store their weapons safely are small. Here the gun-owners’ interest in do-
+ing as they please with their guns needs to be balanced against household 
+members’ interest in not being shot. The balancing favors limiting the 
+gun-owners’ rights: they should be required to store their weapons safely
+as a reasonable measure to protect household members’ right not to be 
+killed or seriously injured by gunfire.
+The argument so far has discussed moderate gun control as part of 
+what is necessary to protect people’s rights not to be assaulted, etc. In 
+the case of children, another right comes into play: their right not to die 
+or be seriously injured as a result of gross negligence. If parents leave an 
+opened bottle of liquid bleach around so that it is easy for their young 
+child to drink it, and the child does so, then she is a victim of her parents’ 
+gross negligence. If a society allows people to keep unconstrained lions in 
+their home and one such lion eats a couple’s child, the child is a victim of 
+the society’s (and probably her parents’) gross negligence. Children have 
+a right not to be seriously harmed as a result of gross negligence just as 
+surely as they and adults have rights not to be assaulted, killed, raped, or 
+tortured. These rights derive from a basic right of physical security, the 
+same basic right that undergirds the right to self-defense and the more 
+specific right of gun ownership.
+Because the right to gun ownership, on the one hand, and rights not to 
+be assaulted, etc., and children’s right not to be seriously harmed through 
+gross negligence, on the other, are in tension, the appropriate boundaries 
+of each must take the other rights into consideration. Given our assump-
+tion that there is a right to gun ownership, it would be improper to ban 
+guns in the name of enforcing the various rights that may be violated in 
+the household due to improper gun use. By the same token, the latter 
+rights would not be duly respected if we interpreted gun rights so capa-
+ciously as to preclude gun control measures that are reasonably related 
+to household safety.
+So far we have been discussing the rights of household members as a 
+basis for moderate gun control. Similar reasoning applies to members of 
+society in general, whether they are at home or out in public. Everyone 
+has rights not to be assaulted, etc., and therefore a right not to be shot. 
+Responsible efforts to enforce this right include efforts aimed at public 
+safety in the form of moderate gun regulations. 
+It is paramount to appreciate that the rights-based argument is not a 
+redundant overlay to the consequentialist argument for moderate gun 
+control, even if both arguments are tightly connected with considerations 
+of safety. After all, many rights theorists think of rights as (ordinarily) 
+trumping appeals to the general welfare or consequentialist considerations 
+and constraining attempts to promote the general welfare (Dworkin 
+1977; Nozick 1974). Hughes and Hunt, for example, state that “from
+a liberal point of view, the mere fact that a policy could save lives is not 
+a sufficient reason for adopting it. [T]he pursuit of all social goals . . . is 
+constrained [by individuals’ rights]” (2000, 2; see also Huemer 2003).19 
+Rights are so important, from this perspective, that they should generally 
+not be overridden even when a clear gain in overall utility is in prospect. 
+My discussion of rights neutralizes the claim of some gun advocates that 
+because we have rights to gun ownership, appeals to safety in the household 
+and safety in society are irrelevant. It neutralizes this claim by showing 
+that, in addition to gun rights, there are other rights that come into play. 
+Proper enforcement of the latter rights, as we have seen, requires limits 
+on the gun rights. These limits are characterized by moderate gun control. 
+What remains is to show that the particular regulations I recommend are 
+justified in a way that is responsive to the case for moderate gun control 
+presented in this section.
+Let us consider the measures enumerated earlier as characterizing 
+moderate gun control. Each measure will be shown to be justified by be-
+ing reasonably related to the goal of promoting safety—and, in parallel 
+fashion, reasonably related to the enforcement of people’s rights not to be 
+assaulted, etc., and children’s right not be seriously harmed as a result of 
+gross negligence. This will not only complete the case for moderate gun 
+control. It may also reassure readers who are especially fearful of govern-
+ment intrusion, including those who worry about a slippery slope leading 
+to a gun ban, by showing that each recommended regulation is consistent 
+with the assertion of a right to bear arms rather than arbitrarily limiting 
+gun owners’ liberty.
+Universal background checks.20 The purpose of this measure is to ensure 
+that people who ought to be ineligible to buy guns—including felons, fugi-
+tives from justice, and the seriously mentally ill—cannot purchase them 
+from friends, associates, or non-licensed dealers at gun shows or online. 
+Successful exclusion of these individuals from gun purchases obviously 
+promotes safety in exactly the same way that currently mandatory back-
+ground checks (for sales by licensed dealers) do. Like most of the other 
+measures proposed here, this one would be prospective—applying only 
+to transactions that take place after passage of the relevant law. There 
+would be no practical way of trying to enforce background checks on 
+sales made prior to that time.
+Ban on assault weapons and high-capacity magazine clips. These weap-
+ons and this ammunition are extremely dangerous and unnecessary for the 
+legitimate purposes of household defense and hunting. They have enabled 
+some of the worst rampages in recent American history. The purpose of 
+the ban is to reduce the chances of massacres such as those that took 
+place at Columbine High School, the Aurora, Colorado, movie theatre, 
+and the Newtown, Connecticut, elementary school. This ban, too, should 
+be prospective—although it could be coupled with a voluntary buy-back 
+program of assault weapons and high-capacity clips in circulation. Because 
+such a buy-back program would be voluntary, it could not be accused of 
+restricting anyone’s liberty, much less of violating anyone’s rights.
+Requirement of a license for all new gun owners, contingent upon 
+passing a rigorous safety course. The United States has long required 
+prospective drivers to obtain a license before being permitted to drive an 
+automobile. Obtaining the license is contingent upon passing a driving 
+test and a written test, after considerable hours of practice, where the tests 
+are designed to assess basic competence. Although prospective drivers are 
+inconvenienced by these requirements, everyone is safer because of them. 
+In a similar way, everyone would be safer if prospective gun owners had 
+to take a course and pass a test designed to assess basic competence with 
+the storage and use of firearms.21 The right to bear arms is not a right to do 
+so without restrictions, and this particular restriction is reasonably related 
+to household and public safety. This measure, too, would be prospective, 
+applying only to those who purchase guns after the new law was in effect. 
+As far as I can see, there would be no reason not to apply the requirement 
+to individuals who had obtained guns prior to the law’s passage but wish to 
+purchase more guns after that time. The purpose of the regulation would 
+be to reduce the chances of accidental killings and injuries.
+Safe storage requirements and required safety features (e.g., child-proof 
+locks) on all guns. The purpose of these closely related requirements, 
+which can remain vague for the purposes of this paper, is to reduce the 
+chances that a child will be able to commandeer and fire a gun. The stor-
+age requirements would be both prospective and retrospective in that 
+they would apply to all guns no matter when they were purchased. The 
+required safety features would apply only to guns manufactured after a 
+legally determined date.
+Effective tracing mechanisms on all guns and a national database of gun 
+sales and gun owners. The purpose of these measures is to facilitate law 
+enforcement and thereby public safety. This includes the fighting of illegal
+traffic in firearms and the prosecution of those who fail to conduct, or 
+ignore the results of, background checks. Tracing mechanisms—preferably 
+less easily expunged than ordinary serial numbers—would be required of 
+all guns manufactured in the United States after a specified date; after a 
+possibly later date, all guns bought or sold in the US (even if manufactured 
+in another country) would have to have this feature. All new gun owners, 
+following passage of the relevant law, must be registered in a national 
+database, a measure that should be relatively easy to implement given the 
+universal licensing requirement.
+“Decrippling” of ATF. The NRA-sponsored budgetary and leadership 
+crippling of the ATF (Horwitz and Grimaldi 2010; Higham et al. 2012; 
+O’Keefe and Rucker 2013) should be reversed so that the bureau can 
+have adequate staff and resources to do its job.22 The ATF should be freed 
+of NRA-sponsored restrictions that have interfered unreasonably with 
+law enforcement. For example, the law that prevents information about 
+guns found at crime scenes from being made publicly available should be 
+reversed. If, for example, drug lords or Mafiosi have been illegally obtain-
+ing and using guns obtained from a particular dealer in Ohio or Texas, 
+it should be possible for both ATF officials and the public to learn about 
+the pattern. ATF inspectors should not be restricted to one visit to gun 
+dealers per year and should not bear an unreasonable burden of proof to 
+revoke licenses. The purpose of these changes would be to strengthen law 
+enforcement and thereby promote public safety.
+Restoration of funding to the CDC to study the relationships among 
+gun ownership, specific gun regulations, and gun violence. Consider this 
+remarkably direct statement about the NRA’s impact on the CDC through 
+a co-opted Congressman:
+The purpose of the present measure would be to enhance public un-
+derstanding of gun ownership, its risks, the effects of particular gun 
+regulations, and the advantages of taking safety requirements and other 
+appropriate regulations seriously.
+This completes a brief sketch of specific measures that I recommend 
+in the name of moderate gun control. Obviously, and to understate the 
+point, to enact the full extent of these measures would be uncharacteristic 
+of our governmental leadership and political culture. But, when it comes 
+to guns, this leadership and this culture have long been dominated by 
+the NRA and the interests of gun manufacturers (Horwitz and Grimaldi 
+2010; Higham et al. 2012; Luo 2013; McIntyre and Luo 2013). The gun 
+lobby has its handprints on many of our extreme and bizarre gun laws, 
+such as those that make it easy for criminals to buy guns—indeed, assault 
+weapons—and those that interfere with law enforcement while eviscerat-
+ing accountability for gun dealers and manufacturers. As one gun scholar 
+put it, “The NRA often has this line, ‘Why don’t we enforce the laws on 
+the books?’ but for the last few decades they’ve been making it harder 
+and harder for federal agencies to do that.”23 In addition, the NRA helped 
+to manufacture a legal literature that was cited by the bare majority of 
+Supreme Court justices who—quite debatably—minimized the reference 
+to militias in the Second Amendment and declared a constitutional right 
+to gun ownership (Finn 2013). In this essay I have simply assumed the 
+existence of both a legal and moral right to gun ownership, taking this 
+right as a fixed point for the foreseeable future. Given this fixed point, our 
+question has been how we ought to proceed in view of the current state 
+of American gun violence.
+This essay has underscored the compatibility of gun rights and moderate 
+gun control. It is the author’s hope that the present discussion will be part 
+of a growing body of ethics literature that helps to correct the intellectual 
+distortions, suppression of information, and legislative failures that have 
+been promoted by the gun lobby and accepted by government officials who 
+fear its leadership. We owe it to ourselves, and especially our children, to 
+do all we reasonably can to stem gun violence and achieve safety in our 
+homes and schools and on the streets. We owe it to the memory of twenty 
+schoolchildren who were recently slaughtered by a disturbed young man 
+who was able to commandeer an assault rifle and high-capacity ammuni-
+tion owned by his mother. The time has arrived for moderate gun control 
+in the United States.
+I would like to thank Hugh LaFollette and members of the National 
+Institutes of Health Department of Bioethics, especially Joe Millum, for 
+helpful feedback on a draft of this paper. I am also grateful to two external 
+reviewers, especially one who provided detailed and perceptive criticisms.

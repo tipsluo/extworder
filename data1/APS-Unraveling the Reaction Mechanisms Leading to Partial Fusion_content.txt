@@ -1,0 +1,298 @@
+Title:
+Unraveling the Reaction Mechanisms Leading to Partial Fusion of Weakly Bound Nuclei
+
+Abstract:
+Collisions between complex nuclei may give rise to their total or partial fusion. The latter case is found
+experimentally to gain importance when one of the colliding nuclei is weakly bound. It has been commonly
+assumed that the partial fusion mechanism is a two-step process, whose first step is the dissociation of the
+weakly bound nucleus, followed by the capture of one of the fragments. To assess this interpretation, we
+present the first implementation of the three-body model of inclusive breakup proposed in the 1980s by
+Austern et al. [Phys. Rep. 154, 125 (1987)] that accounts for both the direct, one-step, partial fusion and the
+two-step mechanism proceeding via the projectile continuum states. Contrary to the widely assumed
+picture, we find that, at least for the investigated cases, the partial fusion is largely dominated by the direct
+capture from the projectile ground state.
+
+----------------------
+
+
+Text:
+----------------------
+Introduction.—The understanding of fusion in collisions
+of composite nuclei is a problem of utmost importance in
+various fields and applications, such as in reaction networks
+taking place in astrophysical scenarios [1], the production
+of new elements (e.g., Refs. [2,3]), and energy production
+[4], among others.
+The first theoretical explanation of fusion started with the
+seminal work of Bohr [5], who described the process as the
+complete merging of the colliding nuclei, giving rise to a
+compound nucleus, which eventually dissociates by par-
+ticle and gamma-ray emission. This appealing picture was
+soon found to break down in a number of situations. For
+example, in the 1930s, Oppenheimer and Phillips [6] tried
+to explain the excess of protons in sub-Coulomb deuteron-
+induced reactions by invoking a partial absorption mecha-
+nism, in which only the neutron was captured by the target,
+favored by the weak-binding and large spatial extension of
+the deuteron. The idea of partial fusion was revived by Baur
+and collaborators in the 1970s to account for the large
+yields of proton singles in deuteron induced reactions at
+Ed ¼ 25 MeV on a number of targets [7,8]. The process
+was described as a two-step reaction, and coined breakup
+fusion (BF), in which the first step is the breakup of the
+projectile into p þ n, and the second step is the absorption
+of the neutron by the target nucleus. More refined theories
+were subsequently developed by Udagawa and Tamura [9]
+and Ichimura, Austern, and Vincent (IAV) [10]. More
+recently, the BF mechanism has been invoked to explain
+the phenomenon of complete fusion suppression observed
+in the above-barrier nuclear collisions with weakly bound
+nuclei, such as 6;7;8Li and 9Be [11–17]. This suppression
+amounts up to ?30% for these nuclei, is roughly indepen-
+dent of the target nucleus, and is typically accompanied by
+significant yields of evaporation products compatible with
+the partial absorption of the projectile, also referred to as
+incomplete fusion (ICF). However, some recent experi-
+mental results [18] suggest that the ICF products are
+compatible with a direct, one-step mechanism, thus putting
+into question the BF picture.
+From the theoretical point of view, the situation is also
+unclear. Different models have been proposed to account
+for this CF suppression and the related ICF cross sections,
+including classical [19,20], semiclassical [21,22], and
+quantum-mechanical [23] approaches. Most of them
+exploit the two-step, breakup-fusion picture. Although in
+most calculations the coupling to the breakup channels was
+found to produce a reduction of CF, the predicted sup-
+pression is systematically too small.
+In a recent work [24], we presented a novel approach
+which provides CF and ICF cross sections within a
+common framework. Furthermore, the model was able to
+account for the observed CF suppression in the 6;7Li þ 209Bi
+reactions, for a wide range of incident energies. Despite the
+good agreement with the data, the calculations of Ref. [24]
+were not able to answer the important question on whether
+the ICF proceeds as a two-step process, as assumed by the
+BF picture, or it is actually a one-step mechanism. The
+reason is that those calculations were done with the DWBA
+version of the IAV model. As such, the entrance channel
+was described with an effective optical potential reproduc-
+ing the corresponding elastic scattering data. Although the
+success of the DWBA approximation to explain these and
+other inclusive breakup data suggests the dominance of the
+one-step mechanism over the BF mechanism, the fact that
+the entrance channel optical potential used in DWBA is
+commonly adjusted to reproduce the elastic scattering data
+implies that this potential may implicitly include breakup
+contributions corresponding to situations in which the
+projectile dissociates prior to its total or partial absorption
+by the target, which correspond to the first step of the BF
+mechanism.
+It is the goal of this work to elucidate the nature of the ICF
+process and, in particular, to assess the validity of the BF
+picture. For that, one needs a model that incorporates
+explicitlytheintermediate breakup channels of the projectile.
+Such a model was in fact put forward by Austern al. [25]
+in a three-body version of the IAV theory, in which the
+entrance channel wave function was described using an
+expansion in projectile eigenstates. This three-body wave
+function is identical tothat used in thecontinuum-discretized
+coupled-channels (CDCC) method so we will refer to this
+extended IAVmodel asIAV-CDCC. This IAV-CDCChas not
+been applied in practice due to its numerical complexity.
+In this work we present the first implementation of the
+IAV-CDCC theory and apply it to several reactions induced
+by weakly bound projectiles. In addition to disentangling
+the nature of the ICF process, this study will serve to assess
+the accuracy of the commonly adopted DWBA approxi-
+mation of the IAV model.
+Theoretical framework.—We consider a process in
+which a two-body projectile a ¼ b þ x collides with a
+target nucleus A, emitting the fragment b. Schematically,
+where B denotes any possible final state of the x þ A
+system. This includes the elastic breakup (EBU) process, in
+which both b and x scatter elastically from A, and hence the
+latter is left in its ground state. The other contributors,
+which we call globally nonelastic breakup (NEB), are
+those in which x undergoes a nonelastic interaction with
+the target, including x þ A inelastic scattering, nucleon
+exchange between x and A, and fusion. The latter corre-
+sponds to the incomplete fusion process mentioned in the
+introduction.
+The ICF is usually interpreted as a two-step process
+[9,26–30]. For a two-body weakly bound projectile a with a
+target A, such a process may symbolically be written as
+In this picture, the projectile is first excited into its
+continuum states and then one of the fragments (x in this
+case) is absorbed by the target. However, the same final
+state can in principle be reached via the direct, one-step
+process in which the x fragment is directly absorbed by the
+target nucleus, without the intermediate breakup states, as
+implied by recent experimental results [19,20]. This proc-
+ess is possible invoking, for example, a trojan horse (TH)
+mechanism [24]. These two possible scenarios are depicted
+in Fig. 1.
+To disentangle the nature of ICF, we make use of the
+three-body theory proposed by Austern et al. [25] (the
+IAV-CDCC model referred to in the introduction), in which
+the NEB cross section for the inclusive process Aða; bXÞ is
+given by the closed-form formula
+where ?bðEbÞ is the density of states of the particle b,
+va is the velocity of the incoming particle, UxA is the
+optical potential describing x þ A elastic scattering, and
+?xðkb;rxAÞ is arelativewave functiondescribingthe motion
+between x and A when particle b is scattered with momen-
+tum kb. This function is obtained from the equation
+?xðkb;rxÞ ¼ Gxðrx; r0xÞhr0x ?ðb?ÞjVpostj?3bðþÞidr0x ð4Þ
+where Gx is the Green’s function with optical potential UxA,
+?ðb?Þðkb; rbÞ is the distorted wave describing the relative
+motion between b and B compound system (obtained with
+some optical potential UbB), Vpost ? Vbx þ UbA ? UbB is
+the postform transition operator and ?3bðþÞ the three-body
+scattering wave function. Note that the imaginary part of
+UxA accounts for all nonelastic processes between x and A
+and hence Eq. (3) includes the ICF as well as other NEB
+contributions. Further details can be found in Ref. [31] and
+in the Supplemental Material, Sec. II [42].
+The exact wave function ?3bðþÞ appearing in Eq. (4)
+could, in principle, be obtained by solving the Faddeev
+equations [32]. However, due to its numerical complexity
+and to the nontrivial definition of the three-body boundary
+condition [33], Austern et al. [25] proposed as an alter-
+native approximating this three-body wave function by an
+expansion in terms of b þ x states, including continuum
+components, i.e.,
+where f?iaðrbxÞ; ?aðk; rbxÞg are the eigenfunctions of the
+projectile Hamiltonian for bound and continuum states,
+respectively, with i a discrete index for projectile bound
+states, and k the asymptotic momentum of b þ x scattering
+states. The distorted waves f?iaðþÞðraÞ; ?ðaþÞðK; raÞg
+describe the projectile-target relative motion for each
+projectile state. For continuum states, these functions
+depend on the momentum K, which is related to the
+internal momentum k by energy conservation. To make
+Eq. (5) calculable, the integral over continuum states is
+approximated by a discrete expansion in a basis of square-
+integrable functions, as done in the so-called continuum-
+discretized coupled-channels (CDCC) method [25,34],
+?caðkc; rbxÞ?caðþÞðKc;raÞ; ð6Þ
+where c ¼ fn;j;mg, with j, m the angular momentum and
+projection of the continuum states and n a discrete index
+labeling the discretized continuum states. The maximum
+angular momentum j and wave number k is determined by
+convergence of the studied observables. In the present
+calculations, we adopt the standard binning method
+[25,34], in which the discretized continuum states are
+represented by wave packets built upon superposition of
+the b þ x scattering states for predefined energy intervals
+(bins). The widths of these bins must be chosen small
+enough so as to produce converged elastic and breakup
+observables. The radial functions ?iaðþÞðraÞ and ?caðKc; raÞ
+are obtained by solving a system of coupled-differential
+equations [25,34].
+Inserting the CDCC wave function (6) into Eq. (4) yields
+a full three-body description of NEB cross sections. In
+addition, one can isolate the direct, one-step mechanism
+contribution by retaining only the ground-state component
+of Eq. (6) in Eq. (4). This approximation will be referred to
+as IAV-CDCC (g.s.) in the calculations presented below.
+We conclude this section by noting that one could in
+principle estimate the ICF content of the NEB cross section
+by splitting in Eq. (3) the potential UxA into an inner part
+and a peripheral one, with the former accounting for the
+ICF [35–37]. We prefer, however, to focus the discussion
+on the full NEB to avoid the ambiguity inherent to this
+separation.
+Application to the deuteron and 6Li induced reactions.—
+We first consider the breakup reaction 93Nbðd; pXÞ at
+Ed ¼ 25.5 MeV. This reaction was already analyzed in
+our previous work [31] with the DWBA version of the IAV
+model, finding a good agreement with experimental data.
+Here we compare the NEB differential cross sections
+using the IAV model, with different choices for the ?3bðþÞ
+wave function in Eq. (4), namely, the DWBA approxima-
+tion (IAV-DWBA), the full CDCC wave function (IAV-
+CDCC), and the truncated CDCC wave function, in which
+only the g.s. component of Eq. (6) is retained in Eq. (4)
+[IAV-CDCC (g.s.)]. We adopt the same potentials used in
+our previous calculations. For the CDCC calculations, the
+n ? p states were included for l ¼ 0–4 partial waves and
+up to a maximum excitation energy of 20 MeV. For the
+DWBA results, the deuteron-target potential is taken from
+Ref. [38] and the potential depth is adjusted to reproduce
+the elastic scattering differential cross section computed by
+CDCC. This procedure is intended to reduce uncertainties
+when comparing the NEB differential cross section calcu-
+lated by these methods. To simplify the calculations, we
+ignore intrinsic spins.
+In Fig. 2(a), we show the calculated angle-integrated
+NEB differential cross section, d?=dEp as a function of the
+neutron-target orbital angular momentum corresponding to
+IAV-CDCC. The dashed ellipse highlights the results of
+Fig. 3(a). It is seen that the omission of the ? þ d breakup
+channels [as done in the IAV-DWBA and IAV-CDCC (g.s.)]
+results in an underestimation of the NEB yield and that this
+effect increases with increasing incident energies. This
+result can be understood as due to the increasing impor-
+tance of the projectile dissociation as the incident energy
+increases. At the maximum incident energy explored in our
+calculations, the omission of the two-step mechanism
+results in a difference of 11% in the evaluated NEB cross
+section. We see also in Fig. 3(b) that the IAV-DWBA
+calculation is rather close to the full IAV-CDCC calcu-
+lation. As the incident energy increases, the difference with
+IAV-CDCC is smaller than in the case of IAV-CDCC (g.s.)
+(7% at E ¼ 40 MeV), indicating the ability of the DWBA
+approximation of implicitly accounting for the projectile
+dissociation. Although the results of Figs. 2 and 3 point
+toward a very small contribution of the unbound states of
+the CDCC expansion (6) on the NEB cross section, this
+contribution is shown explicitly in the Supplemental
+Material [42] for completeness.
+The projectile dissociation [corresponding to the first
+step in Eq. (2)] is known to be correlated with the
+separation energy of the projectile, becoming more impor-
+tant as the binding energy decreases. Thus, it is expected
+that the importance of the two-step mechanism will be also
+correlated with the separation energy. To investigate this
+connection within the present framework, we have repeated
+the NEB calculations varying artificially the separation
+energy of 6Li for the 6Li þ 209Bi reaction at 36 MeV. The
+results are shown in Fig. 4. The symbols have the same
+meaning as in Fig. 3(b). These results show, as expected,
+that IAV-CDCC (g.s.) approaches the full IAV-CDCC when
+the separation energy increases. For the most weakly bound
+case considered in our calculations (S?d ¼ 1 MeV), the
+NEB cross section computed with CDCC (g.s.) under-
+estimates by ?11% the full IAV-CDCC result, confirming
+the increasing relevance of the projectile dissociation for
+weakly bound nuclei. The IAV-DWBA follows a similar
+trend compared to IAV-CDCC (g.s.), although the
+differences with IAV-CDCC are smaller except for the
+most weakly bound case.
+Summary and conclusions.—In summary, we have
+presented the first implementation of the IAV model for
+the inclusive breakup of two-body projectiles using a full
+three-body description of the scattering problem. For that,
+we have employed the CDCC model wave function. This
+implementation goes beyond the DWBA approximation
+employed so far in previous applications of this model.
+In the range of energies explored here, however,
+differences remain of the order of 10% or less, which
+seems to explain the success of the DWBA to account for
+experimental data [31,43–45].
+We have also explored the importance of the two-step
+process in the NEB mechanism, by comparing the full IAV-
+CDCC results with those obtained retaining only the
+projectile g.s. in the evaluation of the NEB cross section.
+We find that, as the separation energy decreases, or the
+incident energy increases, the IAV-CDCC (g.s.) tends to
+deviate from the full IAV-CDCC results. Yet, the overall
+effect is rather small for all explored incident and binding
+energies (less than 12%). Instead, our present results
+conclusively show that the partial fusion process (i.e.,
+ICF) is mainly a one-step process and that the two-step
+mechanism, while not completely negligible, represents a
+minor contribution. These results put into question the
+commonly accepted breakup-fusion picture of the ICF
+process.

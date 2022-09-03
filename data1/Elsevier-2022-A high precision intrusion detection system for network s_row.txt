@@ -1,0 +1,1536 @@
+Page: 1 left:1 upper:1
+Future Generation Computer Systems 129 (2022) 399–406
+page=1 block=1276261147 (x=168 y=1) width=185.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Contents lists available at ScienceDirect
+page=1 block=1971764991 (x=185 y=28) width=152.000000 height=5.000000 fontname=QLDGHH+t1-uni-regular wordint.min=1 wordint.max=5
+Future Generation Computer Systems
+page=1 block=996796369 (x=142 y=52) width=239.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+journal homepage: www.elsevier.com/locate/fgcs
+page=1 block=135640095 (x=168 y=83) width=187.000000 height=5.000000 fontname=QLDGHH+t1-uni-regular wordint.min=1 wordint.max=4
+A high precision intrusion detection system for network security
+page=1 block=1430439149 (x=1 y=129) width=409.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+communication based on multi-scale convolutional neural network
+page=1 block=1430439149 (x=1 y=146) width=428.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+a School of Software, Tsinghua University, Beijing, 100084, China
+page=1 block=359922172 (x=1 y=181) width=194.000000 height=6.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+b College of Electronic Information Engineering, Southwest University, Chongqing, 400700, China
+page=1 block=359922172 (x=1 y=189) width=290.000000 height=6.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+The openness of network data makes it vulnerable to hackers, viruses and other attacks, which
+page=1 block=1632682988 (x=163 y=240) width=358.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+seriously threatens the privacy and property security of users. In order to improve the accuracy of the
+page=1 block=1632682988 (x=163 y=250) width=358.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+intrusion detection for network security communication, based on the traditional intrusion detection
+page=1 block=1632682988 (x=163 y=259) width=358.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+system, combining with the deep learning theory and shortcomings, this paper proposed an intrusion
+page=1 block=1632682988 (x=163 y=269) width=358.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+detection system for network security communication based on multi-scale convolutional neural
+page=1 block=1632682988 (x=163 y=279) width=358.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+network, and conducted the corresponding experiments on public data sets. The experimental results
+page=1 block=1632682988 (x=163 y=288) width=358.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+perform that compared to the intrusion detection system based on Adaboost model and Recurrent
+page=1 block=1632682988 (x=163 y=298) width=358.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Neural Network model, the convergence speed of multi-scale convolutional neural network system is
+page=1 block=1632682988 (x=163 y=307) width=358.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+faster, the average error detection rate is reduced by 4.02%, and the average accuracy is improved by
+page=1 block=1632682988 (x=163 y=317) width=358.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+4.37%. The results prove that the intrusion detection system based on multi-scale convolution neural
+page=1 block=1632682988 (x=163 y=326) width=358.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+network has a high detection accuracy.
+page=1 block=1632682988 (x=163 y=336) width=139.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The information integration is the inevitable trend of Inter-
+page=1 block=1153447573 (x=282 y=548) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+net development. Increasingly open data brings convenience and
+page=1 block=1153447573 (x=270 y=559) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+data security issues [3]. Therefore, in order to avoid the illegal
+page=1 block=1153447573 (x=270 y=569) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+intrusion, some scholars pay more and more attention to network
+page=1 block=1153447573 (x=270 y=580) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+security system. In order to understand the network intrusion de-
+page=1 block=1153447573 (x=270 y=590) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+tection data, Wei, et al. proposed a three-dimensional visualiza-
+page=1 block=1153447573 (x=270 y=601) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+tion interaction method of network intrusion detection data [4].
+page=1 block=1153447573 (x=270 y=612) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Umarani, et al. proposed a hybrid anomaly detection system for
+page=1 block=1153447573 (x=270 y=622) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+wireless sensor networks, and the system makes intrusion at-
+page=1 block=1153447573 (x=270 y=633) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+tacks in sensor networks more secure, universal and accurate [5].
+page=1 block=1153447573 (x=270 y=644) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Sedjelmaci, et al. designed an efficient and lightweight intrusion
+page=1 block=1153447573 (x=270 y=654) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+detection mechanism for service-oriented vehicular networks [6].
+page=1 block=1153447573 (x=270 y=665) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+E-mail yujing15@mails.tsinghua.edu.cn (J. Yu),
+page=1 block=132577100 (x=16 y=658) width=179.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+addresses:
+page=1 block=231756373 (x=38 y=658) width=30.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=2
+nmcq75625416du@163.com (X. Ye).
+page=1 block=1786294176 (x=1 y=666) width=112.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+https://doi.org/10.1016/j.future.2021.10.018
+page=1 block=793331940 (x=1 y=685) width=135.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=2
+0167-739X/© 2021 Elsevier B.V. All rights reserved.
+page=1 block=793331940 (x=1 y=693) width=163.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Jing Yu a, Xiaojun Ye a,?, Hongbo Li b
+page=1 block=522553046 (x=1 y=164) width=175.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+arti c le i nf o
+page=1 block=275266973 (x=1 y=219) width=94.000000 height=6.000000 fontname=QDTHNW+t1-gul-regular-smallcaps wordint.min=3 wordint.max=5
+abs t r a c t
+page=1 block=1069716895 (x=163 y=219) width=66.000000 height=6.000000 fontname=QDTHNW+t1-gul-regular-smallcaps wordint.min=3 wordint.max=5
+Article history:
+page=1 block=1521083627 (x=1 y=240) width=43.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=2
+Received 11 May 2021
+page=1 block=1770642014 (x=1 y=249) width=69.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Received in revised form 13 October 2021
+page=1 block=1770642014 (x=1 y=258) width=130.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Accepted 16 October 2021
+page=1 block=1770642014 (x=1 y=266) width=81.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Available online 22 October 2021
+page=1 block=1770642014 (x=1 y=275) width=103.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Keywords:
+page=1 block=945591847 (x=1 y=289) width=30.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=15
+Intrusiondetection
+page=1 block=328827614 (x=1 y=298) width=58.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+Detection accuracy
+page=1 block=328827614 (x=1 y=306) width=58.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Multi-scale convolutionalneural network
+page=1 block=328827614 (x=1 y=315) width=126.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Network security communication
+page=1 block=328827614 (x=1 y=323) width=102.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+1. Introduction
+page=1 block=109228794 (x=1 y=385) width=62.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=6
+The world information is gradually integrated, and data shar-
+page=1 block=561959774 (x=13 y=406) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+ing brings network security risks, so in order to protect people’s
+page=1 block=561959774 (x=1 y=416) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+information security when they work and communicate on the
+page=1 block=561959774 (x=1 y=427) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Internet, some scholars have begun to study the network security
+page=1 block=561959774 (x=1 y=437) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+protection [1]. Among them, the intrusion detection system is
+page=1 block=561959774 (x=1 y=447) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+one of the widely used technical types in the market, which
+page=1 block=561959774 (x=1 y=458) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+can effectively prevent network intrusion, and ensure the safe
+page=1 block=561959774 (x=1 y=468) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+operation of the system by detecting and issuing early warning
+page=1 block=561959774 (x=1 y=479) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+before the attack is launched [2].
+page=1 block=561959774 (x=1 y=489) width=128.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+However, it is undeniable that the types of hacker network
+page=1 block=561959774 (x=13 y=499) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+intrusion are becoming more and more sophisticated, so that the
+page=1 block=561959774 (x=1 y=510) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+commonly used intrusion detection system for the network secu-
+page=1 block=561959774 (x=1 y=520) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+rity also began to become slow, and the accuracy is significantly
+page=1 block=561959774 (x=1 y=530) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+poor. To find a good solution, this paper introduces the deep
+page=1 block=561959774 (x=1 y=541) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+learning technique to design an intrusion detection system, and
+page=1 block=561959774 (x=1 y=551) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+proposes a high precision intrusion detection system based on
+page=1 block=561959774 (x=1 y=562) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+multi-scale convolutional neural network (MSCNN).
+page=1 block=561959774 (x=1 y=572) width=200.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+There are two main contributions in this paper. Firstly, the net-
+page=1 block=561959774 (x=13 y=582) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+work data mining technology based on deep learning is used to
+page=1 block=561959774 (x=1 y=593) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+extract features from unordered data to improve the accuracy of
+page=1 block=561959774 (x=1 y=603) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the intrusion detection. Secondly, this paper uses MSCNN to solve
+page=1 block=561959774 (x=1 y=613) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the compatibility problem between intrusion detection system
+page=1 block=561959774 (x=1 y=624) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+? Corresponding author.
+page=1 block=2110756088 (x=7 y=647) width=78.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+© 2021Elsevier B.V.All rightsreserved.
+page=1 block=580871917 (x=388 y=346) width=133.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+and neural network, reduces processing parameters and improves
+page=1 block=823723302 (x=270 y=385) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+the convergence speed.
+page=1 block=823723302 (x=270 y=396) width=90.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+This work mainly includes 5 sections. In Section 1, the back-
+page=1 block=823723302 (x=282 y=406) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+ground, motivations and contributions of this work are intro-
+page=1 block=823723302 (x=270 y=417) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+duced. In Section 2, the results of some intrusion detection sys-
+page=1 block=823723302 (x=270 y=428) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+tems and convolutional neural network in recent years are dis-
+page=1 block=823723302 (x=270 y=438) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+cussed. In Section 3, the design idea of the high-precision intru-
+page=1 block=823723302 (x=270 y=449) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+sion detection system based on MSCNN is described. In Section 4,
+page=1 block=823723302 (x=270 y=460) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+the intrusion detection system is tested and its effect in practical
+page=1 block=823723302 (x=270 y=470) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+application is discussed, and also the proposedoneis compared to
+page=1 block=823723302 (x=270 y=481) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+some baseline methods. In Section 5, some findings in this paper
+page=1 block=823723302 (x=270 y=492) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+are concluded and the future is presented.
+page=1 block=823723302 (x=270 y=502) width=164.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+2. Related work
+page=1 block=1714078840 (x=270 y=525) width=65.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=5
+Page: 2 left:1 upper:1
+J. Yu, X. Ye and H. Li
+page=2 block=1732502545 (x=1 y=1) width=64.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Future Generation Computer Systems 129 (2022) 399–406
+page=2 block=1051876890 (x=344 y=1) width=177.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Neural network can be well used to deal with intrusion behav-
+page=2 block=1199262943 (x=13 y=470) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+ior. The main reason is that the neural network, so as to train the
+page=2 block=1199262943 (x=1 y=481) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+neural network model and judge whether the unknown data set
+page=2 block=1199262943 (x=1 y=491) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+has intrusion behavior. Although convolutional neural network
+page=2 block=1199262943 (x=1 y=502) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+theory based on deep learning is used to process positioning data,
+page=2 block=1199262943 (x=1 y=512) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+the research of this algorithm is not mature [17]. Therefore, a
+page=2 block=1199262943 (x=1 y=523) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+model for network data service is proposed, it is a model to
+page=2 block=1199262943 (x=1 y=533) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+extract local features and data features according to network
+page=2 block=1199262943 (x=1 y=544) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+traffic classification. The specific framework is shown in Fig. 1.
+page=2 block=1199262943 (x=1 y=554) width=243.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The MSCNN model has multiple convolution layers, in which
+page=2 block=1199262943 (x=13 y=565) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+there are three layers (Fig. 1). Each layer has three channel sizes.
+page=2 block=1199262943 (x=1 y=575) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+The multi-scale convolution layer and two convolution layers
+page=2 block=1199262943 (x=1 y=585) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+are mutually staggered, and then connected to the pooling layer
+page=2 block=1199262943 (x=1 y=596) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+through a multi-scale convolution layer, and finally connected
+page=2 block=1199262943 (x=1 y=606) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+to the softmax classifier through three fully connected layers. In
+page=2 block=1199262943 (x=1 y=617) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+order to ensure the learning speed of the network, BN (batch
+page=2 block=1199262943 (x=1 y=627) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+normalization, BN) algorithm is used in convolution layer, and
+page=2 block=1199262943 (x=1 y=638) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+Relu function is used as the activation function of convolution
+page=2 block=1199262943 (x=1 y=648) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+layer, the parameters of BN algorithm + Relu function are set to
+page=2 block=1199262943 (x=1 y=659) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+11 ? 11 ? 64, 9 ? 9 ? 128, 7 ? 7 ? and 256 according to different
+page=2 block=1199262943 (x=1 y=669) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+convolution layers. The over fitting problem of full connection
+page=2 block=1199262943 (x=1 y=680) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+layer can be solved by dropout strategy. Among them, multi-
+page=2 block=1199262943 (x=1 y=690) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+scale convolution is to classify the features of different sizes by
+page=2 block=1199262943 (x=1 y=701) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+l
+page=2 block=2009221452 (x=274 y=698) width=1.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+j
+page=2 block=2009221452 (x=274 y=705) width=1.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=13 wordint.max=13
+l
+page=2 block=257513673 (x=302 y=698) width=1.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=13 wordint.max=13
+j
+page=2 block=257513673 (x=301 y=705) width=2.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=13 wordint.max=13
+l?1
+page=2 block=590845366 (x=332 y=698) width=9.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=13 wordint.max=13
+l
+page=2 block=1052195003 (x=361 y=698) width=1.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=13 wordint.max=13
+j
+page=2 block=1052195003 (x=361 y=705) width=1.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=13 wordint.max=13
+x = f (? down(x ) + b )
+page=2 block=1541049864 (x=270 y=701) width=97.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+(1)
+page=2 block=511707818 (x=510 y=701) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+j
+page=2 block=25536233 (x=332 y=705) width=1.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+400
+page=2 block=116405378 (x=255 y=717) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+Wei, et al. proposed an intrusion detection system combining hi-
+page=2 block=164974746 (x=1 y=20) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+erarchical spatiotemporal features, which improved the accuracy
+page=2 block=164974746 (x=1 y=30) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+of feature set describing network traffic [7]. Datta, et al. have
+page=2 block=164974746 (x=1 y=41) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+proposed an effective scheme, on the premise of not affecting
+page=2 block=164974746 (x=1 y=51) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the effectiveness of intrusion detection system, it shortens the
+page=2 block=164974746 (x=1 y=62) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+activity time of the intrusion detection system [8]. Zhang, et al.
+page=2 block=164974746 (x=1 y=72) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+proposed a detection model and an improved adaptive evolution
+page=2 block=164974746 (x=1 y=83) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+strategy of constrained covariance matrix [9].
+page=2 block=164974746 (x=1 y=93) width=176.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+As we know, deep learning as a very advanced technique is
+page=2 block=164974746 (x=13 y=104) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+being studied by a lot of scholars, and it can take some good
+page=2 block=164974746 (x=1 y=114) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+solutions for the intrusion detection. At present, the deep learning
+page=2 block=164974746 (x=1 y=125) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+technique has been widely applied to a lot of fields. Kruthiventi,
+page=2 block=164974746 (x=1 y=135) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+et al. proposed a fully CNN model, established a bottom-up vi-
+page=2 block=164974746 (x=1 y=146) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+sual attention mechanism model through explicit prediction, and
+page=2 block=164974746 (x=1 y=156) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+automatically learned features in a hierarchical way to predict
+page=2 block=164974746 (x=1 y=167) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+saliency graph in an end-to-end way [10]. CNN is used to identify
+page=2 block=164974746 (x=1 y=177) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+abnormal EEG samples, and it is found that the accuracy of neural
+page=2 block=164974746 (x=1 y=188) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+network is obviously better than some other models [11]. Ma,
+page=2 block=164974746 (x=1 y=198) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+et al. proposed a traffic image learning method based on CNN,
+page=2 block=164974746 (x=1 y=208) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+which can predict the traffic speed of large-scale and whole
+page=2 block=164974746 (x=1 y=219) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+network with high accuracy. In the acceptable execution time, the
+page=2 block=164974746 (x=1 y=229) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+average accuracy of the algorithm is significantly improved [12].
+page=2 block=164974746 (x=1 y=240) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Peng, et al. introduced a module composed of coding layer and
+page=2 block=164974746 (x=1 y=250) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+time pyramid pool layer, and proposed a new network structure,
+page=2 block=164974746 (x=1 y=261) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+allowing any number of frames as network input, avoiding the
+page=2 block=164974746 (x=1 y=271) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+risk of losing any important frame [13]. Antipov, et al. led the
+page=2 block=164974746 (x=1 y=282) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+team to improve the gender and age prediction methods in the
+page=2 block=164974746 (x=1 y=292) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+existing demographic estimation methods based on CNN, and
+page=2 block=164974746 (x=1 y=303) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+designed an advanced gender recognition and age estimation
+page=2 block=164974746 (x=1 y=313) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+model [14]. Zhu, et al. proposed a single event recognition al-
+page=2 block=164974746 (x=1 y=324) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+gorithm framework for cold electron microscope images based
+page=2 block=164974746 (x=1 y=334) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+on deep learning, which realized the integration of automatic
+page=2 block=164974746 (x=1 y=345) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+particle picking, selection and verification [15]. Kawahara, et al.
+page=2 block=164974746 (x=1 y=355) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+proposed a neural network framework to solve this question [16].
+page=2 block=164974746 (x=1 y=365) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+To sum up, a lot of researches have been done on the intrusion
+page=2 block=164974746 (x=13 y=376) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+detection system and deep learning. However, the traditional
+page=2 block=164974746 (x=1 y=386) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+deep learning model has some shortcomings, such as big samples
+page=2 block=164974746 (x=1 y=397) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+and time cost. In order to find a good solution, this paper tried to
+page=2 block=164974746 (x=1 y=407) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+design a MSCNN model and apply it to the intrusion detection.
+page=2 block=164974746 (x=1 y=418) width=244.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+3. Design of the high precision intrusion detection system for
+page=2 block=396283472 (x=1 y=439) width=251.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=5
+network security communication
+page=2 block=396283472 (x=1 y=449) width=135.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=4
+Fig. 1. Multi-scale convolutional neural network model structure.
+page=2 block=989892772 (x=291 y=176) width=208.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Fig. 2. Multi scale convolution layer structure.
+page=2 block=1020520290 (x=321 y=409) width=148.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+simulating the object features recognized by human vision. The
+page=2 block=530653666 (x=270 y=442) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+channel sizes used in multi-scale convolution layer are 1 ? 1, and
+page=2 block=530653666 (x=270 y=452) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+3 ? 3 respectively, and the structure is shown in Fig. 2.
+page=2 block=530653666 (x=270 y=463) width=213.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Firstly, in order to combine the convolution kernel features,
+page=2 block=530653666 (x=282 y=473) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+set the convolution step size to 1, and then set pad = 0, 1,
+page=2 block=530653666 (x=270 y=484) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+2. In addition, the multi-scale convolution layer will reduce the
+page=2 block=530653666 (x=270 y=494) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+features processed in the previous layer to processing level by 1
+page=2 block=530653666 (x=270 y=505) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+? 1 scale, and then transmits the reduced features to other scale
+page=2 block=530653666 (x=270 y=515) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+channels (Fig. 2). In this way, the multi parameter problem caused
+page=2 block=530653666 (x=270 y=526) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+by large-scale convolution kernel convolution can be reduced.
+page=2 block=530653666 (x=270 y=536) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+Finally, the processing results are sent to the filter for subsequent
+page=2 block=530653666 (x=270 y=547) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+processing.
+page=2 block=530653666 (x=270 y=558) width=42.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+The pooling layer in the MSCNN model is also designed to
+page=2 block=530653666 (x=282 y=568) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+reduce parameters, so as to improve the network training speed,
+page=2 block=530653666 (x=270 y=579) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+but the pooling layer will lose features [18]. In order to make up
+page=2 block=530653666 (x=270 y=589) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+for the precision reduction caused by feature loss, the average
+page=2 block=530653666 (x=270 y=600) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+pooling layer is only added to the last layer of MSCNN model.
+page=2 block=530653666 (x=270 y=610) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+The advantage of average pooling is that the features in each
+page=2 block=530653666 (x=270 y=621) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+network data are quite different, there is no uniformity, and
+page=2 block=530653666 (x=270 y=631) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+the error of classification is small [19]. Overlapping pooling is
+page=2 block=530653666 (x=270 y=642) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+adopted for pooling of pooling layer. Under certain effect, the
+page=2 block=530653666 (x=270 y=652) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+convergence speed of pooling layer is improved, and the accuracy
+page=2 block=530653666 (x=270 y=663) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+is less affected. Therefore, the effect of MSCNN model is the best.
+page=2 block=530653666 (x=270 y=673) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+The sampling method of pooling layer is shown in Eq. (1).
+page=2 block=530653666 (x=270 y=684) width=225.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Page: 3 left:1 upper:1
+J. Yu, X. Ye and H. Li
+page=3 block=2125238280 (x=1 y=1) width=64.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Future Generation Computer Systems 129 (2022) 399–406
+page=3 block=1092004553 (x=344 y=1) width=177.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+?inl = ?(yi ? ani l) · f(zinl)
+page=3 block=1658699134 (x=282 y=510) width=91.000000 height=12.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+In Eq. (9), nl is the last output layer, the residual error of
+page=3 block=1658699134 (x=282 y=529) width=239.000000 height=7.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+nlaeyuerroln, sani ilsisetxhpereascsteivdataiosn?vli,azlulieisofthneeuirnopnustinvaoluutepuotflnayeuerr,osnl+s1iins
+page=3 block=1658699134 (x=270 y=538) width=251.000000 height=21.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the number of neuron nodes. The pseudo code of MSCNN model
+page=3 block=1658699134 (x=270 y=561) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+connection layer need to be initialized first to build the MSCNN
+page=3 block=1658699134 (x=270 y=594) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+model. In the training, the loss function is calculated, and the
+page=3 block=1658699134 (x=270 y=604) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+weights and thresholds are updated continuously. Finally, the
+page=3 block=1658699134 (x=270 y=615) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+updated model after training is obtained.
+page=3 block=1658699134 (x=270 y=626) width=159.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Intrusion detection system is based on the existing security
+page=3 block=1658699134 (x=282 y=636) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+strategy to detect the network environment before intrusion,
+page=3 block=1658699134 (x=270 y=647) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+in order to early warning to ensure the safe operation of the
+page=3 block=1658699134 (x=270 y=658) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+system [25]. The general working principle of intrusion detection
+page=3 block=1658699134 (x=270 y=669) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+system is shown in Fig. 4.
+page=3 block=1658699134 (x=270 y=679) width=100.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The intrusion detection system is mainly composed of three
+page=3 block=1658699134 (x=282 y=690) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+parts as shown in Fig. 4. Among them, the system mainly takes
+page=3 block=1658699134 (x=270 y=701) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+xi in Eq. (4) represents the data entering the activation func-
+page=3 block=1961176822 (x=13 y=545) width=239.000000 height=7.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+tion. This step is to calculate the average value of each data. After
+page=3 block=1961176822 (x=1 y=555) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+it is cal1cu?te(xdi,?thue?v)a2riance of each number is calculated (5) builAdsinsghoawndn tinraFinigin. 3g,pthroecceossnvisolsuhtoiownncoinreF,ipg.oo3l.ing layer and full
+page=3 block=1961176822 (x=1 y=565) width=520.000000 height=30.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+(6)
+page=3 block=1859374258 (x=241 y=644) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+yi = ? x?i + ? = BN?,?(xi)
+page=3 block=442987331 (x=1 y=701) width=95.000000 height=7.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+(7)
+page=3 block=366873404 (x=241 y=701) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+401
+page=3 block=1217467887 (x=255 y=717) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+In Eq. (1), down(xlj?1) means that the pooling layer samples
+page=3 block=945288723 (x=13 y=18) width=239.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the output data of the upper layer, ? and b represent the feature
+page=3 block=945288723 (x=1 y=30) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+weight and offset of the output, and f (?) represents the activation
+page=3 block=945288723 (x=1 y=40) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+function.
+page=3 block=945288723 (x=1 y=50) width=34.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+The activation function of convolution layer uses Relu func-
+page=3 block=945288723 (x=13 y=60) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+tion to delete some negative numbers, which increases the non-
+page=3 block=945288723 (x=1 y=70) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+linearity of the network to some extent, and makes the net-
+page=3 block=945288723 (x=1 y=80) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+work structure segment linear. At the same time, the output of
+page=3 block=945288723 (x=1 y=90) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+some neurons can be 0, which reduces the interdependence be-
+page=3 block=945288723 (x=1 y=101) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+tween parameters and avoids the over fitting phenomenon of the
+page=3 block=945288723 (x=1 y=111) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+model [20]. For the full connection layer outside the volume layer,
+page=3 block=945288723 (x=1 y=121) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Sigmoid function is used as the activation function to preserve the
+page=3 block=945288723 (x=1 y=131) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+complete characteristics of the data. The expression of the Relu
+page=3 block=945288723 (x=1 y=141) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+function is shown in Eq. (2).
+page=3 block=945288723 (x=1 y=151) width=109.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+f (x) = max(0, x) (2)
+page=3 block=428566321 (x=1 y=167) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+In Eq. (2), x is the total amount of data, and max is the
+page=3 block=2087258327 (x=13 y=182) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+maximum value.
+page=3 block=2087258327 (x=1 y=192) width=64.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+In order to avoid the over fitting problem of network, improve
+page=3 block=2087258327 (x=13 y=202) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+the generalization ability of network and speed up the training
+page=3 block=2087258327 (x=1 y=212) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+speed, this study uses Dropout strategy to connect the full con-
+page=3 block=2087258327 (x=1 y=222) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+nection layer and softmax classifier [21]. The principle of Dropout
+page=3 block=2087258327 (x=1 y=232) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+algorithm is to set the activation value of a neuron to 0 with
+page=3 block=2087258327 (x=1 y=242) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+a certain probability when it propagates forward, so that some
+page=3 block=2087258327 (x=1 y=253) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+neurons stop working, and calculate and connect the data that is
+page=3 block=2087258327 (x=1 y=263) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+not set to 0 [22]. According to the randomly generated probability
+page=3 block=2087258327 (x=1 y=273) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+to connect the neurons, the sparsity of the network appears, the
+page=3 block=2087258327 (x=1 y=283) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+possibility of over fitting is reduced, and the training speed of the
+page=3 block=2087258327 (x=1 y=293) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+n??eettwwrjloo?rrkkBiisesrgncraoeluaclutlilly(apti)medparosvfeodllo[2w3s]:.UndertheDropoutstrategy,the
+page=3 block=2087258327 (x=1 y=303) width=251.000000 height=32.000000 fontname=EYCJWC+t1-gul-regular wordint.min=19 wordint.max=19
+? y?l = rl ? yl
+page=3 block=1016550616 (x=1 y=332) width=69.000000 height=18.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=7
+(3)
+page=3 block=1006094903 (x=241 y=338) width=11.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+zli+ =
+page=3 block=2030538903 (x=13 y=348) width=25.000000 height=11.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=19
+1 wil+1y?l + bli+1
+page=3 block=1293680848 (x=24 y=348) width=67.000000 height=11.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=19
+The rjl vector in Eq. (3) is generated by Bernoulli function,
+page=3 block=1261153343 (x=13 y=365) width=239.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+which will generate a vector of 0 and 1 randomly.yl is the ac-
+page=3 block=1261153343 (x=1 y=377) width=251.000000 height=7.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+tivation function, and y?l is the activation value after rlj vector
+page=3 block=1261153343 (x=1 y=387) width=251.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+processing.
+page=3 block=1261153343 (x=1 y=399) width=42.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+In feature extraction and processing of neural network, for
+page=3 block=1261153343 (x=13 y=409) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the training data with large distribution difference, classification
+page=3 block=1261153343 (x=1 y=419) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+accuracy will be greatly reduced. Because the distribution of each
+page=3 block=1261153343 (x=1 y=429) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+training set is different, if the model needs to adapt each time,
+page=3 block=1261153343 (x=1 y=439) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+it will seriously affect the training speed of the network, so
+page=3 block=1261153343 (x=1 y=449) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+normalization processing is required for each input data [24]. A
+page=3 block=1261153343 (x=1 y=459) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+BN algorithm is proposed, which can be used in volume layer to
+page=3 block=1261153343 (x=1 y=469) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+accelerate the efficiency of network learning and can be used to
+page=3 block=1261153343 (x=1 y=479) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+optimize network training. The BN algorithm is represented as
+page=3 block=1261153343 (x=1 y=489) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+follow1s: ?
+page=3 block=1261153343 (x=1 y=499) width=45.000000 height=21.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+ub = m i=1 xi
+page=3 block=1309176095 (x=1 y=521) width=52.000000 height=17.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+(4)
+page=3 block=198099809 (x=241 y=521) width=11.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+??2 = m i=1
+page=3 block=645482568 (x=1 y=586) width=45.000000 height=19.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+u? in Eq. (5) represents the mean value, and the variance is
+page=3 block=807752428 (x=13 y=612) width=239.000000 height=7.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+??2, and then the variance is standardized, as shown in Eq. (6).
+page=3 block=807752428 (x=1 y=621) width=242.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+xi ? u?
+page=3 block=1026055550 (x=21 y=637) width=26.000000 height=7.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+xˆi =
+page=3 block=1073763441 (x=1 y=644) width=16.000000 height=7.000000 fontname=CPHREW+MTSYN wordint.min=1 wordint.max=5
+??
+page=3 block=752316209 (x=29 y=652) width=9.000000 height=5.000000 fontname=DTAELJ+RMTMI wordint.min=1 wordint.max=14
+u? in Eq. (6) represents the mean value in the sample data, ??
+page=3 block=914356853 (x=13 y=665) width=238.000000 height=7.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+represents the standard deviation, and then outputs the original
+page=3 block=914356853 (x=1 y=675) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+value yi through linear transformation, as shown in Eq. (7).
+page=3 block=914356853 (x=1 y=685) width=229.000000 height=7.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Fig. 3. Modeling and training pseudo code.
+page=3 block=1229161065 (x=325 y=223) width=140.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+? and ? in Eq. (7) represent training parameters, and BN
+page=3 block=195228908 (x=282 y=256) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+represents normalization. In the forward propagation, the output
+page=3 block=195228908 (x=270 y=266) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+value does not change, but changes the two training parameters
+page=3 block=195228908 (x=270 y=277) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+of ? and ?, and each change is recorded for subsequent operation.
+page=3 block=195228908 (x=270 y=288) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+In the reverse training, the chain derivation is used to calculate
+page=3 block=195228908 (x=270 y=299) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the recorded training parameters, and then the learning efficiency
+page=3 block=195228908 (x=270 y=309) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+of the network is calculated to change the weights.
+page=3 block=195228908 (x=270 y=320) width=199.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The mentioned algorithm is used to update the weight and
+page=3 block=195228908 (x=282 y=331) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+bias of the model. The processing method of gradient descent
+page=3 block=195228908 (x=270 y=341) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+lgori?thm is shown1in?q. (8?).
+page=3 block=195228908 (x=274 y=352) width=111.000000 height=24.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+?
+page=3 block=471579726 (x=270 y=360) width=7.000000 height=18.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+?
+page=3 block=1442726378 (x=270 y=363) width=7.000000 height=18.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+?
+page=3 block=16503286 (x=270 y=366) width=7.000000 height=17.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+?
+page=3 block=484589713 (x=270 y=368) width=7.000000 height=18.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+J(W, b; xi, yi)] + ?Wiij
+page=3 block=1574598287 (x=388 y=374) width=83.000000 height=11.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+?wiljj(W, b) = [m
+page=3 block=2056031695 (x=283 y=377) width=68.000000 height=15.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+i1=1?mWilj?
+page=3 block=606508809 (x=356 y=382) width=34.000000 height=23.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=19
+?
+page=3 block=718187988 (x=270 y=386) width=7.000000 height=17.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+?
+page=3 block=615438348 (x=270 y=389) width=7.000000 height=17.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+?
+page=3 block=978508707 (x=270 y=391) width=7.000000 height=18.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+(8)
+page=3 block=710708543 (x=510 y=392) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+?
+page=3 block=1965237677 (x=270 y=394) width=7.000000 height=18.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+?
+page=3 block=664792509 (x=270 y=397) width=7.000000 height=18.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=4
+?
+page=3 block=188523822 (x=304 y=400) width=4.000000 height=5.000000 fontname=DTAELJ+RMTMI wordint.min=14 wordint.max=14
+?blij j(W, b) = m i=1 ?blij J(W,b; xi,yi)
+page=3 block=1170727939 (x=300 y=403) width=146.000000 height=20.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+In Eq. (8), wilj represents the weights of (i, j) neurons in layer l,
+page=3 block=690339675 (x=282 y=431) width=239.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+blij represents the bias of (i, j) neurons in layer l, and ? represents
+page=3 block=690339675 (x=270 y=443) width=251.000000 height=10.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+the training parameters of each layer for parameter regulariza-
+page=3 block=690339675 (x=270 y=455) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+??ion. The?f edWbialj?ckl+1e)rr·ofr(ziisl)expressed as:
+page=3 block=1896828359 (x=270 y=466) width=156.000000 height=33.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+?? ?il = (
+page=3 block=536122141 (x=270 y=489) width=34.000000 height=23.000000 fontname=DWCTOZ+MTEX wordint.min=1 wordint.max=5
+j
+page=3 block=1709804316 (x=335 y=496) width=2.000000 height=4.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=4
+(9)
+page=3 block=1630678941 (x=510 y=497) width=11.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+j=1
+page=3 block=1792550665 (x=306 y=504) width=10.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=13
+Page: 4 left:1 upper:1
+J. Yu, X. Ye and H. Li
+page=4 block=1359953204 (x=1 y=1) width=64.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Future Generation Computer Systems 129 (2022) 399–406
+page=4 block=2014838114 (x=344 y=1) width=177.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+402
+page=4 block=136936250 (x=255 y=717) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+Fig. 4. Working principle of the intrusion detection system.
+page=4 block=593687897 (x=31 y=176) width=190.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Fig. 5. Learning process of MSCNN.
+page=4 block=187472540 (x=70 y=348) width=112.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the historical behavior, specific behavior pattern and other be-
+page=4 block=1276611190 (x=1 y=380) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+haviors of monitoring objects as information sources. The infor-
+page=4 block=1276611190 (x=1 y=391) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+mation is integrated and transmitted to the analysis engine. The
+page=4 block=1276611190 (x=1 y=402) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+analysis engine detects and analyzes the input information based
+page=4 block=1276611190 (x=1 y=412) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+on the behavior of the system and users to determine whether
+page=4 block=1276611190 (x=1 y=423) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+there is an intrusion behavior. If the result is that there is no
+page=4 block=1276611190 (x=1 y=434) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+intrusion, the normal data is extracted, and the security data is
+page=4 block=1276611190 (x=1 y=444) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+returned to allow the user to operate; if the data has intrusion
+page=4 block=1276611190 (x=1 y=455) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+behavior, the data is sent to the response component to record
+page=4 block=1276611190 (x=1 y=466) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the evidence and process [26].
+page=4 block=1276611190 (x=1 y=477) width=118.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+However, the current intrusion detection technology is limited
+page=4 block=1276611190 (x=13 y=487) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+by its complexity, resulting in most of the intrusion detection
+page=4 block=1276611190 (x=1 y=498) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+systems still have security risks, such as the lack of defense
+page=4 block=1276611190 (x=1 y=509) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+capability and the accuracy of detection is not optimistic [27].
+page=4 block=1276611190 (x=1 y=519) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+This paper proposes an intelligent intrusion detection technology
+page=4 block=1276611190 (x=1 y=530) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+combining with MSCNN, and the model learning process is shown
+page=4 block=1276611190 (x=1 y=541) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+in Fig. 5.
+page=4 block=1276611190 (x=1 y=551) width=33.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+As shown in Fig. 5, the original data set is preprocessed. Firstly,
+page=4 block=1276611190 (x=13 y=562) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the attribute mapping of the data is carried out, the data is
+page=4 block=1276611190 (x=1 y=573) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+digitized, and then normalized to obtain the standardized data
+page=4 block=1276611190 (x=1 y=583) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+set. Finally, the data preprocessing is completed by converting
+page=4 block=1276611190 (x=1 y=594) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the data into two-dimensional data in accordance with the con-
+page=4 block=1276611190 (x=1 y=605) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+volution neural network input format. The integrated target data
+page=4 block=1276611190 (x=1 y=615) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+set is divided into two sub data sets, one is used as the training
+page=4 block=1276611190 (x=1 y=626) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+data set of MSCNN model for model learning, and the weight
+page=4 block=1276611190 (x=1 y=637) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+is adjusted by reverse fine-tuning, the other is the test data of
+page=4 block=1276611190 (x=1 y=647) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+MSCNN model, which is used as the final test analysis to get the
+page=4 block=1276611190 (x=1 y=658) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+final classification results.
+page=4 block=1276611190 (x=1 y=669) width=99.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+The standardization in data preprocessing needs to first dig-
+page=4 block=1276611190 (x=13 y=679) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+itize the symbolic features, and the operation method of dig-
+page=4 block=1276611190 (x=1 y=690) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+itization is to use attribute mapping, such as representing the
+page=4 block=1276611190 (x=1 y=701) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+Fig. 6. Model training results.
+page=4 block=262457445 (x=348 y=151) width=95.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Fig. 7. Comparison results of dropout connection probability selection
+page=4 block=1004023029 (x=270 y=321) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=9
+experiment.
+page=4 block=1004023029 (x=270 y=330) width=37.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+identified protocol type attributes through computer binary cod-
+page=4 block=1414506856 (x=270 y=362) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+ing [28]. The normalization process is to unify the numerical
+page=4 block=1414506856 (x=270 y=373) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+processing results to (0,1) interval distribution, and normalize
+page=4 block=1414506856 (x=270 y=384) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+them through Eq. (10).
+page=4 block=1414506856 (x=270 y=394) width=88.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+x ? min
+page=4 block=1414506856 (x=293 y=408) width=31.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+y = max ? min
+page=4 block=1414506856 (x=270 y=415) width=60.000000 height=12.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+In Eq. (10), x is the random attribute in the network, min is the
+page=4 block=1414506856 (x=282 y=435) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+minimum numerical attribute in the network record, and max is
+page=4 block=1414506856 (x=270 y=445) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the maximum numerical attribute in thenetwork record. Through
+page=4 block=1414506856 (x=270 y=456) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+the preprocessing of the network data, the data will present the
+page=4 block=1414506856 (x=270 y=467) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+image data format and input to the convolutional neural network.
+page=4 block=1414506856 (x=270 y=477) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+(10)
+page=4 block=612097453 (x=505 y=415) width=16.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+4. Application effect analysis of the high precision intrusion
+page=4 block=221634215 (x=270 y=499) width=251.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=6
+detection system
+page=4 block=221634215 (x=270 y=510) width=68.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=4
+The simulation environment is Ubuntu 17.04, the CPU is Intel
+page=4 block=2003891312 (x=282 y=532) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Core i5-3470, the memory size is 8 GB, the python 3.5 program-
+page=4 block=2003891312 (x=270 y=542) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+ming language is used for development, and the data reading
+page=4 block=2003891312 (x=270 y=553) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+is pandas. There are 5 million records in this data set. In this
+page=4 block=2003891312 (x=270 y=563) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+experiment, 10% of them are taken as the test set and training set,
+page=4 block=2003891312 (x=270 y=574) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+and then 20% of the selected data set is taken as the training set
+page=4 block=2003891312 (x=270 y=584) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+and 80% as the test set. The training results are shown in Fig. 6.
+page=4 block=2003891312 (x=270 y=595) width=247.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+As can be seen from Fig. 6, with the increase of the iterative
+page=4 block=2003891312 (x=282 y=606) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+times, the accuracy of the model is also constantly improving, and
+page=4 block=2003891312 (x=270 y=616) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+when the number of iterations reaches 20, the accuracy of the
+page=4 block=2003891312 (x=270 y=627) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+model gradually tends to be stable, and remains at about 0.983.
+page=4 block=2003891312 (x=270 y=637) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The above results show that the MSCNN model has high accuracy,
+page=4 block=2003891312 (x=270 y=648) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+and can continuously improve the accuracy of the model with the
+page=4 block=2003891312 (x=270 y=658) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+increase of the number of iterations. Taking the mean value of 0
+page=4 block=2003891312 (x=270 y=669) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+as the random initialization premise of all layers with very bi-
+page=4 block=2003891312 (x=270 y=679) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+ased weights, the results of exploring the connection probability
+page=4 block=2003891312 (x=270 y=690) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+between adjacent layers are shown in Fig. 7.
+page=4 block=2003891312 (x=270 y=701) width=172.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Page: 5 left:1 upper:1
+J. Yu, X. Ye and H. Li
+page=5 block=1583159071 (x=1 y=1) width=64.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Future Generation Computer Systems 129 (2022) 399–406
+page=5 block=607207372 (x=344 y=1) width=177.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+403
+page=5 block=131206411 (x=255 y=717) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+Table 1
+page=5 block=2012330741 (x=1 y=20) width=23.000000 height=4.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=5
+Error rate comparison of different pooling methods.
+page=5 block=1101184763 (x=1 y=29) width=164.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+/ 1 2 3 4 5 6 7 8 9 10
+page=5 block=1101184763 (x=5 y=39) width=242.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+Avg 44% 32% 31% 24% 20% 16% 11% 7% 7% 5%
+page=5 block=1101184763 (x=5 y=51) width=242.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=14
+Max 51% 45% 36% 32% 27% 23% 17% 12% 9% 8%
+page=5 block=1101184763 (x=5 y=60) width=242.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=14
+Fig. 8. Training time of different dimension models.
+page=5 block=1816147548 (x=43 y=203) width=166.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+With the increasing of connection probability, the classifica-
+page=5 block=2079179914 (x=13 y=236) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+tion accuracy of MSCNN model is also increasing. When P=0.7, the
+page=5 block=2079179914 (x=1 y=246) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+accuracy rate reaches the maximum value of 95.7%. Then, with
+page=5 block=2079179914 (x=1 y=257) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the increase of connection probability, the accuracy of MSCNN
+page=5 block=2079179914 (x=1 y=267) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+model does not increase and decrease. The results show that 0.7
+page=5 block=2079179914 (x=1 y=278) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+should be chosen as the connection probability for the probability
+page=5 block=2079179914 (x=1 y=289) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+selection between the connection layers, which can greatly im-
+page=5 block=2079179914 (x=1 y=299) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+prove the accuracy. By analyzing the difference of pooling in the
+page=5 block=2079179914 (x=1 y=310) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+overlapping mode of the pooling layer, the step size is 1–10, and
+page=5 block=2079179914 (x=1 y=320) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the comparison (Table 1).
+page=5 block=2079179914 (x=1 y=331) width=99.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+As can be seen from Table 1, when average pooling is used
+page=5 block=2079179914 (x=13 y=341) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+to eliminate noise, the error rate decreases with the increase
+page=5 block=2079179914 (x=1 y=352) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+of step size, and decreases by 5% from the highest 44%. On the
+page=5 block=2079179914 (x=1 y=363) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+contrary, Max Polo method can also eliminate noise better, and
+page=5 block=2079179914 (x=1 y=373) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the error rate decreases with the increase of step size. However,
+page=5 block=2079179914 (x=1 y=384) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+it is obvious that the error rate of Max Polo is higher than average
+page=5 block=2079179914 (x=1 y=394) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Polo under the same step size. The final solution shows that
+page=5 block=2079179914 (x=1 y=405) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+the average pooling is correct, which improves the convergence
+page=5 block=2079179914 (x=1 y=415) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+speed of the model, and increases the accuracy of the model. Fig. 7
+page=5 block=2079179914 (x=1 y=426) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+shows the training time change of the system under the change
+page=5 block=2079179914 (x=1 y=436) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+of input data dimension.
+page=5 block=2079179914 (x=1 y=447) width=95.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The training time of the system model changes with the di-
+page=5 block=2079179914 (x=13 y=458) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+mension of the input data, and there is a positive correlation
+page=5 block=2079179914 (x=1 y=468) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+between the two as shown in Fig. 8. And it is not difficult to
+page=5 block=2079179914 (x=1 y=479) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+find that with the increasing dimension of input data, the growth
+page=5 block=2079179914 (x=1 y=489) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+trend of training time is increasing, until the dimension increases
+page=5 block=2079179914 (x=1 y=500) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+to more than 12, the accuracy gradually tends to be stable, and
+page=5 block=2079179914 (x=1 y=510) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+gradually keeps the accuracy within the maximum range. This
+page=5 block=2079179914 (x=1 y=521) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+means that the accuracy of the model is affected by the dimen-
+page=5 block=2079179914 (x=1 y=532) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+sion, and with the increase of the dimension, the accuracy of the
+page=5 block=2079179914 (x=1 y=542) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+model also continues to increase, indicating that the performance
+page=5 block=2079179914 (x=1 y=553) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+of the model is also continuously improving.
+page=5 block=2079179914 (x=1 y=563) width=173.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+In addition, the effect of establishing experimental analysis BN
+page=5 block=2079179914 (x=13 y=574) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+layer is shown in Fig. 9.
+page=5 block=2079179914 (x=1 y=584) width=92.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The MSCNN model without BN layer increases with the in-
+page=5 block=2079179914 (x=13 y=595) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+crease of step number, and the accuracy rate increases gradually
+page=5 block=2079179914 (x=1 y=606) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+(Fig. 9). When the number of steps is less than 1000, the accuracy
+page=5 block=2079179914 (x=1 y=616) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+rate rises rapidly, and then gradually slows down. When the steps
+page=5 block=2079179914 (x=1 y=627) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+reach 4000, it will become stable and the accuracy rate will be
+page=5 block=2079179914 (x=1 y=637) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+stable at about 98%. However, the accuracy of MSCNN model with
+page=5 block=2079179914 (x=1 y=648) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+BN layer increases with the increase of steps. However, unlike
+page=5 block=2079179914 (x=1 y=658) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the model without BN, when the number of steps is less than
+page=5 block=2079179914 (x=1 y=669) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+500, the accuracy of the model increases rapidly and the speed is
+page=5 block=2079179914 (x=1 y=679) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+obviously higher than that without BN model. When the number
+page=5 block=2079179914 (x=1 y=690) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+of steps reaches 2000, the accuracy rate has begun to stabilize,
+page=5 block=2079179914 (x=1 y=701) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Fig. 9. Trend of detection accuracy.
+page=5 block=20049680 (x=339 y=155) width=113.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Fig. 10. Accuracy comparison of MSCNN to baseline methods.
+page=5 block=1437654187 (x=297 y=338) width=197.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Fig. 11. Comparison of detection rates of three algorithms for five attack types.
+page=5 block=951050903 (x=270 y=522) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+keeping at about 98%. The results show that adding BN layer to
+page=5 block=770947228 (x=270 y=555) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+MSCNN model effectively improves the convergence speed of the
+page=5 block=770947228 (x=270 y=565) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+model and the learning speed of the model.
+page=5 block=770947228 (x=270 y=576) width=170.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+In addition, in order to verify the proposed model, it is com-
+page=5 block=770947228 (x=282 y=586) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+pared to some baseline methods including Recurrent Neural Net-
+page=5 block=770947228 (x=270 y=597) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+work (RNN) and Adaboost models as shown in Fig. 10.
+page=5 block=770947228 (x=270 y=607) width=211.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The detection rate in Fig. 10 is the average detection rate of
+page=5 block=770947228 (x=282 y=617) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the three algorithms for different attack types. It can be seen from
+page=5 block=770947228 (x=270 y=628) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Fig. 10 that the three algorithms can well detect different attack
+page=5 block=770947228 (x=270 y=638) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+types, and the detection rate is above 80%. The detection rates of
+page=5 block=770947228 (x=270 y=649) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Adaboost to DOS, Normal, Probe, U2R and R2L are 87.3%, 83.1%,
+page=5 block=770947228 (x=270 y=659) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+84.1%, 83.7% and 80.2% respectively. The detection rates of RNN to
+page=5 block=770947228 (x=270 y=669) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+DOS, Normal, Probe, U2R and R2L are 90.3%, 90.3%, 90.2%, 90.3%
+page=5 block=770947228 (x=270 y=680) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+and 90.4% respectively. By observing the detection rate of MSCNN
+page=5 block=770947228 (x=270 y=690) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+model, it is found that the detection rate of MSCNN model for five
+page=5 block=770947228 (x=270 y=701) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Page: 6 left:1 upper:1
+J. Yu, X. Ye and H. Li
+page=6 block=590646109 (x=1 y=1) width=64.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Future Generation Computer Systems 129 (2022) 399–406
+page=6 block=1882349076 (x=344 y=1) width=177.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Fig. 12. Comparison of ROC curves for three algorithms against five attack types.
+page=6 block=936292831 (x=131 y=302) width=259.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+404
+page=6 block=130668770 (x=255 y=717) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+attack types is 94.2%, 93.4%, 92.5%, 92.1% and 90.3% respectively,
+page=6 block=2151717 (x=1 y=323) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+which is 4.37% higher than that of other models. The results show
+page=6 block=2151717 (x=1 y=333) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+that the detection rate of MSCNN model in the detection of five
+page=6 block=2151717 (x=1 y=344) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+types of attacks is higher than 90%, and it is obviously better than
+page=6 block=2151717 (x=1 y=354) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+the detection rate of the other two models in the five types of
+page=6 block=2151717 (x=1 y=364) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+attacks, which indicates that the detection effect of the proposed
+page=6 block=2151717 (x=1 y=374) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+MSCNN model is excellent. In addition, the false alarm rates of
+page=6 block=2151717 (x=1 y=384) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the three algorithms in intrusion detection of DOS, Normal, Probe,
+page=6 block=2151717 (x=1 y=395) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+U2R and R2L are compared, as shown in Fig. 11.
+page=6 block=2151717 (x=1 y=405) width=187.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The traditional RNN model and Adaboost [27,28] model are
+page=6 block=2151717 (x=13 y=415) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+used to compare the performance with MSCNN model. The three
+page=6 block=2151717 (x=1 y=425) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+algorithms use the same test set and experimental environment.
+page=6 block=2151717 (x=1 y=435) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+The comparison results of the three algorithms in detection rate
+page=6 block=2151717 (x=1 y=446) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+are shown in Fig. 11.
+page=6 block=2151717 (x=1 y=456) width=80.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+In Fig. 11, the false alarm rate of Adaboost model is signifi-
+page=6 block=2151717 (x=13 y=466) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+cantly higher, the false alarm rate of DOS is 11%, and the false
+page=6 block=2151717 (x=1 y=476) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+alarm rate of R2L has reached 16.7%, and the false alarm rate
+page=6 block=2151717 (x=1 y=486) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+of other three attack types has reached 14%, 14.5% 1 and 15.2%.
+page=6 block=2151717 (x=1 y=497) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The false alarm rate of RNN model were 8.9%, 9.1%, 10.1%, 10.3%
+page=6 block=2151717 (x=1 y=507) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+and 10.9% respectively. The false alarm rate of MSCNN model
+page=6 block=2151717 (x=1 y=517) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+were 6.1%, 7.8%, 7.4%, 8.8% and 10.1% respectively, which are
+page=6 block=2151717 (x=1 y=527) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+significantly lower than the other two models, with an average
+page=6 block=2151717 (x=1 y=537) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+decrease of 4.02%. The results show that MSCNN model can detect
+page=6 block=2151717 (x=1 y=548) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the attack types in intrusion system well, and also show that
+page=6 block=2151717 (x=1 y=558) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the performance of MSCNN model is better than other models.
+page=6 block=2151717 (x=1 y=568) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+In addition, the three detection models are applied to other data
+page=6 block=2151717 (x=1 y=578) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+sets for detection and analysis, and the ROC curves of the three
+page=6 block=2151717 (x=1 y=588) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+models are drawn to solve the offline area, so as to analyze the
+page=6 block=2151717 (x=1 y=599) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+universality of the prediction efficiency of the three models. The
+page=6 block=2151717 (x=1 y=609) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+ROC curve is shown in Fig. 12.
+page=6 block=2151717 (x=1 y=619) width=117.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+As can be seen from Fig. 12, in three different data sets, the
+page=6 block=2151717 (x=13 y=629) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+three models can make good prediction, and the offline area is far
+page=6 block=2151717 (x=1 y=639) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+greater than 0.5, which indicates that the prediction efficiency of
+page=6 block=2151717 (x=1 y=650) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+the three models is good, but it is not difficult to see that the
+page=6 block=2151717 (x=1 y=660) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+offline area of MSCNN model is always greater than the other
+page=6 block=2151717 (x=1 y=670) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+two models. The above results show that the MSCNN model has a
+page=6 block=2151717 (x=1 y=680) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+strong universality, can be trained well in different data sets, and
+page=6 block=2151717 (x=1 y=690) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the prediction performance meets the ideal requirements.
+page=6 block=2151717 (x=1 y=701) width=225.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Fig. 13. Comparison of warning time under different detection methods.
+page=6 block=1644231115 (x=280 y=476) width=231.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+For that, the short-term detection effect and long-term de-
+page=6 block=537066525 (x=282 y=509) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+tection effect are analyzed respectively. First, the short-term ap-
+page=6 block=537066525 (x=270 y=519) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+plication effect evaluation is carried out, and the average early
+page=6 block=537066525 (x=270 y=530) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+warning time of intrusion detection based on different algorithms
+page=6 block=537066525 (x=270 y=541) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+is compared, as shown in Fig. 13.
+page=6 block=537066525 (x=270 y=551) width=128.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+The warning time of the proposed detection system decreases
+page=6 block=537066525 (x=282 y=562) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+with the increase of attack speed, which indicates that the in-
+page=6 block=537066525 (x=270 y=573) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+trusion detection system based on MSCNN can perfectly cope
+page=6 block=537066525 (x=270 y=583) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+with external network attacks as shown in Fig. 13. The same
+page=6 block=537066525 (x=270 y=594) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+experiment is also conducted for other two baseline methods, and
+page=6 block=537066525 (x=270 y=605) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+the two detection models can also achieve reducing the alarm
+page=6 block=537066525 (x=270 y=615) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+time with the increase of attack speed. However, from the overall
+page=6 block=537066525 (x=270 y=626) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+situation, the early warning time of MSCNN intrusion detection
+page=6 block=537066525 (x=270 y=637) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+system and the other two groups of detection systems is not
+page=6 block=537066525 (x=270 y=647) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+different when the attack speed is low. However, as the attack
+page=6 block=537066525 (x=270 y=658) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+speed increases by more than 25, it is obvious that the average
+page=6 block=537066525 (x=270 y=669) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+early alarm time of MSCNN intrusion detection system is 0.1s
+page=6 block=537066525 (x=270 y=679) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+and 0.15s faster than RNN and Adaboost respectively. The results
+page=6 block=537066525 (x=270 y=690) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+show that MSCNN intrusion detection system after a short-term
+page=6 block=537066525 (x=270 y=701) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Page: 7 left:1 upper:1
+J. Yu, X. Ye and H. Li
+page=7 block=1766145591 (x=1 y=1) width=64.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Future Generation Computer Systems 129 (2022) 399–406
+page=7 block=1867139015 (x=344 y=1) width=177.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Multi-scale convolutional neural network intrusion detection system application effect.
+page=7 block=182531396 (x=1 y=29) width=275.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+IP Network unknown Web service remote SCOKS proxy
+page=7 block=182531396 (x=5 y=39) width=309.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+number encrypted data SQL injection attack access operation
+page=7 block=182531396 (x=5 y=48) width=320.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+transmission
+page=7 block=182531396 (x=81 y=56) width=40.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+405
+page=7 block=1026871825 (x=255 y=717) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+Table 2
+page=7 block=2109798150 (x=1 y=20) width=23.000000 height=4.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=5
+1
+page=7 block=1074389766 (x=5 y=68) width=4.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+17106
+page=7 block=1136768342 (x=81 y=68) width=20.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+10321
+page=7 block=1484673893 (x=178 y=68) width=19.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+2
+page=7 block=587003819 (x=5 y=77) width=4.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+20061
+page=7 block=769798433 (x=81 y=77) width=20.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+14679
+page=7 block=1665620686 (x=178 y=77) width=19.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+3
+page=7 block=1233705144 (x=5 y=85) width=4.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+9752
+page=7 block=202125197 (x=81 y=85) width=16.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+7649
+page=7 block=811301908 (x=178 y=85) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+4
+page=7 block=1762902523 (x=5 y=94) width=4.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+15446
+page=7 block=1725008249 (x=81 y=94) width=20.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+9983
+page=7 block=197964393 (x=178 y=94) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+5
+page=7 block=1620890840 (x=5 y=103) width=4.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+12043
+page=7 block=402115881 (x=81 y=103) width=20.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+9461
+page=7 block=2106000623 (x=178 y=103) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+6
+page=7 block=330739404 (x=5 y=111) width=4.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+7342
+page=7 block=361398902 (x=81 y=111) width=16.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+5435
+page=7 block=1010670443 (x=178 y=111) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+7
+page=7 block=2044215423 (x=5 y=120) width=4.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+19413
+page=7 block=1606304070 (x=81 y=120) width=20.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+11842
+page=7 block=510063093 (x=178 y=120) width=19.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+8
+page=7 block=1313916817 (x=5 y=128) width=4.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+11497
+page=7 block=1966124444 (x=81 y=128) width=20.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+9238
+page=7 block=1487500813 (x=178 y=128) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+9
+page=7 block=1911152052 (x=5 y=137) width=4.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=15 wordint.max=15
+21513
+page=7 block=961409111 (x=81 y=137) width=20.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+15230
+page=7 block=1231156911 (x=178 y=137) width=19.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+10
+page=7 block=1525409936 (x=5 y=145) width=8.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+8846
+page=7 block=1708169732 (x=81 y=145) width=16.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+7791
+page=7 block=868815265 (x=178 y=145) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+test, its response to network intrusion is faster, early alarm is fast,
+page=7 block=1977310713 (x=1 y=170) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+and withthe speed of network attacks, it canalso improve its own
+page=7 block=1977310713 (x=1 y=180) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+early warning time adaptively, which is conducive to network
+page=7 block=1977310713 (x=1 y=190) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+security protection.
+page=7 block=1977310713 (x=1 y=200) width=75.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+And in practical application, the installation cost of the three
+page=7 block=1977310713 (x=13 y=211) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+intrusion detection systems and the later maintenance cost of
+page=7 block=1977310713 (x=1 y=221) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+MSCNN are slightly lower than the other two intrusion detection
+page=7 block=1977310713 (x=1 y=231) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+systems to a certain extent, so from the overall benefit, MSCNN
+page=7 block=1977310713 (x=1 y=241) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+has better usability. 10 IP addresses were selected as the test ob-
+page=7 block=1977310713 (x=1 y=252) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+jects to be attacked. The number of network attacks and detection
+page=7 block=1977310713 (x=1 y=262) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+system in these 10 IP addresses in the next 6 months is shown in
+page=7 block=1977310713 (x=1 y=272) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Table 2.
+page=7 block=1977310713 (x=1 y=282) width=30.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+It can be seen from Table 2 that the 10 IP addresses are mainly
+page=7 block=1977310713 (x=13 y=293) width=239.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+affected by the network unknown encrypted data transmission,
+page=7 block=1977310713 (x=1 y=303) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Web service remote SQL injection attack, SOCKS proxy access op-
+page=7 block=1977310713 (x=1 y=313) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+eration, HTTP protocol URL field super long buffer overflow attack
+page=7 block=1977310713 (x=1 y=323) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+and port scanner PING Sweep operates five types of attacks, in
+page=7 block=1977310713 (x=1 y=333) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+which the network unknown encrypted data transmission is the
+page=7 block=1977310713 (x=1 y=344) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+most frequent of all attacks, and the maximum number of attacks
+page=7 block=1977310713 (x=1 y=354) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+is 21513. The port scanner Ping sweep is the least attack type. The
+page=7 block=1977310713 (x=1 y=364) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+most attack is 1622 and the lowest is 768. It shows that under
+page=7 block=1977310713 (x=1 y=374) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+the support of intrusion detection system based on multi-scale
+page=7 block=1977310713 (x=1 y=385) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+convolutional neural network, the number of attacks of each IP is
+page=7 block=1977310713 (x=1 y=395) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+well detected. And it further shows that the intrusion detection
+page=7 block=1977310713 (x=1 y=405) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+system can achieve good results in practical application, and also
+page=7 block=1977310713 (x=1 y=415) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+verifies the effectiveness and feasibility of the research content.
+page=7 block=1977310713 (x=1 y=426) width=247.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+5. Conclusion
+page=7 block=1886491834 (x=1 y=445) width=55.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=6
+In view of the defects of the network intrusion detection
+page=7 block=294658058 (x=13 y=465) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+system in the market, a high-precision intrusion detection tech-
+page=7 block=294658058 (x=1 y=476) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+nology based on MSCNN is proposed. The performance of the
+page=7 block=294658058 (x=1 y=486) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+network model and the effect of the detection system in the
+page=7 block=294658058 (x=1 y=496) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+practical application are analyzed and discussed. MSCNN is a kind
+page=7 block=294658058 (x=1 y=506) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+of deep learning method to realize high-precision recognition,
+page=7 block=294658058 (x=1 y=516) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+and it is applied to the network security intrusion detection
+page=7 block=294658058 (x=1 y=527) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+system. After the final performance analysis, it is found that the
+page=7 block=294658058 (x=1 y=537) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+convergence rate of the network adding BN layer is significantly
+page=7 block=294658058 (x=1 y=547) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+faster than that without BN layer. By comparing the accuracy and
+page=7 block=294658058 (x=1 y=557) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+false alarm rate of different algorithms in the face of different
+page=7 block=294658058 (x=1 y=568) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+attack types, it is found that the detection rate of MSCNN model
+page=7 block=294658058 (x=1 y=578) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+is higher than that of other models when facing five attack types.
+page=7 block=294658058 (x=1 y=588) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+In addition, the false alarm rate of MSCNN model detection is also
+page=7 block=294658058 (x=1 y=598) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+obvious. In the practical application, it can be seen from the short-
+page=7 block=294658058 (x=1 y=609) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+term application effect that the early alarm time of the system to
+page=7 block=294658058 (x=1 y=619) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+network attack is better than other detection systems with the
+page=7 block=294658058 (x=1 y=629) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+increase of attack speed. The long-term evaluation of application
+page=7 block=294658058 (x=1 y=639) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+effect shows that the system can prevent and classify different
+page=7 block=294658058 (x=1 y=649) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+types of attacks. In conclusion, MSCNN can effectively improve
+page=7 block=294658058 (x=1 y=660) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+the intrusion detection, which provides a theoretical support for
+page=7 block=294658058 (x=1 y=670) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+network security protection. However, in the future, there are still
+page=7 block=294658058 (x=1 y=680) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+some rooms to improve the model to construct a better intrusion
+page=7 block=294658058 (x=1 y=690) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+detection system.
+page=7 block=294658058 (x=1 y=701) width=67.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+HTTP protocol URL
+page=7 block=1781493632 (x=360 y=39) width=59.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+field super long
+page=7 block=1781493632 (x=360 y=48) width=50.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+buffer overflow attack
+page=7 block=1781493632 (x=360 y=56) width=70.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Port scanner PING
+page=7 block=1169474473 (x=456 y=39) width=58.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Sweep operation
+page=7 block=1169474473 (x=456 y=48) width=53.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+5214
+page=7 block=966544353 (x=274 y=68) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1321
+page=7 block=689745064 (x=360 y=68) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+996
+page=7 block=945722724 (x=456 y=68) width=12.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+9432
+page=7 block=1536471117 (x=274 y=77) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1782
+page=7 block=9190301 (x=360 y=77) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1023
+page=7 block=1278852808 (x=456 y=77) width=16.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+4125
+page=7 block=63390 (x=274 y=85) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+922
+page=7 block=2129144075 (x=360 y=85) width=12.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+813
+page=7 block=525968792 (x=456 y=85) width=12.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+4698
+page=7 block=504858437 (x=274 y=94) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+831
+page=7 block=422330142 (x=360 y=94) width=12.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+842
+page=7 block=649329985 (x=456 y=94) width=12.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+6894
+page=7 block=1955920234 (x=274 y=103) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1025
+page=7 block=1444635922 (x=360 y=103) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+974
+page=7 block=775386112 (x=456 y=103) width=12.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+3283
+page=7 block=391630194 (x=274 y=111) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1146
+page=7 block=1146825051 (x=360 y=111) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+768
+page=7 block=1239807799 (x=456 y=111) width=12.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+6749
+page=7 block=1550261631 (x=274 y=120) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1953
+page=7 block=1970436060 (x=360 y=120) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1102
+page=7 block=1753127384 (x=456 y=120) width=16.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+5122
+page=7 block=239372207 (x=274 y=128) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1846
+page=7 block=1789718525 (x=360 y=128) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+953
+page=7 block=210156003 (x=456 y=128) width=12.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+9463
+page=7 block=279593458 (x=274 y=137) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+2145
+page=7 block=989447607 (x=360 y=137) width=15.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1622
+page=7 block=925308434 (x=456 y=137) width=16.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+4131
+page=7 block=249034932 (x=274 y=145) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+1462
+page=7 block=1278254413 (x=360 y=145) width=15.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+975
+page=7 block=940584193 (x=456 y=145) width=12.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+CRediT authorship contribution statement
+page=7 block=931675031 (x=270 y=169) width=172.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=5
+Jing Yu: Organize graphics, Modify articles, Reply to com-
+page=7 block=111900554 (x=282 y=190) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+ments. Xiaojun Ye: Revise articles, Respond to comments, Submit
+page=7 block=111900554 (x=270 y=201) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Revised drafts. Hongbo Li: Organize references, Revise articles
+page=7 block=111900554 (x=270 y=211) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+and reply to comments.
+page=7 block=111900554 (x=270 y=222) width=92.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Declaration of competing interest
+page=7 block=1312381159 (x=270 y=242) width=137.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=5
+The authors declare that they have no known competing finan-
+page=7 block=2012744708 (x=282 y=263) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+cial interests or personal relationships that could have appeared
+page=7 block=2012744708 (x=270 y=273) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+to influence the work reported in this paper.
+page=7 block=2012744708 (x=270 y=284) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Acknowledgment
+page=7 block=31114735 (x=270 y=304) width=70.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=21
+This work has been supported by the research project funded
+page=7 block=1552999801 (x=282 y=325) width=239.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+by the National Key Research and Development Program of China
+page=7 block=1552999801 (x=270 y=335) width=251.000000 height=6.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+(2019QY1402).
+page=7 block=1552999801 (x=270 y=346) width=57.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=19
+References
+page=7 block=1491755116 (x=270 y=366) width=43.000000 height=6.000000 fontname=FSIFCR+t1-gul-bold wordint.min=1 wordint.max=21
+[1] Y. Gao, H. Wu, B. Song, et al., A distributed network intrusion detection
+page=7 block=1866850137 (x=274 y=386) width=247.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+system for distributed denial of service attacks in vehicular ad hoc
+page=7 block=1866850137 (x=288 y=395) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+network, IEEE Access 7 (2019) 154560–154571.
+page=7 block=1866850137 (x=288 y=403) width=150.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+T.H. Divyasree, K.K. Sherly, A network intrusion detection system based on
+page=7 block=1866850137 (x=288 y=412) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+ensemble CVM using efficient feature selection approach, Procedia Comput.
+page=7 block=1866850137 (x=288 y=420) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Sci. 143 (2018) 442–449.
+page=7 block=1866850137 (x=288 y=429) width=79.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[3] Z. Fan, Y. Xiao, A. Nayak, et al., An improved network security situation
+page=7 block=1866850137 (x=274 y=437) width=247.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+assessment approach in software defined networks, Peer-To-Peer Netw.
+page=7 block=1866850137 (x=288 y=446) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Appl. 12 (2017) 295–309.
+page=7 block=1866850137 (x=288 y=455) width=80.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[4] Z. Wei, Y.W. Chow, W. Susilo, Interactive three-dimensional visualization
+page=7 block=1866850137 (x=274 y=463) width=247.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+of network intrusion detection data for machine learning, Future Gener.
+page=7 block=1866850137 (x=288 y=472) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Comput. Syst. 102 (2020) 292–306.
+page=7 block=1866850137 (x=288 y=480) width=111.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[5] C. Umarani, S. Kannan, Intrusion detection system using hybrid tissue
+page=7 block=1866850137 (x=274 y=489) width=247.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+growing algorithm for wireless sensor network, Peer-To-Peer Netw. Appl.
+page=7 block=1866850137 (x=288 y=497) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+13 (3) (2020) 752–761.
+page=7 block=1866850137 (x=288 y=506) width=73.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[6] H. Sedjelmaci, S.M. Senouci, M.A. Abu-Rgheff, An efficient and lightweight
+page=7 block=1866850137 (x=274 y=514) width=247.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+intrusion detection mechanism for service-oriented vehicular networks,
+page=7 block=1866850137 (x=288 y=523) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+IEEE Internet Things J. 1 (6) (2017) 570–577.
+page=7 block=1866850137 (x=288 y=531) width=142.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[7] W. Wei, Y. Sheng, J. Wang, et al., HAST-IDS: Learning hierarchical spatial-
+page=7 block=1866850137 (x=274 y=540) width=247.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+temporal features using deep neural networks to improve intrusion
+page=7 block=1866850137 (x=288 y=548) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+detection, IEEE Access 6 (99) (2018) 1792–1806.
+page=7 block=1866850137 (x=288 y=557) width=153.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+R.D. Datta, et al., A novel approach for efficient usage of intrusion detection
+page=7 block=1866850137 (x=288 y=565) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+system in mobile ad hoc networks, IEEE Trans. Veh. Technol. 66 (5) (2017)
+page=7 block=1866850137 (x=288 y=574) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+1684–1695.
+page=7 block=1866850137 (x=288 y=582) width=36.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+[9] B.C. Zhang, G.Y. Hu, Z.J. Zhou, et al., Network intrusion detection based on
+page=7 block=1866850137 (x=274 y=591) width=247.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+directed acyclic graph and belief rule base, Etri J. 39 (4) (2017) 592–604.
+page=7 block=1866850137 (x=288 y=599) width=232.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[10] S. Kruthiventi, K. Ayush, R.V. Babu, DeepFix: A fully convolutional neural
+page=7 block=1866850137 (x=270 y=608) width=251.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+network for predicting human eye fixations, IEEE Trans. Image Process. 26
+page=7 block=1866850137 (x=288 y=616) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+(9) (2017) 4446–4456.
+page=7 block=1866850137 (x=288 y=625) width=70.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[11] R.T. Schirrmeister, L. Gemein, K. Eggensperger, et al., Deep learning with
+page=7 block=1866850137 (x=270 y=633) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+convolutional neural networks for decoding and visualization of EEG
+page=7 block=1866850137 (x=288 y=642) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+pathology, Human Brain Mapp. 38 (11) (2017) 5391–5420.
+page=7 block=1866850137 (x=288 y=651) width=186.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[12] X. Ma, D. Zhuang, Z. He, et al., Learning traffic as images: A deep
+page=7 block=1866850137 (x=270 y=659) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+convolutional neural network for large-scale transportation network speed
+page=7 block=1866850137 (x=288 y=668) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+prediction, Sensors 17 (4) (2017) 818.
+page=7 block=1866850137 (x=288 y=676) width=120.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[13] W. Peng, Y. Cao, C. Shen, et al., Temporal pyramid pooling based convo-
+page=7 block=1866850137 (x=270 y=685) width=251.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+lutional neural networks for action recognition, IEEE Trans. Multimed. 27
+page=7 block=1866850137 (x=288 y=693) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+(12) (2017) 2613–2622.
+page=7 block=1866850137 (x=288 y=702) width=74.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[2]
+page=7 block=954702563 (x=274 y=412) width=9.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[8]
+page=7 block=1661406123 (x=274 y=565) width=9.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+Page: 8 left:1 upper:1
+J. Yu, X. Ye and H. Li
+page=8 block=1759899303 (x=1 y=1) width=64.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+Future Generation Computer Systems 129 (2022) 399–406
+page=8 block=689654773 (x=344 y=1) width=177.000000 height=5.000000 fontname=RGKJHS+t1-gul-regular-italic wordint.min=1 wordint.max=5
+406
+page=8 block=758119607 (x=255 y=717) width=11.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+[14]
+page=8 block=1982787818 (x=1 y=21) width=13.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+G. Antipov, M. Baccouche, S.A. Berrani, et al., Effective training of convolu-
+page=8 block=838449246 (x=19 y=21) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+tional neural networks for face-based gender and age prediction, Pattern
+page=8 block=838449246 (x=19 y=30) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Recognit. 72 (2017) 15–26.
+page=8 block=838449246 (x=19 y=38) width=85.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[15] Y. Zhu, O. Qi, Y. Mao, A deep convolutional neural network ap-
+page=8 block=838449246 (x=1 y=47) width=251.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=8
+proach to single-particle recognition in cryo-electron microscopy, BMC
+page=8 block=838449246 (x=19 y=55) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+Bioinformatics 18 (1) (2017) 348.
+page=8 block=838449246 (x=19 y=64) width=105.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+J. Kawahara, C.J. Brown, S.P. Miller, et al., BrainNetCNN: Convolutional neu-
+page=8 block=838449246 (x=19 y=73) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+ral networks for brain networks; towards predicting neurodevelopment,
+page=8 block=838449246 (x=19 y=81) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+Neuroimage 146 (2017) 1038–1049.
+page=8 block=838449246 (x=19 y=90) width=114.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[17] Z. Ahmad, A.S. Khan, C.W. Shiang, et al., Network intrusion detection
+page=8 block=838449246 (x=1 y=98) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+system: A systematic study of machine learning and deep learning
+page=8 block=838449246 (x=19 y=107) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+approaches, Trans. Emerg. Telecommun. Technol. 32 (2020) e4150.
+page=8 block=838449246 (x=19 y=115) width=211.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+A. Becq, M. Chandnani, S. Bharadwaj, et al., Effectiveness of a deep-learning
+page=8 block=838449246 (x=19 y=124) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+polyp detection system in prospectively collected colonoscopy videos with
+page=8 block=838449246 (x=19 y=133) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+variable bowel preparation quality, J. Clin. Gastroenterol. 54 (6) (2019)
+page=8 block=838449246 (x=19 y=141) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+554–557.
+page=8 block=838449246 (x=19 y=150) width=28.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+S.H. Kim, C.L. Su, D.Y. Kim, Intelligent intrusion detection system featuring
+page=8 block=838449246 (x=19 y=158) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+a virtual fence, active intruder detection, classification, tracking, and action
+page=8 block=838449246 (x=19 y=167) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+recognition, Ann. Nucl. Energy 112 (2018) 845–855.
+page=8 block=838449246 (x=19 y=175) width=164.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[20] B.M. Serinelli, A.C. ollen, N.A. Nijdam, Training guidance with KDD
+page=8 block=838449246 (x=1 y=184) width=251.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+Cup 1999 and NSL-KDD Data Sets of ANIDINR: anomaly-based network
+page=8 block=838449246 (x=19 y=192) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+intrusion detection system, Procedia Comput. Sci. 175 (2020) (1999)
+page=8 block=838449246 (x=19 y=201) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+560–565.
+page=8 block=838449246 (x=19 y=210) width=28.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=15
+I.S. Thaseen, J.S. Banu, K. Lavanya, et al., An integrated intrusion detection
+page=8 block=838449246 (x=19 y=218) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+system using correlation-based attribute selection and artificial neural
+page=8 block=838449246 (x=19 y=227) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+network, Trans. Emerg. Telecommun. Technol. 32 (2) (2020) e4014.
+page=8 block=838449246 (x=19 y=235) width=213.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+N. Alik, O.C. Kurban, A.R. Yilmaz, et al., Large-scale offline signature recog-
+page=8 block=838449246 (x=19 y=244) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+nition via deep neural networks and feature embedding, Neurocomputing
+page=8 block=838449246 (x=19 y=252) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+359 (2019) 1–14.
+page=8 block=838449246 (x=19 y=261) width=54.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[23] H. Hsieh, K.S. Hsu, T.L. Jong, et al., Multi-zone fiber-optic intrusion
+page=8 block=838449246 (x=1 y=270) width=251.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+detection system with active unbalanced michelson interferometer used
+page=8 block=838449246 (x=19 y=278) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+for security of each defended zone, IEEE Sens. J. 20 (3) (2020) 1607–1618.
+page=8 block=838449246 (x=19 y=287) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[24] A.M. Aleesa, B.B. Zaidan, A.A. Zaidan, et al., Review of intrusion detec-
+page=8 block=838449246 (x=1 y=295) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+tion systems based on deep learning techniques: coherent taxonomy,
+page=8 block=838449246 (x=19 y=304) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+challenges, motivations, recommendations, substantial analysis and future
+page=8 block=838449246 (x=19 y=312) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+directions, Neural Comput. Appl. 32 (5232) (2020) 9827–9858.
+page=8 block=838449246 (x=19 y=321) width=198.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+H. Choi, M. Kim, G. Lee, et al., Unsupervised learning approach for network
+page=8 block=838449246 (x=19 y=330) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+intrusion detection system using autoencoders, J. Supercomput. 75 (9)
+page=8 block=838449246 (x=19 y=338) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+(2019) 5597–5621.
+page=8 block=838449246 (x=19 y=347) width=59.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[26] T.A. Tchakoucht, M. Ezziyyani, Building a fast intrusion detection sys-
+page=8 block=838449246 (x=1 y=355) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+tem for high-speed-networks: Probe and DoS attacks detection, Procedia
+page=8 block=838449246 (x=19 y=364) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Comput. Sci. 127 (2018) 521–530.
+page=8 block=838449246 (x=19 y=372) width=107.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[16]
+page=8 block=1112414583 (x=1 y=73) width=13.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[18]
+page=8 block=282496973 (x=1 y=124) width=13.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[19]
+page=8 block=293508253 (x=1 y=158) width=13.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[21]
+page=8 block=1840903588 (x=1 y=218) width=13.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[22]
+page=8 block=1603198149 (x=1 y=244) width=13.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[25]
+page=8 block=2063763486 (x=1 y=330) width=13.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+[27] Y. Tian, J. Song, X. Zhang, et al., An algorithm combined with color
+page=8 block=515715487 (x=270 y=21) width=251.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+differential models for license-plate location, Neurocomputing 212 (NOV.5)
+page=8 block=515715487 (x=288 y=30) width=233.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+(2016) 22–35.
+page=8 block=515715487 (x=288 y=38) width=44.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+[28] A. Albu, R.E. Precup, T.A. Teban, Results and challenges of artificial neural
+page=8 block=515715487 (x=270 y=47) width=251.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+networks used for decision-making and control in medical applications,
+page=8 block=515715487 (x=288 y=55) width=233.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Facta Univ., Ser.: Mech. Eng. 17 (3) (2019) 285–308.
+page=8 block=515715487 (x=288 y=64) width=165.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Jing Yu, received the B.S. and M.S. degree from In-
+page=8 block=1007412025 (x=348 y=96) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+formation Engineering University, Zhengzhou, China, in
+page=8 block=1007412025 (x=348 y=105) width=173.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+2004 and 2008 respectively. From 2007 to 2015, she
+page=8 block=1007412025 (x=348 y=113) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+was a test engineer of software. Since 2015, she is
+page=8 block=1007412025 (x=348 y=122) width=173.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+a Ph.D. student in School of Software, Tsinghua Uni-
+page=8 block=1007412025 (x=348 y=130) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+versity, China. Her research interest covers automated
+page=8 block=1007412025 (x=348 y=139) width=173.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+testing for software and deep learning systems.
+page=8 block=1007412025 (x=348 y=147) width=151.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Xiaojun Ye, received the B.S. degree in mechanical
+page=8 block=365590665 (x=348 y=194) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+engineering from Northwest Polytechnical University,
+page=8 block=365590665 (x=348 y=203) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+Xian, China, in 1987 and the Ph.D. degree in infor-
+page=8 block=365590665 (x=348 y=212) width=173.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=6
+mation engineering from INSA Lyon, France, in 1994.
+page=8 block=365590665 (x=348 y=220) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Currently, he is a professor at School of Software,
+page=8 block=365590665 (x=348 y=229) width=173.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=7
+Tsinghua University, Beijing, China. His research inter-
+page=8 block=365590665 (x=348 y=237) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+ests include cloud data management, data security and
+page=8 block=365590665 (x=348 y=246) width=173.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4
+privacy, and database system testing.
+page=8 block=365590665 (x=348 y=254) width=118.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+Hongbo Li is a student of College of Electronic Infor-
+page=8 block=2053591126 (x=348 y=301) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+mation Engineering, southwest university, Chongqing,
+page=8 block=2053591126 (x=348 y=310) width=173.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+China. His research interest covers Circuit design and
+page=8 block=2053591126 (x=348 y=319) width=173.000000 height=4.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=5
+security algorithm development.
+page=8 block=2053591126 (x=348 y=327) width=102.000000 height=5.000000 fontname=EYCJWC+t1-gul-regular wordint.min=1 wordint.max=4

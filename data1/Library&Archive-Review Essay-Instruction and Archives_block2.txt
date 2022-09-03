@@ -1,0 +1,1888 @@
+Content:
+ColumnWidth 271 ColumnNumber 1
+ContentWidth 537 ContentLeft 1 ContentRight 537
+==============================
+Page 1
+ Left 1 Right 537 Top 1 Bottom 613
+
+
+Column meta:
+Column left:9999 upper:9999 right:0 lower 0
+
+
+Blocks:
+----------------------
+==============================
+type: undefined
+typeindex=2 left=1 right=537 upper=38 lower=189
+====>
+charfont height=8.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+Review: Review Essay: Instruction and Archives
+Reviewed Work(s): Embedded Librarians by Cassandra Kvenid and  Kaijsa Calkins; What the
+Best College Teachers Do by Ken Bain; The Joy of Teaching, a Practical Guide for New
+College Instructors by Peter Filene; A New Culture of Learning: Cultivating the
+Imagination for a World of Constant Change by Douglas Thomas and  John Seeley Brown
+Review by: Heather Briston
+Source: The American Archivist, Vol. 78, No. 2 (FALL/WINTER 2015), pp. 567-577
+Published by: Society of American Archivists
+Stable URL: https://www.jstor.org/stable/26356560
+Accessed: 11-09-2021 19:29 UTC
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=519 upper=220 lower=257
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=461 upper=284 lower=305
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=77 right=503 upper=474 lower=490
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+Society of American Archivists is collaborating with JSTOR to digitize, preserve and extend
+access to The American Archivist
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=136 right=406 upper=601 lower=613
+====>
+charfont height=4.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 2
+ Left 1 Right 422 Top 1 Bottom 753
+
+
+Column meta:
+Column left:1 upper:61 right:281 lower 704
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=340 right=353 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 567
+
+==============================
+
+==============================
+type: title
+typeindex=2 left=60 right=348 upper=126 lower=134
+====>
+charfont height=8.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Review Essay: Instruction and Archives
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=5 right=414 upper=151 lower=170
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Embedded Librarians. Edited by Cassandra Kvenid and Kaijsa Calkins. Chicago:
+ Association of College and Research Libraries of the American Library Association,
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=50 right=359 upper=178 lower=184
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 2011. Softcover. 264 pages. $49.00. ISBN 978-0-8389-8587-8.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=18 right=392 upper=221 lower=226
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ What the Best College Teachers Do. By Ken Bain. Cambridge, Mass.: Harvard
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=20 right=404 upper=234 lower=240
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ University Press, 2004. Hardcover. 207 pages. $29.50. ISBN 0-674-01325-5.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=5 right=422 upper=277 lower=308
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ The Joy of Teaching, a Practical Guide for New College Instructors. By Peter Filene.
+ Chapel Hill: University of North Carolina Press, 2005. Softcover. 176 pages. $25.00.
+ ISBN 0-8078-5603-7.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=14 right=388 upper=347 lower=353
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ A New Culture of Learning: Cultivating the Imagination fora World of Constant
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=13 right=391 upper=361 lower=380
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Change. By Douglas Thomas and John Seeley Brown. CreateSpace Independent
+ Publishing Platform, 2011. Softcover. 140 pages. $12.95. ISBN 1-456-45888-4.
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=2 right=353 upper=428 lower=438
+====>
+charfont height=7.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ The  aflsuon hdoapme teon etnagla pger tehmemis ew iotfh  ptreiamcahriyn sgo uirsc etso a nhde tlphe oiru urs es. tUultdimenattesl yl,earn. Ideally, we
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=41 right=311 upper=741 lower=753
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+type: BEFOREFIRSTBODY
+typeindex=-1 left=157 right=199 upper=61 lower=65
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=1, column left=1
+
+ REVIEWS
+
+==============================
+
+==============================
+type: FIRSTBODY
+typeindex=0 left=1 right=281 upper=446 lower=646
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=1
+
+ we hope to create current and future users of our collections. Archivists in all
+ areas of the profession and in most varieties of repositories find themselves
+ providing instruction using their collections. Instruction can take many forms,
+ from a contextualized set of items of interest to a group, to a semester-long
+ course on research methods that focuses on unique primary sources and every
+ other version in between. Who and what prepares us for this role? Some may
+ bring to the profession a background in education or pedagogy. Others may be
+ lucky enough to receive training in their master's programs or via continuing
+ education immersion programs. Many of us find ourselves standing in front of
+ a classroom armed only with our experience as students—how we were taught
+ and how we like to learn. In higher education, this is not an unusual path; the
+ bulk of learning how to teach, how to lead a group of students into and through
+ a learning environment, is gained through doing and watching others and occa
+ sionally through workshops and other brief training.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=62 right=242 upper=700 lower=704
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=1
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015 ? 567-598
+
+==============================
+
+==============================
+Page 3
+ Left 1 Right 394 Top 1 Bottom 754
+
+
+Column meta:
+Column left:2 upper:369 right:103 lower 375
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=4 right=16 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 568
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=166 right=192 upper=2 lower=6
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=357 upper=48 lower=339
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ How can archivists who find themselves in front of a classroom full of
+ students learn to provide instruction that is both engaging and fulfilling for
+ the students and for ourselves? In the literature for both archivists and spe
+ cial collections librarians, an increasing number of articles and case studies of
+ successful instruction sessions or courses incorporate active learning, faculty
+ collaboration, and innovative pedagogy. In addition, outside of the archival lit
+ erature, in the literature of information literacy and librarianship, and in the
+ wider realm of teaching and learning in postsecondary education, a tradition
+ of writing about student-centered teaching and learning exists. Readers should
+ note that three of the books discussed in this essay focus on teaching students
+ in higher education, broadly defined. This does not preclude archivists who
+ teach K-12 learners from finding ideas of value to integrate into their instruc
+ tion, but these grades are not the primary focus of these books.
+ The four books featured in this essay each bring a different perspective
+ regarding how we best help our students to better learn those concepts or skills
+ that we (and our faculty colleagues) determine are the most important given
+ the time and the resources available to us. Each book approaches this question
+ differently—integrating into the classroom, creating an environment for stu
+ dent-centered learning, and looking to networked technology to create a new
+ culture of learning.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=24 right=365 upper=394 lower=424
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Proactive initiatives such as this [embedded librarianship collaboration] are
+ critical to university culture and provide students with the knowledge neces
+ sary for academic success, (p. 193)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=393 upper=442 lower=553
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ For those of us who work in university or college libraries, the term
+ "embedded librarianship" has been everywhere in the literature and in the con
+ versation of our colleagues in the last decade. "Embedded" was borrowed from
+ the description of war correspondents embedded with troops (p. 3). At its heart
+ for librarians, the term refers to a desire for a deep integration of not just the
+ library and the collections, but of the librarian (or archivist) in the classroom,
+ curriculum, and research life of the university or college (p. 4). While this is the
+ goal, we can see from the sixteen case studies presented here that the reality is
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=369 upper=563 lower=568
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ not consistent—embedded can mean different things to different librarians.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=394 upper=577 lower=658
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ The case studies in Embedded Librarians are all written by librarians and
+ some instructional faculty about particular programs or courses that incorpo
+ rate engagement that the authors define as embedded. The institutions high
+ lighted come from among community colleges, colleges and universities, and
+ professional programs. The first two case studies provide a literature review and
+ a current summary of embedded librarianship. The remaining fourteen case
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=80 right=296 upper=700 lower=704
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=43 right=313 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=103 upper=369 lower=375
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=2
+
+ Embedded Librarians
+
+==============================
+
+==============================
+Page 4
+ Left 1 Right 389 Top 1 Bottom 754
+
+
+Column meta:
+Column left:44 upper:700 right:314 lower 754
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=166 right=192 upper=1 lower=4
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=341 right=355 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 569
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=389 upper=49 lower=433
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ studies are divided into five parts highlighting different instructional environ
+ ments: the first year experience; online; in and across disciplines; graduate and
+ professional programs; and innovative spaces. The book's organization makes
+ scanning and selecting a case study to match a particular instructional need
+ easy. Each case study averages twelve pages in length, so the time investment
+ for the reader is not large. As it is a collection of various projects, the writing
+ quality varies and the book lacks an overall coherence. However, this does not
+ detract from those case studies that present examples of a deeper integration of
+ collections and librarians into the curriculum and the research life of a campus
+ and areas where archivists can find ideas for experimentation.
+ The three best case studies, considering quality and applicability to the
+ teaching archivist, focus on integration into an academic department, embed
+ ded research assistance in a major project, and embedded instruction and
+ research assistance in a graduate research program. All three of these examples
+ highlight both integration into the teaching function, but also into the research
+ and learning functions of a particular course or department.
+ "Embedded and Embodied: Dance Librarianship within the Academic
+ Department" from Arizona State University, provides an example of a librarian's
+ integration into a department that houses a subject library. Visible and accessi
+ ble at the point of need for both student and faculty researchers, integration of
+ the librarian and collections occurs not only in the syllabus but also in the cur
+ riculum, and results in greater recognition by the research and teaching faculty
+ of the valuable contributions of the librarian (p. 98). The author acknowledges
+ that the specialized circumstances in this environment create the opportunity.
+ The case study provides a rich example of the merit of deeply integrating a
+ librarian within a department, and highlights why, despite the challenges, it is
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=44 upper=439 lower=444
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ worth it.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=388 upper=456 lower=644
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ While the outcome of this case study is aspirational for most of us, the
+ examples in "Starring the Literature Review: An Integrative Approach" from
+ Harvard University and "Kresge Library's Embedded Librarian Program: A
+ Student-Centered Approach" from the University of Michigan provide familiar
+ scenarios that could be more easily integrated into an archivist's current work.
+ One is an example of collaborative instruction developed around a common
+ information need. The other is a model of personalized group research refer
+ ence. Both examples involve students in professional or graduate programs.
+ However, they could be used in situations with undergraduates in capstone
+ courses or research projects. Neither, however, would be scalable to a large
+ enrollment course. For most of us involved in reference and instruction, this
+ probably differs little from what we often provide in our own institutions.
+ However, these case studies present examples of more integrated and collabo
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=386 upper=653 lower=658
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ rative environments for the librarians and the faculty from the outset. It's from
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=80 right=292 upper=700 lower=704
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=44
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=44 right=314 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=44
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 5
+ Left 1 Right 389 Top 1 Bottom 754
+
+
+Column meta:
+Column left:43 upper:701 right:313 lower 754
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=4 right=16 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 570
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=166 right=192 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=3 right=357 upper=49 lower=252
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ that development phase of these projects that archivists can learn the most.
+ For example, notable in the University of Michigan case study is how integra
+ tion has evolved over time to support its sustainability within the library. The
+ program was established well over a decade ago and continues to evolve as the
+ particular MBA project grows (p. 153). In the Harvard University case study, the
+ identification of a research need and development of a solution in collabora
+ tion are examples to be followed. "The impetus for our course began with a
+ student's request for a research methods class that included library research
+ skills" (p. 188). We should recognize here that, in many cases, archivists are
+ often more naturally integrated in research and instruction than are librari
+ ans. This is due in part not only to our unique collections, but to the particular
+ way in which the majority of our collections need to be accessed and our audi
+ ence's general lack of experience with this. We also come from a much more
+ highly mediated tradition of reference provision than the majority of current
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=3 right=48 upper=259 lower=264
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ librarians.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=378 upper=276 lower=342
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ The remainder of the book has some valuable ideas to be gleaned by
+ archivists. Much of the value will depend on readers' individual circumstances,
+ their instructional needs, and the type of campuses or institutions where they
+ work. As an example, the case study "More than a One-Shot: Innovative Faculty
+ Librarian Collaboration" includes extensive student assessment following the
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=353 upper=350 lower=356
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ course, which was conducted in concert with assessment of similar courses
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=389 upper=366 lower=492
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ involving a single library session instead of an embedded experience over
+ the course of three semesters (p. 167). The research shows improved learning
+ through increased instruction and mediation.
+ Many of the techniques echo general suggestions for providing good ref
+ erence or good instruction and do not appear to be in any way unique to an
+ embedded environment. The less relevant case studies are geared to an online
+ only presence. This lack of relevance is based on the fact that archivists and
+ librarians have been consistently providing the majority of the examples given
+ via Web pages, research guides, and course management systems since the
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=237 upper=500 lower=505
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ introduction of those tools into standard instruction.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=379 upper=517 lower=538
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ The implied premise of the book is that all librarians in higher education,
+ no matter their charge or their institution, can be involved in embedded librari
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=379 upper=547 lower=553
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ anship. However, in trying to build a tent big enough to hold everyone, the book
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=380 upper=562 lower=659
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ dilutes its initial promise somewhat. It does, however, end up demonstrating
+ that, regardless of circumstance, you can provide instruction or reference, often
+ in innovative or engaging ways.
+ Some underlying themes can be taken away from this book. First, whether
+ it's called "embedded" or not, the goal is to provide the most engaging learn
+ ing environment and to foster learning within the classroom. True collabora
+ tion with faculty is a sometimes elusive but fundamental step in creating that
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=81 right=289 upper=701 lower=705
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=43
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=43 right=313 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=43
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 6
+ Left 1 Right 356 Top 1 Bottom 754
+
+
+Column meta:
+Column left:42 upper:701 right:312 lower 754
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=164 right=190 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=340 right=352 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 571
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=356 upper=49 lower=160
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ environment. True embeddedness is not generally scalable given the resources
+ and work involved. Collaboration and embeddedness are also very tenuous,
+ given their lack of scalability and the personal investment of the individuals
+ involved. The book is littered with examples of projects that ended when a
+ department changed curriculum, a faculty member or librarian left or was reas
+ signed, or leadership decided to change the focus of learning outcomes. The
+ examples discussed here require investment not just from individuals but from
+ libraries, departments, and, in some cases, institutions. Embeddedness may not
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=355 upper=169 lower=190
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ be for every librarian or archivist, nor is it for every class, but it involves a vari
+ ety of ideas and opportunities for providing a richer experience for our students.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=167 upper=222 lower=228
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ What the Best College Teachers Do
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=24 right=330 upper=245 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Part of being a good teacher (not all) is knowing that you always have some
+ thing new to learn—not so much about teaching techniques but about these
+ particular students at this particular time and their particular sets of aspira
+ tions, confusions, misconceptions, and ignorance, (p. 174)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=354 upper=308 lower=344
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ The next two books are very different from the first, not only in their
+ construction, but also in their audience and aims. They are both important
+ additions to the shelves of archivists trying to discover how best to improve the
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=349 upper=354 lower=359
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ learning of their students. What the Best College Teachers Do is a truly inspirational
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=343 upper=368 lower=374
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1
+
+ book that studies and distills the thoughts and methods of some of the best
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=355 upper=384 lower=389
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ college teachers. The book is written by Ken Bain, a professor best known for his
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=349 upper=399 lower=404
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ research, teaching, and leadership roles in higher education. It is based on a fif
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=356 upper=414 lower=420
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ teen-year, in-depth study of faculty from twenty-four universities and a variety
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=350 upper=429 lower=508
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ of disciplines, including professional schools, that were recognized as having
+ "achieved remarkable success in helping their students learn in ways that made
+ a sustained, substantial, and positive influence on how those students think,
+ act, and feel" (p. 5). The book is now ten years old but is widely considered a
+ classic among those who study teaching in higher education or who want to
+ improve their own teaching and learning environments.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=355 upper=518 lower=537
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ While the title of the book is about "doing," the book itself is not a prescrip
+ tion—all of the best teachers do "x," and, therefore, if we all do "x," our students
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=356 upper=547 lower=659
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ and we will have excellent educational experiences. First and foremost, no book
+ on teaching can really successfully prescribe one way of teaching. All of us who
+ have taught, and especially all of us who are learners, know that not everyone
+ can or is comfortable teaching in the same way, nor do all learners respond
+ equally to the same techniques and environments. This book presents itself
+ as a guidebook, and, like any guidebook, readers can enjoy all of the vignettes
+ and then decide which theories and practices to integrate into their work. Most
+ of all, readers not only come away inspired by this glimpse into truly engaged
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=80 right=275 upper=701 lower=705
+====>
+charfont height=4.000000, charfont bold=0, alignment=2, allupper=-1, column left=42
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=42 right=312 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=42
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 7
+ Left 1 Right 386 Top 1 Bottom 754
+
+
+Column meta:
+Column left:42 upper:701 right:312 lower 754
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=2 right=15 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 572
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=164 right=190 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=382 upper=49 lower=86
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ learning, but they will also see examples that bring to mind favorite teachers
+ from the past or a desire to take classes from the faculty profiled!
+ The central premise of the book is to identify and explain the understand
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=386 upper=96 lower=101
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ ing, actions, and motivations of those teachers who were part of the research and
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=386 upper=111 lower=210
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ recognized as being some of the best teachers. The book is organized around the
+ function of teaching in a series of chapters: "Defining the Best"; "What Do They
+ Know about How We Learn?"; "How Do They Prepare to Teach?"; "What Do They
+ Expect of Their Students?"; "How Do They Conduct Class?"; "How Do They Treat
+ Their Students?"; "How Do They Evaluate Their Students and Themselves?"; and
+ "What Can We Learn from Them?" The book is best experienced as a whole, but
+ the chapters and the index do allow readers to find the sections most relevant
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=64 upper=218 lower=223
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1
+
+ to their needs.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=377 upper=235 lower=659
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ This book provides a deeper discussion of learning theory than some read
+ ers might have experienced previously. This is a crucial addition to the lexicon
+ of archivists; just as we stress the importance of archival theory in guiding
+ archival practice, so should we have at least a small grounding in learning
+ theory upon which to base our teaching plans and instructional approaches.
+ Readers will notice that the book little emphasizes or discusses teaching with
+ technology. This is not necessarily evidence of its age (it does not seem dated).
+ The key is to remember that this book is not about particular tools, but how to
+ select and use particular tools. It is about what we want students to be able to
+ understand, to do, to learn, or to make once they have left our classes, and it
+ is about starting at that point and selecting the best tools to encourage this to
+ happen. Along those lines, this book does not necessarily advocate for or against
+ lecture as a teaching tool. Instead, it discusses and provides examples of what
+ learning lecture fosters best, and the thinking behind what are considered good
+ lectures, and it does the same for other modes of teaching (p. 99).
+ The second thing that readers will note is the focus on instruction in
+ courses. While many of us have increasingly found opportunities to teach term
+ long research methods courses, or be closely integrated into term-long courses,
+ the majority of instruction by archivists still occurs in an environment of, on
+ average, fifty to ninety minutes per class in the course of a term. So, at first
+ glance, the book may seem short on relevance to those with only limited time
+ or control over a class. However, I encourage all archivists to take up this text
+ and use it as it is meant to be used: as a guidebook. Think about integrating
+ different learning styles into your session; when planning the session, instead
+ of starting with the questions "what do I need to cover, and what do I want to
+ show?," start with "what do I want the students to be able to understand, to do,
+ or to make?," and let the coverage and the materials flow from there. For many
+ readers, the most valuable chapter may be "How They Conduct Class," which
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=80 right=286 upper=701 lower=705
+====>
+charfont height=4.000000, charfont bold=0, alignment=2, allupper=-1, column left=42
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=42 right=312 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=42
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 8
+ Left 1 Right 408 Top 1 Bottom 754
+
+
+Column meta:
+Column left:43 upper:700 right:313 lower 754
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=166 right=192 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=341 right=354 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 573
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=3 right=380 upper=49 lower=55
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ focuses on what goes on in the classroom, as it can be used no matter the time
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=3 right=44 upper=64 lower=68
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ available.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=26 right=405 upper=80 lower=86
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ What the Best College Teachers Do is not about overhauling your teaching
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=3 right=392 upper=97 lower=102
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ entirely. It may happen organically over time, but that is not its premise. Instead,
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=3 right=408 upper=111 lower=305
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ it's about learning from others about what works for their students and what
+ works for them, and then trying to integrate incrementally those small things
+ into your regular teaching practice. It also provides examples of how the best
+ teachers approach experiments in teaching that do not work. Since not every
+ thing we do will work, it's about diagnosing the problems and either looking
+ for solutions or replacing them with something new and understanding that
+ failure is a part of experimentation and growth, but is not fatal.
+ This book counters the assumption that there is one best way to teach or
+ one best type of teacher. Instead, it presents a series of encouraging examples
+ and vignettes to demonstrate that all varieties of teachers in higher education
+ can provide an environment that vastly improves the learning of their students.
+ As archivists, we must bring to the table a desire to learn and to improve, and a
+ willingness to try new things.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=3 right=112 upper=339 lower=345
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ The/oy of Teaching
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=25 right=324 upper=362 lower=367
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Teaching is only as successful as the learning it produces, (p. 133)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=408 upper=387 lower=659
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ Of the four books reviewed, The Joy of Teaching is the closest to a teach
+ ing manual. However, while its premise does not have the inspirational tone
+ of Bain's book, it is still engaging and well grounded in solid learning theory
+ with a focus on student learning. It espouses a systematic approach to focusing
+ on student learning when teaching. At the time the book was written, Filene
+ was a professor of history at the University of North Carolina-Chapel Hill who
+ had won six teaching awards at the university. He offers concrete but variable
+ instructions and examples to use when it's time to take a new approach to pre
+ paring for or conducting a class. His book and Bain's are best read and used as
+ complementary companions. In fact, Bain wrote the introduction to this book,
+ which was published one year after his.
+ The Joy of Teaching is organized into three parts and broken into chapters.
+ The three parts are "Premises," "Practices," and "Extra Curriculars." The chapters
+ echo the topics in the previous book, but provide more step-by-step guidance
+ and concrete actions. Chapters include "Understanding Students"; "Defining
+ Aims and Outcomes"; "Constructing a Syllabus"; "Lecturing"; "Discussing";
+ "Broadening the Learning Environment"; "Evaluating and Grading"; and "Extra
+ Curriculars." Throughout the book, foundational research on student learning
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=81 right=304 upper=700 lower=704
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=43
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=43 right=313 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=43
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 9
+ Left 1 Right 383 Top 1 Bottom 754
+
+
+Column meta:
+Column left:42 upper:700 right:312 lower 754
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=2 right=14 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 574
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=165 right=190 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=380 upper=49 lower=115
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ is included along with examples gleaned from the author's and other teachers'
+ experience.
+ As with Bain's book, two general criticisms are that it rarely mentions
+ teaching with technology, and it focuses on those who are teaching courses,
+ instead of single sessions. These criticisms do not detract from the general value
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=364 upper=123 lower=129
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ of the book to archivists, however. This is the book that archivists who teach
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=383 upper=140 lower=658
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ longer, more substantive courses are looking for: what makes a good syllabus?
+ How do you put one together? How do you make sure it is manageable over the
+ period of a term or semester? The target audience of this book comprises new
+ instructors who are developing and teaching their first courses. This makes it
+ especially valuable for those who are new to teaching, but it includes practices
+ and ideas that can be of interest and applicable as well to more experienced
+ instructors, depending on their backgrounds.
+ This book can easily be read in its entirety, but it also serves well as a
+ consulting volume with its linear organization, index, and footnotes and anno
+ tated bibliography as starting places for further exploration. The book begins
+ by asking what type of teacher the reader is based on a series of questions (p.
+ 11). The preliminary result will be revised and refined over time as the individ
+ ual continues to teach. A chapter on student learning theory follows. Taken
+ together, these prime readers to think more personally about teaching and
+ about who they will be teaching before considering what to cover and how
+ to put it all together. Some readers might be tempted to skip these parts, but
+ they prompt thinking about oneself as a teaching archivist in ways that may
+ not have been previously considered and then prompt readers to approach the
+ subsequent chapters differently.
+ The next four chapters cover those areas at the heart of teaching: the plan
+ ning and the doing. Depending on whether the reader is teaching a "one-shot,"
+ a course integrated into the collections, or a stand-alone research methods
+ course, the sections will have varying relevance to the task at hand. Each chap
+ ter is filled not only with vignettes but with templates and examples that can
+ be repurposed to the current task.
+ The final four chapters are of varying applicability to readers who are
+ teaching archivists. The final two chapters on relating to students and balanc
+ ing teaching with all of the other responsibilities of faculty will apply more
+ or less depending on whether the reader is teaching full courses or individual
+ classes. Chapter 7 discusses broadening the learning environment and explores
+ techniques for teaching beyond lecture and discussion, including panel discus
+ sion, debates and role playing, case studies, polls or surveys, and public exhibits.
+ In my own experience and in the literature, I have found that archivists use
+ this realm of alternate forms of teaching well, often when teaching their own
+ courses or those deeply integrated into the collections. The other chapter is
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=81 right=291 upper=700 lower=704
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=42
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=42 right=312 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=42
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 10
+ Left 1 Right 358 Top 1 Bottom 754
+
+
+Column meta:
+Column left:43 upper:702 right:313 lower 754
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=339 right=351 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 575
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=164 right=189 upper=2 lower=6
+====>
+charfont height=4.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=353 upper=50 lower=160
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ on evaluating and grading, which will apply variously depending on whether
+ coursework and assignments are involved in the reader's class. However, every
+ teaching archivist can find value in the section on evaluation, whether used
+ at the start or the end of a class, or both. Evaluation allows an instructor to
+ dispel any assumptions he or she or the faculty might have about a student's
+ pre-instruction knowledge and assumptions, or to document postinstruction
+ learning. The author provides short suggestions on how to gauge learning and
+ on how well goals for student learning are actually met.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=24 right=346 upper=170 lower=175
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Of the four books reviewed here, The Joy of Teaching provides the most prac
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=355 upper=184 lower=204
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ tical steps and solutions to answer the overall questions of what we want our
+ students to learn and how we can best help them learn it. It would be best
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=349 upper=212 lower=218
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ utilized in concert with the other texts mentioned here that are filled with case
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=342 upper=229 lower=250
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ studies and vignettes, most especially the Bain book. This book provides the
+ structure to integrate the others into your own teaching.
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=134 upper=282 lower=288
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ A New Culture of Learning
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=24 right=331 upper=305 lower=323
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ The ability to play may be the single most important skill to develop for the
+ twenty-first century. (Location 1623)
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=24 right=349 upper=342 lower=348
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ The final book in this review is in many ways unlike the rest; however,
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=354 upper=357 lower=363
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ this helps it to act as a lens through which to view the other three books. A New
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=355 upper=372 lower=466
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Culture of Learning is about innovation and education. It answers the question
+ of how we help our students to learn by looking at the learning environment
+ writ large—all ages and all settings—and it uses as its springboard the role that
+ networked technology can have in enabling expanded learning in this environ
+ ment. The authors are John Seeley Brown, former chief scientist for the Xerox
+ Corporation and director of its Palo Alto Research Center; prolific writer and
+ thinker in the areas of teaching, learning, and innovation; and the author with
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=345 upper=476 lower=481
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Paul Duguid of The Sotial Life of Information; together with Douglas Thomas, a pro
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=353 upper=490 lower=555
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ fessor of technology, communication, and culture at the University of Southern
+ California. The book's contributions are to look at student learning through a
+ different lens and to challenge and provoke thinking about how teaching and
+ education can evolve in environments where networked technology is applied.
+ The book is arranged into nine chapters that establish and expand the central
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=356 upper=564 lower=570
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ argument of the book, which is that the new culture of learning has at its center
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=358 upper=579 lower=660
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ a focus on play, questioning, and imagination. All three areas are foundational
+ to creating a culture to support innovation (pp. 18-19).
+ One theme also present in the Bain and Filene books is the dismissal of
+ teaching as merely a transferring process model. This is the traditional model
+ that posits teaching as purely the transference of knowledge from the teacher
+ to the students, with evaluation set to judge the accuracy of transmission. The
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=81 right=276 upper=702 lower=706
+====>
+charfont height=4.000000, charfont bold=0, alignment=2, allupper=-1, column left=43
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=43 right=313 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=43
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 11
+ Left 1 Right 386 Top 1 Bottom 754
+
+
+Column meta:
+Column left:42 upper:701 right:312 lower 754
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=2 right=14 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 576
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=164 right=190 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=385 upper=49 lower=101
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ main argument of the book is that the new culture of learning (play, question
+ ing, and imagination) is created neither partly nor wholly in the classroom but
+ by integrating the networked environment into the classroom or eliminating
+ the classroom as the focus of the learning environment (pp. 35-36).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=2 right=385 upper=111 lower=179
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Many of the positions and arguments found in this book are similar to those
+ in books on topics in innovation, leading change, and design thinking. The authors
+ apply these arguments not only to education, but more especially to proposing an
+ infrastructure for cultivating these skills and thinking through education. While
+ it focuses on networked technology, every archivist will see in this book examples
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=386 upper=189 lower=226
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ of how our digital collections and online exhibits form the environment for this
+ type of engaged learning across all types of users. Other examples that archivists
+ can extrapolate from the book are in the use of the online collective, projects
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=386 upper=236 lower=257
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ that bring together learners in an environment where they participate by adding
+ knowledge. This harnessing of the collective in peer-to-peer learning is part of the
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=385 upper=267 lower=381
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ new culture of learning (pp. 52-53). While setting aside for now the larger issues
+ in the profession of how archivists value and interpret this input, it should be
+ recognized as part of a larger learning environment that we are creating.
+ Outside of the networked realm, collections can be used in teaching in
+ innovative ways to stimulate play and questioning, both primary aims of edu
+ cation in the book, but discussed here only in the networked realm. In chapter
+ 3 on embracing change, the authors describe "a new kind of reading practice
+ evaluate a contested piece of knowledge and decide for yourself how you want
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=385 upper=391 lower=396
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ to interpret it" (p. 47). Any teaching archivist who has ever led students through
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=386 upper=406 lower=659
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ an exercise of reading and integrating primary sources into their research will
+ recognize here a familiar goal and outcome. Archivists could no doubt give other
+ examples of how they foster these skills and mindsets through their teaching
+ and learning environments. We might not think of what students do as play,
+ but experimentation and stimulating the imagination occur when students are
+ assigned to take items from our collections and use them as foundations for
+ creative writing projects, art, or other experimental or experiential creation.
+ Unfortunately, this book bases its argument on an educational environ
+ ment that, while common, does not take into account the innovative and learn
+ er-centered teaching environments that we glimpse in the previous three books
+ reviewed in this essay. This dichotomy between the traditional learning envi
+ ronment and a networked technology may leave readers wishing they could
+ sit around a table with the authors of all of these books to discuss how learn
+ er-centered teaching environments can inform the discussion of networked
+ technology. This text would not lend itself to immediate practical application,
+ but instead might challenge and provoke ideas about how teaching with pri
+ mary sources could evolve to address this new culture of learning.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=80 right=292 upper=701 lower=705
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=42
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=42 right=312 upper=742 lower=754
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=42
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+
+==============================
+Page 12
+ Left 1 Right 387 Top 1 Bottom 755
+
+
+Column meta:
+Column left:45 upper:701 right:315 lower 755
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=339 right=352 upper=1 lower=5
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 577
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=164 right=190 upper=2 lower=6
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Reviews
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=384 upper=51 lower=71
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ The New Culture of Learning is a call to a new way of thinking about educa
+ tion. At its root, however, it is still looking at the fundamental question of how
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=1 right=387 upper=81 lower=86
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1
+
+ we help improve the learning of our students. At first glance, it seems to provide
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=2 right=386 upper=94 lower=266
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ a model that could be difficult to embrace, but when looking more deeply at
+ what is proposed, and looking at it through both a networked and a traditional
+ lens, we can see areas where teaching archivists are already making strides to
+ spur new teaching innovation.
+ The four books profiled here were brought together as a way to look at the
+ literature outside the archives profession to explore ideas that teaching archi
+ vists can learn and integrate into their practices. This essay is also based on the
+ premise that those of us who teach are always searching for ways to improve, to
+ increase engagement with our collections, and to integrate new ideas into our
+ teaching. Also, as faculty and others on campus discover the role our collections
+ can play in their goals for increasing and enhancing the research opportunities
+ of all students across the curriculum, we have more opportunities to teach and
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=3 right=198 upper=274 lower=280
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ communicate the value of our collections.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=262 right=368 upper=289 lower=325
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ Heather Briston
+ University of California
+ Los Angeles
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=14 right=368 upper=374 lower=381
+====>
+charfont height=7.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Archives and Archivists 2: Current Trends, New Voices
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=4 right=387 upper=401 lower=407
+====>
+charfont height=5.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Edited byAilsa C. Holland and Elizabeth Mullins. Dublin, Ireland: Four Courts Press,
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=47 right=348 upper=415 lower=421
+====>
+charfont height=6.000000, charfont bold=0, alignment=2, allupper=-1, column left=-1
+
+ Ltd., 2013. 240 pp. Hardcover. $70.00. ISBN 978-1-84682-365-7.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=3 right=354 upper=469 lower=478
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ The  iIsr niosth t hpe ofeiltli nWg oilfl ia apmail , Bbuutt ltehre  liYgehtaitnsg  (o1f 8a6 f5ir-e1."9 I3n9 A) rachllievgese adnldy A rscthaitviesdts: "Education
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=3 right=299 upper=487 lower=523
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ 2: Current Trends, New Voices, editors Ailsa C. Holland and Elizabeth Mullins cap
+ ture the enthusiasm of University College Dublin (UCD) School of History and
+ Archives postgraduate students engaged in research since the publication of
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=3 right=297 upper=532 lower=537
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ the first volume Archives and Archivists (2006). The first book, published as a cel
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=3 right=298 upper=547 lower=659
+====>
+charfont height=6.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1
+
+ ebration of the pioneering role of UCD's thirty-five-year postgraduate diploma
+ in archival studies, contains the works of recent archives school graduates
+ and seasoned professionals. It does not attempt to arrange the essays within a
+ thematic framework and is designed primarily to stimulate debate and foster
+ discussion among archivists in Ireland. Moving beyond the filling of a com
+ memorative bucket in Archives 2, Holland and Mullins, accomplished lecturers
+ at the UCD School of History and Archives, have edited a volume by recently
+ qualified archival practitioners, who through their passionate, well-written
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=83 right=245 upper=701 lower=705
+====>
+charfont height=4.000000, charfont bold=0, alignment=-99, allupper=-1, column left=45
+
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+
+==============================
+
+==============================
+type: PAGEFOOTER
+typeindex=-2 left=45 right=315 upper=743 lower=755
+====>
+charfont height=4.000000, charfont bold=0, alignment=0, allupper=-1, column left=45
+
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+All use subject to https://about.jstor.org/terms
+
+==============================
+

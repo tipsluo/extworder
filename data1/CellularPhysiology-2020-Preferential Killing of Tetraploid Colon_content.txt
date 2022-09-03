@@ -1,0 +1,310 @@
+Title:
+Preferential Killing of Tetraploid Colon 
+Cancer Cells by Targeting the Mitotic 
+Kinase PLK1
+Abstract:
+Background/Aims: Chromosomal instability is a well-known factor in the progression of 
+different types of cancer, including colorectal cancer. Chromosomal instability  results  in 
+severely  rearranged  karyotypes  and aneuploidy.  Tetraploidy  constitutes  an  intermediate 
+phase during the polyploidy/aneuploidy cascade  in oncogenesis, and tetraploid cells are 
+particularly resistant to chemotherapy. Whether inhibition of the mitotic protein polo-like 
+kinase 1 (PLK1) prevents the survival of tetraploid colon cancer cells is unknown. Methods: 
+Diploid and tetraploid cells were transfected with siPLK1 or treated with PLK1 inhibitor Bi2536 
+in combination with spindle poison. Cell toxicity was assessed via crystal violet staining and 
+clonogenic assay. Flow cytometry assessment analyzed numerous cell apoptotic parameters 
+and  cell  cycle  phases.  Synergistic  activity  between  Bi2536  and  paclitaxel,  vincristine  or 
+colchicine was calculated using the CompuSyn software. Results: Inhibition or abrogation of 
+PLK1 prevented the survival of colon cancer cells, specifically tetraploid cells. The cell death 
+induced by PLK inhibition was due to mitotic slippage, followed by the activation of the intrinsic 
+pathway of apoptosis. We further demonstrated that co-treatment of the tetraploid colon 
+cancer cells with a PLK1 inhibitor and the microtubule polymerisation inhibitor vincristine or 
+colchicine, but not the microtubule depolymerisation inhibitor paclitaxel, provoked a lethal 
+synergistic effect. Conclusion: PLK1 inhibition together with microtubule-targeting chemicals, 
+serve as a potent therapeutic strategy for targeting tetraploid cancer cells.
+----------------------
+Subtitles:
+
+ Introduction
+ Results
+ Preferential killing of tetraploid cells after PLK1 inhibition
+ The PLK1 inhibition triggered the mitochondrial apoptotic pathway in tetraploid colon 
+cancer cells
+ Targeting PLK1 perturbed tetraploid cell cycle divisions
+ Discussion
+ Conclusion
+ Author contributions statements
+
+
+Text:
+----------------------
+Introduction
+Colorectal cancer (CRC) is one of the most commonly diagnosed cancers and a leading 
+cause of death worldwide. CRC represents 10% of all diagnosed tumours in men and 9.2% in 
+women, and its global incidence is estimated at 1.4 million cases annually, with 700,000 deaths 
+in 2012. Moreover, the CRC incidence is expected to increase 60% by 2030, to more than 2.2 
+million new cases and 1.1 million cancer deaths [1, 2]. Identifying an efficient treatment 
+is thus crucial to reduce the CRC morbidity rates. One of the cancer hallmarks in general, 
+and CRC in particular, is genomic instability. This phenomenon increases the probability of 
+oncogenic events and creates a heterogeneous cell population with extensive abilities to 
+adapt and evolve [3]. Tetraploidy is a state that can lead to aneuploidy and genomic instability 
+[4-6]. Tetraploidy represents the condition of having twice as many chromosomes compared 
+to their normal, diploid counterparts [7, 8]. Tetraploidy can arise from endoreplication (DNA 
+replication without mitosis) [9], endomitosis (karyokinesis without cytokinesis) [10, 11] or 
+aberrant cell fusion [12]. Tetraploid cells are frequently found in pre-neoplastic lesions of 
+intestinal cancers [13-15].
+The persistence of a tetraploid population is often correlated with the inactivation of 
+tumour suppressors retinoblastoma 1 (RB1) and tumour protein p53 [5]. Inactivation of 
+p53 facilitates the tetraploidisation of cell lines [16, 17]. Similarly, mutations that inactivate 
+the adenomatous polyposis coli (APC) tumour suppressor gene initiate a majority of 
+colorectal cancers and result in tetraploidisation in vitro and in vivo [18]. Tetraploid cells 
+are intrinsically resistant to genotoxic stress mediated by ionising irradiation or anti-cancer 
+chemotherapeutic agents, including platinum compounds and topoisomerase inhibitors [19, 
+20]. Thus, tetraploid cells might contribute to chemotherapeutic failure. The development 
+of novel strategies to target tetraploid tumour cells can improve the treatment outcome for 
+CRC patients.
+PLK1 is a member of the polo-like kinase (PLK) family and mediates several key 
+functions throughout mitosis, including bipolar arrangement of the centrosomes, the 
+spindle assembly checkpoint and cytokinesis [21-23]. PLK1 is located in different subcellular 
+compartments depending on its function. PLK1 is mostly cytoplasmic during the interphase. 
+During early mitosis, PLK1 is accumulated at the spindle poles, then in the kinetochores for 
+chromosomal alignment in the metaphase plate and concentrated in the cytokinetic bridge 
+during cytokinesis [24, 25]. PLK1 expression levels are elevated in a range of different tumor 
+types, including invasive breast carcinoma, hepatocellular carcinoma and CRC [26]. PLK1 
+can promote tumorigenesis in a myriad of ways. First, PLK1 can phosphorylate MDM2 or 
+p53 and abrogate the p53 function. Second, PLK1 can increase the levels of the oncogenic 
+transcription factor MYC in a positive feedback loop. Third, PLK1 overexpression leads to 
+degradation of the tumour suppressor repressor element-1 (RE-1) silencing transcription 
+(REST) in triple negative breast cancer. Fourth, mainly in hepatocellular carcinoma, hepatitis 
+B can stimulate PLK1 activation, an action that leads to the repression of several transcription 
+factors, including SUZ12 and ZNF198. Finally, PLK1 can also inhibit the tumour suppressor 
+phosphatase and tensin homolog (PTEN) and thus indirectly activate the oncogenic 
+phosphoinositide 3-kinase (PI3K) pathway [27].
+Here, we report that PLK1 inhibition leads to the selective destruction of tetraploid 
+cancer cells. In addition, we provide a complete characterisation of the pro-apoptotic signal 
+transduction pathway provoked by PLK1 inhibition and the benefit of using a combination 
+treatment with anti-microtubule polymerisation agents.
+Results
+Preferential killing of tetraploid cells after PLK1 inhibition
+To evaluate the differential impact of PLK1 knockdown on the survival of tetraploid and 
+diploid colon cancer cells, we utilised previously generated 2n and 4n clones derived from 
+parental human colon carcinoma RKO cells [29]. The diploid and tetraploid clones were 
+transfected with an unrelated small interfering RNA (siUNR) as a control and a SMARTpool 
+siPLK1 (siPLK1a), to knockdown PLK1, for up to 72 h (Fig. 1A). The cells were fixed and 
+stained with propidium iodide (PI) to assess with flow cytometry the cell cycle distribution 
+and the proportion of the hypodiploid (subG1) fraction, a hallmark of cell death (Fig. 1B). 
+Compared to their diploid counterparts, tetraploid clones were particularly sensitive to 
+PLK1 knockdown. In order to avoid any off-target activity of the siPLK1a, we used two 
+additional siRNA: siPLK1b and siPLK1c. The knockdown efficiency for the three siRNAs 
+was evaluated using real-time polymerase chain reaction (PCR), 48 h post-transfection 
+(Fig. 1C). We performed a proliferation assay using crystal violet and found that tetraploid 
+cells were more sensitive to PLK1 knockdown compared to their diploid counterpart (Fig. 
+1D-F). To further confirm our finding, the cells were transfected with siPLK1a, b or c and 
+evaluated cell death after 72 h by co-staining with the vital dye propidium iodide (PI) and the 
+mitochondrial transmembrane potential (? ? m) sensor DiOC6(3). The PI cell incorporation 
+shows loss of cell membrane integrity and in consequence cell death ((DiOC6(3) low PI 
+high), while loss of mitochondrial transmembrane potential (DiOC6(3)low PI low) is a sign 
+of early stage apoptosis. The frequency of (DiOC6(3) low PI low) and (DiOC6(3)low PI high) 
+cells analyzed by flow cytometry was indeed higher in tetraploid comparatively to diploid 
+cells (Fig. 1G-H). The cell death mediated by PLK1 knockdown in tetraploid cells was also 
+confirmed using human colon carcinoma HCT116 (Supplementary Fig. S1A-B) and sarcoma 
+cells (Supplementary Fig. S2A – for all supplemental material see www.cellphysiolbiochem.
+com).
+Next, we focused on small molecule PLK1inhibitors to assess a potentially alternative 
+treatment option to target PLK1 for cancer therapy. We decided to focus on drugs that are 
+already in clinical trials (Table 1). We performed a kinase-drug interaction network using 
+the STRING plugin, which is related to the Cytoscape software [30], to extract the half 
+maximal inhibitory concentration (IC50) sensitivity of PLK1 of the listed drugs in Table 1 
+(Supplementary Fig. S3A-B). Among all the enumerated molecules, Bi2536 and GSK461364 
+showed the highest potency to inhibit PLK1 based on the IC50 values (Supplementary Fig. 
+S3B). We utilised the KINOMEscan library, an online biochemical kinase profiling assay that 
+measures drug binding using a panel of 309 purified kinases (https://lincs.hms.harvard.
+edu/kinomescan/). Based on the values obtained from the KINOMEscan library using
+Bi2536 and GSK461364 at 10 ?M, we generated a heatmap of the drugs’ specificity. The 
+results for each inhibitor are reported as “pe rcent of control”, where the control is dimethyl 
+sulphoxide (DMSO). A value of 100% indicate d no inhibition of kinase binding to the ligand 
+in the presence of Bi2536 or GSK461364, while a low percent indicated strong inhibition.
+Since Bi2536 was more specific for PLK1 c ompared to GSK461364 (Supplementary Fig. 
+S3C), we decided to continue our investigatio n on tetraploid cells using Bi2536.
+We initially performed a concentration dependent proliferation assay using crystal 
+violet. The tetraploid cells showed a highe r sensitivity against Bi2536-treatment after 
+24–72 h compared to diploid cells (Fig. 2A-C). The major differences in the Bi2536 was 
+observed after 72 h (Fig. 2C). Tetraploid RKO cells treated with Bi2536 were more cytotoxic 
+measuring the subG1 cell population compa red to diploid cells (Fig. 2D). Moreover, using
+flow cytometry-mediated measurement of PI and DiOC6(3), tetraploid cells showed a higher 
+sensitivity when treated with 5, 10 or 50 nM Bi2536 compared to diploid cells (Fig. 2E). 
+Consistently, Bi2536 significantly reduced th e clonogenic potential of tetraploid compared 
+to diploid cells, either with continuous 5 nM Bi2536 treatment (75.3 +/- 25 diploid vs 4.3 +/- 
+3 tetraploid) or after 24 h drug washout (21 7 +/- 37 diploid vs 148 +/- 35 tetraploid) (Fig. 
+2F-G). The preferential toxicity of the Bi2536 to tetraploid cells was also confirmed using the 
+human colon carcinoma HCT116 (Supplementary Fig. S1C-D) and sarcoma (Supplementary
+Fig. S2B) cells lines. Taken together, these findings demonstrated that targeting PLK1 
+represents an efficient strategy to preferentia lly kill tetraploid colon cancer cells.
+The PLK1 inhibition triggered the mitochondrial apoptotic pathway in tetraploid colon 
+cancer cells
+To characterise the cell death pathwa y engaged after PLK1 inhibition, tetraploid 
+RKO colon cancer cells were treated for 72 h with DMSO (as a control) or 10 nM Bi2536. 
+Cell death was evaluated by flow-cytometr y-mediated measurement of well-recognised 
+apoptotic parameters [31], including phosphatidylserine (PS) surface exposure using 
+Annexin V staining (Fig. 3A), dissipation of the mitochondrial inner transmembrane potential 
+(??m) with the sensitive dye DiOC6(3) (Fig. 3B), examining the intracellular calcium (Ca2+) 
+concentration with the Fluo-3/AM dye (Fig. 3C) and caspase-3 cleavage with an appropriate
+antibody (Fig. 3D). Moreover, the co-treatment of the cells with the broad-spectrum caspase 
+inhibitor Z-Val-Ala-Asp-fluoromethylketone (Z-VAD-fmk) significantly reduced the death of 
+tetraploid cells that responded to PLK1 inhibition (Fig. 3E). Further confirming the role of 
+caspases in the execution of apoptosis, tetraploid cells that responded to Bi2536 manifested 
+the apoptosis-associated cleavage of poly (ADP-ribose) polymerase (PARP) (Fig. 3F). These 
+results indicated that PLK1 inhibition triggers the intrinsic pathway of apoptosis in tetraploid 
+colon cancer cells.
+P53 is the most frequently mutated gene in human cancers [32]. Moreover, p53 is the 
+major mediator of the cellular response to stress, and it stimulates the execution of apoptosis 
+via the transactivation of several proapoptotic genes [33]. Thus, we investigated the effect 
+of p53 inhibition when PLK1 was knocked down or inhibited by treating the tetraploid RKO 
+cells with cyclic pifithrin-? (PFT-?), a pharmacological antagonist of p53 [34], in the presence 
+of siPLK1 (Fig. 3G) and with Bi2536 co-treatment (Fig. 3H). Cell death was assessed by flow 
+cytometry by co-staining with the mitochondrial inner transmembrane potential (??m) 
+sensitive dye DiOC6(3) and the vital dye PI. This procedure identifies dying cells (DiOC6(3)
+low PI?) and dead (PI+) cells. The loss of p53 function conferred a death resistance to the 
+treatment (Fig. 3G-H). To investigate the effect of PLK1 inhibition on necroptosis induction, 
+the cells were co-treated with 10 nM Bi2536 and 100 ?M of the necroptosis inhibitor 
+necrostatin-1. There was no protective effect after co-staining with DiOC6(3) and PI, a finding 
+that excluded any role of PLK1 inhibition to induce regulated necrosis (Fig. 3I).
+Targeting PLK1 perturbed tetraploid cell cycle divisions
+When analysing cell cycle profiles using flow cytometry after staining fixed cells with 
+the DNA dye PI, we observed that inhibition or depletion of PLK1 perturbed the diploid
+and tetraploid cell cycle progression. We excluded the subG1 population to focus on the 
+proliferative cells (Fig. 4A). Compared to the control conditions, the cells were blocked 
+in G2/M phase after 24 h treatment. Some cells underwent mitotic slippage and became 
+hyper-diploid and hyper-tetraploid, respectively. (Hyperploidy is shown in the figure as DNA 
+content > 4n and > 8n for diploid and tetraploid clones, respectively). Notably, the fraction of 
+hyperploidisation induced by PLK1 inhibition was higher in tetraploid compared to diploid 
+cells (Fig. 4B). Indeed, the diploid cells stayed in the G2/M phase longer than tetraploid cells, 
+and approximately 15% of the cells became hyper-diploid after 72 h. However, tetraploid 
+cells executed mitotic slippage earlier; the hyperploid fraction was approximately 16% at 
+24 h and reached 32% at 72 h. These findings suggest that the anti-tetraploid effect of PLK1 
+inhibition came from the relative inability of tetraploid (as compared to diploid) cells to 
+tolerate any further increase in ploidy. Targeting PLK1 preferentially kills tetraploid colon 
+cancer cells by triggering an uncontrolled and lethal hyperploidisation programme, followed 
+by a mitotic catastrophe executed by the intrinsic apoptotic pathway.
+PLK1 and tubulin polymerisation inhibitors synergistically induced apoptosis in tetraploid 
+colon cancer cells
+Given that PLK1 inhibition induced mitotic catastrophe and polyploidy after a long 
+arrest in the mitotic phase, we asked whether the combination of PLK1 inhibition with a 
+microtubule poison could promote any synergistic effects concerning cells death in tetraploid 
+colon cancer cells. To address this question, we used different classes of microtubules 
+poisons, including paclitaxel as a tubulin depolymerisation inhibitor and vincristine or 
+colchicine as tubulin polymerisation inhibitors. We found a concentration dependent cell 
+survival in tetraploid cells. (Fig. 5A, 5C and Supplementary Fig. S4A). The combination of 
+Bi2536 and paclitaxel did not result in any synergistic activity (Supplementary Fig. S4B-C
+Discussion
+In this study, we proposed a novel 
+strategy for targeting tetraploid colon 
+cancer cells based on the abrogation 
+of the mitotic kinase PLK1. By using 
+tumour cells that display distinct levels 
+of ploidy (diploid and tetraploid), we 
+showed that the depletion or inhibition 
+of PLK1 effectively and preferentially 
+killed tetraploid colon cancer cells via 
+mitotic catastrophe and the activation 
+of a mitochondrial- and caspase-
+dependent apoptosis. The cell death 
+mechanism occurred after a G2/M 
+block, followed by mitotic slippage and 
+polyploidy. In addition, we provided 
+evidence that the combination of 
+PLK1 inhibition with microtubule 
+polymerisation inhibitors (vincristine 
+or colchicine) induced significant 
+synergetic cell death (Fig. 6).
+PLK1 is the most investigated member of the PLK serine/threonine protein kinases 
+family [24, 27]. During the cell cycle, PLK1 controls, among others, mitotic entry and the 
+G2/M checkpoint, coordinates the centrosome cycle, regulates the chromosome segregation, 
+plays multiple functions at the spindle midzone, participates in abscission and is involved 
+in cytokinesis [24, 25, 35, 36]. In the Cancer Genome Atlas (TCGA) database (https://tcga-
+data.nci.nih.gov/tcga/), PLK1 messenger RNA (mRNA) expression is significantly higher in 
+tumour compared to normal tissue (across 24 different types of cancers). In comparison 
+to other cancer types, colorectal cancer exhibits high PLK1 expression [26]. Moreover, a 
+previous study showed that upregulated PLK1 expression correlates with inferior survival 
+outcomes in patients with rectal cancer [37]. PLK1 overexpression induces chromosomal 
+instability [38], a finding that places this kinase as a promising antineoplastic target for 
+cancers with a high level of genomic instability, especially colorectal tumours.
+The Bi2536 inhibitor is the most commonly molecule used in the characterisation of 
+PLK1 function and anticancer activity [39]. Bi2536 is a well-tolerated inhibitor with potent 
+efficacy in vivo, in several well-established xenograft models [40]. Moreover, Bi2536 was 
+included in a completed phase II clinical trial for patients with solid tumours, including 
+non-small cell lung, pancreatic or hormone-refractory prostate cancer (clinicaltrials.gov, 
+NCT00376623, NCT00706498, NCT00412880 and NCT00710710). However, we have not 
+identified any PLK1 inhibitor that has entered the chemotherapeutic market.
+In our experimental model, either depletion or chemical inhibition of PLK1 provoked 
+apoptosis in both diploid and tetraploid colon cells. However, tetraploid cells showed 
+higher sensitivity when PLK1 was targeted. Tetraploid cell death was executed via the 
+intrinsic apoptotic pathway, as demonstrated by the loss of mitochondrial transmembrane 
+potential (??m), accumulation of intracellular calcium, activation of caspase-3 and PARP, 
+DNA degradation, cell scrambling, phosphatidylserine (PS) exposure and, ultimately, the 
+loss of plasma membrane integrity. The mitochondrial dysfunction, measured by the loss 
+of the mitochondrial membrane potential, provokes a mitochondrial Ca2+ homeostasis 
+perturbation. This leads to elevated cytosolic Ca2 concentration ([Ca2+]c), which is followed 
+by the release of mitochondrial apoptotic factors, including cytochrome c, apoptosis 
+inducing factor (AIF) and procaspase-9, into the cytosol [41]. The PLK1 inhibition perturbed 
+cell mitosis and provoked instead mitotic catastrophe. This in turn facilitated a bona fide 
+intrinsic oncosuppressive mechanism that by sensing mitotic failure, executed cell death via 
+the mitochondrial pathway of apoptosis.
+What is the mechanism through which PLK1 inhibition is particularly lethal for tetraploid 
+cells? To answer this question, we monitored the cell cycle status upon PLK1 inhibition. This 
+inhibition prolonged G2/M arrest in diploid cells for up to 72 h, followed by mitotic slippage 
+for approximately 15% of the cell population. The tetraploid cells responded similarly, but 
+with completely different kinetics. The length of the G2/M arrest was significantly shorter, 
+and the polyploid population reached almost 30% 48 h post-PLK1 inhibition. It appeared that 
+tetraploid cells death upon PLK1 inhibition was caused by excessive genome reduplication 
+and consequent hyperploidy as well as their incapacity to support accumulation of additional 
+DNA content.
+Our findings are consistent with previous studies showing that the high sensitivity 
+of tetraploid cells to the inhibition of mitotic key effectors, especially those with a direct 
+interaction with microtubules. Inhibition of the protein kinase Aurora B preferentially 
+kills tetraploid compared to diploid hepatocellular carcinoma cells, but it also shows a 
+similar effect on untransformed tetraploid vs diploid mouse fibroblasts. This effect is due 
+to a cytokinesis failure, consequent massive polyploidy and subsequent mitotic catastrophe 
+[42]. Aurora B interacts with a key kinase of the SAC, namely MPS1 [43-45]. MPS1 inhibition 
+sensitises the tetraploid colon cancer cells also via the activation of the mitotic catastrophe 
+following a polyploid/aneuploid cascade [46, 47]. It is important to note that PLK1 and MPS1 
+cooperatively regulate the SAC [48]. The protein kinase CHK1 is an important component of 
+DNA damage pathway; however, it also plays an essential role in the SAC function via the 
+activation of Aurora B and MAD2 [49]. CHK1 loss leads to chromosome misalignment and 
+lagging chromosomes and thus preferential killing of tetraploid colon cancer cells [50]. Other 
+players involved in microtubule dynamics and essentially centrosome separation and pole 
+formation are kinesin Eg5 and the protein motor HSET. The inhibition/depletion of these 
+proteins also sensitises and preferentially kills tetraploid compared to diploid colon cancer 
+cells after mitotic catastrophe activation [51, 52]. We must emphasise that not all the SAC 
+components or important players of the microtubule dynamics can preferentially sensitise 
+the tetraploid cancer cells. The inhibition of Aurora A, an important kinase for centrosome 
+maturation, mitotic spindle formation and cytokinesis, does not kill tetraploid hepatocellular 
+carcinoma [42, 53].
+Drug combinations are particularly important in the modern era of chemotherapy; 
+they offer the advantage of synergistic antitumor activity at relatively low concentrations 
+of each drug and reduce side effects and additive toxicity. Moreover, compound synergy 
+might overcome the drug resistance of certain tumours, including cancers that harbour 
+chromosomal instability and particularly tetraploidy, which is highly correlated with drug 
+resistance and a poor patient prognosis [20, 54-56]. Due to the key role of PLK1 in several 
+cell cycle processes, including centrosome maturation, bipolar spindle formation and 
+kinetochore-microtubule attachment, we asked whether there is a lethal interaction between 
+PLK1 inhibition and microtubule-destabilising drugs to induce apoptosis. There are two 
+types of microtubule poisons widely used in chemotherapy: microtubule depolymerisation 
+and polymerisation inhibitors [57, 58]. Paclitaxel (commonly named Taxol) is the most 
+utilised microtubule depolymerisation inhibitor in preclinical and clinical models [59]. 
+Microtubule polymerisation inhibitors, including vincristine from the Vinca alkaloid group 
+[60] and the colchicine from the Colchicine group, are more diverse [61].
+We found that co-treatment with a low dose of the PLK1 inhibitor Bi2536 and paclitaxel 
+did not induce any synergistic lethality in tetraploid colon cancer cells. On the other hand, 
+co-treatment of a low dose of the PLK1 inhibitor Bi2536 and a low dose of either vincristine 
+or colchicine induced strong synergistic toxicity in tetraploid colon cancer cells. These 
+findings are consistent with previous studies that employed vincristine in combination with 
+PLK1 inhibitors for the treatment of various solid tumours and haematological malignancies 
+[62-67]. Our study is the first report to use colchicine as an effective treatment strategy in 
+combination with PLK1 inhibition.
+Conclusion
+In conclusion, this novel approach to exploit PLK1 inhibitors and microtubule poisons 
+constitutes a promising therapeutic strategy based on mitotic catastrophe for colon cancer.
+Author contributions statements
+MJ developed the concepts and performed experiments. CK performed the bio-
+informatics work and statistical analysis. SSS performed experiments. MJ and RM analyzed 
+data and wrote the manuscript. All authors reviewed the manuscript.

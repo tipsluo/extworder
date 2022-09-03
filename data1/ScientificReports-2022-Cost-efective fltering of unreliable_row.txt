@@ -1,0 +1,1633 @@
+Page: 1 left:1 upper:1
+OPEN
+page=1 block=169870643 (x=54 y=121) width=48.000000 height=11.000000 fontname=JXWZXW+Corbel-Bold wordint.min=5 wordint.max=7
+Scientific Reports |         (2022) 12:2440  
+page=1 block=8588941 (x=1 y=745) width=131.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+Vol.:(0123456789)
+page=1 block=1906249437 (x=493 y=761) width=59.000000 height=5.000000 fontname=Corbel3 wordint.min=1 wordint.max=16
+www.nature.com/scientificreports
+page=1 block=-706478074 (x=351 y=1) width=156.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Cost?effective filtering of unreliable 
+page=1 block=-1254084086 (x=116 y=122) width=400.000000 height=15.000000 fontname=JXWZXW+Corbel-Bold wordint.min=5 wordint.max=7
+proximity detection results based 
+page=1 block=-1254084086 (x=116 y=152) width=380.000000 height=15.000000 fontname=JXWZXW+Corbel-Bold wordint.min=5 wordint.max=7
+on BLE RSSI and IMU readings 
+page=1 block=-1254084086 (x=116 y=182) width=345.000000 height=15.000000 fontname=JXWZXW+Corbel-Bold wordint.min=5 wordint.max=7
+using smartphones
+page=1 block=-1254084086 (x=116 y=212) width=213.000000 height=15.000000 fontname=JXWZXW+Corbel-Bold wordint.min=5 wordint.max=7
+Katarzyna Filus1*, S?awomir Nowak1, Joanna Doma?ska1 & Jakub Duda2
+page=1 block=-1923086690 (x=116 y=242) width=312.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=2 wordint.max=4
+Indoor environments are a major challenge in the domain of location?based services due to the 
+page=1 block=-1307275960 (x=116 y=264) width=369.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+inability to use GPS. Currently, Bluetooth Low Energy has been the most commonly used technology 
+page=1 block=-1307275960 (x=116 y=275) width=393.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+for such services due to its low cost, low power consumption, ubiquitous availability in smartphones 
+page=1 block=-1307275960 (x=116 y=286) width=390.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+and the dependence of the signal strength on the distance between devices. The article proposes 
+page=1 block=-1307275960 (x=116 y=297) width=377.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+a system that detects the proximity between static (anchors) and moving objects, evaluates the 
+page=1 block=-1307275960 (x=116 y=308) width=374.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+quality of this prediction and filters out the unreliable results based on custom metrics. We define 
+page=1 block=-1307275960 (x=116 y=319) width=379.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+three metrics: two matrics based on RSSI and Intertial Measurement Unit (IMU) readings and one 
+page=1 block=-1307275960 (x=116 y=330) width=379.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+joint metric. This way the filtering is based on both, the external information (RSSI) and the internal 
+page=1 block=-1307275960 (x=116 y=341) width=389.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+information (IMU). To process the IMU data, we use machine learning activity recognition models 
+page=1 block=-1307275960 (x=116 y=352) width=378.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+(we apply feature selection and compare three models and choose the best one—Gradient Boosted 
+page=1 block=-1307275960 (x=116 y=363) width=385.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+Decision Trees). The proposed system is flexible and can be easily customized. The great majority 
+page=1 block=-1307275960 (x=116 y=374) width=377.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+of operations can be conducted directly on smartphones. The solution is easy to implement, cost?
+page=1 block=-1307275960 (x=116 y=385) width=377.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+efficient and can be deployed in real?life applications (MICE industry, museums, industry).
+page=1 block=-1307275960 (x=116 y=396) width=348.000000 height=5.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+Indoor environments are a major challenge in the domain of location-based services (LBS). Although, global 
+page=1 block=-1253988096 (x=116 y=425) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+positioning system (GPS) can offer a very accurate position estimate in the outdoor environments, it is highly 
+page=1 block=-1253988096 (x=116 y=435) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+inaccurate in the indoor environments due to Radio Frequency signal blocking1. Therefore, much effort has been 
+page=1 block=-1253988096 (x=116 y=444) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+made to create solutions that do not use Global Navigation Satellite System, among others based on Bluetooth2,3, 
+page=1 block=-1253988096 (x=116 y=454) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ultra-wideband (UWB)4,5 and ZigBee6,7 and some hybrid approaches (e.g. based on Wi-Fi and Bluetooth Low 
+page=1 block=-1253988096 (x=116 y=464) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Energy8).
+page=1 block=-1253988096 (x=116 y=474) width=34.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+In the recent years, Bluetooth Low Energy (BLE) has been the most commonly used technology for indoor 
+page=1 block=-1253988096 (x=128 y=485) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+proximity estimation and localization due to its low cost, low power consumption, ubiquitous availability in 
+page=1 block=-1253988096 (x=116 y=495) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+mobile devices and the dependence of the Received Signal Strength Index (RSSI) on the distance between the 
+page=1 block=-1253988096 (x=116 y=505) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+broadcast BLE beacons3,9. Broadcasting BLE beacons involves periodically transmitting a radio signal contain-
+page=1 block=-1253988096 (x=116 y=514) width=398.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ing a predefined message (called Advertisement Frames, denoted as ADV) in the surrounding environment. 
+page=1 block=-1253988096 (x=116 y=525) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Such frames can be received from any BLE-enabled device, in particular smartphones. Approaches based on the 
+page=1 block=-1253988096 (x=116 y=535) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+received signal strength allow a reasonably accurate proximity estimation, especially when beacons are individu-
+page=1 block=-1253988096 (x=116 y=545) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ally calibrated and appropriately distributed in space. This approach is considered the most practical10 and the 
+page=1 block=-1253988096 (x=116 y=554) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+vast majority of indoor distance localization and estimation works developed in recent years are based on this 
+page=1 block=-1253988096 (x=116 y=565) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+method, with different approximation models and methods used to filter incoming frames.
+page=1 block=-1253988096 (x=116 y=575) width=327.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Although the domain of indoor proximity and location estimation is dominated by approaches using Blue-
+page=1 block=-1253988096 (x=128 y=585) width=386.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+tooth Low Energy RSSI, the Bluetooth signal in indoor environment has low stability and sensitivity to interfer-
+page=1 block=-1253988096 (x=116 y=595) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ence (many obstacles, signal reflections etc.)11. To minimize these problems sophisticated mathematical methods 
+page=1 block=-1253988096 (x=116 y=604) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(e.g. smoothing filters and wavelet filters) are used in the systems proposed in the literature, which make them 
+page=1 block=-1253988096 (x=116 y=615) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+impractical in situation, in which data for numerous nodes has to be analyzed. Also, when the object is moving, 
+page=1 block=-1253988096 (x=116 y=625) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the quality of signal further decreases and from practical point of view, localization and proximity detection 
+page=1 block=-1253988096 (x=116 y=635) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+may lead to very misleading  esults12.
+page=1 block=-1253988096 (x=116 y=644) width=135.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The problem addressed in this paper concerns tracking the activity of participants in meetings, trade fairs 
+page=1 block=-1253988096 (x=128 y=655) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and conferences and is related to the meetings industry (MICE, meeting-incentive-conferences-exhibitions). 
+page=1 block=-1253988096 (x=116 y=665) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The work described was conducted as a part of the AIMeet project under the Bridge Alfa program, an initiative 
+page=1 block=-1253988096 (x=116 y=675) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+1Institute  of  Theoretical  and  Applied  Informatics,  Polish  Academy  of  Sciences,  Ba?tycka  5,  Gliwice  44-100, 
+page=1 block=-1254085584 (x=116 y=707) width=400.000000 height=6.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=3
+Poland. 2Meetlify, Aleksandra Lubomirskiego 27/1, Kraków 31-509, Poland. *email: kfilus@iitis.pl
+page=1 block=-1254085584 (x=116 y=717) width=340.000000 height=6.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=3
+| https://doi.org/10.1038/s41598-022-06201-y
+page=1 block=1828458125 (x=186 y=745) width=150.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=3
+1
+page=1 block=133697165 (x=510 y=745) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Page: 2 left:1 upper:1
+www.nature.com/scientificreports/
+page=2 block=387973126 (x=37 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=2 block=324931208 (x=37 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=2 block=-2127360376 (x=225 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+2
+page=2 block=143134344 (x=546 y=744) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Vol:.(1234567890)
+page=2 block=3804888 (x=1 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=2
+of the Polish National Center for Research and Development, focused on commercialization of research pro-
+page=2 block=-310368200 (x=152 y=36) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+jects. Project aims to deliver a solution that provides analytical functions for business meeting organizers. It 
+page=2 block=-310368200 (x=152 y=46) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+was assumed that the solution to the problem is not to create an indoor localization system, but to determine 
+page=2 block=-310368200 (x=152 y=56) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+for each participant successive, time-ordered interactions with waypoints (in this paper we use the term “static 
+page=2 block=-310368200 (x=152 y=66) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+point” to describe these objects) over time. This requires appropriate analysis of sensor signals and radio signal 
+page=2 block=-310368200 (x=152 y=76) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+strength (measured as RSSI) to determine the appropriate activities and to indicate the correct moments of 
+page=2 block=-310368200 (x=152 y=86) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+interaction and filter the remaining ones. The key problem, which we aim to solve using our system, is to indicate 
+page=2 block=-310368200 (x=152 y=96) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the correct interactions of a participant with a waypoint, and to distinguish between behaviors and interactions 
+page=2 block=-310368200 (x=152 y=106) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+that are irrelevant to the design objectives (moving between stands). This requires the development of methods 
+page=2 block=-310368200 (x=152 y=116) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+that recognize specific individual behaviors of participants (activities) and specific interactions of participants 
+page=2 block=-310368200 (x=152 y=126) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+in relation to objects (waypoints), such as trade fair stands or other distinguished points of interaction. It is 
+page=2 block=-310368200 (x=152 y=136) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+important to develop solutions that can be scaled to environments with large numbers of participants (such as 
+page=2 block=-310368200 (x=152 y=146) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+exhibitions or trade fairs).
+page=2 block=-310368200 (x=152 y=156) width=94.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In our system, in order to achieve good performance and minimize the error proneness, we limit the costly 
+page=2 block=-310368200 (x=164 y=166) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+operations and incorporate a lightweight model for activity recognition and introduce reliability metrics that 
+page=2 block=-310368200 (x=152 y=176) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+allow us to evaluate and filter proximity predictions (proximity of a dynamic and static objects). Our approach 
+page=2 block=-310368200 (x=152 y=186) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+to proximity detection is based not only on data from the external world (RSSI from static points—anchors) but 
+page=2 block=-310368200 (x=152 y=196) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+also on information about the internal state of the object under study (expressed by the readings from the Inertial 
+page=2 block=-310368200 (x=152 y=206) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Measurement Unit (IMU) of a smartphone). We do not use any benchmark dataset and instead we create our own 
+page=2 block=-310368200 (x=152 y=216) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+one, because none of the datasets available online meets all of the necessary requirements: availability of static 
+page=2 block=-310368200 (x=152 y=226) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and dynamic activities, dependence of IMU readings on BLE frames arrivals, availability of raw sensory data, 
+page=2 block=-310368200 (x=152 y=236) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+realistic positions of smartphones (e.g. in hand, in a pocket). We use smartphones (which already have all of the 
+page=2 block=-310368200 (x=152 y=246) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+necessary hardware functionalities and only a simple application is needed) to gather data from both static and 
+page=2 block=-310368200 (x=152 y=256) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+dynamic objects, which makes our approach cheaper and easier to deploy than the one based on dedicated iBea-
+page=2 block=-310368200 (x=152 y=266) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+cons and wearable sensors. Despite this cost-efficiency, our approach delivers high-quality and reliable results.
+page=2 block=-310368200 (x=152 y=276) width=396.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In “Related work” we present a literature review in the domain of indoor localization and proximity recog-
+page=2 block=-310368200 (x=164 y=286) width=386.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+nition, as well as Human Activity Recognition. In “Materials and methods” we describe the methods and data 
+page=2 block=-310368200 (x=152 y=296) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+used in our experiments. In “Results” we present the obtained results and further discuss them in “Discussion”. 
+page=2 block=-310368200 (x=152 y=306) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+We conclude the article in “Conclusions”.
+page=2 block=-310368200 (x=152 y=316) width=148.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Related work
+page=2 block=627575095 (x=152 y=337) width=63.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=2 wordint.max=4
+Due to the fact that Global Navigation Satellite Systems (GNSS) and Global Positioning Systems (GPS) which 
+page=2 block=-310251128 (x=152 y=348) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+provide accurate location services for outdoor environments cannot be used in the indoor environments to 
+page=2 block=-310251128 (x=152 y=358) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+obtain an accurate position due to Radio Frequency signal blocking1. Therefore, different technologies are used 
+page=2 block=-310251128 (x=152 y=367) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+as a data source for indoor positioning and localization, among others Radio Frequency Identification (RFI)13, 
+page=2 block=-310251128 (x=152 y=377) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Ultrasonic Positioning (UIP)14, Bluetooth2, Ultra-Wideband (UWB)  echnology4 and ZigBee6.
+page=2 block=-310251128 (x=152 y=387) width=340.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Out of these technologies, BLE technology has become the most popular one in the domain of distance and 
+page=2 block=-310251128 (x=164 y=398) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+proximity assessment in indoor environments in recent years9. The basic approach is curve fitting based on the 
+page=2 block=-310251128 (x=152 y=407) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+collected RSSI measurements to find a suitable equation for distance estimation15, different approximation models 
+page=2 block=-310251128 (x=152 y=417) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+are also used depending on the coarse distance estimation, e.g.16.
+page=2 block=-310251128 (x=152 y=427) width=233.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Also, indoor localization solutions for localization and positioning based on BLE have been developed. The 
+page=2 block=-310251128 (x=164 y=438) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+trilateration technique based on RSSI is mostly used. Indoor localization systems, regardless of the technology 
+page=2 block=-310251128 (x=152 y=448) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+used, suffer from high position errors. In particular, RSSI for BLE technology is susceptible to noise and multipath 
+page=2 block=-310251128 (x=152 y=458) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+effects, which significantly reduces its localization accuracy, and in addition, the LoS (loss of sight) problem has 
+page=2 block=-310251128 (x=152 y=468) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+a great impact, especially in crowded rooms and interiors with obstacles17. The accuracy of RSSI calculations 
+page=2 block=-310251128 (x=152 y=477) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+can be improved by calibration, use of dedicated devices and analysis of radio signal propagation. This approach 
+page=2 block=-310251128 (x=152 y=488) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+however entails high hardware costs and requires preparation of the environment, as demonstrated in18.
+page=2 block=-310251128 (x=152 y=497) width=374.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+To increase accuracy, localization and positioning solutions are sometimes augmented with data from addi-
+page=2 block=-310251128 (x=164 y=508) width=386.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+tional sensors (e.g.18–20). In18, a complex hybrid localization algorithm is described, consisting of pose and velocity 
+page=2 block=-310251128 (x=152 y=517) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+estimation based on activity detection and accelerometer readings and using RSSI signal strength. Despite the 
+page=2 block=-310251128 (x=152 y=528) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+precision indicated in the paper, which is higher than the other techniques, the method remains computation-
+page=2 block=-310251128 (x=152 y=538) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ally complex and scaling it to a sufficiently large number of users remains a problem. Generally, systems created 
+page=2 block=-310251128 (x=152 y=548) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+for the purpose of localization and positioning are based on computationally-demanding methods and could 
+page=2 block=-310251128 (x=152 y=558) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+not be deployed in environments, in which data from numerous nodes is analyzed (e.g. Generalized Regression 
+page=2 block=-310251128 (x=152 y=568) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Neural Network and Kalman filter in21 or Denoising Autoencoders in3). A broader review of techniques related 
+page=2 block=-310251128 (x=152 y=577) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+to indoor localization is presented  n17.
+page=2 block=-310251128 (x=152 y=587) width=140.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+However, in applications such as data analysis for logistics applications (e.g. trade fairs, museums, galleries, 
+page=2 block=-310251128 (x=164 y=598) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+industry), tracking the trajectories of people and their interactions relative to specific objects is sufficient. In 
+page=2 block=-310251128 (x=152 y=608) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+such applications, the problem corresponds to mutual positioning and detection of object and user interactions, 
+page=2 block=-310251128 (x=152 y=618) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+rather than location (in the sense of indicating the exact position of objects).
+page=2 block=-310251128 (x=152 y=628) width=276.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The method of solving the problem of localization, proximity estimation and activity recognition depends 
+page=2 block=-310251128 (x=164 y=638) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+on the application area. For the MICE industry, the interactions with specific objects are crucial and the number 
+page=2 block=-310251128 (x=152 y=648) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of visitors can be very large, therefore the approaches should be highly scalable and efficient. We have embed-
+page=2 block=-310251128 (x=152 y=658) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ded our area of interest in the field of distance and location estimation research based on BLE signal, therefore 
+page=2 block=-310251128 (x=152 y=668) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+in the following part of the section we focus on the work and problems most related to our proposed solution.
+page=2 block=-310251128 (x=152 y=678) width=396.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In work22 a method for detecting the trajectories of museum visitors relative to exhibits is described. Analyz-
+page=2 block=-310251128 (x=164 y=687) width=386.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ing museum visitor behavior is becoming increasingly important and digital technologies become ubiquitous. 
+page=2 block=-310251128 (x=152 y=698) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The paper describes the analysis of data provided by low-cost mobile devices and stationary proximity sensors to 
+page=2 block=-310251128 (x=152 y=708) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 3 left:1 upper:1
+www.nature.com/scientificreports/
+page=3 block=10485766 (x=1 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=3 block=8785544 (x=1 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=3 block=1820790408 (x=189 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+3
+page=3 block=133697160 (x=510 y=744) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Vol.:(0123456789)
+page=3 block=1870139096 (x=492 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=16
+understand museum visitor behavior. Specifically, they address which works of art visitors view during their visit, 
+page=3 block=-1254081636 (x=116 y=35) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+for how long, and in what order. Such evaluations can help determine the popularity of artworks, optimize the 
+page=3 block=-1254081636 (x=116 y=45) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+layout of ongoing exhibitions, and improve exhibitions. A similar problem was solved  n23, in which BLE beacons 
+page=3 block=-1254081636 (x=116 y=54) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+were used. However, the authors faced some problems related to BLE signal and channel variability, leading to 
+page=3 block=-1254081636 (x=116 y=65) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ambiguity in positioning accuracy with respect to objects. Distance-to-object data can also be used to analyze 
+page=3 block=-1254081636 (x=116 y=75) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+typical user behavior and activity profiles. This type of problem was addressed in the paper24, in which groups of 
+page=3 block=-1254081636 (x=116 y=84) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+visitors representing specific social behavior profiles were extracted. BLE beacons were used, deployed both in 
+page=3 block=-1254081636 (x=116 y=95) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the museum halls and provided to the visitors. The method used allowed for an accurate trajectory reconstruc-
+page=3 block=-1254081636 (x=116 y=105) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+tion at the expense of appropriate deployment and the use of dedicated sensors.
+page=3 block=-1254081636 (x=116 y=115) width=286.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+A separate, though related, problem is activity analysis (HAR, Human Activity Recognition). There are many 
+page=3 block=-1254081636 (x=128 y=125) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+research papers available in this area. Many approaches and fields of application can be distinguished. As a data 
+page=3 block=-1254081636 (x=116 y=135) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+source, usually sensors are used. These sensors can belong to the smartphone’s Inertial Measurement Unit (IMU), 
+page=3 block=-1254081636 (x=116 y=145) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+which are equipped with different types of inertial sensors (e.g., gyroscopes and accelerometers). Smartphones 
+page=3 block=-1254081636 (x=116 y=155) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+also have the ability (resources) to process signals directly. As an alternative, some applications use dedicated 
+page=3 block=-1254081636 (x=116 y=165) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+hardware instead of smartphones. For example, in25, the authors proposed a system for activity recognition 
+page=3 block=-1254081636 (x=116 y=174) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+using Naïve Bayes classifier, minimum distance and K-Nearest Neighbor (KNN) classification algorithms. The 
+page=3 block=-1254081636 (x=116 y=185) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+paper26 describes a method for recognizing basic activities, based on smartphone inertial sensors—accelerometer 
+page=3 block=-1254081636 (x=116 y=194) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and gyroscope. Deep learning methods were used. The aim was to recognize twelve different physical activities 
+page=3 block=-1254081636 (x=116 y=205) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(including standing, sitting, lying down, walking, going up and down stairs). The average recognition rate was 
+page=3 block=-1254081636 (x=116 y=215) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+89.61% (accuracy 95.85%). Also,  n27 Deep Learning model were used (Deep Recurrent Neural Networks with 
+page=3 block=-1254081636 (x=116 y=224) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Long Short-Term Memory layers in particular). The results obtained in this study showed that Deep Learning 
+page=3 block=-1254081636 (x=116 y=235) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+models used outperformed statistical ML models (support vector machine and k-nearest neighbors) and other 
+page=3 block=-1254081636 (x=116 y=245) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+neural network models: Deep Belief Networks and Convolutional Neural Networks (CNNs). For analysis, they 
+page=3 block=-1254081636 (x=116 y=255) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+used a dataset with raw body-worn sensors readings. In a different  tudy28, the authors used CNNs to extract 
+page=3 block=-1254081636 (x=116 y=264) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+local features from accelerometer data together with some simple statistical features.
+page=3 block=-1254081636 (x=116 y=275) width=304.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Some benchmark datasets for HAR task have been introduced in the literature, e.g.29–31. Dataset29 includes 
+page=3 block=-1254081636 (x=128 y=284) width=388.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+six activities from daily living (walking, walking upstairs, downstairs, sitting, standing and laying). During the 
+page=3 block=-1254081636 (x=116 y=295) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+experiment, people were wearing a smartphone (Samsung Galaxy S II) on the waist. Readings from an acceler-
+page=3 block=-1254081636 (x=116 y=305) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ometer and a gyroscope were gathered. The readings were preprocessed using noise filters and sampled in fixed-
+page=3 block=-1254081636 (x=116 y=315) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+width sliding windows. Butterworth low-pass filter was used to separate body and gravity acceleration. Dataset30 
+page=3 block=-1254081636 (x=116 y=324) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+consists of data gathered using a high performance IMU (accelerometer and gyroscope) sensor positioned on 
+page=3 block=-1254081636 (x=116 y=335) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the right hip of the volunteers. Also, barometer readings were considered. 12 human activities were considered: 
+page=3 block=-1254081636 (x=116 y=345) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+walking left, right, forward, upstairs, downstairs, running forward, jumping up, sitting, standing, sleeping, riding 
+page=3 block=-1254081636 (x=116 y=355) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+elevator up and down. For the purpose of31, data was gathered from on-body sensors (seven IMUs and twelve 
+page=3 block=-1254081636 (x=116 y=364) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+accelerometers placed on different body parts). 18 home activities were considered, among others opening and 
+page=3 block=-1254081636 (x=116 y=375) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+closing doors, opening and closing drawers, opening and closing a fridge and a dishwasher and cleaning a table. 
+page=3 block=-1254081636 (x=116 y=385) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The biggest disadvantage of the available datasets is the fact that they involve some specific placement of devices 
+page=3 block=-1254081636 (x=116 y=395) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+or the use of specialized devices, which makes them impractical for training models used in real life. The alter-
+page=3 block=-1254081636 (x=116 y=405) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+native to these datasets can be some of the PACT datasets32, which consist of Bluetooth RSSI data. Some of the 
+page=3 block=-1254081636 (x=116 y=414) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+datasets also include smartphone sensory data (from common mobile device positions including handbag, shirt 
+page=3 block=-1254081636 (x=116 y=425) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+pocket and hand). Unfortunately, the sensory data is gathered independently of Bluetooth frames (therefore it is 
+page=3 block=-1254081636 (x=116 y=435) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+impossible to combine the data regarding RSSI and sensor readings) and only static activities were considered. 
+page=3 block=-1254081636 (x=116 y=445) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Due to the fact that none of the datasets in the literature meets all of the requirements of the methods proposed 
+page=3 block=-1254081636 (x=116 y=455) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+in the article, dedicated dataset had to be used in the experiments.
+page=3 block=-1254081636 (x=116 y=465) width=238.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Materials and methods
+page=3 block=828640106 (x=116 y=487) width=109.000000 height=6.000000 fontname=JXWZXW+Corbel-Bold wordint.min=2 wordint.max=4
+In this section we present all methods and data used in this work to enable other researchers to replicate the 
+page=3 block=-1254088944 (x=116 y=497) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+experiments, build the corresponding solution and adjust it to their needs.
+page=3 block=-1254088944 (x=116 y=507) width=268.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Problem and aim definition.  The main objective of the proposed system is to detect the proximity of a 
+page=3 block=-1254035532 (x=116 y=529) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+moving object with respect to static points (anchors) and to evaluate the quality of this detection. Proximity 
+page=3 block=-1254035532 (x=116 y=539) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+detection and localization are particularly prone to errors when an object moves between static points (the posi-
+page=3 block=-1254035532 (x=116 y=549) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+tion is then inherently unstable). In this case, moments of movement should be filtered out. Such filtering gives 
+page=3 block=-1254035532 (x=116 y=559) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+us additional information about the dynamics of the examined object and can be used to improve the quality of 
+page=3 block=-1254035532 (x=116 y=569) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+fingerprinting (object tracking).
+page=3 block=-1254035532 (x=116 y=579) width=114.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+This formulation of the problem is very general and has many practical applications, including the ones related 
+page=3 block=-1254035532 (x=128 y=589) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+to MICE industry—e.g. detection of presence at a given stand and analysis of interest regarding some specific 
+page=3 block=-1254035532 (x=116 y=599) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+static points, in museums and various types of exhibitions—e.g., intelligent recommendations and additional 
+page=3 block=-1254035532 (x=116 y=609) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+educational materials, but also in Industry 4.0 (e.g., detection of presence of workers at a given machine), or in 
+page=3 block=-1254035532 (x=116 y=619) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+security applications (e.g., evacuation surveillance). In general, in all situations where we need reliable detection 
+page=3 block=-1254035532 (x=116 y=629) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of proximity to some fixed point for analysis and/or execution of appropriate actions.
+page=3 block=-1254035532 (x=116 y=639) width=307.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+System overview.  As an answer to the problem formulated in “Problem and aim definition”, we propose a 
+page=3 block=-1254059880 (x=116 y=661) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+system based on Bluetooth technology and IMU readings from smartphones for detecting proximity to a static 
+page=3 block=-1254059880 (x=116 y=671) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+point (some point of interest) and evaluating the quality of this prediction (based on determining the degree of 
+page=3 block=-1254059880 (x=116 y=681) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+dynamics of a moving object (e.g., a person) based on introduced metrics obtained based on predictions of a 
+page=3 block=-1254059880 (x=116 y=691) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+lightweight and efficient machine learning model for activity recognition and Bluetooth RSSI readings from the 
+page=3 block=-1254059880 (x=116 y=701) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+surrounding static points. The developed solution has been tested in a real environment using smartphones (as 
+page=3 block=-1254059880 (x=116 y=711) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 4 left:1 upper:1
+www.nature.com/scientificreports/
+page=4 block=387973126 (x=37 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=4 block=324931208 (x=37 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=4 block=-2127360376 (x=225 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+4
+page=4 block=143134344 (x=546 y=744) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Vol:.(1234567890)
+page=4 block=3804888 (x=1 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=2
+Figure 1.  An overview of the system.
+page=4 block=1334840212 (x=152 y=494) width=134.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+anchors and for a moving object), making it a practical and easy to deploy solution. Nevertheless, the presented 
+page=4 block=-310275792 (x=152 y=524) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+methodology can also be used in an environment with dedicated Bluetooth beacons. In Fig. 1 we present the 
+page=4 block=-310275792 (x=152 y=534) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+overview of the proposed system.
+page=4 block=-310275792 (x=152 y=544) width=120.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Our analysis consisted of two phases. In phase one, we created and tested various machine learning models for 
+page=4 block=-310275792 (x=164 y=554) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+activity recognition, and then chose the best model to use in our system (see “Models”). This model uses the most 
+page=4 block=-310275792 (x=152 y=564) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+informative features (these features were determined on the basis of feature selection, see "Feature selection").
+page=4 block=-310275792 (x=152 y=574) width=395.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In phase two, we processed the input data for the proximity detection task (RSSI readings for the examined 
+page=4 block=-310275792 (x=164 y=584) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+static points and the readings from the IMU dependent on the arrival of Bluetooth frames) using the model for 
+page=4 block=-310275792 (x=152 y=594) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+activity recognition (only the IMU readings were used) and on their basis we determined the average RSSI val-
+page=4 block=-310275792 (x=152 y=604) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ues to all static points at a given a moment, and then average values of these readings in a specific time window 
+page=4 block=-310275792 (x=152 y=614) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(in our case about 5s). Based on the predictions from the activity recognition model and the RSSI values, we 
+page=4 block=-310275792 (x=152 y=624) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+created basic metrics, and then a joint metric that determines the reliability of proximity estimation in the time 
+page=4 block=-310275792 (x=152 y=634) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+window. We determined the coefficients used to calculate the metrics in the optimization process (we manually 
+page=4 block=-310275792 (x=152 y=644) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+labelled the data regarding the time windows, in which we examine the proximity (1 for movement, 0 for no 
+page=4 block=-310275792 (x=152 y=654) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+movement) and calculated the values of Pearson Correlation coefficient between values of appropriate metrics 
+page=4 block=-310275792 (x=152 y=664) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and true label and chose the values of parameters for which the correlation was the strongest). Ultimately, our 
+page=4 block=-310275792 (x=152 y=674) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+system returns information about the nearest static point in an examined time window (proximity detection) 
+page=4 block=-310275792 (x=152 y=684) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and a metric defining the reliability of this proximity estimation, and enables filtering of unreliable estimation 
+page=4 block=-310275792 (x=152 y=694) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+results. The proposed method can be modified relatively easily to return the N closest points. Then, using other 
+page=4 block=-310275792 (x=152 y=704) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+methods, one can analyze where the dynamic point actually is (in the context of fixed points).
+page=4 block=-310275792 (x=152 y=714) width=337.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 5 left:1 upper:1
+www.nature.com/scientificreports/
+page=5 block=10485766 (x=1 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=5 block=8785544 (x=1 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=5 block=1820790408 (x=189 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+5
+page=5 block=133697160 (x=510 y=744) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Vol.:(0123456789)
+page=5 block=1870139096 (x=492 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=16
+Activity recognition.  In this section, we describe the data, methods, and models we used to create and 
+page=5 block=-1254096304 (x=116 y=37) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+select an efficient and accurate activity recognition model that we use in the proposed system.
+page=5 block=-1254096304 (x=116 y=47) width=335.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Training data gathering and processing.  As it was explained earlier, we decided not to use any benchmark data-
+page=5 block=-1254086132 (x=116 y=69) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+sets, because none of the datasets available online meets all of the necessary requirements: availability of static 
+page=5 block=-1254086132 (x=116 y=79) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and dynamic activities, dependence of IMU readings on BLE ADV frames arrivals, availability of raw sensory 
+page=5 block=-1254086132 (x=116 y=89) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+data. Therefore, to collect the training data, we used an application that simultaneously collects and sends Blue-
+page=5 block=-1254086132 (x=116 y=99) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+tooth ADV frames from and to other registered devices. When a Bluetooth ADV frame is received, the values 
+page=5 block=-1254086132 (x=116 y=109) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+returned by the built-in IMU sensors are measured: accelerometer, gyroscope and magnetometer. We use the 
+page=5 block=-1254086132 (x=116 y=119) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+raw IMU readings to create our training set. Data from these three sensors was also used e.g. in works33 and34.
+page=5 block=-1254086132 (x=116 y=128) width=393.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+We then calculated the values of basic statistical features for each axis of the IMU data, namely mean, standard 
+page=5 block=-1254086132 (x=128 y=139) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+deviation, minimum value, maximum value, median and skew. Generally, approaches based on time-domain 
+page=5 block=-1254086132 (x=116 y=149) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+features (mean value, median, variance, skewness, kurtosis, percentiles and interquartile range) are the most 
+page=5 block=-1254086132 (x=116 y=159) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+popular and proven successful35. We decided to use the rolling window of 25 samples (a relatively narrow sliding 
+page=5 block=-1254086132 (x=116 y=168) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+window for the activity classifier) to determine these values to limit the number of historic data that has to be 
+page=5 block=-1254086132 (x=116 y=179) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+stored and processed on a smartphone, as our target was to create an economic solution. In our case 25 samples 
+page=5 block=-1254086132 (x=116 y=189) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+translates to about a quarter of a second—such a time window was also used in work36, in which authors obtained 
+page=5 block=-1254086132 (x=116 y=198) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+accuracy of approximately 90% for HAR based on accelerometer data exclusively for Random Forest algorithm).
+page=5 block=-1254086132 (x=116 y=209) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+We decided to examine four basic activities, which are characteristic for a variety of environments:
+page=5 block=-1254086132 (x=128 y=219) width=355.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+• 
+page=5 block=53221498 (x=116 y=241) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+• 
+page=5 block=53221498 (x=116 y=251) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+• 
+page=5 block=53221498 (x=116 y=261) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+A smartphone lying on the table (884,815 training and testing 3,131,752 samples)
+page=5 block=-1023200258 (x=129 y=242) width=293.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+A person with a smartphone stands (619,666 training and testing 331,502 samples)
+page=5 block=-1023200258 (x=129 y=252) width=299.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+A person with a smartphone slowly walks from one point to another (67,280 training and testing 34,698 
+page=5 block=-1023200258 (x=129 y=262) width=387.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+samples)
+page=5 block=-1023200258 (x=129 y=272) width=32.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+A person with a smartphone walks fast/runs from one point to another (17,272 training and testing 19,125 
+page=5 block=-1023200258 (x=129 y=282) width=387.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+samples).
+page=5 block=-1023200258 (x=129 y=292) width=34.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+• 
+page=5 block=53216918 (x=116 y=281) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+ The first two positions represent static activities (they represent no movement of phone/person in space) and 
+page=5 block=-1254057332 (x=116 y=314) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the last two ones—the dynamic ones (they represent movement of phone/person in space) in a binary classifica-
+page=5 block=-1254057332 (x=116 y=324) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+tion task. Due to such a formulation of the problem, the considered binary classification task can be treated as 
+page=5 block=-1254057332 (x=116 y=334) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+movement detection (for this reason, the class denoting movement is assigned the value 1—the positive one).
+page=5 block=-1254057332 (x=116 y=344) width=394.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+We gathered data for different positions of the smartphone, namely smartphone was held in a hand, front 
+page=5 block=-1254057332 (x=128 y=354) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and back trousers pockets, in a jacket pocket and in a bag—these are typical positions of smartphones in real-
+page=5 block=-1254057332 (x=116 y=364) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+life situations.
+page=5 block=-1254057332 (x=116 y=374) width=50.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+As can be seen from the number of samples in each class, the dataset is unbalanced, so we discarded random 
+page=5 block=-1254057332 (x=128 y=384) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+samples (random undersampling) from the training set for the majority classes and equalized the number of 
+page=5 block=-1254057332 (x=116 y=394) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+samples with the minority class. We did this because machine learning models are generally sensitive to unbal-
+page=5 block=-1254057332 (x=116 y=404) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+anced datasets.
+page=5 block=-1254057332 (x=116 y=414) width=54.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Finally, we used the feature selection method described in "Feature selection" and thus selected the most 
+page=5 block=-1254057332 (x=128 y=424) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+relevant features to create efficient and lightweight models.
+page=5 block=-1254057332 (x=116 y=434) width=212.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Feature selection.  High-dimensional training feature sets can contain irrelevant information, which impedes 
+page=5 block=-1253980160 (x=116 y=456) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the learning process because the relevant information has to be found in this large feature space. Moreover, a 
+page=5 block=-1253980160 (x=116 y=466) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+large number of features can lead to model overfitting to the training data and insufficient generalization for 
+page=5 block=-1253980160 (x=116 y=476) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+new data. Feature selection can reduce this issue and contribute to better model generalization. Dimensionality 
+page=5 block=-1253980160 (x=116 y=486) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+reduction can reduce the time required to train ML models, and allows to create small, light-weight and efficient 
+page=5 block=-1253980160 (x=116 y=496) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+models, thus models that are fast in prediction due to their smaller size and which can even operate in real time. 
+page=5 block=-1253980160 (x=116 y=506) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+For these models, the computing resources typical of smartphones are sufficient.
+page=5 block=-1253980160 (x=116 y=516) width=287.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Different techniques can be used for feature selection, generally there are three principal approaches to this 
+page=5 block=-1253980160 (x=128 y=526) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+task: Filter-Based methods, Wrapper-Based methods and Embedded-Based methods37. Wrapper-Based methods 
+page=5 block=-1253980160 (x=116 y=535) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and Embedded-Based methods involve using some predictor in the selection process. Wrapper-Based methods 
+page=5 block=-1253980160 (x=116 y=546) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+operate based on a model that is treated as a “black box” to rank the subsets of training features regarding their 
+page=5 block=-1253980160 (x=116 y=556) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+predictive power. Embedded-Based methods, on the other hand, choose the best features during the learning pro-
+page=5 block=-1253980160 (x=116 y=566) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+cess. Filter-Based approaches provide a ranking of all features based on a specific relevance index. As a relevance 
+page=5 block=-1253980160 (x=116 y=576) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+index, e.g. correlation coefficients can be used (i.e. Pearson, Spearman, Kendall). Correlation-based approaches 
+page=5 block=-1253980160 (x=116 y=586) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+assess the relevance of the features based on the degree of dependence of the target variable (in a numerical form) 
+page=5 block=-1253980160 (x=116 y=596) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+on the feature values. Different statistics can be used here, e.g. classical test statistics (Chi-squared, T-test, etc.). 
+page=5 block=-1253980160 (x=116 y=606) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Generally Filer-Based methods do not use any predictor performance optimization to select relevant features.
+page=5 block=-1253980160 (x=116 y=616) width=395.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Correlation techniques are often used to determine the relationship between continuous variables. Spear-
+page=5 block=-1253980160 (x=128 y=626) width=386.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+man’s or Kendall’s correlation coefficients indicate the occurrence of monotonic relationships (even non-linear) 
+page=5 block=-1253980160 (x=116 y=636) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and are non-parametric. Pearson Correlation coefficient determines the linear relationships and is a parametric 
+page=5 block=-1253980160 (x=116 y=646) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+measure38. Ordinal variables can be treated as continuous ones. Although, using Pearson Correlation with ordinal 
+page=5 block=-1253980160 (x=116 y=655) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+variables can introduce some potentially incorrect estimation of the relationships, the feature selection methods 
+page=5 block=-1253980160 (x=116 y=666) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+based on Pearson correlation are robust and can usually successfully find and asses the relationship even when the 
+page=5 block=-1253980160 (x=116 y=676) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+assumption regarding continuous variables is violated39. For that reason, we decided to use Pearson Correlation 
+page=5 block=-1253980160 (x=116 y=685) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+as a Filter-Based method in the process of feature selection.
+page=5 block=-1253980160 (x=116 y=696) width=214.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+To obtain the numerical labels, we encoded the labels in the following manner for binary classification task:
+page=5 block=-1253980160 (x=128 y=706) width=386.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 6 left:1 upper:1
+www.nature.com/scientificreports/
+page=6 block=387973126 (x=37 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=6 block=324931208 (x=37 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=6 block=-2127360376 (x=225 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+6
+page=6 block=143134344 (x=546 y=744) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Vol:.(1234567890)
+page=6 block=3804888 (x=1 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=2
+• 
+page=6 block=69730880 (x=152 y=36) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+• 
+page=6 block=69730880 (x=152 y=46) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+A smartphone lying on the table/ a person with a smartphone stands (static activities) ? 0.0
+page=6 block=-131791934 (x=165 y=37) width=332.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+A person with a smartphone slowly walks from one point to another/ a person with a smartphone walks fast/
+page=6 block=-131791934 (x=165 y=47) width=385.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+runs from one point to another (dynamic activities) ? 1.0.
+page=6 block=-131791934 (x=165 y=57) width=212.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+This representation is the most natural, because in this way we treat the decision variable as the ordinal variable 
+page=6 block=-310377232 (x=152 y=79) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+that it actually is (the activities are ranked with respect to the degree of activity).
+page=6 block=-310377232 (x=152 y=89) width=289.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Models.  We used three tree-based machine learning models in our experiments to choose the best model for 
+page=6 block=-310375610 (x=152 y=111) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+activity recognition. We trained and tested all of these model in a binary classification tasks. We used the fol-
+page=6 block=-310375610 (x=152 y=121) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+lowing models:
+page=6 block=-310375610 (x=152 y=131) width=55.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+• 
+page=6 block=69731216 (x=152 y=152) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+Decision Tree model that relies on classifying data based on a series of responses. The tree is taught to make 
+page=6 block=-110140618 (x=165 y=153) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+decisions based on samples from the training set, for which it uses a series of questions (conditions) to deter-
+page=6 block=-110140618 (x=165 y=163) width=385.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+mine the membership of a given sample to a particular class. Using the decision algorithm, a root of the tree 
+page=6 block=-110140618 (x=165 y=173) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+is created and the data is distributed based on the value of the feature selected using the selection algorithm. 
+page=6 block=-110140618 (x=165 y=183) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The data is then distributed according to this algorithm in the descendant nodes until the leaves of the tree 
+page=6 block=-110140618 (x=165 y=193) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(represented by labels) are obtained.
+page=6 block=-110140618 (x=165 y=203) width=131.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Gradient Boosted Decision Trees an ensemble classification model that uses decision trees. Boosting involves 
+page=6 block=-110140618 (x=165 y=213) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the use of weak learners (decision trees) and building a single strong learner in an iterativly. Traditional 
+page=6 block=-110140618 (x=165 y=223) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+boosted trees scarifies some decision tree’s advantages: e.g. speed and interpretability. Gradient boosted 
+page=6 block=-110140618 (x=165 y=233) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+models are a generalization of boosting that was created to mitigate these issues, thus deliver an accurate 
+page=6 block=-110140618 (x=165 y=243) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and effective ML method. Improvement of the classification quality in Gradient Boosted Trees is based on 
+page=6 block=-110140618 (x=165 y=253) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+an optimization of a differentiable loss  unction40.
+page=6 block=-110140618 (x=165 y=262) width=179.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Random Forest an ensemble classification model, an extension of the Bagging method. It is a solution that 
+page=6 block=-110140618 (x=165 y=273) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+offers good scalability, classification efficiency and easy application. Random forest is an ensemble of weak 
+page=6 block=-110140618 (x=165 y=283) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+classifiers—decision trees trained on subsets of the training set, which combined in an ensemble form a single 
+page=6 block=-110140618 (x=165 y=293) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+strong learner. Such a classifier has lower generalization error and lower sensitivity to overfitting. Majority 
+page=6 block=-110140618 (x=165 y=303) width=387.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+voting is performed to determine the label40.
+page=6 block=-110140618 (x=165 y=312) width=161.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+• 
+page=6 block=69731576 (x=152 y=212) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+• 
+page=6 block=69731936 (x=152 y=272) width=7.000000 height=6.000000 fontname=RPGHAG+STIX-Regular wordint.min=2 wordint.max=4
+ Decision Tree, Gradient Boosted Decision Trees, and Random Forest are three of the most well-known ML 
+page=6 block=-310342880 (x=152 y=336) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+algorithms. Decision Tree is a good baseline due to its simplicity. This algorithm was frequently used in the 
+page=6 block=-310342880 (x=152 y=346) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+domain of HAR (e.g. in works41 or42). Ensemble models (Gradient Boosted Decision Trees and Random Forest) 
+page=6 block=-310342880 (x=152 y=355) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+gained popularity due to their applicability when dealing with statistical features in numerous diverse fields (e.g. 
+page=6 block=-310342880 (x=152 y=366) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+finance43 or detecting cardiac abnormalities44). They also found application (and they were proven successful) in 
+page=6 block=-310342880 (x=152 y=375) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+works considering different types of human activity recognition (e.g. classification of alpine skiing styles based 
+page=6 block=-310342880 (x=152 y=386) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+on IMU data45 and accelerometer-based human activity recognition in works46 or42). Due to high accuracy of the 
+page=6 block=-310342880 (x=152 y=395) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+described algorithms in the literature, we also decided to use them to build our ML activity recognition models.
+page=6 block=-310342880 (x=152 y=406) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+We tested these ML models’ performance on test data (from different experiments than those regarding the 
+page=6 block=-310342880 (x=164 y=416) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+data gathering for training data for more representative evaluation). We chose the best model based on models’ 
+page=6 block=-310342880 (x=152 y=426) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+overall accuracy and accuracy of specific classes prediction of the models (True Positive and True Negative Rates).
+page=6 block=-310342880 (x=152 y=436) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Proximity and reliability estimation.  The main goal of the proposed system is to determine the closest 
+page=6 block=-310362008 (x=152 y=458) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+static point for the examined dynamic object and filter out the results obtained for the time periods, in which 
+page=6 block=-310362008 (x=152 y=468) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the dynamic object was moving. In this section, we describe the testing environment, the data gathering and 
+page=6 block=-310362008 (x=152 y=478) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+processing, as well as the definition of metrics used in the proposed system.
+page=6 block=-310362008 (x=152 y=488) width=270.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Testing environment.  In order to demonstrate the operation of the proposed system we built a realistic test 
+page=6 block=-310309136 (x=152 y=510) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+environment (generalization of a fair hall or a museum hall with stands/art pieces). We also focused on making 
+page=6 block=-310309136 (x=152 y=520) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the experiment procedure itself as realistic as possible. The environment consist of 5 smartphones (static ones) 
+page=6 block=-310309136 (x=152 y=530) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+lying on 5 tables, which for the shape of a rectangle (4 smartphones as vertices and the remaining one in the 
+page=6 block=-310309136 (x=152 y=540) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+middle of one of the longer edge (see Fig. 2). We numbered the tables in a clockwise manner.
+page=6 block=-310309136 (x=152 y=550) width=332.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In such a built environment, we placed a person with a smartphone (the experiment lasted two minutes). The 
+page=6 block=-310309136 (x=164 y=560) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+person was supposed to behave naturally (as a visitor of a fair hall or a museum hall and watch the stands (static 
+page=6 block=-310309136 (x=152 y=570) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+points) and move between them (1 ? 2 ? 3 ? 4 ? 5) in turns). The person stood at a given stand (starting from 
+page=6 block=-310309136 (x=152 y=580) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the first one) for about 20 seconds, and after a given sign (the second person measured the time) moved to the 
+page=6 block=-310309136 (x=152 y=590) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+next stand (it took slightly more than 5 seconds, during the last part—the longest one—the person moved the 
+page=6 block=-310309136 (x=152 y=600) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+most rapidly—to make the way last a comparable time as for the other cases, and at the same time to provide 
+page=6 block=-310309136 (x=152 y=610) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+a more dynamic case). For this reason, we mark the moments of movement with a margin in the experimental 
+page=6 block=-310309136 (x=152 y=620) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+part (2 time windows in the fist two experiments and three in the last two ones—it becomes more difficult to 
+page=6 block=-310309136 (x=152 y=630) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+determine the precise ground truth at the end of the experiment).
+page=6 block=-310309136 (x=152 y=640) width=237.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Data gathering.  For data collection, we used an application that simultaneously collects and sends Bluetooth 
+page=6 block=-310348044 (x=152 y=662) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ADV frames from and to other registered devices (previously mentioned in “Training data gathering and pro-
+page=6 block=-310348044 (x=152 y=672) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+cessing”). When a device receives a Bluetooth ADV frame it measures the values returned by the built-in IMU 
+page=6 block=-310348044 (x=152 y=682) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+sensors: accelerometer, gyroscope and magnetometer. Collecting data in a way that depends on the reception 
+page=6 block=-310348044 (x=152 y=692) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of Bluetooth frames, we get RSSI values and sensor readings related to a single timestamp. This property is later 
+page=6 block=-310348044 (x=152 y=702) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 7 left:1 upper:1
+www.nature.com/scientificreports/
+page=7 block=10485766 (x=1 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=7 block=8785544 (x=1 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=7 block=1820790408 (x=189 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+7
+page=7 block=133697160 (x=510 y=744) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Vol.:(0123456789)
+page=7 block=1870139096 (x=492 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=16
+Figure 2.  An overview of the experiment.
+page=7 block=1147930262 (x=116 y=281) width=151.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Column
+page=7 block=187172072 (x=119 y=314) width=24.000000 height=4.000000 fontname=MinionPro-Bold wordint.min=1 wordint.max=2
+Description
+page=7 block=422053096 (x=184 y=314) width=35.000000 height=4.000000 fontname=MinionPro-Bold wordint.min=1 wordint.max=16
+Timestamp
+page=7 block=413352178 (x=119 y=326) width=32.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=16
+sender_1
+page=7 block=413352178 (x=119 y=337) width=26.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=16
+sender_i
+page=7 block=413352178 (x=119 y=349) width=24.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=16
+sender_n
+page=7 block=413352178 (x=119 y=361) width=26.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=16
+Activity prediction
+page=7 block=413352178 (x=119 y=372) width=53.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Timestamp determined for all senders
+page=7 block=1290289394 (x=184 y=326) width=107.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Average RSSI for sender 1
+page=7 block=1290289394 (x=184 y=337) width=72.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Average RSSI for sender i
+page=7 block=1290289394 (x=184 y=349) width=71.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Average RSSI for sender n
+page=7 block=1290289394 (x=184 y=361) width=73.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Average value of activity prediction
+page=7 block=1290289394 (x=184 y=372) width=99.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Table 1.   Description of columns used in the dataset that can be used for proximity detection compatible with 
+page=7 block=-1284499328 (x=116 y=392) width=396.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+our method.
+page=7 block=-1284499328 (x=116 y=402) width=45.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+used in our experiments. Of course, the app runs on all phones at the same time (start and stop of data collection 
+page=7 block=-1254022362 (x=116 y=449) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+is scheduled at a specific time—the clocks on the phones are synchronized).
+page=7 block=-1254022362 (x=116 y=459) width=271.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In the experiments, we use only the data received by the phone held by the moving person, and consider 
+page=7 block=-1254022362 (x=128 y=469) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+phones lying on tables only as transmitters (we treat them as anchors). Naturally, it is possible to use two types 
+page=7 block=-1254022362 (x=116 y=479) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of applications—for static phones (lying on tables—anchors) and for dynamic phones (held by people moving 
+page=7 block=-1254022362 (x=116 y=489) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+inside the examined environment). However, the proposed solution is more practical and allows to use one 
+page=7 block=-1254022362 (x=116 y=499) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+application both as a transmitter and as a receiver. The application used for measurements was implemented for 
+page=7 block=-1254022362 (x=116 y=509) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+iOS (the iPhones used were models XR-12).
+page=7 block=-1254022362 (x=116 y=519) width=158.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In the case of Apple smartphones, the BLE operation (e.g. ADV frame sending frequency) is controlled by 
+page=7 block=-1254022362 (x=128 y=529) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the IOS operating system, and the details have not been documented in detail47. The reference may be the tech-
+page=7 block=-1254022362 (x=116 y=538) width=398.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+nical information created by and for IOS developers e.g.48. The operation depends on several parameters (such 
+page=7 block=-1254022362 (x=116 y=548) width=400.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+as CPU load, memory usage, operating mode, e.g. foreground/background operation). However, to the best of 
+page=7 block=-1254022362 (x=116 y=559) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+our knowledge, it is not affected by the speed of movement of users.
+page=7 block=-1254022362 (x=116 y=569) width=244.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The measurements in the article were collected in the foreground mode of measuring application, which 
+page=7 block=-1254022362 (x=128 y=579) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+allowed us to achieve a constant frequency of ADV frames from each device. Of course, it would be possible to 
+page=7 block=-1254022362 (x=116 y=589) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+create a system with more control over the BLE operation, however it would require using dedicated BLE beacons 
+page=7 block=-1254022362 (x=116 y=599) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+instead of smartphones, which introduces additional costs and decreases practicality of a solution.
+page=7 block=-1254022362 (x=116 y=609) width=354.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Data processing.  To estimate the proximity and built the metrics that can be used to assess the reliability of 
+page=7 block=-1254042630 (x=116 y=631) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+proximity detection, we have to first process raw RSSI and sensor readings to obtain the data necessary to run 
+page=7 block=-1254042630 (x=116 y=641) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+our algorithms. In Table 1, we present the necessary columns of the data table with the corresponding descrip-
+page=7 block=-1254042630 (x=116 y=651) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+tions.
+page=7 block=-1254042630 (x=116 y=661) width=20.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+To build such a table, for each Bluetooth ADV frame we take the corresponding sensor data readings (the 
+page=7 block=-1254042630 (x=128 y=671) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+same timestamp) and using the features determined in the feature selection process and the trained model, we 
+page=7 block=-1254042630 (x=116 y=681) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+obtain the predicted activity labels for each Bluetooth frame. We calculate the average value of the label over n 
+page=7 block=-1254042630 (x=116 y=691) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+frames—the final table will be approximately n times smaller, because RSSI reading for each sender have to be 
+page=7 block=-1254042630 (x=116 y=701) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+obtained for particular time moment—this way we obtain more stable values of position estimation over time 
+page=7 block=-1254042630 (x=116 y=711) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 8 left:1 upper:1
+www.nature.com/scientificreports/
+page=8 block=387973126 (x=37 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=8 block=324931208 (x=37 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=8 block=-2127360376 (x=225 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+8
+page=8 block=143134344 (x=546 y=744) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Vol:.(1234567890)
+page=8 block=3804888 (x=1 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=2
+(it is no longer binary). Then, we create a table, in which we connect the nearest frames for all of the senders 
+page=8 block=-310374680 (x=152 y=36) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(considering timestamp of frame arrival). Such table stores the RSSI readings for sender_1 ... sender_i ... sender_n 
+page=8 block=-310374680 (x=152 y=46) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+at some moment. Then, we connect this RSSI table with the determined non-binary label values.
+page=8 block=-310374680 (x=152 y=56) width=347.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Columns sender_1 ... sender_i ... sender_n represent the average values of RSSI read by the receiver for each 
+page=8 block=-310374680 (x=164 y=66) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+static sender (anchor) available in the experiment. We obtain values of average RSSI for each anchor in time 
+page=8 block=-310374680 (x=152 y=76) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+window—each time window is approximated by a constant number of readings—rows in a table (depending on 
+page=8 block=-310374680 (x=152 y=86) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the number of Bluetooth frames that are sent by each static sender and the number of static senders—the more 
+page=8 block=-310374680 (x=152 y=96) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+senders the more Bluetooth frames we obtain).
+page=8 block=-310374680 (x=152 y=106) width=169.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In our experiment we have got 5 senders, so to obtain the primary activity label average value, we use the roll-
+page=8 block=-310374680 (x=164 y=116) width=386.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ing window of length 5. In our experiments we decided to use time windows of length 5 seconds (approximately 
+page=8 block=-310374680 (x=152 y=126) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+100 rows of momentary RSSI readings and primary activity label average values).
+page=8 block=-310374680 (x=152 y=136) width=292.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Metrics definition.  We created three metrics to assess the reliability of proximity detection: two basic metrics 
+page=8 block=-310360168 (x=152 y=158) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+based on activity recognition results and RSSI (activity_metric and rssi_metric), as well as one joint reliability 
+page=8 block=-310360168 (x=152 y=168) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+metric (prediction_reliability_metric).
+page=8 block=-310360168 (x=152 y=178) width=134.000000 height=6.000000 fontname=MinionPro-It wordint.min=2 wordint.max=4
+The activity_metric can be defined as an average prediction of an activity prediction model in a time window. 
+page=8 block=-310360168 (x=164 y=188) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+As we treat the activity prediction task as a binary classification task (raw classifier results are 0 for static activities 
+page=8 block=-310360168 (x=152 y=198) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(smartphone lying on a table, standing) and 1 for dynamic positions (walking, running), such an obtained value 
+page=8 block=-310360168 (x=152 y=208) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+is a real number in range ?0;1?. It can be interpreted as a “person movement factor”.
+page=8 block=-310360168 (x=152 y=218) width=301.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The rssi_metric is based on absolute changes in RSSI measurements between two consecutive time windows. 
+page=8 block=-310360168 (x=164 y=228) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+It can be calculated as follows:
+page=8 block=-310360168 (x=152 y=238) width=109.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+First, let us define X(t  as a vector containing average RSSI readings for all senders (n) for time window t, x(it) 
+page=8 block=-310360168 (x=164 y=246) width=388.000000 height=11.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+is the average RSSI for i-th sender.
+page=8 block=-310360168 (x=152 y=258) width=123.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Then, the absolute values for each element of the vector are calculated—we obtain vector |X(t)| with elements 
+page=8 block=-310360168 (x=164 y=267) width=388.000000 height=7.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+|x(it)|.
+page=8 block=188025820 (x=151 y=276) width=19.000000 height=11.000000 fontname=RPGHAG+MTSYN2 wordint.min=2 wordint.max=4
+Let us define Xdi? as a vector containing the absolute values of differences of average RSSI values between 
+page=8 block=-310373888 (x=164 y=288) width=388.000000 height=8.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+two consecutive time windows:
+page=8 block=-310373888 (x=152 y=298) width=113.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+?
+page=8 block=66650112 (x=339 y=314) width=3.000000 height=0.000000 fontname=LSVKUS+CMEX10 wordint.min=1 wordint.max=1
+?
+page=8 block=76677120 (x=390 y=314) width=3.000000 height=0.000000 fontname=LSVKUS+CMEX10 wordint.min=1 wordint.max=1
+(t)
+page=8 block=145425335 (x=317 y=317) width=7.000000 height=3.000000 fontname=LSVKUS+MTMI2 wordint.min=1 wordint.max=10
+??X(t) ? X(t?1)??
+page=8 block=1199704242 (x=339 y=318) width=54.000000 height=7.000000 fontname=LSVKUS+MTMI2 wordint.min=1 wordint.max=4
+Xdi? =
+page=8 block=528222400 (x=310 y=320) width=26.000000 height=7.000000 fontname=LSVKUS+MinionPro-It10 wordint.min=1 wordint.max=6
+(1)
+page=8 block=353896320 (x=540 y=320) width=10.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+Then, we calculate the weight vector that will be used to calculate the weighed average of changes in average 
+page=8 block=-310369656 (x=164 y=340) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+RSSI values between two consecutive time windows. To determine the values of weights for each RSSI difference, 
+page=8 block=-310369656 (x=152 y=350) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+we use the softmax function:
+page=8 block=-310369656 (x=152 y=360) width=103.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(
+page=8 block=115998720 (x=354 y=376) width=5.000000 height=0.000000 fontname=LSVKUS+CMEX102 wordint.min=1 wordint.max=1
+)
+page=8 block=124190720 (x=379 y=376) width=5.000000 height=0.000000 fontname=LSVKUS+CMEX102 wordint.min=1 wordint.max=1
+W(t) = ? |X(t)|
+page=8 block=1271269981 (x=318 y=379) width=61.000000 height=7.000000 fontname=LSVKUS+MTMI6 wordint.min=1 wordint.max=5
+(2)
+page=8 block=353896686 (x=540 y=381) width=10.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+To calculate the value of ?(|xi(t)|) the following formula was be used (to obtain bigger values for higher RSSI 
+page=8 block=-310367324 (x=164 y=399) width=388.000000 height=10.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+values, which represent closer static points—characterized by more reliable signal values and potentially bigger 
+page=8 block=-310367324 (x=152 y=411) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+changes in the case of position change), the basis of the exponential function has to take values from range (0; 1):
+page=8 block=-310367324 (x=152 y=421) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+?|xi(t)|
+page=8 block=443027302 (x=338 y=438) width=20.000000 height=9.000000 fontname=LSVKUS+MinionPro-It12 wordint.min=1 wordint.max=14
+?(|x(it)|) =
+page=8 block=754979180 (x=288 y=446) width=40.000000 height=10.000000 fontname=RPGHAG+MTSYN8 wordint.min=1 wordint.max=5
+?j ?|x(jt)|,
+page=8 block=805051874 (x=332 y=450) width=37.000000 height=17.000000 fontname=LSVKUS+MinionPro-It12 wordint.min=1 wordint.max=4
+? ? (0;1)
+page=8 block=916588296 (x=378 y=450) width=37.000000 height=4.000000 fontname=LSVKUS+MTMI7 wordint.min=1 wordint.max=5
+(3)
+page=8 block=353897100 (x=540 y=450) width=10.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+weiThghteend w aev edraegteer—mµin(Yte)  (tbhye  ?w weeig rhetperde saebnsto mluutelt ivpalliuceatsi oonf  RofS vSaI lcuhesa natg ec o(Yrre(ts)p wointhdi nvagl upeoss ityi(iot)n)s a innd v eccatlocursl aWte  atnhde  
+page=8 block=-310368976 (x=152 y=476) width=400.000000 height=20.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Xdi?):
+page=8 block=209194398 (x=152 y=498) width=21.000000 height=7.000000 fontname=LSVKUS+MinionPro-It8 wordint.min=1 wordint.max=15
+(t)
+page=8 block=196085257 (x=374 y=515) width=8.000000 height=3.000000 fontname=LSVKUS+MTMI2 wordint.min=1 wordint.max=10
+Y(t) =W(t)
+page=8 block=854461980 (x=318 y=516) width=41.000000 height=7.000000 fontname=LSVKUS+MTMI2 wordint.min=1 wordint.max=5
+? Xdi?
+page=8 block=520491056 (x=361 y=518) width=22.000000 height=8.000000 fontname=LSVKUS+MinionPro-It13 wordint.min=1 wordint.max=4
+(4)
+page=8 block=353897508 (x=540 y=518) width=10.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+?j y(jt)
+page=8 block=596383040 (x=350 y=544) width=26.000000 height=10.000000 fontname=LSVKUS+MinionPro-It14 wordint.min=1 wordint.max=4
+(t)
+page=8 block=152307320 (x=332 y=552) width=7.000000 height=3.000000 fontname=LSVKUS+MTMI8 wordint.min=1 wordint.max=10
+(5)
+page=8 block=353897712 (x=540 y=552) width=10.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+µY =
+page=8 block=511184136 (x=325 y=556) width=24.000000 height=6.000000 fontname=LSVKUS+MinionPro-It14 wordint.min=1 wordint.max=8
+n
+page=8 block=118294728 (x=361 y=562) width=5.000000 height=4.000000 fontname=LSVKUS+MinionPro-It14 wordint.min=15 wordint.max=15
+Finally, to obtain the value of metric representing the RSSI change ( ssi_metric ) for time window t we use 
+page=8 block=-310357796 (x=164 y=575) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+hyperbolic tangent function, which transforms the metric value to range (0, 1) with smaller values representing 
+page=8 block=-310357796 (x=152 y=585) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+smaller changes in RSSI and bigger values—bigger changes (resulting from potential posiotion changes). We use 
+page=8 block=-310357796 (x=152 y=595) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the average value of RSSI change from the next time window (change should be visible after position change):
+page=8 block=-310357796 (x=152 y=605) width=394.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+rssi_metric(t) = tanh(µ(Yt+1))
+page=8 block=2070158010 (x=298 y=622) width=106.000000 height=11.000000 fontname=LSVKUS+MinionPro-It15 wordint.min=1 wordint.max=5
+(6)
+page=8 block=353898144 (x=540 y=624) width=10.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+Metric prediction_reliability_metric is determined based on the values of activity_metric and rssi_metric, 
+page=8 block=-310368224 (x=164 y=642) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+as follows:
+page=8 block=-310368224 (x=152 y=652) width=37.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+prediction_reliability_metric(t) = 1 ? (? · activity_metric(t) + ? · rssi_metric(t)),
+page=8 block=-358542773 (x=205 y=669) width=293.000000 height=7.000000 fontname=LSVKUS+MinionPro-It16 wordint.min=1 wordint.max=4
+(7)
+page=8 block=353897755 (x=540 y=671) width=10.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+where ? can be described as an importance coefficient of the activity metric and:
+page=8 block=-1416098448 (x=152 y=688) width=289.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(8)
+page=8 block=353898630 (x=540 y=705) width=10.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+? ? ?0;1?,
+page=8 block=707267336 (x=284 y=706) width=38.000000 height=4.000000 fontname=RPGHAG+MTSYN13 wordint.min=1 wordint.max=5
+? ? ?0; 1?,
+page=8 block=826805000 (x=332 y=706) width=38.000000 height=4.000000 fontname=RPGHAG+MTSYN13 wordint.min=1 wordint.max=4
+? +? = 1
+page=8 block=971246344 (x=380 y=706) width=39.000000 height=4.000000 fontname=LSVKUS+MTMI11 wordint.min=2 wordint.max=4
+Page: 9 left:1 upper:1
+www.nature.com/scientificreports/
+page=9 block=10485766 (x=1 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=9 block=8785544 (x=1 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=9 block=1820790408 (x=189 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+9
+page=9 block=133697160 (x=510 y=744) width=4.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=16 wordint.max=16
+Vol.:(0123456789)
+page=9 block=1870139096 (x=492 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=16
+Figure 3.  Filter-based Feature Selection based on the absolute value of Pearson Correlation coefficient 
+page=9 block=-1520169904 (x=116 y=197) width=365.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+determined for features and label in a numerical form.
+page=9 block=-1520169904 (x=116 y=207) width=192.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+As a result we obtain a reliability metric with values in range ?0;1? with smaller values representing less 
+page=9 block=-1254078960 (x=128 y=236) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+reliable proximity detection and higher—more reliable estimation - due to potential movement of the person.
+page=9 block=-1254078960 (x=116 y=246) width=394.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+All of these metrics can be used to filter out the moving points in the proximity detection task and to assess 
+page=9 block=-1254078960 (x=128 y=256) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the reliability of the detection (especially proximity between a dynamic and static point while the dynamic 
+page=9 block=-1254078960 (x=116 y=266) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+object is moving towards some different location) and are easy to interpret—higher values of activity_metric and 
+page=9 block=-1254078960 (x=116 y=276) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+rssi_metric suggest that movement of a person can be involved, whereas the higher values of prediction_reliabil-
+page=9 block=-1254078960 (x=116 y=286) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ity_metric values suggest that it is more probable that the examined person was moving between points during 
+page=9 block=-1254078960 (x=116 y=296) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the time taken into consideration.
+page=9 block=-1254078960 (x=116 y=306) width=122.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Results
+page=9 block=266078449 (x=116 y=327) width=35.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=23
+First, we performed the filter-based feature selection based on Pearson Correlation coefficient values. The results 
+page=9 block=-1253973188 (x=116 y=338) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+show that by taking into consideration only features with the coefficient value greater than 0.3, we were able to 
+page=9 block=-1253973188 (x=116 y=348) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+minimize the number of features used for training from 54 to 17 (see Fig. 3). The great majority of the rejected 
+page=9 block=-1253973188 (x=116 y=358) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+features obtained very low values of Pearson correlation coefficient - suggesting a low impact of these features 
+page=9 block=-1253973188 (x=116 y=368) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+on the label value.
+page=9 block=-1253973188 (x=116 y=378) width=65.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+We processed the training dataset and took only the features chosen in the feature selection procedure. We 
+page=9 block=-1253973188 (x=128 y=388) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+used such a dataset to train three binary models: Decision Tree, Gradient Boosted Decision Trees ensemble 
+page=9 block=-1253973188 (x=116 y=398) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+model and Random Forest ensemble model. In Fig. 4, we present the performance of the trained models on the 
+page=9 block=-1253973188 (x=116 y=408) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+test dataset (their confusion matrices). It can be observed that the ensemble models obtained much better results 
+page=9 block=-1253973188 (x=116 y=418) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+than a traditional Decision Tree. Most probably it is caused by a better prediction power and generalization of the 
+page=9 block=-1253973188 (x=116 y=428) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ensemble models. The best performance was obtained by the Gradient Boosted Decision Trees (both True Positive 
+page=9 block=-1253973188 (x=116 y=438) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and True Negative rates over 90%), therefore we decided to use this particular model in our further experiments.
+page=9 block=-1253973188 (x=116 y=448) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Then, we processed the data gathered in our testing environment (see Fig. 2): among others, we formatted 
+page=9 block=-1253973188 (x=128 y=458) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the data and ran the Gradient Boosted Decision Trees model to obtain the predictions. To find the optimal 
+page=9 block=-1253973188 (x=116 y=468) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+value of the base in our softmax function (used to calculate the value of a RSSI-based metric), we calculated the 
+page=9 block=-1253973188 (x=116 y=478) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+values of Pearson Correlation coefficient between values of RSSI-based metric obtained with different values of 
+page=9 block=-1253973188 (x=116 y=488) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+base (from 0.1 to 0.95 with step 0.05) and chose the base for which the correlation was the strongest—0.85 (see 
+page=9 block=-1253973188 (x=116 y=498) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Fig. 5a). Similarly, we chose the optimal value for the importance coefficient (the value for which the correlation 
+page=9 block=-1253973188 (x=116 y=508) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+between the importance coefficient used for activity metric)—also 0.85. Alternatively, the values can be chosen 
+page=9 block=-1253973188 (x=116 y=518) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+by the operator (especially the second value—specifying the proportion in which we consider metrics based on 
+page=9 block=-1253973188 (x=116 y=528) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+RSSI and on activity predictions (see Fig. 5b).
+page=9 block=-1253973188 (x=116 y=538) width=164.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In Figs. 6a,b,  and 7 we presented the filtering results for the three examined metrics (activity_metric, rssi_met-
+page=9 block=-1253973188 (x=128 y=548) width=386.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ric and reliability_metric respectively). In which examined time window we determined the closest stand. We 
+page=9 block=-1253973188 (x=116 y=558) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+highlighted the areas (with a margin) in which the movement occured. We also chose the values of thresholds 
+page=9 block=-1253973188 (x=116 y=568) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(this value should be chosen according to how strictly we want to assess the reliability of data)—we set the thresh-
+page=9 block=-1253973188 (x=116 y=578) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+old to 0.5 for activity_metric and reliability_metric and to 0.6 for rssi_metric (we used a higher value here, because 
+page=9 block=-1253973188 (x=116 y=588) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the RSSI values which were used to calculate the metric are characterized by instability). Time windows, for 
+page=9 block=-1253973188 (x=116 y=598) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+which the value of a particular metric are higher than the threshold (for RSSI and activity-based metrics) or lower 
+page=9 block=-1253973188 (x=116 y=608) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+than the threshold (reliability_metric) are treated as unreliable and should be filtered (red crosses in the figures).
+page=9 block=-1253973188 (x=116 y=618) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+We can see that all of the metrics can be used to assess the reliability of the proximity detection (on the basis of 
+page=9 block=-1253973188 (x=128 y=628) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+movement detection). Even the rssi_metric (see Fig. 6a), which was calculated based on highly unstable Bluetooth 
+page=9 block=-1253973188 (x=116 y=638) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+signal strength exhibits a great power of movement detection in three out of four examined movement areas 
+page=9 block=-1253973188 (x=116 y=648) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(movement in the third movement area was shifted to the no-movement area). It shows that even without using 
+page=9 block=-1253973188 (x=116 y=658) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the readings from smartphone IMU we can efficiently detect the movement and filter unreliable predictions. The 
+page=9 block=-1253973188 (x=116 y=668) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+results obtained for the activity_metric (based on IMU readings, see Fig. 6b) are highly accurate and in all of the 
+page=9 block=-1253973188 (x=116 y=678) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+examined movement areas, the movement was detected (and in no-movement areas the values of the metric are 
+page=9 block=-1253973188 (x=116 y=688) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+close to zero suggesting no activity, which is true). If we use a metric based on activity and RSSI (see Fig. 7) we 
+page=9 block=-1253973188 (x=116 y=698) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 10 left:1 upper:1
+www.nature.com/scientificreports/
+page=10 block=387973126 (x=37 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=10 block=324931208 (x=37 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=10 block=-2127360376 (x=225 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+10
+page=10 block=284167816 (x=542 y=744) width=8.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+Vol:.(1234567890)
+page=10 block=3804888 (x=1 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=2
+Figure 4.  Confusion matrices of examined activity recognition binary models. (a) Decision Tree. (b) Gradient 
+page=10 block=-370137312 (x=152 y=626) width=394.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Boosted Trees. (c) Random Forest.
+page=10 block=-370137312 (x=152 y=636) width=122.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+can significantly improve the accuracy of the RSSI-based metric itself and base our knowledge on both: changes 
+page=10 block=-310367408 (x=152 y=693) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+in RSSI (an external information) and IMU sensors (an internal information).
+page=10 block=-310367408 (x=152 y=703) width=281.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 11 left:1 upper:1
+www.nature.com/scientificreports/
+page=11 block=10485766 (x=1 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=11 block=8785544 (x=1 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=11 block=1820790408 (x=189 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+11
+page=11 block=265293448 (x=506 y=744) width=8.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+Vol.:(0123456789)
+page=11 block=1870139096 (x=492 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=16
+Figure 5.  Determining the optimal values of parameters: (a) exponent base used in the softmax function; (b) 
+page=11 block=-1330109568 (x=116 y=568) width=390.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+importance coefficient used for activity_metric.
+page=11 block=-1330109568 (x=116 y=578) width=167.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Discussion
+page=11 block=380113084 (x=116 y=612) width=50.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=23
+The results show that the proposed system is highly effective and can be used in real applications. Due to the use 
+page=11 block=-1254043318 (x=116 y=623) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of simple models for activity detection and simple methods for determining the value of RSSI-based metric, the 
+page=11 block=-1254043318 (x=116 y=633) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+solution is easy to implement, robust, memory and resource efficient and highly scalable. For these reasons, the 
+page=11 block=-1254043318 (x=116 y=643) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+solution is suitable for both offline and online analysis (with a slight delay—depending on the time window in 
+page=11 block=-1254043318 (x=116 y=653) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+which the analysis is performed).
+page=11 block=-1254043318 (x=116 y=663) width=120.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+In the case of offline analysis, it is possible to replace the simple activity detection model with a more advanced 
+page=11 block=-1254043318 (x=128 y=673) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+one (e.g. neural networks operating on raw data) in order to improve accuracy (it is worth noting that the accu-
+page=11 block=-1254043318 (x=116 y=683) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+racy of the created model is high too—with over 90% True Positive and True Negative rates). It is also possible 
+page=11 block=-1254043318 (x=116 y=693) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+to potentially improve the accuracy of the model using more comprehensive feature selection procedure (e.g., by 
+page=11 block=-1254043318 (x=116 y=703) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 12 left:1 upper:1
+www.nature.com/scientificreports/
+page=12 block=387973126 (x=37 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=12 block=324931208 (x=37 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=12 block=-2127360376 (x=225 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+12
+page=12 block=284167816 (x=542 y=744) width=8.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+Vol:.(1234567890)
+page=12 block=3804888 (x=1 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=2
+Figure 6.  Filtering of unreliable proximity estimation results based on base metrics: (a) activity metric; (b) RSSI 
+page=12 block=-310369856 (x=152 y=576) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+metric.
+page=12 block=-310369856 (x=152 y=586) width=25.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=20
+using other filter-based methods: e.g., based on information gain and gini decrease measures, as well as wrapper-
+page=12 block=-310319216 (x=152 y=624) width=398.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+based and embedded-based methods).
+page=12 block=-310319216 (x=152 y=634) width=139.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The created system is flexible and can be customized: by choosing different values of the base in the softmax 
+page=12 block=-310319216 (x=164 y=644) width=388.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+function, different values of the time window length, and values of the importance coefficient of the activity 
+page=12 block=-310319216 (x=152 y=654) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+metric ( ? in Eq. 8) and threshold. Values of importance coefficients (? and ? in Eq. 8) can be determined via 
+page=12 block=-310319216 (x=152 y=664) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+simple optimization process, in which we aim to find such a value of one of the coefficients that allows us to 
+page=12 block=-310319216 (x=152 y=674) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+obtain the maximum value of correlation between the reliability_metric and the labels representing the occur-
+page=12 block=-310319216 (x=152 y=684) width=398.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+rence of a movement (we labelled our data manually based on the course of the experiment, see Fig. 5). We do 
+page=12 block=-310319216 (x=152 y=694) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+not claim that this is the best approach, because one can also choose equal values of the coefficients to consider 
+page=12 block=-310319216 (x=152 y=704) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+with equal power the results obtained through both primary metrics for simplicity. Such a solution draws fully 
+page=12 block=-310319216 (x=152 y=714) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 13 left:1 upper:1
+www.nature.com/scientificreports/
+page=13 block=10485766 (x=1 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=13 block=8785544 (x=1 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=13 block=1820790408 (x=189 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+13
+page=13 block=265293448 (x=506 y=744) width=8.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+Vol.:(0123456789)
+page=13 block=1870139096 (x=492 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=16
+Figure 7.  Filtering of unreliable proximity estimation results based on reliability metric over time.
+page=13 block=-1641806096 (x=116 y=296) width=349.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+from the advantages of both methods, but suffers just as much from their disadvantages as well (metric based 
+page=13 block=-1253967200 (x=116 y=336) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+on the ML algorithm prediction may potentially not detect a very steady walking, and RSSI-based metric can 
+page=13 block=-1253967200 (x=116 y=346) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+sometimes give poor predictions due to the susceptibility of the BLE signal to noise). Moreover, the decision 
+page=13 block=-1253967200 (x=116 y=356) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+regarding the importance (thus the coefficients’ values) of both basic metrics should be made by the creator of 
+page=13 block=-1253967200 (x=116 y=366) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the real-world system powered by the proposed solution (such a person is best able to determine what kind of 
+page=13 block=-1253967200 (x=116 y=376) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+prediction quality is offered by e.g. the applied machine learning algorithm for activity prediction - because, 
+page=13 block=-1253967200 (x=116 y=386) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of course, other algorithms than those presented in the article can be applied here, as long as they give analo-
+page=13 block=-1253967200 (x=116 y=396) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+gous binary information on activity as an output). It is also possible to use only one of the base metrics tested 
+page=13 block=-1253967200 (x=116 y=406) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(activity-based or RSSI-based) or to take only one of these metrics into account when creating a joint metric (to 
+page=13 block=-1253967200 (x=116 y=416) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+take only the activity prediction into account, set the importance to 1, and to take only the RSSI-based metric 
+page=13 block=-1253967200 (x=116 y=426) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+into account, set it to 0).
+page=13 block=-1253967200 (x=116 y=436) width=87.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+When a metric based only on RSSI is used for movement detection then there is no need to use IMU data and 
+page=13 block=-1253967200 (x=128 y=446) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Machine Learning model and an even more computationally and memory efficient solution can be achieved (a 
+page=13 block=-1253967200 (x=116 y=456) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+mild trade-off between accuracy and efficiency, as the results for RSSI metric are also acceptable). Additionally, 
+page=13 block=-1253967200 (x=116 y=466) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the great majority of operations can be conducted directly on smartphones (e.g. prediction of activity results 
+page=13 block=-1253967200 (x=116 y=476) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and primary average value calculation), allowing partial distributed computing.
+page=13 block=-1253967200 (x=116 y=486) width=287.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+We used a relatively simple setup for our experiments (representing a simple exhibition space with stands). 
+page=13 block=-1253967200 (x=128 y=496) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The configuration is basic due to the limited possibilities to perform measurements in the real environment dur-
+page=13 block=-1253967200 (x=116 y=506) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ing the Covid pandemic. Nevertheless, it can represent (at least to some extent) a typical room in an art gallery 
+page=13 block=-1253967200 (x=116 y=516) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+with a limited number of art pieces. Moreover, the scale of such a room is quite large, as the distance between 
+page=13 block=-1253967200 (x=116 y=526) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the farthest anchors is over 11m. The approach can be extended to be used in larger environments. The measure-
+page=13 block=-1253967200 (x=116 y=536) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ments from embedded sensors during movements are independent of the external environment. However, the 
+page=13 block=-1253967200 (x=116 y=546) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+possibility of reception of RSSI frames from individual stands is limited by the distance from these stands. In the 
+page=13 block=-1253967200 (x=116 y=556) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+case of more complex configurations (and much larger environments), the receiver can only receive ADV frames 
+page=13 block=-1253967200 (x=116 y=566) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+from the closest stands. In this case, the average values of RSSI form stands, from which ADV frames cannot be 
+page=13 block=-1253967200 (x=116 y=576) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+received can be replaced with some very large value of RSSI (to point out that this value is actually NaN). Alter-
+page=13 block=-1253967200 (x=116 y=586) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+natively, the analysis can be performed only in the context of a segment (fragment) of the analyzed environment.
+page=13 block=-1253967200 (x=116 y=596) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Another limitation is that (as already mentioned in “Data gathering”) in the case of smartphones, the ADV 
+page=13 block=-1253967200 (x=128 y=606) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+frame sending frequency is usually controlled by the operating system (it happens e.g. in iPhones). When the 
+page=13 block=-1253967200 (x=116 y=616) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+foreground mode of measuring application is used, a high frequency of ADV frames can be achieved, however 
+page=13 block=-1253967200 (x=116 y=626) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+in the background mode, some unexpected behaviours can occur. It is important to check how BLE works on 
+page=13 block=-1253967200 (x=116 y=636) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the hardware platforms used in potential solutions. Of course, it is possible to obtain more control over the BLE 
+page=13 block=-1253967200 (x=116 y=646) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+operation, however it requires using dedicated BLE beacons instead of smartphones, which introduces additional 
+page=13 block=-1253967200 (x=116 y=656) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+costs and decreases practicality of a solution. However, the use of dedicated BLE beacons makes a lot of sense 
+page=13 block=-1253967200 (x=116 y=666) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+for fixed BLE beacon positions over long periods of time (e.g. in art galleries/ museums).
+page=13 block=-1253967200 (x=116 y=676) width=319.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Moving people, crowded spaces and interference from other devices using the same radio frequencies impact 
+page=13 block=-1253967200 (x=128 y=686) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the propagation of signal. It significantly limits the applicability of BLE solutions in general, however it is more 
+page=13 block=-1253967200 (x=116 y=696) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+prominent for distance estimation and localization and decreases the precision of these services. These factors 
+page=13 block=-1253967200 (x=116 y=706) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+have less impact on our solution because our goal is not to determine the exact location or distance estimation, 
+page=13 block=-1253967200 (x=116 y=716) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 14 left:1 upper:1
+www.nature.com/scientificreports/
+page=14 block=387973126 (x=37 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=14 block=324931208 (x=37 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=14 block=-2127360376 (x=225 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+14
+page=14 block=284167816 (x=542 y=744) width=8.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+Vol:.(1234567890)
+page=14 block=3804888 (x=1 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=2
+but to determine the closest static point and filter out predictions for people moving between stands. Also, walk-
+page=14 block=-310371080 (x=152 y=36) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ing or movement can affect the RSSI readings. Therefore, our motion filtering solution can be used to filter out 
+page=14 block=-310371080 (x=152 y=46) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the results for distance estimation or localization (RSSI data can be aggregated only over a time window when 
+page=14 block=-310371080 (x=152 y=56) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the object remains in the same location—no movement is observed). The impact of disturbances on moving 
+page=14 block=-310371080 (x=152 y=66) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+objects leads to a loss of precision, which further motivates to effectively discriminate between people who are 
+page=14 block=-310371080 (x=152 y=76) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+moving and not. In addition, our system employs a kind of mitigation of the consequences associated with RSSI 
+page=14 block=-310371080 (x=152 y=86) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+variability. It is the reason why we assign larger weights to closer static points for determining the RSSI-based 
+page=14 block=-310371080 (x=152 y=96) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+activity metric. The signal at shorter distances is stronger, and there is less likelihood of excessive interference, 
+page=14 block=-310371080 (x=152 y=106) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+since there is a smaller field between the dynamic and static object where potential interference can be introduced 
+page=14 block=-310371080 (x=152 y=116) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+(e.g., by passing people).
+page=14 block=-310371080 (x=152 y=126) width=88.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The method presented in this article can be successfully used to filter out unreliable proximity detection results 
+page=14 block=-310371080 (x=164 y=136) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+due to movement of the person for whom the proximity is detected. It is especially useful for the initial detection 
+page=14 block=-310371080 (x=152 y=146) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of the closest point (or with a slight extension—the closest points) due to its computational efficiency. To use it 
+page=14 block=-310371080 (x=152 y=156) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+in practical applications, other methods can be added (e.g. ML-based proximity or distance estimation models) 
+page=14 block=-310371080 (x=152 y=166) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+to further ensure that the positive proximity detection is not a false positive (it is truly a point of interest). In our 
+page=14 block=-310371080 (x=152 y=176) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+future work, we will develop methods to increase the precision of proximity detection so that the solution is even 
+page=14 block=-310371080 (x=152 y=186) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+more resistant to false detection of proximity. Here, we will consider, for example, filtering situations in which 
+page=14 block=-310371080 (x=152 y=196) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the person is standing in the middle of the room. For that purpose, we will build different experimental setups 
+page=14 block=-310371080 (x=152 y=206) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and design appropriate experiments reflecting as much possible situations as possible. We will also perform the 
+page=14 block=-310371080 (x=152 y=216) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+experiments with more people. We also aim to create ML proximity detection and distance estimation models 
+page=14 block=-310371080 (x=152 y=226) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and incorporate them into our solution in the future.
+page=14 block=-310371080 (x=152 y=236) width=191.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Conclusions
+page=14 block=557844231 (x=152 y=257) width=56.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=23
+In this work we have presented the solution that can be used for cost-effective proximity detection and filter-
+page=14 block=-310301848 (x=152 y=268) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+ing of unreliable results. For that purpose we designed a system that utilizes BLE RSSI readings broadcasted by 
+page=14 block=-310301848 (x=152 y=278) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+static points and IMU readings. As none of the benchmark datasets available online meets all of the necessary 
+page=14 block=-310301848 (x=152 y=288) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+requirements (availability of static and dynamic activities, dependence of IMU readings on BLE frames arrivals, 
+page=14 block=-310301848 (x=152 y=298) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+availability of raw sensory data), we gather all necessary data with a dedicated application. We use smartphones 
+page=14 block=-310301848 (x=152 y=308) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+as senders and receivers of BLE frames and for gathering of sensor data (we use an embedded IMU to obtain 
+page=14 block=-310301848 (x=152 y=318) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+readings from accelerometer, gyroscope and magnetometer). We have crafted three metrics that can be used 
+page=14 block=-310301848 (x=152 y=328) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+for movement detection and filtering unreliable proximity detection results. We have created two base metrics: 
+page=14 block=-310301848 (x=152 y=338) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the first one based on RSSI readings (external world information) and the second one based on the predictions 
+page=14 block=-310301848 (x=152 y=348) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of created Activity Recognition Machine Learning model based on Gradient Boosted Decision Trees (internal 
+page=14 block=-310301848 (x=152 y=358) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+object information). To create the efficient model, we have used one of the filter-based feature selection tech-
+page=14 block=-310301848 (x=152 y=368) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+niques and tested three ML models: Decision Tree and two ensemble models: Gradient Boosted Decision Trees 
+page=14 block=-310301848 (x=152 y=378) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and Random Forest. Using the base metrics, we have created a third metric—joint metric that combines the 
+page=14 block=-310301848 (x=152 y=388) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+results of these two metrics.
+page=14 block=-310301848 (x=152 y=398) width=100.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+It was shown that all of the proposed metrics can be used to assess the reliability of the proximity detection. It 
+page=14 block=-310301848 (x=164 y=408) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+was proven that even without using the readings from smartphone IMU we can efficiently detect the movement 
+page=14 block=-310301848 (x=152 y=418) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+and filter unreliable predictions (based only on RSSI readings). On the other hand, when we incorporate analysis 
+page=14 block=-310301848 (x=152 y=428) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+of readings from IMU we can get very accurate movement detection and improve accuracy of our system. This 
+page=14 block=-310301848 (x=152 y=438) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+way, we rely on both: changes in RSSI (an external information) and IMU sensors (an internal information).
+page=14 block=-310301848 (x=152 y=448) width=389.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+The proposed system is flexible and can be easily customized by changing the values of the parameters used. 
+page=14 block=-310301848 (x=164 y=458) width=388.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Depending on the information at hand, reliability assessment can be based on the strength of the BLE signal or 
+page=14 block=-310301848 (x=152 y=468) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the readings from the IMU (or both of them). The created metrics do not require expensive calculations, thus 
+page=14 block=-310301848 (x=152 y=478) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+can be used even in nearly real-time applications. Moreover, the great majority of operations can be conducted 
+page=14 block=-310301848 (x=152 y=488) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+directly on smartphones, allowing for partial distributed computing. Additionally, the metrics are easy to inter-
+page=14 block=-310301848 (x=152 y=498) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+pret, even for a non-technical operators. Using smartphones (which are usually embedded with BLE and IMU 
+page=14 block=-310301848 (x=152 y=508) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+modules and provide ML engines) to conduct the experiments results in potentially easy implementation, cost-
+page=14 block=-310301848 (x=152 y=518) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+efficiency and deployment of the solution in real-life applications in the areas of MICE industry, museums, art 
+page=14 block=-310301848 (x=152 y=528) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+galleries and even industry. On the other hand, replacing smartphones with dedicated BLE devices may further 
+page=14 block=-310301848 (x=152 y=538) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+improve accuracy of the solution (as these devices allow advanced calibration and control over sending frames).
+page=14 block=-310301848 (x=152 y=548) width=398.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Received: 24 November 2021; Accepted: 20 January 2022
+page=14 block=1972374864 (x=152 y=568) width=198.000000 height=6.000000 fontname=VUYSEY+TimesNewRomanPSMT wordint.min=2 wordint.max=4
+References
+page=14 block=527962216 (x=152 y=600) width=53.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=23
+  1.  Meng, X., Wang, H. & Liu, B. A robust vehicle localization approach based on gnss/imu/dmi/lidar sensor fusion for autonomous 
+page=14 block=-310318618 (x=152 y=611) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+vehicles. Sensors 17, 2140 (2017).
+page=14 block=-310318618 (x=165 y=619) width=100.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+  2.  Fard, H. K., Chen, Y. & Son, K. K. Indoor positioning of mobile devices with agile ibeacon deployment. In 2015 IEEE 28th Canadian 
+page=14 block=-310318618 (x=152 y=628) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+conference on electrical and computer engineering (CCECE) 275–279 (IEEE, 2015).
+page=14 block=-310318618 (x=165 y=636) width=246.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+  3.  Xiao, C., Yang, D., Chen, Z. & Tan, G. 3-d ble indoor localization based on denoising autoencoder. IEEE Access 5, 12751–12760 
+page=14 block=-310318618 (x=152 y=645) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+(2017).
+page=14 block=-310318618 (x=165 y=653) width=22.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=17
+  4.  Alarifi, A. et al. Ultra wideband indoor positioning technologies: Analysis and recent advances. Sensors 16, 707 (2016).
+page=14 block=-310318618 (x=152 y=662) width=370.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+  5.  Poulose, A. & Han, D. S. Uwb indoor localization using deep learning lstm networks. Appl. Sci. 10, 6290 (2020).
+page=14 block=-310318618 (x=152 y=670) width=348.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+  6.  Uradzinski, M., Guo, H., Liu, X. & Yu, M. Advanced indoor positioning using zigbee wireless technology. Wirel. Pers. Commun. 
+page=14 block=-310318618 (x=152 y=679) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+97, 6509–6518 (2017).
+page=14 block=-310318618 (x=165 y=687) width=68.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+  7.  Bianchi, V., Ciampolini, P. & De Munari, I. Rssi-based indoor localization and identification for zigbee wireless sensor networks 
+page=14 block=-310318618 (x=152 y=696) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+in smart homes. IEEE Trans. Instrum. Meas. 68, 566–575 (2018).
+page=14 block=-310318618 (x=165 y=704) width=194.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Page: 15 left:1 upper:1
+www.nature.com/scientificreports/
+page=15 block=10485766 (x=1 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=15 block=8785544 (x=1 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=15 block=1820790408 (x=189 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+15
+page=15 block=265293448 (x=506 y=744) width=8.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+Vol.:(0123456789)
+page=15 block=1870139096 (x=492 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=16
+  8.  Luo, R. C. & Hsiao, T.-J. Indoor localization system based on hybrid wi-fi/ble and hierarchical topological fingerprinting approach. 
+page=15 block=-1254096716 (x=116 y=36) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+IEEE Trans. Veh. Technol. 68, 10791–10806 (2019).
+page=15 block=1293484212 (x=129 y=45) width=153.000000 height=4.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+  9.  Sadowski, S. & Spachos, P. Rssi-based indoor localization with the internet of things. IEEE Access 6, 30149–30161 (2018).
+page=15 block=-1254064672 (x=116 y=53) width=377.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 10.  Gentner, C., Günther, D. & Kindt, P. H. Identifying the ble advertising channel for reliable distance estimation on smartphones. 
+page=15 block=-1254064672 (x=116 y=62) width=400.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+arXiv preprint arXiv:2006.09099 (2020).
+page=15 block=-1254064672 (x=129 y=70) width=120.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 11.  Hou, X., Arslan, T. & Gu, J. Indoor localization for bluetooth low energy using wavelet and smoothing filter. In 2017 International 
+page=15 block=-1254064672 (x=116 y=79) width=400.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Conference on Localization and GNSS (ICL-GNSS) 1–6 (IEEE, 2017).
+page=15 block=-1254064672 (x=129 y=87) width=206.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 12.  Thaljaoui, A., Val, T., Nasri, N. & Brulin, D. Ble localization using rssi measurements and iringla. In 2015 IEEE international 
+page=15 block=-1254064672 (x=116 y=96) width=400.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+conference on industrial technology (ICIT) 2178–2183 (IEEE, 2015).
+page=15 block=-1254064672 (x=129 y=104) width=202.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 13.  Roberts, C. M. Radio frequency identification (rfid). Comput. Secur. 25, 18–26 (2006).
+page=15 block=-1254064672 (x=116 y=113) width=271.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 14.  Ijaz, F., Yang, H. K., Ahmad, A. W. & Lee, C. Indoor positioning: A review of indoor ultrasonic positioning systems. In 2013 15th 
+page=15 block=-1254064672 (x=116 y=121) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+International Conference on Advanced Communications Technology (ICACT) 1146–1150 (IEEE, 2013).
+page=15 block=-1254064672 (x=129 y=130) width=306.000000 height=4.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 15.  Barai, S., Biswas, D. & Sau, B. Estimate distance measurement using nodemcu esp8266 based on rssi technique. In 2017 IEEE 
+page=15 block=-1254064672 (x=116 y=138) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Conference on Antenna Measurements & Applications (CAMA) 170–173 (IEEE, 2017).
+page=15 block=-1254064672 (x=129 y=147) width=257.000000 height=4.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 16.  Chowdhury, T. et al. A multi-step approach for rssi-based distance estimation using smartphones. In 2015 International Conference 
+page=15 block=-1254064672 (x=116 y=155) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+on Networking Systems and Security (NSysS) 1–5 (IEEE, 2015).
+page=15 block=-1254064672 (x=129 y=164) width=187.000000 height=4.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 17.  Kim Geok, T. et al. Review of indoor positioning: Radio wave technology. Appl. Sci. 11, 279 (2021).
+page=15 block=-1254064672 (x=116 y=172) width=310.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 18.  Jamil, H., Qayyum, F., Jamil, F. & Kim, D.-H. Enhanced pdr-ble compensation mechanism based on hmm and awcla for improving 
+page=15 block=-1254064672 (x=116 y=181) width=400.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+indoor localization. Sensors 21, 6972 (2021).
+page=15 block=-1254064672 (x=129 y=189) width=134.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 19.  Lee, K., Nam, Y. & Min, S. D. An indoor localization solution using bluetooth rssi and multiple sensors on a smartphone. Multim. 
+page=15 block=-1254064672 (x=116 y=198) width=400.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Tools Appl. 77, 12635–12654 (2018).
+page=15 block=-1254064672 (x=129 y=206) width=109.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 20.  Jeon, J.-s., Kong, Y., Nam, Y. & Yim, K. An indoor positioning system using bluetooth rssi with an accelerometer and a barometer 
+page=15 block=-1254064672 (x=116 y=215) width=400.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+on a smartphone. In 2015 10th International Conference on Broadband and Wireless Computing, Communication and Applications 
+page=15 block=-1254064672 (x=129 y=223) width=387.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+(BWCCA) 528–531 (IEEE, 2015).
+page=15 block=-1254064672 (x=129 y=232) width=101.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 21.  Jondhale, S. R. & Deshpande, R. S. Grnn and kf framework based real time target tracking using psoc ble and smartphone. Ad Hoc 
+page=15 block=-1254064672 (x=116 y=240) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Netw. 84, 19–28 (2019).
+page=15 block=-1254064672 (x=129 y=249) width=72.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 22.  Martella, C., Miraglia, A., Frost, J., Cattani, M. & van Steen, M. Visualizing, clustering, and predicting the behavior of museum 
+page=15 block=-1254064672 (x=116 y=257) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+visitors. Pervasive Mob. Comput. 38, 430–443 (2017).
+page=15 block=-1254064672 (x=129 y=266) width=159.000000 height=4.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 23.  Barsocchi, P., Girolami, M. & La Rosa, D. Detecting proximity with bluetooth low energy beacons for cultural heritage. Sensors 
+page=15 block=-1254064672 (x=116 y=274) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+21, 7089 (2021).
+page=15 block=-1254064672 (x=130 y=282) width=48.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 24.  Centorrino, P., Corbetta, A., Cristiani, E. & Onofri, E. Managing crowded museums: Visitors flow measurement, analysis, modeling, 
+page=15 block=-1254064672 (x=116 y=291) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+and optimization. J. Comput. Sci. 53, 101357 (2021).
+page=15 block=-1254064672 (x=130 y=299) width=156.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 25.  Kose, M., Incel, O. D. & Ersoy, C. Online human activity recognition on smart phones. In Workshop on mobile sensing: From 
+page=15 block=-1254064672 (x=116 y=308) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+smartphones and wearables to big data 16, 11–15 (2012).
+page=15 block=-1254064672 (x=130 y=316) width=168.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 26.  Hassan, M. M., Uddin, M. Z., Mohamed, A. & Almogren, A. A robust human activity recognition system using smartphone sensors 
+page=15 block=-1254064672 (x=116 y=325) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+and deep learning. Future Gener. Comput. Syst. 81, 307–313 (2018).
+page=15 block=-1254064672 (x=130 y=333) width=202.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 27.  Murad, A. & Pyun, J.-Y. Deep recurrent neural networks for human activity recognition. Sensors 17, 2556 (2017).
+page=15 block=-1254064672 (x=116 y=342) width=353.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 28.  Ignatov, A. Real-time human activity recognition from accelerometer data using convolutional neural networks. Appl. Soft Comput. 
+page=15 block=-1254064672 (x=116 y=350) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+62, 915–922 (2018).
+page=15 block=-1254064672 (x=130 y=359) width=59.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 29.  Anguita, D. et al. A public domain dataset for human activity recognition using smartphones. Esann 3, 3 (2013).
+page=15 block=-1254064672 (x=116 y=367) width=350.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 30.  Zhang, M. & Sawchuk, A. A. Usc-had: a daily activity dataset for ubiquitous activity recognition using wearable sensors. In Pro-
+page=15 block=-1254064672 (x=116 y=376) width=398.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ceedings of the 2012 ACM conference on ubiquitous computing 1036–1043 (2012).
+page=15 block=-1254064672 (x=130 y=384) width=241.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 31.  Chavarriaga, R. et al. The opportunity challenge: A benchmark database for on-body sensor-based activity recognition. Pattern 
+page=15 block=-1254064672 (x=116 y=393) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Recognit. Lett. 34, 2033–2042 (2013).
+page=15 block=-1254064672 (x=130 y=401) width=111.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 32.  PACT Datasets and Evaluation. https://mitll.github.io/PACT/datasets.html [Accessed: 2021-11-15].
+page=15 block=-1254064672 (x=116 y=410) width=312.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 33.  Matsui, S., Inoue, N., Akagi, Y., Nagino, G. & Shinoda, K. User adaptation of convolutional neural network for human activity 
+page=15 block=-1254064672 (x=116 y=418) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+recognition. In 2017 25th European Signal Processing Conference (EUSIPCO) 753–757 (IEEE, 2017).
+page=15 block=-1254064672 (x=130 y=427) width=298.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 34.  De Leonardis, G. et al. Human activity recognition by wearable sensors: Comparison of different classifiers for real-time applica-
+page=15 block=-1254064672 (x=116 y=435) width=398.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+tions. In 2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA) 1–6 (IEEE, 2018).
+page=15 block=-1254064672 (x=130 y=444) width=350.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 35.  Rosati, S., Balestra, G. & Knaflitz, M. Comparison of different sets of features for human activity recognition by wearable sensors. 
+page=15 block=-1254064672 (x=116 y=452) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Sensors 18, 4189 (2018).
+page=15 block=-1254064672 (x=130 y=461) width=72.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 36.  Vijayvargiya, A., Kumari, N., Gupta, P. & Kumar, R. Implementation of machine learning algorithms for human activity recogni-
+page=15 block=-1254064672 (x=116 y=469) width=398.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+tion. In 2021 3rd International Conference on Signal Processing and Communication (ICPSC) 440–444 (IEEE, 2021).
+page=15 block=-1254064672 (x=130 y=478) width=345.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 37.  Guyon, I. & Elisseeff, A. An introduction to feature extraction. In Feature extraction 1–25 (Springer, 2006).
+page=15 block=-1254064672 (x=116 y=486) width=333.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 38.  Puth, M.-T., Neuhäuser, M. & Ruxton, G. D. Effective use of spearman’s and Kendall’s correlation coefficients for association 
+page=15 block=-1254064672 (x=116 y=495) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+between two measured traits. Anim. Behav. 102, 77–84 (2015).
+page=15 block=-1254064672 (x=130 y=503) width=187.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 39.  Bressan, M., Rosseel, Y. & Lombardi, L. The effect of faking on the correlation between two ordinal variables: Some population 
+page=15 block=-1254064672 (x=116 y=512) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+and Monte Carlo results. Front. Psychol. 9, 1876 (2018).
+page=15 block=-1254064672 (x=130 y=520) width=165.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 40.  Friedman, J. H. The Elements of Statistical Learning: Data Mining, Inference, and Prediction (Springer Open, 2017).
+page=15 block=-1254064672 (x=116 y=529) width=356.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 41.  Ambati, L. S. & El-Gayar, O. Human activity recognition: A comparison of machine learning approaches. J. Midwest Assoc. Inf. 
+page=15 block=-1254064672 (x=116 y=537) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Syst. 2021, 49 (2019).
+page=15 block=-1254064672 (x=130 y=546) width=63.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 42.  Ketu, S. & Mishra, P. K. Performance analysis of machine learning algorithms for iot-based human activity recognition. In Advances 
+page=15 block=-1254064672 (x=116 y=554) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+in Electrical and Computer Technologies 579–591 (Springer, 2020).
+page=15 block=-1254064672 (x=130 y=563) width=197.000000 height=5.000000 fontname=MinionPro-It wordint.min=1 wordint.max=3
+ 43.  Krauss, C., Do, X. A. & Huck, N. Deep neural networks, gradient-boosted trees, random forests: Statistical arbitrage on the s&p 
+page=15 block=-1254064672 (x=116 y=571) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+500. Eur. J. Oper. Res. 259, 689–702 (2017).
+page=15 block=-1254064672 (x=130 y=580) width=128.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 44.  Wong, A. W., Sun, W., Kalmady, S. V., Kaul, P. & Hindle, A. Multilabel 12-lead electrocardiogram classification using gradient 
+page=15 block=-1254064672 (x=116 y=588) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+boosting tree ensemble. In 2020 Computing in Cardiology 1–4 (IEEE, 2020).
+page=15 block=-1254064672 (x=130 y=597) width=227.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 45.  Neuwirth, C. et al. Classification of alpine skiing styles using gnss and inertial measurement units. Sensors 20, 4232 (2020).
+page=15 block=-1254064672 (x=116 y=605) width=382.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 46.  Al-Frady, L. & Al-Taei, A. Wrapper filter approach for accelerometer-based human activity recognition. Pattern Recognit. Image 
+page=15 block=-1254064672 (x=116 y=614) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Anal. 30, 757–764 (2020).
+page=15 block=-1254064672 (x=130 y=622) width=77.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 47.  Accessory Design Guidelines for Apple Devices, Release R15. https://developer.apple.com/accessories/Accessory-Design-Guide 
+page=15 block=-1254064672 (x=116 y=631) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+lines.pdf [Accessed: 2021-12-15].
+page=15 block=-1254064672 (x=130 y=639) width=100.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+ 48.  Using the correct Bluetooth LE Advertising and Connection Parameters for a stable connection. Technical Q&A QA1931. https:// 
+page=15 block=-1254064672 (x=116 y=648) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+developer.apple.com/library/archive/qa/qa1931/_index.html [Accessed: 2021-12-15].
+page=15 block=-1254064672 (x=130 y=656) width=256.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=1 wordint.max=3
+Acknowledgements
+page=15 block=722211445 (x=116 y=675) width=95.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=23
+Grant agreement no 12/2021, under POIR 1.3 R&D works financed with capital funds, subaction 1.3.1 “Support 
+page=15 block=-1254086606 (x=116 y=686) width=400.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+for research projects in the preseed proof-of-concept phase—BRIdge Alfa.
+page=15 block=-1254086606 (x=116 y=696) width=267.000000 height=5.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 16 left:1 upper:1
+www.nature.com/scientificreports/
+page=16 block=387973126 (x=37 y=1) width=160.000000 height=6.000000 fontname=Corbel2 wordint.min=1 wordint.max=21
+Scientific Reports |         (2022) 12:2440  | 
+page=16 block=324931208 (x=37 y=744) width=134.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=3
+https://doi.org/10.1038/s41598-022-06201-y
+page=16 block=-2127360376 (x=225 y=744) width=147.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+16
+page=16 block=284167816 (x=542 y=744) width=8.000000 height=5.000000 fontname=UAKSVA+Corbel wordint.min=1 wordint.max=16
+Vol:.(1234567890)
+page=16 block=3804888 (x=1 y=760) width=58.000000 height=5.000000 fontname=Corbel2 wordint.min=1 wordint.max=2
+Author contributions
+page=16 block=996147459 (x=152 y=37) width=100.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=2 wordint.max=4
+K.F., S.N. and Jo.D. wrote the main manuscript text. K.F. prepared the necessary software implementations and 
+page=16 block=-310376768 (x=152 y=48) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+figures. Conceptualization was carried out by S.N., K.F., Jo.D. and Ja.D.. Methodology was prepared by S.N., K.F., 
+page=16 block=-310376768 (x=152 y=58) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Jo.D.. Project administration—Ja.D.,. All authors reviewed the manuscript. All authors have read and agreed to 
+page=16 block=-310376768 (x=152 y=68) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the published version of the manuscript.
+page=16 block=-310376768 (x=152 y=78) width=146.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Competing interests 
+page=16 block=986186414 (x=152 y=98) width=99.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=1 wordint.max=3
+The authors declare no competing interests.
+page=16 block=1563951758 (x=152 y=109) width=157.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Additional information
+page=16 block=1085801344 (x=152 y=128) width=109.000000 height=7.000000 fontname=JXWZXW+Corbel-Bold wordint.min=2 wordint.max=4
+Correspondence and requests for materials should be addressed to K.F.
+page=16 block=-1734868158 (x=152 y=139) width=257.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Reprints and permissions information is available at www.nature.com/reprints.
+page=16 block=-1406139492 (x=152 y=154) width=290.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Publisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+page=16 block=-310375792 (x=152 y=169) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+institutional affiliations.
+page=16 block=-310375792 (x=152 y=179) width=85.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+page=16 block=-310363752 (x=198 y=194) width=354.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+page=16 block=-310363752 (x=198 y=204) width=354.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the 
+page=16 block=-310363752 (x=152 y=214) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this 
+page=16 block=-310363752 (x=152 y=224) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+page=16 block=-310363752 (x=152 y=234) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+page=16 block=-310363752 (x=152 y=244) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from 
+page=16 block=-310363752 (x=152 y=254) width=400.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+page=16 block=-310363752 (x=152 y=264) width=363.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+© The Author(s) 2022, corrected publication 2022
+page=16 block=1783105192 (x=152 y=284) width=179.000000 height=6.000000 fontname=MinionPro-Regular wordint.min=2 wordint.max=4
+Page: 17 left:1 upper:1
+© The Author(s) 2022. corrected publication 2022. This work is published
+page=17 block=33882195 (x=1 y=1) width=517.000000 height=11.000000 fontname=ArialMT wordint.min=4 wordint.max=6
+under http://creativecommons.org/licenses/by/4.0/(the “License”).
+page=17 block=33882195 (x=29 y=25) width=461.000000 height=11.000000 fontname=ArialMT wordint.min=4 wordint.max=6
+Notwithstanding the ProQuest Terms and Conditions, you may use this
+page=17 block=33882195 (x=8 y=49) width=503.000000 height=11.000000 fontname=ArialMT wordint.min=4 wordint.max=6
+content in accordance with the terms of the License.
+page=17 block=33882195 (x=75 y=73) width=369.000000 height=11.000000 fontname=ArialMT wordint.min=4 wordint.max=6

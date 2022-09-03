@@ -1,0 +1,1515 @@
+Page: 1 left:1 upper:1
+Size Effect on FRP External Reinforcement and Retrofit
+page=1 block=946884592 (x=30 y=1) width=470 height=11 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=7
+of Concrete Structures
+page=1 block=946884592 (x=168 y=22) width=194 height=11 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=7
+Abdullah Dönmez, Ph.D.1; Mohammad Rasoolinejad, Ph.D.2; and
+page=1 block=380494131 (x=106 y=50) width=318 height=9 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+Zdene?k P. Baz?ant, Ph.D., S.E., Hon.M.ASCE3
+page=1 block=380494131 (x=153 y=64) width=224 height=9 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+Abstract: The size effect on the strength of reinforced concrete (RC) beams ?exurally strengthened by surface bonded sheets of ?ber-reinforced
+page=1 block=1315038402 (x=1 y=105) width=528 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+polymer (FRP) is studied. As the failure is neither ductile nor brittle, but quasibrittle, occurring after stable growth of large cracks with large dam-
+page=1 block=1315038402 (x=1 y=118) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+age zones, the transitional size effect governed by the energetic size effect law (SEL) must be expected, which the present analysis con?rms.
+page=1 block=1315038402 (x=1 y=130) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Owing to scarcity of size effect experimental data, ?nite element (FE) analysis is used. A powerful microplane damage constitutive model
+page=1 block=1315038402 (x=1 y=142) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+M7 for concrete, coupled with the crack band model to suppress spurious mesh sensitivity, is calibrated by ?tting the existing test data to
+page=1 block=1315038402 (x=1 y=154) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+FRP-strengthened RC specimens of diverse types, and consequently is trusted to simulate the size effect. The analysis captures the debonding
+page=1 block=1315038402 (x=1 y=166) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+near the concrete–FRP interface starting at midspan or at the end of the FRP sheet. It also captures the debonding between adjacent concrete
+page=1 block=1315038402 (x=1 y=178) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+shear cracks,and the delamination ofconcrete cover. The causesof these differentdelamination modes are explained.Simple beam-typeformulas,
+page=1 block=1315038402 (x=1 y=190) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+in which the size characteristic is not the beam depth but the length of the shear span, are proposed and validated by FE results. The use of single-
+page=1 block=1315038402 (x=1 y=202) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+lap shear tests to determine thebond strength is critically discussed. Finally, a good ?t of a few existing limited test data on the size effect ofFRP-
+page=1 block=1315038402 (x=1 y=214) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+strengthened specimens is demonstrated. DOI: 10.1061/(ASCE)CC.1943-5614.0001070. © 2020 American Society of Civil Engineers.
+page=1 block=1315038402 (x=1 y=226) width=502 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+© ASCE
+page=1 block=208301085 (x=1 y=682) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+04020056-1
+page=1 block=920632751 (x=244 y=682) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+J. Compos. Constr.
+page=1 block=1333945918 (x=461 y=682) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=1 block=235195640 (x=194 y=710) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Introduction
+page=1 block=1372668833 (x=1 y=258) width=57 height=5 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=21
+Fiber-reinforced polymer (FRP) sheets, serving as external (skin)
+page=1 block=438873841 (x=1 y=280) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+strengthening of concrete structures and as retro?t of structures
+page=1 block=438873841 (x=1 y=292) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+damaged, e.g., by earthquake, have been investigated for several
+page=1 block=438873841 (x=1 y=303) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+decades (Saadatmanesh and Ehsani 1991; Arduini and Nanni
+page=1 block=438873841 (x=1 y=314) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+1997). Increasing the ?exural capacity of reinforced concrete
+page=1 block=438873841 (x=1 y=326) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+(RC) beams or structural members with the FRP sheets is a com-
+page=1 block=438873841 (x=1 y=337) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+mon practice. However, the strength prediction of this type of com-
+page=1 block=438873841 (x=1 y=348) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+posite system is not as easy as thought in engineering practice.
+page=1 block=438873841 (x=1 y=359) width=241 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The performance of external reinforcement depends on many fac-
+page=1 block=438873841 (x=13 y=370) width=240 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+tors, such as the strength and stiffness of the concrete and FRP, inter-
+page=1 block=438873841 (x=1 y=382) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+face strength, geometrical characteristics, and the design details (ACI
+page=1 block=438873841 (x=1 y=393) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+440.2R-17; ACI 2017). The variationof the parametersaffects thegov-
+page=1 block=438873841 (x=1 y=404) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+erning failuremodes of FRP-strengthened RC members. The mainfail-
+page=1 block=438873841 (x=1 y=416) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ure modes of these structures are FRP debonding, FRP rupture,
+page=1 block=438873841 (x=1 y=427) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+concrete crushing at the compression face, and yielding of ?exural
+page=1 block=438873841 (x=1 y=438) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+reinforcement. Several failure modes may proceed simultaneously.
+page=1 block=438873841 (x=1 y=450) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Although, based on simulations, only one mechanism dominates the
+page=1 block=438873841 (x=1 y=461) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+deformation growth at the peak load, the load-bearing capacity of
+page=1 block=438873841 (x=1 y=472) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the structures depends on all the failure mechanisms.
+page=1 block=438873841 (x=1 y=483) width=201 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+1Postdoctoral Research Fellow, Dept. of Civil and Environmental Engi-
+page=1 block=1179093020 (x=13 y=519) width=240 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+neering,Northwestern Univ.,Evanston,IL 60208;Dept. ofCivil Engineering,
+page=1 block=1179093020 (x=1 y=531) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+I?stanbul Teknik Univ., Istanbul, 34469, Turkey. Email:donmezab@itu.edu.tr
+page=1 block=1179093020 (x=1 y=541) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+2Postdoctoral Research Fellow, Northwestern Institute on Complex
+page=1 block=1179093020 (x=13 y=549) width=240 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+Systems, Northwestern Univ., Evanston, IL 60208. ORCID: https://orcid
+page=1 block=1179093020 (x=1 y=561) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+.org/0000-0003-3387-3580. Email: rasoolinejad@u.northwestern.edu
+page=1 block=1179093020 (x=1 y=571) width=235 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+3McCormick Institute Professor and W.P. Murphy Professor of
+page=1 block=1179093020 (x=13 y=579) width=240 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+Civil and Mechanical Engineering and Materials Science, Northwestern
+page=1 block=1179093020 (x=1 y=591) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Univ., Evanston, IL 60208 (corresponding author). Email: z-bazant@
+page=1 block=1179093020 (x=1 y=601) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+northwestern.edu
+page=1 block=1179093020 (x=1 y=611) width=58 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Note. This manuscript was submitted on January 28, 2020; approved
+page=1 block=1179093020 (x=13 y=621) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+on June 2, 2020; published online on August 6, 2020. Discussion period
+page=1 block=1179093020 (x=1 y=631) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+open until January 6, 2021; separate discussions must be submitted for in-
+page=1 block=1179093020 (x=1 y=641) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+dividual papers. This paper is part of the Journal of Composites for Con-
+page=1 block=1179093020 (x=1 y=651) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+struction, © ASCE, ISSN 1090-0268.
+page=1 block=1179093020 (x=1 y=661) width=130 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+The breakage of the FRP–concrete bond, called debonding, is
+page=1 block=1846345504 (x=289 y=258) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the failure mode considered here to control the peak load (Pmax).
+page=1 block=1846345504 (x=277 y=270) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+There are several types of debonding failures, as elucidated by
+page=1 block=1846345504 (x=277 y=281) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+Maalej and Bian (2001), Brena et al. (2003), Chiew et al. (2007),
+page=1 block=1846345504 (x=277 y=292) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+and Attari et al. (2012). The failure de?nitions vary. Here the
+page=1 block=1846345504 (x=277 y=303) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+term “debonding” refers to all the different delamination types,
+page=1 block=1846345504 (x=277 y=314) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+shown in Fig. 1. They are the midspan debonding, intermediate-
+page=1 block=1846345504 (x=277 y=325) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+crack (IC) debonding, end-crack (EC) debonding, cover delamina-
+page=1 block=1846345504 (x=277 y=336) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+tion, and cover tooth delamination (Fig. 1). These debonding types
+page=1 block=1846345504 (x=277 y=348) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+differ in the initiation point of failure, the triggering effects, the
+page=1 block=1846345504 (x=277 y=359) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+amount of debris on the FRP surface after delamination, and the
+page=1 block=1846345504 (x=277 y=370) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+fracture growth mechanism. As the bond at the FRP–concrete inter-
+page=1 block=1846345504 (x=277 y=381) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+face is generally strong enough, the debonding crack occurs not at
+page=1 block=1846345504 (x=277 y=392) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the FRP surface but inside the concrete just next to that surface (un-
+page=1 block=1846345504 (x=277 y=403) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+less the FRP was installed improperly). Therefore, the strength of
+page=1 block=1846345504 (x=277 y=414) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+concrete substrate is important for the load capacity.
+page=1 block=1846345504 (x=277 y=426) width=200 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+If the failure mechanisms were ductile and the failure obeyed plas-
+page=1 block=1846345504 (x=289 y=437) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+tic limit analysis, the nominal strength ?N of geometrically similar
+page=1 block=1846345504 (x=277 y=448) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+structures, de?ned as the maximum load divided by any chosen ho-
+page=1 block=1846345504 (x=277 y=459) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+mologous cross-sectional area, would be independent of the structures
+page=1 block=1846345504 (x=277 y=470) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+size, D, which is called the case of no sizeeffect. If thefailureoccurred
+page=1 block=1846345504 (x=277 y=481) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+by brittle propagation of a sharp (point-wise) crack tip, then the size
+page=1 block=1846345504 (x=277 y=492) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+effect of linear elastic fracture mechanics (LEFMs), i.e., ?N ?D?1/2,
+page=1 block=1846345504 (x=277 y=500) width=252 height=10 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+would apply. However, because the failure mechanisms are between
+page=1 block=1846345504 (x=277 y=515) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ductile and brittle, i.e., quasibrittle, consisting of the growth of large
+page=1 block=1846345504 (x=277 y=526) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+damage zones, the size effect on ?N is a transition between the two
+page=1 block=1846345504 (x=277 y=537) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+special cases (Baz?ant 1984; Baz?ant and Planas 1998; Baz?ant 2002;
+page=1 block=1846345504 (x=277 y=548) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Dönmez and Baz?ant 2017). Therefore, the failure of the FRP–concrete
+page=1 block=1846345504 (x=277 y=559) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+interface should be calculated via quasibrittle fracture mechanics, and
+page=1 block=1846345504 (x=277 y=570) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+the size effect needs to be considered in design.
+page=1 block=1846345504 (x=277 y=581) width=175 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Beam-Type Formulation and Assumptions
+page=1 block=899376395 (x=277 y=616) width=200 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+Normally, RC beams should designed so that the load that causes
+page=1 block=1788545647 (x=277 y=638) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ductile failure by yielding of ?exural reinforcing bars would be
+page=1 block=1788545647 (x=277 y=650) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+smaller than the load that causes brittle failure of concrete. In that
+page=1 block=1788545647 (x=277 y=661) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Page: 2 left:1 upper:1
+Fig. 1. Description of the FRP reinforcement and failure modes.
+page=2 block=275150920 (x=148 y=130) width=234 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+04020056-2
+page=2 block=421163163 (x=244 y=512) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=2 block=2009591182 (x=194 y=540) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+(a)
+page=2 block=1161644395 (x=88 y=1) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(b)
+page=2 block=1723518396 (x=88 y=108) width=9 height=4 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+case, the size effect is avoided. However, it cannot be avoided when
+page=2 block=745465688 (x=1 y=158) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+the beam is externally strengthened by bonded FRP plates.
+page=2 block=745465688 (x=1 y=169) width=221 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+In the design guidelines, such as the ACI 440.2R-17 report (ACI
+page=2 block=745465688 (x=13 y=180) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+2017), the ultimate load capacity of an FRP-strengthened RC beam
+page=2 block=745465688 (x=1 y=191) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+under ?exure is calculated based on the assumption of rectangular
+page=2 block=745465688 (x=1 y=202) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+stress distribution with resulting compression Cc as shown in Fig. 1,
+page=2 block=745465688 (x=1 y=213) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+subject to various restrictions. Compressive force Cs due to compres-
+page=2 block=745465688 (x=1 y=224) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+sion reinforcement, if any, must be included. Crushing of concrete is
+page=2 block=745465688 (x=1 y=235) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+assumed to occur when the concrete reaches a limit strain, approxi-
+page=2 block=745465688 (x=1 y=246) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+mated as ?cu = 0.003. Ingeneral,concreteis assumed tohavenegligible
+page=2 block=745465688 (x=1 y=256) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+tensile resistance, and so only the tensile forces due to ?exural steel, Ts,
+page=2 block=745465688 (x=1 y=268) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+and the bonded FRP layer, Tf, are considered. The ?exure produces
+page=2 block=745465688 (x=1 y=279) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+tension in the bonded FRP sheet. The ultimate bending moment is
+page=2 block=745465688 (x=1 y=290) width=242 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Md = Ms + Mf
+page=2 block=1678623942 (x=98 y=306) width=56 height=10 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=4
+(1)
+page=2 block=1263841085 (x=242 y=309) width=11 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+where Ms, Mf are the moment contributions from ?exural steel re-
+page=2 block=2075352262 (x=1 y=330) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+inforcement and the FRP. According to the ACI 440.2R-17 report,
+page=2 block=2075352262 (x=1 y=341) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the additional ?exural strength, Mf,due to the FRP reinforcing layer
+page=2 block=2075352262 (x=1 y=352) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+is calculated from the effective str(ess, ffe, in t)he FRP (ACI 2017):
+page=2 block=2075352262 (x=1 y=363) width=251 height=18 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Mf = ?fAf ffe h ? 1?1c
+page=2 block=540811471 (x=76 y=383) width=95 height=14 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=4
+(2)
+page=2 block=706604026 (x=242 y=389) width=11 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+2
+page=2 block=1155437763 (x=153 y=396) width=4 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=17 wordint.max=17
+where ?f, ?1 are empirical factors, and both equal to 0.85.
+page=2 block=627746290 (x=1 y=417) width=222 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The effective stress, ffe, is the maximum stress that FRP can
+page=2 block=627746290 (x=13 y=428) width=240 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+resist, and is calculated as
+page=2 block=627746290 (x=1 y=439) width=99 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ffe = Ef ?fe; ?fe = ?cu(h ? c)/c ? ?i ? ?fd
+page=2 block=1678889928 (x=43 y=455) width=167 height=10 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=5
+(3)
+page=2 block=555136651 (x=242 y=458) width=11 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Here Ef is the Young’s modulus of FRP, c is the depth from top face
+page=2 block=299783910 (x=1 y=480) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+to the concrete compression resultant, and ?i is the initial strain of
+page=2 block=299783910 (x=1 y=490) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+© ASCE
+page=2 block=1634411546 (x=1 y=512) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+concrete at the moment of FRP installation. The effective FRP de-
+page=2 block=193864812 (x=277 y=158) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+sign stress ffd is limited by the design strain, ?fd, which is speci?ed as
+page=2 block=523794808 (x=277 y=168) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ffd = Ef ?fd; ?fd = ??fc?/nEf tf ? 0.9?fu
+page=2 block=2092066079 (x=322 y=176) width=161 height=22 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=5
+(4)
+page=2 block=1145165159 (x=518 y=191) width=11 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Here ? is an empirical factor equal to 0.41 (0.083 in the United
+page=2 block=1041638599 (x=277 y=213) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+States customary system or USCS), n is the layer number (ply num-
+page=2 block=1041638599 (x=277 y=224) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ber), and tf is the FRP sheet thickness. The design strength, ffd, is
+page=2 block=1041638599 (x=277 y=235) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+lower than the tensile strength of FRP, ffu. Aside from the safety
+page=2 block=1041638599 (x=277 y=246) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+factors, the type of surface treatment, the shear strains in the bond-
+page=2 block=1041638599 (x=277 y=257) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ing (adhesive) layer, the relative slips between the concrete and
+page=2 block=1041638599 (x=277 y=268) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+FRP sheets, and the imperfections on the bonding surface are ne-
+page=2 block=1041638599 (x=277 y=279) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+glected in design. The main reason for the limitation of the effective
+page=2 block=1041638599 (x=277 y=290) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+stress (or strain) is the strength of the concrete substrate.
+page=2 block=1041638599 (x=277 y=301) width=216 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Eq. (4) is a modi?ed version of the Teng et al.’s (2003) model,
+page=2 block=1041638599 (x=289 y=312) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+which is based on the effective bond length concept deduced from
+page=2 block=1041638599 (x=277 y=323) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+single-lap shear tests (SSTs). Accordingto this concept, there exists
+page=2 block=1041638599 (x=277 y=334) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+an effective bond length beyond which a further increase of the
+page=2 block=1041638599 (x=277 y=345) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+bonding length will have no effect on beam strength.
+page=2 block=1041638599 (x=277 y=356) width=203 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Generalization of Simplified Beam-Type Analysis
+page=2 block=1656318404 (x=277 y=391) width=231 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+for Fracture Size Effect
+page=2 block=1656318404 (x=277 y=402) width=109 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+To take into account the fracture size effect, a different approach to
+page=2 block=231498257 (x=277 y=425) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+the strength of RC members reinforced by FRP sheets is proposed
+page=2 block=231498257 (x=277 y=436) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+here. Because the fracture process zones (FPZs) are large (approx-
+page=2 block=231498257 (x=277 y=447) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+imately 0.5 m for concrete, but only about a few micrometers for
+page=2 block=231498257 (x=277 y=458) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+metals), i.e., nonnegligible compared with the cross-sectional di-
+page=2 block=231498257 (x=277 y=469) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+mensions of the structure, the size effect on the mean nominal struc-
+page=2 block=231498257 (x=277 y=480) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ture strength, ?N, must be expected to be of theenergetic(rather than
+page=2 block=231498257 (x=277 y=491) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+J. Compos. Constr.
+page=2 block=1206678562 (x=461 y=512) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+Page: 3 left:1 upper:1
+Fig. 2. (a) Schematic description of SSTs; (b) calibration of M7 by using the test data by Carrara et al. (2011); (c) shear stress distribution along the
+page=3 block=1213419524 (x=1 y=682) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+bonding length for various Lb values prior to failure; and (d) the variation of the shear stress pattern with loading for Lb=150mm.
+page=3 block=1213419524 (x=1 y=693) width=474 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+© ASCE
+page=3 block=1628305283 (x=1 y=719) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+04020056-3
+page=3 block=255839577 (x=244 y=719) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+J. Compos. Constr.
+page=3 block=727119352 (x=461 y=719) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=3 block=2044150758 (x=194 y=747) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+statistical) type, and because large cracks develop before the max-
+page=3 block=2003305136 (x=1 y=1) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+imum load, the size effect must be of type 2, which is most easily
+page=3 block=2003305136 (x=1 y=12) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+demonstrated by the dimensional analysis of energy balance (see
+page=3 block=2003305136 (x=1 y=23) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+A3 in Dönmez and Baz?ant 2019). This means that, to obtain the
+page=3 block=2003305136 (x=1 y=34) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+nominal strength ?N for any structure size D, the nominal strength,
+page=3 block=2003305136 (x=1 y=45) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+?N0, due to concrete and FRP calculated by the traditional strength
+page=3 block=2003305136 (x=1 y=56) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+theory (or limit analysis) should be multiplied by the size effect
+page=3 block=2003305136 (x=1 y=67) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+factor ?s, i.e.,
+page=3 block=2003305136 (x=1 y=78) width=53 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+?N = ?N0?s, ?s = (1 + a/D0)?1/2
+page=3 block=105663489 (x=58 y=96) width=137 height=11 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=5
+(5)
+page=3 block=447320069 (x=242 y=100) width=11 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Here D0= constant = transitional structure size, and a = shear span
+page=3 block=1495414981 (x=1 y=123) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(factor ?s has been introduced in 2019 into the provisions for beam
+page=3 block=1495414981 (x=1 y=134) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+shear, punching, and strut-and-tie model of ACI design code
+page=3 block=1495414981 (x=1 y=145) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+ACI-318-2019). For FRP reinforcement, ?N needs to be based on
+page=3 block=1495414981 (x=1 y=156) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the shear span and on web width bw, and ?N0 is de?ned empirically
+page=3 block=1495414981 (x=1 y=167) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+as in classical analysis:
+page=3 block=1495414981 (x=1 y=178) width=88 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+?N = Pmax/abw, ?N0 = ???fc?
+page=3 block=1860754643 (x=64 y=187) width=126 height=22 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=38
+(6)
+page=3 block=169916747 (x=242 y=201) width=11 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+? = Ef If
+page=3 block=1558133170 (x=186 y=221) width=31 height=12 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=5
+EsIs
+page=3 block=1558133170 (x=203 y=234) width=15 height=7 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=17
+where ? = 1 + ?1?n1 ? ?2?n2 ? 1.1,
+page=3 block=351520508 (x=35 y=225) width=139 height=9 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(7)
+page=3 block=1020632821 (x=242 y=228) width=11 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Here Ec, Es = Young’s moduli of concrete and steel; ?= empirical
+page=3 block=867205829 (x=1 y=250) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+correction factor; If, Is= moments of inertia about the neutral axis
+page=3 block=867205829 (x=1 y=261) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+of the transformed cross sections of FRP and steel reinforcements, re-
+page=3 block=867205829 (x=1 y=273) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+spectively; ?1 = 1.1, ?2=2.5, n1 = 0.5, and n2 =2. The empirical pa-
+page=3 block=867205829 (x=1 y=283) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+rameters in Eqs. (5)–(7) need to be calibrated by ?tting the database.
+page=3 block=867205829 (x=1 y=295) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Validation and Calibration of Microplane Finite
+page=3 block=369573800 (x=1 y=327) width=219 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+Element Model by Test Data
+page=3 block=369573800 (x=1 y=338) width=133 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+There are no experimental data available to validate and calibrate
+page=3 block=482987954 (x=1 y=361) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the described model. Therefore, similar to other recent successful
+page=3 block=482987954 (x=1 y=372) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+studies, a realistic constitutive and fracture model is validated
+page=3 block=482987954 (x=1 y=383) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+and calibrated by experimental data that exist. The model is then
+page=3 block=482987954 (x=1 y=394) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+used to predict the size and shape effects through computer ?nite
+page=3 block=482987954 (x=1 y=405) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+element (FE) simulations.
+page=3 block=482987954 (x=1 y=416) width=98 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+As a realistic damage constitutive model, the microplane model
+page=3 block=482987954 (x=13 y=427) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+M7 (whose coding can be freely downloaded from the correspond-
+page=3 block=482987954 (x=1 y=438) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ing author’s website) is chosen. M7 is the latest in a series of micro-
+page=3 block=482987954 (x=1 y=449) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+plane models for concrete developed at Northwestern University
+page=3 block=482987954 (x=1 y=460) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+(Caner and Baz?ant 2013a). The material properties are character-
+page=3 block=482987954 (x=1 y=471) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ized by a relation between the stress and strain components (or
+page=3 block=482987954 (x=1 y=482) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+forces and displacements) on the microlevel (Baz?ant and Oz?bolt
+page=3 block=482987954 (x=1 y=493) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+(a)
+page=3 block=217827560 (x=188 y=571) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(b)
+page=3 block=1005245720 (x=91 y=661) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(c)
+page=3 block=348084146 (x=208 y=661) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+1990) (or, more precisely, the mesolevel). The stress–strain rela-
+page=3 block=1188671176 (x=277 y=1) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+tions are de?ned not in terms of the macrolevel continuum tensors,
+page=3 block=1188671176 (x=277 y=12) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+but in terms of the stress and strain vectors on planes of all possible
+page=3 block=1188671176 (x=277 y=23) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+orientations within the material, called the microplanes.
+page=3 block=1188671176 (x=277 y=34) width=212 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The microplane model, M7, which is designed for an explicit
+page=3 block=1188671176 (x=289 y=45) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+numerical algorithm, has been shown to be capable of realistically
+page=3 block=1188671176 (x=277 y=56) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+predicting the concrete damage behaviors over a broad range of
+page=3 block=1188671176 (x=277 y=67) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+loading scenarios (Caner and Baz?ant 2013b; Dönmez and Baz?ant
+page=3 block=1188671176 (x=277 y=78) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+2017; Rasoolinejad and Baz?ant 2019). It is always convergent,
+page=3 block=1188671176 (x=277 y=89) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+robust, and has been applied in dynamic problems with more
+page=3 block=1188671176 (x=277 y=100) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+than 3×107 unknowns (nodal displacements or degrees of free-
+page=3 block=1188671176 (x=277 y=109) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+dom). The present simulations are performed on ABAQUS,
+page=3 block=1188671176 (x=277 y=122) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+where M7 is inserted as a user’s material subroutine VUMAT.
+page=3 block=1188671176 (x=277 y=133) width=240 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+To prevent spurious mesh sensitivity, the crack band model is
+page=3 block=1188671176 (x=289 y=144) width=240 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+used as the localization limiter (Baz?ant and Oh 1983). To minimize
+page=3 block=1188671176 (x=277 y=156) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+accuracy loss due to scaling of thepostpeak, aconstant element size
+page=3 block=1188671176 (x=277 y=167) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+hc (equal approximately to 1–2 times the maximum aggregate size)
+page=3 block=1188671176 (x=277 y=178) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+is adopted for structures of all sizes. All the computations include
+page=3 block=1188671176 (x=277 y=189) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+eight-node hexahedral elements for concrete and two-node beam
+page=3 block=1188671176 (x=277 y=200) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+elements in 3D space for steel reinforcement. The FRP material
+page=3 block=1188671176 (x=277 y=211) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+is modeled by four-node shell elements. Because the response of
+page=3 block=1188671176 (x=277 y=222) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+FRP material is almost linear until rupture, a linear elastic behavior
+page=3 block=1188671176 (x=277 y=233) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+is adopted in the numerical analyses for the FRP plates. Perfect
+page=3 block=1188671176 (x=277 y=244) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+bonding features between the concrete–FRP sheet and concrete–
+page=3 block=1188671176 (x=277 y=255) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+reinforcing steel bars are assumed and implemented in the numer-
+page=3 block=1188671176 (x=277 y=266) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ical analyses. To calibrate the free parameters of M7, FE program
+page=3 block=1188671176 (x=277 y=277) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+with M7 is optimally ?tted to all relevant available test data. The
+page=3 block=1188671176 (x=277 y=288) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+adjustable parameters of M7 suf?ced to match the main properties,
+page=3 block=1188671176 (x=277 y=299) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+i.e., the post-peak behavior, fracture energy, and strength values.
+page=3 block=1188671176 (x=277 y=310) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The steel is modeled as a bilinear elasto-plastic or hardening plastic
+page=3 block=1188671176 (x=277 y=321) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+material. The FRP materials, both carbon ?ber-reinforced polymer
+page=3 block=1188671176 (x=277 y=332) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(CFRP) and glass ?ber-reinforced polymer (GFRP), are simulated
+page=3 block=1188671176 (x=277 y=343) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+as linear elastic up to rupture.
+page=3 block=1188671176 (x=277 y=355) width=114 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Single-Lap Shear Test
+page=3 block=339186291 (x=277 y=393) width=104 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+The bond characteristics of the FRP–concrete interface have gener-
+page=3 block=2031667192 (x=277 y=416) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ally been assessed by SSTs [Fig. 2(a)]. In SSTs, the tension in the
+page=3 block=2031667192 (x=277 y=427) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+FRP is transferred to the concrete substrate by bond shear stresses
+page=3 block=2031667192 (x=277 y=438) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+of rather nonuniform stress distribution. Most of the FRP–concrete
+page=3 block=2031667192 (x=277 y=449) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+interface does not contribute strongly to resisting the transverse
+page=3 block=2031667192 (x=277 y=460) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+shear force in the beam. Only a certain active zone of effective
+page=3 block=2031667192 (x=277 y=471) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+length Le within the total bonding length Lb does. Once the shear
+page=3 block=2031667192 (x=277 y=482) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+stress of the concrete substrate reaches the strength value, cracking
+page=3 block=2031667192 (x=277 y=493) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+(d)
+page=3 block=393481646 (x=326 y=661) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+Page: 4 left:1 upper:1
+Fig. 3. FRP-reinforced RC beams: (a) test data and calibration of M7 using the ?rst data set (Maalej and Bian 2001); and (b) prediction for higher
+page=4 block=475024998 (x=1 y=682) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+thicknesses of CFRP (?0 =0.52MPa).
+page=4 block=475024998 (x=1 y=693) width=137 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+© ASCE
+page=4 block=878506901 (x=1 y=719) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+04020056-4
+page=4 block=197449185 (x=244 y=719) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+J. Compos. Constr.
+page=4 block=1013620810 (x=461 y=719) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=4 block=576191199 (x=194 y=747) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+begins inside this zone. When Lb exceeds Le, the active stress trans-
+page=4 block=1900307803 (x=1 y=1) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+fer begins to shift towards the endpoint of Lb. The maximum load
+page=4 block=1900307803 (x=1 y=12) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Pmax drops roughly when zone Le cannot propagate any further.
+page=4 block=1900307803 (x=1 y=23) width=245 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The FE results illustrate the shear failure mechanism of SST.
+page=4 block=1900307803 (x=13 y=34) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The calibration of M7 is based on the test data of Carrara et al.
+page=4 block=1900307803 (x=1 y=45) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(2011), as shown in Fig. 2(b). The simulations of the test data
+page=4 block=1900307803 (x=1 y=56) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+include various bonding lengths of ?ve different SST specimens
+page=4 block=1900307803 (x=1 y=67) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+which are Lb= 30, 60, 90, 120, and 150 mm. The dimensions
+page=4 block=1900307803 (x=1 y=77) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+of the concrete prism are 150 × 90 ×300 mm3. The compressive
+page=4 block=1900307803 (x=1 y=86) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+strength of the concrete is 37.2 MPa and tensile strength
+page=4 block=1900307803 (x=1 y=100) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+4.8 MPa. The CFRP plate used measures 1.3 mm in thickness
+page=4 block=1900307803 (x=1 y=111) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+and 50 mm in width. Fig. 2(c) shows the shear stress distribu-
+page=4 block=1900307803 (x=1 y=122) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+tions at Pmax along the CFRP–concrete interface, for ?ve Lb val-
+page=4 block=1900307803 (x=1 y=133) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ues. As can be seen in Fig. 2(c), the short bonding lengths are not
+page=4 block=1900307803 (x=1 y=144) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+suf?ciently long to fully develop Le. Nonetheless, the distribu-
+page=4 block=1900307803 (x=1 y=155) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+tion of the shear stresses shows very similar patterns along the
+page=4 block=1900307803 (x=1 y=166) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+length from the endpoint of the bond (z). The length of an active
+page=4 block=1900307803 (x=1 y=177) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+bond zone, in which the shear stresses transfer the tension forces
+page=4 block=1900307803 (x=1 y=188) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+on the FRP, does not change with the total bonding length but
+page=4 block=1900307803 (x=1 y=199) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+remains constant for all Lb values, as noted in previous studies
+page=4 block=1900307803 (x=1 y=210) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(Chen and Teng 2001). The progress of the shear stress distribu-
+page=4 block=1900307803 (x=1 y=221) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+tion for Lb =150 mm until the complete failure is shown in
+page=4 block=1900307803 (x=1 y=231) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+Fig. 2(d). The active shear zone germinates at the nearest point
+page=4 block=1900307803 (x=1 y=243) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+to the applied load. After reaching the strength threshold of
+page=4 block=1900307803 (x=1 y=254) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+the material, the effective interface zone shifts away from the
+page=4 block=1900307803 (x=1 y=265) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+fractured concrete surface. Finally, failure under load control oc-
+page=4 block=1900307803 (x=1 y=276) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+curs when the end of the FRP sheet begins to restrict the active
+page=4 block=1900307803 (x=1 y=287) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+zone length.
+page=4 block=1900307803 (x=1 y=298) width=49 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The effective bonding length, Lb, is expected to be a function of
+page=4 block=1900307803 (x=13 y=309) width=240 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+the stiffnesses of the bonded materials. The shear strength of SST
+page=4 block=1900307803 (x=1 y=320) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+specimens is a function of Lb and the fracture energy, Gf, of the con-
+page=4 block=1900307803 (x=1 y=331) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+crete. However, the application of the SST models tothe debonding
+page=4 block=1900307803 (x=1 y=342) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+failures of FRP-reinforced members under ?exure is questionable,
+page=4 block=1900307803 (x=1 y=353) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+as we show next by FE analysis.
+page=4 block=1900307803 (x=1 y=364) width=125 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Flexural Strengthening of RC Beams with FRP
+page=4 block=1552076111 (x=1 y=397) width=219 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+The FE program simulating the FRP-strengthened RC beams under
+page=4 block=897801829 (x=1 y=420) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+?exure is used to ?t the test data sets from different studies. In the
+page=4 block=897801829 (x=1 y=431) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+tests of Maalej and Bian (2001), four layers (or sheets) of different
+page=4 block=897801829 (x=1 y=442) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(a)
+page=4 block=681564936 (x=66 y=553) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(b)
+page=4 block=2049121789 (x=220 y=663) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+thicknesses are used to strengthen the RC beams. One layer of a
+page=4 block=813780803 (x=277 y=1) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+CFRP sheet has a thickness of 0.111 mm. The RC beams contain
+page=4 block=813780803 (x=277 y=12) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+both ?exural and shear steel-reinforcement and have a cross-
+page=4 block=813780803 (x=277 y=23) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+sectional dimensions of 150 × 115 mm2. The concrete cover is
+page=4 block=813780803 (x=277 y=31) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+31mm thick and the FE size is 20 mm. The control beam speci-
+page=4 block=813780803 (x=277 y=45) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+men with no FRP reinforcement fails by steel bar yielding, fol-
+page=4 block=813780803 (x=277 y=56) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+lowed by concrete crushing. The specimen with 1 FRP layer
+page=4 block=813780803 (x=277 y=67) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+(1L) fails by debonding at midspan (IC debonding); for two lay-
+page=4 block=813780803 (x=277 y=78) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ers (2L), by end debonding and IC debonding; for three (3L) and
+page=4 block=813780803 (x=277 y=89) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+four layers (4L) by delamination followed by end debonding. The
+page=4 block=813780803 (x=277 y=100) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+FE simulations con?rm that a slightly different failure load can
+page=4 block=813780803 (x=277 y=111) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+correspond to very different failure modes. For example, the
+page=4 block=813780803 (x=277 y=122) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+1L specimen in Maalej and Bian (2001) failed by FRP rupture,
+page=4 block=813780803 (x=277 y=133) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+but FE analysis shows that the 1L specimens failing by FRP rup-
+page=4 block=813780803 (x=277 y=144) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ture and by IC debonding have very similar peak loads. There-
+page=4 block=813780803 (x=277 y=155) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+fore, the elastic behavior of the FRP must be modeled accurately.
+page=4 block=813780803 (x=277 y=166) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+The results of M7 calibration by the load-de?ection curves
+page=4 block=813780803 (x=289 y=177) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+are shown in Fig. 3(a). The solid curves show the FE results,
+page=4 block=813780803 (x=277 y=188) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+and the circle points the test results. Based on this calibration,
+page=4 block=813780803 (x=277 y=199) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+the responses of RC beams with more FRP layers are computed.
+page=4 block=813780803 (x=277 y=210) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Fig. 3(b) shows the experimental and computed normalized
+page=4 block=813780803 (x=277 y=221) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+strength values as a function of the number of layers (i.e., of
+page=4 block=813780803 (x=277 y=232) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+CFRP thickness). The normalization is de?ned according to
+page=4 block=813780803 (x=277 y=243) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+the unstrengthened case. Thus, ?0 refers to the strength of the
+page=4 block=813780803 (x=277 y=254) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+control specimen computed according to Eq. (6). Fig. 3(b)
+page=4 block=813780803 (x=277 y=265) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+shows that, initially, the strength of FRP-reinforced RC beams
+page=4 block=813780803 (x=277 y=277) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+increases with the number of layers. However, increasing the
+page=4 block=813780803 (x=277 y=288) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+FRP thickness changes the stiffness difference between the
+page=4 block=813780803 (x=277 y=299) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+FRP-strengthened and unstrengthened RC beams. Therefore,
+page=4 block=813780803 (x=277 y=310) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+the FRP-cutoff point (plate curtailment) causes a change of the
+page=4 block=813780803 (x=277 y=321) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+failure mode for higher thicknesses of FRP sheets. In general,
+page=4 block=813780803 (x=277 y=332) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+thin FRP layers fail by IC debonding, and thick layers fail by
+page=4 block=813780803 (x=277 y=343) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+end debonding or cover delamination.
+page=4 block=813780803 (x=277 y=354) width=151 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+An additional increase of the FRP layer produces a high tensile
+page=4 block=813780803 (x=289 y=365) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+stress concentration at the FRP end (the cutoff point). The tensile
+page=4 block=813780803 (x=277 y=376) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+stress distribution determines the failure mode change from de-
+page=4 block=813780803 (x=277 y=387) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+bonding to cover delamination. An increase of the stiffness ratio
+page=4 block=813780803 (x=277 y=398) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+for these two modes leads causes the concrete cover to be ripped
+page=4 block=813780803 (x=277 y=409) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+off due to high tensile stresses at the sheet cutoff zone. This is
+page=4 block=813780803 (x=277 y=420) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+why, after a certain speci?c stiffness, additional FRP reinforcement
+page=4 block=813780803 (x=277 y=431) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+does not strengthen the beam, as seen in Fig. 3(b). The stiffness
+page=4 block=813780803 (x=277 y=442) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+Page: 5 left:1 upper:1
+Fig. 4. (a) Calibration of M7 by the second data set (Raoof and Bournas 2017); and (b) predictions for higher thicknesses (?0 =0.29 MPa).
+page=5 block=534662976 (x=12 y=22) width=506 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Fig. 5. (a) Calibration of M7 by the third data set (Chiew et al. 2007) with GFRP reinforcement; and (b) prediction for higher thicknesses
+page=5 block=1238339624 (x=1 y=165) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(?0= 0.49MPa).
+page=5 block=1238339624 (x=1 y=176) width=62 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+04020056-5
+page=5 block=727818265 (x=244 y=629) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=5 block=295700833 (x=194 y=657) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+(a)
+page=5 block=2095702106 (x=70 y=1) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(a)
+page=5 block=1234329919 (x=67 y=139) width=8 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+ratio, ?, in Eq. (7) can be used to distinguish the various debonding
+page=5 block=1876259196 (x=1 y=208) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+failure modes. The optimal ?t of Eq. (5) to the computed data is ob-
+page=5 block=1876259196 (x=1 y=219) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+tained by substituting 1.1, 3.0, 0.5, and 2 for ?1, ?2, n1, and n2, re-
+page=5 block=1876259196 (x=1 y=230) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+spectively [Fig. 3(b)].
+page=5 block=1876259196 (x=1 y=241) width=83 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The calibration result based on the second data set is shown in
+page=5 block=1876259196 (x=13 y=252) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Fig. 4(a) (Raoof and Bournas 2017). Here the RC beam specimens
+page=5 block=1876259196 (x=1 y=263) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+strengthened with one and three layers of CFRP are used in the cal-
+page=5 block=1876259196 (x=1 y=274) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ibration.The beams havearectangular cross-section with dimensions
+page=5 block=1876259196 (x=1 y=285) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+of h×bw = 203×102 mm2, and the shear span is a= 580mm. The
+page=5 block=1876259196 (x=1 y=294) width=252 height=9 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+thickness of the concrete cover is 27mm and the element size hc =
+page=5 block=1876259196 (x=1 y=307) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+20mm. The ?exural steel reinforcement ratio is ?f = 0.56%, and
+page=5 block=1876259196 (x=1 y=316) width=252 height=10 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+the shear reinforcement (stirrups) ratio ?s = 1.23%. The control
+page=5 block=1876259196 (x=1 y=327) width=252 height=10 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+specimen (with 0 layers) fails by yielding of ?exural steel followed
+page=5 block=1876259196 (x=1 y=341) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+by concrete crushing on the compression face. The intermediate
+page=5 block=1876259196 (x=1 y=352) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+(midspan) cracks trigger the delamination failure of the 1L beam.
+page=5 block=1876259196 (x=1 y=363) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+The main failure mode of the 3L beam is a mix of IC debonding
+page=5 block=1876259196 (x=1 y=374) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+and end debonding. Fig. 4(b) also shows the result of extrapolation
+page=5 block=1876259196 (x=1 y=385) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+to higher thicknesses. The nominal strength of the strengthened
+page=5 block=1876259196 (x=1 y=397) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+member decreases when the number of layers is greater than three,
+page=5 block=1876259196 (x=1 y=408) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+which corresponds to the critical value of ? = 0.35. Another data
+page=5 block=1876259196 (x=1 y=418) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+set with M7 calibration is based on the tests of RC beams strength-
+page=5 block=1876259196 (x=1 y=430) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ened with sheets of GFRP (Chiew et al. 2007) [Fig. 5(a)]. The
+page=5 block=1876259196 (x=1 y=441) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+beams are strengthened with one, two, and three layers of
+page=5 block=1876259196 (x=1 y=452) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+GFRP sheets. The cross-sectional dimensions are 350×200
+page=5 block=1876259196 (x=1 y=463) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+mm2 (h × bw) and the span is a= 800 mm. The thickness of the
+page=5 block=1876259196 (x=1 y=472) width=252 height=9 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+concrete cover is 33 mm and the element size hc = 25 mm. The
+page=5 block=1876259196 (x=1 y=485) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+?exural and shear steel reinforcement ratios are ?f = 0.63%
+page=5 block=1876259196 (x=1 y=494) width=252 height=10 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+and ?s = 0.52%, respectively. The control specimen (zero layers)
+page=5 block=1876259196 (x=1 y=505) width=252 height=10 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+fails by yielding of ?exural steel followed by concrete crushing on
+page=5 block=1876259196 (x=1 y=519) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the compression face. The intermediate (midspan) cracks trigger the
+page=5 block=1876259196 (x=1 y=530) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+delamination failure of the beams with one and two layers of GFRP.
+page=5 block=1876259196 (x=1 y=541) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+The main failure mode of the beam with three layers is a mix of IC
+page=5 block=1876259196 (x=1 y=552) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+debonding and end debonding. Fig. 5(b) shows the extrapolation for
+page=5 block=1876259196 (x=1 y=563) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+higher thicknesses and the variation of nominal strength according
+page=5 block=1876259196 (x=1 y=574) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+to the number of GFRP layers. For the size effect analysis of RC
+page=5 block=1876259196 (x=1 y=586) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+beams strengthened with FRP, additional parameters regarding the
+page=5 block=1876259196 (x=1 y=597) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+test data and numerical work are given in Table 1.
+page=5 block=1876259196 (x=1 y=608) width=191 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+© ASCE
+page=5 block=2117043942 (x=1 y=629) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+(b)
+page=5 block=1299661385 (x=349 y=1) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(b)
+page=5 block=397822273 (x=362 y=139) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+Size Effect Analysis
+page=5 block=1403815002 (x=277 y=207) width=94 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+In the size effect analysis, the shear span (a) is chosen as the char-
+page=5 block=1362501759 (x=277 y=230) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+acteristic length of the FRP-reinforced beams. The main failure
+page=5 block=1362501759 (x=277 y=241) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+modes should not change with geometrically scaling according to
+page=5 block=1362501759 (x=277 y=252) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the main principles of the size effect equation used in Eq. (5). Dif-
+page=5 block=1362501759 (x=277 y=263) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ferent failure modes require some modi?cations in the size effect
+page=5 block=1362501759 (x=277 y=274) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+law which is not considered here. Debonding cracking mainly oc-
+page=5 block=1362501759 (x=277 y=286) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+curs along the FRP length. The widths of the FRP plates in the tests,
+page=5 block=1362501759 (x=277 y=297) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+which are chosen to conduct the numerical work, are the same with
+page=5 block=1362501759 (x=277 y=308) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+the beam width bw. The width of the FRP plates may be smaller
+page=5 block=1362501759 (x=277 y=319) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+than the beamwidth, which leads to less ?exural rigidity than the
+page=5 block=1362501759 (x=277 y=330) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+case of full width. As the bending of structures in this study can
+page=5 block=1362501759 (x=277 y=341) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+be accepted as an in-plane loading case, narrower FRP width
+page=5 block=1362501759 (x=277 y=352) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+would not change the bending mechanism. Eq. (6) gives the
+page=5 block=1362501759 (x=277 y=363) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+strength de?nition for this type of failure. The geometric scaling
+page=5 block=1362501759 (x=277 y=374) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+of the FRP-strengthened RC beam requires proportional scaling
+page=5 block=1362501759 (x=277 y=386) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+of both the RC beam and the FRP reinforcement. The effects of
+page=5 block=1362501759 (x=277 y=397) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the boundary layers are minimized by using a two-dimensional
+page=5 block=1362501759 (x=277 y=408) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+(2D), rather than three-dimensional (3D), scaling of the structures.
+page=5 block=1362501759 (x=277 y=419) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Thus, the beam dimensions should be scaled while keeping the
+page=5 block=1362501759 (x=277 y=430) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+width, bw, and the reinforcement ratio constant.
+page=5 block=1362501759 (x=277 y=441) width=184 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The predictions for larger sizes and a different number of FRP
+page=5 block=1362501759 (x=289 y=452) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+layers, based on calibrations by three different data sets, are shown
+page=5 block=1362501759 (x=277 y=463) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+in Fig. 6. The size effect specimens are simulated using the FE
+page=5 block=1362501759 (x=277 y=474) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+crack-band microplane model M7, for 2D geometrical scaling,
+page=5 block=1362501759 (x=277 y=486) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+up to four different sizes. All the layer numbers refer to the small-
+page=5 block=1362501759 (x=277 y=497) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+est specimen, and the number of the layers (or layer thickness)
+page=5 block=1362501759 (x=277 y=508) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+scales in proportion to specimen size. The values of ?N0 and D0
+page=5 block=1362501759 (x=277 y=519) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+are found throughnonlinear regression. The given relative strength
+page=5 block=1362501759 (x=277 y=530) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+values are normalized by zero layer strength, ?0. The cross marks
+page=5 block=1362501759 (x=277 y=541) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+refer to M7 predictions and the circle points to the test data. The
+page=5 block=1362501759 (x=277 y=552) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+dashed horizontal line refers to the strength of the control speci-
+page=5 block=1362501759 (x=277 y=563) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+men (0 layers).
+page=5 block=1362501759 (x=277 y=575) width=58 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Fig. 6(a) presents the results of the size effect analysis for the
+page=5 block=1362501759 (x=289 y=586) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+?rst data set. Baz?ant’s type 2 (Baz?ant 1984) size effect law matches
+page=5 block=1362501759 (x=277 y=597) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+the data for every delamination type and every number of layers.
+page=5 block=1362501759 (x=277 y=608) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+J. Compos. Constr.
+page=5 block=648303898 (x=461 y=629) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+Page: 6 left:1 upper:1
+Table 1. Parameters of the experimental data and numerical study used in size effect analysis
+page=6 block=66972878 (x=1 y=1) width=322 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+2nd data set
+page=6 block=876881599 (x=245 y=17) width=41 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Raoof and Bournas (2017)
+page=6 block=1410456976 (x=220 y=32) width=91 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+4PB
+page=6 block=1410456976 (x=258 y=42) width=15 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Figs. 4 and 6(b)
+page=6 block=1410456976 (x=238 y=52) width=55 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+D
+page=6 block=1343835789 (x=262 y=62) width=6 height=4 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=17 wordint.max=17
+D/2D/4D/8D
+page=6 block=1022251996 (x=243 y=72) width=44 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+203×102
+page=6 block=688581408 (x=249 y=82) width=33 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0.56, 176
+page=6 block=1940737740 (x=249 y=92) width=33 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+580 (3.3)
+page=6 block=1775897362 (x=250 y=102) width=31 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+CFRP
+page=6 block=1775897362 (x=255 y=112) width=21 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0/1/3g
+page=6 block=1775897362 (x=255 y=119) width=21 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0.095
+page=6 block=1775897362 (x=256 y=132) width=19 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+219
+page=6 block=1775897362 (x=259 y=142) width=13 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+75 ×10?6/75.0/30/50
+page=6 block=1775897362 (x=230 y=149) width=71 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+27
+page=6 block=1775897362 (x=261 y=162) width=9 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+aFour-point bending.
+page=6 block=660915526 (x=1 y=175) width=71 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+bAdditional sizes are the predictions based on the calibration of the data sets.
+page=6 block=660915526 (x=1 y=185) width=264 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+cHere h× bw are the cross-sectional dimensions and refer to total height and width of the concrete section.
+page=6 block=660915526 (x=1 y=195) width=362 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+dCorresponds to the smallest size, D.
+page=6 block=660915526 (x=1 y=205) width=126 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+eCarbon FRP.
+page=6 block=660915526 (x=1 y=215) width=47 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+fGlass FRP.
+page=6 block=660915526 (x=1 y=225) width=40 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+gSelected test data for small size.
+page=6 block=660915526 (x=1 y=235) width=113 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+hThickness of size D.
+page=6 block=660915526 (x=1 y=245) width=73 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+iThe smallest dimension of one ?nite element.
+page=6 block=660915526 (x=1 y=255) width=158 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Fig. 6. Relative strength versus characteristic size plots of computed (cross) and test (circle) data on the double-log scale based on the calibration of
+page=6 block=1497983329 (x=1 y=589) width=528 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(a) the ?rst data set (Maalej and Bian 2001); (b) the second data set (Raoof and Bournas 2017); (c) the third data set (Chiew et al. 2007); and
+page=6 block=1497983329 (x=1 y=601) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+(d) simulationof the sizeeffect tests by Maalej and Leong(2005) (?0= 0.51MPa). Corresponding SEL ?ts for various tf values areshownassolid curves
+page=6 block=1497983329 (x=1 y=612) width=528 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+(note that the layer number, or tf, shown on the curves correspond to the smallest specimens in each set which also scales with the beam size).
+page=6 block=1497983329 (x=1 y=623) width=506 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+© ASCE
+page=6 block=1082886058 (x=1 y=719) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+04020056-6
+page=6 block=2041611826 (x=244 y=719) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+J. Compos. Constr.
+page=6 block=2021601975 (x=461 y=719) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=6 block=1794068152 (x=194 y=747) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Test
+page=6 block=1992630936 (x=1 y=17) width=14 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+1st data set
+page=6 block=196717412 (x=130 y=17) width=38 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Source
+page=6 block=173197870 (x=1 y=32) width=23 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Maalej and Bian (2001)
+page=6 block=450420562 (x=108 y=32) width=82 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+4PBa
+page=6 block=450420562 (x=140 y=39) width=18 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Figs. 3 and 6(a)
+page=6 block=450420562 (x=122 y=52) width=54 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Test
+page=6 block=1171713907 (x=1 y=42) width=14 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Figure(s)
+page=6 block=66231846 (x=1 y=52) width=31 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Size range (tested)
+page=6 block=527247308 (x=1 y=62) width=63 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Size range (FEA)b
+page=6 block=527247308 (x=1 y=69) width=63 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+h × bw [mm]c
+page=6 block=527247308 (x=1 y=79) width=43 height=9 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+?s[%], d[mm]
+page=6 block=527247308 (x=1 y=92) width=50 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+a [mm] (a/d)
+page=6 block=527247308 (x=1 y=102) width=43 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+D
+page=6 block=1133730108 (x=146 y=62) width=6 height=4 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=17 wordint.max=17
+D/2D/4D/8D
+page=6 block=827099978 (x=127 y=72) width=44 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+150 × 115
+page=6 block=651698411 (x=133 y=82) width=33 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+1.36, 125
+page=6 block=1350377659 (x=133 y=92) width=32 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+500 (4.0)
+page=6 block=167692593 (x=133 y=102) width=32 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+CFRPe
+page=6 block=167692593 (x=137 y=109) width=24 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0/1/2/3/4
+page=6 block=167692593 (x=134 y=122) width=30 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0.111
+page=6 block=167692593 (x=140 y=132) width=19 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+230
+page=6 block=167692593 (x=143 y=142) width=12 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+85 × 10?6/85.0/30/65
+page=6 block=167692593 (x=114 y=149) width=71 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+20
+page=6 block=167692593 (x=145 y=162) width=8 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+FRP type
+page=6 block=1555895711 (x=1 y=112) width=32 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Number of FRP layers
+page=6 block=990226843 (x=1 y=122) width=77 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+tfh[mm] (for 1L)
+page=6 block=990226843 (x=1 y=130) width=56 height=9 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Ef [GPa]
+page=6 block=990226843 (x=1 y=142) width=29 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+M7 parameters*
+page=6 block=990226843 (x=1 y=152) width=55 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+hic (FE size) [mm]
+page=6 block=990226843 (x=1 y=160) width=62 height=9 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(a)
+page=6 block=46415544 (x=62 y=374) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(b)
+page=6 block=2097989776 (x=62 y=470) width=10 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(c)
+page=6 block=1227438915 (x=62 y=571) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+The ordinates, log?N/?N0, represent the ratio of the nominal
+page=6 block=1609960076 (x=1 y=653) width=252 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+strength to that of a beam with no FRP. In other words, the size
+page=6 block=1609960076 (x=1 y=664) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+effect occurs only for the additional beam strength due to FRP re-
+page=6 block=1609960076 (x=1 y=675) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+inforcement. As expected, the deviation from the SEL curve in-
+page=6 block=1609960076 (x=1 y=687) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+creases as the nominal strength of the beam approaches the
+page=6 block=1609960076 (x=1 y=698) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+3rd data set
+page=6 block=2095373876 (x=357 y=17) width=39 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+4th data set
+page=6 block=1740095856 (x=466 y=17) width=39 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Chiew et al. (2007)
+page=6 block=1732513254 (x=343 y=32) width=66 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+4PB
+page=6 block=1732513254 (x=369 y=42) width=15 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Figs. 5 and 6(c)
+page=6 block=1732513254 (x=349 y=52) width=54 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Maalej and Leong (2005)
+page=6 block=143251944 (x=442 y=32) width=87 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+4PB
+page=6 block=143251944 (x=478 y=42) width=15 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Fig. 6(d)
+page=6 block=143251944 (x=470 y=52) width=30 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+D/2D/3.2D
+page=6 block=143251944 (x=467 y=62) width=37 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+D/2D/3.2D
+page=6 block=143251944 (x=467 y=72) width=37 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+146× 115d
+page=6 block=143251944 (x=467 y=79) width=37 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+1.71, 120
+page=6 block=143251944 (x=469 y=92) width=33 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+500 (4.17)
+page=6 block=143251944 (x=468 y=102) width=35 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+CFRP
+page=6 block=143251944 (x=475 y=112) width=21 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0/1/2
+page=6 block=143251944 (x=477 y=122) width=17 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0.165
+page=6 block=143251944 (x=476 y=132) width=19 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+235
+page=6 block=143251944 (x=479 y=142) width=13 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+64 ×10?6/66.0/31/60
+page=6 block=143251944 (x=450 y=149) width=71 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+12.5
+page=6 block=143251944 (x=478 y=162) width=15 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+D
+page=6 block=1380361139 (x=373 y=62) width=6 height=4 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=17 wordint.max=17
+D/2D/4D/8D
+page=6 block=195253450 (x=354 y=72) width=44 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+350×200
+page=6 block=1280263013 (x=360 y=82) width=33 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0.63, 317
+page=6 block=181372317 (x=360 y=92) width=33 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+800 (2.52)
+page=6 block=1844700236 (x=359 y=102) width=35 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+GFRPf
+page=6 block=1844700236 (x=365 y=109) width=23 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+0/1/2/3
+page=6 block=1844700236 (x=364 y=122) width=24 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+1.7
+page=6 block=1844700236 (x=371 y=132) width=11 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+27
+page=6 block=1844700236 (x=372 y=142) width=9 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+55 ×10?6/55.0/31/55
+page=6 block=1844700236 (x=341 y=149) width=71 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+25
+page=6 block=1844700236 (x=372 y=162) width=9 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+(d)
+page=6 block=2095573052 (x=312 y=571) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+horizontal dashed line ?N/?N0=1, indicating the strength of the
+page=6 block=1241897134 (x=277 y=652) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+beam with no FRP reinforcement.
+page=6 block=1241897134 (x=277 y=664) width=131 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The failure mode may switch to the failure mode of the control
+page=6 block=1241897134 (x=289 y=675) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+specimen or a different mode of delamination as the size increases.
+page=6 block=1241897134 (x=277 y=686) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+This depends on which part of the FRP reinforcement gets
+page=6 block=1241897134 (x=277 y=698) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+Page: 7 left:1 upper:1
+Fig. 8. (a) The calibration of M7 usingthe three point bendingtestof strengthened notched beams inCarloni et al. (2017); and(b)prediction forlarger
+page=7 block=1016090398 (x=1 y=683) width=528 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+sizes and the size effect trend of concrete prisms reinforced with SRP plates on the tension face.
+page=7 block=1016090398 (x=1 y=694) width=349 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+© ASCE
+page=7 block=1320357188 (x=1 y=719) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+04020056-7
+page=7 block=223783590 (x=244 y=719) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+J. Compos. Constr.
+page=7 block=1769128714 (x=461 y=719) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=7 block=1470400901 (x=194 y=747) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+debonded. For instance, for the IC debonding failure mode, the
+page=7 block=28010264 (x=1 y=1) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+crack usually propagates from the middle to the FRP layer end.
+page=7 block=28010264 (x=1 y=12) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+Therefore, some parts of the FRP reinforcement could still be active
+page=7 block=28010264 (x=1 y=23) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+in the midspan region. This uncracked part of the beam contributes
+page=7 block=28010264 (x=1 y=35) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+to the moment capacity of the base structure. Thus, the deviations
+page=7 block=28010264 (x=1 y=46) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+from the SEL curve may start above the horizontal line as is usually
+page=7 block=28010264 (x=1 y=57) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+seen in the case of one layer of FRP reinforcements. However, the
+page=7 block=28010264 (x=1 y=69) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+nominal strength cannot go below the zero layer limit, because the
+page=7 block=28010264 (x=1 y=80) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+governing failure mode of the control specimens is the yielding of
+page=7 block=28010264 (x=1 y=91) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+steel followed by the crushing of concrete, in which the size effect
+page=7 block=28010264 (x=1 y=103) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+is absent (or small, if the concrete is crushing, which should, of
+page=7 block=28010264 (x=1 y=114) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+course, be precluded in design).
+page=7 block=28010264 (x=1 y=125) width=122 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Figs. 6(b and c) show broader size predictions using the cali-
+page=7 block=28010264 (x=13 y=136) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+bration of M7 based on the second and third data sets. The results
+page=7 block=28010264 (x=1 y=147) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+of the size effect simulations are similar. In addition, the experi-
+page=7 block=28010264 (x=1 y=159) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+mental veri?cation of the size effect in this failure type was
+page=7 block=28010264 (x=1 y=170) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+(a)
+page=7 block=957414929 (x=5 y=368) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(b)
+page=7 block=1174737066 (x=5 y=471) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+(c)
+page=7 block=891175246 (x=140 y=471) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+Fig. 7. (a) Numerical results demonstrate the shear stress contours and
+page=7 block=1876390738 (x=1 y=491) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+FE mesh with cracking pattern; (b) the variations of shear stress along
+page=7 block=1876390738 (x=1 y=502) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the FRP–concrete interface for both large and small beams; and (c) size
+page=7 block=1876390738 (x=1 y=513) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+effect behavior for four different sizes of FRP-strengthened beams
+page=7 block=1876390738 (x=1 y=524) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+without steel reinforcement.
+page=7 block=1876390738 (x=1 y=535) width=101 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+(a)
+page=7 block=1359603919 (x=80 y=657) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+conducted in Maalej and Leong (2005). In this study, beams of
+page=7 block=1063723524 (x=277 y=1) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+three different sizes, with the size ratios of D : 2D : 3.2D, were
+page=7 block=1063723524 (x=277 y=12) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+analyzed with 3D scaling. The M7 simulations ?t the test data ad-
+page=7 block=1063723524 (x=277 y=23) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+equately, as seen in Fig. 6(d).
+page=7 block=1063723524 (x=277 y=34) width=117 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+All the predictions and tests document a signi?cant size effect,
+page=7 block=1063723524 (x=289 y=45) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+which cannot be neglected in design.
+page=7 block=1063723524 (x=277 y=56) width=142 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Discussion
+page=7 block=2025066647 (x=277 y=95) width=53 height=5 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=21
+The steel reinforcement obstructs the simplicity of the size effect
+page=7 block=741191984 (x=277 y=117) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+curve, owing to a change of the failure mode for larger FRP
+page=7 block=741191984 (x=277 y=128) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+strengthened beams. The simple curve of the SEL can be obtained
+page=7 block=741191984 (x=277 y=140) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+by removing from the beams the ?exural steel reinforcement
+page=7 block=741191984 (x=277 y=151) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+(Fig. 7). Figs. 7(a and b) show the shear stress distribution along
+page=7 block=741191984 (x=277 y=162) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the length of concrete–FRP interface, for both small (size D) and
+page=7 block=741191984 (x=277 y=173) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+large (size 2D) beams, at the maximum load, Pmax.
+page=7 block=741191984 (x=277 y=184) width=196 height=7 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The failure mechanism is not the same as it is for the SST spec-
+page=7 block=741191984 (x=289 y=195) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+imens in Fig. 2. As the beam bends, tensile stresses in the cross-
+page=7 block=741191984 (x=277 y=206) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+section below the neutral axis increase. As the tensile strength of
+page=7 block=741191984 (x=277 y=217) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+concrete is relatively low, the ?exural cracks propagate towards
+page=7 block=741191984 (x=277 y=228) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+the neutral axis, whose location moves as the cross-sectional
+page=7 block=741191984 (x=277 y=239) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+stresses change. The shear forces in these cracked sections transfer
+page=7 block=741191984 (x=277 y=251) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+into the FRP–concrete interface, creating a sharp shear stress con-
+page=7 block=741191984 (x=277 y=262) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+centration. Further bending of the beam creates new cracks and
+page=7 block=741191984 (x=277 y=273) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+sharp shear stress concentrations next to each other, with slightly
+page=7 block=741191984 (x=277 y=284) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+inclined orientations due to shear cracking effects, as shown in
+page=7 block=741191984 (x=277 y=295) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+Figs. 7(a and b). The failure occurs when several adjacent segments
+page=7 block=741191984 (x=277 y=306) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+(or toothlike segments of the concrete cover) coalesce to form a de-
+page=7 block=741191984 (x=277 y=317) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+bonding zone with an abrupt load drop. The number of coalescing
+page=7 block=741191984 (x=277 y=328) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+segments depends on the balance between the strain energy re-
+page=7 block=741191984 (x=277 y=339) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+leased and the energy dissipated by fracture. Therefore, large
+page=7 block=741191984 (x=277 y=350) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+beams with thin FRP reinforcement may fail even by the debonding
+page=7 block=741191984 (x=277 y=362) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+of one segment. That is the source of the early deviation from the
+page=7 block=741191984 (x=277 y=373) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+SEL in one layer of the FRP-strengthened specimens (Fig. 6).
+page=7 block=741191984 (x=277 y=384) width=237 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+On the other hand, the highest energy release can be achieved in
+page=7 block=741191984 (x=289 y=395) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+small beams with fewer numbers of layers. However, these types of
+page=7 block=741191984 (x=277 y=406) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+interface debonding usually do not occur exactly at the FRP–
+page=7 block=741191984 (x=277 y=417) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+concrete interface because the FRP stiffness provides high con?ne-
+page=7 block=741191984 (x=277 y=428) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ment on the neighboring concrete layer. Therefore, the elements
+page=7 block=741191984 (x=277 y=439) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+above the interface layer, which have weaker con?nement, can ini-
+page=7 block=741191984 (x=277 y=450) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+tiate the delamination fracture by leaving concrete debris on the
+page=7 block=741191984 (x=277 y=461) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+FRP inner surface.
+page=7 block=741191984 (x=277 y=473) width=71 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The texture of the toothlike segments in the concrete cover does
+page=7 block=741191984 (x=289 y=484) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+not change with size. The failure mode and location of the cracking
+page=7 block=741191984 (x=277 y=495) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+initiation are the same for geometrically scaled structures, as shown
+page=7 block=741191984 (x=277 y=506) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+in Fig. 7(c). The stress states at the homologous points are similar
+page=7 block=741191984 (x=277 y=517) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+for large and small beams, and the SEL ?ts the data without any
+page=7 block=741191984 (x=277 y=528) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+horizontal limit. Therefore, the FPZ can be regarded as constant
+page=7 block=741191984 (x=277 y=539) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+(b)
+page=7 block=847018986 (x=277 y=657) width=9 height=5 fontname=NMEPPG+TimesNewRoman wordint.min=1 wordint.max=17
+Page: 8 left:1 upper:1
+© ASCE
+page=8 block=881662115 (x=1 y=719) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+04020056-8
+page=8 block=1818592781 (x=244 y=719) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+J. Compos. Constr.
+page=8 block=754978432 (x=461 y=719) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=8 block=2096268257 (x=194 y=747) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+for geometrically scaled beams. What matters is the relative stiff-
+page=8 block=551994588 (x=1 y=1) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ness value or the ratio of the stiffness of the unreinforced and
+page=8 block=551994588 (x=1 y=12) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+FRP-strengthened cases, ? in Eq. (7), which does not change
+page=8 block=551994588 (x=1 y=23) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+with 2D or 3D scaling. These facts make the failure mechanisms
+page=8 block=551994588 (x=1 y=34) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+of FRP-strengthened beams different from the SST specimens.
+page=8 block=551994588 (x=1 y=45) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Another validation of the uniform trend of size effect without
+page=8 block=551994588 (x=13 y=56) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+steel reinforcement is provided by Fig. 8, showing the test data
+page=8 block=551994588 (x=1 y=67) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+of Carloni et al. (2017). The concrete prisms of dimensions 150 ×
+page=8 block=551994588 (x=1 y=78) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+150 × 600 mm3 and with a half-depth notch are subjected to three-
+page=8 block=551994588 (x=1 y=86) width=252 height=8 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+point bending. The specimens are strengthened with steel ?ber-
+page=8 block=551994588 (x=1 y=100) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+reinforced polymer (SRP) composites on their tension face. Two
+page=8 block=551994588 (x=1 y=111) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+different SRP plates are used in these tests. MD in Fig. 8 refers
+page=8 block=551994588 (x=1 y=122) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+to the medium density ofsteel strips whereas HD refers tohigh den-
+page=8 block=551994588 (x=1 y=133) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+sity, which corresponds to two different equivalent thicknesses of
+page=8 block=551994588 (x=1 y=144) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the bonded plates. The calibration of M7 is based on the load versus
+page=8 block=551994588 (x=1 y=155) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+midspan de?ection behavior of the tests for both MD and HD spec-
+page=8 block=551994588 (x=1 y=166) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+imens, as shown in Fig. 8(a). The prediction for larger sizes is
+page=8 block=551994588 (x=1 y=177) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+shown in Fig. 8(b). Similar to the results displayed in Fig. 7(c),
+page=8 block=551994588 (x=1 y=188) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+the numerical results exhibit a clear size effect trend.
+page=8 block=551994588 (x=1 y=199) width=202 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Conclusions
+page=8 block=1618180899 (x=1 y=235) width=59 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=21
+The results of this study, which deals with an important problem of
+page=8 block=1294605731 (x=1 y=258) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the size effect on externally bonded FRP systems for strengthening
+page=8 block=1294605731 (x=1 y=269) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+concrete structures, are shown to be applicable to both the FRP sheets
+page=8 block=1294605731 (x=1 y=280) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+(cured in situ) and the laminates (pre-cured pultruded systems) used
+page=8 block=1294605731 (x=1 y=291) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+to strengthen beams or slabs in ?exure. For the shear strengthening
+page=8 block=1294605731 (x=1 y=302) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+of RC beams or slabs, the size effect factor for beam shear, recently
+page=8 block=1294605731 (x=1 y=313) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+introduced into ACI-318 design code, must also be applied.
+page=8 block=1294605731 (x=1 y=324) width=222 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Although the restraint of FRP by the bonded concrete prevents
+page=8 block=1294605731 (x=13 y=335) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+cracking just next to the bonded FRP surface, cracking generally
+page=8 block=1294605731 (x=1 y=346) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+develops deeper in the concrete substrate than the bond surface.
+page=8 block=1294605731 (x=1 y=357) width=245 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Geometrically scaled FRP-strengthened RC beams exhibit a sig-
+page=8 block=1294605731 (x=13 y=368) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ni?cant energetic size effect. However, the size effect applies only
+page=8 block=1294605731 (x=1 y=379) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+to the additional beam strength owing to the FRP reinforcement.
+page=8 block=1294605731 (x=1 y=390) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+Deviations from the energetic SEL occur for large sizes for
+page=8 block=1294605731 (x=1 y=401) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+which the nominal strength of the beam approaches the nominal
+page=8 block=1294605731 (x=1 y=412) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+strength owing to the ?exural steel reinforcement alone. This is
+page=8 block=1294605731 (x=1 y=423) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+the strength of the case of no FRP strengthening.
+page=8 block=1294605731 (x=1 y=434) width=188 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The differences among the delamination failure modes can be
+page=8 block=1294605731 (x=13 y=445) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+attributed to the ratio, ?, of the bending stiffnesses of steel and
+page=8 block=1294605731 (x=1 y=456) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+FRP reinforcement. Increasing the thickness of FRP sheets
+page=8 block=1294605731 (x=1 y=467) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=9
+makes ? larger and shifts the fracture initiation towards the FRP
+page=8 block=1294605731 (x=1 y=478) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+end. The competition between the failure modes of delamination
+page=8 block=1294605731 (x=1 y=489) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+is determined by the relative importance of tensile and shear
+page=8 block=1294605731 (x=1 y=500) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+stresses for the fracture initiation.
+page=8 block=1294605731 (x=1 y=511) width=128 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Placing the end (or cutoff point) of the FRP sheet inside the shear
+page=8 block=1294605731 (x=13 y=522) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+span of the FRP-reinforced beam changes the failure mode for
+page=8 block=1294605731 (x=1 y=533) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+higher FRP thicknesses to the cover delamination. The stress con-
+page=8 block=1294605731 (x=1 y=544) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+centration at the cutoff point causes ripping off the concrete at the
+page=8 block=1294605731 (x=1 y=555) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+cutoff point, which triggers delamination failure and lowers the
+page=8 block=1294605731 (x=1 y=566) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+beam strength values. FRP sheet designs extending slightly beyond
+page=8 block=1294605731 (x=1 y=577) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+the point of delamination could help to avoid this type of failure.
+page=8 block=1294605731 (x=1 y=588) width=247 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Eq. (5) can be used to de?ne the strength of the debonding fail-
+page=8 block=1294605731 (x=13 y=599) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ures of the FRP–concrete interface. The size effect factor in this
+page=8 block=1294605731 (x=1 y=610) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+equation is denoted as ?s. The shear span, a, should be used in ?s
+page=8 block=1294605731 (x=1 y=621) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+as the characteristic structure size. For smaller sizes, the beam
+page=8 block=1294605731 (x=1 y=632) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+strength is, in Eq. (6), de?ned as a function of the concrete com-
+page=8 block=1294605731 (x=1 y=643) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+pressive strength fc, and the ratio, ?, of the bending stiffnesses of
+page=8 block=1294605731 (x=1 y=654) width=252 height=6 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+the FRP sheet and the steel reinforcements.
+page=8 block=1294605731 (x=1 y=665) width=166 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+The effective length concept for the SST specimens cannot
+page=8 block=1294605731 (x=13 y=676) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+be applied directly to the RC beam problems. The failure and
+page=8 block=1294605731 (x=1 y=687) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+energy release mechanism of a bending specimen is different
+page=8 block=1294605731 (x=1 y=698) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+than it is in direct shear failures. Moreover, the geometrical
+page=8 block=623862380 (x=277 y=1) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+scaling of an FRP-reinforced member under ?exure does not
+page=8 block=623862380 (x=277 y=12) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+change the FPZ in debonding failures, whereas in SST, the
+page=8 block=623862380 (x=277 y=23) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+FPZ changes depending on the axial stiffness of FRP (or another
+page=8 block=623862380 (x=277 y=34) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+elastic material). The FPZ of debonding cracks in the RC beam is
+page=8 block=623862380 (x=277 y=45) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+much longer than the FPZ in SST. More importantly, the initial
+page=8 block=623862380 (x=277 y=56) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+?exural and shear-?exural cracks in the shear zone create in the
+page=8 block=623862380 (x=277 y=67) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+concrete cover small toothlike segments, and these segments fur-
+page=8 block=623862380 (x=277 y=78) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ther prevent the shear zone length from reaching the full effec-
+page=8 block=623862380 (x=277 y=89) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+tive length.
+page=8 block=623862380 (x=277 y=100) width=45 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Data Availability Statement
+page=8 block=871989809 (x=277 y=134) width=127 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=5
+•
+page=8 block=1210600718 (x=276 y=156) width=5 height=6 fontname=NMEOMA+AdvOT833fb896+20 wordint.min=1 wordint.max=5
+Some or all data, models, or code generated or used during the
+page=8 block=1433568941 (x=289 y=157) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+study are available in a repository online in accordance with
+page=8 block=1433568941 (x=289 y=168) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+funder data retention policies (http://www.civil.northwestern
+page=8 block=1433568941 (x=289 y=179) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+.edu/people/bazant/s).
+page=8 block=1433568941 (x=289 y=190) width=83 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Acknowledgments
+page=8 block=185639533 (x=277 y=223) width=88 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=21
+The ?rst author thanks ITU BAP for supporting the Project No.
+page=8 block=1946636596 (x=277 y=246) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+40860 and The Scienti?c and Technological Research Council of
+page=8 block=1946636596 (x=277 y=257) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Turkey for ?nancially supporting the ?rst 12 months of his
+page=8 block=1946636596 (x=277 y=268) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+post-doctoral appointment at Northwestern University. Partial
+page=8 block=1946636596 (x=277 y=279) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=8
+funding under NSF Grant No. CMMI-2029641 to Northwestern
+page=8 block=1946636596 (x=277 y=290) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+University is gratefully acknowledged.
+page=8 block=1946636596 (x=277 y=301) width=148 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+References
+page=8 block=2118984327 (x=277 y=335) width=53 height=6 fontname=NMEOKL+AdvOT5bf56204.B wordint.min=1 wordint.max=21
+ACI (American Concrete Institute). 2017. Guide for the design and con-
+page=8 block=1061913613 (x=277 y=358) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+struction of externally bonded FRP systems for strengthening concrete
+page=8 block=1061913613 (x=289 y=368) width=240 height=5 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=4
+structures. Rep. No. 440.2R-17. West Lafayette, IN: ACI.
+page=8 block=1061913613 (x=289 y=378) width=199 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Arduini, M., and A. Nanni. 1997. “Behavior of precracked RC beams
+page=8 block=1061913613 (x=277 y=388) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+strengthened withcarbon FRP sheets.” J.Compos. Constr. 1 (2): 63–70.
+page=8 block=1061913613 (x=289 y=398) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Attari,N.,S. Amziane, and M. Chemrouk. 2012. “Flexuralstrengthening of
+page=8 block=1061913613 (x=277 y=408) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+concrete beams using CFRP, GFRP and hybrid FRP sheets.” Constr.
+page=8 block=1061913613 (x=289 y=418) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Build. Mater. 37: 746–757.
+page=8 block=1061913613 (x=289 y=428) width=93 height=5 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=4
+Baz?ant, Z. P. 1984. “Size effect in blunt fracture: Concrete, rock, metal.”
+page=8 block=826690115 (x=277 y=438) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+J. Eng. Mech. 110 (4): 518–535.
+page=8 block=826690115 (x=289 y=448) width=112 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Baz?ant, Z. P. 2002. Scaling of structural strength. London: Hermes Penton
+page=8 block=826690115 (x=277 y=458) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Science.
+page=8 block=826690115 (x=289 y=468) width=28 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Baz?ant, Z. P., and B. H. Oh. 1983. “Crack band theory for fracture of con-
+page=8 block=826690115 (x=277 y=478) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+crete.” Matér. Constr. 16 (3): 155–177.
+page=8 block=826690115 (x=289 y=488) width=135 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Baz?ant, Z. P., and J. Oz?bolt. 1990. “Nonlocal microplane model for frac-
+page=8 block=826690115 (x=277 y=498) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+ture, damage, and size effect in structures.” J. Eng. Mech. 116 (11):
+page=8 block=826690115 (x=289 y=508) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+2485–2505.
+page=8 block=826690115 (x=289 y=518) width=40 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Baz?ant, Z. P., and J. Planas. 1998. Fracture and size effect in concrete and
+page=8 block=2139501486 (x=277 y=528) width=252 height=5 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=4
+other quasibrittle materials. Boca Raton, FL: CRC Press.
+page=8 block=2139501486 (x=289 y=538) width=197 height=5 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=5
+Brena, S. F., R. M. Bramblett, S. L. Wood, and M. E. Kreger. 2003.
+page=8 block=1757970371 (x=277 y=548) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+“Increasing ?exural capacity of reinforced concretebeams using carbon
+page=8 block=1757970371 (x=289 y=558) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+?ber-reinforced polymer composites.” Struct. J. 100 (1): 36–46.
+page=8 block=1757970371 (x=289 y=568) width=218 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Caner, F. C., and Z. P. Baz?ant. 2013a.“Microplane model m7 forplain con-
+page=8 block=1757970371 (x=277 y=578) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+crete. I: Formulation.” J. Eng. Mech. 139 (12): 1714–1723.
+page=8 block=1757970371 (x=289 y=588) width=203 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Caner, F. C., and Z. P. Baz?ant. 2013b. “Microplane model m7 for plain con-
+page=8 block=1757970371 (x=277 y=598) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+crete. II:Calibration and veri?cation.” J. Eng. Mech. 139 (12): 1724–1735.
+page=8 block=1757970371 (x=289 y=608) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Carloni, C., M. Santandrea, and I. A. O. Imohamed. 2017. “Determination
+page=8 block=1757970371 (x=277 y=618) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+of the interfacial properties of SRP strips bonded to concrete and com-
+page=8 block=1757970371 (x=289 y=628) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+parison between single-lap and notched beam tests.” Eng. Fract. Mech.
+page=8 block=1757970371 (x=289 y=638) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+186: 80–104.
+page=8 block=1757970371 (x=289 y=648) width=45 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Carrara, P., D. Ferretti, F. Freddi, and G. Rosati. 2011. “Shear tests of car-
+page=8 block=1757970371 (x=277 y=658) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+bon ?ber plates bonded to concrete with control of snap-back.” Eng.
+page=8 block=1757970371 (x=289 y=668) width=240 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Fract. Mech. 78 (15): 2663–2678.
+page=8 block=1757970371 (x=289 y=678) width=117 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Chen, J. F., and J. G. Teng. 2001. “Anchorage strength models for FRP and
+page=8 block=1757970371 (x=277 y=688) width=252 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+steel plates bonded to concrete.” J. Struct. Eng. 127 (7): 784–791.
+page=8 block=1757970371 (x=289 y=698) width=227 height=5 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Page: 9 left:1 upper:1
+© ASCE
+page=9 block=197195067 (x=1 y=719) width=30 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=4
+04020056-9
+page=9 block=148353618 (x=244 y=719) width=42 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=17
+J. Compos. Constr.
+page=9 block=1182985125 (x=461 y=719) width=68 height=5 fontname=NMEOKM+AdvOTda51268d wordint.min=1 wordint.max=5
+ J. Compos. Constr., 2020, 24(5): 04020056 
+page=9 block=1839182545 (x=194 y=747) width=142 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Chiew, S.-P., Q. Sun, and Y. Yu. 2007. “Flexural strength of RC beams
+page=9 block=1643838324 (x=1 y=1) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+with GFRP laminates.” J. Compos. Constr. 11 (5): 497–506.
+page=9 block=1643838324 (x=13 y=11) width=208 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Dönmez, A., and Z. P. Baz?ant. 2017. “Size effect on punching strength of
+page=9 block=1643838324 (x=1 y=21) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+reinforced concrete slabs with and without shear reinforcement.” ACI
+page=9 block=1643838324 (x=13 y=31) width=240 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Struct. J. 114 (4): 875–886.
+page=9 block=1643838324 (x=13 y=41) width=95 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Dönmez,A., and Z. P. Baz?ant. 2019.“Critiqueof critical shear cracktheory
+page=9 block=1643838324 (x=1 y=51) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+for FIB model code articles on shear strength and size effect of rein-
+page=9 block=1643838324 (x=13 y=61) width=240 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+forced concrete beams.” Struct. Concr. 20 (4): 1451–1463.
+page=9 block=1643838324 (x=13 y=71) width=201 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Maalej, M., and Y. Bian. 2001. “Interfacial shear stress concentration in
+page=9 block=1643838324 (x=1 y=81) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+FRP-strengthened beams.” Compos. Struct. 54 (4): 417–426.
+page=9 block=1643838324 (x=13 y=91) width=208 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Maalej, M., and K. S. Leong. 2005. “Effect of beam size and FRP thick-
+page=9 block=1643838324 (x=1 y=101) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+ness on interfacial shear stress concentration and failure mode
+page=9 block=1643838324 (x=13 y=111) width=240 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+of FRP-strengthened beams.” Compos. Sci. Technol. 65 (7–8):
+page=9 block=1409978427 (x=289 y=1) width=240 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=7
+1148–1158.
+page=9 block=1409978427 (x=289 y=11) width=42 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=17
+Raoof, S. M., and D. A. Bournas. 2017. “TRM versus FRP in ?exural
+page=9 block=1409978427 (x=277 y=21) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+strengthening of RC beams: Behaviour at high temperatures.” Constr.
+page=9 block=1409978427 (x=289 y=31) width=240 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+Build. Mater. 154: 424–437.
+page=9 block=1409978427 (x=289 y=41) width=98 height=4 fontname=NMEOMC+AdvOT2ea83e65.I wordint.min=1 wordint.max=5
+Rasoolinejad, M., and Z. P. Baz?ant. 2019. “Size effect of squat shear walls
+page=9 block=92575452 (x=277 y=51) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+extrapolated by microplane model M7.” ACI Struct. J. 116 (3): 75–84.
+page=9 block=92575452 (x=289 y=61) width=240 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Saadatmanesh, H., and M. R. Ehsani. 1991. “RC beams strengthened with
+page=9 block=92575452 (x=277 y=71) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=5
+GFRPplates. I:Experimental study.” J.Struct.Eng.117(11): 3417–3433.
+page=9 block=92575452 (x=289 y=81) width=240 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+Teng, J. G., S. T. Smith, J. Yao, and J. F. Chen. 2003. “Intermediate crack-
+page=9 block=92575452 (x=277 y=91) width=252 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4
+induced debonding in RC beams and slabs.” Constr. Build. Mater.
+page=9 block=92575452 (x=289 y=101) width=240 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=6
+17 (6–7): 447–462.
+page=9 block=92575452 (x=289 y=111) width=66 height=4 fontname=NMEOKO+AdvOT833fb896 wordint.min=1 wordint.max=4

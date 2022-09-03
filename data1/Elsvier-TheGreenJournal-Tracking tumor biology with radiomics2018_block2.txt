@@ -1,0 +1,3031 @@
+Content:
+ColumnWidth 252 ColumnNumber 2
+ContentWidth 521 ContentLeft 1 ContentRight 521
+Subtitles:  0 2 3
+
+==============================
+Page 1
+ Left 1 Right 521 Top 1 Bottom 706
+
+
+Column meta:
+Column left:1 upper:113 right:252 lower 671
+Column left:270 upper:514 right:521 lower 666
+
+
+Blocks:
+----------------------
+==============================
+
+typeindex=-5 left=186 right=335 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology 127 (2018) 349–360
+==============================
+
+==============================
+
+typeindex=-1 left=187 right=338 upper=28 lower=32
+====>
+charfont name=KPGPDL+AdvPSUnv charfont height=4.100000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Contents lists available at ScienceDirect
+==============================
+
+==============================
+type: title
+typeindex=8 left=169 right=355 upper=52 lower=60
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=8.600000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Radiotherapy and Oncology
+==============================
+
+==============================
+
+typeindex=-1 left=154 right=370 upper=84 lower=88
+====>
+charfont name=KPGPDL+AdvPSUnv charfont height=4.100000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+journal homepage: www.thegreenjournal.com
+==============================
+
+==============================
+
+typeindex=7 left=1 right=450 upper=133 lower=158
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=8.300000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Tracking tumor biology with radiomics: A systematic review utilizing a
+radiomics quality score
+==============================
+
+==============================
+
+typeindex=6 left=1 right=504 upper=168 lower=194
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=6.500000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Sebastian Sanduleanua,b,?,1, Henry C. Woodruff a,b,d,1, Evelyn E.C. de Jonga,b, Janna E. van Timmeren a,b,
+Arthur Jochems a,b, Ludwig Duboisa,c, Philippe Lambin a,b,c
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=521 upper=203 lower=226
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+aDepartment of Radiation Oncology, GROW – School for Oncology and Developmental Biology, Maastricht University Medical Centre+; bThe-D-Lab: Decision Support for Precision
+Medicine, GROW – School for Oncology and Developmental Biology, Maastricht University Medical Centre+; cDepartment of Radiotherapy, The M-Lab Group, GROW – School for
+Oncology and Developmental Biology, Maastricht University Medical Centre+; and dMAASTRO Clinic, Department of Radiation Oncology, Maastricht, The Netherlands
+==============================
+
+==============================
+type: abstract
+typeindex=-3 left=165 right=521 upper=275 lower=490
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.400000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+Introduction: In this review we describe recent developments in the ?eld of radiomics along with current
+relevant literature linking it to tumor biology. We furthermore explore themethodologic quality ofthese
+studies with our in-house radiomics quality scoring (RQS) tool. Finally, we offer our vision on necessary
+future steps for the development of stable radiomic features and their links to tumor biology. Methods:
+Two authors (S.S. and H.W.) independently performed a thorough systematic literature search and out-
+come extraction to identify relevant studies published in MEDLINE/PubMed (National Center for
+BiotechnologyInformation,NCBI), EMBASE (Ovid) and Web ofScience(WoS). Twoauthors (S.S, H.W) sep-
+arately and two authors (J.v.T and E.d.J) concordantly scored the articles for their methodology and anal-
+yses according to the previously published radiomics quality score (RQS). Results: In summary, a total of
+655 records wereidenti?ed till 25-09-2017 basedon the previously speci?ed searchterms, from whichn
+= 236 in MEDLINE/PubMed, n = 215 in EMBASE and n =204 from Web of Science. After determining full
+article availability and reading theavailablearticles, a total of n = 41studieswere includedin thesystem-
+atic review. The RQS scoring resulted in some discrepancies between the reviewers, e.g. reviewer H.W
+scored 4 studies 50%, reviewer S.S scored 3 studies 50% while reviewers J.v.T and E.d.J scored 1 study
+50%.Up to nine studieswere givena quality score of 0%. The majority ofstudieswere scored below 50%.
+Discussion: In this study, we performed a systematic literature search linking radiomics to tumor biology.
+All but two studies (n = 39) revealed that radiomic features derived from ultrasound, CT, PET and/or MR
+are signi?cantly associated with one or several speci?c tumor biologic substrates, from somatic mutation
+status to tumor histopathologic grading and metabolism. Considerable inter-observer differences were
+found with regard to RQS scoring, while important questions were raised concerning the interpretability
+of the outcome of such scores.
+ 2018 The Author(s). Published by Elsevier B.V. Radiotherapy and Oncology 127 (2018) 349–360 Thisis
+an open accessarticleunder the CCBY-NC-ND license(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=342 upper=685 lower=706
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+https://doi.org/10.1016/j.radonc.2018.03.033
+0167-8140/ 2018 The Author(s). Published by Elsevier B.V.
+This isanopen accessarticle under the CCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+==============================
+
+==============================
+
+typeindex=5 left=1 right=82 upper=113 lower=119
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=5.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Systematic review
+==============================
+
+==============================
+
+typeindex=5 left=1 right=95 upper=254 lower=259
+====>
+charfont name=KPGOGM+AdvGulliv-F charfont height=5.500000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+a r t ic l e i n fo
+==============================
+
+==============================
+
+typeindex=4 left=165 right=230 upper=254 lower=260
+====>
+charfont name=KPGOGM+AdvGulliv-F charfont height=5.500000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+abstract
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=43 upper=274 lower=278
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Article history:
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=121 upper=283 lower=313
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Received 15 May 2017
+Received in revised form 2 March 2018
+Accepted 29 March 2018
+Available online 18 May 2018
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=31 upper=329 lower=333
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Keywords:
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=34 upper=337 lower=358
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Radiomics
+Neoplasms
+Biology
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=514 lower=603
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Medical images are estimated to account for as much as 90 per-
+cent of total stored medical data, with collections of over 30 billion
+medical images currently available in the United States privatesec-
+tor domain for advanced arti?cial intelligence pattern analysis [1].
+Medical images such as computed tomography (CT), magnetic res-
+onance imaging (MRI) and positron emission tomography (PET) are
+obtained for nearly all oncology patients undergoing therapy. Cur-
+rently, most patients will undergo multiple imaging sessions dur-
+ing the course of their treatment. These digital data are
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=1 right=252 upper=627 lower=671
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+? Corresponding author at: Department of Radiation Oncology, GROW – School
+for Oncology and Developmental Biology, Maastricht University Medical Centre+,
+Universiteitssingel 40, 6229 ER Maastricht, The Netherlands.
+E-mail address: s.sanduleanu@maastrichtuniversity.nl (S. Sanduleanu).
+1 Both authors contributed equally.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=514 lower=666
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+increasingly available in the standard DICOM data format, allowing
+for easy and consistent analysis.
+Over the past decade the endeavor to transformdigital standard
+of care medical images to mineable high-dimensional data by
+extracting mathematically quantitative features has been at the
+forefront of imaging research. Radiomic studies may help to char-
+acterize tumor biology in vivo by correlating imaging features with
+ground truth pathology substrates.
+Although medical images are commonly used by radiologists to
+describe a pathologic substrate, features extracted in the radiomic
+process are not part of radiologists’ lexica since they are generally
+not visible to the naked eye. The hypothesis is that these features
+provide added relevant tumor-biology related genomic, cellular
+and metabolic information [2,3]. Features derived from radiomic
+analysis (e.g., intensity, shape, texture, wavelet, etc.) can provide
+==============================
+
+==============================
+Page 2
+ Left 1 Right 521 Top 1 Bottom 706
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 706
+Column left:270 upper:21 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-6 left=1 right=12 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+350
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=146 right=376 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=21 lower=204
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+information that is complementary to other relevant clinical infor-
+mation and are therefore intended to augment currently available
+clinical decision support systems (CDSS) [4–7]. The ?nal goal is to
+improve personalized medical decision-making (see Fig. 1): estab-
+lishing reliable models that can stratify therapy outcomes and can
+be used for assessing patients’ personal trade-off between the risks
+and bene?ts of different treatment options [8–10].
+In this review recent developments in the ?eld of radiomics are
+described, along with relevant literature linking it to tumor biol-
+ogy. Metrics for internal/external validity and completeness of
+the radiomic work?ow have been calculated for these studies with
+our in-house developed radiomics quality score (RQS) tool [11].
+Introducing this tool highlights the methodology upon which
+inference was drawn with regard to the link between radiomics
+and biology. General comments and recommendations for the
+improvement of this tool are presented. Finally, we offer our vision
+on necessary future steps for the development of stable and robust
+radiomic biomarkers and their link to tumor biology.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=1 right=93 upper=223 lower=228
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Materials and methods
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=97 upper=244 lower=249
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Systematic search strategy
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=260 lower=390
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+The research question for this systematic review is described as:
+‘‘What are the known studies linking radiomics to tumor biology
+and what is the methodological quality of these studies?”
+We conducteda comprehensive literature search to identify rel-
+evant studies published in MEDLINE/PubMed (National Center for
+Biotechnology Information, NCBI), EMBASE (Ovid) and Web of
+Science (WoS) until 25-09-2017. We used a search string contain-
+ing free-text and/or Medical Subject Headings (MeSH) search of 3
+key search terms: ‘biology’, ‘neoplasms’ and ‘radiomics’ while
+search terms such as ‘imaging features’ were not used as our pur-
+pose was to review manuscripts using more recent, high through-
+put technology. Details on the search method are shown in the
+Supplementary Appendix.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=55 upper=413 lower=417
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Study selection
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=428 lower=527
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+We included articles satisfying the following inclusion criteria:
+(1) articles were full-text and written in English, (2) the study pop-
+ulation consisted of humans or animals with acquired tissue sam-
+ples or biologic biomarkers, and (3) radiomic analysis was
+performed on mammography, ultrasound, CT, PET or MR images.
+Duplicate ?ndings were discarded to ensure that no data overlap
+occurred. Further selection was performed by applying the follow-
+ing exclusion criteria: (1) studies not linking fundamental biologic
+substrate (e.g., blood biomarkers) to radiomics, and (2) case-
+reports, (systematic) reviews, and expert opinion papers.
+==============================
+
+==============================
+type: SUBTITLE_2
+typeindex=2 left=1 right=57 upper=549 lower=554
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=4.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Data extraction
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=565 lower=706
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+Two authors (S.S. and H.W.) independently performed a thor-
+ough systematic literature search and outcome extraction. From
+the included articles, data concerning study characteristics was
+extracted and tabulated (author, publication year, study popula-
+tion, radiomic feature extraction, main results and conclusion)
+together with measurement characteristics (i.e., method for quan-
+tifying biological mechanism). Furthermore, most relevant statisti-
+cal results (e.g., p-values, AUC, c-index) were extracted and
+summarized. p-Values <0.05 were considered indicative of statisti-
+cal signi?cance.
+S.S., H.W. separately and E.d.J. and J.v.T. concordantly scoredthe
+articles for their methodology according to the radiomics quality
+score (RQS) [11], consisting of sixteen key components (e.g., robust
+segmentation, use of standardized imaging protocols, use of valida-
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=21 lower=172
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+tion dataset); each component was assigned a number of points
+corresponding to its importance as shown in Table 1. Agreement
+between the reviewers was assessed by means of a modi?ed Fleiss
+kappa statistic (linear weights, 1000 iterations for the percentile
+Bootstrap and for the Monte Carlo test, alpha = 0.05) in R-studio
+for Windows (R version 1.0.136, Boston). Although the RQS serves
+as a guideline to evaluate the radiomic work?ow presented in a
+given publication for internal consistency, clinical relevance and
+applicability, and reproducibility, it neither completely reveals
+the methodologic quality nor does it re?ect the overall quality or
+importance of the research and as such it should not replace the
+reader’s scienti?c appraisal. In the context of this review it is used
+as an example for a protocol that can be applied when trying to
+assess the reliability of correlations, classi?ers and predictors built
+using radiomics as their basis.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=270 right=298 upper=209 lower=214
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Results
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=230 lower=706
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+In summary (see Fig. 2), a total of 655 records were identi?ed
+until 25-09-2017 based on the previously speci?ed search terms,
+from which n = 236 in MEDLINE/PubMed, n = 215 in EMBASE and
+n = 204 from Web of Science. After imposing language-
+restrictions and removing duplicate ?ndings, 450 articles
+remained. Further screening by reading the abstracts and applying
+the outlined inclusion criteria resulted in 78 potentially eligible
+studies. After determining full article (open source as well as
+request print) availability and reading the available articles taking
+into account the exclusion criteria set out for this systematic
+review, a total of 41 studies were included, while 37 articles were
+eliminated. A tabulated view of the principal results, conclusion
+and RQS score per component and rater for these studies is pro-
+vided in Supplementary Table 1 and Fig. 3a–c. A brief summary
+of the mean RQS scores between reviewers J.v.T. and E.d.J., H.W.
+and S.S. and the biological correlates, and if mentioned the micro-
+biologic technique, is presented in Table 2. The inter-observer
+agreement with upper/lower level con?dence interval is presented
+per RQS component in Fig. 4.
+Although many correlations between radiomics and specimen
+biology are weak, all but one study [12] reported that at least
+one radiomic model was signi?cantly associated with one or sev-
+eral speci?c biologic mechanisms. In total 38 studies were on clin-
+ical cancer patients and three on preclinical data. Occasionally
+multiple links between radiomics and biology were addressed,
+e.g., histopathological grading and gene expression. For instance,
+Grossmann et al. identi?ed and independently validated thirteen
+radiomic-pathway modules with coherent expression patterns,
+eleven of which were signi?cantly associated with overall survival,
+stage, or histology [13]. By basing these clinical associations exclu-
+sively on radiomic features, they could demonstrate that the asso-
+ciated molecular pathways robustly matched radiomic-based
+hypotheses. For example Laplace of Gaussian intensity standard
+deviation, wavelet intensity variance, and wavelet texture entropy
+were prognostic and associated with staging. These features were
+highly enriched (pathway analysis) for immune system, p53, and
+cell-cycle regulation pathways, biological processes that are widely
+recognized to play key roles in lung cancer.
+A total of 17 studies established a correlation between cancer
+imaging features and a certain gene expression or gene mutation,
+a process called radiogenomics [12–28]. Importantly, a causal rela-
+tionship rather than a correlation was demonstrated between
+genetic changes and image features, reported by Panth et al. [26].
+In this preclinical study gene induction with doxycycline (dox+)
+and irradiation translated into signi?cant changes in radiomic fea-
+tures in GADD34 mouse xenografts (between the dox+ and irradi-
+==============================
+
+==============================
+Page 3
+ Left 1 Right 521 Top 1 Bottom 705
+
+
+Column meta:
+Column left:1 upper:585 right:252 lower 705
+Column left:270 upper:585 right:521 lower 705
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-5 left=159 right=362 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-8 left=509 right=521 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+351
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=521 upper=540 lower=561
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Fig.1. Fromtop to bottom.(a)Intra-tumor heterogeneity, therapid evolution of tumors over time andin response totherapies, andthe potential sampling bias involved ina
+single tumorbiopsy (currentmodel)limits the ef?cientidenti?cationandquali?cation ofbiomarkers forclinical use. Radiomics can alleviatethese problems through ‘virtual
+biopsies’ at multiple sites and time points. (b) Radiomics potentially encapsulates information from the anatomic to the genomic level.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=585 lower=705
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+ation groups 8 and 4 of these features remained consistent for 40
+and 80kVp, respectively).
+A total of nine studies associated radiomic features with tumor
+histopathological grading/malignancy prediction [29–37]. Another
+15 studies explored the correlation between imaging features and
+a speci?c histological substrate, e.g., hormone receptor status or
+microvascular density (MVD) [37–51]. Finally, three studies found
+correlations between tumor metabolism and radiomic features
+[22,51,52].
+The best performing classi?er achieved an AUC of 0.96 in differ-
+entiating between high and low grade intraductal papillary muci-
+nous neoplasms (IPMNs) (this performance was based on
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=585 lower=705
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+internal cross-validation, rather than on an independent validation
+cohort) [29]. The poorest performing classi?er, ‘tumor diameter’,
+achieved an AUC of 0.56 in the prediction of EGFR mutation status
+[27].
+The RQS scoring resulted in some discrepancies between the
+reviewers, e.g. H.W. scored 4 studies 50%, S.S. scored 3 studies
+50% while J.v.T. and E.d.J. scored 1 study 50%. Up to nine studies
+were given a quality score of 0%. The majority of studies were
+scored below 50% due to lacking robust segmentation, external val-
+idation and cut-off analyses/reporting. Nearly all studies were ret-
+rospective and lacking a calibration plot. Striking was that a lack of
+a prospective study design registered in a trial database accounted
+==============================
+
+==============================
+Page 4
+ Left 1 Right 521 Top 1 Bottom 706
+
+
+Column meta:
+Column left:1 upper:21 right:253 lower 706
+Column left:270 upper:44 right:521 lower 706
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-6 left=1 right=12 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+352
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=146 right=376 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=521 upper=29 lower=33
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+Radiomics quality score as described in earlier work [11]. A radiomic study can achieve a total of 36 points maximum. Higher scores provide an indication of higher quality research.
+==============================
+
+==============================
+
+typeindex=-9 left=25 right=420 upper=56 lower=343
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Image protocol quality – well-documented image protocols (e.g., contrast, slice
+thickness, energy, etc.) and/or usage of public image protocols allow reproducibility/
+replicability
+Multiple segmentations – possible actions are: segmentation by different physicians/
+algorithms/software, perturbing segmentations by (random) noise, segmentation at
+different breathing cycles. Analyze feature robustness to segmentation variabilities
+Phantomstudy on all scanners –detect inter-scanner differencesandvendor-dependent
+features. Analyze feature robustness to these sources of variability
+Imaging at multiple time points – collect individuals’ images at additional time points.
+Analyze feature robustness to temporal variabilities (e.g., organ movement, organ
+expansion/shrinkage).
+Feature reduction oradjustment for multiple testing – decreases the risk of over?tting. 3 (if neither measure is implemented)
+Over?tting is inevitable if the number of features exceeds the number of samples.+3 (if either measure is implemented)
+Consider feature robustness when selecting features
+Multivariable analysis with non radiomicfeatures (e.g.,EGFR mutation) – is expected to
+provide a more holistic model. Permits correlating/inferencing between radiomics and
+non radiomics features
+Detect and discuss biological correlates – demonstration of phenotypic differences
+(possibly associated with underlying gene–protein expression patterns) deepens
+understanding of radiomics and biology
+Cut-off analyses – determine risk groups by either the median, a previously published
+cut-off or report a continuous risk variable. Reduces the risk of reporting overly
+optimistic results
+Discrimination statistics – report discrimination statistics (e.g., C-statistic, ROC curve,
+AUC) and their statistical signi?cance (e.g.,p-values, con?dence intervals). One canalso
+apply resampling method (e.g., bootstrapping, cross-validation)
+Calibration statistics – report calibration statistics (e.g., Calibration-in-the-large/slope,
+calibration plots) and their statistical signi?cance (e.g., p-values, con?dence intervals).
+One can also apply resampling method (e.g., bootstrapping, cross-validation)
+Prospective study registered in a trial database – provides the highestlevel of evidence
+supporting the clinical validity and usefulness of the radiomics biomarker
+Validation – the validation is performed without retraining and without adaptation of
+the cut-off value, provides crucial information with regard to credible clinical
+performance
+==============================
+
+==============================
+
+typeindex=-9 left=25 right=290 upper=399 lower=471
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Comparison to ‘gold standard’ – assess the extent to which the model agrees with/is
+superior to the current ‘gold standard’ method (e.g., TNM-staging for survival
+prediction). This comparison shows the added value of radiomics
+Potential clinicalutility– report onthe current and potentialapplication ofthe modelin
+a clinical setting (e.g., decision curve analysis)
+Cost-effectiveness analysis – report on the cost-effectiveness of the clinical application
+(e.g., quality adjusted life years generated)
+Open science and data – make code and data publicly available.Open science facilitates
+knowledge transfer and reproducibility of the study
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-2 left=1 right=23 upper=21 lower=25
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Table 1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=25 right=48 upper=44 lower=48
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Criteria
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=56 lower=60
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=82 lower=86
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=108 lower=112
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+3
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=125 lower=129
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+4
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=150 lower=154
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+5
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=176 lower=180
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+6
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=202 lower=206
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+7
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=228 lower=231
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+8
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=13 upper=253 lower=257
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+9
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=17 upper=279 lower=283
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+10
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=17 upper=305 lower=309
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+11
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=17 upper=322 lower=326
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+12
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=17 upper=399 lower=403
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+13
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=17 upper=425 lower=429
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+14
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=17 upper=442 lower=446
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+15
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=17 upper=459 lower=463
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+16
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=25 right=98 upper=502 lower=506
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Total points (36= 100%)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=1 right=253 upper=516 lower=520
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+Abbreviations: AUC: area under the curve, EGFR: epidermal growth factor receptor.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-5 left=71 right=182 upper=702 lower=706
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=1, likeBody=-100
+
+Fig. 2. Flowchart systematic review.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=318 upper=44 lower=48
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+Points
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=415 upper=56 lower=69
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1 (if protocols are well-documented)
++1 (if public protocol is used)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=306 upper=82 lower=86
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=306 upper=108 lower=112
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=306 upper=125 lower=129
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=306 upper=176 lower=180
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=306 upper=202 lower=206
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=306 upper=228 lower=231
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=512 upper=253 lower=291
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1 (if a discrimination statistic and its statistical signi?cance are
+reported)
++1 (if also an resampling method technique is applied)
++1 (if a calibration statistic and its statistical signi?cance are reported)
++1 (if also an resampling method technique is applied)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=512 upper=305 lower=403
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++7 (for prospective validation of a radiomics signature in an
+appropriate trial)
+5 (if validation is missing)
++2 (if validation is based on a dataset from the same institute)
++3 (if validation is based on a dataset from another institute)
++4 (if validation is based on two datasets from two distinct institutes)
++4 (if the study validates a previously published signature)
++5 (if validation is based on three or more datasets from distinct
+institutes)
+*Datasets should be of comparable size and should have at least 10
+events per model feature.
++2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=306 upper=425 lower=429
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++2
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=306 upper=442 lower=446
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=299 right=512 upper=459 lower=497
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
++1 (if scans are open source)
++1 (if region of interest segmentations are open source)
++1 (if code is open source)
++1 (if radiomics features are calculated on a set of representative ROIs
+and the calculated features +representative ROIs are open source)
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=534 lower=560
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+for as high as 7/36 (nearly 20%) of the total RQS score. Not a single
+study investigated cost-effectiveness of a potential clinically
+implemented radiomic signature.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=270 right=312 upper=586 lower=591
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Discussion
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=607 lower=706
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+In this study, we performed a systematic literature review of
+studies addressing the interplay between radiomic features and
+tumor biology. In total 39 out of 41 studies reveal that radiomic
+features derived from mammography, ultrasound, CT, PET and/or
+MRI are signi?cantly associated with one or several speci?c tumor
+biologic substrates, from somatic mutation status to tumor
+histopathological grading and tumor metabolism.
+To assist with benchmarking the radiomic work?ow for report-
+ing, internal consistency, reproducibility and clinical applicability
+we utilized the RQS score [11], which expands upon initiatives
+==============================
+
+==============================
+Page 5
+ Left 1 Right 521 Top 1 Bottom 706
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 172
+Column left:270 upper:21 right:521 lower 172
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-5 left=159 right=362 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-8 left=509 right=521 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+353
+==============================
+
+==============================
+
+typeindex=-5 left=95 right=426 upper=702 lower=706
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 3. (a–c) Heat map of scoring per individual RQS component for raters (a) J.v.T. and E.d.J, (b) H.W (c) S.S.
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=21 lower=172
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+such as the recent established consensus ‘Transparent Reporting of
+a multivariable prediction model for individual Prognosis or Diag-
+nosis’ (TRIPOD) statement, albeit in a radiomics context. Although
+the RQS score makes no claims about the overall signi?cance or
+impact of a study, it may guide the reader in their appraisal of
+the work?ow. The RQS score mentions the use of a biological cor-
+relate in a speci?c study, but doesnot quantify nor puts in perspec-
+tive the link between tumor biologic substrate and radiomics.
+A good example here of the contrast between work?ow quality
+and impact is a study performed by Grossmann et al. [13] which
+was assigned less than half of the RQS points (mean = 38.9%) e.g.,
+due to not adequately reporting the image protocol and not
+addressing the cut-off values used for the different biologic end-
+points while on the other hand exhibiting a sound methodology
+(e.g., feature reduction, external validation) and performing a com-
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=21 lower=172
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+prehensive genetic pro?ling of the tumors on a relatively large
+study population (n = 351).
+Overall, we found only minor discrepancies between lower RQS
+score studies and the claims about clinical signi?cance made by
+these studies. A total of 30 out of 41 papers had an average RQS
+score of <30%, while only 3/30 of these studies claimed to be
+non-exploratory but of signi?cant impact on clinical outcome
+and/or decision-making. The other 2 studies had an average score
+50 and both of these studies [14,16] addressed a potential clinical
+relevance for the reported imaging biomarker. Furthermore, we
+found some differences in the inter-rater interpretation of the dif-
+ferent RQS score components, justifying the need for more robust
+and easily interpretable methodological scoring systems for radio-
+mic work?ows and reporting. The greatest difference was found for
+RQS-score component ‘potential clinical applicability’, for instance
+==============================
+
+==============================
+Page 6
+ Left 1 Right 521 Top 1 Bottom 702
+
+
+Column meta:
+Column left:1 upper:551 right:252 lower 702
+Column left:270 upper:551 right:521 lower 702
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-6 left=1 right=12 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+354
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=146 right=376 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+==============================
+
+==============================
+
+typeindex=-5 left=234 right=287 upper=523 lower=527
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 3 (continued)
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=551 lower=702
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+the study by Zhang et al. [42] receiving two points by two scorers
+(J.v.T./E.d.J. and H.W.) and 0 points by one scorer (S.S.). This differ-
+ence is related to the high interpretability of the statements made
+in the conclusion section of these studies combined with a lack of
+clear de?nition within the RQS score. Future versions of the RQS
+scoreshould aim at making a clearer distinction between the crite-
+ria for allocation of points, especially in ambiguous components
+such as ‘potential clinical applicability’.
+Throughout the entire radiomic work?ow major limitations
+may in?uence the conclusion of the study [10,11,53]: Radiomic
+studies systematically underreport study designs and (semi-) auto-
+matic and manual delineations oflarge amounts of images aretime
+consuming and subject to error. Moreover, selection and pre-
+processing of images prior to feature extraction are very heteroge-
+neous, and the terminology used for the derived image features
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=551 lower=702
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+lack a standard lexicon, factors which might signi?cantly in?uence
+the conclusion. Additionally, modeling methodology and the
+reporting of outcomes in a clinical relevant fashion is lacking in a
+large amount of studies.
+The two major types of features extracted in the radiomic pro-
+cess are semantic and agnostic [54]. Some recent studies have
+focused on semantic features, which are qualitative radiologic fea-
+tures, e.g., presence of cavitation, location of the lesion, presence of
+pleural effusion and shape of the lesion [22,52,55–57]. These stud-
+ies found signi?cant differences in the semantic features between
+mutated tumors and non-mutated tumors. EGFR mutated tumors
+were for example associated with air bronchogram and pleural
+retraction, while KRAS mutated tumors were associated with nod-
+ules in non-tumor lobes and ALK rearrangements were associated
+with pleural effusion [56]. Both types of radiomic features convey
+==============================
+
+==============================
+Page 7
+ Left 1 Right 521 Top 1 Bottom 701
+
+
+Column meta:
+Column left:1 upper:550 right:252 lower 701
+Column left:270 upper:550 right:521 lower 701
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-5 left=159 right=362 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-8 left=509 right=521 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+355
+==============================
+
+==============================
+
+typeindex=-5 left=234 right=287 upper=522 lower=526
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 3 (continued)
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=550 lower=701
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+pertinent information that is complementary to each other.
+Radiologist-scored semantic annotation is a time consuming and
+costly process and regards non-mineable, qualitative data. There
+is a stride to capture semantic databymeans of deep learning com-
+puter methods to achieve higher inter-reader agreement, faster
+throughput and lower variance [54]. In contrast, agnostic radiomic
+features can be swiftly extracted with minimal operator input and
+make up the bulk of highly mineable quantitative data.
+A key hypothesis driving radiomics research is the potential to
+enable a spatiotemporal and quantitative measurement of both
+intra- and intertumoral heterogeneity based on medical images.
+The studies presented in this systematic review lay a foundation
+for such research by exploring the correlation of imaging biomark-
+ers and the underlying biology. The majority of the studies pre-
+sented fall within the ?eld of radiogenomics; genomic
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=550 lower=701
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+heterogeneity within tumors and across metastatic tumor sites in
+the same patient is currently thought to be a major cause of treat-
+ment failure and the emergence of (targeted) therapy resistance
+[58]. Phylogenetic reconstruction has revealed branched evolu-
+tionary tumor growth, wherein nearly 70% ofall somatic mutations
+are not detectable across every tumor region [59]. This may lead to
+underestimation of the tumor genomic landscape portrayed from
+single tumor-biopsy samples. Aside from (epi)genetic heterogene-
+itya complex andhighly heterogeneoussynergistic interplay exists
+between tumor cellular (proteomic, metabolic, morphological)
+phenotype and the microenvironment surrounding the tumor bed.
+Several studies investigated quantitative CT/PET-derived fea-
+tures associated with genomic and proteomic tumor expression
+[12–28,35,37,47,49,51]. One study (Yip et al.) found that EGFR
+mutated tumors shows different metabolic tumor phenotypes on
+==============================
+
+==============================
+Page 8
+ Left 1 Right 512 Top 1 Bottom 660
+
+
+Column meta:
+Column left:189 upper:44 right:445 lower 660
+Column left:9999 upper:9999 right:0 lower 0
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-6 left=1 right=12 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+356
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=146 right=376 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+==============================
+
+==============================
+
+typeindex=-2 left=1 right=23 upper=21 lower=25
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=3.900000, charfont bold=2, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Table 2
+==============================
+
+==============================
+
+typeindex=-6 left=1 right=148 upper=29 lower=33
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+Summary of systematic review with RQS-scoring.
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=45 upper=44 lower=48
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Study (Ref.)
+==============================
+
+==============================
+
+typeindex=-9 left=92 right=120 upper=44 lower=48
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Modality
+==============================
+
+==============================
+
+typeindex=-9 left=153 right=176 upper=44 lower=48
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Disease
+==============================
+
+==============================
+
+typeindex=-8 left=458 right=512 upper=44 lower=48
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+(Mean) RQS score
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=53 upper=56 lower=60
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Guo et al. [12]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=103 upper=56 lower=60
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+MR
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=161 upper=56 lower=60
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+BC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=56 lower=60
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+18.5%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=75 upper=90 lower=94
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Grossmann et al. [13]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=90 lower=94
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=160 upper=90 lower=94
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+LC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=90 lower=94
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+38.9%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=57 upper=116 lower=120
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Aerts et al. [14]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=116 lower=120
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=174 upper=116 lower=154
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+NSCLC
+HN
+HGSOC
+LAC
+BC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=116 lower=120
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+55.6%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=72 upper=133 lower=154
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Vargas et al. [15]
+Velazquez et al. [16]
+Li et al. [17]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=103 upper=133 lower=154
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+CT
+MR
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=133 lower=154
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+17.6%
+50.0%
+23.1%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=75 upper=168 lower=206
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Yu et al. [18]
+Grossmann et al. [19]
+Lee et al. [20]
+Yu et al. [21]
+Yip et al. [22]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=119 upper=168 lower=206
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+MR
+MR
+MR
+MR
+FDG-PET
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=172 upper=168 lower=206
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+LGG
+GBM
+GBM
+LGG
+NSCLC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=168 lower=206
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+1.9%
+11.1%
+10.2%
+37.9%
+15.8%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=64 upper=236 lower=240
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Gevaert et al. [23]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=236 lower=240
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=160 upper=236 lower=240
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+LC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=236 lower=240
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+20.3%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=56 upper=253 lower=257
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Yoon et al. [24]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=119 upper=253 lower=266
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+FDG-PET
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=164 upper=253 lower=257
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+LAC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=253 lower=257
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+23.3%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=79 upper=288 lower=291
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Emaminejad et al. [25]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=288 lower=291
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=172 upper=288 lower=291
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+NSCLC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=288 lower=291
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+22.2%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=58 upper=305 lower=317
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Panth et al. [26]
+Aerts et al. [27]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=305 lower=317
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=172 upper=305 lower=317
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CRC
+NSCLC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=305 lower=317
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+15.7%
+39.8%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=66 upper=339 lower=351
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Ghosh et al. [28]
+Hanania et al. [29]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=339 lower=351
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+CT
+==============================
+
+==============================
+
+typeindex=-9 left=153 right=171 upper=339 lower=351
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+ccRCC
+IPMN
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=339 lower=351
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+18.5%
+14.8%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=52 upper=365 lower=369
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Suo et al. [30]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=365 lower=369
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=160 upper=365 lower=369
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+LC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=472 upper=365 lower=369
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+8.3%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=52 upper=390 lower=394
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Bae et al. [31]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=390 lower=394
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=164 upper=390 lower=394
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+LAC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=390 lower=394
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+35.2%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=55 upper=408 lower=411
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Pena et al. [32]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=103 upper=408 lower=446
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+MR
+MR
+MR
+CT
+==============================
+
+==============================
+
+typeindex=-9 left=153 right=170 upper=408 lower=446
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+mLAC
+mPM
+PC
+BC
+IPMN
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=408 lower=411
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+12.9%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=77 upper=425 lower=446
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Ginsburg et al. [33]
+Bickelhaupt et al. [34]
+Permuth et al. [35]
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=425 lower=446
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+29.6%
+25.9%
+12.0%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=59 upper=459 lower=471
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Zhang et al. [36]
+Guo et al. [37]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=103 upper=459 lower=463
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+MR
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=161 upper=459 lower=471
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+BC
+BC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=459 lower=463
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+17.6%
+==============================
+
+==============================
+
+typeindex=-9 left=92 right=126 upper=468 lower=471
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Ultrasound
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=468 lower=471
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+17.6%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=63 upper=493 lower=514
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Song et al. [38]
+Patil et al. [39]
+Parmar et al. [40]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=100 upper=493 lower=514
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+CT
+CT
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=174 upper=493 lower=557
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+LAC
+NSCLC
+NSCLC
+HNSCC
+PC
+BC
+BC
+LGG
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=478 upper=493 lower=514
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+33. 3%
+0%
+38.9%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=66 upper=527 lower=557
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Lin et al. [41]
+Zhang et al. [42]
+Marin et al. [43]
+Coquery et al. [44]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=103 upper=527 lower=531
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+MR
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=472 upper=527 lower=531
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+9.3%
+==============================
+
+==============================
+
+typeindex=-9 left=92 right=139 upper=536 lower=557
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Ultrasound
+Mammography
+MR
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=536 lower=557
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+32.4%
+5.6%
+29.6%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=54 upper=579 lower=600
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Choi et al. [45]
+Wu et al. [46]
+Li et al. [47]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=103 upper=579 lower=600
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+CT
+CT
+MR
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=164 upper=579 lower=600
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+LAC
+LC
+BC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=579 lower=600
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+37.0%
+38.9%
+15.7%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=59 upper=613 lower=626
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Gnep et al. [48]
+Wang et al. [49]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=103 upper=613 lower=626
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+MR
+MR
+==============================
+
+==============================
+
+typeindex=-4 left=153 right=161 upper=613 lower=626
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+PC
+BC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=613 lower=626
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+22.2%
+20.4%
+==============================
+
+==============================
+
+typeindex=-9 left=9 right=51 upper=639 lower=643
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Yin et al. [50]
+==============================
+
+==============================
+
+typeindex=-4 left=92 right=119 upper=639 lower=651
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=-1, likeBody=-100
+
+FDG-PET
+MR
+==============================
+
+==============================
+
+typeindex=-9 left=153 right=171 upper=639 lower=643
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+ccRCC
+==============================
+
+==============================
+
+typeindex=-9 left=458 right=475 upper=639 lower=643
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+21.3%
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=189 right=248 upper=44 lower=48
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=189, likeBody=-100
+
+Biological correlate
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=189 right=444 upper=56 lower=411
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=189, likeBody=-100
+
+A genomic dataset of 144 genomic features for 70 genes, including 70 gene
+expression features (normalized read counts of RNA-seq data), 70 copy number
+(Affymetrix Genome-Wide Human SNP Array 6.0) features, and 4 methylation
+features (In?nium HumanMethylation450 BeadChip)
+Gene expression of 21,766 unique genes (custom Rosetta/Merck
+Affymetrix 2.0 microarray chipset). Immunohistochemical staining for CD3, a T-cell
+co-receptor and ReIA (p65)
+Gene expression: affymetrix chips with the custom chipset HuRSTA_2a520709 for
+21,766 genes
+Ampli?cation of 19q12 involving cyclin E1 gene (CCNE1)
+EGFR and KRAS mutation status
+Core biopsy assessment of expression of ER, PR, HER2. MammaPrint (70 gene),
+Oncotype DX (21 gene), and PAM50 (50 gene) assays
+Paraf?n slide PCR assessment of Isocitrate Dehydrogenase 1 (IDH1) status
+Geneexpression(mRNA):583 gene sets containing at least 15 and at most500genes
+Gene expression: EGFR mutation and copy number status
+Paraf?n slide PCR assessment of Isocitrate Dehydrogenase 1 (IDH1) status
+Tissue samples of primary tumors through biopsy or surgical resection. Somatic
+mutations were tested using a PCR–based method (EGFR, KRAS etc.) or PROFILE
+Oncomap (mass spectrometry genotyping technique analyzing > than 470 unique
+mutations in 41 oncogenes)
+Tumor histopathologic subtype. Mutation testing was done for both EGFR and KRAS
+using multiplex PCR
+Tumor histopathologic subtype. Molecular analysis: genomic DNA or RNA extracted
+from lung tumors using standard protocols (RNeasyMini Kit and QiAamp DNAMini
+Kit, Qiagen, Hilden, Germany). ALK, ROS1, and RET fusion assay using nCounterTM
+gene expression assays
+Two genomicbiomarkers,ERCC1and RRM1, wereevaluatedusingthe selected tumor
+specimen and a standard IHC-based analytic method
+GADD34 gene expression
+Genomic DNA from snap frozen tumor resection specimens analyzed for most
+common EGFR-sensitizing mutations (exons 19 and 21) with PCR-based methods.
+EGFR wild-type (WT) tumors were also tested for KRAS mutations
+BAP1 mutation status
+Quantitative analysis of resected specimens of the pancreatic cysts and pancreas
+parenchyma to differentiate high grade from low grade lesions
+Surgical resection specimens, transbronchial lung biopsy, CT-guided percutaneous
+biopsy or clinical examination and therapy to differentiate between benign and
+malignant pulmonary nodules/masses
+Histopathologic tumor grade assessment based on specimen from complete
+resection
+Histopathologic analysis malignancy
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=189 right=445 upper=425 lower=514
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=189, likeBody=-100
+
+Histopathologic Gleason tumor grading
+Tumor histopathologic grade
+Tumor histopathologic grade. 800 miRNAs from archived plasma using Nanostring’s
+nCounter digital technology
+Tumor histopathologic grade.
+Tumor histopathologic grade (Nottingham). Tumor staining with hematoxylin-eosin
+and examined in formalin-?xed, paraf?n-embedded material. Expression of ER, PR,
+HER2, and Ki-67 was assessed by IHC analysis
+Tumor histologic subtype.
+Tumor histopathologic subtype.
+Tumor histopathologic subtype. HPV status.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-7 left=189 right=445 upper=527 lower=660
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=189, likeBody=-100
+
+H&E staining of snap-frozen tumor sections in liquid nitrogen
+Core biopsy or ?ne-needle aspiration cytology for histopathologic assessment
+Tumor microenvironment
+Immunohistochemical analysis of coronal cryosections. Hematoxylin–erythrosine
+staining performed to characterize tumor cell density. Tumor hypoxia was
+determined using the Hypoxyprobe-1 kit (pimonidazole detection)
+Tumor histopathologic subtype
+Tumor histopathologic subtype
+Immunohistochemical molecular classi?cation/subtyping (ER,PR, EGFR2, luminal A/
+B, Her2) based on tumor biopsy
+PSA level analysis
+Expression of ER, PR, HER2 and Ki67 by immunohistochemical analysis of tumor
+specimens
+Tumor samples portioned for snap freezing in liquid nitrogen/ formalin ?xed and
+paraf?n embedded. De?niens Tissue Studio software used to measure microvascular
+density (MVD) in CD31 stained slides
+==============================
+
+==============================
+Page 9
+ Left 1 Right 521 Top 1 Bottom 700
+
+
+Column meta:
+Column left:1 upper:22 right:252 lower 700
+Column left:270 upper:36 right:521 lower 700
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-5 left=159 right=362 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-8 left=509 right=521 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+357
+==============================
+
+==============================
+
+typeindex=-9 left=189 right=440 upper=49 lower=87
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=-1, likeBody=-100
+
+Tumor immunohistochemical parameters, including Ki67, ER, PgR, and HER2 were
+assessed. Metabolic radiomics was assessed from pretreatment 18F-FDG PET/CT
+scans
+Magnetic resonance spectroscopy based volumetric maps of N-acetyl aspartate
+(NAA) and choline (Cho) metabolic tumor volumes (MTV)
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=521 upper=98 lower=119
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=-1, likeBody=-100
+
+NSCLC-non small cell lungcancer; HN-head and neckcancer; BC-breast cancer(LA =locally advanced); HGSOC-high grade serous ovariancancer; LGG-low grade glioma;PC-
+prostate cancer; LAC-lung adenocarcinoma (m = metastatic); GBM-glioblastoma multiforme; PM-pleural mesothelioma (m = malignant); ccRCC-clear cell renal cell carci-
+noma; IPMN-intraductal papillary mucinous neoplasms; LC-lung cancer; HNSCC-head and neck squamous cell carcinoma; BC-bladder cancer; CRC-colorectal carcinoma.
+==============================
+
+==============================
+
+typeindex=-5 left=206 right=315 upper=427 lower=431
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Fig. 4. RQS scoring per component.
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-6 left=1 right=58 upper=22 lower=26
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=8, allupper=0, column left=1, likeBody=-100
+
+Table 2 (continued)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=44 upper=36 lower=40
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Study (Ref.)
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=92 right=119 upper=36 lower=40
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Modality
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=153 right=175 upper=36 lower=40
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Disease
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=189 right=247 upper=36 lower=40
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Biological correlate
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=49 upper=49 lower=53
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Ha et al. [51]
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=92 right=119 upper=49 lower=61
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=1, likeBody=-100
+
+FDG-PET
+CT
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=153 right=168 upper=49 lower=53
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=1, likeBody=-100
+
+LABC
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=9 right=58 upper=75 lower=78
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=1, likeBody=-100
+
+Lopez et al. [52]
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=92 right=102 upper=75 lower=78
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=1, likeBody=-100
+
+MR
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-4 left=153 right=167 upper=75 lower=78
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=1, column left=1, likeBody=-100
+
+GBM
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=455 lower=700
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+PET than KRAS mutated tumor [22]. Another study (Aerts et al.)
+found that baseline radiomic features were able to predict muta-
+tion status and were also able to predict tyrosine kinase inhibitor
+(TKI) treatment response [27].
+The supplementary value of radiomic to current genomic
+biomarkers is well illustrated in a study (Emaminejad et al.) where
+a quantitative image feature-based classi?er yielded signi?cantly
+higher discriminatory power than a genomic biomarker-based
+(AUC of 0.78 ± 0.06 and 0.68 ± 0.07 respectively) classi?er in pre-
+dicting early stage lung cancer recurrence risk [25]. Fusion of pre-
+diction scores generated by the two classi?ers further improved
+prediction performance to 0.84 ± 0.05, indicating that there is
+non-overlapping value added by the radiomic signature.
+As for the temporal heterogeneity, radiomics offers the possibil-
+ity of longitudinal use in treatment monitoring and optimization
+and in active surveillance. Although such applications of radiomics
+(also called delta-, or D-radiomics) have yet to be explored in
+depth [60], they may prove to be clinically relevant. Another new
+development is the so-called ‘4D radiomics’ approach, which can
+beused toquantitatively monitor treatmentover time and perform
+(early) response assessment. In window-of-opportunity trials,
+radiomic features extracted from images before (and after) receiv-
+ing an experimental drug and prior to the start of conventional
+treatment can potentially serve as predictive biomarker for clinical
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=458 right=512 upper=36 lower=40
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+(Mean) RQS score
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=458 right=475 upper=49 lower=53
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+15.7%
+==============================
+
+==============================
+type: IGNORED_INTRABODY
+typeindex=-9 left=458 right=471 upper=75 lower=78
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=0, allupper=0, column left=270, likeBody=-100
+
+8.3%
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=455 lower=700
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+endpoints such as progression-free survival and (early) tumor
+response [61,62]. A recent study shows the predictive value of
+radiomic features extracted from weekly CT images for NSCLC
+patient outcomes [60]. Cone-beam CT (CBCT) images might also
+be a good candidate for 4D radiomics, since these are generally
+acquired at multiple time points during treatment [63,64].
+The link and interplay of metabolic, genomic and histologic
+information with clinical and imaging parameters is crucial for
+the establishment of effective personalized and reliable treatment
+strategies, especially in limited tissue settings. Hananiaetal. serves
+as an example here by evaluating the malignant potential of intra-
+ductal papillary mucinous neoplasms (IPMN’s) in order to stratify
+patients for surgical resection [29]. Currently the consensus-
+based Fukuoka imaging criteria are the main approach to pre-
+operatively identify malignant IPMNs. With these criteria benign
+lesions are incorrectly labeled for surgery 1/3rd of the time at high
+volume and experienced centers, resulting in surgical overtreat-
+ment. The most predictive radiomic marker (a gray-level co-
+occurrence matrix (GLCM) feature) on the other hand differenti-
+ated low grade (LG) and high grade (HG) lesions better than the
+Fukuoka criteria (21% incorrectly labeled for surgery) with an
+AUC of 0.82 at a sensitivity of 85% and speci?city of 68%. Even
+when adequate cytology and/or surgical biopsy specimens are
+available, radiomics offers important advantages for the assess-
+==============================
+
+==============================
+Page 10
+ Left 1 Right 521 Top 1 Bottom 697
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 695
+Column left:270 upper:21 right:521 lower 697
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-6 left=1 right=12 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+358
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=146 right=376 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=1 right=252 upper=21 lower=695
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=100
+
+ment of tumor biology. It is estimated that the error rate of cancer
+histopathology can be as high as 23% and that most clinically rele-
+vant solid tumors are highly heterogeneous over time at the phe-
+notypic, physiologic, and genomic levels [54].
+With the advent of high-resolution imaging and the use of
+speci?c molecular imaging markers the future holds potential for
+the more precise characterization of tumor biology. In the ?eld of
+radiotherapy the biological phenomenon of tumor hypoxia, a com-
+mon feature in many human and animal solid tumors that can be
+visualized by means of novel molecular imaging techniques (e.g.,
+the hypoxia PET-tracers FMISO, FAZA and HX4), has led to recent
+enthusiasm for hypoxic radio-sensitizers and hypoxia-selective
+cytotoxins as an adjunct therapy before tumor irradiation [65].
+Radiomics could be a potential candidate to capture the temporal
+changes of such biological processes over various tumor habitats.
+An interesting development for adequate ex vivo human and
+in vivo animal tissue biology characterization by means of CT-
+based radiomics would be the introduction of micro-CT systems
+[66]. These systems are based on a rotating system of X-ray tube
+and detectors, and have a construction similar to that of human
+CT except that their dimensions are adapted to small animals.
+Compared with standard human CT devices, which offer an instru-
+mental resolution limit of approximately 0.4 mm, therecent devel-
+opment of X-ray microtomography (micro-CT) has introduced
+resolutions similar to that of routine histology (spatial resolution
+of in vivo micro-CT ranges from 100 to 30 mm) [66]. Although the
+clinical application is limited to ex vivo human tissue and whole-
+body imaging of small animals due to the high radiation exposure,
+these techniques alone, or in combination with nuclear medicine
+techniques (micro-SPECT/CT and micro-PET/CT) may provide more
+detailed anatomical imaging information (which in turn might
+capture voxel-size dependent imaging features more precisely
+compared to clinical scanners) together with valuable metabolic
+information.
+Another promising development is the current data-sharing
+efforts set in place, such as the NCI-backed Cancer Imaging Archive
+(TCIA) [67]. Open access to de-identi?ed medical images, histolog-
+ical, clinical and genomic data from cancer centers across the
+world may aid the further development and validation of robust
+biology-correlated radiomic models.
+A major limitation in this systematic review is the omission of
+analysis of publication bias, e.g., by means of a Funnel plot [68].
+Withholding negative results from publication is especially a con-
+cern in the radiomics ?eld, where the application of more sophis-
+ticated machine learning and deep learning networks on vaster
+amounts of clinical as well as imaging data has led to more robust
+models that nearly always produce a satisfactory model. Addition-
+ally, there are several limitations to the RQS score. Several compo-
+nents are not always applicable to every study, e.g., clinical utility
+for pre-clinical studies or ‘comparison to gold standard’ for out-
+comes in which no gold standard exists for the assessment of the
+outcome (e.g., tumor heterogeneity). Other components are not
+described in detail in the scoring table (e.g. what should speci?-
+cally be mentioned on clinical utility) in the scoring table AND/
+OR are relatively ambiguous, for example in the case that only a
+subgroup of features (special diversity, texture etc.) has been
+extracted (in strict sense this is not feature selection). Furthermore
+the interpretability of the RQS score is left to a large extent to the
+reviewer, as it is not meant to report on the overall quality of a
+manuscript or the research it presents, but rather to guide the
+reader on a radiomic work?ow appraisal. These ?ndings indicate
+that the RQS tool will require incremental improvements in order
+to become a widely accepted assessment tool for the methodology
+of radiomic studies. Some of these improvements include a clearer
+de?nition of the RQS components including the allocation of
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=21 lower=193
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+scores, the measurement of tool validity (criterion, content, con-
+struct), and reliability.
+Ourvision for the future of radiomics is intrepid, acknowledging
+that fundamental questions still need to be addressed before clin-
+ical applicability of radiomic imaging biomarkers will be achieved.
+With the advent of pre-clinical inducible knockout system stud-
+ies, whereby a speci?c target gene of interest can be inactivated at
+a given time point, researchers will hopefully be able to draw more
+robust conclusions in the so-far mainly correlative relationship of
+radiomic features with tumor biology [26]. To ?nd imaging
+biomarkers with stronger causal rather than correlative link with
+biological mechanisms would in our vision require not only radio-
+mic studies on a vast amount of ultra-high resolution images to
+present high discrimination statistics in multiple validation sets,
+but also benchmarking and standardization of image pre-
+processing and featureextraction and data-sharing techniquesthat
+exploit matching ontologies.
+==============================
+
+==============================
+
+typeindex=3 left=270 right=344 upper=212 lower=217
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Con?ict of interest
+==============================
+
+==============================
+
+typeindex=1 left=281 right=468 upper=233 lower=238
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=4, allupper=0, column left=270, likeBody=-100
+
+Authors declare there are no con?icts of interest.
+==============================
+
+==============================
+
+typeindex=3 left=270 right=348 upper=255 lower=260
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Acknowledgements
+==============================
+
+==============================
+
+typeindex=0 left=270 right=521 upper=276 lower=448
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-102
+
+Authors acknowledge ?nancial support from ERC advanced
+grant (ERC-ADG-2015, n 694812 – Hypoximmuno) and the
+QuIC-ConCePT project, which is partly funded by EFPI A companies
+and the Innovative Medicine Initiative Joint Undertaking (IMI JU)
+under Grant Agreement No. 115151. This research is also sup-
+ported by the Dutch Technology Foundation STW (grant n
+10696 DuCAT & n P14-19 Radiomics STRaTegy), which is the
+applied science division of NWO, and the Technology Programme
+of the Ministry of Economic Affairs. Authors also acknowledge
+?nancial support from the EU 7th framework program (ARTFORCE
+– n 257144, REQUITE – n 601826), SME Phase 2 (RAIL – n
+673780), EUROSTARS (DART, DECIDE, COMPACT), the European
+Program H2020-2015-17 (BD2Decide – PHC30-689715, Immuno-
+SABR – n 733008 and PREDICT – ITN – n 766276), Interreg V-A
+Euregio Meuse-Rhine (‘‘Euradiomics”), Kankeronderzoekfonds
+Limburg from the Health Foundation Limburg and the Dutch Can-
+cer Society.
+==============================
+
+==============================
+type: SUBTITLE_3
+typeindex=3 left=270 right=401 upper=467 lower=472
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+Appendix A. Supplementary data
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=270 right=521 upper=488 lower=514
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=4.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=100
+
+Supplementary data associated with this articlecan befound, in
+the online version, at https://doi.org/10.1016/j.radonc.2018.03.
+033.
+==============================
+
+==============================
+
+typeindex=3 left=270 right=313 upper=531 lower=536
+====>
+charfont name=KPGPFL+AdvGulliv-B charfont height=4.900000, charfont bold=2, alignment=8, allupper=0, column left=270, likeBody=-100
+
+References
+==============================
+
+==============================
+
+typeindex=-8 left=273 right=521 upper=550 lower=697
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=270, likeBody=-100
+
+[1] Forbes (2015): IBM acquires merge health to supplement Watson healthcare.
+https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/
+sites/greatspeculations/2015/08/12/ibm-acquires-merge-health-to-
+supplement-watson-healthcare/&refURL=https://www.google.nl/&referrer=
+https://www.google.nl/
+[2] Lee G, Lee HY, Ko ES, et al. Radiomics and imaging genomics in precision
+medicine. Precision and Future Medicine. 2017;1:10–31.
+[3] Lee G, Lee HY, Park H, et al. Radiomics and its emerging role in lung cancer
+research, imaging biomarkers and clinical management: state of the art. Eur J
+Radiol 2017;86:297–307.
+[4] Lambin P, van Stiphout RG, Starmans MH, et al. Predicting outcomes in
+radiation oncology–multifactorial decision support systems. Nat Rev Clin
+Oncol. 2013;10:27–40.
+[5] Lambin P, Roelofs E, Reymen B, et al.RapidLearning healthcare inoncology’ –
+an approach towards decision support systems enabling customised
+radiotherapy’. Radiother Oncol. 2013;109:159–64.
+[6] Lambin P, Zindler J, Vanneste B, et al. Modern clinical research: How rapid
+learning health care and cohort multiple randomised clinical trials
+complement traditional evidence based medicine. Acta Oncol 2015;23:1–12.
+==============================
+
+==============================
+Page 11
+ Left 1 Right 521 Top 1 Bottom 694
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 694
+Column left:270 upper:21 right:521 lower 694
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-5 left=159 right=362 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+S. Sanduleanu et al./Radiotherapy and Oncology 127 (2018) 349–360
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-8 left=509 right=521 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=1, allupper=0, column left=-1, likeBody=-100
+
+359
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=252 upper=21 lower=694
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+[7] Lambin P, Zindler J, Vanneste BG, et al. Decision support systems for
+personalized and participative radiation oncology. Adv Drug Deliv Rev
+2017;109:131–53.
+[8] Gani C, Bonomo P, Zwirner K, et al. Organ preservation in rectal cancer –
+challenges and future strategies. Clin Translat Radiat Oncol 2017;3:9–15.
+[9] Skripcak T, Belka C, Bosch W, et al. Creating a data exchange strategy for
+radiotherapy research: towards federated databases and anonymised public
+datasets. Radiother Oncol 2014;113(3):303–9.
+[10] O’Connor JPB. Radiomics: rethinking the role of clinical imaging.eLife 2017:6.
+[11] Lambin P, Leijenaar RTH, Deist TM, et al. Radiomics: the bridge between
+medical imaging and personalized medicine. Nat Rev Clin Oncol 2017;14
+(12):749–62.
+[12] Guo WT, Li H, Zhu YT, etal. Predictionof clinical phenotypes ininvasive breast
+carcinomas from the integration of radiomics and genomics data. J Med
+Imaging 2015;2:041007.
+[13] Grossmann P, String?eld O, El-Hachem N, etal. De?ning the biological basis of
+radiomic phenotypes in lung cancer. eLife 2017:6.
+[14] Aerts HJWL, Velazquez ER, Leijenaar RTH, et al. Decoding tumour phenotype
+by noninvasive imaging using a quantitative radiomics approach. Nat
+Commun 2014;5:4006.
+[15] Vargas HA, Veeraraghavan H, Micco M, et al. A novel representation of inter-
+site tumour heterogeneity from pre-treatment computed tomography
+textures classi?es ovarian cancers by clinical outcome. Eur Radiol
+2017;27:3991–4001.
+[16] Velazquez ER, Parmar C, Liu Y, etal. Somatic mutations drivedistinct imaging
+phenotypes in lung cancer. Cancer Res 2017;77(14).
+[17] Li H,Zhu Y, Burnside ES, et al. MR imaging radiomics signaturesfor predicting
+the risk of breast cancer recurrence as given by research versions of
+mammaprint, oncotype DX, and PAM50 gene assays. Radiology
+2016;281:382–91.
+[18] Yu J, Shi Z, Ji C, et al. Anatomical location differences between mutated and
+wild-type isocitrate dehydrogenase 1 in low-grade gliomas. Int J Neurosci
+2017;127:873–80.
+[19] Grossmann P,Gutman DA, Dunn WD, et al. Imaging-genomics reveals driving
+pathways of MRI derived volumetric tumor phenotype features in
+Glioblastoma. BMC Cancer 2016;16:611.
+[20] Lee J, Narang S, Martinez JJ, et al. Associating spatial diversity features of
+radiologically de?ned tumor habitats with epidermal growth factor receptor
+driver status and 12-month survival in glioblastoma: methods and
+preliminary investigation. J Med Imaging 2015;2:041006.
+[21] Yu J, Shi Z, Lian Y, et al. Noninvasive IDH1 mutation estimation based on a
+quantitative radiomics approach for grade II glioma. Eur Radiol
+2017;27:3509–22.
+[22] Yip SSF, Kim J, Coroner TP, et al. Associations between somatic mutations and
+metabolic imaging phenotypes in non-small cell lung cancer. J Nucl Med
+2017;58:569–76.
+[23] GevaertO,Echegaray S, Khuong A, et al.Predictiveradiogenomicsmodeling of
+EGFR mutation status in lung cancer. Sci Rep UK 2017;7:41674.
+[24] Yoon HJ, Sohn I, Cho JH, et al. Decoding tumor phenotypes for ALK, ROS1, and
+RET fusions in lung adenocarcinoma using a radiomics approach. Medicine
+2015;94:e1753.
+[25] Emaminejad N, Qian W, Guan YB, et al. Fusion of quantitative image and
+genomic biomarkers to improve prognosis assessment of early stage lung
+cancer patients. IEEE Trans Bio-Med Eng 2016;63:1034–43.
+[26] Panth KM, Leijenaar RTH, Carvalho S, et al. Is there a causal relationship
+between genetic changes and radiomics-based image features? An in vivo
+preclinical experiment with doxycycline inducible GADD34 tumor cells.
+Radiother Oncol 2015;116:462–6.
+[27] Aerts HJ, Grossmann P,Tan Y,et al. De?ning a radiomicresponse phenotype: a
+pilot study using targeted therapy in NSCLC. Sci Rep 2016;6:33860.
+[28] Ghosh P, Tamboli P, Vikram R, et al. Imaging-genomic pipeline for identifying
+gene mutations using three-dimensionalintra-tumor heterogeneity features. J
+Med Imaging 2015;2:041009.
+[29] Hanania AN, Bantis LE, Feng ZD, et al. Quantitative imaging to evaluate
+malignant potential of IPMNs. Oncotarget 2016;7:85776–84.
+[30] Suo ST, Cheng JJ, Cao MQ, et al. Assessment of heterogeneity difference
+between edge and core by usingtexture analysis: differentiation of malignant
+from in?ammatory pulmonary nodules and masses. Acad Radiol
+2016;23:1115–22.
+[31] Bae JM, Jeong JY, Lee HY, et al. Pathologic strati?cation of operable lung
+adenocarcinoma using radiomics features extracted from dual energy ct
+images. Oncotarget 2017;8:523–35.
+[32] Pena E, Ojiaku M, Inacio et al JR. Can CT and MR shape and textural features
+differentiate benign versus malignant pleural lesions? Acad Radiol 2017:20.
+S1076-6332(17)30133-2.
+[33] GinsburgSB, Algohary A, Pahwa S, etal. Radiomic features for prostate cancer
+detection on MRI differ between the transition and peripheral zones:
+preliminary ?ndings from a multi-institutional study. J Magn Reson Imaging
+2017;46:184–93.
+[34] Bickelhaupt S, Paech D, Kickingereder P, et al. Prediction of malignancy by a
+radiomic signature from contrastagent-free diffusionMRIin suspicious breast
+lesions found on screening mammography. J Magn Reson Imaging
+2017;46:604–16.
+[35] Permuth JB, Choi J, Balarunathan Y, et al. Combining radiomic features with a
+miRNA classi?er may improve prediction of malignant pathology for
+==============================
+
+==============================
+
+typeindex=-7 left=270 right=521 upper=21 lower=694
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-100
+
+pancreatic intraductal papillary mucinous neoplasms. Oncotarget
+2016;7:85785–97.
+[36] Zhang X, Xu X, Tian Q, et al. Radiomics assessment of bladder cancer grade
+using texture features from diffusion-weighted imaging. J Magn Reson
+Imaging 2017;15.
+[37] Guo Y, Hu Y, Qiao M, etal. Radiomics analysis on ultrasound for prediction of
+biologic behavior in breast invasive ductal carcinoma. Clin Breast Cancer
+2017:1–7.
+[38] Song SH, Park H, Lee H, et al. Imaging phenotyping using radiomics to predict
+micropapillary pattern within lung adenocarcinoma. J Thorac Oncol
+2016;12:624–32.
+[39] PatilR,MahadevaiahG, Dekker A.An approachtowardautomatic classi?cation
+of tumor histopathology of non-small cell lung cancer based on radiomic
+features. Tomography 2016;2:374–7.
+[40] Parmar C, Leijenaar RT, Grossmann P, et al. Radiomic feature clusters and
+prognostic signatures speci?c for lung and head & neck cancer. Sci Rep
+2015;5:11044.
+[41] Lin YC, Lin G, Hong JH, et al. Diffusion radiomics analysis of intratumoral
+heterogeneity in a murine prostate cancer model following radiotherapy:
+pixelwise correlationwith histology. JMagnReson Imaging 2017;27:3509–22.
+[42] Zhang Q, Xiao Y, Suo J, et al. Sonoelastomics for breast tumor classi?cation: a
+radiomics approach with clustering-based feature selection on
+sonoelastography. Ultrasound Med Biol 2017;43:1058–69.
+[43] Marin Z, Batchelder KA, Toner BC, et al. Mammographic evidence of
+microenvironment changes intumorous breasts. Med Phys 2017;44:1324–36.
+[44] Coquery N, Francois O,Lemasson B, etal. MicrovascularMRI and unsupervised
+clustering yields histology-resembling images in two rat models of glioma. J
+Cereb Blood Flow Met 2014;34:1354–62.
+[45] Choi ER, Lee HY, Jeong JY, et al. Quantitative image variables re?ect the
+intratumoral pathologic heterogeneity of lung adenocarcinoma. Oncotarget
+2016;7:67302–13.
+[46] WuWM, Parmar C, Grossmann P, etal. Exploratory study to identify radiomics
+classi?ers for lung cancer histology. Front Oncol 2016;6:71.
+[47] Li H, Zhu Y, Burnside ES,et al. Quantitative MRI radiomics in the prediction of
+molecular classi?cations of breast cancer subtypes in the TCGA/TCIA data set.
+NPJ Breast Cancer 2016;2:16012.
+[48] Gnep K, Fargeas A, Gutierrez-Carvajal RE, et al. Haralick textural features on
+T2-weighted MRI are associated with biochemical recurrence following
+radiotherapy for peripheral zone prostate cancer. J Magn Reson Imaging
+2017;45:103–17.
+[49] Wang J, Kato F, Oyama-Manabe N, et al. Identifying triple-negative breast
+cancer using background parenchymal enhancement heterogeneity on
+dynamic contrast-enhanced MRI: a pilot radiomics study. PLoS One 2015;10:
+e0143308.
+[50] Yin Q, Hung SC, Wang L, et al. Associations between tumor vascularity,
+vascular endothelial growth factor expression and PET/MRI radiomic
+signatures in primary clear-cell-renal-cell-carcinoma: proof-of-concept
+study. Sci Rep 2017;7:43356.
+[51] Ha S, Park S, Bang et al J. Characterize locally advanced breast cancer:
+histopathologic characteristics, response to neoadjuvant chemotherapy, and
+prognosis. Sci Rep 2017;7:1556.
+[52] LopezCJ, Nagornaya N, Parra NA, et al.Association of radiomics and metabolic
+tumor volumes in radiation treatment ofglioblastoma multiforme. Int JRadiat
+Oncol 2017;97:586–95.
+[53] Yip SSF, Aerts HJWL. Applications and limitations of radiomics.Phys Med Biol
+2016;61:150–66.
+[54] Gillies RJ, Kinahan PE, Hricak H. Radiomics: images are more than pictures
+they are data. Radiology 2016;278:563–77.
+[55] HasegawaM, Sakai F, Ishikawa R, et al. CT features of epidermalgrowth factor
+receptor-mutatedadenocarcinoma ofthe lung: comparison with non-mutated
+adenocarcinoma. J Thorac Oncol 2016;11:819–26.
+[56] Rizzo S, Petrella F, Buscarino V, et al. CT radiogenomic characterization of
+EGFR, K-RAS, and ALK mutations in non-small cell lung cancer. Eur Radiol
+2015;26:32–42.
+[57] Fave X, Zhang L, Yang J, et al. Delta-radiomics features for the prediction of
+patient outcomes in non-small cell lung cancer. Sci Rep 2017;7:588.
+[58] van Timmeren JE, Leijenaar RTH, van Elmpt W, et al. Survival prediction of
+non-smallcelllung cancer patients using radiomicsanalyses on cone-beam CT
+images. Radiother Oncol 2017;123(3):363–9.
+[59] Gerlinger M, Rowan AJ, Horswell et al S. Intratumor heterogeneity and
+branched evolution revealed by multiregion sequencing. NEJM 2012;366
+(10):883–91.
+[60] Mak RH, Digumarthy SR, Muzikansky A, et al. Role of 18F-?uorodeoxyglucose
+positron emission tomographyin predicting epidermalgrowth factorreceptor
+mutations in non-small cell lung cancer. Oncologist 2011;16:319–26.
+[61] Glimelius B, Lahn M.Window-of-opportunity trials to evaluate clinical activity
+of new molecular entities in oncology. Ann Oncol 2011;22:1717–25.
+[62] Larue RTHM, Van De Voorde L, Berbée M, et al. A phase 1 ‘‘window-of-
+opportunity” trial testingevofosfamide (TH-302),atumour-selective hypoxia-
+activated cytotoxic prodrug, with preoperative chemoradiotherapy in
+oesophageal adenocarcinoma patients. BMC Cancer 2016;16:644.
+[63] van Timmeren JE, Leijenaar RTH, van Elmpt W, et al. Feature selection
+methodology for longitudinal cone-beam CT radiomics. Acta Oncol 2017;1–7.
+[64] Turner NC, Reis-Filho JS. Genetic heterogeneity and cancer drug resistance.
+Lancet Oncol 2012;13:e178–85.
+==============================
+
+==============================
+Page 12
+ Left 1 Right 521 Top 1 Bottom 49
+
+
+Column meta:
+Column left:1 upper:21 right:252 lower 49
+Column left:270 upper:21 right:521 lower 41
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-6 left=1 right=12 upper=1 lower=5
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=8, allupper=0, column left=-1, likeBody=-100
+
+360
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-5 left=146 right=376 upper=1 lower=5
+====>
+charfont name=KPGOGL+AdvGulliv-I charfont height=3.800000, charfont bold=0, alignment=16, allupper=0, column left=-1, likeBody=-100
+
+Tracking radiomics associated tumor biology utilizing a radiomics quality score
+==============================
+
+==============================
+
+typeindex=-7 left=1 right=252 upper=21 lower=49
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=1, likeBody=-100
+
+[65] Hong BJ, Kim J, Jeong H, et al. Tumor hypoxia and reoxygenation: the yin and
+yang for radiotherapy. Radiat Oncol J 2016;34:239–49.
+[66] Gregor T, Kochová P, Eberlová L, et al., Correlating micro-CT imaging with
+quantitative histology. injury and skeletal biomechanics. 2012; 173–191.
+==============================
+
+==============================
+
+typeindex=-7 left=270 right=521 upper=21 lower=41
+====>
+charfont name=KPGODK+AdvGulliv-R charfont height=3.900000, charfont bold=0, alignment=2, allupper=0, column left=270, likeBody=-100
+
+[67] The Cancer Imaging Archive (TCIA): http://www.cancerimagingarchive.net.
+[68] Egger M,Davey Smith G, SchneiderM, et al.Bias inmeta-analysisdetected by
+a simple, graphical test. BMJ 1997;315:629–34.
+==============================
+

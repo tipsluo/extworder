@@ -1,0 +1,3513 @@
+Content:
+ColumnWidth 395 ColumnNumber 1
+ContentWidth 553 ContentLeft 1 ContentRight 553
+==============================
+Page 1
+ Left 1 Right 526 Top 1 Bottom 759
+
+
+Column meta:
+Column left:132 upper:121 right:526 lower 759
+
+
+Blocks:
+----------------------
+==============================
+type: undefined
+typeindex=7 left=40 right=134 upper=1 lower=9
+====>
+charfont height=9.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+nutrients
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=1 right=28 upper=42 lower=48
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Article
+
+==============================
+
+==============================
+type: title
+typeindex=8 left=1 right=508 upper=56 lower=67
+====>
+charfont height=11.000000, charfont bold=2, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Dietary Behaviors and Incident COVID-19 in the UK Biobank
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=1 right=515 upper=89 lower=98
+====>
+charfont height=6.000000, charfont bold=2, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Thanh-Huyen T. Vu 1 , Kelsey J. Rydland 2, Chad J. Achenbach 1,3, Linda Van Horn 1 and Marilyn C. Cornelis 1,*
+
+==============================
+
+==============================
+type: undefined
+typeindex=-4 left=21 right=53 upper=332 lower=334
+====>
+charfont height=3.000000, charfont bold=0, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+
+
+==============================
+
+==============================
+type: undefined
+typeindex=3 left=21 right=51 upper=338 lower=342
+====>
+charfont height=3.000000, charfont bold=2, alignment=-99, allupper=0, column left=-1, likeBody=-100
+
+
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=1 right=112 upper=354 lower=359
+====>
+charfont height=4.000000, charfont bold=2, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Citation: Vu, T.-H.T.;Rydland,K.J.;
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=1 right=116 upper=355 lower=430
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Achenbach, C.J.; Van Horn, L.;
+Cornelis,M.C. Dietary Behaviorsand
+Incident COVID-19inthe UK
+Biobank. Nutrients 2021,13, 2114.
+https://doi.org/10.3390/
+nu13062114
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=1 right=87 upper=450 lower=454
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+AcademicEditor: Catherine
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=1 right=40 upper=462 lower=466
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+L. Carpenter
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=1 right=74 upper=486 lower=514
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Received: 15 May2021
+Accepted: 16June 2021
+Published: 20 June 2021
+
+==============================
+
+==============================
+type: undefined
+typeindex=4 left=1 right=118 upper=535 lower=539
+====>
+charfont height=4.000000, charfont bold=2, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Publisher’s Note: MDPI stays neutral
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=1 right=119 upper=547 lower=575
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+with regard to jurisdictional claims in
+published maps and institutional af?l-
+iations.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=1 right=119 upper=624 lower=711
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=219 upper=754 lower=759
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114. https://doi.org/10.3390/nu13062114
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=132 right=135 upper=121 lower=124
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+1
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=146 right=517 upper=122 lower=192
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=-100
+
+Department of Preventive Medicine, Feinberg School of Medicine, Northwestern University,
+Chicago, IL 60611, USA; huyenvu@northwestern.edu (T.-H.T.V.); c-achenbach@northwestern.edu (C.J.A.);
+lvanhorn@northwestern.edu (L.V.H.)
+Research and Information Services, Feinberg School of Medicine, Northwestern University,
+Chicago, IL 60611, USA; kelsey.rydland@northwestern.edu
+Department of Medicine, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA
+Correspondence: marilyn.cornelis@northwestern.edu; Tel.: +(312)-503-4548
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=132 right=135 upper=153 lower=157
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2
+
+==============================
+
+==============================
+type: undefined
+typeindex=-3 left=132 right=135 upper=174 lower=178
+====>
+charfont height=4.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+3
+
+==============================
+
+==============================
+type: undefined
+typeindex=5 left=132 right=135 upper=187 lower=192
+====>
+charfont height=5.000000, charfont bold=2, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+*
+
+==============================
+
+==============================
+type: abstract
+typeindex=-2 left=132 right=525 upper=212 lower=490
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=-100
+
+Abstract: Background: Nutritional status in?uences immunity but its speci?c association with
+susceptibility to COVID-19 remains unclear. We examined the association of speci?c dietary data
+and incident COVID-19 in the UK Biobank (UKB). Methods: We considered UKB participants in
+England with self-reported baseline (2006–2010) data and linked them to Public Health England
+COVID-19 test results—performed on samples from combined nose/throat swabs, using real time
+polymerase chain reaction (RT-PCR)—between March and November 2020. Baseline diet factors
+included breastfed as baby and speci?c consumption of coffee, tea, oily ?sh, processed meat, red meat,
+fruit, and vegetables. Individual COVID-19 exposure was estimated using the UK’s average monthly
+positive case rate per speci?c geo-populations. Logistic regression estimated the odds of COVID-19
+positivity by diet status adjusting for baseline socio-demographic factors, medical history, and other
+lifestyle factors. Another model was further adjusted for COVID-19 exposure. Results: Eligible UKB
+participants (n = 37,988) were 40 to 70 years of age at baseline; 17% tested positive for COVID-19
+by SAR-CoV-2 PCR. After multivariable adjustment, the odds (95% CI) of COVID-19 positivity was
+0.90 (0.83, 0.96) when consuming 2–3 cups of coffee/day (vs. <1 cup/day), 0.88 (0.80, 0.98) when
+consuming vegetables in the third quartile of servings/day (vs. lowest quartile), 1.14 (1.01, 1.29)
+when consuming fourth quartile servings of processed meats (vs. lowest quartile), and 0.91 (0.85,
+0.98) when having been breastfed (vs. not breastfed). Associations were attenuated when further
+adjusted for COVID-19 exposure, but patterns of associations remained. Conclusions: In the UK
+Biobank, consumption of coffee, vegetables, and being breastfed as a baby were favorably associated
+with incident COVID-19; intake of processed meat was adversely associated. Although these ?ndings
+warrant independent con?rmation, adherence to certain dietary behaviors may be an additional tool
+to existing COVID-19 protection guidelines to limit the spread of this virus.
+
+==============================
+
+==============================
+type: KEYWORD
+typeindex=-2 left=132 right=450 upper=509 lower=515
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+Keywords: nutrition; COVID-19; immunity; coffee; breastfeeding; epidemiology
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=132 right=200 upper=559 lower=565
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+1. Introduction
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=574 lower=706
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+Coronavirus (COVID-19) is an infectious disease caused by SARS-CoV-2 that predom-
+inantly attacks the respiratory system and has spread rapidly in the last year [1]. This
+unprecedented global public health crisis necessitates the expansion of our understanding
+of COVID-19 for purposes of prevention and mitigation of its severity and mortality risk in
+infected individuals [2].
+Cross-sectional analyses identify patient characteristics and clinical data subsequent
+to a positive test, thereby informing the progression and severity of COVID-19. However,
+identifying factors underlying potential susceptibility a priori to the virus offers public
+health bene?ts. The immune system plays a key role in an individual’s susceptibility
+and response to infectious diseases, including COVID-19 [3,4]. A major modi?able factor
+affecting immune function is dietary behavior that in?uences nutritional status [5–7].
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=369 right=522 upper=754 lower=759
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=132, likeBody=-100
+
+https://www.mdpi.com/journal/nutrients
+
+==============================
+
+==============================
+Page 2
+ Left 1 Right 526 Top 1 Bottom 717
+
+
+Column meta:
+Column left:132 upper:44 right:526 lower 717
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=501 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+2 of 12
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=44 lower=163
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+Ecological studies of COVID-19 report favorable correlations with speci?c vegetables
+and dietary patterns, such as the Mediterranean diet [8–10]. Some dietary supplements
+were found to have an association with SARS-CoV-2 infection [11]. To our knowledge,
+no population data have been examined regarding the role of speci?c dietary intakes in
+prevention of COVID-19.
+Using data from the UK Biobank (UKB), we examined the associations between dietary
+behaviors measured in 2006–2010 and incident COVID-19 infection in 2020. We additionally
+linked UKB geo-data to UK COVID-19 surveillance data to account for COVID-19 exposure
+in our analyses, which to our knowledge has never been done in COVID-19 studies of
+the UKB.
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=132 right=249 upper=179 lower=185
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2. Materials and Methods
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=199 upper=192 lower=199
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2.1. UK Biobank
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=208 lower=340
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+The UKB is an international health resource of over 500,000 participants aged 37–73 years
+at 22 centers across England, Wales, and Scotland. Details of the study methods have
+been described previously [12]. Brie?y, participants underwent physical measurements,
+assessments about health and risk factors (including lifestyle and dietary behaviors), and
+blood sampling at baseline (2006–2010) and agreed to follow-up on their health status.
+Details of data collected are provided on the Showcase tab of the UKB website [13]. UKB
+ethical approval was from the National Research Ethics Service Committee North West–
+Haydock (approval letter dated 17 June 2011, Ref 11/NW/0382), and all study procedures
+were performed in accordance with the World Medical Association Declaration of Helsinki
+ethical principles for medical research. The current analysis was approved under the UKB
+application #21394 (PI, M.C.C).
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=239 upper=356 lower=362
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2.2. COVID-19 Diagnosis
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=371 lower=440
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+COVID-19 test results from Public Health England have been dynamically linked to
+the UKB since 16 March 2020 [14]. The regularly updated COVID-19 data table provided
+to UKB researchers includes participant ID, record date, test location (mouth, nose, throat,
+trachea, etc.), testing laboratory (71 labs listed), and test results (negative or positive). The
+vast majority of samples tested are from combined nose/throat swabs that are transported
+in a medium suitable for viruses and subject to polymerase chain reaction testing.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=236 upper=457 lower=463
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2.3. COVID-19 Exposure
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=472 lower=629
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+UKB provides grid co-ordinate data at the 1 km resolution as a measure of residential
+location [15]. The data are provided to researchers in the projection of the Ordnance Survey
+National Grid (OSGB1936) geographic reference system; measures refer to easting and
+northing with a reference point near the Isles of Sicily. These data were used in conjunction
+with country-wide surveillance data to identify UKB participants exposed to COVID-19 [16].
+The UKB geo-data and UK COVID-19 surveillance data was imported and projected in Ar-
+cGIS (Environmental Systems Research Institute, Redlands, CA, USA) for visual inspection.
+To make the UKB geo-data (North/East) compatible with the latitude/longitude surveil-
+lance data, we converted the former to the latter using standard equations already built
+into ArcGIS [17]. Hotspot analysis was performed on the UK surveillance data to assign
+values (“Gi*” statistic) back to each UKB participant representing a COVID-19-exposure
+risk factor or score. We calculated monthly positive case rates per speci?c geo-populations,
+and the average of these monthly rates was used in the analysis.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=239 upper=645 lower=651
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2.4. Baseline Dietary Data
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=661 lower=717
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+The UKB touchscreen at baseline included a semi-quantitative food frequency ques-
+tionnaire (FFQ) that assessed self-reported usual intake of 17 foods and beverages [18].
+Participants were asked to report the number of pieces/tablespoons/cups of each item they
+consumed or to choose one of several pre-speci?ed frequency categories. Among these
+choices, baseline servings of vegetables (cooked, raw), fruit (fresh, dried), oily ?sh, pro-
+
+==============================
+
+==============================
+Page 3
+ Left 1 Right 526 Top 1 Bottom 718
+
+
+Column meta:
+Column left:132 upper:45 right:526 lower 718
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=501 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+3 of 12
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=45 lower=114
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+cessed meat, red meat (beef, lamb/mutton, or pork), tea, and coffee have speci?cally been
+identi?ed as contributing nutritional factors implicated in immunity [19–24] and were thus
+targeted for consideration in this study. The details of the questions and possible answers
+for these diet factors are provided in Supplemental Table S1. Based on the participants’
+responses, we computed portion sizes as cups or servings per day. Participants were also
+asked if they were breastfed as a baby and responded yes, no, or don’t know.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=219 upper=130 lower=137
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2.5. Other Covariates
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=146 lower=353
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+Age, sex, race, education, employment status, type of accommodation lived in and
+number of co-habitants, smoking behaviors, and current health status were self-reported
+at baseline using the touchscreen. Townsend Deprivation Index, a measure of SES, was
+derived using census data and postal codes of participants, where higher scores represent
+higher deprivation. Body mass index (BMI) was calculated using height and weight
+measured at the assessment center. Physical activity was assessed using questions adapted
+from the validated short International Physical Activity Questionnaire [25]. Participants
+wereaskedhowmanyminutestheyengagedineachoftheactivitiesonatypicalday.
+Duration of moderate and vigorous activities (minutes/day) was used in this analysis.
+History of diabetes, history of any heart diseases, and hypercholesterolemia or hypertensive
+medication use were obtained via self-reporting (and veri?ed during a verbal interview)
+and hospital databases.
+Because individuals with lung diseases may have an increased risk of COVID-19 infec-
+tion [26], we further classi?ed participants by their pre-existing compromised pulmonary
+function (yes/no respiratory diseases excluding common colds); data extracted from health
+records during follow-up. We also used health records to calculate incident diabetes and
+heart disease.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=218 upper=369 lower=375
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2.6. Analysis Sample
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=385 lower=466
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+Because no COVID-19 test data were available for UKB assessment centers in Scotland
+and Wales, only participants in England were included. For this analysis, we included
+participants with test results between 16 March and 30 November 2020, which was before
+vaccines were rolled out in the UK (8 December 2020) [27]. There were 74,878 tests per-
+formed on 42,699 UKB participants. We excluded participants who had missing baseline
+data on nutritional factors and covariates (n = 4711). The ?nal study sample included
+37,988 UKB participants (Supplemental Figure S1).
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=229 upper=483 lower=489
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+2.7. Statistical Analysis
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=498 lower=718
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+All analyses were performed using SAS (SAS Institute, Inc., Cary, NC, USA). Mapping
+was performed using ArcGIS. F-tests or ?2 tests were used to compare differences in
+baseline characteristics across participants’ age and race/ethnicity.
+Our main outcome of interest was whether a person had any con?rmed COVID-19
+infection (de?ned as having any positive test result). Our exposures of interest included
+consumption of coffee, tea, oily ?sh, processed meat, red meat, fruit, and vegetables; and
+were analyzed in quartiles of servings/d [each modeled: lowest quartile/Q1(referent), Q2,
+Q3, and Q4] as well as tea and coffee [each modeled: none or <1 (referent), 1, 2–3, and
+?4 cups/d], and breastfed as a baby [yes (referent), no, and don’t know]. Because the
+cut-points to de?ne Q2 and Q3 for oily ?sh were similar, Q3 and Q4 were combined.
+We examined the association between each dietary behavior and incident COVID-19
+using logistic regression, ?rst adjusting for age, sex, and race (White/Asian/Black/Mixed-
+Others) (Crude model), then further adjusting for Townsend-deprivation index (quartiles),
+education (6 quali?cation classes), employment status (employed/retired/other), type of
+living accommodation (house/apartment/other), number of co-habitants (1,2,3 or ?4),
+income (4 levels), physical activity (quartiles of moderate or vigorous activities, min/day),
+smoking (never/past/current), BMI (<25, 25–<30, and ?30 kg/m2), self-rated health (ex-
+cellent/good/fair/poor), hypercholesterolemia medication use (yes/no), hypertensive
+
+==============================
+
+==============================
+Page 4
+ Left 1 Right 526 Top 1 Bottom 718
+
+
+Column meta:
+Column left:132 upper:45 right:526 lower 718
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=501 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+4 of 12
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=45 lower=303
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+medication use (yes/no), diabetes (yes/no), and any heart diseases (yes/no) (Model 1).
+Model 2 was similar to Model 1 but with diet behaviors assessed mutually (i.e., including
+all 7 other dietary factors). Model 3 included variables from Model 2 and further adjusted
+for COVID-19 exposure score. Finally, Model 4 further adjusted for pre-existing compro-
+mised pulmonary function (yes/no). Statistical signi?cance was de?ned as p < 0.05. No
+adjustments were made for multiple testing as all tests were a priori.
+In sensitivity analyses, we excluded individuals self-reporting diabetes, heart diseases,
+or using cholesterol-lowering or antihypertension medication because they may recently
+have made dietary changes consequential to the disease. We also adjusted for incident
+diabetes and heart disease during follow-up. Moreover, as shown in Supplemental Fig-
+ure S2, there were two waves of new cases between March and November 2020 (i.e., from
+March–August 2020, or Wave 1, and September–November 2020, or Wave 2) in the UK,
+with greater numbers in Wave 2 than Wave 1. The differences may re?ect a change in
+testing-rate, a true change in risk of exposure to the virus or some other factor. Regardless,
+analyses were also conducted for Wave 1 and Wave 2 separately.
+We screened for effect modi?cation (interaction) by sex (male or female), age (<55
+or ?55 years of age) and race (White, Asian, Black, or mixed/others) by including the
+cross-product term of each nutritional factor (e.g., coffee consumption, 4 categories) and
+the interacting variable in multivariable regression models. Statistically signi?cant inter-
+actions were de?ned as p < 0.002; accounting for 24 tests (8 nutrition factors × 3 effect
+modi?ers) performed.
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=132 right=177 upper=319 lower=325
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+3. Results
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=258 upper=332 lower=338
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+3.1. Participant Characteristics
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=348 lower=580
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+Of 37,988 eligible participants who were tested for COVID-19 from March to Novem-
+ber 2020, 6482 (17%) tested positive. In general, participants in the analysis sample had
+baseline demographic and diet characteristics similar to those of the full UKB cohort
+(N = 502,633, Table 1). However, those in the analysis sample tended to report poorer
+health and more comorbidities than those in the full UKB cohort.
+Characteristics of the analysis sample, strati?ed by baseline age and race, are presented
+in Supplemental Tables S2 and S3. Brie?y, compared to the older age group, the younger
+age group tended to be female, employed, and better educated, with better income and
+rated better health; they also tended to consume less tea, fruit, vegetables, ?sh, and red
+meat, with fewer having been breastfed. Compared to non-white participants, white
+participants tended to consume more coffee, tea, processed meat, less fruit or vegetables,
+with fewer having been breastfed. Among non-whites, Black people tended to live in
+higher deprivation areas, be employed, have higher BMI, and consume more red meat,
+while Asians tended to report poorer health and consume more fruit and vegetables. The
+Asian group also had a higher incidence of COVID-19 positivity than other racial groups.
+The exposure risk for the UKB sample in the context of the nation overall is illustrated
+in Figure 1 and Supplemental Figure S3, in which geo-positive tests are shown by Waves
+for UKB and UK data separately. Areas with a high number of positive tests in UKB were
+generally similar to those in the UK overall.
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=336 upper=596 lower=602
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+3.2. Nutritional Factors and COVID-19 Positivity
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=612 lower=718
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+With adjustment for age, race, and sex (Crude model), consumption of coffee, moder-
+ate tea, oily ?sh, and vegetables; and being breastfed as a baby were signi?cantly associated
+with lower odds of COVID-19 positivity, while consuming processed meat was associ-
+ated with higher odds of COVID-19 positivity (Supplemental Table S4). After further
+adjusting for other socio-demographics, medical and lifestyle factors, associations were
+attenuated; consumption of tea and ?sh oil were no longer signi?cantly associated with
+COVID-19 infection (Model 1–Table 2). The odds (95% CI) of COVID-19 positivity were
+0.90 (0.83, 0.98), 0.90 (0.83, 0.96), and 0.92 (0.84, 1.00) when consuming 1 cup, 2–3 cups,
+and 4+ cups of coffee/day (vs. <1 cup/day), respectively (Model 2). The odds (95%CI) of
+
+==============================
+
+==============================
+Page 5
+ Left 1 Right 526 Top 1 Bottom 588
+
+
+Column meta:
+Column left:132 upper:45 right:526 lower 588
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=501 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+5 of 12
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=45 lower=152
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+COVID-19 infection was 0.88 (0.80, 0.98) for individuals in the 3rd quartile of vegetable
+intake (vs. lowest quartile), 1.14 (1.01, 1.29) for individuals in the 4th quartile of processed
+meat intake (vs lowest quartile), and 0.91 (0.85, 0.98) for those who had been breastfed
+as a baby (vs. not breastfed). We observed similar associations between these dietary
+factors assessed individually (Model 1) or mutually (Model 2) with COVID-19 infection,
+suggesting independent associations. Associations were attenuated when further adjusted
+for COVID-19 exposure, but patterns of associations remained (Model 3). Further adjusting
+for pre-existing compromised pulmonary function, or incident diabetes and heart disease
+during follow-up did not alter results (Model 4, data not shown).
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=132 right=476 upper=171 lower=177
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+Table 1. Baseline characteristics of the analysis sample and the full UK Biobank cohort.
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=189 right=293 upper=192 lower=213
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=132, likeBody=-100
+
+Baseline Characteristics *
+Number of Persons
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=359 right=428 upper=192 lower=213
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=132, likeBody=-100
+
+Analysis Sample
+37,988
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=446 right=515 upper=192 lower=213
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=132, likeBody=-100
+
+Full UKB Cohort
+502,633
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=132 right=446 upper=224 lower=505
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+Age, yr, mean(sd) 57.36 (8.23)
+Female 20,026 (52.72)
+Townsend-deprivation index, mean(sd) ?1.21 (3.12)
+White/British 35,793 (94.22)
+Household Income, £ < 18,000 8264 (21.75)
+College or university degree 11,000 (28.96)
+Currently employed 20,354 (53.58)
+Homeowner 34,295 (90.28)
+Number of co-habitants ? 4 6821 (17.96)
+Current smoker 4205 (11.07)
+BMI (kg/m2), mean(sd) 27.93 (4.95)
+Physical activity, minutes/day, mean(sd) 75.50 (97.52)
+Poor overall health rating 2412 (6.35)
+Using cholesterol medication 8195 (21.57)
+Using blood pressure medication 9610 (25.30)
+Diabetes 2680 (7.05)
+Heart diseases 3003 (7.91)
+Breastfed as baby 21,051 (55.41)
+Coffee consumption, cups/day, mean(sd) 2.02 (2.06)
+Tea consumption, cups/day, mean(sd) 3.43 (2.73)
+Oily ?sh consumption, servings/day, mean(sd) 0.16 (0.15)
+Processed meat, servings/day, mean(sd) 0.22 (0.20)
+Red meat, servings/day, mean(sd) 0.30 (0.21)
+Fruit (fresh/dried), servings/day, mean(sd) 3.04 (2.60)
+Vegetables (cooked/raw), servings/day, mean(sd) 0.82 (0.55)
+* Data drawn from baseline (2006–2010). Values are numbers (%) unless stated otherwise.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=458 right=503 upper=224 lower=229
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+56.53 (8.10)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=452 right=509 upper=235 lower=240
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+273,453 (54.41)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=457 right=504 upper=245 lower=251
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+?1.29 (3.10)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=452 right=509 upper=257 lower=262
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+472,801 (94.06)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=454 right=507 upper=268 lower=273
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+97,220 (19.34)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=452 right=509 upper=279 lower=284
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+161,198 (32.07)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=452 right=509 upper=289 lower=295
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+287,210 (57.14)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=452 right=509 upper=300 lower=306
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+447,795 (89.36)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=454 right=507 upper=311 lower=317
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+93,987 (18.87)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=454 right=507 upper=322 lower=328
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+55,954 (11.13)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=458 right=503 upper=334 lower=339
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+27.43 (4.80)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=456 right=505 upper=345 lower=350
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+74.23 (96.19)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=456 right=505 upper=356 lower=361
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+22,780 (4.56)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=454 right=507 upper=367 lower=372
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+86,907 (17.29)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=452 right=509 upper=378 lower=383
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+104,024 (20.70)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=456 right=505 upper=389 lower=394
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+26,552 (5.28)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=456 right=505 upper=399 lower=405
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+29,166 (5.80)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=452 right=509 upper=410 lower=416
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+277,596 (55.39)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=461 right=500 upper=421 lower=427
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+2.01 (2.02)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=461 right=500 upper=432 lower=438
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+3.40 (2.69)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=461 right=500 upper=443 lower=449
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+0.16 (0.15)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=461 right=500 upper=454 lower=460
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+0.21 (0.20)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=461 right=500 upper=465 lower=471
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+0.30 (0.21)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=461 right=500 upper=476 lower=482
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+3.05 (2.62)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=461 right=500 upper=487 lower=493
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=132, likeBody=-100
+
+0.81 (0.56)
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=519 lower=588
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+Patterns of associations were similar when excluding individuals reporting diabetes,
+CVD, or the use of cholesterol-lowering or antihypertension medication from the sample
+(data not shown), or when analyzing data for Wave 1 and Wave 2 separately (Supplemental
+Table S5). Associations between nutrition factors and COVID-19 positivity were not
+signi?cantly modi?ed by age, sex, and race (p > 0.002 for interactions, Supplemental
+Tables S6–S8).
+
+==============================
+
+==============================
+Page 6
+ Left 1 Right 553 Top 1 Bottom 807
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: 
+typeindex=0 left=1 right=154 upper=1 lower=13
+====>
+charfont height=6.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-102
+
+NutNiuentrtise n2t0s2210,2113,,1x3 ,F2O1R14 PEER REVIEW  
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=514 right=553 upper=1 lower=12
+====>
+charfont height=6.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+6of61 o2f 15 
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=534 right=537 upper=406 lower=414
+====>
+charfont height=7.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+ 
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=35 right=516 upper=417 lower=422
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Figure1.TotalCOVID-19PositiveTestsinWave 1comparedto Wave2 by UKB(A)and National (UK)(B) Data TheUKB
+
+==============================
+
+==============================
+type: 
+typeindex=0 left=23 right=531 upper=423 lower=478
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=100
+
+Figure 1. Total COVID-19 Positive Tests in Wave 1 compared to Wave 2 by UKB (A) and National (UK) (B) Data ** The 
+UKgBe og-edoa-tdaaatna daNnda tNioantaioln(UaKl ()UCKO)V CIDO-V1I9Ds-u1r9v esiullravnecielladnactae wdaatsai mwpaos ritmedp,oprrtoejde,c tperdo,jaecntdedco, navnedr tceodntvoerbteecdo tmo pbaet icbolmwpiatthible 
+witeha cehacohth oetrhienr Ainr cAGrIcSGfoISr vfoisru vailsiunaslp iencstpioenct(isoene (CsOeeV CIDO-V19IDex-1p9o seuxrpeoisnuMrea itne rMialastearnidalsM aenthdo Mdsesthecotdiosn sefocrtimono rfoerd metaoirles) de-
+tailWs)a. vWa1vTe o1t:a Tpootasil tpivoestietisvtes ftoerstMs aforcrh M-Aaurcghu-sA2u0g2u0s;tW 2a0v2e0;2 WTaovtael 2p:o Tsiotitvael pteosstsitfiovre Steespttse mfobr eSr–eNptoevmembebre–N2o0v2e0mSboeurr c2e0:20; 
+SouUrKceB: aUnKdBh tatnpds: /h/ttcposr:o/n/caovriorunsa.vdiartuas.g.doav.tuak.g/ovac.uceks/s aedccoenss4edA porni l42 A02p1r.il 2021. 
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=97 right=454 upper=496 lower=504
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Table2.A3d.j2u.s tNedu*trOtRio(n9a5l% FCacI)torfsh anvdin CgOapVoIsDit-iv1e9 CPOoVsiItDiv-i1t9y testbynutritionalfactors.
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=20 right=553 upper=513 lower=749
+====>
+charfont height=7.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+WithMaoddjeuls1tment for age, race, andMsoedxe (C2 rude model), consumMtoiodnel o3f coffee, mod-
+erate tea, oily fish, and vegetables; and being breastfed as a baby were significantly asso-
+cOiaRte(d95 w%CitIh) lower odpd**s of COVOIDR-(1995% pCoIs)itivity, wph*i*le consuOmRin(9g5 p%rCoIc)essed mpea*t* was as-
+sociated with higher odds of COVID-19 positivity (Supplemental Table S4). After further 
+0a.d9R0jeu(f0se.8rie3nn,gc0e .9fo7)r other 0s.o00c7io-dem0o.9gR0re(af0ep.8rhe3ni,cc0se.9, 8m) edica0l .0a1n5d lifest0y.9lR3ee (ff0ea.8rce6tn,oc1re.0s,1 )associa0t.1io0n6s were 
+0a.t8t9e(n0u.8a3,te0d.9;5 c)onsum0p.0t0i1on of te0a.9 0an(0d.8 3f,is0h.9 6o)il were0 .0n0o3 longer0. 9s2ig(n0.i8f5i,c0a.n99tl)y asso0c.i0a2t1ed with 
+0C.9O(V0.I8D5,-01.99 i6n)fection0 .(M40odel 10–.9T2a(b0.l8e4 ,20)..9 9T9h)e odd0s. 0(4975% CI)0 .o9f C0O83VID.99-19 posi0t.i0v2i5ty were 
+0.90 (0.83, 0.98), 0.90 (0.83, 0.96), and 0.92 (0.84, 1.00) when consuming 1 cup, 2–3 cups, 
+an9Rde f04e8r+e2 n,ccu1e.p03s of coff0e.e1 /5d7ay (vs0. .<9R31e (fc0eu.8rep2n,/cd1ea04y)), resp0e.c2t0i4vely (M0.o9Rd4ee(f0el 8r2e4)n.c1Te.0h6e odds0 (.93159%CI) of 00C.9O3V(0I.8D5,-11.90 1in) fection0 .0w74as 0.88 0(.903.8(00,.8 05.,918.0)1 f)or ind0i.v0i7d8uals in0 .9th2e( 03.8r4d, 1q.0u1a)rtile o0f. 0v6e9getable 
+1i.n0t0a(k0.e9 2(,v1s..0 l8o)west qu0.a9r4t1ile), 1.104.9 (81(.00.910, ,11..2096)) for ind0.i5v4i3duals i0n.9 t6h(e0 .48t8h,1 q.0u5)artile o0f. 3p4r7ocessed 
+meat intake (vs lowest quartile), and 0.91 (0.85, 0.98) for those who had been breastfed as 
+a bRaebfeyre (nvcse. not breastfed). We obRseefre veendc esimilar associations bReteweereennc ethese dietary factors 
+0a.s93se(s0.s8e5d, 1i.n02d)ividual0l.y1 0(2Model 01.)9 4o(r0 m.86u,t1u.0a3l)ly (Mo0d.1e8l 32) with0 .C97O(V0.8ID8,-11.096 i)nfectio0n.4,8 s2uggest-
+Quartiles3and4(?0.14) 0i.n9g5 (i0n.8d7,e1p.e04n)dent as0s.o24c4iations0. .9A8s(s0o.9c0i,a1t.i0o7n)s wer0e. 6a5t4tenuat1e.d00 w(0h.9e1n,1 .f0u9r)ther a0d.9ju67sted for 
+COVID-19 exposure, but patterns of associations remained (Model 3). Further adjusting 
+for pre-existing compromised pulmonary function, or incident diabetes and heart disease 
+during follow-up did not alter results (Model 4, data not shown). 
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=46 right=93 upper=521 lower=538
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Nutritional
+Factor
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=33 right=106 upper=552 lower=557
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Coffee, Cups/Day
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=39 right=100 upper=563 lower=601
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+None or <1 cup
+1 cup
+2–3 cups
+?4 cups
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=42 right=97 upper=606 lower=612
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Tea, cups/day
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=39 right=100 upper=617 lower=656
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+None or <1 cup
+1 cup
+2–3 cups
+?4 cups
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=42 right=97 upper=661 lower=678
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Oily Fish,
+Servings/Day
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=20 right=119 upper=683 lower=711
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Quartile 1 (0–<0.07)
+Quartile 2 (0.07–<0.14)
+
+==============================
+
+==============================
+type: undefined
+typeindex=1 left=1 right=4 upper=800 lower=807
+====>
+charfont height=7.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+ 
+
+==============================
+
+==============================
+Page 7
+ Left 1 Right 526 Top 1 Bottom 724
+
+
+Column meta:
+Column left:123 upper:45 right:526 lower 724
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=501 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+7 of 12
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=33 right=80 upper=67 lower=83
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Nutritional
+Factor
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=24 right=90 upper=98 lower=114
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Processed Meat,
+Servings/Day
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=12 right=101 upper=119 lower=158
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Quartile 1 (0–<0.07)
+Quartile 2 (0.07–<0.14)
+Quartile 3 (0.14–<0.43)
+Quartile 4 (?0.43)
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=29 right=84 upper=163 lower=180
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Red Meat,
+Servings/Day
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=12 right=101 upper=185 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Quartile 1 (0–<0.21)
+Quartile 2 (0.21–<0.28)
+Quartile 3 (0.28–<0.35)
+Quartile 4 (?0.35)
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=17 right=97 upper=229 lower=246
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Fruit (Fresh/Dried),
+Servings/Day
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=12 right=101 upper=251 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Quartile 1 (0–<1.00)
+Quartile 2 (1.00–<2.25)
+Quartile 3 (2.25–<4.00)
+Quartile 4 (?4.00)
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=26 right=87 upper=295 lower=322
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Vegetables
+(Cooked/Raw),
+Servings/Day
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=12 right=101 upper=328 lower=366
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Quartile 1 (0–<0.50)
+Quartile 2 (0.50–<0.67)
+Quartile 3 (0.67–<1.00)
+Quartile 4 (?1.00)
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=17 right=96 upper=371 lower=377
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+Breastfed as a Baby
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=33 right=80 upper=383 lower=410
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+No
+Yes
+Don’t know
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=22 right=504 upper=420 lower=463
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+* Model 1: Adjusted for Townsend deprivation index, baseline age, sex, race, education, income, employment status, home ownership,
+numberof co-habitants,BMI level, smoking status, physical activity,self-rated health, cholesterol-loweringmedication use, antihypertension
+medication use, history of diabetes, and history of cardiovascular disease. Individual diet factors assessed in separate models. Model
+2: Adjusted for all covariates listed in Model 1, with all diet factors included in the model (i.e., mutual adjustment). Model 3: Adjusted for
+all covariateslisted in Model 2 and COVID-19 exposure score. ** An ? of 0.05 was used as the cutoff for signi?cance.
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=235 right=290 upper=45 lower=50
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Table 2. Cont.
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=128 right=200 upper=66 lower=87
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Model 1
+OR (95%CI)
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=267 right=338 upper=66 lower=87
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Model 2
+OR (95%CI)
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=402 right=474 upper=66 lower=87
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Model 3
+OR (95%CI)
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=216 right=231 upper=82 lower=87
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+p **
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=351 right=367 upper=82 lower=87
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+p **
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=487 right=502 upper=82 lower=87
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+p **
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=123 right=183 upper=119 lower=158
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=123, likeBody=-100
+
+Reference
+1.02 (0.91, 1.14)
+1.07 (0.96, 1.20)
+1.12 (1.00, 1.25)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=262 right=321 upper=119 lower=158
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+1.05 (0.93, 1.19)
+1.09 (0.97, 1.24)
+1.14 (1.01, 1.29)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=395 right=458 upper=119 lower=158
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+1.04 (0.92, 1. 17)
+1.07 (0.94, 1.21)
+1.12 (0.98, 1.26)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=130 lower=136
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.699
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=130 lower=136
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.410
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=130 lower=136
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.547
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=141 lower=147
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.248
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=141 lower=147
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.155
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=141 lower=147
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.314
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=152 lower=158
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.053
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=152 lower=158
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.036
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=152 lower=158
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.091
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=123 right=183 upper=185 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.96 (0.89, 1.04)
+1.01 (0.93, 1.11)
+0.99 (0.92, 1.08)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=262 right=321 upper=185 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.95 (0.87, 1.04)
+1.00 (0.90, 1.10)
+0.98 (0.89, 1.07)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=397 right=456 upper=185 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.99 (0.90, 1.08)
+1.01 (0.91, 1.11)
+0.98 (0.90, 1.08)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=196 lower=202
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.344
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=196 lower=202
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.236
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=196 lower=202
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.811
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=207 lower=213
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.771
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=207 lower=213
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.948
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=207 lower=213
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.903
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=218 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.878
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=218 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.600
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=218 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.697
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=123 right=183 upper=251 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=123, likeBody=-100
+
+Reference
+1.02 (0.92, 1.12)
+0.97 (0.87, 1.09)
+0.97 (0.88, 1.09)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=262 right=321 upper=251 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+1.05 (0.95, 1.16)
+1.02 (0.91, 1.14)
+1.03 (0.92, 1.15)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=397 right=456 upper=251 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+1.06 (0.95, 1.17)
+1.03 (0.91, 1.15)
+1.03 (0.92, 1.16)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=262 lower=267
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.778
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=262 lower=267
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.376
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=262 lower=267
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.300
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=273 lower=278
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.622
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=273 lower=278
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.762
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=273 lower=278
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.679
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=284 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.635
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=284 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.660
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=284 lower=289
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.596
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=123 right=183 upper=328 lower=366
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.92 (0.85, 0.99)
+0.87 (0.79, 0.96)
+0.90 (0.83, 0.98)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=260 right=323 upper=328 lower=366
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.93 (0.85, 1.00)
+0.88 (0.80, 0.98)
+0.92 (0.84, 0.998)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=397 right=456 upper=328 lower=366
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.96 (0.88, 1.04)
+0.93 (0.84, 1.03)
+0.96 (0.88, 1.05)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=339 lower=344
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.034
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=339 lower=344
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.060
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=339 lower=344
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.271
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=350 lower=355
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.006
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=350 lower=355
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.015
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=350 lower=355
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.186
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=361 lower=366
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.015
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=361 lower=366
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.046
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=361 lower=366
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.337
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=123 right=183 upper=383 lower=410
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.91 (0.85, 0.98)
+0.97 (0.91, 1.07)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=262 right=321 upper=383 lower=410
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.91 (0.85, 0.98)
+0.98 (0.90, 1.07)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=397 right=456 upper=383 lower=410
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+Reference
+0.95 (0.88, 1.02)
+0.99 (0.91, 1.08)
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=393 lower=399
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.010
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=393 lower=399
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.013
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=393 lower=399
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.125
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=214 right=234 upper=404 lower=410
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.750
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=349 right=369 upper=404 lower=410
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.696
+
+==============================
+
+==============================
+type: undefined
+typeindex=-1 left=484 right=504 upper=404 lower=410
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=0, column left=123, likeBody=-100
+
+0.789
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=132 right=193 upper=477 lower=483
+====>
+charfont height=6.000000, charfont bold=2, alignment=-99, allupper=-1, column left=123, likeBody=-100
+
+4. Discussion
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=492 lower=724
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=123, likeBody=100
+
+In this study, consuming more coffee, vegetables, and being breast fed as well as
+consuming less processed meat intake were independently associated with lower odds of
+COVID-19 positivity. These associations were attenuated when accounting for the UK’s
+COVID-19 case rate (i.e., exposure).
+Much research has focused on characterizing individuals who test positive for COVID-
+19 and infection progression and outcomes. Individuals with suppressed immune systems,
+such as the elderly and those with existing comorbidities including cardiovascular diseases,
+hypertension, diabetes, and obesity, are more likely to suffer with progression toward
+severe outcomes of COVID-19 [3,4,28,29]. Less attention has focused on modi?able risk
+factors preceding COVID-19 infection. While nutrition may theoretically impact COVID-19
+susceptibility [3,6,30–32], few investigations have speci?cally tested the hypothesis a priori.
+Low vitamin D status is associated with COVID-19 infection, severity, and mortality [33,34].
+Del Ser et al. [35] recently explored a variety of risk factors for the incidence, severity, and
+mortality of COVID-19 in a Spanish cohort of 913 volunteers aged 75–90 years. Sixty-two
+cases reported symptoms compatible with COVID-19; 6 of them died. High alcohol and
+lower coffee and tea consumption were associated with disease severity; other dietary
+behaviors were not considered.
+In the UKB, habitual consumption of 1 or more cups of coffee per day was associated
+with about a 10% decrease in risk of COVID-19 compared to less than 1 cup/day. Coffee is
+
+==============================
+
+==============================
+Page 8
+ Left 1 Right 526 Top 1 Bottom 717
+
+
+Column meta:
+Column left:132 upper:45 right:526 lower 717
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=501 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+8 of 12
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=45 lower=717
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+not only a key source of caffeine, but contributes dozens of other constituents; including
+many implicated in immunity [21]. Among many populations, coffee is the major contrib-
+utor to total polyphenol intake, phenolic acids in particular [36,37]. Coffee, caffeine, and
+polyphenols have antioxidant and anti-in?ammatory properties [38–44]. Coffee consump-
+tion favorably correlates with in?ammatory biomarkers such as CRP, interleukin-6 (IL-6),
+and tumor necrosis factor ? (TNF-?) [38,45–51], which are also associated with COVID-19
+severity and mortality [52,53]. Coffee consumption has also been associated with lower
+risk of pneumonia in elderly [54]. Taken together, an immunoprotective effect of coffee
+against COVID-19 is plausible and merits further investigation.
+Fruits and vegetables are rich dietary sources of vitamins, folate, fiber, and several
+phytochemicals such as carotenoids and flavonoids [55,56]. These substances have anti-
+inflammatory, antibacterial, and antiviral properties andare thusimmune-protective [19,57,58].
+In the current study, consumption of at least 0.67 servings/d of vegetables (cooked or raw,
+excluding potatoes) was associated with a lower risk of COVID-19 infection. Recent
+ecological studies of COVID-19 report that countries with high consumption of foods with
+potent antioxidant or anti angiotensin-converting enzyme (ACE) activity such as raw or
+fermented cabbage have a lower COVID-19 death rate compared to other countries [59,60].
+Studies of vegetables and fermented-foods with COVID-19 mortality in Europe reported
+that each g/day increase in the average national consumption of head cabbage, cucumber or
+fermented vegetables decreased the mortality risk for COVID-19 by 11–35%; consumption
+of broccoli surprisingly increased COVID-19 mortality [9,10]. COVID-19 mortality was
+not our outcome of interest, and while we did not analyze vegetables individually, the
+UK’s national consumption of broccoli is above Europe’s average and thus our ?ndings
+con?ict with the previous inverse relationship between broccoli consumption and COVID-
+19 mortality [9,10]. Fruit (fresh and dried) consumption was not associated with COVID-19
+risk in the UKB. While fruits and vegetables share several health bene?ts, the speci?c
+bioactive compounds in fruits and in vegetables can vary [61]. Fruits are also relatively
+higher in sugar (fructose) while vegetables contain more starch. Follow-up studies to our
+current ?ndings might therefore focus on vegetable constituents distinct from those of fruit.
+Processed meat consumption of as little as 0.43 servings/d was associated with a
+higher risk of COVID-19 in UKB. However red meat consumption presented no risk, sug-
+gesting meat per se does not underlie the association we observed with processed meats.
+Processed meat refers to any meat that has been transformed through salting, curing,
+fermenting, smoking, or other process to enhance ?avor or improve preservation [62]. In
+the UK, sausages, bacon, and ham are the major contributors to processed meat intake [63]
+and these often contain salt enriched with nitrates/nitrites. Preservatives and other ad-
+ditives are increasingly being used yet dif?cult to measure in observational studies [64].
+These include milk-, soy- and wheat-based ingredients, spices, ascorbic acid, phosphates,
+antioxidants, monosodium glutamate, food colorings, blood plasma, gelatin, and transglu-
+taminase [62]. Total and saturated fat concentrations are also relatively higher in processed
+meats [65]. Processed meats are also characteristic of a western-style diet, which may
+adversely impact immunity [23] and thus other dietary behaviors that correlate with pro-
+cessed meat intake may underlie the association we observed with COVID-19 susceptibly.
+Consumption of human milk has also emerged as an early-life factor impacting immu-
+nity in both infancy and adulthood, with links to lower rates of allergy, in?uenza, asthma,
+and other respiratory infections [66,67]. Breastfeeding has also been linked to epigenetic
+changes of toll-like-receptors, which play signi?cant roles in innate immunity [68]. We
+found a long-term favorable association between being breastfed as a baby and COVID-19
+infection in UKB and thus contribute to the growing evidence in support of nutrition early
+in life for optimal immunity for life.
+The strengths of this study include access to the largest cohort established years before
+the COVID-19 pandemic, with detailed health, lifestyle, and nutrition data and ongoing
+follow-up. Although much COVID-19 research [69] has incorporated this database, we are
+the ?rst to leverage independent COVID-19 surveillance database of the UK to estimate
+
+==============================
+
+==============================
+Page 9
+ Left 1 Right 526 Top 1 Bottom 708
+
+
+Column meta:
+Column left:132 upper:45 right:526 lower 708
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=501 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+9 of 12
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=45 lower=328
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+participant COVID-19 exposure [70]. COVID-19 data from UKB are consistent with public
+government data, which adds con?dence to our approach and results.
+The study has limitations. First, only a portion of overall UKB participants were tested
+for COVID-19 (about 10%) during the study timeframe, and these participants were slightly
+older, less educated, and less employed, while reporting poorer health than the original
+UKB cohort. Those factors were associated with higher odds of COVID-19 infection in our
+analysis sample. We note, however, that the full UKB is not representative of the sampling
+population, with evidence of a ‘healthy volunteer’ selection bias [71]. However, participants
+in these two samples had many baseline characteristics in common, including dietary
+behaviors. Any effects of selection bias would likely lead to an underestimation of the true
+associations between nutrition and COVID-19. Second, diet assessment tools are generally
+prone to measurement error: limitations inherent to closed-ended options, inaccurate
+portion size estimates, and social desirability bias are among the sources contributing to
+error [12,72]. Nevertheless, we were uniquely positioned to pursue this investigation with
+novel aims and analyses; and although the effect sizes may be imprecise, establishing
+a relationship between diet and COVID-19 is informative in itself and can be inferred
+from the direction and statistical signi?cance of the association [12,72]. Finally, the current
+study is observational and cannot infer causality. While we accounted for a comprehensive
+set of potential confounders, we cannot discount the possibility of residual confounding;
+whether it be positive or negative. Moreover, we had no concurrent pandemic data on
+other established risk factors for COVID-19 infection, such as participant social distancing
+behavior, work environment, and face mask-use; some of these factors may correlate with
+diet behaviors.
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=132 right=199 upper=344 lower=350
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=132, likeBody=-100
+
+5. Conclusions
+
+==============================
+
+==============================
+type: BODY
+typeindex=0 left=132 right=526 upper=359 lower=416
+====>
+charfont height=6.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=100
+
+Our results support the hypothesis that nutritional factors may in?uence distinct
+aspects of theimmune system, hence susceptibility to COVID-19. Encouraging adherence to
+certain nutritional behaviors (e.g., increasing vegetable intake and reducing processed meat
+intake) may be an additional tool to existing COVID-19 protection guidelines to limit the
+spread of this virus. Nevertheless, our ?ndings warrant con?rmation in other populations.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=132 right=526 upper=434 lower=596
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=-100
+
+Supplementary Materials: The following are available online at https://www.mdpi.com/article/10
+.3390/nu13062114/s1: Supplemental Table S1: Description of the dietary touchscreen questionnaire
+and possible responses, Supplemental Table S2. Characteristics of the analysis sample by age groups,
+Supplemental Table S3. Characteristics of the analysis sample by racial groups, Supplemental Table
+S4: Age-race-sex adjusted OR (95% CI) of having positive COVID-19 test by nutritional factors,
+Supplemental Table S5: Adjusted* OR (95% CI) of having positive COVID-19 test by nutritional
+factors, strati?ed by Wave, Supplemental Table S6: Adjusted* OR (95% CI) of having positive COVID-
+19 test by nutritional factors, strati?ed by baseline age group, Supplemental Table S7: Adjusted* OR
+(95% CI) of having positive COVID-19 test by nutritional factors, strati?ed by sex, Supplemental
+Table S8: Adjusted* OR (95% CI) of having positive COVID-19 test by nutritional factors, strati?ed by
+racial group, Supplemental Figure S1. Flow chart depicting the study design and the analysis sample,
+Supplemental Figure S2: National (UK) COVID-19 Cases Reported Between March and December 1
+2020, Supplemental Figure S3. Total COVID-19 Positive Tests in UKB (A) Compared to National Data
+by Wave (B and C)*.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=132 right=526 upper=608 lower=649
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=-100
+
+Author Contributions: Conceptualization, M.C.C.; methodology, T.-H.T.V., K.J.R., and M.C.C.; anal-
+ysis, T.-H.T.V. and K.J.R.; writing, T.-H.T.V. and M.C.C.; funding acquisition, M.C.C. All authors
+(T.-H.T.V., K.J.R., L.V.H., C.J.A., and M.C.C.) discussed the results and helped critically revise the
+manuscript. All authors have read and agreed to the published version of the manuscript.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=132 right=524 upper=661 lower=708
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=-100
+
+Funding: This work was supported by the National Institute on Aging (K01AG053477 to M.C.C.).
+InstitutionalReview Board Statement: UKB ethical approval was from the National Research Ethics
+Service Committee North West–Haydock (approval letter dated 17 June 2011, Ref 11/NW/0382), and
+all study procedures were performed in accordance with the World Medical Association Declaration
+
+==============================
+
+==============================
+Page 10
+ Left 1 Right 526 Top 1 Bottom 713
+
+
+Column meta:
+Column left:132 upper:46 right:526 lower 193
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=497 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+10 of 12
+
+==============================
+
+==============================
+type: undefined
+typeindex=6 left=1 right=51 upper=209 lower=215
+====>
+charfont height=6.000000, charfont bold=2, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+References
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=526 upper=224 lower=713
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Johns Hopkins University Coronavirus Resource Center. Available online: https://coronavirus.jhu.edu/ (accessed on 21 Decem-
+ber 2020).
+NIA. Notice of Special Interest. Available online: https://grants.nih.gov/grants/guide/notice-?les/NOT-AG-20-022.html
+(accessed on 16 March 2020).
+Calder, P.C. Nutrition, immunity and COVID-19. BMJ Nutr. Prev. Health 2020, 3, 74–92. [CrossRef] [PubMed]
+Shi, Y.; Wang, Y.; Shao, C.; Huang, J.; Gan, J.; Huang, X.; Bucci, E.; Piacentini, M.; Ippolito, G.; Melino, G. COVID-19 infection: The
+perspectives on immune responses. Cell Death Differ. 2020. [CrossRef] [PubMed]
+De Frel, D.L.; Atsma, D.E.; Pijl, H.; Seidell, J.C.; Leenen, P.J.M.; Dik, W.A.; van Rossum, E.F.C. The Impact of Obesity and Lifestyle
+on the Immune System and Susceptibility to Infections Such as COVID-19. Front. Nutr. 2020, 7, 597600. [CrossRef] [PubMed]
+Zabetakis, I.; Lordan, R.; Norton, C.; Tsoupras, A. COVID-19: The In?ammation Link and the Role of Nutrition in Potential
+Mitigation. Nutrients 2020, 12, 1466. [CrossRef] [PubMed]
+Childs, C.E.; Calder, P.C.; Miles, E.A. Diet and Immune Function. Nutrients 2019, 11, 1933. [CrossRef]
+Greene, M.W.; Roberts, A.P.; Fruge, A.D. Negative Association between Mediterranean Diet Adherence and COVID-19 Cases and
+Related Deaths in Spain and 23 OECD Countries: An Ecological Study. Front. Nutr. 2021, 8, 591964. [CrossRef]
+Fonseca, S.C.; Rivas, I.; Romaguera, D.; Quijal-Zamorano, M.; Czarlewski, W.; Vidal, A.; Fonseca, J.; Ballester, J.; Anto, J.M.;
+Basagana, X.; et al. Association between consumption of vegetables and COVID-19 mortality at a country level in Europe.
+medRxiv 2020. [CrossRef]
+Fonseca, S.C.; Rivas, I.; Romaguera, D.; Quijal-Zamorano, M.; Czarlewski, W.; Vidal, A.; Fonseca, J.; Ballester, J.; Anto, J.M.;
+Basagana, X.; et al. Association between consumption of fermented vegetables and COVID-19 mortality at a country level in
+Europe. medRxiv 2020. [CrossRef]
+Louca, P.; Murray, B.; Klaser, K.; Graham, M.S.; Mazidi, M.; Leeming, E.R.; Thompson, E.; Bowyer, R.; Drew, D.A.; Nguyen,
+L.H.; et al. Dietary supplements during the COVID-19 pandemic: Insights from 1.4M users of the COVID Symptom Study
+app—A longitudinal app-based community survey. medRxiv 2020. [CrossRef]
+Boushey, C.J.; Coulston, A.M.; Rock, C.L.; Monsen, E. Nutrition in the Prevention and Treatment of Disease; Elsevier: Amsterdam,
+The Netherlands, 2001.
+UK Biobank. Data Showcase. Available online: https://biobank.ctsu.ox.ac.uk/crystal/browse.cgi?id=100080&cd=category
+(accessed on 30 December 2020).
+Armstrong, J.; Rudkin, J.K.; Allen, N.; Crook, D.W.; Wilson, D.J.; Wyllie, D.H.; O’Connell, A.M. Dynamic linkage of COVID-19
+test results between Public Health England’s Second Generation Surveillance System and UK Biobank. Microb. Genom. 2020, 6.
+[CrossRef]
+UK Biobank. Deriving the Grid Coordinates. Available online: http://biobank.ndph.ox.ac.uk/showcase/showcase/docs/
+UKgrid.pdf (accessed on 30 December 2020).
+UK Summary. People Tested Positive. Available online: https://coronavirus.data.gov.uk/ (accessed on 4 April 2021).
+Maling, D.H. Coordinate Systems and Map Projections; Elsevier: Amsterdam, The Netherlands, 2013.
+Bradbury, K.E.; Young, H.J.; Guo, W.; Key, T.J. Dietary assessment in UK Biobank: An evaluation of the performance of the
+touchscreen dietary questionnaire. J. Nutr. Sci. 2018, 7. [CrossRef]
+Hosseini, B.; Berthon, B.S.; Saedisomeolia, A.; Starkey, M.R.; Collison, A.; Wark, P.A.B.; Wood, L.G. Effects of fruit and vegetable
+consumption on in?ammatory biomarkers and immune cell populations: A systematic literature review and meta-analysis. Am.
+J. Clin. Nutr. 2018, 108, 136–155. [CrossRef] [PubMed]
+Kamath, A.B.; Wang, L.; Das, H.; Li, L.; Reinhold, V.N.; Bukowski, J.F. Antigens in tea-beverage prime human Vgamma 2Vdelta 2
+T cells in vitro and in vivo for memory and nonmemory antibacterial cytokine responses. Proc. Natl. Acad. Sci. USA 2003, 100,
+6009–6014. [CrossRef] [PubMed]
+21. Melamed, I.; Kark, J.D.; Spire, Z. Coffee and the immune system. Int. J. Immunopharmacol. 1990, 12, 129–134. [CrossRef]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=224 lower=229
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+1.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=247 lower=252
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+2.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=270 lower=275
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+3.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=281 lower=287
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+4.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=304 lower=310
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+5.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=328 lower=333
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+6.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=351 lower=356
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+7.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=362 lower=368
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+8.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=8 upper=385 lower=391
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+9.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=420 lower=425
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+10.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=454 lower=460
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+11.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=489 lower=494
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+12.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=512 lower=517
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+13.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=535 lower=540
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+14.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=569 lower=575
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+15.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=592 lower=598
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+16.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=604 lower=609
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+17.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=615 lower=621
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+18.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=638 lower=644
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+19.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=673 lower=678
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+20.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=132 right=525 upper=46 lower=193
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=-100
+
+of Helsinki ethical principles for medical research. The current analysis was approved under the
+UKB application #21394.
+Data Availability Statement: The data that support the ?ndings of this study are available from the
+UK Biobank upon approved request.
+Acknowledgments: This research was conducted using the UK Biobank Resource (Application
+21394). Computations in this manuscript were run on the Quest cluster supported in part through the
+computational resources and staff contributions provided for the Quest high performance computing
+facility at Northwestern University, which is jointly supported by the Of?ce of the Provost, the Of?ce
+for Research, and Northwestern University Information Technology.
+Con?icts of Interest: The authors declare no con?ict of interest.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=132 right=526 upper=75 lower=81
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=132, likeBody=-100
+
+InformedConsentStatement:Informedconsentwasobtainedfromallsubjectsinvolvedinthestudy.
+
+==============================
+
+==============================
+Page 11
+ Left 1 Right 526 Top 1 Bottom 719
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=497 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+11 of 12
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=46 lower=51
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+22.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=22 right=526 upper=46 lower=719
+====>
+charfont height=5.000000, charfont bold=0, alignment=1, allupper=-1, column left=-1, likeBody=-100
+
+Gutierrez, S.; Svahn, S.L.; Johansson, M.E. Effects of Omega-3 Fatty Acids on Immune Cells. Int. J. Mol. Sci. 2019, 20, 5028.
+[CrossRef] [PubMed]
+Christ, A.; Lauterbach, M.; Latz, E. Western Diet and the Immune System: An In?ammatory Connection. Immunity 2019, 51,
+794–811. [CrossRef] [PubMed]
+Simopoulos, A.P.; Serhan, C.N.; Bazinet, R.P. The need for precision nutrition, genetic variation and resolution in Covid-19
+patients. Mol. Aspects Med. 2021, 77, 100943. [CrossRef] [PubMed]
+Craig, C.L.; Marshall, A.L.; Sjöström, M.; Bauman, A.E.; Booth, M.L.; Ainsworth, B.E.; Pratt, M.; Ekelund, U.; Yngve, A.; Sallis,
+J.F. International physical activity questionnaire: 12-country reliability and validity. Med. Sci. Sports Exerc. 2003, 35, 1381–1395.
+[CrossRef]
+Cakir Edis, E. Chronic Pulmonary Diseases and COVID-19. Turk. Thorac. J. 2020, 21, 345–349. [CrossRef]
+BBC News. Covid-19 Vaccine: First Person Receives P?zer Jab in UK. Available online: https://www.bbc.com/news/uk-55227325
+(accessed on 22 March 2021).
+Huang, C.; Wang, Y.; Li, X.; Ren, L.; Zhao, J.; Hu, Y.; Zhang, L.; Fan, G.; Xu, J.; Gu, X. Clinical features of patients infected with
+2019 novel coronavirus in Wuhan, China. Lancet 2020, 395, 497–506. [CrossRef]
+Hu, Y.; Sun, J.; Dai, Z.; Deng, H.; Li, X.; Huang, Q.; Wu, Y.; Sun, L.; Xu, Y. Prevalence and severity of corona virus disease 2019
+(COVID-19): A systematic review and meta-analysis. J. Clin. Virol. 2020, 127, 104371. [CrossRef] [PubMed]
+Moscatelli, F.; Sessa, F.; Valenzano, A.; Polito, R.; Monda, V.; Cibelli, G.; Villano, I.; Pisanelli, D.; Perrella, M.; Daniele, A.; et al.
+COVID-19: Role of Nutrition and Supplementation. Nutrients 2021, 13, 976. [CrossRef]
+James, P.T.; Ali, Z.; Armitage, A.E.; Bonell, A.; Cerami, C.; Drakesmith, H.; Jobe, M.; Jones, K.S.; Liew, Z.; Moore, S.E.; et al. Could
+nutrition modulate COVID-19 susceptibility and severity of disease? A systematic review. medRxiv 2020. [CrossRef]
+Khatiwada, S.; Subedi, A. A Mechanistic Link Between Selenium and Coronavirus Disease 2019 (COVID-19). Curr. Nutr. Rep.
+2021. [CrossRef] [PubMed]
+Akbar, M.R.; Wibowo, A.; Pranata, R.; Setiabudiawan, B. Low Serum 25-hydroxyvitamin D (Vitamin D) Level Is Associated
+with Susceptibility to COVID-19, Severity, and Mortality: A Systematic Review and Meta-Analysis. Front. Nutr. 2021, 8, 660420.
+[CrossRef] [PubMed]
+Yisak, H.; Ewunetei, A.; Kefale, B.; Mamuye, M.; Teshome, F.; Ambaw, B.; Yideg Yitbarek, G. Effects of Vitamin D on COVID-19
+Infection and Prognosis: A Systematic Review. Risk Manag. Healthc. Policy 2021, 14, 31–38. [CrossRef] [PubMed]
+Del Ser, T.; Fernandez-Blazquez, M.A.; Valenti, M.; Zea-Sevilla, M.A.; Frades, B.; Alfayate, E.; Saiz, L.; Calero, O.; Garcia-Lopez,
+F.J.; Rabano, A.; et al. Residence, Clinical Features, and Genetic Risk Factors Associated with Symptoms of COVID-19 in a Cohort
+of Older People in Madrid. Gerontology 2021, 67, 281–289. [CrossRef]
+Reyes, C.M.; Cornelis, M.C. Caffeine in the Diet: Country-Level Consumption and Guidelines. Nutrients 2018, 10, 1772. [CrossRef]
+Huang, Q.; Braffett, B.H.; Simmens, S.J.; Young, H.A.; Ogden, C.L. Dietary Polyphenol Intake in US Adults and 10-Year Trends:
+2007–2016. J. Acad. Nutr. Diet. 2020, 120, 1821–1833. [CrossRef]
+Hussain, T.; Tan, B.; Yin, Y.; Blachier, F.; Tossou, M.C.B.; Rahu, N. Oxidative Stress and In?ammation: What Polyphenols Can Do
+for Us? Oxidative Med. Cell. Longev. 2016, 9. [CrossRef] [PubMed]
+Choi, S.; Jung, S.; Ko, K.S. Effects of Coffee Extracts with Different Roasting Degrees on Antioxidant and Anti-In?ammatory
+Systems in Mice. Nutrients 2018, 10, 363. [CrossRef]
+Hutachok, N.; Angkasith, P.; Chumpun, C.; Fucharoen, S.; Mackie, I.J.; Porter, J.B.; Srichairatanakool, S. Anti-Platelet Aggregation
+and Anti-Cyclooxygenase Activities for a Range of Coffee Extracts (Coffea arabica). Molecules 2020, 26, 10. [CrossRef] [PubMed]
+Islam, M.T.; Tabrez, S.; Jabir, N.R.; Ali, M.; Kamal, M.A.; da Silva Araujo, L.; De Oliveira Santos, J.V.; Da Mata, A.; De Aguiar,
+R.P.S.; de Carvalho Melo Cavalcante, A.A. An Insight into the Therapeutic Potential of Major Coffee Components. Curr. Drug
+Metab. 2018, 19, 544–556. [CrossRef]
+Xu, J.G.; Hu, Q.P.; Liu, Y. Antioxidant and DNA-protective activities of chlorogenic acid isomers. J. Agric. Food Chem 2012, 60,
+11625–11630. [CrossRef] [PubMed]
+Barcelos, R.P.; Lima, F.D.; Carvalho, N.R.; Bresciani, G.; Royes, L.F. Caffeine effects on systemic metabolism, oxidative-
+in?ammatory pathways, and exercise performance. Nutr. Res. 2020, 80, 1–17. [CrossRef]
+Huang, W.Y.; Fu, L.; Li, C.Y.; Xu, L.P.; Zhang, L.X.; Zhang, W.M. Quercetin, Hyperin, and Chlorogenic Acid Improve Endothelial
+Function by Antioxidant, Antiin?ammatory, and ACE Inhibitory Effects. J. Food Sci. 2017, 82, 1239–1246. [CrossRef]
+Rebollo-Hernanz, M.; Zhang, Q.; Aguilera, Y.; Martin-Cabrejas, M.A.; Gonzalez de Mejia, E. Phenolic compounds from coffee
+by-products modulate adipogenesis-related in?ammation, mitochondrial dysfunction, and insulin resistance in adipocytes, via
+insulin/PI3K/AKT signaling pathways. Food Chem. Toxicol. 2019, 132, 110672. [CrossRef] [PubMed]
+Loft?eld, E.; Shiels, M.S.; Graubard, B.I.; Katki, H.A.; Chaturvedi, A.K.; Trabert, B.; Pinto, L.A.; Kemp, T.J.; Shebl, F.M.; Mayne,
+S.T.; et al. Associations of Coffee Drinking with Systemic Immune and In?ammatory Markers. Cancer Epidemiol. Biomark. Prev.
+2015, 24, 1052–1060. [CrossRef]
+Tangney, C.C.; Rasmussen, H.E. Polyphenols, in?ammation, and cardiovascular disease. Curr. Atheroscler. Rep. 2013, 15, 324.
+[CrossRef]
+Kempf, K.; Herder, C.; Erlund, I.; Kolb, H.; Martin, S.; Carstensen, M.; Koenig, W.; Sundvall, J.; Bidel, S.; Kuha, S.; et al. Effects of
+coffee consumption on subclinical in?ammation and other risk factors for type 2 diabetes: A clinical trial. Am. J. Clin. Nutr. 2010,
+91, 950–957. [CrossRef] [PubMed]
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=69 lower=74
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+23.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=92 lower=97
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+24.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=115 lower=120
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+25.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=150 lower=155
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+26.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=161 lower=167
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+27.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=184 lower=190
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+28.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=207 lower=213
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+29.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=230 lower=236
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+30.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=253 lower=259
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+31.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=276 lower=282
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+32.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=299 lower=305
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+33.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=334 lower=339
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+34.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=357 lower=362
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+35.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=391 lower=397
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+36.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=403 lower=408
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+37.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=426 lower=431
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+38.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=449 lower=454
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+39.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=472 lower=477
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+40.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=495 lower=500
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+41.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=529 lower=535
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+42.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=552 lower=558
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+43.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=575 lower=581
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+44.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=598 lower=604
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+45.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=633 lower=638
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+46.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=667 lower=673
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+47.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=690 lower=696
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+48.
+
+==============================
+
+==============================
+Page 12
+ Left 1 Right 526 Top 1 Bottom 661
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: PAGEHEADER
+typeindex=-2 left=1 right=83 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+Nutrients 2021, 13, 2114
+
+==============================
+
+==============================
+type: PAGEHEADER
+typeindex=-2 left=497 right=524 upper=1 lower=6
+====>
+charfont height=5.000000, charfont bold=0, alignment=-99, allupper=-1, column left=-1, likeBody=-100
+
+12 of 12
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=526 upper=46 lower=661
+====>
+charfont height=5.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Martinez-Lopez, S.; Sarria, B.; Mateos, R.; Bravo-Clemente, L. Moderate consumption of a soluble green/roasted coffee rich in
+caffeoylquinic acids reduces cardiovascular risk markers: Results from a randomized, cross-over, controlled trial in healthy and
+hypercholesterolemic subjects. Eur. J. Nutr. 2019, 58, 865–878. [CrossRef] [PubMed]
+Hang, D.; Kvaerner, A.S.; Ma, W.; Hu, Y.; Tabung, F.K.; Nan, H.; Hu, Z.; Shen, H.; Mucci, L.A.; Chan, A.T.; et al. Coffee
+consumption and plasma biomarkers of metabolic and in?ammatory pathways in US health professionals. Am. J. Clin. Nutr.
+2019, 109, 635–647. [CrossRef]
+Paiva, C.; Beserra, B.; Reis, C.; Dorea, J.G.; Da Costa, T.; Amato, A.A. Consumption of coffee or caffeine and serum concentration
+of in?ammatory markers: A systematic review. Crit. Rev. Food Sci. Nutr. 2019, 59, 652–663. [CrossRef] [PubMed]
+Wu, D.; Wu, T.; Liu, Q.; Yang, Z. The SARS-CoV-2 outbreak: What we know. Int. J. Infect. Dis. 2020, 94, 44–48. [CrossRef]
+[PubMed]
+Gong, J.; Dong, H.; Xia, S.Q.; Huang, Y.Z.; Wang, D.; Zhao, Y.; Liu, W.; Tu, S.; Zhang, M.; Wang, Q.; et al. Correlation Analysis
+Between Disease Severity and In?ammation-related Parameters in Patients with COVID-19 Pneumonia. medRxiv 2020. [CrossRef]
+Kondo, K.; Suzuki, K.; Washio, M.; Ohfuji, S.; Adachi, S.; Kan, S.; Imai, S.; Yoshimura, K.; Miyashita, N.; Fujisawa, N.; et al.
+Association between coffee and green tea intake and pneumonia among the Japanese elderly: A case-control study. Sci. Rep. 2021,
+11, 5570. [CrossRef] [PubMed]
+Wallace, T.C.; Bailey, R.L.; Blumberg, J.B.; Burton-Freeman, B.; Chen, C.O.; Crowe-White, K.M.; Drewnowski, A.; Hooshmand,
+S.; Johnson, E.; Lewis, R.; et al. Fruits, vegetables, and health: A comprehensive narrative, umbrella review of the science and
+recommendations for enhanced public policy to improve intake. Crit. Rev. Food Sci. Nutr. 2020, 60, 2174–2211. [CrossRef]
+Liu, R.H. Dietary bioactive compounds and their health implications. J. Food Sci. 2013, 78 (Suppl. 1), A18–A25. [CrossRef]
+Gibson, A.; Edgar, J.D.; Neville, C.E.; Gilchrist, S.E.; McKinley, M.C.; Patterson, C.C.; Young, I.S.; Woodside, J.V. Effect of fruit and
+vegetable consumption on immune function in older people: A randomized controlled trial. Am. J. Clin. Nutr 2012, 96, 1429–1436.
+[CrossRef] [PubMed]
+Liu, R.H.; Finley, J. Potential cell culture models for antioxidant research. J. Agric. Food Chem. 2005, 53, 4311–4314. [CrossRef]
+Bousquet, J.; Anto, J.M.; Iaccarino, G.; Czarlewski, W.; Haahtela, T.; Anto, A.; Akdis, C.A.; Blain, H.; Canonica, G.W.; Cardona,
+V.; et al. Is diet partly responsible for differences in COVID-19 death rates between and within countries? Clin. Transl. Allergy
+2020, 10, 16. [CrossRef]
+Lange, K.W. Food science and COVID-19. Food Sci. Hum. Wellness 2020, 10, 1–5. [CrossRef]
+Slavin, J.L.; Lloyd, B. Health bene?ts of fruits and vegetables. Adv. Nutr. 2012, 3, 506–516. [CrossRef]
+IARC Working Group on the Evaluation of Carcinogenic Risksto Humans. Red Meat and Processed Meat. Lyon (FR): International
+Agency for Research on Cancer; (IARC Monographs on the Evaluation of Carcinogenic Risks to Humans, No. 114.) 1. EXPOSURE
+DATA. Available online: https://www.ncbi.nlm.nih.gov/books/NBK507973/ (accessed on 28 April 2021).
+Hobbs-Grimmer, D.A.; Givens, D.I.; Lovegrove, J.A. Associations between red meat, processed red meat and total red and
+processed red meat consumption, nutritional adequacy and markers of health and cardio-metabolic diseases in British adults:
+A cross-sectional analysis using data from UK National Diet and Nutrition Survey. Eur. J. Nutr. 2021. [CrossRef]
+64. Linseisen, J.; Rohrmann, S.; Norat, T.; Gonzalez, C.A.; Dorronsoro Iraeta, M.; Morote Gomez, P.; Chirlaque, M.D.; Pozo, B.G.;
+Ardanaz, E.; Mattisson, I.; et al. Dietary intake of different types and characteristics of processed meat which might be associated
+with cancer risk–results from the 24-hour diet recalls in the European Prospective Investigation into Cancer and Nutrition (EPIC).
+Public Health Nutr. 2006, 9, 449–464. [CrossRef]
+Linseisen, J.; Kesse, E.; Slimani, N.; Bueno-De-Mesquita, H.B.; Ocke, M.C.; Skeie, G.; Kumle, M.; Dorronsoro Iraeta, M.; Morote
+Gomez, P.; Janzon, L.; et al. Meat consumption in the European Prospective Investigation into Cancer and Nutrition (EPIC)
+cohorts: Results from 24-hour dietary recalls. Public Health Nutr. 2002, 5, 1243–1258. [CrossRef]
+Bener, A.; Ehlayel, M.S.; Alsowaidi, S.; Sabbah, A. Role of breast feeding in primary prevention of asthma and allergic diseases in
+a traditional society. Eur. Ann. Allergy Clin. Immunol. 2007, 39, 337–343.
+Hatmal, M.M.; Issa, N.N.; Alshaer, W.; Al-Ameer, H.J.; Abuyaman, O.; Tayyem, R.; Hijjawi, N.S. Association of Breastfeeding
+Duration with Susceptibility to Allergy, In?uenza, and Methylation Status of TLR1 Gene. Medicina 2019, 55, 535. [CrossRef]
+Hartwig, F.P.; Loret de Mola, C.; Davies, N.M.; Victora, C.G.; Relton, C.L. Breastfeeding effects on DNA methylation in the
+offspring: A systematic literature review. PLoS ONE 2017, 12, e0173070. [CrossRef]
+UK Biobank. Available online: https://www.ukbiobank.ac.uk/enable-your-research/publications (accessed on 28 April 2021).
+Xu, B.; Gutierrez, B.; Mekaru, S.; Sewalk, K.; Goodwin, L.; Loskill, A.; Cohn, E.L.; Hswen, Y.; Hill, S.C.; Cobo, M.M.; et al.
+Epidemiological data from the COVID-19 outbreak, real-time case information. Sci. Data 2020, 7, 106. [CrossRef]
+Fry, A.; Littlejohns, T.J.; Sudlow, C.; Doherty, N.; Adamska, L.; Sprosen, T.; Collins, R.; Allen, N.E. Comparison of sociodemo-
+graphic and health-related characteristics of UK biobank participants with those of the general population. Am. J. Epidemiol. 2017,
+186, 1026–1034. [CrossRef] [PubMed]
+Willett, W.C. Nutritional Epidemiology; Oxford University Press: New York, NY, USA, 1998.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=46 lower=51
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+49.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=80 lower=86
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+50.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=115 lower=120
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+51.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=138 lower=144
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+52.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=161 lower=167
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+53.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=184 lower=190
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+54.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=219 lower=224
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+55.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=253 lower=259
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+56.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=265 lower=270
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+57.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=299 lower=305
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+58.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=311 lower=316
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+59.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=345 lower=351
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+60.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=357 lower=362
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+61.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=368 lower=374
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+62.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=403 lower=408
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+63.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=483 lower=489
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+65.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=518 lower=523
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+66.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=541 lower=546
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+67.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=564 lower=569
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+68.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=587 lower=592
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+69.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=598 lower=604
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+70.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=621 lower=627
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+71.
+
+==============================
+
+==============================
+type: undefined
+typeindex=-2 left=1 right=12 upper=656 lower=661
+====>
+charfont height=5.000000, charfont bold=0, alignment=-1, allupper=-1, column left=-1, likeBody=-100
+
+72.
+
+==============================
+
+==============================
+Page 13
+ Left 1 Right 492 Top 1 Bottom 36
+
+
+Column meta:
+
+
+Blocks:
+----------------------
+==============================
+type: undefined
+typeindex=2 left=1 right=492 upper=1 lower=36
+====>
+charfont height=11.000000, charfont bold=0, alignment=0, allupper=-1, column left=-1, likeBody=-100
+
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.
+
+==============================
+

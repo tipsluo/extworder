@@ -1,0 +1,1028 @@
+Page: 1 left:1 upper:1
+ 
+page=1 block=1932831450 (x=1 y=20) width=5 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+ 
+page=1 block=1932831450 (x=1 y=20) width=5 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Review: Review Essay: Instruction and Archives
+page=1 block=496729294 (x=1 y=38) width=281 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Reviewed Work(s): Embedded Librarians by Cassandra Kvenid and  Kaijsa Calkins; What the
+page=1 block=496729294 (x=1 y=54) width=536 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Best College Teachers Do by Ken Bain; The Joy of Teaching, a Practical Guide for New
+page=1 block=496729294 (x=1 y=70) width=510 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+College Instructors by Peter Filene; A New Culture of Learning: Cultivating the
+page=1 block=496729294 (x=1 y=86) width=473 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Imagination for a World of Constant Change by Douglas Thomas and  John Seeley Brown
+page=1 block=496729294 (x=1 y=102) width=529 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Review by: Heather Briston
+page=1 block=496729294 (x=1 y=118) width=163 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Source: The American Archivist, Vol. 78, No. 2 (FALL/WINTER 2015), pp. 567-577
+page=1 block=496729294 (x=1 y=134) width=479 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Published by: Society of American Archivists
+page=1 block=496729294 (x=1 y=150) width=269 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Stable URL: https://www.jstor.org/stable/26356560
+page=1 block=496729294 (x=1 y=166) width=303 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Accessed: 11-09-2021 19:29 UTC
+page=1 block=496729294 (x=1 y=182) width=183 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Review: Review Essay: Instruction and Archives
+page=1 block=496729294 (x=1 y=38) width=281 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Reviewed Work(s): Embedded Librarians by Cassandra Kvenid and  Kaijsa Calkins; What the
+page=1 block=496729294 (x=1 y=54) width=536 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Best College Teachers Do by Ken Bain; The Joy of Teaching, a Practical Guide for New
+page=1 block=496729294 (x=1 y=70) width=510 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+College Instructors by Peter Filene; A New Culture of Learning: Cultivating the
+page=1 block=496729294 (x=1 y=86) width=473 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Imagination for a World of Constant Change by Douglas Thomas and  John Seeley Brown
+page=1 block=496729294 (x=1 y=102) width=529 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Review by: Heather Briston
+page=1 block=496729294 (x=1 y=118) width=163 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Source: The American Archivist, Vol. 78, No. 2 (FALL/WINTER 2015), pp. 567-577
+page=1 block=496729294 (x=1 y=134) width=479 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Published by: Society of American Archivists
+page=1 block=496729294 (x=1 y=150) width=269 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Stable URL: https://www.jstor.org/stable/26356560
+page=1 block=496729294 (x=1 y=166) width=303 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+Accessed: 11-09-2021 19:29 UTC
+page=1 block=496729294 (x=1 y=182) width=183 height=7 fontname=DCNJJM+Code2000 wordint.min=5 wordint.max=7
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+page=1 block=1302227152 (x=1 y=220) width=518 height=5 fontname=DCNJJM+Code2000 wordint.min=4 wordint.max=6
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+page=1 block=1302227152 (x=1 y=236) width=516 height=5 fontname=DCNJJM+Code2000 wordint.min=4 wordint.max=6
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+page=1 block=1302227152 (x=1 y=252) width=473 height=5 fontname=DCNJJM+Code2000 wordint.min=4 wordint.max=6
+ 
+page=1 block=1302227152 (x=1 y=268) width=4 height=5 fontname=DCNJJM+Code2000 wordint.min=4 wordint.max=6
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+page=1 block=1302227152 (x=1 y=284) width=460 height=5 fontname=DCNJJM+Code2000 wordint.min=4 wordint.max=6
+https://about.jstor.org/terms
+page=1 block=1302227152 (x=1 y=300) width=133 height=5 fontname=DCNJJM+Code2000 wordint.min=2 wordint.max=2
+Society of American Archivists is collaborating with JSTOR to digitize, preserve and extend
+page=1 block=1122606666 (x=77 y=474) width=426 height=6 fontname=DCNJJM+Code2000 wordint.min=4 wordint.max=6
+access to The American Archivist
+page=1 block=1122606666 (x=77 y=484) width=159 height=6 fontname=DCNJJM+Code2000 wordint.min=4 wordint.max=6
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=1 block=350068407 (x=136 y=601) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=1 block=350068407 (x=198 y=609) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+ 
+page=1 block=1390869998 (x=1 y=1) width=3 height=6 fontname=Helvetica wordint.min=3 wordint.max=5
+ 
+page=1 block=1820383114 (x=1 y=203) width=3 height=6 fontname=Helvetica wordint.min=3 wordint.max=5
+Page: 2 left:1 upper:1
+ 567
+page=2 block=1645547422 (x=340 y=1) width=13 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ Review Essay: Instruction and Archives
+page=2 block=440737101 (x=60 y=126) width=288 height=8 fontname=URKQDT+Code2000 wordint.min=6 wordint.max=8
+ Embedded Librarians. Edited by Cassandra Kvenid and Kaijsa Calkins. Chicago:
+page=2 block=2141817446 (x=13 y=151) width=401 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Association of College and Research Libraries of the American Library Association,
+page=2 block=2141817446 (x=5 y=165) width=408 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ 2011. Softcover. 264 pages. $49.00. ISBN 978-0-8389-8587-8.
+page=2 block=369049246 (x=50 y=178) width=309 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ What the Best College Teachers Do. By Ken Bain. Cambridge, Mass.: Harvard
+page=2 block=1608297024 (x=18 y=221) width=374 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ University Press, 2004. Hardcover. 207 pages. $29.50. ISBN 0-674-01325-5.
+page=2 block=1841396611 (x=20 y=234) width=384 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The Joy of Teaching, a Practical Guide for New College Instructors. By Peter Filene.
+page=2 block=1577592551 (x=6 y=277) width=416 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Chapel Hill: University of North Carolina Press, 2005. Softcover. 176 pages. $25.00.
+page=2 block=1577592551 (x=5 y=291) width=406 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ISBN 0-8078-5603-7.
+page=2 block=1577592551 (x=135 y=303) width=86 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ A New Culture of Learning: Cultivating the Imagination fora World of Constant
+page=2 block=854587510 (x=14 y=347) width=374 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Change. By Douglas Thomas and John Seeley Brown. CreateSpace Independent
+page=2 block=148626113 (x=13 y=361) width=378 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Publishing Platform, 2011. Softcover. 140 pages. $12.95. ISBN 1-456-45888-4.
+page=2 block=148626113 (x=14 y=374) width=372 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The  aflsuon hdoapme teon etnagla pger tehmemis ew iotfh  ptreiamcahriyn sgo uirsc etso a nhde tlphe oiru urs es. tUultdimenattesl yl,earn. Ideally, we
+page=2 block=1847637306 (x=2 y=428) width=351 height=10 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=2 block=1904253191 (x=41 y=741) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=2 block=1904253191 (x=103 y=749) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+ REVIEWS
+page=2 block=1021436681 (x=157 y=61) width=42 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ we hope to create current and future users of our collections. Archivists in all
+page=2 block=1790585734 (x=2 y=446) width=279 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ areas of the profession and in most varieties of repositories find themselves
+page=2 block=1790585734 (x=2 y=462) width=272 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ providing instruction using their collections. Instruction can take many forms,
+page=2 block=1790585734 (x=2 y=476) width=277 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ from a contextualized set of items of interest to a group, to a semester-long
+page=2 block=1790585734 (x=2 y=491) width=273 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ course on research methods that focuses on unique primary sources and every
+page=2 block=1790585734 (x=2 y=506) width=277 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ other version in between. Who and what prepares us for this role? Some may
+page=2 block=1790585734 (x=2 y=520) width=275 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ bring to the profession a background in education or pedagogy. Others may be
+page=2 block=1790585734 (x=2 y=535) width=279 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ lucky enough to receive training in their master's programs or via continuing
+page=2 block=1790585734 (x=2 y=550) width=278 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ education immersion programs. Many of us find ourselves standing in front of
+page=2 block=1790585734 (x=2 y=565) width=276 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ a classroom armed only with our experience as students—how we were taught
+page=2 block=1790585734 (x=2 y=580) width=276 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ and how we like to learn. In higher education, this is not an unusual path; the
+page=2 block=1790585734 (x=2 y=595) width=277 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ bulk of learning how to teach, how to lead a group of students into and through
+page=2 block=1790585734 (x=1 y=611) width=278 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ a learning environment, is gained through doing and watching others and occa
+page=2 block=1790585734 (x=2 y=625) width=279 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ sionally through workshops and other brief training.
+page=2 block=1790585734 (x=2 y=640) width=186 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015 ? 567-598
+page=2 block=22600334 (x=62 y=700) width=180 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+Page: 3 left:1 upper:1
+ 568
+page=3 block=1961173763 (x=4 y=1) width=12 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ Reviews
+page=3 block=1202683709 (x=166 y=2) width=26 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ How can archivists who find themselves in front of a classroom full of
+page=3 block=2087885397 (x=26 y=48) width=315 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ students learn to provide instruction that is both engaging and fulfilling for
+page=3 block=2087885397 (x=4 y=65) width=348 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ the students and for ourselves? In the literature for both archivists and spe
+page=3 block=2087885397 (x=3 y=80) width=343 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ cial collections librarians, an increasing number of articles and case studies of
+page=3 block=2087885397 (x=3 y=94) width=349 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ successful instruction sessions or courses incorporate active learning, faculty
+page=3 block=2087885397 (x=3 y=109) width=346 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ collaboration, and innovative pedagogy. In addition, outside of the archival lit
+page=3 block=2087885397 (x=3 y=124) width=349 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ erature, in the literature of information literacy and librarianship, and in the
+page=3 block=2087885397 (x=3 y=139) width=353 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ wider realm of teaching and learning in postsecondary education, a tradition
+page=3 block=2087885397 (x=3 y=154) width=344 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ of writing about student-centered teaching and learning exists. Readers should
+page=3 block=2087885397 (x=3 y=169) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ note that three of the books discussed in this essay focus on teaching students
+page=3 block=2087885397 (x=3 y=184) width=346 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ in higher education, broadly defined. This does not preclude archivists who
+page=3 block=2087885397 (x=3 y=199) width=354 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ teach K-12 learners from finding ideas of value to integrate into their instruc
+page=3 block=2087885397 (x=2 y=214) width=354 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ tion, but these grades are not the primary focus of these books.
+page=3 block=2087885397 (x=2 y=229) width=284 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ The four books featured in this essay each bring a different perspective
+page=3 block=2087885397 (x=25 y=244) width=326 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ regarding how we best help our students to better learn those concepts or skills
+page=3 block=2087885397 (x=2 y=259) width=353 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ that we (and our faculty colleagues) determine are the most important given
+page=3 block=2087885397 (x=2 y=274) width=345 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ the time and the resources available to us. Each book approaches this question
+page=3 block=2087885397 (x=2 y=289) width=347 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ differently—integrating into the classroom, creating an environment for stu
+page=3 block=2087885397 (x=2 y=304) width=350 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ dent-centered learning, and looking to networked technology to create a new
+page=3 block=2087885397 (x=2 y=318) width=348 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ culture of learning.
+page=3 block=2087885397 (x=2 y=333) width=88 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Proactive initiatives such as this [embedded librarianship collaboration] are
+page=3 block=1002021887 (x=24 y=394) width=338 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ critical to university culture and provide students with the knowledge neces
+page=3 block=1002021887 (x=24 y=407) width=341 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ sary for academic success, (p. 193)
+page=3 block=1002021887 (x=24 y=419) width=150 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ For those of us who work in university or college libraries, the term
+page=3 block=1712943792 (x=24 y=442) width=365 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ "embedded librarianship" has been everywhere in the literature and in the con
+page=3 block=1712943792 (x=2 y=457) width=391 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ versation of our colleagues in the last decade. "Embedded" was borrowed from
+page=3 block=1712943792 (x=1 y=472) width=388 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ the description of war correspondents embedded with troops (p. 3). At its heart
+page=3 block=1712943792 (x=1 y=487) width=390 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ for librarians, the term refers to a desire for a deep integration of not just the
+page=3 block=1712943792 (x=1 y=502) width=392 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ library and the collections, but of the librarian (or archivist) in the classroom,
+page=3 block=1712943792 (x=1 y=518) width=385 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ curriculum, and research life of the university or college (p. 4). While this is the
+page=3 block=1712943792 (x=2 y=533) width=391 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ goal, we can see from the sixteen case studies presented here that the reality is
+page=3 block=1712943792 (x=1 y=548) width=388 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ not consistent—embedded can mean different things to different librarians.
+page=3 block=1525919705 (x=2 y=563) width=367 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The case studies in Embedded Librarians are all written by librarians and
+page=3 block=842741472 (x=23 y=577) width=363 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ some instructional faculty about particular programs or courses that incorpo
+page=3 block=842741472 (x=2 y=593) width=383 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ rate engagement that the authors define as embedded. The institutions high
+page=3 block=842741472 (x=1 y=608) width=379 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ lighted come from among community colleges, colleges and universities, and
+page=3 block=842741472 (x=1 y=623) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ professional programs. The first two case studies provide a literature review and
+page=3 block=842741472 (x=1 y=638) width=393 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ a current summary of embedded librarianship. The remaining fourteen case
+page=3 block=842741472 (x=1 y=652) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=3 block=1156304131 (x=80 y=700) width=216 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=3 block=1766505436 (x=43 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=3 block=1766505436 (x=105 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+ Embedded Librarians
+page=3 block=771775563 (x=2 y=369) width=101 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+Page: 4 left:1 upper:1
+ Reviews
+page=4 block=1164440413 (x=166 y=1) width=26 height=3 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ 569
+page=4 block=1610525991 (x=341 y=1) width=14 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ studies are divided into five parts highlighting different instructional environ
+page=4 block=1666607455 (x=4 y=49) width=378 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ments: the first year experience; online; in and across disciplines; graduate and
+page=4 block=1666607455 (x=3 y=64) width=385 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ professional programs; and innovative spaces. The book's organization makes
+page=4 block=1666607455 (x=3 y=79) width=370 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ scanning and selecting a case study to match a particular instructional need
+page=4 block=1666607455 (x=3 y=93) width=386 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ easy. Each case study averages twelve pages in length, so the time investment
+page=4 block=1666607455 (x=3 y=109) width=379 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ for the reader is not large. As it is a collection of various projects, the writing
+page=4 block=1666607455 (x=3 y=124) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ quality varies and the book lacks an overall coherence. However, this does not
+page=4 block=1666607455 (x=3 y=139) width=378 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ detract from those case studies that present examples of a deeper integration of
+page=4 block=1666607455 (x=3 y=154) width=385 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ collections and librarians into the curriculum and the research life of a campus
+page=4 block=1666607455 (x=3 y=170) width=379 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and areas where archivists can find ideas for experimentation.
+page=4 block=1666607455 (x=3 y=184) width=298 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The three best case studies, considering quality and applicability to the
+page=4 block=1666607455 (x=25 y=200) width=347 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ teaching archivist, focus on integration into an academic department, embed
+page=4 block=1666607455 (x=3 y=215) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ded research assistance in a major project, and embedded instruction and
+page=4 block=1666607455 (x=3 y=229) width=385 height=7 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ research assistance in a graduate research program. All three of these examples
+page=4 block=1666607455 (x=3 y=245) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ highlight both integration into the teaching function, but also into the research
+page=4 block=1666607455 (x=3 y=260) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and learning functions of a particular course or department.
+page=4 block=1666607455 (x=3 y=275) width=290 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ "Embedded and Embodied: Dance Librarianship within the Academic
+page=4 block=1666607455 (x=25 y=290) width=358 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Department" from Arizona State University, provides an example of a librarian's
+page=4 block=1666607455 (x=3 y=306) width=381 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ integration into a department that houses a subject library. Visible and accessi
+page=4 block=1666607455 (x=3 y=321) width=381 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ble at the point of need for both student and faculty researchers, integration of
+page=4 block=1666607455 (x=2 y=336) width=384 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ the librarian and collections occurs not only in the syllabus but also in the cur
+page=4 block=1666607455 (x=2 y=351) width=385 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ riculum, and results in greater recognition by the research and teaching faculty
+page=4 block=1666607455 (x=2 y=367) width=386 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ of the valuable contributions of the librarian (p. 98). The author acknowledges
+page=4 block=1666607455 (x=2 y=382) width=382 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ that the specialized circumstances in this environment create the opportunity.
+page=4 block=1666607455 (x=2 y=397) width=384 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The case study provides a rich example of the merit of deeply integrating a
+page=4 block=1666607455 (x=2 y=412) width=371 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ librarian within a department, and highlights why, despite the challenges, it is
+page=4 block=1666607455 (x=2 y=427) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ worth it.
+page=4 block=1327006586 (x=2 y=439) width=42 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ While the outcome of this case study is aspirational for most of us, the
+page=4 block=899644639 (x=24 y=456) width=351 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ examples in "Starring the Literature Review: An Integrative Approach" from
+page=4 block=899644639 (x=2 y=471) width=376 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Harvard University and "Kresge Library's Embedded Librarian Program: A
+page=4 block=899644639 (x=2 y=486) width=386 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Student-Centered Approach" from the University of Michigan provide familiar
+page=4 block=899644639 (x=2 y=501) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ scenarios that could be more easily integrated into an archivist's current work.
+page=4 block=899644639 (x=2 y=516) width=378 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ One is an example of collaborative instruction developed around a common
+page=4 block=899644639 (x=2 y=531) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ information need. The other is a model of personalized group research refer
+page=4 block=899644639 (x=2 y=546) width=372 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ence. Both examples involve students in professional or graduate programs.
+page=4 block=899644639 (x=1 y=562) width=385 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ However, they could be used in situations with undergraduates in capstone
+page=4 block=899644639 (x=1 y=577) width=384 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ courses or research projects. Neither, however, would be scalable to a large
+page=4 block=899644639 (x=1 y=592) width=384 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ enrollment course. For most of us involved in reference and instruction, this
+page=4 block=899644639 (x=1 y=607) width=379 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ probably differs little from what we often provide in our own institutions.
+page=4 block=899644639 (x=1 y=622) width=373 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ However, these case studies present examples of more integrated and collabo
+page=4 block=899644639 (x=1 y=638) width=372 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ rative environments for the librarians and the faculty from the outset. It's from
+page=4 block=530737374 (x=1 y=653) width=385 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=4 block=1332668132 (x=80 y=700) width=212 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=4 block=1147580192 (x=44 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=4 block=1147580192 (x=106 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 5 left:1 upper:1
+ 570
+page=5 block=173099767 (x=4 y=1) width=12 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ Reviews
+page=5 block=112797691 (x=166 y=1) width=26 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ that development phase of these projects that archivists can learn the most.
+page=5 block=1045997582 (x=4 y=49) width=341 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ For example, notable in the University of Michigan case study is how integra
+page=5 block=1045997582 (x=4 y=65) width=347 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ tion has evolved over time to support its sustainability within the library. The
+page=5 block=1045997582 (x=4 y=80) width=347 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ program was established well over a decade ago and continues to evolve as the
+page=5 block=1045997582 (x=3 y=95) width=347 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ particular MBA project grows (p. 153). In the Harvard University case study, the
+page=5 block=1045997582 (x=3 y=110) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ identification of a research need and development of a solution in collabora
+page=5 block=1045997582 (x=3 y=125) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ tion are examples to be followed. "The impetus for our course began with a
+page=5 block=1045997582 (x=3 y=140) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ student's request for a research methods class that included library research
+page=5 block=1045997582 (x=3 y=155) width=343 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ skills" (p. 188). We should recognize here that, in many cases, archivists are
+page=5 block=1045997582 (x=3 y=170) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ often more naturally integrated in research and instruction than are librari
+page=5 block=1045997582 (x=3 y=185) width=343 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ans. This is due in part not only to our unique collections, but to the particular
+page=5 block=1045997582 (x=3 y=201) width=349 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ way in which the majority of our collections need to be accessed and our audi
+page=5 block=1045997582 (x=3 y=216) width=348 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ence's general lack of experience with this. We also come from a much more
+page=5 block=1045997582 (x=3 y=231) width=343 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ highly mediated tradition of reference provision than the majority of current
+page=5 block=1045997582 (x=3 y=246) width=347 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ librarians.
+page=5 block=1337335626 (x=3 y=259) width=45 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ The remainder of the book has some valuable ideas to be gleaned by
+page=5 block=1336996537 (x=25 y=276) width=352 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ archivists. Much of the value will depend on readers' individual circumstances,
+page=5 block=1336996537 (x=3 y=291) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ their instructional needs, and the type of campuses or institutions where they
+page=5 block=1336996537 (x=2 y=307) width=371 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ work. As an example, the case study "More than a One-Shot: Innovative Faculty
+page=5 block=1336996537 (x=2 y=322) width=372 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Librarian Collaboration" includes extensive student assessment following the
+page=5 block=1336996537 (x=2 y=337) width=365 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ course, which was conducted in concert with assessment of similar courses
+page=5 block=7967307 (x=2 y=350) width=351 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ involving a single library session instead of an embedded experience over
+page=5 block=2073707154 (x=2 y=366) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ the course of three semesters (p. 167). The research shows improved learning
+page=5 block=2073707154 (x=2 y=382) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ through increased instruction and mediation.
+page=5 block=2073707154 (x=2 y=397) width=222 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Many of the techniques echo general suggestions for providing good ref
+page=5 block=2073707154 (x=25 y=411) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ erence or good instruction and do not appear to be in any way unique to an
+page=5 block=2073707154 (x=2 y=426) width=387 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ embedded environment. The less relevant case studies are geared to an online
+page=5 block=2073707154 (x=2 y=441) width=376 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ only presence. This lack of relevance is based on the fact that archivists and
+page=5 block=2073707154 (x=2 y=456) width=373 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ librarians have been consistently providing the majority of the examples given
+page=5 block=2073707154 (x=2 y=471) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ via Web pages, research guides, and course management systems since the
+page=5 block=2073707154 (x=1 y=486) width=385 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ introduction of those tools into standard instruction.
+page=5 block=78204644 (x=2 y=500) width=235 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ The implied premise of the book is that all librarians in higher education,
+page=5 block=1287934450 (x=24 y=517) width=348 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ no matter their charge or their institution, can be involved in embedded librari
+page=5 block=1287934450 (x=2 y=532) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ anship. However, in trying to build a tent big enough to hold everyone, the book
+page=5 block=6519275 (x=2 y=547) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ dilutes its initial promise somewhat. It does, however, end up demonstrating
+page=5 block=692331943 (x=2 y=562) width=368 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ that, regardless of circumstance, you can provide instruction or reference, often
+page=5 block=692331943 (x=2 y=578) width=378 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ in innovative or engaging ways.
+page=5 block=692331943 (x=2 y=593) width=151 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Some underlying themes can be taken away from this book. First, whether
+page=5 block=692331943 (x=25 y=608) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ it's called "embedded" or not, the goal is to provide the most engaging learn
+page=5 block=692331943 (x=2 y=623) width=365 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ing environment and to foster learning within the classroom. True collabora
+page=5 block=692331943 (x=2 y=638) width=367 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ tion with faculty is a sometimes elusive but fundamental step in creating that
+page=5 block=692331943 (x=2 y=653) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=5 block=1741979653 (x=81 y=701) width=208 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=5 block=166794956 (x=43 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=5 block=166794956 (x=105 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 6 left:1 upper:1
+ Reviews
+page=6 block=306612792 (x=164 y=1) width=26 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ 571
+page=6 block=447212746 (x=340 y=1) width=12 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ environment. True embeddedness is not generally scalable given the resources
+page=6 block=1496355635 (x=2 y=49) width=348 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and work involved. Collaboration and embeddedness are also very tenuous,
+page=6 block=1496355635 (x=2 y=64) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ given their lack of scalability and the personal investment of the individuals
+page=6 block=1496355635 (x=2 y=79) width=345 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ involved. The book is littered with examples of projects that ended when a
+page=6 block=1496355635 (x=2 y=93) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ department changed curriculum, a faculty member or librarian left or was reas
+page=6 block=1496355635 (x=2 y=109) width=351 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ signed, or leadership decided to change the focus of learning outcomes. The
+page=6 block=1496355635 (x=2 y=124) width=339 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ examples discussed here require investment not just from individuals but from
+page=6 block=1496355635 (x=2 y=139) width=349 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ libraries, departments, and, in some cases, institutions. Embeddedness may not
+page=6 block=1496355635 (x=2 y=154) width=347 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ be for every librarian or archivist, nor is it for every class, but it involves a vari
+page=6 block=1484171695 (x=2 y=169) width=353 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ ety of ideas and opportunities for providing a richer experience for our students.
+page=6 block=1484171695 (x=2 y=184) width=353 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ What the Best College Teachers Do
+page=6 block=2127036371 (x=2 y=222) width=165 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Part of being a good teacher (not all) is knowing that you always have some
+page=6 block=1529060733 (x=24 y=245) width=303 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ thing new to learn—not so much about teaching techniques but about these
+page=6 block=1529060733 (x=24 y=258) width=302 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ particular students at this particular time and their particular sets of aspira
+page=6 block=1529060733 (x=24 y=271) width=306 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ tions, confusions, misconceptions, and ignorance, (p. 174)
+page=6 block=1529060733 (x=24 y=284) width=230 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ The next two books are very different from the first, not only in their
+page=6 block=106374177 (x=24 y=308) width=329 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ construction, but also in their audience and aims. They are both important
+page=6 block=106374177 (x=2 y=323) width=352 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ additions to the shelves of archivists trying to discover how best to improve the
+page=6 block=106374177 (x=2 y=339) width=352 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ learning of their students. What the Best College Teachers Do is a truly inspirational
+page=6 block=1803669141 (x=2 y=354) width=347 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ book that studies and distills the thoughts and methods of some of the best
+page=6 block=712609105 (x=1 y=368) width=342 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ college teachers. The book is written by Ken Bain, a professor best known for his
+page=6 block=1836463382 (x=2 y=384) width=353 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ research, teaching, and leadership roles in higher education. It is based on a fif
+page=6 block=1388278453 (x=2 y=399) width=347 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ teen-year, in-depth study of faculty from twenty-four universities and a variety
+page=6 block=934275857 (x=1 y=414) width=355 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ of disciplines, including professional schools, that were recognized as having
+page=6 block=1364913072 (x=1 y=429) width=343 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ "achieved remarkable success in helping their students learn in ways that made
+page=6 block=1364913072 (x=2 y=444) width=348 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ a sustained, substantial, and positive influence on how those students think,
+page=6 block=1364913072 (x=1 y=458) width=343 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ act, and feel" (p. 5). The book is now ten years old but is widely considered a
+page=6 block=1364913072 (x=1 y=473) width=345 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ classic among those who study teaching in higher education or who want to
+page=6 block=1364913072 (x=1 y=487) width=341 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ improve their own teaching and learning environments.
+page=6 block=1364913072 (x=1 y=502) width=253 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ While the title of the book is about "doing," the book itself is not a prescrip
+page=6 block=232307208 (x=23 y=518) width=332 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ tion—all of the best teachers do "x," and, therefore, if we all do "x," our students
+page=6 block=232307208 (x=1 y=531) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ and we will have excellent educational experiences. First and foremost, no book
+page=6 block=609962972 (x=1 y=547) width=348 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ on teaching can really successfully prescribe one way of teaching. All of us who
+page=6 block=609962972 (x=1 y=563) width=352 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ have taught, and especially all of us who are learners, know that not everyone
+page=6 block=609962972 (x=1 y=578) width=352 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ can or is comfortable teaching in the same way, nor do all learners respond
+page=6 block=609962972 (x=1 y=593) width=340 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ equally to the same techniques and environments. This book presents itself
+page=6 block=609962972 (x=1 y=608) width=355 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ as a guidebook, and, like any guidebook, readers can enjoy all of the vignettes
+page=6 block=609962972 (x=1 y=624) width=349 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and then decide which theories and practices to integrate into their work. Most
+page=6 block=609962972 (x=1 y=639) width=351 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ of all, readers not only come away inspired by this glimpse into truly engaged
+page=6 block=609962972 (x=1 y=653) width=347 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=6 block=1818544933 (x=80 y=701) width=195 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=6 block=1793436274 (x=42 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=6 block=1793436274 (x=104 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 7 left:1 upper:1
+ 572
+page=7 block=572868060 (x=2 y=1) width=13 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Reviews
+page=7 block=1549725679 (x=164 y=1) width=26 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ learning, but they will also see examples that bring to mind favorite teachers
+page=7 block=371800738 (x=2 y=49) width=380 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ from the past or a desire to take classes from the faculty profiled!
+page=7 block=371800738 (x=2 y=65) width=319 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The central premise of the book is to identify and explain the understand
+page=7 block=371800738 (x=24 y=80) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ing, actions, and motivations of those teachers who were part of the research and
+page=7 block=1364767791 (x=2 y=96) width=384 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ recognized as being some of the best teachers. The book is organized around the
+page=7 block=1499136125 (x=2 y=111) width=381 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ function of teaching in a series of chapters: "Defining the Best"; "What Do They
+page=7 block=1499136125 (x=1 y=127) width=385 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Know about How We Learn?"; "How Do They Prepare to Teach?"; "What Do They
+page=7 block=1499136125 (x=1 y=142) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Expect of Their Students?"; "How Do They Conduct Class?"; "How Do They Treat
+page=7 block=1499136125 (x=1 y=158) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Their Students?"; "How Do They Evaluate Their Students and Themselves?"; and
+page=7 block=1499136125 (x=1 y=173) width=384 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ "What Can We Learn from Them?" The book is best experienced as a whole, but
+page=7 block=1499136125 (x=2 y=189) width=380 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ the chapters and the index do allow readers to find the sections most relevant
+page=7 block=1499136125 (x=1 y=205) width=383 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ to their needs.
+page=7 block=1926343982 (x=1 y=218) width=63 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ This book provides a deeper discussion of learning theory than some read
+page=7 block=762476028 (x=23 y=235) width=349 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ers might have experienced previously. This is a crucial addition to the lexicon
+page=7 block=762476028 (x=1 y=251) width=373 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ of archivists; just as we stress the importance of archival theory in guiding
+page=7 block=762476028 (x=1 y=266) width=362 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ archival practice, so should we have at least a small grounding in learning
+page=7 block=762476028 (x=1 y=282) width=373 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ theory upon which to base our teaching plans and instructional approaches.
+page=7 block=762476028 (x=1 y=297) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Readers will notice that the book little emphasizes or discusses teaching with
+page=7 block=762476028 (x=1 y=313) width=366 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ technology. This is not necessarily evidence of its age (it does not seem dated).
+page=7 block=762476028 (x=1 y=329) width=372 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The key is to remember that this book is not about particular tools, but how to
+page=7 block=762476028 (x=1 y=345) width=372 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ select and use particular tools. It is about what we want students to be able to
+page=7 block=762476028 (x=1 y=360) width=370 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ understand, to do, to learn, or to make once they have left our classes, and it
+page=7 block=762476028 (x=1 y=375) width=370 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ is about starting at that point and selecting the best tools to encourage this to
+page=7 block=762476028 (x=1 y=391) width=374 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ happen. Along those lines, this book does not necessarily advocate for or against
+page=7 block=762476028 (x=1 y=406) width=373 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ lecture as a teaching tool. Instead, it discusses and provides examples of what
+page=7 block=762476028 (x=1 y=421) width=366 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ learning lecture fosters best, and the thinking behind what are considered good
+page=7 block=762476028 (x=1 y=437) width=373 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ lectures, and it does the same for other modes of teaching (p. 99).
+page=7 block=762476028 (x=1 y=451) width=307 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The second thing that readers will note is the focus on instruction in
+page=7 block=762476028 (x=23 y=467) width=350 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ courses. While many of us have increasingly found opportunities to teach term
+page=7 block=762476028 (x=1 y=482) width=370 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ long research methods courses, or be closely integrated into term-long courses,
+page=7 block=762476028 (x=1 y=498) width=370 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ the majority of instruction by archivists still occurs in an environment of, on
+page=7 block=762476028 (x=1 y=514) width=368 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ average, fifty to ninety minutes per class in the course of a term. So, at first
+page=7 block=762476028 (x=1 y=529) width=374 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ glance, the book may seem short on relevance to those with only limited time
+page=7 block=762476028 (x=1 y=545) width=373 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ or control over a class. However, I encourage all archivists to take up this text
+page=7 block=762476028 (x=1 y=560) width=372 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and use it as it is meant to be used: as a guidebook. Think about integrating
+page=7 block=762476028 (x=1 y=576) width=376 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ different learning styles into your session; when planning the session, instead
+page=7 block=762476028 (x=1 y=592) width=373 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ of starting with the questions "what do I need to cover, and what do I want to
+page=7 block=762476028 (x=1 y=607) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ show?," start with "what do I want the students to be able to understand, to do,
+page=7 block=762476028 (x=1 y=622) width=375 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ or to make?," and let the coverage and the materials flow from there. For many
+page=7 block=762476028 (x=1 y=638) width=372 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ readers, the most valuable chapter may be "How They Conduct Class," which
+page=7 block=762476028 (x=1 y=653) width=364 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=7 block=966739377 (x=80 y=701) width=206 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=7 block=952562199 (x=42 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=7 block=952562199 (x=104 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 8 left:1 upper:1
+ Reviews
+page=8 block=1199673596 (x=166 y=1) width=26 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ 573
+page=8 block=2044903525 (x=341 y=1) width=13 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ focuses on what goes on in the classroom, as it can be used no matter the time
+page=8 block=982757413 (x=3 y=49) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ available.
+page=8 block=902478634 (x=3 y=64) width=41 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ What the Best College Teachers Do is not about overhauling your teaching
+page=8 block=2114444063 (x=26 y=80) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ entirely. It may happen organically over time, but that is not its premise. Instead,
+page=8 block=294247762 (x=3 y=97) width=389 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ it's about learning from others about what works for their students and what
+page=8 block=918312414 (x=3 y=111) width=404 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ works for them, and then trying to integrate incrementally those small things
+page=8 block=918312414 (x=3 y=127) width=402 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ into your regular teaching practice. It also provides examples of how the best
+page=8 block=918312414 (x=3 y=143) width=399 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ teachers approach experiments in teaching that do not work. Since not every
+page=8 block=918312414 (x=3 y=159) width=397 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ thing we do will work, it's about diagnosing the problems and either looking
+page=8 block=918312414 (x=3 y=174) width=396 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ for solutions or replacing them with something new and understanding that
+page=8 block=918312414 (x=3 y=190) width=395 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ failure is a part of experimentation and growth, but is not fatal.
+page=8 block=918312414 (x=3 y=206) width=325 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ This book counters the assumption that there is one best way to teach or
+page=8 block=918312414 (x=25 y=221) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ one best type of teacher. Instead, it presents a series of encouraging examples
+page=8 block=918312414 (x=3 y=237) width=401 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and vignettes to demonstrate that all varieties of teachers in higher education
+page=8 block=918312414 (x=3 y=252) width=403 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ can provide an environment that vastly improves the learning of their students.
+page=8 block=918312414 (x=3 y=268) width=403 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ As archivists, we must bring to the table a desire to learn and to improve, and a
+page=8 block=918312414 (x=3 y=284) width=405 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ willingness to try new things.
+page=8 block=918312414 (x=3 y=300) width=153 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The/oy of Teaching
+page=8 block=1448061896 (x=3 y=339) width=109 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Teaching is only as successful as the learning it produces, (p. 133)
+page=8 block=382750013 (x=25 y=362) width=299 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Of the four books reviewed, The Joy of Teaching is the closest to a teach
+page=8 block=1240232440 (x=25 y=387) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ing manual. However, while its premise does not have the inspirational tone
+page=8 block=1240232440 (x=3 y=403) width=389 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ of Bain's book, it is still engaging and well grounded in solid learning theory
+page=8 block=1240232440 (x=3 y=418) width=396 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ with a focus on student learning. It espouses a systematic approach to focusing
+page=8 block=1240232440 (x=2 y=434) width=406 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ on student learning when teaching. At the time the book was written, Filene
+page=8 block=1240232440 (x=3 y=449) width=397 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ was a professor of history at the University of North Carolina-Chapel Hill who
+page=8 block=1240232440 (x=2 y=465) width=400 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ had won six teaching awards at the university. He offers concrete but variable
+page=8 block=1240232440 (x=2 y=480) width=404 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ instructions and examples to use when it's time to take a new approach to pre
+page=8 block=1240232440 (x=3 y=496) width=400 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ paring for or conducting a class. His book and Bain's are best read and used as
+page=8 block=1240232440 (x=2 y=510) width=399 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ complementary companions. In fact, Bain wrote the introduction to this book,
+page=8 block=1240232440 (x=2 y=526) width=405 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ which was published one year after his.
+page=8 block=1240232440 (x=2 y=542) width=201 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The Joy of Teaching is organized into three parts and broken into chapters.
+page=8 block=1240232440 (x=24 y=558) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The three parts are "Premises," "Practices," and "Extra Curriculars." The chapters
+page=8 block=1240232440 (x=2 y=574) width=403 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ echo the topics in the previous book, but provide more step-by-step guidance
+page=8 block=1240232440 (x=2 y=590) width=398 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and concrete actions. Chapters include "Understanding Students"; "Defining
+page=8 block=1240232440 (x=2 y=606) width=405 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Aims and Outcomes"; "Constructing a Syllabus"; "Lecturing"; "Discussing";
+page=8 block=1240232440 (x=1 y=622) width=402 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ "Broadening the Learning Environment"; "Evaluating and Grading"; and "Extra
+page=8 block=1240232440 (x=2 y=637) width=402 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Curriculars." Throughout the book, foundational research on student learning
+page=8 block=1240232440 (x=2 y=653) width=399 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=8 block=489349054 (x=81 y=700) width=223 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=8 block=915416632 (x=43 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=8 block=915416632 (x=105 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 9 left:1 upper:1
+ 574
+page=9 block=574434418 (x=2 y=1) width=12 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ Reviews
+page=9 block=150268540 (x=165 y=1) width=25 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ is included along with examples gleaned from the author's and other teachers'
+page=9 block=1130894323 (x=2 y=49) width=376 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ experience.
+page=9 block=1130894323 (x=2 y=64) width=56 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ As with Bain's book, two general criticisms are that it rarely mentions
+page=9 block=1130894323 (x=24 y=79) width=344 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ teaching with technology, and it focuses on those who are teaching courses,
+page=9 block=1130894323 (x=2 y=94) width=368 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ instead of single sessions. These criticisms do not detract from the general value
+page=9 block=1130894323 (x=2 y=110) width=378 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ of the book to archivists, however. This is the book that archivists who teach
+page=9 block=1962826816 (x=2 y=123) width=362 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ longer, more substantive courses are looking for: what makes a good syllabus?
+page=9 block=1072410641 (x=2 y=140) width=377 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ How do you put one together? How do you make sure it is manageable over the
+page=9 block=1072410641 (x=2 y=155) width=374 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ period of a term or semester? The target audience of this book comprises new
+page=9 block=1072410641 (x=2 y=170) width=379 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ instructors who are developing and teaching their first courses. This makes it
+page=9 block=1072410641 (x=2 y=185) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ especially valuable for those who are new to teaching, but it includes practices
+page=9 block=1072410641 (x=2 y=200) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and ideas that can be of interest and applicable as well to more experienced
+page=9 block=1072410641 (x=2 y=215) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ instructors, depending on their backgrounds.
+page=9 block=1072410641 (x=2 y=230) width=216 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ This book can easily be read in its entirety, but it also serves well as a
+page=9 block=1072410641 (x=24 y=245) width=357 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ consulting volume with its linear organization, index, and footnotes and anno
+page=9 block=1072410641 (x=1 y=261) width=376 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ tated bibliography as starting places for further exploration. The book begins
+page=9 block=1072410641 (x=1 y=276) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ by asking what type of teacher the reader is based on a series of questions (p.
+page=9 block=1072410641 (x=1 y=291) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ 11). The preliminary result will be revised and refined over time as the individ
+page=9 block=1072410641 (x=2 y=306) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ual continues to teach. A chapter on student learning theory follows. Taken
+page=9 block=1072410641 (x=1 y=321) width=367 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ together, these prime readers to think more personally about teaching and
+page=9 block=1072410641 (x=1 y=336) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ about who they will be teaching before considering what to cover and how
+page=9 block=1072410641 (x=2 y=351) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ to put it all together. Some readers might be tempted to skip these parts, but
+page=9 block=1072410641 (x=1 y=366) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ they prompt thinking about oneself as a teaching archivist in ways that may
+page=9 block=1072410641 (x=1 y=382) width=375 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ not have been previously considered and then prompt readers to approach the
+page=9 block=1072410641 (x=1 y=396) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ subsequent chapters differently.
+page=9 block=1072410641 (x=2 y=411) width=154 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The next four chapters cover those areas at the heart of teaching: the plan
+page=9 block=1072410641 (x=23 y=426) width=356 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ning and the doing. Depending on whether the reader is teaching a "one-shot,"
+page=9 block=1072410641 (x=1 y=441) width=381 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ a course integrated into the collections, or a stand-alone research methods
+page=9 block=1072410641 (x=2 y=455) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ course, the sections will have varying relevance to the task at hand. Each chap
+page=9 block=1072410641 (x=1 y=470) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ter is filled not only with vignettes but with templates and examples that can
+page=9 block=1072410641 (x=1 y=485) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ be repurposed to the current task.
+page=9 block=1072410641 (x=1 y=501) width=165 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The final four chapters are of varying applicability to readers who are
+page=9 block=1072410641 (x=24 y=516) width=343 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ teaching archivists. The final two chapters on relating to students and balanc
+page=9 block=1072410641 (x=1 y=531) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ing teaching with all of the other responsibilities of faculty will apply more
+page=9 block=1072410641 (x=2 y=547) width=372 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ or less depending on whether the reader is teaching full courses or individual
+page=9 block=1072410641 (x=2 y=562) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ classes. Chapter 7 discusses broadening the learning environment and explores
+page=9 block=1072410641 (x=2 y=577) width=376 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ techniques for teaching beyond lecture and discussion, including panel discus
+page=9 block=1072410641 (x=2 y=593) width=371 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ sion, debates and role playing, case studies, polls or surveys, and public exhibits.
+page=9 block=1072410641 (x=2 y=607) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ In my own experience and in the literature, I have found that archivists use
+page=9 block=1072410641 (x=2 y=623) width=370 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ this realm of alternate forms of teaching well, often when teaching their own
+page=9 block=1072410641 (x=2 y=637) width=375 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ courses or those deeply integrated into the collections. The other chapter is
+page=9 block=1072410641 (x=2 y=652) width=366 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=9 block=283318938 (x=81 y=700) width=210 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=9 block=320304382 (x=42 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=9 block=320304382 (x=104 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 10 left:1 upper:1
+ 575
+page=10 block=361571968 (x=339 y=1) width=12 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ Reviews
+page=10 block=2005169944 (x=164 y=2) width=25 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ on evaluating and grading, which will apply variously depending on whether
+page=10 block=2134607032 (x=1 y=50) width=345 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ coursework and assignments are involved in the reader's class. However, every
+page=10 block=2134607032 (x=2 y=65) width=351 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ teaching archivist can find value in the section on evaluation, whether used
+page=10 block=2134607032 (x=2 y=80) width=339 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ at the start or the end of a class, or both. Evaluation allows an instructor to
+page=10 block=2134607032 (x=2 y=93) width=343 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ dispel any assumptions he or she or the faculty might have about a student's
+page=10 block=2134607032 (x=2 y=110) width=345 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ pre-instruction knowledge and assumptions, or to document postinstruction
+page=10 block=2134607032 (x=2 y=125) width=342 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ learning. The author provides short suggestions on how to gauge learning and
+page=10 block=2134607032 (x=2 y=139) width=349 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ on how well goals for student learning are actually met.
+page=10 block=2134607032 (x=2 y=154) width=248 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Of the four books reviewed here, The Joy of Teaching provides the most prac
+page=10 block=1470344997 (x=24 y=170) width=322 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ tical steps and solutions to answer the overall questions of what we want our
+page=10 block=728115831 (x=2 y=184) width=345 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ students to learn and how we can best help them learn it. It would be best
+page=10 block=728115831 (x=2 y=198) width=353 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ utilized in concert with the other texts mentioned here that are filled with case
+page=10 block=2131670196 (x=2 y=212) width=347 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ studies and vignettes, most especially the Bain book. This book provides the
+page=10 block=1546908073 (x=2 y=229) width=340 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ structure to integrate the others into your own teaching.
+page=10 block=1546908073 (x=2 y=244) width=255 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ A New Culture of Learning
+page=10 block=371439501 (x=2 y=282) width=132 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The ability to play may be the single most important skill to develop for the
+page=10 block=210506412 (x=24 y=305) width=307 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ twenty-first century. (Location 1623)
+page=10 block=210506412 (x=24 y=318) width=144 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ The final book in this review is in many ways unlike the rest; however,
+page=10 block=112049309 (x=24 y=342) width=325 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ this helps it to act as a lens through which to view the other three books. A New
+page=10 block=1162918744 (x=2 y=357) width=352 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Culture of Learning is about innovation and education. It answers the question
+page=10 block=1321530272 (x=2 y=372) width=351 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ of how we help our students to learn by looking at the learning environment
+page=10 block=1321530272 (x=2 y=386) width=350 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ writ large—all ages and all settings—and it uses as its springboard the role that
+page=10 block=1321530272 (x=2 y=402) width=349 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ networked technology can have in enabling expanded learning in this environ
+page=10 block=1321530272 (x=2 y=416) width=349 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ment. The authors are John Seeley Brown, former chief scientist for the Xerox
+page=10 block=1321530272 (x=2 y=431) width=353 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Corporation and director of its Palo Alto Research Center; prolific writer and
+page=10 block=1321530272 (x=2 y=446) width=349 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ thinker in the areas of teaching, learning, and innovation; and the author with
+page=10 block=1321530272 (x=2 y=460) width=349 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Paul Duguid of The Sotial Life of Information; together with Douglas Thomas, a pro
+page=10 block=573673894 (x=2 y=476) width=343 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ fessor of technology, communication, and culture at the University of Southern
+page=10 block=1226020905 (x=2 y=490) width=351 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ California. The book's contributions are to look at student learning through a
+page=10 block=1226020905 (x=2 y=504) width=348 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ different lens and to challenge and provoke thinking about how teaching and
+page=10 block=1226020905 (x=2 y=519) width=348 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ education can evolve in environments where networked technology is applied.
+page=10 block=1226020905 (x=2 y=534) width=348 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The book is arranged into nine chapters that establish and expand the central
+page=10 block=1226020905 (x=2 y=549) width=347 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ argument of the book, which is that the new culture of learning has at its center
+page=10 block=156856360 (x=2 y=564) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ a focus on play, questioning, and imagination. All three areas are foundational
+page=10 block=1617550160 (x=2 y=579) width=350 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ to creating a culture to support innovation (pp. 18-19).
+page=10 block=1617550160 (x=2 y=594) width=240 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ One theme also present in the Bain and Filene books is the dismissal of
+page=10 block=1617550160 (x=24 y=609) width=334 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ teaching as merely a transferring process model. This is the traditional model
+page=10 block=1617550160 (x=2 y=624) width=350 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ that posits teaching as purely the transference of knowledge from the teacher
+page=10 block=1617550160 (x=2 y=640) width=348 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ to the students, with evaluation set to judge the accuracy of transmission. The
+page=10 block=1617550160 (x=2 y=654) width=354 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=10 block=1325124186 (x=81 y=702) width=195 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=10 block=461160828 (x=43 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=10 block=461160828 (x=105 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 11 left:1 upper:1
+ 576
+page=11 block=1499867659 (x=2 y=1) width=12 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ Reviews
+page=11 block=2012993836 (x=164 y=1) width=26 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ main argument of the book is that the new culture of learning (play, question
+page=11 block=1740797075 (x=2 y=49) width=383 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ing, and imagination) is created neither partly nor wholly in the classroom but
+page=11 block=1740797075 (x=2 y=64) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ by integrating the networked environment into the classroom or eliminating
+page=11 block=1740797075 (x=1 y=80) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ the classroom as the focus of the learning environment (pp. 35-36).
+page=11 block=1740797075 (x=2 y=95) width=321 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Many of the positions and arguments found in this book are similar to those
+page=11 block=440938038 (x=24 y=111) width=361 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ in books on topics in innovation, leading change, and design thinking. The authors
+page=11 block=440938038 (x=2 y=127) width=367 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ apply these arguments not only to education, but more especially to proposing an
+page=11 block=440938038 (x=2 y=142) width=383 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ infrastructure for cultivating these skills and thinking through education. While
+page=11 block=440938038 (x=2 y=158) width=383 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ it focuses on networked technology, every archivist will see in this book examples
+page=11 block=440938038 (x=2 y=174) width=368 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ of how our digital collections and online exhibits form the environment for this
+page=11 block=1922464006 (x=2 y=189) width=383 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ type of engaged learning across all types of users. Other examples that archivists
+page=11 block=1922464006 (x=1 y=204) width=385 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ can extrapolate from the book are in the use of the online collective, projects
+page=11 block=1922464006 (x=1 y=220) width=380 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ that bring together learners in an environment where they participate by adding
+page=11 block=1536031937 (x=1 y=236) width=385 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ knowledge. This harnessing of the collective in peer-to-peer learning is part of the
+page=11 block=1536031937 (x=1 y=252) width=371 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ new culture of learning (pp. 52-53). While setting aside for now the larger issues
+page=11 block=798981583 (x=2 y=267) width=381 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ in the profession of how archivists value and interpret this input, it should be
+page=11 block=798981583 (x=1 y=282) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ recognized as part of a larger learning environment that we are creating.
+page=11 block=798981583 (x=1 y=298) width=348 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Outside of the networked realm, collections can be used in teaching in
+page=11 block=798981583 (x=24 y=312) width=361 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ innovative ways to stimulate play and questioning, both primary aims of edu
+page=11 block=798981583 (x=1 y=328) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ cation in the book, but discussed here only in the networked realm. In chapter
+page=11 block=798981583 (x=1 y=344) width=378 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ 3 on embracing change, the authors describe "a new kind of reading practice
+page=11 block=798981583 (x=1 y=360) width=375 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ evaluate a contested piece of knowledge and decide for yourself how you want
+page=11 block=798981583 (x=1 y=375) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ to interpret it" (p. 47). Any teaching archivist who has ever led students through
+page=11 block=1954406292 (x=1 y=391) width=384 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ an exercise of reading and integrating primary sources into their research will
+page=11 block=904058452 (x=1 y=406) width=379 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ recognize here a familiar goal and outcome. Archivists could no doubt give other
+page=11 block=904058452 (x=1 y=421) width=385 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ examples of how they foster these skills and mindsets through their teaching
+page=11 block=904058452 (x=1 y=436) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ and learning environments. We might not think of what students do as play,
+page=11 block=904058452 (x=1 y=451) width=379 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ but experimentation and stimulating the imagination occur when students are
+page=11 block=904058452 (x=1 y=467) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ assigned to take items from our collections and use them as foundations for
+page=11 block=904058452 (x=1 y=482) width=373 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ creative writing projects, art, or other experimental or experiential creation.
+page=11 block=904058452 (x=1 y=498) width=370 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Unfortunately, this book bases its argument on an educational environ
+page=11 block=904058452 (x=24 y=513) width=361 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ment that, while common, does not take into account the innovative and learn
+page=11 block=904058452 (x=1 y=528) width=384 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ er-centered teaching environments that we glimpse in the previous three books
+page=11 block=904058452 (x=1 y=545) width=382 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ reviewed in this essay. This dichotomy between the traditional learning envi
+page=11 block=904058452 (x=1 y=560) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ ronment and a networked technology may leave readers wishing they could
+page=11 block=904058452 (x=1 y=576) width=370 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ sit around a table with the authors of all of these books to discuss how learn
+page=11 block=904058452 (x=2 y=590) width=375 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ er-centered teaching environments can inform the discussion of networked
+page=11 block=904058452 (x=1 y=607) width=371 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ technology. This text would not lend itself to immediate practical application,
+page=11 block=904058452 (x=1 y=623) width=381 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ but instead might challenge and provoke ideas about how teaching with pri
+page=11 block=904058452 (x=1 y=638) width=385 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ mary sources could evolve to address this new culture of learning.
+page=11 block=904058452 (x=2 y=654) width=317 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=11 block=29183965 (x=80 y=701) width=212 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=11 block=1427651360 (x=42 y=742) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=11 block=1427651360 (x=104 y=750) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+Page: 12 left:1 upper:1
+ 577
+page=12 block=1334042472 (x=339 y=1) width=13 height=4 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Reviews
+page=12 block=1827725498 (x=164 y=2) width=26 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+ The New Culture of Learning is a call to a new way of thinking about educa
+page=12 block=131635550 (x=24 y=51) width=358 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ tion. At its root, however, it is still looking at the fundamental question of how
+page=12 block=131635550 (x=2 y=65) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ we help improve the learning of our students. At first glance, it seems to provide
+page=12 block=319644606 (x=1 y=81) width=386 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ a model that could be difficult to embrace, but when looking more deeply at
+page=12 block=1118078504 (x=2 y=94) width=376 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ what is proposed, and looking at it through both a networked and a traditional
+page=12 block=1118078504 (x=2 y=111) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ lens, we can see areas where teaching archivists are already making strides to
+page=12 block=1118078504 (x=2 y=125) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ spur new teaching innovation.
+page=12 block=1118078504 (x=2 y=141) width=149 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The four books profiled here were brought together as a way to look at the
+page=12 block=1118078504 (x=24 y=156) width=360 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ literature outside the archives profession to explore ideas that teaching archi
+page=12 block=1118078504 (x=2 y=170) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ vists can learn and integrate into their practices. This essay is also based on the
+page=12 block=1118078504 (x=2 y=186) width=380 height=5 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ premise that those of us who teach are always searching for ways to improve, to
+page=12 block=1118078504 (x=2 y=201) width=384 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ increase engagement with our collections, and to integrate new ideas into our
+page=12 block=1118078504 (x=3 y=216) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ teaching. Also, as faculty and others on campus discover the role our collections
+page=12 block=1118078504 (x=3 y=231) width=382 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ can play in their goals for increasing and enhancing the research opportunities
+page=12 block=1118078504 (x=3 y=246) width=378 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ of all students across the curriculum, we have more opportunities to teach and
+page=12 block=1118078504 (x=3 y=260) width=377 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ communicate the value of our collections.
+page=12 block=691690486 (x=3 y=274) width=195 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Heather Briston
+page=12 block=1793799654 (x=280 y=289) width=74 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ University of California
+page=12 block=1793799654 (x=262 y=306) width=106 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Los Angeles
+page=12 block=1793799654 (x=309 y=320) width=45 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Archives and Archivists 2: Current Trends, New Voices
+page=12 block=310623126 (x=14 y=374) width=354 height=7 fontname=URKQDT+Code2000 wordint.min=5 wordint.max=7
+ Edited byAilsa C. Holland and Elizabeth Mullins. Dublin, Ireland: Four Courts Press,
+page=12 block=1961945640 (x=4 y=401) width=383 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ Ltd., 2013. 240 pp. Hardcover. $70.00. ISBN 978-1-84682-365-7.
+page=12 block=258931371 (x=47 y=415) width=301 height=6 fontname=URKQDT+Code2000 wordint.min=4 wordint.max=6
+ The  iIsr niosth t hpe ofeiltli nWg oilfl ia apmail , Bbuutt ltehre  liYgehtaitnsg  (o1f 8a6 f5ir-e1."9 I3n9 A) rachllievgese adnldy A rscthaitviesdts: "Education
+page=12 block=1008315045 (x=3 y=469) width=351 height=9 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ 2: Current Trends, New Voices, editors Ailsa C. Holland and Elizabeth Mullins cap
+page=12 block=860481979 (x=3 y=487) width=295 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ ture the enthusiasm of University College Dublin (UCD) School of History and
+page=12 block=860481979 (x=3 y=502) width=291 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ Archives postgraduate students engaged in research since the publication of
+page=12 block=860481979 (x=3 y=517) width=296 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ the first volume Archives and Archivists (2006). The first book, published as a cel
+page=12 block=1083962448 (x=3 y=532) width=294 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ ebration of the pioneering role of UCD's thirty-five-year postgraduate diploma
+page=12 block=953742666 (x=3 y=547) width=290 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ in archival studies, contains the works of recent archives school graduates
+page=12 block=953742666 (x=4 y=562) width=292 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ and seasoned professionals. It does not attempt to arrange the essays within a
+page=12 block=953742666 (x=4 y=578) width=289 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ thematic framework and is designed primarily to stimulate debate and foster
+page=12 block=953742666 (x=3 y=593) width=290 height=5 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ discussion among archivists in Ireland. Moving beyond the filling of a com
+page=12 block=953742666 (x=3 y=607) width=294 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ memorative bucket in Archives 2, Holland and Mullins, accomplished lecturers
+page=12 block=953742666 (x=3 y=623) width=292 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ at the UCD School of History and Archives, have edited a volume by recently
+page=12 block=953742666 (x=4 y=638) width=288 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ qualified archival practitioners, who through their passionate, well-written
+page=12 block=953742666 (x=3 y=653) width=295 height=6 fontname=URKQDT+Code2000 wordint.min=3 wordint.max=5
+ The American Archivist ? Vol. 78, No. 2 ? Fall/Winter 2015
+page=12 block=1239759990 (x=83 y=701) width=162 height=4 fontname=URKQDT+Code2000 wordint.min=2 wordint.max=4
+This content downloaded from 132.174.250.254 on Sat, 11 Sep 2021 19:29:57 UTC
+page=12 block=891093184 (x=45 y=743) width=270 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4
+All use subject to https://about.jstor.org/terms
+page=12 block=891093184 (x=107 y=751) width=146 height=4 fontname=Times-Roman wordint.min=2 wordint.max=4

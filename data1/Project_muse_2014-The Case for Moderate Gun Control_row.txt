@@ -1,0 +1,2066 @@
+Page: 1 left:1 upper:1
+The Case for Moderate Gun Control 
+page=1 block=230686731 (x=16 y=1) width=220.000000 height=11.000000 fontname=GentiumPlus wordint.min=3 wordint.max=5
+David DeGrazia
+page=1 block=77594876 (x=16 y=28) width=74.000000 height=9.000000 fontname=GentiumPlus wordint.min=2 wordint.max=4
+Kennedy Institute of Ethics Journal, Volume 24, Number 1, March 2014, pp.
+page=1 block=384829217 (x=16 y=73) width=367.000000 height=9.000000 fontname=GentiumPlus wordint.min=2 wordint.max=4
+1-25 (Article)
+page=1 block=384829217 (x=16 y=89) width=64.000000 height=9.000000 fontname=GentiumPlus wordint.min=2 wordint.max=4
+Published by Johns Hopkins University Press
+page=1 block=229641192 (x=16 y=127) width=219.000000 height=9.000000 fontname=GentiumPlus wordint.min=2 wordint.max=4
+DOI: https://doi.org/10.1353/ken.2014.0003
+page=1 block=229641192 (x=16 y=142) width=191.000000 height=9.000000 fontname=GentiumPlusItalic wordint.min=1 wordint.max=8
+For additional information about this article
+page=1 block=462424644 (x=36 y=292) width=196.000000 height=9.000000 fontname=GentiumPlusItalic wordint.min=2 wordint.max=4
+https://muse.jhu.edu/article/541956
+page=1 block=323225715 (x=36 y=309) width=137.000000 height=7.000000 fontname=GentiumPlus wordint.min=1 wordint.max=23
+[ Access provided at 22 Apr 2022 00:23 GMT from Cal St Univ @ Dominguez Hills ]
+page=1 block=24186000 (x=1 y=536) width=369.000000 height=6.000000 fontname=Helvetica wordint.min=2 wordint.max=4
+Page: 2 left:1 upper:1
+[  1  ]
+page=2 block=270929310 (x=159 y=581) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=2 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+David DeGrazia
+page=2 block=727056440 (x=129 y=8) width=86.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+The Case for Moderate Gun Control
+page=2 block=749077083 (x=45 y=67) width=254.000000 height=9.000000 fontname=Sabon-Roman wordint.min=4 wordint.max=6
+ABSTRACT. In addressing the shape of appropriate gun policy, this essay as-
+page=2 block=22629737 (x=1 y=133) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+sumes for the sake of discussion that there is a legal and moral right to private 
+page=2 block=22629737 (x=1 y=146) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+gun ownership. My thesis is that, against the background of this right, the most 
+page=2 block=22629737 (x=1 y=159) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+defensible policy approach in the United States would feature moderate gun 
+page=2 block=22629737 (x=1 y=172) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+control. The first section summarizes the American gun control status quo and 
+page=2 block=22629737 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+characterizes what I call “moderate gun control.” The next section states and 
+page=2 block=22629737 (x=1 y=198) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+rebuts six leading arguments against this general approach to gun policy. The sec-
+page=2 block=22629737 (x=1 y=211) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+tion that follows presents a positive case for moderate gun control that emphasizes 
+page=2 block=22629737 (x=1 y=224) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+safety in the home and society as well as rights whose enforcement entails some 
+page=2 block=22629737 (x=1 y=237) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+limits or qualifications on the right to bear arms. A final section shows how the 
+page=2 block=22629737 (x=1 y=250) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+recommended gun regulations address legitimate purposes, rather than imposing 
+page=2 block=22629737 (x=1 y=263) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+arbitrary restrictions on gun rights, and offers concluding reflections.
+page=2 block=22629737 (x=1 y=276) width=297.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+2012 was yet another bad year for gun violence in the United States. 
+page=2 block=22679472 (x=1 y=322) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+There were over a dozen mass shooting incidents with two standing 
+page=2 block=22679472 (x=1 y=336) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+out as especially tragic. On July 20, James Holmes entered an Au-
+page=2 block=22679472 (x=1 y=350) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rora, Colorado, premiere of a Batman movie and, using an AR-15 assault 
+page=2 block=22679472 (x=1 y=364) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rifle supported by a 100-round ammunition clip, killed twelve people while 
+page=2 block=22679472 (x=1 y=378) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+wounding 58 more before his gun jammed. On December 14, Adam Lanza 
+page=2 block=22679472 (x=1 y=392) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+worked a Bushmaster assault rifle in killing his mother, twenty elementary 
+page=2 block=22679472 (x=1 y=406) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+schoolchildren, six staff members, and himself in Newtown, Connecticut. 
+page=2 block=22679472 (x=1 y=420) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+The latter rampage, especially the slaughter of young children at school, 
+page=2 block=22679472 (x=1 y=434) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+prompted a national discussion of gun violence not seen in the US since 
+page=2 block=22679472 (x=1 y=448) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the attempted assassination of President Reagan. Whether any new gun 
+page=2 block=22679472 (x=1 y=462) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+control measures will become federal law is uncertain, however; the US 
+page=2 block=22679472 (x=1 y=476) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Senate recently failed to muster enough support to bring a bill mandating 
+page=2 block=22679472 (x=1 y=490) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+universal background checks to a vote.
+page=2 block=22679472 (x=1 y=504) width=185.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+What is the shape of appropriate gun control in this country? In ad-
+page=2 block=22679472 (x=13 y=518) width=330.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+dressing this question, the present essay will assume that there is a right, 
+page=2 block=22679472 (x=1 y=532) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Kennedy Institute of Ethics Journal Vol. 24, No. 1, 1–25 © 2014 by The Johns Hopkins University Press
+page=2 block=289933552 (x=14 y=572) width=316.000000 height=4.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=3
+Page: 3 left:1 upper:1
+[  2  ]
+page=3 block=270929322 (x=159 y=583) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=3 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+both legal and moral, to private gun ownership. More precisely, competent, 
+page=3 block=22618014 (x=1 y=19) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+law-abiding adults in the United States have a right to own such ordinary 
+page=3 block=22618014 (x=1 y=33) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+weaponry as handguns and long guns (shotguns and hunting rifles). Ac-
+page=3 block=22618014 (x=1 y=47) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+cording to the US Supreme Court—whose judgment this essay accepts 
+page=3 block=22618014 (x=1 y=61) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+for the sake of discussion—a legal right to bear arms is grounded in the 
+page=3 block=22618014 (x=1 y=75) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Second Amendment of the Constitution.1,2 A moral right to private gun 
+page=3 block=22618014 (x=1 y=88) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ownership, meanwhile, is most plausibly thought to be supported by a 
+page=3 block=22618014 (x=1 y=103) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+more general right to self-defense, which itself may be understood to derive 
+page=3 block=22618014 (x=1 y=117) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+from a basic right to physical security.3 Arguably, the prerogative to own 
+page=3 block=22618014 (x=1 y=130) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+hunting rifles rests on one or more liberty rights. Although I believe that 
+page=3 block=22618014 (x=1 y=145) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the case for a moral right to bear arms is quite debatable, in this article I 
+page=3 block=22618014 (x=1 y=159) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+simply grant its existence alongside the legal right.4 I do so because most 
+page=3 block=22618014 (x=1 y=172) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Americans believe in gun rights (CNN/Opinion Research Corporation 
+page=3 block=22618014 (x=1 y=187) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+2008, 2009; Pew Research Center 2010; ABC News/Washington Post 
+page=3 block=22618014 (x=1 y=201) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+2011), because the legal right has been asserted by the Supreme Court, 
+page=3 block=22618014 (x=1 y=215) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and because it is important to consider what sorts of gun control are 
+page=3 block=22618014 (x=1 y=229) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+justifiable against this background of established law and broad public 
+page=3 block=22618014 (x=1 y=243) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+conviction. This background is unlikely to change anytime soon, and we 
+page=3 block=22618014 (x=1 y=257) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+need to determine how to proceed in addressing gun violence in America.
+page=3 block=22618014 (x=1 y=271) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+My thesis is that, assuming there is a right to bear arms, the most de-
+page=3 block=22618014 (x=13 y=285) width=330.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+fensible policy approach in the United States would feature moderate gun 
+page=3 block=22618014 (x=1 y=299) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+control.5 The discussion proceeds as follows. The first section summarizes 
+page=3 block=22618014 (x=1 y=312) width=345.000000 height=8.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the American gun control status quo and identifies several measures I will 
+page=3 block=22618014 (x=1 y=327) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+have in mind in defending what I call “moderate gun control.” The next 
+page=3 block=22618014 (x=1 y=341) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+section states and rebuts five leading arguments against gun control. The 
+page=3 block=22618014 (x=1 y=355) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+section that follows presents a positive case for gun control that empha-
+page=3 block=22618014 (x=1 y=369) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+sizes safety in the home and society as well as rights whose enforcement 
+page=3 block=22618014 (x=1 y=383) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+entails some limits or qualifications on the right to bear arms. A final 
+page=3 block=22618014 (x=1 y=397) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+section shows how the recommended gun regulations address legitimate 
+page=3 block=22618014 (x=1 y=411) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+purposes, rather than imposing arbitrary restrictions on gun rights, and 
+page=3 block=22618014 (x=1 y=425) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+offers concluding reflections.
+page=3 block=22618014 (x=1 y=439) width=136.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+THE STATUS QUO AND WHERE WE MIGHT GO
+page=3 block=926943499 (x=68 y=463) width=208.000000 height=5.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Currently, federal gun regulations in this country are extremely minimal. 
+page=3 block=22646628 (x=13 y=483) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Adults who lack any specific disqualifying criminal or psychiatric history 
+page=3 block=22646628 (x=1 y=497) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+can easily purchase firearms. The Brady Handgun Violence Prevention 
+page=3 block=22646628 (x=1 y=511) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Act6 mandates background checks of gun buyers, but only if the seller is 
+page=3 block=22646628 (x=1 y=524) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a licensed dealer; private sales, including those at gun shows and those 
+page=3 block=22646628 (x=1 y=539) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+conducted online, are exempt. Remarkably, records of background checks 
+page=3 block=22646628 (x=1 y=553) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 4 left:1 upper:1
+[  3  ]
+page=4 block=270929310 (x=159 y=581) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=4 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+cannot be preserved because the Firearm Owners Protection Act7 prohib-
+page=4 block=22618560 (x=1 y=16) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+its the creation of a national registry of gun ownership. This legislation 
+page=4 block=22618560 (x=1 y=31) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+also limited the Bureau of Alcohol, Tobacco, and Firearms (ATF) from 
+page=4 block=22618560 (x=1 y=45) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+inspecting gun dealers more than once a year and raised the standard of 
+page=4 block=22618560 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+proof needed to revoke their licenses. An amendment to a 2003 spend-
+page=4 block=22618560 (x=1 y=73) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ing bill prohibits law enforcement from publicly releasing data showing 
+page=4 block=22618560 (x=1 y=87) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+where criminals purchased their firearms. As for the carrying of guns in 
+page=4 block=22618560 (x=1 y=101) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+public, the only federal legislation is the Gun-Free School Zones Act8. 
+page=4 block=22618560 (x=1 y=114) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Meanwhile, 49 states permit the carrying of firearms and over 30 permit 
+page=4 block=22618560 (x=1 y=129) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+carrying without a license. And since the expiration of the Federal As-
+page=4 block=22618560 (x=1 y=143) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+sault Weapons Ban9 in 2004, guns that are legally available to the public 
+page=4 block=22618560 (x=1 y=156) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+include not only long guns and handguns but assault weapons as well;10 
+page=4 block=22618560 (x=1 y=170) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+also available, in addition to ordinary ammunition, are high-capacity clips. 
+page=4 block=22618560 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+It is worth recalling that the two deadliest rampages of 2012 featured as-
+page=4 block=22618560 (x=1 y=199) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+sault weapons and high-capacity ammunition.
+page=4 block=22618560 (x=1 y=213) width=219.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+I will defend considerably more gun control than currently exists. The 
+page=4 block=22618560 (x=13 y=227) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+term “gun control,” as I understand it, refers to laws and policies designed 
+page=4 block=22618560 (x=1 y=241) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to restrict the manufacture, sale, purchase, possession, storage, transfer, 
+page=4 block=22618560 (x=1 y=255) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+or use of firearms and/or associated ammunition. For convenience, I 
+page=4 block=22618560 (x=1 y=269) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+will consider various gun control measures, defined in this way, along 
+page=4 block=22618560 (x=1 y=283) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+with related political measures. In particular, I will defend the following 
+page=4 block=22618560 (x=1 y=297) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+as additions to the minimal regulations that constitute the legal status 
+page=4 block=22618560 (x=1 y=311) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+quo: (1) universal background checks; (2) a ban on assault weapons and 
+page=4 block=22618560 (x=1 y=325) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+high-capacity magazine clips; (3) the requirement of a license for all new 
+page=4 block=22618560 (x=1 y=339) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun owners, contingent upon passing a rigorous safety course; (4) safe 
+page=4 block=22618560 (x=1 y=353) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+storage requirements and required safety features on all guns; (5) tracing 
+page=4 block=22618560 (x=1 y=367) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+mechanisms on all guns and a national database of gun sales and gun own-
+page=4 block=22618560 (x=1 y=381) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ers; (6) “de-crippling” of the Bureau of Alcohol, Tobacco, and Firearms 
+page=4 block=22618560 (x=1 y=395) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+(ATF); and (7) restoration of funding to the Centers for Disease Control 
+page=4 block=22618560 (x=1 y=409) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and Prevention (CDC) to study the relationships among gun ownership, 
+page=4 block=22618560 (x=1 y=423) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+specific gun regulations, and gun violence. Although it will clearly stretch 
+page=4 block=22618560 (x=1 y=437) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the meaning of “gun control” to include (6) and (7) under the rubric of 
+page=4 block=22618560 (x=1 y=451) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+this term, for the purposes of this paper it will be convenient to do so.
+page=4 block=22618560 (x=1 y=465) width=332.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+I characterize these proposed regulations—considered together on top 
+page=4 block=22618560 (x=13 y=479) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of existing regulations—as moderate gun control. What, then, would 
+page=4 block=22618560 (x=1 y=493) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+count as extensive gun control? The limiting case, of course, would be 
+page=4 block=22618560 (x=1 y=507) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+an outright ban on private gun ownership. Short of that, extensive gun 
+page=4 block=22618560 (x=1 y=521) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+control might include—in addition to measures collectively deemed “mod-
+page=4 block=22618560 (x=1 y=535) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+erate”—severe limits on the number of guns one may purchase and own 
+page=4 block=22618560 (x=1 y=549) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 5 left:1 upper:1
+[  4  ]
+page=5 block=270929322 (x=159 y=583) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=5 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+and/or a mandatory buy-back of previously purchased assault weapons. 
+page=5 block=22614822 (x=1 y=19) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+It might also include a requirement that prospective gun buyers demon-
+page=5 block=22614822 (x=1 y=33) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+strate a special need for owning a gun (e.g., inadequate police protection 
+page=5 block=22614822 (x=1 y=47) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+in one’s neighborhood, a dangerous security job).
+page=5 block=22614822 (x=1 y=61) width=234.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Naturally, such terms as “moderate gun control” and “extensive gun 
+page=5 block=22614822 (x=13 y=75) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+control” have no settled, precise meaning. Here I am just explaining 
+page=5 block=22614822 (x=1 y=89) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+roughly what I will mean by these terms. Moreover, I do not intend to sug-
+page=5 block=22614822 (x=1 y=103) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gest that my arguments support precisely and only the measures I defend; 
+page=5 block=22614822 (x=1 y=117) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+someone who accepts my arguments might propose a different—indeed, 
+page=5 block=22614822 (x=1 y=131) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a better—specification of the sorts of gun regulations that are justified 
+page=5 block=22614822 (x=1 y=145) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+along the lines I intend. Later I will say more about what the measures I 
+page=5 block=22614822 (x=1 y=159) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+defend have in common in terms of promoting safety and accountability 
+page=5 block=22614822 (x=1 y=173) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+while respecting gun rights. This should help to establish these measures 
+page=5 block=22614822 (x=1 y=187) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+as reasonable suggestions within the spirit of moderate gun control. 
+page=5 block=22614822 (x=1 y=201) width=324.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Why defend moderate rather than extensive gun control? Given the 
+page=5 block=22614822 (x=13 y=215) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+background assumption of a right to gun ownership, extensive gun con-
+page=5 block=22614822 (x=1 y=229) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+trol is considerably harder to defend. At the same time, I do not preclude 
+page=5 block=22614822 (x=1 y=243) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+extensive gun control as the best approach.11 What this paper defends is 
+page=5 block=22614822 (x=1 y=256) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+(at least) moderate gun control.
+page=5 block=22614822 (x=1 y=271) width=150.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ARGUMENTS AGAINST MODERATE GUN CONTROL—AND REPLIES
+page=5 block=449185219 (x=23 y=295) width=298.000000 height=5.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Arguments against gun control are sometimes unclear regarding the ex-
+page=5 block=22629450 (x=13 y=315) width=330.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tent of regulation they oppose. It will be helpful, therefore, to reconstruct 
+page=5 block=22629450 (x=1 y=329) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+existing arguments—the leading arguments against gun control of which I 
+page=5 block=22629450 (x=1 y=343) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+am aware—such that they oppose moderate gun control as I have charac-
+page=5 block=22629450 (x=1 y=357) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+terized it. I will state each argument in italics before advancing a rebuttal.
+page=5 block=22629450 (x=1 y=371) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+1. Moderate gun control violates the Second Amendment of the American 
+page=5 block=22667882 (x=1 y=397) width=345.000000 height=6.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+Constitution: “A well regulated Militia, being necessary to the security of 
+page=5 block=22667882 (x=1 y=411) width=345.000000 height=6.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+a free State, the right of the people to keep and bear Arms, shall not be 
+page=5 block=22667882 (x=1 y=425) width=345.000000 height=6.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+infringed.” This statement establishes the right of private citizens to own 
+page=5 block=22667882 (x=1 y=439) width=345.000000 height=6.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+firearms, notwithstanding the distracting phrase about a militia. But the 
+page=5 block=22667882 (x=1 y=453) width=345.000000 height=6.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+sorts of regulation under consideration violate this right.
+page=5 block=22667882 (x=1 y=467) width=268.000000 height=6.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+This argument is unsound. As the Supreme Court clarified in its land-
+page=5 block=22667882 (x=13 y=481) width=330.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+mark Heller case,12 the right to bear arms does not preclude significant 
+page=5 block=22667882 (x=1 y=494) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun controls. In its 5-4 decision, the court’s majority deemphasized the 
+page=5 block=22667882 (x=1 y=509) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+reference to a militia—as the above argument does—and explicitly stated 
+page=5 block=22667882 (x=1 y=523) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+that a right to own guns is constitutionally protected for lawful activities 
+page=5 block=22667882 (x=1 y=537) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 6 left:1 upper:1
+[  5  ]
+page=6 block=270929310 (x=159 y=581) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=6 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+such as self-defense in the home. But the court also explicitly allowed for 
+page=6 block=22610260 (x=1 y=17) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the constitutionality of significant gun regulations:
+page=6 block=22610260 (x=1 y=31) width=239.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Like most rights, the Second Amendment right is not unlimited. It is not a 
+page=6 block=273488124 (x=13 y=52) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+right to keep and carry any weapon whatsoever in any manner whatsoever 
+page=6 block=273488124 (x=13 y=65) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+and for whatever purpose. . . . The court’s opinion should not be taken to 
+page=6 block=273488124 (x=13 y=78) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+cast doubt on longstanding prohibitions on the possession of firearms by 
+page=6 block=273488124 (x=13 y=91) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+felons and the mentally ill, or laws forbidding the carrying of firearms in 
+page=6 block=273488124 (x=13 y=104) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+sensitive places such as schools and government buildings, or laws impos-
+page=6 block=273488124 (x=13 y=117) width=318.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+ing conditions and qualifications on the commercial sale of arms. Miller’s 
+page=6 block=273488124 (x=13 y=130) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+holding that the sorts of weapons protected are those “in common use at 
+page=6 block=273488124 (x=13 y=143) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+the time” finds support in the historical tradition of prohibiting the carrying 
+page=6 block=273488124 (x=13 y=156) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+of dangerous and unusual weapons.13
+page=6 block=273488124 (x=13 y=168) width=162.000000 height=7.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+In this passage the court is explicit that the assertion of a right to bear 
+page=6 block=22680410 (x=13 y=190) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+arms does not imply the assertion of an absolute or unlimited right. In 
+page=6 block=22680410 (x=1 y=204) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+fact, the court suggests several limits on gun rights that would pass con-
+page=6 block=22680410 (x=1 y=218) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+stitutional muster. The last sentence, for example, clears legal space for a 
+page=6 block=22680410 (x=1 y=232) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ban on assault weapons.
+page=6 block=22680410 (x=1 y=246) width=116.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+In thinking about gun rights, it is important to recognize that all rights 
+page=6 block=22680410 (x=13 y=260) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+are limited in scope and at least most rights are subject to overriding. Even 
+page=6 block=22680410 (x=1 y=274) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun enthusiasts do not claim that young children, the severely mentally ill, 
+page=6 block=22680410 (x=1 y=288) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+or persons convicted of violent felonies have the right to bear arms. Gun 
+page=6 block=22680410 (x=1 y=302) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rights are limited, at a first approximation, to competent, law-abiding 
+page=6 block=22680410 (x=1 y=316) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+adults. Moreover, few gun advocates would favor the legalization of ma-
+page=6 block=22680410 (x=1 y=330) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+chine guns. Both of these limits—who is eligible to buy guns and what sorts 
+page=6 block=22680410 (x=1 y=344) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of guns are available—are limits in the scope of the right to gun ownership. 
+page=6 block=22680410 (x=1 y=358) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+But rights can also be overridden by considerations of the public welfare 
+page=6 block=22680410 (x=1 y=372) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+or by competing rights. This point is easily seen when we consider another 
+page=6 block=22680410 (x=1 y=386) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+constitutional right: the right to free speech. As everyone accepts, while 
+page=6 block=22680410 (x=1 y=400) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+this broad right protects nearly all public speech, it has limits. To cite the 
+page=6 block=22680410 (x=1 y=414) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+classic example, one may not shout “Fire!” (falsely) in a crowded movie 
+page=6 block=22680410 (x=1 y=428) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+house. One’s right to free speech is here overridden, and thereby limited, 
+page=6 block=22680410 (x=1 y=442) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+by consideration of other movie-goers’ welfare.
+page=6 block=22680410 (x=1 y=456) width=224.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+While the present rebuttal helps to show that the Second Amendment 
+page=6 block=22680410 (x=13 y=470) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+is compatible with certain gun regulations, it does not show that every 
+page=6 block=22680410 (x=1 y=484) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+measure I include under “moderate gun control” is constitutional. But I 
+page=6 block=22680410 (x=1 y=498) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+see no good reason to doubt that the regulations I have in mind are con-
+page=6 block=22680410 (x=1 y=512) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+sistent with a right to gun ownership. They serve the interests of safety 
+page=6 block=22680410 (x=1 y=526) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and accountability without substantially interfering with competent adults’ 
+page=6 block=22680410 (x=1 y=540) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ability to purchase and own guns for legitimate purposes. The claim that 
+page=6 block=22680410 (x=1 y=554) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 7 left:1 upper:1
+[  6  ]
+page=7 block=270929322 (x=159 y=583) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=7 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+these regulations are consistent with the constitutional right will receive 
+page=7 block=22610300 (x=1 y=19) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+further support from the discussions in the last two sections of this paper.
+page=7 block=22610300 (x=1 y=33) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+2. Introducing moderate gun regulations would place us on a slippery 
+page=7 block=22632635 (x=1 y=59) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+slope leading to a government ban on private gun ownership. Such a ban 
+page=7 block=22632635 (x=1 y=73) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+would be unacceptable. Thus, any step that makes a ban inevitable—or 
+page=7 block=22632635 (x=1 y=87) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+even much more likely—is intolerable. Since moderate gun control mea-
+page=7 block=22632635 (x=1 y=101) width=342.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+sures would constitute such a step, they should be rejected.
+page=7 block=22632635 (x=1 y=115) width=279.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+In rebutting this argument, we can grant the assumption that banning 
+page=7 block=22632635 (x=13 y=129) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+guns would be unacceptable because we assume the existence of a right 
+page=7 block=22632635 (x=1 y=143) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to gun ownership. The problem with the slippery slope argument is its 
+page=7 block=22632635 (x=1 y=157) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+claim that the introduction of moderate gun control measures would likely 
+page=7 block=22632635 (x=1 y=171) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+lead to a ban on guns. Why should anyone believe this? Many countries 
+page=7 block=22632635 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+allow gun ownership with gun control far more restrictive than our own, 
+page=7 block=22632635 (x=1 y=199) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and it is hardly the case that they are also marching inexorably toward 
+page=7 block=22632635 (x=1 y=213) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun bans. Indeed, some of these countries—such as Canada, Australia, 
+page=7 block=22632635 (x=1 y=227) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and several in Western Europe—have policies that amount to what we 
+page=7 block=22632635 (x=1 y=241) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+have termed extensive gun control (see, e.g., Vernick, Hodge, and Webster 
+page=7 block=22632635 (x=1 y=255) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+2007). At least as important is the Supreme Court’s finding that there is 
+page=7 block=22632635 (x=1 y=269) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a constitutional right to bear arms. In view of this decision by the highest 
+page=7 block=22632635 (x=1 y=283) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+court, it is completely implausible that there could be a gun ban in this 
+page=7 block=22632635 (x=1 y=297) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+country even if we enacted moderate gun control: such a ban would be 
+page=7 block=22632635 (x=1 y=311) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+considered straightforwardly unconstitutional. Although slippery-slope 
+page=7 block=22632635 (x=1 y=325) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+arguments against gun control are a favorite political tactic of the National 
+page=7 block=22632635 (x=1 y=339) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Rifle Association (NRA), they simply are not credible.
+page=7 block=22632635 (x=1 y=353) width=256.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Any readers who are nevertheless inclined to take slippery-slope argu-
+page=7 block=22632635 (x=13 y=367) width=330.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ments seriously may be reassured by the explicit pairing, in the final section, 
+page=7 block=22632635 (x=1 y=381) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of specific gun controls with particular purposes. The clear acceptability 
+page=7 block=22632635 (x=1 y=395) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of those purposes enables us to be confident that they justify only certain 
+page=7 block=22632635 (x=1 y=409) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+types of gun control, not a ban, and that there is no reason to assume that 
+page=7 block=22632635 (x=1 y=423) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the regulations’ true motivation is to move toward one.
+page=7 block=22632635 (x=1 y=437) width=263.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+3. The right to bear arms is a basic (or fundamental) moral right that 
+page=7 block=22658535 (x=1 y=463) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+would be violated by moderate gun control. As a basic moral right, it 
+page=7 block=22658535 (x=1 y=477) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+exists independently of the Constitution. Any legal regime that did not 
+page=7 block=22658535 (x=1 y=491) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+protect the right to bear arms would represent a failure, for all basic moral 
+page=7 block=22658535 (x=1 y=505) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+rights should be protected by law. The right’s status as basic implies that 
+page=7 block=22658535 (x=1 y=519) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+it may be subject only to minor restrictions such as limiting eligibility to 
+page=7 block=22658535 (x=1 y=533) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+competent, law-abiding adults. Such moderate restrictions as requiring a 
+page=7 block=22658535 (x=1 y=547) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+safety course constitute excessive interference with the exercise of this right.
+page=7 block=22658535 (x=1 y=561) width=342.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+Page: 8 left:1 upper:1
+[  7  ]
+page=8 block=270929310 (x=159 y=581) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=8 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+This reasoning errs both in asserting that the right to gun ownership is 
+page=8 block=22617417 (x=13 y=17) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a basic moral right and, more importantly, in asserting that this right is 
+page=8 block=22617417 (x=1 y=31) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+violated by moderate regulations. First, the moral right to gun ownership 
+page=8 block=22617417 (x=1 y=45) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+is not basic. The concept of a basic right has been analyzed in various ways 
+page=8 block=22617417 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+(see, e.g., Gewirth 1978, Shue 1996, and Griffin 2008), so it is difficult to 
+page=8 block=22617417 (x=1 y=73) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+avoid begging some questions in advancing a definition. Nevertheless, we 
+page=8 block=22617417 (x=1 y=87) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+may understand basic moral rights as moral rights that (1) protect highly 
+page=8 block=22617417 (x=1 y=101) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+general interests that are vital to the prospects for living a decent life and 
+page=8 block=22617417 (x=1 y=115) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+(2) are not specifications or instances of more general rights. An example 
+page=8 block=22617417 (x=1 y=129) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of a basic right, which will be important to our discussion, is the right to 
+page=8 block=22617417 (x=1 y=143) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+physical security. A derived right, by contrast, is a right that is derived—
+page=8 block=22617417 (x=1 y=157) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+conceptually, empirically, or both—from one or more basic rights. The 
+page=8 block=22617417 (x=1 y=171) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+right not to be assaulted can be derived from the right to physical security; 
+page=8 block=22617417 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the former is one aspect of the latter. The moral right to gun ownership is 
+page=8 block=22617417 (x=1 y=199) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+not basic because it is false that owning guns, in and of itself, is necessary 
+page=8 block=22617417 (x=1 y=213) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+for the prospect of a decent life. For one thing, many people who have 
+page=8 block=22617417 (x=1 y=227) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+decent lives do not have guns (or family members who do). In addition, 
+page=8 block=22617417 (x=1 y=241) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+whatever value guns have must primarily concern their function—what 
+page=8 block=22617417 (x=1 y=255) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+they can do (LaFollette 2000, 265–66). If guns didn’t protect anyone 
+page=8 block=22617417 (x=1 y=269) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+from assault and didn’t work for hunting, they wouldn’t have their pres-
+page=8 block=22617417 (x=1 y=283) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ent value. This suggests that gun rights must be (1) derivative from more 
+page=8 block=22617417 (x=1 y=297) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+general rights and (2) contingent upon their serving certain purposes. In 
+page=8 block=22617417 (x=1 y=311) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+societies in which guns do not serve such purposes related to any basic 
+page=8 block=22617417 (x=1 y=325) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rights, there is no moral right to gun ownership. But, once again, we have 
+page=8 block=22617417 (x=1 y=339) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+assumed that there is such a right in the US today.
+page=8 block=22617417 (x=1 y=353) width=237.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Suppose we granted (incorrectly) that this assumed right is a basic 
+page=8 block=22617417 (x=13 y=367) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+moral right. It would not follow that it must be free of moderate limits or 
+page=8 block=22617417 (x=1 y=381) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+regulations. The right to freedom of movement—a plausible candidate for 
+page=8 block=22617417 (x=1 y=395) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a basic moral right—does not permit me to walk onto private property or 
+page=8 block=22617417 (x=1 y=409) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+into another person’s body without her permission. These are significant 
+page=8 block=22617417 (x=1 y=423) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+limits on my right to free movement. Even basic rights may be subject to 
+page=8 block=22617417 (x=1 y=437) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+significant restrictions.
+page=8 block=22617417 (x=1 y=451) width=107.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+4. In the United States today, moderate gun control would threaten effec-
+page=8 block=22646649 (x=1 y=477) width=342.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+tive self-defense (cf. Wheeler 1997 and Huemer 2003).14 The moral right 
+page=8 block=22646649 (x=1 y=490) width=345.000000 height=8.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+to gun ownership receives its strongest support from a broader right to 
+page=8 block=22646649 (x=1 y=505) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+self-defense. (Let us use the term “self-defense” broadly, if slightly inac-
+page=8 block=22646649 (x=1 y=519) width=342.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+curately, to refer to defense of oneself and others in the household.)15 Even 
+page=8 block=22646649 (x=1 y=532) width=345.000000 height=8.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+the legal right may be understood this way; the Supreme Court interpreted 
+page=8 block=22646649 (x=1 y=547) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+Page: 9 left:1 upper:1
+[  8  ]
+page=9 block=270929322 (x=159 y=583) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=9 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+the Second Amendment as protecting a right to own guns in pursuit of 
+page=9 block=22615905 (x=1 y=19) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+lawful objectives such as self-defense in the home. But surely the right to 
+page=9 block=22615905 (x=1 y=33) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+self-defense includes a right to reasonably effective means of self-defense. 
+page=9 block=22615905 (x=1 y=47) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+In this country today, many people cannot effectively defend themselves 
+page=9 block=22615905 (x=1 y=61) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+without guns. Moderate gun control measures would substantially dimin-
+page=9 block=22615905 (x=1 y=75) width=342.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+ish people’s ability to deploy guns in self-defense and are, for this reason, 
+page=9 block=22615905 (x=1 y=89) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+unacceptable.
+page=9 block=22615905 (x=1 y=103) width=65.000000 height=7.000000 fontname=Sabon-Italic wordint.min=1 wordint.max=22
+Much of this reasoning is cogent. The argument plausibly grounds the 
+page=9 block=22615905 (x=13 y=117) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+right to gun ownership in self-defense while insisting that what merits pro-
+page=9 block=22615905 (x=1 y=131) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tection is the means of effective self-defense. But the argument stumbles in 
+page=9 block=22615905 (x=1 y=145) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+asserting that effective self-defense would (necessarily or even presumably) 
+page=9 block=22615905 (x=1 y=159) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+be undermined by moderate gun control. After all, child-proof locks—
+page=9 block=22615905 (x=1 y=173) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+one type of gun safety feature—can be quickly disabled if necessary to 
+page=9 block=22615905 (x=1 y=187) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+confront an intruder. And it is hardly realistic that one needs an assault 
+page=9 block=22615905 (x=1 y=201) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rifle and high-capacity ammo to keep one’s family reasonably safe. Nor 
+page=9 block=22615905 (x=1 y=215) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+does having to take a rigorous safety course before becoming a gun-owner 
+page=9 block=22615905 (x=1 y=229) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+substantially interfere with one’s ability to defend oneself. Although this 
+page=9 block=22615905 (x=1 y=243) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+requirement would cause some delay in being able to own and use guns 
+page=9 block=22615905 (x=1 y=257) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+in self-defense, effective self-defense requires a skill set that a safety course 
+page=9 block=22615905 (x=1 y=271) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+makes one far more likely to possess. Also, to anticipate a point that will 
+page=9 block=22615905 (x=1 y=285) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+be developed in the following section, self-defense is not effective if one’s 
+page=9 block=22615905 (x=1 y=299) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+storage and use of guns are unsafe and constitute a major threat against 
+page=9 block=22615905 (x=1 y=313) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the well-being of oneself and other individuals in the household.
+page=9 block=22615905 (x=1 y=327) width=304.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+5. Moderate gun control is unacceptable because it would violate our right 
+page=9 block=22681226 (x=1 y=353) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+to liberty. This violation would occur in several ways. First, by limiting 
+page=9 block=22681226 (x=1 y=367) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+the weapons one may use and the circumstances under which one may 
+page=9 block=22681226 (x=1 y=381) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+obtain them, moderate gun control would violate one’s liberty to defend 
+page=9 block=22681226 (x=1 y=395) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+oneself as one sees fit. Second, by imposing these limitations, moderate 
+page=9 block=22681226 (x=1 y=409) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+gun control would violate one’s liberty to recreate as one wants. Third, 
+page=9 block=22681226 (x=1 y=423) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+with the sorts of interferences just described, moderate gun control would 
+page=9 block=22681226 (x=1 y=437) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+violate one’s liberty to adopt a particular lifestyle.16
+page=9 block=22681226 (x=1 y=450) width=243.000000 height=8.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+Although this argument may resonate with many NRA members, it 
+page=9 block=22681226 (x=13 y=465) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+is significantly wrong-headed and provides no good reason to oppose 
+page=9 block=22681226 (x=1 y=479) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+moderate gun control.
+page=9 block=22681226 (x=1 y=493) width=106.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+First, it is misleading at best to speak of a general “right to liberty”—to 
+page=9 block=22681226 (x=13 y=507) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+do as one pleases—which is violated or overridden in every instance in 
+page=9 block=22681226 (x=1 y=521) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+which one’s liberty is curtailed (Griffin 2008, chap. 9; Waldron 1993, chap. 
+page=9 block=22681226 (x=1 y=535) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+2). It is not as if people have a right to enter my home without permission, 
+page=9 block=22681226 (x=1 y=549) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 10 left:1 upper:1
+[  9  ]
+page=10 block=270929310 (x=159 y=581) width=26.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=10 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+but this right is overridden by my rights to property and physical security 
+page=10 block=22619083 (x=1 y=17) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and laws prohibiting trespass. Rather, whatever our morally protected 
+page=10 block=22619083 (x=1 y=31) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+liberty includes, it does not include a prerogative to enter people’s homes 
+page=10 block=22619083 (x=1 y=45) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+without permission. Instead of asserting a general right to liberty, it is more 
+page=10 block=22619083 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+perspicacious to assert specific liberty rights such as rights to freedom of 
+page=10 block=22619083 (x=1 y=73) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+worship and freedom of expression. After the inapt reference to a “right 
+page=10 block=22619083 (x=1 y=87) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to liberty,” the present argument does refer to specific liberty rights, which 
+page=10 block=22619083 (x=1 y=101) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+we may consider in turn.
+page=10 block=22619083 (x=1 y=115) width=118.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+The argument asserts that gun control would violate a right to defend 
+page=10 block=22619083 (x=13 y=129) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+oneself as one sees fit. Is there such a right? There is a right to self-defense. 
+page=10 block=22619083 (x=1 y=143) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+And it makes sense that one should enjoy considerable discretion, in exer-
+page=10 block=22619083 (x=1 y=157) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+cising this right, as to how one might defend oneself. But, surely, legitimate 
+page=10 block=22619083 (x=1 y=171) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+discretion has limits. As the Supreme Court stated, the right to bear arms 
+page=10 block=22619083 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+“is not a right to keep and carry any weapon whatsoever in any manner 
+page=10 block=22619083 (x=1 y=199) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+whatsoever and for whatever purpose.” From any reasonable perspective, 
+page=10 block=22619083 (x=1 y=213) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+one may not defend oneself with a grenade launcher, bazooka, or nuclear 
+page=10 block=22619083 (x=1 y=227) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+weapon, because those weapons are excessively dangerous and unneces-
+page=10 block=22619083 (x=1 y=241) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+sary for the sorts of threats that homeowners may reasonably anticipate. 
+page=10 block=22619083 (x=1 y=255) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+As will become clear in the next section, guns are also very dangerous in 
+page=10 block=22619083 (x=1 y=269) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the sense of posing significant risks not only to burglars and assailants, 
+page=10 block=22619083 (x=1 y=283) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+but also to gun owners and others in their household. For this reason, 
+page=10 block=22619083 (x=1 y=297) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun controls that are reasonably (but not excessively) responsive to these 
+page=10 block=22619083 (x=1 y=311) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+risks do not violate one’s right to self-defense or one’s moral prerogative 
+page=10 block=22619083 (x=1 y=325) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to do so as one wishes, because the limits of that right and prerogative 
+page=10 block=22619083 (x=1 y=339) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+are appropriately set by reasonable considerations of safety. I will argue 
+page=10 block=22619083 (x=1 y=353) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+that moderate gun controls are justified in exactly this way.
+page=10 block=22619083 (x=1 y=367) width=281.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Consider now the assertion that moderate gun control would violate 
+page=10 block=22619083 (x=13 y=381) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+one’s liberty right to recreate as one wants. Here the focus is on hunting, 
+page=10 block=22619083 (x=1 y=395) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+which many people value as a means of recreation. In this paper, I set 
+page=10 block=22619083 (x=1 y=409) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+aside the ethical issues associated with hunting and assume that Americans 
+page=10 block=22619083 (x=1 y=423) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+today have a right to own hunting rifles and to hunt with them. The first 
+page=10 block=22619083 (x=1 y=437) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+point to notice is that moderate gun control as envisioned in this paper 
+page=10 block=22619083 (x=1 y=451) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+will pose no significant obstacle to hunting. Having to take a safety course 
+page=10 block=22619083 (x=1 y=465) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+before buying one’s first gun, for example, is not a significant obstacle. 
+page=10 block=22619083 (x=1 y=479) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Second, as with the alleged right to defend oneself as one sees fit, there 
+page=10 block=22619083 (x=1 y=493) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+is no unlimited right to recreate as one pleases. Obviously, one may not 
+page=10 block=22619083 (x=1 y=507) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+shoot children for sport or own and use machine guns in hunting deer. 
+page=10 block=22619083 (x=1 y=521) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Is there, more plausibly, a right to recreate as one pleases so long as one 
+page=10 block=22619083 (x=1 y=535) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+doesn’t harm others (or other human beings)? Not, I think, if one’s pleasure 
+page=10 block=22619083 (x=1 y=549) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 11 left:1 upper:1
+[  10  ]
+page=11 block=327159210 (x=156 y=583) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=11 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+involves use of a weapon that it is excessively dangerous to allow private 
+page=11 block=22612960 (x=1 y=19) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+citizens to obtain. Thus, an Old Chicago Mob Reenactors Club may be 
+page=11 block=22612960 (x=1 y=33) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+prevented from buying machine guns.
+page=11 block=22612960 (x=1 y=47) width=179.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+The third asserted liberty—to adopt a particular lifestyle—is much 
+page=11 block=22612960 (x=13 y=61) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+broader than the first two. In fact, because the spirit of this appeal refers 
+page=11 block=22612960 (x=1 y=75) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to a lifestyle in which one celebrates gun ownership, the liberty in ques-
+page=11 block=22612960 (x=1 y=89) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tion really incorporates the two more specific liberties we have discussed. 
+page=11 block=22612960 (x=1 y=103) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Accordingly, the liberty to adopt a particular lifestyle is similarly bounded 
+page=11 block=22612960 (x=1 y=117) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+by reasonable efforts to limit risks. Thus, this liberty right, properly un-
+page=11 block=22612960 (x=1 y=131) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+derstood, is compatible with moderate gun control.17
+page=11 block=22612960 (x=1 y=144) width=251.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Having rebutted leading objections to moderate gun control, we turn 
+page=11 block=22612960 (x=13 y=159) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+now to a positive case for this approach to gun policy.
+page=11 block=22612960 (x=1 y=173) width=257.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+A POSITIVE CASE FOR MODERATE GUN CONTROL
+page=11 block=873858009 (x=59 y=197) width=226.000000 height=5.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+The Consequentialist Argument
+page=11 block=959907304 (x=97 y=216) width=151.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+The consequentialist component of the case for moderate gun control 
+page=11 block=22687893 (x=13 y=237) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+(which will be followed by a rights-based component) focuses on the 
+page=11 block=22687893 (x=1 y=251) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+dangerousness of guns. This focus, to be sure, could support an argument 
+page=11 block=22687893 (x=1 y=265) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+for extensive gun control, even a ban on firearms or some large category 
+page=11 block=22687893 (x=1 y=279) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of firearms such as handguns. But, as discussed earlier, the present dis-
+page=11 block=22687893 (x=1 y=293) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+cussion takes the right to bear arms as a point of departure. Given that 
+page=11 block=22687893 (x=1 y=307) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+starting point, the case for (at least) moderate gun control will appeal 
+page=11 block=22687893 (x=1 y=321) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to guns’ dangerousness and to the possibility of mitigating the relevant 
+page=11 block=22687893 (x=1 y=335) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+dangers in justifying particular gun control measures. After all, danger-
+page=11 block=22687893 (x=1 y=349) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ousness comes in degrees. If a society has to accept certain things that are 
+page=11 block=22687893 (x=1 y=363) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+inherently dangerous—whether guns, automobiles, or tackle football—it 
+page=11 block=22687893 (x=1 y=377) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+makes sense to try to make them less dangerous within the constraints of 
+page=11 block=22687893 (x=1 y=391) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+respecting people’s rights.
+page=11 block=22687893 (x=1 y=405) width=121.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+The consequentialist argument begins with a thesis that addresses soci-
+page=11 block=22687893 (x=13 y=419) width=330.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ety’s interest in household safety while turning the most powerful argument 
+page=11 block=22687893 (x=1 y=433) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+for gun ownership rights into an argument for gun control. The thesis 
+page=11 block=22687893 (x=1 y=447) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+is that, in the United States today (in which gun control is minimal), the 
+page=11 block=22687893 (x=1 y=461) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+presence of one or more guns in a house makes household members—on 
+page=11 block=22687893 (x=1 y=475) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+average—less safe than they would be in a gun-free household. Available 
+page=11 block=22687893 (x=1 y=489) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+evidence strongly supports the following more specific claims. First, having 
+page=11 block=22687893 (x=1 y=503) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a gun at home makes household members more likely to die by suicide 
+page=11 block=22687893 (x=1 y=517) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+(Brent et al. 1991; Kellermann et al. 1992; Chapdelaine and Maurice 1996; 
+page=11 block=22687893 (x=1 y=531) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Conwell, Connor, and Cox 2002; Miller, Azrael, and Hemenway 2002; 
+page=11 block=22687893 (x=1 y=545) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Miller and Hemenway 2008). Second, the risk of death by homicide is 
+page=11 block=22687893 (x=1 y=559) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 12 left:1 upper:1
+[  11  ]
+page=12 block=327159198 (x=156 y=581) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=12 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+much greater in homes with guns than in gun-free homes (Kellermann et 
+page=12 block=22619083 (x=1 y=17) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+al. 1993; Wiebe 2003a). Third, domestic violence is much more likely to 
+page=12 block=22619083 (x=1 y=31) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+prove lethal if guns are present in the home (Saltzman et al. 1992; Camp-
+page=12 block=22619083 (x=1 y=45) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+bell et al. 2003). Fourth, the risk of accidental death increases markedly 
+page=12 block=22619083 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+in households with guns (Miller and Hemenway 2001; Wiebe 2003b). 
+page=12 block=22619083 (x=1 y=73) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Overall, having guns at home increases the risk of household members’ 
+page=12 block=22619083 (x=1 y=87) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+suffering a violent death. Another study—which is only partly relevant 
+page=12 block=22619083 (x=1 y=101) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to our discussion because it considered assaults both in and outside the 
+page=12 block=22619083 (x=1 y=115) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+home—concluded that assault victims who possessed a gun were far more 
+page=12 block=22619083 (x=1 y=129) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+likely to be shot than assault victims who did not possess a gun (Branas 
+page=12 block=22619083 (x=1 y=143) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+et al. 2009).
+page=12 block=22619083 (x=1 y=157) width=58.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Thus, available evidence strongly supports the thesis that owning guns 
+page=12 block=22619083 (x=13 y=171) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+for the purpose of self-defense—at least in the United States today (in 
+page=12 block=22619083 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+which gun control is minimal)—tends to be self-defeating: household 
+page=12 block=22619083 (x=1 y=199) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+members, on average, face a greater chance of suffering a violent death 
+page=12 block=22619083 (x=1 y=213) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+if the house contains one or more guns than if the house is free of fire-
+page=12 block=22619083 (x=1 y=227) width=342.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+arms. The qualification “on average” should not be overlooked. For the 
+page=12 block=22619083 (x=1 y=241) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+thesis is not that gun ownership is necessarily self-defeating for every 
+page=12 block=22619083 (x=1 y=255) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+individual who owns guns; gun ownership might, on balance, be neutral 
+page=12 block=22619083 (x=1 y=269) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+or even safety-enhancing for some individuals and households depending 
+page=12 block=22619083 (x=1 y=283) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+on their circumstances, their knowledge of gun safety, particular features 
+page=12 block=22619083 (x=1 y=297) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+(e.g., safety features) of the guns they own, and other details. As things 
+page=12 block=22619083 (x=1 y=311) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+stand, however, gun ownership in the United States today tends to be 
+page=12 block=22619083 (x=1 y=325) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+self-defeating from a safety standpoint.
+page=12 block=22619083 (x=1 y=339) width=185.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Proponents of a right to commit suicide might respond that we should 
+page=12 block=22619083 (x=13 y=353) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ignore the many cases in which guns kept at home are used for this pur-
+page=12 block=22619083 (x=1 y=367) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+pose. After all, we do not normally think of self-defense as being necessary 
+page=12 block=22619083 (x=1 y=381) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+against oneself. But this response to the present argument does not cast 
+page=12 block=22619083 (x=1 y=395) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+significant doubt upon it, for several reasons.
+page=12 block=22619083 (x=1 y=409) width=214.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+First, even if we acknowledge a right to commit suicide, from any 
+page=12 block=22619083 (x=13 y=423) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+reasonable perspective the vast majority of suicides must be regarded as 
+page=12 block=22619083 (x=1 y=437) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tragic. It is not very often that we carefully reflect upon the circumstances 
+page=12 block=22619083 (x=1 y=451) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of someone who committed a suicide and think, “Yes, suicide was the 
+page=12 block=22619083 (x=1 y=465) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+very best option for that individual.” Sometimes we may, but not very 
+page=12 block=22619083 (x=1 y=479) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+often—especially when the victim of suicide is a child, a mentally ill person, 
+page=12 block=22619083 (x=1 y=493) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+or someone who acts impulsively. Often those who commit suicide are 
+page=12 block=22619083 (x=1 y=507) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+unaware of, or are momentarily unable to appreciate, the prospects for 
+page=12 block=22619083 (x=1 y=521) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+their lives going better. In a very real sense, then, many people who feel a 
+page=12 block=22619083 (x=1 y=535) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+desire to commit suicide do need protection against themselves.
+page=12 block=22619083 (x=1 y=549) width=301.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 13 left:1 upper:1
+[  12  ]
+page=13 block=327159210 (x=156 y=583) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=13 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+Relatedly, if there is a right to commit suicide, it is plausibly limited 
+page=13 block=22620161 (x=13 y=19) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to suicidal choices that are genuinely autonomous—choices, that is, that 
+page=13 block=22620161 (x=1 y=33) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+are carried out voluntarily (not primarily driven by external pressures or 
+page=13 block=22620161 (x=1 y=47) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+internal compulsions) with an adequate understanding of one’s realistic 
+page=13 block=22620161 (x=1 y=61) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+options (including those involving available forms of help), and with the 
+page=13 block=22620161 (x=1 y=75) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+psychological capacity to appreciate those options (as opposed to devaluing 
+page=13 block=22620161 (x=1 y=89) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+them due to the distorting effects of depression). An autonomous choice 
+page=13 block=22620161 (x=1 y=103) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+will accord with one’s values and stable preferences. Some suicides commit-
+page=13 block=22620161 (x=1 y=117) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ted with the help of a physician meet these criteria; no doubt some suicides 
+page=13 block=22620161 (x=1 y=131) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+committed without such help do as well. But, of course, one doesn’t need 
+page=13 block=22620161 (x=1 y=145) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a gun to commit suicide autonomously. And the presence of guns makes it 
+page=13 block=22620161 (x=1 y=159) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+more likely that one will kill oneself impulsively and non-autonomously. 
+page=13 block=22620161 (x=1 y=173) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Thus, a right to commit suicide, plausibly construed, will not undermine 
+page=13 block=22620161 (x=1 y=187) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the thesis that gun ownership for the purpose of self-defense is, on aver-
+page=13 block=22620161 (x=1 y=201) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+age, self-defeating.
+page=13 block=22620161 (x=1 y=215) width=88.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+While the first thesis in the consequentialist argument for moderate 
+page=13 block=22620161 (x=13 y=229) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun control concerns safety in the home, the second concerns safety in 
+page=13 block=22620161 (x=1 y=243) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the broader society. The second thesis is that widespread availability of 
+page=13 block=22620161 (x=1 y=257) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+guns makes a society less safe—as indicated by the fact that gun owner-
+page=13 block=22620161 (x=1 y=271) width=342.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+ship rates within a population correlate significantly with murder rates 
+page=13 block=22620161 (x=1 y=285) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+in that population. This point has been amply demonstrated both within 
+page=13 block=22620161 (x=1 y=299) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the United States and internationally.
+page=13 block=22620161 (x=1 y=313) width=176.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+As for domestic comparisons, a literature review found that in American 
+page=13 block=22620161 (x=13 y=327) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+cities, states, and regions (as well as across high-income nations), where 
+page=13 block=22620161 (x=1 y=341) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+there are more guns, people are at higher risk for homicide (Hepburn 
+page=13 block=22620161 (x=1 y=355) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and Hemenway 2004). Another study, comparing state firearm levels and 
+page=13 block=22620161 (x=1 y=369) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+controlling for poverty, urbanization, and region, found that children and 
+page=13 block=22620161 (x=1 y=383) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+adults, men and women, and members of all racial groups are significantly 
+page=13 block=22620161 (x=1 y=397) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+more likely to die from unintentional gun deaths if they live in states with 
+page=13 block=22620161 (x=1 y=411) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+higher levels of gun ownership (Miller, Azrael, and Hemenway 2001). 
+page=13 block=22620161 (x=1 y=425) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Focusing on children, a third study concluded that a disproportionately 
+page=13 block=22620161 (x=1 y=439) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+large number of five- to fourteen-year-olds died from homicides, uninten-
+page=13 block=22620161 (x=1 y=453) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tional firearm deaths, and suicides in regions and states where guns were 
+page=13 block=22620161 (x=1 y=467) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+more prevalent (Miller, Azrael, and Hemenway 2002a). The basic picture 
+page=13 block=22620161 (x=1 y=481) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of more guns in a part of the US correlate with more homicides has been 
+page=13 block=22620161 (x=1 y=495) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+confirmed in many studies (Miller, Azrael, and Hemenway 2002b, 2007; 
+page=13 block=22620161 (x=1 y=509) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Violence Policy Center 2013).
+page=13 block=22620161 (x=1 y=523) width=141.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+A similar pattern emerges in international comparisons. Higher rates of 
+page=13 block=22620161 (x=13 y=537) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun ownership correlate significantly with higher rates of homicides and 
+page=13 block=22620161 (x=1 y=551) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 14 left:1 upper:1
+[  13  ]
+page=14 block=327159198 (x=156 y=581) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=14 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+suicides (Lester 1991; Killias 1993a, 1993b; CDC 1997; Hemenway and 
+page=14 block=22614561 (x=1 y=17) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Miller 2000). It bears emphasis that we are talking about rates within a 
+page=14 block=22614561 (x=1 y=31) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+given population size, not total numbers, making comparisons between 
+page=14 block=22614561 (x=1 y=45) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the United States and smaller countries more meaningful. A 2007 study, 
+page=14 block=22614561 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+which estimated gun ownership rates among a large number of countries, 
+page=14 block=22614561 (x=1 y=73) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+found that the US leads the world with 89 guns per 100 people, with 
+page=14 block=22614561 (x=1 y=87) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Yemen a distant second at 55 guns per 100 people (Geneva Graduate 
+page=14 block=22614561 (x=1 y=101) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Institute of International Studies 2007). Meanwhile, the US gun homi-
+page=14 block=22614561 (x=1 y=115) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+cide rate is 30 times that of Australia or France, and twelve times as high 
+page=14 block=22614561 (x=1 y=129) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+as the average for other developed countries (United Nations Office on 
+page=14 block=22614561 (x=1 y=143) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Drugs and Crime 2011). Moreover, a disproportionate number of victims 
+page=14 block=22614561 (x=1 y=157) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+are children. A major Centers for Disease Control and Prevention (CDC) 
+page=14 block=22614561 (x=1 y=171) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+study found that the firearm death rate among American children was 
+page=14 block=22614561 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+almost twelve times higher than the average rates of 25 other developed 
+page=14 block=22614561 (x=1 y=199) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+countries (1997). The inescapable fact is that the US has enormously high 
+page=14 block=22614561 (x=1 y=213) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+rates of gun violence and gun ownership—and it is obvious that easy ac-
+page=14 block=22614561 (x=1 y=227) width=342.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+cess to guns has a great deal to do, causally, with the frequent occurrence 
+page=14 block=22614561 (x=1 y=241) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+of American gun tragedies.
+page=14 block=22614561 (x=1 y=255) width=128.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+One reporter who studied the international data appealed both to the 
+page=14 block=22614561 (x=13 y=269) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+data and to common sense:
+page=14 block=22614561 (x=1 y=283) width=130.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+In the United States, there are 3.2 gun homicides per 100,000 residents 
+page=14 block=273515168 (x=13 y=304) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+every year. Switzerland has the next highest rate of any advanced Western 
+page=14 block=273515168 (x=13 y=317) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+democracy, at 0.7 per 100,000. After Switzerland, the rate drops to 0.5 
+page=14 block=273515168 (x=13 y=330) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+in Ireland and Canada; 0.4 in Sweden and Finland; 0.2 in New Zealand, 
+page=14 block=273515168 (x=13 y=343) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Britain and Australia; and a flat 0 in Japan.
+page=14 block=273515168 (x=13 y=356) width=187.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+  Want to argue that we have 32 times the rate of dangerous mental 
+page=14 block=273515168 (x=13 y=369) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+illness that they have in Australia? That Americans are characterologically 
+page=14 block=273515168 (x=13 y=382) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+16 times more murderous than Spaniards or Germans? I thought not. 
+page=14 block=273515168 (x=13 y=395) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+(Meyerson 2012)
+page=14 block=273515168 (x=13 y=408) width=74.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+It is true that “correlation does not entail causation.” It is logically pos-
+page=14 block=22666548 (x=1 y=429) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+sible that the correlations under consideration do not reflect a causal 
+page=14 block=22666548 (x=1 y=443) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+relationship between gun ownership rates and death rates. But to deny 
+page=14 block=22666548 (x=1 y=457) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the causal relationship is enormously implausible. Other factors, such as 
+page=14 block=22666548 (x=1 y=471) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+incidence of mental illness and willingness to kill, cannot account for such 
+page=14 block=22666548 (x=1 y=485) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+huge differences in rates.
+page=14 block=22666548 (x=1 y=499) width=117.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+John Lott, a prominent opponent of gun control, dismisses international 
+page=14 block=22666548 (x=13 y=513) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+comparisons, stating that “it is difficult to obtain gun ownership data both 
+page=14 block=22666548 (x=1 y=527) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+over time and across countries, and to control for all the other differences 
+page=14 block=22666548 (x=1 y=541) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+across the legal systems and cultures across countries” (2010, 116). Lott 
+page=14 block=22666548 (x=1 y=555) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 15 left:1 upper:1
+[  14  ]
+page=15 block=327159210 (x=156 y=583) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=15 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+is right about the methodological challenges posed by international com-
+page=15 block=22617501 (x=1 y=19) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+parisons, but to disregard international data seems irresponsible (as well 
+page=15 block=22617501 (x=1 y=33) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+as convenient for one who opposes gun control). Moreover, if we dig a 
+page=15 block=22617501 (x=1 y=47) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+bit deeper into the data, the picture becomes clearer. For example, in a 
+page=15 block=22617501 (x=1 y=61) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+comparison of homicides of children from ages five to fourteen among 26 
+page=15 block=22617501 (x=1 y=75) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+wealthy nations, the US rate was 17 times the average of the other coun-
+page=15 block=22617501 (x=1 y=89) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tries in homicides involving guns but only twice as high in homicides not 
+page=15 block=22617501 (x=1 y=103) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+involving guns (and six times as high overall); meanwhile, in the same age 
+page=15 block=22617501 (x=1 y=117) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+group, the US suicide rate was 10 times the average of the other countries 
+page=15 block=22617501 (x=1 y=131) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+where guns were used but approximately the same where guns were not 
+page=15 block=22617501 (x=1 y=145) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+used (and twice as high overall) (Hemenway and Miller 2000). These data 
+page=15 block=22617501 (x=1 y=159) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+cannot be satisfactorily explained without recognizing gun availability as 
+page=15 block=22617501 (x=1 y=173) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a significant causal factor (LaFollette 2001, 36–37).
+page=15 block=22617501 (x=1 y=187) width=245.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Other things being equal, the more guns are available for a popula-
+page=15 block=22617501 (x=13 y=201) width=330.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tion of a given size, the more murders, suicides, and accidental killings 
+page=15 block=22617501 (x=1 y=215) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+there will be. This fact recommends moderate gun control in the interest 
+page=15 block=22617501 (x=1 y=229) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of promoting public safety. There are two basic ways to understand this 
+page=15 block=22617501 (x=1 y=243) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+point. First, if we think of gun control (as opposed to a gun ban) as not 
+page=15 block=22617501 (x=1 y=257) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+affecting the quantity of guns in a society, we may reasonably judge that we 
+page=15 block=22617501 (x=1 y=271) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+should make these dangerous weapons less dangerous through appropri-
+page=15 block=22617501 (x=1 y=285) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ate gun regulations. Alternatively, if we think of gun control as affecting 
+page=15 block=22617501 (x=1 y=299) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the quantity of guns—for example, by restricting who can purchase guns 
+page=15 block=22617501 (x=1 y=313) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and instituting universal background checks—we may reasonably judge 
+page=15 block=22617501 (x=1 y=327) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+that reducing gun ownership rates is a way of decreasing the harm likely 
+page=15 block=22617501 (x=1 y=341) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to be caused by these weapons. Both of these judgments make good sense.
+page=15 block=22617501 (x=1 y=355) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Thus, society’s interests in both household safety and public safety serve 
+page=15 block=22617501 (x=13 y=369) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+as the basis for a commonsensical, consequentialist argument in favor of 
+page=15 block=22617501 (x=1 y=383) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+moderate gun regulations that are designed to promote safety without 
+page=15 block=22617501 (x=1 y=397) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+violating, or unduly restricting, the right to bear arms.
+page=15 block=22617501 (x=1 y=411) width=257.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+The Rights-based Argument
+page=15 block=922094572 (x=105 y=436) width=134.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+Careful reflection on our moral rights strengthens the case for moderate 
+page=15 block=22657905 (x=13 y=457) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun control. This is very important because some gun advocates believe 
+page=15 block=22657905 (x=1 y=471) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+that duly accounting for gun rights defeats the case for gun control by 
+page=15 block=22657905 (x=1 y=485) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+trumping consequentialist arguments in its favor. Let’s see why they are 
+page=15 block=22657905 (x=1 y=499) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+mistaken.
+page=15 block=22657905 (x=1 y=513) width=46.000000 height=7.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=22
+People have a basic right to physical security. Although some of the 
+page=15 block=22657905 (x=13 y=527) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+details of what this right comes to—some of its implications—are contro-
+page=15 block=22657905 (x=1 y=541) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+versial, some of its implications are not particularly controversial. For ex-
+page=15 block=22657905 (x=1 y=555) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 16 left:1 upper:1
+[  15  ]
+page=16 block=327159198 (x=156 y=581) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=16 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+ample, there are rights not to be assaulted, raped, murdered, and tortured. 
+page=16 block=22619083 (x=1 y=17) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+There is also, again, a right to self-defense, which permits one to try to 
+page=16 block=22619083 (x=1 y=31) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+prevent others from violating one’s rights not to be assaulted, etc. These 
+page=16 block=22619083 (x=1 y=45) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rights all derive from a basic right to physical security. As we have seen, 
+page=16 block=22619083 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+if there is a right to gun ownership—as we have assumed there is—this 
+page=16 block=22619083 (x=1 y=73) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+right is most plausibly thought to derive from the right to self-defense, 
+page=16 block=22619083 (x=1 y=87) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+which in turn is supported by one’s basic right to physical security. But 
+page=16 block=22619083 (x=1 y=101) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+this same basic right also supports moderate gun control.
+page=16 block=22619083 (x=1 y=115) width=271.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+The crucial point is that one’s rights not be assaulted, etc. need to be 
+page=16 block=22619083 (x=13 y=129) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+enforced if they are to be meaningfully honored.18 Enforcement, of course, 
+page=16 block=22619083 (x=1 y=142) width=345.000000 height=8.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+has costs. For example, your right to walk around in public free of assault 
+page=16 block=22619083 (x=1 y=157) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+requires a reasonably effective police force and court system to punish 
+page=16 block=22619083 (x=1 y=171) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+violators and deter prospective violators. Maintaining a police force and 
+page=16 block=22619083 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a court system is costly, but the costs—which are imposed on taxpay-
+page=16 block=22619083 (x=1 y=199) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ers—are justified as a price to pay for the meaningful protection of one’s 
+page=16 block=22619083 (x=1 y=213) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rights not to be assaulted, etc. This, so far, is just common sense. After 
+page=16 block=22619083 (x=1 y=227) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+all, nonenforcement also has costs including a lot more assaults, rapes, 
+page=16 block=22619083 (x=1 y=241) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and murders. These costs are unreasonably high, so they help to justify 
+page=16 block=22619083 (x=1 y=255) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the costs of enforcement.
+page=16 block=22619083 (x=1 y=269) width=119.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Now consider guns and household safety. Assume, as we have through-
+page=16 block=22619083 (x=13 y=283) width=330.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+out the essay, that competent adults have a right to own guns. This right 
+page=16 block=22619083 (x=1 y=297) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+encompasses many prerogatives or specific freedoms, such as the option to 
+page=16 block=22619083 (x=1 y=311) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+brandish a gun if an intruder intrudes, while presumably excluding some 
+page=16 block=22619083 (x=1 y=325) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+others, such as shooting up one’s guests without provocation. Consider 
+page=16 block=22619083 (x=1 y=339) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+now the specific freedom to leave a gun lying around the house unsecured. 
+page=16 block=22619083 (x=1 y=353) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Suppose we propose that gun-owners have no right to do that; their gun 
+page=16 block=22619083 (x=1 y=367) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rights do not encompass this prerogative but instead are limited by a 
+page=16 block=22619083 (x=1 y=381) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+requirement to store guns safely. This limit on gun-owners’ rights would 
+page=16 block=22619083 (x=1 y=395) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+entail a cost involving some inconvenience. But consider the costs of not 
+page=16 block=22619083 (x=1 y=409) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+imposing this limit: household members are more likely to be killed or 
+page=16 block=22619083 (x=1 y=423) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+seriously injured through accidental, reckless, or homicidal gunfire. The 
+page=16 block=22619083 (x=1 y=437) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+point is especially clear in the case of child victims. They have a right not 
+page=16 block=22619083 (x=1 y=451) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to be seriously injured or killed by gunfire. The costs to children (and 
+page=16 block=22619083 (x=1 y=465) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+other potential shooting victims in the household) of not requiring safe 
+page=16 block=22619083 (x=1 y=479) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+storage of weapons are very high. The costs to gun-owners of having to 
+page=16 block=22619083 (x=1 y=493) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+store their weapons safely are small. Here the gun-owners’ interest in do-
+page=16 block=22619083 (x=1 y=507) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ing as they please with their guns needs to be balanced against household 
+page=16 block=22619083 (x=1 y=521) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+members’ interest in not being shot. The balancing favors limiting the 
+page=16 block=22619083 (x=1 y=535) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun-owners’ rights: they should be required to store their weapons safely 
+page=16 block=22619083 (x=1 y=549) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 17 left:1 upper:1
+[  16  ]
+page=17 block=327159210 (x=156 y=583) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=17 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+as a reasonable measure to protect household members’ right not to be 
+page=17 block=22620161 (x=1 y=19) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+killed or seriously injured by gunfire.
+page=17 block=22620161 (x=1 y=33) width=175.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+The argument so far has discussed moderate gun control as part of 
+page=17 block=22620161 (x=13 y=47) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+what is necessary to protect people’s rights not to be assaulted, etc. In 
+page=17 block=22620161 (x=1 y=61) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the case of children, another right comes into play: their right not to die 
+page=17 block=22620161 (x=1 y=75) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+or be seriously injured as a result of gross negligence. If parents leave an 
+page=17 block=22620161 (x=1 y=89) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+opened bottle of liquid bleach around so that it is easy for their young 
+page=17 block=22620161 (x=1 y=103) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+child to drink it, and the child does so, then she is a victim of her parents’ 
+page=17 block=22620161 (x=1 y=117) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gross negligence. If a society allows people to keep unconstrained lions in 
+page=17 block=22620161 (x=1 y=131) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+their home and one such lion eats a couple’s child, the child is a victim of 
+page=17 block=22620161 (x=1 y=145) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the society’s (and probably her parents’) gross negligence. Children have 
+page=17 block=22620161 (x=1 y=159) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a right not to be seriously harmed as a result of gross negligence just as 
+page=17 block=22620161 (x=1 y=173) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+surely as they and adults have rights not to be assaulted, killed, raped, or 
+page=17 block=22620161 (x=1 y=187) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tortured. These rights derive from a basic right of physical security, the 
+page=17 block=22620161 (x=1 y=201) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+same basic right that undergirds the right to self-defense and the more 
+page=17 block=22620161 (x=1 y=215) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+specific right of gun ownership.
+page=17 block=22620161 (x=1 y=229) width=149.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Because the right to gun ownership, on the one hand, and rights not to 
+page=17 block=22620161 (x=13 y=243) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+be assaulted, etc., and children’s right not to be seriously harmed through 
+page=17 block=22620161 (x=1 y=257) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gross negligence, on the other, are in tension, the appropriate boundaries 
+page=17 block=22620161 (x=1 y=271) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of each must take the other rights into consideration. Given our assump-
+page=17 block=22620161 (x=1 y=285) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tion that there is a right to gun ownership, it would be improper to ban 
+page=17 block=22620161 (x=1 y=299) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+guns in the name of enforcing the various rights that may be violated in 
+page=17 block=22620161 (x=1 y=313) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the household due to improper gun use. By the same token, the latter 
+page=17 block=22620161 (x=1 y=327) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+rights would not be duly respected if we interpreted gun rights so capa-
+page=17 block=22620161 (x=1 y=341) width=342.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ciously as to preclude gun control measures that are reasonably related 
+page=17 block=22620161 (x=1 y=355) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to household safety.
+page=17 block=22620161 (x=1 y=369) width=94.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+So far we have been discussing the rights of household members as a 
+page=17 block=22620161 (x=13 y=383) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+basis for moderate gun control. Similar reasoning applies to members of 
+page=17 block=22620161 (x=1 y=397) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+society in general, whether they are at home or out in public. Everyone 
+page=17 block=22620161 (x=1 y=411) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+has rights not to be assaulted, etc., and therefore a right not to be shot. 
+page=17 block=22620161 (x=1 y=425) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Responsible efforts to enforce this right include efforts aimed at public 
+page=17 block=22620161 (x=1 y=439) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+safety in the form of moderate gun regulations. 
+page=17 block=22620161 (x=1 y=453) width=227.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+It is paramount to appreciate that the rights-based argument is not a 
+page=17 block=22620161 (x=13 y=467) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+redundant overlay to the consequentialist argument for moderate gun 
+page=17 block=22620161 (x=1 y=481) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+control, even if both arguments are tightly connected with considerations 
+page=17 block=22620161 (x=1 y=495) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of safety. After all, many rights theorists think of rights as (ordinarily) 
+page=17 block=22620161 (x=1 y=509) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+trumping appeals to the general welfare or consequentialist considerations 
+page=17 block=22620161 (x=1 y=523) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and constraining attempts to promote the general welfare (Dworkin 
+page=17 block=22620161 (x=1 y=537) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+1977; Nozick 1974). Hughes and Hunt, for example, state that “from 
+page=17 block=22620161 (x=1 y=551) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 18 left:1 upper:1
+[  17  ]
+page=18 block=327159198 (x=156 y=581) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=18 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+a liberal point of view, the mere fact that a policy could save lives is not 
+page=18 block=22613116 (x=1 y=17) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a sufficient reason for adopting it. [T]he pursuit of all social goals . . . is 
+page=18 block=22613116 (x=1 y=31) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+constrained [by individuals’ rights]” (2000, 2; see also Huemer 2003).19 
+page=18 block=22613116 (x=1 y=44) width=345.000000 height=8.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Rights are so important, from this perspective, that they should generally 
+page=18 block=22613116 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+not be overridden even when a clear gain in overall utility is in prospect. 
+page=18 block=22613116 (x=1 y=73) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+My discussion of rights neutralizes the claim of some gun advocates that 
+page=18 block=22613116 (x=1 y=87) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+because we have rights to gun ownership, appeals to safety in the household 
+page=18 block=22613116 (x=1 y=101) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and safety in society are irrelevant. It neutralizes this claim by showing 
+page=18 block=22613116 (x=1 y=115) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+that, in addition to gun rights, there are other rights that come into play. 
+page=18 block=22613116 (x=1 y=129) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Proper enforcement of the latter rights, as we have seen, requires limits 
+page=18 block=22613116 (x=1 y=143) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+on the gun rights. These limits are characterized by moderate gun control. 
+page=18 block=22613116 (x=1 y=157) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+What remains is to show that the particular regulations I recommend are 
+page=18 block=22613116 (x=1 y=171) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+justified in a way that is responsive to the case for moderate gun control 
+page=18 block=22613116 (x=1 y=185) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+presented in this section.
+page=18 block=22613116 (x=1 y=199) width=117.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+A SKETCH OF JUSTIFIED GUN CONTROL  
+page=18 block=922095088 (x=82 y=223) width=185.000000 height=5.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+MEASURES—AND CONCLUDING REFLECTIONS
+page=18 block=922095088 (x=67 y=234) width=210.000000 height=5.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Let us consider the measures enumerated earlier as characterizing 
+page=18 block=22686120 (x=13 y=254) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+moderate gun control. Each measure will be shown to be justified by be-
+page=18 block=22686120 (x=1 y=268) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ing reasonably related to the goal of promoting safety—and, in parallel 
+page=18 block=22686120 (x=1 y=282) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+fashion, reasonably related to the enforcement of people’s rights not to be 
+page=18 block=22686120 (x=1 y=296) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+assaulted, etc., and children’s right not be seriously harmed as a result of 
+page=18 block=22686120 (x=1 y=310) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gross negligence. This will not only complete the case for moderate gun 
+page=18 block=22686120 (x=1 y=324) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+control. It may also reassure readers who are especially fearful of govern-
+page=18 block=22686120 (x=1 y=338) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ment intrusion, including those who worry about a slippery slope leading 
+page=18 block=22686120 (x=1 y=352) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to a gun ban, by showing that each recommended regulation is consistent 
+page=18 block=22686120 (x=1 y=366) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+with the assertion of a right to bear arms rather than arbitrarily limiting 
+page=18 block=22686120 (x=1 y=380) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun owners’ liberty.
+page=18 block=22686120 (x=1 y=394) width=94.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Universal background checks.20 The purpose of this measure is to ensure 
+page=18 block=22686120 (x=13 y=407) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+that people who ought to be ineligible to buy guns—including felons, fugi-
+page=18 block=22686120 (x=1 y=422) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tives from justice, and the seriously mentally ill—cannot purchase them 
+page=18 block=22686120 (x=1 y=436) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+from friends, associates, or non-licensed dealers at gun shows or online. 
+page=18 block=22686120 (x=1 y=450) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Successful exclusion of these individuals from gun purchases obviously 
+page=18 block=22686120 (x=1 y=464) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+promotes safety in exactly the same way that currently mandatory back-
+page=18 block=22686120 (x=1 y=478) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ground checks (for sales by licensed dealers) do. Like most of the other 
+page=18 block=22686120 (x=1 y=492) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+measures proposed here, this one would be prospective—applying only 
+page=18 block=22686120 (x=1 y=506) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to transactions that take place after passage of the relevant law. There 
+page=18 block=22686120 (x=1 y=520) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+would be no practical way of trying to enforce background checks on 
+page=18 block=22686120 (x=1 y=534) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+sales made prior to that time.
+page=18 block=22686120 (x=1 y=548) width=139.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 19 left:1 upper:1
+[  18  ]
+page=19 block=327159210 (x=156 y=583) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=19 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+Ban on assault weapons and high-capacity magazine clips. These weap-
+page=19 block=22620161 (x=13 y=19) width=330.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+ons and this ammunition are extremely dangerous and unnecessary for the 
+page=19 block=22620161 (x=1 y=33) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+legitimate purposes of household defense and hunting. They have enabled 
+page=19 block=22620161 (x=1 y=47) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+some of the worst rampages in recent American history. The purpose of 
+page=19 block=22620161 (x=1 y=61) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the ban is to reduce the chances of massacres such as those that took 
+page=19 block=22620161 (x=1 y=75) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+place at Columbine High School, the Aurora, Colorado, movie theatre, 
+page=19 block=22620161 (x=1 y=89) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and the Newtown, Connecticut, elementary school. This ban, too, should 
+page=19 block=22620161 (x=1 y=103) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+be prospective—although it could be coupled with a voluntary buy-back 
+page=19 block=22620161 (x=1 y=117) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+program of assault weapons and high-capacity clips in circulation. Because 
+page=19 block=22620161 (x=1 y=131) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+such a buy-back program would be voluntary, it could not be accused of 
+page=19 block=22620161 (x=1 y=145) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+restricting anyone’s liberty, much less of violating anyone’s rights.
+page=19 block=22620161 (x=1 y=159) width=310.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Requirement of a license for all new gun owners, contingent upon 
+page=19 block=22620161 (x=13 y=173) width=333.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+passing a rigorous safety course. The United States has long required 
+page=19 block=22620161 (x=1 y=187) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+prospective drivers to obtain a license before being permitted to drive an 
+page=19 block=22620161 (x=1 y=201) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+automobile. Obtaining the license is contingent upon passing a driving 
+page=19 block=22620161 (x=1 y=215) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+test and a written test, after considerable hours of practice, where the tests 
+page=19 block=22620161 (x=1 y=229) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+are designed to assess basic competence. Although prospective drivers are 
+page=19 block=22620161 (x=1 y=243) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+inconvenienced by these requirements, everyone is safer because of them. 
+page=19 block=22620161 (x=1 y=257) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+In a similar way, everyone would be safer if prospective gun owners had 
+page=19 block=22620161 (x=1 y=271) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to take a course and pass a test designed to assess basic competence with 
+page=19 block=22620161 (x=1 y=285) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the storage and use of firearms.21 The right to bear arms is not a right to do 
+page=19 block=22620161 (x=1 y=298) width=345.000000 height=8.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+so without restrictions, and this particular restriction is reasonably related 
+page=19 block=22620161 (x=1 y=313) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to household and public safety. This measure, too, would be prospective, 
+page=19 block=22620161 (x=1 y=327) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+applying only to those who purchase guns after the new law was in effect. 
+page=19 block=22620161 (x=1 y=341) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+As far as I can see, there would be no reason not to apply the requirement 
+page=19 block=22620161 (x=1 y=355) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to individuals who had obtained guns prior to the law’s passage but wish to 
+page=19 block=22620161 (x=1 y=369) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+purchase more guns after that time. The purpose of the regulation would 
+page=19 block=22620161 (x=1 y=383) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+be to reduce the chances of accidental killings and injuries.
+page=19 block=22620161 (x=1 y=397) width=278.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Safe storage requirements and required safety features (e.g., child-proof 
+page=19 block=22620161 (x=13 y=411) width=333.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+locks) on all guns. The purpose of these closely related requirements, 
+page=19 block=22620161 (x=1 y=425) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+which can remain vague for the purposes of this paper, is to reduce the 
+page=19 block=22620161 (x=1 y=439) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+chances that a child will be able to commandeer and fire a gun. The stor-
+page=19 block=22620161 (x=1 y=453) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+age requirements would be both prospective and retrospective in that 
+page=19 block=22620161 (x=1 y=467) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+they would apply to all guns no matter when they were purchased. The 
+page=19 block=22620161 (x=1 y=481) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+required safety features would apply only to guns manufactured after a 
+page=19 block=22620161 (x=1 y=495) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+legally determined date.
+page=19 block=22620161 (x=1 y=509) width=113.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Effective tracing mechanisms on all guns and a national database of gun 
+page=19 block=22620161 (x=13 y=523) width=333.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+sales and gun owners. The purpose of these measures is to facilitate law 
+page=19 block=22620161 (x=1 y=537) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+enforcement and thereby public safety. This includes the fighting of illegal 
+page=19 block=22620161 (x=1 y=551) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 20 left:1 upper:1
+[  19  ]
+page=20 block=327159198 (x=156 y=581) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=20 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+traffic in firearms and the prosecution of those who fail to conduct, or 
+page=20 block=22616210 (x=1 y=17) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ignore the results of, background checks. Tracing mechanisms—preferably 
+page=20 block=22616210 (x=1 y=31) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+less easily expunged than ordinary serial numbers—would be required of 
+page=20 block=22616210 (x=1 y=45) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+all guns manufactured in the United States after a specified date; after a 
+page=20 block=22616210 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+possibly later date, all guns bought or sold in the US (even if manufactured 
+page=20 block=22616210 (x=1 y=73) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+in another country) would have to have this feature. All new gun owners, 
+page=20 block=22616210 (x=1 y=87) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+following passage of the relevant law, must be registered in a national 
+page=20 block=22616210 (x=1 y=101) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+database, a measure that should be relatively easy to implement given the 
+page=20 block=22616210 (x=1 y=115) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+universal licensing requirement.
+page=20 block=22616210 (x=1 y=129) width=150.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+“Decrippling” of ATF. The NRA-sponsored budgetary and leadership 
+page=20 block=22616210 (x=13 y=143) width=333.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+crippling of the ATF (Horwitz and Grimaldi 2010; Higham et al. 2012; 
+page=20 block=22616210 (x=1 y=157) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+O’Keefe and Rucker 2013) should be reversed so that the bureau can 
+page=20 block=22616210 (x=1 y=171) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+have adequate staff and resources to do its job.22 The ATF should be freed 
+page=20 block=22616210 (x=1 y=184) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of NRA-sponsored restrictions that have interfered unreasonably with 
+page=20 block=22616210 (x=1 y=199) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+law enforcement. For example, the law that prevents information about 
+page=20 block=22616210 (x=1 y=213) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+guns found at crime scenes from being made publicly available should be 
+page=20 block=22616210 (x=1 y=227) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+reversed. If, for example, drug lords or Mafiosi have been illegally obtain-
+page=20 block=22616210 (x=1 y=241) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ing and using guns obtained from a particular dealer in Ohio or Texas, 
+page=20 block=22616210 (x=1 y=255) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+it should be possible for both ATF officials and the public to learn about 
+page=20 block=22616210 (x=1 y=269) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the pattern. ATF inspectors should not be restricted to one visit to gun 
+page=20 block=22616210 (x=1 y=283) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+dealers per year and should not bear an unreasonable burden of proof to 
+page=20 block=22616210 (x=1 y=297) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+revoke licenses. The purpose of these changes would be to strengthen law 
+page=20 block=22616210 (x=1 y=311) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+enforcement and thereby promote public safety.
+page=20 block=22616210 (x=1 y=325) width=226.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Restoration of funding to the CDC to study the relationships among 
+page=20 block=22616210 (x=13 y=339) width=333.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+gun ownership, specific gun regulations, and gun violence. Consider this 
+page=20 block=22616210 (x=1 y=353) width=345.000000 height=7.000000 fontname=Sabon-Italic wordint.min=3 wordint.max=5
+remarkably direct statement about the NRA’s impact on the CDC through 
+page=20 block=22616210 (x=1 y=367) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+a co-opted Congressman:
+page=20 block=22616210 (x=1 y=381) width=120.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+From 1986 to 1996, [the CDC] sponsored high-quality, peer-reviewed 
+page=20 block=273536400 (x=13 y=402) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+research into the underlying causes of gun violence. People who kept guns 
+page=20 block=273536400 (x=13 y=415) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+in their homes did not—despite their hopes—gain protection. . . . Instead, 
+page=20 block=273536400 (x=13 y=428) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+residents in homes with a gun faced a 2.7-fold greater risk of homicide and 
+page=20 block=273536400 (x=13 y=441) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+a 4.8-fold greater risk of suicide. The National Rifle Association moved to 
+page=20 block=273536400 (x=13 y=454) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+suppress the dissemination of these results and to block funding of future 
+page=20 block=273536400 (x=13 y=467) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+government research into the causes of firearm injuries.
+page=20 block=273536400 (x=13 y=480) width=238.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+  One of us served as the NRA’s point person in Congress and submitted 
+page=20 block=273536400 (x=13 y=493) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+an amendment to an appropriations bill that removed $2.6 million from the 
+page=20 block=273536400 (x=13 y=506) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+CDC’s budget, the amount the agency’s injury center had spent on firearms-
+page=20 block=273536400 (x=13 y=519) width=318.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+related research the previous year. (Dickey and Rosenberg 2012)
+page=20 block=273536400 (x=13 y=532) width=278.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Page: 21 left:1 upper:1
+[  20  ]
+page=21 block=327159210 (x=156 y=583) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=21 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+The purpose of the present measure would be to enhance public un-
+page=21 block=22619895 (x=1 y=19) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+derstanding of gun ownership, its risks, the effects of particular gun 
+page=21 block=22619895 (x=1 y=33) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+regulations, and the advantages of taking safety requirements and other 
+page=21 block=22619895 (x=1 y=47) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+appropriate regulations seriously.
+page=21 block=22619895 (x=1 y=61) width=158.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+This completes a brief sketch of specific measures that I recommend 
+page=21 block=22619895 (x=13 y=75) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+in the name of moderate gun control. Obviously, and to understate the 
+page=21 block=22619895 (x=1 y=89) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+point, to enact the full extent of these measures would be uncharacteristic 
+page=21 block=22619895 (x=1 y=103) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of our governmental leadership and political culture. But, when it comes 
+page=21 block=22619895 (x=1 y=117) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to guns, this leadership and this culture have long been dominated by 
+page=21 block=22619895 (x=1 y=131) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the NRA and the interests of gun manufacturers (Horwitz and Grimaldi 
+page=21 block=22619895 (x=1 y=145) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+2010; Higham et al. 2012; Luo 2013; McIntyre and Luo 2013). The gun 
+page=21 block=22619895 (x=1 y=159) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+lobby has its handprints on many of our extreme and bizarre gun laws, 
+page=21 block=22619895 (x=1 y=173) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+such as those that make it easy for criminals to buy guns—indeed, assault 
+page=21 block=22619895 (x=1 y=187) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+weapons—and those that interfere with law enforcement while eviscerat-
+page=21 block=22619895 (x=1 y=201) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+ing accountability for gun dealers and manufacturers. As one gun scholar 
+page=21 block=22619895 (x=1 y=215) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+put it, “The NRA often has this line, ‘Why don’t we enforce the laws on 
+page=21 block=22619895 (x=1 y=229) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+the books?’ but for the last few decades they’ve been making it harder 
+page=21 block=22619895 (x=1 y=243) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+and harder for federal agencies to do that.”23 In addition, the NRA helped 
+page=21 block=22619895 (x=1 y=256) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to manufacture a legal literature that was cited by the bare majority of 
+page=21 block=22619895 (x=1 y=271) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Supreme Court justices who—quite debatably—minimized the reference 
+page=21 block=22619895 (x=1 y=285) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to militias in the Second Amendment and declared a constitutional right 
+page=21 block=22619895 (x=1 y=299) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+to gun ownership (Finn 2013). In this essay I have simply assumed the 
+page=21 block=22619895 (x=1 y=313) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+existence of both a legal and moral right to gun ownership, taking this 
+page=21 block=22619895 (x=1 y=327) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+right as a fixed point for the foreseeable future. Given this fixed point, our 
+page=21 block=22619895 (x=1 y=341) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+question has been how we ought to proceed in view of the current state 
+page=21 block=22619895 (x=1 y=355) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of American gun violence.
+page=21 block=22619895 (x=1 y=369) width=124.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+This essay has underscored the compatibility of gun rights and moderate 
+page=21 block=22619895 (x=13 y=383) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+gun control. It is the author’s hope that the present discussion will be part 
+page=21 block=22619895 (x=1 y=397) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+of a growing body of ethics literature that helps to correct the intellectual 
+page=21 block=22619895 (x=1 y=411) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+distortions, suppression of information, and legislative failures that have 
+page=21 block=22619895 (x=1 y=425) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+been promoted by the gun lobby and accepted by government officials who 
+page=21 block=22619895 (x=1 y=439) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+fear its leadership. We owe it to ourselves, and especially our children, to 
+page=21 block=22619895 (x=1 y=453) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+do all we reasonably can to stem gun violence and achieve safety in our 
+page=21 block=22619895 (x=1 y=467) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+homes and schools and on the streets. We owe it to the memory of twenty 
+page=21 block=22619895 (x=1 y=481) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+schoolchildren who were recently slaughtered by a disturbed young man 
+page=21 block=22619895 (x=1 y=495) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+who was able to commandeer an assault rifle and high-capacity ammuni-
+page=21 block=22619895 (x=1 y=509) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+tion owned by his mother. The time has arrived for moderate gun control 
+page=21 block=22619895 (x=1 y=523) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+in the United States.
+page=21 block=22619895 (x=1 y=537) width=95.000000 height=7.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Page: 22 left:1 upper:1
+[  21  ]
+page=22 block=327159198 (x=156 y=581) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=22 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+ACKNOWLEDGMENTS
+page=22 block=799539285 (x=122 y=17) width=100.000000 height=5.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=18
+I would like to thank Hugh LaFollette and members of the National 
+page=22 block=22611696 (x=13 y=37) width=333.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+Institutes of Health Department of Bioethics, especially Joe Millum, for 
+page=22 block=22611696 (x=1 y=51) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+helpful feedback on a draft of this paper. I am also grateful to two external 
+page=22 block=22611696 (x=1 y=65) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+reviewers, especially one who provided detailed and perceptive criticisms.
+page=22 block=22611696 (x=1 y=79) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=3 wordint.max=5
+NOTES
+page=22 block=308675172 (x=157 y=102) width=30.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=18
+1. 
+page=22 block=22662318 (x=1 y=123) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+District of Columbia v. Heller, 554 U.S. 570 (2008).
+page=22 block=22662318 (x=19 y=123) width=224.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+2. 
+page=22 block=22662318 (x=1 y=137) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+McDonald v. City of Chicago, 561 U.S. 3025 (2010).
+page=22 block=22662318 (x=19 y=137) width=230.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+3. 
+page=22 block=22662318 (x=1 y=151) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+I discuss the appeal to physical security in a forthcoming article. For a broader 
+page=22 block=22662318 (x=19 y=151) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+discussion of this basic right, see Shue 1996.
+page=22 block=22662318 (x=19 y=165) width=191.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+4. 
+page=22 block=22662318 (x=1 y=179) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+What I grant is the moral right to own guns, not necessarily to carry them in 
+page=22 block=22662318 (x=19 y=179) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+public. The Supreme Court was similarly noncommittal about the carrying 
+page=22 block=22662318 (x=19 y=193) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+of weapons in its aforementioned decisions.
+page=22 block=22662318 (x=19 y=207) width=188.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+5. 
+page=22 block=22662318 (x=1 y=221) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+The qualification “in the United States today” is important. Which gun 
+page=22 block=22662318 (x=19 y=221) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+control measures are justified depends significantly on such factors as what 
+page=22 block=22662318 (x=19 y=235) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+seems necessary for adequate self-defense and the state of the law at a given 
+page=22 block=22662318 (x=19 y=249) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+time.
+page=22 block=22662318 (x=19 y=263) width=22.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=20
+6. 
+page=22 block=22662318 (x=1 y=277) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Brady Handgun Violence Prevention Act of 1993, Pub.L. No. 103-159, 107 
+page=22 block=22662318 (x=19 y=277) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Stat. 1536.
+page=22 block=22662318 (x=19 y=291) width=47.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+7. 
+page=22 block=22662318 (x=1 y=305) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Firearm Owners Protection Act of 1986, Pub.L. No. 99-308, 100 Stat. 449.
+page=22 block=22662318 (x=19 y=305) width=324.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+8. 
+page=22 block=22662318 (x=1 y=319) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Gun-Free School Zones Act of 1990, 18 U.S.C. § 922(q).
+page=22 block=22662318 (x=19 y=319) width=246.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+9. 
+page=22 block=22662318 (x=1 y=333) width=11.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Public Safety and Recreational Firearms Use Protection Act of 1994, H.R. 
+page=22 block=22662318 (x=19 y=333) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+4296, 103rd Cong.
+page=22 block=22662318 (x=19 y=346) width=79.000000 height=7.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+10. Some commentators complain that the term “assault weapon” is used incon-
+page=22 block=22662318 (x=1 y=361) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+sistently and has no established meaning. I intend to use the term roughly 
+page=22 block=22662318 (x=19 y=375) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+as it was used in the Assault Weapons Ban. Thus, the term does not refer to 
+page=22 block=22662318 (x=19 y=389) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+ordinary handguns or ordinary long guns.
+page=22 block=22662318 (x=19 y=403) width=181.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+11. In DeGrazia, forthcoming, I defend this more controversial view, but only after 
+page=22 block=22662318 (x=1 y=417) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+casting significant doubt on the existence of a moral right to gun ownership.
+page=22 block=22662318 (x=19 y=431) width=324.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+12. District of Columbia v. Heller, 554 U.S. 570 (2008).
+page=22 block=22662318 (x=1 y=445) width=242.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+13. District of Columbia v. Heller, 128 S.Ct. 2783 (2008) (syllabus). The passage 
+page=22 block=22662318 (x=1 y=459) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+makes reference to United States v. Miller, 307 U.S. 174 (1939).
+page=22 block=22662318 (x=19 y=473) width=275.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+14. I do not assume the authors would object to all of the measures I include 
+page=22 block=22662318 (x=1 y=487) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+under “moderate gun control.”
+page=22 block=22662318 (x=19 y=501) width=135.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+15. The restriction of other parties here to those in the household is appropriate 
+page=22 block=22662318 (x=1 y=515) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+because we are focusing on the ownership of guns and their use in the home 
+page=22 block=22662318 (x=19 y=529) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+rather than the carrying of guns in public.
+page=22 block=22662318 (x=19 y=543) width=181.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Page: 23 left:1 upper:1
+[  22  ]
+page=23 block=327159210 (x=156 y=583) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=23 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+16. In characterizing what they call “wide liberalism,” Hughes and Hunt 
+page=23 block=22619078 (x=1 y=19) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+(2000) state the idea in terms of government neutrality: “There are many 
+page=23 block=22619078 (x=19 y=33) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+people—private militia groups, for instance—whose conception of the good 
+page=23 block=22619078 (x=19 y=47) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+life involves owning, shooting, and training with automatic weapons. . . . As 
+page=23 block=22619078 (x=19 y=61) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+long as these people are peacefully pursuing their strange activities, harming 
+page=23 block=22619078 (x=19 y=75) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+no one, a wide-liberal state cannot coercively deprive them of the means of 
+page=23 block=22619078 (x=19 y=89) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+pursuing them” (12–13). Those who accept this position are likely to reject 
+page=23 block=22619078 (x=19 y=103) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+my proposal to ban assault weapons.
+page=23 block=22619078 (x=19 y=117) width=160.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+17. A different sort of liberty—freedom from a tyrannical government—is some-
+page=23 block=22619078 (x=1 y=131) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+times invoked by gun advocates. But this sort of appeal is only significant as 
+page=23 block=22619078 (x=19 y=145) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+an argument against gun bans (see, e.g., Wheeler 1999), not as an argument 
+page=23 block=22619078 (x=19 y=159) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+against moderate gun control—at least if we assume, as argued earlier, that 
+page=23 block=22619078 (x=19 y=173) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+there is no dangerously slippery slope from moderate gun control to a gun 
+page=23 block=22619078 (x=19 y=187) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+ban. 
+page=23 block=22619078 (x=19 y=201) width=22.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+18. I owe the idea of emphasizing enforcement costs to Joe Millum.
+page=23 block=22619078 (x=1 y=215) width=292.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+19. By contrast, Lott’s reasoning seems straightforwardly consequentialist: “The 
+page=23 block=22619078 (x=1 y=229) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+primary focus [of my analysis] will be on whether gun laws save or cost lives” 
+page=23 block=22619078 (x=19 y=243) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+(2010, 20).
+page=23 block=22619078 (x=19 y=257) width=48.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+20. Even those who generally oppose gun control (without being ideologically 
+page=23 block=22619078 (x=1 y=271) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+extreme) tend to endorse universal background checks (see, e.g., Kleck 1991, 
+page=23 block=22619078 (x=19 y=285) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+433–34).
+page=23 block=22619078 (x=19 y=299) width=39.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=20
+21. One might protest the analogy, claiming that one has a right to bear arms 
+page=23 block=22619078 (x=1 y=313) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+whereas driving is just a privilege. But I stand by the analogy and reject the 
+page=23 block=22619078 (x=19 y=327) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+claim that driving is just a privilege. If the government interfered excessively 
+page=23 block=22619078 (x=19 y=341) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+with the efforts of competent adults to purchase and drive cars, this would 
+page=23 block=22619078 (x=19 y=355) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+be wrong—and the assertion that people had a right to drive would become 
+page=23 block=22619078 (x=19 y=369) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+prominent in public discourse. The moral right to drive cars is derivative 
+page=23 block=22619078 (x=19 y=383) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+from a basic right to freedom of movement and perhaps other basic rights.
+page=23 block=22619078 (x=19 y=397) width=322.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+22. The ATF went seven years, through July 2013, without a full-time, regular 
+page=23 block=22619078 (x=1 y=411) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Director because the NRA persuaded a member of Congress in 2006 to insert 
+page=23 block=22619078 (x=19 y=425) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+a provision into the Patriot Act reauthorization that changed the position 
+page=23 block=22619078 (x=19 y=439) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+of ATF Director from one appointed by the administration to one requiring 
+page=23 block=22619078 (x=19 y=453) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Senate confirmation.
+page=23 block=22619078 (x=19 y=467) width=89.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+23. The scholar is Arkadi Gerney of the Center for American Progress. The 
+page=23 block=22619078 (x=1 y=481) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+quotation appears in O’Keefe and Rucker 2013.
+page=23 block=22619078 (x=19 y=495) width=208.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+REFERENCES
+page=23 block=543558692 (x=143 y=518) width=58.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=18
+ABC News/Washington Post. 2011. “Poll: January 13–16.” PollingReport.com. 
+page=23 block=22620700 (x=1 y=539) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Accessed January 2, 2014. http://www.pollingreport.com/guns2.htm.
+page=23 block=22620700 (x=19 y=553) width=297.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Page: 24 left:1 upper:1
+[  23  ]
+page=24 block=327159198 (x=156 y=581) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=24 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+Branas, Charles, Therese Richmond, Dennis Culhane, Thomas Have, and Doug-
+page=24 block=22610260 (x=1 y=17) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+las Wiebe. 2009. “Investigating the Link between Gun Possession and Gun 
+page=24 block=22610260 (x=19 y=31) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Assault.” American Journal of Public Health 99: 2034–40.
+page=24 block=316277006 (x=19 y=45) width=254.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Brent, David, Joshua Perper, Christopher Allman, Grace Moritz, Mary Wartella, 
+page=24 block=22611926 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+and Vanice Zelenak. 1991. “The Presence and Accessibility of Firearms in 
+page=24 block=22611926 (x=19 y=73) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+the Homes of Adolescent Suicides: A Case-Controlled Study.” Journal of the 
+page=24 block=22611926 (x=19 y=87) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+American Medical Association 266: 2989–95.
+page=24 block=246547038 (x=19 y=101) width=198.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Campbell, Jacqueline, Daniel Webster, Jane Koziol-McLain, et al. 2003. “Risk 
+page=24 block=22612220 (x=1 y=115) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Factors for Femicide in Abusive Relationships: Results from a Multisite Case 
+page=24 block=22612220 (x=19 y=129) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Control Study.” American Journal of Public Health 93: 1089–97.
+page=24 block=352387930 (x=19 y=143) width=283.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+CDC (Centers for Disease Control and Prevention). 1997. “Rates of Homicide, 
+page=24 block=22613060 (x=1 y=157) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Suicide, and Firearm-Related Death among Children—26 Industrialized 
+page=24 block=22613060 (x=19 y=171) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Countries.” Morbidity and Mortality Weekly Report 46 (5): 101–5.
+page=24 block=363594838 (x=19 y=185) width=292.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Chapdelaine, Antoine, and Pierre Maurice. 1996. “Firearms Injury Prevention 
+page=24 block=22611114 (x=1 y=199) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+and Gun Control in Canada.” Canadian Medical Association Journal 155: 
+page=24 block=407176446 (x=19 y=213) width=327.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+1285–89.
+page=24 block=22630350 (x=19 y=227) width=41.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=20
+CNN/Opinion Research Corporation. 2008. “Poll: June 4–5.” PollingReport.
+page=24 block=22630350 (x=1 y=241) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+com. Accessed January 2, 2014. http://www.pollingreport.com/guns2.htm.
+page=24 block=22630350 (x=19 y=255) width=321.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+———. 2009. “Poll: May 14–17.” PollingReport.com. Accessed January 2, 2014. 
+page=24 block=22630350 (x=1 y=269) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+http://www.pollingreport.com/guns2.htm.
+page=24 block=22630350 (x=19 y=283) width=180.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=20
+Conwell, Yeats, Kenneth Connor, and Christopher Cox. 2002. “Access to Firearms 
+page=24 block=22630350 (x=1 y=297) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+and Risk for Suicide in Middle-Aged and Older Adults.” American Journal 
+page=24 block=22630350 (x=19 y=311) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+of Geriatric Psychiatry 10: 407–16.
+page=24 block=190515102 (x=19 y=325) width=153.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+DeGrazia, David. Forthcoming. “Handguns, Moral Rights, and Physical Security.” 
+page=24 block=22611954 (x=1 y=339) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Journal of Moral Philosophy.
+page=24 block=156895302 (x=19 y=353) width=126.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Dickey, Jay, and Mark Rosenberg. 2012. “‘Senseless’ Is Not Studying Gun Vio-
+page=24 block=22663502 (x=1 y=367) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+lence.” Washington Post, July 29, A17.
+page=24 block=22663502 (x=19 y=381) width=169.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Dworkin, Ronald. 1977. Taking Rights Seriously. London: Duckworth. 
+page=24 block=22663502 (x=1 y=395) width=312.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Finn, Peter. 2013. “How the NRA Helped Reshape Views of the Second Amend-
+page=24 block=22663502 (x=1 y=409) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+ment.” Washington Post, March 14, A1, A9.
+page=24 block=22663502 (x=19 y=423) width=194.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Geneva Graduate Institute of International Studies. 2007. Small Arms Survey 
+page=24 block=22663502 (x=1 y=437) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+2007. Cambridge: Cambridge University Press.
+page=24 block=22663502 (x=19 y=451) width=203.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Gewirth, Alan. 1978. Reason and Morality. Chicago: University of Chicago Press.
+page=24 block=22663502 (x=1 y=465) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Griffin, James. 2008. On Human Rights. Oxford: Oxford University Press.
+page=24 block=22663502 (x=1 y=479) width=323.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Hemenway, David, and Matthew Miller. 2000. “Firearm Availability and Homi-
+page=24 block=22663502 (x=1 y=493) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+cide Rates Across 26 High-Income Countries.” Journal of Trauma: Injury, 
+page=24 block=22663502 (x=19 y=507) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Infection, and Critical Care 49: 985–88.
+page=24 block=216665142 (x=19 y=521) width=174.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Hepburn, Lisa, and David Hemenway. 2004. “Firearm Availability and Homicide: 
+page=24 block=22620620 (x=1 y=535) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+A Review of the Literature.” Aggression and Violent Behavior 9: 417–40.
+page=24 block=22620620 (x=19 y=549) width=317.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Page: 25 left:1 upper:1
+[  24  ]
+page=25 block=327159210 (x=156 y=583) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+kennedy institute of ethics journal • march 2014
+page=25 block=826671110 (x=53 y=1) width=238.000000 height=6.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+Higham, Scott, Sari Horwitz, David Fallis, and Joel Achenbach. 2012. “History 
+page=25 block=22611896 (x=1 y=19) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+of Gun Control in U.S. Portends a Bitter Fight Ahead.” Washington Post, 
+page=25 block=22611896 (x=19 y=33) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+December 23, A1, A8–A9.
+page=25 block=22611896 (x=19 y=47) width=114.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Horwitz, Sari, and James Grimaldi. 2010. “Focused NRA a Force in U.S. Politics.” 
+page=25 block=22611896 (x=1 y=61) width=344.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Washington Post, December 15, A1, A10.
+page=25 block=22611896 (x=19 y=75) width=181.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Huemer, Michael. 2003. “Is There a Right to Own a Gun?” Social Theory and 
+page=25 block=22611896 (x=1 y=89) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Practice 29: 297–324.
+page=25 block=22611896 (x=19 y=103) width=95.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Hughes, Todd, and Lester Hunt. 2000. “The Liberal Basis of the Right to Bear 
+page=25 block=22611896 (x=1 y=117) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Arms.” Public Affairs Quarterly 14: 1–25. 
+page=25 block=231605010 (x=19 y=131) width=186.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Kellermann, Arthur, Frederick Rivara, Norman Rushforth, et al. 1993. “Gun 
+page=25 block=22612820 (x=1 y=145) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Ownership as a Risk Factor for Homicide in the Home.” New England 
+page=25 block=22612820 (x=19 y=159) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Journal of Medicine 329: 1084–91.
+page=25 block=189269006 (x=19 y=173) width=152.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Kellermann, Arthur, Frederick Rivara, Grant Somes, et al. 1992. “Suicide in the 
+page=25 block=22626750 (x=1 y=187) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Home in Relation to Gun Ownership.” New England Journal of Medicine 
+page=25 block=22626750 (x=19 y=201) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+327: 467–72.
+page=25 block=22626750 (x=19 y=215) width=58.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Killias, Martin. 1993a. “International Correlations between Gun Ownership 
+page=25 block=22626750 (x=1 y=229) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+and Rates of Homicide and Suicide.” Canadian Medical Association Journal 
+page=25 block=22626750 (x=19 y=243) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+148: 1721–25.
+page=25 block=22626750 (x=19 y=257) width=63.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+———. 1993b. “Gun Ownership, Suicide and Homicide: An International Per-
+page=25 block=22626750 (x=1 y=271) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+spective.” Journal of Criminology: 289–307.
+page=25 block=240322222 (x=19 y=285) width=193.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Kleck, Gary. 1991. Point Blank. New York: De Gruyter.
+page=25 block=22678690 (x=1 y=299) width=242.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+LaFollette, Hugh. 2000. “Gun Control.” Ethics 110: 263–81.
+page=25 block=22678690 (x=1 y=313) width=266.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+———. 2001. “Controlling Guns.” Criminal Justice Ethics 20: 34–39.
+page=25 block=22678690 (x=1 y=327) width=304.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Lester, David. 1991. “Crime as Opportunity: A Test of the Hypothesis with 
+page=25 block=22678690 (x=1 y=341) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+European Homicide Rates.” British Journal of Criminology 31: 186–88.
+page=25 block=22678690 (x=19 y=355) width=312.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Lott, John. 2010. More Guns, Less Crime, 3rd ed. Chicago: University of Chicago 
+page=25 block=22678690 (x=1 y=368) width=345.000000 height=7.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Press.
+page=25 block=22678690 (x=19 y=383) width=24.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=20
+Luo, Michael. 2013. “Ruled a Threat to Family, but Allowed to Keep Guns.” 
+page=25 block=22678690 (x=1 y=397) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+New York Times, March 18, A1.
+page=25 block=22678690 (x=19 y=411) width=142.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+McIntire, Mike, and Michael Luo. 2013. “Gun Makers Saw No Role in Curbing 
+page=25 block=22678690 (x=1 y=425) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Improper Sales.” New York Times, May 28, A1.
+page=25 block=22678690 (x=19 y=439) width=209.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Meyerson, Harold. 2012. “The Party of the Packing.” Washington Post, De-
+page=25 block=22678690 (x=1 y=453) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+cember 20: A21.
+page=25 block=22678690 (x=19 y=467) width=72.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Miller, Matthew, Deborah Azrael, and David Hemenway. 2001. “Firearm Avail-
+page=25 block=22678690 (x=1 y=481) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+ability and Unintentional Firearm Deaths.” Accident Analysis and Prevention 
+page=25 block=22678690 (x=19 y=495) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+33: 477–84.
+page=25 block=22678690 (x=19 y=509) width=52.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+———. 2002a. “Firearm Availability and Unintentional Firearm Deaths, Suicide, 
+page=25 block=22678690 (x=1 y=523) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+and Homicide among 5–14 Year Olds.” Journal of Trauma: Injury, Infection, 
+page=25 block=407185908 (x=19 y=537) width=327.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+and Critical Care 52: 267–75.
+page=25 block=407185908 (x=19 y=551) width=130.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Page: 26 left:1 upper:1
+[  25  ]
+page=26 block=327159198 (x=156 y=581) width=32.000000 height=6.000000 fontname=Sabon-RomanSC wordint.min=3 wordint.max=5
+DeGrazia • The Case for ModeraTe Gun ConTrol
+page=26 block=887488516 (x=61 y=1) width=222.000000 height=4.000000 fontname=VLBVGK+Sabon-RomanSC wordint.min=2 wordint.max=4
+———. 2002b. “Household Firearm Ownership Levels and Homicide Rates 
+page=26 block=22610974 (x=1 y=17) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Across U.S. Regions and States, 1988–1997.” American Journal of Public 
+page=26 block=22610974 (x=19 y=31) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Health 92: 1988–93.
+page=26 block=22610974 (x=19 y=45) width=90.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+———. 2007. “State-Level Homicide Victimization Rates in the U.S. in Relation 
+page=26 block=22610974 (x=1 y=59) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+to Survey Measures of Household Firearm Ownership, 2001–2003.” Social 
+page=26 block=22610974 (x=19 y=73) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Science and Medicine 64: 656–64.
+page=26 block=183042570 (x=19 y=87) width=147.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Miller, Matthew, and David Hemenway. 2001. “Firearm Availability and Unin-
+page=26 block=22624666 (x=1 y=101) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+tentional Firearm Deaths.” Accident Analysis and Prevention 33: 477–84.
+page=26 block=22624666 (x=19 y=115) width=319.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+———. 2008. “Guns and Suicide in the United States.” New England Journal 
+page=26 block=22624666 (x=1 y=129) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+of Medicine 359: 989–91.
+page=26 block=22624666 (x=19 y=143) width=112.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Nozick, Robert. 1974. Anarchy, State, and Utopia. New York: Basic Books.
+page=26 block=22624666 (x=1 y=157) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+O’Keefe, Ed, and Philip Rucker. 2013. “NRA-Backed ‘Riders’ Targeted on Hill.” 
+page=26 block=22624666 (x=1 y=171) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Washington Post, March 19, A2.
+page=26 block=22624666 (x=19 y=185) width=143.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Pew Research Center. 2010. “Survey: March 10–14.” PollingReport.com. Ac-
+page=26 block=22624666 (x=1 y=199) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+cessed January 2, 2014. http://www.pollingreport.com/guns2.htm.
+page=26 block=22624666 (x=19 y=213) width=285.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Saltzman, Linda, James Mercy, Patrick O’Carroll, Mark Rosenberg, and Philip 
+page=26 block=22624666 (x=1 y=227) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Rhodes. 1992. “Weapon Involvement and Injury Outcomes in Family and In-
+page=26 block=22624666 (x=19 y=241) width=324.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+timate Assaults.” Journal of the American Medical Association 267: 3043–47.
+page=26 block=403441146 (x=19 y=255) width=324.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+Shue, Henry. 1996. Basic Rights, 2nd ed. Princeton: Princeton University Press.
+page=26 block=22634308 (x=1 y=268) width=337.000000 height=7.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+United Nations Office on Drugs and Crime. 2011. “Percentage of Homicides by 
+page=26 block=22634308 (x=1 y=283) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Firearm, Number of Homicides by Firearm, and Homicide by Firearm Rate 
+page=26 block=22634308 (x=19 y=297) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+per 100,000 Population.” Accessed January 2, 2014. http://www.unodc.org/
+page=26 block=22634308 (x=19 y=311) width=324.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+documents/data-and-analysis/statistics/homicide/homicides_by_firearms.xls.
+page=26 block=22634308 (x=19 y=325) width=324.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=20
+Vernick, Jon, James Hodge, and Daniel Webster. 2007. “The Ethics of Restric-
+page=26 block=22634308 (x=1 y=339) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+tive Licensing for Handguns: Comparing the United States and Canadian 
+page=26 block=22634308 (x=19 y=353) width=327.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Approaches to Handgun Regulation.” Journal of Law, Medicine and Ethics 
+page=26 block=407177370 (x=19 y=367) width=327.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+35 (4): 668–78.
+page=26 block=83429614 (x=19 y=381) width=67.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Violence Policy Center. 2013. “States with Higher Gun Ownership and Weak 
+page=26 block=22634410 (x=1 y=395) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Gun Laws Lead Nation in Gun Deaths.” February 7. http://www.vpc.org/
+page=26 block=22634410 (x=19 y=409) width=324.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+press/1302gundeath.htm.
+page=26 block=22634410 (x=19 y=423) width=109.000000 height=6.000000 fontname=Sabon-Roman wordint.min=1 wordint.max=20
+Waldron, Jeremy. 1993. Liberal Rights. Cambridge: Cambridge University Press.
+page=26 block=22634410 (x=1 y=437) width=342.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Wheeler, Samuel. 1997. “Self-Defense: Rights and Coerced Risk-Acceptance.” 
+page=26 block=22634410 (x=1 y=451) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Public Affairs Quarterly 11: 431–43.
+page=26 block=199232230 (x=19 y=465) width=160.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4
+———. 1999. “Arms as Insurance.” Public Affairs Quarterly 13: 111–29.
+page=26 block=22639618 (x=1 y=479) width=320.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Wiebe, Douglas. 2003a. “Homicide and Suicide Risks Associated with Firearms 
+page=26 block=22639618 (x=1 y=493) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+in the Home: A National Case-Control Study.” Annals of Emergency Medi-
+page=26 block=22639618 (x=19 y=507) width=324.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+cine 41: 771–82.
+page=26 block=22639618 (x=19 y=521) width=72.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+———. 2003b. “Firearms in U.S. Homes as a Risk Factor for Unintentional 
+page=26 block=22639618 (x=1 y=535) width=345.000000 height=6.000000 fontname=Sabon-Roman wordint.min=2 wordint.max=4
+Gunshot Fatality.” Accident Analysis and Prevention 35: 711–16.
+page=26 block=352390366 (x=19 y=549) width=283.000000 height=6.000000 fontname=Sabon-Italic wordint.min=2 wordint.max=4

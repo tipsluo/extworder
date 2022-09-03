@@ -1,0 +1,1208 @@
+Page: 1 left:1 upper:1
+PHYSICAL REVIEW LETTERS 123, 232501 (2019)
+page=1 block=66845334 (x=123 y=1) width=264 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Unraveling the Reaction Mechanisms Leading to Partial Fusion of Weakly Bound Nuclei
+page=1 block=1701436909 (x=19 y=55) width=472 height=7 fontname=CKKFNE+AdvOT19ee2aa8.B wordint.min=1 wordint.max=6
+Jin Lei 1,* and Antonio M. Moro
+page=1 block=1181567472 (x=174 y=77) width=145 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+1Institute of Nuclear and Particle Physics, and Department of Physics and Astronomy, Ohio University,
+page=1 block=1896708863 (x=53 y=89) width=404 height=8 fontname=CKKFNH+AdvOTb748f40a.I wordint.min=1 wordint.max=5
+Athens, Ohio 45701, USA
+page=1 block=1896708863 (x=205 y=102) width=100 height=6 fontname=CKKFNH+AdvOTb748f40a.I wordint.min=1 wordint.max=5
+2Departamento de FAMN, Universidad de Sevilla, Apartado 1065, 41080 Sevilla, Spain
+page=1 block=1896708863 (x=84 y=111) width=342 height=8 fontname=CKKFNH+AdvOTb748f40a.I wordint.min=1 wordint.max=5
+  (Received 9 July 2019; revised manuscript received 26 September 2019; published 3 December 2019)
+page=1 block=763236610 (x=60 y=132) width=403 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=2 wordint.max=4
+Collisions between complex nuclei may give rise to their total or partial fusion. The latter case is found
+page=1 block=106113013 (x=65 y=152) width=390 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+experimentally to gain importance when one of the colliding nuclei is weakly bound. It has been commonly
+page=1 block=106113013 (x=55 y=164) width=400 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+assumed that the partial fusion mechanism is a two-step process, whose first step is the dissociation of the
+page=1 block=106113013 (x=55 y=176) width=400 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+weakly bound nucleus, followed by the capture of one of the fragments. To assess this interpretation, we
+page=1 block=106113013 (x=55 y=188) width=400 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+present the first implementation of the three-body model of inclusive breakup proposed in the 1980s by
+page=1 block=106113013 (x=55 y=200) width=400 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Austern et al. [Phys. Rep. 154, 125 (1987)] that accounts for both the direct, one-step, partial fusion and the
+page=1 block=106113013 (x=55 y=212) width=400 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+two-step mechanism proceeding via the projectile continuum states. Contrary to the widely assumed
+page=1 block=106113013 (x=55 y=224) width=400 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+picture, we find that, at least for the investigated cases, the partial fusion is largely dominated by the direct
+page=1 block=106113013 (x=55 y=236) width=400 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+capture from the projectile ground state.
+page=1 block=106113013 (x=55 y=248) width=156 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+0031-9007=19=123(23)=232501(6)
+page=1 block=719182854 (x=1 y=721) width=148 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+232501-1
+page=1 block=807239968 (x=235 y=721) width=40 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+© 2019 American Physical Society
+page=1 block=1832284192 (x=358 y=721) width=151 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+DOI: 10.1103/PhysRevLett.123.232501
+page=1 block=1917161212 (x=55 y=269) width=136 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Introduction.—The understanding of fusion in collisions
+page=1 block=918307166 (x=12 y=306) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+of composite nuclei is a problem of utmost importance in
+page=1 block=918307166 (x=1 y=318) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+various fields and applications, such as in reaction networks
+page=1 block=918307166 (x=1 y=330) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+taking place in astrophysical scenarios [1], the production
+page=1 block=918307166 (x=1 y=342) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+of new elements (e.g., Refs. [2,3]), and energy production
+page=1 block=918307166 (x=1 y=354) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[4], among others.
+page=1 block=918307166 (x=1 y=366) width=78 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+The first theoretical explanation of fusion started with the
+page=1 block=918307166 (x=12 y=378) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+seminal work of Bohr [5], who described the process as the
+page=1 block=918307166 (x=1 y=390) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+complete merging of the colliding nuclei, giving rise to a
+page=1 block=918307166 (x=1 y=402) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+compound nucleus, which eventually dissociates by par-
+page=1 block=918307166 (x=1 y=414) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+ticle and gamma-ray emission. This appealing picture was
+page=1 block=918307166 (x=1 y=426) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+soon found to break down in a number of situations. For
+page=1 block=918307166 (x=1 y=438) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+example, in the 1930s, Oppenheimer and Phillips [6] tried
+page=1 block=918307166 (x=1 y=450) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+to explain the excess of protons in sub-Coulomb deuteron-
+page=1 block=918307166 (x=1 y=462) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+induced reactions by invoking a partial absorption mecha-
+page=1 block=918307166 (x=1 y=474) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+nism, in which only the neutron was captured by the target,
+page=1 block=918307166 (x=1 y=486) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+favored by the weak-binding and large spatial extension of
+page=1 block=918307166 (x=1 y=498) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the deuteron. The idea of partial fusion was revived by Baur
+page=1 block=918307166 (x=1 y=510) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+and collaborators in the 1970s to account for the large
+page=1 block=918307166 (x=1 y=522) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+yields of proton singles in deuteron induced reactions at
+page=1 block=918307166 (x=1 y=534) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Ed ¼ 25 MeV on a number of targets [7,8]. The process
+page=1 block=918307166 (x=1 y=543) width=245 height=11 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+was described as a two-step reaction, and coined breakup
+page=1 block=918307166 (x=1 y=558) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+fusion (BF), in which the first step is the breakup of the
+page=1 block=918307166 (x=1 y=570) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+projectile into p þ n, and the second step is the absorption
+page=1 block=918307166 (x=1 y=579) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+of the neutron by the target nucleus. More refined theories
+page=1 block=918307166 (x=1 y=594) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+were subsequently developed by Udagawa and Tamura [9]
+page=1 block=918307166 (x=1 y=606) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+and Ichimura, Austern, and Vincent (IAV) [10]. More
+page=1 block=918307166 (x=1 y=618) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+recently, the BF mechanism has been invoked to explain
+page=1 block=918307166 (x=1 y=630) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+the phenomenon of complete fusion suppression observed
+page=1 block=918307166 (x=1 y=642) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+in the above-barrier nuclear collisions with weakly bound
+page=1 block=918307166 (x=1 y=654) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+nuclei, such as 6;7;8Li and 9Be [11–17]. This suppression
+page=1 block=918307166 (x=1 y=665) width=245 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+amounts up to ?30% for these nuclei, is roughly indepen-
+page=1 block=918307166 (x=1 y=678) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+dent of the target nucleus, and is typically accompanied by
+page=1 block=918307166 (x=1 y=691) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+2,†
+page=1 block=1786040872 (x=327 y=76) width=9 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=14
+significant yields of evaporation products compatible with
+page=1 block=882706486 (x=264 y=306) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the partial absorption of the projectile, also referred to as
+page=1 block=882706486 (x=264 y=318) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+incomplete fusion (ICF). However, some recent experi-
+page=1 block=882706486 (x=264 y=330) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+mental results [18] suggest that the ICF products are
+page=1 block=882706486 (x=264 y=342) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+compatible with a direct, one-step mechanism, thus putting
+page=1 block=882706486 (x=264 y=354) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+into question the BF picture.
+page=1 block=882706486 (x=264 y=366) width=123 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+From the theoretical point of view, the situation is also
+page=1 block=882706486 (x=275 y=378) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+unclear. Different models have been proposed to account
+page=1 block=882706486 (x=264 y=390) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+for this CF suppression and the related ICF cross sections,
+page=1 block=882706486 (x=264 y=402) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+including classical [19,20], semiclassical [21,22], and
+page=1 block=882706486 (x=264 y=414) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+quantum-mechanical [23] approaches. Most of them
+page=1 block=882706486 (x=264 y=426) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=10
+exploit the two-step, breakup-fusion picture. Although in
+page=1 block=882706486 (x=264 y=438) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+most calculations the coupling to the breakup channels was
+page=1 block=882706486 (x=264 y=450) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+found to produce a reduction of CF, the predicted sup-
+page=1 block=882706486 (x=264 y=462) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+pression is systematically too small.
+page=1 block=882706486 (x=264 y=474) width=154 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+In a recent work [24], we presented a novel approach
+page=1 block=882706486 (x=275 y=486) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+which provides CF and ICF cross sections within a
+page=1 block=882706486 (x=264 y=498) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+common framework. Furthermore, the model was able to
+page=1 block=882706486 (x=264 y=510) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+account for the observed CF suppression in the 6;7Li þ 209Bi
+page=1 block=882706486 (x=264 y=519) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+reactions, for a wide range of incident energies. Despite the
+page=1 block=882706486 (x=264 y=535) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+good agreement with the data, the calculations of Ref. [24]
+page=1 block=882706486 (x=264 y=547) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+were not able to answer the important question on whether
+page=1 block=882706486 (x=264 y=559) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the ICF proceeds as a two-step process, as assumed by the
+page=1 block=882706486 (x=264 y=571) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+BF picture, or it is actually a one-step mechanism. The
+page=1 block=882706486 (x=264 y=583) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+reason is that those calculations were done with the DWBA
+page=1 block=882706486 (x=264 y=595) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+version of the IAV model. As such, the entrance channel
+page=1 block=882706486 (x=264 y=607) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+was described with an effective optical potential reproduc-
+page=1 block=882706486 (x=264 y=619) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+ing the corresponding elastic scattering data. Although the
+page=1 block=882706486 (x=264 y=631) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+success of the DWBA approximation to explain these and
+page=1 block=882706486 (x=264 y=643) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+other inclusive breakup data suggests the dominance of the
+page=1 block=882706486 (x=264 y=655) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+one-step mechanism over the BF mechanism, the fact that
+page=1 block=882706486 (x=264 y=667) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the entrance channel optical potential used in DWBA is
+page=1 block=882706486 (x=264 y=679) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+commonly adjusted to reproduce the elastic scattering data
+page=1 block=882706486 (x=264 y=691) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Page: 2 left:1 upper:1
+PHYSICAL REVIEW LETTERS 123, 232501 (2019)
+page=2 block=1785807415 (x=139 y=1) width=232 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+232501-2
+page=2 block=1041451158 (x=235 y=713) width=40 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+implies that this potential may implicitly include breakup
+page=2 block=1924802798 (x=1 y=25) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+contributions corresponding to situations in which the
+page=2 block=1924802798 (x=1 y=37) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+projectile dissociates prior to its total or partial absorption
+page=2 block=1924802798 (x=1 y=49) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+by the target, which correspond to the first step of the BF
+page=2 block=1924802798 (x=1 y=62) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+mechanism.
+page=2 block=1924802798 (x=1 y=74) width=50 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+It is the goal of this work to elucidate the nature of the ICF
+page=2 block=1924802798 (x=12 y=86) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+process and, in particular, to assess the validity of the BF
+page=2 block=1924802798 (x=1 y=98) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+picture. For that, one needs a model that incorporates
+page=2 block=1924802798 (x=1 y=110) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+explicitlytheintermediate breakup channels of the projectile.
+page=2 block=1924802798 (x=1 y=122) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Such a model was in fact put forward by Austern al. [25]
+page=2 block=1924802798 (x=1 y=134) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+in a three-body version of the IAV theory, in which the
+page=2 block=1924802798 (x=1 y=146) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+entrance channel wave function was described using an
+page=2 block=1924802798 (x=1 y=159) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+expansion in projectile eigenstates. This three-body wave
+page=2 block=1924802798 (x=1 y=171) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+function is identical tothat used in thecontinuum-discretized
+page=2 block=1924802798 (x=1 y=183) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+coupled-channels (CDCC) method so we will refer to this
+page=2 block=1924802798 (x=1 y=195) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+extended IAVmodel asIAV-CDCC. This IAV-CDCChas not
+page=2 block=1924802798 (x=1 y=207) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+been applied in practice due to its numerical complexity.
+page=2 block=1924802798 (x=1 y=219) width=236 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+In this work we present the first implementation of the
+page=2 block=1924802798 (x=12 y=231) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+IAV-CDCC theory and apply it to several reactions induced
+page=2 block=1924802798 (x=1 y=244) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+by weakly bound projectiles. In addition to disentangling
+page=2 block=1924802798 (x=1 y=256) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+the nature of the ICF process, this study will serve to assess
+page=2 block=1924802798 (x=1 y=268) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+the accuracy of the commonly adopted DWBA approxi-
+page=2 block=1924802798 (x=1 y=280) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+mation of the IAV model.
+page=2 block=1924802798 (x=1 y=292) width=111 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Theoretical framework.—We consider a process in
+page=2 block=775574071 (x=12 y=304) width=234 height=6 fontname=CKKFNH+AdvOTb748f40a.I wordint.min=1 wordint.max=9
+which a two-body projectile a ¼ b þ x collides with a
+page=2 block=775574071 (x=1 y=313) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+target nucleus A, emitting the fragment b. Schematically,
+page=2 block=775574071 (x=1 y=328) width=244 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+að¼ b þxÞþA? bþB;
+page=2 block=1320869181 (x=66 y=349) width=115 height=10 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=2 wordint.max=3
+ð1Þ
+page=2 block=1791589252 (x=233 y=350) width=13 height=9 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=7
+where B denotes any possible final state of the x þ A
+page=2 block=1226298219 (x=1 y=374) width=245 height=10 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+system. This includes the elastic breakup (EBU) process, in
+page=2 block=1226298219 (x=1 y=390) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+which both b and x scatter elastically from A, and hence the
+page=2 block=1226298219 (x=1 y=402) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+latter is left in its ground state. The other contributors,
+page=2 block=1226298219 (x=1 y=414) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+which we call globally nonelastic breakup (NEB), are
+page=2 block=1226298219 (x=1 y=426) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+those in which x undergoes a nonelastic interaction with
+page=2 block=1226298219 (x=1 y=438) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+the target, including x þ A inelastic scattering, nucleon
+page=2 block=1226298219 (x=1 y=447) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+exchange between x and A, and fusion. The latter corre-
+page=2 block=1226298219 (x=1 y=463) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+sponds to the incomplete fusion process mentioned in the
+page=2 block=1226298219 (x=1 y=475) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+introduction.
+page=2 block=1226298219 (x=1 y=487) width=53 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+The ICF is usually interpreted as a two-step process
+page=2 block=1226298219 (x=12 y=499) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+[9,26–30]. For a two-body weakly bound projectile a with a
+page=2 block=1226298219 (x=1 y=510) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+target A, such a process may symbolically be written as
+page=2 block=1226298219 (x=1 y=523) width=239 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+aþA ?bþxþ A ? bþB:
+page=2 block=901815188 (x=58 y=544) width=131 height=10 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=2 wordint.max=5
+ð2Þ
+page=2 block=755759908 (x=233 y=545) width=13 height=9 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=5
+In this picture, the projectile is first excited into its
+page=2 block=205496410 (x=1 y=573) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+continuum states and then one of the fragments (x in this
+page=2 block=205496410 (x=1 y=585) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+case) is absorbed by the target. However, the same final
+page=2 block=205496410 (x=1 y=597) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+state can in principle be reached via the direct, one-step
+page=2 block=205496410 (x=1 y=609) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+process in which the x fragment is directly absorbed by the
+page=2 block=205496410 (x=1 y=621) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+target nucleus, without the intermediate breakup states, as
+page=2 block=205496410 (x=1 y=634) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+implied by recent experimental results [19,20]. This proc-
+page=2 block=205496410 (x=1 y=646) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+ess is possible invoking, for example, a trojan horse (TH)
+page=2 block=205496410 (x=1 y=658) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+mechanism [24]. These two possible scenarios are depicted
+page=2 block=205496410 (x=1 y=670) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+in Fig. 1.
+page=2 block=205496410 (x=1 y=682) width=40 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+FIG. 1. Illustration of the direct (left) and two-step (right) paths
+page=2 block=2068100669 (x=264 y=182) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+leading to partial capture of the projectile. See text for details.
+page=2 block=2068100669 (x=264 y=193) width=242 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+To disentangle the nature of ICF, we make use of the
+page=2 block=1248435962 (x=275 y=222) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+three-body theory proposed by Austern et al. [25] (the
+page=2 block=1248435962 (x=264 y=234) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+IAV-CDCC model referred to in the introduction), in which
+page=2 block=1248435962 (x=264 y=246) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+the NEB cross section for the inclusive process Aða; bXÞ is
+page=2 block=1248435962 (x=264 y=256) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+given by the closed-form formula
+page=2 block=1248435962 (x=264 y=271) width=143 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+d2?  ¼ ? ?2va ?bðEbÞh?xðkbÞjIm½UxAj?xðkbÞi;
+page=2 block=944348744 (x=274 y=285) width=223 height=32 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=20
+ð3Þ
+page=2 block=944348744 (x=496 y=323) width=13 height=9 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=31
+dEbd?b NEB
+page=2 block=1225114731 (x=264 y=308) width=53 height=10 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=1 wordint.max=5
+where ?bðEbÞ is the density of states of the particle b,
+page=2 block=397309480 (x=264 y=347) width=245 height=11 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+va is the velocity of the incoming particle, UxA is the
+page=2 block=397309480 (x=264 y=362) width=245 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+optical potential describing x þ A elastic scattering, and
+page=2 block=397309480 (x=264 y=371) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+?xðkb;rxAÞ is arelativewave functiondescribingthe motion
+page=2 block=397309480 (x=264 y=383) width=245 height=12 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+between x and A when particle b is scattered with momen-
+page=2 block=397309480 (x=264 y=399) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+tum kb. This function is obtained from the equation
+page=2 block=397309480 (x=264 y=411) width=220 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Z
+page=2 block=288797801 (x=321 y=425) width=6 height=7 fontname=CKKFPP+AdvP4C4E46 wordint.min=24 wordint.max=24
+?xðkb;rxÞ ¼ Gxðrx; r0xÞhr0x ?ðb?ÞjVpostj?3bðþÞidr0x ð4Þ
+page=2 block=1702478809 (x=264 y=435) width=245 height=14 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=4
+where Gx is the Green’s function with optical potential UxA,
+page=2 block=45643137 (x=264 y=470) width=245 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+?ðb?Þðkb; rbÞ is the distorted wave describing the relative
+page=2 block=45643137 (x=266 y=479) width=243 height=15 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+motion between b and B compound system (obtained with
+page=2 block=45643137 (x=264 y=494) width=245 height=10 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+some optical potential UbB), Vpost ? Vbx þ UbA ? UbB is
+page=2 block=45643137 (x=264 y=505) width=245 height=13 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the postform transition operator and ?3bðþÞ the three-body
+page=2 block=45643137 (x=264 y=520) width=245 height=10 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+scattering wave function. Note that the imaginary part of
+page=2 block=45643137 (x=264 y=536) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+UxA accounts for all nonelastic processes between x and A
+page=2 block=45643137 (x=264 y=549) width=245 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+and hence Eq. (3) includes the ICF as well as other NEB
+page=2 block=45643137 (x=264 y=561) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+contributions. Further details can be found in Ref. [31] and
+page=2 block=45643137 (x=264 y=573) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+in the Supplemental Material, Sec. II [42].
+page=2 block=45643137 (x=264 y=585) width=178 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+The exact wave function ?3bðþÞ appearing in Eq. (4)
+page=2 block=45643137 (x=275 y=593) width=234 height=10 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+could, in principle, be obtained by solving the Faddeev
+page=2 block=45643137 (x=264 y=609) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+equations [32]. However, due to its numerical complexity
+page=2 block=45643137 (x=264 y=621) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+and to the nontrivial definition of the three-body boundary
+page=2 block=45643137 (x=264 y=634) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+condition [33], Austern et al. [25] proposed as an alter-
+page=2 block=45643137 (x=264 y=646) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+native approximating this three-body wave function by an
+page=2 block=45643137 (x=264 y=658) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+expansion in terms of b þ x states, including continuum
+page=2 block=45643137 (x=264 y=667) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+components, i.e.,
+page=2 block=45643137 (x=264 y=682) width=72 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Page: 3 left:1 upper:1
+PHYSICAL REVIEW LETTERS 123, 232501 (2019)
+page=3 block=1715686600 (x=139 y=1) width=232 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+?3bðþÞðra; rbxÞ ¼ X?iaðrbxÞ ?a
+page=3 block=1123166613 (x=14 y=17) width=133 height=19 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=1 wordint.max=4
+iZ
+page=3 block=1123166613 (x=95 y=41) width=9 height=10 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=1 wordint.max=14
+iðþÞðraÞ
+page=3 block=1765690649 (x=143 y=22) width=31 height=14 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=14
+15
+page=3 block=678115778 (x=298 y=22) width=9 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+93Nb(d,pX) @ Ed=25.5 MeV
+page=3 block=1412564235 (x=323 y=31) width=98 height=12 fontname=CKKHJK+Helvetica wordint.min=2 wordint.max=4
+(a)
+page=3 block=123674777 (x=463 y=32) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+232501-3
+page=3 block=471004142 (x=235 y=713) width=40 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+þ dk?aðk; rbxÞ?ðaþÞðK; raÞ; ð5Þ
+page=3 block=1833335943 (x=88 y=54) width=158 height=14 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=4
+where f?iaðrbxÞ; ?aðk; rbxÞg are the eigenfunctions of the
+page=3 block=689448569 (x=1 y=91) width=245 height=11 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+projectile Hamiltonian for bound and continuum states,
+page=3 block=689448569 (x=1 y=106) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+respectively, with i a discrete index for projectile bound
+page=3 block=689448569 (x=1 y=118) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+states, and k the asymptotic momentum of b þ x scattering
+page=3 block=689448569 (x=1 y=127) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+states. The distorted waves f?iaðþÞðraÞ; ?ðaþÞðK; raÞg
+page=3 block=689448569 (x=1 y=140) width=245 height=14 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=11
+describe the projectile-target relative motion for each
+page=3 block=689448569 (x=1 y=158) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+projectile state. For continuum states, these functions
+page=3 block=689448569 (x=1 y=170) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+depend on the momentum K, which is related to the
+page=3 block=689448569 (x=1 y=182) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+internal momentum k by energy conservation. To make
+page=3 block=689448569 (x=1 y=194) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+Eq. (5) calculable, the integral over continuum states is
+page=3 block=689448569 (x=1 y=206) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+approximated by a discrete expansion in a basis of square-
+page=3 block=689448569 (x=1 y=219) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+integrable functions, as done in the so-called continuum-
+page=3 block=689448569 (x=1 y=231) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+discretized coupled-channels (CDCC) method [25,34],
+page=3 block=689448569 (x=1 y=243) width=232 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+?3bðþÞ ? ?CDCCðþÞðra; rbxÞ
+page=3 block=1472036907 (x=38 y=268) width=113 height=12 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=5
+X
+page=3 block=1555793073 (x=79 y=280) width=15 height=7 fontname=CKKFPP+AdvP4C4E46 wordint.min=24 wordint.max=24
+¼ ?iaðrbxÞ?iaðþÞðraÞ
+page=3 block=46627301 (x=68 y=286) width=96 height=13 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=1 wordint.max=20
+i
+page=3 block=46627301 (x=85 y=304) width=2 height=5 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=14 wordint.max=14
+þ X
+page=3 block=1787083818 (x=78 y=315) width=25 height=18 fontname=CKKFNK+AdvP4C4E74 wordint.min=1 wordint.max=4
+?caðkc; rbxÞ?caðþÞðKc;raÞ; ð6Þ
+page=3 block=1367594377 (x=105 y=321) width=141 height=14 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=1 wordint.max=14
+c
+page=3 block=1360878852 (x=94 y=339) width=3 height=5 fontname=CKKFNJ+AdvTTd0b5fdba.I wordint.min=14 wordint.max=14
+where c ¼ fn;j;mg, with j, m the angular momentum and
+page=3 block=1747721875 (x=1 y=360) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+projection of the continuum states and n a discrete index
+page=3 block=654740048 (x=1 y=376) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+labeling the discretized continuum states. The maximum
+page=3 block=1759915172 (x=1 y=388) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+angular momentum j and wave number k is determined by
+page=3 block=1395173825 (x=1 y=400) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+convergence of the studied observables. In the present
+page=3 block=1534655921 (x=1 y=412) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+calculations, we adopt the standard binning method
+page=3 block=1220524164 (x=1 y=424) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[25,34], in which the discretized continuum states are
+page=3 block=1220524164 (x=1 y=436) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+represented by wave packets built upon superposition of
+page=3 block=1220524164 (x=1 y=448) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the b þ x scattering states for predefined energy intervals
+page=3 block=1220524164 (x=1 y=457) width=245 height=10 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+(bins). The widths of these bins must be chosen small
+page=3 block=1220524164 (x=1 y=473) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+enough so as to produce converged elastic and breakup
+page=3 block=1220524164 (x=1 y=485) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+observables. The radial functions ?iaðþÞðraÞ and ?caðKc; raÞ
+page=3 block=1220524164 (x=1 y=494) width=245 height=14 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+are obtained by solving a system of coupled-differential
+page=3 block=1220524164 (x=1 y=512) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+equations [25,34].
+page=3 block=1220524164 (x=1 y=524) width=76 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Inserting the CDCC wave function (6) into Eq. (4) yields
+page=3 block=1220524164 (x=12 y=536) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+a full three-body description of NEB cross sections. In
+page=3 block=1220524164 (x=1 y=549) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+addition, one can isolate the direct, one-step mechanism
+page=3 block=1220524164 (x=1 y=561) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+contribution by retaining only the ground-state component
+page=3 block=1220524164 (x=1 y=573) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+of Eq. (6) in Eq. (4). This approximation will be referred to
+page=3 block=1220524164 (x=1 y=585) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+as IAV-CDCC (g.s.) in the calculations presented below.
+page=3 block=1220524164 (x=1 y=597) width=241 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+We conclude this section by noting that one could in
+page=3 block=1220524164 (x=12 y=609) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+principle estimate the ICF content of the NEB cross section
+page=3 block=1220524164 (x=1 y=621) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+by splitting in Eq. (3) the potential UxA into an inner part
+page=3 block=1220524164 (x=1 y=634) width=245 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+and a peripheral one, with the former accounting for the
+page=3 block=1220524164 (x=1 y=646) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+ICF [35–37]. We prefer, however, to focus the discussion
+page=3 block=1220524164 (x=1 y=657) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+on the full NEB to avoid the ambiguity inherent to this
+page=3 block=1220524164 (x=1 y=670) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+separation.
+page=3 block=1220524164 (x=1 y=682) width=45 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+Ec.m.=14 MeV
+page=3 block=291847739 (x=424 y=52) width=49 height=8 fontname=CKKHJK+Helvetica wordint.min=2 wordint.max=4
+10
+page=3 block=118881143 (x=298 y=59) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+p
+page=3 block=463215441 (x=424 y=60) width=8 height=4 fontname=CKKHJK+Helvetica wordint.min=10 wordint.max=10
+5
+page=3 block=777190206 (x=302 y=97) width=5 height=4 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+0
+page=3 block=385784873 (x=302 y=134) width=5 height=5 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+0
+page=3 block=1050149826 (x=307 y=140) width=5 height=4 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+2
+page=3 block=1160106451 (x=336 y=140) width=5 height=4 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+4
+page=3 block=2090289474 (x=366 y=140) width=4 height=4 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+6
+page=3 block=518692141 (x=395 y=140) width=5 height=4 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+8
+page=3 block=1620187937 (x=425 y=140) width=4 height=4 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+10
+page=3 block=198374825 (x=452 y=140) width=9 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+12
+page=3 block=1296654536 (x=481 y=140) width=9 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+l(n-93Nb)
+page=3 block=125865913 (x=382 y=150) width=31 height=8 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+(b)
+page=3 block=2000410491 (x=463 y=179) width=9 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+10
+page=3 block=1800932232 (x=298 y=194) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+1
+page=3 block=1838250251 (x=304 y=232) width=4 height=4 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+DWBA
+page=3 block=1852821063 (x=334 y=244) width=24 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+CDCC(full)
+page=3 block=1852821063 (x=334 y=253) width=38 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+CDCC(g.s.)
+page=3 block=1852821063 (x=334 y=264) width=41 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+0.1
+page=3 block=1204178174 (x=297 y=269) width=11 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+0
+page=3 block=1827212229 (x=307 y=286) width=5 height=5 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+50
+page=3 block=173440626 (x=354 y=286) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+100
+page=3 block=442205321 (x=400 y=286) width=14 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+150
+page=3 block=1871678080 (x=449 y=286) width=14 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+?c.m. (deg)
+page=3 block=1260127127 (x=379 y=297) width=36 height=8 fontname=CKKHJK+Helvetica wordint.min=2 wordint.max=4
+FIG. 2. Nonelastic breakup contribution for the reaction for
+page=3 block=1921012072 (x=264 y=321) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+93Nbðd; pXÞ at Elab ¼ 25.5 MeV for an outgoing proton c.m.
+page=3 block=1921012072 (x=264 y=329) width=245 height=11 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+energy of 14 MeV. (a) Energy differential cross section as a
+page=3 block=1921012072 (x=264 y=343) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+function of the neutron-target orbital angular. (b) Double differ-
+page=3 block=1921012072 (x=264 y=354) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+ential cross section angular distribution.
+page=3 block=1921012072 (x=264 y=365) width=154 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Application to the deuteron and 6Li induced reactions.—
+page=3 block=884604029 (x=275 y=392) width=234 height=7 fontname=CKKFNH+AdvOTb748f40a.I wordint.min=1 wordint.max=4
+We first consider the breakup reaction 93Nbðd; pXÞ at
+page=3 block=670153696 (x=264 y=402) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+Ed ¼ 25.5 MeV. This reaction was already analyzed in
+page=3 block=670153696 (x=264 y=414) width=245 height=11 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+our previous work [31] with the DWBA version of the IAV
+page=3 block=670153696 (x=264 y=429) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+model, finding a good agreement with experimental data.
+page=3 block=670153696 (x=264 y=441) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Here we compare the NEB differential cross sections
+page=3 block=670153696 (x=275 y=453) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+using the IAV model, with different choices for the ?3bðþÞ
+page=3 block=670153696 (x=264 y=461) width=245 height=10 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+wave function in Eq. (4), namely, the DWBA approxima-
+page=3 block=670153696 (x=264 y=477) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+tion (IAV-DWBA), the full CDCC wave function (IAV-
+page=3 block=670153696 (x=264 y=489) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+CDCC), and the truncated CDCC wave function, in which
+page=3 block=670153696 (x=264 y=501) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+only the g.s. component of Eq. (6) is retained in Eq. (4)
+page=3 block=670153696 (x=264 y=513) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[IAV-CDCC (g.s.)]. We adopt the same potentials used in
+page=3 block=670153696 (x=264 y=525) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+our previous calculations. For the CDCC calculations, the
+page=3 block=670153696 (x=264 y=537) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+n ? p states were included for l ¼ 0–4 partial waves and
+page=3 block=670153696 (x=264 y=546) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+up to a maximum excitation energy of 20 MeV. For the
+page=3 block=670153696 (x=264 y=562) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+DWBA results, the deuteron-target potential is taken from
+page=3 block=670153696 (x=264 y=574) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Ref. [38] and the potential depth is adjusted to reproduce
+page=3 block=670153696 (x=264 y=586) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+the elastic scattering differential cross section computed by
+page=3 block=670153696 (x=264 y=598) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+CDCC. This procedure is intended to reduce uncertainties
+page=3 block=670153696 (x=264 y=610) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+when comparing the NEB differential cross section calcu-
+page=3 block=670153696 (x=264 y=622) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+lated by these methods. To simplify the calculations, we
+page=3 block=670153696 (x=264 y=634) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+ignore intrinsic spins.
+page=3 block=670153696 (x=264 y=646) width=92 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+In Fig. 2(a), we show the calculated angle-integrated
+page=3 block=670153696 (x=275 y=658) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+NEB differential cross section, d?=dEp as a function of the
+page=3 block=670153696 (x=264 y=670) width=245 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+neutron-target orbital angular momentum corresponding to
+page=3 block=670153696 (x=264 y=682) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Page: 4 left:1 upper:1
+PHYSICAL REVIEW LETTERS 123, 232501 (2019)
+page=4 block=215614514 (x=139 y=1) width=232 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+a proton energy of Ep ¼ 14 MeV in the c.m. frame. The
+page=4 block=2082545616 (x=1 y=22) width=245 height=11 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+solid, dashed, and dotted lines correspond, respectively,
+page=4 block=2082545616 (x=1 y=38) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+to the IAV-DWBA, IAV-CDCC, and IAV-CDCC (g.s.)
+page=4 block=2082545616 (x=1 y=50) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+calculations. We find that all three calculations give very
+page=4 block=2082545616 (x=1 y=62) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+similar results. In Fig. 2(b) we show the results for the
+page=4 block=2082545616 (x=1 y=74) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+double differential cross section angular distributions
+page=4 block=2082545616 (x=1 y=86) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=10
+(Ep ¼ 14 MeV). The three calculations give essentially
+page=4 block=2082545616 (x=1 y=95) width=245 height=12 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the same angular shape, with only minor differences seen at
+page=4 block=2082545616 (x=1 y=112) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+the larger angles. These calculations clearly indicate that,
+page=4 block=2082545616 (x=1 y=124) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+for this reaction, the NEB processes (including ICF) take
+page=4 block=2082545616 (x=1 y=136) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+place directly from the projectile ground state, contrary to
+page=4 block=2082545616 (x=1 y=148) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the BF picture, and that the BF mechanism is marginal.
+page=4 block=2082545616 (x=1 y=160) width=239 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+As a second example, we consider the ? production in
+page=4 block=2082545616 (x=12 y=172) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+reactions induced by the weakly bound nucleus 6Li. These
+page=4 block=2082545616 (x=1 y=184) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+? yields are experimentally found to be very large,
+page=4 block=2082545616 (x=1 y=197) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+significantly exceeding the deuteron production channel
+page=4 block=2082545616 (x=1 y=209) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+(see, e.g., Ref. [39]). This result points toward NEB
+page=4 block=2082545616 (x=1 y=221) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+mechanisms, as it has been indeed confirmed by our recent
+page=4 block=2082545616 (x=1 y=233) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+calculations using the IAV model [24,31,40]. Furthermore,
+page=4 block=2082545616 (x=1 y=245) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the fact that a significant part of the incident flux feeds the
+page=4 block=2082545616 (x=1 y=257) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+?-production channel results in a sizable reduction (?30%)
+page=4 block=2082545616 (x=1 y=268) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+of the CF cross sections, as found in many experiments and
+page=4 block=2082545616 (x=1 y=281) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+confirmed by the calculations [24].
+page=4 block=2082545616 (x=1 y=293) width=150 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+For the present study, we have considered the 6Li þ 209Bi
+page=4 block=2082545616 (x=12 y=302) width=234 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+reaction at several energies around the Coulomb barrier
+page=4 block=2082545616 (x=1 y=318) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+(Vb ¼ 30.1 MeV [13]). Inclusive breakup data for this
+page=4 block=2082545616 (x=1 y=326) width=245 height=12 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+reaction have been compared in our previous work [31]
+page=4 block=2082545616 (x=1 y=342) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+with IAV-DWBA calculations. Here, we adopt the same
+page=4 block=2082545616 (x=1 y=354) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+potentials employed in those calculations. For simplicity,
+page=4 block=2082545616 (x=1 y=366) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+we also ignore the particle spins. In the CDCC calculation,
+page=4 block=2082545616 (x=1 y=378) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+excitation
+page=4 block=2082545616 (x=205 y=390) width=41 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+energies up to 20 MeV for the ? ? d continuum. For the
+page=4 block=2082545616 (x=1 y=401) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+DWBA calculation, the 6Li þ 209Bi potential is taken from
+page=4 block=2082545616 (x=1 y=412) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the global parametrization of Cook [41], but we slightly
+page=4 block=2082545616 (x=1 y=427) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+adjust the potential depth to have a better agreement
+page=4 block=2082545616 (x=1 y=439) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+with the elastic scattering angular distribution obtained
+page=4 block=2082545616 (x=1 y=451) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+with CDCC.
+page=4 block=2082545616 (x=1 y=463) width=53 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+The results are shown in Fig. 3(a) for the angle-
+page=4 block=2082545616 (x=12 y=475) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+integrated NEB differential cross sections’ ? energy dis-
+page=4 block=2082545616 (x=1 y=487) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+tribution in the c.m. frame, with the same meaning for the
+page=4 block=2082545616 (x=1 y=499) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+lines as in Fig. 2. The results are qualitatively similar to
+page=4 block=2082545616 (x=1 y=512) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+those found in the deuteron case, namely, the (i) the
+page=4 block=2082545616 (x=1 y=524) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+IAV-CDCC(gs) calculation, in which only the ground state
+page=4 block=2082545616 (x=1 y=536) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+wave function of the projectile is retained, is very close to
+page=4 block=2082545616 (x=1 y=548) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the full calculation and (ii) the IAV-DWBA approximation
+page=4 block=2082545616 (x=1 y=560) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+provides a good approximation to the full three-body IAV-
+page=4 block=2082545616 (x=1 y=572) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+CDCC result. Thus, also in this reaction we find that the
+page=4 block=2082545616 (x=1 y=584) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+NEB processes proceed directly from the 6Li ground state.
+page=4 block=2082545616 (x=1 y=596) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+In the case of the ICF channels, this means that the deuteron
+page=4 block=2082545616 (x=1 y=609) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+is directly captured by the target nucleus, without requiring
+page=4 block=2082545616 (x=1 y=621) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the previous dissociation of the 6Li projectile into ? þ d.
+page=4 block=2082545616 (x=1 y=631) width=243 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+In Fig. 3(b) we compare the ratio of these calculations for
+page=4 block=2082545616 (x=12 y=646) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+different 6Li incident energies. The circles are the ratio
+page=4 block=2082545616 (x=1 y=657) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+between the IAV-CDCC (g.s.) and full IAV-CDCC results
+page=4 block=2082545616 (x=1 y=670) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+and the squares give the ratio between IAV-DWBA and
+page=4 block=2082545616 (x=1 y=682) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+80 209Bi(6Li,?X) at 36 MeV
+page=4 block=117460541 (x=301 y=31) width=87 height=7 fontname=CKKHJK+Helvetica wordint.min=2 wordint.max=4
+(a)
+page=4 block=763677574 (x=465 y=32) width=10 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+60
+page=4 block=1906549136 (x=301 y=55) width=8 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+40
+page=4 block=92864491 (x=301 y=79) width=8 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+232501-4
+page=4 block=8136897 (x=235 y=713) width=40 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+we consider the partial waves l ¼ 0–2 and
+page=4 block=196025267 (x=1 y=387) width=198 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+DWBA
+page=4 block=1743553655 (x=339 y=57) width=21 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+CDCC(full)
+page=4 block=1743553655 (x=339 y=65) width=34 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=2
+CDCC(g.s.)
+page=4 block=1743553655 (x=339 y=74) width=36 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+20
+page=4 block=635001030 (x=301 y=103) width=8 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+0
+page=4 block=1149388444 (x=305 y=127) width=5 height=4 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+0
+page=4 block=922992444 (x=310 y=132) width=5 height=5 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+5
+page=4 block=886004375 (x=354 y=132) width=4 height=5 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+10
+page=4 block=1530870688 (x=395 y=132) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+15
+page=4 block=232726781 (x=438 y=132) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+20
+page=4 block=663716901 (x=482 y=132) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+Ec.m.(d-209Bi) (MeV)
+page=4 block=1767532961 (x=364 y=142) width=69 height=11 fontname=CKKHJK+Helvetica wordint.min=2 wordint.max=4
+1
+page=4 block=1260043537 (x=307 y=163) width=4 height=5 fontname=CKKHJK+Helvetica wordint.min=17 wordint.max=17
+(b)
+page=4 block=1060549703 (x=465 y=176) width=10 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+0.98
+page=4 block=1682157864 (x=293 y=181) width=16 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+0.96
+page=4 block=1592712032 (x=293 y=199) width=16 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+0.94
+page=4 block=1073878937 (x=293 y=217) width=16 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+0.92
+page=4 block=1243350866 (x=293 y=235) width=16 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+CDCC(g.s.)/CDCC(full)
+page=4 block=858727880 (x=342 y=246) width=72 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=2
+DWBA/CDCC(full)
+page=4 block=858727880 (x=342 y=255) width=57 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=2
+0.9
+page=4 block=456314134 (x=298 y=253) width=11 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+0.88
+page=4 block=1272753974 (x=293 y=271) width=16 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+20
+page=4 block=1641027464 (x=308 y=276) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+25
+page=4 block=731610911 (x=351 y=276) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+30
+page=4 block=642538759 (x=395 y=276) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+35
+page=4 block=138933223 (x=439 y=276) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+40
+page=4 block=1774897456 (x=482 y=276) width=9 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=17
+Elab(6Li) (MeV)
+page=4 block=425275537 (x=373 y=285) width=51 height=11 fontname=CKKHJK+Helvetica wordint.min=2 wordint.max=4
+FIG. 3. (a) NEB differential cross sections as a function of the
+page=4 block=1564078808 (x=264 y=311) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+d-209Bi relative energy. (b) Ratio of NEB cross section computed
+page=4 block=1564078808 (x=264 y=322) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+by different methods as a function of the 6Li incident energy. The
+page=4 block=1564078808 (x=264 y=334) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+ellipse highlights the energy corresponding to panel (a). See text
+page=4 block=1564078808 (x=264 y=346) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+for more details.
+page=4 block=1564078808 (x=264 y=357) width=64 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+IAV-CDCC. The dashed ellipse highlights the results of
+page=4 block=1792473683 (x=264 y=380) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Fig. 3(a). It is seen that the omission of the ? þ d breakup
+page=4 block=1792473683 (x=264 y=389) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+channels [as done in the IAV-DWBA and IAV-CDCC (g.s.)]
+page=4 block=1792473683 (x=264 y=404) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+results in an underestimation of the NEB yield and that this
+page=4 block=1792473683 (x=264 y=416) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+effect increases with increasing incident energies. This
+page=4 block=1792473683 (x=264 y=428) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+result can be understood as due to the increasing impor-
+page=4 block=1792473683 (x=264 y=441) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+tance of the projectile dissociation as the incident energy
+page=4 block=1792473683 (x=264 y=453) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+increases. At the maximum incident energy explored in our
+page=4 block=1792473683 (x=264 y=465) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+calculations, the omission of the two-step mechanism
+page=4 block=1792473683 (x=264 y=477) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+results in a difference of 11% in the evaluated NEB cross
+page=4 block=1792473683 (x=264 y=489) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+section. We see also in Fig. 3(b) that the IAV-DWBA
+page=4 block=1792473683 (x=264 y=501) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+calculation is rather close to the full IAV-CDCC calcu-
+page=4 block=1792473683 (x=264 y=513) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+lation. As the incident energy increases, the difference with
+page=4 block=1792473683 (x=264 y=525) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+IAV-CDCC is smaller than in the case of IAV-CDCC (g.s.)
+page=4 block=1792473683 (x=264 y=537) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+(7% at E ¼ 40 MeV), indicating the ability of the DWBA
+page=4 block=1792473683 (x=264 y=546) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+approximation of implicitly accounting for the projectile
+page=4 block=1792473683 (x=264 y=561) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+dissociation. Although the results of Figs. 2 and 3 point
+page=4 block=1792473683 (x=264 y=573) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+toward a very small contribution of the unbound states of
+page=4 block=1792473683 (x=264 y=586) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+the CDCC expansion (6) on the NEB cross section, this
+page=4 block=1792473683 (x=264 y=598) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+contribution is shown explicitly in the Supplemental
+page=4 block=1792473683 (x=264 y=610) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+Material [42] for completeness.
+page=4 block=1792473683 (x=264 y=622) width=134 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+The projectile dissociation [corresponding to the first
+page=4 block=1792473683 (x=275 y=634) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+step in Eq. (2)] is known to be correlated with the
+page=4 block=1792473683 (x=264 y=646) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+separation energy of the projectile, becoming more impor-
+page=4 block=1792473683 (x=264 y=658) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+tant as the binding energy decreases. Thus, it is expected
+page=4 block=1792473683 (x=264 y=670) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+that the importance of the two-step mechanism will be also
+page=4 block=1792473683 (x=264 y=682) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Page: 5 left:1 upper:1
+PHYSICAL REVIEW LETTERS 123, 232501 (2019)
+page=5 block=1441410416 (x=139 y=1) width=232 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+232501-5
+page=5 block=99042020 (x=235 y=713) width=40 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+1.04
+page=5 block=391827378 (x=31 y=25) width=15 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+209Bi(6Li,?X) at 36 MeV
+page=5 block=1241758568 (x=98 y=32) width=78 height=7 fontname=CKKHJK+Helvetica wordint.min=2 wordint.max=4
+1
+page=5 block=1317441269 (x=43 y=50) width=4 height=4 fontname=CKKHJK+Helvetica wordint.min=14 wordint.max=14
+0.96
+page=5 block=1908999587 (x=31 y=75) width=15 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+0.92
+page=5 block=816804727 (x=31 y=100) width=15 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+0.88
+page=5 block=1738561265 (x=31 y=125) width=15 height=5 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+DWBA/CDCC(full)
+page=5 block=497786326 (x=145 y=126) width=61 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+CDCC(g.s.)/CDCC(full)
+page=5 block=497786326 (x=145 y=135) width=78 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=2
+1
+page=5 block=611739613 (x=64 y=149) width=4 height=4 fontname=CKKHJK+Helvetica wordint.min=14 wordint.max=14
+1.5
+page=5 block=1862900975 (x=105 y=149) width=11 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+2
+page=5 block=184244257 (x=153 y=149) width=4 height=4 fontname=CKKHJK+Helvetica wordint.min=14 wordint.max=14
+2.5
+page=5 block=1275011461 (x=195 y=149) width=10 height=4 fontname=CKKHJK+Helvetica wordint.min=1 wordint.max=14
+S??d (MeV)
+page=5 block=1545666472 (x=119 y=159) width=37 height=8 fontname=CKKHJK+Helvetica wordint.min=2 wordint.max=4
+FIG. 4. Ratios of NEB cross section for the ?-production
+page=5 block=2146303527 (x=1 y=181) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+channel in the 6Li þ 209Bi reaction as a function of the 6Li ?
+page=5 block=2146303527 (x=1 y=190) width=245 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+? þ d separation energy.
+page=5 block=2146303527 (x=1 y=201) width=95 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+correlated with the separation energy. To investigate this
+page=5 block=797416363 (x=1 y=234) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+connection within the present framework, we have repeated
+page=5 block=797416363 (x=1 y=246) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+the NEB calculations varying artificially the separation
+page=5 block=797416363 (x=1 y=258) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+energy of 6Li for the 6Li þ 209Bi reaction at 36 MeV. The
+page=5 block=797416363 (x=1 y=267) width=245 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+results are shown in Fig. 4. The symbols have the same
+page=5 block=797416363 (x=1 y=282) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+meaning as in Fig. 3(b). These results show, as expected,
+page=5 block=797416363 (x=1 y=294) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+that IAV-CDCC (g.s.) approaches the full IAV-CDCC when
+page=5 block=797416363 (x=1 y=306) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+the separation energy increases. For the most weakly bound
+page=5 block=797416363 (x=1 y=319) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+case considered in our calculations (S?d ¼ 1 MeV), the
+page=5 block=797416363 (x=1 y=327) width=245 height=12 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+NEB cross section computed with CDCC (g.s.) under-
+page=5 block=797416363 (x=1 y=343) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+estimates by ?11% the full IAV-CDCC result, confirming
+page=5 block=797416363 (x=1 y=354) width=245 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+the increasing relevance of the projectile dissociation for
+page=5 block=797416363 (x=1 y=367) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+weakly bound nuclei. The IAV-DWBA follows a similar
+page=5 block=797416363 (x=1 y=379) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+trend compared to IAV-CDCC (g.s.), although the
+page=5 block=797416363 (x=1 y=391) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=11
+differences with IAV-CDCC are smaller except for the
+page=5 block=797416363 (x=1 y=403) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+most weakly bound case.
+page=5 block=797416363 (x=1 y=416) width=108 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Summary and conclusions.—In summary, we have
+page=5 block=491152599 (x=12 y=428) width=234 height=6 fontname=CKKFNH+AdvOTb748f40a.I wordint.min=1 wordint.max=10
+presented the first implementation of the IAV model for
+page=5 block=491152599 (x=1 y=440) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+the inclusive breakup of two-body projectiles using a full
+page=5 block=491152599 (x=1 y=452) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+three-body description of the scattering problem. For that,
+page=5 block=491152599 (x=1 y=464) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+we have employed the CDCC model wave function. This
+page=5 block=491152599 (x=1 y=476) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+implementation goes beyond the DWBA approximation
+page=5 block=491152599 (x=1 y=488) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+employed so far in previous applications of this model.
+page=5 block=491152599 (x=1 y=500) width=237 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+In the range of energies explored here, however,
+page=5 block=491152599 (x=12 y=512) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=10
+differences remain of the order of 10% or less, which
+page=5 block=491152599 (x=1 y=524) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+seems to explain the success of the DWBA to account for
+page=5 block=491152599 (x=1 y=537) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+experimental data [31,43–45].
+page=5 block=491152599 (x=1 y=548) width=127 height=7 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+We have also explored the importance of the two-step
+page=5 block=491152599 (x=12 y=561) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+process in the NEB mechanism, by comparing the full IAV-
+page=5 block=491152599 (x=1 y=573) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+CDCC results with those obtained retaining only the
+page=5 block=491152599 (x=1 y=585) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+projectile g.s. in the evaluation of the NEB cross section.
+page=5 block=491152599 (x=1 y=597) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+We find that, as the separation energy decreases, or the
+page=5 block=491152599 (x=1 y=609) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+incident energy increases, the IAV-CDCC (g.s.) tends to
+page=5 block=491152599 (x=1 y=621) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+deviate from the full IAV-CDCC results. Yet, the overall
+page=5 block=491152599 (x=1 y=634) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+effect is rather small for all explored incident and binding
+page=5 block=491152599 (x=1 y=646) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+energies (less than 12%). Instead, our present results
+page=5 block=491152599 (x=1 y=658) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+conclusively show that the partial fusion process (i.e.,
+page=5 block=491152599 (x=1 y=670) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+ICF) is mainly a one-step process and that the two-step
+page=5 block=491152599 (x=1 y=682) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+mechanism, while not completely negligible, represents a
+page=5 block=1186989416 (x=264 y=25) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+minor contribution. These results put into question the
+page=5 block=1186989416 (x=264 y=37) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+commonly accepted breakup-fusion picture of the ICF
+page=5 block=1186989416 (x=264 y=49) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+process.
+page=5 block=1186989416 (x=264 y=61) width=34 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+We are grateful to Joaquín Gómez-Camacho, Gerard
+page=5 block=1456265041 (x=275 y=80) width=234 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+Baur, and Mahananda Dasgupta for a critical reading of the
+page=5 block=1456265041 (x=264 y=93) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+manuscript. This work has been partially supported by the
+page=5 block=1456265041 (x=264 y=105) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+National Science Foundation under Contract No. NSF-
+page=5 block=1456265041 (x=264 y=117) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+PHY-1520972 with Ohio University, by the Spanish
+page=5 block=1456265041 (x=264 y=129) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+Ministerio de Ciencia, Innovación y Universidades and
+page=5 block=1456265041 (x=264 y=141) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+FEDER funds under project FIS2017-88410-P and by the
+page=5 block=1456265041 (x=264 y=153) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+European Union’s Horizon 2020 research and innovation
+page=5 block=1456265041 (x=264 y=165) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+program under Grant Agreement No. 654002. This
+page=5 block=1456265041 (x=264 y=177) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=10
+research used resources of the National Energy Research
+page=5 block=1456265041 (x=264 y=190) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Scientific Computing Center (NERSC), a U.S. Department
+page=5 block=1456265041 (x=264 y=202) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+of Energy Office of Science User Facility operated under
+page=5 block=1456265041 (x=264 y=214) width=245 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Contract No. DE-AC02-05CH11231.
+page=5 block=1456265041 (x=264 y=226) width=158 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+*jinl@ohio.edu
+page=5 block=1166361824 (x=282 y=273) width=57 height=8 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=14
+†moro@us.es
+page=5 block=1166361824 (x=282 y=283) width=51 height=9 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=14
+[1] C. Rolfs and W. Rodney, Cauldrons in the Cosmos: Nuclear
+page=5 block=1808527451 (x=269 y=298) width=240 height=5 fontname=CKKFNH+AdvOTb748f40a.I wordint.min=1 wordint.max=4
+Astrophysics, Theoretical Astrophysics (University of
+page=5 block=761680655 (x=284 y=309) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=10
+Chicago Press, Chicago, 1988).
+page=5 block=761680655 (x=284 y=320) width=122 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[2] Y. Oganessian, J. Phys. G 34, R165 (2007).
+page=5 block=761680655 (x=269 y=331) width=186 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[3] Y. T. Oganessian, F. S. Abdullin, P. D. Bailey, D. E. Benker,
+page=5 block=761680655 (x=269 y=342) width=240 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+M. E. Bennett, S. N. Dmitriev, J. G. Ezold, J. H. Hamilton,
+page=5 block=761680655 (x=284 y=353) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+R. A.Henderson et al., Phys. Rev. Lett. 104, 142502 (2010).
+page=5 block=761680655 (x=284 y=364) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+[4] G. Hupin, S. Quaglioni, and P. Navrátil, Nat. Commun. 10,
+page=5 block=761680655 (x=269 y=375) width=240 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+351 (2019).
+page=5 block=761680655 (x=284 y=386) width=45 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[5] N. Bohr, Nature (London) 137, 344 (1936).
+page=5 block=761680655 (x=269 y=397) width=185 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[6] J. R. Oppenheimer and M. Phillips, Phys. Rev. 48, 500
+page=5 block=761680655 (x=269 y=408) width=240 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+(1935).
+page=5 block=761680655 (x=284 y=419) width=27 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=17
+[7] J. Pampus, J. Bisplinghoff, J. Ernst, T. Mayer-Kuckuk, J. R.
+page=5 block=761680655 (x=269 y=430) width=240 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Rao, G. Baur, F. Rsel, and D. Trautmann, Nucl. Phys. A311,
+page=5 block=761680655 (x=284 y=441) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+141 (1978).
+page=5 block=761680655 (x=284 y=452) width=45 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[8] G. Baur, F. Rösel, D. Trautmann, and R. Shyam, Survey of
+page=5 block=761680655 (x=269 y=463) width=240 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+direct reaction mechanisms for continuous particle spectra
+page=5 block=761680655 (x=284 y=474) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+in light ion induced reactions, Proc. Int. Symp. on Con-
+page=5 block=761680655 (x=284 y=485) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+tinuum Spectra of Heavy Ion Reactions, San Antonio, Texas,
+page=5 block=488669101 (x=284 y=496) width=225 height=5 fontname=CKKFNH+AdvOTb748f40a.I wordint.min=1 wordint.max=4
+USA, 1979, edited by T.Tamura et al. (Harwood Acad. Pub.,
+page=5 block=1928174253 (x=284 y=507) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+1980), Vol. 2, pp. 131–147.
+page=5 block=1928174253 (x=284 y=517) width=108 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[9] T. Udagawa and T. Tamura, Phys. Rev. C 24, 1348 (1981).
+page=5 block=1928174253 (x=269 y=529) width=240 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[10] M. Ichimura, N. Austern, and C. M. Vincent, Phys. Rev. C
+page=5 block=1928174253 (x=264 y=540) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+32, 431 (1985).
+page=5 block=1928174253 (x=284 y=551) width=60 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[11] M. Dasgupta, D. J. Hinde, R. D. Butt, R. M. Anjos, A. C.
+page=5 block=1928174253 (x=264 y=562) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Berriman, N. Carlin, P. R. S. Gomes, C. R. Morton, J. O.
+page=5 block=1928174253 (x=284 y=573) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Newton, A. S. de Toledo, and K. Hagino, Phys. Rev. Lett.
+page=5 block=1928174253 (x=284 y=584) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+82, 1395 (1999).
+page=5 block=1928174253 (x=284 y=595) width=65 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[12] V. Tripathi, A. Navin, K. Mahata, K. Ramachandran, A.
+page=5 block=1928174253 (x=264 y=606) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Chatterjee,andS. Kailas,Phys. Rev.Lett. 88,172701(2002).
+page=5 block=1928174253 (x=284 y=617) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+[13] M. Dasgupta, D. J. Hinde, K. Hagino, S. B. Moraes, P. R.S.
+page=5 block=1928174253 (x=264 y=628) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Gomes, R. M. Anjos, R. D. Butt, A. C. Berriman, N. Carlin,
+page=5 block=1928174253 (x=284 y=639) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+C. R. Morton, J. O. Newton, and A. S. de Toledo, Phys. Rev.
+page=5 block=1928174253 (x=284 y=650) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+C 66, 041602(R) (2002).
+page=5 block=1928174253 (x=284 y=661) width=96 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[14] M. Dasgupta, P. R. S. Gomes, D. J. Hinde, S. B. Moraes,
+page=5 block=1928174253 (x=264 y=672) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+R. M. Anjos, A. C. Berriman, R. D. Butt, N. Carlin,
+page=5 block=1928174253 (x=284 y=683) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+Page: 6 left:1 upper:1
+PHYSICAL REVIEW LETTERS 123, 232501 (2019)
+page=6 block=1183905155 (x=139 y=1) width=232 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+232501-6
+page=6 block=1500588149 (x=235 y=713) width=40 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=21
+J. Lubian, C. R. Morton, J. O. Newton, and A. S. de Toledo,
+page=6 block=1202907617 (x=21 y=25) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Phys. Rev. C 70, 024606 (2004).
+page=6 block=1202907617 (x=21 y=36) width=128 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[15] A. Mukherjee, S. Roy, M. Pradhan, M. S. Sarkar, P. Basu, B.
+page=6 block=1202907617 (x=1 y=47) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Dasmahapatra, T. Bhattacharya, S. Bhattacharya, S. Basu,
+page=6 block=1202907617 (x=21 y=58) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+A. Chatterjee, V. Tripathi, and S. Kailas, Phys. Lett. B 636,
+page=6 block=1202907617 (x=21 y=69) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+91 (2006).
+page=6 block=1202907617 (x=21 y=80) width=40 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[16] P. K. Rath, S. Santra, N. L. Singh, R. Tripathi, V. V. Parkar,
+page=6 block=1202907617 (x=1 y=91) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+B. K. Nayak, K. Mahata, R. Palit, S. Kumar, S. Mukherjee,
+page=6 block=1202907617 (x=21 y=102) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+S. Appannababu, and R. K. Choudhury, Phys. Rev. C 79,
+page=6 block=1202907617 (x=21 y=113) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+051601(R) (2009).
+page=6 block=1202907617 (x=21 y=124) width=72 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[17] L. Canto, P. Gomes, R. Donangelo, J. Lubian, and M.
+page=6 block=1202907617 (x=1 y=135) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+Hussein, Phys. Rep. 596, 1 (2015).
+page=6 block=1202907617 (x=21 y=146) width=137 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[18] K. J. Cook, E. C. Simpson, L. T. Bezzina, M. Dasgupta,
+page=6 block=1202907617 (x=1 y=157) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+D. J. Hinde, K. Banerjee, A.C. Berriman, and C. Sengupta,
+page=6 block=1202907617 (x=21 y=168) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Phys. Rev. Lett. 122, 102501 (2019).
+page=6 block=1202907617 (x=21 y=179) width=144 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[19] A. Diaz-Torres, D.J. Hinde, J. A. Tostevin, M. Dasgupta,
+page=6 block=1202907617 (x=1 y=190) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+and L. R. Gasques, Phys. Rev. Lett. 98, 152701 (2007).
+page=6 block=1202907617 (x=21 y=201) width=216 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[20] K. J. Cook, E. C. Simpson, D. H. Luong, S. Kalkal, M.
+page=6 block=1202907617 (x=1 y=212) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+Dasgupta, and D. J. Hinde, Phys. Rev. C 93, 064604 (2016).
+page=6 block=1202907617 (x=21 y=223) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+[21] H. D. Marta, L. F. Canto, and R. Donangelo, Phys. Rev. C
+page=6 block=1202907617 (x=1 y=234) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+89, 034625 (2014).
+page=6 block=1202907617 (x=21 y=245) width=74 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[22] G. D. Kolinger, L. F. Canto, R. Donangelo, and S. R. Souza,
+page=6 block=1202907617 (x=1 y=256) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Phys. Rev. C 98, 044604 (2018).
+page=6 block=1202907617 (x=21 y=267) width=128 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[23] A. Diaz-Torres and I. J. Thompson, Phys. Rev.C 65,024606
+page=6 block=1202907617 (x=1 y=278) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+(2002).
+page=6 block=1202907617 (x=21 y=289) width=27 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=17
+[24] J. Lei and A. M. Moro, Phys. Rev. Lett. 122, 042503 (2019).
+page=6 block=1202907617 (x=1 y=300) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+[25] N. Austern, Y. Iseri, M. Kamimura, M. Kawai, G.
+page=6 block=1202907617 (x=1 y=311) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+Rawitscher, and M. Yahiro, Phys. Rep. 154, 125 (1987).
+page=6 block=1202907617 (x=21 y=322) width=220 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[26] T. Udagawa and T. Tamura, Phys. Rev. Lett. 45, 1311
+page=6 block=1202907617 (x=1 y=333) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+(1980).
+page=6 block=1202907617 (x=21 y=344) width=27 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=17
+[27] M. Boselli and A. Diaz-Torres, Few-Body Syst. 57, 177
+page=6 block=1202907617 (x=1 y=355) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+(2016).
+page=6 block=1202907617 (x=21 y=366) width=27 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=17
+[28] V. Tripathi, A. Navin, V. Nanal, R. G. Pillay, K. Mahata, K.
+page=6 block=1202907617 (x=1 y=377) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Ramachandran, A. Shrivastava, A. Chatterjee, and S. Kailas,
+page=6 block=1202907617 (x=21 y=388) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Phys. Rev. C 72, 017601 (2005).
+page=6 block=1202907617 (x=21 y=399) width=128 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[29] A. Shrivastava, A. Navin, A. Diaz-Torres, V. Nanal,
+page=6 block=1202907617 (x=1 y=410) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+K. Ramachandran, M. Rejmund, S. Bhattacharyya, A.
+page=6 block=1202907617 (x=21 y=421) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=8
+Chatterjee, S. Kailas, A. Lemasson, R. Palit, V. V. Parkar,
+page=6 block=1202907617 (x=21 y=432) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+R. G. Pillay, P. C. Rout, and Y. Sawant, EPJ Web Conf. 63,
+page=6 block=1202907617 (x=21 y=443) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+02018 (2013).
+page=6 block=1202907617 (x=21 y=454) width=54 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[30] H. Utsunomiya, S. Kubono, M. H. Tanaka, M. Sugitani, K.
+page=6 block=1502882632 (x=264 y=25) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Morita, T. Nomura, and Y. Hamajima, Phys. Rev. C 28,
+page=6 block=1502882632 (x=284 y=36) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+1975 (1983).
+page=6 block=1502882632 (x=284 y=47) width=50 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[31] J. Lei and A. M. Moro, Phys. Rev. C 92, 044616 (2015).
+page=6 block=1502882632 (x=264 y=58) width=242 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[32] L. D. Faddeev, Zh. Eksp. Teor. Fiz. 39, 1459 (1960) [Sov.
+page=6 block=1502882632 (x=264 y=69) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+Phys. JETP 12, 1014 (1961)].
+page=6 block=1502882632 (x=284 y=80) width=116 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[33] A. Deltuva, A. C. Fonseca, and R. Lazauskas, Faddeev
+page=6 block=1502882632 (x=264 y=91) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+equation approach for three-cluster nuclear reactions, in
+page=6 block=1502882632 (x=284 y=102) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+Clusters in Nuclei, edited by C. Beck (Springer International
+page=6 block=1502882632 (x=284 y=113) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+Publishing, Cham, 2014), Vol. 3, pp. 1–23.
+page=6 block=1502882632 (x=284 y=123) width=168 height=6 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[34] I. J. Thompson and F. M. Nunes, Nuclear Reactions for
+page=6 block=1502882632 (x=264 y=135) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+Astrophysics (Cambridge University Press, Cambridge,
+page=6 block=1502882632 (x=284 y=146) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=9
+England, 2009).
+page=6 block=1502882632 (x=284 y=157) width=61 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[35] R. C. Mastroleo, T. Udagawa, and M. G. Mustafa, Phys.
+page=6 block=1502882632 (x=264 y=168) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+Rev. C 42, 683 (1990).
+page=6 block=1502882632 (x=284 y=179) width=90 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[36] T. Udagawa, B. T. Kim, and T. Tamura, Phys. Rev. C 32,
+page=6 block=1502882632 (x=264 y=190) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+124 (1985).
+page=6 block=1502882632 (x=284 y=201) width=45 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[37] C. Bertulani, M. Hussein, and S. Typel, Phys. Lett. B 776,
+page=6 block=1502882632 (x=264 y=212) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+217 (2018).
+page=6 block=1502882632 (x=284 y=223) width=45 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[38] Y. Han, Y. Shi, and Q. Shen, Phys. Rev. C 74, 044615
+page=6 block=1502882632 (x=264 y=234) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+(2006).
+page=6 block=1502882632 (x=284 y=245) width=27 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=17
+[39] S. Santra, S. Kailas, V. V. Parkar, K. Ramachandran, V. Jha,
+page=6 block=1502882632 (x=264 y=256) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+A. Chatterjee, P. K. Rath, and A. Parihari, Phys. Rev. C 85,
+page=6 block=1502882632 (x=284 y=267) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+014612 (2012).
+page=6 block=1502882632 (x=284 y=278) width=59 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+[40] J. Lei and A. M. Moro, Phys. Rev. C 95, 044605 (2017).
+page=6 block=1502882632 (x=264 y=289) width=242 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[41] J. Cook, Nucl. Phys. A388, 153 (1982).
+page=6 block=1502882632 (x=264 y=300) width=176 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[42] See Supplemental Material at http://link.aps.org/
+page=6 block=1502882632 (x=264 y=311) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=15
+supplemental/10.1103/PhysRevLett.123.232501 where
+page=6 block=1502882632 (x=284 y=322) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=17
+Sec. I illustrates the contribution of the projectile unbound
+page=6 block=1502882632 (x=284 y=333) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+states to the NEB cross section and Sec. II for a more
+page=6 block=1502882632 (x=284 y=344) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+quantitative discussion on the ICF content of the NEB cross
+page=6 block=1502882632 (x=284 y=355) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+section.
+page=6 block=1502882632 (x=284 y=366) width=29 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=17
+[43] J. Lei and A. M. Moro, Phys. Rev. C 97, 011601(R) (2018).
+page=6 block=1502882632 (x=264 y=377) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=4
+[44] G. Potel, G. Perdikakis, B. V. Carlson, M. C. Atkinson,
+page=6 block=1502882632 (x=264 y=388) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=7
+W. H. Dickhoff, J. E. Escher, M. S. Hussein, J. Lei, W. Li,
+page=6 block=1502882632 (x=284 y=399) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+A. O. Macchiavelli, A. M. Moro, F. M. Nunes, S. D. Pain,
+page=6 block=1502882632 (x=284 y=410) width=225 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=6
+and J. Rotureau, Eur. Phys. J. A 53, 178 (2017).
+page=6 block=1502882632 (x=284 y=421) width=189 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+[45] B. V. Carlson, R. Capote, and M. Sin, Few-Body Syst. 57,
+page=6 block=1502882632 (x=264 y=432) width=245 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5
+307 (2016).
+page=6 block=1502882632 (x=284 y=443) width=45 height=5 fontname=CKKFNF+AdvOT483a8203 wordint.min=1 wordint.max=5

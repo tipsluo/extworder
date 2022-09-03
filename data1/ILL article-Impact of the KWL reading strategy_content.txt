@@ -1,0 +1,976 @@
+Title:
+Impact of the KWL reading strategy on
+mathematical problem-solving achievement of
+primary school 4th graders
+
+Abstract:
+In this study, it was aimed to investigate possible impact of using the KWL reading strategy in
+teaching the topic of “fractions and operations with fractions” to the 4th graders on students’
+problem-solving achievement. A quasi-experimental design with pretest-posttest control group
+(CG) was employed in the study. The study group consisted of 35 4th graders studying at a pri-
+mary school in Bart?n, Turkey. In the research, an experimental group (EG) and a control group
+(CG) were used. There were 18 students in the experimental group (EG) and 17 students in the
+control group (CG). The test of equivalency (TE), Problem-Solving Achievement Test (PSAT) to
+gauge effect of instruction with the KWL strategy and reading texts were employed as data collec-
+tion tools. The Wilcoxon Signed Rank Test and Mann Whitney U Test were employed in the
+research. It was found as a result of the research that the KWL strategy fostered the students’
+problem-solving achievement. However, there were no significant differences between the EG and
+CG in terms of the scores received in the step of implementing the plan.
+
+----------------------
+
+
+Text:
+----------------------
+
+Our age necessitates the development of individuals’ mental
+skills such as understanding, sorting, classifying, questioning,
+associating, predicting, analyzing, synthesizing and evaluat-
+ing. Besides, raising individuals who are critical and creative
+thinkers, who are entrepreneurs, who can express them-
+selves, who can communicate and who have advanced prob-
+lem-solving skills is among educational policies of every
+country. In recent years, various approaches have been pro-
+posed for curriculums in Turkey, and improvements have
+been made from time to time. In this context (Ministry of
+National Education (MoNE), MoNE, MoNE, 2013; MoNE,
+2018), the skills required to be acquired in mathematics cur-
+riculum include communication, reasoning, association,
+using information and communication technologies and
+problem-solving. As at all levels of education, it is aimed to
+develop problem-solving skills in primary education
+(Baykul, 2014).
+Aim of this study was to examine impact of the KWL
+reading strategy on primary school 4th graders’ problem-
+solving achievement.
+Theoretical framework
+Constructivism, which is a philosophical approach that
+explains how individuals learn and understand, asserts the
+idea that knowledge is not explored but interpreted, is not
+revealed but created, that is, knowledge is constructed by
+individuals. Knowledge is shaped as a result of one’s own
+experiences, observations, interpretations and logical think-
+ing (O€zden, 2009). Piaget, one of the pioneers of the con-
+structivist approach, explained knowledge construction as a
+result of the active interaction of the individual with his
+environment through successive processes called accommo-
+dation and assimilation (Baki, 2014). According to the con-
+structivist approach, learning is defined as “the process of
+constructing meaning by connecting new knowledge with
+old knowledge and experience”. The learner constructs his/
+her own conceptualization and solutions of problems. This
+approach acknowledges that students learn new knowledge
+by adapting the information they have already learned to
+their subjective situations (O€zden, 2009). In this context,
+constructivism is based on Ausubel’s “Meaningful Learning
+Theory”. According to Ausubel, for a meaningful learning,
+the individual should have the correct prior knowledge
+about the subject to be learned and be willing and deter-
+mined to learn, as well as associating the new knowledge
+and the prior knowledge (Asubel, 2000, as cited by
+Meydan, 2018).
+According to NCTM (2000), pupils should learn math-
+ematics by understanding it and actively construct new
+knowledge by making use of their prior knowledge and
+experiences. Principles and Standards for School
+Mathematics’s (2000) learning principle is based on two
+basic thoughts the first of which is learning mathematics by
+understanding it. Today’s mathematics requires not only
+computational skills, but also the ability to reason and think
+in order to solve new problems, and to learn new ideas that
+students will encounter in the future. The second is that
+students can learn mathematics by understanding. Learning
+is developed in classrooms so that students can evaluate
+their own and others’ ideas, and they are encouraged to gen-
+erate and test mathematical assumptions and to develop rea-
+soning skills (as cited by Van De Walle et al., 2013).
+Mathematics is commonly regarded as a difficult subject
+to be understood by students. To learn mathematics, firstly
+it should be understood. For this, it is significant for a stu-
+dent to understand what he/she reads and make out it.
+There are some basic principles that should be taken into
+account in addition to reading comprehension for under-
+standing mathematics. One of them is concept teaching. It is
+impossible for students to learn mathematics without under-
+standing concepts. Understanding a concept is associating it
+with existing concepts. The more a concept is associated
+with the concepts it is related to, the better it is understood.
+Learning mathematics requires establishing a relationship
+between conceptual knowledge and operational knowledge
+(Baykul, 2014). The development of mathematical thinking
+depends on the conceptualization of mathematical know-
+ledge and its use when necessary. Good knowledge of math-
+ematical concepts facilitates to find unique solutions to new
+problems that have not been encountered before (O€zy?ld?r?m
+Gu€m€s? & Umay, 2018). Mathematical models, various
+proofing methods, and examples from mathematics itself
+and from daily life can be used to understand mathematics.
+Examples used in accordance with various teaching objec-
+tives enrich and strengthen learning (Kula & O€ren Vural,
+2019). In addition, the concept of proof can be used as a
+tool in understanding the concepts and the relationship
+between the concepts (Knuth, 2002). On the other hand, in
+the process of problem- solving, the student can get the
+opportunity to see the implementation of mathematical con-
+cepts and connect the concepts with the method of oper-
+ation, algorithm and equation to be used for the solution
+(Schoen & Charles, 2003, as cited by Baki, 2018). In the pro-
+cess of problem-solving, the individual has to use his exist-
+ing knowledge actively. In particular, it is necessary to use
+conceptual and operational knowledge in association. For
+students, learning mathematics is possible by connecting the
+prior knowledge with new knowledge. When this does not
+occur, it may not be possible to understand and learn math-
+ematics. (Hiebert & Carpenter, 1992, as cited by Ozy?ld?r?m
+Gu€mu€s? & Umay, 2018).
+According to Charles (1985), for solving a problem, the
+student goes through cognitive processes such as under-
+standing the problem sentence, selecting the necessary data
+for solution, generating a solution to the problem, and
+deciding whether the solution is logical or not. In this pro-
+cess, the student gathers concepts and processes and applies
+them to solve the problem (Bernardo, 1999, as cited by Baki,
+2018). In the process of problem-solving, the student
+becomes aware of his/her knowledge, investigates for solu-
+tions to the problem by using his/her prior knowledge,
+makes predictions and evaluates his/her solutions. In this
+situation, the student uses his/her existing knowledge while
+investigating for solutions to the problem, explains, analyzes,
+organizes and makes sense of all information (Baki, 2018).
+The development of mathematical thinking depends on
+the development of mathematical skills. Problem-solving is
+an important mathematical skill, too. Understanding the
+problem, generating a strategy for solution, implementing
+the strategy, evaluating solutions and writing a similar prob-
+lem are the steps included in this process. Understanding
+the problem is the most important step of problem-solving
+process. If a problem cannot be identified, a solution cannot
+be suggested and the problem cannot be solved. In the step
+of understanding the problem, the most important critical
+behaviors are to write down the things given and asked in
+the problem, to explain the problem with the students’ own
+expressions and to draw a figure or diagram explaining the
+problem (Baykul, 2016). It is highly critical for students to
+understand what they read and to explain the problem in
+their own words at this step.
+Not understanding the problem properly causes students
+to have problems. Stating the problem in the students’ own
+words and reading it as required are two important sub-
+steps in understanding the problem (Baykul, 2016).
+According to Ogle (1986), since the KWL reading strategy
+includes activities related to determination of the students’
+prior knowledge about the text to be read, what they know
+and what they want to know, the student will be able to
+connect the old knowledge with the new one. According to
+Stephens and Brown (2000), for a student to connect the
+knowledge before the reading process with the information
+obtained after reading enables him/her to organize, integrate
+and summarize (as cited by Ulu et al., 2016). For this rea-
+son, based on the expressions of Ogle (1986) and Stephens
+and Brown (2000), the idea that the KWL reading strategy
+would be effective in problem-solving was determined as the
+aim of the study.
+A student’s solving a problem depends on his/her under-
+standing it well. For providing this, he/she needs to fully
+comprehend what he/she reads. Reading comprehension
+means that individuals reach a new learning as a result of
+associating new information they encounter in the texts with
+their prior knowledge (Y?lmaz, 2019a). Reading comprehen-
+sion process occurs through conscious thinking, which helps
+the reader relate thinking processes, content of the text,
+prior knowledge, expectations and reading purposes (Block,
+2004, as cited by Erdem, 2016). Reading comprehension can
+be regarded as a process of creating a new related situation
+by linking the words with schemas in mind. In this process,
+mental activities such as thinking on a text or problem,
+searching for the reasons, drawing conclusion, interpreting,
+analyzing, synthesizing and evaluating are influential
+(Gunes?, 2000). KWL, one of the reading strategies, contains
+activities to develop reading comprehension skill. The KWL
+table used for this strategy is a reflective table indicating
+what they know, what they want to know and what they
+learned. Using this strategy helps the students think on a
+topic before reading it and the teacher gauge what his/her
+students know after reading (Nicely, 2015). The KWL strat-
+egy is quite effective in developing reading proficiency. A
+great number of studies have revealed that this strategy is
+useful for developing students’ reading skills and raising
+The KWL (What i know, what i want to learn, what i
+learned) strategy
+KWL is one of the strategies used for improving reading
+comprehension skill. This strategy was developed by Ogle
+(1986). This strategy was named based on the initials of
+“What I know, What I want to learn, What I learned”. This
+strategy provides students with the opportunity to link with
+their background knowledge before reading and the know-
+ledge gained during reading. Table 1 shows the chart on
+which the students listed their knowledge during implemen-
+tation of the KWL strategy.
+A three-column table is prepared before starting reading
+in this strategy and the students brainstorm ideas to reveal
+all they know about the topic or problem. This information
+is written in column K, which is “What I know”. Then, the
+students prepare and save questions related to what they
+want to find out about the topic or problem in column W,
+which is “What I want to learn”. During or after reading,
+the students answer the questions in column W and save
+their answers in column L, which is “What I learned”
+(Epc?ac?an, 2009; Y?lmaz, 2019b). The KWL strategy includes
+activities to reveal what background knowledge the students
+have about the text to be read prior to reading, what they
+know and what they want to know. This strategy consists of
+three steps as follows:
+1.
+Step K – What I know: In this step, the students’ back-
+ground knowledge and views on the new topic to be
+read are concretely revealed (Hill et al., 1998). The stu-
+dents are led to brainstorm (they are asked questions
+about the topic) to reveal what they know about the
+topic for reading. In this way, the students are provided
+with textual connections before obtaining detailed infor-
+mation about the text they will read. After all the stu-
+2.
+dents set personal goals for their own learning (Carr &
+Ogle, 1987). They create lists of questions regarding
+what they want to learn at the end of the text to be
+read. They record the questions created in column “W”.
+Before the students start reading, determining the pur-
+pose of reading, knowing what the text to be read will
+provide them, considering why they are reading, can
+attract their attention to the text (Y?lmaz, 2008).
+Step L – What I learned: In this step, the students read
+the text. They answer the questions written in column
+“W” during or after reading. In this way, the students
+3.
+construct the meaning by associating the information
+they have newly learned with their prior knowledge.
+After having finished answering the questions, they
+record their answers in column “L”.
+The KWL strategy has been found effective in developing
+reading skills by a great number of studies (e.g.: Eker, 2015;
+Pek€z, 2018; Rahayuningsih & Wulandari, 2014; Tokg€z,
+2019; Ozy?lmaz & Alc?, 2011; Zouhor et al., 2016). Riswanto
+et al. (2014) stated that the students could not read because
+of their deficiencies in reading comprehension and were not
+able to relate the text they read with their prior knowledge.
+Active readers question for applying their schemas during
+pre-reading activities, relating them with the new concept,
+understanding the topics during and after reading and mak-
+ing their own meanings (Alyousef, 2005; Puti, 2014; as cited
+by Wijaya & Puti, 2015). Moreillon (2007) said that “reading
+is making meaning from print and visual information”, and
+essence of reading is to understand the message of a text or
+an author accurately, thus reading comprehension requires
+higher-order thinking (as cited by Wijaya & Puti, 2015).
+Barton and Heidema (2002) answered the question “why
+should students learn to read mathematical texts?” as follows
+by citing from Martinez and Martinez (2001) and NCTM
+(2000). Children discuss what happens when they read and
+write mathematics. Therefore, mathematical language and
+mathematical reading should be learned in order to focus
+on the problems, work on them, convey ideas consistently
+and explicitly, arrange arguments, develop interpreting flexi-
+bility and understand own problem-solving and thinking
+processes. Mathematical texts contain more concepts than
+all other types of texts. As most of these concepts are
+abstract, it becomes more difficult for students to under-
+stand and visualize them. Students generally look for a page
+of text including examples, graphs and problems to solve by
+skipping statements of important information (Thomas,
+1988; as cited by Barton & Heidema, 2002). On the other
+hand, mathematical texts are often very short and compact,
+and each sentence includes a lot of concepts and informa-
+tion. The fact that the sentences have certain meanings and
+connect to other sentences sensibly may cause students
+wanting to read these texts swiftly not to notice important
+details, explanations and underlying logic (Barton &
+Heidema, 2002). Cognitively, reading is more than reading a
+text aloud with correct pronunciation. Active reading con-
+tains thinking on the things read. Reading comprehension
+requires a reader’s synthesizing information in a text, inter-
+preting, evaluating and using it selectively (Wijaya & Puti,
+2015). The mathematical literacy processes are necessary
+both for problem-solving and developing concepts. These
+skills are necessary for solving mathematical problems as
+well (Barton & Heidema, 2002). This is because of the fact
+that determining, understanding and questioning the prob-
+lem is primarily needed to solve a problem. The questioning
+can be started with determining if there is incomplete or
+extra information. Questioning helps to distinguish the
+information unnecessary for solving the problem, to deter-
+mine the information necessary for solving it and to create a
+uals make a plan for solving the problem and solve the
+problem if they have know-how – that is topic knowledge.
+It can also contribute to decide whether solution of a prob-
+lem is sensible and correct. It was expressed that the KWL
+strategy encourages pupils to be mentally active during the
+learning process, facilitates learning and remembering con-
+cepts and topics, develops their skills in organizing their
+prior knowledge and in questioning (Alsalhi, 2020).
+Therefore, it can be considered as a metacognitive strategy
+(Gammill, 2006). the KWL is a strategy used by teachers to
+help students activate their schemas prior to reading,
+improve comprehension during reading and organize their
+revealed together.
+increased ninth graders’ achievement, Tas?l?dere and
+Ery?lmaz (2012) emphasized that intervention merging read-
+ing strategy and conceptual physics approach raised student
+achievement significantly. Zouhor et al. (2016) found the
+KWL strategy to be efficient in increasing the sixth graders’-
+metacognition and physics success. Alsalhi (2020) revealed
+that the KWL strategy contributed positively to the 4th
+graders’ success in science courses. Phromphithak (2015)
+investigated impact of the KWL strategy on 10th graders’
+mathematics achievement. As a result of the research, she
+found that the KWL strategy was effective in pupils’ under-
+understanding word problems, Fuentes (1998) stated that
+reading comprehension strategies can also be used to under-
+stand the problem stories. O€zdemir and Serts€z (2006)
+stated that providing middle school 6th graders with reading
+comprehension behavior had a positive effect on their math-
+ematics achievement.
+Ilg?n and Arslan (2012) examined the effects of problem-
+solving instruction through text-based activities on problem-
+solving achievement levels of primary school second graders.
+As a result of their studies, they concluded that problem-
+solving instruction with texts was useful for helping the stu-
+dents gain the steps of problem-solving, which were
+“determining possible solutions in the light of the collected
+data, practicing the determined solution, evaluating solution
+types, assessing the problem-solving method employed”.
+Ulu (2017) investigated the impact of reading compre-
+hension and problem-solving strategies of primary school
+4th graders on classifying the students by high and low
+problem-solving achievement. As a result of the study, it
+was found that fluent reading skills had no effect on classifi-
+cation of students by high and low problem-solving achieve-
+ment. In addition, it was stated that the students with high
+problem-solving achievement had high levels of comprehen-
+sion, yet there was no significant difference between the stu-
+dents with high and low problem-solving achievement in
+terms of having basic skills of mathematics.
+Solving mathematical word problems requires using both
+mental representation skill and reading comprehension skill.
+Boonen, Koning, Jolles, and Van der Schoot (2016) stated
+that reading comprehension training and a realistic mathem-
+atics education approach had positive effects on middle
+school 6th graders’ ability to solve mathematical word prob-
+lems and that developing reading skills for solving mathem-
+atical word problems should be attached great importance.
+In a study conducted by Nicolas and Emata (2018) to exam-
+ine the development of problem-solving skills of middle
+school 7th graders by employing the comprehension strategy
+with an integrative approach in mathematics teaching, a sig-
+nificant difference was found in favor of the experimen-
+tal group.
+O€ztu€rk et al. (2020) found in their study, in which they
+investigated the impact of reading comprehension skills on
+mathematics self-efficacy perception, mathematics attitude
+and the ability to solve non-routine mathematical problems,
+that there was a positive and significant correlation between
+reading comprehension skills and other variables. There is a
+positive and significant correlation between reading compre-
+hension skill and problem-solving skill.
+There have been numerous studies, some of which were
+described in detail above, showing that there is a positive
+and significant correlation between students’ reading com-
+prehension skills and problem-solving skills (Boonen et al.,
+2016; C?avus?oglu, 2010; K?l?c?, 2009; Pape, 2004; Ulu et al.,
+2016; Uzun, 2010). It can be understood from these studies
+that reading comprehension skills need to be developed in
+early childhood (Silver & Cai, 1996; Helwig et al.,1999, as
+cited by Boonen et al., 2016).
+Problem-solving which is one of the methods that helps
+bringing information to life, activates the students in daily
+life and learning-teaching settings and encourages the stu-
+dents to learn to learn (Ozcan, 2007) is defined as the way
+of reaching a solution when the solution is unknown (Polya,
+1962). Thus, mathematics, itself, is considered to be a prob-
+lem-solving activity. Therefore, problem-solving has been
+included in curriculums as one of the basic approaches in
+mathematics teaching ( MoNE, 2013, 2018; National Council
+of Teachers of Mathematics (NCTM)), 1989; Silver, 1994). It
+is necessary to apply reasoning in the process of problem-
+solving (Schoenfeld, 1985). Reasoning is the process of
+thinking by considering all factors and obtaining a reason-
+able result. Individuals who are able to reason about a topic
+have sufficient knowledge in that topic, can examine new
+situation encountered thoroughly, explore, guess, infer, reach
+to some results by justifying thoughts, explain these results
+and offer solutions (Umay, 2003). Hence, a problem cannot
+be solved unless it is understood well, and mathematical
+ideas cannot be defended without showing reasons.
+Although most people believe that there is only one way to
+solve a mathematical problem (NCTM, 2000), each individ-
+ual has his own reasoning styles and ways of solution
+(Umay, 2003). In this context, students’ knowledge can be
+questioned and interpreted as they compulsorily reason dur-
+ing the process of problem-solving. In this process, the stu-
+dents are expected to apply cognitive processes such as
+understanding a problem, collecting the necessary data for
+the solution, solving the problem and deciding whether the
+solution is logical or not (Charles, 1985). The students have
+to gather the concepts and operations during problem-solv-
+ing and apply them to solve the problem (Bernardo, 1999).
+Polya (1973) explained problem-solving process in steps
+which are understanding the problem, devising a suitable
+plan for solving the problem, changing the plan if necessary,
+checking the methods, evaluating the data obtained during
+problem-solving and interpreting significance of the solu-
+tion. On the other hand, Gonzales (1998) suggested that a
+final step, problem posing or problem writing, was necessary
+to be added to Polya’s problem-solving strategy. In this con-
+text, five-step grading scale received from Baki (2014) was
+employed in the current study in order to evaluate each
+step separately.
+From the explanations made in the theoretical framework
+and the results of the studies, some inferences can be made
+in the context of the KWL reading strategy and problem-
+solving. The first of these inferences is the way of imple-
+menting the KWL reading strategy in classroom setting. A
+KWL table is created before starting a new topic, and this
+table can be filled in as a class or individually. Meanwhile,
+the teacher should remind the students to use mathematical
+concepts and terms. While filling in the table, the students
+should be asked questions that would help them explain
+what they have learned, how they have solved problems, and
+their reasoning strategies. Secondly, the KWL reading strat-
+egy helps students to activate their prior knowledge, organ-
+ize their knowledge and summarize the topic in the learning
+process. In this process, the students share various ideas by
+This research aimed to examine impact of using the KWL
+reading strategy to teach the primary school 4th graders the
+learning area of “numbers and operations”, the sub-learning
+area of “fractions” and the topic of “fractions and operations
+with fractions” on the problem-solving achievement of stu-
+dents. Accordingly, sub-problems of the study were deter-
+mined as follows.
+Are there any statistically significant differences between
+problem-solving achievement pretest scores of the EG
+students on whom the KWL strategy was employed and
+of the CG students on whom current instructional pro-
+gram was employed?
+Are there any statistically significant differences between
+problem-solving achievement posttest scores of the EG
+students on whom the KWL strategy was employed and
+of the CG students on whom current instructional pro-
+gram was employed?
+Are there any statistically significant differences between
+pretest and posttest problem-solving achievement scores
+of the EG students on whom the KWL strategy
+was employed?
+Are there any statistically significant differences between
+pretest and posttest problem-solving achievement scores
+of the CG students on whom current instructional pro-
+gram was employed?
+4.
+Model of the research
+A quasi-experimental design with pretest-posttest control
+group was employed in the study. This design provides great
+statistical potential to the researcher about testing the effect
+of intervention on dependent variable, and helps interpret-
+ation of findings obtained within the context of cause and
+effect (Bu€yu€ko€ztu€rk, 2011). The tests used in the experimen-
+tal group (EG) and in the control group (CG) during the
+study were given in Table 2. Accordingly, in both of the
+groups, test of equivalency (TE) and Problem-Solving
+Achievement Test (PSAT) were employed as the pretest
+while Problem-Solving Achievement Test (PSAT) was used
+as the posttest. Implementation with the KWL reading strat-
+egy was used in the experimental group while implementa-
+tion based on the current instructional program was applied
+in the control group. The empirical design of the research
+was given in Table 2.
+Study group
+The research was conducted in 2018–2019 academic year.
+The study group consisted of thirty five 4th grade students
+studying at a primary school in Bart?n, Turkey. The EG
+1.
+2.
+3.
+included 18 students, and the CG included 17 students.
+Both groups were taught in accordance with the learning
+outcomes of the topic of fractions included in 4th grade
+MoNE (2018). The ready-made groups were preferred to
+create the EG and CG. Equal groups were determined after
+the implementation of the test of equivalency, and one of
+them was assigned as the EG, while the other was assigned
+as the CG. Instruction was implemented using the KWL
+reading strategy in EG, while it was implemented using the
+activities in the current MoNE (2018) in the CG. The imple-
+mentation lasted 20 lesson hours in each classroom.
+Data collection tools
+Test of equivalency (TE), Problem-Solving Achievement
+Test (PSAT) to gauge effect of instruction with the KWL
+strategy and reading texts prepared to be used in both
+groups were employed as data collection tools. The reading
+texts were chosen from primary school 4th grade
+Turkish coursebook.
+Test of equivalency (TE)
+A prior knowledge test prepared for primary school 4th
+graders by Gu€ngo€r (2014) was used as test of equivalency in
+this research. This test was conducted in order to determine
+whether the groups were equal or not. The validity and reli-
+ability of the test had been provided by G€ng€r (2014), and
+the reliability coefficient had been found to be 0.71. The test
+was applied to both groups. The purpose of applying this
+test was to compare initial achievement levels of the EG and
+CG students. In the test of equivalency, there were questions
+about learning outcomes of addition, subtraction, multiplica-
+tion, reading natural numbers, writing natural numbers, and
+greatness-smallness in natural numbers. The Test of equiva-
+lency was given in Appendix 1.
+Problem-solving achievement test (PSAT)
+A PSAT including 9 problems, which were analyzed for val-
+idity and reliability, about the topic of “fractions and opera-
+tions with fractions” was prepared by the researchers
+benefitting from the literature (Baykul, 2016; O€zc?elik, 2018;
+Posamentier & Krulik, 2016; Yazgan & Arslan, 2017) in
+order to evaluate students’ problem-solving achievements. In
+the analysis of PSAT, each step of the problem-solving pro-
+cess that are understanding the problem, devising a plan,
+carrying out the plan, looking back and suggesting a prob-
+lem was considered as a separate sub-problem. In order to
+ensure the content validity of the problems in the test before
+implementation of the PSAT, two content area experts, a
+Procedures
+There were 18 students in the EG who were taught using
+the KWL strategy and 17 students in the CG who were
+taught in accordance with current instructional program.
+The data of 4 students in the CG were not included in the
+study since they had not attended the lessons regularly. The
+studies carried out during the empirical process were pre-
+sented in Figure 1. Instruction was implemented according
+to the KWL strategy in the EG and to current Mathematics
+Curriculum in the CG by the primary school 4th grade
+class teacher.
+Before starting the implementation, the 4th grade class
+teacher and the EG students were informed about the KWL
+strategy, and they were told about things to be done during
+the implementation. Instruction with the KWL strategy was
+carried out with 9 texts chosen from 4th grade Turkish
+coursebook. The reading texts were studied using the KWL
+strategy in the EG. These reading texts were as follows:
+The topic of fractions was taught to the EG by the same
+teacher in the Math lessons using the KWL strategy. The
+implementation lasted for 20 lesson hours. The study of the
+two students in the EG about the reading texts “Colors
+Hidden in the Light” and “The World Is Round” were given
+in Figure 2 and Figure 3, respectively.
+In the EG and CG, 13 mathematical activities about the
+topic of fractions and operations with fractions in primary
+school mathematics course book were implemented.
+However, the mathematical activities in the EG were carried
+out by using the KWL strategy. The mathematical activities
+performed by 2 students in the EG using the KWL reading
+strategy were given in Figure 4. The activities were carried
+out in mathematics and Turkish lessons synchronously.
+PSAT was applied to the EG and CG students as pretest and
+posttest before and after the implementation.
+The KWL table is a reflective chart showing what students
+know, what they want to learn and what they learned (Ogle,
+1986). The teacher firstly asked the students to create their
+own KWL charts after giving them brief information about the
+KWL. At the beginning of the implementation, the students
+were asked questions about the topic in order to reveal their
+prior knowledge via brainstorming. The students were required
+to remember their background knowledge and take notes by
+doing brainstorming. They wrote this knowledge on ‘K’ col-
+umn of the KWL chart. After they became familiar to the
+problem, the problem statement was read and definition of the
+problem was made. In this step, the given and the asked things
+in the problem were identified, and the students were asked to
+draw a figure or schema related to the problem. They moved
+to the step of understanding and interpreting the knowledge
+with this step. They wrote what they wanted to learn or
+thought they knew on ‘W’ column of the KWL chart. In these
+two steps, they started to link the knowledge they knew or
+thought they knew to the knowledge they wanted to know.
+After reading the problem and entering into the process of
+interpretation, the students wrote what they learned from the
+problem on ‘L’ column, which is ‘what I learned’. By this way,
+the students, who organized and arranged their knowledge
+moved to the second step of problem-solving – devising a
+plan. Devising a plan is creating a solution strategy for the
+problem by organizing the data and identifying all information
+included in the problem. This step contains remembering the
+current problem, similar problems and solutions. In this case,
+it means that the student has established a link between his/
+her prior knowledge and new knowledge. If the student has
+strategy knowledge to carry out the plan he/she has devised,
+he/she can find a solution by carrying out the plan. In the step
+of carrying out the plan, the students were asked to question
+the given statement, perform foreseen solutions regarding the
+problem, check if their solutions worked or not - or if they
+were correct or not, express their reasons for proving that their
+solutions were correct. In the final step, they were required to
+write a new problem similar to the given problem. The imple-
+mentation was performed sometimes individually and some-
+times by creating a discussion environment.
+An experimental group student’s solution found by using
+the KWL strategy was given in Figure 5. In order to under-
+stand the implementation process better, sample explana-
+tions that the student made about use of the KWL strategy
+in solving the problem and interpretations were included in
+Table 3.
+In Table 3, it was seen that the student wrote what he
+knew about the topic on ‘K’ column and recalled prior
+knowledge – the basis for solving the problem – from men-
+tal schema. In ‘W’ column, the questions that would help
+problem-solving and that are needed to be asked in the steps
+of mathematical problem-solving were asked. The student
+had been asked to write interrogative expressions in ‘W’ col-
+umn. In ‘L’ column, the problem was solved by finding the
+answers of the questions in ‘W’ column.
+Quantitative data analysis techniques were employed in
+order to reveal if there were any statistically significant dif-
+ferences between problem-solving achievement pretest and
+posttest scores of the students in the EG, to whom the KWL
+reading strategy was applied and of the students in the CG,
+to whom instruction was implemented in accordance with
+the current instructional program. Therefore, the questions
+in the problem-solving achievement test were scored using
+the progressive scoring scale by the two researchers, and
+intercoder reliability was examined according to Miles and
+Huberman’s (1994) formula. The intercoder reliability was
+found to be 89%. For the remaining 11% difference, the two
+researchers gathered to discuss and reached an agreement.
+Thus, a full correspondence (100%) was achieved by increas-
+ing the correspondence rate between the coders. Secondly,
+SPSS Package Program was used in order to determine
+whether there was a statistically significant difference
+between the scores of the EG and CG students. Non-para-
+metric techniques were employed for data analysis since
+the number of subjects in the groups was small. Mann-
+Whitney U test checks if the scores obtained from two
+independent samples differ significantly. This test controls
+if two independent groups have similar distributions in the
+population in terms of the concerned variable. U test
+requires the dependent variable to be in ordinal scale, and
+observations need to be independent of each other.
+Wilcoxon’s signed ranks test is used to test significance of
+the difference between the scores belonging to two depend-
+ent measuring sets. This test is used as an alternative for t-
+test in two paired groups when variables do not show nor-
+mal distribution (B€y€k€ztu€rk, 2013). The Wilcoxon’s
+Signed Rank Test for the analyses between the dependent
+groups and The Mann-Whitney U Test for the analyses
+between the independent groups were implemented. This
+method was preferred since the data obtained from the
+research were not distributed normally, and the study
+group was small.
+In this section of the research, the findings and interpreta-
+tions were included. Firstly, the results of the test of equiva-
+lency, which was conducted to determine if the groups were
+equal, and descriptive analysis results were presented. Then,
+the sub-problems of the research were given under sections.
+Results of the test of equivalency and
+descriptive analysis
+The normality test results examined to compare equivalency
+of the EG and CG were presented in Table 4, and t-test
+results were presented in Table 5.
+It was understood from Table 4 that the scores received
+from the test of equivalency by the experimental and control
+groups did not show normal distribution (pEG¼.116,
+pCG¼.036). Thus, results of the t-test, which was used for
+independent samples were given in Table 5.
+Independent samples t-test result regarding the scores
+received by the EG and CG students was p¼.655. As the cal-
+culated p value was greater than .05, it was concluded that
+there were not any significant differences between the EG
+and CG before the implementation [t (33) ¼.451, p¼.655
+>.05]. Thus, it can be claimed that the EG and CG were
+equivalent before the implementation of the KWL read-
+ing strategy.
+In Table 6, pretest and posttest mean scores and standard
+deviations of the control and experimental groups regarding
+the problem-solving steps and overall problem-solving
+achievement. It was seen that the posttest mean scores of
+the control group in understanding the problem
+(X ¼ 10,41), devising a plan (X ¼ 9,59), carrying out the
+plan (X ¼ 12,29), looking back (X ¼ 1, 35) and overall
+problem-solving (X ¼ 40, 00) were higher than their pretest
+mean scores in understanding the problem (X ¼ 7,76),
+devising a plan (X ¼ 3, 94), carrying out the plan
+(X ¼ 6, 71), looking back (X ¼ , 88) and overall problem-
+solving (X ¼ 26, 12) respectively, yet their posttest mean
+scores in suggesting a problem (X ¼ 4, 71) were lower than
+their pretest mean scores in the same step (X ¼ 5, 47). On
+the other hand, the posttest mean scores of the experimental
+group in understanding the problem (X ¼ 17, 78), devising a
+plan (X ¼ 14,06), carrying out the plan (X ¼ 12, 72), look-
+ing back (X ¼ 1, 17), suggesting a problem (X ¼ 8,28) and
+overall problem-solving (X ¼ 55,72) were higher than their
+pretest mean scores in understanding the problem
+(X ¼ 7, 22), devising a plan (X ¼ 3,22), carrying out the
+plan (X ¼ 5, 39), looking back (X ¼ , 83), suggesting a
+problem (X ¼ 2, 33) and overall problem-solving
+(X ¼ 22, 22) respectively.
+Findings and interpretations related to the first
+sub-problem
+The Mann-Whitney U Test was employed to determine if
+there were any statistically significant differences between
+problem-solving achievement pretest scores of the EG and
+CG students, and the related finding was given in Table 7.
+In Table 7, the Mann-Whitney U Test results according
+to the pretest scores received from the Progressive Scoring
+Scale (PSS) by the EG and CG students were shown for
+each step. Accordingly, no significant differences were found
+between two groups as a result of U test regarding the pre-
+test scores received from the steps of PSS, which were
+understanding the problem (U ¼ 137.500, p>.05), devising a
+plan (U¼ 136.500, p>.05), carrying out the plan
+(U ¼144.500, p>.05), looking back (U ¼99.000, p>.05) and
+suggesting a problem (U ¼ 144.500, p> :05). Table 7 indi-
+cated that there were no significant differences between both
+groups regarding their pretest sum scores in all steps of
+problem-solving (U ¼ 138.500, p>.05).
+Findings and interpretations related to the second
+sub-problem
+The Mann-Whitney U Test was employed to determine if
+there were any statistically significant differences between
+problem-solving achievement posttest scores of the EG and
+CG students, and the related finding was given in Table 8.
+In Table 8, the Mann-Whitney U Test results according
+to the posttest scores received from the Progressive Scoring
+Scale (PSS) by the EG and CG students were shown for
+each step. Accordingly, a significant difference was found
+between two groups as a result of U test regarding the postt-
+est scores received from the steps of PSS, which were
+Findings and interpretations related to the third
+sub-problem
+The third sub-problem “Are there any statistically significant
+differences between pretest and posttest problem-solving
+achievement scores of the EG students on whom the KWL
+strategy was employed?” was tested with the Wilcoxon’s
+Signed Rank Test. Accordingly, the Wilcoxon’s Signed Rank
+Test results regarding whether there was a statistically sig-
+nificant difference between each step of problem-solving and
+the pretest and posttest scores received from the PSS before
+and after the implementation by the EG students were pre-
+sented in Table 9.
+It was seen in Table 9 that there was a significant differ-
+ence between the pretest and posttest scores received from
+the steps of understanding the problem (z ¼3.728, p<.05),
+devising a plan (z¼ 3,724, p<.05), carrying out the plan
+(z ¼3.584, p<.05), looking back (z ¼ 3.628, p<.05) and sug-
+gesting a problem (z¼ 3.523, p< :05) and problem-solving
+achievement (z¼ 3.724, p< .05) by the EG. Based on this
+result, it was understood that instruction with the KWL
+strategy developed problem-solving achievement of the EG
+students. According to the results of the analysis in Table 9,
+the KWL reading strategy was effective in fostering the EG
+students’ achievement in each step and in problem-solving.
+Findings and interpretations related to the fourth
+sub-problem
+The fourth sub-problem “Are there any statistically signifi-
+cant differences between pretest and posttest problem-solv-
+ing achievement scores of the CG students on whom
+current instructional program was employed?” was tested
+with the Wilcoxon’s Signed Rank Test. Accordingly, the
+Wilcoxon’s Signed Rank Test results regarding whether
+there was a statistically significant difference between each
+step of problem-solving and the pretest and posttest scores
+received from the PSS before and after the implementation
+by the CG students were presented in Table 10.
+Table 10 indicated that there was a significant difference
+between the pretest and posttest scores received from the
+steps of devising a plan (z¼ 3.305, p<.05), carrying out the
+plan (z ¼3.538, p<.05) and problem-solving achievement
+(z¼ 3.724, p< .05) by the CG. However, there were not any
+significant differences between their pretest and posttest
+scores received from the steps of understanding the problem
+(z¼ 1.866, p >.05), looking back (z ¼3.628, p<.05) and sug-
+gesting a problem (z¼ 3.523, p< :05). Based on this result,
+it can be claimed that the implementation in accordance
+with the current instructional program helped the students
+be successful in problem-solving. Table 10 showed that there
+was a significant difference between the pretest and posttest
+scores of the CG students as a result of the analyses imple-
+mented by converting the scores obtained from each step of
+the problem-solving to the total score. On the other hand,
+while the students were successful in solving mathematical
+problems, they were not able to show the same success for
+the steps of understanding the problem, looking back and
+suggesting a problem. It can be said that the basic under-
+standing of obtaining this finding was that problem-solving
+achievement was considered as result-oriented. It was under-
+stood from Table 10 that there were not any significant dif-
+ferences between the test scores of the CG students obtained
+before and after the implementation in the most important
+steps of problem-solving that are understanding the
+problem, looking back and suggesting a similar problem. On
+the contrary, the step of problem-solving was successfully
+carried out by the students in the CG.
+In the present study, impact of the KWL reading strategy on
+graders was investigated. It was found in this study, in
+which a quasi-experimental design with pretest-posttest CG
+was employed, that the KWL strategy improved the stu-
+dents’ problem-solving achievement as a result of non-para-
+metric tests.
+Each step of the problem-solving process was separately
+analyzed. Accordingly, there was a significant difference in
+favor of the EG in each step of problem-solving which are
+understanding the problem, devising a plan, looking back
+and suggesting a problem. Considering the sum of the
+scores obtained from each step, a statistically significant dif-
+ference was found in problem-solving achievement of the
+two groups in favor of the EG. However, no significant dif-
+ference was found between the scores of the EG and CG
+students in the step of carrying out the plan.
+A significant difference was observed between the sum of
+the scores received from each step by the EG and CG stu-
+dents in favor of the former ones as a result of the within-
+groups analyses. On the other hand, no significant differen-
+ces were found between the pretest and posttest scores
+received in the steps of understanding the problem, looking
+back and suggesting a problem by the CG students when
+each step was separately analyzed.
+Understanding the problem is the most important step of
+problem-solving. This stems from the fact that a student
+who cannot understand the problem cannot choose and
+carry out an appropriate strategy for solving the problem
+and cannot interpret the results. The current research
+revealed how important the step of understanding the prob-
+lem for solving a problem is. Within-group test results indi-
+cated that the results could not be appropriately interpreted
+by the CG students, to whom the instruction in accordance
+with the activities in the current instructional program was
+administered. It cannot be claimed that the student can real-
+ize solution of a problem completely in situations in which
+the link between the given and the asked in a problem and
+the bridge between old and new information cannot be
+established. In this respect, it can be suggested that the
+KWL reading strategy was effective in helping the EG stu-
+dents understand the problem. The findings obtained from
+the EG students indicated that the KWL reading strategy
+was beneficial for solving a mathematical problem. If a stu-
+dent can devise a strategy for solving a problem and can
+implement this strategy upon understanding the problem by
+using the KWL strategy, the problem can be solved. An
+individual can produce various solutions for the problems
+with appropriate reasoning according to his/her own charac-
+teristics (Umay, 2003). Thus, readers need to synthesize,
+interpret and evaluate information from the text and use it
+if suitable (Wijaya & Puti, 2015). Finding a correct solution
+depends on appropriate reasoning and understanding the
+problem thoroughly because the students gather the con-
+cepts and operations during problem-solving and use them
+for solving the problem (Bernardo, 1999). Therefore, it can
+be stated that the strategy applied to the EG students con-
+tributed positively to the students’ problem-solving achieve-
+ments considering that the steps trigger each other. Several
+studies whose results are similar to the result obtained in
+the step of understanding the problem in the current study
+(Prakitipong & Nakamura, 2006; Tertemiz, 1994; Hegarty
+et al., 1995, Panasuk and Beyranevand, 2010, as cited by Ulu
+et al., 2016; Ilg?n & Arslan, 2012) have been conducted. In
+addition, Fuentes’s (1998) view that reading comprehension
+strategies can be used to understand the problem story due
+to the similarities between understanding the story and
+understanding the word problems has supported the result
+of the current study in the step of understanding
+the problem.
+Another result of this study was that there were not any
+significant differences between the scores of the two groups
+received in the step of carrying out the plan - that is solving
+the problem. The reason of this situation may be that the
+students did not know the ways of problem-solving.
+However, the results of the Wilcoxon’s signed ranks test
+analysis which was conducted for the dependent groups
+revealed that there was a significant difference in the step of
+solving the problem. In other words, the students in both
+groups reached the result by solving the problems with the
+mathematical activities given. Another reason of this case
+was that the students may have had usual thoughts toward
+learning mathematics. This can be explained as follows.
+Despite the improvement studies in the curriculums con-
+ducted in Turkey from time to time, it is not realistic to
+expect important and sudden changes as a result of these
+improvements and a certain amount of time is necessary
+(Baki, 2014). It was observed that carrying out the plan, that
+is the solution of the problem, was generally carried out in
+the CG compared to the other steps of the problem-solving
+process. However, no statistically significant difference was
+found between the two groups. This may stem from the fact
+that the students just tried to find the numerical result of
+the problem without using mental skills such as collecting
+the necessary data for the solution by analyzing a problem
+thoroughly, deciding whether the solution is logical and
+adapting the problem to similar situations. This is because
+of the fact that the students generally regard mathematics as
+a structure consisting of formulas and rules and needed to
+be memorized. The students with such a thought adopt their
+teacher’s solution by using his/her mathematics and algo-
+rithms. A student who is not able to produce his/her own
+solution and own mathematics has difficulty in solving the
+problem as he/she cannot transfer his/her superficial know-
+ledge to different situations. Although our schools try to
+teach conceptual knowledge, functional knowledge is
+focused more (Baki, 2014). This leads students to be able to
+solve the problems they already know or have encountered
+before. In the current study, the reason of nonexistence of a
+statistically significant difference between the two groups in
+the step of carrying out the plan may be considered in
+this context.
+Similarly, the EG students were more successful than the
+CG students in the step of suggesting a problem. With the
+help of the KWL strategy employed in the EG, the students
+were able to analyze the problems thoroughly and to trans-
+fer them mostly to similar situations. The analysis of the
+data obtained from the step of suggesting a problem indi-
+cated that there was a significant difference in favor of
+the EG.
+Considering the results of the current study in general,
+the results of the current study are similar to the results of
+the studies carried out by Hite (2009), Nicolas and Emata
+(2018), O€zdemir and Sertso€z (2006), O€ztu€rk et al. (2020),
+Prakitipong and Nakamura (2006), Vilenius-Tuohimaa
+et al. (2008).
+In the current study, the KWL strategy helped the stu-
+dents solve the problems by recalling their knowledge famil-
+iar with the problems via a KWL chart, determining what
+they wanted to learn and linking this knowledge with the
+knowledge they wanted to learn. Nicely’s (2015) statement
+that the KWL chart is a reflective table indicating what
+students know, what they want to learn and what they
+learned can be shown as evidence fort his sentence. In add-
+ition, with the use of the KWL strategy, students can con-
+centrate on analytical reading (Siribunnam & Tayraukham,
+2009) and actively link the old and new knowledge
+(Ibrahim, 2012). Students are encouraged to take over
+responsibility with brainstorming in the classroom and to
+expand their ideas and perceptions about the topic (Szabo,
+2006). In the current study, it can be stated that the KWL
+strategy led the students to think, reason and question in
+the process of problem-solving because the problem-solving
+process includes the processes of active questioning and
+thinking (Schoenfeld, 1985). In the present study, specifically
+impact of the KWL reading strategy on the students’ prob-
+lem-solving achievement was investigated. It can be indi-
+cated that the results of the current study are similar to the
+results of the studies revealing that reading comprehension
+has a positive effect on mathematics achievement and math-
+ematical problem-solving achievement (Goktas?, 2010;
+Lerkkanen et al., 2005; Nicely, 2015; Pape, 2004; Passolunghi
+& Pazzaglia, 2005; Phromphithak, 2015; Vilenius-Tuohimaa
+et al., 2008).
+Ulu et al. (2016) concluded that instruction of reading
+comprehension and problem-solving strategies raised the 5th
+graders’ problem-solving achievement. On the other hand,
+Ulu et al. (2016) claimed that reading comprehension strat-
+egies could explain just 7,86% of the change in problem-
+solving achievement, and students’ readiness level were
+more influential in predicting problem-solving achievement
+than their reading comprehension strategies. Thus, it cannot
+be asserted that the results of the current study conform
+with the results of the study carried out by Ulu et al. (2016).
+The current study employed quantitative methods to
+examine the problem-solving achievements of the primary
+school 4th graders, each step of which was analyzed separ-
+ately, with the KWL reading strategy. A qualitative study
+can be carried out in order to obtain in-depth information
+about reasons of these results. In addition, mixed studies in
+which factors affecting the problem-solving skill by using
+different reading strategies at different grade levels are
+employed can be conducted.
