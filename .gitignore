@@ -2,3 +2,4 @@
 **/*.class
 /target
 *.class
+data_verify

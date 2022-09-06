@@ -61,7 +61,7 @@ public class Extworder {
 		System.out.println("Extworder Done.");
 	}
 	
-	static public void main_test_pdfs(ArrayList<String> pdfs, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
+	static public void main_test_pdfs(List<String> pdfs, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
 		main_test4_getText(pdfs);
 		main_test4_printRows(pdfs);
 		main_test6_block_print(pdfs);
@@ -109,7 +109,7 @@ public class Extworder {
 		getTitle("ILL article-Impact of the KWL reading strategy");
     }*/
 	
-	static public void main_test4_printRows(ArrayList<String> pdfs) throws IOException {
+	static public void main_test4_printRows(List<String> pdfs) throws IOException {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("displayRows("+pdf+")");
@@ -134,7 +134,7 @@ public class Extworder {
 		//displayRows("Taylor&Francis-Neurologic music therapy in multidisciplinary acute stroke");
 	}
 	
-	static public void main_test4_getText(ArrayList<String> pdfs) throws IOException {
+	static public void main_test4_getText(List<String> pdfs) throws IOException {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("displayChars("+pdf+")");
@@ -166,7 +166,7 @@ public class Extworder {
 		//displayBlocks("Medline-Beneficial Effects of Principal Polyphenols from Green Tea");
 	}
 	
-	static public void main_test6_block_print(ArrayList<String> pdfs) throws IOException {
+	static public void main_test6_block_print(List<String> pdfs) throws IOException {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printBlocks("+pdf+")");
@@ -207,7 +207,7 @@ public class Extworder {
 		//printBlocks("FootNote&Small#-BetweenNegativeStigmaCulturalD");
 	}
 	
-	static public void main_test7_content_print(ArrayList<String> pdfs, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
+	static public void main_test7_content_print(List<String> pdfs, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printContent("+pdf+")");
