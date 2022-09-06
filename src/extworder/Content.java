@@ -189,37 +189,12 @@ public class Content extends PDFTextStripper {
 							! blockformats.containsKey(block.format))*/
 					if(block.format.alignment==Common._FULLALIGNED)
 						blockformats.add(block.format, (pages.size()-page.id) * block.rows.size());  // Blocks on the earlier pages get higher weigh than those on late pages.
-						//blockformats.put(block.format,evaluateBodyBlockformat(block.format));
 				}
 		
-		//bodyBlockformat=blockformats.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		bodyBlockformat=blockformats.maxByValue();
 		
 		blockformatIndexes=makeBlockformatIndexes();
 	}
-	
-	/*private int evaluateBodyBlockformat(BlockFormat blockformat) {
-		int value=0;
-		
-		int currValue=pages.size();
-		
-		for(Page page:pages) {
-			for(Block block:page.blocks) {
-				//if(block.likeBodyBlock1()<Common._ParaSentDefaultTrue)
-				//	continue;
-				if(block.format.alignment!=Common._FULLALIGNED && block.format.alignment!=Common._FIRSTROWINDENTFULLALIGNED)
-					continue;
-				
-				if(block.format.equals(blockformat)) {
-					value+=currValue * block.rows.size();
-					break;
-				}
-			}
-			currValue--;
-		}
-		
-		return value;
-	}*/
 	
 	private Map<BlockFormat,Integer> makeBlockformatIndexes() {
 		ArrayList<BlockFormat> bfs=new ArrayList<BlockFormat>();
@@ -826,9 +801,6 @@ public class Content extends PDFTextStripper {
 				break;
 		}
 
-		//activeBlock.removeRightAlignedRow();
-		
-		//if(activeBlock!=null && activeBlock.isParagraphBlock2()) {
 		if(activeBlock!=null) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
@@ -1000,14 +972,20 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	
-	
-	/*private void mergeConsecutiveBlocks() {
-		for(Page page:pages) {
-			page.mergeConsecutiveBlocks();
-			page.sortBlocks();
+	private void markAllBodyBlocks2() {
+		for(Page page: pages) {
+			for(Column column:page.columns)
+				for(Block block:column.blocks) {
+					if(block.type!="")
+						continue;
+					if(page.content.bodyBlockformat!=null &&
+							! block.format.equals(page.content.bodyBlockformat))
+						continue;
+					
+				}
 		}
-	}*/
+	}
+	
 	
 	private void mergeBlocksByGap() {
 		Map<Float,Integer> gaps=getRowGaps2();
@@ -1040,26 +1018,6 @@ public class Content extends PDFTextStripper {
 		}
 	}
 	
-	/*private int getRowGaps() {
-		StatGroup<Integer> gaps=new StatGroup<Integer>();
-		
-		for(Page page:pages) {
-			Row row0=null;
-			//List<Block> blocklist=page.getBlockList2();
-			//for(Block block: blocklist) 
-			Collections.sort(page.rows,Row.compareRowLefts);
-			for(Row row:page.rows) {
-				if(row0==null || row0.left!=row.left)
-					row0=row;
-				else {
-					gaps.add(row.upper-row0.lower);
-					row0=row;
-				}
-			}
-			Collections.sort(page.rows,Row.compareRows);
-		}
-		return gaps.maxByValue();
-	}*/
 	private Map<Float,Integer> getRowGaps2() {
 		HashMap<Float,Integer> gaps=new HashMap<Float,Integer>();
 		
@@ -1204,82 +1162,6 @@ public class Content extends PDFTextStripper {
 		
 		return bl;
 	}
-	
-	
-	/*static class BlockFormatChain implements Comparable<BlockFormatChain> {
-		ArrayList<BlockFormat> blockformats=new ArrayList<>();
-
-		@Override
-		public int compareTo(BlockFormatChain blockformatChain) {
-			int n1=blockformats.size();
-			int n2=blockformatChain.blockformats.size();
-			
-			return n1==n2 ? 
-						this.contains(blockformatChain) || blockformatChain.contains(this) ? 
-								0 : hashCode()-blockformatChain.hashCode()
-						:
-						n1-n2;
-		}
-		
-		@Override 
-		public int hashCode() {
-			int hash=0;
-			
-	        for(BlockFormat blockformat:blockformats)
-	        	hash+=blockformat.hashCode();
-	        
-	        return hash;
-		}
-		
-		@Override
-		public boolean equals(Object obj) {
-			if (this == obj)
-	            return true;
-	        if (obj == null)
-	            return false;
-	        if (getClass() != obj.getClass())
-	            return false;
-	        
-	        BlockFormatChain other = (BlockFormatChain) obj;
-
-	        return contains(other) && blockformats.size()==other.blockformats.size();
-		}
-		
-		public boolean contains(BlockFormatChain blockformatChain) {
-			if(blockformats.size()<blockformatChain.blockformats.size())
-				return false;
-			
-			int i1=0;
-			int i2=0;
-			int matched=0;
-			
-			for(;i1<blockformats.size() && i2<blockformatChain.blockformats.size();) {
-				BlockFormat blockformat1=blockformats.get(i1);
-				BlockFormat blockformat2=blockformatChain.blockformats.get(i2);
-				
-				if(blockformat1.equals(blockformat2)) {
-					matched++;
-					i1++;
-					i2++;
-				} else {
-					i1++;
-				}
-			}
-			
-			return matched==blockformatChain.blockformats.size();
-		}
-		
-		public int blockformatIndex(BlockFormat blockformat) {
-			int i=0;
-			for(BlockFormat bf: blockformats) {
-				if(blockformat.equals(bf))
-					return i;
-				
-				i++;
-			}
-			return -1;
-		}
-	}*/
 	
 	@Override
 	protected void showGlyph(Matrix textRenderingMatrix, PDFont font, int code, String unicode, Vector displacement) throws IOException

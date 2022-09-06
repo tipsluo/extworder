@@ -95,57 +95,6 @@ public class Process {
 		}
 	}
 	
-	/*List<Word> topKeywords(int top1Num,int top2Num) throws IOException {
-		ArrayList<String> keyWords=null;
-		
-		int n=top1Num+top2Num;
-		
-		if(content.titleBlock!=null) {
-			ArrayList<String> titleStrs=Common.getWords(Common.joinLines(content.titleBlock.string()),true);
-			if(titleStrs!=null) {
-				titleStrs=removeWords(titleStrs,stopWords);
-				keyWords=titleStrs;
-			}
-		}
-		
-		ArrayList<String> abstractStrs=null;
-		if(content.abstractBlock!=null)
-			abstractStrs=Common.getWords(Common.joinLines(content.abstractBlock.string()),true);
-		else {
-
-			if(keyWords.size()<n) {
-				ArrayList<String> bodyWords=Common.getWords(Common.joinLines(bodyStr),true);
-				StatGroup<String> highBodyWords=new StatGroup<String>(bodyWords);
-			
-				abstractStrs=highBodyWords.topsByValue(keyWords.size()-n);
-			}
-		}
-			
-		if(abstractStrs!=null) {
-			abstractStrs=removeWords(abstractStrs,stopWords);
-			
-			if(keyWords!=null)
-				keyWords.addAll(abstractStrs);
-			else
-				keyWords=abstractStrs;
-		}
-		
-		if(keyWords==null)
-			return null;
-		
-		ArrayList<Word> list1=(new Words(keyWords)).list;
-		
-		ArrayList<String> bodyWordStrs=Common.getWords(bodyStr,true);
-		originalWordCount=bodyWordStrs.size();
-		
-		WordStatGroup list2=new WordStatGroup(bodyWordStrs);
-		
-		WordStatGroup list3=getCommonWords(list2,list1);
-		
-		commonWords=list3;
-		
-		return list3.topsByValue(n);
-	} */
 	
 	List<Word> topKeywords(int top1Num,int top2Num) throws IOException {
 		int n=top1Num+top2Num;

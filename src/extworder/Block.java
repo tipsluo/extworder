@@ -413,11 +413,6 @@ public class Block extends Rectangle {
 				isFull(page.content,column);
 	}
 	
-	boolean isBodyBlock() {
-		return format.equals(page.content.bodyBlockformat) && 
-				likeBodyBlock1()>=Common._ParaSentDefaultUno;
-	}
-	
 	boolean isBodyInfinished() {
 		if(! isBodyCharfontFullBlock())
 			return false;
@@ -708,72 +703,6 @@ public class Block extends Rectangle {
 		return true;
 	}
 	
-	/*List<Block> separateRightAlignedRow() {
-		List<Block> newBlocks=new ArrayList<Block>();
-		
-		Block newBlock=new Block(page);
-		
-		int i=0;
-		for(;i<rows.size();i++) {
-			Row row=rows.get(i);
-			
-			int ali=row.alignment(this,Common._AlignAdjustment,page.content);
-			if(ali==Common._RIGHTALIGNED) {
-				newBlock.rows.add(row);
-				rows.remove(row);
-				i--;
-			} else {
-				if(newBlock.rows.size()>0) {
-					newBlocks.add(newBlock);
-					newBlock.render();
-					newBlock=new Block(page);
-				}
-			}
-		}
-		
-		if(newBlock.rows.size()>0) {
-			newBlocks.add(newBlock);
-			newBlock.render();
-		}
-		
-		if(newBlocks.size()>0) {
-			Column column=this.column;
-			Page page=this.page;
-			
-			if(column!=null)
-				column.blocks.addAll(newBlocks);
-			page.blocks.addAll(newBlocks);
-			
-			if(rows.size()>0)
-				render();
-			else {
-				if(column!=null)
-					column.blocks.remove(this);
-				page.blocks.remove(this);
-			}
-			
-			page.sortBlocks();
-		}
-		
-		return newBlocks;
-	}*/
-	
-	/*boolean allRowsLongEnough() {
-		if(rows.size()<=1)
-			return true;
-	
-		Row row0=rows.get(0);
-	
-		for(int i=1; i<rows.size(); i++) {
-			Row row=rows.get(i);
-			if(! row0.isLongEnough(this,row0,row))
-				return false;
-			row0=row;
-		}
-		
-		return true;
-	}*/
-	
 	boolean isParagraphBlock2() {
 		// 1. Don't check first-row-indent because some blocks such as the abrstract of 
 		// "Spagna-1998-Dyslexia marker variables(AC2)" have different indents.
@@ -1061,35 +990,6 @@ public class Block extends Rectangle {
 					block.type.contains(Common._SubtitlePrefix);
 		}
 	}
-	
-	/*public static class SectionBlockFilter implements BlockFilter {
-		@Override
-		public boolean filter(Block block) {
-			if(block.abbrOnly() || block.trivial())
-				return false;
-			return block.format.compareTo(block.page.content.bodyBlockformat) > 0 &&
-					block.type.contains(Common._SectionPrefix);
-		}
-	}
-	
-	static class AdditionalSubtitleFormatFilter implements BlockFilter {
-		private ArrayList<BlockFormat> blockformats;
-		
-		public AdditionalSubtitleFormatFilter(ArrayList<BlockFormat> blockformats) {
-			this.blockformats=blockformats;
-		}
-		
-		@Override
-		public boolean filter(Block block) {
-			if(block.abbrOnly() || block.trivial())
-				return false;
-			for(BlockFormat blockformat: blockformats)
-				if(blockformat.equals(block.format))
-					return true;
-				
-			return false;
-		}
-	}*/
 }
 
 
