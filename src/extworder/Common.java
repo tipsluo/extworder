@@ -158,7 +158,7 @@ public class Common {
 	
 	static String prepareOut(String str) {
 		str = str.replaceAll("[\r\n]+", "\n");
-		str = str.replaceAll("\\s+", "\\s");
+		//str = str.replaceAll("\\s+", "\\s");
 		
 		return str;
 	}

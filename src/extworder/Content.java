@@ -641,11 +641,8 @@ public class Content extends PDFTextStripper {
 	public ArrayList<Block> getMainBlocks() {
 		Block.BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 		Block.SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
-		//Block.SectionBlockFilter sectionBlockFilter=new SectionBlockFilter();
 
 		ArrayList<Block> bs=filterBlocks(bodyBlockFilter,subtitleBlockFilter);
-		//ArrayList<Block> bs=filterBlocks(bodyBlockFilter,subtitleBlockFilter,sectionBlockFilter);
-		//bs=removeTailingSections(bs);
 		
 		return bs;
 	}

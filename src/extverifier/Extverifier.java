@@ -35,7 +35,7 @@ public class Extverifier {
 			System.out.printf("Comparing %s ...", pdf);
 			if(!Verifier.diff(pdf))
 				System.out.print("Different\n");
-			else System.out.print("\n");
+			else System.out.print("Same\n");
 		}
 	}
 	

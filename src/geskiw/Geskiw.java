@@ -59,11 +59,8 @@ public class Geskiw {
 		//String pdfName="Peace-Development and Peace Through";
 		//String pdfName="FootNote&Small#-BetweenNegativeStigmaCulturalD";
 		//String pdfName="ILL article-Urban Myths and Rural Legends";
-<<<<<<< HEAD
 		//String pdfName="Jstor-2020-Escape from Rome";
-=======
-		String pdfName="Jstor-2020-Escape from Rome";
->>>>>>> extverifier
+
 		//String pdfName="Jstor-2018-Indoor Air Pollution and Infant Mortality";
 		//String pdfName="NotWork- Project_muse_2016-Chinese Glass Paintings in Bangkok Monasteries";
 		//String pdfName="IEEE-2020-Adaptive Fuzzy Finite-Time Tracking";   // the subtitle is not correct because there are many fomulars.
@@ -72,7 +69,7 @@ public class Geskiw {
 		//String pdfName="2018-original-Stem_Cell_Therapy_in_Heart_Dis";
 		
 		//
-		//String pdfName="Jstor-AB-Racial Identity, Maternal Support and"; extracted successfully, but messed up
+		String pdfName="Jstor-AB-Racial Identity, Maternal Support and"; //extracted successfully, but messed up
 		//String pdfName="Jstor-AB-2020-AnneChoi-Japanese American Citizens League-Los Angeles Politics"; // minor issue : no sub heading
 		//String pdfName="Jstor-G-AB-2012-Racial Discrimination--Ethnic-Racial Socialization"; //messed up
 		//String pdfName="Elsevier-WT-2017-bad-Can A Complex Online Intervention"; //messed up

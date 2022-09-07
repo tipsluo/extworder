@@ -958,10 +958,11 @@ public class Page extends Rectangle{
 				if(! Block.subtitleBlockFilter.filter(block))
 					continue;
 				
-				String spaces="";
+				/*String spaces="";
 				for(int i=0;i<Common.subtitleLevel(block.type);i++)
 					spaces+=" ";
-				str+=spaces+block.string()+"\n";
+				str+=spaces+block.string()+"\n";*/
+				str+=block.string()+"\n";
 			}
 			
 			return str;
