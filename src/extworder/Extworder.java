@@ -401,6 +401,8 @@ public class Extworder {
 				content.title(),abstrStr));
 		myWriter.write(String.format("Subtitles:\n"));
 		myWriter.write(content.subtitles());
+		Validation validation=new Validation(content);
+		System.out.printf("Total word count: %d, Body word count: %d\n",validation.totalWordCount, validation.bodyWordCount);
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.body());
 		

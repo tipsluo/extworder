@@ -30,7 +30,6 @@ public class Block extends Rectangle {
 	final static BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 	final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
 	public final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
-	//static AdditionalSubtitleFormatFilter additionalSubtitleFormatFilter;
 	
 	public Block() {
 		super();

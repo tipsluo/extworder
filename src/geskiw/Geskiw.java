@@ -69,7 +69,7 @@ public class Geskiw {
 		//String pdfName="2018-original-Stem_Cell_Therapy_in_Heart_Dis";
 		
 		//
-		String pdfName="Jstor-AB-Racial Identity, Maternal Support and"; //extracted successfully, but messed up
+		String pdfName="Jstor-AB-Racial Identity, Maternal Support and"; //document is wrong . extracted successfully, but messed up
 		//String pdfName="Jstor-AB-2020-AnneChoi-Japanese American Citizens League-Los Angeles Politics"; // minor issue : no sub heading
 		//String pdfName="Jstor-G-AB-2012-Racial Discrimination--Ethnic-Racial Socialization"; //messed up
 		//String pdfName="Elsevier-WT-2017-bad-Can A Complex Online Intervention"; //messed up

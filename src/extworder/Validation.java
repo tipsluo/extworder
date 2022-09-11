@@ -1,13 +1,14 @@
 package extworder;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import extworder.Block.BlockFormat;
-
 public class Validation {
-	public Validation() {
-		// TODO Auto-generated constructor stub
+	Content content;
+	DocStat docStat;
+	
+	public Validation(Content content) {
+		this.content=content;
+		docStat=new DocStat();
+		
+		stat();
 	}
 
 	static boolean verifyRow(Row row) {
@@ -26,20 +27,46 @@ public class Validation {
 		return true;
 	}
 	
-	/*static boolean checkSentencesComplete(List<Block> blocks) {
-		String s="";
+	void stat() {
+		int firstBodyIndex=-1,titleIndex=-1;
 		
-		for(Block block:blocks) {
-			for(Row row:block.rows)
-				s+=row.stringWoSmall()+" ";
-		}
+		for(Page page: content.pages)
+			for(Block block:page.blocks) {
+				if(block==content.titleBlock) {
+					titleIndex=docStat.totalWordCount;
+				}
+
+				String[] words = block.string().split("\\s+");
+				
+				if(Block.bodyBlockFilter.filter(block)) {
+					if(firstBodyIndex<0)
+						firstBodyIndex=docStat.totalWordCount;
+					
+					docStat.bodyWordCount+=words.length;
+				}
+				
+				docStat.totalWordCount+=words.length;
+			}
 		
-		return checkSentencesComplete(s);
+		if( docStat.totalWordCount<=0 || docStat.bodyWordCount<=0 )
+			return;
+		
+		docStat.titleOffset=(int)(titleIndex*100 / docStat.totalWordCount);
+		docStat.firstBodyOffset=(int)(firstBodyIndex * 100 / docStat.totalWordCount);
+		docStat.bodyWordRatio=(int)(docStat.bodyWordCount * 100 / docStat.totalWordCount);
 	}
 	
-	static boolean checkSentencesComplete(String str){
-		if(Common.firstNotUpper.matcher(str).find())
-			return false;
-		return true;
-	}*/
+	static public class DocStat {
+		public int bodyWordCount;
+		public int totalWordCount;
+		public int titleOffset;
+		public int firstBodyOffset;
+		public int bodyWordRatio;
+		
+		public DocStat() {
+			bodyWordCount=totalWordCount=0;
+			titleOffset=firstBodyOffset=-1;
+			bodyWordRatio=-1;
+		}
+	}
 }

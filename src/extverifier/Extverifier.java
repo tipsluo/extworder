@@ -1,16 +1,25 @@
 package extverifier;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Properties;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import extworder.Extworder;
+import extworder.Validation.DocStat;
 import extworder.Content;
 import extworder.Content.NontitleChecker;
 import geskiw.Process;
@@ -18,6 +27,8 @@ import geskiw.Process;
 public class Extverifier {
 	static final String _VeiryfDataDir="data_verify/";
 	static final String _ContentNameSubfix="_content.txt";
+	static final String _DBDir="db/";
+	static final String _DocStatFilename=_DBDir+"pattern.dat";
 	
 	public Extverifier() throws IOException, InterruptedException {
 		
