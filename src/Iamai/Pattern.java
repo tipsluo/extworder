@@ -1,13 +1,10 @@
-package extverifier;
+package Iamai;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
+import extverifier.Extverifier;
 import extworder.Validation.DocStat;
 
 public class Pattern {
@@ -23,17 +20,11 @@ public class Pattern {
 	}
 	
 	public void savePattern() throws FileNotFoundException, IOException {
-		FileOutputStream fos = new FileOutputStream(Extverifier._DocStatFilename);
-		try (ObjectOutputStream oos = new ObjectOutputStream(fos)) {
-			oos.writeObject(patternDocStat);
-		}
+		patternDocStat.save(Iamai._DocStatFilename);
 	}
 	
 	public void loadPattern() throws FileNotFoundException, IOException, ClassNotFoundException {
-		FileInputStream fis = new FileInputStream(Extverifier._DocStatFilename);
-		ObjectInputStream ois = new ObjectInputStream(fis);
-		patternDocStat=(DocStat) ois.readObject();
-		ois.close();
+		patternDocStat.load(Iamai._DocStatFilename);
 	}
 	
 	public void updateDocStat() {
@@ -55,9 +46,9 @@ public class Pattern {
 			patternDocStat.firstBodyOffset+=docStat.firstBodyOffset;
 			patternDocStat.bodyWordRatio+=docStat.bodyWordRatio;
 			
-			if(docStat.titleOffset>0)
+			if(docStat.titleOffset>=0)
 				titleCount++;
-			if(docStat.firstBodyOffset>0)
+			if(docStat.firstBodyOffset>=0)
 				bodyCount++;
 		}
 		

@@ -26,7 +26,7 @@ public class Process {
 	static ArrayList<String> stopWords;
 	static HashMap<String,String> irregulars;
 	
-	Content content;
+	public Content content;
 	String bodyStr;
 	List<Word> top0;
 	List<Word> top1;

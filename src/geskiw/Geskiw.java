@@ -5,15 +5,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 import extworder.Extworder;
+import extworder.Content;
 import extworder.Content.NontitleChecker;
 import geskiw.Process.NontitleBlockStringChecker;
 import geskiw.Process.NontitleFirstStringChecker;
 
 public class Geskiw {
 	public final static String _TestDataDir="data/";
+	static List<NontitleChecker> nontitleCheckers;
+	
+	static {
+		nontitleCheckers=new ArrayList<NontitleChecker>();
+		nontitleCheckers.add(new NontitleFirstStringChecker());
+		nontitleCheckers.add(new NontitleBlockStringChecker());
+	}
 	
 	public Geskiw(String fn) throws IOException, InterruptedException {
-		
+
 	}
 	
 	public static void main(String args[]) throws IOException, InterruptedException  {
@@ -77,16 +85,9 @@ public class Geskiw {
 		ArrayList<String> pdfs=new ArrayList<String>();
 		pdfs.add(pdfName);
 		
-		List<NontitleChecker> nontitleCheckers=new ArrayList<NontitleChecker>();
-		nontitleCheckers.add(new NontitleFirstStringChecker());
-		nontitleCheckers.add(new NontitleBlockStringChecker());
-		
 		Extworder.main_test_pdfs(pdfs,nontitleCheckers);
-		Process process=new Process(
-				Extworder.pdfPath(pdfName),
-				Consts._StopWordFile,
-				Consts._AbbreviationFile,
-				Consts._IrregularFile);
+	
+		Process process=processPDF(pdfName);
 		
 		String outputPDF=_TestDataDir+pdfName+"_out.pdf";
 		process.writePDF(outputPDF,pdfName);
@@ -94,4 +95,13 @@ public class Geskiw {
 		System.out.println(process.extractResult);
 		System.out.println("Geskiw Done.");
 	}
+	
+	public static Process processPDF(String pdfName) throws IOException {
+		return new Process(
+				Extworder.pdfPath(pdfName),
+				Consts._StopWordFile,
+				Consts._AbbreviationFile,
+				Consts._IrregularFile);
+	}
+	
 }

@@ -402,7 +402,7 @@ public class Extworder {
 		myWriter.write(String.format("Subtitles:\n"));
 		myWriter.write(content.subtitles());
 		Validation validation=new Validation(content);
-		System.out.printf("Total word count: %d, Body word count: %d\n",validation.totalWordCount, validation.bodyWordCount);
+		System.out.printf("Total word count: %d, Body word count: %d\n",validation.docStat.totalWordCount, validation.docStat.bodyWordCount);
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.body());
 		

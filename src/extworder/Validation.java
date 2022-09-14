@@ -1,14 +1,29 @@
 package extworder;
 
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
 public class Validation {
 	Content content;
-	DocStat docStat;
+	String patternFilename;
+	DocStat patternDocStat;
 	
-	public Validation(Content content) {
+	public Validation(Content content, DocStat patternDocStat) {
 		this.content=content;
-		docStat=new DocStat();
+		this.patternDocStat=patternDocStat;
+	}
+	
+	public Validation(Content content, String patternFilename) {
+		this.content=content;
+		this.patternFilename=patternFilename;
 		
-		stat();
+		DocStat docStat=new DocStat(content);
 	}
 
 	static boolean verifyRow(Row row) {
@@ -27,46 +42,80 @@ public class Validation {
 		return true;
 	}
 	
-	void stat() {
-		int firstBodyIndex=-1,titleIndex=-1;
-		
-		for(Page page: content.pages)
-			for(Block block:page.blocks) {
-				if(block==content.titleBlock) {
-					titleIndex=docStat.totalWordCount;
-				}
-
-				String[] words = block.string().split("\\s+");
-				
-				if(Block.bodyBlockFilter.filter(block)) {
-					if(firstBodyIndex<0)
-						firstBodyIndex=docStat.totalWordCount;
-					
-					docStat.bodyWordCount+=words.length;
-				}
-				
-				docStat.totalWordCount+=words.length;
-			}
-		
-		if( docStat.totalWordCount<=0 || docStat.bodyWordCount<=0 )
-			return;
-		
-		docStat.titleOffset=(int)(titleIndex*100 / docStat.totalWordCount);
-		docStat.firstBodyOffset=(int)(firstBodyIndex * 100 / docStat.totalWordCount);
-		docStat.bodyWordRatio=(int)(docStat.bodyWordCount * 100 / docStat.totalWordCount);
-	}
-	
-	static public class DocStat {
+	static public class DocStat implements Serializable  {
+		Content content;
 		public int bodyWordCount;
 		public int totalWordCount;
 		public int titleOffset;
 		public int firstBodyOffset;
 		public int bodyWordRatio;
 		
-		public DocStat() {
+		public DocStat(Content content) {
+			this.content=content;
+			
 			bodyWordCount=totalWordCount=0;
 			titleOffset=firstBodyOffset=-1;
 			bodyWordRatio=-1;
+			
+			stat();
+		}
+		
+		public void save(String filename) {	
+			try {		    
+				 ObjectOutputStream out = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(filename)));
+				 out.writeObject(this);
+				 out.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		public void load(String filename) throws FileNotFoundException, IOException, ClassNotFoundException {
+			FileInputStream fis = new FileInputStream(filename);
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			DocStat ds=(DocStat) ois.readObject();
+			ois.close();
+			
+			copyDocStat(ds);
+		}
+		
+		private void copyDocStat(DocStat ds) {
+			bodyWordCount=ds.bodyWordCount;
+			totalWordCount=ds.totalWordCount;
+			titleOffset=ds.titleOffset;
+			firstBodyOffset=ds.firstBodyOffset;
+			bodyWordRatio=ds.bodyWordRatio;
+		}
+		
+		void stat() {
+			int firstBodyIndex=-1,titleIndex=-1;
+			
+			for(Page page: content.pages)
+				for(Block block:page.blocks) {
+					if(block==content.titleBlock) {
+						//titleInde equal to the word count so far.
+						titleIndex=totalWordCount;
+					}
+
+					String[] words = block.string().split("\\s+");
+					
+					if(Block.bodyBlockFilter.filter(block)) {
+						if(firstBodyIndex<0)
+							firstBodyIndex=totalWordCount;
+						
+						bodyWordCount+=words.length;
+					}
+					
+					totalWordCount+=words.length;
+				}
+			
+			if( totalWordCount<=0 || bodyWordCount<=0 )
+				return;
+			
+			titleOffset=(int)(titleIndex*10000 / totalWordCount);
+			firstBodyOffset=(int)(firstBodyIndex * 10000 / totalWordCount);
+			bodyWordRatio=(int)(bodyWordCount * 10000 / totalWordCount);
 		}
 	}
 }
