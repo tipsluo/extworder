@@ -1,42 +1,130 @@
 package extworder;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import extworder.Common.StatGroup;
+import extworder.Row.CharFont;
+
 public class Row2 extends Rectangle {
 	CharFont charfont;
-	public ArrayList<Char2> chars;
+	ArrayList<Char2> chars;
 	Block2 block;
+	ArrayList<Block2> blocks;
 	Page2 page;
-	private int maxInterval;
+	int interval;
+	private String str="";
 	
-	public Row2(Char2 leftest, int maxInterval, Page2 page) {
-		this.maxInterval=maxInterval;
-		charfont=new CharFont(leftest.font.getName(),leftest.height);
-		this.page=page;
-		
+	static Comparator<Row2> compareRows = (Row2 r1, Row2 r2) ->
+		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
+	static Comparator<Row2> compareRowHeights = (Row2 r1, Row2 r2) ->
+		(int)(r1.height-r2.height) ;
+	static Comparator<Row2> compareRowLefts = (Row2 r1, Row2 r2) ->
+		r1.left != r2.left ? Common.compareValue(r1.left,r2.left) : Common.compareValue(r1.upper,r2.upper);
+	
+	public Row2() {
+		super();
+
 		chars=new ArrayList<Char2>();
-		build(leftest);
 	}
 	
-	private void build(Char2 ch) {
-		addChar(ch);
+	public Row2(Char2 ch, Page2 page, int interval) {
+		chars=new ArrayList<Char2>();
+		blocks=new ArrayList<Block2>();
+		this.page=page;
+		this.interval=interval;
 		
-		List<Char2> rights=ch.getRightConnected(page, maxInterval,0);
+		registerChar(ch);
+
+		searchLeftestChar(ch,interval);
+		searchRightestChar(ch,interval);
 		
-		for(Char2 ch1:rights)
-			if(ch.upper==ch1.upper && ch.lower==ch1.lower) {
-				build(ch1);
-				break;
-			}
+		page.rows.add(this);
 	}
 	
-	public void addChar(Char2 ch) {
+	void registerChar(Char2 ch) {
 		chars.add(ch);
-		ch.row=this;
+		ch.rows.add(this);
 		updateRectangle(ch);
+		charfont=getCharFont();
+	}
+	
+	public String render() {
+		Collections.sort(chars,Char2.compareChars);
+		str="";
+		string();
+		charfont=getCharFont();
+		return str;
+	}
+	
+	void setActive() {
+		for(Char2 ch:chars) {
+			ch.row=this;
+		}
+	}
+	
+	public String string() {
+		if(str!=null && str!="")
+			return str;
+		
+		Char2 ch0=chars.get(0);
+	
+		for(Char2 ch:chars) {
+			if(interval < ch.left-ch0.right) {
+				str+=" ";
+			}
+			str+=ch.str;
+			ch0=ch;
+		}
+		
+		return str;
+	}
+	
+	private void searchLeftestChar(Char2 ch, int interval) {
+		List<Char2> ls=ch.getLeftConnected(page, interval, 0);
+		
+		Char2 ch1;
+		if(ls.size()==1) {
+			ch1=ls.get(0);
+			if(ch1.upper==ch.upper && ch1.lower==ch.lower) {
+				chars.add(0,ch1);
+				ch1.rows.add(this);
+				searchLeftestChar(ch1,interval);
+			}
+		}
+	}
+	
+	private void searchRightestChar(Char2 ch, int interval) {
+		List<Char2> ls=ch.getLeftConnected(page, interval, 0);
+		
+		Char2 ch1;
+		if(ls.size()==1) {
+			ch1=ls.get(0);
+			if(ch1.upper==ch.upper && ch1.lower==ch.lower) {
+				chars.add(ch1);
+				ch1.rows.add(this);
+				searchRightestChar(ch1,interval);
+			}
+		}
+	}
+	
+	private CharFont getCharFont() {
+		if(chars.size()==0)
+			return null;
+		
+		StatGroup<CharFont> charfonts=new StatGroup<CharFont>();
+		
+		for (Char2 ch: chars) {
+			CharFont cf=new CharFont(ch.font.getName(),ch.height);
+			
+			charfonts.add(cf);
+		}
+			
+		return charfonts.maxByValue();
 	}
 	
 	static public class CharFont implements Comparable<CharFont>{

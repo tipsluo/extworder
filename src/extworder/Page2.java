@@ -4,6 +4,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
@@ -19,8 +20,8 @@ public class Page2 extends Rectangle {
 	private int xOffset;
 	private int yOffset;
 	
-	final static int _MaxHInterval=20;
-	final static int _MaxVInterval=20;
+	final static int _MaxCharInRowInterval=10;
+	final static float _MaxBlockIntervalRatio=2.0f;
     
 	public Page2(Content2 content,int id) {
 		this.content=content;
@@ -58,17 +59,72 @@ public class Page2 extends Rectangle {
 		
 		Collections.sort(chars,Char2.compareChars);
 		
-		for(int hItv=1; hItv<_MaxHInterval; hItv++) {
-			for(Char2 ch: chars) {
-				if(ch.row!=null)
-					continue;
+		generateAllRowCandidates();
+	}
+	
+	void generateAllRowCandidates() {
+		rows=new ArrayList<Row2>(); 
+		for(Char2 ch:chars) {
+			for(int i=0; i<_MaxCharInRowInterval; i++) {
+				if(ch.rows.size()>0) {
+					boolean done=false;
+					for(Row2 row:ch.rows) 
+						if(row.interval==i) {
+							done=true;
+							break;
+						}
+					if(done)
+						continue;
+				}
 				
-				Row2 row=new Row2(ch,hItv,this);
-				
-				for(int vItv=1; vItv<_MaxVInterval; vItv++) {
-					Block2 block=new Block2(row,vItv,this);
+				new Row2(ch,this,i);
 			}
 		}
+	}
+	
+	void generateAllBlockCandidates() {
+		blocks=new ArrayList<Block2>();
+		
+		Collections.sort(rows,Row2.compareRows);
+		
+		for(int i=0; i<rows.size(); i++) {
+			Row2 row=rows.get(i);
+			
+			blocks.add(new Block2(0,row));
+		}
+		
+		blocks=mateBlocks(blocks);
+	}
+
+	List<Block2> mateBlocks(List<Block2> input) {
+		ArrayList<Block2> output=new ArrayList<Block2>();
+		
+		for(Block2 block1: input) {
+			for(Block2 block2: input) {
+				float maxDist=Math.max(block1.format.charfont.height, block2.format.charfont.height) * _MaxBlockIntervalRatio;
+				
+				boolean contains1=block1.contains(block2);
+				boolean contains2=block2.contains(block1);
+				float dis=block1.distance(block2);
+				if(contains1||
+						contains2 ||
+						(block1.hIntersected(block2) && dis<=maxDist)) {
+					
+					if(block1.interval!=block2.interval && block1.rows.size()>1 && block2.rows.size()>1)
+						continue;
+					
+					if((block1.rows.size()>1 && bis!=block1.interval) || (block2.rows.size()>1 && bis!=block2.interval))
+						continue;
+					
+					output.add(new Block2(block1,block2));
+				}
+			}
+		}
+		
+		if(input.size()==output.size())
+			return output;
+		
+		mateBlocks(output);
 	}
 	
 	private void adjustCoordinates() {

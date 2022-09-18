@@ -5,10 +5,14 @@ import java.util.Comparator;
 
 import org.apache.pdfbox.pdmodel.font.PDFont;
 
+import extworder.Common.StatGroup;
+import extworder.Row.CharFont;
+
 public class Char2 extends Rectangle{
-	public String str;
-	public PDFont font;
-	public Row2 row;
+	String str;
+	PDFont font;
+	Row2 row;
+	ArrayList<Row2> rows;
 	
 	static Comparator<Char2> compareChars = (Char2 ch1, Char2 ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
@@ -40,6 +44,8 @@ public class Char2 extends Rectangle{
 		right=(int)(Math.round(x+this.width));
 		upper=Math.round(y);
 		lower=(int)(Math.round(y+this.height));
+		
+		rows=new ArrayList<Row2>();
 	}
 	
 	public ArrayList<Char2> getLeftConnected(Page2 page, int hInterval, int vAdj) {		

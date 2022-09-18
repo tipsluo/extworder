@@ -68,12 +68,12 @@ public class Rectangle implements Comparable<Rectangle> {
 		return r.left>=left && r.right<=right && r.upper>=upper && r.lower<=lower;
 	}
 	
-	protected float distance(Rectangle r) {
+	protected int distance(Rectangle r) {
 		if( upper>=r.upper && upper<=r.lower || 
 			r.upper >= upper && r.upper<=lower ) {
 			
-			float d1=Math.abs(left-r.right);
-			float d2=Math.abs(right-r.left);
+			int d1=Math.abs(left-r.right);
+			int d2=Math.abs(right-r.left);
 			
 			return Math.min(d1,d2);
 		}
@@ -81,8 +81,8 @@ public class Rectangle implements Comparable<Rectangle> {
 		if( left>=r.left && left<=r.right || 
 			r.left >= left && r.right<=right ) {
 			
-			float d1=Math.abs(upper-r.lower);
-			float d2=Math.abs(lower-r.upper);
+			int d1=Math.abs(upper-r.lower);
+			int d2=Math.abs(lower-r.upper);
 			
 			return Math.min(d1,d2);
 		}	
@@ -92,7 +92,7 @@ public class Rectangle implements Comparable<Rectangle> {
 		float d3=(float) Math.sqrt(Math.pow(r.upper-lower,2) + Math.pow(r.left-right,2));
 		float d4=(float) Math.sqrt(Math.pow(r.upper-lower,2) + Math.pow(r.right-left,2));
 		
-		return Math.min(Math.min(d1,d2),Math.min(d3,d4));
+		return Math.min(Math.round(Math.min(d1,d2)),Math.round(Math.min(d3,d4)));
 	}
 	
 	protected int alignment(Rectangle parentRect, int centerAlignAdj, Content content) {
@@ -111,16 +111,24 @@ public class Rectangle implements Comparable<Rectangle> {
 			return Common._CENTERALIGNED;
 		else
 			return Common._UNKNOWNALIGNED;
+	}
+	
+	protected int alignment(Rectangle parentRect, int centerAlignAdj, Content2 content) {
+		int leftIndent=left-parentRect.left;
+		int rightIndent=parentRect.right-right;
 		
-		/*if(Math.abs(leftIndent-rightIndent) < adj)
-			return Common._CENTERALIGNED;
-
-		else if(leftIndent==0)
+		if(Math.abs(leftIndent)<=Common._AlignAdjustment && Math.abs(rightIndent)<=Common._AlignAdjustment)
+			return Common._FULLALIGNED;
+		if(Math.abs(leftIndent)<=Common._AlignAdjustment)
 			return Common._LEFTALIGNED;
-		else if(rightIndent==0)
+		else if(Math.abs(leftIndent-content.firstRowIndent)<=Common._AlignAdjustment)
+			return Common._INDENTLEFTALIGNED;
+		else if(Math.abs(rightIndent)<=Common._AlignAdjustment)
 			return Common._RIGHTALIGNED;
+		else if(Math.abs(leftIndent-rightIndent) <= centerAlignAdj)
+			return Common._CENTERALIGNED;
 		else
-			return Common._NOALIGNED;*/
+			return Common._UNKNOWNALIGNED;
 	}
 	
 	protected boolean rightAligned(Rectangle parent) {
@@ -235,6 +243,29 @@ public class Rectangle implements Comparable<Rectangle> {
 		for(;i<next.chars.size();i++) {
 			Char ch=next.chars.get(i);
 			if(ch.left-ch0.right > next.charReach)
+				break;
+			
+			ch0=ch;
+		}
+		
+		if(i<next.chars.size())
+			if(diff <= ch0.right-next.left)
+				return true;
+		
+		return false;
+	}
+	
+	boolean isLongEnough(Rectangle rect, Row2 next) {
+		if(next.string().length()==0)
+			return false;
+			
+		float diff=rect.right-right;
+		
+		int i=1;
+		Char2 ch0=next.chars.get(0);
+		for(;i<next.chars.size();i++) {
+			Char2 ch=next.chars.get(i);
+			if(ch.left-ch0.right > next.interval)
 				break;
 			
 			ch0=ch;

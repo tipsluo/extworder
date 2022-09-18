@@ -32,6 +32,11 @@ public class Content2 extends PDFTextStripper {
     private int currPid;
     private Page2 currPage=null;
     
+    
+    //to review if it is needed for content2
+	int centralAlignmentAdjustment=0;
+	int firstRowIndent=-1;
+    
 	public Content2(String fn,
 			ArrayList<Pattern> abbrPatterns,
 			IgnorePage ignorePage,
