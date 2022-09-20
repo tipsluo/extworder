@@ -69,8 +69,13 @@ public class Rectangle implements Comparable<Rectangle> {
 	}
 	
 	protected int distance(Rectangle r) {
-		if( upper>=r.upper && upper<=r.lower || 
-			r.upper >= upper && r.upper<=lower ) {
+		boolean v=vIntersected(r);
+		boolean h=hIntersected(r);
+		
+		if(v && h)
+			return -1;
+		
+		if(v) {
 			
 			int d1=Math.abs(left-r.right);
 			int d2=Math.abs(right-r.left);
@@ -78,8 +83,7 @@ public class Rectangle implements Comparable<Rectangle> {
 			return Math.min(d1,d2);
 		}
 		
-		if( left>=r.left && left<=r.right || 
-			r.left >= left && r.right<=right ) {
+		if(h) {
 			
 			int d1=Math.abs(upper-r.lower);
 			int d2=Math.abs(lower-r.upper);

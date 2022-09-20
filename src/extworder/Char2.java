@@ -5,14 +5,14 @@ import java.util.Comparator;
 
 import org.apache.pdfbox.pdmodel.font.PDFont;
 
-import extworder.Common.StatGroup;
-import extworder.Row.CharFont;
+import extworder.Common.SortedList;
 
-public class Char2 extends Rectangle{
+public class Char2 extends Rectangle {
 	String str;
 	PDFont font;
 	Row2 row;
-	ArrayList<Row2> rows;
+	SortedList<Row2> rowCandidates;
+	SortedList<Block2> blockCandidates;
 	
 	static Comparator<Char2> compareChars = (Char2 ch1, Char2 ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
@@ -45,7 +45,7 @@ public class Char2 extends Rectangle{
 		upper=Math.round(y);
 		lower=(int)(Math.round(y+this.height));
 		
-		rows=new ArrayList<Row2>();
+		rowCandidates=new SortedList<Row2>();
 	}
 	
 	public ArrayList<Char2> getLeftConnected(Page2 page, int hInterval, int vAdj) {		
@@ -180,6 +180,36 @@ public class Char2 extends Rectangle{
 		}
 		
 		return chars;
+	}
+	
+	void registerBlock(Block2 block) {
+		blockCandidates.addSortUniq(block);
+		//boolean matched=false;
+		
+		
+		/*for(Block2 b:blocks)
+			if(b==block) {
+				matched=true;
+				break;
+			}
+		
+		if(!matched)
+			blocks.add(block);*/
+	}
+	
+	void registerRow(Row2 row) {
+		rowCandidates.addSortUniq(row);
+		//boolean matched=false;
+		
+		
+		/*for(Block2 b:blocks)
+			if(b==block) {
+				matched=true;
+				break;
+			}
+		
+		if(!matched)
+			blocks.add(block);*/
 	}
 	
 	static public class Point {

@@ -18,7 +18,7 @@ import extworder.Block.BlockFilter;
 import extworder.Common.StatGroup;
 import extworder.Common.Stretch;
 
-public class Page extends Rectangle{
+public class Page extends Rectangle {
 	public Content content;
 	int id;
     ArrayList<Char> chars;

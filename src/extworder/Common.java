@@ -553,4 +553,37 @@ public class Common {
 					   (stretch.start >= start && stretch.end <= end);
 		}
 	}
+	
+	
+	static class SortedList<T extends Rectangle>{
+		ArrayList<T> list;
+
+		public SortedList() {
+			list=new ArrayList<T>();
+		}
+		
+		public boolean addSortUniq(T t) {
+			int i=Collections.binarySearch(list,t);
+			
+			if(i>0)
+				return false;
+			
+			int j;
+			for(j=0; j<list.size(); j++) {
+				if(list.get(j).compareTo(t)>0)
+					break;
+			}
+			
+			if(j>=list.size())
+				return list.add(t);
+			else
+				list.add(j,t);
+			
+			return true;
+		}
+		
+		public int search(T t) {
+			return Collections.binarySearch(list,t);
+		}
+	}
 }

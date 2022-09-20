@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import extworder.Common.SortedList;
 import extworder.Common.StatGroup;
 import extworder.Row.CharFont;
 
@@ -14,9 +15,10 @@ public class Row2 extends Rectangle {
 	CharFont charfont;
 	ArrayList<Char2> chars;
 	Block2 block;
-	ArrayList<Block2> blocks;
+	SortedList<Block2> blockCandidates;
 	Page2 page;
-	int interval;
+	int interval=-1;
+	float medium=-1;
 	private String str="";
 	
 	static Comparator<Row2> compareRows = (Row2 r1, Row2 r2) ->
@@ -34,30 +36,48 @@ public class Row2 extends Rectangle {
 	
 	public Row2(Char2 ch, Page2 page, int interval) {
 		chars=new ArrayList<Char2>();
-		blocks=new ArrayList<Block2>();
+		blockCandidates=new SortedList<Block2>();
 		this.page=page;
 		this.interval=interval;
 		
 		registerChar(ch);
+		
+		setCharFont(ch);
 
 		searchLeftestChar(ch,interval);
 		searchRightestChar(ch,interval);
 		
-		page.rows.add(this);
+		page.rowCandidates.add(this);
 	}
 	
 	void registerChar(Char2 ch) {
 		chars.add(ch);
-		ch.rows.add(this);
+		ch.registerRow(this);
 		updateRectangle(ch);
-		charfont=getCharFont();
+	}
+	
+	void registerBlock(Block2 block) {
+		/*boolean matched=false;
+		
+		for(Block2 b:blocks)
+			if(b==block) {
+				matched=true;
+				break;
+			}
+		
+		if(!matched) {
+			blocks.add(block);*/
+		
+		
+		if(! blockCandidates.addSortUniq(block))
+			for(Char2 ch:chars)
+				ch.registerBlock(block);
 	}
 	
 	public String render() {
 		Collections.sort(chars,Char2.compareChars);
 		str="";
 		string();
-		charfont=getCharFont();
 		return str;
 	}
 	
@@ -90,9 +110,14 @@ public class Row2 extends Rectangle {
 		Char2 ch1;
 		if(ls.size()==1) {
 			ch1=ls.get(0);
-			if(ch1.upper==ch.upper && ch1.lower==ch.lower) {
+			
+			if(ch1.height>charfont.height) {
+				setCharFont(ch1);
+			}
+			
+			if(! differentRow(ch1)) {
 				chars.add(0,ch1);
-				ch1.rows.add(this);
+				ch1.registerRow(this);
 				searchLeftestChar(ch1,interval);
 			}
 		}
@@ -104,15 +129,39 @@ public class Row2 extends Rectangle {
 		Char2 ch1;
 		if(ls.size()==1) {
 			ch1=ls.get(0);
-			if(ch1.upper==ch.upper && ch1.lower==ch.lower) {
+			
+			if(ch1.height>charfont.height) {
+				setCharFont(ch1);
+			}
+			
+			if(! differentRow(ch1)) {
 				chars.add(ch1);
-				ch1.rows.add(this);
+				ch1.registerRow(this);
 				searchRightestChar(ch1,interval);
 			}
 		}
 	}
 	
-	private CharFont getCharFont() {
+	private void setCharFont(Char2 ch) {
+		charfont=new CharFont(ch.font.getName(),ch.height);
+		medium=(ch.lower-ch.upper)/2f;
+	}
+	
+	boolean differentRow(Char2 ch) {
+		if(ch.height==charfont.height)
+			return (ch.lower-ch.upper)/2f != medium;
+		else
+			return false;
+	}
+	
+	boolean differentRow(Row2 row) {
+		if(charfont.height==row.charfont.height)
+			return medium != row.medium;
+		else
+			return false;
+	}
+	
+	/*private CharFont getCharFont() {
 		if(chars.size()==0)
 			return null;
 		
@@ -125,7 +174,7 @@ public class Row2 extends Rectangle {
 		}
 			
 		return charfonts.maxByValue();
-	}
+	}*/
 	
 	static public class CharFont implements Comparable<CharFont>{
 		String name;

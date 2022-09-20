@@ -9,16 +9,21 @@ import java.util.List;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
 
+import extworder.Common.SortedList;
+
 public class Page2 extends Rectangle {
 	public Content2 content;
 	public int id;
     public ArrayList<Char2> chars;
     public ArrayList<Block2> blocks;
     public ArrayList<Row2> rows;
+    public SortedList<Block2> blockCandidates;
+    public SortedList<Row2> rowCandidates;
     PageBitmap pageBitmap;
     public PageImg pageImg;
 	private int xOffset;
 	private int yOffset;
+	private List<SortedList<Block2>> blocksets;
 	
 	final static int _MaxCharInRowInterval=10;
 	final static float _MaxBlockIntervalRatio=2.0f;
@@ -60,15 +65,17 @@ public class Page2 extends Rectangle {
 		Collections.sort(chars,Char2.compareChars);
 		
 		generateAllRowCandidates();
+		generateAllBlockCandidates();
+		generateBlocksetCandidates();
 	}
 	
-	void generateAllRowCandidates() {
-		rows=new ArrayList<Row2>(); 
+	private void generateAllRowCandidates() {
+		rowCandidates=new SortedList<Row2>(); 
 		for(Char2 ch:chars) {
 			for(int i=0; i<_MaxCharInRowInterval; i++) {
-				if(ch.rows.size()>0) {
+				if(ch.rowCandidates.list.size()>0) {
 					boolean done=false;
-					for(Row2 row:ch.rows) 
+					for(Row2 row:ch.rowCandidates.list) 
 						if(row.interval==i) {
 							done=true;
 							break;
@@ -82,49 +89,75 @@ public class Page2 extends Rectangle {
 		}
 	}
 	
-	void generateAllBlockCandidates() {
-		blocks=new ArrayList<Block2>();
+	private void generateAllBlockCandidates() {
+		blockCandidates=new SortedList<Block2>();
 		
-		Collections.sort(rows,Row2.compareRows);
-		
-		for(int i=0; i<rows.size(); i++) {
-			Row2 row=rows.get(i);
+		for(int i=0; i<rowCandidates.list.size(); i++) {
+			Row2 row=rowCandidates.list.get(i);
 			
-			blocks.add(new Block2(0,row));
+			blockCandidates.list.add(new Block2(row));
 		}
 		
-		blocks=mateBlocks(blocks);
+		blockCandidates=mateBlocks(blockCandidates);
 	}
 
-	List<Block2> mateBlocks(List<Block2> input) {
-		ArrayList<Block2> output=new ArrayList<Block2>();
+	private SortedList<Block2> mateBlocks(SortedList<Block2> input) {
+		SortedList<Block2> output=new SortedList<Block2>();
 		
-		for(Block2 block1: input) {
-			for(Block2 block2: input) {
-				float maxDist=Math.max(block1.format.charfont.height, block2.format.charfont.height) * _MaxBlockIntervalRatio;
+		output.list.addAll(input.list);
+		
+		for(int i=0; i<input.list.size(); i++) {
+			Block2 block1=input.list.get(i);
+			
+			for(int j=i+1; j<input.list.size(); j++) {
+				Block2 block2=input.list.get(j);
 				
-				boolean contains1=block1.contains(block2);
-				boolean contains2=block2.contains(block1);
-				float dis=block1.distance(block2);
-				if(contains1||
-						contains2 ||
-						(block1.hIntersected(block2) && dis<=maxDist)) {
-					
-					if(block1.interval!=block2.interval && block1.rows.size()>1 && block2.rows.size()>1)
+				if(block1.format.charfont.height!=block2.format.charfont.height || !block1.hIntersected(block2))
+					continue;
+				
+				int dis=block1.distance(block2);
+				float maxInterval=Math.max(block1.format.charfont.height, block2.format.charfont.height) * _MaxBlockIntervalRatio;
+				
+				if(dis==-1) {
+					if(block1.rows.size()>1 && block2.rows.size()>1 && block1.interval!=block2.interval)
 						continue;
-					
-					if((block1.rows.size()>1 && bis!=block1.interval) || (block2.rows.size()>1 && bis!=block2.interval))
-						continue;
-					
-					output.add(new Block2(block1,block2));
 				}
+					
+				if(dis>maxInterval || (block1.rows.size()>1 && dis!=block1.interval) || (block2.rows.size()>1 && dis!=block2.interval))
+						continue;
+				
+				List<Row2> newRows=Block2.checkRows(block1,block2);
+				if(newRows.size()>0)
+					output.list.add(new Block2(dis,block1,block2));
 			}
 		}
 		
-		if(input.size()==output.size())
+		if(input.list.size()==output.list.size())
 			return output;
 		
-		mateBlocks(output);
+		return mateBlocks(output);
+	}
+	
+	private void generateBlocksetCandidates() {
+		blocksets=new ArrayList<SortedList<Block2>>();
+
+		Char2 seed=chars.get(0);
+		for(int i=0; i<seed.blockCandidates.list.size(); i++) {
+			SortedList<Block2> blockset=new SortedList<Block2>();
+			blockset.list.add(seed.blockCandidates.list.get(i));
+			buildBlockset(blockset,1);
+		}
+	}
+	
+	private void buildBlockset(SortedList<Block2> blockset, int charIndex) {
+		Char2 ch=chars.get(charIndex);
+		
+		for(int i=0; i<ch.blockCandidates.list.size(); i++) {
+			Block2 b=ch.blockCandidates.list.get(i);
+			if(blockset.search(b)<0)
+				blockset.list.add(b);
+			buildBlockset(blockset,charIndex+1);
+		}
 	}
 	
 	private void adjustCoordinates() {

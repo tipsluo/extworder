@@ -27,7 +27,7 @@ public class Block2  extends Rectangle {
 		interval=0;
 		format=new BlockFormat(mostCharFont());
 		
-		page.blocks.add(this);
+		page.blockCandidates.addSortUniq(this);
 	}
 	
 	public Block2(int interval, Block2 ...blocks) {
@@ -36,18 +36,85 @@ public class Block2  extends Rectangle {
 		this.rows=new ArrayList<Row2>();
 		this.interval=interval;
 	
-		for(Row2 row: rows)
-			registerRow(row);
+		for(Block2 block:blocks)
+			for(Row2 row:block.rows)
+				registerRow(row);
 		
 		format=new BlockFormat(mostCharFont());
+		Collections.sort(rows,Row2.compareRows);
 		
-		page.blocks.add(this);
+		page.blockCandidates.addSortUniq(this);
+	}
+	
+	public Block2(Row2 row1,Row2 row2) {
+		page=row1.page;
+		
+		interval=row1.distance(row2);
+		
+		registerRow(row1);
+		registerRow(row2);
+		
+		format=new BlockFormat(mostCharFont());
+		Collections.sort(rows,Row2.compareRows);
+		
+		page.blockCandidates.add(this);
+	}
+	
+	static ArrayList<Row2> checkRows(Block2 ...blocks) {
+		ArrayList<Row2> output=new ArrayList<Row2>();
+		
+		for(Block2 block:blocks)
+			output.addAll(block.rows);
+		
+		Collections.sort(output,Row2.compareRows);
+		
+		for(int i=0; i<output.size(); i++) {
+			Row2 row1=output.get(i);
+			for(int j=i+1; j<output.size(); j++) {
+				Row2 row2=output.get(j);
+				
+				int dis=row1.distance(row2);
+				if(dis<=0)
+					return null;
+				
+				if(row1.vIntersected(row2) && row1.differentRow(row2))
+					return null;
+			}
+		}
+		
+		return output;
 	}
 	
 	void registerRow(Row2 row) {
 		rows.add(row);
-		row.blocks.add(this);
+		row.registerBlock(this);
+		
 		updateRectangle(row);
+	}
+	
+	boolean checkConflict(Block2 ...blocks) {
+		for(Block2 block1:blocks) {
+			if(distance(block1)>0)
+				continue;
+			
+			for(Row2 row:rows) {
+				if(row.distance(block1)>0)
+					continue;
+				
+				for(Row2 row1:block1.rows) {
+					if(row==row1) continue;
+					
+					if(row.distance(row1)>0) continue;
+					
+					for(Char2 ch:row.chars)
+						for(Char2 ch1: row1.chars)
+							if(ch==ch1)
+								return true;
+				}
+			}
+		}
+		
+		return false;
 	}
 	
 	protected CharFont mostCharFont() {
