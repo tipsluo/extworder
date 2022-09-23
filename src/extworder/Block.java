@@ -1,6 +1,6 @@
 package extworder;
 
-import java.io.FileWriter;
+/*import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,14 +11,12 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import extworder.Block.BlockFormat;
 import extworder.Common.RangeGroup.Range;
 import extworder.Common.StatGroup;
-import extworder.Page.Column;
-import extworder.Row.CharFont;
+import extworder.Row.CharFont;*/
 
 public class Block extends Rectangle {
-	public BlockFormat format;
+/*	public BlockFormat format;
 	public ArrayList<Row> rows;
 	public Page page;
 	Column column;
@@ -29,16 +27,16 @@ public class Block extends Rectangle {
 	final static CompareBlockLeftUppers compareBlockLeftUppers=new CompareBlockLeftUppers();
 	final static BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
 	final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
-	public final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
+	public final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();*/
 	
 	public Block() {
 		super();
 		
-		rows=new ArrayList<Row>();
-		format=new BlockFormat();
+		//rows=new ArrayList<Row>();
+	//	format=new BlockFormat();
 	}
 	
-	public Block(Page page) {
+/*	public Block(Page page) {
 		super();
 		
 		rows=new ArrayList<Row>();
@@ -236,15 +234,7 @@ public class Block extends Rectangle {
 		if(ali==Common._LEFTALIGNED && (rows.size()>1 && allRowsLongEnough()))
 			ali=Common._FULLALIGNED;
 		
-		/*if(ali==Common._FULLALIGNED) {
-			int ali1=rows.get(0).alignment(this,page.content.centralAlignmentAdjustment,page.content);
-			if(ali1==Common._INDENTLEFTALIGNED) {
-				ali=Common._FIRSTROWINDENTFULLALIGNED;
-			}
-		}*/
-		
-		/*if(rows.size()==1 && ali==Common._INDENTLEFTALIGNED)
-			ali=Common._FIRSTROWINDENTFULLALIGNED;*/
+
 		
 		return ali;
 	}
@@ -703,9 +693,6 @@ public class Block extends Rectangle {
 	}
 	
 	boolean isParagraphBlock2() {
-		// 1. Don't check first-row-indent because some blocks such as the abrstract of 
-		// "Spagna-1998-Dyslexia marker variables(AC2)" have different indents.
-		// 2. Ideally, check first-uppercase
 		
 		return allRowsSeparate() && 
 				consecutive() &&
@@ -860,9 +847,6 @@ public class Block extends Rectangle {
 		}
 		
 		public boolean same(BlockFormat bf) {
-			/*if(alignment==Common._UNKNOWNALIGNED ||
-					bf.alignment==Common._UNKNOWNALIGNED)
-				return false;*/
 			
 			boolean charfontSame=charfont.equals(bf.charfont);
 					
@@ -988,7 +972,7 @@ public class Block extends Rectangle {
 			return block.format.compareTo(block.page.content.bodyBlockformat) >= 0 &&
 					block.type.contains(Common._SubtitlePrefix);
 		}
-	}
+	}*/
 }
 
 

@@ -11,8 +11,6 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import extworder.Block.BlockFormat;
-
 public class Common {
 	public final static int _KeyBlockWordPageRation=10;
 	public final static int _MinKeyBlockWordNum=50;	
@@ -173,7 +171,7 @@ public class Common {
 			return -1;
 	}
 	
-	public static String subtitleBlockType(Block block) {
+	public static String subtitleBlockType(Block2 block) {
 		return Common._SubtitlePrefix+Integer.toString(
 					block.page.content.blockformatIndexes.get(block.format));
 	}
@@ -263,10 +261,10 @@ public class Common {
 		return ret;
 	}
 	
-	public static boolean connectedChars(Char ch1,Char ch2) {
+	/*public static boolean connectedChars(Char2 ch1,Char2 ch2) {
 		int interval=ch2.left-ch1.right;
 		return ch1.row.charReach >= interval ;
-	}
+	}*/
 	
 	static float sentenceRatio(String str) {
 		int likeSentence=0;
@@ -554,7 +552,6 @@ public class Common {
 		}
 	}
 	
-	
 	static class SortedList<T extends Rectangle>{
 		ArrayList<T> list;
 
@@ -585,5 +582,17 @@ public class Common {
 		public int search(T t) {
 			return Collections.binarySearch(list,t);
 		}
+	}
+	
+	static public class NontitleChecker {
+		public void check(Content c) {
+		}
+		public boolean select(Block block) {
+			return true;
+		}
+	}
+	
+	static abstract public class IgnorePage {
+		public abstract boolean isIgnored(Page2 page);
 	}
 }

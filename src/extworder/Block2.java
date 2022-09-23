@@ -1,11 +1,12 @@
 package extworder;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.TreeMap;
 
-import extworder.Block.BlockFormat;
 import extworder.Common.StatGroup;
 import extworder.Row2.CharFont;
 
@@ -16,6 +17,7 @@ public class Block2  extends Rectangle {
 	final int interval;
 	String str;
 	BlockFormat format;
+	long value;
 	
 	public Block2(Row2 row) {
 		this.page=row.page;
@@ -26,6 +28,7 @@ public class Block2  extends Rectangle {
 		
 		interval=0;
 		format=new BlockFormat(mostCharFont());
+		str="";
 		
 		page.blockCandidates.addSortUniq(this);
 	}
@@ -42,6 +45,7 @@ public class Block2  extends Rectangle {
 		
 		format=new BlockFormat(mostCharFont());
 		Collections.sort(rows,Row2.compareRows);
+		value=getValue();
 		
 		page.blockCandidates.addSortUniq(this);
 	}
@@ -56,8 +60,17 @@ public class Block2  extends Rectangle {
 		
 		format=new BlockFormat(mostCharFont());
 		Collections.sort(rows,Row2.compareRows);
+		value=getValue();
 		
-		page.blockCandidates.add(this);
+		page.blockCandidates.addSortUniq(this);
+	}
+	
+	public long getValue() {
+		int v=0;
+		for(Row2 row:rows)
+			v += row.value * row.chars.size();
+		
+		return v;
 	}
 	
 	static ArrayList<Row2> checkRows(Block2 ...blocks) {
@@ -177,6 +190,46 @@ public class Block2  extends Rectangle {
 		return str;
 	}
 	
+	private CharFont getCharFont() {
+		if(rows.size()==0)
+			return null;
+		
+		StatGroup<CharFont> charfonts=new StatGroup<CharFont>();
+		
+		for (Row2 row: rows) {
+			charfonts.add(row.charfont);
+		}
+			
+		return charfonts.maxByValue();
+	}
+	
+	
+	public void print(FileWriter fw) throws IOException {
+		fw.write("==============================\n");
+		
+		/*if (this==page.content.titleBlock)
+			fw.write("type: title");
+		else if (this==page.content.abstractBlock)
+			fw.write("type: abstract");
+		else if (!type.isBlank())
+			fw.write(String.format("type: %s",type));
+		
+		int columnLeft;
+		if(column==null)
+			columnLeft=-1;
+		else
+			columnLeft=column.left;
+					
+		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
+				page.content.blockformatIndexes.get(format),left,right,upper,lower));
+		fw.write(String.format("charfont name=%s charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d, likeBody=%d\n\n",
+				format.charfont.name,format.charfont.height, format.charfont.bold, alignment(),format.allUppercase, columnLeft, likeBodyBlock1()));
+		*/
+		fw.write(string());
+		
+		fw.write("\n==============================\n\n");
+	}
+	
 	public String string() {
 		if(str!=null && str!="")
 			return str;
@@ -198,19 +251,6 @@ public class Block2  extends Rectangle {
 		
 		str=str.trim();
 		return str;
-	}
-	
-	private CharFont getCharFont() {
-		if(rows.size()==0)
-			return null;
-		
-		StatGroup<CharFont> charfonts=new StatGroup<CharFont>();
-		
-		for (Row2 row: rows) {
-			charfonts.add(row.charfont);
-		}
-			
-		return charfonts.maxByValue();
 	}
 	
 	public static class BlockFormat implements Comparable<BlockFormat> {
@@ -305,4 +345,7 @@ public class Block2  extends Rectangle {
 		}
 	}
 
+	public interface BlockFilter {
+		public boolean filter(Block2 block);
+	}
 }

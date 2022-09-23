@@ -6,18 +6,18 @@ import java.util.Comparator;
 import org.apache.pdfbox.pdmodel.font.PDFont;
 
 public class Char extends Rectangle {
-	public String str;
+	/*public String str;
 	public PDFont font;
 	public Row row;
 	
 	static Comparator<Char> compareChars = (Char ch1, Char ch2) ->
-		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
+		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);*/
 		
 	public Char() {
 		super();
 	}
 		
-	public Char(Char ch, String str , float wid,float hei) {
+	/*public Char(Char ch, String str , float wid,float hei) {
 		super();
 		this.str=String.copyValueOf(str.toCharArray());
 		height=hei;
@@ -202,5 +202,5 @@ public class Char extends Rectangle {
 		public VirtualChar(String str, float height, PDFont font) {
 			super(str,-1,-1,-1,height,font);
 		}
-	}
+	}*/
 }

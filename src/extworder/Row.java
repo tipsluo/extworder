@@ -12,14 +12,14 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import extworder.Char.VirtualChar;
+
 import extworder.Common.RangeGroup;
 import extworder.Common.RangeGroup.Range;
 import extworder.Common.StatGroup;
 
 public class Row extends Rectangle {
-	CharFont charfont;
-	public ArrayList<Char> chars;
+	//CharFont charfont;
+/*	public ArrayList<Char> chars;
 	Block block;
 	Page page;
 	int charReach, wordReach;
@@ -234,76 +234,6 @@ public class Row extends Rectangle {
 		}
 	}
 	
-	/*
-	 private void getWordInterval() {
-		if(spaceWidth>0) {
-			charReach=spaceWidth;
-			wordReach=(int)(spaceWidth + Common._CharHSpaceAddGap);
-			return;
-		}
-			
-		if(chars.size()==1) {
-			charReach=wordReach=(int) (chars.get(0).height * Common._CharHGapRatio);
-			return;
-		}
-		
-		ArrayList<Integer> intervals=new ArrayList<Integer>();
-		HashMap<Integer,Integer> intervalCounts=new HashMap<Integer,Integer>();
-		
-		Char ch1=chars.get(0);
-		
-		for(int i=1; i<chars.size(); i++) {
-			Char ch=chars.get(i);
-
-			if(!ch.vIntersected(ch1)) {
-				ch1=ch;
-				continue;
-			}
-			
-			int interval=ch.left-ch1.right;
-			
-			if(interval<0)
-				continue;
-			
-			if(! intervals.contains(interval))
-				intervals.add(interval);
-			
-			intervalCounts.put(interval,intervalCounts.getOrDefault(interval,0)+1);
-			
-			ch1=ch;
-		}
-		
-		Collections.sort(intervals);
-		
-		if(intervalCounts.size()==1) {
-			charReach=intervals.get(0)+1;
-			wordReach=intervals.get(intervals.size()-1)+1;
-		}
-		
-		List<Entry<Integer, Integer>> list = new ArrayList<>(intervalCounts.entrySet());
-        list.sort(Entry.<Integer, Integer>comparingByValue().reversed());
-        int i=0;
-        int cInterval=-1;
-        int wInterval=-1;
-        for (Entry<Integer, Integer> entry : list) {
-        	if(i==0)
-        		cInterval=entry.getKey();
-        	else if(i==1) {
-        		wInterval=entry.getKey();
-        		break;
-        	}
-        	i++;
-        }
-        
-		if(wInterval==-1) {
-			charReach=cInterval;
-			wordReach=(int)(chars.get(0).height*Common._CharHGapRatio);
-		} else {
-			charReach=(int)Math.round(cInterval*Common._SpaceAdjustment);
-			wordReach=(int)(wInterval+Common._CharHSpaceAddGap);
-		}
-	}
-	 */
 
 	public void clearCharRows() {
 		str="";
@@ -688,5 +618,5 @@ public class Row extends Rectangle {
 				vc.updateRectangle(vc);
 			}
 		}
-	}
+	}*/
 }

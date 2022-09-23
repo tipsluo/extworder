@@ -10,7 +10,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 public class Validation {
-	Content content;
+/*	Content content;
 	String patternFilename;
 	DocStat patternDocStat;
 	
@@ -117,5 +117,5 @@ public class Validation {
 			firstBodyOffset=(int)(firstBodyIndex * 10000 / totalWordCount);
 			bodyWordRatio=(int)(bodyWordCount * 10000 / totalWordCount);
 		}
-	}
+	}*/
 }

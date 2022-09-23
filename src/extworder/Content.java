@@ -1,37 +1,16 @@
 package extworder;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDPageTree;
-import org.apache.pdfbox.pdmodel.font.PDFont;
-import org.apache.pdfbox.rendering.PDFRenderer;
-import org.apache.pdfbox.text.PDFTextStripper;
-import org.apache.pdfbox.text.TextPosition;
-import org.apache.pdfbox.util.Matrix;
-import org.apache.pdfbox.util.Vector;
-import extworder.Block.BlockFilter;
-import extworder.Block.BlockFormat;
-import extworder.Block.BodyBlockFilter;
-import extworder.Block.SubtitleBlockFilter;
-import extworder.Common.StatGroup;
-import extworder.Page.Column;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import org.apache.pdfbox.text.PDFTextStripper;
 
 public class Content extends PDFTextStripper {
-    public Block activeBlock;
+
+	public Content() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+ /*   public Block activeBlock;
     public Block titleBlock;
 	public Block abstractBlock;
 	Block lastSubtitleBlock=null;
@@ -185,8 +164,7 @@ public class Content extends PDFTextStripper {
 		for(Page page:pages)
 			for(Column column:page.columns)
 				for(Block block:column.blocks) {
-				/*	if(block.likeBodyBlock1()>=Common._ParaSentDefaultTrue &&
-							! blockformats.containsKey(block.format))*/
+
 					if(block.format.alignment==Common._FULLALIGNED)
 						blockformats.add(block.format, (pages.size()-page.id) * block.rows.size());  // Blocks on the earlier pages get higher weigh than those on late pages.
 				}
@@ -446,44 +424,6 @@ public class Content extends PDFTextStripper {
 			}
 		}
 	}
-	/*private void markSubtitleBlocks() {
-		ArrayList<Block> bigBlockList=getBigBlockList();
-		
-		subtitleFormatChain=getSubtitleFormatChain(bigBlockList);
-		
-		if(subtitleFormatChain==null)
-			return;
-		
-		int i=0;
-		for(;i<bigBlockList.size();i++) {
-			Block block=bigBlockList.get(i);
-			
-			if(i<bigBlockList.size()-1 && bigBlockList.get(i+1).likeBodyBlock1()>=Common._ParaSentDefaultTrue)
-				if(Block.additionalSubtitleFormatFilter.filter(block)) {
-					//block.type=Common.subtitleBlockType(block);
-					block.type=Common._SectionPrefix;
-					continue;
-				}
-				
-			int n=getIncreasingFormatBlockNumber(bigBlockList,i);
-				
-			if(n>=1) {
-				boolean allContained=true;
-				for(int j=i-n; j<i; j++) {
-					block=bigBlockList.get(j);
-					if(subtitleFormatChain.blockformatIndex(block.format) < 0) {
-						allContained=false;
-						break;
-					}
-				}
-				if(allContained)
-					for(int j=i-n; j<i; j++) {
-						bigBlockList.get(j).type=Common.subtitleBlockType(bigBlockList.get(j));
-						lastSubtitleBlock=bigBlockList.get(j);
-					}
-			}
-		}
-	}*/
 	
 	private void markIntraBodyBlocks() {
 		boolean textInfinished=false;
@@ -669,27 +609,6 @@ public class Content extends PDFTextStripper {
 		return bs;
 	}
 	
-	/*public ArrayList<Block> removeTailingSections(ArrayList<Block> inputBlocks) {
-		boolean reachedLastSubtitle=false;
-		boolean bodyFinished=false;
-		
-		ArrayList<Block> outputBlocks=new ArrayList<Block>();
-		
-		for(Block block:inputBlocks) {
-			if(reachedLastSubtitle && block.type==Common._SectionPrefix)
-				bodyFinished=true;
-			
-			if(bodyFinished)
-				break;
-			
-			if(block==lastSubtitleBlock)
-				reachedLastSubtitle=true;
-			
-			outputBlocks.add(block);
-		}
-		
-		return outputBlocks;
-	}*/
 	
 	public String subtitles() {
 		if(ignoreSubtitle) {
@@ -783,12 +702,6 @@ public class Content extends PDFTextStripper {
 		ArrayList<String> patterns=new ArrayList<String>();
 		
 		patterns.add("^\\s*[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt]\\s*[.:\n]?\\s*");
-		/*patterns.add("^\\s*[Ii][Nn][Tt][Rr][Oo][Dd][Uu][Cc][Tt][Ii][Oo][Nn]\\s*[.:\n]?\\s*");
-		patterns.add("^\\s*[Oo][Vv][Ee][Rr][Vv][Ii][Ee][Ww]\\s*[.:\n]?\\s*");
-		patterns.add("^\\s*[Ss][Un][Mm][Mm][Aa][Rr][Yy]\\s*[.:\n]?\\s*$");
-		patterns.add("^\\s*[Cc][Oo][Nn][Cc][Ll][Uu][Ss][Ii][Oo][Nn]\\s*[.:\n]?\\s*");
-		patterns.add("^\\s*[Aa][Cc][Kk][Nn][Oo][Ww][Ll][Ee][Dd][Gg][Ee]\\s*[.:\n]?\\s*");*/
-		
 		for(String pattern:patterns) {
 			getKeyBlockStr(
 					0,
@@ -801,35 +714,7 @@ public class Content extends PDFTextStripper {
 		if(activeBlock!=null) {
 			activeBlock.type=Common._AbstractBlock;
 			return activeBlock;	
-		} /*else {
-			for (Page page:pages) {
-				for(int i=0; i<page.blocks.size();i++) {
-					Block block=page.blocks.get(i);	
-					
-					if(block.type==Common._Body) {
-						return null;
-					} 
-
-					if(block.type==Common._PageHeaderBlock || block.type==Common._PageFooterBlock)
-						continue;
-					
-					//if(block.isParagraphBlock(null)<Common._ParaSentDefaultTrue)
-					//	continue;
-					
-					String blockStr=block.string();
-					ArrayList<String> strs=Common.getLetterWords(blockStr,true);
-						
-					if(strs.size()<Common._MinKeyBlockWordNum)
-						continue;
-					if((Common.hits(allWords,strs) < Common._MinAbstractFreqencyRatio) ||
-						(Common.sentenceRatio(blockStr) < Common._MinAbstractSentenceRatio))
-						continue;
-					
-					activeBlock=block;
-					activeBlock.type=Common._AbstractBlock;
-					return activeBlock;	
-				}
-			}*/
+		}
 			
 			return null;
 		//} 
@@ -1170,15 +1055,5 @@ public class Content extends PDFTextStripper {
 	    }
 	}
 	
-	static public class NontitleChecker {
-		public void check(Content c) {
-		}
-		public boolean select(Block block) {
-			return true;
-		}
-	}
-	
-	static abstract public class IgnorePage {
-		public abstract boolean isIgnored(Page page);
-	}
+*/
 }

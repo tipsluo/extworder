@@ -61,7 +61,7 @@ public class Extworder {
 		System.out.println("Extworder Done.");
 	}
 	
-	static public void main_test_pdfs(List<String> pdfs, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
+	static public void main_test_pdfs(List<String> pdfs, List<Common.NontitleChecker> nontitleCheckers) throws IOException {
 		main_test4_getText(pdfs);
 		main_test4_printRows(pdfs);
 		main_test6_block_print(pdfs);
@@ -207,7 +207,7 @@ public class Extworder {
 		//printBlocks("FootNote&Small#-BetweenNegativeStigmaCulturalD");
 	}
 	
-	static public void main_test7_content_print(List<String> pdfs, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
+	static public void main_test7_content_print(List<String> pdfs, List<Common.NontitleChecker> nontitleCheckers) throws IOException {
 		if(pdfs.size()!=0) {
 			for(String pdf:pdfs) {
 				System.out.println("printContent("+pdf+")");
@@ -311,16 +311,16 @@ public class Extworder {
 	}
 	
 	public static void displayChars(String pdfName) throws IOException {
-		Content content = new Content(pdfPath(pdfName), null, new IgnorePage(), false, true, true, initNontitles());
+		Content2 content = new Content2(pdfPath(pdfName), null, new IgnorePage(), false, true, true, initNontitles());
 		
 		FileWriter myWriter = null;
 		
 		try {
 			myWriter= new FileWriter(_TestDataDir+pdfName+"_char2.txt");
 		
-			for(Page page:content.pages) {
+			for(Page2 page:content.pages) {
 				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
-			    		for(Char ch:page.chars) {
+			    		for(Char2 ch:page.chars) {
 				    		myWriter.write(String.format("%s (x=%d y=%d) width=%f height=%f fontname=%s\n", 
 				    				ch.str,ch.left,ch.upper,ch.width,ch.height,ch.font.getName()));
 				    	}
@@ -332,21 +332,21 @@ public class Extworder {
 	}
 	
 	public static void displayRows(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
-		Content content = new Content(pdfPath(pdfName), abbrPatterns, new IgnorePage(), false, true, true, initNontitles());
+		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(), false, true, true, initNontitles());
 		
 		FileWriter myWriter = null;
 		
 		try {
 			myWriter= new FileWriter(_TestDataDir+pdfName+"_row.txt");
 		
-			for(Page page:content.pages) {
+			for(Page2 page:content.pages) {
 				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
-				for(Block block:page.blocks)
-					for(Row row:block.rows) {
+				for(Block2 block:page.blocks)
+					for(Row2 row:block.rows) {
 						myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
-								" width=%f height=%f fontname=%s wordint.min=%d wordint.max=%d\n", 
+								" width=%f height=%f fontname=%s interval=%d medium=%d\n", 
 								row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,
-								row.width,row.height,row.charfont.name,row.charReach, row.wordReach));
+								row.width,row.height,row.charfont.name,row.interval, row.medium));
 					}
 			    	
 			}
@@ -356,19 +356,19 @@ public class Extworder {
 	}
 	
 	public static void displayBlocks(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
-		Content content = new Content(pdfPath(pdfName), abbrPatterns, new IgnorePage(), false, true,true, initNontitles());
+		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(), false, true,true, initNontitles());
 		
 		FileWriter myWriter = null;
 		
 		try {
 			myWriter= new FileWriter(_TestDataDir+pdfName+"_block.txt");
 		
-			for(Page page:content.pages) {
+			for(Page2 page:content.pages) {
 				myWriter.write(String.format("Page: %d\n",page.id));
-				for(Block block:page.blocks) {
+				for(Block2 block:page.blocks) {
 			    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.upper,block.lower));
-			    	for(Row row:block.rows) {
-			    		for(Char ch:row.chars) {
+			    	for(Row2 row:block.rows) {
+			    		for(Char2 ch:row.chars) {
 				    		myWriter.write(String.format("%s (x=%d y=%d) width=%f height=%f fontname=%s\n", ch.str,ch.left,ch.upper,ch.width,ch.height,ch.font.getName()));
 				    	}
 			    	}
@@ -380,7 +380,7 @@ public class Extworder {
 	}
 	
 	public static void printBlocks(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
-		Content content = new Content(pdfPath(pdfName), abbrPatterns, new IgnorePage(),true,true,false, initNontitles());
+		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(),true,true,false, initNontitles());
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_block2.txt");
 		
@@ -389,24 +389,24 @@ public class Extworder {
 		myWriter.close();
 	}
 	
-	public static void printContent(String pdfName,ArrayList<Pattern> abbrPatterns, List<Content.NontitleChecker> nontitleCheckers) throws IOException {
-		Content content = new Content(pdfPath(pdfName), abbrPatterns,new IgnorePage(),true,true,false, nontitleCheckers);
+	public static void printContent(String pdfName,ArrayList<Pattern> abbrPatterns, List<Common.NontitleChecker> nontitleCheckers) throws IOException {
+		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns,new IgnorePage(),true,true,false, nontitleCheckers);
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_content.txt");
 
 		String abstrStr="";
-		if(content.abstractBlock!=null)
+		/*if(content.abstractBlock!=null)
 			abstrStr=content.abstractBlock.string();
 		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
 				content.title(),abstrStr));
 		myWriter.write(String.format("Subtitles:\n"));
 		myWriter.write(content.subtitles());
-		Validation validation=new Validation(content);
-		System.out.printf("Total word count: %d, Body word count: %d\n",validation.docStat.totalWordCount, validation.docStat.bodyWordCount);
+		//Validation validation=new Validation(content);
+		//System.out.printf("Total word count: %d, Body word count: %d\n",validation.docStat.totalWordCount, validation.docStat.bodyWordCount);
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.body());
 		
-		myWriter.close();
+		myWriter.close();*/
 	}
 	
     static ArrayList<String> getAllTestPDFs() {
@@ -429,7 +429,7 @@ public class Extworder {
     }
 	
     // IgnorePage has been changed in the class Process. So the class here is no long properly. 
-	static class IgnorePage extends Content.IgnorePage {
+	static class IgnorePage extends Common.IgnorePage {
 		final String[] pstr=new String[]{
 			//"LENDER",
 			//"BORROWER",
@@ -437,7 +437,7 @@ public class Extworder {
 			"JSTOR is a not-for-profit service that helps scholars"
 		};
 		
-		public boolean isIgnored(Page page) {
+		public boolean isIgnored(Page2 page) {
 			String str=page.string();
 			for(int i=0; i<pstr.length; i++)
 				if (str.contains(pstr[i]))
@@ -447,8 +447,8 @@ public class Extworder {
 		}
 	}
 	
-	public static ArrayList<Content.NontitleChecker> initNontitles() {
-		ArrayList<Content.NontitleChecker> nontitleCheckers=new ArrayList<Content.NontitleChecker>();
+	public static ArrayList<Common.NontitleChecker> initNontitles() {
+		ArrayList<Common.NontitleChecker> nontitleCheckers=new ArrayList<Common.NontitleChecker>();
 		return nontitleCheckers;
 	}
 }

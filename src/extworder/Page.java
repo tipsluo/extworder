@@ -13,13 +13,12 @@ import java.util.Map;
 import java.util.TreeMap;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
-import extworder.Char.Point;
-import extworder.Block.BlockFilter;
+
 import extworder.Common.StatGroup;
 import extworder.Common.Stretch;
 
 public class Page extends Rectangle {
-	public Content content;
+/*	public Content content;
 	int id;
     ArrayList<Char> chars;
     public ArrayList<Block> blocks;
@@ -327,38 +326,6 @@ public class Page extends Rectangle {
 		return false;
 	}
 	
-	/*int getTopCharHGap() {
-		StatGroup<Integer> gaps=new StatGroup<Integer>();
-		
-		Comparator<Char> compareCharsV = (Char ch1, Char ch2) ->
-			ch1.upper!=ch2.upper ? (int)(ch1.upper-ch2.upper) : (int)(ch1.left-ch2.left);
-		
-		Collections.sort(chars,compareCharsV);
-		
-		Char ch0=chars.get(0);
-		for(int i=1;i<chars.size();i++) {
-			Char ch=chars.get(i);
-			
-			if(ch0==null) {
-				ch0=ch;
-				continue;
-			}
-			
-			if(ch.upper==ch0.upper && ch.lower==ch0.lower) {
-				int gap=ch.left-ch0.right;
-				if(gap<ch.height)
-					continue;
-				gaps.add(gap);
-			}
-				
-			ch0=ch;
-		}
-		
-		if(gaps.records.size()<rows.size())
-			return 9999;
-		
-		return gaps.maxByValue();
-	}*/
 	
 	void getTopCharHGap() {
 		HashMap<Float,StatGroup<Integer>> allGaps=new HashMap<Float,StatGroup<Integer>>();
@@ -788,10 +755,6 @@ public class Page extends Rectangle {
 				if(! Block.subtitleBlockFilter.filter(block))
 					continue;
 				
-				/*String spaces="";
-				for(int i=0;i<Common.subtitleLevel(block.type);i++)
-					spaces+=" ";
-				str+=spaces+block.string()+"\n";*/
 				str+=block.string()+"\n";
 			}
 			
@@ -1030,5 +993,5 @@ public class Page extends Rectangle {
 			Border other = (Border) obj;
 			return hashCode()==other.hashCode();
 		}
-	}
+	}*/
 }

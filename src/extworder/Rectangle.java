@@ -3,8 +3,6 @@ package extworder;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-import extworder.Page.Column;
-
 public class Rectangle implements Comparable<Rectangle> {
 	public int left,upper,right;
 	public int lower;
@@ -99,7 +97,7 @@ public class Rectangle implements Comparable<Rectangle> {
 		return Math.min(Math.round(Math.min(d1,d2)),Math.round(Math.min(d3,d4)));
 	}
 	
-	protected int alignment(Rectangle parentRect, int centerAlignAdj, Content content) {
+	/*protected int alignment(Rectangle parentRect, int centerAlignAdj, Content content) {
 		int leftIndent=left-parentRect.left;
 		int rightIndent=parentRect.right-right;
 		
@@ -115,7 +113,7 @@ public class Rectangle implements Comparable<Rectangle> {
 			return Common._CENTERALIGNED;
 		else
 			return Common._UNKNOWNALIGNED;
-	}
+	}*/
 	
 	protected int alignment(Rectangle parentRect, int centerAlignAdj, Content2 content) {
 		int leftIndent=left-parentRect.left;
@@ -222,7 +220,7 @@ public class Rectangle implements Comparable<Rectangle> {
 		return left>r.right;
 	}
 	
-	boolean isFull(Content content, Column column) {
+	boolean isFull(Content2 content, Column2 column) {
 		if(column==null)
 			return width >= content.lowContentWidth &&
 				width <= content.highContentWidth;
@@ -234,29 +232,6 @@ public class Rectangle implements Comparable<Rectangle> {
 	boolean isFull(Content content, Rectangle rect) {
 		return width >= rect.width * (1-Common._ColumnWidthAdjustment) &&
 				width <= rect.width * (1+Common._ColumnWidthAdjustment);
-	}
-	
-	boolean isLongEnough(Rectangle rect, Row next) {
-		if(next.string().length()==0)
-			return false;
-			
-		float diff=rect.right-right;
-		
-		int i=1;
-		Char ch0=next.chars.get(0);
-		for(;i<next.chars.size();i++) {
-			Char ch=next.chars.get(i);
-			if(ch.left-ch0.right > next.charReach)
-				break;
-			
-			ch0=ch;
-		}
-		
-		if(i<next.chars.size())
-			if(diff <= ch0.right-next.left)
-				return true;
-		
-		return false;
 	}
 	
 	boolean isLongEnough(Rectangle rect, Row2 next) {

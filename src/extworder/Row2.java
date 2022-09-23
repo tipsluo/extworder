@@ -9,7 +9,6 @@ import java.util.regex.Pattern;
 
 import extworder.Common.SortedList;
 import extworder.Common.StatGroup;
-import extworder.Row.CharFont;
 
 public class Row2 extends Rectangle {
 	CharFont charfont;
@@ -19,6 +18,7 @@ public class Row2 extends Rectangle {
 	Page2 page;
 	int interval=-1;
 	float medium=-1;
+	long value=-1;
 	private String str="";
 	
 	static Comparator<Row2> compareRows = (Row2 r1, Row2 r2) ->
@@ -47,7 +47,9 @@ public class Row2 extends Rectangle {
 		searchLeftestChar(ch,interval);
 		searchRightestChar(ch,interval);
 		
-		page.rowCandidates.add(this);
+		value=getValue();
+		
+		page.rowCandidates.addSortUniq(this);
 	}
 	
 	void registerChar(Char2 ch) {
@@ -57,18 +59,6 @@ public class Row2 extends Rectangle {
 	}
 	
 	void registerBlock(Block2 block) {
-		/*boolean matched=false;
-		
-		for(Block2 b:blocks)
-			if(b==block) {
-				matched=true;
-				break;
-			}
-		
-		if(!matched) {
-			blocks.add(block);*/
-		
-		
 		if(! blockCandidates.addSortUniq(block))
 			for(Char2 ch:chars)
 				ch.registerBlock(block);
@@ -81,11 +71,38 @@ public class Row2 extends Rectangle {
 		return str;
 	}
 	
-	void setActive() {
+	private long getValue() {
+		if(chars.size()<=1)
+			return -1;
+		
+		int aveInterval=0;
+		int sumInterval=0;
+		ArrayList<Integer> intervals=new ArrayList<Integer>();
+		
+		Char2 ch0=chars.get(0);
+		for(int i=1; i<chars.size(); i++) {
+			Char2 ch1=chars.get(i);
+			int i1=ch1.left-ch0.right;
+			sumInterval+=i1;
+			intervals.add(i1);
+			ch0=ch1;
+		}
+		aveInterval=Math.round(sumInterval/chars.size());
+		
+		int sumDiffSqrt=0;
+		for(Integer i: intervals) {
+			int diff=i-aveInterval;
+			sumDiffSqrt+=diff*diff;
+		}
+		
+		return Math.abs(sumDiffSqrt / intervals.size());
+	}
+	
+	/*void setActive() {
 		for(Char2 ch:chars) {
 			ch.row=this;
 		}
-	}
+	}*/
 	
 	public String string() {
 		if(str!=null && str!="")

@@ -1,6 +1,7 @@
 package extworder;
 
 import java.awt.image.BufferedImage;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,6 +10,7 @@ import java.util.List;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
 
+import extworder.Block2.BlockFilter;
 import extworder.Common.SortedList;
 
 public class Page2 extends Rectangle {
@@ -23,7 +25,7 @@ public class Page2 extends Rectangle {
     public PageImg pageImg;
 	private int xOffset;
 	private int yOffset;
-	private List<SortedList<Block2>> blocksets;
+	private List<BlockSet> blocksetCandidates;
 	
 	final static int _MaxCharInRowInterval=10;
 	final static float _MaxBlockIntervalRatio=2.0f;
@@ -63,10 +65,22 @@ public class Page2 extends Rectangle {
 		eliminateCharIntersections();
 		
 		Collections.sort(chars,Char2.compareChars);
-		
+	}
+	
+	public void analyze() {
 		generateAllRowCandidates();
 		generateAllBlockCandidates();
 		generateBlocksetCandidates();
+		
+		long lowest=999999999;
+		BlockSet blockset=null;
+		for(BlockSet bs: blocksetCandidates) 
+			if(bs.value<lowest) {
+				lowest=bs.value;
+				blockset=bs;
+			}
+		
+		blocks=blockset.list;
 	}
 	
 	private void generateAllRowCandidates() {
@@ -128,7 +142,7 @@ public class Page2 extends Rectangle {
 				
 				List<Row2> newRows=Block2.checkRows(block1,block2);
 				if(newRows.size()>0)
-					output.list.add(new Block2(dis,block1,block2));
+					output.addSortUniq(new Block2(dis,block1,block2));
 			}
 		}
 		
@@ -139,23 +153,29 @@ public class Page2 extends Rectangle {
 	}
 	
 	private void generateBlocksetCandidates() {
-		blocksets=new ArrayList<SortedList<Block2>>();
+		blocksetCandidates=new ArrayList<BlockSet>();
 
 		Char2 seed=chars.get(0);
 		for(int i=0; i<seed.blockCandidates.list.size(); i++) {
-			SortedList<Block2> blockset=new SortedList<Block2>();
+			BlockSet blockset=new BlockSet(this);
+			
 			blockset.list.add(seed.blockCandidates.list.get(i));
 			buildBlockset(blockset,1);
+			
+			blockset.register();
 		}
 	}
 	
-	private void buildBlockset(SortedList<Block2> blockset, int charIndex) {
+	private void buildBlockset(BlockSet blockset, int charIndex) {
+		if(charIndex>chars.size())
+			return;
+		
 		Char2 ch=chars.get(charIndex);
 		
 		for(int i=0; i<ch.blockCandidates.list.size(); i++) {
 			Block2 b=ch.blockCandidates.list.get(i);
 			if(blockset.search(b)<0)
-				blockset.list.add(b);
+				blockset.addSortUniq(b);
 			buildBlockset(blockset,charIndex+1);
 		}
 	}
@@ -265,6 +285,72 @@ public class Page2 extends Rectangle {
 						points[x][y]=point;
 					}
 			}
+		}
+	}
+	
+	public void print(FileWriter fw) throws IOException {
+		fw.write("==============================\n");
+
+		
+		fw.write(String.format("Page %d\n Left %d Right %d Top %d Bottom %d\n",
+				id,left,right,upper,lower));
+		
+		if(pageImg!=null)
+			fw.write(String.format("BufferImage Width %d Height %d\n",
+					pageImg.img.getWidth(),pageImg.img.getHeight()));
+		
+		fw.write("\n\nColumn meta:\n");
+		/*for(Column column:columns) {
+			column.printMeta(fw);
+		}*/
+		
+		fw.write("\n\nBlocks:\n----------------------\n");
+		for(Block2 block:blocks) {
+			block.print(fw);
+		}
+	}
+	
+	String string(BlockFilter ...blockFilters) {
+		String str="";
+		
+		for(Block2 block:blocks) {
+			boolean unmatched=false;
+			
+			for(BlockFilter filter : blockFilters)
+				if(! filter.filter(block)) {
+					unmatched=true;
+					break;
+				}
+			
+			if(unmatched)
+				continue;
+		
+			str+=block.string()+"\n";
+		}
+		
+		return str;
+	}
+	
+	class BlockSet extends SortedList<Block2>{
+		long value;
+		Page2 page;
+		
+		BlockSet(Page2 page) {
+			super();
+			value=0;
+			this.page=page;
+		}
+		
+		long getValue() {
+			long v=0;
+			for(Block2 block:list)
+				v+=block.value;
+			return v;
+		}
+		
+		void register() {
+			getValue();
+			page.blocksetCandidates.add(this);
 		}
 	}
 	
