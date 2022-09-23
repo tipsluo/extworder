@@ -15,12 +15,11 @@ import org.apache.pdfbox.pdmodel.font.PDType1Font;
 import org.apache.pdfbox.pdmodel.font.encoding.WinAnsiEncoding;
 import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
 
-import extworder.Char;
+
 import extworder.Common;
-import extworder.Row.CharFont;
 
 public class PDFWriter {
-	private String filename;
+/*	private String filename;
 	private PDDocument doc;
 	PDPage page;
 	static PDFont summaryFont=PDType1Font.TIMES_ROMAN;
@@ -232,5 +231,5 @@ public class PDFWriter {
 				e.printStackTrace();
 			}
 		}
-	}
+	}*/
 }

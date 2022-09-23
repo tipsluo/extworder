@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Properties;
 
 public class Verifier {
-	static MessageDigest _MD5Digest;
+	/*static MessageDigest _MD5Digest;
 	
 	static {
 		try {
@@ -57,5 +57,5 @@ public class Verifier {
 	  }
 	   
 	   return sb.toString();
-	}
+	}*/
 }

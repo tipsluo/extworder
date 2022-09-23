@@ -12,18 +12,9 @@ import java.util.Map;
 import java.util.regex.Pattern;
 import extworder.Block;
 import extworder.Common;
-import extworder.Block.BodyBlockFilter;
-import extworder.Common.StatGroup;
-import extworder.Block.SubtitleBlockFilter;
-import extworder.Content;
-import extworder.Content.NontitleChecker;
-import extworder.Page;
-import extworder.Row;
-import geskiw.Word.WordStatGroup;
-import geskiw.Word.Words;
 
 public class Process {
-	static ArrayList<String> stopWords;
+/*	static ArrayList<String> stopWords;
 	static HashMap<String,String> irregulars;
 	
 	public Content content;
@@ -549,5 +540,5 @@ public class Process {
 			}
 			return true;
 		}
-	}
+	}*/
 }

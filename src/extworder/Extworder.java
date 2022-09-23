@@ -22,7 +22,7 @@ public class Extworder {
         //pdfs.add("");
         //pdfs.add("2column-Review-Deep learning for the design of photonic structures");
         //pdfs.add("1Column-An_ultrasensitive_photoelectro");
-        //pdfs.add("1-2colmn-Confidence_reports_in_decision");
+        pdfs.add("1-2colmn-Confidence_reports_in_decision");
         //pdfs.add("Artforum-1995 Painting for Profit and Pleasure");
         //pdfs.add("Archaeology-2020Digital Platforms and the Nature");
         //pdfs.add("APS-Unraveling the Reaction Mechanisms Leading to Partial Fusion");

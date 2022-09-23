@@ -7,15 +7,12 @@ import java.util.regex.Pattern;
 
 import org.apache.pdfbox.pdmodel.font.PDFont;
 
-import extworder.Block;
-import extworder.Char;
-import extworder.Char.VirtualChar;
+
 import extworder.Common;
-import extworder.Row;
-import extworder.Row.VirtualRow;
+
 
 public class CharString {
-	ArrayList<Char> chars;
+	/*ArrayList<Char> chars;
 	private String string;
 	HashMap<Integer,Char> charmap;
 	float height;
@@ -202,5 +199,5 @@ public class CharString {
 			
 			this.height=height;
 		}
-	}
+	}*/
 }

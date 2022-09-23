@@ -4,19 +4,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import extverifier.Extverifier;
-import extworder.Content;
-import extworder.Validation;
-import extworder.Content.NontitleChecker;
 import geskiw.Geskiw;
 import geskiw.Process;
 
 public class Iamai {
-	static final String _DBDir="db/";
+/*	static final String _DBDir="db/";
 	static final String _DocStatFilename=_DBDir+"pattern.dat";
-	static Pattern pattern;
+	static Pattern pattern;*/
 	
-	public static void main(String args[]) throws IOException, InterruptedException  {
+	/*public static void main(String args[]) throws IOException, InterruptedException  {
 		List<NontitleChecker> nontitleCheckers=new ArrayList<Content.NontitleChecker>();
 		nontitleCheckers.add(new Process.NontitleFirstStringChecker());
 		nontitleCheckers.add(new Process.NontitleBlockStringChecker());
@@ -35,5 +31,5 @@ public class Iamai {
 		pattern.savePattern();
 		
 		System.out.println("Pattern saved.");
-	}
+	}*/
 }

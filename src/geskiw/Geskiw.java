@@ -5,13 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import extworder.Extworder;
-import extworder.Content;
-import extworder.Content.NontitleChecker;
-import geskiw.Process.NontitleBlockStringChecker;
-import geskiw.Process.NontitleFirstStringChecker;
 
 public class Geskiw {
-	public final static String _TestDataDir="data/";
+/*	public final static String _TestDataDir="data/";
 	static List<NontitleChecker> nontitleCheckers;
 	
 	static {
@@ -102,6 +98,6 @@ public class Geskiw {
 				Consts._StopWordFile,
 				Consts._AbbreviationFile,
 				Consts._IrregularFile);
-	}
+	}*/
 	
 }

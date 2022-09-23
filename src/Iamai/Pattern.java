@@ -5,10 +5,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import extverifier.Extverifier;
-import extworder.Validation.DocStat;
 
 public class Pattern {
-	DocStat patternDocStat;
+/*	DocStat patternDocStat;
 	ArrayList<DocStat> docStats;
 	
 	public Pattern() {
@@ -61,5 +60,5 @@ public class Pattern {
 			patternDocStat.firstBodyOffset = patternDocStat.firstBodyOffset / bodyCount;
 			patternDocStat.bodyWordRatio = patternDocStat.bodyWordRatio / docStats.size();
 		}
-	}
+	}*/
 }

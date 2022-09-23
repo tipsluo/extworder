@@ -8,8 +8,8 @@ import java.util.stream.Collectors;
 
 import extworder.Common.StatGroup;
 
-public class Word implements Comparable<Word>{
-	public ArrayList<String> forms;
+//public class Word implements Comparable<Word>{
+/*	public ArrayList<String> forms;
 	
 	public Word(String str) {
 		forms=new ArrayList<String>();
@@ -185,5 +185,5 @@ public class Word implements Comparable<Word>{
 
 			records.put(word,1);
 		}
-	}
-}
+	}*/
+//}

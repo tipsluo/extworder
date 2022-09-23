@@ -11,12 +11,11 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import extworder.Extworder;
-import extworder.Content;
-import extworder.Content.NontitleChecker;
+
 import geskiw.Process;
 
 public class Extverifier {
-	static final String _VeiryfDataDir="data_verify/";
+/*	static final String _VeiryfDataDir="data_verify/";
 	static final String _ContentNameSubfix="_content.txt";
 	
 	public Extverifier() throws IOException, InterruptedException {
@@ -79,5 +78,5 @@ public class Extverifier {
 	
 	protected static String verifyContentFilename(String pdfName) {
 		return _VeiryfDataDir+pdfName+_ContentNameSubfix;
-	}
+	}*/
 }
