@@ -37,8 +37,8 @@ public class Char2 extends Rectangle {
 	public Char2(String str,float x, float y, float width, float height, PDFont font) {
 		super();
 		this.str=String.copyValueOf(str.toCharArray());
-		this.height=(float)(Math.round(height*10)/10f);
-		this.width=(float)(Math.round(width*10)/10f);
+		this.height=height;
+		this.width=width;
 		this.font=font;
 		left=Math.round(x);
 		right=(int)(Math.round(x+this.width));
@@ -46,6 +46,7 @@ public class Char2 extends Rectangle {
 		lower=(int)(Math.round(y+this.height));
 		
 		rowCandidates=new SortedList<Row2>();
+		blockCandidates=new SortedList<Block2>();
 	}
 	
 	public ArrayList<Char2> getLeftConnected(Page2 page, int hInterval, int vAdj) {		
@@ -184,32 +185,10 @@ public class Char2 extends Rectangle {
 	
 	void registerBlock(Block2 block) {
 		blockCandidates.addSortUniq(block);
-		//boolean matched=false;
-		
-		
-		/*for(Block2 b:blocks)
-			if(b==block) {
-				matched=true;
-				break;
-			}
-		
-		if(!matched)
-			blocks.add(block);*/
 	}
 	
 	void registerRow(Row2 row) {
 		rowCandidates.addSortUniq(row);
-		//boolean matched=false;
-		
-		
-		/*for(Block2 b:blocks)
-			if(b==block) {
-				matched=true;
-				break;
-			}
-		
-		if(!matched)
-			blocks.add(block);*/
 	}
 	
 	static public class Point {

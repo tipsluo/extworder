@@ -27,8 +27,10 @@ public class Page2 extends Rectangle {
 	private int yOffset;
 	private List<BlockSet> blocksetCandidates;
 	
-	final static int _MaxCharInRowInterval=10;
-	final static float _MaxBlockIntervalRatio=2.0f;
+	//final static int _MaxCharInRowInterval=1;
+	final static int _RowIntervalFactor1=3;
+	final static int _RowIntervalFactor2=2;
+	final static float _MaxBlockIntervalRatio=3.5f;
     
 	public Page2(Content2 content,int id) {
 		this.content=content;
@@ -47,10 +49,16 @@ public class Page2 extends Rectangle {
     	String str;
     	str=text.toString();
     	
-    	Char2 ch=new Char2(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),text.getWidthDirAdj(),text.getHeight(),
+    	float w=text.getWidthDirAdj();
+    	
+    	// In 1-2colmn-Confidence_reports_in_decision, there is char which width is 0
+    	if(w<=0)
+    		return;
+    	
+    	Char2 ch=new Char2(str, text.getXDirAdj(),text.getYDirAdj()-text.getHeight(),w,text.getHeight(),
     	    		text.getFont());
     	
-       	chars.add(ch);	
+       	chars.add(ch);
        	
     	updateRectangle(ch);
 	}
@@ -86,11 +94,12 @@ public class Page2 extends Rectangle {
 	private void generateAllRowCandidates() {
 		rowCandidates=new SortedList<Row2>(); 
 		for(Char2 ch:chars) {
-			for(int i=0; i<_MaxCharInRowInterval; i++) {
+			for(int i=1; i<_RowIntervalFactor1 ;i++) {
+				int interval=(int)(ch.height * _RowIntervalFactor2 * i );
 				if(ch.rowCandidates.list.size()>0) {
 					boolean done=false;
 					for(Row2 row:ch.rowCandidates.list) 
-						if(row.interval==i) {
+						if(row.interval==interval) {
 							done=true;
 							break;
 						}
@@ -98,58 +107,82 @@ public class Page2 extends Rectangle {
 						continue;
 				}
 				
-				new Row2(ch,this,i);
+ 				new Row2(ch,this,interval);
 			}
 		}
+		
+		for(Row2 row: rowCandidates.list)
+			row.render();
 	}
 	
 	private void generateAllBlockCandidates() {
 		blockCandidates=new SortedList<Block2>();
 		
 		for(int i=0; i<rowCandidates.list.size(); i++) {
-			Row2 row=rowCandidates.list.get(i);
+			Row2 row=rowCandidates.list.get(i); 
 			
-			blockCandidates.list.add(new Block2(row));
+			new Block2(row);
 		}
 		
-		blockCandidates=mateBlocks(blockCandidates);
+		mateBlocks();
+		
+		for(Block2 block: blockCandidates.list)
+			block.renderString();
 	}
 
-	private SortedList<Block2> mateBlocks(SortedList<Block2> input) {
-		SortedList<Block2> output=new SortedList<Block2>();
+	private void mateBlocks() {
+		SortedList<Block2> tempBlocks=new SortedList<Block2>();
 		
-		output.list.addAll(input.list);
+		tempBlocks.list.addAll(blockCandidates.list);
 		
-		for(int i=0; i<input.list.size(); i++) {
-			Block2 block1=input.list.get(i);
+		for(int i=0; i<tempBlocks.list.size(); i++) {
+			Block2 block1=tempBlocks.list.get(i);
 			
-			for(int j=i+1; j<input.list.size(); j++) {
-				Block2 block2=input.list.get(j);
+			for(int j=i+1; j<tempBlocks.list.size(); j++) {
+				Block2 block2=tempBlocks.list.get(j);
 				
 				if(block1.format.charfont.height!=block2.format.charfont.height || !block1.hIntersected(block2))
 					continue;
 				
-				int dis=block1.distance(block2);
+				float dis=Block2.blockVDistance(block1,block2);
 				float maxInterval=Math.max(block1.format.charfont.height, block2.format.charfont.height) * _MaxBlockIntervalRatio;
 				
 				if(dis==-1) {
-					if(block1.rows.size()>1 && block2.rows.size()>1 && block1.interval!=block2.interval)
+					boolean rowIntersected=false;
+					for(Row2 row1: block1.rows) {
+						for(Row2 row2: block2.rows)
+							if(row1.vIntersected(row2) && row1.hIntersected(row2)) {
+								rowIntersected=true;
+								break;
+							}
+						if(rowIntersected)
+							break; 
+					}
+					if(rowIntersected)
 						continue;
 				}
+				
+//if(block1.rows.size()>1)
+//	System.out.println();
+				
+				if(block1.rows.size()>1 && block2.rows.size()>1 && block1.interval!=block2.interval)
+					continue;
 					
 				if(dis>maxInterval || (block1.rows.size()>1 && dis!=block1.interval) || (block2.rows.size()>1 && dis!=block2.interval))
-						continue;
+					continue;
 				
-				List<Row2> newRows=Block2.checkRows(block1,block2);
-				if(newRows.size()>0)
-					output.addSortUniq(new Block2(dis,block1,block2));
+				//List<Row2> newRows=Block2.checkRows(block1,block2);
+				//if(newRows!=null && newRows.size()>0)
+				new Block2(dis,block1,block2);
 			}
 		}
 		
-		if(input.list.size()==output.list.size())
-			return output;
+		//System.out.printf("\n");
 		
-		return mateBlocks(output);
+		if(tempBlocks.list.size()==blockCandidates.list.size())
+			return;
+		
+		mateBlocks();
 	}
 	
 	private void generateBlocksetCandidates() {
@@ -161,22 +194,39 @@ public class Page2 extends Rectangle {
 			
 			blockset.list.add(seed.blockCandidates.list.get(i));
 			buildBlockset(blockset,1);
-			
-			blockset.register();
 		}
 	}
 	
 	private void buildBlockset(BlockSet blockset, int charIndex) {
-		if(charIndex>chars.size())
+		if(charIndex>=chars.size()) {
+			blocksetCandidates.add(blockset);
 			return;
-		
+		}
+
 		Char2 ch=chars.get(charIndex);
+		
+		//System.out.printf("%d %d\n",charIndex,ch.blockCandidates.list.size());		
+		//if(ch.blockCandidates.list.size()==0) {
+		//	System.out.printf("Character %s doesn't have any block candidate.\n",ch.str);
+		//}
+	//	if(charIndex==240)
+	//		System.out.println();
 		
 		for(int i=0; i<ch.blockCandidates.list.size(); i++) {
 			Block2 b=ch.blockCandidates.list.get(i);
-			if(blockset.search(b)<0)
-				blockset.addSortUniq(b);
-			buildBlockset(blockset,charIndex+1);
+			
+			if(blockset.search(b)>0)
+				return;
+				
+			BlockSet newBlockset=new BlockSet(blockset);
+			
+			//System.out.printf("%d %d %d\n",charIndex,ch.blockCandidates.list.size(),i);		
+			
+			newBlockset.addSortUniq(b);
+
+			buildBlockset(newBlockset,charIndex+1);
+			
+			//System.out.printf("%d %d\n",charIndex,ch.blockCandidates.list.size());
 		}
 	}
 	
@@ -339,6 +389,13 @@ public class Page2 extends Rectangle {
 			super();
 			value=0;
 			this.page=page;
+		}
+		
+		BlockSet(BlockSet bs) {
+			super();
+			value=bs.value;
+			page=bs.page;
+			list.addAll(bs.list);
 		}
 		
 		long getValue() {

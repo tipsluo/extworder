@@ -14,7 +14,7 @@ public class Block2  extends Rectangle {
 	final Page2 page;
 	Column2 column;
 	ArrayList<Row2> rows;
-	final int interval;
+	final float interval;
 	String str;
 	BlockFormat format;
 	long value;
@@ -33,7 +33,7 @@ public class Block2  extends Rectangle {
 		page.blockCandidates.addSortUniq(this);
 	}
 	
-	public Block2(int interval, Block2 ...blocks) {
+	public Block2(float interval, Block2 ...blocks) {
 		this.page=blocks[0].page;
 		
 		this.rows=new ArrayList<Row2>();
@@ -53,7 +53,7 @@ public class Block2  extends Rectangle {
 	public Block2(Row2 row1,Row2 row2) {
 		page=row1.page;
 		
-		interval=row1.distance(row2);
+		interval=row1.medium-row2.medium;
 		
 		registerRow(row1);
 		registerRow(row2);
@@ -73,13 +73,13 @@ public class Block2  extends Rectangle {
 		return v;
 	}
 	
-	static ArrayList<Row2> checkRows(Block2 ...blocks) {
+	/*static ArrayList<Row2> checkRows(Block2 ...blocks) {
 		ArrayList<Row2> output=new ArrayList<Row2>();
 		
 		for(Block2 block:blocks)
 			output.addAll(block.rows);
 		
-		Collections.sort(output,Row2.compareRows);
+		//Collections.sort(output,Row2.compareRows);
 		
 		for(int i=0; i<output.size(); i++) {
 			Row2 row1=output.get(i);
@@ -96,13 +96,13 @@ public class Block2  extends Rectangle {
 		}
 		
 		return output;
-	}
+	}*/
 	
 	void registerRow(Row2 row) {
 		rows.add(row);
-		row.registerBlock(this);
-		
 		updateRectangle(row);
+		
+		row.registerBlock(this);
 	}
 	
 	boolean checkConflict(Block2 ...blocks) {
@@ -203,6 +203,23 @@ public class Block2  extends Rectangle {
 		return charfonts.maxByValue();
 	}
 	
+	static float blockVDistance(Block2 b1, Block2 b2) {
+		if(b1.vIntersected(b2))
+			return -1;
+		
+		Collections.sort(b1.rows, Row2.compareRows);
+		Collections.sort(b2.rows, Row2.compareRows);
+		
+		float d1=b2.rows.get(0).medium - b1.rows.get(b1.rows.size()-1).medium;
+		float d2=b1.rows.get(0).medium - b2.rows.get(b2.rows.size()-1).medium;
+		
+		if(d1>0)
+			return d1;
+		if(d2>0)
+			return d2;
+		
+		return -1;
+	}
 	
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");

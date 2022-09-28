@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class Rectangle implements Comparable<Rectangle> {
-	public int left,upper,right;
-	public int lower;
+	public int left,upper,right,lower;
 	public float width, height;
 	
 	Rectangle() {
@@ -369,11 +368,22 @@ public class Rectangle implements Comparable<Rectangle> {
 
     @Override
     public int compareTo(Rectangle rect) {
-        return hashCode()-rect.hashCode();
+    	long h1=hashValue();
+    	long h2=rect.hashValue();
+        if(h1>h2)
+        	return 1;
+        else if(h1<h2)
+        	return -1;
+        else
+        	return 0;
     }
     
-    @Override 
+    private long hashValue() {
+    	return (((long)left)<<48) + (((long)upper)<<32) + (((long)right)<<16) + (long)(lower);
+    }
+    
+   /* @Override 
     public int hashCode() {
         return (((left * Math.round(width))) << 16 ) + upper * Math.round(height);
-    }
+    }*/
 }

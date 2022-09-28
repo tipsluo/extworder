@@ -20,6 +20,7 @@ public class Row2 extends Rectangle {
 	float medium=-1;
 	long value=-1;
 	private String str="";
+	int spaceWidth=-1;
 	
 	static Comparator<Row2> compareRows = (Row2 r1, Row2 r2) ->
 		r1.upper != r2.upper ? Common.compareValue(r1.upper,r2.upper) : Common.compareValue(r1.left,r2.left);
@@ -40,12 +41,17 @@ public class Row2 extends Rectangle {
 		this.page=page;
 		this.interval=interval;
 		
-		registerChar(ch);
-		
 		setCharFont(ch);
-
-		searchLeftestChar(ch,interval);
-		searchRightestChar(ch,interval);
+		
+		SortedList<Char2> sortChars=new SortedList<Char2>();
+		sortChars.list.add(ch);
+		searchLeftestChar(ch,interval,sortChars);
+		searchRightestChar(ch,interval,sortChars);
+		
+		for(Char2 ch1:sortChars.list)
+			registerChar(ch1);
+		
+		Collections.sort(chars,Char2.compareChars);
 		
 		value=getValue();
 		
@@ -59,16 +65,47 @@ public class Row2 extends Rectangle {
 	}
 	
 	void registerBlock(Block2 block) {
-		if(! blockCandidates.addSortUniq(block))
+		if(blockCandidates.addSortUniq(block))
 			for(Char2 ch:chars)
 				ch.registerBlock(block);
 	}
 	
 	public String render() {
 		Collections.sort(chars,Char2.compareChars);
+		
+		getSpaceWidth();
+			
 		str="";
 		string();
 		return str;
+	}
+	
+	private void getSpaceWidth() {
+		if(chars.size()<2) {
+			spaceWidth=-1;
+			return;
+		}
+			
+		StatGroup<Integer> intervals=new StatGroup<Integer>();
+		Char2 ch0=chars.get(0);
+		for(int i=1; i<chars.size(); i++) {
+			Char2 ch1=chars.get(i);
+			if(ch1.str.contains(" ")) {
+				spaceWidth=(int) ch1.width;
+				return;
+			}
+
+			intervals.add(ch1.left-ch0.right);
+			
+			ch0=ch1;
+		}
+		
+		if(intervals.records.size()<2) {
+			spaceWidth=-1;
+			return;
+		}
+		
+		spaceWidth=intervals.topsByValue(2).get(1);
 	}
 	
 	private long getValue() {
@@ -111,7 +148,7 @@ public class Row2 extends Rectangle {
 		Char2 ch0=chars.get(0);
 	
 		for(Char2 ch:chars) {
-			if(interval < ch.left-ch0.right) {
+			if(spaceWidth <= ch.left-ch0.right) {
 				str+=" ";
 			}
 			str+=ch.str;
@@ -121,52 +158,44 @@ public class Row2 extends Rectangle {
 		return str;
 	}
 	
-	private void searchLeftestChar(Char2 ch, int interval) {
+	private void searchLeftestChar(Char2 ch, int interval, SortedList<Char2> sortedChars) {
 		List<Char2> ls=ch.getLeftConnected(page, interval, 0);
-		
-		Char2 ch1;
-		if(ls.size()==1) {
-			ch1=ls.get(0);
-			
+
+		for(Char2 ch1:ls) {
 			if(ch1.height>charfont.height) {
 				setCharFont(ch1);
 			}
 			
 			if(! differentRow(ch1)) {
-				chars.add(0,ch1);
-				ch1.registerRow(this);
-				searchLeftestChar(ch1,interval);
+				sortedChars.addSortUniq(ch1);
+				searchLeftestChar(ch1,interval,sortedChars);
 			}
 		}
 	}
 	
-	private void searchRightestChar(Char2 ch, int interval) {
-		List<Char2> ls=ch.getLeftConnected(page, interval, 0);
+	private void searchRightestChar(Char2 ch, int interval, SortedList<Char2> sortedChars) {
+		List<Char2> rs=ch.getRightConnected(page, interval, 0);
 		
-		Char2 ch1;
-		if(ls.size()==1) {
-			ch1=ls.get(0);
-			
+		for(Char2 ch1:rs) {
 			if(ch1.height>charfont.height) {
 				setCharFont(ch1);
 			}
 			
 			if(! differentRow(ch1)) {
-				chars.add(ch1);
-				ch1.registerRow(this);
-				searchRightestChar(ch1,interval);
+				sortedChars.addSortUniq(ch1);
+				searchRightestChar(ch1,interval, sortedChars);
 			}
 		}
 	}
 	
 	private void setCharFont(Char2 ch) {
 		charfont=new CharFont(ch.font.getName(),ch.height);
-		medium=(ch.lower-ch.upper)/2f;
+		medium=(ch.lower-ch.upper)/2f + ch.upper;
 	}
 	
 	boolean differentRow(Char2 ch) {
 		if(ch.height==charfont.height)
-			return (ch.lower-ch.upper)/2f != medium;
+			return (ch.lower-ch.upper)/2f + ch.upper != medium;
 		else
 			return false;
 	}

@@ -560,11 +560,6 @@ public class Common {
 		}
 		
 		public boolean addSortUniq(T t) {
-			int i=Collections.binarySearch(list,t);
-			
-			if(i>0)
-				return false;
-			
 			int j;
 			for(j=0; j<list.size(); j++) {
 				if(list.get(j).compareTo(t)>0)
