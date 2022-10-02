@@ -18,6 +18,7 @@ public class Block2  extends Rectangle {
 	String str;
 	BlockFormat format;
 	long value;
+	boolean purge;
 	
 	public Block2(Row2 row) {
 		this.page=row.page;
@@ -28,9 +29,11 @@ public class Block2  extends Rectangle {
 		
 		interval=0;
 		format=new BlockFormat(mostCharFont());
-		str="";
+		value=getValue();
+		purge=false;
 		
-		page.blockCandidates.addSortUniq(this);
+		if(page.blockCandidates.addSortUniq(this))
+			row.registerBlock(this);
 	}
 	
 	public Block2(float interval, Block2 ...blocks) {
@@ -38,7 +41,7 @@ public class Block2  extends Rectangle {
 		
 		this.rows=new ArrayList<Row2>();
 		this.interval=interval;
-	
+		
 		for(Block2 block:blocks)
 			for(Row2 row:block.rows)
 				registerRow(row);
@@ -46,8 +49,12 @@ public class Block2  extends Rectangle {
 		format=new BlockFormat(mostCharFont());
 		Collections.sort(rows,Row2.compareRows);
 		value=getValue();
+		purge=false;
 		
-		page.blockCandidates.addSortUniq(this);
+		if(page.blockCandidates.addSortUniq(this))
+			for(Block2 block:blocks)
+				for(Row2 row:block.rows)
+					row.registerBlock(this);
 	}
 	
 	public Block2(Row2 row1,Row2 row2) {
@@ -61,8 +68,12 @@ public class Block2  extends Rectangle {
 		format=new BlockFormat(mostCharFont());
 		Collections.sort(rows,Row2.compareRows);
 		value=getValue();
+		purge=false;
 		
-		page.blockCandidates.addSortUniq(this);
+		if(page.blockCandidates.addSortUniq(this)) {
+			row1.registerBlock(this);
+			row2.registerBlock(this);
+		}
 	}
 	
 	public long getValue() {
@@ -101,8 +112,6 @@ public class Block2  extends Rectangle {
 	void registerRow(Row2 row) {
 		rows.add(row);
 		updateRectangle(row);
-		
-		row.registerBlock(this);
 	}
 	
 	boolean checkConflict(Block2 ...blocks) {
@@ -207,8 +216,7 @@ public class Block2  extends Rectangle {
 		if(b1.vIntersected(b2))
 			return -1;
 		
-		Collections.sort(b1.rows, Row2.compareRows);
-		Collections.sort(b2.rows, Row2.compareRows);
+		// Both rows must have been sorted
 		
 		float d1=b2.rows.get(0).medium - b1.rows.get(b1.rows.size()-1).medium;
 		float d2=b1.rows.get(0).medium - b2.rows.get(b2.rows.size()-1).medium;
@@ -247,6 +255,20 @@ public class Block2  extends Rectangle {
 		fw.write("\n==============================\n\n");
 	}
 	
+	static boolean overlap(Block2 block1, Block2 block2) {
+		if(!block1.vIntersected(block2) && !block1.hIntersected(block2))
+			return false;
+		
+		for(Row2 row1: block1.rows) {
+			for(Row2 row2: block2.rows)
+				if(row1.vIntersected(row2) && row1.hIntersected(row2)) {
+					return true;
+				}
+		}
+		
+		return false;
+	}
+	
 	public String string() {
 		if(str!=null && str!="")
 			return str;
@@ -268,6 +290,28 @@ public class Block2  extends Rectangle {
 		
 		str=str.trim();
 		return str;
+	}
+	
+    @Override
+    public int compareTo(Rectangle rect) {
+    	long h1=hashValue();
+    	long h2=((Block2) rect).hashValue();
+    	
+        if(h1>h2)
+        	return 1;
+        else if(h1<h2)
+        	return -1;
+        else
+        	return interval > ((Block2) rect).interval ? 
+        				1 : 
+        				interval < ((Block2) rect).interval ?
+        						-1 : 0;
+    }
+	
+	protected long hashValue() {
+		if(hashValue==0)
+			hashValue=super.hashValue() + string().hashCode();
+		return hashValue;
 	}
 	
 	public static class BlockFormat implements Comparable<BlockFormat> {

@@ -12,7 +12,7 @@ public class Char2 extends Rectangle {
 	PDFont font;
 	Row2 row;
 	SortedList<Row2> rowCandidates;
-	SortedList<Block2> blockCandidates;
+	//SortedList<Block2> blockCandidates;
 	
 	static Comparator<Char2> compareChars = (Char2 ch1, Char2 ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);
@@ -46,10 +46,10 @@ public class Char2 extends Rectangle {
 		lower=(int)(Math.round(y+this.height));
 		
 		rowCandidates=new SortedList<Row2>();
-		blockCandidates=new SortedList<Block2>();
+		//blockCandidates=new SortedList<Block2>();
 	}
 	
-	public ArrayList<Char2> getLeftConnected(Page2 page, int hInterval, int vAdj) {		
+	public ArrayList<Char2> getLeftConnected(Page2 page, float hInterval, int vAdj) {		
 		ArrayList<Char2> chars=new ArrayList<Char2>();
 		
 		if (left<1) return chars;
@@ -66,11 +66,14 @@ public class Char2 extends Rectangle {
 		
 		for (int j=u; j<=l; j++) {
 			int i=left;
-			for(int i1=1; i1 <= hInterval;i1++) {
+			for(int i1=0; i1 <= hInterval; i1++) {
 				i=left-i1;
 				if (i<0) break;
-				if (page.pageBitmap.points[i][j]!=null) 
+				if (page.pageBitmap.points[i][j]!=null) {
+					if(page.pageBitmap.points[i][j].ch==this)
+						continue;
 					break;
+				}
 			}
 					
 			if (i<0 || 
@@ -85,7 +88,7 @@ public class Char2 extends Rectangle {
 		return chars;
 	}
 	
-	public ArrayList<Char2> getRightConnected(Page2 page, int hInterval, int vAdj) {		
+	public ArrayList<Char2> getRightConnected(Page2 page, float hInterval, int vAdj) {		
 		ArrayList<Char2> chars=new ArrayList<Char2>();
 		
 		if (right >= page.right) return chars;
@@ -102,10 +105,14 @@ public class Char2 extends Rectangle {
 		
 		for (int j=u; j<=l; j++) {
 			int i=-1;
-			for(int i1=1; i1 <= hInterval ; i1++) {
+			for(int i1=0; i1 <= hInterval ; i1++) {
 				i=right+i1;
 				if (i>page.right) break;
-				if (page.pageBitmap.points[i][j]!=null) break;
+				if (page.pageBitmap.points[i][j]!=null) {
+					if(page.pageBitmap.points[i][j].ch==this)
+						continue;
+					break;
+				}
 			}
 			
 			if(i==-1)
@@ -114,7 +121,7 @@ public class Char2 extends Rectangle {
 			if (i>=page.right || 
 					page.pageBitmap.points[i][j]==null || page.pageBitmap.points[i][j].ch==null) 
 				continue;
-			if (ch==page.pageBitmap.points[i][j].ch) continue;
+			if (page.pageBitmap.points[i][j].ch!=null && ch==page.pageBitmap.points[i][j].ch) continue;
 			
 			ch=page.pageBitmap.points[i][j].ch;
 			chars.add(ch);
@@ -184,7 +191,7 @@ public class Char2 extends Rectangle {
 	}
 	
 	void registerBlock(Block2 block) {
-		blockCandidates.addSortUniq(block);
+		//blockCandidates.addSortUniq(block);
 	}
 	
 	void registerRow(Row2 row) {

@@ -69,7 +69,7 @@ public class Content2 extends PDFTextStripper {
 			setStartPage(currPid);
 			setEndPage(currPid);
 			
-			if (currPage==null || currPage.id != currPid) {
+			if (currPage==null || currPage.pid != currPid) {
 				currPage=new Page2(this,currPid);
 			}
 			
@@ -105,7 +105,7 @@ public class Content2 extends PDFTextStripper {
 			
 			page.complete(allPages.get(i),ignoreColoredBlock);
 			
-			if((page.id==1 && page.ignored()) || page.chars.size()==0) {
+			if((page.pid==1 && page.ignored()) || page.chars.size()==0) {
 				pages.remove(i);
 				continue;
 			}

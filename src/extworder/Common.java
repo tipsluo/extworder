@@ -560,6 +560,13 @@ public class Common {
 		}
 		
 		public boolean addSortUniq(T t) {
+			if(search(t)>=0)
+				return false;
+			
+			return addSort(t);
+		}
+		
+		public boolean addSort(T t) {
 			int j;
 			for(j=0; j<list.size(); j++) {
 				if(list.get(j).compareTo(t)>0)

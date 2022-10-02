@@ -16,7 +16,7 @@ public class Row2 extends Rectangle {
 	Block2 block;
 	SortedList<Block2> blockCandidates;
 	Page2 page;
-	int interval=-1;
+	float interval=-1;
 	float medium=-1;
 	long value=-1;
 	private String str="";
@@ -35,7 +35,7 @@ public class Row2 extends Rectangle {
 		chars=new ArrayList<Char2>();
 	}
 	
-	public Row2(Char2 ch, Page2 page, int interval) {
+	public Row2(Char2 ch, Page2 page, float interval) {
 		chars=new ArrayList<Char2>();
 		blockCandidates=new SortedList<Block2>();
 		this.page=page;
@@ -55,12 +55,12 @@ public class Row2 extends Rectangle {
 		
 		value=getValue();
 		
-		page.rowCandidates.addSortUniq(this);
+		if(page.rowCandidates.addSortUniq(this))
+			ch.registerRow(this);
 	}
 	
 	void registerChar(Char2 ch) {
 		chars.add(ch);
-		ch.registerRow(this);
 		updateRectangle(ch);
 	}
 	
@@ -158,7 +158,7 @@ public class Row2 extends Rectangle {
 		return str;
 	}
 	
-	private void searchLeftestChar(Char2 ch, int interval, SortedList<Char2> sortedChars) {
+	private void searchLeftestChar(Char2 ch, float interval, SortedList<Char2> sortedChars) {
 		List<Char2> ls=ch.getLeftConnected(page, interval, 0);
 
 		for(Char2 ch1:ls) {
@@ -173,7 +173,7 @@ public class Row2 extends Rectangle {
 		}
 	}
 	
-	private void searchRightestChar(Char2 ch, int interval, SortedList<Char2> sortedChars) {
+	private void searchRightestChar(Char2 ch, float interval, SortedList<Char2> sortedChars) {
 		List<Char2> rs=ch.getRightConnected(page, interval, 0);
 		
 		for(Char2 ch1:rs) {
@@ -207,6 +207,22 @@ public class Row2 extends Rectangle {
 			return false;
 	}
 	
+    @Override
+    public int compareTo(Rectangle rect) {
+    	long h1=hashValue();
+    	long h2=rect.hashValue();
+    	
+        if(h1>h2)
+        	return 1;
+        else if(h1<h2)
+        	return -1;
+        else
+        	return interval > ((Row2) rect).interval ? 
+        				1 : 
+        				interval < ((Row2) rect).interval ?
+        						-1 : 0;
+    }
+	 
 	/*private CharFont getCharFont() {
 		if(chars.size()==0)
 			return null;

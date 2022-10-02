@@ -319,7 +319,7 @@ public class Extworder {
 			myWriter= new FileWriter(_TestDataDir+pdfName+"_char2.txt");
 		
 			for(Page2 page:content.pages) {
-				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
+				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.pid,page.left,page.upper));
 			    		for(Char2 ch:page.chars) {
 				    		myWriter.write(String.format("%s (x=%d y=%d) width=%f height=%f fontname=%s\n", 
 				    				ch.str,ch.left,ch.upper,ch.width,ch.height,ch.font.getName()));
@@ -340,12 +340,12 @@ public class Extworder {
 			myWriter= new FileWriter(_TestDataDir+pdfName+"_row.txt");
 		
 			for(Page2 page:content.pages) {
-				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.id,page.left,page.upper));
+				myWriter.write(String.format("Page: %d left:%d upper:%d\n",page.pid,page.left,page.upper));
 				for(Block2 block:page.blocks)
 					for(Row2 row:block.rows) {
 						myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
 								" width=%f height=%f fontname=%s interval=%d medium=%d\n", 
-								row.string(),row.page.id,row.block.hashCode(),row.left,row.upper,
+								row.string(),row.page.pid,row.block.hashCode(),row.left,row.upper,
 								row.width,row.height,row.charfont.name,row.interval, row.medium));
 					}
 			    	
@@ -364,7 +364,7 @@ public class Extworder {
 			myWriter= new FileWriter(_TestDataDir+pdfName+"_block.txt");
 		
 			for(Page2 page:content.pages) {
-				myWriter.write(String.format("Page: %d\n",page.id));
+				myWriter.write(String.format("Page: %d\n",page.pid));
 				for(Block2 block:page.blocks) {
 			    	myWriter.write(String.format("Block: left=%d right=%d top=%d bottom=%d ====>\n", block.left,block.right,block.upper,block.lower));
 			    	for(Row2 row:block.rows) {
