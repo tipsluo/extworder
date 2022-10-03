@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.TreeMap;
 
@@ -19,6 +20,16 @@ public class Block2  extends Rectangle {
 	BlockFormat format;
 	long value;
 	boolean purge;
+	
+	static final float _FirstRowLeftIndentRatio=0.1f;
+	static final float _RowRightDifferenceRatio=0.1f;
+	
+	static Comparator<Block2> compareBlockRowNumber = (Block2 b1,Block2 b2) ->
+		b1.rows.size()>b2.rows.size() ? 1 : 
+			b1.rows.size()==b2.rows.size() ? 0 : -1;
+	static Comparator<Block2> compareBlockHashValue = (Block2 b1,Block2 b2) ->
+		b1.hashValue>b2.hashValue ? 1 : 
+			b1.hashValue==b2.hashValue ? 0 : -1;
 	
 	public Block2(Row2 row) {
 		this.page=row.page;
@@ -77,9 +88,48 @@ public class Block2  extends Rectangle {
 	}
 	
 	public long getValue() {
-		int v=0;
-		for(Row2 row:rows)
-			v += row.value * row.chars.size();
+		if(rows.size()<=1)
+			return -1;
+		
+		boolean leftInAlign=true;
+		boolean rightInAlign=true;
+		boolean centralInAlign=true; 
+		float rightDifference=_RowRightDifferenceRatio * (right-left);
+		float medium=(width)/2 + left;
+		
+		for(int i=0; i<rows.size(); i++) {
+			Row2 row=rows.get(i);
+			
+			if(medium != (row.right-row.right)/2)
+				centralInAlign=false;
+			
+			if(i==0) {
+				if((row.left-left) > _FirstRowLeftIndentRatio * width)
+					leftInAlign=false;
+			} else {
+				if(row.left-left >= 1)
+					leftInAlign=false;
+			}
+			
+			if(i==rows.size()-1)
+				if(rows.size()>3)
+					continue;
+		
+			if(right-row.right >= rightDifference)
+				rightInAlign=false;
+		}
+		
+		if(leftInAlign || rightInAlign || centralInAlign)
+			return 0;
+		
+		long v=0;
+		for(int i=0; i<rows.size(); i++) {
+			Row2 row=rows.get(i);
+			
+			float diff=width-row.width;
+			v+=diff*diff;
+		}
+		v*=rows.size();
 		
 		return v;
 	}
@@ -227,6 +277,26 @@ public class Block2  extends Rectangle {
 			return d2;
 		
 		return -1;
+	}
+	
+	boolean containsAllRows(Block2 b) {
+		if(contains(b)) {
+			for(Row2 r2:b.rows) {
+				boolean match=false;
+				for(Row2 r1:rows)
+					if(r1.hashValue==r2.hashValue) {
+						match=true;
+						break;
+					}
+				if(match)
+					continue;
+				else
+					return false;
+			}
+		} else
+			return false;
+		
+		return true;
 	}
 	
 	public void print(FileWriter fw) throws IOException {

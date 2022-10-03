@@ -36,9 +36,10 @@ public class Char2 extends Rectangle {
 		
 	public Char2(String str,float x, float y, float width, float height, PDFont font) {
 		super();
+		
 		this.str=String.copyValueOf(str.toCharArray());
-		this.height=height;
-		this.width=width;
+		this.height=(float)(Math.round(height*10)/10f);
+		this.width=(float)(Math.round(width*10)/10f);
 		this.font=font;
 		left=Math.round(x);
 		right=(int)(Math.round(x+this.width));
