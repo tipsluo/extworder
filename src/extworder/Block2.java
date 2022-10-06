@@ -38,13 +38,15 @@ public class Block2  extends Rectangle {
 		
 		registerRow(row);
 		
-		interval=0;
+		this.interval=0;
 		format=new BlockFormat(mostCharFont());
 		value=getValue();
 		purge=false;
-		
+		render();
 		if(page.blockCandidates.addSortUniq(this))
 			row.registerBlock(this);
+		else
+			purge=true;
 	}
 	
 	public Block2(float interval, Block2 ...blocks) {
@@ -56,16 +58,14 @@ public class Block2  extends Rectangle {
 		for(Block2 block:blocks)
 			for(Row2 row:block.rows)
 				registerRow(row);
-		
-		format=new BlockFormat(mostCharFont());
-		Collections.sort(rows,Row2.compareRows);
-		value=getValue();
 		purge=false;
-		
+		render();
 		if(page.blockCandidates.addSortUniq(this))
 			for(Block2 block:blocks)
 				for(Row2 row:block.rows)
 					row.registerBlock(this);
+		else
+			purge=true;
 	}
 	
 	public Block2(Row2 row1,Row2 row2) {
@@ -75,16 +75,31 @@ public class Block2  extends Rectangle {
 		
 		registerRow(row1);
 		registerRow(row2);
-		
-		format=new BlockFormat(mostCharFont());
-		Collections.sort(rows,Row2.compareRows);
-		value=getValue();
 		purge=false;
-		
+		render();
 		if(page.blockCandidates.addSortUniq(this)) {
 			row1.registerBlock(this);
 			row2.registerBlock(this);
-		}
+		} else
+			purge=true;
+	}
+	
+	public Block2(float interval, Block2 block, Row2 row) {
+		this(interval,block);
+		addRow(row);
+		render();
+	}
+	
+	public void addRow(Row2 row) {
+		registerRow(row);
+		row.registerBlock(this);
+	}
+	
+	public void render() {
+		format=new BlockFormat(mostCharFont());
+		Collections.sort(rows,Row2.compareRows);
+		value=getValue();
+		renderString();
 	}
 	
 	public long getValue() {
@@ -337,6 +352,34 @@ public class Block2  extends Rectangle {
 		}
 		
 		return false;
+	}
+	
+	static boolean overlap(Block2 block, Row2 row) {
+		if(!block.vIntersected(row) && !block.hIntersected(row))
+			return false;
+		
+		for(Row2 row1: block.rows) {
+			if(row1.vIntersected(row) && row1.hIntersected(row)) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	static void removeBlock(Block2 block) {
+		for(Row2 row:block.rows)
+			row.blockCandidates.list.remove(block);
+		
+		block.page.blockCandidates.list.remove(block);
+	}
+	
+	static void removeBlock(Page2 page, int index) {
+		Block2 block=page.blockCandidates.list.get(index);
+		for(Row2 row:block.rows)
+			row.blockCandidates.list.remove(block);
+		
+		page.blockCandidates.list.remove(index);
 	}
 	
 	public String string() {

@@ -344,7 +344,7 @@ public class Extworder {
 				for(Block2 block:page.blocks)
 					for(Row2 row:block.rows) {
 						myWriter.write(String.format("%s\npage=%d block=%d (x=%d y=%d)"+
-								" width=%f height=%f fontname=%s interval=%d medium=%d\n", 
+								" width=%f height=%f fontname=%s interval=%f medium=%f\n", 
 								row.string(),row.page.pid,row.block.hashCode(),row.left,row.upper,
 								row.width,row.height,row.charfont.name,row.interval, row.medium));
 					}

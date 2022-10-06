@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import org.apache.pdfbox.pdmodel.PDPage;
@@ -76,17 +77,12 @@ public class Page2 extends Rectangle {
 	}
 	
 	public void analyze() {
-
-		
-		if(pid==5) 		
-			System.out.println();		
-		
 		System.out.printf("Analyzing page %d.\n",pid);
 		System.out.println("Generating rows.");
 		generateAllRowCandidates();
 		System.out.println("Generating blocks."); 
 		generateAllBlockCandidates();
-		System.out.println("\nGenerating blocksets.");
+		System.out.println("Generating blocksets.");
 		generateBlocksetCandidates();
 		
 		long lowest=999999999;
@@ -98,6 +94,13 @@ public class Page2 extends Rectangle {
 			}
 		
 		blocks=blockset.list;
+		for(Block2 block:blocks) {
+			for(Row2 row:block.rows) {
+				for(Char2 ch:row.chars)
+					ch.row=row;
+				row.block=block;
+			}
+		}
 		
 		blocksetCandidates=null;
 		blockCandidates=null;
@@ -135,6 +138,8 @@ public class Page2 extends Rectangle {
 			
 			long v1=row.hashValue();
 			if(v==v1) {
+				for(Char2 ch:row.chars)
+					ch.rowCandidates.list.remove(row);
 				rowCandidates.list.remove(i);
 				i--;
 				continue;
@@ -150,30 +155,119 @@ public class Page2 extends Rectangle {
 		
 		for(int i=0; i<rowCandidates.list.size(); i++) {
 			Row2 row=rowCandidates.list.get(i); 
-			
-			new Block2(row);
+			float maxInterval=row.height * _MaxBlockIntervalRatio;
+				
+			buildBlockCandidatesAbove(new Block2(row),row,maxInterval);
+			buildBlockCandidatesBelow(new Block2(row),row,maxInterval);
 		}
-		
-		mateBlocks();
 		
 		Collections.sort(blockCandidates.list, Block2.compareBlockRowNumber);
 		Collections.reverse(blockCandidates.list); 
 		for(int i=0; i<blockCandidates.list.size();i++) {
 			Block2 b1=blockCandidates.list.get(i);
+			
+			if(b1.rows.size()==2 && b1.rows.get(0).charfont.height!=b1.rows.get(1).charfont.height) {
+				Block2.removeBlock(this,i);
+				i--;
+				continue;
+			}
+			
 			for(int j=i+1; j<blockCandidates.list.size();j++) {
 				Block2 b2=blockCandidates.list.get(j);
 				if(b1.containsAllRows(b2)) {
-					for(Row2 row:b2.rows)
-						row.blockCandidates.list.remove(b2);
-					blockCandidates.list.remove(j);
+					Block2.removeBlock(this,j);
 					j--;
 				}
 			}
 		}
 		Collections.sort(blockCandidates.list, Block2.compareBlockHashValue);
 	}
+	
+	/*private void buildBlockCandidates(Block2 block, Row2 row, float maxInterval) {
+		if(changed) {
+			for(Row2 r:block.rows)
+				r.blockCandidates.list.remove(block);
+			blockCandidates.list.remove(block);
+		}
+	}*/
+	
+	private void buildBlockCandidatesBelow(Block2 block, Row2 row, float maxInterval) {
+		SortedList<Row2> rs=row.getAllBelowCandidates(maxInterval);
+		
+		//boolean changed=false;
+		for(Row2 r:rs.list) {
+			if(block!=null) {
+				if(Block2.overlap(block,r))
+					continue;
+			}
 
-	private void mateBlocks() {
+			float dis=row.medium-r.medium;
+			
+			if(block.rows.size()>=2 && Math.abs(dis-block.interval)>1)
+				continue;
+			
+			boolean exist=false;
+			for(Block2 b:r.blockCandidates.list) {
+				if(b.interval==dis) {
+					exist=true;
+					break;
+				}
+			}
+			if(exist)
+				continue;
+			
+			Block2 b=new Block2(dis,block,r);
+			if(b.purge) {
+				Block2.removeBlock(b);
+				continue;
+			}
+			
+			//changed=true;
+			
+			buildBlockCandidatesBelow(b,r,maxInterval);
+		}
+		
+		//return changed;
+	}
+	
+	private void buildBlockCandidatesAbove(Block2 block, Row2 row, float maxInterval) {
+		SortedList<Row2> rs=row.getAllAboveCandidates(maxInterval);
+		
+		//boolean changed=false;
+		for(Row2 r:rs.list) {
+			if(block!=null) {
+				if(Block2.overlap(block,r))
+					continue;
+			}
+
+			float dis=row.medium-r.medium;
+			
+			if(block.rows.size()>=2 && Math.abs(dis-block.interval)>1)
+				continue;
+			
+			boolean exist=false;
+			for(Block2 b:r.blockCandidates.list) {
+				if(b.interval==dis) {
+					exist=true;
+					break;
+				}
+			}
+			if(exist)
+				continue;
+			
+			Block2 b=new Block2(dis,block,r);
+			if(b.purge) {
+				Block2.removeBlock(b);
+				continue;
+			}
+			
+			buildBlockCandidatesAbove(b,r,maxInterval);
+		}
+		
+		//return changed;
+	}
+	 
+	/*private void mateBlocks() {
 		SortedList<Block2> tempBlocks=new SortedList<Block2>();
 		
 		tempBlocks.list.addAll(blockCandidates.list);
@@ -203,10 +297,7 @@ public class Page2 extends Rectangle {
 					continue;
 				
 				new Block2(dis,block1,block2);
-				/*if(b.value==0) {
-					block1.purge=block2.purge=true;
-					System.out.printf("%s \n===================> \n%s\n++++++++++++++++++++++++\n%s\n----------------------\n", b.string(),block1.string(),block2.string());
-				}*/
+
 			}
 		}
 		
@@ -214,7 +305,7 @@ public class Page2 extends Rectangle {
 			return;
 		
 		mateBlocks();
-	}
+	}*/
 	
 	private void generateBlocksetCandidates() {
 		blocksetCandidates=new ArrayList<BlockSet>();

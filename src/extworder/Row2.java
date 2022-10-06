@@ -207,6 +207,59 @@ public class Row2 extends Rectangle {
 			return false;
 	}
 	
+	SortedList<Row2> getAllAboveCandidates(float maxDist) {		
+		SortedList<Row2> rows=new SortedList<Row2>();
+		
+		if (upper<1) return rows;
+		
+		for (int i=left; i<=right; i++) {
+			int j=1;
+			int j1=1;
+			for (;j1<maxDist;j1++) {
+				j=upper-j1;
+				if (j<0) break;
+				if (page.pageBitmap.points[i][j]!=null) break;
+			}
+			
+			if (j<0 || 
+					page.pageBitmap.points[i][j]==null) 
+				continue;
+			
+			if (page.pageBitmap.points[i][j].ch==null ) continue;
+			
+			rows.addSortUniq(page.pageBitmap.points[i][j].ch.rowCandidates);
+		}
+		
+		return rows;
+	}
+	
+	SortedList<Row2> getAllBelowCandidates(float maxDist) {		
+		SortedList<Row2> rows=new SortedList<Row2>();
+		
+		if (lower >= page.lower) return rows;
+		
+		for (int i=left; i<=right; i++) {
+			int j=1;
+			int j1=1;
+			for (;j1<maxDist;j1++) {
+				j=lower+j1;
+				if (j>=page.lower) break;
+				if (page.pageBitmap.points[i][j]!=null) 
+					break;
+			}
+			
+			if(j>page.lower || 
+					page.pageBitmap.points[i][j]==null) 
+				continue;
+			
+			if (page.pageBitmap.points[i][j].ch==null) continue;
+			
+			rows.addSortUniq(page.pageBitmap.points[i][j].ch.rowCandidates);
+		}
+		
+		return rows;
+	}
+	
     @Override
     public int compareTo(Rectangle rect) {
     	long h1=hashValue();

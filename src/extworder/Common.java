@@ -565,6 +565,17 @@ public class Common {
 			
 			return addSort(t);
 		}
+
+		
+		public void addSortUniq(SortedList<T> ts) {
+			for(T t:ts.list)
+				addSortUniq(t);
+		}
+		
+		public void addSortUniq(List<T> ts) {
+			for(T t:ts)
+				addSortUniq(t);
+		}
 		
 		public boolean addSort(T t) {
 			int j;

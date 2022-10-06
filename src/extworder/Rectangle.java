@@ -353,7 +353,7 @@ public class Rectangle implements Comparable<Rectangle> {
 		}
 	}
     
-    @Override
+    /*@Override
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
@@ -365,7 +365,7 @@ public class Rectangle implements Comparable<Rectangle> {
         Rectangle other = (Rectangle) obj;
 
         return compareTo(other)==0;
-    }
+    }*/
 
     @Override
     public int compareTo(Rectangle rect) {
