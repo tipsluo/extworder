@@ -96,8 +96,10 @@ public class Block2  extends Rectangle {
 	
 	public Block2(float interval, Block2 block, Row2 row) {
 		this(interval,block);
-		addRow(row);
-		render();
+		if(!purge) {
+			addRow(row);
+			render();
+		}
 	}
 	
 	public void addRow(Row2 row) {
@@ -425,12 +427,12 @@ public class Block2  extends Rectangle {
 		return false;
 	}
 	
-	static void removeBlock(Block2 block) {
+	/*static void removeBlock(Block2 block) {
 		for(Row2 row:block.rows)
 			row.blockCandidates.list.remove(block);
 		
 		block.page.blockCandidates.list.remove(block);
-	}
+	}*/
 	
 	static void removeBlock(Page2 page, int index) {
 		Block2 block=page.blockCandidates.list.get(index);

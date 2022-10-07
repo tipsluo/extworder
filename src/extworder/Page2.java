@@ -59,7 +59,7 @@ public class Page2 extends Rectangle {
     	if(w<=0)
     		return;
     	
-    	Char2 ch=new Char2(str, text.getXDirAdj()*3, (text.getYDirAdj()-text.getHeight())*3, w*3, text.getHeight()*3,
+    	Char2 ch=new Char2(str, text.getXDirAdj(), (text.getYDirAdj()-text.getHeight()), w, text.getHeight(),
     	    		text.getFont());
     	
        	chars.add(ch);
@@ -221,7 +221,6 @@ public class Page2 extends Rectangle {
 			
 			Block2 b=new Block2(dis,block,r);
 			if(b.purge) {
-				Block2.removeBlock(b);
 				continue;
 			}
 			
@@ -260,7 +259,6 @@ public class Page2 extends Rectangle {
 			
 			Block2 b=new Block2(dis,block,r);
 			if(b.purge) {
-				Block2.removeBlock(b);
 				continue;
 			}
 			

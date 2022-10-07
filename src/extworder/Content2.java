@@ -43,6 +43,7 @@ public class Content2 extends PDFTextStripper {
 	
 	final static float _MaxHeaderFooterWidthRatio=0.5f;
 	final static float _MaxHeaderFooterHeightRatio=0.1f;
+	final static int _MaxMissingHeaderFooterPageNum=6;
     
 	public Content2(String fn,
 			ArrayList<Pattern> abbrPatterns,
@@ -162,13 +163,13 @@ public class Content2 extends PDFTextStripper {
 			}
 		}
 		
-		List<Rectangle> footerRects=rects.topsByMore(pages.size()-Common._MaxMissingHeaderFooterPageNum);
+		List<Rectangle> headerRects=rects.topsByMore(pages.size()-_MaxMissingHeaderFooterPageNum);
 		
 		for(ArrayList<Block2> bl:hbls) {
 			for(Block2 b:bl)
-                for(Rectangle fr: footerRects)
-                    if(b.samePosition(fr)) {
-                        b.type=Common._PageHeaderBlock;
+                for(Rectangle hr: headerRects)
+                    if(b.samePosition(hr)) {
+                        b.type=Block2._PageHeaderBlock;
                         break;
                     }
 		}

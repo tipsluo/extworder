@@ -352,8 +352,9 @@ public class Rectangle implements Comparable<Rectangle> {
 					b1.right-b1.left+b1.lower-b1.upper);
 		}
 	}
-    
-    /*@Override
+	
+	// for arraylist remove
+	@Override
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
@@ -365,8 +366,9 @@ public class Rectangle implements Comparable<Rectangle> {
         Rectangle other = (Rectangle) obj;
 
         return compareTo(other)==0;
-    }*/
+    }
 
+	// for sorted list
     @Override
     public int compareTo(Rectangle rect) {
     	long h1=hashValue();
@@ -387,8 +389,9 @@ public class Rectangle implements Comparable<Rectangle> {
     	return hashValue;
     }
     
-   /* @Override 
+    // for hashmap
+    @Override 
     public int hashCode() {
         return (((left * Math.round(width))) << 16 ) + upper * Math.round(height);
-    }*/
+    }
 }
