@@ -220,7 +220,7 @@ public class Rectangle implements Comparable<Rectangle> {
 		return left>r.right;
 	}
 	
-	boolean isFull(Content2 content, Column2 column) {
+	boolean isFull(Content2 content, Page2.Column2 column) {
 		if(column==null)
 			return width >= content.lowContentWidth &&
 				width <= content.highContentWidth;

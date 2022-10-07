@@ -7,18 +7,20 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.TreeMap;
+import java.util.regex.Pattern;
 
 import extworder.Common.StatGroup;
 import extworder.Row2.CharFont;
 
 public class Block2  extends Rectangle {
 	final Page2 page;
-	Column2 column;
+	Page2.Column2 column;
 	ArrayList<Row2> rows;
 	final float interval;
-	String str;
+	private String str;
 	BlockFormat format;
-	long value;
+	private long value;
+	public String type="";
 	boolean purge;
 	
 	static final float _FirstRowLeftIndentRatio=0.1f;
@@ -31,6 +33,15 @@ public class Block2  extends Rectangle {
 		b1.hashValue>b2.hashValue ? 1 : 
 			b1.hashValue==b2.hashValue ? 0 : -1;
 	
+	final static CompareBlocks compareBlocks=new CompareBlocks();
+	final static BodyBlockFilter bodyBlockFilter=new BodyBlockFilter();
+	//final static BigBlockFilter bigBlockFilter=new BigBlockFilter();
+	public final static SubtitleBlockFilter subtitleBlockFilter=new SubtitleBlockFilter();
+	
+	final static float _BlockDisplaceRatio=1f;
+	final static String _PageHeaderBlock="PAGEHEADER";
+	final static String _PageFooterBlock="PAGEFOOTER";
+	
 	public Block2(Row2 row) {
 		this.page=row.page;
 		
@@ -40,7 +51,6 @@ public class Block2  extends Rectangle {
 		
 		this.interval=0;
 		format=new BlockFormat(mostCharFont());
-		value=getValue();
 		purge=false;
 		render();
 		if(page.blockCandidates.addSortUniq(this))
@@ -98,7 +108,6 @@ public class Block2  extends Rectangle {
 	public void render() {
 		format=new BlockFormat(mostCharFont());
 		Collections.sort(rows,Row2.compareRows);
-		value=getValue();
 		renderString();
 	}
 	
@@ -179,7 +188,7 @@ public class Block2  extends Rectangle {
 		updateRectangle(row);
 	}
 	
-	boolean checkConflict(Block2 ...blocks) {
+	/*boolean checkConflict(Block2 ...blocks) {
 		for(Block2 block1:blocks) {
 			if(distance(block1)>0)
 				continue;
@@ -202,6 +211,41 @@ public class Block2  extends Rectangle {
 		}
 		
 		return false;
+	}*/
+	
+	boolean isSimilar(Block2 block, boolean verifyVertical) {
+		if(rows.size() != block.rows.size())
+			return false;
+		
+		String s1=renderString();
+		String s2=block.renderString();
+		
+		if(s1.equals(s2))
+			return true;
+		
+		if(! format.equals(block.format))
+			return false;
+		
+		Pattern pattern=Pattern.compile("\\s+");
+		long i1=pattern.matcher(s1).results().count();
+		long i2=pattern.matcher(s2).results().count();
+		if(i1!=i2)
+			return false;
+		
+		int allowedDisplace = (int) (_BlockDisplaceRatio * format.charfont.height);
+		
+		if(verifyVertical) {
+			if( Math.abs(left - block.left) <= allowedDisplace &&
+					Math.abs(upper - block.upper) <= allowedDisplace &&
+					Math.abs(right - block.right) < allowedDisplace &&
+					Math.abs(lower - block.lower) < allowedDisplace )
+				return true;
+		} else {
+			if( Math.abs(left - block.left) <= allowedDisplace &&
+					Math.abs(right - block.right) < allowedDisplace )
+				return true;
+		}
+		return false;
 	}
 	
 	protected CharFont mostCharFont() {
@@ -214,6 +258,20 @@ public class Block2  extends Rectangle {
 		
 		CharFont cf=charFonts.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
 		return cf;
+	}
+	
+	static class CompareBlocks implements Comparator<Block2> {
+		public int compare(Block2 b1, Block2 b2) {
+			if(b1.page!=b2.page)
+				return b1.page.pid-b2.page.pid;
+			
+			int b1column= b1.column==null ? -1 : b1.column.left;
+			int b2column= b2.column==null ? -1 : b2.column.left;
+			
+			return b1column!=b2column ? b1column-b2column :
+						b1.upper!=b2.upper ? b1.upper-b2.upper :
+							b1.left-b2.left;
+		}
 	}
 	
 	protected int indent() {
@@ -317,7 +375,7 @@ public class Block2  extends Rectangle {
 	public void print(FileWriter fw) throws IOException {
 		fw.write("==============================\n");
 		
-		/*if (this==page.content.titleBlock)
+		if (this==page.content.titleBlock)
 			fw.write("type: title");
 		else if (this==page.content.abstractBlock)
 			fw.write("type: abstract");
@@ -330,11 +388,11 @@ public class Block2  extends Rectangle {
 		else
 			columnLeft=column.left;
 					
-		fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
-				page.content.blockformatIndexes.get(format),left,right,upper,lower));
-		fw.write(String.format("charfont name=%s charfont height=%f, charfont bold=%d, alignment=%d, allupper=%d, column left=%d, likeBody=%d\n\n",
-				format.charfont.name,format.charfont.height, format.charfont.bold, alignment(),format.allUppercase, columnLeft, likeBodyBlock1()));
-		*/
+		//fw.write(String.format("\ntypeindex=%d left=%d right=%d upper=%d lower=%d\n====>\n",
+		//		page.content.blockformatIndexes.get(format),left,right,upper,lower));
+		fw.write(String.format("charfont name=%s charfont height=%f, charfont bold=%d, type=%s, alignment=%d, allupper=%d, column left=%d\n\n",
+				format.charfont.name,format.charfont.height, format.charfont.bold, type, alignment(),format.allUppercase, columnLeft));
+		
 		fw.write(string());
 		
 		fw.write("\n==============================\n\n");
@@ -425,6 +483,25 @@ public class Block2  extends Rectangle {
 		if(hashValue==0)
 			hashValue=super.hashValue() + string().hashCode();
 		return hashValue;
+	}
+	
+	public boolean abbrOnly() {
+		if(page.content.abbrPatterns==null)
+			return false;
+		
+		String s=string();
+		s.replace("\n"," ");
+		s.replace("\r"," ");
+		for(Pattern p:page.content.abbrPatterns)
+			s=p.matcher(s).replaceAll("");
+		s=s.replace(" ","");
+		if(s.length()==0)
+			return true;
+		return false;
+	}
+	
+	public boolean trivial() {
+		return string().length()<=Common._TrivialBlockMaxLength;
 	}
 	
 	public static class BlockFormat implements Comparable<BlockFormat> {
@@ -521,5 +598,50 @@ public class Block2  extends Rectangle {
 
 	public interface BlockFilter {
 		public boolean filter(Block2 block);
+	}
+	
+	public static class BodyBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block2 block) {
+			if(block.abbrOnly())
+				return false;
+			if(block.column==null)
+				return false;
+			return block.type==Common._Body;
+		}
+	}
+	
+	/*static class BigBlockFilter implements BlockFilter {
+		final static Pattern pattern;
+		
+		static {
+			pattern=Pattern.compile("^"+Common._IgnoredBlockPrefix);
+		}
+		
+		@Override
+		public boolean filter(Block2 block) {
+			if(block.abbrOnly() || block.trivial() || block.alignment()==Common._UNKNOWNALIGNED)
+				return false;
+			
+			int charfontDiff=block.format.compareTo(block.page.content.bodyBlockformat);
+			
+			if(block.likeBodyBlock1()>=Common._ParaSentDefaultUno)
+				return true;
+			
+			if(charfontDiff>=0 && block.likeTitleBlock()>=0)
+				return true;
+			
+			return false;
+		}
+	}*/
+	
+	public static class SubtitleBlockFilter implements BlockFilter {
+		@Override
+		public boolean filter(Block2 block) {
+			if(block.abbrOnly() || block.trivial())
+				return false;
+			return block.format.compareTo(block.page.content.bodyBlockformat) >= 0 &&
+					block.type.contains(Common._SubtitlePrefix);
+		}
 	}
 }

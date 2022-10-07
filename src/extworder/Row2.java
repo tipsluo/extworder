@@ -18,7 +18,7 @@ public class Row2 extends Rectangle {
 	Page2 page;
 	float interval=-1;
 	float medium=-1;
-	long value=-1;
+	private long value=-1;
 	private String str="";
 	int spaceWidth=-1;
 	
@@ -82,7 +82,7 @@ public class Row2 extends Rectangle {
 	
 	private void getSpaceWidth() {
 		if(chars.size()<2) {
-			spaceWidth=-1;
+			spaceWidth=999;
 			return;
 		}
 			
@@ -101,16 +101,21 @@ public class Row2 extends Rectangle {
 		}
 		
 		if(intervals.records.size()<2) {
-			spaceWidth=-1;
+			spaceWidth=999;
 			return;
 		}
 		
 		spaceWidth=intervals.topsByValue(2).get(1);
 	}
 	
-	private long getValue() {
-		if(chars.size()<=1)
-			return -1;
+	long getValue() {
+		if(value>=0)
+			return value;
+			
+		if(chars.size()<=1) {
+			value=999999999;
+			return value;
+		}
 		
 		int aveInterval=0;
 		int sumInterval=0;
@@ -132,7 +137,8 @@ public class Row2 extends Rectangle {
 			sumDiffSqrt+=diff*diff;
 		}
 		
-		return Math.abs(sumDiffSqrt / intervals.size());
+		value=Math.abs(sumDiffSqrt / intervals.size());
+		return value;
 	}
 	
 	/*void setActive() {

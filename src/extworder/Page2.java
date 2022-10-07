@@ -20,13 +20,15 @@ public class Page2 extends Rectangle {
     public ArrayList<Char2> chars;
     public ArrayList<Block2> blocks;
     public ArrayList<Row2> rows;
-    public SortedList<Block2> blockCandidates;
-    public SortedList<Row2> rowCandidates;
+    SortedList<Block2> blockCandidates;
+    SortedList<Row2> rowCandidates;
+    public ArrayList<Column2> columns;
     PageBitmap pageBitmap;
     public PageImg pageImg;
 	private int xOffset;
 	private int yOffset;
 	private List<BlockSet> blocksetCandidates;
+    int headerY,footerY;
 	
 	//final static int _MaxCharInRowInterval=1;
 	final static int _RowIntervalFactor1=3;
@@ -38,6 +40,7 @@ public class Page2 extends Rectangle {
 		this.pid=pid;
 		chars=new ArrayList<Char2>();
 		blocks=new ArrayList<Block2>();
+		columns=new ArrayList<Column2>();
 		rows=new ArrayList<Row2>();
 	}
 	
@@ -470,6 +473,68 @@ public class Page2 extends Rectangle {
 			}
 	}
 	
+	protected ArrayList<Block2> upperBlocks() {
+		ArrayList<Block2> tbs=new ArrayList<Block2>();
+		
+		for(Block2 block:blocks)
+			tbs.add(block);
+		
+		for(Block2 block:blocks)
+			for(int i=0; i<tbs.size(); i++) {
+				Block2 tb=tbs.get(i);
+				if( tb.hIntersected(block) && tb.upper>block.lower ) {
+					tbs.remove(tb);
+					i--;
+				}
+			}
+		
+		Collections.sort(tbs,Block2.compareBlocks);
+		
+		return tbs;
+	}
+	
+	protected ArrayList<Block2> lowerBlocks() {
+		ArrayList<Block2> bbs=new ArrayList<Block2>();
+		
+		for(Block2 block:blocks)
+			bbs.add(block);
+		
+		for(Block2 block:blocks)
+			for(int i=0; i<bbs.size(); i++) {
+				Block2 bb=bbs.get(i);
+				if( bb.hIntersected(block) && bb.lower<block.upper ) {
+					bbs.remove(bb);
+					i--;
+				}
+			}
+		
+		Collections.sort(bbs,Block2.compareBlocks);
+		
+		return bbs;
+	}
+	
+	void markHeaderFooter() {
+		headerY=upper;
+		footerY=lower;
+		
+		for(Block2 block:blocks) {
+
+			if(block.type==Block2._PageHeaderBlock)
+				if(headerY<block.lower)
+					headerY=block.lower;
+			
+			if(block.type==Block2._PageFooterBlock)
+				if(footerY>block.upper)
+					footerY=block.upper;
+		}
+		
+		for(Block2 block:blocks)
+			if(block.lower<=headerY)
+				block.type=Block2._PageHeaderBlock;
+			else if(block.upper>=footerY)
+				block.type=Block2._PageFooterBlock;
+	}
+	
 	boolean ignored() {
 		return content.ignorePage.isIgnored(this);
 	}
@@ -503,9 +568,9 @@ public class Page2 extends Rectangle {
 					pageImg.img.getWidth(),pageImg.img.getHeight()));
 		
 		fw.write("\n\nColumn meta:\n");
-		/*for(Column column:columns) {
+		for(Column2 column:columns) {
 			column.printMeta(fw);
-		}*/
+		}
 		
 		fw.write("\n\nBlocks:\n----------------------\n");
 		for(Block2 block:blocks) {
@@ -542,7 +607,7 @@ public class Page2 extends Rectangle {
 		
 		BlockSet(Page2 page) {
 			super();
-			value=0;
+			value=-1;
 			this.page=page;
 			rowsAvailable=new ArrayList<Row2>();
 			rowsAvailable.addAll(page.rowCandidates.list);
@@ -554,6 +619,7 @@ public class Page2 extends Rectangle {
 		
 		BlockSet(BlockSet bs, Block2 b) {
 			super();
+			value=-1;
 			value=bs.value;
 			page=bs.page;
 			list.addAll(bs.list);
@@ -577,9 +643,12 @@ public class Page2 extends Rectangle {
 		}
 		
 		long getValue() {
+			if(value>=0) {
+				return value;
+			}
 			long v=0;
 			for(Block2 block:list)
-				v+=block.value;
+				v+=block.getValue();
 			return v;
 		}
 		
@@ -597,6 +666,133 @@ public class Page2 extends Rectangle {
 					return true;
 			
 			return false;
+		}
+	}
+	
+	public class Column2 extends Rectangle {
+		public ArrayList<Block2> blocks;
+		
+		public Column2(int left,int upper,int right, int lower) {
+			super(left,upper,right,lower);
+			build();
+		}
+		
+		private void build() {
+			blocks=new ArrayList<Block2>();
+			
+			for(Block2 block:Page2.this.blocks) {
+				if(contains(block) && block.column==null) {
+					block.column=this;
+					blocks.add(block);
+				}
+			}
+			
+			render();
+		}
+		
+		void render() {
+			Collections.sort(blocks,Block2.compareBlocks);
+			resetRectangle();
+			for(Block2 block:blocks) {
+				if(block.rows.size()==0)
+					continue;
+				updateRectangle(block);
+				block.format.update(block);
+				renderStrings();
+			}
+		}
+		
+		public void renderStrings() {
+			for(Block2 block:blocks)
+				block.renderString();
+		}
+		
+		public void print(FileWriter fw) throws IOException  {
+			fw.write(String.format("Column left:%d upper:%d right:%d lower %d\n",
+									left,upper,right,lower));
+			for(Block2 block:blocks)
+				block.print(fw);
+		}
+		
+		public void printMeta(FileWriter fw) throws IOException  {
+			fw.write(String.format("Column left:%d upper:%d right:%d lower %d\n",
+									left,upper,right,lower));
+		}
+		
+		String string(BlockFilter ...blockFilters) {
+			String str="";
+			
+			for(Block2 block:blocks) {
+				boolean unmatched=false;
+				
+				for(BlockFilter filter : blockFilters)
+					if(! filter.filter(block)) {
+						unmatched=true;
+						break;
+					}
+				
+				if(unmatched)
+					continue;
+			
+				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		String subtitles() {
+			String str="";
+			
+			for(Block2 block:blocks) {
+				if(! Block2.subtitleBlockFilter.filter(block))
+					continue;
+				
+				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		/*ArrayList<Block> getBigBlockList() {
+			ArrayList<Block> blocklist=new ArrayList<Block>();
+			
+			for(Block block:blocks) {
+				if(! Block.bigBlockFilter.filter(block))
+					continue;
+				blocklist.add(block);
+			}
+			
+			return blocklist;
+		}*/
+		
+		String string() {
+			String str="";
+			
+			for(Block2 block:blocks) {
+				str+=block.string()+"\n";
+			}
+			
+			return str;
+		}
+		
+		public ArrayList<Block2> filterBlocks(BlockFilter ...blockFilters) {
+			ArrayList<Block2> bs=new ArrayList<Block2>();
+			
+			for(Block2 block:blocks) {
+				boolean matched=false;
+				
+				for(BlockFilter blockFilter: blockFilters)
+					if(blockFilter.filter(block)) {
+						matched=true;
+					
+						break;
+					}
+				
+				if(matched)
+					bs.add(block);
+			}
+			
+			return bs;
 		}
 	}
 	
