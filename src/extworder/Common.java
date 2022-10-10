@@ -12,7 +12,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Common {
-	public final static int _KeyBlockWordPageRation=10;
+	/*public final static int _KeyBlockWordPageRation=10;
 	public final static int _MinKeyBlockWordNum=50;	
 	
 	final static float _MinAbstractFreqencyRatio=0.65f;
@@ -53,7 +53,6 @@ public class Common {
 	final static String _BeforeFirstBody="BEFOREFIRSTBODY";
 	final static String _Body="BODY";
 	final static String _SubtitlePrefix="SUBTITLE_";
-	//final static String _SectionPrefix="SECTION_";
 	final static String _IgnoredBlockPrefix="IGNORED_";
 	final static String _IgnoredBlockIntraBody=_IgnoredBlockPrefix+"INTRABODY";
 	final static String _IgnoredBlockColored=_IgnoredBlockPrefix+"COLORED";
@@ -108,7 +107,7 @@ public class Common {
 	final static int _LEFTORIENTED=-1;
 	final static int _RIGHTORIENTED=1;
 	
-	final static boolean __DEBUG=false;
+	final static boolean __DEBUG=false;*/
 	
 	
 	final static Pattern infinishedBodyBlock;
@@ -162,7 +161,7 @@ public class Common {
 	}
 	
 	static int subtitleLevel(String type) {
-		Pattern p = Pattern.compile( _SubtitlePrefix+"(.*)" );
+		Pattern p = Pattern.compile( Block2._SubtitlePrefix+"(.*)" );
 		Matcher m = p.matcher( type );
 		if ( m.find() ) {
 		   String s=m.group(1);
@@ -172,7 +171,7 @@ public class Common {
 	}
 	
 	public static String subtitleBlockType(Block2 block) {
-		return Common._SubtitlePrefix+Integer.toString(
+		return Block2._SubtitlePrefix+Integer.toString(
 					block.page.content.blockformatIndexes.get(block.format));
 	}
 	
@@ -598,9 +597,9 @@ public class Common {
 	}
 	
 	static public class NontitleChecker {
-		public void check(Content c) {
+		public void check(Content2 c) {
 		}
-		public boolean select(Block block) {
+		public boolean select(Block2 block) {
 			return true;
 		}
 	}

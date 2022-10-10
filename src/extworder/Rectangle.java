@@ -8,6 +8,8 @@ public class Rectangle implements Comparable<Rectangle> {
 	float width, height;
 	long hashValue=0;
 	
+	final static int _AlignAdjustment=2;
+	
 	Rectangle() {
 		resetRectangle();
 	}
@@ -119,23 +121,23 @@ public class Rectangle implements Comparable<Rectangle> {
 		int leftIndent=left-parentRect.left;
 		int rightIndent=parentRect.right-right;
 		
-		if(Math.abs(leftIndent)<=Common._AlignAdjustment && Math.abs(rightIndent)<=Common._AlignAdjustment)
-			return Common._FULLALIGNED;
-		if(Math.abs(leftIndent)<=Common._AlignAdjustment)
-			return Common._LEFTALIGNED;
-		else if(Math.abs(leftIndent-content.firstRowIndent)<=Common._AlignAdjustment)
-			return Common._INDENTLEFTALIGNED;
-		else if(Math.abs(rightIndent)<=Common._AlignAdjustment)
-			return Common._RIGHTALIGNED;
+		if(Math.abs(leftIndent)<=_AlignAdjustment && Math.abs(rightIndent)<=_AlignAdjustment)
+			return Block2._FULLALIGNED;
+		if(Math.abs(leftIndent)<=_AlignAdjustment)
+			return Block2._LEFTALIGNED;
+		else if(Math.abs(leftIndent-content.firstRowIndent)<=_AlignAdjustment)
+			return Block2._INDENTLEFTALIGNED;
+		else if(Math.abs(rightIndent)<=_AlignAdjustment)
+			return Block2._RIGHTALIGNED;
 		else if(Math.abs(leftIndent-rightIndent) <= centerAlignAdj)
-			return Common._CENTERALIGNED;
+			return Block2._CENTERALIGNED;
 		else
-			return Common._UNKNOWNALIGNED;
+			return Block2._UNKNOWNALIGNED;
 	}
 	
 	protected boolean rightAligned(Rectangle parent) {
 		return right<=parent.right && 
-				right>=parent.right-Math.round(parent.width*Common._ColumnWidthAdjustment);
+				right>=parent.right-Math.round(parent.width*Page2._ColumnWidthAdjustment);
 	}
 	
 	protected boolean rightAligned(Rectangle parent, int rightAdj) {
@@ -144,7 +146,7 @@ public class Rectangle implements Comparable<Rectangle> {
 	
 	protected boolean leftAligned(Rectangle parent) {
 		return left>=parent.left && 
-				left<=parent.left+Math.round(parent.width*Common._ColumnWidthAdjustment);
+				left<=parent.left+Math.round(parent.width*Page2._ColumnWidthAdjustment);
 	}
 	
 	protected boolean leftAligned(Rectangle parent, int leftAdj) {
@@ -153,7 +155,7 @@ public class Rectangle implements Comparable<Rectangle> {
 	
 	protected boolean centralAligned(Rectangle parent) {
 		return centralAligned(parent,
-				Math.round(parent.width*Common._ColumnWidthAdjustment));
+				Math.round(parent.width*Page2._ColumnWidthAdjustment));
 	}
 	
 	protected boolean centralAligned(Rectangle parent, int adj) {
@@ -230,8 +232,8 @@ public class Rectangle implements Comparable<Rectangle> {
 	}
 	
 	boolean isFull(Content content, Rectangle rect) {
-		return width >= rect.width * (1-Common._ColumnWidthAdjustment) &&
-				width <= rect.width * (1+Common._ColumnWidthAdjustment);
+		return width >= rect.width * (1-Page2._ColumnWidthAdjustment) &&
+				width <= rect.width * (1+Page2._ColumnWidthAdjustment);
 	}
 	
 	boolean isLongEnough(Rectangle rect, Row2 next) {

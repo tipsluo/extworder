@@ -316,14 +316,14 @@ public class Row2 extends Rectangle {
 		}
 		
 		public boolean similar(CharFont cf) {
-			return Math.abs(value()-cf.value())<=Common._MaxSameCharFontHeightDiff;
+			return Math.abs(value()-cf.value())<=Char2._MaxSameCharFontHeightDiff;
 		}
 		
 		public float value() {
 			float f=height;
 			
 			if(bold>0)
-				f=f + bold * Common._BoldCharFontValue;
+				f=f + bold * Char2._BoldCharFontValue;
 					
 	        return f;
 		}

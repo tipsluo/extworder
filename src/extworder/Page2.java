@@ -6,13 +6,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.TextPosition;
 
 import extworder.Block2.BlockFilter;
 import extworder.Common.SortedList;
+import extworder.Common.Stretch;
 
 public class Page2 extends Rectangle {
 	public Content2 content;
@@ -34,6 +38,10 @@ public class Page2 extends Rectangle {
 	final static int _RowIntervalFactor1=3;
 	final static int _RowIntervalFactor2=2;
 	final static float _MaxBlockIntervalRatio=3.5f;
+	final static float _ColumnWidthAdjustment=0.05f;
+	final static float _CenterAlignAdjustment=0.05f;
+	
+	final static CompareColumns compareColumns=new CompareColumns();
     
 	public Page2(Content2 content,int pid) {
 		this.content=content;
@@ -112,6 +120,8 @@ public class Page2 extends Rectangle {
 		rowCandidates=null;
 		for(Char2 c: chars)
 			c.rowCandidates=null;
+		
+		separateAllUppers();
 	}
 	
 	private void generateAllRowCandidates() {
@@ -267,46 +277,6 @@ public class Page2 extends Rectangle {
 		
 		//return changed;
 	}
-	 
-	/*private void mateBlocks() {
-		SortedList<Block2> tempBlocks=new SortedList<Block2>();
-		
-		tempBlocks.list.addAll(blockCandidates.list);
-		
-		System.out.printf("\nMating blocks. Block candidates proecessed: %d. Row candidate count: %d.", blockCandidates.list.size(), rowCandidates.list.size());
-		
-		for(int i=0; i<tempBlocks.list.size(); i++) {
-			Block2 block1=tempBlocks.list.get(i);
-				
-			for(int j=i+1; j<tempBlocks.list.size(); j++) {
-				Block2 block2=tempBlocks.list.get(j);
-				
-				if(block1.format.charfont.height!=block2.format.charfont.height || !block1.hIntersected(block2))
-					continue;
-				
-				float dis=Block2.blockVDistance(block1,block2);
-				float maxInterval=Math.max(block1.format.charfont.height, block2.format.charfont.height) * _MaxBlockIntervalRatio;
-				
-				if(dis>maxInterval || (block1.rows.size()>1 && Math.abs(dis-block1.interval)>1) || (block2.rows.size()>1 && Math.abs(dis-block2.interval)>1))
-					continue;
-				
-				if(dis==-1 && Block2.overlap(block1,block2)) {
-					continue;
-				}
-				
-				if(block1.rows.size()>1 && block2.rows.size()>1 && Math.abs(block1.interval-block2.interval)>1)
-					continue;
-				
-				new Block2(dis,block1,block2);
-
-			}
-		}
-		
-		if(tempBlocks.list.size()==blockCandidates.list.size())
-			return;
-		
-		mateBlocks();
-	}*/
 	
 	private void generateBlocksetCandidates() {
 		blocksetCandidates=new ArrayList<BlockSet>();
@@ -348,42 +318,6 @@ public class Page2 extends Rectangle {
 		if(!next)
 			blocksetCandidates.add(blockset);
 	}
-	
-/*	private void generateBlocksetCandidates() {
-		blocksetCandidates=new ArrayList<BlockSet>();
-		
-		System.out.println();
-		
-		BlockSet blockset=new BlockSet(this);
-		buildBlockset(blockset);
-	}
-	
-	private void buildBlockset(BlockSet blockset) {
-		if(blockset.charsAvailable.size()==0) {
-			blocksetCandidates.add(blockset);
-			return;
-		}
-
-		Char2 ch=blockset.charsAvailable.get(0);
-		
-		if(ch.blockCandidates.list.size()==0)
-			System.out.printf("Character %s doesn't have any block candidate. (%d,%d)\n",ch.str,ch.left,ch.upper);
-		
-		for(int i=0; i<ch.blockCandidates.list.size(); i++) {
-			Block2 b=ch.blockCandidates.list.get(i);
-			
-			if(blockset.overlap(b))
-				continue;
-				
-			BlockSet newBlockset=new BlockSet(blockset,b);
-			
-			newBlockset.addSort(b);
-			
-			System.out.printf("i=%d, block set available char count: %d\n",i,newBlockset.charsAvailable.size());
-
-			buildBlockset(newBlockset);
-	}
-	}*/
 	
 	private void adjustCoordinates() {
 		xOffset=left-1;
@@ -533,9 +467,137 @@ public class Page2 extends Rectangle {
 				block.type=Block2._PageFooterBlock;
 	}
 	
+	int makeColumns() {
+		int columnedBlockCount=0;
+		TreeMap<Stretch,Integer> stretches=new TreeMap<>();
+		
+		for(Row2 row:rows) {
+			if(row.width!=row.block.width)
+				continue;
+			
+			if(row.width < content.lowColumnWidth || row.width > content.highColumnWidth)
+				continue;
+			
+			Stretch stretch=new Stretch(row.left,row.right);
+			
+			int n=stretches.compute(stretch, (k,v) -> (v == null ? 0 : v) + 1);
+			stretches.put(stretch,n);
+		}
+		
+		ArrayList<Stretch> columnStretches=new ArrayList<>();
+		
+		LinkedHashMap<Stretch, Integer> reverseSortedMap = new LinkedHashMap<>();
+		stretches.entrySet()
+	    	.stream()
+	    	.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) 
+	    	.forEachOrdered(x -> reverseSortedMap.put(x.getKey(), x.getValue()));
+		int i=0;
+		for (Map.Entry<Stretch,Integer> entry : reverseSortedMap.entrySet()) {
+			if(i>=content.columnNumber) break;
+			
+			Stretch s=entry.getKey();
+			columnStretches.add(s);
+			i++;
+		}
+		
+		Collections.sort(columnStretches);
+		
+		for(Stretch columnStretch:columnStretches) {
+			int a=(int) (content.columnWidth * Page2._ColumnWidthAdjustment / 2);
+			int l=columnStretch.start - a;
+			int r=columnStretch.end + a;
+			
+			Column2 column=new Column2(l,headerY,r,footerY);
+			columns.add(column);
+			columnedBlockCount+=column.blocks.size();
+		}
+		
+		sortBlocks();
+		
+		return columnedBlockCount;
+	}
+	
+	ArrayList<Block2> getBlockList2() {
+		ArrayList<Block2> bl=new ArrayList<Block2>();
+		
+		for(Block2 block:blocks)
+			if(block.column==null) {
+				bl.add(block);
+			}
+		
+		if(columns.size()>0)
+			for(Column2 column:columns)
+				for(Block2 block:column.blocks) {
+					bl.add(block);
+				}
+		
+		return bl;
+	}
+	
+	ArrayList<Block2> getBigBlockList() {
+		ArrayList<Block2> blocklist=new ArrayList<Block2>();
+		
+		for(Block2 block:blocks) {
+			if(! Block2.bigBlockFilter.filter(block))
+				continue;
+			blocklist.add(block);
+		}
+		
+		return blocklist;
+	}
+	
+	void sortBlocks() {
+		if(columns.size()>0) {
+			Collections.sort(columns,compareColumns);
+			for(Column2 column:columns)
+				Collections.sort(column.blocks,Block2.compareBlocks);
+		}
+
+		Collections.sort(blocks,Block2.compareBlocks);
+	}
+	
 	boolean ignored() {
 		return content.ignorePage.isIgnored(this);
 	}
+	
+	void separateAllUppers() {
+		Block2 block;
+		for(int i=0; i<blocks.size(); i++) {
+			block=blocks.get(i);
+		
+			if(block.rows.size()<2 )
+				continue;
+			
+			Row2 row1=block.rows.get(0);
+			if(Common.lowercaseExisting.matcher(row1.string()).find())
+				continue;
+
+			Row2 row2=block.rows.get(1);
+			if(Common.leading2Uppercase.matcher(row2.string()).find())
+				continue;
+			
+			ArrayList<Block2> newBlocks=block.split(1);
+			
+			blocks.remove(i);
+			blocks.addAll(newBlocks);
+			
+			i--;
+		}
+		
+		Collections.sort(blocks,Block2.compareBlocks);
+	}
+	
+	void updateBlockFormats() {
+		for(Block2 block:blocks) {
+			block.format.update(block);
+		}
+	}
+	
+	public void renderStrings() {
+		for(Block2 block:blocks)
+			block.renderString();
+	}
+	
 	
 	class PageBitmap {
 		Char2.Point[][] points;
@@ -595,6 +657,32 @@ public class Page2 extends Rectangle {
 		}
 		
 		return str;
+	}
+	
+	String subtitles() {
+		String str="";
+		
+		for(Column2 column: columns) {
+			str+=column.subtitles();
+		}
+		
+		return str;
+	}
+	
+	public ArrayList<Block2> filterBlocks(BlockFilter ...blockFilters) {
+		ArrayList<Block2> bs=new ArrayList<Block2>();
+		
+		for(Column2 column: columns) {
+			bs.addAll(column.filterBlocks(blockFilters));
+		}
+		
+		return bs;
+	}
+	
+	static class CompareColumns implements Comparator<Column2> {
+		public int compare(Column2 c1,Column2 c2) {
+			return c1.left-c2.left;
+		}
 	}
 	
 	class BlockSet extends SortedList<Block2> {
@@ -750,18 +838,6 @@ public class Page2 extends Rectangle {
 			
 			return str;
 		}
-		
-		/*ArrayList<Block> getBigBlockList() {
-			ArrayList<Block> blocklist=new ArrayList<Block>();
-			
-			for(Block block:blocks) {
-				if(! Block.bigBlockFilter.filter(block))
-					continue;
-				blocklist.add(block);
-			}
-			
-			return blocklist;
-		}*/
 		
 		String string() {
 			String str="";

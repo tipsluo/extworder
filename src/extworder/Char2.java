@@ -12,7 +12,9 @@ public class Char2 extends Rectangle {
 	PDFont font;
 	Row2 row;
 	SortedList<Row2> rowCandidates;
-	//SortedList<Block2> blockCandidates;
+	
+	final static float _MaxSameCharFontHeightDiff=0.1f;
+	final static float _BoldCharFontValue=0.25f;
 	
 	static Comparator<Char2> compareChars = (Char2 ch1, Char2 ch2) ->
 		ch1.left!=ch2.left ? (int)(ch1.left-ch2.left) : (int)(ch1.upper-ch2.upper);

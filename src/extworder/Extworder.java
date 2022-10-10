@@ -311,7 +311,7 @@ public class Extworder {
 	}
 	
 	public static void displayChars(String pdfName) throws IOException {
-		Content2 content = new Content2(pdfPath(pdfName), null, new IgnorePage(), false, true, true, initNontitles());
+		Content2 content = new Content2(pdfPath(pdfName), null, new IgnorePage(), true, initNontitles());
 		
 		FileWriter myWriter = null;
 		
@@ -332,7 +332,7 @@ public class Extworder {
 	}
 	
 	public static void displayRows(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
-		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(), false, true, true, initNontitles());
+		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(), true, initNontitles());
 		
 		FileWriter myWriter = null;
 		
@@ -356,7 +356,7 @@ public class Extworder {
 	}
 	
 	public static void displayBlocks(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
-		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(), false, true,true, initNontitles());
+		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(), true,initNontitles());
 		
 		FileWriter myWriter = null;
 		
@@ -380,7 +380,7 @@ public class Extworder {
 	}
 	
 	public static void printBlocks(String pdfName,ArrayList<Pattern> abbrPatterns) throws IOException {
-		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(),true,true,false, initNontitles());
+		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns, new IgnorePage(),true,initNontitles());
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_block2.txt");
 		
@@ -390,12 +390,12 @@ public class Extworder {
 	}
 	
 	public static void printContent(String pdfName,ArrayList<Pattern> abbrPatterns, List<Common.NontitleChecker> nontitleCheckers) throws IOException {
-		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns,new IgnorePage(),true,true,false, nontitleCheckers);
+		Content2 content = new Content2(pdfPath(pdfName), abbrPatterns,new IgnorePage(),true,nontitleCheckers);
 		
 		FileWriter myWriter= new FileWriter(_TestDataDir+pdfName+"_content.txt");
 
 		String abstrStr="";
-		/*if(content.abstractBlock!=null)
+		if(content.abstractBlock!=null)
 			abstrStr=content.abstractBlock.string();
 		myWriter.write(String.format("Title:\n%s\nAbstract:\n%s\n----------------------\n",
 				content.title(),abstrStr));
@@ -406,7 +406,7 @@ public class Extworder {
 		myWriter.write(String.format("\n\nText:\n----------------------\n"));
 		myWriter.write(content.body());
 		
-		myWriter.close();*/
+		myWriter.close();
 	}
 	
     static ArrayList<String> getAllTestPDFs() {
