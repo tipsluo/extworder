@@ -503,7 +503,7 @@ public class Common {
 		
 	    @Override
 	    public int hashCode() {
-	        return start + end<<10;
+	        return start + end<<16;
 	    }
 	    
 	    public int length() {
@@ -593,6 +593,10 @@ public class Common {
 		
 		public int search(T t) {
 			return Collections.binarySearch(list,t);
+		}
+		
+		public void remove(T t) {
+			list.remove(search(t));
 		}
 	}
 	

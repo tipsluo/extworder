@@ -34,7 +34,6 @@ public class Page2 extends Rectangle {
 	private List<BlockSet> blocksetCandidates;
     int headerY,footerY;
 	
-	//final static int _MaxCharInRowInterval=1;
 	final static int _RowIntervalFactor1=3;
 	final static int _RowIntervalFactor2=2;
 	final static float _MaxBlockIntervalRatio=3.5f;
@@ -98,12 +97,19 @@ public class Page2 extends Rectangle {
 		
 		long lowest=999999999;
 		BlockSet blockset=null;
-		for(BlockSet bs: blocksetCandidates) 
-			if(bs.value<lowest) {
+		for(BlockSet bs: blocksetCandidates) {
+			if(!bs.validate())
+				continue;
+			if(bs.getValue()<lowest) {
 				lowest=bs.value;
 				blockset=bs;
 			}
-		
+		}
+		if(blockset==null) {
+			System.out.printf("ERROR: Page %d doesn't have qualified block set.\n", pid);
+			return;
+		}
+			
 		blocks=blockset.list;
 		for(Block2 block:blocks) {
 			for(Row2 row:block.rows) {
@@ -161,6 +167,16 @@ public class Page2 extends Rectangle {
 			row.render();
 			v=v1;
 		}
+		
+		ArrayList<Char2> charChecks=new ArrayList<Char2>();	
+		charChecks.addAll(chars);
+		for(Row2 row: rowCandidates.list)
+			for(Char2 ch:row.chars) {
+				charChecks.remove(ch);
+			}
+		if(charChecks.size()!=0) {
+			System.out.printf("ERROR: Page %d doesn't have all chars in the row candidates.\n", pid);
+		}
 	}
 	
 	private void generateAllBlockCandidates() {
@@ -194,15 +210,18 @@ public class Page2 extends Rectangle {
 			}
 		}
 		Collections.sort(blockCandidates.list, Block2.compareBlockHashValue);
-	}
-	
-	/*private void buildBlockCandidates(Block2 block, Row2 row, float maxInterval) {
-		if(changed) {
-			for(Row2 r:block.rows)
-				r.blockCandidates.list.remove(block);
-			blockCandidates.list.remove(block);
+
+		ArrayList<Char2> charChecks=new ArrayList<Char2>();	
+		charChecks.addAll(chars);
+		for(Block2 block:blockCandidates.list)
+			for(Row2 row: block.rows)
+				for(Char2 ch:row.chars) {
+					charChecks.remove(ch);
+				}
+		if(charChecks.size()!=0) {
+			System.out.printf("ERROR: Page %d doesn't have all chars in the block candidates.\n", pid);
 		}
-	}*/
+	}
 	
 	private void buildBlockCandidatesBelow(Block2 block, Row2 row, float maxInterval) {
 		SortedList<Row2> rs=row.getAllBelowCandidates(maxInterval);
@@ -214,7 +233,7 @@ public class Page2 extends Rectangle {
 					continue;
 			}
 
-			float dis=row.medium-r.medium;
+			float dis=Math.abs(row.medium-r.medium);
 			
 			if(block.rows.size()>=2 && Math.abs(dis-block.interval)>1)
 				continue;
@@ -252,7 +271,7 @@ public class Page2 extends Rectangle {
 					continue;
 			}
 
-			float dis=row.medium-r.medium;
+			float dis=Math.abs(row.medium-r.medium);
 			
 			if(block.rows.size()>=2 && Math.abs(dis-block.interval)>1)
 				continue;
@@ -280,44 +299,91 @@ public class Page2 extends Rectangle {
 	
 	private void generateBlocksetCandidates() {
 		blocksetCandidates=new ArrayList<BlockSet>();
-		
-		System.out.println();
 
-		BlockSet blockset=new BlockSet(this);
-		buildBlockset(blockset,0);
+		BlockSet blockset=new BlockSet();
+		buildBlockset(blockset);
 	}
 	
-	private void buildBlockset(BlockSet blockset, int level) {
+	private void buildBlockset(BlockSet blockset) {
+		if(blockset.blocksAvailable.size()==0) {
+			blocksetCandidates.add(blockset);
+			return;
+		}
+		
+		SortedList<Block2> bs=new SortedList<Block2>();
+		Block2 block=blockset.blocksAvailable.get(0);
+		for(Row2 r:block.rows)
+			bs.addSortUniq(r.blockCandidates);
+		
+		boolean changed=false;
+		for(int i=0; i<bs.list.size(); i++) {
+			Block2 b=bs.list.get(i);
+			
+			int n=blockset.search(b);
+			if(n>=0)
+				continue;
+			if(blockset.overlap(b))
+				continue;
+			
+			changed=true;
+			BlockSet newBlockset=new BlockSet(blockset,b);
+			buildBlockset(newBlockset);
+		}
+		
+		if(!changed) {
+			blockset.blocksAvailable.remove(block);
+			
+			if(blockset.blocksAvailable.size()>0) {
+				buildBlockset(blockset);
+			}
+		}
+	}
+	
+	/*private void generateBlocksetCandidates() {
+		blocksetCandidates=new ArrayList<BlockSet>();
+
+		BlockSet blockset=new BlockSet();
+		buildBlockset(blockset);
+	}
+	
+	private void buildBlockset(BlockSet blockset) {
 		if(blockset.rowsAvailable.size()==0) {
 			blocksetCandidates.add(blockset);
 			return;
 		}
 		Row2 row=blockset.rowsAvailable.get(0);
+		blockset.rowsAvailable.remove(0);
 		
 		if(row.blockCandidates.list.size()==0)
 			System.out.printf("Row %s doesn't have any block candidate. (%d,%d)\n",row.string(),row.left,row.upper);
 		
-		boolean next=false;
+		boolean changed=false;
 		for(int i=0; i<row.blockCandidates.list.size(); i++) {
 			Block2 b=row.blockCandidates.list.get(i);
 			
 			if(blockset.overlap(b))
 				continue;
 			
-			next=true;
-				
+			changed=true;
+			
 			BlockSet newBlockset=new BlockSet(blockset,b);
 			
 			newBlockset.addSort(b);
 			
 			//System.out.printf("level=%d, i=%d, block set available row count: %d\n",level, i,newBlockset.rowsAvailable.size());
 
-			buildBlockset(newBlockset,level+1);
+			buildBlockset(newBlockset);
 		}
 		
-		if(!next)
-			blocksetCandidates.add(blockset);
-	}
+		if(!changed) {
+			if(blockset.rowsAvailable.size()>0) {
+				buildBlockset(blockset);
+				//} else
+				//	blocksetCandidates.add(blockset);
+			}
+		}
+
+	}*/
 	
 	private void adjustCoordinates() {
 		xOffset=left-1;
@@ -415,7 +481,7 @@ public class Page2 extends Rectangle {
 			for(int i=0; i<tbs.size(); i++) {
 				Block2 tb=tbs.get(i);
 				if( tb.hIntersected(block) && tb.upper>block.lower ) {
-					tbs.remove(tb);
+					tbs.remove(i);
 					i--;
 				}
 			}
@@ -435,7 +501,7 @@ public class Page2 extends Rectangle {
 			for(int i=0; i<bbs.size(); i++) {
 				Block2 bb=bbs.get(i);
 				if( bb.hIntersected(block) && bb.lower<block.upper ) {
-					bbs.remove(bb);
+					bbs.remove(i);
 					i--;
 				}
 			}
@@ -687,16 +753,17 @@ public class Page2 extends Rectangle {
 	
 	class BlockSet extends SortedList<Block2> {
 		long value;
-		Page2 page;
-		List<Row2> rowsAvailable;
+		List<Block2> blocksAvailable;
 		Rectangle area;
 		
-		BlockSet(Page2 page) {
+		BlockSet() {
 			super();
 			value=-1;
-			this.page=page;
-			rowsAvailable=new ArrayList<Row2>();
-			rowsAvailable.addAll(page.rowCandidates.list);
+			blocksAvailable=new ArrayList<Block2>();
+			blocksAvailable.addAll(Page2.this.blockCandidates.list);
+			
+			/*rowsAvailable=new ArrayList<Row2>();
+			rowsAvailable.addAll(Page2.this.rowCandidates.list);*/
 			
 			area=new Rectangle();
 			for(Block2 b:list)
@@ -707,14 +774,19 @@ public class Page2 extends Rectangle {
 			super();
 			value=-1;
 			value=bs.value;
-			page=bs.page;
+			//page=bs.page;
 			list.addAll(bs.list);
-			rowsAvailable=new ArrayList<Row2>();
-			rowsAvailable.addAll(bs.rowsAvailable );
 			
-			for(Row2 r:b.rows) {
-				rowsAvailable.remove(r);
-				
+			blocksAvailable=new ArrayList<Block2>();
+			blocksAvailable.addAll(bs.blocksAvailable );
+			area=new Rectangle(bs.area);
+			area.updateRectangle(b);
+			addSortUniq(b);
+			blocksAvailable.remove(b);
+			/*rowsAvailable=new ArrayList<Row2>();
+			rowsAvailable.addAll(bs.rowsAvailable );*/
+			
+			/*for(Row2 r:b.rows) {
 				for(int i=0; i<rowsAvailable.size(); i++) {
 					Row2 r1=rowsAvailable.get(i);
 					if(r.hIntersected(r1) && r.vIntersected(r1)) {
@@ -722,25 +794,24 @@ public class Page2 extends Rectangle {
 						i--;
 					}
 				}
-			}
-			
-			area=new Rectangle(bs.area);
-			area.updateRectangle(b);
+			}*/
+		
 		}
 		
 		long getValue() {
 			if(value>=0) {
 				return value;
 			}
-			long v=0;
+			value=0;
 			for(Block2 block:list)
-				v+=block.getValue();
-			return v;
+				value+=block.getValue();
+
+			return value;
 		}
 		
 		void register() {
 			getValue();
-			page.blocksetCandidates.add(this);
+			Page2.this.blocksetCandidates.add(this);
 		}
 		
 		boolean overlap(Block2 block) {
@@ -752,6 +823,20 @@ public class Page2 extends Rectangle {
 					return true;
 			
 			return false;
+		}
+		
+		boolean validate() {
+			ArrayList<Char2> chars=new ArrayList<Char2>();
+			
+			chars.addAll(Page2.this.chars);
+			
+			for(Block2 block:list)
+				for(Row2 row: block.rows)
+					for(Char2 ch:row.chars) {
+						chars.remove(ch);
+					}
+			
+			return chars.size()==0;
 		}
 	}
 	

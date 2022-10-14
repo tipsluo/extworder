@@ -9,6 +9,7 @@ import java.util.regex.Pattern;
 
 import extworder.Common.SortedList;
 import extworder.Common.StatGroup;
+import extworder.Common.Stretch;
 
 public class Row2 extends Rectangle {
 	CharFont charfont;
@@ -28,6 +29,8 @@ public class Row2 extends Rectangle {
 		(int)(r1.height-r2.height) ;
 	static Comparator<Row2> compareRowLefts = (Row2 r1, Row2 r2) ->
 		r1.left != r2.left ? Common.compareValue(r1.left,r2.left) : Common.compareValue(r1.upper,r2.upper);
+		
+	final static int _SpaceWidthAdjust=1;
 	
 	public Row2() {
 		super();
@@ -41,9 +44,10 @@ public class Row2 extends Rectangle {
 		this.page=page;
 		this.interval=interval;
 		
-		setCharFont(ch);
+		//setCharFont(ch);
 		
 		SortedList<Char2> sortChars=new SortedList<Char2>();
+		
 		sortChars.list.add(ch);
 		searchLeftestChar(ch,interval,sortChars);
 		searchRightestChar(ch,interval,sortChars);
@@ -56,7 +60,11 @@ public class Row2 extends Rectangle {
 		value=getValue();
 		
 		if(page.rowCandidates.addSortUniq(this))
-			ch.registerRow(this);
+			for(Char2 ch1:chars)
+				ch1.registerRow(this);
+		
+		charfont=getCharFont();
+		medium=getMedium();
 	}
 	
 	void registerChar(Char2 ch) {
@@ -65,9 +73,7 @@ public class Row2 extends Rectangle {
 	}
 	
 	void registerBlock(Block2 block) {
-		if(blockCandidates.addSortUniq(block))
-			for(Char2 ch:chars)
-				ch.registerBlock(block);
+		blockCandidates.addSortUniq(block);
 	}
 	
 	public String render() {
@@ -105,7 +111,41 @@ public class Row2 extends Rectangle {
 			return;
 		}
 		
-		spaceWidth=intervals.topsByValue(2).get(1);
+		spaceWidth=intervals.topsByValue(1).get(0) + _SpaceWidthAdjust;
+	}
+	
+	private CharFont getCharFont() {
+		if(chars.size()==0)
+			return null;
+		
+		StatGroup<CharFont> charfonts=new StatGroup<CharFont>();
+		
+		for (Char2 ch: chars) {
+			CharFont cf=new CharFont(ch.font.getName(),ch.height);
+			
+			charfonts.add(cf);
+		}
+			
+		return charfonts.maxByValue();
+	}
+	
+	private float getMedium() {
+		if(chars.size()==0)
+			return -1;
+		
+		StatGroup<Stretch> ss=new StatGroup<Stretch>();
+		
+		for (Char2 ch: chars) {
+			if(ch.height!=charfont.height)
+				continue;
+			
+			Stretch s=new Stretch(ch.upper,ch.lower);
+			
+			ss.add(s);
+		}
+			
+		Stretch s=ss.maxByValue();
+		return (float)((s.end-s.start)/2) + s.start;
 	}
 	
 	long getValue() {
@@ -141,12 +181,6 @@ public class Row2 extends Rectangle {
 		return value;
 	}
 	
-	/*void setActive() {
-		for(Char2 ch:chars) {
-			ch.row=this;
-		}
-	}*/
-	
 	public String string() {
 		if(str!=null && str!="")
 			return str;
@@ -168,14 +202,14 @@ public class Row2 extends Rectangle {
 		List<Char2> ls=ch.getLeftConnected(page, interval, 0);
 
 		for(Char2 ch1:ls) {
-			if(ch1.height>charfont.height) {
-				setCharFont(ch1);
-			}
+			//if(ch1.height>charfont.height) {
+			//	setCharFont(ch1);
+			//}
 			
-			if(! differentRow(ch1)) {
-				sortedChars.addSortUniq(ch1);
-				searchLeftestChar(ch1,interval,sortedChars);
-			}
+			//if(! differentRow(ch1)) {
+			sortedChars.addSortUniq(ch1);
+			searchLeftestChar(ch1,interval,sortedChars);
+			//}
 		}
 	}
 	
@@ -183,23 +217,23 @@ public class Row2 extends Rectangle {
 		List<Char2> rs=ch.getRightConnected(page, interval, 0);
 		
 		for(Char2 ch1:rs) {
-			if(ch1.height>charfont.height) {
-				setCharFont(ch1);
-			}
+			//if(ch1.height>charfont.height) {
+			//	setCharFont(ch1);
+			//}
 			
-			if(! differentRow(ch1)) {
-				sortedChars.addSortUniq(ch1);
-				searchRightestChar(ch1,interval, sortedChars);
-			}
+			//if(! differentRow(ch1)) {
+			sortedChars.addSortUniq(ch1);
+			searchRightestChar(ch1,interval, sortedChars);
+			//}
 		}
 	}
 	
-	private void setCharFont(Char2 ch) {
+	/*private void setCharFont(Char2 ch) {
 		charfont=new CharFont(ch.font.getName(),ch.height);
 		medium=(ch.lower-ch.upper)/2f + ch.upper;
-	}
+	}*/
 	
-	boolean differentRow(Char2 ch) {
+	/*boolean differentRow(Char2 ch) {
 		if(ch.height==charfont.height)
 			return (ch.lower-ch.upper)/2f + ch.upper != medium;
 		else
@@ -211,7 +245,7 @@ public class Row2 extends Rectangle {
 			return medium != row.medium;
 		else
 			return false;
-	}
+	}*/
 	
 	SortedList<Row2> getAllAboveCandidates(float maxDist) {		
 		SortedList<Row2> rows=new SortedList<Row2>();

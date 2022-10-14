@@ -563,7 +563,7 @@ public class Block2  extends Rectangle {
 	static void removeBlock(Page2 page, int index) {
 		Block2 block=page.blockCandidates.list.get(index);
 		for(Row2 row:block.rows)
-			row.blockCandidates.list.remove(block);
+			row.blockCandidates.remove(block);
 		
 		page.blockCandidates.list.remove(index);
 	}

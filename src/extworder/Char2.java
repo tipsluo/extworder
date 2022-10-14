@@ -193,10 +193,6 @@ public class Char2 extends Rectangle {
 		return chars;
 	}
 	
-	void registerBlock(Block2 block) {
-		//blockCandidates.addSortUniq(block);
-	}
-	
 	void registerRow(Row2 row) {
 		rowCandidates.addSortUniq(row);
 	}

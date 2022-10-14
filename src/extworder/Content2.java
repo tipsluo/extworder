@@ -42,7 +42,7 @@ public class Content2 extends PDFTextStripper {
 	private Block2 activeBlock;
     public Block2 titleBlock;
 	public Block2 abstractBlock;
-	private Block2 lastSubtitleBlock=null;
+	Block2 lastSubtitleBlock=null;
 	private ArrayList<String> allWords;
     
     //to review if it is needed for content2
