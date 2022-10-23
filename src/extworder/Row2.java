@@ -330,6 +330,12 @@ public class Row2 extends Rectangle {
         				interval < ((Row2) rect).interval ?
         						-1 : 0;
     }
+    
+	protected long hashValue() {
+		if(hashValue==0)
+			hashValue=super.hashValue() + string().hashCode();
+		return hashValue;
+	}
 	 
 	/*private CharFont getCharFont() {
 		if(chars.size()==0)

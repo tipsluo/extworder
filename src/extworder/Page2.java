@@ -88,9 +88,9 @@ public class Page2 extends Rectangle {
 	}
 	
 	public void analyze() {
-//if(pid==4) 
+//if(pid==6) 
 	//		System.out.println();
-//		
+		
 		
 		System.out.printf("Analyzing page %d.\n",pid);
 		System.out.println("Generating rows.");
@@ -138,6 +138,8 @@ public class Page2 extends Rectangle {
 	private void generateAllRowCandidates() {
 		rowCandidates=new SortedList<Row2>(); 
 		for(Char2 ch:chars) {
+//if(ch.str.contains("−") && ch.left==198 && ch.upper==560)
+	//System.out.println();
 			for(int i=1; i<_RowIntervalFactor1 ;i++) {
 				int interval=(int)(ch.height * _RowIntervalFactor2 * i );
 				if(ch.rowCandidates.list.size()>0) {
@@ -304,161 +306,6 @@ public class Page2 extends Rectangle {
 			Block2.removeBlock(block);;
 	}
 	
-	/*private void (Block2 block, Row2 row) {
-		SortedList<Row2> rs=row.getAllBelowCandidates(maxInterval);
-		
-		//boolean changed=false;
-		for(Row2 r:rs.list) {
-			if(block!=null) {
-				if(Block2.overlap(block,r))
-					continue;
-			}
-
-			float dis=Math.abs(row.medium-r.medium);
-			
-			if(block.rows.size()>=2 && Math.abs(dis-block.interval)>1)
-				continue;
-			
-			boolean exist=false;
-			for(Block2 b:r.blockCandidates.list) {
-				if(b.interval==dis) {
-					exist=true;
-					break;
-				}
-			}
-			if(exist)
-				continue;
-			
-			Block2 b=new Block2(dis,block,r);
-			if(b.purge) {
-				continue;
-			}
-			
-			//changed=true;
-			
-			buildBlockCandidatesBelow(b,r,maxInterval);
-		}
-		
-		//return changed;
-	}*/
-	/*private void generateAllBlockCandidates() {
-		blockCandidates=new SortedList<Block2>();
-		
-		for(int i=0; i<rowCandidates.list.size(); i++) {
-			Row2 row=rowCandidates.list.get(i); 
-			float maxInterval=row.height * _MaxBlockIntervalRatio;
-				
-			buildBlockCandidatesAbove(new Block2(row),row,maxInterval);
-			buildBlockCandidatesBelow(new Block2(row),row,maxInterval); 
-		}
-		
-		Collections.sort(blockCandidates.list, Block2.compareBlockRowNumber);
-		Collections.reverse(blockCandidates.list); 
-		for(int i=0; i<blockCandidates.list.size();i++) {
-			Block2 b1=blockCandidates.list.get(i);
-			
-			if(b1.rows.size()==2 && b1.rows.get(0).charfont.height!=b1.rows.get(1).charfont.height) {
-				Block2.removeBlock(this,i);
-				i--;
-				continue;
-			}
-			
-			for(int j=i+1; j<blockCandidates.list.size();j++) {
-				Block2 b2=blockCandidates.list.get(j);
-				if(b1.containsAllRows(b2)) {
-					Block2.removeBlock(this,j);
-					j--;
-				}
-			}
-		}
-		Collections.sort(blockCandidates.list, Block2.compareBlockHashValue);
-
-		ArrayList<Char2> charChecks=new ArrayList<Char2>();	
-		charChecks.addAll(chars);
-		for(Block2 block:blockCandidates.list)
-			for(Row2 row: block.rows)
-				for(Char2 ch:row.chars) {
-					charChecks.remove(ch);
-				}
-		if(charChecks.size()!=0) {
-			System.out.printf("ERROR: Page %d doesn't have all chars in the block candidates.\n", pid);
-		}
-	}
-	
-	private void buildBlockCandidatesBelow(Block2 block, Row2 row, float maxInterval) {
-		SortedList<Row2> rs=row.getAllBelowCandidates(maxInterval);
-		
-		//boolean changed=false;
-		for(Row2 r:rs.list) {
-			if(block!=null) {
-				if(Block2.overlap(block,r))
-					continue;
-			}
-
-			float dis=Math.abs(row.medium-r.medium);
-			
-			if(block.rows.size()>=2 && Math.abs(dis-block.interval)>1)
-				continue;
-			
-			boolean exist=false;
-			for(Block2 b:r.blockCandidates.list) {
-				if(b.interval==dis) {
-					exist=true;
-					break;
-				}
-			}
-			if(exist)
-				continue;
-			
-			Block2 b=new Block2(dis,block,r);
-			if(b.purge) {
-				continue;
-			}
-			
-			//changed=true;
-			
-			buildBlockCandidatesBelow(b,r,maxInterval);
-		}
-		
-		//return changed;
-	}
-	
-	private void buildBlockCandidatesAbove(Block2 block, Row2 row, float maxInterval) {
-		SortedList<Row2> rs=row.getAllAboveCandidates(maxInterval);
-		
-		//boolean changed=false;
-		for(Row2 r:rs.list) {
-			if(block!=null) {
-				if(Block2.overlap(block,r))
-					continue;
-			}
-
-			float dis=Math.abs(row.medium-r.medium);
-			
-			if(block.rows.size()>=2 && Math.abs(dis-block.interval)>1)
-				continue;
-			
-			boolean exist=false;
-			for(Block2 b:r.blockCandidates.list) {
-				if(b.interval==dis) {
-					exist=true;
-					break;
-				}
-			}
-			if(exist)
-				continue;
-			
-			Block2 b=new Block2(dis,block,r);
-			if(b.purge) {
-				continue;
-			}
-			
-			buildBlockCandidatesAbove(b,r,maxInterval);
-		}
-		
-		//return changed;
-	}*/
-	
 	private void generateBlocksetCandidates() {
 		blocksetCandidates=new ArrayList<BlockSet>();
 
@@ -468,12 +315,12 @@ public class Page2 extends Rectangle {
 	
 	private void buildBlockset(BlockSet blockset) {
 		if(blockset.blocksAvailable.size()==0) {
-		/*	List<Char2> missingChars=blockset.validate();
+			List<Char2> missingChars=blockset.validate();
 			
-			if(missingChars.size()==0) {*/
+			if(missingChars.size()==0) {
 				blocksetCandidates.add(blockset);
 				return;
-			/*}
+			}
 			
 			SortedList<Block2> missingBlocks=new SortedList<Block2>();
 			
@@ -490,7 +337,11 @@ public class Page2 extends Rectangle {
 					blockset.blocksAvailable.add(b);
 			}
 			
-			updateConflictBlocks();*/
+			if(blockset.blocksAvailable.size()==0)
+				// Not added to the blockset
+				return;
+			
+			updateConflictBlocks();
 		}
 		
 		SortedList<Block2> bs=new SortedList<Block2>();
@@ -517,9 +368,7 @@ public class Page2 extends Rectangle {
 			blockset.addSort(block);
 			blockset.blocksAvailable.remove(block);
 			
-			//if(blockset.blocksAvailable.size()>0) {
-				buildBlockset(blockset);
-			//}
+			buildBlockset(blockset);
 		}
 	}
 	
