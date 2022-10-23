@@ -598,6 +598,10 @@ public class Common {
 		public void remove(T t) {
 			list.remove(search(t));
 		}
+		
+		public void sort() {
+			Collections.sort(list);
+		}
 	}
 	
 	static public class NontitleChecker {

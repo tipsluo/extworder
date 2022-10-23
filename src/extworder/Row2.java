@@ -300,6 +300,21 @@ public class Row2 extends Rectangle {
 		return rows;
 	}
 	
+	static float rowVDistance(Row2 r1,Row2 r2) {
+		if(r1.vIntersected(r2))
+			return -1;
+		
+		float d1=r1.medium - r2.medium;
+		float d2=r2.medium - r1.medium;
+		
+		if(d1>0)
+			return d1;
+		if(d2>0)
+			return d2;
+		
+		return -1;
+	}
+	
     @Override
     public int compareTo(Rectangle rect) {
     	long h1=hashValue();

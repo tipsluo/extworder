@@ -36,9 +36,10 @@ public class Page2 extends Rectangle {
 	
 	final static int _RowIntervalFactor1=3;
 	final static int _RowIntervalFactor2=2;
-	final static float _MaxBlockIntervalRatio=3.5f;
 	final static float _ColumnWidthAdjustment=0.05f;
+	final static float _MaxBlockIntervalRatio=1.5f;
 	final static float _CenterAlignAdjustment=0.05f;
+	final static int _InBlockRowIntevalAdjustment=1;
 	
 	final static CompareColumns compareColumns=new CompareColumns();
     
@@ -87,6 +88,10 @@ public class Page2 extends Rectangle {
 	}
 	
 	public void analyze() {
+//if(pid==4) 
+	//		System.out.println();
+//		
+		
 		System.out.printf("Analyzing page %d.\n",pid);
 		System.out.println("Generating rows.");
 		generateAllRowCandidates();
@@ -98,8 +103,8 @@ public class Page2 extends Rectangle {
 		long lowest=999999999;
 		BlockSet blockset=null;
 		for(BlockSet bs: blocksetCandidates) {
-			if(!bs.validate())
-				continue;
+			//if(!bs.validate())
+			//	continue;
 			if(bs.getValue()<lowest) {
 				lowest=bs.value;
 				blockset=bs;
@@ -182,12 +187,169 @@ public class Page2 extends Rectangle {
 	private void generateAllBlockCandidates() {
 		blockCandidates=new SortedList<Block2>();
 		
+		Collections.sort(rowCandidates.list,Row2.compareRows);
+		for(int i=0; i<rowCandidates.list.size(); i++) {
+			Row2 row=rowCandidates.list.get(i); 
+			
+			if(row.blockCandidates!=null && row.blockCandidates.list.size()!=1)
+				continue;
+			
+			float itrv=checkRowsBelow(row,-1);
+
+			if(itrv==-1) {
+				//new Block2(row,0);
+				continue;
+			}
+			
+			Block2 block=new Block2(row,itrv);
+			
+			buildBlocks(row,block,itrv+0.01f);
+		}
+		
+		rowCandidates.sort();
+		
+		updateConflictBlocks();
+	}
+	
+	private void updateConflictBlocks() {
+		for(Block2 b1:blockCandidates.list) {
+			b1.conflicts=new SortedList<Block2>();
+			for(Row2 row:b1.rows)
+				for(Block2 b2:row.blockCandidates.list)
+					if(b1!=b2)
+						b1.conflicts.addSortUniq(b2);
+		}
+	}
+	
+	private float checkRowsBelow(Row2 row, float itrv) {
+		float maxInterval=row.height * _MaxBlockIntervalRatio;
+			
+		SortedList<Row2> rs=row.getAllBelowCandidates(maxInterval);
+		
+		if(rs.list.size()==0)
+			return itrv;
+		
+		float newItrv=999;
+		ArrayList<Row2> rs1=new ArrayList<Row2>();
+		for(Row2 row1: rs.list) {
+			float itrv1=Row2.rowVDistance(row,row1);
+			
+			if(itrv1<newItrv) {
+				newItrv=itrv1;
+				rs1=new ArrayList<Row2>();
+			}
+			
+			if(itrv1>newItrv)
+				continue;
+			
+			rs1.add(row1);
+		}
+		
+		if(itrv<0)
+			itrv=newItrv;
+		else {
+			if(itrv>newItrv+_InBlockRowIntevalAdjustment) 
+				return -1;
+			
+			if(Math.abs(itrv-newItrv)>_InBlockRowIntevalAdjustment)
+				return itrv;
+		}
+		
+		for(Row2 row1:rs1) {
+			if(checkRowsBelow(row1,itrv)==-1)
+				return -1;
+		}
+		
+		return itrv;
+	}
+	
+	private void buildBlocks(Row2 row, Block2 block, float maxInterval) {
+		SortedList<Row2> rs=row.getAllBelowCandidates(maxInterval);
+		
+		boolean changed=false;
+		for(Row2 r: rs.list) {
+			if(r.charfont.height!=row.charfont.height)
+				continue;
+			
+			float itrv1=Row2.rowVDistance(row,r);
+			if(Math.abs(itrv1-block.interval)>_InBlockRowIntevalAdjustment)
+				continue;
+
+			Block2 b;
+			
+			if(rs.list.size()>1) {
+				b=new Block2(block.interval,block);
+				changed=true;
+			} else
+				b=block;
+			
+			b.addRow(r);
+			 
+			boolean intersected=true;
+			for(Row2 row1:rs.list) {
+				if(row!=row1 && !row.hIntersected(row1) && row.vIntersected(row1)) {
+					intersected=false;
+					break;
+				}
+			}
+		
+			if(!intersected) {
+				return;
+			}
+			
+			buildBlocks(r,b,maxInterval);
+		}
+		
+		if(changed)
+			Block2.removeBlock(block);;
+	}
+	
+	/*private void (Block2 block, Row2 row) {
+		SortedList<Row2> rs=row.getAllBelowCandidates(maxInterval);
+		
+		//boolean changed=false;
+		for(Row2 r:rs.list) {
+			if(block!=null) {
+				if(Block2.overlap(block,r))
+					continue;
+			}
+
+			float dis=Math.abs(row.medium-r.medium);
+			
+			if(block.rows.size()>=2 && Math.abs(dis-block.interval)>1)
+				continue;
+			
+			boolean exist=false;
+			for(Block2 b:r.blockCandidates.list) {
+				if(b.interval==dis) {
+					exist=true;
+					break;
+				}
+			}
+			if(exist)
+				continue;
+			
+			Block2 b=new Block2(dis,block,r);
+			if(b.purge) {
+				continue;
+			}
+			
+			//changed=true;
+			
+			buildBlockCandidatesBelow(b,r,maxInterval);
+		}
+		
+		//return changed;
+	}*/
+	/*private void generateAllBlockCandidates() {
+		blockCandidates=new SortedList<Block2>();
+		
 		for(int i=0; i<rowCandidates.list.size(); i++) {
 			Row2 row=rowCandidates.list.get(i); 
 			float maxInterval=row.height * _MaxBlockIntervalRatio;
 				
 			buildBlockCandidatesAbove(new Block2(row),row,maxInterval);
-			buildBlockCandidatesBelow(new Block2(row),row,maxInterval);
+			buildBlockCandidatesBelow(new Block2(row),row,maxInterval); 
 		}
 		
 		Collections.sort(blockCandidates.list, Block2.compareBlockRowNumber);
@@ -295,7 +457,7 @@ public class Page2 extends Rectangle {
 		}
 		
 		//return changed;
-	}
+	}*/
 	
 	private void generateBlocksetCandidates() {
 		blocksetCandidates=new ArrayList<BlockSet>();
@@ -306,8 +468,29 @@ public class Page2 extends Rectangle {
 	
 	private void buildBlockset(BlockSet blockset) {
 		if(blockset.blocksAvailable.size()==0) {
-			blocksetCandidates.add(blockset);
-			return;
+		/*	List<Char2> missingChars=blockset.validate();
+			
+			if(missingChars.size()==0) {*/
+				blocksetCandidates.add(blockset);
+				return;
+			/*}
+			
+			SortedList<Block2> missingBlocks=new SortedList<Block2>();
+			
+			for(Char2 ch:missingChars) {
+				for(Row2 r: ch.rowCandidates.list) {
+					Block2 b=new Block2(r);
+					if(! b.purge)
+						missingBlocks.addSortUniq(b);
+				}
+			}
+			
+			for(Block2 b:missingBlocks.list) {
+				if(blockset.search(b)<0)
+					blockset.blocksAvailable.add(b);
+			}
+			
+			updateConflictBlocks();*/
 		}
 		
 		SortedList<Block2> bs=new SortedList<Block2>();
@@ -331,11 +514,12 @@ public class Page2 extends Rectangle {
 		}
 		
 		if(!changed) {
+			blockset.addSort(block);
 			blockset.blocksAvailable.remove(block);
 			
-			if(blockset.blocksAvailable.size()>0) {
+			//if(blockset.blocksAvailable.size()>0) {
 				buildBlockset(blockset);
-			}
+			//}
 		}
 	}
 	
@@ -783,19 +967,9 @@ public class Page2 extends Rectangle {
 			area.updateRectangle(b);
 			addSortUniq(b);
 			blocksAvailable.remove(b);
-			/*rowsAvailable=new ArrayList<Row2>();
-			rowsAvailable.addAll(bs.rowsAvailable );*/
 			
-			/*for(Row2 r:b.rows) {
-				for(int i=0; i<rowsAvailable.size(); i++) {
-					Row2 r1=rowsAvailable.get(i);
-					if(r.hIntersected(r1) && r.vIntersected(r1)) {
-						rowsAvailable.remove(i);
-						i--;
-					}
-				}
-			}*/
-		
+			for(Block2 b1:b.conflicts.list)
+				blocksAvailable.remove(b1);
 		}
 		
 		long getValue() {
@@ -825,7 +999,7 @@ public class Page2 extends Rectangle {
 			return false;
 		}
 		
-		boolean validate() {
+		ArrayList<Char2> validate() {
 			ArrayList<Char2> chars=new ArrayList<Char2>();
 			
 			chars.addAll(Page2.this.chars);
@@ -836,7 +1010,7 @@ public class Page2 extends Rectangle {
 						chars.remove(ch);
 					}
 			
-			return chars.size()==0;
+			return chars;
 		}
 	}
 	

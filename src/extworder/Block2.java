@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.TreeMap;
 import java.util.regex.Pattern;
 
+import extworder.Common.SortedList;
 import extworder.Common.StatGroup;
 import extworder.Page2.Column2;
 import extworder.Row2.CharFont;
@@ -17,6 +18,7 @@ public class Block2  extends Rectangle {
 	final Page2 page;
 	Page2.Column2 column;
 	ArrayList<Row2> rows;
+	SortedList<Block2> conflicts;
 	final float interval;
 	private String str;
 	BlockFormat format;
@@ -84,6 +86,25 @@ public class Block2  extends Rectangle {
 			purge=true;
 	}
 	
+	public Block2(Row2 row, float interval) {
+		value=-1;
+		
+		this.page=row.page;
+		
+		this.rows=new ArrayList<Row2>();
+		
+		registerRow(row);
+		
+		this.interval=interval;
+		//format=new BlockFormat(mostCharFont());
+		purge=false;
+		render();
+		if(page.blockCandidates.addSortUniq(this))
+			row.registerBlock(this);
+		else
+			purge=true;
+	}
+	
 	public Block2(float interval, Block2 ...blocks) {
 		value=-1;
 		
@@ -105,7 +126,7 @@ public class Block2  extends Rectangle {
 			purge=true;
 	}
 	
-	public Block2(Row2 row1,Row2 row2) {
+	/*public Block2(Row2 row1,Row2 row2) {
 		value=-1;
 		
 		page=row1.page;
@@ -121,7 +142,7 @@ public class Block2  extends Rectangle {
 			row2.registerBlock(this);
 		} else
 			purge=true;
-	}
+	}*/
 	
 	public Block2(Page2 page, Column2 column, ArrayList<Row2> rows) {
 		super();
@@ -532,7 +553,7 @@ public class Block2  extends Rectangle {
 		
 		for(Row2 row1: block1.rows) {
 			for(Row2 row2: block2.rows)
-				if(row1.vIntersected(row2) && row1.hIntersected(row2)) {
+				if(row1.medium==row2.medium && row1.charfont.height == row2.charfont.height && row1.hIntersected(row2)) {
 					return true;
 				}
 		}
@@ -553,12 +574,12 @@ public class Block2  extends Rectangle {
 		return false;
 	}
 	
-	/*static void removeBlock(Block2 block) {
+	static void removeBlock(Block2 block) {
 		for(Row2 row:block.rows)
-			row.blockCandidates.list.remove(block);
+			row.blockCandidates.remove(block);
 		
 		block.page.blockCandidates.list.remove(block);
-	}*/
+	}
 	
 	static void removeBlock(Page2 page, int index) {
 		Block2 block=page.blockCandidates.list.get(index);
